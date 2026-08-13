@@ -1,9 +1,6 @@
 name: telegram publish
 
 on:
-  schedule:
-    # Every 15 minutes: collect, run the India pipeline, publish.
-    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -22,11 +19,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           ref: main
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
@@ -37,11 +36,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Restore persistent article-extraction cache
-        # data/news.db holds the ArticleCache used by
-        # telebuild's best-effort article enrichment (48h TTL).
-        # A per-run cache key with a prefix restore-key carries
-        # the latest database forward without committing it to
-        # git.
         uses: actions/cache@v4
         with:
           path: data/news.db
@@ -53,9 +47,6 @@ jobs:
         run: mkdir -p data
 
       - name: Collect fresh news
-        # Runs the India pipeline and writes
-        # data/telegram_queue.json in this workspace, so every
-        # cycle publishes a fresh queue.
         run: |
           python -m src.main
 
@@ -66,31 +57,21 @@ jobs:
           TELEGRAM_PUBLISH: "1"
 
       - name: Commit queue and state
-        # KNOWN PRODUCTION CAVEAT (at-least-once): queue and
-        # state are committed only after publishing. If this job
-        # fails between a successful send and this commit/push,
-        # the next run starts from the previous state and may
-        # re-publish one already-sent story. Accepted for now; a
-        # dedup/ack redesign is intentionally deferred.
-        #
-        # Persistence: data/telegram_queue.json and
-        # data/telegram_state.json are git-ignored with explicit
-        # un-ignore exceptions, so they are UNTRACKED until their
-        # first commit.  `git diff --quiet` only reports tracked
-        # files, so it misses freshly-created queue/state files.
-        # Detect both new (`??`) and modified (` M`) runtime files
-        # with a scoped `git status --porcelain` call, then stage
-        # ONLY those two paths so other data/ files (news.db,
-        # source_health.json, ...) stay excluded.
         run: |
           if [ -n "$(git status --porcelain --untracked-files=all \
             -- data/telegram_queue.json data/telegram_state.json)" ]; then
+
             echo "state changes detected"
+
             git config user.name "telegram-bot"
             git config user.email "telegram-bot@localhost"
+
             git add data/telegram_queue.json data/telegram_state.json
+
             git commit -m "telegram queue+state: $(date -u +%Y-%m-%dT%H:%MZ)"
+
             git pull --rebase origin main
+
             git push origin main
           else
             echo "no state changes"
