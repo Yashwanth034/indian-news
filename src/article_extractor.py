@@ -960,7 +960,7 @@ def enrich_thin_stories(
         if len(briefing["sentences"]) >= 2:
             continue
         stats["thin"] += 1
-        eligible.append(primary)
+        eligible.append((primary, group))
 
     fetcher = fetcher or fetch_article
     max_fetches = int(art_cfg.get("max_fetches_per_run", 15))
@@ -973,17 +973,24 @@ def enrich_thin_stories(
     stats["eligible"] = len(eligible)
     fetched_count = 0
 
-    for cand in eligible:
+    def _enrich_one(cand):
+        """Best-effort article enrichment for one event candidate.
+
+        Attaches cand["article_sentences"] (>= 2 useful sentences)
+        on success and returns True; otherwise records the failure
+        and returns False.  Never raises.
+        """
+        nonlocal fetched_count
         url = cand.get("url")
         headline = cand.get("title") or ""
         if non_article_url(
             url, art_cfg.get("non_article_segments")
         ):
             stats["non_article"] += 1
-            continue
+            return False
         if not domain_allowed(url, allowlist):
             stats["domain_blocked"] += 1
-            continue
+            return False
 
         try:
             entry = cache.get(
@@ -1001,19 +1008,20 @@ def enrich_thin_stories(
                     cand["article_sentences"] = sentences
                     stats["expanded"] += 1
                     expanded.append(cand)
-                else:
-                    stats["not_expanded"] += 1
+                    return True
+                stats["not_expanded"] += 1
+                return False
             elif entry["status"] == "non_article":
                 stats["non_article"] += 1
             else:
                 stats[entry["status"]] = stats.get(
                     entry["status"], 0
                 ) + 1
-            continue
+            return False
 
         if fetched_count >= max_fetches:
             stats["budget_exhausted"] += 1
-            continue
+            return False
         fetched_count += 1
 
         try:
@@ -1061,7 +1069,39 @@ def enrich_thin_stories(
             cand["article_sentences"] = sentences
             stats["expanded"] += 1
             expanded.append(cand)
-        else:
-            stats["not_expanded"] += 1
+            return True
+        stats["not_expanded"] += 1
+        return False
+
+    for primary, group in eligible:
+        primary_sid = primary.get("story_id")
+
+        if _enrich_one(primary):
+            continue
+
+        # The event's primary article could not supply >= 2 useful
+        # sentences.  Try the event's other members in deterministic
+        # group order (primary first already handled above) and attach
+        # the first usable extraction to the primary, so the event is
+        # still expandable when a co-member's article is fetchable
+        # (e.g. the primary's source blocks bots).  The attribution
+        # below and in build_telegram_stories keeps the event's post
+        # tied to the primary while the article text is traced to its
+        # real source.
+        if fetched_count >= max_fetches:
+            continue
+        for member in group:
+            if member.get("story_id") == primary_sid:
+                continue
+            if _enrich_one(member):
+                primary["article_sentences"] = (
+                    member["article_sentences"]
+                )
+                primary["enrichment_source"] = (
+                    member.get("source")
+                    or member.get("source_id")
+                    or member.get("url")
+                )
+                break
 
     return candidates, stats

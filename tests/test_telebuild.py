@@ -556,3 +556,95 @@ def test_queue_output_is_deterministic(bundle, tmp_path, tmp_cache):
         out2.read_text(encoding="utf-8")
     )
     assert [s["story_id"] for s in s1] == [s["story_id"] for s in s2]
+
+
+# --- co-member enrichment fallback through the orchestrator ------------------
+
+def test_blocked_primary_enriched_from_co_member(bundle, tmp_path, tmp_cache):
+    """Ladakh repro: the event primary (NDTV) blocks bots, but a
+    co-member (The Economic Times) article extracts cleanly.  The
+    event must still enrich from the co-member and attribute the
+    article text to the real source, not the primary.
+    """
+    base = _real_story(bundle)
+
+    primary = dict(base)
+    primary.update({
+        "story_id": "ndtv-ladakh",
+        "id": "ndtv-ladakh",
+        "event_id": "event-ladakh",
+        "source": "NDTV",
+        "title": (
+            "5.5 Magnitude Earthquake Strikes Ladakh's "
+            "Leh Early Thursday"
+        ),
+        "summary": (
+            "An earthquake of magnitude 5.5 struck Leh in "
+            "Ladakh early on Thursday morning."
+        ),
+        "url": (
+            "https://www.ndtv.com/india-news/"
+            "5-5-magnitude-earthquake-strikes-ladakhs-leh-11902766"
+        ),
+        "score": 75,
+        "tier": 2,
+    })
+
+    member = dict(base)
+    member.update({
+        "story_id": "et-ladakh",
+        "id": "et-ladakh",
+        "event_id": "event-ladakh",
+        "source": "The Economic Times",
+        "title": (
+            "Ladakh earthquake: 5.5 magnitude quake jolts "
+            "Leh early Thursday"
+        ),
+        "summary": "",
+        "url": (
+            "https://economictimes.indiatimes.com/news/india/"
+            "ladakh-earthquake-5-5-magnitude-quake-jolts-leh-"
+            "early-thursday/articleshow/133195506.cms"
+        ),
+        "score": 70,
+        "tier": 3,
+    })
+
+    _ET_ARTICLE_TEXT = (
+        "An earthquake of magnitude 5.5 struck Leh in Ladakh "
+        "early on Thursday. "
+        "Tremors were felt across the region for several seconds. "
+        "Officials said no damage was reported so far. "
+        "The quake was the strongest to hit Ladakh this year."
+    )
+
+    def fetcher(url, art_cfg, allowlist, robots=None, pace=None):
+        if "ndtv.com" in url:
+            return ("blocked", {})
+        return ("ok",
+                {"text": _ET_ARTICLE_TEXT, "title": None})
+
+    out = tmp_path / "q.json"
+    stories, stats = build_telegram_queue(
+        [primary, member], bundle, now_dt=NOW,
+        queue_path=out, cache=tmp_cache, fetcher=fetcher,
+    )
+
+    assert len(stories) == 1
+    assert stats["article_extraction"]["blocked"] == 1
+    assert stats["article_extraction"]["expanded"] == 1
+
+    story = stories[0]
+    assert story["enrichment"] == "article"
+    assert story["story_id"] == "ndtv-ladakh"
+    assert story["briefing"]["source"] == "NDTV"
+    assert len(story["briefing"]["sentences"]) >= 2
+
+    # The article facts are attributed to the co-member source,
+    # never to the robots-blocked primary.
+    sources = {
+        s.get("source")
+        for s in story["briefing"]["sentences"]
+    }
+    assert "The Economic Times" in sources
+    assert "NDTV" not in sources

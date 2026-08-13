@@ -855,6 +855,239 @@ class TestEnrichThinStories:
         assert stats["expanded"] == 1
 
 
+class TestEnrichmentFallbackToCoMembers:
+    """When the event primary's article cannot supply >= 2 usable
+    sentences, enrichment falls back to the event's other members in
+    deterministic group order (primary first, then group order) and
+    attaches the first usable extraction to the primary, recording
+    which source actually provided the article text.
+    """
+
+    _OK_TEXT = (
+        "The Economic Times said an earthquake of magnitude 5.5 "
+        "struck Leh in Ladakh early on Thursday. "
+        "Tremors were felt across the region for several seconds. "
+        "Officials said no damage was reported so far. "
+        "The quake was the strongest to hit Ladakh this year."
+    )
+
+    def _pair(self, primary_status="blocked",
+              member_url=(
+                  "https://www.bbc.co.uk/news/articles/c-et"
+              ),
+              member_text=None, **member_overrides):
+        primary = candidate(
+            story_id="primary-story",
+            id="primary-story",
+            event_id="event-ladakh",
+            score=80,
+            url="https://www.bbc.co.uk/news/articles/c-ndtv",
+            source="NDTV",
+            title=(
+                "5.5 Magnitude Earthquake Strikes Ladakh's "
+                "Leh Early Thursday"
+            ),
+            summary=(
+                "An earthquake of magnitude 5.5 struck Leh in "
+                "Ladakh early on Thursday morning."
+            ),
+        )
+        member = candidate(
+            story_id="member-story",
+            id="member-story",
+            event_id="event-ladakh",
+            score=60,
+            url=member_url,
+            source="The Economic Times",
+            title=(
+                "Ladakh earthquake: 5.5 magnitude quake jolts "
+                "Leh early Thursday"
+            ),
+            summary="",
+            **member_overrides,
+        )
+        calls = []
+
+        def fetcher(url, art_cfg, allowlist, robots=None, pace=None):
+            calls.append(url)
+            if url == primary["url"]:
+                return (primary_status, {})
+            return (
+                ("ok",
+                 {"text": member_text or self._OK_TEXT,
+                  "title": None})
+            )
+
+        return [primary, member], calls, fetcher
+
+    def test_blocked_primary_falls_back_to_co_member(self):
+        cands, calls, fetcher = self._pair()
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["blocked"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+        assert out[0]["enrichment_source"] == (
+            "The Economic Times"
+        )
+
+    def test_non_article_primary_falls_back(self):
+        cands, calls, fetcher = self._pair()
+        cands[0]["url"] = "https://www.aljazeera.com/video/xyz"
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["non_article"] == 1
+        assert stats["fetched"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_domain_blocked_primary_falls_back(self):
+        cands, calls, fetcher = self._pair()
+        cands[0]["url"] = (
+            "https://www.foreignnews.example/story"
+        )
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["domain_blocked"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_primary_too_few_sentences_falls_back(self):
+        cands, calls, fetcher = self._pair(
+            primary_status="ok",
+        )
+
+        def fetcher(url, art_cfg, allowlist, robots=None,
+                    pace=None):
+            calls.append(url)
+            if url == cands[0]["url"]:
+                return ("ok", {"text": "A single lone sentence.",
+                               "title": None})
+            return ("ok", {"text": self._OK_TEXT, "title": None})
+
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["not_expanded"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+        assert out[0]["enrichment_source"] == (
+            "The Economic Times"
+        )
+
+    def test_blocked_member_skipped_next_member_used(self):
+        cands, calls, fetcher = self._pair()
+        third = candidate(
+            story_id="third-story",
+            id="third-story",
+            event_id="event-ladakh",
+            score=60,
+            url="https://www.bbc.co.uk/news/articles/c-hindu",
+            source="The Hindu",
+            title=(
+                "Ladakh earthquake: 5.5 magnitude quake jolts "
+                "Leh early Thursday"
+            ),
+            summary="",
+        )
+        cands.append(third)
+
+        def fetcher(url, art_cfg, allowlist, robots=None,
+                    pace=None):
+            calls.append(url)
+            if url == cands[0]["url"]:
+                return ("blocked", {})
+            if "c-hindu" in url:
+                return ("ok",
+                        {"text": self._OK_TEXT, "title": None})
+            return ("blocked", {})
+
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["blocked"] == 2
+        assert stats["expanded"] == 1
+        # The Economic Times member was tried before The Hindu
+        # and skipped; The Hindu supplied the text.
+        assert "c-et" in calls[1]
+        assert "c-hindu" in calls[2]
+        assert len(out[0]["article_sentences"]) >= 2
+        assert out[0]["enrichment_source"] == "The Hindu"
+
+    def test_all_members_fail_stays_thin(self):
+        cands, calls, fetcher = self._pair()
+
+        def fetcher(url, art_cfg, allowlist, robots=None,
+                    pace=None):
+            calls.append(url)
+            return ("blocked", {})
+
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        # Primary and the single co-member are both attempted.
+        assert stats["blocked"] == 2
+        assert stats["expanded"] == 0
+        assert "article_sentences" not in out[0]
+        assert "enrichment_source" not in out[0]
+
+    def test_non_article_member_skipped(self):
+        cands, calls, fetcher = self._pair(
+            member_url="https://www.aljazeera.com/video/xyz"
+        )
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=None, fetcher=fetcher
+        )
+        assert stats["non_article"] == 1
+        assert stats["blocked"] == 1
+        assert stats["expanded"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_budget_respected_across_fallback(self):
+        cands, calls, fetcher = self._pair()
+        out, stats = enrich_thin_stories(
+            cands,
+            make_cfg(max_fetches_per_run=1),
+            NOW,
+            cache=None,
+            fetcher=fetcher,
+        )
+        # The primary consumed the only fetch; the co-member is
+        # never fetched once the budget is exhausted.
+        assert stats["fetched"] == 1
+        assert len(calls) == 1
+        assert stats["budget_exhausted"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_cache_blocked_primary_falls_back_offline(self, tmp_path):
+        from src.article_extractor import ArticleCache
+
+        cache = ArticleCache(tmp_path / "cache.db")
+        cands, calls, fetcher = self._pair()
+        primary = cands[0]
+        cache.set(
+            primary["story_id"],
+            primary["url"],
+            "blocked",
+            now=NOW,
+        )
+        out, stats = enrich_thin_stories(
+            cands, make_cfg(), NOW, cache=cache, fetcher=fetcher
+        )
+        assert stats["cache_hits"] == 1
+        # Primary blocked in cache, so only the member is fetched.
+        assert stats["fetched"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+        assert out[0]["enrichment_source"] == (
+            "The Economic Times"
+        )
+        cache.close()
+
+
 class TestMassCasualtyEnrichmentGate:
     """The enrichment gate admits thin HIGH-priority stories
     scoring 60-64 only when they carry strong mass-casualty

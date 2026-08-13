@@ -244,6 +244,11 @@ def build_telegram_stories(
 
         if len(article_sentences) >= 2:
             article_member = dict(primary)
+            enrichment_source = primary.get(
+                "enrichment_source"
+            )
+            if enrichment_source:
+                article_member["source"] = enrichment_source
             article_member["id"] = (
                 primary.get("id")
                 or primary.get("story_id")
