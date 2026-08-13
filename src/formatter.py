@@ -176,6 +176,10 @@ NAME_PREFIXES = {
     "activist", "survivor", "witness", "teenager", "woman",
     "man", "boy", "girl", "student", "teacher", "doctor",
     "player", "coach", "star", "singer", "actor", "actress",
+    "designer", "stylist", "columnist", "commentator", "model",
+    "artist", "musician", "writer", "novelist", "poet",
+    "photographer", "architect", "engineer", "scientist",
+    "researcher", "analyst", "expert", "chef",
     "ceo", "cfo", "coo", "cto", "vp", "pm",
     "hurricane", "typhoon", "cyclone", "storm", "tornado",
     "blizzard", "monsoon",
@@ -257,6 +261,306 @@ _LOWERCASE_ABBREVIATIONS = frozenset({
 _DOTTED_ABBREV_RE = re.compile(
     r"(?:[A-Za-z]\.){2,}$"
 )
+
+
+# ---------------------------------------------------------------------------
+# Feed-text repair (Economic Times and similar RSS feeds)
+#
+# RSS descriptions occasionally arrive with sentences
+# concatenated without the spaces that separate them:
+#
+#     "silhouettes.When Meloni became..."        (missing space)
+#     "Christian.”Since becoming PM..."          (missing space)
+#     "new imageOne of the clearest..."          (missing period + space)
+#     "stage.133197844“She understands..."       (injected reference ID)
+#     "policy.Also Read: 'Title': lead-in ..."   (promo navigation block)
+#
+# All repairs are mechanical and conservative: a boundary is
+# fixed only on strong evidence, no word is removed unless it
+# is an injected numeric ID, and the only wholesale deletions
+# are recognizable feed-navigation promo blocks.
+# ---------------------------------------------------------------------------
+
+# Injected numeric reference IDs a feed crams onto a
+# sentence-ending period with no space (".133197844“She ...").
+# A run of five or more digits directly on the period is never
+# article content; the digits are dropped (the punctuation is
+# kept) only when the text clearly continues with a capital
+# word or an opening quote.
+_FEED_ID_RE = re.compile(
+    r"([.!?])\d{5,}(?=[A-Z\u201c\u201d\"'])"
+)
+
+# Feed-navigation / recommended-article teasers that introduce
+# an unrelated promo block inside an RSS description
+# ("Also Read: 'Title': lead-in").  Matched only on the whole
+# marker phrase, so a sentence that merely contains the words
+# is never touched.
+_FEED_NAV_RE = re.compile(
+    r"\b(?:"
+    r"Also\s+(?:Read|Watch)\b"
+    r"|Related\s+(?:Stories?|News|Videos?)\b"
+    r"|Recommended\s+(?:for\s+you|stories?|videos?)\b"
+    r"|Trending\s+(?:now|stories?|news)\b"
+    r")\s*:?"
+)
+
+
+def _nav_block_end(text, start):
+    """Position where a nav promo block ends and the article
+    resumes: quoted speech ("...spotlight "You're ..."), a real
+    sentence boundary after the teaser, or a fused
+    lowercase->Capital transition that glues the teaser to an
+    article sentence ("...India visitInstead, ...").  The block
+    never eats article content: the earliest resume signal wins
+    and the block is cut there."""
+    tail = text[start:]
+    ends = []
+    # Quoted speech resumes; keep the quote and capital.
+    for m in re.finditer(r"[\u201c\u201d\"]\s*[A-Z]", tail):
+        ends.append(start + m.start())
+    # A full sentence boundary (the teaser ended with a period).
+    for m in re.finditer(r"\.\s+[A-Z]", tail):
+        ends.append(start + m.start())
+    # Fused resume: consume the promo's final letter ("visit" in
+    # "visitInstead") so only the article sentence survives.
+    for m in re.finditer(r"[a-z][A-Z][a-z]", tail):
+        ends.append(start + m.start() + 1)
+    return min(ends) if ends else len(text)
+
+
+def _strip_feed_navigation(text):
+    """Remove feed-navigation promo blocks ("Also Read: ...")
+    that an RSS description weaves into the middle of the
+    article text.  Only blocks introduced by a recognizable
+    promo marker are removed, and a block is cut at the point
+    the article resumes, so no article content is lost."""
+    out = []
+    last = 0
+    for match in _FEED_NAV_RE.finditer(text or ""):
+        out.append(text[last : match.start()])
+        last = _nav_block_end(text, match.end())
+    out.append(text[last:])
+    return re.sub(r"\s{2,}", " ", "".join(out)).strip()
+
+
+# Missing space after sentence-ending punctuation.  The article
+# resumes either at an opening quote or at a capital word; a
+# closing quote directly on the period is kept attached to the
+# previous sentence ("Christian.”Since" -> "Christian.” Since").
+_FEED_NO_SPACE_RE = re.compile(
+    r"[.!?][\u201d\"](?=[A-Z])|"
+    r"[.!?](?=[\u201cA-Z])"
+)
+
+
+def _insert_missing_period_spaces(text):
+    """Restore the space a feed dropped after sentence-ending
+    punctuation.  Abbreviation periods ("Dr.", "U.S.") are left
+    untouched: the closing-quote branch keeps the quote, and a
+    closing quote glued to the period is kept attached to the
+    finished sentence (".”(" is never split)."""
+
+    def _repl(match):
+        index = match.start()
+        if text[index] != ".":
+            return match.group(0) + " "
+        # Abbreviation period, backward ("Dr.", "U.S.", "No. 5").
+        if _is_abbreviation_period(text, index):
+            return match.group(0)
+        # Dotted run continuing forward ("Ph." in "Ph.D.",
+        # "e." in "e.g."): the period begins a letter+period
+        # pair, so it is part of an abbreviation, not a
+        # sentence end.
+        if re.match(
+            r"[A-Za-z]\.[A-Za-z]?[\s.\u2019'\"]",
+            text[index + 1 : index + 9],
+        ):
+            return match.group(0)
+        return match.group(0) + " "
+
+    return _FEED_NO_SPACE_RE.sub(_repl, text)
+
+
+# A dropped period before an opening quote that starts a new
+# sentence: "markets.“When it comes ..." -> "markets. “When ..."
+_FEED_QUOTE_PERIOD_RE = re.compile(
+    r"([a-z])([\u201c\u201d\"])([A-Z])"
+)
+
+
+def _possessive_capital(word):
+    """A capitalized possessive name ("Meloni's") signals a
+    dropped-period sentence resume ("...pastel suitsMeloni's
+    current style ..." -> "...pastel suits. Meloni's ...")."""
+    return bool(
+        re.match(r"[A-Z][a-z]+[\u2019']s", word)
+    )
+
+
+def _repair_quote_periods(text):
+    """Restore a dropped period before an opening quote that
+    starts a new sentence: "markets.“When it comes ..." ->
+    "markets. “When it comes ...".  The quoted word must pass
+    the same strong sentence-start evidence as any other
+    boundary, so legitimate quoted phrases are never split."""
+
+    def _repl(match):
+        position = match.start() + 2
+        word = match.group(3)
+        if not _repair_candidate(text, position, word):
+            return match.group(0)
+        if (
+            _words_before(text, 0, match.start() + 1)
+            < _MIN_BOUNDARY_WORDS
+        ):
+            return match.group(0)
+        return (
+            match.group(1)
+            + ". "
+            + match.group(2)
+            + match.group(3)
+        )
+
+    return _FEED_QUOTE_PERIOD_RE.sub(_repl, text)
+
+
+def _fused_join_count(text):
+    """Number of independent feed-fusion signatures in a
+    description: dropped-period lowercase->Capital joins, and
+    dropped periods before an opening quote.  The dropped-period
+    repairs run only when the description is demonstrably
+    feed-fused, so a single quirky join (or a lone camel-case
+    brand) in an otherwise well-formed description is never
+    touched."""
+    return (
+        len(re.findall(r"[a-z][A-Z][a-z]", text))
+        + len(re.findall(r"[a-z][\u201c\u201d\"][A-Z]", text))
+        + len(_FEED_ID_RE.findall(text))
+    )
+
+
+def _repair_fused_boundaries(text):
+    """Insert ". " at no-whitespace lowercase->Capital joins
+    where a sentence period was dropped entirely
+    ("new imageOne of" -> "new image. One of", "...pastel
+    suitsMeloni's current style" -> "...pastel suits. Meloni's
+    current style").  Mirrors the whitespace-boundary evidence
+    rules: a strong sentence start (or a capitalized possessive
+    name), a word that can end a sentence, and a complete
+    clause before the join."""
+    if not text:
+        return text
+    out = []
+    last = 0
+    scan = 0
+    length = len(text)
+    while scan < length:
+        match = re.search(
+            r"[a-z][A-Z][A-Za-z\u2019'-]*",
+            text[scan:],
+        )
+        if not match:
+            break
+        transition = scan + match.start()
+        cap = transition + 1
+        word_end = scan + match.end()
+        word = text[cap:word_end]
+        if _possessive_capital(word):
+            previous = re.findall(
+                r"[A-Za-z0-9\u2019'-]+",
+                text[:cap],
+            )
+            valid = (
+                bool(previous)
+                and previous[-1].lower() not in TRAILING_REJECT
+                # Reject name fragments glued to a capital
+                # ("McDonald's" -> "Mc" is a two-letter prefix,
+                # not a sentence end).
+                and len(previous[-1].replace("'", "")) >= 3
+            )
+        else:
+            valid = _repair_candidate(text, cap, word)
+        if not valid:
+            scan = word_end
+            continue
+        if _words_before(text, last, cap) < _MIN_BOUNDARY_WORDS:
+            scan = word_end
+            continue
+        out.append(text[last:cap])
+        out.append(". ")
+        out.append(word)
+        last = word_end
+        scan = word_end
+    out.append(text[last:])
+    return "".join(out)
+
+
+def _repair_whitespace_boundaries(text):
+    """Split drop-the-period run-together sentences that still
+    keep a whitespace between them:
+    "...moves north and further inland More than a million
+    people were moved to safety..."  Mechanical: only the
+    whitespace between the two sentences becomes ". ", and only
+    with strong evidence of a fresh sentence start."""
+    if not text:
+        return text
+
+    out = []
+    last = 0
+    scan = 0
+    length = len(text)
+
+    while scan < length:
+        match = re.search(
+            r"\s+([A-Z][A-Za-z\u2019'-]*)",
+            text[scan:],
+        )
+
+        if not match:
+            break
+
+        start = scan + match.start()
+        word_end = scan + match.end()
+        word = match.group(1)
+
+        if start == 0 or not text[start - 1].isalnum():
+            scan = word_end
+            continue
+
+        # Never insert a boundary inside a quoted span:
+        # "the last time I bought red meat" inside a quotation
+        # is one continuous quoted sentence, not a boundary.
+        if _inside_open_quote(text, start + 1):
+            scan = word_end
+            continue
+
+        if not _repair_candidate(
+            text,
+            start + 1,
+            word,
+        ):
+            scan = word_end
+            continue
+
+        # Strong evidence: split here. The words on both
+        # sides are preserved exactly; only the whitespace
+        # becomes ". ".
+        if _words_before(
+            text, last, start + 1
+        ) < _MIN_BOUNDARY_WORDS:
+            scan = word_end
+            continue
+
+        out.append(text[last:start])
+        out.append(". ")
+        out.append(word)
+        last = word_end
+        scan = word_end
+
+    out.append(text[last:])
+
+    return "".join(out)
 
 
 def _is_abbreviation_period(text, index):
@@ -365,73 +669,51 @@ def repair_sentence_boundaries(text):
     """Split obvious run-together sentences without touching
     any words.
 
-    Replaces the whitespace before a capitalized word with
-    ". " only when the capitalized word is a strong
-    sentence-initial word (or a proper name followed by a
-    reporting verb), the previous word can end a sentence,
-    and the preceding text is a complete clause. All other
-    lowercase-to-capital transitions are left untouched.
+    First, feed-text damage (Economic Times and similar RSS
+    feeds) is repaired: feed-navigation promo blocks are
+    removed, injected numeric reference IDs are stripped,
+    dropped whitespace after genuine sentence punctuation is
+    restored, and periods dropped before a capital or an
+    opening quote are re-inserted.  Then the classic
+    whitespace-dropped boundaries are repaired: the whitespace
+    before a capitalized word becomes ". " only when the
+    capitalized word is a strong sentence-initial word (or a
+    proper name followed by a reporting verb), the previous
+    word can end a sentence, and the preceding text is a
+    complete clause.  All other lowercase-to-capital
+    transitions are left untouched.
     """
     text = clean(text)
 
     if not text:
         return text
 
-    out = []
-    last = 0
-    scan = 0
-    length = len(text)
+    # 1. Feed-navigation promo blocks ("Also Read: ...") are
+    #    never article content.
+    text = _strip_feed_navigation(text)
+    if not text:
+        return text
 
-    while scan < length:
-        match = re.search(
-            r"\s+([A-Z][A-Za-z\u2019'-]*)",
-            text[scan:],
-        )
+    # 2. Injected numeric reference IDs, keeping the period.
+    text = _FEED_ID_RE.sub(r"\1", text)
 
-        if not match:
-            break
+    # 3. A feed dropped the whitespace straight after genuine
+    #    sentence punctuation.
+    text = _insert_missing_period_spaces(text)
 
-        start = scan + match.start()
-        word_end = scan + match.end()
-        word = match.group(1)
+    # 4. A feed dropped the period entirely.  These repairs
+    #    are the most aggressive, so they run only when a join
+    #    signature is present; every individual join still has
+    #    to pass strong sentence-boundary evidence
+    #    (_repair_candidate) before it is split, so clean text
+    #    with a lone camel-case brand or quoted phrase is never
+    #    altered.
+    if _fused_join_count(text) >= 1:
+        text = _repair_quote_periods(text)
+        text = _repair_fused_boundaries(text)
 
-        if start == 0 or not text[start - 1].isalnum():
-            scan = word_end
-            continue
-
-        # Never insert a boundary inside a quoted span:
-        # "the last time I bought red meat" inside a quotation
-        # is one continuous quoted sentence, not a boundary.
-        if _inside_open_quote(text, start + 1):
-            scan = word_end
-            continue
-
-        if not _repair_candidate(
-            text,
-            start + 1,
-            word,
-        ):
-            scan = word_end
-            continue
-
-        # Strong evidence: split here. The words on both
-        # sides are preserved exactly; only the whitespace
-        # becomes ". ".
-        if _words_before(
-            text, last, start + 1
-        ) < _MIN_BOUNDARY_WORDS:
-            scan = word_end
-            continue
-
-        out.append(text[last:start])
-        out.append(". ")
-        out.append(word)
-        last = word_end
-        scan = word_end
-
-    out.append(text[last:])
-
-    return "".join(out)
+    # 5. Classic whitespace-dropped-dot boundaries.
+    return _repair_whitespace_boundaries(text)
 
 
 def split_sentences(text):
