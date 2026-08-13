@@ -130,11 +130,18 @@ JUNK_SENTENCE_PATTERNS = (
     r"this\s+breaking\s+news\s+story\s+is\s+(?:being\s+)?updated",
     r"this\s+breaking\s+news\s+story\s+will\s+be\s+updated",
     r"this\s+breaking\s+story\s+(?:is\s+being|will\s+be)\s+updated",
+    r"this\s+story\s+(?:is\s+being|will\s+be|was\s+being)\s+updated",
     r"this\s+(?:is\s+)?(?:a\s+)?breaking\s+news\s+story",
     r"this\s+is\s+an\s+important\s+developing\s+story",
     r"more\s+details?\s+will\s+be\s+published\s+(?:shortly|soon)",
+    # update-status boilerplate ("further details were awaited")
+    r"(?:further|more|additional)\s+details?[^.]{0,60}\bawait(?:ed|ing)",
+    r"(?:further|more|additional)\s+updates?[^.]{0,60}\bawait(?:ed|ing)",
     r"please\s+refresh",
     r"for\s+the\s+fullest\s+version",
+    # app promotion ("directed users to its BhooKamp app for more
+    # information")
+    r"(?:\w[\w'\u2019-]*\s+){0,4}(?:also\s+)?direct(?:ed|s)?\s+users\s+to\s+(?:its|their|our)\s+[A-Za-z][\w'\u2019-]*\s+app\s+for\s+more\s+information",
     # external / cookie / privacy / ads
     r"this\s+(?:page|content)\s+is\s+external\s+to",
     r"it\s+is\s+external\s+to",
@@ -264,6 +271,7 @@ BOILERPLATE_PATTERNS = [
     r"\byou (?:can )?also follow @[A-Za-z0-9_]+\b",
     r"\bfollow @[A-Za-z0-9_]+\b",
     r"\bplease refresh(?: the (?:page|browser))?\b",
+    r"\bexternal to get the latest alerts?\b",
     r"\bfor the fullest version\b",
     r"\bmore details? will be published (?:shortly|soon)\b",
     r"\b(?:this (?:page|content)|it) is external to\b",

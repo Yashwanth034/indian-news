@@ -439,6 +439,33 @@ class TestDeduplication:
         assert "20,000" in joined
         assert "40 mph" in joined
 
+    def test_same_unit_fact_counted_once(self):
+        # Several sentences repeat the same factual claim
+        # ("depth of 10 km"); it must appear exactly once even
+        # though impact-signature dedup cannot see it.
+        texts = [
+            "The quake was recorded at a depth of 10 km.",
+            "The tremor was recorded at a depth of 10 km.",
+            "The earthquake struck at a depth of 10 km.",
+            "Officials said damage was not reported.",
+        ]
+        kept, _ = summarize(texts)
+        joined = " ".join(r["text"] for r in kept)
+        assert joined.count("10 km") == 1
+        assert "damage was not reported" in joined
+        assert len(kept) == 2
+
+    def test_distinct_numbers_same_unit_both_kept(self):
+        # "10 km" and "15 km" are different claims and both stay.
+        texts = [
+            "The quake was recorded at a depth of 10 km.",
+            "The aftershock was centred 15 km away.",
+        ]
+        kept, _ = summarize(texts)
+        joined = " ".join(r["text"] for r in kept)
+        assert "10 km" in joined
+        assert "15 km" in joined
+
 
 # ---------------------------------------------------------------------------
 # 8. Insufficient source content -> rejected
@@ -530,6 +557,48 @@ class TestJunkRemoval:
         assert kept is not None
         assert not any(
             "newsletter" in r["text"] for r in kept
+        )
+
+    def test_app_promotion_sentence_dropped(self):
+        kept, stats = summarize(
+            [
+                "The agency also directed users to its BhooKamp "
+                "app for more information on the earthquake.",
+                "Officials said the quake struck at dawn.",
+                "No damage was reported so far.",
+            ]
+        )
+        assert kept is not None
+        assert not any(
+            "app" in r["text"] or "BhooKamp" in r["text"]
+            for r in kept
+        )
+
+    def test_update_status_sentence_dropped(self):
+        kept, stats = summarize(
+            [
+                "Further details, including any reports of "
+                "damage, were awaited.",
+                "The quake struck Leh at 6:05 am.",
+                "Tremors were felt across the region.",
+            ]
+        )
+        assert kept is not None
+        assert not any(
+            "awaited" in r["text"] for r in kept
+        )
+
+    def test_story_being_updated_sentence_dropped(self):
+        kept, stats = summarize(
+            [
+                "This story is being updated.",
+                "The quake struck Leh at 6:05 am.",
+                "Officials said no damage was reported.",
+            ]
+        )
+        assert kept is not None
+        assert not any(
+            "being updated" in r["text"] for r in kept
         )
 
     def test_quality_gate_flags_incomplete_sentence(self):

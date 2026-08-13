@@ -44,6 +44,7 @@ from src.telegram_briefing import (
     is_headline_paraphrase,
     is_near_duplicate,
     strip_boilerplate,
+    _number_units,
 )
 
 _KEEP_CAPITAL = (
@@ -811,14 +812,123 @@ def _covers_signature(selected_rows, row):
     return False
 
 
-def _select_pool(rows, tier1_max, cap):
+def _covers_units(selected_rows, row):
+    """True when accepted rows already report every numbered
+    claim of `row`: each (unit, value) pair - e.g. ("km", "10")
+    from "at a depth of 10 km" - is present in an accepted
+    sentence.
+
+    Catches repeated facts that carry numbers but no impact
+    phrase, which `_covers_signature` misses ("depth of 10 km"
+    recurring across several sentences).  Numbers without a
+    unit (dates, clock times, coordinates) never collide, so
+    genuinely distinct facts - and a sentence that adds any new
+    numbered claim - are preserved."""
+    row_units = set(_number_units(row.get("text")))
+    if not row_units:
+        return False
+    covered = set()
+    for selected in selected_rows:
+        covered |= set(_number_units(selected.get("text")))
+    return row_units <= covered
+
+
+# Event-anchor patterns: real clock times, co-ordinates and
+# slash-dates pin a sentence to a specific happening.
+EVENT_TIME_RE = re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?\b")
+EVENT_COORD_RE = re.compile(r"\d+(?:\.\d+)?\s*[°\u00ba]\b")
+EVENT_DATE_RE = re.compile(r"\b\d{1,2}/\d{1,2}/\d{2,4}\b")
+
+# Generic explainers say things "can occur", "depend on"
+# factors, are "broadly classified" - general principles with
+# no bearing on the specific event.
+GENERIC_FRAME_RE = re.compile(
+    r"^(?:for\s+"
+    r"(?:scientific|general|reference|context)\s+purposes|"
+    r"in\s+general|generally|typically|usually|"
+    r"in\s+many\s+cases)\b",
+    re.IGNORECASE,
+)
+GENERAL_CLAIM_RE = re.compile(
+    r"\b(?:can|could|may|might)\s+(?:occur|produce|cause|"
+    r"result\s+in|lead\s+to|range|rise|vary|reach|trigger|"
+    r"strike)\b"
+    r"|\bdepend(?:s|ed|ing)?\s+on\b"
+    r"|\bbroadly\s+classified\b|\bclassified\s+as\b"
+    r"|\breferred\s+to\s+as\b|\bknown\s+as\b",
+    re.IGNORECASE,
+)
+
+
+def _is_generic_explainer(row):
+    """True when a sentence explains a general principle rather
+    than reporting the specific event.
+
+    A sentence is a generic explainer only when it carries no
+    event anchor - time, place, co-ordinates, date, impact or
+    source attribution - and uses a general-claim construction
+    ("can occur", "depends on", "for scientific purposes").
+    Sentences about the event itself never match, even when
+    phrased in general terms."""
+    text = row.get("text") or ""
+    facts = extract_facts(text)
+    if (
+        facts["temporal"]
+        or facts["locations"]
+        or facts["impact"]
+        or facts["attribution"]
+    ):
+        return False
+    if (
+        EVENT_TIME_RE.search(text)
+        or EVENT_COORD_RE.search(text)
+        or EVENT_DATE_RE.search(text)
+    ):
+        return False
+    return bool(
+        GENERIC_FRAME_RE.match(text)
+        or GENERAL_CLAIM_RE.search(text)
+    )
+
+
+def _event_specificity(row):
+    """Extra ranking weight for event anchors that tie a
+    sentence to a specific happening: time, place, co-ordinates,
+    consequences and official attribution.  Repeated numbered
+    claims are then resolved in favour of the most specific
+    account."""
+    text = row.get("text") or ""
+    facts = extract_facts(text)
+    score = 0.0
+    if facts["temporal"]:
+        score += 2.0
+    score += 1.5 * min(2, len(facts["locations"]))
+    if facts["impact"]:
+        score += 2.0
+    if facts["attribution"]:
+        score += 1.0
+    if (
+        EVENT_TIME_RE.search(text)
+        or EVENT_COORD_RE.search(text)
+        or EVENT_DATE_RE.search(text)
+    ):
+        score += 1.5
+    return score
+
+
+def _select_pool(rows, tier1_max, cap, already_accepted=0):
     """Select up to `cap` rows from one source pool.
 
     Exact duplicates (same normalized text) are dropped.
-    Fact-bearing sentences are ranked by fact score first
-    (up to tier1_max), then the remaining informative
-    sentences fill the pool in source order.  Returns rows in
-    selection order."""
+    Event-specific fact-bearing sentences are ranked first by a
+    composite of fact score and event anchors (time, place,
+    co-ordinates, consequences, attribution), up to tier1_max;
+    then the remaining informative sentences fill the pool in
+    source order.  Generic educational/background explainers are
+    used last and only to reach the two-sentence minimum
+    (`already_accepted` counts rows accepted in other pools, so
+    a later pool never pads with generics once the minimum is
+    met).  Returns rows in selection order."""
     seen = set()
     unique = []
     for row in rows:
@@ -827,33 +937,53 @@ def _select_pool(rows, tier1_max, cap):
             continue
         seen.add(key)
         unique.append(row)
-    accepted = []
-    tier1 = []
-    tier2 = []
+    generic = []
+    specific = []
+    informative = []
     for row in unique:
-        if _covers_signature(accepted, row):
+        if _is_generic_explainer(row):
+            generic.append(row)
             continue
         facts = extract_facts(row.get("text"))
         if _has_fact(facts):
-            tier1.append(
-                (sentence_fact_score(facts), row)
+            specific.append(
+                (
+                    sentence_fact_score(facts)
+                    + _event_specificity(row),
+                    row,
+                )
             )
         else:
-            tier2.append(row)
-    tier1.sort(key=lambda pair: pair[0], reverse=True)
-    tier1 = [row for _, row in tier1]
-    for row in tier1:
+            informative.append(row)
+    specific.sort(key=lambda pair: pair[0], reverse=True)
+    specific = [row for _, row in specific]
+
+    accepted = []
+
+    def _accept(row):
+        if _covers_signature(accepted, row):
+            return False
+        if _covers_units(accepted, row):
+            return False
+        accepted.append(row)
+        return True
+
+    for row in specific:
         if len(accepted) >= min(tier1_max, cap):
             break
-        if _covers_signature(accepted, row):
-            continue
-        accepted.append(row)
-    for row in tier2:
+        _accept(row)
+    for row in informative:
         if len(accepted) >= cap:
             break
-        if _covers_signature(accepted, row):
-            continue
-        accepted.append(row)
+        _accept(row)
+    for row in generic:
+        generic_limit = min(
+            max(0, MIN_SENTENCES - already_accepted),
+            cap,
+        )
+        if len(accepted) >= generic_limit:
+            break
+        _accept(row)
     return accepted
 
 
@@ -862,13 +992,16 @@ def select_fact_rows(rows, article_item_ids, cfg=None):
 
     Article-provenanced rows are the primary source and come
     first; the RSS rows fill any remaining slots.  Within
-    each pool, fact-bearing sentences (impact, numbers,
-    locations, entities, time, attribution) are ranked by
-    fact score first, then the remaining informative
-    sentences fill the pool in source order.  An RSS row that
-    reports the same consequence (same numbers AND same
-    impact unit) as an article row is dropped: the fact is
-    already covered by the primary source."""
+    each pool, event-specific fact-bearing sentences (impact,
+    numbers, locations, entities, time, attribution) are ranked
+    by fact score plus event anchors (time, place, co-ordinates,
+    consequences, attribution), then the remaining informative
+    sentences fill the pool in source order, and generic
+    educational/background explainers are kept only to reach
+    the two-sentence minimum.  An RSS row that reports the same
+    consequence (same numbers AND same impact unit) as an
+    article row is dropped: the fact is already covered by the
+    primary source."""
     tier1_max = int(
         (cfg or {}).get("tier1_max", TIER1_MAX)
     )
@@ -894,12 +1027,14 @@ def select_fact_rows(rows, article_item_ids, cfg=None):
             r
             for r in other_rows
             if not _covers_signature(selected, r)
+            and not _covers_units(selected, r)
         ]
         selected.extend(
             _select_pool(
                 other_rows,
                 tier1_max,
                 max_sentences - len(selected),
+                already_accepted=len(selected),
             )
         )
 
