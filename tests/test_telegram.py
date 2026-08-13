@@ -1685,6 +1685,122 @@ def test_workflow_shared_concurrency_group():
         assert "cancel-in-progress: false" in text
 
 
+def test_workflow_cron_is_exactly_fifteen_minutes():
+    text = _workflow_path("telegram.yml").read_text()
+    assert re.search(
+        r"cron:\s*\"\*/15 \* \* \* \*\"",
+        text,
+    ), "scheduled workflow must run every 15 minutes"
+    crons = re.findall(r"cron:\s*\"([^\"]+)\"", text)
+    assert crons == ["*/15 * * * *"], (
+        f"expected exactly the 15-minute cron, got {crons}"
+    )
+
+
+def test_workflow_secrets_from_github_secrets_only():
+    text = _workflow_path("telegram.yml").read_text()
+    bot_marker = re.search(
+        r"TELEGRAM_BOT_TOKEN:\s*(.+)$",
+        text,
+        re.MULTILINE,
+    )
+    channel_marker = re.search(
+        r"TELEGRAM_CHANNEL_ID:\s*(.+)$",
+        text,
+        re.MULTILINE,
+    )
+    assert bot_marker is not None
+    assert channel_marker is not None
+    assert (
+        "${{ secrets.TELEGRAM_BOT_TOKEN }}"
+        in bot_marker.group(1)
+    )
+    assert (
+        "${{ secrets.TELEGRAM_CHANNEL_ID }}"
+        in channel_marker.group(1)
+    )
+
+
+def test_workflow_no_hardcoded_secret_literals():
+    for name in (
+        "telegram.yml",
+        "telegram-test-one.yml",
+    ):
+        text = _workflow_path(name).read_text()
+        assert not re.search(
+            r"\b\d{4,}:[A-Za-z0-9_-]{20,}\b",
+            text,
+        )
+        assert not re.search(r"-100\d{8,}\b", text)
+        assert "TELEGRAM_BOT_TOKEN: \"\"" not in text
+
+
+def test_workflow_no_whatsapp_logic():
+    for name in (
+        "telegram.yml",
+        "telegram-test-one.yml",
+    ):
+        text = _workflow_path(name).read_text()
+        assert "whatsapp" not in text.lower()
+        assert "wa_notify" not in text.lower()
+        assert "wa-publish" not in text.lower()
+
+
+def test_workflow_main_runs_before_telegram_run():
+    text = _workflow_path("telegram.yml").read_text()
+    main_pos = text.index("python -m src.main")
+    run_pos = text.index("python -m src.telegram_run --yes")
+    assert main_pos < run_pos, (
+        "src.main must run before src.telegram_run"
+    )
+
+
+def test_workflow_commits_only_intended_runtime_files():
+    text = _workflow_path("telegram.yml").read_text()
+    assert (
+        "git add data/telegram_queue.json "
+        "data/telegram_state.json"
+    ) in text
+    assert "git add ." not in text
+    assert "git add -A" not in text
+    for bogus in (
+        "news.db",
+        "source_health",
+        ".env",
+        "__pycache__",
+        "queue.json",
+    ):
+        assert "git add data/" + bogus not in text
+    assert "git pull --rebase origin main" in text
+    assert "git push origin main" in text
+
+
+def test_workflow_permissions_limited_to_contents_write():
+    text = _workflow_path("telegram.yml").read_text()
+    assert "permissions:" in text
+    assert "contents: write" in text
+    for extra in (
+        "packages:",
+        "pages:",
+        "security-events:",
+        "checks:",
+        "id-token:",
+        "actions:",
+    ):
+        assert extra not in text
+
+
+def test_manual_workflow_one_story_safety():
+    text = _workflow_path("telegram-test-one.yml").read_text()
+    assert "--force --yes" in text
+    assert "TELEGRAM_NO_RETRY" in text
+    assert "exactly 1 scheduled" in text
+    assert "expected exactly 1 scheduled entry" in text
+    assert "python -m src.main" not in text
+    assert "git add data/telegram_state.json" in text
+    assert "git add data/telegram_queue.json" not in text
+
+
 def test_posted_history_retained_at_48h_boundary():
     state = make_state(
         scheduled=[],
