@@ -648,6 +648,117 @@ def test_publish_due_expired_story():
     assert state["scheduled"] == []
 
 
+def test_publish_due_missing_from_queue_kept_scheduled():
+    x = fresh_item(
+        story_id="missing-story",
+        minutes_ago=10,
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "missing-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    report = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert report["published"] == []
+    assert report["expired"] == []
+    assert len(report["missing"]) == 1
+    assert (
+        report["missing"][0]["story_id"]
+        == "missing-story"
+    )
+    assert len(state["scheduled"]) == 1
+
+
+def test_publish_due_missing_young_still_due_but_kept():
+    # A scheduled story absent from the current queue is NOT a
+    # genuine removal: it stays scheduled and is reported under
+    # "missing", never under "expired".
+    x = fresh_item(
+        story_id="absent-now",
+        minutes_ago=3,
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "absent-now",
+                now_utc() - timedelta(seconds=30),
+            )
+        ]
+    )
+    report = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert report["published"] == []
+    assert report["expired"] == []
+    assert len(report["missing"]) == 1
+    assert {
+        e["story_id"]
+        for e in state["scheduled"]
+    } == {"absent-now"}
+
+
+def test_publish_due_missing_old_schedule_expires():
+    # The 12h safety net is retained: a scheduled story that has
+    # been absent from the queue past the retention window is a
+    # genuine expiry and is removed, not merely "missing".
+    x = fresh_item(
+        story_id="old-missing",
+        minutes_ago=10,
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "old-missing",
+                now_utc() - timedelta(hours=13),
+            )
+        ]
+    )
+    report = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert report["published"] == []
+    assert report["missing"] == []
+    assert len(report["expired"]) == 1
+    assert state["scheduled"] == []
+    assert (
+        report["expired"][0]["reason"]
+        == "item missing from queue "
+        "and schedule too old"
+    )
+
+
 def test_publish_due_retry_then_fail():
     x = fresh_item(
         story_id="flaky-story",

@@ -223,6 +223,7 @@ def publish_due(
         "skipped_cap": [],
         "skipped_gap": [],
         "expired": [],
+        "missing": [],
         "rate_limited": None,
         "failed": [],
         "errors": [],
@@ -355,7 +356,7 @@ def publish_due(
                 )
                 continue
 
-            report["expired"].append(
+            report["missing"].append(
                 {
                     "story_id": story_id,
                     "reason": "item missing from current "

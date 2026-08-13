@@ -101,7 +101,12 @@ def _parse_effective_at(value):
         return None
 
 
-def filter_telegram_candidates(candidates, config, now_dt):
+def filter_telegram_candidates(
+    candidates,
+    config,
+    now_dt,
+    protected_story_ids=None,
+):
     """Apply the Telegram candidate gate, preserving priority order.
 
     Returns (kept, stats).  Kept candidates are dicts with a
@@ -132,6 +137,7 @@ def filter_telegram_candidates(candidates, config, now_dt):
         "stale": 0,
         "fresh": 0,
         "kept": 0,
+        "protected_kept": 0,
     }
 
     kept = []
@@ -181,8 +187,31 @@ def filter_telegram_candidates(candidates, config, now_dt):
 
         kept.append(candidate)
 
+    protected = set(protected_story_ids or ())
+
     if len(kept) > max_candidates:
-        kept = kept[:max_candidates]
+
+        top = kept[:max_candidates]
+
+        if protected:
+            top_ids = {
+                c.get("story_id")
+                for c in top
+            }
+            preserved = [
+                c
+                for c in kept[max_candidates:]
+                if c.get("story_id") in protected
+                and c.get("story_id") not in top_ids
+            ]
+        else:
+            preserved = []
+
+        kept = top + preserved
+
+        stats["protected_kept"] = len(
+            preserved
+        )
 
     stats["kept"] = len(kept)
 
@@ -414,6 +443,54 @@ def _queue_path(config, queue_path=None):
     return ROOT / rel
 
 
+def _state_path(config, state_path=None):
+    if state_path is not None:
+        return Path(state_path)
+
+    telegram_cfg = (
+        (config.get("config") or {})
+        .get("telegram")
+        or {}
+    )
+
+    rel = (
+        telegram_cfg.get("telegram_state_file")
+        or (config.get("config") or {}).get(
+            "telegram_state_file",
+            "data/telegram_state.json",
+        )
+    )
+
+    return ROOT / rel
+
+
+def scheduled_story_ids(config, state_path=None):
+    """Story ids that are still owed publication.
+
+    Reads the Telegram scheduler state file (best effort): any
+    story_id that appears in ``state["scheduled"]`` is an already
+    committed obligation that must survive queue regeneration, so it
+    is handed to ``filter_telegram_candidates`` as a protected id.
+    Missing or unreadable state yields an empty set.
+    """
+    path = _state_path(config, state_path)
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return set()
+
+    if not isinstance(data, dict):
+        return set()
+
+    return {
+        entry.get("story_id")
+        for entry in data.get("scheduled", [])
+        if entry.get("story_id")
+    }
+
+
 def build_telegram_queue(
     pipeline_result,
     config,
@@ -421,6 +498,7 @@ def build_telegram_queue(
     cache=None,
     fetcher=None,
     queue_path=None,
+    protected_story_ids=None,
 ):
     """Build the India Telegram queue and write it to disk.
 
@@ -429,6 +507,12 @@ def build_telegram_queue(
     ``(stories, stats)``.  Writes ``data/telegram_queue.json`` as
     ``{"generated_at": ..., "count": N, "stories": [...]}`` unless a
     ``queue_path`` is given.
+
+    ``protected_story_ids`` are stories already committed to the
+    Telegram schedule; they are preserved past the normal
+    ``max_candidates`` cap so a queue regeneration can never lose an
+    owed story.  When not supplied, they are derived from the
+    scheduler state file if present.
     """
     now_dt = now_dt or datetime.now(timezone.utc)
 
@@ -439,8 +523,14 @@ def build_telegram_queue(
 
     candidates = [candidate_to_dict(c) for c in candidates]
 
+    if protected_story_ids is None:
+        protected_story_ids = scheduled_story_ids(config)
+
     candidates, filter_stats = filter_telegram_candidates(
-        candidates, config, now_dt
+        candidates,
+        config,
+        now_dt,
+        protected_story_ids=protected_story_ids,
     )
 
     try:

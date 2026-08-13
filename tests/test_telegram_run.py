@@ -609,3 +609,175 @@ def test_media_attached_when_enabled(
     assert publisher.media[0][0] == "@test-channel"
     state = load_state(tmp_path)
     assert len(state["posted"]) == 1
+
+
+# ---------------------------------------------------------
+# multi-post scheduling across queue regeneration
+# ---------------------------------------------------------
+
+
+def _make_items(*story_ids):
+    return [
+        make_item(
+            story_id=story_id,
+            item_id="item-" + story_id,
+            event_id="event-" + story_id,
+            title="Independent story {}".format(story_id),
+            url="https://example.com/{}".format(story_id),
+        )
+        for story_id in story_ids
+    ]
+
+
+def test_one_run_publishes_multiple_stories(
+    tmp_path,
+    fake_publisher_factory,
+):
+    # A single telegram_run execution may publish several due
+    # stories: the run loop sleeps until each scheduled_at and
+    # calls publish_due again, so more than one post can go out
+    # per run (subject to caps and the 60s pacing).
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=0,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+    )
+    write_queue(
+        tmp_path,
+        _make_items("a", "b", "c"),
+    )
+
+    code = main(
+        [
+            "--config",
+            config_path,
+            "--force",
+            "--yes",
+        ]
+    )
+
+    assert code == 0
+    assert len(publisher.sent) == 3
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 3
+    assert state["scheduled"] == []
+
+
+def test_one_run_respects_hourly_cap(
+    tmp_path,
+    fake_publisher_factory,
+):
+    # Even when many stories are due at once, the hourly cap is
+    # respected within a single run: excess stories stay
+    # scheduled (skipped_cap), never published and never lost.
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=0,
+        max_posts_per_hour=2,
+        max_posts_per_day=150,
+    )
+    write_queue(
+        tmp_path,
+        _make_items("a", "b", "c", "d"),
+    )
+
+    code = main(
+        [
+            "--config",
+            config_path,
+            "--force",
+            "--yes",
+        ]
+    )
+
+    assert code == 0
+    assert len(publisher.sent) == 2
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 2
+    assert len(state["scheduled"]) == 2
+
+
+def test_two_runs_keep_scheduled_stories(
+    tmp_path,
+    fake_publisher_factory,
+):
+    # Run 1 schedules A/B/C/D (only A publishes; B/C/D remain
+    # scheduled because the 60s pacing blocks same-call posting).
+    # Run 2 regenerates a queue that omits B/C/D entirely: they
+    # must remain scheduled (reported missing, never expired).
+    # Run 3 returns B/C/D to the queue: they publish normally and
+    # posted ids prevent duplicates.
+    publisher = fake_publisher_factory()
+
+    cfg_run1 = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[0, 0],
+        important_delay_seconds=[0, 0],
+    )
+    write_queue(tmp_path, _make_items("a", "b", "c", "d"))
+    code = main(["--config", cfg_run1, "--force", "--yes"])
+    assert code == 0
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 1
+    assert {
+        e["story_id"]
+        for e in state["scheduled"]
+    } == {"b", "c", "d"}
+
+    # Run 2: queue regenerated with a completely different story;
+    # B/C/D are absent and must survive.
+    cfg_run2 = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[0, 0],
+        important_delay_seconds=[0, 0],
+    )
+    write_queue(tmp_path, _make_items("e"))
+    code = main(["--config", cfg_run2, "--force", "--yes"])
+    assert code == 0
+    state = load_state(tmp_path)
+    assert {
+        e["story_id"]
+        for e in state["scheduled"]
+    } >= {"b", "c", "d"}
+    assert {
+        e["story_id"]
+        for e in state["posted"]
+    } >= {"a"}
+
+    # Run 3: B/C/D return to the queue and publish normally.
+    cfg_run3 = write_config(
+        tmp_path,
+        min_gap_seconds=0,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[0, 0],
+        important_delay_seconds=[0, 0],
+    )
+    write_queue(tmp_path, _make_items("b", "c", "d"))
+    code = main(["--config", cfg_run3, "--force", "--yes"])
+    assert code == 0
+    state = load_state(tmp_path)
+    assert {
+        e["story_id"]
+        for e in state["posted"]
+    } >= {"b", "c", "d"}
+    assert {
+        e["story_id"]
+        for e in state["scheduled"]
+    } & {"b", "c", "d"} == set()
+
+    # Posted ids prevent duplicates: re-running the same queue
+    # publishes nothing new.
+    sent_before = len(publisher.sent)
+    code = main(["--config", cfg_run3, "--force", "--yes"])
+    assert code == 0
+    assert len(publisher.sent) == sent_before

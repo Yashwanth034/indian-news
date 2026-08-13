@@ -516,6 +516,7 @@ def main(argv=None):
         "skipped_cap": [],
         "skipped_gap": [],
         "expired": [],
+        "missing": [],
         "failed": [],
         "rate_limited": None,
     }
@@ -600,6 +601,9 @@ def main(argv=None):
         totals["expired"].extend(
             report["expired"]
         )
+        totals["missing"].extend(
+            report["missing"]
+        )
         totals["failed"].extend(
             report["failed"]
         )
@@ -672,6 +676,10 @@ def main(argv=None):
     print(
         "expired        :",
         len(totals["expired"]),
+    )
+    print(
+        "missing        :",
+        len(totals["missing"]),
     )
     print(
         "failed         :",
@@ -798,6 +806,10 @@ def _simulate_publish(
     print(
         "expired        :",
         len(report["expired"]),
+    )
+    print(
+        "missing        :",
+        len(report["missing"]),
     )
 
     return 0

@@ -26,8 +26,19 @@ NOW = datetime(2026, 8, 12, 12, 0, tzinfo=timezone.utc)
 
 
 @pytest.fixture(scope="module")
-def bundle():
-    return get_config()
+def bundle(tmp_path_factory):
+    from src.config_loader import get_config
+
+    cfg = get_config()
+    cfg = json.loads(json.dumps(cfg))
+    cfg["config"]["telegram"] = dict(
+        cfg["config"]["telegram"]
+    )
+    cfg["config"]["telegram"]["telegram_state_file"] = str(
+        tmp_path_factory.mktemp("telebuild_state")
+        / "telegram_state.json"
+    )
+    return cfg
 
 
 @pytest.fixture
@@ -183,6 +194,121 @@ def test_max_candidates_cap_applied(bundle):
     assert len(kept) == 1
 
 
+def test_scheduled_story_survives_candidate_truncation(bundle):
+    # An already-scheduled story (an owed obligation) must survive
+    # the max_candidates cap: even when it falls beyond the normal
+    # selection boundary, it is preserved in the queue.
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(bundle["config"]["telegram"])
+    cfg["config"]["telegram"]["max_candidates"] = 50
+
+    cands = [
+        {
+            "story_id": "story-{:03d}".format(i),
+            "id": "story-{:03d}".format(i),
+            "status": "queued",
+            "source": "The Hindu",
+            "effective_at": (
+                NOW - timedelta(minutes=1)
+            ).isoformat(),
+        }
+        for i in range(60)
+    ]
+
+    # story-059 sits beyond the 50-candidate boundary but is a
+    # committed scheduled obligation.
+    protected = {"story-059"}
+    kept, stats = filter_telegram_candidates(
+        cands,
+        cfg,
+        NOW,
+        protected_story_ids=protected,
+    )
+
+    assert len(kept) == 51
+    assert stats["protected_kept"] == 1
+    ids = [c["story_id"] for c in kept]
+    assert "story-059" in ids
+    assert ids[:50] == [
+        "story-{:03d}".format(i)
+        for i in range(50)
+    ]
+    assert ids.count("story-059") == 1
+
+
+def test_scheduled_story_within_cap_no_duplicate(bundle):
+    # When the scheduled story is already inside the normal cap it
+    # must not be duplicated by the protection mechanism.
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(bundle["config"]["telegram"])
+    cfg["config"]["telegram"]["max_candidates"] = 50
+
+    cands = [
+        {
+            "story_id": "story-{:03d}".format(i),
+            "id": "story-{:03d}".format(i),
+            "status": "queued",
+            "source": "The Hindu",
+            "effective_at": (
+                NOW - timedelta(minutes=1)
+            ).isoformat(),
+        }
+        for i in range(5)
+    ]
+
+    kept, stats = filter_telegram_candidates(
+        cands,
+        cfg,
+        NOW,
+        protected_story_ids={"story-003"},
+    )
+
+    assert len(kept) == 5
+    assert stats["protected_kept"] == 0
+    ids = [c["story_id"] for c in kept]
+    assert ids.count("story-003") == 1
+
+
+def test_scheduled_story_protection_no_duplicate_ids(bundle):
+    # A protected story that is not among the fresh candidates must
+    # not be invented or duplicated -- protection only preserves
+    # candidates that actually passed the gate.
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(bundle["config"]["telegram"])
+    cfg["config"]["telegram"]["max_candidates"] = 50
+
+    cands = [
+        {
+            "story_id": "story-{:03d}".format(i),
+            "id": "story-{:03d}".format(i),
+            "status": "queued",
+            "source": "The Hindu",
+            "effective_at": (
+                NOW - timedelta(minutes=1)
+            ).isoformat(),
+        }
+        for i in range(55)
+    ]
+
+    kept, stats = filter_telegram_candidates(
+        cands,
+        cfg,
+        NOW,
+        protected_story_ids={
+            "story-054",
+            "does-not-exist",
+        },
+    )
+
+    assert stats["protected_kept"] == 1
+    ids = [c["story_id"] for c in kept]
+    assert ids.count("story-054") == 1
+    assert "does-not-exist" not in ids
+
+
 # --- non-queued candidates --------------------------------------------------
 
 def test_held_candidate_excluded(bundle):
@@ -315,6 +441,113 @@ def test_build_telegram_queue_filter_stats(bundle, tmp_path, tmp_cache):
     assert stats["filter"]["candidates"] == 0
     assert "article_extraction" in stats
     assert "summarization" in stats
+
+
+def test_scheduled_story_ids_reads_state_file(bundle, tmp_path):
+    from src.telebuild import scheduled_story_ids
+
+    state_file = tmp_path / "telegram_state.json"
+    state_file.write_text(
+        json.dumps(
+            {
+                "scheduled": [
+                    {
+                        "story_id": "owed-1",
+                        "scheduled_at": "2026-08-12T12:30:00+00:00",
+                    },
+                    {
+                        "story_id": "owed-2",
+                        "scheduled_at": "2026-08-12T12:31:00+00:00",
+                    },
+                ],
+                "posted": [],
+                "failures": [],
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(
+        bundle["config"]["telegram"]
+    )
+    cfg["config"]["telegram"]["telegram_state_file"] = str(
+        state_file
+    )
+
+    assert scheduled_story_ids(cfg) == {
+        "owed-1",
+        "owed-2",
+    }
+
+
+def test_scheduled_story_ids_missing_state_is_empty(
+    bundle,
+    tmp_path,
+):
+    from src.telebuild import scheduled_story_ids
+
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(
+        bundle["config"]["telegram"]
+    )
+    cfg["config"]["telegram"]["telegram_state_file"] = str(
+        tmp_path / "does-not-exist.json"
+    )
+
+    assert scheduled_story_ids(cfg) == set()
+
+
+def test_build_telegram_queue_preserves_protected_story(
+    bundle,
+    tmp_path,
+    tmp_cache,
+):
+    # The full orchestrator path: a scheduled story beyond the
+    # normal cap survives queue regeneration via protected ids,
+    # and protected ids are auto-derived from the state file.
+    cfg = dict(bundle)
+    cfg["config"] = dict(bundle["config"])
+    cfg["config"]["telegram"] = dict(
+        bundle["config"]["telegram"]
+    )
+    cfg["config"]["telegram"]["max_candidates"] = 2
+
+    cands = [
+        _real_story(
+            bundle,
+            published=NOW - timedelta(minutes=i),
+        )
+        for i in range(5)
+    ]
+    for i, cand in enumerate(cands):
+        cand["story_id"] = "event-{:02d}".format(i)
+        cand["id"] = "event-{:02d}".format(i)
+        cand["event_id"] = "event-{:02d}".format(i)
+        cand["title"] = "Distinct event {:02d} unfolds".format(
+            i
+        )
+        cand["headline"] = cand["title"]
+        cand["url"] = "https://example.in/event-{:02d}".format(
+            i
+        )
+
+    out = tmp_path / "q.json"
+    stories, stats = build_telegram_queue(
+        cands,
+        cfg,
+        now_dt=NOW,
+        queue_path=out,
+        cache=tmp_cache,
+        protected_story_ids={"event-04"},
+    )
+
+    story_ids = [s.get("story_id") for s in stories]
+    assert "event-04" in story_ids
+    assert stats["filter"]["protected_kept"] == 1
+    assert story_ids.count("event-04") == 1
 
 
 def test_priority_order_preserved_in_queue(bundle, tmp_path, tmp_cache):
