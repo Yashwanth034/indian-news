@@ -1,4 +1,4 @@
-# India News Telegram
+# India News 
 
 Automated collection, triage and Telegram publishing of important, reliable India news.
 
