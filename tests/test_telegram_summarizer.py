@@ -610,6 +610,94 @@ class TestJunkRemoval:
 
 
 # ---------------------------------------------------------------------------
+# 9b. Generic educational explainers -> never used while event facts exist
+# ---------------------------------------------------------------------------
+
+
+class TestGenericExplainers:
+    def test_generic_comparison_not_used_when_event_facts_exist(self):
+        # "Shallow earthquakes are generally more dangerous than
+        # deep earthquakes." is a generic educational filler; with
+        # two event-specific sentences available it must not be
+        # appended to reach a third sentence.
+        kept, stats = summarize(
+            [
+                "The 5.5-magnitude earthquake in Leh was "
+                "recorded at a depth of 10 km, placing it in "
+                "the shallow category.",
+                "As of the latest available information, there "
+                "were no immediate reports of casualties or "
+                "major structural damage following Thursday "
+                "morning's tremor.",
+                "Shallow earthquakes are generally more "
+                "dangerous than deep earthquakes.",
+            ]
+        )
+        assert kept is not None
+        joined = " ".join(r["text"] for r in kept)
+        assert "generally more dangerous" not in joined
+        assert "depth of 10 km" in joined
+        assert "no immediate reports" in joined
+        assert len(kept) == 2
+
+    def test_tend_to_be_explainer_not_used(self):
+        kept, stats = summarize(
+            [
+                "The quake struck Leh at 6:05 am IST.",
+                "Some aftershocks tend to be weaker than the "
+                "main quake.",
+                "Officials said no damage was reported at the "
+                "site.",
+            ]
+        )
+        assert kept is not None
+        joined = " ".join(r["text"] for r in kept)
+        assert "tend to be" not in joined
+        assert len(kept) == 2
+
+    def test_typically_more_than_explainer_dropped(self):
+        kept, stats = summarize(
+            [
+                "Deep quakes are typically less damaging than "
+                "shallow ones.",
+                "The quake struck Leh at 6:05 am IST.",
+                "Officials said no damage was reported at the "
+                "site.",
+            ]
+        )
+        assert kept is not None
+        joined = " ".join(r["text"] for r in kept)
+        assert "typically less damaging" not in joined
+        assert len(kept) == 2
+
+    def test_explainer_allowed_only_to_reach_minimum(self):
+        # With a single genuine event sentence, a generic
+        # explainer pads exactly to the two-sentence minimum.
+        kept, stats = summarize(
+            [
+                "The quake struck Leh at 6:05 am IST.",
+                "Some aftershocks tend to be weaker than the "
+                "main quake.",
+            ]
+        )
+        assert kept is not None
+        joined = " ".join(r["text"] for r in kept)
+        assert "tend to be" in joined
+        assert len(kept) == 2
+
+    def test_generic_explainer_only_when_under_minimum(self):
+        # A source that is only a generic explainer never builds a
+        # padded summary from it alone.
+        kept, stats = summarize(
+            [
+                "Shallow earthquakes are generally more "
+                "dangerous than deep earthquakes.",
+            ]
+        )
+        assert kept is None
+
+
+# ---------------------------------------------------------------------------
 # 10. Final output format unchanged
 # ---------------------------------------------------------------------------
 

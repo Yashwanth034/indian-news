@@ -855,7 +855,12 @@ GENERAL_CLAIM_RE = re.compile(
     r"strike)\b"
     r"|\bdepend(?:s|ed|ing)?\s+on\b"
     r"|\bbroadly\s+classified\b|\bclassified\s+as\b"
-    r"|\breferred\s+to\s+as\b|\bknown\s+as\b",
+    r"|\breferred\s+to\s+as\b|\bknown\s+as\b"
+    r"|\b(?:is|are|was|were)\s+"
+    r"(?:generally|typically|usually|often)\s+"
+    r"(?:more|less)\s+\w+\s+than\b"
+    r"|\btend(?:s|ed|ing)?\s+to\s+be\b"
+    r"|\bgenerally\s+speaking\b|\bin\s+general\b",
     re.IGNORECASE,
 )
 
