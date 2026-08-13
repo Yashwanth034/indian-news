@@ -30,6 +30,96 @@ def _exit(msg: str, code: int = 1, *, exc: Exception | None = None) -> None:
     sys.exit(code)
 
 
+# Article-extraction statuses that count as enrichment errors.  These
+# mirror the status keys the extractor records per candidate; they are
+# surfaced so a zero-story run can be diagnosed without digging into
+# data/telegram_queue.json.
+_ENRICHMENT_ERROR_STATUSES = (
+    "http_error",
+    "network_error",
+    "timeout",
+    "too_large",
+    "not_html",
+    "paywall",
+    "no_text",
+    "blocked",
+    "domain_blocked",
+    "non_article",
+    "budget_exhausted",
+)
+
+
+def _telegram_observability_lines(stats: dict) -> list[str]:
+    """Render build_telegram_queue stats as diagnostic log lines.
+
+    Only reads the stats already collected by build_telegram_queue /
+    build_telegram_stories -- no second statistics system.
+    """
+    lines: list[str] = []
+
+    flt = stats.get("filter") or {}
+    lines.append(
+        f"telegram candidates received={flt.get('candidates', 0)}"
+    )
+    lines.append(
+        "telegram freshness "
+        f"fresh={flt.get('fresh', 0)} "
+        f"stale={flt.get('stale', 0)} "
+        f"no_effective_at={flt.get('no_effective_at', 0)} "
+        f"non_news={flt.get('non_news_filtered', 0)} "
+        f"kept={flt.get('kept', 0)}"
+    )
+
+    art = stats.get("article_extraction") or {}
+    if art.get("error"):
+        lines.append(f"telegram enrichment error={art['error']}")
+    else:
+        errors = {
+            status: int(art.get(status, 0))
+            for status in _ENRICHMENT_ERROR_STATUSES
+        }
+        error_total = sum(errors.values())
+        lines.append(
+            "telegram enrichment "
+            f"eligible={art.get('eligible', 0)} "
+            f"expanded={art.get('expanded', 0)} "
+            f"cache_hits={art.get('cache_hits', 0)} "
+            f"fetched={art.get('fetched', 0)} "
+            f"errors={error_total}"
+        )
+        error_detail = " ".join(
+            f"{status}={count}"
+            for status, count in errors.items()
+            if count
+        )
+        if error_detail:
+            lines.append(f"telegram enrichment errors: {error_detail}")
+
+    summ = stats.get("summarization") or {}
+    lines.append(
+        "telegram summarization "
+        f"considered={summ.get('stories_considered', 0)} "
+        f"summarized={summ.get('summarized', 0)} "
+        f"article_source={summ.get('article_source', 0)} "
+        f"rss_source={summ.get('rss_source', 0)} "
+        f"rejected_insufficient={summ.get('rejected_insufficient', 0)} "
+        f"rejected_verification={summ.get('rejected_verification', 0)} "
+        f"rejected_quality={summ.get('rejected_quality', 0)}"
+    )
+    for problem in summ.get("problems") or []:
+        reasons = ", ".join(problem.get("problems") or [])
+        text = (problem.get("text") or "").strip()
+        lines.append(
+            "telegram summarization problem "
+            f"story={problem.get('story', '?')} "
+            f"stage={problem.get('stage', '?')} "
+            f"text={text!r} "
+            f"reasons={reasons!r}"
+        )
+
+    return lines
+
+
 def main() -> int:
     try:
         bundle = get_config()
@@ -89,6 +179,9 @@ def main() -> int:
         stories, stats = build_telegram_queue(result, bundle, now_dt=now)
     except Exception as exc:
         _exit(f"fatal: telegram queue build failed: {exc}", exc=exc)
+
+    for line in _telegram_observability_lines(stats):
+        print(f"main: {line}")
 
     print(f"main: telegram queue written with {len(stories)} stories")
     return 0
