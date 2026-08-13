@@ -2,6 +2,7 @@
 
 Run with:  .venv/bin/python -m pytest src/test_telegram.py -q
 """
+import hashlib
 import json
 import re
 from datetime import datetime, timedelta, timezone
@@ -1790,15 +1791,49 @@ def test_workflow_permissions_limited_to_contents_write():
         assert extra not in text
 
 
+def test_production_workflow_byte_for_byte_unchanged():
+    text = _workflow_path("telegram.yml").read_bytes()
+    assert (
+        hashlib.sha256(text).hexdigest()
+        == "0bd9311e4ec88f6d803c50dabda4327943ececec69fb32ce2df6d6d42a933fcd"
+    )
+
+
+def test_manual_workflow_generates_its_own_queue():
+    text = _workflow_path("telegram-test-one.yml").read_text()
+    assert "python -m src.main" in text
+    main_pos = text.index("python -m src.main")
+    run_pos = text.index("python -m src.telegram_run")
+    assert main_pos < run_pos
+
+
+def test_manual_workflow_creates_one_story_temp_fixture():
+    text = _workflow_path("telegram-test-one.yml").read_text()
+    assert "$RUNNER_TEMP" in text
+    assert "TELEGRAM_TEST_FIXTURE" in text
+    assert "one_queue[\"count\"] = 1" in text
+    assert "len(state[\"scheduled\"]) != 1" in text
+    assert "\"scheduled_at\":" in text
+    assert "expected exactly 1 scheduled entry" in text
+
+
+def test_manual_workflow_does_not_require_committed_data():
+    text = _workflow_path("telegram-test-one.yml").read_text()
+    assert "json.load(open('data/telegram_queue.json'))" not in text
+    assert "json.load(open('data/telegram_state.json'))" not in text
+    assert "git add data/telegram_state.json" not in text
+    assert "git add data/telegram_queue.json" not in text
+    assert "git add ." not in text
+
+
 def test_manual_workflow_one_story_safety():
     text = _workflow_path("telegram-test-one.yml").read_text()
     assert "--force --yes" in text
     assert "TELEGRAM_NO_RETRY" in text
     assert "exactly 1 scheduled" in text
     assert "expected exactly 1 scheduled entry" in text
-    assert "python -m src.main" not in text
-    assert "git add data/telegram_state.json" in text
-    assert "git add data/telegram_queue.json" not in text
+    assert "python -m src.main" in text
+    assert "Verify exactly one message published" in text
 
 
 def test_posted_history_retained_at_48h_boundary():

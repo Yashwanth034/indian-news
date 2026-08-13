@@ -1,9 +1,12 @@
 name: telegram one-message test (manual only)
 
 # MANUAL ONLY: no schedule trigger, no push trigger.
-# The automatic 15-minute cron workflow is the production path;
-# this workflow exists to verify a single scheduled post end to
-# end without risking multiple sends.
+# Self-contained: generates its own fresh queue from the real
+# enabled sources (python -m src.main), then builds a temporary
+# one-story queue/state fixture under $RUNNER_TEMP so exactly one
+# message is published through the existing scheduler/publisher.
+# No runtime data is committed; nothing depends on pre-committed
+# queue/state files.
 on:
   workflow_dispatch:
 
@@ -12,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: read
 
 env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -37,72 +40,260 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Generate fresh queue from real sources
+        # Runs the India pipeline and writes data/telegram_queue.json
+        # in this workspace (untracked). The queue is real pipeline
+        # output; nothing here depends on committed state files.
+        run: |
+          python -m src.main
+
+      - name: Build one-story temporary test fixture
+        # Copies exactly one real story out of the fresh queue into a
+        # temporary queue/state/config triple under $RUNNER_TEMP. The
+        # temporary config overrides only the queue/state file paths;
+        # every other Telegram setting (delays, throttles, media,
+        # channel resolution) is identical to production. The state
+        # has exactly one scheduled (immediately due) entry and zero
+        # posted entries.
+        shell: bash
+        run: |
+          set -euo pipefail
+          FIXTURE_DIR="$RUNNER_TEMP/telegram-one-test"
+          mkdir -p "$FIXTURE_DIR"
+          python3 - "$FIXTURE_DIR" <<'PYEOF'
+          import json
+          import os
+          import sys
+          from datetime import datetime, timezone
+
+          fixture_dir = sys.argv[1]
+          queue_path = os.path.join(fixture_dir, "telegram_queue.json")
+          state_path = os.path.join(fixture_dir, "telegram_state.json")
+          config_path = os.path.join(fixture_dir, "config.json")
+
+          if os.environ.get("TELEGRAM_NO_RETRY") != "1":
+              print("ABORT: TELEGRAM_NO_RETRY must be 1 for one-message test")
+              sys.exit(1)
+
+          with open("data/telegram_queue.json", encoding="utf-8") as f:
+              queue = json.load(f)
+          stories = queue.get("stories") or []
+          if not stories:
+              print("ABORT: fresh queue is empty - nothing to test")
+              sys.exit(1)
+
+          chosen = sorted(
+              stories,
+              key=lambda s: (
+                  s.get("priority_score") or 0,
+                  s.get("story_id") or "",
+              ),
+              reverse=True,
+          )[0]
+
+          one_queue = dict(queue)
+          one_queue["count"] = 1
+          one_queue["stories"] = [chosen]
+          with open(queue_path, "w", encoding="utf-8") as f:
+              json.dump(one_queue, f, ensure_ascii=False)
+
+          scheduled_at = datetime.now(timezone.utc).replace(
+              microsecond=0
+          ).isoformat()
+          state = {
+              "posted": [],
+              "scheduled": [
+                  {
+                      "story_id": chosen.get("story_id"),
+                      "event_id": chosen.get("event_id"),
+                      "item_id": chosen.get("item_id")
+                      or chosen.get("story_id"),
+                      "label": chosen.get("public_label")
+                      or chosen.get("label"),
+                      "scheduled_at": scheduled_at,
+                      "attempts": 0,
+                  }
+              ],
+              "failures": [],
+              "last_posted_at": None,
+          }
+          with open(state_path, "w", encoding="utf-8") as f:
+              json.dump(state, f, ensure_ascii=False)
+
+          with open("config/config.json", encoding="utf-8") as f:
+              cfg = json.load(f)
+          cfg["telegram"]["telegram_queue_file"] = queue_path
+          cfg["telegram"]["telegram_state_file"] = state_path
+          with open(config_path, "w", encoding="utf-8") as f:
+              json.dump(cfg, f, ensure_ascii=False)
+
+          if len(state["scheduled"]) != 1:
+              print("ABORT: expected exactly 1 scheduled entry")
+              sys.exit(1)
+          if state["posted"]:
+              print("ABORT: expected 0 posted entries")
+              sys.exit(1)
+          if one_queue["count"] != 1:
+              print("ABORT: expected exactly 1 queue story")
+              sys.exit(1)
+
+          print("OK: fixture ready at " + fixture_dir)
+          print(
+              "OK: selected story "
+              + str(chosen.get("story_id"))[:16]
+              + " | priority "
+              + str(chosen.get("priority_level"))
+          )
+          PYEOF
+          echo "TELEGRAM_TEST_FIXTURE=$FIXTURE_DIR" >> "$GITHUB_ENV"
+
       - name: SAFETY CHECK - exactly one scheduled due post
         shell: bash
         run: |
           python3 - <<'PYEOF'
-          import json, os, sys
+          import json
+          import os
+          import sys
           from datetime import datetime, timezone
-          if os.environ.get('TELEGRAM_NO_RETRY') != '1':
-              print('ABORT: TELEGRAM_NO_RETRY must be 1 for one-message test')
+
+          if os.environ.get("TELEGRAM_NO_RETRY") != "1":
+              print("ABORT: TELEGRAM_NO_RETRY must be 1 for one-message test")
               sys.exit(1)
-          state = json.load(open('data/telegram_state.json'))
-          queue = json.load(open('data/telegram_queue.json'))
-          sched = state.get('scheduled', [])
-          posted = state.get('posted', [])
-          queue_count = queue.get('count', len(queue.get('stories', [])))
+
+          fixture = os.environ.get("TELEGRAM_TEST_FIXTURE")
+          with open(
+              os.path.join(fixture, "telegram_state.json"),
+              encoding="utf-8",
+          ) as f:
+              state = json.load(f)
+          with open(
+              os.path.join(fixture, "telegram_queue.json"),
+              encoding="utf-8",
+          ) as f:
+              queue = json.load(f)
+
+          sched = state.get("scheduled", [])
+          posted = state.get("posted", [])
+          queue_count = queue.get("count", len(queue.get("stories", [])))
+
           if len(sched) != 1:
-              print(f'ABORT: expected exactly 1 scheduled entry, found {len(sched)}')
+              print(
+                  f"ABORT: expected exactly 1 scheduled entry, "
+                  f"found {len(sched)}"
+              )
               sys.exit(1)
           if queue_count != 1:
-              print(f'ABORT: expected exactly 1 queue story, found {queue_count}')
+              print(
+                  f"ABORT: expected exactly 1 queue story, "
+                  f"found {queue_count}"
+              )
               sys.exit(1)
           if len(posted) != 0:
-              print(f'ABORT: expected 0 posted entries, found {len(posted)}')
+              print(
+                  f"ABORT: expected 0 posted entries, "
+                  f"found {len(posted)}"
+              )
               sys.exit(1)
-          due = datetime.fromisoformat(sched[0]['scheduled_at'].replace('Z', '+00:00'))
+
+          due = datetime.fromisoformat(
+              sched[0]["scheduled_at"].replace("Z", "+00:00")
+          )
           if due.tzinfo is None:
               due = due.replace(tzinfo=timezone.utc)
           if due > datetime.now(timezone.utc):
-              print('ABORT: scheduled entry is not due yet')
+              print("ABORT: scheduled entry is not due yet")
               sys.exit(1)
-          print('OK: exactly 1 scheduled (due), 0 posted, 1 queue story, no-retry on ->',
-                sched[0]['story_id'][:12])
+
+          print(
+              "OK: exactly 1 scheduled (due), 0 posted, 1 queue story, "
+              "no-retry on -> " + sched[0]["story_id"][:12]
+          )
           PYEOF
 
       - name: Publish exactly one message
-        run: TELEGRAM_PUBLISH=1 python -m src.telegram_run --force --yes
+        run: >
+          TELEGRAM_PUBLISH=1
+          python -m src.telegram_run
+          --config "$TELEGRAM_TEST_FIXTURE/config.json"
+          --force --yes
 
       - name: Report result
         if: always()
         run: |
           python3 - <<'PYEOF'
           import json
-          state = json.load(open('data/telegram_state.json'))
-          posted = state.get('posted', [])
-          sched = state.get('scheduled', [])
-          print('scheduler state after run:')
-          print('  scheduled entries :', len(sched))
-          print('  posted entries    :', len(posted))
-          print('  failure entries   :', len(state.get('failures', [])))
+          import os
+          import sys
+
+          fixture = os.environ.get("TELEGRAM_TEST_FIXTURE", "")
+          state_path = os.path.join(fixture, "telegram_state.json")
+          if not os.path.exists(state_path):
+              print("state file not found; nothing to report")
+              sys.exit(0)
+
+          with open(state_path, encoding="utf-8") as f:
+              state = json.load(f)
+          posted = state.get("posted", [])
+          sched = state.get("scheduled", [])
+          print("scheduler state after run:")
+          print("  scheduled entries :", len(sched))
+          print("  posted entries    :", len(posted))
+          print(
+              "  failure entries   :",
+              len(state.get("failures", [])),
+          )
           if posted:
               last = posted[-1]
-              print('story marked posted  : yes')
-              print('story_id             :', last.get('story_id', '')[:16])
-              print('message_id           :', last.get('message_id'))
-              print('posted_at            :', last.get('posted_at'))
+              print("story marked posted  : yes")
+              print(
+                  "story_id             :",
+                  str(last.get("story_id", ""))[:16],
+              )
+              print(
+                  "message_id           :",
+                  last.get("message_id"),
+              )
+              print(
+                  "posted_at            :",
+                  last.get("posted_at"),
+              )
           else:
-              print('story marked posted  : no')
+              print("story marked posted  : no")
           PYEOF
 
-      - name: Commit state back to main
+      - name: Verify exactly one message published
+        shell: bash
         run: |
-          if git diff --quiet -- data/telegram_state.json; then
-            echo "no state change"
-          else
-            git config user.name "telegram-test"
-            git config user.email "telegram-test@localhost"
-            git add data/telegram_state.json
-            git commit -m "telegram state: one-message test $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push origin main
-          fi
+          python3 - <<'PYEOF'
+          import json
+          import os
+          import sys
+
+          fixture = os.environ.get("TELEGRAM_TEST_FIXTURE", "")
+          with open(
+              os.path.join(fixture, "telegram_state.json"),
+              encoding="utf-8",
+          ) as f:
+              state = json.load(f)
+          posted = state.get("posted", [])
+          sched = state.get("scheduled", [])
+
+          if len(posted) != 1:
+              print(
+                  f"FAIL: expected exactly 1 posted entry, "
+                  f"found {len(posted)}"
+              )
+              sys.exit(1)
+          if sched:
+              print(
+                  "FAIL: expected 0 scheduled entries remaining, "
+                  f"found {len(sched)}"
+              )
+              sys.exit(1)
+          print("OK: exactly one message published")
+          PYEOF
+
+      - name: Clean up temporary test files
+        if: always()
+        run: |
+          rm -rf "$RUNNER_TEMP/telegram-one-test"
