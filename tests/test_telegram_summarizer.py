@@ -1046,3 +1046,134 @@ class TestAbbreviationAndQuoteFragmentRows:
         assert "No. 266" in joined
         assert "EC said the action" in joined
 
+
+# ---------------------------------------------------------------------------
+# 12. Conciseness: prefer exactly two sentences by default
+# ---------------------------------------------------------------------------
+
+
+class TestConciseness:
+    def test_ordinary_story_prefers_exactly_two_sentences(self):
+        # Default policy: a story with plenty of source content
+        # is summarised in exactly two sentences, not filled to
+        # the maximum available.
+        texts = [
+            "The 5.5-magnitude earthquake in Leh was recorded "
+            "at a depth of 10 km.",
+            "No immediate reports of casualties followed the "
+            "tremor.",
+            "Aftershocks were felt across the valley.",
+            "Roads to the affected villages were blocked.",
+        ]
+        kept, stats = summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+
+    def test_complex_story_can_use_three_when_needed(self):
+        # A story carrying distinct essential facts - impact,
+        # a numbered claim and a time reference - may grow to
+        # three sentences so no key fact is omitted.
+        texts = [
+            "More than 20,000 residents have been forced from "
+            "their homes.",
+            "The fire started near the town of Ashcroft on "
+            "Sunday.",
+            "Winds of up to 40 mph are pushing the flames "
+            "northeast.",
+            "Crews are working through the night.",
+        ]
+        kept, stats = summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 3
+        joined = " ".join(r["text"] for r in kept)
+        assert "20,000" in joined
+        assert "40 mph" in joined
+
+    def test_supplementary_rows_never_exceed_what_is_needed(self):
+        # A story whose essential facts are already covered by
+        # two sentences must not grow just because more source
+        # rows are available.
+        texts = [
+            "The 5.5-magnitude earthquake in Leh was recorded "
+            "at a depth of 10 km.",
+            "No immediate reports of casualties followed the "
+            "tremor.",
+            "Shallow earthquakes are generally more dangerous "
+            "than deep ones.",
+            "Officials urged residents to stay alert.",
+        ]
+        kept, stats = summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+
+    def test_supreme_court_ai_style_long_article_is_trimmed(self):
+        # A long detailed article with many secondary points is
+        # condensed to the two essential facts; unnecessary
+        # detail is removed.
+        texts = [
+            "The Supreme Court on Thursday asked the union "
+            "government to consider a petition flagging the lack "
+            "of a comprehensive statutory regime on the use of "
+            "high-risk AI in areas affecting food, health "
+            "benefits, wages and pension.",
+            "A three-judge Bench headed by the Chief Justice "
+            "asked the government to consider the petition as a "
+            "representation for taking comprehensive action.",
+            "In his petition, the advocate questioned whether "
+            "the government could employ AI, machine learning, "
+            "automated decision-making systems, risk-scoring "
+            "mechanisms and biometric surveillance tools without "
+            "a specific statutory framework.",
+            "The lawyer clarified that the constitutional vice "
+            "pleaded was not that technology must be prohibited.",
+            "The petition said he was only trying to "
+            "constitutionalise innovation.",
+        ]
+        kept, stats = summarize(
+            texts,
+            headline=(
+                "Supreme Court asks government to consider "
+                "high-risk AI plea"
+            ),
+        )
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+        joined = " ".join(r["text"] for r in kept)
+        assert "Supreme Court" in joined
+        # Secondary elaboration is gone from the summary.
+        assert "only trying to constitutionalise" not in joined
+
+    def test_generic_explainers_never_expand_a_two_sentence_summary(self):
+        texts = [
+            "The quake struck Leh at 6:05 am.",
+            "No immediate reports of damage followed.",
+            "Shallow earthquakes tend to be more dangerous than "
+            "deep earthquakes.",
+        ]
+        kept, stats = summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+        joined = " ".join(r["text"] for r in kept)
+        assert "tend to be" not in joined
+
+    def test_ladakh_earthquake_stays_concise_at_two_sentences(self):
+        # The earthquake example stays a tight two-sentence
+        # summary: the generic explainer never pads it.
+        texts = [
+            "The 5.5-magnitude earthquake in Leh was recorded "
+            "at a depth of 10 km.",
+            "As of the latest available information there were "
+            "no immediate reports of casualties or major "
+            "structural damage following Thursday morning's "
+            "tremor.",
+            "Shallow earthquakes are generally more dangerous "
+            "than deep earthquakes.",
+        ]
+        kept, stats = summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+        joined = " ".join(r["text"] for r in kept)
+        assert "10 km" in joined
+        assert "no immediate reports of casualties" in joined
+        assert "generally more dangerous" not in joined
+

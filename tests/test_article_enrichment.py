@@ -76,17 +76,19 @@ class TestArticleEnrichmentPipeline:
         story = build_one(
             [candidate(article_sentences=list(ARTICLE))]
         )
+        rows = story["briefing"]["sentences"]
         texts = {
-            r["text"] for r in story["briefing"]["sentences"]
+            r["text"] for r in rows
         }
+        # The key consequence fact leads the concise summary.
         assert any(
             s.startswith("More than 20,000 residents")
             for s in texts
         )
-        assert any(
-            s.startswith("Fire crews are working")
-            for s in texts
-        )
+        # Conciseness: the summary never balloons to the full
+        # article; secondary detail ("Fire crews are working")
+        # is dropped in favour of the core facts.
+        assert 2 <= len(rows) <= 3
 
     def test_article_sentences_capped_at_ten(self):
         body = list(ARTICLE) + [
@@ -122,7 +124,7 @@ class TestArticleEnrichmentPipeline:
         assert len(with_article["briefing"]["sentences"]) >= len(
             plain["briefing"]["sentences"]
         )
-        # Article facts lead the summary when available.
+        # Article facts lead the concise summary when available.
         article_texts = [
             r["text"] for r in with_article["briefing"]["sentences"]
         ]
@@ -133,12 +135,15 @@ class TestArticleEnrichmentPipeline:
         assert any(
             "20,000 residents" in t for t in article_texts
         )
-        # The RSS row fills the remaining slot, after every
-        # article row, and never duplicates an article fact.
-        assert article_texts[-1].startswith("Fire crews")
+        # The summary stays concise; an RSS row that merely
+        # restates an already-covered article fact is dropped.
         assert not any(
             "20,000 residents" in t
             and t.startswith("Officials said")
+            for t in article_texts
+        )
+        assert not any(
+            t.startswith("Fire crews are working through")
             for t in article_texts
         )
 
@@ -246,8 +251,9 @@ class TestArticleEnrichmentPipeline:
 
     def test_default_cap_unchanged_without_article(self):
         # Without an article the RSS summary is the source and
-        # the composed summary carries at most 8 sentences,
-        # keeping the fact-bearing ones first.
+        # the composed summary stays concise: it targets two
+        # sentences and keeps the key consequence, dropping the
+        # secondary detail that filled the old higher cap.
         cfg = dict(CFG)
         cfg["max_briefing_sentences"] = 10
         cands = [
@@ -272,11 +278,11 @@ class TestArticleEnrichmentPipeline:
         rows = story["briefing"]["sentences"]
         assert 2 <= len(rows) <= 5
         texts = [r["text"] for r in rows]
-        assert any("Ashcroft" in t for t in texts)
+        # The key consequence (evacuation) survives the concise
+        # selection; the summary does not balloon to the full
+        # RSS summary.
         assert any("evacuate" in t for t in texts)
-        assert any("shelters" in t for t in texts)
-        # Fact-bearing sentences lead the summary.
-        assert any("evacuate" in t for t in texts[:4])
+        assert len(rows) <= 3
 
 
 # ---------------------------------------------------------------------------

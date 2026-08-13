@@ -65,6 +65,7 @@ _KEEP_CAPITAL = (
 
 MIN_SENTENCES = 2
 MAX_SENTENCES = 5
+PREFERRED_SENTENCES = 2
 TIER1_MAX = 5
 ARTICLE_ITEM_SUFFIX = ":article"
 
@@ -758,6 +759,32 @@ CONSEQUENCE_VERBS = {
     "forced", "affected", "destroyed", "damaged",
 }
 
+# Broader consequence vocabulary: words that mark a sentence as
+# carrying a key event consequence (evacuation, shelter, damage,
+# casualties, threat).  Sentences naming these are ranked higher
+# so the concise summary keeps the consequences the reader
+# needs, not minor detail.  Response/status words such as
+# "closed" or "curfew" are deliberately excluded: they inflate
+# minor sentences and crowd out real consequences.
+CONSEQUENCE_WORDS = (
+    CONSEQUENCE_VERBS
+    | {
+        "evacuate", "evacuation", "shelter", "shelters",
+        "casualty", "casualties", "threatened", "threat",
+        "trapped", "rescued", "rescue", "flooded",
+        "collapsed",
+    }
+)
+
+CONSEQUENCE_WORDS_RE = re.compile(
+    r"\b(?:"
+    + "|".join(
+        sorted(CONSEQUENCE_WORDS, key=len, reverse=True)
+    )
+    + r")\b",
+    re.IGNORECASE,
+)
+
 QUANTIFIER_STRIP_RE = re.compile(
     r"^(?:more than|at least|nearly|about|around|over|"
     r"up to|almost|roughly)\s+",
@@ -918,22 +945,79 @@ def _event_specificity(row):
         or EVENT_DATE_RE.search(text)
     ):
         score += 1.5
+    if CONSEQUENCE_WORDS_RE.search(text):
+        score += 2.0
     return score
 
 
-def _select_pool(rows, tier1_max, cap, already_accepted=0):
-    """Select up to `cap` rows from one source pool.
+def _adds_new_essential_fact(row, accepted):
+    """True when the row carries a consequential fact the
+    accepted rows do not yet report: a distinct impact
+    signature, a numbered claim (unit + value), a location, or a
+    time reference.
 
-    Exact duplicates (same normalized text) are dropped.
-    Event-specific fact-bearing sentences are ranked first by a
+    New names and attribution alone never trigger an expansion:
+    the summary grows only when a sentence introduces a fact a
+    reader would otherwise miss.
+    """
+    facts = extract_facts(row.get("text"))
+
+    if facts["impact"] and not _covers_signature(
+        accepted, row
+    ):
+        return True
+
+    accepted_numbers = set()
+    accepted_locations = set()
+    accepted_temporal = set()
+
+    for accepted_row in accepted:
+        accepted_facts = extract_facts(
+            accepted_row.get("text")
+        )
+        accepted_numbers |= accepted_facts["numbers"]
+        accepted_locations |= accepted_facts["locations"]
+        accepted_temporal |= accepted_facts["temporal"]
+
+    if facts["numbers"] - accepted_numbers:
+        return True
+
+    if facts["locations"] - accepted_locations:
+        return True
+
+    if facts["temporal"] - accepted_temporal:
+        return True
+
+    return False
+
+
+def _select_pool(
+    rows,
+    tier1_max,
+    cap,
+    already_accepted=0,
+    preferred=PREFERRED_SENTENCES,
+):
+    """Select a concise set of rows from one source pool.
+
+    Exact duplicates (same normalized text) are dropped.  The
+    selection targets exactly `preferred` (default 2) sentences:
+    event-specific fact-bearing sentences are ranked first by a
     composite of fact score and event anchors (time, place,
-    co-ordinates, consequences, attribution), up to tier1_max;
-    then the remaining informative sentences fill the pool in
-    source order.  Generic educational/background explainers are
-    used last and only to reach the two-sentence minimum
-    (`already_accepted` counts rows accepted in other pools, so
-    a later pool never pads with generics once the minimum is
-    met).  Returns rows in selection order."""
+    co-ordinates, consequences, attribution), then informative
+    sentences fill in source order.  Generic educational/
+    background explainers are used last and only to reach the
+    two-sentence minimum (`already_accepted` counts rows accepted
+    in other pools, so a later pool never pads with generics once
+    the minimum is met).
+
+    Beyond the preferred target, a sentence is added only when it
+    introduces a genuinely new essential fact (a distinct impact,
+    a numbered claim, a location, or a time reference); rows that
+    merely restate known facts or add names never expand the
+    summary.  The hard 2-5 sentence boundary is unchanged: the
+    result never exceeds `cap`.  Returns rows in selection order.
+    """
     seen = set()
     unique = []
     for row in rows:
@@ -946,6 +1030,8 @@ def _select_pool(rows, tier1_max, cap, already_accepted=0):
     specific = []
     informative = []
     for row in unique:
+        if is_filler(row.get("text")):
+            continue
         if _is_generic_explainer(row):
             generic.append(row)
             continue
@@ -973,12 +1059,17 @@ def _select_pool(rows, tier1_max, cap, already_accepted=0):
         accepted.append(row)
         return True
 
+    target = min(
+        max(0, preferred - already_accepted),
+        cap,
+    )
+
     for row in specific:
-        if len(accepted) >= min(tier1_max, cap):
+        if len(accepted) >= target:
             break
         _accept(row)
     for row in informative:
-        if len(accepted) >= cap:
+        if len(accepted) >= target:
             break
         _accept(row)
     for row in generic:
@@ -989,6 +1080,17 @@ def _select_pool(rows, tier1_max, cap, already_accepted=0):
         if len(accepted) >= generic_limit:
             break
         _accept(row)
+
+    # Expansion beyond the preferred target: only rows that add a
+    # genuinely new essential fact, capped by the hard maximum.
+    specific_cap = min(tier1_max, cap)
+
+    for row in specific:
+        if len(accepted) >= specific_cap:
+            break
+        if _adds_new_essential_fact(row, accepted):
+            accepted.append(row)
+
     return accepted
 
 
@@ -996,22 +1098,31 @@ def select_fact_rows(rows, article_item_ids, cfg=None):
     """Select the 2-5 fact-important sentences of the summary.
 
     Article-provenanced rows are the primary source and come
-    first; the RSS rows fill any remaining slots.  Within
-    each pool, event-specific fact-bearing sentences (impact,
-    numbers, locations, entities, time, attribution) are ranked
-    by fact score plus event anchors (time, place, co-ordinates,
-    consequences, attribution), then the remaining informative
-    sentences fill the pool in source order, and generic
-    educational/background explainers are kept only to reach
-    the two-sentence minimum.  An RSS row that reports the same
-    consequence (same numbers AND same impact unit) as an
-    article row is dropped: the fact is already covered by the
-    primary source."""
+    first; the RSS rows fill any remaining slots.  Within each
+    pool, the selection targets exactly two sentences by default:
+    event-specific fact-bearing sentences (impact, numbers,
+    locations, entities, time, attribution) are ranked by fact
+    score plus event anchors (time, place, co-ordinates,
+    consequences, attribution), then informative sentences fill
+    the pool in source order, and generic educational/background
+    explainers are kept only to reach the two-sentence minimum.
+    Additional sentences are selected only when they introduce a
+    genuinely new essential fact (impact, numbered claim,
+    location, or time reference), so the summary stays concise.
+    An RSS row that reports the same consequence (same numbers
+    AND same impact unit) as an article row is dropped: the fact
+    is already covered by the primary source."""
     tier1_max = int(
         (cfg or {}).get("tier1_max", TIER1_MAX)
     )
     max_sentences = int(
         (cfg or {}).get("max_sentences", MAX_SENTENCES)
+    )
+    preferred = int(
+        (cfg or {}).get(
+            "preferred_sentences",
+            PREFERRED_SENTENCES,
+        )
     )
 
     article_rows = [
@@ -1025,6 +1136,7 @@ def select_fact_rows(rows, article_item_ids, cfg=None):
         article_rows,
         tier1_max,
         max_sentences,
+        preferred=preferred,
     )
 
     if len(selected) < max_sentences:
@@ -1040,6 +1152,7 @@ def select_fact_rows(rows, article_item_ids, cfg=None):
                 tier1_max,
                 max_sentences - len(selected),
                 already_accepted=len(selected),
+                preferred=preferred,
             )
         )
 
