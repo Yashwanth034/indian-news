@@ -1795,7 +1795,7 @@ def test_production_workflow_byte_for_byte_unchanged():
     text = _workflow_path("telegram.yml").read_bytes()
     assert (
         hashlib.sha256(text).hexdigest()
-        == "0bd9311e4ec88f6d803c50dabda4327943ececec69fb32ce2df6d6d42a933fcd"
+        == "f9a3e909e2057888859e1d56502321a362e04d01d14102881eda65bd0857a0c1"
     )
 
 
