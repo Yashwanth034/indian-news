@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Runtime data: database, logs, health, sessions
+# Queue/state JSON files that must survive between CI runs
+# are un-ignored explicitly below.
+data/*
+!data/.gitkeep
+!data/telegram_queue.json
+!data/telegram_state.json

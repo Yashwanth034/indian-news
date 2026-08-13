@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yashwanth034/indian-news/config/schemas/editorial.schema.json",
+  "title": "India News editorial gates",
+  "type": "object",
+  "required": [
+    "clickbait_patterns", "gossip_terms", "celebrity_terms",
+    "astrology_terms", "rumour_terms", "routine_official_patterns",
+    "sports_minor_patterns", "opinion_markers", "filler_phrases",
+    "excluded_topics"
+  ],
+  "properties": {
+    "clickbait_patterns": {"type": "array", "items": {"type": "string"}},
+    "gossip_terms": {"type": "array", "items": {"type": "string"}},
+    "celebrity_terms": {"type": "array", "items": {"type": "string"}},
+    "astrology_terms": {"type": "array", "items": {"type": "string"}},
+    "rumour_terms": {"type": "array", "items": {"type": "string"}},
+    "routine_official_patterns": {"type": "array", "items": {"type": "string"}},
+    "sports_minor_patterns": {"type": "array", "items": {"type": "string"}},
+    "opinion_markers": {"type": "array", "items": {"type": "string"}},
+    "filler_phrases": {"type": "array", "items": {"type": "string"}},
+    "excluded_topics": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

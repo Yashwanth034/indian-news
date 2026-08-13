@@ -1,0 +1,108 @@
+name: telegram one-message test (manual only)
+
+# MANUAL ONLY: no schedule trigger, no push trigger.
+# The automatic 15-minute cron workflow is the production path;
+# this workflow exists to verify a single scheduled post end to
+# end without risking multiple sends.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: telegram-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+  TELEGRAM_NO_RETRY: "1"
+
+jobs:
+  send-one:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: SAFETY CHECK - exactly one scheduled due post
+        shell: bash
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, sys
+          from datetime import datetime, timezone
+          if os.environ.get('TELEGRAM_NO_RETRY') != '1':
+              print('ABORT: TELEGRAM_NO_RETRY must be 1 for one-message test')
+              sys.exit(1)
+          state = json.load(open('data/telegram_state.json'))
+          queue = json.load(open('data/telegram_queue.json'))
+          sched = state.get('scheduled', [])
+          posted = state.get('posted', [])
+          queue_count = queue.get('count', len(queue.get('stories', [])))
+          if len(sched) != 1:
+              print(f'ABORT: expected exactly 1 scheduled entry, found {len(sched)}')
+              sys.exit(1)
+          if queue_count != 1:
+              print(f'ABORT: expected exactly 1 queue story, found {queue_count}')
+              sys.exit(1)
+          if len(posted) != 0:
+              print(f'ABORT: expected 0 posted entries, found {len(posted)}')
+              sys.exit(1)
+          due = datetime.fromisoformat(sched[0]['scheduled_at'].replace('Z', '+00:00'))
+          if due.tzinfo is None:
+              due = due.replace(tzinfo=timezone.utc)
+          if due > datetime.now(timezone.utc):
+              print('ABORT: scheduled entry is not due yet')
+              sys.exit(1)
+          print('OK: exactly 1 scheduled (due), 0 posted, 1 queue story, no-retry on ->',
+                sched[0]['story_id'][:12])
+          PYEOF
+
+      - name: Publish exactly one message
+        run: TELEGRAM_PUBLISH=1 python -m src.telegram_run --force --yes
+
+      - name: Report result
+        if: always()
+        run: |
+          python3 - <<'PYEOF'
+          import json
+          state = json.load(open('data/telegram_state.json'))
+          posted = state.get('posted', [])
+          sched = state.get('scheduled', [])
+          print('scheduler state after run:')
+          print('  scheduled entries :', len(sched))
+          print('  posted entries    :', len(posted))
+          print('  failure entries   :', len(state.get('failures', [])))
+          if posted:
+              last = posted[-1]
+              print('story marked posted  : yes')
+              print('story_id             :', last.get('story_id', '')[:16])
+              print('message_id           :', last.get('message_id'))
+              print('posted_at            :', last.get('posted_at'))
+          else:
+              print('story marked posted  : no')
+          PYEOF
+
+      - name: Commit state back to main
+        run: |
+          if git diff --quiet -- data/telegram_state.json; then
+            echo "no state change"
+          else
+            git config user.name "telegram-test"
+            git config user.email "telegram-test@localhost"
+            git add data/telegram_state.json
+            git commit -m "telegram state: one-message test $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+          fi

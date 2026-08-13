@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yashwanth034/indian-news/config/schemas/india_entities.schema.json",
+  "title": "India News entities",
+  "type": "object",
+  "required": [
+    "entity_aliases",
+    "ministries",
+    "agencies",
+    "states",
+    "union_territories",
+    "major_cities",
+    "india_signals",
+    "international_context_terms"
+  ],
+  "properties": {
+    "entity_aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "ministries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "union_territories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "major_cities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "india_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "international_context_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "people_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "companies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "false_positive_phrases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

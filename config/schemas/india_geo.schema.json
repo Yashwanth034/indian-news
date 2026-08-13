@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yashwanth034/indian-news/config/schemas/india_geo.schema.json",
+  "title": "India News geo scope",
+  "type": "object",
+  "required": [
+    "phase_1_scope",
+    "include_state_only_stories",
+    "allow_state_with_national_significance",
+    "scope_labels",
+    "national_significance_markers",
+    "phase_2_states"
+  ],
+  "properties": {
+    "phase_1_scope": {
+      "type": "string",
+      "enum": [
+        "india-wide"
+      ]
+    },
+    "include_state_only_stories": {
+      "type": "boolean"
+    },
+    "allow_state_with_national_significance": {
+      "type": "boolean"
+    },
+    "scope_labels": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "national",
+          "state",
+          "local"
+        ]
+      }
+    },
+    "national_significance_markers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phase_2_states": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "enabled",
+          "sources"
+        ],
+        "properties": {
+          "enabled": {
+            "type": "boolean"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "multiple_states_scope": {
+      "type": "string",
+      "enum": [
+        "national",
+        "state",
+        "local"
+      ]
+    },
+    "national_scope_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "significance_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "city_to_state": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "false_positive_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

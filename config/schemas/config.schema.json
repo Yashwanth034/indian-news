@@ -1,0 +1,395 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yashwanth034/indian-news/config/schemas/config.schema.json",
+  "title": "India News pipeline tuning",
+  "type": "object",
+  "required": [
+    "min_score_to_queue",
+    "min_india_relevance",
+    "english_only",
+    "translate_non_english",
+    "database",
+    "queue_file",
+    "telegram_queue_file",
+    "source_health_file",
+    "event_memory_hours",
+    "major_event_memory_hours",
+    "story_memory_hours",
+    "breaking_min_score",
+    "discovery_min_score",
+    "max_stories_per_run",
+    "max_feed_entries_per_source",
+    "echo_similarity_threshold",
+    "article_extraction",
+    "summarization",
+    "telegram"
+  ],
+  "properties": {
+    "min_score_to_queue": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "min_india_relevance": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "english_only": {
+      "type": "boolean"
+    },
+    "translate_non_english": {
+      "type": "boolean"
+    },
+    "database": {
+      "type": "string"
+    },
+    "queue_file": {
+      "type": "string"
+    },
+    "telegram_queue_file": {
+      "type": "string"
+    },
+    "source_health_file": {
+      "type": "string"
+    },
+    "event_memory_hours": {
+      "type": "number",
+      "minimum": 1
+    },
+    "major_event_memory_hours": {
+      "type": "number",
+      "minimum": 1
+    },
+    "story_memory_hours": {
+      "type": "number",
+      "minimum": 1
+    },
+    "breaking_min_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "discovery_min_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "max_stories_per_run": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "max_feed_entries_per_source": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "echo_similarity_threshold": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "article_extraction": {
+      "type": "object"
+    },
+    "summarization": {
+      "type": "object"
+    },
+    "telegram": {
+      "type": "object"
+    },
+    "relevance": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "title_multiplier": {
+          "type": "number"
+        },
+        "summary_multiplier": {
+          "type": "number"
+        },
+        "multiword_weight": {
+          "type": "number"
+        },
+        "single_word_weight": {
+          "type": "number"
+        },
+        "generic_single_word_weight": {
+          "type": "number"
+        },
+        "primary_min_score": {
+          "type": "number"
+        },
+        "secondary_min_score": {
+          "type": "number"
+        },
+        "max_score": {
+          "type": "number"
+        },
+        "international_damp": {
+          "type": "number"
+        },
+        "generic_single_words": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "dedupe": {
+      "type": "object",
+      "properties": {
+        "window_hours": {
+          "type": "number",
+          "minimum": 0
+        },
+        "major_window_hours": {
+          "type": "number",
+          "minimum": 0
+        },
+        "echo_title_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "echo_content_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "event_content_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "strong_content_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "max_candidates": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_token_len": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "stopwords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "wire_attributions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "wire_source_groups": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "event_actions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "entity_aliases": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "international_entities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "number_units": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "editorial": {
+      "type": "object",
+      "properties": {
+        "base_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "pass_threshold": {
+          "type": "number",
+          "minimum": 0
+        },
+        "filler_threshold": {
+          "type": "number",
+          "minimum": 0
+        },
+        "title_multiplier": {
+          "type": "number",
+          "minimum": 0
+        },
+        "summary_multiplier": {
+          "type": "number",
+          "minimum": 0
+        },
+        "major_boost": {
+          "type": "number",
+          "minimum": 0
+        },
+        "importance_major_min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "importance_strong_min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "major_markers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "weak_term_weights": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "gates": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "weight": {
+                "type": "number",
+                "minimum": 0
+              },
+              "override": {
+                "type": "string",
+                "enum": [
+                  "any",
+                  "strong",
+                  "none"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "priority": {
+      "type": "object",
+      "properties": {
+        "thresholds": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "weights": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "caps": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "max_score": {
+          "type": "number",
+          "minimum": 1
+        },
+        "recency_hours": {
+          "type": "object",
+          "properties": {
+            "breaking": {
+              "type": "number",
+              "minimum": 0
+            },
+            "fresh": {
+              "type": "number",
+              "minimum": 0
+            },
+            "old": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": true
+        },
+        "urgent_event_min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "major_event_min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "event_weights": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "candidate": {
+      "type": "object",
+      "properties": {
+        "min_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_queue": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "require_category": {
+          "type": "boolean"
+        },
+        "require_geo_identifiable": {
+          "type": "boolean"
+        },
+        "require_editorial_pass": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

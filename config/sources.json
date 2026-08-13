@@ -1,0 +1,1235 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "pib",
+      "name": "Press Information Bureau",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://pib.gov.in/AllPressReleases.aspx",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "economy-finance",
+        "business-industry",
+        "defence-security",
+        "transport-infrastructure",
+        "energy-environment",
+        "agriculture-rural",
+        "education",
+        "health",
+        "science-space"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "pib.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 25
+      },
+      "notes": "Verify exact press-release listing URL and HTML structure in Phase 1A."
+    },
+    {
+      "id": "rbi",
+      "name": "Reserve Bank of India",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.rbi.org.in/Scripts/PressReleases.aspx",
+      "categories": [
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "rbi.org.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 25
+      },
+      "notes": "Routine press releases need a newsworthiness gate; verify listing structure."
+    },
+    {
+      "id": "eci",
+      "name": "Election Commission of India",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://eci.gov.in/",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "eci.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Verify press-release/news section URL."
+    },
+    {
+      "id": "isro",
+      "name": "ISRO",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.isro.gov.in/",
+      "categories": [
+        "science-space",
+        "defence-security",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "isro.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Check for press-release feed/page."
+    },
+    {
+      "id": "imd",
+      "name": "India Meteorological Department",
+      "type": "official",
+      "tier": 1,
+      "method": "endpoint",
+      "url": "https://mausam.imd.gov.in/",
+      "categories": [
+        "weather-disasters"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "mausam.imd.gov.in",
+        "imd.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 300,
+        "max_items": 20
+      },
+      "notes": "Prefer a public warnings/alerts endpoint or feed; verify availability."
+    },
+    {
+      "id": "mod",
+      "name": "Ministry of Defence",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.mod.gov.in/",
+      "categories": [
+        "defence-security",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "mod.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "sci",
+      "name": "Supreme Court of India",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://main.sci.gov.in/",
+      "categories": [
+        "courts-law"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "main.sci.gov.in",
+        "sci.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 10
+      },
+      "notes": "Verify latest-updates/judgments listing URL."
+    },
+    {
+      "id": "sebi",
+      "name": "SEBI",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.sebi.gov.in/press-releases.html",
+      "categories": [
+        "economy-finance",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "sebi.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-releases listing URL."
+    },
+    {
+      "id": "trai",
+      "name": "TRAI",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.trai.gov.in/",
+      "categories": [
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "trai.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "npci",
+      "name": "NPCI",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.npci.org.in/",
+      "categories": [
+        "technology-digital",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "npci.org.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 10
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "mohfw",
+      "name": "Ministry of Health and Family Welfare",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.mohfw.gov.in/",
+      "categories": [
+        "health"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "mohfw.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "moe",
+      "name": "Ministry of Education",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.education.gov.in/",
+      "categories": [
+        "education",
+        "jobs-employment"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "education.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "moa",
+      "name": "Ministry of Agriculture and Farmers Welfare",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://agricoop.nic.in/",
+      "categories": [
+        "agriculture-rural"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "agricoop.nic.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "mor",
+      "name": "Ministry of Railways",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://indianrailways.gov.in/",
+      "categories": [
+        "transport-infrastructure"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "indianrailways.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "mop",
+      "name": "Ministry of Power",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://powermin.gov.in/",
+      "categories": [
+        "energy-environment",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "powermin.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "moefcc",
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://moef.gov.in/",
+      "categories": [
+        "energy-environment"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "moef.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "mea",
+      "name": "Ministry of External Affairs",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.mea.gov.in/",
+      "categories": [
+        "international-affairs",
+        "national-politics"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "mea.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 20
+      },
+      "notes": "Verify press releases/statements listing URL."
+    },
+    {
+      "id": "mha",
+      "name": "Ministry of Home Affairs",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.mha.gov.in/",
+      "categories": [
+        "defence-security",
+        "crime-public-safety",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "mha.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "niti",
+      "name": "NITI Aayog",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.niti.gov.in/",
+      "categories": [
+        "government-policy",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "niti.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 10
+      },
+      "notes": "Verify press-release section URL."
+    },
+    {
+      "id": "the-hindu",
+      "name": "The Hindu",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "courts-law",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "thehindu.com"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Paywall-aware; article enrichment may degrade to RSS summary."
+    },
+    {
+      "id": "indian-express",
+      "name": "The Indian Express",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://indianexpress.com/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "defence-security",
+        "courts-law"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "indianexpress.com"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": ""
+    },
+    {
+      "id": "hindustan-times",
+      "name": "Hindustan Times",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.hindustantimes.com/feeds/rss/top-news/rssfeed.xml",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "sports"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "hindustantimes.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "times-of-india",
+      "name": "Times of India",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "economy-finance",
+        "sports"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "timesofindia.indiatimes.com",
+        "indiatimes.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Paywall-heavy; verify current feed URL."
+    },
+    {
+      "id": "ndtv",
+      "name": "NDTV",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://feeds.feedburner.com/ndtvnews-india-news",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "weather-disasters"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "ndtv.com"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current feed URL."
+    },
+    {
+      "id": "india-today",
+      "name": "India Today",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.indiatoday.in/rss/1206578",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "defence-security"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "indiatoday.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "the-print",
+      "name": "The Print",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://theprint.in/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "defence-security"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "theprint.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": ""
+    },
+    {
+      "id": "deccan-herald",
+      "name": "Deccan Herald",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.deccanherald.com/rss/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "deccanherald.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "new-indian-express",
+      "name": "The New Indian Express",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.newindianexpress.com/rss/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "newindianexpress.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "tribune",
+      "name": "The Tribune",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.tribuneindia.com/rss/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "tribuneindia.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "mint",
+      "name": "Mint (Livemint)",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.livemint.com/rss/",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "livemint.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "business-standard",
+      "name": "Business Standard",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.business-standard.com/rss/latest.rss",
+      "categories": [
+        "economy-finance",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "business-standard.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "economic-times",
+      "name": "The Economic Times",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "economictimes.indiatimes.com",
+        "indiatimes.com"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Paywall-heavy; verify current feed URL."
+    },
+    {
+      "id": "moneycontrol",
+      "name": "Moneycontrol",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.moneycontrol.com/rss/business.xml",
+      "categories": [
+        "economy-finance",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "moneycontrol.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "media-nama",
+      "name": "MediaNama",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.medianama.com/feed/",
+      "categories": [
+        "technology-digital",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "medianama.com"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": ""
+    },
+    {
+      "id": "entrackr",
+      "name": "Entrackr",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://entrackr.com/feed/",
+      "categories": [
+        "business-industry",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "entrackr.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": ""
+    },
+    {
+      "id": "bharat-shakti",
+      "name": "Bharat Shakti",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://bharatshakti.in/feed/",
+      "categories": [
+        "defence-security",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "bharatshakti.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": ""
+    },
+    {
+      "id": "idr",
+      "name": "Indian Defence Review",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.indiandefencereview.com/feed/",
+      "categories": [
+        "defence-security"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "indiandefencereview.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": ""
+    },
+    {
+      "id": "live-law",
+      "name": "LiveLaw",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.livelaw.in/rss",
+      "categories": [
+        "courts-law",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "livelaw.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Verify current RSS feed URL."
+    },
+    {
+      "id": "bar-and-bench",
+      "name": "Bar and Bench",
+      "type": "specialist",
+      "tier": 3,
+      "method": "page",
+      "url": "https://www.barandbench.com/",
+      "categories": [
+        "courts-law"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "barandbench.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Verify whether a public feed exists; otherwise page listing."
+    },
+    {
+      "id": "nta",
+      "name": "National Testing Agency",
+      "type": "official",
+      "tier": 3,
+      "method": "page",
+      "url": "https://www.nta.ac.in/",
+      "categories": [
+        "education",
+        "jobs-employment"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "nta.ac.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Exam announcements; routine notices need the newsworthiness gate."
+    },
+    {
+      "id": "upsc",
+      "name": "Union Public Service Commission",
+      "type": "official",
+      "tier": 3,
+      "method": "page",
+      "url": "https://www.upsc.gov.in/",
+      "categories": [
+        "jobs-employment",
+        "education"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "upsc.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Exam/result announcements; routine notices need the newsworthiness gate."
+    },
+    {
+      "id": "cbse",
+      "name": "CBSE",
+      "type": "official",
+      "tier": 3,
+      "method": "page",
+      "url": "https://cbse.gov.in/",
+      "categories": [
+        "education"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "cbse.gov.in"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Exam/result announcements; routine notices need the newsworthiness gate."
+    },
+    {
+      "id": "bbc-india",
+      "name": "BBC News India",
+      "type": "international",
+      "tier": 4,
+      "method": "rss",
+      "url": "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml",
+      "categories": [
+        "national-politics",
+        "international-affairs",
+        "weather-disasters",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": [
+        "bbc.co.uk",
+        "bbci.co.uk"
+      ],
+      "enabled": true,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": ""
+    },
+    {
+      "id": "reuters-india",
+      "name": "Reuters India (discovery)",
+      "type": "international",
+      "tier": 4,
+      "method": "discovery",
+      "url": "https://news.google.com/rss/search?q=site%3Areuters.com+India&hl=en-IN&gl=IN&ceid=IN:en",
+      "categories": [
+        "international-affairs",
+        "economy-finance",
+        "national-politics"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": true,
+      "allow_domains": [
+        "reuters.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Reuters has no public RSS; Google News discovery. Requires India relevance + independent confirmation."
+    },
+    {
+      "id": "ap-india",
+      "name": "Associated Press India (discovery)",
+      "type": "international",
+      "tier": 4,
+      "method": "discovery",
+      "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+India&hl=en-IN&gl=IN&ceid=IN:en",
+      "categories": [
+        "international-affairs",
+        "national-politics",
+        "weather-disasters"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": true,
+      "allow_domains": [
+        "apnews.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "AP has no public RSS; Google News discovery. Requires India relevance + independent confirmation."
+    },
+    {
+      "id": "ft-india",
+      "name": "Financial Times India (discovery)",
+      "type": "international",
+      "tier": 4,
+      "method": "discovery",
+      "url": "https://news.google.com/rss/search?q=site%3Aft.com+India&hl=en-IN&gl=IN&ceid=IN:en",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": true,
+      "allow_domains": [
+        "ft.com"
+      ],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Paywalled; use feed metadata/summary only, never bypass the paywall."
+    },
+    {
+      "id": "google-news-india",
+      "name": "Google News India Discovery",
+      "type": "international",
+      "tier": 4,
+      "method": "discovery",
+      "url": "https://news.google.com/rss/search?q=India+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": true,
+      "allow_domains": [],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 40
+      },
+      "notes": "Broad aggregator discovery feed; high bar for relevance + confirmation."
+    }
+  ]
+}

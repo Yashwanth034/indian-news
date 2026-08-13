@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yashwanth034/indian-news/config/schemas/sources.schema.json",
+  "title": "India News source registry",
+  "type": "object",
+  "required": ["version", "sources"],
+  "properties": {
+    "version": {"type": "integer", "minimum": 1},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "name", "type", "tier", "method", "url",
+          "categories", "language", "primary", "news",
+          "discovery", "allow_domains", "enabled", "verified"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "name": {"type": "string", "minLength": 1},
+          "type": {"enum": ["official", "journalism", "specialist", "international", "discovery"]},
+          "tier": {"enum": [1, 2, 3, 4]},
+          "method": {"enum": ["rss", "page", "endpoint", "api", "discovery"]},
+          "url": {"type": "string", "minLength": 1},
+          "categories": {"type": "array", "items": {"type": "string"}},
+          "language": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+          "primary": {"type": "boolean"},
+          "news": {"type": "boolean"},
+          "discovery": {"type": "boolean"},
+          "allow_domains": {"type": "array", "items": {"type": "string"}},
+          "enabled": {"type": "boolean"},
+          "verified": {"type": "boolean"},
+          "settings": {"type": "object"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
