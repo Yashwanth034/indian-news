@@ -1797,16 +1797,26 @@ def test_workflow_shared_concurrency_group():
         assert "cancel-in-progress: false" in text
 
 
-def test_workflow_cron_is_exactly_fifteen_minutes():
+def test_workflow_no_github_cron():
     text = _workflow_path("telegram.yml").read_text()
-    assert re.search(
-        r"cron:\s*\"\*/15 \* \* \* \*\"",
-        text,
-    ), "scheduled workflow must run every 15 minutes"
-    crons = re.findall(r"cron:\s*\"([^\"]+)\"", text)
-    assert crons == ["*/15 * * * *"], (
-        f"expected exactly the 15-minute cron, got {crons}"
+    assert "workflow_dispatch" in text, (
+        "production workflow must be manually dispatched"
     )
+    assert "schedule:" not in text, (
+        "production workflow must not define a GitHub schedule"
+    )
+    assert not re.search(r"cron:", text), (
+        "production workflow must not define a GitHub cron; "
+        "the external 10-minute cron is assumed to dispatch it"
+    )
+
+
+def test_workflow_external_cron_assumed_not_implemented():
+    text = _workflow_path("telegram.yml").read_text()
+    assert "schedule:" not in text
+    assert "workflow_dispatch" in text
+    assert "*/15" not in text
+    assert "*/10" not in text
 
 
 def test_workflow_secrets_from_github_secrets_only():
@@ -1906,7 +1916,7 @@ def test_production_workflow_byte_for_byte_unchanged():
     text = _workflow_path("telegram.yml").read_bytes()
     assert (
         hashlib.sha256(text).hexdigest()
-        == "f9a3e909e2057888859e1d56502321a362e04d01d14102881eda65bd0857a0c1"
+        == "2757e2e83e10d3254a161fc33eb199d324853533fc5a29d237e4d8f8b9a3eb37"
     )
 
 
