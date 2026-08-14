@@ -704,18 +704,18 @@ def test_two_runs_keep_scheduled_stories(
     tmp_path,
     fake_publisher_factory,
 ):
-    # Run 1 schedules A/B/C/D (only A publishes; B/C/D remain
-    # scheduled because the 60s pacing blocks same-call posting).
-    # Run 2 regenerates a queue that omits B/C/D entirely: they
+    # Run 1 schedules A/B/C/D (only A/B publish; C/D remain
+    # scheduled because the hourly cap blocks same-call posting).
+    # Run 2 regenerates a queue that omits C/D entirely: they
     # must remain scheduled (reported missing, never expired).
-    # Run 3 returns B/C/D to the queue: they publish normally and
+    # Run 3 returns C/D to the queue: they publish normally and
     # posted ids prevent duplicates.
     publisher = fake_publisher_factory()
 
     cfg_run1 = write_config(
         tmp_path,
-        min_gap_seconds=60,
-        max_posts_per_hour=40,
+        min_gap_seconds=0,
+        max_posts_per_hour=2,
         max_posts_per_day=150,
         normal_delay_seconds=[0, 0],
         important_delay_seconds=[0, 0],
@@ -724,17 +724,17 @@ def test_two_runs_keep_scheduled_stories(
     code = main(["--config", cfg_run1, "--force", "--yes"])
     assert code == 0
     state = load_state(tmp_path)
-    assert len(state["posted"]) == 1
+    assert len(state["posted"]) == 2
     assert {
         e["story_id"]
         for e in state["scheduled"]
-    } == {"b", "c", "d"}
+    } == {"c", "d"}
 
     # Run 2: queue regenerated with a completely different story;
-    # B/C/D are absent and must survive.
+    # C/D are absent and must survive.
     cfg_run2 = write_config(
         tmp_path,
-        min_gap_seconds=60,
+        min_gap_seconds=0,
         max_posts_per_hour=40,
         max_posts_per_day=150,
         normal_delay_seconds=[0, 0],
@@ -747,13 +747,13 @@ def test_two_runs_keep_scheduled_stories(
     assert {
         e["story_id"]
         for e in state["scheduled"]
-    } >= {"b", "c", "d"}
+    } >= {"c", "d"}
     assert {
         e["story_id"]
         for e in state["posted"]
-    } >= {"a"}
+    } >= {"a", "b"}
 
-    # Run 3: B/C/D return to the queue and publish normally.
+    # Run 3: C/D return to the queue and publish normally.
     cfg_run3 = write_config(
         tmp_path,
         min_gap_seconds=0,
@@ -1039,51 +1039,64 @@ def test_summary_due_counts_distinct_entries(
     assert state["scheduled"] == []
 
 
-def test_gap_skipped_entry_survives_to_next_run(
+def test_no_min_gap_publishes_all_due_stories_in_one_run(
     tmp_path,
     fake_publisher_factory,
     fake_clock,
     monkeypatch,
+    capsys,
 ):
-    # a=T+61 publishes; b=T+91 (30s later) is gap-skipped and must
-    # stay scheduled.  The next cron-cycle run publishes b once the
-    # 60s gap from a's post has elapsed.
+    # Regression for the removed minimum-gap constraint: three due
+    # important stories scheduled at the same time must ALL publish
+    # in a single run, back to back, with nothing gap-skipped.
+    # The 40/hour and 150/day caps remain the only ceilings.
     start = datetime(2026, 8, 14, 7, 0, 0, tzinfo=timezone.utc)
-    clock = fake_clock(start)
+    fake_clock(start)
     publisher = fake_publisher_factory()
     config_path = write_config(
         tmp_path,
-        min_gap_seconds=60,
+        min_gap_seconds=0,
         max_posts_per_hour=40,
         max_posts_per_day=150,
-        normal_delay_seconds=[61, 91],
-        important_delay_seconds=[61, 91],
+        normal_delay_seconds=[0, 0],
+        important_delay_seconds=[0, 0],
     )
     write_queue(
         tmp_path,
         [
             _high_item("story-a", 45, 5, start),
             _high_item("story-b", 44, 5, start),
+            _high_item("story-c", 44, 5, start),
         ],
     )
-    _fixed_delays(monkeypatch, [61, 91])
+    _fixed_delays(monkeypatch, [0, 0, 0])
 
     code = main(["--config", config_path, "--force", "--yes"])
     assert code == 0
-    state = load_state(tmp_path)
-    assert [
-        e["story_id"] for e in state["scheduled"]
-    ] == ["story-b"]
-    assert [
-        p["story_id"] for p in state["posted"]
-    ] == ["story-a"]
 
-    # Next cron cycle: more than 60s after a's post.
-    clock["now"] = start + timedelta(minutes=2, seconds=30)
-    code = main(["--config", config_path, "--force", "--yes"])
-    assert code == 0
+    out = capsys.readouterr().out
+    assert "due            : 3" in out
+    assert "published      : 3" in out
+    assert "skipped (gap)  : 0" in out
+
+    published_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("published ")
+        and " | message_id=" in line
+    ]
+    assert published_lines == [
+        "published   story-a | message_id=1",
+        "published   story-b | message_id=2",
+        "published   story-c | message_id=3",
+    ]
     state = load_state(tmp_path)
+    assert len(state["posted"]) == 3
     assert state["scheduled"] == []
-    assert [
-        p["story_id"] for p in state["posted"]
-    ] == ["story-a", "story-b"]
+
+    # Posted ids prevent duplicates: a second run publishes nothing.
+    sent_before = len(publisher.sent)
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+    assert len(publisher.sent) == sent_before
+    assert state["scheduled"] == []
