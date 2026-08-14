@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:51:50.541131+00:00",
+  "generated_at": "2026-08-14T11:02:36.562375+00:00",
   "count": 13,
   "stories": [
     {
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -145,7 +145,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -258,7 +258,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (uttarakhand)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -352,7 +352,7 @@
       "secondary_categories": [
         "transport-infrastructure"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 50.4,
       "priority_level": "HIGH",
@@ -360,12 +360,19 @@
       "event_time": "2026-08-14T10:31:51+00:00",
       "published_at": "2026-08-14T10:31:51+00:00",
       "effective_at": "2026-08-14T10:31:51+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
           ],
           "count": 1
         }
@@ -374,6 +381,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.3 >= 1.2",
         "major: urgent category",
         "major: significance event 'National Security'",
@@ -383,11 +391,12 @@
         "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 45, score 50.4 -> HIGH"
@@ -500,7 +509,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'ceasefire' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 42.8, score 50.4 -> HIGH"
@@ -592,7 +601,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -620,6 +629,7 @@
           "His petition seeking relief from the criminal proceedings remains pending before the apex court, although he has already been granted interim protection from arrest.",
           "Other personalities associated with the controversial episode, including YouTuber Ashish Chanchlani and comedian Samay Raina, had also faced criminal proceedings in connection with the matter.",
           "--IANS.",
+          "The top court appreciated the efforts made by them in organising a chess tournament in March for disabled persons and helping raise awareness about organisations working for persons with disabilities.",
           "The Court recorded that the comedians had taken efforts to spread awareness about persons with disabilities."
         ],
         "bullets": [
@@ -653,22 +663,17 @@
             "source": "The Assam Tribune",
             "item_id": "9b6047629fcca841fd6d8818",
             "composed": false
-          },
-          {
-            "text": "However, the top court said it would continue hearing the matter to consider suggestions from Persons with Disabilities and other stakeholders on mechanisms to prevent the dissemination of such content in the future.",
-            "source": "The Assam Tribune",
-            "item_id": "9b6047629fcca841fd6d8818",
-            "composed": false
           }
         ],
         "source": "The Hans India",
         "corroborating": [
           "The Assam Tribune",
+          "The Hindu",
           "LiveLaw"
         ],
         "url": "https://www.thehansindia.com/news/cities/new-delhi/supreme-court-quashes-firs-against-samay-raina-and-four-others-in-indias-got-latent-controversy-1109551"
       },
-      "group_size": 3,
+      "group_size": 4,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -717,7 +722,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -834,7 +839,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -917,7 +922,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1007,7 +1012,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -1141,7 +1146,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1256,7 +1261,7 @@
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 33.6, score 40 -> HIGH"
@@ -1381,7 +1386,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 0, stack 38.8, score 38.8 -> HIGH"
