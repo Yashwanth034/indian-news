@@ -881,3 +881,50 @@ def test_blocked_primary_enriched_from_co_member(bundle, tmp_path, tmp_cache):
     }
     assert "The Economic Times" in sources
     assert "NDTV" not in sources
+
+
+def test_blocked_high_singleton_rejected_insufficient(bundle, tmp_path, tmp_cache):
+    """Karnataka repro: a thin HIGH story whose only article is
+    robots-blocked and which has no alternate source stays
+    rejected.  Enrichment is attempted and counted, but the story
+    is never padded or invented, and the blocked-source
+    protection is never bypassed."""
+    base = _real_story(bundle)
+    cand = dict(base)
+    cand.update({
+        "story_id": "ndtv-karnataka",
+        "id": "ndtv-karnataka",
+        "event_id": "event-karnataka",
+        "source": "NDTV",
+        "title": (
+            "Karnataka Cabinet Approves Public Property Bill "
+            "Amid RSS Registration Row"
+        ),
+        "summary": (
+            "Priyank Kharge said the government has no "
+            "specific institution in mind."
+        ),
+        "url": (
+            "https://www.ndtv.com/india-news/"
+            "karnataka-cabinet-approves-public-property-bill"
+        ),
+        "score": 44.0,
+        "priority_score": 44.0,
+        "priority_level": "HIGH",
+    })
+
+    def fetcher(url, art_cfg, allowlist, robots=None, pace=None):
+        return ("blocked", {})
+
+    out = tmp_path / "q.json"
+    stories, stats = build_telegram_queue(
+        [cand], bundle, now_dt=NOW,
+        queue_path=out, cache=tmp_cache, fetcher=fetcher,
+    )
+
+    assert stats["article_extraction"]["eligible"] == 1
+    assert stats["article_extraction"]["fetched"] == 1
+    assert stats["article_extraction"]["blocked"] == 1
+    assert "article_sentences" not in stories
+    assert stats["summarization"]["rejected_insufficient"] == 1
+    assert stories == []

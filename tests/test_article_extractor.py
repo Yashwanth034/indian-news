@@ -1089,12 +1089,19 @@ class TestEnrichmentFallbackToCoMembers:
 
 
 class TestMassCasualtyEnrichmentGate:
-    """The enrichment gate admits thin HIGH-priority stories
-    scoring 60-64 only when they carry strong mass-casualty
-    evidence in a serious category.
+    """The enrichment gate is aligned with the Telegram candidate
+    queue gate: every thin candidate already accepted at HIGH /
+    URGENT / IMMEDIATE is eligible for article enrichment.
 
-    A bare "death"/"die"/"bodies" is never enough: individual
-    deaths and human-interest stories stay excluded.
+    The mass-casualty track remains as a precise observability
+    counter: it increments only for thin HIGH stories scoring
+    60-64 that carry strong casualty evidence in a serious
+    category (the Sudan mass-grave case).  A bare
+    "death"/"die"/"bodies" is never enough: individual deaths and
+    human-interest stories that were NOT accepted into the
+    telegram queue (NORMAL/LOW priority) stay excluded from
+    enrichment, so the pipeline never fetches every thin
+    candidate.
     """
 
     def make_candidate(self, **overrides):
@@ -1148,6 +1155,7 @@ class TestMassCasualtyEnrichmentGate:
                 story_id="nba-death",
                 id="nba-death",
                 event_id="event-nba",
+                priority_level="NORMAL",
                 title="NBA forward Clarke's death due to drugs",
                 summary=(
                     "Memphis Grizzlies forward Brandon Clarke's "
@@ -1172,6 +1180,7 @@ class TestMassCasualtyEnrichmentGate:
                 story_id="single-death",
                 id="single-death",
                 event_id="event-death",
+                priority_level="NORMAL",
                 title="Man dies after being hit by a car",
                 summary=(
                     "A 65-year-old man died in hospital after "
@@ -1240,6 +1249,7 @@ class TestMassCasualtyEnrichmentGate:
                 story_id="no-casualty-63",
                 id="no-casualty-63",
                 event_id="event-63",
+                priority_level="NORMAL",
                 title="Trade delegation visits the capital",
                 summary=(
                     "A trade delegation arrived to discuss "
@@ -1261,6 +1271,7 @@ class TestMassCasualtyEnrichmentGate:
                 story_id="sports-casualty",
                 id="sports-casualty",
                 event_id="event-sports",
+                priority_level="NORMAL",
                 category="sports",
                 title="Crowd trampled in stadium stampede",
                 summary=(
@@ -1283,6 +1294,7 @@ class TestMassCasualtyEnrichmentGate:
                 story_id="no-fat",
                 id="no-fat",
                 event_id="event-fat",
+                priority_level="NORMAL",
                 title="Warehouse fire under control",
                 summary="No fatalities reported, officials say.",
             )
@@ -1316,3 +1328,202 @@ class TestMassCasualtyEnrichmentGate:
         assert stats["mass_casualty"] == 1
         assert stats["thin"] == 0
         assert stats["fetched"] == 0
+
+
+class TestEnrichmentGateQueueAlignment:
+    """Regression tests for the enrichment-gate alignment: a
+    candidate already accepted into the Telegram candidate queue
+    at HIGH / URGENT / IMMEDIATE is eligible for article
+    enrichment when its briefing is thin.
+
+    Covers the confirmed production gap: HIGH stories scoring
+    38-64 (e.g. the Supreme Court food-regulator stories at
+    score 44 with empty or one-sentence RSS) were queued but
+    never article-fetched, so they were rejected as
+    rejected_insufficient.
+
+    The thinness gate, the fetch budget, the blocked-source
+    protections and the 2-5 sentence summary requirement are all
+    unchanged and are re-pinned below.
+    """
+
+    def make_candidate(self, **overrides):
+        base = candidate()
+        base.update(
+            {
+                "score": 44.0,
+                "priority_score": 44.0,
+                "priority_level": "HIGH",
+                "event_status": "NEW",
+                "effective_at": (
+                    NOW - timedelta(minutes=5)
+                ).isoformat(),
+            }
+        )
+        base.update(overrides)
+        return base
+
+    def test_high_score_38_to_64_thin_rss_fetchable_enriched(self):
+        # Production case: Supreme Court gives food regulator
+        # 2-week notice (HIGH, score 44, one-sentence RSS, article
+        # fetchable).  The enrichment gate now admits it and the
+        # 2-sentence summary can be produced.
+        from tests.telegram_pipeline_helpers import (
+            build_telegram_stories,
+        )
+
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="sc-food-notice",
+                id="sc-food-notice",
+                event_id="event-sc-food",
+                summary=(
+                    "The Supreme Court asked the food regulator "
+                    "to respond within two weeks."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+        story = build_telegram_stories(
+            out, cfg["telegram"], NOW
+        )[0]
+        rows = story["briefing"]["sentences"]
+        assert 2 <= len(rows) <= 5
+        assert all(r["text"] for r in rows)
+
+    def test_high_empty_rss_fetchable_article_enriched(self):
+        # Production case: Supreme Court environmental-law story
+        # (HIGH, score 44, empty RSS description, article
+        # fetchable).  Enrichment runs and the summary succeeds.
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="sc-env-law",
+                id="sc-env-law",
+                event_id="event-sc-env",
+                summary="",
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+        from tests.telegram_pipeline_helpers import (
+            build_telegram_stories,
+        )
+
+        story = build_telegram_stories(
+            out, cfg["telegram"], NOW
+        )[0]
+        rows = story["briefing"]["sentences"]
+        assert 2 <= len(rows) <= 5
+        assert all(r["text"] for r in rows)
+
+    def test_high_one_sentence_rss_fetchable_article_enriched(self):
+        # Production case: Supreme Court slams FSSAI (HIGH,
+        # score 44, one-sentence RSS, article fetchable).
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="sc-fssai",
+                id="sc-fssai",
+                event_id="event-sc-fssai",
+                summary=(
+                    "The Bench asks the country's food regulator "
+                    "whether it does not want children to grow up "
+                    "healthy."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_normal_thin_candidate_not_enriched(self):
+        # A NORMAL/LOW candidate is never article-enriched merely
+        # because it is thin: enrichment only follows the telegram
+        # queue gate (HIGH / URGENT / IMMEDIATE).
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="normal-thin",
+                id="normal-thin",
+                event_id="event-normal",
+                priority_level="NORMAL",
+                priority_score=30.0,
+                score=30.0,
+                summary="A minor incident was reported.",
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_non_thin_high_candidate_not_fetched(self):
+        # A HIGH candidate with a usable RSS briefing does not
+        # consume an unnecessary article-fetch slot.
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="high-not-thin",
+                id="high-not-thin",
+                event_id="event-hightthin",
+                summary=(
+                    "The court asked for a reply within two "
+                    "weeks. The regulator was told to file its "
+                    "response in writing. The next hearing was "
+                    "scheduled for September."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["thin"] == 0
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_high_blocked_article_no_alternate_stays_unenriched(self):
+        # Production case: Karnataka Cabinet story (HIGH,
+        # score 44, enrichment score 72) whose article is blocked
+        # by robots.txt.  The enrichment fetch is attempted and
+        # counted as blocked; the story is never padded from the
+        # headline or the blocked fetch.
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="karnataka-bill",
+                id="karnataka-bill",
+                event_id="event-karnataka",
+                url="https://www.bbc.co.uk/news/articles/c-blocked",
+                summary=(
+                    "Priyank Kharge said the government has no "
+                    "specific institution in mind."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None,
+            fetcher=fake_fetcher(status="blocked"),
+        )
+        assert stats["eligible"] == 1
+        assert stats["blocked"] == 1
+        assert stats["fetched"] == 1
+        assert "article_sentences" not in out[0]

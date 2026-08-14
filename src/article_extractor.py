@@ -916,12 +916,16 @@ def enrich_thin_stories(
             reverse=True,
         )[0]
 
-        # Importance gate: IMMEDIATE, JUST IN, score >= 65 or
-        # an update.  Additionally, a thin HIGH-priority story
-        # scoring 60-64 may qualify when it carries strong
-        # mass-casualty evidence in a serious/conflict/disaster/
-        # major-event category (the Sudan mass-grave case), as
-        # long as the thinness gate below still holds.
+        # Importance gate: aligned with the Telegram candidate
+        # queue gate, so a candidate already accepted at HIGH /
+        # URGENT / IMMEDIATE is eligible for article enrichment
+        # when its briefing is thin.  JUST IN, relevance >= 65
+        # and event updates remain eligible as before; the
+        # mass-casualty track stays an observability counter
+        # (thin HIGH stories scoring 60-64 with strong casualty
+        # evidence in a serious/conflict/disaster/major-event
+        # category, the Sudan mass-grave case).  The thinness
+        # gate below still holds for every candidate.
         label = public_label(
             primary, just_in_minutes, now_dt
         )
@@ -936,7 +940,8 @@ def enrich_thin_stories(
             )
         )
         important = (
-            primary.get("priority_level") == "IMMEDIATE"
+            primary.get("priority_level")
+            in ("IMMEDIATE", "URGENT", "HIGH")
             or label == JUST_IN
             or score >= 65
             or primary.get("event_status") == "UPDATE"
