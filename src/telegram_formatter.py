@@ -7,7 +7,7 @@ the final WorldNews message format:
 
     [Clear headline]
 
-    [2-5 useful explanatory sentences]
+    [2-4 useful explanatory sentences]
 
     \U0001F4F0 Source: [source name]
 
@@ -61,12 +61,12 @@ EMOJI_RE = re.compile(
 
 HTML_ENTITY_RE = re.compile(r"&[a-zA-Z#0-9]+;")
 
-# The final message carries 2-5 useful explanatory sentences:
+# The final message carries 2-4 useful explanatory sentences:
 # never fewer than two (below that the story is not
-# published) and never more than five (extra sentences are
+# published) and never more than four (extra sentences are
 # dropped, never padded).
 MIN_EXPLANATORY_SENTENCES = 2
-MAX_EXPLANATORY_SENTENCES = 5
+MAX_EXPLANATORY_SENTENCES = 4
 
 
 def telegram_visible_len(text):

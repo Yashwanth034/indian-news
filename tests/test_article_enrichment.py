@@ -276,7 +276,7 @@ class TestArticleEnrichmentPipeline:
         ]
         story = build_telegram_stories(cands, cfg, NOW)[0]
         rows = story["briefing"]["sentences"]
-        assert 2 <= len(rows) <= 5
+        assert 2 <= len(rows) <= 4
         texts = [r["text"] for r in rows]
         # The key consequence (evacuation) survives the concise
         # selection; the summary does not balloon to the full
@@ -374,7 +374,7 @@ class TestMinimumTwoSentencesPipeline:
         msg = build_message(stories[0], CFG, NOW)
         assert msg is not None
 
-    def test_maximum_five_meaningful_sentences_preserved(self):
+    def test_maximum_four_meaningful_sentences_preserved(self):
         cfg = dict(CFG)
         cfg["max_briefing_sentences"] = 10
         article = [
@@ -424,7 +424,7 @@ class TestMinimumTwoSentencesPipeline:
         stories = build_telegram_stories(cands, cfg, NOW)
         assert len(stories) == 1
         rows = stories[0]["briefing"]["sentences"]
-        assert 2 <= len(rows) <= 5
+        assert 2 <= len(rows) <= 4
         # Every retained row must carry real text; the
         # headline-only RSS sentence never enters the list.
         assert all(r["text"] for r in rows)

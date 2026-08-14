@@ -231,7 +231,7 @@ def build_telegram_stories(
     article text (when >= 2 useful sentences) is attached as a
     higher-scoring event member, the source-grounded briefing is
     built, and the summarizer composes + verifies + quality-gates the
-    2-5 sentence summary.  Stories with fewer than two genuinely
+    2-4 sentence summary.  Stories with fewer than two genuinely
     useful sentences are rejected, never padded.
     """
     if summarization_stats is not None:

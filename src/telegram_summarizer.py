@@ -1,7 +1,7 @@
 """Source-grounded Telegram summarizer.
 
 Deterministic, conservative summarization for every important
-story.  A 2-5 sentence summary is composed from facts extracted
+story.  A 2-4 sentence summary is composed from facts extracted
 from the available source material:
 
     1. clean    - the existing editorial cleaning/filtering
@@ -11,7 +11,7 @@ from the available source material:
                   when, important numbers, consequences are
                   extracted from each surviving sentence;
 3. compose  - fact-important sentences are selected
-                   (2-5), article text is the primary source
+                   (2-4), article text is the primary source
                   when article extraction is available, and
                   only conservative fact-preserving rewrites
                   (trailing attribution fronting) are applied;
@@ -64,9 +64,9 @@ _KEEP_CAPITAL = (
 # ---------------------------------------------------------
 
 MIN_SENTENCES = 2
-MAX_SENTENCES = 5
+MAX_SENTENCES = 4
 PREFERRED_SENTENCES = 2
-TIER1_MAX = 5
+TIER1_MAX = 4
 ARTICLE_ITEM_SUFFIX = ":article"
 
 # ---------------------------------------------------------
@@ -707,7 +707,7 @@ def quality_check_summary(headline, rows):
     if len(rows) < MIN_SENTENCES:
         problems.append("fewer than 2 useful sentences")
     if len(rows) > MAX_SENTENCES:
-        problems.append("more than 5 sentences")
+        problems.append("more than 4 sentences")
     if not (headline or "").strip():
         problems.append("missing headline")
 
@@ -1015,7 +1015,7 @@ def _select_pool(
     introduces a genuinely new essential fact (a distinct impact,
     a numbered claim, a location, or a time reference); rows that
     merely restate known facts or add names never expand the
-    summary.  The hard 2-5 sentence boundary is unchanged: the
+    summary.  The hard 2-4 sentence boundary is unchanged: the
     result never exceeds `cap`.  Returns rows in selection order.
     """
     seen = set()
@@ -1095,7 +1095,7 @@ def _select_pool(
 
 
 def select_fact_rows(rows, article_item_ids, cfg=None):
-    """Select the 2-5 fact-important sentences of the summary.
+    """Select the 2-4 fact-important sentences of the summary.
 
     Article-provenanced rows are the primary source and come
     first; the RSS rows fill any remaining slots.  Within each
@@ -1225,7 +1225,7 @@ def summarize_rows(
     article_item_ids=None,
     cfg=None,
 ):
-    """Compose, verify and quality-check the 2-5 sentence
+    """Compose, verify and quality-check the 2-4 sentence
     summary for one story.
 
     Returns (rows, stats) where stats records every rejection

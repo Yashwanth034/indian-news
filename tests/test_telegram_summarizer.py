@@ -1177,3 +1177,103 @@ class TestConciseness:
         assert "no immediate reports of casualties" in joined
         assert "generally more dangerous" not in joined
 
+
+# ---------------------------------------------------------------------------
+# Production 2-4 sentence boundary (config max_sentences = 4)
+# ---------------------------------------------------------------------------
+
+
+class TestProductionBoundary:
+    PROD_CFG = {
+        "min_sentences": 2,
+        "max_sentences": 4,
+        "tier1_max": 4,
+    }
+
+    def _summarize(self, texts):
+        rows = [row(t) for t in texts]
+        return summarize_rows(
+            rows,
+            " ".join(texts),
+            HEADLINE,
+            cfg=self.PROD_CFG,
+        )
+
+    def test_complex_story_can_use_four_when_each_sentence_adds_a_fact(self):
+        # Four sentences, each carrying a genuinely new essential
+        # fact (impact, location+time, two distinct numbered
+        # claims), fit within the production cap of four.
+        texts = [
+            "More than 20,000 residents have been forced from "
+            "their homes.",
+            "The fire started near the town of Ashcroft on "
+            "Sunday.",
+            "Winds of up to 40 mph are pushing the flames "
+            "northeast.",
+            "Three shelters have opened in Kamloops for "
+            "evacuees.",
+            "Crews are working through the night.",
+        ]
+        kept, stats = self._summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 4
+        joined = " ".join(r["text"] for r in kept)
+        assert "20,000" in joined
+        assert "40 mph" in joined
+        assert "Three shelters" in joined
+        assert "Ashcroft" in joined
+
+    def test_fifth_sentence_never_included(self):
+        # Six sentences each add a new numbered/located fact;
+        # the summary still stops at the production maximum of
+        # four.  The fifth and sixth sentences are never used.
+        texts = [
+            "More than 20,000 residents have been forced from "
+            "their homes.",
+            "The fire started near the town of Ashcroft on "
+            "Sunday.",
+            "Winds of up to 40 mph are pushing the flames "
+            "northeast.",
+            "Three shelters have opened in Kamloops for "
+            "evacuees.",
+            "Temperatures are forecast to stay above 30 "
+            "degrees this week.",
+            "Rail services through the valley have been "
+            "suspended.",
+        ]
+        kept, stats = self._summarize(texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 4
+        joined = " ".join(r["text"] for r in kept)
+        assert "30 degrees" not in joined
+        assert "Rail services" not in joined
+
+    def test_three_sentences_only_when_a_third_fact_is_genuine(self):
+        # A story with two essential facts and one secondary
+        # elaboration stays at two; a story with a genuine third
+        # fact (a numbered claim) uses three - never padding for
+        # its own sake.
+        two_fact_texts = [
+            "The 5.5-magnitude earthquake in Leh was recorded "
+            "at a depth of 10 km.",
+            "No immediate reports of casualties followed the "
+            "tremor.",
+            "Officials urged residents to stay alert.",
+        ]
+        kept, stats = self._summarize(two_fact_texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 2
+
+        three_fact_texts = [
+            "The 5.5-magnitude earthquake in Leh was recorded "
+            "at a depth of 10 km.",
+            "No immediate reports of casualties followed the "
+            "tremor.",
+            "Authorities suspended rail services on the "
+            "Kashmir line for 48 hours after the quake.",
+            "Officials urged residents to stay alert.",
+        ]
+        kept, stats = self._summarize(three_fact_texts)
+        assert stats["rejected"] is None
+        assert len(kept) == 3
+
