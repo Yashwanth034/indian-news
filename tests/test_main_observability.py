@@ -294,6 +294,171 @@ def test_pipeline_observability_empty_result():
 
 
 # ---------------------------------------------------------------------------
+# per-candidate decision diagnostics (read-only observability)
+# ---------------------------------------------------------------------------
+
+def _candidate_lines(result):
+    from src.main import _pipeline_observability_lines
+    return [
+        line for line in _pipeline_observability_lines(result)
+        if line.startswith("pipeline candidate ")
+    ]
+
+
+def test_candidate_diagnostics_show_queued_decision():
+    result = _fake_pipeline_result(
+        _fake_candidate(
+            "queued", priority="HIGH",
+            reasons=["dominant event 44, stack 22.4, score 44 -> HIGH"],
+        ),
+    )
+    lines = _candidate_lines(result)
+    assert len(lines) == 1
+    line = lines[0]
+    assert "status=queued" in line
+    assert "priority=HIGH" in line
+    assert "headline=\"Story queued\"" in line
+    assert "source=\"The Hindu\"" in line
+    assert "reason=\"dominant event 44, stack 22.4, score 44 -> HIGH\"" in line
+
+
+def test_candidate_diagnostics_show_hold_reason():
+    result = _fake_pipeline_result(
+        _fake_candidate(
+            "held",
+            reasons=["candidate gate: priority score 44 < 55"],
+        ),
+        _fake_candidate(
+            "held",
+            reasons=["candidate gate: priority score 20.5 < 55"],
+        ),
+    )
+    lines = _candidate_lines(result)
+    assert len(lines) == 2
+    assert any("status=held" in line for line in lines)
+    assert any("reason=\"candidate gate: priority score 44 < 55\"" in line
+               for line in lines)
+    assert any("reason=\"candidate gate: priority score 20.5 < 55\"" in line
+               for line in lines)
+
+
+def test_candidate_diagnostics_show_reject_reason():
+    result = _fake_pipeline_result(
+        _fake_candidate(
+            "rejected",
+            reasons=["candidate gate: no category classified"],
+        ),
+    )
+    lines = _candidate_lines(result)
+    assert len(lines) == 1
+    assert "status=rejected" in lines[0]
+    assert "reason=\"candidate gate: no category classified\"" in lines[0]
+
+
+def test_candidate_diagnostics_show_filler_reason():
+    result = _fake_pipeline_result(
+        _fake_candidate(
+            "filler", editorial="filler",
+            reasons=["editorial: score 42 -> filler"],
+        ),
+    )
+    lines = _candidate_lines(result)
+    assert len(lines) == 1
+    assert "status=filler" in lines[0]
+    assert "editorial=filler" in lines[0]
+    assert "reason=\"editorial: score 42 -> filler\"" in lines[0]
+
+
+def test_candidate_diagnostics_keep_aggregate_counts_unchanged():
+    result = _fake_pipeline_result(
+        _fake_candidate("queued", priority="HIGH"),
+        _fake_candidate("held"),
+        _fake_candidate(
+            "rejected", reasons=["candidate gate: no category classified"],
+        ),
+        _fake_candidate("filler", editorial="filler"),
+    )
+    from src.main import _pipeline_observability_lines
+    lines = _pipeline_observability_lines(result)
+    assert lines[0] == "pipeline candidates=4 queued=1 held=1 rejected=1 filler=1"
+    assert len(_candidate_lines(result)) == 4
+
+
+def test_candidate_diagnostics_do_not_change_publishing_behavior(
+    bundle, tmp_path, tmp_cache,
+):
+    """Rendering the per-candidate diagnostics mutates nothing: the
+    pipeline result and the Telegram queue file stay byte-identical."""
+    result = _thin_pipeline_result()
+
+    def _ok(url, art_cfg, allowlist, robots=None, pace=None):
+        return ("ok", {"text": _ARTICLE_TEXT, "title": None})
+
+    out = tmp_path / "q.json"
+    stories, stats = build_telegram_queue(
+        result, bundle, now_dt=NOW, queue_path=out,
+        cache=tmp_cache, fetcher=_ok,
+    )
+    assert len(stories) == 1
+    payload_before = json.loads(out.read_text(encoding="utf-8"))
+
+    candidates_before = [c.to_dict() for c in result.candidates]
+    queue_before = [c.to_dict() for c in result.queue]
+
+    lines = _candidate_lines(result)
+    assert len(lines) == len(result.candidates)
+    assert any("status=queued" in line for line in lines)
+
+    assert [c.to_dict() for c in result.candidates] == candidates_before
+    assert [c.to_dict() for c in result.queue] == queue_before
+    assert json.loads(out.read_text(encoding="utf-8")) == payload_before
+
+
+def test_candidate_diagnostics_truncate_long_headline():
+    long_title = "Delhi high court hearing " + "x" * 300
+    result = _fake_pipeline_result(
+        _fake_candidate("queued", priority="HIGH", reasons=["score 44 -> HIGH"]),
+    )
+    result.candidates[0].representative.title = long_title
+    lines = _candidate_lines(result)
+    assert len(lines) == 1
+    line = lines[0]
+    assert line.startswith("pipeline candidate status=queued")
+    assert "Delhi high court hearing" in line
+    assert "..." in line
+    assert "x" * 300 not in line
+
+
+def test_candidate_diagnostics_geo_includes_state_for_state_scope():
+    from src.main import _candidate_decision_line
+    from src.pipeline.geography import GeoResult
+    result = _fake_pipeline_result(
+        _fake_candidate("held", reasons=["candidate gate: priority score 30 < 55"]),
+    )
+    result.candidates[0].geo = GeoResult(
+        scope="state", states=["karnataka"], state="karnataka",
+        state_identifiable=True, national_significance=False,
+        is_national_story=False, has_title_geo=True,
+    )
+    line = _candidate_decision_line(result.candidates[0])
+    assert "geo=state:karnataka" in line
+
+
+def test_candidate_diagnostics_emit_one_line_per_candidate_real_pipeline():
+    result = _thin_pipeline_result()
+    lines = _candidate_lines(result)
+    assert len(lines) == len(result.candidates) >= 1
+    line = lines[0]
+    assert "status=queued" in line
+    assert "event_id=" in line
+    assert "relevance=" in line
+    assert "score=" in line
+    assert "category=" in line
+    assert "geo=" in line
+    assert "editorial=" in line
+
+
+# ---------------------------------------------------------------------------
 # integration: real build_telegram_queue stats drive the formatter
 # ---------------------------------------------------------------------------
 

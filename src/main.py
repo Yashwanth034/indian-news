@@ -120,12 +120,86 @@ def _telegram_observability_lines(stats: dict) -> list[str]:
     return lines
 
 
+_CANDIDATE_HEADLINE_MAX = 120
+_CANDIDATE_REASON_MAX = 200
+_CANDIDATE_SOURCE_MAX = 40
+
+
+def _safe_field(value, limit: int) -> str:
+    """Compact a value for a single-line log: strip control characters,
+    collapse whitespace, drop double quotes and truncate -- keeps the
+    line parseable while remaining recognizable."""
+    text = " ".join(str(value).replace('"', "'").split())
+    if len(text) > limit:
+        text = text[: max(0, limit - 3)] + "..."
+    return text
+
+
+def _candidate_decision_line(candidate) -> str:
+    """One compact, single-line diagnostic row per candidate.
+
+    Only reads metadata the pipeline already produced (Candidate.reasons,
+    editorial / priority / relevance / geo results); it never re-decides
+    anything.  Log-safe: no article bodies, no URLs, no secrets.
+    """
+    status = getattr(candidate, "status", "")
+    event_id = _safe_field(getattr(candidate, "event_id", "") or "", 40)
+    headline = _safe_field(
+        getattr(candidate, "title", "") or "", _CANDIDATE_HEADLINE_MAX
+    )
+
+    rep = getattr(candidate, "representative", None)
+    source = ""
+    if rep is not None:
+        source = _safe_field(
+            getattr(rep, "source_name", "") or getattr(rep, "source_id", "") or "",
+            _CANDIDATE_SOURCE_MAX,
+        )
+
+    relevance = getattr(candidate, "relevance", None)
+    relevance_score = float(getattr(relevance, "score", None) or 0.0)
+
+    priority = getattr(candidate, "priority", None)
+    priority_score = float(getattr(priority, "score", None) or 0.0)
+    priority_level = _safe_field(getattr(priority, "priority", "NORMAL"), 20)
+
+    category = getattr(candidate, "category", None) or "none"
+
+    editorial = getattr(candidate, "editorial", None)
+    editorial_decision = _safe_field(getattr(editorial, "decision", "n/a"), 20)
+
+    geo = getattr(candidate, "geo", None)
+    geo_scope = _safe_field(getattr(geo, "scope", "n/a"), 20)
+    if geo_scope in ("state", "local") and getattr(geo, "state", None):
+        geography = f"{geo_scope}:{_safe_field(getattr(geo, 'state', None), 40)}"
+    else:
+        geography = geo_scope
+
+    reasons = getattr(candidate, "reasons", None) or []
+    if reasons:
+        reason_text = " | ".join(
+            _safe_field(r, _CANDIDATE_REASON_MAX) for r in reasons
+        )
+    else:
+        reason_text = status
+
+    return (
+        f"pipeline candidate status={status} event_id={event_id} "
+        f"priority={priority_level} score={priority_score:g} "
+        f"relevance={relevance_score:g} category={category} "
+        f"geo={geography} editorial={editorial_decision} "
+        f'source="{source}" headline="{headline}" '
+        f'reason="{reason_text}"'
+    )
+
+
 def _pipeline_observability_lines(result) -> list[str]:
     """Render candidate-gate outcomes as diagnostic log lines.
 
-    Counts candidates by final status (queued / held / rejected / filler)
-    and breaks the rejected set down by reason so a run that produced
-    nothing is self-explanatory without opening data/telegram_queue.json.
+    First the aggregate line (unchanged), then one compact line per
+    candidate showing its final decision and reason, then the existing
+    summary buckets -- so a run is explainable without opening
+    data/telegram_queue.json.
 
     Tolerates thin fake results (SimpleNamespace) used in tests: it only
     reads ``candidates`` / ``queue`` and per-candidate ``status`` /
@@ -142,6 +216,9 @@ def _pipeline_observability_lines(result) -> list[str]:
         f"pipeline candidates={len(candidates)} queued={len(queue)} "
         f"held={len(held)} rejected={len(rejected)} filler={len(filler)}"
     ]
+
+    for candidate in candidates:
+        lines.append(_candidate_decision_line(candidate))
 
     if held:
         lines.append(f"pipeline held: priority_below_high={len(held)}")
