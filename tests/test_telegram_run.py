@@ -7,7 +7,7 @@ into a pytest tmp_path so the repo's real data/ is untouched.
 """
 import builtins
 import json
-from datetime import timedelta
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -781,3 +781,309 @@ def test_two_runs_keep_scheduled_stories(
     code = main(["--config", cfg_run3, "--force", "--yes"])
     assert code == 0
     assert len(publisher.sent) == sent_before
+
+
+# ---------------------------------------------------------
+# chronological schedule ordering (production bug fix)
+# ---------------------------------------------------------
+
+
+def _fixed_delays(monkeypatch, delays):
+    """Force the run's random delay draws to an exact sequence."""
+    import random
+
+    it = iter(delays)
+    monkeypatch.setattr(
+        random,
+        "randint",
+        lambda a, b: next(it),
+    )
+
+
+@pytest.fixture
+def fake_clock(monkeypatch):
+    """Deterministic wall clock: sleep_until jumps the clock forward."""
+    import src.telegram_run as run_mod
+    import src.telegram_scheduler as sched_mod
+
+    def factory(start):
+        clock = {"now": start}
+
+        def utcnow():
+            return clock["now"]
+
+        def sleep_until(target_ts):
+            target = datetime.fromtimestamp(
+                target_ts, tz=timezone.utc
+            )
+            if target > clock["now"]:
+                clock["now"] = target
+
+        monkeypatch.setattr(run_mod, "now_utc", utcnow)
+        monkeypatch.setattr(sched_mod, "now_utc", utcnow)
+        monkeypatch.setattr(run_mod, "sleep_until", sleep_until)
+        return clock
+
+    return factory
+
+
+def _high_item(story_id, prio, age_minutes, start):
+    return make_item(
+        story_id=story_id,
+        priority_level="HIGH",
+        priority_score=prio,
+        title="Independent story {}".format(story_id),
+        url="https://example.com/{}".format(story_id),
+        effective_at=(
+            start - timedelta(minutes=age_minutes)
+        ).isoformat(),
+    )
+
+
+def test_run_sleeps_to_earliest_scheduled_first(
+    tmp_path,
+    fake_publisher_factory,
+    fake_clock,
+    monkeypatch,
+    capsys,
+):
+    # Candidate order is by priority (a first), but the delays
+    # schedule a LAST: a=T+240, b=T+60, c=T+120.  The run loop must
+    # sleep to b (the earliest scheduled_at), not to the first
+    # inserted entry.
+    start = datetime(2026, 8, 14, 7, 0, 0, tzinfo=timezone.utc)
+    fake_clock(start)
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[60, 240],
+        important_delay_seconds=[60, 240],
+    )
+    write_queue(
+        tmp_path,
+        [
+            _high_item("story-a", 45, 5, start),
+            _high_item("story-b", 44, 5, start),
+            _high_item("story-c", 44, 5, start),
+        ],
+    )
+    _fixed_delays(monkeypatch, [240, 60, 120])
+
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+
+    out = capsys.readouterr().out
+
+    sched_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("scheduled ")
+    ]
+    assert len(sched_lines) == 3
+    times = [
+        line.split("|")[1].strip()
+        for line in sched_lines
+    ]
+    assert times == sorted(times)
+    assert "story-b" in sched_lines[0]
+    assert "story-a" in sched_lines[2]
+
+    wait_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("=== waiting ")
+    ]
+    assert len(wait_lines) == 3
+    assert "story-b" in wait_lines[0]
+    assert "60 seconds" in wait_lines[0]
+
+    published_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("published ")
+        and " | message_id=" in line
+    ]
+    assert published_lines == [
+        "published   story-b | message_id=1",
+        "published   story-c | message_id=2",
+        "published   story-a | message_id=3",
+    ]
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 3
+
+
+def test_one_run_publishes_multiple_stories_chronologically(
+    tmp_path,
+    fake_publisher_factory,
+    fake_clock,
+    monkeypatch,
+    capsys,
+):
+    # Three stories scheduled >= 60s apart (a=T+183, b=T+61,
+    # c=T+122), inserted in non-chronological order: a single run
+    # must publish all three in chronological order with the 60s
+    # gap respected.
+    start = datetime(2026, 8, 14, 7, 0, 0, tzinfo=timezone.utc)
+    fake_clock(start)
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[61, 183],
+        important_delay_seconds=[61, 183],
+    )
+    write_queue(
+        tmp_path,
+        [
+            _high_item("story-a", 45, 5, start),
+            _high_item("story-b", 44, 5, start),
+            _high_item("story-c", 44, 5, start),
+        ],
+    )
+    _fixed_delays(monkeypatch, [183, 61, 122])
+
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+
+    out = capsys.readouterr().out
+    published_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("published ")
+        and " | message_id=" in line
+    ]
+    assert published_lines == [
+        "published   story-b | message_id=1",
+        "published   story-c | message_id=2",
+        "published   story-a | message_id=3",
+    ]
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 3
+    assert state["scheduled"] == []
+
+
+def test_summary_due_counts_distinct_entries(
+    tmp_path,
+    fake_publisher_factory,
+    fake_clock,
+    monkeypatch,
+    capsys,
+):
+    # Exact production ordering scenario (run 3179188297):
+    #   a=311c86ef -> 07:21:31, b=8f9a11a7 -> 07:17:04,
+    #   c=40989e31 -> 07:18:59
+    # With chronological ordering each story is due at its own wake
+    # time, so due must count 3 distinct entries -- never the old
+    # 3+2+2=7 accumulation.
+    start = datetime(
+        2026, 8, 14, 7, 15, 3, tzinfo=timezone.utc
+    )
+    fake_clock(start)
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[120, 420],
+        important_delay_seconds=[60, 240],
+    )
+    write_queue(
+        tmp_path,
+        [
+            _high_item("311c86ef607f19a2cf0f9c7e", 45, 23, start),
+            _high_item("8f9a11a7xxxxxxxxxxxxxxxx", 44, 7, start),
+            _high_item("40989e31xxxxxxxxxxxxxxxx", 44, 45, start),
+        ],
+    )
+    _fixed_delays(monkeypatch, [388, 121, 236])
+
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+
+    out = capsys.readouterr().out
+
+    assert (
+        "2026-08-14T07:17:04+00:00" in out
+    )
+    assert (
+        "2026-08-14T07:18:59+00:00" in out
+    )
+    assert (
+        "2026-08-14T07:21:31+00:00" in out
+    )
+    assert "waiting 121 seconds for 8f9a11a7" in out
+
+    assert "due            : 3" in out
+    assert "published      : 3" in out
+    assert "skipped (gap)  : 0" in out
+
+    published_lines = [
+        line
+        for line in out.splitlines()
+        if line.startswith("published ")
+        and " | message_id=" in line
+    ]
+    assert published_lines == [
+        "published   8f9a11a7 | message_id=1",
+        "published   40989e31 | message_id=2",
+        "published   311c86ef | message_id=3",
+    ]
+    state = load_state(tmp_path)
+    assert len(state["posted"]) == 3
+    assert state["scheduled"] == []
+
+
+def test_gap_skipped_entry_survives_to_next_run(
+    tmp_path,
+    fake_publisher_factory,
+    fake_clock,
+    monkeypatch,
+):
+    # a=T+61 publishes; b=T+91 (30s later) is gap-skipped and must
+    # stay scheduled.  The next cron-cycle run publishes b once the
+    # 60s gap from a's post has elapsed.
+    start = datetime(2026, 8, 14, 7, 0, 0, tzinfo=timezone.utc)
+    clock = fake_clock(start)
+    publisher = fake_publisher_factory()
+    config_path = write_config(
+        tmp_path,
+        min_gap_seconds=60,
+        max_posts_per_hour=40,
+        max_posts_per_day=150,
+        normal_delay_seconds=[61, 91],
+        important_delay_seconds=[61, 91],
+    )
+    write_queue(
+        tmp_path,
+        [
+            _high_item("story-a", 45, 5, start),
+            _high_item("story-b", 44, 5, start),
+        ],
+    )
+    _fixed_delays(monkeypatch, [61, 91])
+
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+    state = load_state(tmp_path)
+    assert [
+        e["story_id"] for e in state["scheduled"]
+    ] == ["story-b"]
+    assert [
+        p["story_id"] for p in state["posted"]
+    ] == ["story-a"]
+
+    # Next cron cycle: more than 60s after a's post.
+    clock["now"] = start + timedelta(minutes=2, seconds=30)
+    code = main(["--config", config_path, "--force", "--yes"])
+    assert code == 0
+    state = load_state(tmp_path)
+    assert state["scheduled"] == []
+    assert [
+        p["story_id"] for p in state["posted"]
+    ] == ["story-a", "story-b"]

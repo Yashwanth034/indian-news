@@ -432,6 +432,19 @@ def main(argv=None):
             + new_scheduled
         )
 
+    # Chronological schedule ordering (same key publish_due uses):
+    # the run loop sleeps to the FIRST scheduled entry, so the list
+    # must be sorted by scheduled_at or the loop can sleep past
+    # earlier-due stories.  Sort unconditionally so unsorted state
+    # persisted by older versions is repaired automatically.
+    state["scheduled"] = sorted(
+        state.get("scheduled", []),
+        key=lambda e: (
+            str(e.get("scheduled_at", "")),
+            str(e.get("story_id", "")),
+        ),
+    )
+
     for entry in state.get("scheduled", []):
         report_line(
             "scheduled",
