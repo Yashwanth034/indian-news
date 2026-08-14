@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:21:43.174005+00:00",
+  "generated_at": "2026-08-14T13:32:16.948638+00:00",
   "count": 11,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 30, score 82 -> IMMEDIATE"
@@ -186,7 +186,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 45, score 50.4 -> HIGH"
@@ -299,7 +299,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 31.4, score 50.4 -> HIGH"
@@ -453,7 +453,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -641,7 +641,7 @@
           "source_ids": [
             "greater-kashmir"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -655,12 +655,13 @@
         "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -758,6 +759,120 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "324e59b14ce669a28be3c1f4",
+      "story_id": "324e59b14ce669a28be3c1f4",
+      "headline": "India’s Got Latent: SC quashes FIRs against comedian Samay Raina, 4 others",
+      "title": "India’s Got Latent: SC quashes FIRs against comedian Samay Raina, 4 others",
+      "summary": "Mumbai: The Supreme Court on Friday cancelled all FIRs filed against comedian Samay Raina and four others over insensitive remarks against persons with disabilities. A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana took note of their compliance with its earlier directions, including conducting awareness programmes and […] The post India’s Got Latent: SC quashes FIRs against comedian Samay Raina, 4 others appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/uncategorized/indias-got-latent-sc-quashes-firs-against-comedian-samay-raina-4-others",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-14T11:40:54+00:00",
+      "published_at": "2026-08-14T11:40:54+00:00",
+      "effective_at": "2026-08-14T11:40:54+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "recency: breaking (1.9h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 27.6, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "maharashtra",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Mumbai: The Supreme Court on Friday cancelled all FIRs filed against comedian Samay Raina and four others over insensitive remarks against persons with disabilities.",
+          "A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana took note of their compliance with its earlier directions, including conducting awareness programmes and […] The post India’s Got Latent: SC quashes FIRs against comedian Samay Raina, 4 others appeared first on KalingaTV."
+        ],
+        "body": [
+          "New Delhi, Aug 14: The Supreme Court on Friday quashed the FIRs registered against YouTuber and comedian Samay Raina and four other comedians in connection with offensive remarks made about Persons with Disabilities during an episode of the show 'India's Got Latent'.",
+          "A Bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohan passed the order, noting that the comedians had complied with the court's earlier directions by undertaking awareness initiatives and fundraising activities for Persons with Disabilities.",
+          "Apart from Raina, the relief was granted to comedians Vipul Goyal, Balraj Paramjeet Singh Ghai, Sonali Thakkar alias Sonali Aditya Desai, and Nishant Jagdish Tanwar.",
+          "The court appreciated their efforts in organising programmes aimed at promoting awareness and supporting persons with disabilities.",
+          "In view of their compliance with the directions issued earlier, the Bench ordered the quashing of the criminal cases lodged against them over the insensitive remarks.",
+          "However, the top court said it would continue hearing the matter to consider suggestions from Persons with Disabilities and other stakeholders on mechanisms to prevent the dissemination of such content in the future.",
+          "The court indicated that it may issue appropriate directions on the broader issues involved.",
+          "The court last month had imposed a cost of Rs 3 lakh on the comedians for failing to comply with their earlier undertakings to make amends.",
+          "The controversy stems from an episode of 'India's Got Latent' that was recorded at Khar Habitat on November 14, 2024, and aired subsequently.",
+          "Several participants on the comedy show faced multiple criminal complaints for allegedly making obscene and insensitive remarks.",
+          "Among those named in the cases was podcaster and content creator Ranveer Allahbadia, popularly known as BeerBiceps.",
+          "His petition seeking relief from the criminal proceedings remains pending before the apex court, although he has already been granted interim protection from arrest.",
+          "Other personalities associated with the controversial episode, including YouTuber Ashish Chanchlani and comedian Samay Raina, had also faced criminal proceedings in connection with the matter.",
+          "--IANS.",
+          "The top court appreciated the efforts made by them in organising a chess tournament in March for disabled persons and helping raise awareness about organisations working for persons with disabilities.",
+          "The Court recorded that the comedians had taken efforts to spread awareness about persons with disabilities."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Khar Habitat"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The controversy stems from an episode of 'India's Got Latent' that was recorded at Khar Habitat on November 14, 2024, and aired subsequently.",
+            "source": "The Assam Tribune",
+            "item_id": "9b6047629fcca841fd6d8818",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Aug 14: The Supreme Court on Friday quashed the FIRs registered against YouTuber and comedian Samay Raina and four other comedians in connection with offensive remarks made about Persons with Disabilities during an episode of the show 'India's Got Latent'.",
+            "source": "The Assam Tribune",
+            "item_id": "9b6047629fcca841fd6d8818",
+            "composed": false
+          },
+          {
+            "text": "The court last month had imposed a cost of Rs 3 lakh on the comedians for failing to comply with their earlier undertakings to make amends.",
+            "source": "The Assam Tribune",
+            "item_id": "9b6047629fcca841fd6d8818",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [
+          "The Assam Tribune",
+          "The Hindu",
+          "LiveLaw"
+        ],
+        "url": "https://kalingatv.com/uncategorized/indias-got-latent-sc-quashes-firs-against-comedian-samay-raina-4-others"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5cb7e4e45aaec2cb1ad92ef9",
       "story_id": "5cb7e4e45aaec2cb1ad92ef9",
       "headline": "India’s wholesale inflation reaches 9.78% in July",
@@ -802,7 +917,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -870,120 +985,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9b6047629fcca841fd6d8818",
-      "story_id": "9b6047629fcca841fd6d8818",
-      "headline": "SC quashes FIRs against Samay Raina, four others over PwD remarks",
-      "title": "SC quashes FIRs against Samay Raina, four others over PwD remarks",
-      "summary": "New Delhi, Aug 14 : The Supreme Court on Friday quashed the FIRs registered against YouTuber and comedian Samay Raina and four other comedians in connection with offensive remarks made about Persons with Disabilities during an episode of the show 'India's Got Latent'. A Bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohan passed the order, noting that the comedians had complied with the court's earlier directions by undertaking awareness initiatives and fundraising activities for Persons with Disabilities. Apart from Raina, the relief was granted to comedians Vipul Goyal, Balraj Paramjeet Singh Ghai, Sonali Thakkar alias Sonali Aditya Desai, and Nishant Jagdish Tanwar. The court appreciated their efforts in organising programmes aimed at promoting awareness and supporting persons with disabilities. In view of their compliance with the directions issued earlier, the Bench ordered the quashing of the criminal cases lodged against them over the insensitive remarks. However, the top court said it would continue hearing the matter to consider suggestions from Persons with Disabilities and other stakeholders on mechanisms to prevent the dissemination of such content in the future. The court indicated that it may issue appropriate directions on the broader issues involved. The court last month had imposed a cost of Rs 3 lakh on the comedians for failing to comply with their earlier undertakings to make amends. The controversy stems from an episode of 'India's Got Latent' that was recorded at Khar Habitat on November 14, 2024, and aired subsequently. Several participants on the comedy show faced multiple criminal complaints for allegedly making obscene and insensitive remarks. Among those named in the cases was podcaster and content creator Ranveer Allahbadia, popularly known as BeerBiceps. His petition seeking relief from the criminal proceedings remains pending before the apex court, although he has already been granted interim protection from arrest. Other personalities associated with the controversial episode, including YouTuber Ashish Chanchlani and comedian Samay Raina, had also faced criminal proceedings in connection with the matter. --IANS",
-      "url": "https://assamtribune.com/entertainment/sc-quashes-firs-against-samay-raina-four-others-over-pwd-remarks-1615657",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "science-space",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 85.2,
-      "priority_score": 44.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-14T10:34:52+00:00",
-      "published_at": "2026-08-14T10:34:52+00:00",
-      "effective_at": "2026-08-14T10:34:52+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
-        "scale: state scope (delhi)",
-        "recency: breaking (2.8h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Aug 14: The Supreme Court on Friday quashed the FIRs registered against YouTuber and comedian Samay Raina and four other comedians in connection with offensive remarks made about Persons with Disabilities during an episode of the show 'India's Got Latent'.",
-          "A Bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohan passed the order, noting that the comedians had complied with the court's earlier directions by undertaking awareness initiatives and fundraising activities for Persons with Disabilities."
-        ],
-        "body": [
-          "Apart from Raina, the relief was granted to comedians Vipul Goyal, Balraj Paramjeet Singh Ghai, Sonali Thakkar alias Sonali Aditya Desai, and Nishant Jagdish Tanwar.",
-          "The court appreciated their efforts in organising programmes aimed at promoting awareness and supporting persons with disabilities.",
-          "In view of their compliance with the directions issued earlier, the Bench ordered the quashing of the criminal cases lodged against them over the insensitive remarks.",
-          "However, the top court said it would continue hearing the matter to consider suggestions from Persons with Disabilities and other stakeholders on mechanisms to prevent the dissemination of such content in the future.",
-          "The court indicated that it may issue appropriate directions on the broader issues involved.",
-          "The court last month had imposed a cost of Rs 3 lakh on the comedians for failing to comply with their earlier undertakings to make amends.",
-          "The controversy stems from an episode of 'India's Got Latent' that was recorded at Khar Habitat on November 14, 2024, and aired subsequently.",
-          "Several participants on the comedy show faced multiple criminal complaints for allegedly making obscene and insensitive remarks.",
-          "Among those named in the cases was podcaster and content creator Ranveer Allahbadia, popularly known as BeerBiceps.",
-          "His petition seeking relief from the criminal proceedings remains pending before the apex court, although he has already been granted interim protection from arrest.",
-          "Other personalities associated with the controversial episode, including YouTuber Ashish Chanchlani and comedian Samay Raina, had also faced criminal proceedings in connection with the matter.",
-          "--IANS.",
-          "The top court appreciated the efforts made by them in organising a chess tournament in March for disabled persons and helping raise awareness about organisations working for persons with disabilities.",
-          "The Court recorded that the comedians had taken efforts to spread awareness about persons with disabilities."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Khar Habitat"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "New Delhi, Aug 14: The Supreme Court on Friday quashed the FIRs registered against YouTuber and comedian Samay Raina and four other comedians in connection with offensive remarks made about Persons with Disabilities during an episode of the show 'India's Got Latent'.",
-            "source": "The Assam Tribune",
-            "item_id": "9b6047629fcca841fd6d8818",
-            "composed": false
-          },
-          {
-            "text": "The court last month had imposed a cost of Rs 3 lakh on the comedians for failing to comply with their earlier undertakings to make amends.",
-            "source": "The Assam Tribune",
-            "item_id": "9b6047629fcca841fd6d8818",
-            "composed": false
-          },
-          {
-            "text": "Apart from Raina, the relief was granted to comedians Vipul Goyal, Balraj Paramjeet Singh Ghai, Sonali Thakkar alias Sonali Aditya Desai, and Nishant Jagdish Tanwar.",
-            "source": "The Assam Tribune",
-            "item_id": "9b6047629fcca841fd6d8818",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [
-          "The Hindu",
-          "LiveLaw"
-        ],
-        "url": "https://assamtribune.com/entertainment/sc-quashes-firs-against-samay-raina-four-others-over-pwd-remarks-1615657"
-      },
-      "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "a8afd2d697db136129fbc730",
       "story_id": "a8afd2d697db136129fbc730",
       "headline": "Supreme Court Stays Madras HC Judgment Quashing Compassionate Appointments For Karur Tragedy Victims",
@@ -1026,7 +1027,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 44.4, score 44.4 -> HIGH"
@@ -1128,7 +1129,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1248,7 +1249,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'strikes down' in title weight 40",
         "scale: state scope (gujarat)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "geo: state",
         "dominant event 40, stack 20, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1363,7 +1364,7 @@
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 29.6, score 40 -> HIGH"
