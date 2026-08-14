@@ -120,6 +120,56 @@ def _telegram_observability_lines(stats: dict) -> list[str]:
     return lines
 
 
+def _pipeline_observability_lines(result) -> list[str]:
+    """Render candidate-gate outcomes as diagnostic log lines.
+
+    Counts candidates by final status (queued / held / rejected / filler)
+    and breaks the rejected set down by reason so a run that produced
+    nothing is self-explanatory without opening data/telegram_queue.json.
+
+    Tolerates thin fake results (SimpleNamespace) used in tests: it only
+    reads ``candidates`` / ``queue`` and per-candidate ``status`` /
+    ``reasons`` / ``priority`` / ``editorial`` via getattr.
+    """
+    candidates = list(getattr(result, "candidates", None) or [])
+    queue = list(getattr(result, "queue", None) or [])
+
+    held = [c for c in candidates if getattr(c, "status", "") == "held"]
+    rejected = [c for c in candidates if getattr(c, "status", "") == "rejected"]
+    filler = [c for c in candidates if getattr(c, "status", "") == "filler"]
+
+    lines: list[str] = [
+        f"pipeline candidates={len(candidates)} queued={len(queue)} "
+        f"held={len(held)} rejected={len(rejected)} filler={len(filler)}"
+    ]
+
+    if held:
+        lines.append(f"pipeline held: priority_below_high={len(held)}")
+
+    if rejected:
+        buckets = {"no_category": 0, "editorial_reject": 0, "geo_gate": 0,
+                   "priority_blocked": 0}
+        for c in rejected:
+            reasons = " ".join(getattr(c, "reasons", None) or [])
+            editorial = getattr(c, "editorial", None)
+            priority = getattr(c, "priority", None)
+            if "no category classified" in reasons:
+                buckets["no_category"] += 1
+            elif getattr(editorial, "decision", None) == "reject":
+                buckets["editorial_reject"] += 1
+            elif "state not identifiable" in reasons:
+                buckets["geo_gate"] += 1
+            elif getattr(priority, "blocked", False):
+                buckets["priority_blocked"] += 1
+        detail = " ".join(f"{k}={v}" for k, v in buckets.items() if v)
+        lines.append(f"pipeline rejected: {detail}")
+
+    if filler:
+        lines.append(f"pipeline filler: editorial_filler={len(filler)}")
+
+    return lines
+
+
 def main() -> int:
     try:
         bundle = get_config()
@@ -174,6 +224,8 @@ def main() -> int:
         f"candidates={len(result.candidates)} "
         f"queued={len(result.queue)}"
     )
+    for line in _pipeline_observability_lines(result):
+        print(f"main: {line}")
 
     try:
         stories, stats = build_telegram_queue(result, bundle, now_dt=now)

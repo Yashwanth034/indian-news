@@ -309,6 +309,62 @@ def test_conflicting_source_information_low_confidence(scorer, classifier):
     assert r.priority in ("IMMEDIATE", "URGENT")
 
 
+# --- broad important-event coverage (audit regression) -----------------------
+
+def test_cabinet_approval_is_high(scorer, classifier):
+    title = "Cabinet approves Rs 10,000 crore semiconductor manufacturing unit"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_missile_test_is_high(scorer, classifier):
+    title = "India successfully tests Agni-V ballistic missile"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_regulatory_action_is_high(scorer, classifier):
+    title = "SEBI bans 14 entities for insider trading"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_corporate_acquisition_is_high(scorer, classifier):
+    title = "Adani Group announces acquisition of majority stake in Ambuja Cements"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_tariff_decision_is_high(scorer, classifier):
+    title = "US slaps 25% tariff on Indian steel, India weighs retaliation"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_major_appointment_is_high(scorer, classifier):
+    title = "Justice Sanjiv Khanna appointed as Chief Justice of India"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_infrastructure_collapse_is_high(scorer, classifier):
+    title = "Bridge collapse in Bihar: several feared dead"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_govt_nod_without_category_is_high(scorer, classifier):
+    title = "Cabinet gives nod to sweeping reform"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority in ("HIGH", "URGENT", "IMMEDIATE")
+
+
+def test_ordinary_low_value_story_stays_normal(scorer, classifier):
+    title = "Indian Railways launches new express train between Mumbai and Pune"
+    r = _score(scorer, title, category=classifier.classify_text(title))
+    assert r.priority == "NORMAL"
+
+
 # --- explainability / thresholds --------------------------------------------
 
 def test_result_explainable_and_thresholds_configurable(scorer):

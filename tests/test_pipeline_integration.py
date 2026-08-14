@@ -483,3 +483,131 @@ def test_candidate_reasons_include_editorial_and_priority(pipeline):
     r = pipeline.run(_breaking(), now=NOW)
     c = r.candidates[0]
     assert any("score" in reason for reason in c.reasons)
+
+
+# --- audit regression: important news must reach the queue -------------------
+
+@pytest.mark.parametrize("title", [
+    "Cabinet approves Rs 10,000 crore semiconductor manufacturing unit",
+    "Supreme Court strikes down electoral bonds scheme",
+    "India successfully tests Agni-V ballistic missile",
+    "SEBI bans 14 entities for insider trading",
+    "Adani Group announces acquisition of majority stake in Ambuja Cements",
+    "India may retaliate as US slaps 25% tariff on Indian steel",
+    "Justice Sanjiv Khanna appointed as Chief Justice of India",
+    "India bridge collapse kills 10 in Bihar",
+])
+def test_important_news_types_queue(pipeline, title):
+    r = pipeline.run([_art("the-hindu", title)], now=NOW)
+    assert len(r.candidates) == 1, title
+    c = r.candidates[0]
+    assert c.status == "queued", f"{title}: status={c.status} reasons={c.reasons}"
+    assert c.priority.priority in ("HIGH", "URGENT", "IMMEDIATE"), title
+    assert len(r.queue) == 1, title
+
+
+def test_major_disaster_still_immediate(pipeline):
+    r = pipeline.run(
+        [_art("the-hindu", "Major earthquake of magnitude 7.2 strikes Delhi, rescue underway")],
+        now=NOW,
+    )
+    c = r.candidates[0]
+    assert c.priority.priority == "IMMEDIATE"
+    assert c.status == "queued"
+
+
+def test_ordinary_low_value_article_not_automatically_queued(pipeline):
+    r = pipeline.run(
+        [_art("the-hindu", "Indian Railways launches new express train between Mumbai and Pune")],
+        now=NOW,
+    )
+    assert len(r.candidates) == 1
+    assert r.candidates[0].status == "held"
+    assert r.queue == []
+
+
+def test_important_story_with_missing_category_is_queued(pipeline):
+    title = "Cabinet gives nod to sweeping reform"
+    r = pipeline.run([_art("the-hindu", title)], now=NOW)
+    assert len(r.candidates) == 1
+    c = r.candidates[0]
+    assert c.category is None
+    assert c.priority.priority in ("HIGH", "URGENT", "IMMEDIATE")
+    assert c.status == "queued"
+
+
+def test_normal_story_with_missing_category_still_rejected(pipeline):
+    r = pipeline.run(
+        [_art("the-hindu", "Parliament convenes routine committee meeting on procedural matters")],
+        now=NOW,
+    )
+    assert len(r.candidates) == 1
+    c = r.candidates[0]
+    assert c.category is None
+    assert c.status in ("rejected", "held")
+
+
+def test_irrelevant_article_still_rejected(pipeline):
+    r = pipeline.run(
+        [_art("bbc", "European Union agrees trade deal with Canada")],
+        now=NOW,
+    )
+    assert r.relevant == 0
+    assert r.queue == []
+
+
+def test_editorial_reject_still_rejected(pipeline):
+    r = pipeline.run(
+        [_art("the-hindu", "Delhi government announces astrologer predicts new year luck")],
+        now=NOW,
+    )
+    assert r.queue == []
+    assert all(c.status == "rejected" for c in r.candidates)
+
+
+def test_33_relevant_events_do_not_automatically_produce_33_posts(pipeline):
+    """A big batch of relevant events must not auto-publish everything: only
+    genuinely important qualifying events may queue."""
+    important = [
+        "Major earthquake of magnitude 7.2 strikes Delhi, rescue underway",
+        "Cabinet approves Rs 10,000 crore semiconductor manufacturing unit",
+        "India successfully tests Agni-V ballistic missile",
+    ]
+    low_value = [
+        "Indian Railways launches new express train between Mumbai and Pune",
+        "Indian Railways launches new express train between Delhi and Agra",
+        "Indian Railways launches new express train between Chennai and Bengaluru",
+        "Indian Railways launches new express train between Kolkata and Patna",
+        "Indian Railways launches new express train between Hyderabad and Vijayawada",
+        "Indian Railways launches new express train between Ahmedabad and Surat",
+        "Indian Railways launches new express train between Lucknow and Kanpur",
+        "Indian Railways launches new express train between Bhopal and Indore",
+        "Indian Railways launches new express train between Jaipur and Jodhpur",
+        "Indian Railways launches new express train between Kochi and Thiruvananthapuram",
+    ]
+    articles = [_art("the-hindu", t) for t in important + low_value * 3]
+    r = pipeline.run(articles, now=NOW)
+    assert r.relevant == len(articles)
+    assert r.events < len(articles)  # dedup merges near-identical railway stories
+    queued_titles = {c.title for c in r.queue}
+    assert len(r.queue) == len(important)
+    assert {t for t in important} == queued_titles
+
+
+def test_same_event_two_sources_deduplicated(pipeline):
+    title = "Major earthquake of magnitude 7.2 strikes Delhi, rescue underway"
+    a = _art("the-hindu", title)
+    b = _art("ndtv", "Major earthquake hits Delhi, rescue underway")
+    r = pipeline.run([a, b], now=NOW)
+    assert r.events == 1
+    assert len(r.candidates) == 1
+    assert len(r.queue) == 1
+
+
+def test_two_distinct_important_events_both_survive(pipeline):
+    a = _art("the-hindu", "Major earthquake of magnitude 7.2 strikes Delhi, rescue underway")
+    b = _art("the-hindu", "India successfully tests Agni-V ballistic missile")
+    r = pipeline.run([a, b], now=NOW)
+    assert r.events == 2
+    assert len(r.candidates) == 2
+    assert len(r.queue) == 2

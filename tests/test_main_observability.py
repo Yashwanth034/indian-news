@@ -198,6 +198,102 @@ def test_observability_surfaces_enrichment_fatal_error():
 
 
 # ---------------------------------------------------------------------------
+# pipeline candidate-gate observability (audit regression)
+# ---------------------------------------------------------------------------
+
+def _fake_candidate(status, *, editorial="pass", blocked=False, reasons=None,
+                    priority="NORMAL"):
+    from src.pipeline.integration import Candidate
+    from src.models.article import Article
+    ed = SimpleNamespace(decision=editorial)
+    pr = SimpleNamespace(blocked=blocked, priority=priority)
+    rep = Article(
+        source_id="the-hindu", source_name="The Hindu", tier=2,
+        source_role="journalism",
+        url=f"https://the-hindu.example.in/{status}",
+        title=f"Story {status}", summary=None, published=NOW,
+    )
+    return Candidate(
+        event_id=f"ev-{status}", representative=rep, status=status,
+        editorial=ed, priority=pr, reasons=reasons or [],
+    )
+
+
+def _fake_pipeline_result(*candidates):
+    return SimpleNamespace(
+        candidates=list(candidates),
+        queue=[c for c in candidates if c.status == "queued"],
+    )
+
+
+def test_pipeline_observability_reports_counts():
+    from src.main import _pipeline_observability_lines
+    result = _fake_pipeline_result(
+        _fake_candidate("queued", priority="HIGH"),
+        _fake_candidate("held"),
+        _fake_candidate("held"),
+        _fake_candidate("rejected", reasons=["candidate gate: no category classified"]),
+        _fake_candidate("filler", editorial="filler"),
+    )
+    lines = _pipeline_observability_lines(result)
+    joined = "\n".join(lines)
+    assert "candidates=5" in joined
+    assert "queued=1" in joined
+    assert "held=2" in joined
+    assert "rejected=1" in joined
+    assert "filler=1" in joined
+
+
+def test_pipeline_observability_reports_hold_reason():
+    from src.main import _pipeline_observability_lines
+    result = _fake_pipeline_result(
+        _fake_candidate("held"),
+        _fake_candidate("held"),
+    )
+    lines = _pipeline_observability_lines(result)
+    joined = "\n".join(lines)
+    assert "priority_below_high=2" in joined
+
+
+def test_pipeline_observability_reports_reject_reasons():
+    from src.main import _pipeline_observability_lines
+    result = _fake_pipeline_result(
+        _fake_candidate("rejected", reasons=["candidate gate: no category classified"]),
+        _fake_candidate("rejected", editorial="reject"),
+        _fake_candidate("rejected", reasons=["candidate gate: local scope, state not identifiable (Phase 1)"]),
+        _fake_candidate("rejected", blocked=True),
+    )
+    lines = _pipeline_observability_lines(result)
+    joined = "\n".join(lines)
+    assert "rejected=4" in joined
+    assert "no_category=1" in joined
+    assert "editorial_reject=1" in joined
+    assert "geo_gate=1" in joined
+    assert "priority_blocked=1" in joined
+
+
+def test_pipeline_observability_filler_reason():
+    from src.main import _pipeline_observability_lines
+    result = _fake_pipeline_result(
+        _fake_candidate("filler", editorial="filler"),
+        _fake_candidate("filler", editorial="filler"),
+    )
+    lines = _pipeline_observability_lines(result)
+    joined = "\n".join(lines)
+    assert "filler=2" in joined
+    assert "editorial_filler=2" in joined
+
+
+def test_pipeline_observability_empty_result():
+    from src.main import _pipeline_observability_lines
+    lines = _pipeline_observability_lines(_fake_pipeline_result())
+    joined = "\n".join(lines)
+    assert "candidates=0" in joined
+    assert "queued=0" in joined
+    assert "held=0" in joined
+
+
+# ---------------------------------------------------------------------------
 # integration: real build_telegram_queue stats drive the formatter
 # ---------------------------------------------------------------------------
 

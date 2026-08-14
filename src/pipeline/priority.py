@@ -107,6 +107,21 @@ DEFAULT_PRIORITY = {
 # Default event-term weights when not present in config. Only a small number
 # of genuinely significant terms carry high weight; everything else is small
 # so keyword pile-ups are structurally capped.
+#
+# Weights follow a deliberate ladder:
+#   IMMEDIATE/URGENT range (60-84): disasters, war, pandemic, national-security
+#   HIGH range             (38-59): major but non-catastrophic national events
+#                                    (cabinet decisions, court rulings, missile
+#                                    tests, regulatory action, acquisitions,
+#                                    tariff/trade moves, major appointments,
+#                                    infrastructure collapses, health crises)
+#   low range              (<38)   : routine terms that must not push NORMAL
+#   sports                  (4-44) : damped so volume cannot dominate
+#
+# Multi-word phrases are preferred over bare single words so that ordinary
+# stories (a company merely mentioning "investment" or "launches") do not get
+# boosted; a bare term is used only when the word itself is a strong signal
+# (e.g. "acquisition", "tariff").
 DEFAULT_EVENT_WEIGHTS = {
     "terror attack": 84,
     "war": 82,
@@ -141,8 +156,8 @@ DEFAULT_EVENT_WEIGHTS = {
     "election": 58,
     "exit poll": 46,
     "supreme court": 44,
-    "strikes down": 24,
-    "unconstitutional": 24,
+    "strikes down": 40,
+    "unconstitutional": 40,
     "verdict": 22,
     "judgment": 18,
     "world cup": 44,
@@ -153,6 +168,91 @@ DEFAULT_EVENT_WEIGHTS = {
     "probable xi": 6,
     "fantasy": 4,
     "final": 10,
+    # --- cabinet / government decisions -----------------------------------
+    "cabinet approves": 44,
+    "cabinet clears": 44,
+    "cabinet approval": 42,
+    "cabinet nod": 40,
+    "gives nod": 40,
+    "government approves": 40,
+    "government clears": 40,
+    "parliament passes": 44,
+    "parliament clears": 42,
+    "bill passed": 44,
+    "law passed": 42,
+    # --- courts -----------------------------------------------------------
+    "supreme court ruling": 46,
+    "supreme court judgment": 46,
+    "supreme court verdict": 46,
+    # --- defence ----------------------------------------------------------
+    "ballistic missile": 46,
+    "missile test": 46,
+    "nuclear test": 50,
+    "drone attack": 44,
+    "border clash": 46,
+    "ceasefire violation": 42,
+    # --- regulatory / markets ---------------------------------------------
+    "sebi bans": 44,
+    "sebi bars": 42,
+    "insider trading": 40,
+    "market regulator": 40,
+    "regulator bans": 42,
+    "regulatory action": 40,
+    # --- corporate --------------------------------------------------------
+    "acquisition": 42,
+    "acquires": 40,
+    "takeover": 42,
+    "merger": 40,
+    # --- trade ------------------------------------------------------------
+    "tariff": 40,
+    "tariffs": 40,
+    "trade war": 46,
+    "trade barrier": 40,
+    "export ban": 42,
+    "import ban": 42,
+    "customs duty": 40,
+    # --- appointments -----------------------------------------------------
+    "appointed as": 40,
+    "appointed": 36,
+    "resigns as": 40,
+    "steps down": 40,
+    "chief justice": 42,
+    "chief justice of india": 46,
+    "sworn in": 40,
+    "takes charge": 40,
+    # --- infrastructure / accidents --------------------------------------
+    "bridge collapse": 48,
+    "building collapse": 46,
+    "tunnel collapse": 44,
+    "train derailment": 48,
+    "aviation accident": 46,
+    "plane crash": 50,
+    "helicopter crash": 46,
+    "gas leak": 42,
+    "boiler blast": 44,
+    "hospital fire": 46,
+    "factory fire": 44,
+    "mass casualty": 44,
+    # --- health -----------------------------------------------------------
+    "disease outbreak": 46,
+    "contamination": 40,
+    # --- strikes / public order -------------------------------------------
+    "nationwide strike": 44,
+    "general strike": 42,
+    "bandh": 40,
+    "curfew": 40,
+    "lockdown": 42,
+    # --- diplomacy --------------------------------------------------------
+    "diplomatic row": 42,
+    "expels diplomats": 44,
+    "recalls ambassador": 42,
+    # --- energy / prices --------------------------------------------------
+    "fuel price": 40,
+    "petrol price": 40,
+    "electricity tariff": 40,
+    "power outage": 40,
+    "grid failure": 44,
+    "blackout": 40,
 }
 
 _PRIORITY_ORDER = ["IMMEDIATE", "URGENT", "HIGH", "NORMAL"]

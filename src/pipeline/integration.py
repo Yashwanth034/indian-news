@@ -299,8 +299,11 @@ class NewsPipeline:
         elif priority.blocked:
             status = "rejected"
         elif self.require_category and classification.primary is None:
-            status = "rejected"
-            reasons.append("candidate gate: no category classified")
+            if priority.priority in ("HIGH", "URGENT", "IMMEDIATE"):
+                reasons.append("candidate gate: no category but HIGH+ priority -> allowed")
+            else:
+                status = "rejected"
+                reasons.append("candidate gate: no category classified")
         elif self.require_geo and not geo_result.state_identifiable and geo_result.scope == "local":
             status = "rejected"
             reasons.append("candidate gate: local scope, state not identifiable (Phase 1)")
