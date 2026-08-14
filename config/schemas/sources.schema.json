@@ -24,6 +24,7 @@
           "url": {"type": "string", "minLength": 1},
           "categories": {"type": "array", "items": {"type": "string"}},
           "language": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+          "group": {"type": "string", "description": "Publisher group id; same-publisher feeds share one independent corroboration group."},
           "primary": {"type": "boolean"},
           "news": {"type": "boolean"},
           "discovery": {"type": "boolean"},

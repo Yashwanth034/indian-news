@@ -4,17 +4,10 @@ import pytest
 from src import config_loader as cl
 from src.config_loader import CONFIG_DIR, CONFIG_FILES, ConfigError
 
-# The approved six-source validation configuration.  Exactly these
-# sources may be enabled; every other source must stay disabled and
-# all sources must stay unverified.
-APPROVED_ENABLED = {
-    "the-hindu",
-    "indian-express",
-    "ndtv",
-    "economic-times",
-    "bbc-india",
-    "media-nama",
-}
+# Sources approved for collection.  Exactly these may be enabled; every
+# enabled source must be verified, and verified sources must be enabled.
+# Canonical definition lives in test_sources.py.
+from test_sources import APPROVED_ENABLED
 
 
 def test_every_expected_config_loaded(config):
@@ -37,7 +30,8 @@ def test_source_registry_shape(config):
     ids = {s["id"] for s in sources}
     assert len(ids) == len(sources), "duplicate source ids"
     for s in sources:
-        assert s["verified"] is False, f"{s['id']} must start unverified"
+        assert isinstance(s["verified"], bool), f"{s['id']} verified must be boolean"
+        assert "verified" in s and "enabled" in s, f"{s['id']} missing flags"
     assert ids >= APPROVED_ENABLED, "approved sources missing"
 
     enabled = {s["id"] for s in sources if s["enabled"]}
@@ -45,6 +39,9 @@ def test_source_registry_shape(config):
         f"enabled sources {sorted(enabled)} != approved "
         f"{sorted(APPROVED_ENABLED)}"
     )
+    for s in sources:
+        if s["enabled"]:
+            assert s["verified"] is True, f"{s['id']} enabled but unverified"
 
 
 def test_categories_shape(config):

@@ -514,3 +514,29 @@ def test_live_update_wire_echo_merges(deduper):
     r = _dedupe(deduper, articles)
     assert len(r.events) == 1
     assert len(r.events[0].member_indices) == 2
+
+
+# --- M. same-publisher feeds share one corroboration group -------------------
+
+def test_same_publisher_feeds_share_one_independent_group(deduper):
+    s = "The Reserve Bank of India cut the repo rate to 6.0 percent on Friday."
+    a = _art("the-hindu", "RBI cuts repo rate by 25 basis points", summary=s, published=T0)
+    b = _art("businessline", "RBI lowers repo rate", summary=s, published=T0 + timedelta(minutes=2))
+    c = _art("sportstar", "RBI lowers repo rate", summary=s, published=T0 + timedelta(minutes=4))
+    r = _dedupe(deduper, [a, b, c], categories=["economy-finance"] * 3)
+    assert len(r.events) == 1
+    ev = r.events[0]
+    assert ev.independent_source_groups == 1
+    assert ev.wire_group == "thehindu"
+    assert ev.confidence != "high"
+
+
+def test_different_publishers_still_count_independently(deduper):
+    s = "The Reserve Bank of India cut the repo rate to 6.0 percent on Friday."
+    a = _art("the-hindu", "RBI cuts repo rate by 25 basis points", summary=s, published=T0)
+    b = _art("ndtv", "Central bank reduces key lending rate", summary=s, published=T0 + timedelta(minutes=3))
+    r = _dedupe(deduper, [a, b], categories=["economy-finance"] * 2)
+    assert len(r.events) == 1
+    ev = r.events[0]
+    assert ev.independent_source_groups == 2
+    assert ev.confidence == "high"

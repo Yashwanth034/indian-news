@@ -17,6 +17,18 @@ class FetchTimeout(FetchError):
 DEFAULT_TIMEOUT = 20
 DEFAULT_MAX_BYTES = 2 * 1024 * 1024
 
+DEFAULT_HEADERS = {
+    # Many news sites 403 the default python-requests UA; use a plain
+    # browser-like identity only when the caller supplied no headers.
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-IN,en;q=0.9",
+}
+
 
 def fetch_bytes(
     url: str,
@@ -30,6 +42,8 @@ def fetch_bytes(
     if not is_valid_url(url):
         raise FetchError(f"invalid url: {url}")
     session = session or requests
+    if not headers:
+        headers = dict(DEFAULT_HEADERS)
     try:
         response = session.get(url, timeout=timeout, headers=headers)
     except requests.exceptions.Timeout as exc:

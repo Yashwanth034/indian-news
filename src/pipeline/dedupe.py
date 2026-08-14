@@ -207,9 +207,12 @@ class Deduplicator:
                 self._wire_keywords[kw.lower()] = wire
         self._wire_regex = self._compile(set(self._wire_keywords))
 
-        # source -> tier/role (from the registry); falls back to article fields
+        # source -> tier/role/group (from the registry); falls back to article fields
         self._source_tier = {s["id"]: s.get("tier") for s in sources}
         self._source_role = {s["id"]: self._derive_role(s) for s in sources}
+        # publisher group (optional): same-publisher feeds share one independent
+        # group so multi-feed publishers cannot inflate corroboration.
+        self._source_group = {s["id"]: (s.get("group") or s["id"]) for s in sources}
 
     # ------------------------------------------------------------------
     # public API
@@ -432,7 +435,7 @@ class Deduplicator:
         tier = article.tier if article.tier is not None else (self._source_tier.get(source_id) or 4)
         role = article.source_role or self._source_role.get(source_id) or "journalism"
         if wire_group is None:
-            wire_group = source_id
+            wire_group = self._source_group.get(source_id) or source_id
             wire_kind = KIND_OFFICIAL if role == "official-primary" else KIND_INDEPENDENT
 
         return _Facts(

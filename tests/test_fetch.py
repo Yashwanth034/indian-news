@@ -26,6 +26,36 @@ def test_fetch_bytes_returns_content():
     assert fetch_bytes("https://example.com/feed", session=session) == b"<rss>"
 
 
+def test_fetch_bytes_sends_browser_like_default_headers():
+    captured = {}
+
+    class CapturingSession:
+        def get(self, url, timeout=None, headers=None):
+            captured["headers"] = headers
+            return FakeResponse(200, b"<rss>")
+
+    fetch_bytes("https://example.com/feed", session=CapturingSession())
+    assert captured["headers"]["User-Agent"].startswith("Mozilla/5.0")
+    assert captured["headers"]["Accept"]
+    assert "python-requests" not in captured["headers"]["User-Agent"]
+
+
+def test_fetch_bytes_honors_explicit_headers():
+    captured = {}
+
+    class CapturingSession:
+        def get(self, url, timeout=None, headers=None):
+            captured["headers"] = headers
+            return FakeResponse(200, b"<rss>")
+
+    fetch_bytes(
+        "https://example.com/feed",
+        session=CapturingSession(),
+        headers={"User-Agent": "custom-agent"},
+    )
+    assert captured["headers"]["User-Agent"] == "custom-agent"
+
+
 def test_fetch_bytes_raises_on_http_error():
     session = FakeSession(FakeResponse(404))
     with pytest.raises(FetchError):

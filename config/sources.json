@@ -25,16 +25,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "pib.gov.in"
-      ],
+      "allow_domains": ["pib.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 25
       },
-      "notes": "Verify exact press-release listing URL and HTML structure in Phase 1A."
+      "notes": "Not enabled: JS-rendered listing; page parser sees a shell. Needs JS-aware collection."
     },
     {
       "id": "rbi",
@@ -43,23 +41,19 @@
       "tier": 1,
       "method": "page",
       "url": "https://www.rbi.org.in/Scripts/PressReleases.aspx",
-      "categories": [
-        "economy-finance"
-      ],
+      "categories": ["economy-finance"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "rbi.org.in"
-      ],
+      "allow_domains": ["rbi.org.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 25
       },
-      "notes": "Routine press releases need a newsworthiness gate; verify listing structure."
+      "notes": "Not enabled: JS-rendered listing; no static anchors found. Requires JS-aware collection."
     },
     {
       "id": "eci",
@@ -76,16 +70,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "eci.gov.in"
-      ],
+      "allow_domains": ["eci.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Verify press-release/news section URL."
+      "notes": "Not enabled: HTTP 403 (Akamai bot protection)."
     },
     {
       "id": "isro",
@@ -103,42 +95,35 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "isro.gov.in"
-      ],
+      "allow_domains": ["isro.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Check for press-release feed/page."
+      "notes": "Not enabled: press-release listing URL 404s; homepage has no release anchors."
     },
     {
       "id": "imd",
       "name": "India Meteorological Department",
       "type": "official",
       "tier": 1,
-      "method": "endpoint",
-      "url": "https://mausam.imd.gov.in/",
-      "categories": [
-        "weather-disasters"
-      ],
+      "method": "rss",
+      "url": "https://cap-sources.s3.amazonaws.com/in-imd-en/rss.xml",
+      "categories": ["weather-disasters"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "mausam.imd.gov.in",
-        "imd.gov.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["mausam.imd.gov.in", "imd.gov.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "pacing_seconds": 300,
         "max_items": 20
       },
-      "notes": "Prefer a public warnings/alerts endpoint or feed; verify availability."
+      "notes": "Official IMD CAP alert feed (14 entries). Titles are homogeneous (region detail lives in descriptions); dedup may merge regional alerts."
     },
     {
       "id": "mod",
@@ -155,16 +140,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "mod.gov.in"
-      ],
+      "allow_domains": ["mod.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not verified this pass; leave disabled pending a working listing URL."
     },
     {
       "id": "sci",
@@ -173,24 +156,19 @@
       "tier": 1,
       "method": "page",
       "url": "https://main.sci.gov.in/",
-      "categories": [
-        "courts-law"
-      ],
+      "categories": ["courts-law"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "main.sci.gov.in",
-        "sci.gov.in"
-      ],
+      "allow_domains": ["main.sci.gov.in", "sci.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 10
       },
-      "notes": "Verify latest-updates/judgments listing URL."
+      "notes": "Not enabled: connection timeout from collector environment."
     },
     {
       "id": "sebi",
@@ -207,16 +185,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "sebi.gov.in"
-      ],
+      "allow_domains": ["sebi.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-releases listing URL."
+      "notes": "Not enabled: HTTP 403 (Akamai bot protection)."
     },
     {
       "id": "trai",
@@ -224,24 +200,115 @@
       "type": "official",
       "tier": 1,
       "method": "page",
-      "url": "https://www.trai.gov.in/",
+      "url": "https://www.trai.gov.in/notifications/press-release",
+      "categories": ["technology-digital"],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["trai.gov.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verified: page yields ~31 press-release slugs; page parser works."
+    },
+    {
+      "id": "irdai",
+      "name": "Insurance Regulatory and Development Authority of India",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://irdai.gov.in/press-releases",
+      "categories": ["economy-finance"],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["irdai.gov.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "pacing_seconds": 60,
+        "max_items": 15
+      },
+      "notes": "Verified: page yields ~57 press-release anchors."
+    },
+    {
+      "id": "cbi",
+      "name": "Central Bureau of Investigation",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://cbi.gov.in/press-releases",
       "categories": [
-        "technology-digital"
+        "crime-public-safety",
+        "courts-law",
+        "government-policy"
       ],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "trai.gov.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["cbi.gov.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
-        "pacing_seconds": 60,
+        "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Verified: page yields strong press-release anchors."
+    },
+    {
+      "id": "nia",
+      "name": "National Investigation Agency",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://www.nia.gov.in/press-releases/",
+      "categories": [
+        "defence-security",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["nia.gov.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Verified: page yields ~20 press-release anchors."
+    },
+    {
+      "id": "dst",
+      "name": "Department of Science and Technology",
+      "type": "official",
+      "tier": 1,
+      "method": "page",
+      "url": "https://dst.gov.in/",
+      "categories": [
+        "science-space",
+        "technology-digital",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": true,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["dst.gov.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "pacing_seconds": 120,
+        "max_items": 15
+      },
+      "notes": "Verified: page yields ~174 internal links; nav noise filtered by relevance gate."
     },
     {
       "id": "npci",
@@ -258,16 +325,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "npci.org.in"
-      ],
+      "allow_domains": ["npci.org.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 10
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not verified this pass; leave disabled."
     },
     {
       "id": "mohfw",
@@ -276,23 +341,19 @@
       "tier": 1,
       "method": "page",
       "url": "https://www.mohfw.gov.in/",
-      "categories": [
-        "health"
-      ],
+      "categories": ["health"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "mohfw.gov.in"
-      ],
+      "allow_domains": ["mohfw.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not enabled: JS-rendered listing; no static anchors found."
     },
     {
       "id": "moe",
@@ -309,16 +370,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "education.gov.in"
-      ],
+      "allow_domains": ["education.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not verified this pass; leave disabled."
     },
     {
       "id": "moa",
@@ -327,23 +386,19 @@
       "tier": 1,
       "method": "page",
       "url": "https://agricoop.nic.in/",
-      "categories": [
-        "agriculture-rural"
-      ],
+      "categories": ["agriculture-rural"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "agricoop.nic.in"
-      ],
+      "allow_domains": ["agricoop.nic.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not verified this pass; leave disabled."
     },
     {
       "id": "mor",
@@ -351,24 +406,20 @@
       "type": "official",
       "tier": 1,
       "method": "page",
-      "url": "https://indianrailways.gov.in/",
-      "categories": [
-        "transport-infrastructure"
-      ],
+      "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,554",
+      "categories": ["transport-infrastructure"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "indianrailways.gov.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["indianrailways.gov.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Verified: press-release board page yields ~232 links."
     },
     {
       "id": "mop",
@@ -385,16 +436,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "powermin.gov.in"
-      ],
+      "allow_domains": ["powermin.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not enabled: F5 WAF blocks collection."
     },
     {
       "id": "moefcc",
@@ -403,23 +452,19 @@
       "tier": 1,
       "method": "page",
       "url": "https://moef.gov.in/",
-      "categories": [
-        "energy-environment"
-      ],
+      "categories": ["energy-environment"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "moef.gov.in"
-      ],
+      "allow_domains": ["moef.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not enabled: connection failure from collector environment."
     },
     {
       "id": "mea",
@@ -436,16 +481,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "mea.gov.in"
-      ],
+      "allow_domains": ["mea.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 20
       },
-      "notes": "Verify press releases/statements listing URL."
+      "notes": "Not enabled: JS-rendered listing; no static anchors found."
     },
     {
       "id": "mha",
@@ -453,7 +496,7 @@
       "type": "official",
       "tier": 1,
       "method": "page",
-      "url": "https://www.mha.gov.in/",
+      "url": "https://www.mha.gov.in/en/commoncontent/press-release-2022",
       "categories": [
         "defence-security",
         "crime-public-safety",
@@ -463,16 +506,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "mha.gov.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["mha.gov.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "pacing_seconds": 60,
         "max_items": 15
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Verified: press-release page yields ~401 links; nav noise filtered by relevance gate."
     },
     {
       "id": "niti",
@@ -489,16 +530,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "niti.gov.in"
-      ],
+      "allow_domains": ["niti.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 10
       },
-      "notes": "Verify press-release section URL."
+      "notes": "Not enabled: homepage anchors point mostly to PIB (out of allow_domains), leaving few useful items."
     },
     {
       "id": "the-hindu",
@@ -515,18 +554,272 @@
         "economy-finance"
       ],
       "language": "en",
+      "group": "thehindu",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "thehindu.com"
-      ],
+      "allow_domains": ["thehindu.com"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Paywall-aware; article enrichment may degrade to RSS summary."
+      "notes": "Paywall-aware; article enrichment may degrade to RSS summary. Feed verified live."
+    },
+    {
+      "id": "the-hindu-bengaluru",
+      "name": "The Hindu - Bengaluru",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/cities/bangalore/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Karnataka state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "the-hindu-telangana",
+      "name": "The Hindu - Telangana",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Telangana/AP state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "the-hindu-chennai",
+      "name": "The Hindu - Chennai",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/cities/chennai/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Tamil Nadu state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "the-hindu-kerala",
+      "name": "The Hindu - Kerala",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/national/kerala/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Kerala state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "the-hindu-mumbai",
+      "name": "The Hindu - Mumbai",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/cities/mumbai/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Maharashtra state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "the-hindu-delhi",
+      "name": "The Hindu - Delhi",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehindu.com/news/cities/Delhi/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Delhi/NCR state coverage. Same publisher group as The Hindu national."
+    },
+    {
+      "id": "businessline",
+      "name": "The Hindu BusinessLine",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.thehindubusinessline.com/feeder/default.rss",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "agriculture-rural",
+        "transport-infrastructure"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindubusinessline.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Business daily; same publisher group as The Hindu."
+    },
+    {
+      "id": "frontline",
+      "name": "Frontline (The Hindu group)",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://frontline.thehindu.com/feeder/default.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "science-space",
+        "international-affairs"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["frontline.thehindu.com", "thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Policy/analysis magazine; same publisher group as The Hindu."
+    },
+    {
+      "id": "the-hindu-science",
+      "name": "The Hindu - Science",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.thehindu.com/sci-tech/science/feeder/default.rss",
+      "categories": [
+        "science-space",
+        "health",
+        "energy-environment",
+        "technology-digital"
+      ],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Science/tech vertical; same publisher group as The Hindu."
+    },
+    {
+      "id": "sportstar",
+      "name": "Sportstar",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://sportstar.thehindu.com/feeder/default.rss",
+      "categories": ["sports"],
+      "language": "en",
+      "group": "thehindu",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["sportstar.thehindu.com", "thehindu.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Sports; same publisher group as The Hindu."
     },
     {
       "id": "indian-express",
@@ -546,15 +839,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "indianexpress.com"
-      ],
+      "allow_domains": ["indianexpress.com"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": ""
+      "notes": "Feed verified live."
     },
     {
       "id": "hindustan-times",
@@ -570,18 +861,92 @@
         "sports"
       ],
       "language": "en",
+      "group": "ht-media",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "hindustantimes.com"
-      ],
+      "allow_domains": ["hindustantimes.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Not enabled: feed URL returns 200 but zero items (feed is dead)."
+    },
+    {
+      "id": "mint",
+      "name": "Mint - Markets",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.livemint.com/rss/markets",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "technology-digital"
+      ],
+      "language": "en",
+      "group": "ht-media",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["livemint.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Old /rss/ URL redirected to HTML; markets section feed verified (35 items). Same publisher group as Hindustan Times."
+    },
+    {
+      "id": "mint-companies",
+      "name": "Mint - Companies",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.livemint.com/rss/companies",
+      "categories": [
+        "business-industry",
+        "economy-finance",
+        "technology-digital"
+      ],
+      "language": "en",
+      "group": "ht-media",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["livemint.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Companies section feed verified (35 items). Same publisher group as Hindustan Times."
+    },
+    {
+      "id": "mint-auto",
+      "name": "Mint - Auto",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.livemint.com/rss/auto",
+      "categories": [
+        "transport-infrastructure",
+        "business-industry",
+        "economy-finance"
+      ],
+      "language": "en",
+      "group": "ht-media",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["livemint.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Auto section feed verified (35 items). Same publisher group as Hindustan Times."
     },
     {
       "id": "times-of-india",
@@ -598,19 +963,17 @@
         "sports"
       ],
       "language": "en",
+      "group": "indiatimes",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "timesofindia.indiatimes.com",
-        "indiatimes.com"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["timesofindia.indiatimes.com", "indiatimes.com"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Paywall-heavy; verify current feed URL."
+      "notes": "Top-stories feed verified (46 items). Same publisher group as Economic Times."
     },
     {
       "id": "ndtv",
@@ -629,15 +992,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "ndtv.com"
-      ],
+      "allow_domains": ["ndtv.com"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current feed URL."
+      "notes": "Feed verified live (20 items)."
     },
     {
       "id": "india-today",
@@ -653,18 +1014,41 @@
         "defence-security"
       ],
       "language": "en",
+      "group": "indiatoday",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "indiatoday.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["indiatoday.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Feed verified live (20 items). Same publisher group as Business Today."
+    },
+    {
+      "id": "business-today",
+      "name": "Business Today",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.businesstoday.in/rss/",
+      "categories": [
+        "economy-finance",
+        "business-industry"
+      ],
+      "language": "en",
+      "group": "indiatoday",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["businesstoday.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Feed verified live (104 items). Same publisher group as India Today."
     },
     {
       "id": "the-print",
@@ -683,15 +1067,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "theprint.in"
-      ],
+      "allow_domains": ["theprint.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 25
       },
-      "notes": ""
+      "notes": "Not enabled: feed is flaky (repeated timeouts from collector environment)."
     },
     {
       "id": "deccan-herald",
@@ -709,15 +1091,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "deccanherald.com"
-      ],
+      "allow_domains": ["deccanherald.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Not enabled: feed URL returns 404 (feed discontinued)."
     },
     {
       "id": "new-indian-express",
@@ -735,15 +1115,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "newindianexpress.com"
-      ],
+      "allow_domains": ["newindianexpress.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Not enabled: no public RSS feed found."
     },
     {
       "id": "tribune",
@@ -761,41 +1139,490 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "tribuneindia.com"
-      ],
+      "allow_domains": ["tribuneindia.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Not enabled: HTTP 403 (bot protection)."
     },
     {
-      "id": "mint",
-      "name": "Mint (Livemint)",
-      "type": "specialist",
-      "tier": 3,
+      "id": "the-news-minute",
+      "name": "The News Minute",
+      "type": "journalism",
+      "tier": 2,
       "method": "rss",
-      "url": "https://www.livemint.com/rss/",
+      "url": "https://www.thenewsminute.com/stories.rss",
       "categories": [
-        "economy-finance",
-        "business-industry",
-        "technology-digital"
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
       ],
       "language": "en",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "livemint.com"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["thenewsminute.com"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "South-India focused; feed verified (8 items)."
+    },
+    {
+      "id": "national-herald",
+      "name": "National Herald",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.nationalheraldindia.com/feed",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["nationalheraldindia.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Feed verified (13 items)."
+    },
+    {
+      "id": "telangana-today",
+      "name": "Telangana Today",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://telanganatoday.com/feed",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "economy-finance"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["telanganatoday.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Telangana daily; feed verified (~500 items)."
+    },
+    {
+      "id": "hans-india",
+      "name": "The Hans India",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.thehansindia.com/google_feeds.xml",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thehansindia.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Telangana/AP daily; feed verified (60 items)."
+    },
+    {
+      "id": "deccan-chronicle",
+      "name": "Deccan Chronicle",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.deccanchronicle.com/google_feeds.xml",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["deccanchronicle.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "South India daily; feed verified (60 items)."
+    },
+    {
+      "id": "mathrubhumi",
+      "name": "Mathrubhumi English",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://english.mathrubhumi.com/sitemaps/mathrubhumien/rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["english.mathrubhumi.com", "mathrubhumi.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Kerala daily; feed verified (100 items) but entries lack descriptions (summary may be empty)."
+    },
+    {
+      "id": "onmanorama",
+      "name": "Onmanorama",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.onmanorama.com/kerala.feeds.onmrss.xml",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["onmanorama.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Kerala coverage (Malayala Manorama group); feed verified (10 items)."
+    },
+    {
+      "id": "kalinga-tv",
+      "name": "Kalinga TV",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://kalingatv.com/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["kalingatv.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Odisha coverage; feed verified."
+    },
+    {
+      "id": "eastmojo",
+      "name": "EastMojo",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.eastmojo.com/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["eastmojo.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Northeast India coverage; feed verified."
+    },
+    {
+      "id": "northeast-now",
+      "name": "Northeast Now",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://nenow.in/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["nenow.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Northeast India coverage; feed verified."
+    },
+    {
+      "id": "sentinel-assam",
+      "name": "The Sentinel (Assam)",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.sentinelassam.com/feed",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["sentinelassam.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Assam/North-East coverage; feed verified (61 items)."
+    },
+    {
+      "id": "assam-tribune",
+      "name": "The Assam Tribune",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://assamtribune.com/feed",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "education"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["assamtribune.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Assam coverage; feed verified (92 items)."
+    },
+    {
+      "id": "greater-kashmir",
+      "name": "Greater Kashmir",
+      "type": "journalism",
+      "tier": 2,
+      "method": "rss",
+      "url": "https://www.greaterkashmir.com/rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "weather-disasters",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["greaterkashmir.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Kashmir coverage; feed verified (50 items)."
+    },
+    {
+      "id": "rising-kashmir",
+      "name": "Rising Kashmir",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://risingkashmir.com/rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "crime-public-safety"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["risingkashmir.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Kashmir coverage; feed verified (50 items)."
+    },
+    {
+      "id": "kashmir-observer",
+      "name": "Kashmir Observer",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://kashmirobserver.net/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["kashmirobserver.net"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Kashmir coverage; feed verified."
+    },
+    {
+      "id": "navhind-times",
+      "name": "The Navhind Times",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.navhindtimes.in/feed/",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["navhindtimes.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Goa coverage; feed verified."
+    },
+    {
+      "id": "the-quint",
+      "name": "The Quint",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.thequint.com/stories.rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thequint.com"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: robots.txt disallows article URLs (/story/); feed itself works."
+    },
+    {
+      "id": "sambad-english",
+      "name": "Sambad English",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://sambadenglish.com/rss",
+      "categories": [
+        "national-politics",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["sambadenglish.com"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: robots.txt disallows all crawlers (/)."
+    },
+    {
+      "id": "the-week",
+      "name": "The Week",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.theweek.in/rss.html",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["theweek.in"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: RSS feed URL returns 404."
+    },
+    {
+      "id": "outlook",
+      "name": "Outlook India",
+      "type": "journalism",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.outlookindia.com/rss",
+      "categories": [
+        "national-politics",
+        "government-policy",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["outlookindia.com"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: RSS feed URL returns 404."
     },
     {
       "id": "business-standard",
@@ -812,15 +1639,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "business-standard.com"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["business-standard.com"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Feed verified (83 items)."
     },
     {
       "id": "economic-times",
@@ -835,19 +1660,17 @@
         "technology-digital"
       ],
       "language": "en",
+      "group": "indiatimes",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "economictimes.indiatimes.com",
-        "indiatimes.com"
-      ],
+      "allow_domains": ["economictimes.indiatimes.com", "indiatimes.com"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Paywall-heavy; verify current feed URL."
+      "notes": "Paywall-heavy; feed verified (51 items). Same publisher group as Times of India."
     },
     {
       "id": "moneycontrol",
@@ -861,18 +1684,65 @@
         "business-industry"
       ],
       "language": "en",
+      "group": "network18",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "moneycontrol.com"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["moneycontrol.com"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Business feed verified (15 items). Same publisher group as CNBC-TV18."
+    },
+    {
+      "id": "cnbc-tv18",
+      "name": "CNBC-TV18",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml",
+      "categories": [
+        "economy-finance",
+        "business-industry"
+      ],
+      "language": "en",
+      "group": "network18",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["cnbctv18.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Market news feed verified (200 items). Same publisher group as Moneycontrol."
+    },
+    {
+      "id": "forbes-india",
+      "name": "Forbes India",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.forbesindia.com/rss/feed",
+      "categories": [
+        "economy-finance",
+        "business-industry",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["forbesindia.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 25
+      },
+      "notes": "Feed verified (200 items)."
     },
     {
       "id": "media-nama",
@@ -889,15 +1759,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "medianama.com"
-      ],
+      "allow_domains": ["medianama.com"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 20
       },
-      "notes": ""
+      "notes": "Feed verified live (10 items)."
     },
     {
       "id": "entrackr",
@@ -914,15 +1782,105 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "entrackr.com"
-      ],
+      "allow_domains": ["entrackr.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 20
       },
-      "notes": ""
+      "notes": "Not enabled: feed returns 404."
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://inc42.com/feed/",
+      "categories": [
+        "technology-digital",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["inc42.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Startup ecosystem; feed verified (24 items)."
+    },
+    {
+      "id": "yourstory",
+      "name": "YourStory",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://yourstory.com/feed",
+      "categories": [
+        "technology-digital",
+        "business-industry",
+        "jobs-employment"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["yourstory.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Startup ecosystem; feed verified (20 items)."
+    },
+    {
+      "id": "telecomtalk",
+      "name": "TelecomTalk",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://telecomtalk.info/feed/",
+      "categories": [
+        "technology-digital",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["telecomtalk.info"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Telecom sector; feed verified (20 items)."
+    },
+    {
+      "id": "digit",
+      "name": "Digit",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.digit.in/feed",
+      "categories": [
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["digit.in"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: main feed mixes Kannada/Malayalam/Tamil editions (multilingual noise)."
     },
     {
       "id": "bharat-shakti",
@@ -939,15 +1897,56 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "bharatshakti.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["bharatshakti.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 20
       },
-      "notes": ""
+      "notes": "Defence/geopolitics; feed verified (10 items)."
+    },
+    {
+      "id": "idrw",
+      "name": "Indian Defence Research Wing (IDRW)",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://idrw.org/feed/",
+      "categories": ["defence-security"],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["idrw.org"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Defence news; feed verified (30 items). Some speculative/rumor content; tier 3."
+    },
+    {
+      "id": "defence-news-india",
+      "name": "Defence News India",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.defencenews.in/feed/",
+      "categories": [
+        "defence-security",
+        "international-affairs"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["defencenews.in", "defence.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Feed redirects to defence.in; verified (20 items). allow_domains includes redirect target."
     },
     {
       "id": "idr",
@@ -956,22 +1955,266 @@
       "tier": 3,
       "method": "rss",
       "url": "https://www.indiandefencereview.com/feed/",
-      "categories": [
-        "defence-security"
-      ],
+      "categories": ["defence-security"],
       "language": "en",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "indiandefencereview.com"
-      ],
+      "allow_domains": ["indiandefencereview.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "max_items": 20
       },
-      "notes": ""
+      "notes": "Not enabled: feed polluted with unrelated content (anaconda/tech etc.), weak defence signal."
+    },
+    {
+      "id": "powerline",
+      "name": "Power Line",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://powerline.net.in/feed/",
+      "categories": [
+        "energy-environment",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["powerline.net.in"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: HTTP 429 (rate-limited) from collector environment."
+    },
+    {
+      "id": "mercom-india",
+      "name": "Mercom India",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.mercomindia.com/feed",
+      "categories": [
+        "energy-environment",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["mercomindia.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Renewables sector; feed verified (10 items)."
+    },
+    {
+      "id": "saur-energy",
+      "name": "Saur Energy",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.saurenergy.com/rss",
+      "categories": [
+        "energy-environment",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["saurenergy.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Renewables/solar sector; feed verified (50 items)."
+    },
+    {
+      "id": "downtoearth",
+      "name": "Down To Earth",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.downtoearth.org.in/feed",
+      "categories": [
+        "energy-environment",
+        "agriculture-rural",
+        "weather-disasters",
+        "science-space"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["downtoearth.org.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Environment/science (CSE); feed verified (11 items)."
+    },
+    {
+      "id": "mongabay-india",
+      "name": "Mongabay India",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://india.mongabay.com/feed/",
+      "categories": [
+        "energy-environment",
+        "agriculture-rural",
+        "weather-disasters"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["india.mongabay.com", "mongabay.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Environment/conservation; feed verified."
+    },
+    {
+      "id": "krishi-jagran",
+      "name": "Krishi Jagran",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://krishijagran.com/feeds/rss",
+      "categories": [
+        "agriculture-rural",
+        "business-industry",
+        "government-policy"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["krishijagran.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Agri sector; feed verified (100 items)."
+    },
+    {
+      "id": "agriculture-post",
+      "name": "Agriculture Post",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://agriculturepost.com/feed/",
+      "categories": [
+        "agriculture-rural",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["agriculturepost.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Agri business; feed verified."
+    },
+    {
+      "id": "medical-dialogues",
+      "name": "Medical Dialogues",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://medicaldialogues.in/feed",
+      "categories": ["health"],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["medicaldialogues.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Healthcare sector; feed verified (110 items)."
+    },
+    {
+      "id": "express-pharma",
+      "name": "Express Pharma",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.expresspharma.in/feed/",
+      "categories": [
+        "health",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["expresspharma.in"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Pharma sector; feed verified (10 items)."
+    },
+    {
+      "id": "sportskeeda",
+      "name": "Sportskeeda",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.sportskeeda.com/feed",
+      "categories": ["sports"],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["sportskeeda.com"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: feed dominated by global gaming/esports and US sports; low India signal."
+    },
+    {
+      "id": "scc-blog",
+      "name": "SCC Online Blog",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.scconline.com/blog/feed/",
+      "categories": ["courts-law"],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["scconline.com"],
+      "enabled": false,
+      "verified": false,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Not enabled: content is law-firm marketing/community news rather than court events."
     },
     {
       "id": "live-law",
@@ -979,7 +2222,7 @@
       "type": "specialist",
       "tier": 3,
       "method": "rss",
-      "url": "https://www.livelaw.in/rss",
+      "url": "https://www.livelaw.in/google_feeds.xml",
       "categories": [
         "courts-law",
         "government-policy"
@@ -988,15 +2231,13 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "livelaw.in"
-      ],
-      "enabled": false,
-      "verified": false,
+      "allow_domains": ["livelaw.in"],
+      "enabled": true,
+      "verified": true,
       "settings": {
         "max_items": 20
       },
-      "notes": "Verify current RSS feed URL."
+      "notes": "Old /rss URL was wrong; google_feeds.xml verified (60 items)."
     },
     {
       "id": "bar-and-bench",
@@ -1005,23 +2246,66 @@
       "tier": 3,
       "method": "page",
       "url": "https://www.barandbench.com/",
-      "categories": [
-        "courts-law"
-      ],
+      "categories": ["courts-law"],
       "language": "en",
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "barandbench.com"
-      ],
+      "allow_domains": ["barandbench.com"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Verify whether a public feed exists; otherwise page listing."
+      "notes": "Not enabled: JS-heavy (Next.js); anchor text mostly empty."
+    },
+    {
+      "id": "rail-analysis",
+      "name": "Rail Analysis",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://news.railanalysis.com/feed/",
+      "categories": [
+        "transport-infrastructure",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["railanalysis.com", "news.railanalysis.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Railways sector; feed verified (10 items)."
+    },
+    {
+      "id": "india-narrative",
+      "name": "India Narrative",
+      "type": "specialist",
+      "tier": 3,
+      "method": "rss",
+      "url": "https://www.indianarrative.com/feed/",
+      "categories": [
+        "international-affairs",
+        "national-politics",
+        "defence-security"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["indianarrative.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 20
+      },
+      "notes": "Policy/geopolitics; feed verified (10 items)."
     },
     {
       "id": "nta",
@@ -1038,16 +2322,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "nta.ac.in"
-      ],
+      "allow_domains": ["nta.ac.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Exam announcements; routine notices need the newsworthiness gate."
+      "notes": "Not enabled: connection failure from collector environment. Exam announcements need the newsworthiness gate."
     },
     {
       "id": "upsc",
@@ -1064,16 +2346,14 @@
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "upsc.gov.in"
-      ],
+      "allow_domains": ["upsc.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Exam/result announcements; routine notices need the newsworthiness gate."
+      "notes": "Not enabled: homepage yields no press/exam-release anchors. Exam announcements need the newsworthiness gate."
     },
     {
       "id": "cbse",
@@ -1082,23 +2362,19 @@
       "tier": 3,
       "method": "page",
       "url": "https://cbse.gov.in/",
-      "categories": [
-        "education"
-      ],
+      "categories": ["education"],
       "language": "en",
       "primary": true,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "cbse.gov.in"
-      ],
+      "allow_domains": ["cbse.gov.in"],
       "enabled": false,
       "verified": false,
       "settings": {
         "pacing_seconds": 120,
         "max_items": 15
       },
-      "notes": "Exam/result announcements; routine notices need the newsworthiness gate."
+      "notes": "Not enabled: connection failure from collector environment. Exam announcements need the newsworthiness gate."
     },
     {
       "id": "bbc-india",
@@ -1117,16 +2393,106 @@
       "primary": false,
       "news": true,
       "discovery": false,
-      "allow_domains": [
-        "bbc.co.uk",
-        "bbci.co.uk"
-      ],
+      "allow_domains": ["bbc.co.uk", "bbci.co.uk"],
       "enabled": true,
-      "verified": false,
+      "verified": true,
       "settings": {
         "max_items": 25
       },
-      "notes": ""
+      "notes": "Feed verified live (22 items)."
+    },
+    {
+      "id": "simple-flying",
+      "name": "Simple Flying (aviation)",
+      "type": "international",
+      "tier": 4,
+      "method": "rss",
+      "url": "https://simpleflying.com/feed/",
+      "categories": [
+        "transport-infrastructure",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["simpleflying.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 15
+      },
+      "notes": "Global aviation feed with regular India coverage; India relevance gate filters rest."
+    },
+    {
+      "id": "pv-magazine",
+      "name": "PV Magazine (solar)",
+      "type": "international",
+      "tier": 4,
+      "method": "rss",
+      "url": "https://www.pv-magazine.com/feed/",
+      "categories": [
+        "energy-environment",
+        "business-industry"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["pv-magazine.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 15
+      },
+      "notes": "Global solar feed with regular India coverage; India relevance gate filters rest."
+    },
+    {
+      "id": "spacetech-asia",
+      "name": "SpaceTech Asia",
+      "type": "international",
+      "tier": 4,
+      "method": "rss",
+      "url": "https://www.spacetechasia.com/feed/",
+      "categories": [
+        "science-space",
+        "technology-digital"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["spacetechasia.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 15
+      },
+      "notes": "Asia space industry feed with regular India coverage; India relevance gate filters rest."
+    },
+    {
+      "id": "cyber-express",
+      "name": "The Cyber Express",
+      "type": "international",
+      "tier": 4,
+      "method": "rss",
+      "url": "https://thecyberexpress.com/feed/",
+      "categories": [
+        "technology-digital",
+        "crime-public-safety",
+        "defence-security"
+      ],
+      "language": "en",
+      "primary": false,
+      "news": true,
+      "discovery": false,
+      "allow_domains": ["thecyberexpress.com"],
+      "enabled": true,
+      "verified": true,
+      "settings": {
+        "max_items": 15
+      },
+      "notes": "Global cybersecurity feed (Dubai-based) with India incident coverage; India relevance gate filters rest."
     },
     {
       "id": "reuters-india",
@@ -1144,9 +2510,7 @@
       "primary": false,
       "news": true,
       "discovery": true,
-      "allow_domains": [
-        "reuters.com"
-      ],
+      "allow_domains": ["reuters.com"],
       "enabled": false,
       "verified": false,
       "settings": {
@@ -1170,9 +2534,7 @@
       "primary": false,
       "news": true,
       "discovery": true,
-      "allow_domains": [
-        "apnews.com"
-      ],
+      "allow_domains": ["apnews.com"],
       "enabled": false,
       "verified": false,
       "settings": {
@@ -1196,9 +2558,7 @@
       "primary": false,
       "news": true,
       "discovery": true,
-      "allow_domains": [
-        "ft.com"
-      ],
+      "allow_domains": ["ft.com"],
       "enabled": false,
       "verified": false,
       "settings": {
