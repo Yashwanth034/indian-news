@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:12:10.662237+00:00",
+  "generated_at": "2026-08-15T06:22:02.299830+00:00",
   "count": 16,
   "stories": [
     {
@@ -18,7 +18,7 @@
         "education",
         "transport-infrastructure"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "score": 90.0,
       "priority_score": 82.0,
       "priority_level": "IMMEDIATE",
@@ -26,19 +26,12 @@
       "event_time": "2026-08-15T03:26:09+00:00",
       "published_at": "2026-08-15T03:26:09+00:00",
       "effective_at": "2026-08-15T03:26:09+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 1,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "kalinga-tv": {
-          "kind": "independent",
-          "source_ids": [
-            "kalinga-tv"
           ],
           "count": 1
         }
@@ -47,7 +40,6 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'earthquake'",
@@ -57,12 +49,11 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -105,9 +96,7 @@
           "A tsunami warning was also issued after the massive earthquake, according to the European-Mediterranean Seismological Centre (EMSC).",
           "The tremor occurred at 3:43 am IST, according to the NCS.",
           "A 7.7-magnitude earthquake struck off Indonesia’s Flores Island early Saturday, prompting the BMKG to issue a tsunami warning.",
-          "Strong tremors and aftershocks were reported in several areas, though there were no immediate reports of casualties following the earthquake.",
-          "According to the US Geological Survey (USGS), the earthquake struck at a depth of 10 kilometres at 5:58 a.m. local time.",
-          "Its epicentre was located about 68 kilometres (42 miles) north-northwest of Ende in East Nusa Tenggara province, the Associated Press reported."
+          "Strong tremors and aftershocks were reported in several areas, though there were no immediate reports of casualties following the earthquake."
         ],
         "bullets": [
           {
@@ -141,21 +130,20 @@
             "composed": false
           },
           {
-            "text": "The Associated Press reported its epicentre was located about 68 kilometres (42 miles) north-northwest of Ende in East Nusa Tenggara province.",
-            "source": "Business Today",
-            "item_id": "46e6eb3051e8346246fb4980",
-            "composed": true
+            "text": "The US Geological Survey said the quake hit Indonesia's Flores region with a depth of 10 km at 5:58 am local time.",
+            "source": "Greater Kashmir",
+            "item_id": "0716129ddcc1c9936cd82e38",
+            "composed": false
           }
         ],
         "source": "Greater Kashmir",
         "corroborating": [
           "Rising Kashmir",
-          "Telangana Today",
-          "Business Today"
+          "Telangana Today"
         ],
         "url": "https://www.greaterkashmir.com/world/77-magnitude-earthquake-strikes-off-indonesias-coast-buildings-toppled-at-least-2-killed-12261904"
       },
-      "group_size": 4,
+      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -218,7 +206,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (arunachal pradesh)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -325,7 +313,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 18.2, score 64 -> URGENT"
@@ -434,7 +422,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'cloudburst' in summary weight 28.8",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -574,7 +562,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 50.4, stack 36.8, score 50.4 -> HIGH"
@@ -714,7 +702,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 28.4, score 50.4 -> HIGH"
@@ -848,7 +836,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -952,7 +940,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 24, score 40 -> HIGH"
@@ -1044,7 +1032,7 @@
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 26.2, score 49.2 -> HIGH"
@@ -1271,7 +1259,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (gujarat)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1448,7 +1436,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1556,7 +1544,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1705,7 +1693,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1820,7 +1808,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1931,10 +1919,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -2034,7 +2022,7 @@
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 33.6, score 40 -> HIGH"
