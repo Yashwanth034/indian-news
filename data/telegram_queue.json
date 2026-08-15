@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T13:11:57.770959+00:00",
-  "count": 8,
+  "generated_at": "2026-08-15T13:21:58.907085+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "15766b8d7a5d5842ddf72817",
@@ -48,7 +48,7 @@
         "event term: 'flood' in title weight 64",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 36, score 64 -> URGENT"
@@ -170,7 +170,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -306,7 +306,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 50.4, stack 34.8, score 50.4 -> HIGH"
@@ -451,7 +451,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (11.5h ago) +4",
+        "recency: fresh (11.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -544,6 +544,93 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7995a57aef48614df65a440a",
+      "story_id": "7995a57aef48614df65a440a",
+      "headline": "Indian-American CEO who sacked 900 over Zoom gets fired himself",
+      "title": "Indian-American CEO who sacked 900 over Zoom gets fired himself",
+      "summary": "Indian-American entrepreneur Vishal Garg has been ousted as Better Home & Finance CEO. The company cited concerns about his judgment and credibility after significant losses. Garg's removal follows his controversial 2021 mass layoff of 900 employees. He is now seeking to regain his position and is offering to work for one dollar annually. Better's market value has significantly decreased since its pandemic-era peak.",
+      "url": "https://timesofindia.indiatimes.com/world/us/doom-board-lowers-the-boom-on-indian-american-ceo-who-fired-900-employees-over-zoom/articleshow/133263198.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "business-industry",
+      "secondary_categories": [
+        "courts-law",
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 82.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-15T13:08:15+00:00",
+      "published_at": "2026-08-15T13:08:15+00:00",
+      "effective_at": "2026-08-15T13:08:15+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'pandemic'",
+        "category: business-industry (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'pandemic' in summary weight 49.2",
+        "event term: 'judgment' in summary weight 10.8",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: business-industry (importance 1) +1.2",
+        "geo: national",
+        "dominant event 49.2, stack 36, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Indian-American entrepreneur Vishal Garg has been ousted as Better Home & Finance CEO.",
+          "The company cited concerns about his judgment and credibility after significant losses."
+        ],
+        "body": [
+          "Garg's removal follows his controversial 2021 mass layoff of 900 employees.",
+          "He is now seeking to regain his position and is offering to work for one dollar annually.",
+          "Better's market value has significantly decreased since its pandemic-era peak."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Garg's removal follows his controversial 2021 mass layoff of 900 employees.",
+            "source": "Times of India",
+            "item_id": "7995a57aef48614df65a440a",
+            "composed": false
+          },
+          {
+            "text": "Indian-American entrepreneur Vishal Garg has been ousted as Better Home & Finance CEO.",
+            "source": "Times of India",
+            "item_id": "7995a57aef48614df65a440a",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/world/us/doom-board-lowers-the-boom-on-indian-american-ceo-who-fired-900-employees-over-zoom/articleshow/133263198.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "02e5c4ddb339a493fff7fbf6",
       "story_id": "02e5c4ddb339a493fff7fbf6",
       "headline": "India vs Wales Highlights, Hockey World Cup 2026: IND 3-1 WAL; Harmanpreet bags brace as Indian team starts campaign with win",
@@ -586,7 +673,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -603,7 +690,8 @@
         "body": [
           "Get match time, venue & viewing details for the 2026 Hockey World Cup.",
           "Next up, India will face England at the same venue on Monday, August 17 in another Pool-D fixture.",
-          "Harmanpreet Singh’s side kicks off its FIH Men’s Hockey World Cup 2026 campaign in Pool D with a 100% head-to-head record against the Dragons."
+          "Harmanpreet Singh’s side kicks off its FIH Men’s Hockey World Cup 2026 campaign in Pool D with a 100% head-to-head record against the Dragons.",
+          "Harmanpreet scored from penalty corners in the 11th and 43rd minutes after Sanjay (8th) gave India the 1-0 lead."
         ],
         "bullets": [
           {
@@ -633,10 +721,12 @@
           }
         ],
         "source": "Sportstar",
-        "corroborating": [],
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
         "url": "https://sportstar.thehindu.com/hockey/india-vs-wales-live-score-highlights-mens-hockey-world-cup-2026-updates-commentary-independence-day/article71349129.ece"
       },
-      "group_size": 4,
+      "group_size": 5,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -684,7 +774,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -771,7 +861,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -855,7 +945,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
