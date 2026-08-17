@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:52:04.610719+00:00",
+  "generated_at": "2026-08-17T06:02:38.588479+00:00",
   "count": 17,
   "stories": [
     {
@@ -48,7 +48,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (maharashtra)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -161,7 +161,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -265,7 +265,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -315,31 +315,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "f0c2a1026815be0242fe9e93",
-      "story_id": "f0c2a1026815be0242fe9e93",
-      "headline": "India’s economy keeps humming despite Iran war",
-      "title": "India’s economy keeps humming despite Iran war",
+      "event_id": "af4f4d26a52077a8b7115fcd",
+      "story_id": "af4f4d26a52077a8b7115fcd",
+      "headline": "Assam: Lions Club of Kaziranga extends relief to flood-affected families",
+      "title": "Assam: Lions Club of Kaziranga extends relief to flood-affected families",
       "summary": "",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-q1-gdp-growth-seen-at-7-3-as-consumption-capex-cushion-iran-war-shock-et-poll/articleshow/133280930.cms",
-      "source": "The Economic Times",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-lions-club-of-kaziranga-extends-relief-to-flood-affected-families",
+      "source": "The Sentinel (Assam)",
       "primary_source": false,
       "tier": 3,
-      "category": null,
+      "category": "weather-disasters",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 55.0,
-      "priority_score": 82.0,
-      "priority_level": "IMMEDIATE",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-17T00:00:00+00:00",
-      "published_at": "2026-08-17T00:00:00+00:00",
-      "effective_at": "2026-08-17T00:00:00+00:00",
+      "event_time": "2026-08-17T05:17:25+00:00",
+      "published_at": "2026-08-17T05:17:25+00:00",
+      "effective_at": "2026-08-17T05:17:25.494000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "sentinel-assam": {
           "kind": "independent",
           "source_ids": [
-            "economic-times"
+            "sentinel-assam"
           ],
           "count": 1
         }
@@ -348,88 +348,175 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
+        "source: tier 3 (sentinel-assam) +1",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'war' in title weight 82",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "geo: national",
-        "dominant event 82, stack 24, score 82 -> IMMEDIATE",
-        "candidate gate: no category but HIGH+ priority -> allowed"
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.8h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "assam",
       "national_significance": true,
       "article_sentences": [
-        "Gross domestic product likely grew by a median 7.3%, showed an ET poll of 10 economists, with estimates ranging from 6.7% to 8%.",
-        "RBI pegged June quarter growth at 7%.",
-        "The economy grew 7.8% in the March quarter and 6.8% in Q1FY26.",
-        "The National Statistical Office (NSO) will release official GDP data for Q1 on August 31.",
-        "“High frequency indicators across the industrial and services sectors have revealed a healthy picture of domestic volume growth in Q1FY27,” said ICRA’s chief economist Aditi Nayar.",
-        "“They belie the concerns of a fallout of the West Asia conflict in the quarter,” said Nayar.",
-        "Radhika Rao, senior economist and executive director at DBS Bank, said corporate earnings indicators were also broadly constructive, with aggregate revenue growth across listed firms remaining resilient, though higher energy prices crimped profitability at oil marketing companies.",
-        "Investment activity strengthened, with the Centre’s capital expenditure rising 18.6% in Q1FY27, compared with 9.1% in the previous quarter.",
-        "“Manufacturing activity remained buoyant, supported by strong volume growth,” said Sakshi Gupta, principal economist at HDFC Bank.",
-        "“The squeeze on profit margins has been offset by the increase in volume sales.”",
-        "Nayar however said elevated input costs likely weighed on profitability across some sectors, and consequently value-added growth in the quarter, compressing GDP expansion.",
-        "Services activity remained buoyant, with the services purchasing managers’ index rising to 58.6 on average in Q1FY27 from 58 in the previous quarter."
+        "BOKAKHAT: Members of the Lions Club of Kaziranga came forward to support flood-affected families at Socolani Pathar, near Kakodonga, an area recently severely affected by the rising waters of the Brahmaputra and the adjoining Dhansiri riverbanks.",
+        "The club members packed and distributed essential relief and hygiene items, including phenyl, mosquito incense sticks, bathing soap, washing soap, ropes for hanging clothes, candles, bleaching powder, detergent powder, shampoo and other necessary hygiene products.",
+        "The affected residents have been facing considerable difficulties as floodwaters inundated their homes, forcing many families to depend on boats for commuting and accessing essential supplies.",
+        "Understanding the urgent need for basic sanitation and hygiene materials, the Lions Club of Kaziranga undertook the relief initiative to provide immediate assistance to the affected community.",
+        "Club members personally visited the affected area and handed over the relief materials to the residents.",
+        "The initiative reflects the club’s continued commitment to serving communities during times of distress and extending humanitarian assistance to those affected by natural calamities.",
+        "The Lions Club of Kaziranga remains committed to its motto, “We Serve,” and will continue to undertake relief and community-service activities wherever assistance is needed."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Gross domestic product likely grew by a median 7.3%, showed an ET poll of 10 economists, with estimates ranging from 6.7% to 8%.",
-          "RBI pegged June quarter growth at 7%."
+          "BOKAKHAT: Members of the Lions Club of Kaziranga came forward to support flood-affected families at Socolani Pathar, near Kakodonga, an area recently severely affected by the rising waters of the Brahmaputra and the adjoining Dhansiri riverbanks.",
+          "The club members packed and distributed essential relief and hygiene items, including phenyl, mosquito incense sticks, bathing soap, washing soap, ropes for hanging clothes, candles, bleaching powder, detergent powder, shampoo and other necessary hygiene products."
         ],
         "body": [
-          "The economy grew 7.8% in the March quarter and 6.8% in Q1FY26.",
-          "The National Statistical Office (NSO) will release official GDP data for Q1 on August 31.",
-          "“High frequency indicators across the industrial and services sectors have revealed a healthy picture of domestic volume growth in Q1FY27,” said ICRA’s chief economist Aditi Nayar.",
-          "“They belie the concerns of a fallout of the West Asia conflict in the quarter,” said Nayar.",
-          "Radhika Rao, senior economist and executive director at DBS Bank, said corporate earnings indicators were also broadly constructive, with aggregate revenue growth across listed firms remaining resilient, though higher energy prices crimped profitability at oil marketing companies.",
-          "Investment activity strengthened, with the Centre’s capital expenditure rising 18.6% in Q1FY27, compared with 9.1% in the previous quarter.",
-          "“Manufacturing activity remained buoyant, supported by strong volume growth,” said Sakshi Gupta, principal economist at HDFC Bank.",
-          "“The squeeze on profit margins has been offset by the increase in volume sales.” Nayar however said elevated input costs likely weighed on profitability across some sectors, and consequently value-added growth in the quarter, compressing GDP expansion."
+          "The affected residents have been facing considerable difficulties as floodwaters inundated their homes, forcing many families to depend on boats for commuting and accessing essential supplies.",
+          "Understanding the urgent need for basic sanitation and hygiene materials, the Lions Club of Kaziranga undertook the relief initiative to provide immediate assistance to the affected community.",
+          "Club members personally visited the affected area and handed over the relief materials to the residents.",
+          "The initiative reflects the club’s continued commitment to serving communities during times of distress and extending humanitarian assistance to those affected by natural calamities.",
+          "The Lions Club of Kaziranga remains committed to its motto, “We Serve,” and will continue to undertake relief and community-service activities wherever assistance is needed."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Q"
+            "text": "Socolani Pathar"
           }
         ],
         "sentences": [
           {
-            "text": "The economy grew 7.8% in the March quarter and 6.8% in Q1FY26.",
-            "source": "The Economic Times",
-            "item_id": "f0c2a1026815be0242fe9e93:article",
+            "text": "BOKAKHAT: Members of the Lions Club of Kaziranga came forward to support flood-affected families at Socolani Pathar, near Kakodonga, an area recently severely affected by the rising waters of the Brahmaputra and the adjoining Dhansiri riverbanks.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "af4f4d26a52077a8b7115fcd:article",
             "composed": false
           },
           {
-            "text": "“High frequency indicators across the industrial and services sectors have revealed a healthy picture of domestic volume growth in Q1FY27,” said ICRA’s chief economist Aditi Nayar.",
-            "source": "The Economic Times",
-            "item_id": "f0c2a1026815be0242fe9e93:article",
-            "composed": false
-          },
-          {
-            "text": "Investment activity strengthened, with the Centre’s capital expenditure rising 18.6% in Q1FY27, compared with 9.1% in the previous quarter.",
-            "source": "The Economic Times",
-            "item_id": "f0c2a1026815be0242fe9e93:article",
-            "composed": false
-          },
-          {
-            "text": "RBI pegged June quarter growth at 7%.",
-            "source": "The Economic Times",
-            "item_id": "f0c2a1026815be0242fe9e93:article",
+            "text": "Understanding the urgent need for basic sanitation and hygiene materials, the Lions Club of Kaziranga undertook the relief initiative to provide immediate assistance to the affected community.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "af4f4d26a52077a8b7115fcd:article",
             "composed": false
           }
         ],
-        "source": "The Economic Times",
+        "source": "The Sentinel (Assam)",
         "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-q1-gdp-growth-seen-at-7-3-as-consumption-capex-cushion-iran-war-shock-et-poll/articleshow/133280930.cms"
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-lions-club-of-kaziranga-extends-relief-to-flood-affected-families"
       },
       "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "c92b539b2029268e9d2cd67a",
+      "story_id": "c92b539b2029268e9d2cd67a",
+      "headline": "Assam: Former officials seek Central package to tackle flood crisis",
+      "title": "Assam: Former officials seek Central package to tackle flood crisis",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-17T02:07:00+00:00",
+      "published_at": "2026-08-17T02:07:00+00:00",
+      "effective_at": "2026-08-17T02:07:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: fresh (3.9h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 19, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
+        "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
+        "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
+        "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
+        "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
+        "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
+        "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
+        "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
+          "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam."
+        ],
+        "body": [
+          "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
+          "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
+          "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
+          "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
+          "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
+          "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Upper Assam"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c92b539b2029268e9d2cd67a:article",
+            "composed": false
+          },
+          {
+            "text": "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c92b539b2029268e9d2cd67a:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis"
+      },
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -476,7 +563,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 17, score 64 -> URGENT"
@@ -546,110 +633,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c92b539b2029268e9d2cd67a",
-      "story_id": "c92b539b2029268e9d2cd67a",
-      "headline": "Assam: Former officials seek Central package to tackle flood crisis",
-      "title": "Assam: Former officials seek Central package to tackle flood crisis",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-17T02:07:00+00:00",
-      "published_at": "2026-08-17T02:07:00+00:00",
-      "effective_at": "2026-08-17T02:07:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: fresh (3.8h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 19, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "assam",
-      "national_significance": true,
-      "article_sentences": [
-        "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
-        "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
-        "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
-        "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
-        "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
-        "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
-        "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
-        "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
-          "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam."
-        ],
-        "body": [
-          "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
-          "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
-          "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
-          "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
-          "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
-          "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Upper Assam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "c92b539b2029268e9d2cd67a:article",
-            "composed": false
-          },
-          {
-            "text": "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "c92b539b2029268e9d2cd67a:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "0b053a328afa22d85212aecd",
       "story_id": "0b053a328afa22d85212aecd",
       "headline": "Mehbooba visits flood-hit Rajouri, seeks Govt job for missing worker’s son",
@@ -703,7 +686,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -848,7 +831,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -997,7 +980,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 24.8, score 62 -> URGENT"
@@ -1121,7 +1104,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 16.4, score 49.2 -> HIGH"
@@ -1278,7 +1261,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 14, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1393,7 +1376,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 39.2, score 49.2 -> HIGH"
@@ -1555,7 +1538,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1600,35 +1583,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "52062d8c59979eb54eb3a535",
-      "story_id": "52062d8c59979eb54eb3a535",
-      "headline": "Lalithaa Jewellery Mart's Rs 1,700-cr IPO opens: GMP signals 15% premium. Should you subscribe?",
-      "title": "Lalithaa Jewellery Mart's Rs 1,700-cr IPO opens: GMP signals 15% premium. Should you subscribe?",
-      "summary": "The much-awaited Lalithaa Jewellery Mart IPO opened for subscription on August 17, 2026, giving investors a three-day window to bid for shares of the Chennai-based jewellery retailer. With the issue already commanding a 15% premium in the grey market, investor interest is expected to remain strong.Lalithaa Jewellery Mart has fixed the IPO price band at Rs 190–Rs 201 per share. The Rs 1,700-crore issue comprises a fresh issue of Rs 1,200 crore and an offer for sale (OFS) of Rs 500 crore by promoter and founder Kiran Kumar Jain.The IPO will open on August 17 and close on August 19, 2026. The share allotment is expected to be finalised on August 20, while the company's shares are likely to make their debut on the NSE and BSE on August 24, subject to applicable timelines.Anand Rathi Investment Banking and Equirus are the book-running lead managers for the issue, while MUFG has been appointed as the registrar.Analysts believe the Lalithaa Jewellery Mart IPO could offer a potential long-term investment opportunity, given the company’s strong FY26 financial performance, attractive valuation and expansion plansLalithaa Jewellery secures Rs 508 crore from anchor investorsLalithaa Jewellery Mart Limited has raised Rs 508.20 crore from anchor investors ahead of its IPO. The company informed the stock exchanges that it allotted 2,52,83,581 equity shares at Rs 201 apiece to 22 anchor investors. The anchor book saw participation from several prominent institutions, including Goldman Sachs Bank Europe SE – ODI, Morgan Stanley India Investment Fund Inc., Morgan Stanley Investment Funds Indian Equity Fund, Kotak Mahindra Life Insurance Company Limited, Bajaj Life Insurance Limited, Greater India Portfolio and Sanshi Fund-I.Lalithaa Jewellery Mart IPO Lot Size and ValuationAt the upper end of the price band, investors will need to pay Rs 14,874 for one lot of 74 shares. Bids can be placed in multiples of 74 shares thereafter.Of the net issue, excluding the employee portion, 50% has been reserved for qualified institutional buyers (QIBs). Up to 60% of the QIB allocation can be made available to anchor investors.Retail investors have been allocated 35%, while 15% has been reserved for non-institutional investors.One of the key attractions of the issue is its valuation. At the upper end of the price band, Lalithaa Jewellery Mart's price-to-earnings (P/E) ratio based on diluted FY26 EPS stands at 9.95 times. At the lower end, the P/E works out to 9.41 times.That compares favourably with the average industry peer-group P/E of 29.69 times for FY26, suggesting that the IPO is being offered at a relatively modest valuation compared with the broader industry. The floor price represents 38 times the face value, while the cap price represents 40.20 times the face value.Lalithaa Jewellery IPO use of proceedsLalithaa Jewellery plans to deploy the net proceeds from its IPO primarily towards an ambitious retail expansion, earmarking funds to set up 10 new stores. Of the total Rs 1,033.23 crore proposed to be utilised, Rs 34.55 crore will go towards capital expenditure, including store fit-outs, furniture and fixtures, equipment, and IT hardware and software. The bulk of the proceeds—Rs 998.68 crore—will be invested in inventory required to launch and stock these new outlets.The IPO proceeds therefore underline Lalithaa Jewellery’s strategy of strengthening its physical retail footprint and building inventory capacity to support future growth. While the lion’s share of the funds is directed towards inventory for the new stores, the remaining amount will be used for general corporate purposes, giving the company some flexibility to meet broader business requirements as it expands.Strong FY26 financial performanceLalithaa Jewellery Mart enters the IPO market after reporting a sharp improvement in its financial performance. The company's total income jumped 48% year-on-year, rising from Rs 16,907.88 crore in FY25 to Rs 25,039.80 crore in FY26. Profitability saw an even stronger acceleration. Profit after tax (PAT) surged 177%, from Rs 364.73 crore in FY25 to Rs 1,009.82 crore in FY26.About Lalithaa Jewellery MartThe retailer sells gold, silver and diamond jewellery under the Lalithaa brand, with products tailored to regional preferences across southern India. It operates 61 stores across Tamil Nadu, Andhra Pradesh, Telangana, Karnataka and the Union Territory of Puducherry.Tier II and Tier III cities account for 45 of its stores and contributed 60.25% of the company's revenue in FY26.Should you subscribe to the Lalithaa Jewellery Mart IPO?According to brokerage firm Master Capital Services, India’s gold jewellery retail industry was valued at Rs 10,619 billion in Fiscal 2026, clocking an impressive ~20% CAGR between Fiscal 2022 and Fiscal 2026. However, with gold prices remaining elevated and volatile, growth is expected to moderate to 3–5% CAGR through Fiscal 2030.The industry is also witnessing a clear shift towards organised retail. Regulatory tailwinds such as GST, hallmarking and HUID, coupled with evolving consumer preferences, are expected to accelerate the transition from unorganised to organised jewellery retail. Organised chains could capture 45–50% of the market by Fiscal 2030, while online jewellery is projected to contribute 9–11% of industry revenues.South India continues to be the jewel in India’s jewellery consumption crown, accounting for nearly 40% of total demand. The regional market stood at approximately Rs 5,026 billion in Fiscal 2026 and is expected to grow at 6–7% CAGR, reaching Rs 6,200–6,600 billion by Fiscal 2030. Andhra Pradesh and Telangana are likely to emerge as key growth markets, gradually gaining share.Against this backdrop, Lalithaa Jewellery Mart Limited appears well placed to capitalise on the next phase of organised jewellery retail. Its strong South India footprint, particularly across Tier II and Tier III cities, gives it access to a large and evolving customer base. The company’s 61-store network, in-house manufacturing capabilities, large-format outlets, wide jewellery assortment and customer-focused schemes provide multiple levers for growth.With favourable industry dynamics, rising organised retail penetration and a strong regional presence, the Lalithaa Jewellery Mart IPO could offer investors an interesting long-term opportunity to participate in India’s evolving jewellery consumption story.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own. These do not represent the views of The Economic Times)",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-opens-today-gmp-signals-15-premium-should-you-subscribe/articleshow/133285001.cms",
-      "source": "The Economic Times",
+      "event_id": "742dafeebbee84366f36cad4",
+      "story_id": "742dafeebbee84366f36cad4",
+      "headline": "Supreme Court To Hear Shyamkanu Mahanta’s Bail Plea",
+      "title": "Supreme Court To Hear Shyamkanu Mahanta’s Bail Plea",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/breakingnews/supreme-court-to-hear-shyamkanu-mahantas-bail-plea",
+      "source": "The Sentinel (Assam)",
       "primary_source": false,
       "tier": 3,
-      "category": "business-industry",
-      "secondary_categories": [
-        "economy-finance",
-        "technology-digital",
-        "sports"
-      ],
+      "category": "courts-law",
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
+      "score": 60.0,
+      "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-17T02:37:09+00:00",
-      "published_at": "2026-08-17T02:37:09+00:00",
-      "effective_at": "2026-08-17T02:37:09+00:00",
+      "event_time": "2026-08-17T05:01:00+00:00",
+      "published_at": "2026-08-17T05:01:00+00:00",
+      "effective_at": "2026-08-17T05:01:00+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "sentinel-assam": {
           "kind": "independent",
           "source_ids": [
-            "economic-times"
+            "sentinel-assam"
           ],
           "count": 1
         }
@@ -1637,109 +1616,90 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "category: business-industry (importance 1, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
+        "source: tier 3 (sentinel-assam) +1",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'appointed as' in summary weight 24",
-        "event term: 'appointed' in summary weight 21.6",
+        "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "scale: multi-state (5 states)",
-        "recency: fresh (3.2h ago) +4",
-        "category: business-industry (importance 1) +1.2",
+        "recency: breaking (1.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 24, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 25.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "Guwahati: Today,the Supreme Court will hear the bail plea of Shyamkanu Mahanta, one of the prime accused in the case concerning the death of singer Zubeen Garg in Singapore last year.",
+        "Mahanta has challenged the Gauhati High Court on 29th May, which rejected his bail application.",
+        "The Supreme Court had earlier issued notice to the Assam government and sought its response to the plea.",
+        "Mahanta, the organiser of the North East India Festival in Singapore, was arrested in October 2025 and is among seven accused in the case.",
+        "A fast-track court in Assam has framed murder charges against four accused, including Mahanta, while the remaining three face other charges.",
+        "All the accused have pleaded not guilty.",
+        "The trial began with the recording of witness evidence on 8th June.",
+        "The case relates to Zubeen Garg’s death on 19th September 2025, during a yacht outing in Singapore.",
+        "While Singapore authorities found no evidence of foul play and the state coroner ruled the death an accidental drowning, Assam’s investigation led to a separate criminal case.",
+        "The investigation team has also produced electronic devices and other digital material before the trial court, with investigators stating that the material forms part of the evidence relied upon in the chargesheet.",
+        "The Supreme Court’s decision will determine whether Mahanta is granted bail as the trial continues."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The much-awaited Lalithaa Jewellery Mart IPO opened for subscription on August 17, 2026, giving investors a three-day window to bid for shares of the Chennai-based jewellery retailer.",
-          "With the issue already commanding a 15% premium in the grey market, investor interest is expected to remain strong."
+          "Guwahati: Today,the Supreme Court will hear the bail plea of Shyamkanu Mahanta, one of the prime accused in the case concerning the death of singer Zubeen Garg in Singapore last year.",
+          "Mahanta has challenged the Gauhati High Court on 29th May, which rejected his bail application."
         ],
         "body": [
-          "Lalithaa Jewellery Mart has fixed the IPO price band at Rs 190–Rs 201 per share.",
-          "The Rs 1,700-crore issue comprises a fresh issue of Rs 1,200 crore and an offer for sale (OFS) of Rs 500 crore by promoter and founder Kiran Kumar Jain.",
-          "The IPO will open on August 17 and close on August 19, 2026.",
-          "The share allotment is expected to be finalised on August 20, while the company's shares are likely to make their debut on the NSE and BSE on August 24, subject to applicable timelines.",
-          "Anand Rathi Investment Banking and Equirus are the book-running lead managers for the issue, while MUFG has been appointed as the registrar.",
-          "Analysts believe the Lalithaa Jewellery Mart IPO could offer a potential long-term investment opportunity, given the company’s strong FY26 financial performance, attractive valuation and expansion plansLalithaa Jewellery secures Rs 508 crore from anchor investorsLalithaa Jewellery Mart Limited has raised Rs 508.20 crore from anchor investors ahead of its IPO.",
-          "The company informed the stock exchanges that it allotted 2,52,83,581 equity shares at Rs 201 apiece to 22 anchor investors.",
-          "The anchor book saw participation from several prominent institutions, including Goldman Sachs Bank Europe SE – ODI, Morgan Stanley India Investment Fund Inc., Morgan Stanley Investment Funds Indian Equity Fund, Kotak Mahindra Life Insurance Company Limited, Bajaj Life Insurance Limited, Greater India Portfolio and Sanshi Fund-I.Lalithaa Jewellery Mart IPO Lot Size and Valuation.",
-          "At the upper end of the price band, investors will need to pay Rs 14,874 for one lot of 74 shares.",
-          "Bids can be placed in multiples of 74 shares thereafter.",
-          "Of the net issue, excluding the employee portion, 50% has been reserved for qualified institutional buyers (QIBs).",
-          "Up to 60% of the QIB allocation can be made available to anchor investors.",
-          "Retail investors have been allocated 35%, while 15% has been reserved for non-institutional investors.",
-          "One of the key attractions of the issue is its valuation.",
-          "At the upper end of the price band, Lalithaa Jewellery Mart's price-to-earnings (P/E) ratio based on diluted FY26 EPS stands at 9.95 times.",
-          "At the lower end, the P/E works out to 9.41 times.",
-          "That compares favourably with the average industry peer-group P/E of 29.69 times for FY26, suggesting that the IPO is being offered at a relatively modest valuation compared with the broader industry.",
-          "The floor price represents 38 times the face value, while the cap price represents 40.20 times the face value.",
-          "Lalithaa Jewellery IPO use of proceedsLalithaa Jewellery plans to deploy the net proceeds from its IPO primarily towards an ambitious retail expansion, earmarking funds to set up 10 new stores.",
-          "Of the total Rs 1,033.23 crore proposed to be utilised, Rs 34.55 crore will go towards capital expenditure, including store fit-outs, furniture and fixtures, equipment, and IT hardware and software.",
-          "The bulk of the proceeds—Rs 998.68 crore—will be invested in inventory required to launch and stock these new outlets.",
-          "The IPO proceeds therefore underline Lalithaa Jewellery’s strategy of strengthening its physical retail footprint and building inventory capacity to support future growth.",
-          "While the lion’s share of the funds is directed towards inventory for the new stores, the remaining amount will be used for general corporate purposes, giving the company some flexibility to meet broader business requirements as it expands.",
-          "Strong FY26 financial performanceLalithaa Jewellery Mart enters the IPO market after reporting a sharp improvement in its financial performance.",
-          "The company's total income jumped 48% year-on-year, rising from Rs 16,907.88 crore in FY25 to Rs 25,039.80 crore in FY26.",
-          "Profitability saw an even stronger acceleration.",
-          "About Lalithaa Jewellery Mart.",
-          "The retailer sells gold, silver and diamond jewellery under the Lalithaa brand, with products tailored to regional preferences across southern India.",
-          "It operates 61 stores across Tamil Nadu, Andhra Pradesh, Telangana, Karnataka and the Union Territory of Puducherry.",
-          "According to brokerage firm Master Capital Services, India’s gold jewellery retail industry was valued at Rs 10,619 billion in Fiscal 2026, clocking an impressive ~20% CAGR between Fiscal 2022 and Fiscal 2026.",
-          "The industry is also witnessing a clear shift towards organised retail.",
-          "Regulatory tailwinds such as GST, hallmarking and HUID, coupled with evolving consumer preferences, are expected to accelerate the transition from unorganised to organised jewellery retail.",
-          "Andhra Pradesh and Telangana are likely to emerge as key growth markets, gradually gaining share.",
-          "Against this backdrop, Lalithaa Jewellery Mart Limited appears well placed to capitalise on the next phase of organised jewellery retail.",
-          "Its strong South India footprint, particularly across Tier II and Tier III cities, gives it access to a large and evolving customer base.",
-          "The company’s 61-store network, in-house manufacturing capabilities, large-format outlets, wide jewellery assortment and customer-focused schemes provide multiple levers for growth.",
-          "With favourable industry dynamics, rising organised retail penetration and a strong regional presence, the Lalithaa Jewellery Mart IPO could offer investors an interesting long-term opportunity to participate in India’s evolving jewellery consumption story.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own.",
-          "These do not represent the views of The Economic Times)."
+          "The Supreme Court had earlier issued notice to the Assam government and sought its response to the plea.",
+          "Mahanta, the organiser of the North East India Festival in Singapore, was arrested in October 2025 and is among seven accused in the case.",
+          "A fast-track court in Assam has framed murder charges against four accused, including Mahanta, while the remaining three face other charges.",
+          "All the accused have pleaded not guilty.",
+          "The trial began with the recording of witness evidence on 8th June.",
+          "The case relates to Zubeen Garg’s death on 19th September 2025, during a yacht outing in Singapore.",
+          "While Singapore authorities found no evidence of foul play and the state coroner ruled the death an accidental drowning, Assam’s investigation led to a separate criminal case.",
+          "The investigation team has also produced electronic devices and other digital material before the trial court, with investigators stating that the material forms part of the evidence relied upon in the chargesheet."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Rs"
+            "text": "Singapore"
           }
         ],
         "sentences": [
           {
-            "text": "The company's total income jumped 48% year-on-year, rising from Rs 16,907.88 crore in FY25 to Rs 25,039.80 crore in FY26.",
-            "source": "The Economic Times",
-            "item_id": "52062d8c59979eb54eb3a535",
+            "text": "Mahanta, the organiser of the North East India Festival in Singapore, was arrested in October 2025 and is among seven accused in the case.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "742dafeebbee84366f36cad4:article",
             "composed": false
           },
           {
-            "text": "According to brokerage firm Master Capital Services, India’s gold jewellery retail industry was valued at Rs 10,619 billion in Fiscal 2026, clocking an impressive ~20% CAGR between Fiscal 2022 and Fiscal 2026.",
-            "source": "The Economic Times",
-            "item_id": "52062d8c59979eb54eb3a535",
+            "text": "The case relates to Zubeen Garg’s death on 19th September 2025, during a yacht outing in Singapore.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "742dafeebbee84366f36cad4:article",
             "composed": false
           },
           {
-            "text": "The much-awaited Lalithaa Jewellery Mart IPO opened for subscription on August 17, 2026, giving investors a three-day window to bid for shares of the Chennai-based jewellery retailer.",
-            "source": "The Economic Times",
-            "item_id": "52062d8c59979eb54eb3a535",
+            "text": "Guwahati: Today,the Supreme Court will hear the bail plea of Shyamkanu Mahanta, one of the prime accused in the case concerning the death of singer Zubeen Garg in Singapore last year.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "742dafeebbee84366f36cad4:article",
             "composed": false
           },
           {
-            "text": "Lalithaa Jewellery Mart has fixed the IPO price band at Rs 190–Rs 201 per share.",
-            "source": "The Economic Times",
-            "item_id": "52062d8c59979eb54eb3a535",
+            "text": "Mahanta has challenged the Gauhati High Court on 29th May, which rejected his bail application.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "742dafeebbee84366f36cad4:article",
             "composed": false
           }
         ],
-        "source": "The Economic Times",
+        "source": "The Sentinel (Assam)",
         "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-opens-today-gmp-signals-15-premium-should-you-subscribe/articleshow/133285001.cms"
+        "url": "https://www.sentinelassam.com/breakingnews/supreme-court-to-hear-shyamkanu-mahantas-bail-plea"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "247b58ef94ef1f6ef342faa1",
@@ -1791,7 +1751,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'ballistic missile' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 42.8, score 42.8 -> HIGH"
@@ -1927,7 +1887,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "geo: national",
         "dominant event 6, stack 38.8, score 38.8 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2032,7 +1992,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: national",
         "dominant event 38, stack 29.2, score 38 -> HIGH"
