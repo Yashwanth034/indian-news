@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T06:12:26.567794+00:00",
-  "count": 17,
+  "generated_at": "2026-08-17T06:22:00.872416+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "bb595809b1cbe179c1772b30",
@@ -48,7 +48,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (maharashtra)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -161,7 +161,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -265,7 +265,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -315,6 +315,132 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "0b7fdb2bf6749ca653ed86cc",
+      "story_id": "0b7fdb2bf6749ca653ed86cc",
+      "headline": "North Odisha flood situation grim, IMD forecast more rains till August 18",
+      "title": "North Odisha flood situation grim, IMD forecast more rains till August 18",
+      "summary": "The State government has cancelled leave for employees, and schools and educational institutions remained closed for the day due to inclement weather",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-flood-rains-update-toll-august-17-2026/article71355080.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-17T06:09:59+00:00",
+      "published_at": "2026-08-17T06:09:59+00:00",
+      "effective_at": "2026-08-17T06:09:59+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        },
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (odisha)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "article_sentences": [
+        "The flood situation in north Odisha districts, which has affected five lakh people, remained grim on Monday (August 17, 2026) even as the IMD has forecast more rains after the low-pressure system formed in the Bay of Bengal intensified into a depression, officials said.",
+        "Keeping in view the gravity of the situation, Chief Minister Mohan Charan Majhi is likely to undertake an on-the-spot assessment of the calamity in the worst-hit Bhadrak and Jajpur districts later during the day, the CMO said.",
+        "It said more than 2.37 lakh people have been evacuated to safety and sheltered in nearly 300 relief camps on river embankments and also in schools.",
+        "The State government has cancelled leave for employees, and schools and educational institutions remained closed for the day due to inclement weather.",
+        "The IMD cautioned fishermen and advised them not to venture into the sea in the North Bay of Bengal and along the coasts of West Bengal, Bangladesh, Odisha and north Andhra Pradesh coasts till August 18.",
+        "The sea condition is very likely to be rough due to the impact of the depression, it said.",
+        "The India Meteorological Department (IMD) National Bulletin noted that based on the 5.30 a.m. situation, Sunday's (August 16, 2026) well-marked low-pressure area over northwest Bay of Bengal and adjoining West Bengal-north Odisha coasts moved nearly northwestwards and concentrated into a depression.",
+        "\"The system at 5.30 am lay over coastal West Bengal and adjoining areas of Bangladesh and northwest at about 80 km west-southwest of Satkhira (Bangladesh), 160 km southeast of Bankura (West Bengal), and 180 km northeast of Balasore [Odisha],\" it said.",
+        "The system is very likely to move northwestwards towards Jharkhand across Gangetic West Bengal during the next 24 hours, an official said, adding that a depression is a weather condition which is stronger than low pressure and less powerful than a tropical cyclone.",
+        "With the formation of a depression, the IMD issued a \"red warning\" (take action) of very heavy to extremely heavy rainfall in certain places of three Odisha districts like Balasore, Keonjhar and Mayurbhanj.",
+        "S The IMD has also issued an \"orange warning\" (be prepared to take action) for 11 districts of Bhadrak, Jajpur, Kendrapara, Jagatsinghpur, Cuttack, Sundergarh, Jharsuguda, Sambalpur, Deogarh, Angul and Dhenkanal.",
+        "This apart, heavy to very heavy rainfall is likely at one or two places in these districts."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The flood situation in north Odisha districts, which has affected five lakh people, remained grim on Monday (August 17, 2026) even as the IMD has forecast more rains after the low-pressure system formed in the Bay of Bengal intensified into a depression, officials said.",
+          "Keeping in view the gravity of the situation, Chief Minister Mohan Charan Majhi is likely to undertake an on-the-spot assessment of the calamity in the worst-hit Bhadrak and Jajpur districts later during the day, the CMO said."
+        ],
+        "body": [
+          "It said more than 2.37 lakh people have been evacuated to safety and sheltered in nearly 300 relief camps on river embankments and also in schools.",
+          "The State government has cancelled leave for employees, and schools and educational institutions remained closed for the day due to inclement weather.",
+          "The IMD cautioned fishermen and advised them not to venture into the sea in the North Bay of Bengal and along the coasts of West Bengal, Bangladesh, Odisha and north Andhra Pradesh coasts till August 18.",
+          "The sea condition is very likely to be rough due to the impact of the depression, it said.",
+          "The India Meteorological Department (IMD) National Bulletin noted that based on the 5.30 a.m. situation, Sunday's (August 16, 2026) well-marked low-pressure area over northwest Bay of Bengal and adjoining West Bengal-north Odisha coasts moved nearly northwestwards and concentrated into a depression.",
+          "\"The system at 5.30 am lay over coastal West Bengal and adjoining areas of Bangladesh and northwest at about 80 km west-southwest of Satkhira (Bangladesh), 160 km southeast of Bankura (West Bengal), and 180 km northeast of Balasore [Odisha],\" it said.",
+          "The system is very likely to move northwestwards towards Jharkhand across Gangetic West Bengal during the next 24 hours, an official said, adding that a depression is a weather condition which is stronger than low pressure and less powerful than a tropical cyclone.",
+          "With the formation of a depression, the IMD issued a \"red warning\" (take action) of very heavy to extremely heavy rainfall in certain places of three Odisha districts like Balasore, Keonjhar and Mayurbhanj."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gangetic West Bengal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The system is very likely to move northwestwards towards Jharkhand across Gangetic West Bengal during the next 24 hours, an official said, adding that a depression is a weather condition which is stronger than low pressure and less powerful than a tropical cyclone.",
+            "source": "The Hindu",
+            "item_id": "0b7fdb2bf6749ca653ed86cc:article",
+            "composed": false
+          },
+          {
+            "text": "The India Meteorological Department (IMD) National Bulletin noted that based on the 5.30 a.m. situation, Sunday's (August 16, 2026) well-marked low-pressure area over northwest Bay of Bengal and adjoining West Bengal-north Odisha coasts moved nearly northwestwards and concentrated into a depression.",
+            "source": "The Hindu",
+            "item_id": "0b7fdb2bf6749ca653ed86cc:article",
+            "composed": false
+          },
+          {
+            "text": "It said more than 2.37 lakh people have been evacuated to safety and sheltered in nearly 300 relief camps on river embankments and also in schools.",
+            "source": "The Hindu",
+            "item_id": "0b7fdb2bf6749ca653ed86cc:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/odisha/odisha-flood-rains-update-toll-august-17-2026/article71355080.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "af4f4d26a52077a8b7115fcd",
       "story_id": "af4f4d26a52077a8b7115fcd",
       "headline": "Assam: Lions Club of Kaziranga extends relief to flood-affected families",
@@ -357,7 +483,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -417,25 +543,25 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c92b539b2029268e9d2cd67a",
-      "story_id": "c92b539b2029268e9d2cd67a",
-      "headline": "Assam: Former officials seek Central package to tackle flood crisis",
-      "title": "Assam: Former officials seek Central package to tackle flood crisis",
+      "event_id": "cfb2494a2152e6f54e44426e",
+      "story_id": "cfb2494a2152e6f54e44426e",
+      "headline": "Jamiat announces Rs 2.25-crore relief package for Upper Assam flood victims",
+      "title": "Jamiat announces Rs 2.25-crore relief package for Upper Assam flood victims",
       "summary": "",
-      "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/jamiat-announces-rs-225-crore-relief-package-for-upper-assam-flood-victims",
       "source": "The Sentinel (Assam)",
       "primary_source": false,
       "tier": 3,
       "category": "weather-disasters",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 57.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-17T02:07:00+00:00",
-      "published_at": "2026-08-17T02:07:00+00:00",
-      "effective_at": "2026-08-17T02:07:00+00:00",
+      "event_time": "2026-08-17T04:34:55+00:00",
+      "published_at": "2026-08-17T04:34:55+00:00",
+      "effective_at": "2026-08-17T04:34:55.968000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "sentinel-assam": {
@@ -459,64 +585,82 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 19, score 64 -> URGENT"
+        "dominant event 64, stack 23, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
       "national_significance": true,
       "article_sentences": [
-        "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
-        "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
-        "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
-        "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
-        "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
-        "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
-        "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
-        "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
+        "NAZIRA: Assam State Jamiat president and chief patron of the Anfar Foundation, Maulana Mustaq Anfar, has announced a relief package worth Rs 2.25 crore for families affected by the devastating floods that have ravaged Upper Assam since July 19.",
+        "The catastrophic flooding of the Dikhow River severely affected large areas of Sivasagar, Nazira, Charaideo and Jorhat districts, leaving thousands of families struggling with the loss of homes, food supplies, clothing and livelihoods.",
+        "Under the relief initiative, financial assistance will be provided to 2,400 severely flood-affected and economically vulnerable families to help them rebuild their homes.",
+        "On August 12, Maulana Mustaq Anfar, accompanied by office-bearers of the Assam State Jamiat and Anfar Foundation, visited several flood-affected areas.",
+        "During his visit, he interacted with affected residents at the M.C. Club in Nazira and took stock of their difficulties.",
+        "Describing it as a humanitarian responsibility to stand beside families who have lost almost everything in the floods, Anfar said assistance should reach people irrespective of caste or religion.",
+        "He announced that Jamiat’s national president, Maulana Syed Arshad Madani, would contribute Rs 1 crore, while the Assam State Jamiat and Anfar Foundation would provide another Rs 1.25 crore, taking the total relief commitment to Rs 2.25 crore.",
+        "The organisations said the amount of assistance to individual families would be determined after field-level assessments of the damage suffered by the flood victims.",
+        "The Assam State Jamiat and Anfar Foundation have already been engaged in relief operations in Upper Assam.",
+        "Since July 29, they have distributed food and essential supplies worth approximately Rs 30 lakh among flood-affected people in various areas.",
+        "Meanwhile, on August 12, Anfar attended an educational assistance programme organised by voluntary organisation Wat N E, with financial support from the Ajmal Foundation, at Holongkatoni village in Nazira.",
+        "More than 100 flood-affected schoolchildren were provided with educational materials at the programme."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
-          "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam."
+          "NAZIRA: Assam State Jamiat president and chief patron of the Anfar Foundation, Maulana Mustaq Anfar, has announced a relief package worth Rs 2.25 crore for families affected by the devastating floods that have ravaged Upper Assam since July 19.",
+          "The catastrophic flooding of the Dikhow River severely affected large areas of Sivasagar, Nazira, Charaideo and Jorhat districts, leaving thousands of families struggling with the loss of homes, food supplies, clothing and livelihoods."
         ],
         "body": [
-          "They said the deluge had claimed lives, killed livestock and damaged infrastructure, schools and private properties.",
-          "While the state government, private organisations and individuals had undertaken relief efforts, they said the scale of the disaster required enhanced Central assistance.",
-          "The former officials also urged the Centre to constitute a high-powered interstate expert committee to examine factors that could have aggravated the floods, including dam management, coal and sand mining and deforestation across state and interstate boundaries.",
-          "They further called for the implementation of a robust, real-time early warning system to alert communities about sudden heavy rainfall, dam releases and areas likely to be affected by flooding.",
-          "They said such a system would facilitate timely evacuations and help prevent loss of life in future disasters.",
-          "The three former officials urged the Prime Minister’s Office to examine the issues and initiate appropriate action at the earliest."
+          "Under the relief initiative, financial assistance will be provided to 2,400 severely flood-affected and economically vulnerable families to help them rebuild their homes.",
+          "On August 12, Maulana Mustaq Anfar, accompanied by office-bearers of the Assam State Jamiat and Anfar Foundation, visited several flood-affected areas.",
+          "During his visit, he interacted with affected residents at the M.C. Club in Nazira and took stock of their difficulties.",
+          "Describing it as a humanitarian responsibility to stand beside families who have lost almost everything in the floods, Anfar said assistance should reach people irrespective of caste or religion.",
+          "He announced that Jamiat’s national president, Maulana Syed Arshad Madani, would contribute Rs 1 crore, while the Assam State Jamiat and Anfar Foundation would provide another Rs 1.25 crore, taking the total relief commitment to Rs 2.25 crore.",
+          "The organisations said the amount of assistance to individual families would be determined after field-level assessments of the damage suffered by the flood victims.",
+          "The Assam State Jamiat and Anfar Foundation have already been engaged in relief operations in Upper Assam.",
+          "Since July 29, they have distributed food and essential supplies worth approximately Rs 30 lakh among flood-affected people in various areas."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Upper Assam"
+            "text": "Nazira"
           }
         ],
         "sentences": [
           {
-            "text": "In a letter dated August 12, former Assam DGP Dr Kuladhar Saikia, former IPS officer Jyotirmoy Chakrabarty and former ACS officer Mukul Chandra Gogoi drew the Prime Minister’s attention to the extensive damage caused by the floods, particularly in Upper Assam.",
+            "text": "NAZIRA: Assam State Jamiat president and chief patron of the Anfar Foundation, Maulana Mustaq Anfar, has announced a relief package worth Rs 2.25 crore for families affected by the devastating floods that have ravaged Upper Assam since July 19.",
             "source": "The Sentinel (Assam)",
-            "item_id": "c92b539b2029268e9d2cd67a:article",
+            "item_id": "cfb2494a2152e6f54e44426e:article",
             "composed": false
           },
           {
-            "text": "GUWAHATI: Three retired senior officials from Assam have urged Prime Minister Narendra Modi to provide a comprehensive Central relief and rehabilitation package for the state amid the devastating floods.",
+            "text": "Since July 29, they have distributed food and essential supplies worth approximately Rs 30 lakh among flood-affected people in various areas.",
             "source": "The Sentinel (Assam)",
-            "item_id": "c92b539b2029268e9d2cd67a:article",
+            "item_id": "cfb2494a2152e6f54e44426e:article",
+            "composed": false
+          },
+          {
+            "text": "On August 12, Maulana Mustaq Anfar, accompanied by office-bearers of the Assam State Jamiat and Anfar Foundation, visited several flood-affected areas.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "cfb2494a2152e6f54e44426e:article",
+            "composed": false
+          },
+          {
+            "text": "He announced that Jamiat’s national president, Maulana Syed Arshad Madani, would contribute Rs 1 crore, while the Assam State Jamiat and Anfar Foundation would provide another Rs 1.25 crore, taking the total relief commitment to Rs 2.25 crore.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "cfb2494a2152e6f54e44426e:article",
             "composed": false
           }
         ],
         "source": "The Sentinel (Assam)",
         "corroborating": [],
-        "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-former-officials-seek-central-package-to-tackle-flood-crisis"
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/jamiat-announces-rs-225-crore-relief-package-for-upper-assam-flood-victims"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -563,7 +707,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 17, score 64 -> URGENT"
@@ -686,7 +830,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -802,7 +946,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 24.8, score 62 -> URGENT"
@@ -919,7 +1063,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 20.4, score 49.2 -> HIGH"
@@ -927,7 +1071,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Aug 16: Former chief minister Mehbooba Mufti said on Sunday that she is a \"dimaagi Naxal\" as she supports Article 370 of the Constitution, which granted special status to Jammu and Kashmir.",
@@ -978,7 +1122,7 @@
         "url": "https://www.greaterkashmir.com/kashmir/i-support-article-370-im-a-dimaagi-naxal-former-chief-minister-mehbooba-mufti-12267256"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1031,7 +1175,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 16.4, score 49.2 -> HIGH"
@@ -1188,7 +1332,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 14, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1303,7 +1447,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 39.2, score 49.2 -> HIGH"
@@ -1465,7 +1609,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1550,7 +1694,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -1678,7 +1822,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'ballistic missile' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 42.8, score 42.8 -> HIGH"
@@ -1814,7 +1958,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "geo: national",
         "dominant event 6, stack 38.8, score 38.8 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1919,7 +2063,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: national",
         "dominant event 38, stack 29.2, score 38 -> HIGH"
