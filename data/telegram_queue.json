@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T14:42:09.159088+00:00",
-  "count": 19,
+  "generated_at": "2026-08-18T14:52:45.482586+00:00",
+  "count": 22,
   "stories": [
     {
       "event_id": "9e5c369f085f0be02c50a4da",
@@ -58,7 +58,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -165,7 +165,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -289,7 +289,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -402,7 +402,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 20.4, score 50.4 -> HIGH"
@@ -410,7 +410,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Jammu, Aug 18: A special NIA court in Jammu has issued a non-bailable warrant against operational commander of Pakistan-based Lashkar-e-Taiba (LeT) for his involvement in terror activities in Jammu and Kashmir, officials said on Tuesday.",
@@ -467,7 +467,7 @@
         "url": "https://www.greaterkashmir.com/jammu/nia-court-issues-non-bailable-warrant-against-pak-based-let-commander-12393327"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -513,7 +513,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -529,7 +529,8 @@
         ],
         "body": [
           "India vs South Africa Women’s Hockey World Cup 2026 live streaming: Know the match time, TV channel and where to watch India’s second World Cup group stage encounter on August 18.",
-          "India holds a dominant record against South Africa, having not lost in the last 10 meetings between the two sides."
+          "India holds a dominant record against South Africa, having not lost in the last 10 meetings between the two sides.",
+          "The Sjoerd Marijne-coached side had six different scorers against the South Africans."
         ],
         "bullets": [
           {
@@ -564,9 +565,223 @@
         ],
         "url": "https://www.deccanchronicle.com/sports/india-pakistan-fih-hockey-world-cup-2026-clash-sold-out-1980197"
       },
-      "group_size": 4,
+      "group_size": 5,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "037a81c525d2aad6492459d6",
+      "story_id": "037a81c525d2aad6492459d6",
+      "headline": "Goa moves Supreme Court seeking tougher sentence for Tarun Tejpal in 2013 rape case",
+      "title": "Goa moves Supreme Court seeking tougher sentence for Tarun Tejpal in 2013 rape case",
+      "summary": "Goa moves Supreme Court seeking tougher sentence for Tarun Tejpal in 2013 rape case",
+      "url": "https://www.indiatoday.in/india/law-news/story/goa-government-moves-supreme-court-seeking-tougher-sentence-for-tarun-tejpal-in-2013-rape-case-2974259-2026-08-18",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 94.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T14:45:24+00:00",
+      "published_at": "2026-08-18T14:45:24+00:00",
+      "effective_at": "2026-08-18T14:45:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "goa",
+      "national_significance": true,
+      "article_sentences": [
+        "The Goa government has moved the Supreme Court seeking a tougher sentence for former Tehelka editor Tarun Tejpal, who was recently convicted and sentenced to 10 years in prison in the 2013 rape case.",
+        "Tejpal has also said he will challenge the Bombay High Court verdict in the apex court.",
+        "The Goa government has moved the Supreme Court seeking enhancement of the sentence awarded to former Tehelka editor Tarun Tejpal in the 2013 rape case, days after the Bombay High Court convicted him and sentenced him to 10 years of rigorous imprisonment.",
+        "The High Court had overturned Tejpal’s 2021 acquittal by a trial court, describing the verdict as “perverse”.",
+        "It also criticised the trial court for approaching the case through the notion that a complainant in a sexual assault case must behave like a “perfect victim” to be considered credible."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Goa government has moved the Supreme Court seeking a tougher sentence for former Tehelka editor Tarun Tejpal, who was recently convicted and sentenced to 10 years in prison in the 2013 rape case.",
+          "Tejpal has also said he will challenge the Bombay High Court verdict in the apex court."
+        ],
+        "body": [
+          "The Goa government has moved the Supreme Court seeking enhancement of the sentence awarded to former Tehelka editor Tarun Tejpal in the 2013 rape case, days after the Bombay High Court convicted him and sentenced him to 10 years of rigorous imprisonment.",
+          "The High Court had overturned Tejpal’s 2021 acquittal by a trial court, describing the verdict as “perverse”.",
+          "It also criticised the trial court for approaching the case through the notion that a complainant in a sexual assault case must behave like a “perfect victim” to be considered credible."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Goa government has moved the Supreme Court seeking a tougher sentence for former Tehelka editor Tarun Tejpal, who was recently convicted and sentenced to 10 years in prison in the 2013 rape case.",
+            "source": "India Today",
+            "item_id": "037a81c525d2aad6492459d6:article",
+            "composed": false
+          },
+          {
+            "text": "The Goa government has moved the Supreme Court seeking enhancement of the sentence awarded to former Tehelka editor Tarun Tejpal in the 2013 rape case, days after the Bombay High Court convicted him and sentenced him to 10 years of rigorous imprisonment.",
+            "source": "India Today",
+            "item_id": "037a81c525d2aad6492459d6:article",
+            "composed": false
+          },
+          {
+            "text": "The High Court had overturned Tejpal’s 2021 acquittal by a trial court, describing the verdict as “perverse”.",
+            "source": "India Today",
+            "item_id": "037a81c525d2aad6492459d6:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/law-news/story/goa-government-moves-supreme-court-seeking-tougher-sentence-for-tarun-tejpal-in-2013-rape-case-2974259-2026-08-18"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "20dcee640a5f83002087199c",
+      "story_id": "20dcee640a5f83002087199c",
+      "headline": "India Qualification Scenarios at Women’s Hockey World Cup — How can Salima Tete and Co. advance?",
+      "title": "India Qualification Scenarios at Women’s Hockey World Cup — How can Salima Tete and Co. advance?",
+      "summary": "Find out how India can qualify for the next stage of FIH Women’s Hockey World Cup 2026 after South Africa win.",
+      "url": "https://sportstar.thehindu.com/hockey/india-qualification-scenarios-explained-womens-hockey-world-cup-2026-south-africa-england/article71359898.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T14:40:11+00:00",
+      "published_at": "2026-08-18T14:40:11+00:00",
+      "effective_at": "2026-08-18T14:40:11+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "event term: 'world cup' in summary weight 25.2",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "India boosted its chances of making the second group stage at the ongoing FIH Women’s Hockey World Cup 2026 after easing past South Africa 6-1 on Tuesday.",
+        "This result comes after the Salima Tete-led side played out a gritty 2-2 draw with China.",
+        "The three points earned against the South Africans lift the Indians to the top spot in Pool D.",
+        "How can India advance to second round at FIH Women’s Hockey World Cup 2026?",
+        "India plays England in its final Pool-D fixture.",
+        "The Sjoerd Marijne-coached side, having four points from two matches, needs a draw against England to ensure a top-two finish and advance.",
+        "However, losing to England would mean India hoping for a South African win over the Chinese in their final Pool-D fixture.",
+        "In that case, the goal difference will come into play.",
+        "As it stands, India edges China in GD by three."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "India boosted its chances of making the second group stage at the ongoing FIH Women’s Hockey World Cup 2026 after easing past South Africa 6-1 on Tuesday.",
+          "This result comes after the Salima Tete-led side played out a gritty 2-2 draw with China."
+        ],
+        "body": [
+          "The three points earned against the South Africans lift the Indians to the top spot in Pool D. How can India advance to second round at FIH Women’s Hockey World Cup 2026?",
+          "India plays England in its final Pool-D fixture.",
+          "The Sjoerd Marijne-coached side, having four points from two matches, needs a draw against England to ensure a top-two finish and advance.",
+          "However, losing to England would mean India hoping for a South African win over the Chinese in their final Pool-D fixture.",
+          "In that case, the goal difference will come into play.",
+          "As it stands, India edges China in GD by three.",
+          "Find out how India can qualify for the next stage of FIH Women’s Hockey World Cup 2026 after South Africa win."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Pool D"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The three points earned against the South Africans lift the Indians to the top spot in Pool D. How can India advance to second round at FIH Women’s Hockey World Cup 2026?",
+            "source": "Sportstar",
+            "item_id": "20dcee640a5f83002087199c:article",
+            "composed": false
+          },
+          {
+            "text": "India boosted its chances of making the second group stage at the ongoing FIH Women’s Hockey World Cup 2026 after easing past South Africa 6-1 on Tuesday.",
+            "source": "Sportstar",
+            "item_id": "20dcee640a5f83002087199c:article",
+            "composed": false
+          },
+          {
+            "text": "As it stands, India edges China in GD by three.",
+            "source": "Sportstar",
+            "item_id": "20dcee640a5f83002087199c:article",
+            "composed": false
+          },
+          {
+            "text": "This result comes after the Salima Tete-led side played out a gritty 2-2 draw with China.",
+            "source": "Sportstar",
+            "item_id": "20dcee640a5f83002087199c:article",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/hockey/india-qualification-scenarios-explained-womens-hockey-world-cup-2026-south-africa-england/article71359898.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "3db56a5b4add528a4067a0c0",
@@ -611,7 +826,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -717,7 +932,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'ceasefire' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -842,7 +1057,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1018,7 +1233,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1131,7 +1346,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1239,7 +1454,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1325,7 +1540,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'blackout' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1417,7 +1632,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1527,7 +1742,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 40, stack 44, score 44 -> HIGH"
@@ -1613,7 +1828,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1710,7 +1925,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1813,7 +2028,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1881,6 +2096,99 @@
       "enrichment": "article"
     },
     {
+      "event_id": "28eb0c09193125cafbbeeda4",
+      "story_id": "28eb0c09193125cafbbeeda4",
+      "headline": "India records its biggest win in Women’s Hockey World Cup history",
+      "title": "India records its biggest win in Women’s Hockey World Cup history",
+      "summary": "The Sjoerd Marijne-coached team broke the record during the ongoing 2026 edition in the Netherlands and Belgium.",
+      "url": "https://sportstar.thehindu.com/hockey/india-records-biggest-win-womens-hockey-world-cup-history-south-africa-6-1/article71361386.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 55.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T14:49:08+00:00",
+      "published_at": "2026-08-18T14:49:08+00:00",
+      "effective_at": "2026-08-18T14:49:08+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 28, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "India created history on Tuesday after it recorded its biggest-ever win in the history of the FIH Women’s Hockey World Cup.",
+        "The Sjoerd Marijne-coached team thrashed South Africa 6-1 in a Pool-D fixture of the ongoing 2026 edition to break the record.",
+        "More to follow..."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India created history on Tuesday after it recorded its biggest-ever win in the history of the FIH Women’s Hockey World Cup.",
+          "The Sjoerd Marijne-coached team thrashed South Africa 6-1 in a Pool-D fixture of the ongoing 2026 edition to break the record."
+        ],
+        "body": [
+          "More to follow...",
+          "The Sjoerd Marijne-coached team broke the record during the ongoing 2026 edition in the Netherlands and Belgium."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Sjoerd Marijne-coached team thrashed South Africa 6-1 in a Pool-D fixture of the ongoing 2026 edition to break the record.",
+            "source": "Sportstar",
+            "item_id": "28eb0c09193125cafbbeeda4:article",
+            "composed": false
+          },
+          {
+            "text": "India created history on Tuesday after it recorded its biggest-ever win in the history of the FIH Women’s Hockey World Cup.",
+            "source": "Sportstar",
+            "item_id": "28eb0c09193125cafbbeeda4:article",
+            "composed": false
+          },
+          {
+            "text": "The Sjoerd Marijne-coached team broke the record during the ongoing 2026 edition in the Netherlands and Belgium.",
+            "source": "Sportstar",
+            "item_id": "28eb0c09193125cafbbeeda4",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/hockey/india-records-biggest-win-womens-hockey-world-cup-history-south-africa-6-1/article71361386.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "22dbdea0a84dcdc5c30e05f1",
       "story_id": "22dbdea0a84dcdc5c30e05f1",
       "headline": "SC to set up high-powered panel to probe allegations of police excesses during NEET protest",
@@ -1926,7 +2234,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 40.4, score 40.4 -> HIGH"
@@ -2036,7 +2344,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 31.6, score 40 -> HIGH"
