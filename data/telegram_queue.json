@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T13:33:19.222608+00:00",
-  "count": 16,
+  "generated_at": "2026-08-18T13:42:34.752818+00:00",
+  "count": 21,
   "stories": [
     {
       "event_id": "9e5c369f085f0be02c50a4da",
@@ -58,7 +58,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -165,7 +165,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -290,7 +290,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (odisha)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -364,31 +364,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "8bd4fe98b1c98e3171c38f74",
-      "story_id": "8bd4fe98b1c98e3171c38f74",
-      "headline": "India vs South Africa LIVE score, Women's Hockey World Cup 2026: IND 1-0 RSA; Sunelita Toppo scores",
-      "title": "India vs South Africa LIVE score, Women's Hockey World Cup 2026: IND 1-0 RSA; Sunelita Toppo scores",
-      "summary": "IND vs SA: Catch all the live scores, updates, commentary from the FIH Women's Hockey World Cup 2026 between India and South Africa at the Wagener Stadium in Amstelveen, Netherlands on Tuesday.",
-      "url": "https://sportstar.thehindu.com/hockey/india-vs-south-africa-live-score-highlights-womens-hockey-world-cup-2026-updates/article71360318.ece",
-      "source": "Sportstar",
+      "event_id": "4480f7da88af6a50986ef444",
+      "story_id": "4480f7da88af6a50986ef444",
+      "headline": "India-Pakistan FIH Hockey World Cup 2026 Clash Sold Out",
+      "title": "India-Pakistan FIH Hockey World Cup 2026 Clash Sold Out",
+      "summary": "The match has generated considerable interest among the Indian and Pakistani communities in the Netherlands, with tickets having been sold online in phases since September 2025",
+      "url": "https://www.deccanchronicle.com/sports/india-pakistan-fih-hockey-world-cup-2026-clash-sold-out-1980197",
+      "source": "Deccan Chronicle",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "sports",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "international-affairs"
+      ],
       "confidence": "medium",
-      "score": 67.0,
-      "priority_score": 45.0,
+      "score": 100.0,
+      "priority_score": 42.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-18T13:25:56+00:00",
-      "published_at": "2026-08-18T13:25:56+00:00",
-      "effective_at": "2026-08-18T13:25:56+00:00",
+      "event_time": "2026-08-18T13:38:35+00:00",
+      "published_at": "2026-08-18T13:38:35+00:00",
+      "effective_at": "2026-08-18T13:38:35+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
-          "kind": "independent",
+        "pti": {
+          "kind": "wire",
           "source_ids": [
-            "sportstar"
+            "deccan-chronicle"
           ],
           "count": 1
         }
@@ -399,16 +401,15 @@
         "major: geo national significance",
         "category: sports (importance 0.6, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sportstar) +1",
-        "source: specialist (sportstar) +5",
+        "source: tier 2 (deccan-chronicle) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
-        "event term: 'world cup' in summary weight 25.2",
+        "event term: 'match' in summary weight 4.8",
         "scale: national scope",
         "recency: breaking (0.1h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
+        "dominant event 42, stack 28.8, score 42 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -416,10 +417,11 @@
       "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "IND vs SA: Catch all the live scores, updates, commentary from the FIH Women's Hockey World Cup 2026 between India and South Africa at the Wagener Stadium in Amstelveen, Netherlands on Tuesday.",
-          "India vs South Africa Women’s Hockey World Cup 2026 live streaming: Know the match time, TV channel and where to watch India’s second World Cup group stage encounter on August 18."
+          "The match has generated considerable interest among the Indian and Pakistani communities in the Netherlands, with tickets having been sold online in phases since September 2025.",
+          "IND vs SA: Catch all the live scores, updates, commentary from the FIH Women's Hockey World Cup 2026 between India and South Africa at the Wagener Stadium in Amstelveen, Netherlands on Tuesday."
         ],
         "body": [
+          "India vs South Africa Women’s Hockey World Cup 2026 live streaming: Know the match time, TV channel and where to watch India’s second World Cup group stage encounter on August 18.",
           "India holds a dominant record against South Africa, having not lost in the last 10 meetings between the two sides."
         ],
         "bullets": [
@@ -433,7 +435,7 @@
           {
             "text": "IND vs SA: Catch all the live scores, updates, commentary from the FIH Women's Hockey World Cup 2026 between India and South Africa at the Wagener Stadium in Amstelveen, Netherlands on Tuesday.",
             "source": "Sportstar",
-            "item_id": "8bd4fe98b1c98e3171c38f74",
+            "item_id": "eaaacfd0dbc3140a9cad068d",
             "composed": false
           },
           {
@@ -449,13 +451,119 @@
             "composed": false
           }
         ],
-        "source": "Sportstar",
-        "corroborating": [],
-        "url": "https://sportstar.thehindu.com/hockey/india-vs-south-africa-live-score-highlights-womens-hockey-world-cup-2026-updates/article71360318.ece"
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "Sportstar"
+        ],
+        "url": "https://www.deccanchronicle.com/sports/india-pakistan-fih-hockey-world-cup-2026-clash-sold-out-1980197"
       },
-      "group_size": 3,
+      "group_size": 4,
       "label": "⚡ JUST IN",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "3db56a5b4add528a4067a0c0",
+      "story_id": "3db56a5b4add528a4067a0c0",
+      "headline": "Supreme Court Deprecates Judicial Officers Directly Approaching It For Service Disputes, Asks Them To Move HC Committees First",
+      "title": "Supreme Court Deprecates Judicial Officers Directly Approaching It For Service Disputes, Asks Them To Move HC Committees First",
+      "summary": "The Court also requested the High Court Chief Justice to sensitise the Committees to dispose of pending disputes soon.",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-deprecates-judicial-officers-directly-approaching-it-for-service-disputes-asks-them-to-move-hc-committees-first-546296",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 87.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T12:32:50+00:00",
+      "published_at": "2026-08-18T12:32:50+00:00",
+      "effective_at": "2026-08-18T12:32:50+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "recency: breaking (1.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Court also requested the High Court Chief Justice to sensitise the Committees to dispose of pending disputes soon.",
+        "In the All India Judges Association case, the Supreme Court recently deprecated the practice of judicial officers directly approaching it to redress their service-related grievances.",
+        "The Court surmised that this might be due to the failure of the High Court administrative committees to redress the issues in a timely manner.",
+        "Therefore, to avoid judicial officers approaching the Supreme Court at the first instance, a bench of Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana urged the Chief Justices of all the High Courts to sensitise their administrative committees.",
+        "Earlier, the Court had directed the High Courts to constitute \"Committee for Service Conditions of the District Judiciary\" to deal with the grievances of the judicial officers.",
+        "“This Court, at this juncture, is constrained to note that various judicial officers, whether in individual capacity or as a group, are approaching this Court at the first instance for redressal of their grievances.",
+        "It appears to us that this has taken place, in the majority of cases, due to a lack of timely initiatives or redressive action by the Administrative Committees (or any other analogous Committee) of the respective High Court(s).",
+        "We, therefore, request the Chief Justices of all the High Courts to sensitise their Administrative/other Committees to deal with the pending issues regarding service conditions of the judicial officers and take an appropriate decision.”",
+        "The aforesaid observation came by the Court while dealing with a batch of matters concerning service conditions of serving and retired judicial officers across different States.",
+        "The Court noted that judicial officers, either individually or through representative bodies, were approaching the Supreme Court at the first instance for redressal of their grievances.",
+        "Therefore, requested the Chief Justices of the High Courts to consider pending issues relating to judicial officers' service conditions and take appropriate decisions.",
+        "The Court also granted a liberty to the aggrieved/affected judicial officers to approach the jurisdictional High Court, which shall, after considering the issue, if it finds that serving or retired judicial officers are entitled to a particular pay, benefit or other service-related relief, make the recommendation to the concerned State Government."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Court also requested the High Court Chief Justice to sensitise the Committees to dispose of pending disputes soon.",
+          "In the All India Judges Association case, the Supreme Court recently deprecated the practice of judicial officers directly approaching it to redress their service-related grievances."
+        ],
+        "body": [
+          "The Court surmised that this might be due to the failure of the High Court administrative committees to redress the issues in a timely manner.",
+          "Therefore, to avoid judicial officers approaching the Supreme Court at the first instance, a bench of Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana urged the Chief Justices of all the High Courts to sensitise their administrative committees.",
+          "Earlier, the Court had directed the High Courts to constitute \"Committee for Service Conditions of the District Judiciary\" to deal with the grievances of the judicial officers.",
+          "“This Court, at this juncture, is constrained to note that various judicial officers, whether in individual capacity or as a group, are approaching this Court at the first instance for redressal of their grievances.",
+          "It appears to us that this has taken place, in the majority of cases, due to a lack of timely initiatives or redressive action by the Administrative Committees (or any other analogous Committee) of the respective High Court(s).",
+          "We, therefore, request the Chief Justices of all the High Courts to sensitise their Administrative/other Committees to deal with the pending issues regarding service conditions of the judicial officers and take an appropriate decision.” The aforesaid observation came by the Court while dealing with a batch of matters concerning service conditions of serving and retired judicial officers across different States.",
+          "The Court noted that judicial officers, either individually or through representative bodies, were approaching the Supreme Court at the first instance for redressal of their grievances.",
+          "Therefore, requested the Chief Justices of the High Courts to consider pending issues relating to judicial officers' service conditions and take appropriate decisions."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Court noted that judicial officers, either individually or through representative bodies, were approaching the Supreme Court at the first instance for redressal of their grievances.",
+            "source": "LiveLaw",
+            "item_id": "3db56a5b4add528a4067a0c0:article",
+            "composed": false
+          },
+          {
+            "text": "The Court also requested the High Court Chief Justice to sensitise the Committees to dispose of pending disputes soon.",
+            "source": "LiveLaw",
+            "item_id": "3db56a5b4add528a4067a0c0:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-deprecates-judicial-officers-directly-approaching-it-for-service-disputes-asks-them-to-move-hc-committees-first-546296"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "0235496f28d30867073e8c5d",
@@ -502,7 +610,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'ceasefire' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -627,7 +735,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -803,7 +911,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -916,7 +1024,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 40.4, score 40.4 -> HIGH"
@@ -984,7 +1092,7 @@
         ],
         "url": "https://www.greaterkashmir.com/national/sc-to-set-up-high-powered-panel-to-probe-allegations-of-police-excesses-during-neet-protest-12392133"
       },
-      "group_size": 2,
+      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1034,7 +1142,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1141,7 +1249,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1229,7 +1337,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1319,7 +1427,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'blackout' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1412,7 +1520,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1496,7 +1604,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1595,7 +1703,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 22.8, stack 45, score 45 -> HIGH"
@@ -1657,6 +1765,422 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "26b84e1b3acd629db718fcfc",
+      "story_id": "26b84e1b3acd629db718fcfc",
+      "headline": "Supreme Court Mulls CBI Probe Against Mamata Banerjee Over Alleged Obstruction Of ED's I-PAC Raid",
+      "title": "Supreme Court Mulls CBI Probe Against Mamata Banerjee Over Alleged Obstruction Of ED's I-PAC Raid",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-mulls-cbi-probe-against-mamata-banerjee-over-alleged-obstruction-of-eds-i-pac-raid-546302",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T12:56:39+00:00",
+      "published_at": "2026-08-18T12:56:39+00:00",
+      "effective_at": "2026-08-18T12:56:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.8h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court today(August 18) expressed its intention to transfer the investigation into former West Bengal Chief Minister Mamata Banerjee's alleged obstruction of the Enforcement Directorate's raid of I-PAC, the political consultant of the All India Trinamool Congress, in January this year, to the Central Bureau of Investigation.",
+        "The Court was hearing the writ petition filed by the ED and its officers seeking FIR and investigation against Mamata Banerjee and certain police officials who allegedly abetted her act.",
+        "A bench comprising Justice Prashant Kumar Mishra and Justice NV Anjaria was hearing the matter.",
+        "At the outset, Senior Advocate Menaka Guruswamy(for the former Chief Minister Mamata Banerjee) submitted that since there has been a change of government, the State police can investigate.",
+        "At this, Justice Mishra said that pursuant to the subsequent changes, nothing remains and the matter can be disposed of.",
+        "He stated that the Court will allow the petitioner's prayer for the transfer of investigation to the CBI.",
+        "\"You can refer to CBI, we will enable you,\" Justice Mishra said.",
+        "He then started dictating the order; however, Solicitor General Tushar Mehta, appearing through VC, interjected and urged that they want to press their prayers that the larger issue must be decided.",
+        "He said: \"We don't want to face any allegations that State Government, because of political reasons, has done it.",
+        "Either we are right or wrong, I want mylords to decide.",
+        "I don't wish to fall in the death trap that, subsequent to the changes in the government, the State transferred it to the CBI.\"",
+        "Additional Solicitor General SV Raju stated that the Court must decide as to whether CBI can investigate a sitting Chief Minister if she goes and commits a crime."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court today(August 18) expressed its intention to transfer the investigation into former West Bengal Chief Minister Mamata Banerjee's alleged obstruction of the Enforcement Directorate's raid of I-PAC, the political consultant of the All India Trinamool Congress, in January this year, to the Central Bureau of Investigation.",
+          "The Court was hearing the writ petition filed by the ED and its officers seeking FIR and investigation against Mamata Banerjee and certain police officials who allegedly abetted her act."
+        ],
+        "body": [
+          "A bench comprising Justice Prashant Kumar Mishra and Justice NV Anjaria was hearing the matter.",
+          "At the outset, Senior Advocate Menaka Guruswamy(for the former Chief Minister Mamata Banerjee) submitted that since there has been a change of government, the State police can investigate.",
+          "At this, Justice Mishra said that pursuant to the subsequent changes, nothing remains and the matter can be disposed of.",
+          "He stated that the Court will allow the petitioner's prayer for the transfer of investigation to the CBI.",
+          "\"You can refer to CBI, we will enable you,\" Justice Mishra said.",
+          "He then started dictating the order; however, Solicitor General Tushar Mehta, appearing through VC, interjected and urged that they want to press their prayers that the larger issue must be decided.",
+          "He said: \"We don't want to face any allegations that State Government, because of political reasons, has done it.",
+          "Either we are right or wrong, I want mylords to decide."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "January"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court today(August 18) expressed its intention to transfer the investigation into former West Bengal Chief Minister Mamata Banerjee's alleged obstruction of the Enforcement Directorate's raid of I-PAC, the political consultant of the All India Trinamool Congress, in January this year, to the Central Bureau of Investigation.",
+            "source": "LiveLaw",
+            "item_id": "26b84e1b3acd629db718fcfc:article",
+            "composed": false
+          },
+          {
+            "text": "He stated that the Court will allow the petitioner's prayer for the transfer of investigation to the CBI.",
+            "source": "LiveLaw",
+            "item_id": "26b84e1b3acd629db718fcfc:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-mulls-cbi-probe-against-mamata-banerjee-over-alleged-obstruction-of-eds-i-pac-raid-546302"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "6354017a70722f2558882859",
+      "story_id": "6354017a70722f2558882859",
+      "headline": "Supreme Court Flags Anomalies In Fixing Consumer Fora Jurisdiction Based On Consideration Paid, Seeks Centre's Response",
+      "title": "Supreme Court Flags Anomalies In Fixing Consumer Fora Jurisdiction Based On Consideration Paid, Seeks Centre's Response",
+      "summary": "",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-flags-anomalies-in-fixing-consumer-fora-jurisdiction-based-on-consideration-paid-seeks-centres-response-546226",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T12:11:46+00:00",
+      "published_at": "2026-08-18T12:11:46+00:00",
+      "effective_at": "2026-08-18T12:11:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (1.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has flagged certain anomalies which can arise from the provisions of the Consumer Protection Act, 2019, if the pecuniary jurisdiction of the consumer fora is determined as per the value of consideration paid by the consumer for goods or services, and sought the response of the Union Government.",
+        "Unlike the repealed 1986 Act, where the pecuniary jurisdiction of consumer commissions was determined based on the aggregate value of goods or services involved and the compensation claimed, the Consumer Protection Act, 2019, marked a significant departure by limiting jurisdictional computation to the value of the goods or services paid as consideration.",
+        "The bench of Justice KV Viswanathan and Justice Arun Palli was essentially considering a consumer dispute arising from an insurance contract.",
+        "During the hearing, the bench expanded the consideration to the larger issue.",
+        "Sr. Adv.",
+        "Gagan Gupta, for the insured petitioner, highlighted anomalies that may arise if the pecuniary jurisdiction of the consumer forums is decided based on the consideration paid for the purchase of goods or services.",
+        "By way of an illustration, the senior counsel highlighted a dispute arising from a fixed deposit account in a Bank.",
+        "He pointed out that although they are consumers of banking services, there may be no separate consideration paid for opening an FD account in a bank.",
+        "So, if any dispute arises, such as loss of money or loss of interest, the account holder would be barred from filing a consumer complaint, as jurisdiction is now determined based on the consideration paid for a service, which the consumer purportedly has not paid.",
+        "He also referred to medical services provided on a subsidised basis.",
+        "Where some patients pay for services while others receive them without payment, determining pecuniary jurisdiction exclusively based on consideration could create difficulties even though both categories may fall within the statutory definition of \"consumer\".",
+        "Further, a situation was also highlighted where, if consideration paid is taken as the basis for determining the pecuniary jurisdiction, in a given case, where the deficiency is only against certain fixtures and fittings in the house/flat, since there is no breakup of consideration available, the value of the entire house/flat may have to be taken for lodging a claim before the appropriate fora."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has flagged certain anomalies which can arise from the provisions of the Consumer Protection Act, 2019, if the pecuniary jurisdiction of the consumer fora is determined as per the value of consideration paid by the consumer for goods or services, and sought the response of the Union Government.",
+          "Unlike the repealed 1986 Act, where the pecuniary jurisdiction of consumer commissions was determined based on the aggregate value of goods or services involved and the compensation claimed, the Consumer Protection Act, 2019, marked a significant departure by limiting jurisdictional computation to the value of the goods or services paid as consideration."
+        ],
+        "body": [
+          "The bench of Justice KV Viswanathan and Justice Arun Palli was essentially considering a consumer dispute arising from an insurance contract.",
+          "During the hearing, the bench expanded the consideration to the larger issue.",
+          "Sr. Adv.",
+          "Gagan Gupta, for the insured petitioner, highlighted anomalies that may arise if the pecuniary jurisdiction of the consumer forums is decided based on the consideration paid for the purchase of goods or services.",
+          "By way of an illustration, the senior counsel highlighted a dispute arising from a fixed deposit account in a Bank.",
+          "He pointed out that although they are consumers of banking services, there may be no separate consideration paid for opening an FD account in a bank.",
+          "So, if any dispute arises, such as loss of money or loss of interest, the account holder would be barred from filing a consumer complaint, as jurisdiction is now determined based on the consideration paid for a service, which the consumer purportedly has not paid.",
+          "He also referred to medical services provided on a subsidised basis."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Unlike the repealed 1986 Act, where the pecuniary jurisdiction of consumer commissions was determined based on the aggregate value of goods or services involved and the compensation claimed, the Consumer Protection Act, 2019, marked a significant departure by limiting jurisdictional computation to the value of the goods or services paid as consideration.",
+            "source": "LiveLaw",
+            "item_id": "6354017a70722f2558882859:article",
+            "composed": false
+          },
+          {
+            "text": "Gagan Gupta, for the insured petitioner, highlighted anomalies that may arise if the pecuniary jurisdiction of the consumer forums is decided based on the consideration paid for the purchase of goods or services.",
+            "source": "LiveLaw",
+            "item_id": "6354017a70722f2558882859:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-flags-anomalies-in-fixing-consumer-fora-jurisdiction-based-on-consideration-paid-seeks-centres-response-546226"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "7d3fed7053f3ed82450523a4",
+      "story_id": "7d3fed7053f3ed82450523a4",
+      "headline": "Supreme Court Issues Notice In PIL Seeking Applications Of Money Laundering, Anti-Corruption Laws On Paper Leak Accused",
+      "title": "Supreme Court Issues Notice In PIL Seeking Applications Of Money Laundering, Anti-Corruption Laws On Paper Leak Accused",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-issues-notice-in-pil-seeking-applications-of-money-laundering-anti-corruption-laws-on-paper-leak-accused-546265",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T09:49:46+00:00",
+      "published_at": "2026-08-18T09:49:46+00:00",
+      "effective_at": "2026-08-18T09:49:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (3.9h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court today(August 18) issued notice in a public interest litigation seeking that the provisions of the Prevention of Corruption Act, the Money Laundering Act, and the Benami Property Act should be applied in such cases to determine their prior liabilities in cases of paper leaks.",
+        "A bench comprising Justice PS Narasimha and Justice Alok Aradhe issued notice after briefly hearing advocate and petitioner-in-person Ashwini Kumar Upadhyay.",
+        "He had filed the petition in the backdrop of the recent NEET paper leak, which affected lakhs of students.",
+        "He argued that there have been continued failures on the part of the authorities to prevent, investigate and effectively prosecute those responsible for the paper leaks.",
+        "This has resulted in the violation of the fundamental rights of students under Articles 14, 16, 19 and 21.",
+        "He sought a direction to the Centre and States to formulate a 'Standard Questionnaire' and 'Special Investigation Procedure' in order to ensure time-bound investigation and speedy trial of paper leak cases.",
+        "However, today he pointed out that since the 2026 amendment to the Public Examinations (Prevention of Unfair Means) Act, 2024, has now introduced time-bound investigation, he is not pressing for this prayer anymore."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court today(August 18) issued notice in a public interest litigation seeking that the provisions of the Prevention of Corruption Act, the Money Laundering Act, and the Benami Property Act should be applied in such cases to determine their prior liabilities in cases of paper leaks.",
+          "A bench comprising Justice PS Narasimha and Justice Alok Aradhe issued notice after briefly hearing advocate and petitioner-in-person Ashwini Kumar Upadhyay."
+        ],
+        "body": [
+          "He had filed the petition in the backdrop of the recent NEET paper leak, which affected lakhs of students.",
+          "He argued that there have been continued failures on the part of the authorities to prevent, investigate and effectively prosecute those responsible for the paper leaks.",
+          "This has resulted in the violation of the fundamental rights of students under Articles 14, 16, 19 and 21.",
+          "He sought a direction to the Centre and States to formulate a 'Standard Questionnaire' and 'Special Investigation Procedure' in order to ensure time-bound investigation and speedy trial of paper leak cases.",
+          "However, today he pointed out that since the 2026 amendment to the Public Examinations (Prevention of Unfair Means) Act, 2024, has now introduced time-bound investigation, he is not pressing for this prayer anymore."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court today(August 18) issued notice in a public interest litigation seeking that the provisions of the Prevention of Corruption Act, the Money Laundering Act, and the Benami Property Act should be applied in such cases to determine their prior liabilities in cases of paper leaks.",
+            "source": "LiveLaw",
+            "item_id": "7d3fed7053f3ed82450523a4:article",
+            "composed": false
+          },
+          {
+            "text": "This has resulted in the violation of the fundamental rights of students under Articles 14, 16, 19 and 21.",
+            "source": "LiveLaw",
+            "item_id": "7d3fed7053f3ed82450523a4:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-issues-notice-in-pil-seeking-applications-of-money-laundering-anti-corruption-laws-on-paper-leak-accused-546265"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "ede1412af8a90fc389ca574c",
+      "story_id": "ede1412af8a90fc389ca574c",
+      "headline": "Supreme Court Approves Centre's Appointment Of New CMD For Unitech Ltd",
+      "title": "Supreme Court Approves Centre's Appointment Of New CMD For Unitech Ltd",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-approves-centres-appointment-of-new-cmd-for-unitech-ltd-546257",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T09:19:36+00:00",
+      "published_at": "2026-08-18T09:19:36+00:00",
+      "effective_at": "2026-08-18T09:19:36+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (4.4h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Monday (August 17) approved the appointment of retired IAS officer Giridhar Aramane as the Chairman and Managing Director (CMD) of real estate company Unitech Limited, following the end of the tenure of former CMD Yudhvir Singh Malik.",
+        "A bench of Justice JB Pardiwala and Justice KV Viswanathan took note of the Ministry of Corporate Affairs' application seeking approval for the appointment of Aramane, a 1988-batch IAS officer, as the new Chairman and Managing Director on the board of Unitech.",
+        "“We take notice of the fact that the tenure of Mr. Yudhveer Singh Malik, former chairman and managing director on board of Unitech Ltd., has come to an end.",
+        "Came to an end on 20th of July 2026.",
+        "The Ministry has now appointed Shri Giridhar Aromane, IAS, RETD, retired, 1988 batch, to function as chairman and managing director on the board of Unitech Ltd.",
+        "We approve the appointment of Mr. Giridhar Aromane as the chairman and managing director on the board of Unitech Ltd.”, the Court said.",
+        "The new CMD's appointment ordered by the Court is part of the Court's continuous oversight over the affairs of the financially distressed Unitech group, including implementation of the resolution framework, management of its various entities and efforts to address the claims of homebuyers and other stakeholders.",
+        "The development comes against the backdrop of thousands of distressed homebuyers demanding urgent action to complete stalled projects.",
+        "Homebuyers associations representing thousands of property buyers have expressed grave concern over the lack of funds with the Unitech Ltd.",
+        "to complete stalled projects and demanded that the unsold assets of the realty firm should be auctioned to expedite construction works.",
+        "The Court is continuously monitoring the fund-ridden Unitech matter, where in vide order dated May 27, 2026, the Court appointed Price Waterhouse Coopers (PwC) as an independent agency to examine proposals for valuing and monetising Unitech's assets.",
+        "The Court has also directed that all requisite permissions should be granted by state development authorities like Noida, Greater Noida, and the town and country planning department of Haryana."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Monday (August 17) approved the appointment of retired IAS officer Giridhar Aramane as the Chairman and Managing Director (CMD) of real estate company Unitech Limited, following the end of the tenure of former CMD Yudhvir Singh Malik.",
+          "A bench of Justice JB Pardiwala and Justice KV Viswanathan took note of the Ministry of Corporate Affairs' application seeking approval for the appointment of Aramane, a 1988-batch IAS officer, as the new Chairman and Managing Director on the board of Unitech."
+        ],
+        "body": [
+          "“We take notice of the fact that the tenure of Mr. Yudhveer Singh Malik, former chairman and managing director on board of Unitech Ltd., has come to an end.",
+          "Came to an end on 20th of July 2026.",
+          "The Ministry has now appointed Shri Giridhar Aromane, IAS, RETD, retired, 1988 batch, to function as chairman and managing director on the board of Unitech Ltd.",
+          "We approve the appointment of Mr. Giridhar Aromane as the chairman and managing director on the board of Unitech Ltd.”, the Court said.",
+          "The new CMD's appointment ordered by the Court is part of the Court's continuous oversight over the affairs of the financially distressed Unitech group, including implementation of the resolution framework, management of its various entities and efforts to address the claims of homebuyers and other stakeholders.",
+          "The development comes against the backdrop of thousands of distressed homebuyers demanding urgent action to complete stalled projects.",
+          "Homebuyers associations representing thousands of property buyers have expressed grave concern over the lack of funds with the Unitech Ltd.",
+          "to complete stalled projects and demanded that the unsold assets of the realty firm should be auctioned to expedite construction works."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Came to an end on 20th of July 2026.",
+            "source": "LiveLaw",
+            "item_id": "ede1412af8a90fc389ca574c:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Monday (August 17) approved the appointment of retired IAS officer Giridhar Aramane as the Chairman and Managing Director (CMD) of real estate company Unitech Limited, following the end of the tenure of former CMD Yudhvir Singh Malik.",
+            "source": "LiveLaw",
+            "item_id": "ede1412af8a90fc389ca574c:article",
+            "composed": false
+          },
+          {
+            "text": "A bench of Justice JB Pardiwala and Justice KV Viswanathan took note of the Ministry of Corporate Affairs' application seeking approval for the appointment of Aramane, a 1988-batch IAS officer, as the new Chairman and Managing Director on the board of Unitech.",
+            "source": "LiveLaw",
+            "item_id": "ede1412af8a90fc389ca574c:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-approves-centres-appointment-of-new-cmd-for-unitech-ltd-546257"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "436ef1d61585a32d2b02e12f",
       "story_id": "436ef1d61585a32d2b02e12f",
       "headline": "IMD Update: Heavy rain lash over West Bengal, Odisha, Uttarakhand",
@@ -1701,7 +2225,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
