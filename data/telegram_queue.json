@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:03:21.546595+00:00",
+  "generated_at": "2026-08-18T11:12:54.251938+00:00",
   "count": 21,
   "stories": [
     {
@@ -58,7 +58,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'flood' in title weight 64",
         "scale: state scope (odisha)",
         "scale: 1 people-affected figures",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -279,7 +279,7 @@
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
         "scale: 1 people-affected figures",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 25, score 64 -> URGENT"
@@ -411,7 +411,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 21.4, score 58 -> HIGH"
@@ -517,7 +517,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'ballistic missile' in title weight 46",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 46, stack 28.8, score 46 -> HIGH"
@@ -553,6 +553,92 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "b089d2145315c88895884487",
+      "story_id": "b089d2145315c88895884487",
+      "headline": "Supreme Court seeks Centre, states’ response on property confiscation in paper leak cases",
+      "title": "Supreme Court seeks Centre, states’ response on property confiscation in paper leak cases",
+      "summary": "The Supreme Court has sought responses from the Centre and states on a PIL seeking confiscation of movable and immovable property belonging to offenders and their family members in exam paper leak cases. The court fixed September 25 for further hearing.",
+      "url": "https://telanganatoday.com/supreme-court-seeks-centre-states-response-on-property-confiscation-in-paper-leak-cases",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T11:06:45+00:00",
+      "published_at": "2026-08-18T11:06:45+00:00",
+      "effective_at": "2026-08-18T11:06:45+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has sought responses from the Centre and states on a PIL seeking confiscation of movable and immovable property belonging to offenders and their family members in exam paper leak cases.",
+          "The court fixed September 25 for further hearing."
+        ],
+        "body": [
+          "The petitioner said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The court fixed September 25 for further hearing.",
+            "source": "Telangana Today",
+            "item_id": "b089d2145315c88895884487",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court has sought responses from the Centre and states on a PIL seeking confiscation of movable and immovable property belonging to offenders and their family members in exam paper leak cases.",
+            "source": "Telangana Today",
+            "item_id": "b089d2145315c88895884487",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [
+          "The Hindu"
+        ],
+        "url": "https://telanganatoday.com/supreme-court-seeks-centre-states-response-on-property-confiscation-in-paper-leak-cases"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -603,7 +689,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'blackout' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -697,7 +783,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -806,7 +892,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -921,7 +1007,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1005,7 +1091,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1104,7 +1190,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 22.8, stack 45, score 45 -> HIGH"
@@ -1207,7 +1293,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1303,7 +1389,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1409,7 +1495,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1477,110 +1563,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "e156de2f55a2246ce6dfd3bb",
-      "story_id": "e156de2f55a2246ce6dfd3bb",
-      "headline": "Supreme Court directs Govt response on plea for special, time-bound probe into paper leak cases",
-      "title": "Supreme Court directs Govt response on plea for special, time-bound probe into paper leak cases",
-      "summary": "The petitioner said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws",
-      "url": "https://www.thehindu.com/news/national/sc-directs-govt-response-on-plea-for-special-time-bound-probe-into-paper-leak-cases/article71359204.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-18T09:03:31+00:00",
-      "published_at": "2026-08-18T09:03:31+00:00",
-      "effective_at": "2026-08-18T09:03:31+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
-        "A Bench headed by Justice P.S. Narasimha issued notice to the Union and State governments filed by petitioner-advocate Ashwini Kumar Upadhyay, who has also sought a direction for assessment of entire property of perpetrators and their family members.",
-        "Mr. Upadhyay said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws.",
-        "The petition even suggested the confiscation of the assets of the perpetrators and their family members.",
-        "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
-        "“The continued failure of the authorities to prevent, investigate, and effectively prosecute those responsible has resulted in an ongoing violation of the fundamental rights guaranteed under the Constitution,” the petition said.",
-        "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
-        "The petitioner noted that the lack of Deception Detection Tests (DDT) to locate the actual masterminds behind the paper leaks has also been one of the reasons for the non-enforcement of the 2024 Act."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
-          "A Bench headed by Justice P.S. Narasimha issued notice to the Union and State governments filed by petitioner-advocate Ashwini Kumar Upadhyay, who has also sought a direction for assessment of entire property of perpetrators and their family members."
-        ],
-        "body": [
-          "Mr. Upadhyay said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws.",
-          "The petition even suggested the confiscation of the assets of the perpetrators and their family members.",
-          "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
-          "“The continued failure of the authorities to prevent, investigate, and effectively prosecute those responsible has resulted in an ongoing violation of the fundamental rights guaranteed under the Constitution,” the petition said.",
-          "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
-          "The petitioner noted that the lack of Deception Detection Tests (DDT) to locate the actual masterminds behind the paper leaks has also been one of the reasons for the non-enforcement of the 2024 Act."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
-            "source": "The Hindu",
-            "item_id": "e156de2f55a2246ce6dfd3bb:article",
-            "composed": false
-          },
-          {
-            "text": "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
-            "source": "The Hindu",
-            "item_id": "e156de2f55a2246ce6dfd3bb:article",
-            "composed": false
-          },
-          {
-            "text": "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
-            "source": "The Hindu",
-            "item_id": "e156de2f55a2246ce6dfd3bb:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/sc-directs-govt-response-on-plea-for-special-time-bound-probe-into-paper-leak-cases/article71359204.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "851de3eadd34fc5cf8b99e11",
       "story_id": "851de3eadd34fc5cf8b99e11",
       "headline": "Supreme Court Issues Notice To Centre, States On Plea Against Police Posting Images Of Accused On Social Media",
@@ -1624,7 +1606,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1733,7 +1715,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1839,7 +1821,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1964,7 +1946,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2079,7 +2061,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'match' in title weight 8",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 32, score 42 -> HIGH"
@@ -2184,7 +2166,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (rajasthan)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
