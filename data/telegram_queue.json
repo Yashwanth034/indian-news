@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T09:12:32.485581+00:00",
-  "count": 16,
+  "generated_at": "2026-08-18T09:22:09.171391+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "9e5c369f085f0be02c50a4da",
@@ -58,7 +58,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 29, score 64 -> URGENT"
@@ -308,7 +308,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -404,7 +404,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 25.4, score 58 -> HIGH"
@@ -510,7 +510,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'ballistic missile' in title weight 46",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 46, stack 32.8, score 46 -> HIGH"
@@ -546,6 +546,104 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "e8a0ffd78c5f1d9e8e12ed9c",
+      "story_id": "e8a0ffd78c5f1d9e8e12ed9c",
+      "headline": "Pak Supreme Court orders ex-PM Imran Khan to be moved to hospital from jail amid health concerns",
+      "title": "Pak Supreme Court orders ex-PM Imran Khan to be moved to hospital from jail amid health concerns",
+      "summary": "Following growing concerns over his medical condition, Pakistan's Supreme Court on Tuesday directed authorities to transfer jailed former prime minister Imran Khan to Islamabad's Shifa International Hospital for a health evaluation, according to a report by Dawn. A three-member Supreme Court bench, headed by Justice Shahid Wahid and comprising Justice Naeem Akhtar Afghan and Justice Ishtiaq Ibrahim, issued the ruling on Imran's petition for his hospitalisation. Highlighting the severe restrictions and isolation imposed on political prisoners in the country, the court also ordered authorities to ensure his weekly meetings with his family members. The court further directed the formation of a medical board with which Imran's personal physician and his sister, Uzma Khan, are to remain associated, Dawn reported. Attempts to keep information regarding his condition hidden were also outlined, as Imran's lawyers and family members were instructed not to share his medical reports with the media or politicise the matter. The court order follows mounting concerns over the state of Pakistan's prisons, coming a day after the superintendent of the Adiala jail, where Imran has been imprisoned since August 2023, submitted a report to the apex court on the ex-premier's health condition, according to Dawn. Underscoring the severity of the situation, former Pakistan President Arif Alvi claimed on Tuesday that the imprisoned leader's medical reports were deeply alarming. In a post on social media platform X, Alvi expressed grave concern over Khan's anxiety, high blood pressure and an elevated heart rate of 54 beats per minute, warning that \"isolation is taking a physical toll on his body\" and urging an immediate transfer to a hospital under an independent panel of doctors. This medical crisis unfolds amid a complete blackout of access imposed by the authorities. Khan's sons, Sulaiman Khan and Kasim Khan, revealed to CNN that they had received no updates, as neither family, lawyers nor doctors had been permitted to see their father for seven months, exposing the state's harsh treatment of its political opponents. The denial of basic rights and medical transparency has triggered widespread unrest, with supporters of Khan's Pakistan Tehreek-e-Insaf (PTI) staging nationwide demonstrations demanding the immediate release of the party founder and his spouse, Bushra Bibi. The state's heavy-handed tactics stem from a prolonged political crackdown following Khan's ouster via a parliamentary no-confidence vote in 2022. Incarcerated since 2023 on what his aides maintain are politically motivated charges, Khan was effectively barred alongside his party leadership from participating in the 2024 general elections, highlighting the military-backed administration's systematic efforts to suppress opposition.",
+      "url": "https://risingkashmir.com/world/pakistansupremecourtexpmimrankhan-12392194",
+      "source": "Rising Kashmir",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics",
+        "health",
+        "technology-digital",
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 64.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-18T09:20:19+00:00",
+      "published_at": "2026-08-18T09:20:19+00:00",
+      "effective_at": "2026-08-18T09:20:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (rising-kashmir) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'blackout' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Following growing concerns over his medical condition, Pakistan's Supreme Court on Tuesday directed authorities to transfer jailed former prime minister Imran Khan to Islamabad's Shifa International Hospital for a health evaluation, according to a report by Dawn.",
+          "A three-member Supreme Court bench, headed by Justice Shahid Wahid and comprising Justice Naeem Akhtar Afghan and Justice Ishtiaq Ibrahim, issued the ruling on Imran's petition for his hospitalisation."
+        ],
+        "body": [
+          "Highlighting the severe restrictions and isolation imposed on political prisoners in the country, the court also ordered authorities to ensure his weekly meetings with his family members.",
+          "The court further directed the formation of a medical board with which Imran's personal physician and his sister, Uzma Khan, are to remain associated, Dawn reported.",
+          "Attempts to keep information regarding his condition hidden were also outlined, as Imran's lawyers and family members were instructed not to share his medical reports with the media or politicise the matter.",
+          "The court order follows mounting concerns over the state of Pakistan's prisons, coming a day after the superintendent of the Adiala jail, where Imran has been imprisoned since August 2023, submitted a report to the apex court on the ex-premier's health condition, according to Dawn.",
+          "Underscoring the severity of the situation, former Pakistan President Arif Alvi claimed on Tuesday that the imprisoned leader's medical reports were deeply alarming.",
+          "In a post on social media platform X, Alvi expressed grave concern over Khan's anxiety, high blood pressure and an elevated heart rate of 54 beats per minute, warning that \"isolation is taking a physical toll on his body\" and urging an immediate transfer to a hospital under an independent panel of doctors.",
+          "This medical crisis unfolds amid a complete blackout of access imposed by the authorities.",
+          "Khan's sons, Sulaiman Khan and Kasim Khan, revealed to CNN that they had received no updates, as neither family, lawyers nor doctors had been permitted to see their father for seven months, exposing the state's harsh treatment of its political opponents.",
+          "The denial of basic rights and medical transparency has triggered widespread unrest, with supporters of Khan's Pakistan Tehreek-e-Insaf (PTI) staging nationwide demonstrations demanding the immediate release of the party founder and his spouse, Bushra Bibi.",
+          "The state's heavy-handed tactics stem from a prolonged political crackdown following Khan's ouster via a parliamentary no-confidence vote in 2022.",
+          "Incarcerated since 2023 on what his aides maintain are politically motivated charges, Khan was effectively barred alongside his party leadership from participating in the 2024 general elections, highlighting the military-backed administration's systematic efforts to suppress opposition."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Incarcerated since 2023 on what his aides maintain are politically motivated charges, Khan was effectively barred alongside his party leadership from participating in the 2024 general elections, highlighting the military-backed administration's systematic efforts to suppress opposition.",
+            "source": "Rising Kashmir",
+            "item_id": "e8a0ffd78c5f1d9e8e12ed9c",
+            "composed": false
+          },
+          {
+            "text": "In a post on social media platform X, Alvi expressed grave concern over Khan's anxiety, high blood pressure and an elevated heart rate of 54 beats per minute, warning that \"isolation is taking a physical toll on his body\" and urging an immediate transfer to a hospital under an independent panel of doctors.",
+            "source": "Rising Kashmir",
+            "item_id": "e8a0ffd78c5f1d9e8e12ed9c",
+            "composed": false
+          }
+        ],
+        "source": "Rising Kashmir",
+        "corroborating": [],
+        "url": "https://risingkashmir.com/world/pakistansupremecourtexpmimrankhan-12392194"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -594,7 +692,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -602,7 +700,7 @@
       "geo_scope": "state",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "New Delhi, Aug 18: The Supreme Court on Tuesday said it would constitute a high-powered committee comprising retired judges, a former DGP, an ex-CBI director and others to examine allegations of police excesses against student protesters in Delhi.",
@@ -663,7 +761,7 @@
         "url": "https://www.greaterkashmir.com/national/sc-to-set-up-high-powered-panel-to-probe-allegations-of-police-excesses-during-neet-protest-12392133"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -709,7 +807,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -793,7 +891,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -892,7 +990,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 22.8, stack 45, score 45 -> HIGH"
@@ -996,7 +1094,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1035,27 +1133,27 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "b61d17a88f470d194ced3eae",
-      "story_id": "b61d17a88f470d194ced3eae",
-      "headline": "India in a Fragmenting World: Trade, Technology and Economic Security",
-      "title": "India in a Fragmenting World: Trade, Technology and Economic Security",
-      "summary": "This e-book offers a penetrating analysis of a new reality and the choices India must make as it confronts a series of urgent external challenges, ranging from punitive tariffs and energy sanctions to the very nature of modern trade.",
-      "url": "https://www.thehindu.com/news/national/india-in-a-fragmenting-world-trade-technology-and-economic-security/article71358961.ece",
+      "event_id": "e156de2f55a2246ce6dfd3bb",
+      "story_id": "e156de2f55a2246ce6dfd3bb",
+      "headline": "Supreme Court directs Govt response on plea for special, time-bound probe into paper leak cases",
+      "title": "Supreme Court directs Govt response on plea for special, time-bound probe into paper leak cases",
+      "summary": "The petitioner said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws",
+      "url": "https://www.thehindu.com/news/national/sc-directs-govt-response-on-plea-for-special-time-bound-probe-into-paper-leak-cases/article71359204.ece",
       "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
-      "category": "economy-finance",
+      "category": "courts-law",
       "secondary_categories": [
-        "energy-environment"
+        "crime-public-safety"
       ],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
+      "score": 60.0,
+      "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-18T04:56:04+00:00",
-      "published_at": "2026-08-18T04:56:04+00:00",
-      "effective_at": "2026-08-18T04:56:04+00:00",
+      "event_time": "2026-08-18T09:03:31+00:00",
+      "published_at": "2026-08-18T09:03:31+00:00",
+      "effective_at": "2026-08-18T09:03:31+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -1070,61 +1168,69 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
+        "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
+        "recency: breaking (0.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 24, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The shifting global dynamics—alongside the ambition to emerge as a global economic powerhouse—is causing India to recalibrate its strategy and renew its focus on trade policy.",
-        "India in a Fragmenting World: Trade, Technology and Economic Security by The Hindu offers a penetrating analysis of this new reality and the choices India must make as it confronts a series of urgent external challenges, ranging from punitive tariffs and energy sanctions to the very nature of modern trade.",
-        "This e-book critically evaluates the evolution of modern free trade agreements from simple tariff reductions to complex policy deals involving carbon taxes and data governance.",
-        "It also explores the phenomenal, yet fragile, success of India’s services sector, highlighting the pressing need to modernise urban infrastructure and educational institutions to sustain the competitive advantage in an AI-driven future.",
-        "From the highly politicised trade dynamics with the United States, to the persistent economic dependence on Chinese imports, and the pragmatic yet controversial pursuit of energy security through Russian partnerships, this collection offers insights into everything India is doing and must do to become a resilient, technologically advanced economy in this new world order.",
-        "What’s inside?"
+        "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
+        "A Bench headed by Justice P.S. Narasimha issued notice to the Union and State governments filed by petitioner-advocate Ashwini Kumar Upadhyay, who has also sought a direction for assessment of entire property of perpetrators and their family members.",
+        "Mr. Upadhyay said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws.",
+        "The petition even suggested the confiscation of the assets of the perpetrators and their family members.",
+        "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
+        "“The continued failure of the authorities to prevent, investigate, and effectively prosecute those responsible has resulted in an ongoing violation of the fundamental rights guaranteed under the Constitution,” the petition said.",
+        "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
+        "The petitioner noted that the lack of Deception Detection Tests (DDT) to locate the actual masterminds behind the paper leaks has also been one of the reasons for the non-enforcement of the 2024 Act."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The shifting global dynamics—alongside the ambition to emerge as a global economic powerhouse—is causing India to recalibrate its strategy and renew its focus on trade policy.",
-          "India in a Fragmenting World: Trade, Technology and Economic Security by The Hindu offers a penetrating analysis of this new reality and the choices India must make as it confronts a series of urgent external challenges, ranging from punitive tariffs and energy sanctions to the very nature of modern trade."
+          "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
+          "A Bench headed by Justice P.S. Narasimha issued notice to the Union and State governments filed by petitioner-advocate Ashwini Kumar Upadhyay, who has also sought a direction for assessment of entire property of perpetrators and their family members."
         ],
         "body": [
-          "This e-book critically evaluates the evolution of modern free trade agreements from simple tariff reductions to complex policy deals involving carbon taxes and data governance.",
-          "It also explores the phenomenal, yet fragile, success of India’s services sector, highlighting the pressing need to modernise urban infrastructure and educational institutions to sustain the competitive advantage in an AI-driven future.",
-          "From the highly politicised trade dynamics with the United States, to the persistent economic dependence on Chinese imports, and the pragmatic yet controversial pursuit of energy security through Russian partnerships, this collection offers insights into everything India is doing and must do to become a resilient, technologically advanced economy in this new world order.",
-          "What’s inside?",
-          "This e-book offers a penetrating analysis of a new reality and the choices India must make as it confronts a series of urgent external challenges, ranging from punitive tariffs and energy sanctions to the very nature of modern trade."
+          "Mr. Upadhyay said investigation should be held for offences under laws, including the Prevention of Corruption Act, Prevention of Money Laundering Act, benami and black money laws.",
+          "The petition even suggested the confiscation of the assets of the perpetrators and their family members.",
+          "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
+          "“The continued failure of the authorities to prevent, investigate, and effectively prosecute those responsible has resulted in an ongoing violation of the fundamental rights guaranteed under the Constitution,” the petition said.",
+          "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
+          "The petitioner noted that the lack of Deception Detection Tests (DDT) to locate the actual masterminds behind the paper leaks has also been one of the reasons for the non-enforcement of the 2024 Act."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "India in a Fragmenting World: Trade, Technology and Economic Security by The Hindu offers a penetrating analysis of this new reality and the choices India must make as it confronts a series of urgent external challenges, ranging from punitive tariffs and energy sanctions to the very nature of modern trade.",
+            "text": "The Supreme Court on Tuesday (August 18, 2026) asked the Centre to respond to a plea for “standard questionnaire and special investigation procedure” to ensure time-bound investigation and speedy trial of paper leak cases.",
             "source": "The Hindu",
-            "item_id": "b61d17a88f470d194ced3eae:article",
+            "item_id": "e156de2f55a2246ce6dfd3bb:article",
             "composed": false
           },
           {
-            "text": "It also explores the phenomenal, yet fragile, success of India’s services sector, highlighting the pressing need to modernise urban infrastructure and educational institutions to sustain the competitive advantage in an AI-driven future.",
+            "text": "Mr. Upadhyay, a BJP leader, said his petition was triggered by the NEET-UG paper leak on May 3, affecting lakhs of students.",
             "source": "The Hindu",
-            "item_id": "b61d17a88f470d194ced3eae:article",
+            "item_id": "e156de2f55a2246ce6dfd3bb:article",
+            "composed": false
+          },
+          {
+            "text": "Even though the Public Examinations (Prevention of Unfair Means) Act has been in force since June 2024, the petitioner alleged leaks have continued to rise, while the actual masterminds have continued to evade the scrutiny of the investigating agencies.",
+            "source": "The Hindu",
+            "item_id": "e156de2f55a2246ce6dfd3bb:article",
             "composed": false
           }
         ],
         "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/india-in-a-fragmenting-world-trade-technology-and-economic-security/article71358961.ece"
+        "url": "https://www.thehindu.com/news/national/sc-directs-govt-response-on-plea-for-special-time-bound-probe-into-paper-leak-cases/article71359204.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1174,7 +1280,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1283,7 +1389,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1389,7 +1495,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1514,7 +1620,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1640,7 +1746,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (rajasthan)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
