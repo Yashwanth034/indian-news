@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T13:52:14.643555+00:00",
-  "count": 12,
+  "generated_at": "2026-08-19T14:02:50.554933+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "c8e9822d3076d0b49a188f51",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (maharashtra)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 38, score 82 -> IMMEDIATE"
@@ -126,6 +126,96 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "a43be1eb8f0fd8d165d900c4",
+      "story_id": "a43be1eb8f0fd8d165d900c4",
+      "headline": "Eighteen years after Kosi breach, flood victims still await compensation and rehabilitation",
+      "title": "Eighteen years after Kosi breach, flood victims still await compensation and rehabilitation",
+      "summary": "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled. Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability.",
+      "url": "https://www.downtoearth.org.in/water/eighteen-years-after-kosi-breach-flood-victims-still-await-compensation-and-rehabilitation",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T12:14:35+00:00",
+      "published_at": "2026-08-19T12:14:35+00:00",
+      "effective_at": "2026-08-19T12:14:35.057000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (bihar)",
+        "recency: breaking (1.8h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled.",
+          "Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bihar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled.",
+            "source": "Down To Earth",
+            "item_id": "a43be1eb8f0fd8d165d900c4",
+            "composed": false
+          },
+          {
+            "text": "Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability.",
+            "source": "Down To Earth",
+            "item_id": "a43be1eb8f0fd8d165d900c4",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [],
+        "url": "https://www.downtoearth.org.in/water/eighteen-years-after-kosi-breach-flood-victims-still-await-compensation-and-rehabilitation"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8af72b05fe03e67f0ab44b5d",
       "story_id": "8af72b05fe03e67f0ab44b5d",
       "headline": "Andhra Pradesh Assembly passes Bill to restore direct election of Mayors, Chairpersons of ULBs",
@@ -167,7 +257,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -188,7 +278,7 @@
         "Besides, the idea is to ensure the pursuance of master plans, zoning regulations and creation of infrastructure —roads and mobility, water supply, sewerage and sanitation— as city-wide systems, instead of taking them as ward-level considerations.",
         "The fixed five-year tenure sustains a medium-to-long-term urban agenda covering municipal finance, urban redevelopment, Public-Private Partnership projects and capital infrastructure."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Andhra Pradesh Legislative Assembly has restored the direct election of Mayors of Municipal Corporations, Chairpersons of Municipalities and Nagar Panchayats by passing the Andhra Pradesh Municipal Laws (Fourth Amendment) Bill, 2026 on Wednesday.",
@@ -230,7 +320,7 @@
         "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-assembly-passes-bill-to-restore-direct-election-of-mayors-chairpersons-of-ulbs/article71364428.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -275,7 +365,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 21.4, score 58 -> HIGH"
@@ -395,7 +485,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 26, score 49.2 -> HIGH"
@@ -464,6 +554,175 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7ba0b1f0feef85c019dc9a1f",
+      "story_id": "7ba0b1f0feef85c019dc9a1f",
+      "headline": "NEET paper leak: Supreme Court stresses need to institutionalise NTA, seeks Centre's affidavit on new reforms to curb paper leaks",
+      "title": "NEET paper leak: Supreme Court stresses need to institutionalise NTA, seeks Centre's affidavit on new reforms to curb paper leaks",
+      "summary": "New Delhi , August 19 : The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks. \"A vibrant system and institutionalisation is what needs to be done,\" a bench of Justices PS Narasimha and Alok Aradhe said while hearing pleas concerning the NEET-UG 2026 paper leak. The Court directed the Union Secretary for the Ministry of Education to file an affidavit setting out the steps being taken to implement the Radhakrishnan Committee's recommendations, as nuanced by the Nandan Nilekani Committee. The Court said its objective was to ensure that the country has a robust examination institution capable of retaining expertise and adapting to technological changes. \"Our duty is to ensure that there is a vibrant institution that the country can be proud of. If you don't institutionalise, experienced people get transferred and the entire experience is lost. There are a lot of technological changes that have to be brought about\", it said. The matter will be listed on a date after three weeks. During the hearing, the Court emphasised that its concern was not merely the safeguards currently in place for the preparation, printing, transportation and distribution of question papers, but it is the institutionalisation of the NTA, including its infrastructure, manpower, technology and institutional memory. \"Our concern is how you institutionalise the conduct of the examination. Secure office premises, confidential operational infrastructure, cyber security. They have suggested 10 verticals to be created. Testing centres, central network operators, etc. Each of these the committee said that you need to create this infrastructure,\" Justice Narasimha said. The K. Radhakrishnan Committee was constituted under the chairmanship of former ISRO chairman Dr K. Radhakrishnan after the NEET-UG 2024 paper leak controversy. It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations. The recommendations include measures concerning the examination infrastructure, security of question papers, technology, manpower and institutional mechanisms within the NTA. Solicitor General of India (SGI) Tushar Mehta, appearing for the Centre and NTA, explained the safeguards currently in place for the preparation, printing, transportation and distribution of question papers. He said the question paper is prepared through multiple layers of moderation. For a Physics paper comprising 100 questions, several moderators first prepare a question bank of around 500 questions. Different moderators then select questions and prepare four question papers, out of which two are finally selected by the Director General of NTA. Mehta said the identity of the final question paper remains unknown until it is sent in sealed boxes to identified printing presses, which are monitored through CCTV and CISF surveillance. He said the printing process is video-recorded and outsiders are not allowed inside once the sealed box is opened. Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles. Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches. On the morning of the examination, the DG, NTA informs the city coordinator about which set is to be used. The papers are then taken in a motorcade involving district officials, with the movement videographed, before being distributed to class coordinators, Mehta submitted. The Court said that these safeguards were already within the scope of the Radhakrishnan Committee's recommendations, which has rightly suggested institutionalisation of NTA. It thus inquired about what is being done in that regard. \"What you have told us is something which is already in the purview of the Radhakrishnan Committee. It has correctly said it is a systemic problem which needs institutionalisation. That's why these are matters which need to be institutionalised. What is the body, how many officers, how much staff, what is the security, etc.?\"the court asked. The Court specifically sought details on the implementation of recommendations relating to a permanent committee for sealing question papers, the appointment of senior officers and creation of institutional expertise. \"The method by which you do sealing of the papers has to be undertaken by a permanent committee. How many DGs, etc. have been appointed? This is what we want to know by way of regular affidavits\", the Court said. Stressing the need to preserve institutional memory and expertise the Court noted that frequent transfers of officials could result in the loss of experience within the examination system. \"What really needs to be done is institutional memory, institutional expertise. All that we need to see is, has it been set up? You'll have to have R&D infrastructure\", the Court said. The Court also asked about the creation of a sovereign database and infrastructure for storage and security. It said that a director-rank officer should be responsible for security-related issues. \"So far as security is concerned, you need to have a director-rank officer. Then you will realise what are the pitfalls\" it explained. The Court also questioned the need to rely on artificial intelligence for translating question papers into Indian languages. \"Do you need AI translation for question papers? In our country we don't need to blindly rely on AI for this\", it asked. Mehta said the translation process was being done by humans. The Court reiterated that institutionalising the NTA was a matter of importance and that the examination agency must be strengthened in a manner that prevents a recurrence of the problems. Mehta informed the Court that the Nandan Nilekani Committee was meeting on Wednesday and would work on reforms to improve upon the Radhakrishnan Committee's recommendations. Advocate Tanvi Dubey, appearing for FAIMA, pointed out that the Radhakrishnan Committee had recommended conducting examinations entirely in computer-based mode, but that recommendation was still under consideration. Mehta responded that moving completely to CBT mode could itself carry greater risks. \"We are concerned with institutionalisation of NTA. With all infrastructure, manpower, technological requirements etc. we have been informed that Nandan Nilekani Committee has recommended reforms relating to AI, blockchain etc\", it noted.",
+      "url": "https://risingkashmir.com/national/neetpaperleaksupremecourt-12395484",
+      "source": "Rising Kashmir",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "education",
+        "technology-digital",
+        "science-space",
+        "defence-security",
+        "economy-finance",
+        "transport-infrastructure"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T09:30:11+00:00",
+      "published_at": "2026-08-19T09:30:11+00:00",
+      "effective_at": "2026-08-19T09:30:11+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        },
+        "reuters": {
+          "kind": "wire",
+          "source_ids": [
+            "forbes-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (rising-kashmir) +1",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'final' in summary weight 6",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "recency: fresh (4.5h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, August 19: The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks.",
+          "\"A vibrant system and institutionalisation is what needs to be done,\" a bench of Justices PS Narasimha and Alok Aradhe said while hearing pleas concerning the NEET-UG 2026 paper leak."
+        ],
+        "body": [
+          "The Court directed the Union Secretary for the Ministry of Education to file an affidavit setting out the steps being taken to implement the Radhakrishnan Committee's recommendations, as nuanced by the Nandan Nilekani Committee.",
+          "The Court said its objective was to ensure that the country has a robust examination institution capable of retaining expertise and adapting to technological changes.",
+          "\"Our duty is to ensure that there is a vibrant institution that the country can be proud of.",
+          "If you don't institutionalise, experienced people get transferred and the entire experience is lost.",
+          "There are a lot of technological changes that have to be brought about\", it said.",
+          "The matter will be listed on a date after three weeks.",
+          "During the hearing, the Court emphasised that its concern was not merely the safeguards currently in place for the preparation, printing, transportation and distribution of question papers, but it is the institutionalisation of the NTA, including its infrastructure, manpower, technology and institutional memory.",
+          "\"Our concern is how you institutionalise the conduct of the examination.",
+          "Secure office premises, confidential operational infrastructure, cyber security.",
+          "They have suggested 10 verticals to be created.",
+          "Testing centres, central network operators, etc. Each of these the committee said that you need to create this infrastructure,\" Justice Narasimha said.",
+          "The K. Radhakrishnan Committee was constituted under the chairmanship of former ISRO chairman Dr K. Radhakrishnan after the NEET-UG 2024 paper leak controversy.",
+          "It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations.",
+          "The recommendations include measures concerning the examination infrastructure, security of question papers, technology, manpower and institutional mechanisms within the NTA.",
+          "Solicitor General of India (SGI) Tushar Mehta, appearing for the Centre and NTA, explained the safeguards currently in place for the preparation, printing, transportation and distribution of question papers.",
+          "He said the question paper is prepared through multiple layers of moderation.",
+          "For a Physics paper comprising 100 questions, several moderators first prepare a question bank of around 500 questions.",
+          "Different moderators then select questions and prepare four question papers, out of which two are finally selected by the Director General of NTA.",
+          "Mehta said the identity of the final question paper remains unknown until it is sent in sealed boxes to identified printing presses, which are monitored through CCTV and CISF surveillance.",
+          "He said the printing process is video-recorded and outsiders are not allowed inside once the sealed box is opened.",
+          "Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles.",
+          "Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches.",
+          "On the morning of the examination, the DG, NTA informs the city coordinator about which set is to be used.",
+          "The papers are then taken in a motorcade involving district officials, with the movement videographed, before being distributed to class coordinators, Mehta submitted.",
+          "The Court said that these safeguards were already within the scope of the Radhakrishnan Committee's recommendations, which has rightly suggested institutionalisation of NTA.",
+          "It thus inquired about what is being done in that regard.",
+          "\"What you have told us is something which is already in the purview of the Radhakrishnan Committee.",
+          "It has correctly said it is a systemic problem which needs institutionalisation.",
+          "That's why these are matters which need to be institutionalised.",
+          "What is the body, how many officers, how much staff, what is the security, etc.?\"the court asked.",
+          "The Court specifically sought details on the implementation of recommendations relating to a permanent committee for sealing question papers, the appointment of senior officers and creation of institutional expertise.",
+          "\"The method by which you do sealing of the papers has to be undertaken by a permanent committee.",
+          "How many DGs, etc. have been appointed?",
+          "This is what we want to know by way of regular affidavits\", the Court said.",
+          "Stressing the need to preserve institutional memory and expertise the Court noted that frequent transfers of officials could result in the loss of experience within the examination system.",
+          "\"What really needs to be done is institutional memory, institutional expertise.",
+          "All that we need to see is, has it been set up?",
+          "You'll have to have R&D infrastructure\", the Court said.",
+          "The Court also asked about the creation of a sovereign database and infrastructure for storage and security.",
+          "It said that a director-rank officer should be responsible for security-related issues.",
+          "\"So far as security is concerned, you need to have a director-rank officer.",
+          "Then you will realise what are the pitfalls\" it explained.",
+          "The Court also questioned the need to rely on artificial intelligence for translating question papers into Indian languages.",
+          "\"Do you need AI translation for question papers?",
+          "In our country we don't need to blindly rely on AI for this\", it asked.",
+          "Mehta said the translation process was being done by humans.",
+          "The Court reiterated that institutionalising the NTA was a matter of importance and that the examination agency must be strengthened in a manner that prevents a recurrence of the problems.",
+          "Mehta informed the Court that the Nandan Nilekani Committee was meeting on Wednesday and would work on reforms to improve upon the Radhakrishnan Committee's recommendations.",
+          "Advocate Tanvi Dubey, appearing for FAIMA, pointed out that the Radhakrishnan Committee had recommended conducting examinations entirely in computer-based mode, but that recommendation was still under consideration.",
+          "Mehta responded that moving completely to CBT mode could itself carry greater risks.",
+          "\"We are concerned with institutionalisation of NTA.",
+          "With all infrastructure, manpower, technological requirements etc. we have been informed that Nandan Nilekani Committee has recommended reforms relating to AI, blockchain etc\", it noted."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "October"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations.",
+            "source": "Rising Kashmir",
+            "item_id": "7ba0b1f0feef85c019dc9a1f",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, August 19: The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks.",
+            "source": "Rising Kashmir",
+            "item_id": "7ba0b1f0feef85c019dc9a1f",
+            "composed": false
+          },
+          {
+            "text": "Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles.",
+            "source": "Rising Kashmir",
+            "item_id": "7ba0b1f0feef85c019dc9a1f",
+            "composed": false
+          },
+          {
+            "text": "Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches.",
+            "source": "Rising Kashmir",
+            "item_id": "7ba0b1f0feef85c019dc9a1f",
+            "composed": false
+          }
+        ],
+        "source": "Rising Kashmir",
+        "corroborating": [],
+        "url": "https://risingkashmir.com/national/neetpaperleaksupremecourt-12395484"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5cf42a7fef3f119110627a9d",
       "story_id": "5cf42a7fef3f119110627a9d",
       "headline": "Union Cabinet Approves ₹3,591 Crore Project For NH-22 In Bihar To Be Widened To Four Lanes",
@@ -504,7 +763,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "geo: national",
         "dominant event 44, stack 24, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -602,7 +861,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -696,7 +955,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -815,7 +1074,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -900,7 +1159,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1022,7 +1281,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (bihar)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 15.2, score 44 -> HIGH"
@@ -1112,7 +1371,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1222,7 +1481,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1294,6 +1553,101 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "92fad39830859afd522c8050",
+      "story_id": "92fad39830859afd522c8050",
+      "headline": "SC asks Centre to link fuel sale with valid insurance, start pilot in Delhi",
+      "title": "SC asks Centre to link fuel sale with valid insurance, start pilot in Delhi",
+      "summary": "The Supreme Court on Wednesday asked the Centre to implement its direction for a pilot project by which fuel for vehicles would be refused at petrol pumps unless they have valid insurance. In a significant verdict delivered on August 4, the apex court had taken serious note of a large number of vehicles plying without third-party insurance cover and directed the Centre to evolve a pilot project under which fuel for vehicles would be linked with valid insurance status. The matter came up for hearing on Wednesday before a bench of Justices Sanjay Karol and Prashant Kumar Mishra. The counsel appearing for the Centre referred to the direction given by the top court for evolving a pilot project and said the Ministry of Petroleum and Natural Gas has some concerns about it. \"You have to implement it,\" the bench said, adding that the pilot project may be started from Delhi. The counsel told the bench that oil marketing companies will have to sit with the dealers for this. \"You start the",
+      "url": "https://www.business-standard.com/india-news/sc-asks-centre-to-link-fuel-sale-with-valid-insurance-start-pilot-in-delhi-126081900927_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 43.6,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T13:37:48+00:00",
+      "published_at": "2026-08-19T13:37:48+00:00",
+      "effective_at": "2026-08-19T13:37:48+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'verdict' in summary weight 13.2",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 26.4, stack 43.6, score 43.6 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Wednesday asked the Centre to implement its direction for a pilot project by which fuel for vehicles would be refused at petrol pumps unless they have valid insurance.",
+          "In a significant verdict delivered on August 4, the apex court had taken serious note of a large number of vehicles plying without third-party insurance cover and directed the Centre to evolve a pilot project under which fuel for vehicles would be linked with valid insurance status."
+        ],
+        "body": [
+          "The matter came up for hearing on Wednesday before a bench of Justices Sanjay Karol and Prashant Kumar Mishra.",
+          "The counsel appearing for the Centre referred to the direction given by the top court for evolving a pilot project and said the Ministry of Petroleum and Natural Gas has some concerns about it.",
+          "\"You have to implement it,\" the bench said, adding that the pilot project may be started from Delhi.",
+          "The counsel told the bench that oil marketing companies will have to sit with the dealers for this.",
+          "\"You start the."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "\"You have to implement it,\" the bench said, adding that the pilot project may be started from Delhi.",
+            "source": "Business Standard",
+            "item_id": "92fad39830859afd522c8050",
+            "composed": false
+          },
+          {
+            "text": "In a significant verdict delivered on August 4, the apex court had taken serious note of a large number of vehicles plying without third-party insurance cover and directed the Centre to evolve a pilot project under which fuel for vehicles would be linked with valid insurance status.",
+            "source": "Business Standard",
+            "item_id": "92fad39830859afd522c8050",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Wednesday asked the Centre to implement its direction for a pilot project by which fuel for vehicles would be refused at petrol pumps unless they have valid insurance.",
+            "source": "Business Standard",
+            "item_id": "92fad39830859afd522c8050",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/sc-asks-centre-to-link-fuel-sale-with-valid-insurance-start-pilot-in-delhi-126081900927_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     }
   ]
 }
