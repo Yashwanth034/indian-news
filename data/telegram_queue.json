@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T12:22:01.330895+00:00",
-  "count": 14,
+  "generated_at": "2026-08-19T12:32:21.486102+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "c8e9822d3076d0b49a188f51",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (maharashtra)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 38, score 82 -> IMMEDIATE"
@@ -126,6 +126,96 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "a43be1eb8f0fd8d165d900c4",
+      "story_id": "a43be1eb8f0fd8d165d900c4",
+      "headline": "Eighteen years after Kosi breach, flood victims still await compensation and rehabilitation",
+      "title": "Eighteen years after Kosi breach, flood victims still await compensation and rehabilitation",
+      "summary": "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled. Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability.",
+      "url": "https://www.downtoearth.org.in/water/eighteen-years-after-kosi-breach-flood-victims-still-await-compensation-and-rehabilitation",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T12:14:35+00:00",
+      "published_at": "2026-08-19T12:14:35+00:00",
+      "effective_at": "2026-08-19T12:14:35.057000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (bihar)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled.",
+          "Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bihar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Eighteen years after the 2008 Kushaha breach on the Kosi, millions of flood victims in Bihar and Nepal say promises of relief and rehabilitation remain largely unfulfilled.",
+            "source": "Down To Earth",
+            "item_id": "a43be1eb8f0fd8d165d900c4",
+            "composed": false
+          },
+          {
+            "text": "Despite World Bank-funded projects and official inquiries, many families, boatmen and volunteers still await accountability.",
+            "source": "Down To Earth",
+            "item_id": "a43be1eb8f0fd8d165d900c4",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [],
+        "url": "https://www.downtoearth.org.in/water/eighteen-years-after-kosi-breach-flood-victims-still-await-compensation-and-rehabilitation"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "762156bac5812a0df13cf3b4",
       "story_id": "762156bac5812a0df13cf3b4",
       "headline": "Trump lauds India’s multi-layered election system as model for US voter ID reforms",
@@ -167,7 +257,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 25.4, score 58 -> HIGH"
@@ -272,10 +362,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 20.4, score 58 -> HIGH"
+        "dominant event 58, stack 16.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "punjab",
@@ -377,7 +467,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "geo: national",
         "dominant event 50.4, stack 20, score 50.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -485,7 +575,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 30, score 49.2 -> HIGH"
@@ -554,6 +644,207 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "a3a2910180574cb267d5955b",
+      "story_id": "a3a2910180574cb267d5955b",
+      "headline": "Union Cabinet approves 3rd and 4th rail line of Kataka-Paradeep",
+      "title": "Union Cabinet approves 3rd and 4th rail line of Kataka-Paradeep",
+      "summary": "New Delhi: The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Narendra Modi today has approved four projects of Ministry of Railways with total cost of Rs 9,450 crore approximately. This includes the 3rd and 4th rail line of Kataka-Paradeep, informed Railway Minister Ashwini Vaishnaw. As informed by the Union Minister, the Cabinet approved […] The post Union Cabinet approves 3rd and 4th rail line of Kataka-Paradeep appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/odisha/union-cabinet-approves-3rd-and-4th-rail-line-of-kataka-paradeep",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T12:24:37+00:00",
+      "published_at": "2026-08-19T12:24:37+00:00",
+      "effective_at": "2026-08-19T12:24:37+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "event term: 'cabinet approves' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi: The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Narendra Modi today has approved four projects of Ministry of Railways with total cost of Rs 9,450 crore approximately.",
+          "This includes the 3rd and 4th rail line of Kataka-Paradeep, informed Railway Minister Ashwini Vaishnaw."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "New Delhi: The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Narendra Modi today has approved four projects of Ministry of Railways with total cost of Rs 9,450 crore approximately.",
+            "source": "Kalinga TV",
+            "item_id": "a3a2910180574cb267d5955b",
+            "composed": false
+          },
+          {
+            "text": "This includes the 3rd and 4th rail line of Kataka-Paradeep, informed Railway Minister Ashwini Vaishnaw.",
+            "source": "Kalinga TV",
+            "item_id": "a3a2910180574cb267d5955b",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [],
+        "url": "https://kalingatv.com/odisha/union-cabinet-approves-3rd-and-4th-rail-line-of-kataka-paradeep"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "fb6e556f329edd80ffb20b18",
+      "story_id": "fb6e556f329edd80ffb20b18",
+      "headline": "Supreme Court bars stay on coal scam trials, sets four-week deadline for pleas",
+      "title": "Supreme Court bars stay on coal scam trials, sets four-week deadline for pleas",
+      "summary": "The directive seeks to balance expeditious trials with the rights of accused amid competing legal proceedings before the Supreme Court and Delhi High Court",
+      "url": "https://www.thehindubusinessline.com/news/supreme-court-bars-stay-on-coal-scam-trials-sets-four-week-deadline-for-pleas/article71364164.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "energy-environment",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 94.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T11:23:31+00:00",
+      "published_at": "2026-08-19T11:23:31+00:00",
+      "effective_at": "2026-08-19T11:23:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Wednesday asked the Delhi High Court not to grant any stay on trials in coal block allocation scam cases and decide pending appeals of accused within four weeks to ensure their rights are not adversely affected.",
+        "A bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana passed the orders after it was pointed out that in some coal scam cases the accused have moved the high court for relief while in some cases they have moved the top court.",
+        "\"No interim stay can be granted by the Delhi High Court.",
+        "However, keeping in view the fact that non-stay of the trial may prejudice the rights of the accused, the high court is directed to decide such petitions preferably in four weeks,\" the bench ordered.",
+        "The bench said it has not expressed any opinion on the merit of any case.",
+        "Last month, the top court, while relaxing its nearly 12-year-old order mandating appeals arising from the orders of special court in coal block allocation scam cases to be filed in the top court, the bench had said the prosecution and accused can move the Delhi High Court challenging acquittals or convictions recorded by the special judge.",
+        "The top court in 2014 quashed 214 coal blocks allocated by the Centre between 1993 and 2010 after taking note of the PILs and ordered a trial by a special CBI judge.",
+        "It directed that all appeals against orders on framing of charge, quashing of case and bail petitions passed by the special designated court must be filed only before the apex court and not the Delhi High Court.",
+        "The top court had said this restriction was imposed to prevent accused from delaying trials in coal scam cases.",
+        "Several accused aggrieved with the decision of the apex court have time and again sought modification of the direction while complaining that loss of one appellate forum against the orders of the trial court was prejudicial to them.",
+        "On December 4, 2024, the top court said it would consider pleas seeking modification of its earlier orders that barred high courts from hearing appeals against trial court orders passed in cases related to alleged illegal coal block allocations.",
+        "The apex court passed two orders between 2014 and 2017 restricting the accused from approaching the high court and had directed that appeals against trial court proceedings in the coal scam cases could only be filed in the top court."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Wednesday asked the Delhi High Court not to grant any stay on trials in coal block allocation scam cases and decide pending appeals of accused within four weeks to ensure their rights are not adversely affected.",
+          "A bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana passed the orders after it was pointed out that in some coal scam cases the accused have moved the high court for relief while in some cases they have moved the top court."
+        ],
+        "body": [
+          "\"No interim stay can be granted by the Delhi High Court.",
+          "However, keeping in view the fact that non-stay of the trial may prejudice the rights of the accused, the high court is directed to decide such petitions preferably in four weeks,\" the bench ordered.",
+          "The bench said it has not expressed any opinion on the merit of any case.",
+          "Last month, the top court, while relaxing its nearly 12-year-old order mandating appeals arising from the orders of special court in coal block allocation scam cases to be filed in the top court, the bench had said the prosecution and accused can move the Delhi High Court challenging acquittals or convictions recorded by the special judge.",
+          "The top court in 2014 quashed 214 coal blocks allocated by the Centre between 1993 and 2010 after taking note of the PILs and ordered a trial by a special CBI judge.",
+          "It directed that all appeals against orders on framing of charge, quashing of case and bail petitions passed by the special designated court must be filed only before the apex court and not the Delhi High Court.",
+          "The top court had said this restriction was imposed to prevent accused from delaying trials in coal scam cases.",
+          "Several accused aggrieved with the decision of the apex court have time and again sought modification of the direction while complaining that loss of one appellate forum against the orders of the trial court was prejudicial to them."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Wednesday asked the Delhi High Court not to grant any stay on trials in coal block allocation scam cases and decide pending appeals of accused within four weeks to ensure their rights are not adversely affected.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fb6e556f329edd80ffb20b18:article",
+            "composed": false
+          },
+          {
+            "text": "Last month, the top court, while relaxing its nearly 12-year-old order mandating appeals arising from the orders of special court in coal block allocation scam cases to be filed in the top court, the bench had said the prosecution and accused can move the Delhi High Court challenging acquittals or convictions recorded by the special judge.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fb6e556f329edd80ffb20b18:article",
+            "composed": false
+          },
+          {
+            "text": "The top court in 2014 quashed 214 coal blocks allocated by the Centre between 1993 and 2010 after taking note of the PILs and ordered a trial by a special CBI judge.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fb6e556f329edd80ffb20b18:article",
+            "composed": false
+          },
+          {
+            "text": "However, keeping in view the fact that non-stay of the trial may prejudice the rights of the accused, the high court is directed to decide such petitions preferably in four weeks,\" the bench ordered.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fb6e556f329edd80ffb20b18:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/news/supreme-court-bars-stay-on-coal-scam-trials-sets-four-week-deadline-for-pleas/article71364164.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "e4041b407306ef5be568e227",
       "story_id": "e4041b407306ef5be568e227",
       "headline": "Coal scam cases: SC asks Delhi HC to dispose of appeals in four weeks",
@@ -599,7 +890,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -684,7 +975,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -764,119 +1055,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "96abac658d70f341ba975df7",
-      "story_id": "96abac658d70f341ba975df7",
-      "headline": "Union Cabinet Approves Railway and Highway Projects Worth Rs 13,041 Crore",
-      "title": "Union Cabinet Approves Railway and Highway Projects Worth Rs 13,041 Crore",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/breakingnews/union-cabinet-approves-railway-and-highway-projects-worth-rs-13041-crore",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "transport-infrastructure",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-19T10:59:48+00:00",
-      "published_at": "2026-08-19T10:59:48+00:00",
-      "effective_at": "2026-08-19T10:59:48.453000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national",
-        "dominant event 44, stack 24.2, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "New Delhi: The Union Cabinet, chaired by Prime Minister Narendra Modi, has approved five infrastructure projects worth a total of Rs 13,041 crore, including four railway multitracking projects and one highway project.",
-        "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh.",
-        "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-        "These projects will add around 410 kilometres to the Indian Railways network.",
-        "They have a combined estimated cost of Rs 9,450 crore and are scheduled to be completed by 2030-31.",
-        "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-        "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-        "The projects are aimed at strengthening railway and road connectivity, improving transport capacity and facilitating smoother movement of passengers and goods across the concerned regions."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi: The Union Cabinet, chaired by Prime Minister Narendra Modi, has approved five infrastructure projects worth a total of Rs 13,041 crore, including four railway multitracking projects and one highway project.",
-          "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh."
-        ],
-        "body": [
-          "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-          "These projects will add around 410 kilometres to the Indian Railways network.",
-          "They have a combined estimated cost of Rs 9,450 crore and are scheduled to be completed by 2030-31.",
-          "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-          "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-          "The projects are aimed at strengthening railway and road connectivity, improving transport capacity and facilitating smoother movement of passengers and goods across the concerned regions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "West Bengal"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "96abac658d70f341ba975df7:article",
-            "composed": false
-          },
-          {
-            "text": "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "96abac658d70f341ba975df7:article",
-            "composed": false
-          },
-          {
-            "text": "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "96abac658d70f341ba975df7:article",
-            "composed": false
-          },
-          {
-            "text": "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "96abac658d70f341ba975df7:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/breakingnews/union-cabinet-approves-railway-and-highway-projects-worth-rs-13041-crore"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "645666490ce17216749135a3",
       "story_id": "645666490ce17216749135a3",
       "headline": "Cabinet clears 4 railway projects worth Rs 9,450 crore across 4 states: Key details",
@@ -919,7 +1097,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (bihar)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 19.2, score 44 -> HIGH"
@@ -1009,7 +1187,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -1118,7 +1296,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1222,7 +1400,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1339,7 +1517,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 29.2, score 40 -> HIGH"
@@ -1461,7 +1639,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 19, score 38.4 -> HIGH"
