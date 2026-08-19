@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T15:22:19.903715+00:00",
-  "count": 10,
+  "generated_at": "2026-08-19T15:32:22.439221+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "a43be1eb8f0fd8d165d900c4",
@@ -48,7 +48,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -93,31 +93,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "762156bac5812a0df13cf3b4",
-      "story_id": "762156bac5812a0df13cf3b4",
-      "headline": "Trump lauds India’s multi-layered election system as model for US voter ID reforms",
-      "title": "Trump lauds India’s multi-layered election system as model for US voter ID reforms",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/more-news/national-news/trump-lauds-indias-multi-layered-election-system-as-model-for-us-voter-id-reforms",
-      "source": "The Sentinel (Assam)",
+      "event_id": "c296639fd9f42a54710a1c98",
+      "story_id": "c296639fd9f42a54710a1c98",
+      "headline": "Andhra Pradesh govt. and striking doctors refuse to budge on stipend issue",
+      "title": "Andhra Pradesh govt. and striking doctors refuse to budge on stipend issue",
+      "summary": "While the government cites financial constraints for not being able to effect a biannual hike of 15%, the striking doctors argue that they received it during the pandemic, and are now insisting on 30% rise",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-govt-and-striking-doctors-refuse-to-budge-on-stipend-issue/article71365662.ece",
+      "source": "The Hindu",
       "primary_source": false,
-      "tier": 3,
-      "category": "national-politics",
+      "tier": 2,
+      "category": "health",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 65.0,
-      "priority_score": 58.0,
+      "score": 62.0,
+      "priority_score": 49.2,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-19T10:51:12+00:00",
-      "published_at": "2026-08-19T10:51:12+00:00",
-      "effective_at": "2026-08-19T10:51:12.034000+00:00",
+      "event_time": "2026-08-19T15:24:52+00:00",
+      "published_at": "2026-08-19T15:24:52+00:00",
+      "effective_at": "2026-08-19T15:24:52+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -127,72 +127,72 @@
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
-        "major: significance event 'election'",
-        "category: national-politics (importance 1.1, urgent=False)",
+        "major: significance event 'pandemic'",
+        "category: health (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
+        "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in title weight 58",
-        "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 58, stack 21.4, score 58 -> HIGH"
+        "event term: 'pandemic' in summary weight 49.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: health (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 20.4, score 49.2 -> HIGH"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "andhra pradesh",
       "national_significance": true,
       "article_sentences": [
-        "NEW DELHI: When US President Donald Trump praised India’s voter identification system and cited it as an example for the United States, he put the spotlight on one of the world’s most extensive electoral frameworks.",
-        "Referring to his conversation with Chief Election Commissioner Gyanesh Kumar, Trump questioned how elections could be conducted in the US without mandatory photo identification and renewed his support for the SAVE America Act, which proposes documentary proof of citizenship and government-issued photo identification for federal elections.",
-        "India’s electoral strength, however, goes far beyond the voter ID card.",
-        "At the centre of the system is the Election Commission of India, an independent constitutional authority entrusted with conducting elections to the Lok Sabha and Rajya Sabha, State Legislative Assemblies and Councils, and the offices of the President and Vice President.",
-        "The scale of the exercise is enormous.",
-        "In the 2024 Lok Sabha election, more than 642 million people voted, making it one of the largest democratic exercises ever conducted.",
-        "Millions of voters are spread across more than a million polling stations, from remote villages and difficult terrain to major cities.",
-        "The foundation is the electoral roll.",
-        "Booth Level.",
-        "Officers help prepare, verify and update voter lists at the grassroots.",
-        "Political parties can appoint Booth Level Agents to scrutinise these rolls and flag discrepancies.",
-        "This creates a system in which the preparation of electoral rolls is subject to political as well as administrative scrutiny."
+        "As the junior doctors, interns and super-speciality doctors’ strike continued for the 10 day on Wednesday, August 19, the State government remained steadfast in its stance that a biannual stipend hike of 15% was not possible, given the financial situation of the State.",
+        "According to a release from the Health Department, the subject was discussed in the recent Cabinet meeting, and Chief Minister N. Chandrababu Naidu stressed the need for explaining to the protesting doctors about the financial constraints.",
+        "The officials, once again, iterated that instead of a biannual stipend hike of 15%, there would be an annual hike of 5% for interns this year and 3% later on.",
+        "For junior doctors and superspeciality doctors, the government proposed a uniform annual hike of 3%.",
+        "While the government appeals to the doctors to be back on their duties, the A.P. Junior Doctors’ Association (APJUDA) decided to continue the strike.",
+        "“The financial situation of the State was bad in 2020 and 2022 as well, due to the pandemic.",
+        "But we received the biannual hike of 15%.",
+        "This time, our protest is not just about the timely implementation of the hike, it is also about increasing the hike to 30%,” D. Ranjeet, APJUDA treasurer, said.",
+        "While a meeting was under way at present, the APJUDA decided to continue with the withdrawal of the emergency and non-emergency services in the government teaching hospitals across the State till the government concedes to their demands."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "NEW DELHI: When US President Donald Trump praised India’s voter identification system and cited it as an example for the United States, he put the spotlight on one of the world’s most extensive electoral frameworks.",
-          "Referring to his conversation with Chief Election Commissioner Gyanesh Kumar, Trump questioned how elections could be conducted in the US without mandatory photo identification and renewed his support for the SAVE America Act, which proposes documentary proof of citizenship and government-issued photo identification for federal elections."
+          "As the junior doctors, interns and super-speciality doctors’ strike continued for the 10 day on Wednesday, August 19, the State government remained steadfast in its stance that a biannual stipend hike of 15% was not possible, given the financial situation of the State.",
+          "According to a release from the Health Department, the subject was discussed in the recent Cabinet meeting, and Chief Minister N. Chandrababu Naidu stressed the need for explaining to the protesting doctors about the financial constraints."
         ],
         "body": [
-          "India’s electoral strength, however, goes far beyond the voter ID card.",
-          "At the centre of the system is the Election Commission of India, an independent constitutional authority entrusted with conducting elections to the Lok Sabha and Rajya Sabha, State Legislative Assemblies and Councils, and the offices of the President and Vice President.",
-          "The scale of the exercise is enormous.",
-          "In the 2024 Lok Sabha election, more than 642 million people voted, making it one of the largest democratic exercises ever conducted.",
-          "Millions of voters are spread across more than a million polling stations, from remote villages and difficult terrain to major cities.",
-          "The foundation is the electoral roll.",
-          "Booth Level.",
-          "Officers help prepare, verify and update voter lists at the grassroots."
+          "While the government appeals to the doctors to be back on their duties, the A.P. Junior Doctors’ Association (APJUDA) decided to continue the strike.",
+          "“The financial situation of the State was bad in 2020 and 2022 as well, due to the pandemic.",
+          "But we received the biannual hike of 15%.",
+          "This time, our protest is not just about the timely implementation of the hike, it is also about increasing the hike to 30%,” D. Ranjeet, APJUDA treasurer, said.",
+          "While a meeting was under way at present, the APJUDA decided to continue with the withdrawal of the emergency and non-emergency services in the government teaching hospitals across the State till the government concedes to their demands."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          }
+        ],
         "sentences": [
           {
-            "text": "In the 2024 Lok Sabha election, more than 642 million people voted, making it one of the largest democratic exercises ever conducted.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "762156bac5812a0df13cf3b4:article",
+            "text": "As the junior doctors, interns and super-speciality doctors’ strike continued for the 10 day on Wednesday, August 19, the State government remained steadfast in its stance that a biannual stipend hike of 15% was not possible, given the financial situation of the State.",
+            "source": "The Hindu",
+            "item_id": "c296639fd9f42a54710a1c98:article",
             "composed": false
           },
           {
-            "text": "NEW DELHI: When US President Donald Trump praised India’s voter identification system and cited it as an example for the United States, he put the spotlight on one of the world’s most extensive electoral frameworks.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "762156bac5812a0df13cf3b4:article",
+            "text": "According to a release from the Health Department, the subject was discussed in the recent Cabinet meeting, and Chief Minister N. Chandrababu Naidu stressed the need for explaining to the protesting doctors about the financial constraints.",
+            "source": "The Hindu",
+            "item_id": "c296639fd9f42a54710a1c98:article",
             "composed": false
           }
         ],
-        "source": "The Sentinel (Assam)",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.sentinelassam.com/more-news/national-news/trump-lauds-indias-multi-layered-election-system-as-model-for-us-voter-id-reforms"
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-govt-and-striking-doctors-refuse-to-budge-on-stipend-issue/article71365662.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -254,7 +254,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 26, score 49.2 -> HIGH"
@@ -323,175 +323,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7ba0b1f0feef85c019dc9a1f",
-      "story_id": "7ba0b1f0feef85c019dc9a1f",
-      "headline": "NEET paper leak: Supreme Court stresses need to institutionalise NTA, seeks Centre's affidavit on new reforms to curb paper leaks",
-      "title": "NEET paper leak: Supreme Court stresses need to institutionalise NTA, seeks Centre's affidavit on new reforms to curb paper leaks",
-      "summary": "New Delhi , August 19 : The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks. \"A vibrant system and institutionalisation is what needs to be done,\" a bench of Justices PS Narasimha and Alok Aradhe said while hearing pleas concerning the NEET-UG 2026 paper leak. The Court directed the Union Secretary for the Ministry of Education to file an affidavit setting out the steps being taken to implement the Radhakrishnan Committee's recommendations, as nuanced by the Nandan Nilekani Committee. The Court said its objective was to ensure that the country has a robust examination institution capable of retaining expertise and adapting to technological changes. \"Our duty is to ensure that there is a vibrant institution that the country can be proud of. If you don't institutionalise, experienced people get transferred and the entire experience is lost. There are a lot of technological changes that have to be brought about\", it said. The matter will be listed on a date after three weeks. During the hearing, the Court emphasised that its concern was not merely the safeguards currently in place for the preparation, printing, transportation and distribution of question papers, but it is the institutionalisation of the NTA, including its infrastructure, manpower, technology and institutional memory. \"Our concern is how you institutionalise the conduct of the examination. Secure office premises, confidential operational infrastructure, cyber security. They have suggested 10 verticals to be created. Testing centres, central network operators, etc. Each of these the committee said that you need to create this infrastructure,\" Justice Narasimha said. The K. Radhakrishnan Committee was constituted under the chairmanship of former ISRO chairman Dr K. Radhakrishnan after the NEET-UG 2024 paper leak controversy. It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations. The recommendations include measures concerning the examination infrastructure, security of question papers, technology, manpower and institutional mechanisms within the NTA. Solicitor General of India (SGI) Tushar Mehta, appearing for the Centre and NTA, explained the safeguards currently in place for the preparation, printing, transportation and distribution of question papers. He said the question paper is prepared through multiple layers of moderation. For a Physics paper comprising 100 questions, several moderators first prepare a question bank of around 500 questions. Different moderators then select questions and prepare four question papers, out of which two are finally selected by the Director General of NTA. Mehta said the identity of the final question paper remains unknown until it is sent in sealed boxes to identified printing presses, which are monitored through CCTV and CISF surveillance. He said the printing process is video-recorded and outsiders are not allowed inside once the sealed box is opened. Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles. Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches. On the morning of the examination, the DG, NTA informs the city coordinator about which set is to be used. The papers are then taken in a motorcade involving district officials, with the movement videographed, before being distributed to class coordinators, Mehta submitted. The Court said that these safeguards were already within the scope of the Radhakrishnan Committee's recommendations, which has rightly suggested institutionalisation of NTA. It thus inquired about what is being done in that regard. \"What you have told us is something which is already in the purview of the Radhakrishnan Committee. It has correctly said it is a systemic problem which needs institutionalisation. That's why these are matters which need to be institutionalised. What is the body, how many officers, how much staff, what is the security, etc.?\"the court asked. The Court specifically sought details on the implementation of recommendations relating to a permanent committee for sealing question papers, the appointment of senior officers and creation of institutional expertise. \"The method by which you do sealing of the papers has to be undertaken by a permanent committee. How many DGs, etc. have been appointed? This is what we want to know by way of regular affidavits\", the Court said. Stressing the need to preserve institutional memory and expertise the Court noted that frequent transfers of officials could result in the loss of experience within the examination system. \"What really needs to be done is institutional memory, institutional expertise. All that we need to see is, has it been set up? You'll have to have R&D infrastructure\", the Court said. The Court also asked about the creation of a sovereign database and infrastructure for storage and security. It said that a director-rank officer should be responsible for security-related issues. \"So far as security is concerned, you need to have a director-rank officer. Then you will realise what are the pitfalls\" it explained. The Court also questioned the need to rely on artificial intelligence for translating question papers into Indian languages. \"Do you need AI translation for question papers? In our country we don't need to blindly rely on AI for this\", it asked. Mehta said the translation process was being done by humans. The Court reiterated that institutionalising the NTA was a matter of importance and that the examination agency must be strengthened in a manner that prevents a recurrence of the problems. Mehta informed the Court that the Nandan Nilekani Committee was meeting on Wednesday and would work on reforms to improve upon the Radhakrishnan Committee's recommendations. Advocate Tanvi Dubey, appearing for FAIMA, pointed out that the Radhakrishnan Committee had recommended conducting examinations entirely in computer-based mode, but that recommendation was still under consideration. Mehta responded that moving completely to CBT mode could itself carry greater risks. \"We are concerned with institutionalisation of NTA. With all infrastructure, manpower, technological requirements etc. we have been informed that Nandan Nilekani Committee has recommended reforms relating to AI, blockchain etc\", it noted.",
-      "url": "https://risingkashmir.com/national/neetpaperleaksupremecourt-12395484",
-      "source": "Rising Kashmir",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "education",
-        "technology-digital",
-        "science-space",
-        "defence-security",
-        "economy-finance",
-        "transport-infrastructure"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-19T09:30:11+00:00",
-      "published_at": "2026-08-19T09:30:11+00:00",
-      "effective_at": "2026-08-19T09:30:11+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "ani": {
-          "kind": "wire",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 2
-        },
-        "reuters": {
-          "kind": "wire",
-          "source_ids": [
-            "forbes-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (rising-kashmir) +1",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'final' in summary weight 6",
-        "event term: 'appointed' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, August 19: The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks.",
-          "\"A vibrant system and institutionalisation is what needs to be done,\" a bench of Justices PS Narasimha and Alok Aradhe said while hearing pleas concerning the NEET-UG 2026 paper leak."
-        ],
-        "body": [
-          "The Court directed the Union Secretary for the Ministry of Education to file an affidavit setting out the steps being taken to implement the Radhakrishnan Committee's recommendations, as nuanced by the Nandan Nilekani Committee.",
-          "The Court said its objective was to ensure that the country has a robust examination institution capable of retaining expertise and adapting to technological changes.",
-          "\"Our duty is to ensure that there is a vibrant institution that the country can be proud of.",
-          "If you don't institutionalise, experienced people get transferred and the entire experience is lost.",
-          "There are a lot of technological changes that have to be brought about\", it said.",
-          "The matter will be listed on a date after three weeks.",
-          "During the hearing, the Court emphasised that its concern was not merely the safeguards currently in place for the preparation, printing, transportation and distribution of question papers, but it is the institutionalisation of the NTA, including its infrastructure, manpower, technology and institutional memory.",
-          "\"Our concern is how you institutionalise the conduct of the examination.",
-          "Secure office premises, confidential operational infrastructure, cyber security.",
-          "They have suggested 10 verticals to be created.",
-          "Testing centres, central network operators, etc. Each of these the committee said that you need to create this infrastructure,\" Justice Narasimha said.",
-          "The K. Radhakrishnan Committee was constituted under the chairmanship of former ISRO chairman Dr K. Radhakrishnan after the NEET-UG 2024 paper leak controversy.",
-          "It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations.",
-          "The recommendations include measures concerning the examination infrastructure, security of question papers, technology, manpower and institutional mechanisms within the NTA.",
-          "Solicitor General of India (SGI) Tushar Mehta, appearing for the Centre and NTA, explained the safeguards currently in place for the preparation, printing, transportation and distribution of question papers.",
-          "He said the question paper is prepared through multiple layers of moderation.",
-          "For a Physics paper comprising 100 questions, several moderators first prepare a question bank of around 500 questions.",
-          "Different moderators then select questions and prepare four question papers, out of which two are finally selected by the Director General of NTA.",
-          "Mehta said the identity of the final question paper remains unknown until it is sent in sealed boxes to identified printing presses, which are monitored through CCTV and CISF surveillance.",
-          "He said the printing process is video-recorded and outsiders are not allowed inside once the sealed box is opened.",
-          "Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles.",
-          "Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches.",
-          "On the morning of the examination, the DG, NTA informs the city coordinator about which set is to be used.",
-          "The papers are then taken in a motorcade involving district officials, with the movement videographed, before being distributed to class coordinators, Mehta submitted.",
-          "The Court said that these safeguards were already within the scope of the Radhakrishnan Committee's recommendations, which has rightly suggested institutionalisation of NTA.",
-          "It thus inquired about what is being done in that regard.",
-          "\"What you have told us is something which is already in the purview of the Radhakrishnan Committee.",
-          "It has correctly said it is a systemic problem which needs institutionalisation.",
-          "That's why these are matters which need to be institutionalised.",
-          "What is the body, how many officers, how much staff, what is the security, etc.?\"the court asked.",
-          "The Court specifically sought details on the implementation of recommendations relating to a permanent committee for sealing question papers, the appointment of senior officers and creation of institutional expertise.",
-          "\"The method by which you do sealing of the papers has to be undertaken by a permanent committee.",
-          "How many DGs, etc. have been appointed?",
-          "This is what we want to know by way of regular affidavits\", the Court said.",
-          "Stressing the need to preserve institutional memory and expertise the Court noted that frequent transfers of officials could result in the loss of experience within the examination system.",
-          "\"What really needs to be done is institutional memory, institutional expertise.",
-          "All that we need to see is, has it been set up?",
-          "You'll have to have R&D infrastructure\", the Court said.",
-          "The Court also asked about the creation of a sovereign database and infrastructure for storage and security.",
-          "It said that a director-rank officer should be responsible for security-related issues.",
-          "\"So far as security is concerned, you need to have a director-rank officer.",
-          "Then you will realise what are the pitfalls\" it explained.",
-          "The Court also questioned the need to rely on artificial intelligence for translating question papers into Indian languages.",
-          "\"Do you need AI translation for question papers?",
-          "In our country we don't need to blindly rely on AI for this\", it asked.",
-          "Mehta said the translation process was being done by humans.",
-          "The Court reiterated that institutionalising the NTA was a matter of importance and that the examination agency must be strengthened in a manner that prevents a recurrence of the problems.",
-          "Mehta informed the Court that the Nandan Nilekani Committee was meeting on Wednesday and would work on reforms to improve upon the Radhakrishnan Committee's recommendations.",
-          "Advocate Tanvi Dubey, appearing for FAIMA, pointed out that the Radhakrishnan Committee had recommended conducting examinations entirely in computer-based mode, but that recommendation was still under consideration.",
-          "Mehta responded that moving completely to CBT mode could itself carry greater risks.",
-          "\"We are concerned with institutionalisation of NTA.",
-          "With all infrastructure, manpower, technological requirements etc. we have been informed that Nandan Nilekani Committee has recommended reforms relating to AI, blockchain etc\", it noted."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "October"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "It submitted its report to the Ministry of Education in October 2024, making 101 recommendations to overhaul the NTA and strengthen the security and integrity of public examinations.",
-            "source": "Rising Kashmir",
-            "item_id": "7ba0b1f0feef85c019dc9a1f",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, August 19: The Supreme Court on Wednesday reiterated the need to institutionalise the National Testing Agency (NTA), with secure infrastructure, dedicated testing centres, cyber-security systems, institutional expertise and a permanent mechanism for examination-related operations to prevent future paper leaks.",
-            "source": "Rising Kashmir",
-            "item_id": "7ba0b1f0feef85c019dc9a1f",
-            "composed": false
-          },
-          {
-            "text": "Mehta also explained that question papers are packed in iron boxes with non-openable locks and transported in GPS-tracked vehicles.",
-            "source": "Rising Kashmir",
-            "item_id": "7ba0b1f0feef85c019dc9a1f",
-            "composed": false
-          },
-          {
-            "text": "Two sets of papers are kept in separate boxes in bank strong rooms, generally at SBI or Canara Bank branches.",
-            "source": "Rising Kashmir",
-            "item_id": "7ba0b1f0feef85c019dc9a1f",
-            "composed": false
-          }
-        ],
-        "source": "Rising Kashmir",
-        "corroborating": [],
-        "url": "https://risingkashmir.com/national/neetpaperleaksupremecourt-12395484"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "4d80ece123cd9b143981954b",
       "story_id": "4d80ece123cd9b143981954b",
       "headline": "Supreme Court 9-Judge Bench To Pronounce Judgment Tomorrow On Correctness Of 'Industry' Definition",
@@ -534,7 +365,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -635,9 +466,9 @@
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-19T12:21:39+00:00",
-      "published_at": "2026-08-19T12:21:39+00:00",
-      "effective_at": "2026-08-19T12:21:39+00:00",
+      "event_time": "2026-08-19T12:21:18+00:00",
+      "published_at": "2026-08-19T12:21:18+00:00",
+      "effective_at": "2026-08-19T12:21:18+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "business-standard": {
@@ -662,7 +493,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -711,124 +542,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "5cf42a7fef3f119110627a9d",
-      "story_id": "5cf42a7fef3f119110627a9d",
-      "headline": "Union Cabinet Approves ₹3,591 Crore Project For NH-22 In Bihar To Be Widened To Four Lanes",
-      "title": "Union Cabinet Approves ₹3,591 Crore Project For NH-22 In Bihar To Be Widened To Four Lanes",
-      "summary": "The Union Cabinet has approved a ₹3,590.73-crore project to widen the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar, strengthening Nepal border connectivity and boosting trade, tourism and regional development.",
-      "url": "https://www.thehansindia.com/news/national/union-cabinet-approves-3591-crore-project-for-nh-22-in-bihar-to-be-widened-to-four-lanes-1111466",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": null,
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-19T12:59:58+00:00",
-      "published_at": "2026-08-19T12:59:58+00:00",
-      "effective_at": "2026-08-19T12:59:58+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
-        "geo: national",
-        "dominant event 44, stack 24, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "national",
-      "state": "bihar",
-      "national_significance": true,
-      "article_sentences": [
-        "New Delhi: The Union Cabinet, chaired by Prime Minister Narendra Modi, has approved five infrastructure projects worth a total of Rs 13,041 crore, including four railway multitracking projects and one highway project.",
-        "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh.",
-        "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-        "These projects will add around 410 kilometres to the Indian Railways network.",
-        "They have a combined estimated cost of Rs 9,450 crore and are scheduled to be completed by 2030-31.",
-        "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-        "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-        "The projects are aimed at strengthening railway and road connectivity, improving transport capacity and facilitating smoother movement of passengers and goods across the concerned regions."
-      ],
-      "enrichment_source": "The Sentinel (Assam)",
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Union Cabinet has approved a ₹3,590.73-crore project to widen the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar, strengthening Nepal border connectivity and boosting trade, tourism and regional development.",
-          "New Delhi: The Union Cabinet, chaired by Prime Minister Narendra Modi, has approved five infrastructure projects worth a total of Rs 13,041 crore, including four railway multitracking projects and one highway project."
-        ],
-        "body": [
-          "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh.",
-          "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-          "These projects will add around 410 kilometres to the Indian Railways network.",
-          "They have a combined estimated cost of Rs 9,450 crore and are scheduled to be completed by 2030-31.",
-          "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-          "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-          "The projects are aimed at strengthening railway and road connectivity, improving transport capacity and facilitating smoother movement of passengers and goods across the concerned regions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bihar"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Cabinet has also approved the upgradation of the Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar to four-lane standards.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "5cf42a7fef3f119110627a9d:article",
-            "composed": false
-          },
-          {
-            "text": "The approved railway projects are the Kharagpur-Bhadrak 4th line, Bhadrak-Haridaspur 4th line, Gummidipundi-Gudur 3rd and 4th lines, and Cuttack-Paradeep 3rd and 4th lines.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "5cf42a7fef3f119110627a9d:article",
-            "composed": false
-          },
-          {
-            "text": "The 82.57-kilometre highway project will be developed under the Hybrid Annuity Mode (HAM) at a total capital cost of more than Rs 3,590 crore.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "5cf42a7fef3f119110627a9d:article",
-            "composed": false
-          },
-          {
-            "text": "Addressing the media after the Cabinet meeting, Information and Broadcasting Minister Ashwini Vaishnaw said the four railway projects will cover eight districts across West Bengal, Odisha, Tamil Nadu and Andhra Pradesh.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "5cf42a7fef3f119110627a9d:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [
-          "The Sentinel (Assam)"
-        ],
-        "url": "https://www.thehansindia.com/news/national/union-cabinet-approves-3591-crore-project-for-nh-22-in-bihar-to-be-widened-to-four-lanes-1111466"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "b6ee113ef9d657558a248152",
       "story_id": "b6ee113ef9d657558a248152",
       "headline": "Supreme Court Allows Candidate Who Secured Admission On False ST Certificate To Retain Degree",
@@ -870,7 +583,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -994,7 +707,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'verdict' in summary weight 13.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 43.6, score 43.6 -> HIGH"
@@ -1045,6 +758,120 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "2ee7a5a3d4c44a60171e6b28",
+      "story_id": "2ee7a5a3d4c44a60171e6b28",
+      "headline": "India beat Pakistan 5-3, advance to next round of Hockey World Cup",
+      "title": "India beat Pakistan 5-3, advance to next round of Hockey World Cup",
+      "summary": "Captain Harmanpreet Singh and Abhishek opened India's account in the first quarter.",
+      "url": "https://www.businesstoday.in/sports/story/india-beat-pakistan-5-3-advance-to-next-round-of-hockey-world-cup-550199-2026-08-19",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-19T15:14:41+00:00",
+      "published_at": "2026-08-19T15:14:41+00:00",
+      "effective_at": "2026-08-19T15:14:41+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 28, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Captain Harmanpreet Singh and Abhishek opened India's account in the first quarter.",
+        "Harmanpreet then scored again in the second quarter to give India a 3-0 lead.",
+        "Pakistan responded through Hannan Shahid, who pulled one goal back.",
+        "India quickly restored their three-goal advantage, with Abhishek scoring his second to make it 4-1.",
+        "Sufyan Khan reduced Pakistan's deficit to 4-2, with the second quarter producing four goals, two for each side.",
+        "India extended their lead again in the third quarter when Hardik Singh converted a penalty stroke to make it 5-2.",
+        "Pakistan continued to push in the final quarter and Shahid scored his second goal of the match to make it 5-3.",
+        "India held on through the remaining minutes to secure the win.",
+        "India began their World Cup campaign with a 3-1 win over Wales before losing 2-4 to world No. 3 England.",
+        "India conceded three goals in the second half of that match.",
+        "Pakistan, meanwhile, lost 1-4 to England before drawing 3-3 with Wales.",
+        "The team therefore needed a strong result against India to keep its campaign on track."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Captain Harmanpreet Singh and Abhishek opened India's account in the first quarter.",
+          "Harmanpreet then scored again in the second quarter to give India a 3-0 lead."
+        ],
+        "body": [
+          "Pakistan responded through Hannan Shahid, who pulled one goal back.",
+          "India quickly restored their three-goal advantage, with Abhishek scoring his second to make it 4-1.",
+          "Sufyan Khan reduced Pakistan's deficit to 4-2, with the second quarter producing four goals, two for each side.",
+          "India extended their lead again in the third quarter when Hardik Singh converted a penalty stroke to make it 5-2.",
+          "Pakistan continued to push in the final quarter and Shahid scored his second goal of the match to make it 5-3.",
+          "India held on through the remaining minutes to secure the win.",
+          "India began their World Cup campaign with a 3-1 win over Wales before losing 2-4 to world No. 3 England.",
+          "India conceded three goals in the second half of that match."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India quickly restored their three-goal advantage, with Abhishek scoring his second to make it 4-1.",
+            "source": "Business Today",
+            "item_id": "2ee7a5a3d4c44a60171e6b28:article",
+            "composed": false
+          },
+          {
+            "text": "Sufyan Khan reduced Pakistan's deficit to 4-2, with the second quarter producing four goals, two for each side.",
+            "source": "Business Today",
+            "item_id": "2ee7a5a3d4c44a60171e6b28:article",
+            "composed": false
+          },
+          {
+            "text": "India extended their lead again in the third quarter when Hardik Singh converted a penalty stroke to make it 5-2.",
+            "source": "Business Today",
+            "item_id": "2ee7a5a3d4c44a60171e6b28:article",
+            "composed": false
+          },
+          {
+            "text": "Pakistan continued to push in the final quarter and Shahid scored his second goal of the match to make it 5-3.",
+            "source": "Business Today",
+            "item_id": "2ee7a5a3d4c44a60171e6b28:article",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/sports/story/india-beat-pakistan-5-3-advance-to-next-round-of-hockey-world-cup-550199-2026-08-19"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "1351b4e5f55b188dad6e22e9",
       "story_id": "1351b4e5f55b188dad6e22e9",
       "headline": "PDP's Iltija demands crop insurance, better infra for apple growers, holds sit-in",
@@ -1088,7 +915,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 19.2, score 38.4 -> HIGH"
