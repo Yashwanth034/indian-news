@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T13:11:40.903814+00:00",
-  "count": 21,
+  "generated_at": "2026-08-21T13:22:14.771248+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "37c3f1ae8ca51811b5d36898",
@@ -48,7 +48,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (assam)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -183,7 +183,7 @@
         "event term: 'disease outbreak' in summary weight 27.6",
         "scale: state scope (odisha)",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -308,7 +308,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -430,7 +430,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -536,7 +536,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 29.2, score 49.2 -> HIGH"
@@ -640,7 +640,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (6.7h ago) +4",
+        "recency: fresh (6.9h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 15.2, score 49.2 -> HIGH"
@@ -752,7 +752,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'building collapse' in title weight 46",
         "scale: state scope (delhi)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 46, stack 17.2, score 46 -> HIGH"
@@ -861,7 +861,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -935,6 +935,121 @@
       "enrichment": "article"
     },
     {
+      "event_id": "1f9627f8a87296e5a7543d04",
+      "story_id": "1f9627f8a87296e5a7543d04",
+      "headline": "Supreme Court Imposes Rs 5 Lakh Costs On Actress & Her Advocate For Wasting Judicial Time",
+      "title": "Supreme Court Imposes Rs 5 Lakh Costs On Actress & Her Advocate For Wasting Judicial Time",
+      "summary": "The Court noted that neither of them had approached it with clean hands.",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-imposes-rs-5-lakh-costs-on-actress-her-advocate-for-wasting-judicial-time-546854",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-21T13:14:29+00:00",
+      "published_at": "2026-08-21T13:14:29+00:00",
+      "effective_at": "2026-08-21T13:14:29+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Court noted that neither of them had approached it with clean hands.",
+        "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation.",
+        "In view of the conduct of both sides, the Court also imposed costs.",
+        "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
+        "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
+        "Khan made a complaint to the Bar Council of India, which initiated a disciplinary proceeding against the advocate.",
+        "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
+        "3 lakhs to the complainant and Rs.",
+        "2 lakh to the BCI.",
+        "Both challenged the BCI's order before the High Court and then before the Supreme Court.",
+        "A bench comprising Justice Vikram Nath and Justice Sandeep Mehta observed that both parties suppressed materials and didn't approach the Court with clean hands.",
+        "The Supreme Court took a critical view of the manner in which both sides had conducted the litigation."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Court noted that neither of them had approached it with clean hands.",
+          "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation."
+        ],
+        "body": [
+          "In view of the conduct of both sides, the Court also imposed costs.",
+          "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
+          "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
+          "Khan made a complaint to the Bar Council of India, which initiated a disciplinary proceeding against the advocate.",
+          "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
+          "3 lakhs to the complainant and Rs.",
+          "2 lakh to the BCI.",
+          "Both challenged the BCI's order before the High Court and then before the Supreme Court."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation.",
+            "source": "LiveLaw",
+            "item_id": "1f9627f8a87296e5a7543d04:article",
+            "composed": false
+          },
+          {
+            "text": "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
+            "source": "LiveLaw",
+            "item_id": "1f9627f8a87296e5a7543d04:article",
+            "composed": false
+          },
+          {
+            "text": "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
+            "source": "LiveLaw",
+            "item_id": "1f9627f8a87296e5a7543d04:article",
+            "composed": false
+          },
+          {
+            "text": "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
+            "source": "LiveLaw",
+            "item_id": "1f9627f8a87296e5a7543d04:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-imposes-rs-5-lakh-costs-on-actress-her-advocate-for-wasting-judicial-time-546854"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "15f97a2003e1e7c59b0f59e7",
       "story_id": "15f97a2003e1e7c59b0f59e7",
       "headline": "Supreme Court lauds scrapped MGNREGA scheme; calls it neither freebie nor exploitation",
@@ -977,7 +1092,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1080,7 +1195,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1186,7 +1301,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1255,121 +1370,6 @@
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/supreme-court-sets-aside-order-allowing-dayanidhi-marans-plea-to-summon-telecom-secretary/article71373277.ece"
       },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "1f9627f8a87296e5a7543d04",
-      "story_id": "1f9627f8a87296e5a7543d04",
-      "headline": "Supreme Court Imposes Rs 5 Lakh Costs On Actress & Her Advocate For Wasting Judicial Time",
-      "title": "Supreme Court Imposes Rs 5 Lakh Costs On Actress & Her Advocate For Wasting Judicial Time",
-      "summary": "The Court noted that neither of them had approached it with clean hands.",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-imposes-rs-5-lakh-costs-on-actress-her-advocate-for-wasting-judicial-time-546854",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-21T10:41:36+00:00",
-      "published_at": "2026-08-21T10:41:36+00:00",
-      "effective_at": "2026-08-21T10:41:36+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Court noted that neither of them had approached it with clean hands.",
-        "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation.",
-        "In view of the conduct of both sides, the Court also imposed costs.",
-        "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
-        "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
-        "Khan made a complaint to the Bar Council of India, which initiated a disciplinary proceeding against the advocate.",
-        "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
-        "3 lakhs to the complainant and Rs.",
-        "2 lakh to the BCI.",
-        "Both challenged the BCI's order before the High Court and then before the Supreme Court.",
-        "A bench comprising Justice Vikram Nath and Justice Sandeep Mehta observed that both parties suppressed materials and didn't approach the Court with clean hands.",
-        "The Supreme Court took a critical view of the manner in which both sides had conducted the litigation."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Court noted that neither of them had approached it with clean hands.",
-          "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation."
-        ],
-        "body": [
-          "In view of the conduct of both sides, the Court also imposed costs.",
-          "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
-          "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
-          "Khan made a complaint to the Bar Council of India, which initiated a disciplinary proceeding against the advocate.",
-          "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
-          "3 lakhs to the complainant and Rs.",
-          "2 lakh to the BCI.",
-          "Both challenged the BCI's order before the High Court and then before the Supreme Court."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court today (August 21) strongly disapproved of the conduct of Mumbai-based Advocate Rizwan Siddiquee and actress Rehana Khan, alias Rozlyn Khan, for wasting more than 11 years of the judiciary just for the sake of their reputation.",
-            "source": "LiveLaw",
-            "item_id": "1f9627f8a87296e5a7543d04:article",
-            "composed": false
-          },
-          {
-            "text": "The appellant and the respondent were each directed to pay ₹5 lakh to the Supreme Court Legal Services Committee within four weeks, with the Court directing that the amount would be recovered in accordance with law in the event of non-payment.",
-            "source": "LiveLaw",
-            "item_id": "1f9627f8a87296e5a7543d04:article",
-            "composed": false
-          },
-          {
-            "text": "To briefly state, the issue arose after Khan accused Siddiquee of professional misconduct under Section 35 of the Advocates Act, alleging that he breached the fiduciary relationship by disclosing confidential client information to the media, issuing a public notice without consent, and making derogatory remarks about his client public.",
-            "source": "LiveLaw",
-            "item_id": "1f9627f8a87296e5a7543d04:article",
-            "composed": false
-          },
-          {
-            "text": "The committee found Siddiquee guilty of professional misconduct and suspended his license for 2 years, and he was ordered to pay Rs.",
-            "source": "LiveLaw",
-            "item_id": "1f9627f8a87296e5a7543d04:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-imposes-rs-5-lakh-costs-on-actress-her-advocate-for-wasting-judicial-time-546854"
-      },
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
@@ -1417,7 +1417,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -1531,7 +1531,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1641,7 +1641,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 44, score 44 -> HIGH"
@@ -1721,7 +1721,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1838,7 +1838,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1911,111 +1911,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "4cf2d923aafbf1e9df6ac83e",
-      "story_id": "4cf2d923aafbf1e9df6ac83e",
-      "headline": "Supreme Court Waives Prior Practice Requirement For Civil Judge (Junior Division) Exams Till March 2027",
-      "title": "Supreme Court Waives Prior Practice Requirement For Civil Judge (Junior Division) Exams Till March 2027",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-waives-prior-practice-requirement-for-civil-judge-junior-division-exams-till-march-2027-546794",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "education"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-21T07:50:26+00:00",
-      "published_at": "2026-08-21T07:50:26+00:00",
-      "effective_at": "2026-08-21T07:50:26+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court has waived the three-year practice requirement for candidates applying for Civil Judge (Junior Division) examinations pursuant to recruitment notifications issued between May 20, 2025 and March 31, 2027.",
-        "A bench of Chief Justice of India Surya Kant, Justice Augustine George Masih and Justice K Vinod Chandran (dissenting) said all law graduates would be eligible to apply during this transitional period, notwithstanding the three-year practice requirement.",
-        "The Court said such candidates would be deemed to have completed one year of active practice for the purposes of their applications.",
-        "They will not be required to furnish a separate certificate of practice for the deemed period.",
-        "Candidates selected pursuant to these recruitments will, however, be appointed initially as Trainee Judicial.",
-        "Officers.",
-        "They will undergo one year of intensive training at the concerned State Judicial Academy, followed by one year of structured law clerkship.",
-        "The clerkship will include six months under the supervision of the Principal District Judge, District and Sessions Judge or a member of the Higher Judicial Service, and six months under a sitting judge of the concerned High Court.",
-        "The Court said the training and clerkship periods will be treated as equivalent to two years of practice at the Bar for the purposes of the three-year requirement.",
-        "The direction has been issued as a transitional arrangement after the Court restored the three-year practice requirement in its May 20, 2025 judgment.",
-        "The Court held that the sudden restoration of the requirement without a transitional arrangement had caused hardship to law graduates when had prepared for judicial examinations under the earlier regime.",
-        "“The sudden restoration of the requirements without any transitional arrangement has visited hardship upon law graduates who had prepared their professional lives on the basis of the regime that prevailed for over two decades”, the Court observed."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court has waived the three-year practice requirement for candidates applying for Civil Judge (Junior Division) examinations pursuant to recruitment notifications issued between May 20, 2025 and March 31, 2027.",
-          "A bench of Chief Justice of India Surya Kant, Justice Augustine George Masih and Justice K Vinod Chandran (dissenting) said all law graduates would be eligible to apply during this transitional period, notwithstanding the three-year practice requirement."
-        ],
-        "body": [
-          "The Court said such candidates would be deemed to have completed one year of active practice for the purposes of their applications.",
-          "They will not be required to furnish a separate certificate of practice for the deemed period.",
-          "Candidates selected pursuant to these recruitments will, however, be appointed initially as Trainee Judicial.",
-          "Officers.",
-          "They will undergo one year of intensive training at the concerned State Judicial Academy, followed by one year of structured law clerkship.",
-          "The clerkship will include six months under the supervision of the Principal District Judge, District and Sessions Judge or a member of the Higher Judicial Service, and six months under a sitting judge of the concerned High Court.",
-          "The Court said the training and clerkship periods will be treated as equivalent to two years of practice at the Bar for the purposes of the three-year requirement.",
-          "The direction has been issued as a transitional arrangement after the Court restored the three-year practice requirement in its May 20, 2025 judgment."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court has waived the three-year practice requirement for candidates applying for Civil Judge (Junior Division) examinations pursuant to recruitment notifications issued between May 20, 2025 and March 31, 2027.",
-            "source": "LiveLaw",
-            "item_id": "4cf2d923aafbf1e9df6ac83e:article",
-            "composed": false
-          },
-          {
-            "text": "The direction has been issued as a transitional arrangement after the Court restored the three-year practice requirement in its May 20, 2025 judgment.",
-            "source": "LiveLaw",
-            "item_id": "4cf2d923aafbf1e9df6ac83e:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-waives-prior-practice-requirement-for-civil-judge-junior-division-exams-till-march-2027-546794"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "ccbae7103567d5e241c6ca0e",
       "story_id": "ccbae7103567d5e241c6ca0e",
       "headline": "US announces sanctions against Cuban spy, nine regime entities",
@@ -2066,7 +1961,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: jobs-employment (importance 0.9) +0",
         "geo: national",
         "dominant event 42, stack 44, score 44 -> HIGH"
@@ -2138,124 +2033,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9101b29ec6143b048fee1f59",
-      "story_id": "9101b29ec6143b048fee1f59",
-      "headline": "BJP MLAs storm Karnataka Assembly seeking Nagendra’s resignation",
-      "title": "BJP MLAs storm Karnataka Assembly seeking Nagendra’s resignation",
-      "summary": "Bengaluru, Aug 21 : Protesting against the alleged tribal welfare corporation irregularities and demanding the resignation of Minister B. Nagendra, Karnataka BJP MLAs and MLCs wearing black T-shirts were stopped by security personnel at the entrance of the Vidhana Soudha on Friday, following which they forced their way into the legislature. The BJP legislators had earlier staged a protest near the Maharshi Valmiki statue at the Legislators' House. The protest was led by BJP State President and MLA B.Y. Vijayendra, Leader of Opposition in the Legislative Assembly R. Ashoka and Leader of Opposition in the Legislative Council Chalavadi Narayanaswamy. The BJP MLAs and MLCs wore black T-shirts carrying messages such as “This community should get justice” and “Corrupt Minister B. Nagendra should resign.” Following the protest, the BJP legislators took out a march towards Vidhana Soudha. However, as they reached the entrance, marshals, police personnel and security officers stopped them and denied them entry, citing the rule that legislators wearing T-shirts could not enter the House. The BJP legislators objected to being stopped and insisted on entering Vidhana Soudha. R. Ashoka asked the MLAs and MLCs to push past the security personnel and enter the building. The BJP legislators then raised “Bharat Mata Ki Jai” slogans and forced their way through the security cordon into Vidhana Soudha. During the protest, BJP legislators also raised slogans questioning the alleged diversion of funds of the tribal welfare corporation. Leader of the Opposition R. Ashoka stated, “Even after there is so much evidence available, the Congress party has stalled the entire session for the sake of one person who allegedly looted money meant for Dalits. Is this tenable? Don’t you have any other Dalit leaders? Deputy Chief Minister G. Parameshwara claimed on the floor of the House that Minister Nagendra has no cases against him. There are 31 cases against him.” Ashoka further stated, “The Supreme Court has laid down guidelines on the eligibility of a person to be appointed as a minister. There is also a CBI chargesheet. I have released all the documents, yet the government still has doubts? The government should sack him and allow the session to function.\" Ashoka alleged, \"The Congress is taking an anti-Dalit stand. The money allegedly looted has gone to Rahul Gandhi’s residence and towards elections. If Minister Nagendra is removed, the Congress leadership fears that he will reveal everything.” Speaking during the protest, BJP State President B.Y. Vijayendra said the party’s agitation would continue even after the ongoing legislature session. “The CM’s stand and the ruling party’s stance that, come what may, we will not drop corrupt Minister Nagendra from the Cabinet makes it evident that the government is by the corrupt and for the corrupt,” he alleged. “While looting money meant for Dalits, didn’t Minister Nagendra and AICC General Secretary K.C. Venugopal know that it was Dalit money that they were looting?” accused Vijayendra. --IANS",
-      "url": "https://assamtribune.com/national/bjp-mlas-storm-karnataka-assembly-seeking-nagendras-resignation-1615921",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [
-        "courts-law",
-        "government-policy",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-21T07:18:55+00:00",
-      "published_at": "2026-08-21T07:18:55+00:00",
-      "effective_at": "2026-08-21T07:18:55+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'appointed as' in summary weight 24",
-        "event term: 'appointed' in summary weight 21.6",
-        "scale: state scope (karnataka)",
-        "recency: fresh (5.9h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 26.4, stack 40.4, score 40.4 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "karnataka",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Bengaluru, Aug 21: Protesting against the alleged tribal welfare corporation irregularities and demanding the resignation of Minister B. Nagendra, Karnataka BJP MLAs and MLCs wearing black T-shirts were stopped by security personnel at the entrance of the Vidhana Soudha on Friday, following which they forced their way into the legislature.",
-          "The BJP legislators had earlier staged a protest near the Maharshi Valmiki statue at the Legislators' House."
-        ],
-        "body": [
-          "The protest was led by BJP State President and MLA B.Y. Vijayendra, Leader of Opposition in the Legislative Assembly R. Ashoka and Leader of Opposition in the Legislative Council Chalavadi Narayanaswamy.",
-          "The BJP MLAs and MLCs wore black T-shirts carrying messages such as “This community should get justice” and “Corrupt Minister B. Nagendra should resign.” Following the protest, the BJP legislators took out a march towards Vidhana Soudha.",
-          "However, as they reached the entrance, marshals, police personnel and security officers stopped them and denied them entry, citing the rule that legislators wearing T-shirts could not enter the House.",
-          "The BJP legislators objected to being stopped and insisted on entering Vidhana Soudha.",
-          "R. Ashoka asked the MLAs and MLCs to push past the security personnel and enter the building.",
-          "The BJP legislators then raised “Bharat Mata Ki Jai” slogans and forced their way through the security cordon into Vidhana Soudha.",
-          "During the protest, BJP legislators also raised slogans questioning the alleged diversion of funds of the tribal welfare corporation.",
-          "Leader of the Opposition R. Ashoka stated, “Even after there is so much evidence available, the Congress party has stalled the entire session for the sake of one person who allegedly looted money meant for Dalits.",
-          "Is this tenable?",
-          "Don’t you have any other Dalit leaders?",
-          "Deputy Chief Minister G. Parameshwara claimed on the floor of the House that Minister Nagendra has no cases against him.",
-          "There are 31 cases against him.” Ashoka further stated, “The Supreme Court has laid down guidelines on the eligibility of a person to be appointed as a minister.",
-          "There is also a CBI chargesheet.",
-          "I have released all the documents, yet the government still has doubts?",
-          "The government should sack him and allow the session to function.\" Ashoka alleged, \"The Congress is taking an anti-Dalit stand.",
-          "The money allegedly looted has gone to Rahul Gandhi’s residence and towards elections.",
-          "If Minister Nagendra is removed, the Congress leadership fears that he will reveal everything.” Speaking during the protest, BJP State President B.Y. Vijayendra said the party’s agitation would continue even after the ongoing legislature session.",
-          "“The CM’s stand and the ruling party’s stance that, come what may, we will not drop corrupt Minister Nagendra from the Cabinet makes it evident that the government is by the corrupt and for the corrupt,” he alleged.",
-          "“While looting money meant for Dalits, didn’t Minister Nagendra and AICC General Secretary K.C. Venugopal know that it was Dalit money that they were looting?” accused Vijayendra.",
-          "--IANS."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Bengaluru, Aug 21: Protesting against the alleged tribal welfare corporation irregularities and demanding the resignation of Minister B. Nagendra, Karnataka BJP MLAs and MLCs wearing black T-shirts were stopped by security personnel at the entrance of the Vidhana Soudha on Friday, following which they forced their way into the legislature.",
-            "source": "The Assam Tribune",
-            "item_id": "9101b29ec6143b048fee1f59",
-            "composed": false
-          },
-          {
-            "text": "Following the protest, the BJP legislators took out a march towards Vidhana Soudha.",
-            "source": "The Assam Tribune",
-            "item_id": "9101b29ec6143b048fee1f59",
-            "composed": false
-          },
-          {
-            "text": "“The CM’s stand and the ruling party’s stance that, come what may, we will not drop corrupt Minister Nagendra from the Cabinet makes it evident that the government is by the corrupt and for the corrupt,” he alleged.",
-            "source": "The Assam Tribune",
-            "item_id": "9101b29ec6143b048fee1f59",
-            "composed": false
-          },
-          {
-            "text": "There are 31 cases against him.”",
-            "source": "The Assam Tribune",
-            "item_id": "9101b29ec6143b048fee1f59",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/national/bjp-mlas-storm-karnataka-assembly-seeking-nagendras-resignation-1615921"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "9b5561fbfc5bb4a4126eca40",
       "story_id": "9b5561fbfc5bb4a4126eca40",
       "headline": "'No credibility': India slams US religious freedom body over call for RSS sanctions",
@@ -2296,7 +2073,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
