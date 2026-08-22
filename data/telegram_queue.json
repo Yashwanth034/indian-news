@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T10:21:56.515731+00:00",
-  "count": 12,
+  "generated_at": "2026-08-22T10:31:54.152222+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "7ad0acde183b97054e21b0ec",
@@ -54,7 +54,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -183,7 +183,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -304,10 +304,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "dominant event 64, stack 19, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -358,6 +358,129 @@
       "enrichment": "article"
     },
     {
+      "event_id": "9c6f2e5406db92ac2dfb1e12",
+      "story_id": "9c6f2e5406db92ac2dfb1e12",
+      "headline": "Philippine capital sees rise in leptospirosis cases amid flooding",
+      "title": "Philippine capital sees rise in leptospirosis cases amid flooding",
+      "summary": "Manila, Aug 22 : Leptospirosis cases at a major infectious disease hospital in the Philippine capital have reached 50, with two deaths, following widespread flooding from persistent heavy rains, local media reported on Saturday. San Lazaro Hospital, a national referral centre for infectious diseases run by the Department of Health (DOH), has opened an express lane for leptospirosis patients, reports Xinhua news agency, quoting local media TV5. Nationwide cases have reached 3,760 so far in the Philippines, with the number expected to rise further in the coming days, according to the DOH. Additionally, in Iloilo Province in the central Philippines, at least 10 people have died from leptospirosis in the past eight months, local media reported on Friday. The death toll in Iloilo Province is twice the number of people who died from the disease during the same period in 2025. Residents are urged to take prophylaxis or preventive antibiotics if exposed to risks, according to local health authorities. Meanwhile, a total of 88 cities and municipalities have declared a state of calamity due to the southwest monsoon and tropical cyclones, the Office of Civil Defence said on Friday. The hardest-hit provinces include Pampanga, Bataan and Bulacan in Central Luzon, the largest plain in the country located north of Manila on the main island of Luzon. In Pampanga province, more than half of the villages are still submerged, affecting nearly 1 million people and causing about 1.4 billion pesos (about 22.68 million US dollars) in agricultural damage. Bataan province has declared a state of calamity with around 8,000 residents evacuated. In Bulacan province, a bridge in Santa Maria remained closed due to flood damage. A state of calamity is an official emergency declaration issued by the Philippine government when a severe natural disaster, epidemic, or major crisis hits a city, province, or the entire country. --IANS",
+      "url": "https://assamtribune.com/international/philippine-capital-sees-rise-in-leptospirosis-cases-amid-flooding-1615988",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "health",
+        "defence-security",
+        "transport-infrastructure",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-22T10:26:23+00:00",
+      "published_at": "2026-08-22T10:26:23+00:00",
+      "effective_at": "2026-08-22T10:26:23+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'disaster'",
+        "major: significance event 'epidemic'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'epidemic' in summary weight 42",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "scale: 1 people-affected figures",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Manila, Aug 22: Leptospirosis cases at a major infectious disease hospital in the Philippine capital have reached 50, with two deaths, following widespread flooding from persistent heavy rains, local media reported on Saturday.",
+          "San Lazaro Hospital, a national referral centre for infectious diseases run by the Department of Health (DOH), has opened an express lane for leptospirosis patients, reports Xinhua news agency, quoting local media TV5."
+        ],
+        "body": [
+          "Additionally, in Iloilo Province in the central Philippines, at least 10 people have died from leptospirosis in the past eight months, local media reported on Friday.",
+          "The death toll in Iloilo Province is twice the number of people who died from the disease during the same period in 2025.",
+          "Residents are urged to take prophylaxis or preventive antibiotics if exposed to risks, according to local health authorities.",
+          "Meanwhile, a total of 88 cities and municipalities have declared a state of calamity due to the southwest monsoon and tropical cyclones, the Office of Civil Defence said on Friday.",
+          "The hardest-hit provinces include Pampanga, Bataan and Bulacan in Central Luzon, the largest plain in the country located north of Manila on the main island of Luzon.",
+          "In Pampanga province, more than half of the villages are still submerged, affecting nearly 1 million people and causing about 1.4 billion pesos (about 22.68 million US dollars) in agricultural damage.",
+          "Bataan province has declared a state of calamity with around 8,000 residents evacuated.",
+          "In Bulacan province, a bridge in Santa Maria remained closed due to flood damage.",
+          "A state of calamity is an official emergency declaration issued by the Philippine government when a severe natural disaster, epidemic, or major crisis hits a city, province, or the entire country.",
+          "--IANS."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Iloilo Province"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 10 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Nationwide cases have reached 3,760 so far in the Philippines, with the number expected to rise further in the coming days, according to the DOH."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Additionally, in Iloilo Province in the central Philippines, at least 10 people have died from leptospirosis in the past eight months, local media reported on Friday.",
+            "source": "The Assam Tribune",
+            "item_id": "9c6f2e5406db92ac2dfb1e12",
+            "composed": false
+          },
+          {
+            "text": "Bataan province has declared a state of calamity with around 8,000 residents evacuated.",
+            "source": "The Assam Tribune",
+            "item_id": "9c6f2e5406db92ac2dfb1e12",
+            "composed": false
+          },
+          {
+            "text": "Manila, Aug 22: Leptospirosis cases at a major infectious disease hospital in the Philippine capital have reached 50, with two deaths, following widespread flooding from persistent heavy rains, local media reported on Saturday.",
+            "source": "The Assam Tribune",
+            "item_id": "9c6f2e5406db92ac2dfb1e12",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/international/philippine-capital-sees-rise-in-leptospirosis-cases-amid-flooding-1615988"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "6f3ff806a6a8bb3a7c4b9ad9",
       "story_id": "6f3ff806a6a8bb3a7c4b9ad9",
       "headline": "This Govt is made to trouble people’: Altaf Bukhari slams 6.83% power tariff hike",
@@ -403,7 +526,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -537,7 +660,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -658,7 +781,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -745,7 +868,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -831,7 +954,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -940,7 +1063,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1062,7 +1185,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 33.6, score 42 -> HIGH"
@@ -1174,7 +1297,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: state scope (telangana)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 42, score 42 -> HIGH"
@@ -1254,7 +1377,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'match' in title weight 8",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 32, score 42 -> HIGH"
