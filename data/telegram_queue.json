@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T03:51:52.563938+00:00",
-  "count": 8,
+  "generated_at": "2026-08-23T04:02:25.245278+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "609529fcc1bf52ace02081d9",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -150,7 +150,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'match' in summary weight 4.8",
         "scale: state scope (delhi)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 42.8, score 82 -> IMMEDIATE"
@@ -329,6 +329,340 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "c73efac0bead7097543795b4",
+      "story_id": "c73efac0bead7097543795b4",
+      "headline": "Assam: Unregulated mining threatens Kaliyani River, raises flood concerns in Numaligarh",
+      "title": "Assam: Unregulated mining threatens Kaliyani River, raises flood concerns in Numaligarh",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-unregulated-mining-threatens-kaliyani-river-raises-flood-concerns-in-numaligarh",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-23T03:40:57+00:00",
+      "published_at": "2026-08-23T03:40:57+00:00",
+      "effective_at": "2026-08-23T03:40:57.992000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "BOKAKHAT: The Kaliyani River, along the Golaghat-Karbi Anglong border, is reportedly facing severe environmental degradation due to alleged unregulated sand and stone mining.",
+        "At Buragohain Khat, large-scale extraction is allegedly being carried out using excavators and JCB machines, raising concerns about deep excavation of the riverbed beyond authorised limits.",
+        "Although government-approved sand and gravel mahals exist along designated stretches, operators are required to comply with mining permits, environmental clearances, extraction limits and transit-challan requirements.",
+        "Environmental activist Apurba Ballabh Goswami has warned that continued destructive mining could alter the river’s course, weaken its banks and damage the aquatic ecosystem.",
+        "Concerns have also been raised about possible flooding around Numaligarh and further riverbank erosion in the Rangbong area.",
+        "The Kaliyani River is ecologically important, with the nearby Nambor-Daigrung Wildlife Sanctuary and the wider Kaziranga-Karbi Anglong landscape depending on its waterways.",
+        "Wildlife, including wild elephants, also uses the river as a source of water.",
+        "Environmental groups have called for an immediate investigation into alleged illegal or excessive mechanical mining.",
+        "Authorities have been urged to verify mining permits, environmental clearances, extraction quantities and transit challans, and to take action against any violations."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "BOKAKHAT: The Kaliyani River, along the Golaghat-Karbi Anglong border, is reportedly facing severe environmental degradation due to alleged unregulated sand and stone mining.",
+          "At Buragohain Khat, large-scale extraction is allegedly being carried out using excavators and JCB machines, raising concerns about deep excavation of the riverbed beyond authorised limits."
+        ],
+        "body": [
+          "Although government-approved sand and gravel mahals exist along designated stretches, operators are required to comply with mining permits, environmental clearances, extraction limits and transit-challan requirements.",
+          "Environmental activist Apurba Ballabh Goswami has warned that continued destructive mining could alter the river’s course, weaken its banks and damage the aquatic ecosystem.",
+          "Concerns have also been raised about possible flooding around Numaligarh and further riverbank erosion in the Rangbong area.",
+          "The Kaliyani River is ecologically important, with the nearby Nambor-Daigrung Wildlife Sanctuary and the wider Kaziranga-Karbi Anglong landscape depending on its waterways.",
+          "Wildlife, including wild elephants, also uses the river as a source of water.",
+          "Environmental groups have called for an immediate investigation into alleged illegal or excessive mechanical mining.",
+          "Authorities have been urged to verify mining permits, environmental clearances, extraction quantities and transit challans, and to take action against any violations."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Numaligarh"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Concerns have also been raised about possible flooding around Numaligarh and further riverbank erosion in the Rangbong area.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c73efac0bead7097543795b4:article",
+            "composed": false
+          },
+          {
+            "text": "BOKAKHAT: The Kaliyani River, along the Golaghat-Karbi Anglong border, is reportedly facing severe environmental degradation due to alleged unregulated sand and stone mining.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c73efac0bead7097543795b4:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-unregulated-mining-threatens-kaliyani-river-raises-flood-concerns-in-numaligarh"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "c0aab6e7eff64ef03583bbf9",
+      "story_id": "c0aab6e7eff64ef03583bbf9",
+      "headline": "West Bengal Volunteers Bring Vital Relief and Hope to Flood-Hit Sivasagar in Assam",
+      "title": "West Bengal Volunteers Bring Vital Relief and Hope to Flood-Hit Sivasagar in Assam",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/west-bengal-volunteers-bring-vital-relief-and-hope-to-flood-hit-sivasagar-in-assam",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-23T03:30:33+00:00",
+      "published_at": "2026-08-23T03:30:33+00:00",
+      "effective_at": "2026-08-23T03:30:33.872000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 35, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "TINSUKIA: A five-member team of volunteers from Durgapur in West Bengal set off from Tinsukia on Saturday with relief materials for flood-affected people in Sivasagar.",
+        "The team, led by Rajesh Sen, secretary of the government-registered Durgapur Adda Yuba Sangha (DAYA), was welcomed in Tinsukia by social workers Bidhan Das and Iswar Gupta.",
+        "The other members of the team were Tapash Goswami, Debabrata Das, Debashish Badhyakar and Tuhin Chanda.",
+        "Members of the West Bengal delegation said they decided to extend assistance after learning about the devastating floods in Assam and the difficulties faced by affected people in their aftermath.",
+        "“We are bringing as much as we can.",
+        "Our aim is to deliver some necessary relief to the flood victims and make them feel that they are not alone during this difficult time,” Rajesh Sen said.",
+        "Commenting on the initiative, Bidhan Das said the team had set an example of humanity, brotherhood and national unity.",
+        "He said the initiative demonstrated that when it comes to serving humanity, barriers of language, caste, religion and region could be overcome.",
+        "He added that people from different parts of the country coming forward to help flood victims in Assam reflected the spirit of humanitarian solidarity.",
+        "Das described the efforts of the West Bengal team as an inspiring example of such humanitarian consciousness."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "TINSUKIA: A five-member team of volunteers from Durgapur in West Bengal set off from Tinsukia on Saturday with relief materials for flood-affected people in Sivasagar.",
+          "The team, led by Rajesh Sen, secretary of the government-registered Durgapur Adda Yuba Sangha (DAYA), was welcomed in Tinsukia by social workers Bidhan Das and Iswar Gupta."
+        ],
+        "body": [
+          "The other members of the team were Tapash Goswami, Debabrata Das, Debashish Badhyakar and Tuhin Chanda.",
+          "Members of the West Bengal delegation said they decided to extend assistance after learning about the devastating floods in Assam and the difficulties faced by affected people in their aftermath.",
+          "“We are bringing as much as we can.",
+          "Our aim is to deliver some necessary relief to the flood victims and make them feel that they are not alone during this difficult time,” Rajesh Sen said.",
+          "Commenting on the initiative, Bidhan Das said the team had set an example of humanity, brotherhood and national unity.",
+          "He said the initiative demonstrated that when it comes to serving humanity, barriers of language, caste, religion and region could be overcome.",
+          "He added that people from different parts of the country coming forward to help flood victims in Assam reflected the spirit of humanitarian solidarity.",
+          "Das described the efforts of the West Bengal team as an inspiring example of such humanitarian consciousness."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "West Bengal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "TINSUKIA: A five-member team of volunteers from Durgapur in West Bengal set off from Tinsukia on Saturday with relief materials for flood-affected people in Sivasagar.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c0aab6e7eff64ef03583bbf9:article",
+            "composed": false
+          },
+          {
+            "text": "Members of the West Bengal delegation said they decided to extend assistance after learning about the devastating floods in Assam and the difficulties faced by affected people in their aftermath.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "c0aab6e7eff64ef03583bbf9:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/west-bengal-volunteers-bring-vital-relief-and-hope-to-flood-hit-sivasagar-in-assam"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "9410c6ad8618d20e86542e70",
+      "story_id": "9410c6ad8618d20e86542e70",
+      "headline": "Assam, Nagaland Groups Forge Joint Peace Push After Floods, Border Strains",
+      "title": "Assam, Nagaland Groups Forge Joint Peace Push After Floods, Border Strains",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nagaland-groups-forge-joint-peace-push-after-floods-border-strains",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-23T03:15:35+00:00",
+      "published_at": "2026-08-23T03:15:35+00:00",
+      "effective_at": "2026-08-23T03:15:35.011000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.8h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 35, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+        "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region.",
+        "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+        "Konyak Union president K Yamao Konyak said the July 19 incident had caused deep sorrow and emphasised the importance of maintaining peace and communal harmony.",
+        "He observed that although natural resources such as coal and stone belong to Nagaland, their transportation to Assam has been taking place, and stressed the need for greater understanding and cooperation among communities.",
+        "The participants underscored the longstanding social and cultural links between the people of Assam and Nagaland and called for collective efforts to preserve peace and strengthen cordial relations.",
+        "Following detailed deliberations, the four organisations adopted a set of joint resolutions aimed at promoting cooperation and finding peaceful solutions to outstanding issues.",
+        "As per the resolutions, the organisations will submit a joint memorandum to the governments of Assam and Nagaland, seeking appropriate measures to mitigate the prevailing disaster situation.",
+        "They also resolved to undertake a joint survey of disputed areas along the Assam-Nagaland border and examine other related issues.",
+        "Another important decision was to constitute a joint Peace Committee comprising representatives of the ATASU Central Committee and the Konyak Committee to facilitate dialogue and coordination.",
+        "The organisations further resolved to promote cultural exchanges between the Tai Ahom and Konyak communities as a means of strengthening mutual understanding, friendship and harmony and spreading a message of peaceful coexistence.",
+        "The meeting was attended by Konyak Union secretary Kaiba Konyak, KNSK president Ponglem Konyak, secretary Monglong Konyak, Konyak Students’ Union president Temwang Konyak and secretary Khampai Konyak, among others."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+          "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region."
+        ],
+        "body": [
+          "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+          "Konyak Union president K Yamao Konyak said the July 19 incident had caused deep sorrow and emphasised the importance of maintaining peace and communal harmony.",
+          "He observed that although natural resources such as coal and stone belong to Nagaland, their transportation to Assam has been taking place, and stressed the need for greater understanding and cooperation among communities.",
+          "The participants underscored the longstanding social and cultural links between the people of Assam and Nagaland and called for collective efforts to preserve peace and strengthen cordial relations.",
+          "Following detailed deliberations, the four organisations adopted a set of joint resolutions aimed at promoting cooperation and finding peaceful solutions to outstanding issues.",
+          "As per the resolutions, the organisations will submit a joint memorandum to the governments of Assam and Nagaland, seeking appropriate measures to mitigate the prevailing disaster situation.",
+          "They also resolved to undertake a joint survey of disputed areas along the Assam-Nagaland border and examine other related issues.",
+          "Another important decision was to constitute a joint Peace Committee comprising representatives of the ATASU Central Committee and the Konyak Committee to facilitate dialogue and coordination."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hotel Brahmaputra"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          },
+          {
+            "text": "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          },
+          {
+            "text": "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nagaland-groups-forge-joint-peace-push-after-floods-border-strains"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "71dd18e04532b9389b59fb5d",
       "story_id": "71dd18e04532b9389b59fb5d",
       "headline": "DC Sgr lays foundation stone for Addl. Accommodation Block at Zila Sainik Bhawan",
@@ -371,7 +705,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 18.2, score 49.2 -> HIGH"
@@ -483,7 +817,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -686,7 +1020,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (10.0h ago) +4",
+        "recency: fresh (10.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -841,7 +1175,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1001,7 +1335,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (west bengal)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 40.4, score 42 -> HIGH"
@@ -1129,7 +1463,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'electricity tariff' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
