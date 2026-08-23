@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T03:21:52.572838+00:00",
-  "count": 8,
+  "generated_at": "2026-08-23T03:32:03.999591+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "609529fcc1bf52ace02081d9",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -150,7 +150,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'match' in summary weight 4.8",
         "scale: state scope (delhi)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -329,6 +329,125 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "9410c6ad8618d20e86542e70",
+      "story_id": "9410c6ad8618d20e86542e70",
+      "headline": "Assam, Nagaland Groups Forge Joint Peace Push After Floods, Border Strains",
+      "title": "Assam, Nagaland Groups Forge Joint Peace Push After Floods, Border Strains",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nagaland-groups-forge-joint-peace-push-after-floods-border-strains",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-23T03:15:35+00:00",
+      "published_at": "2026-08-23T03:15:35+00:00",
+      "effective_at": "2026-08-23T03:15:35.011000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 35, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+        "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region.",
+        "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+        "Konyak Union president K Yamao Konyak said the July 19 incident had caused deep sorrow and emphasised the importance of maintaining peace and communal harmony.",
+        "He observed that although natural resources such as coal and stone belong to Nagaland, their transportation to Assam has been taking place, and stressed the need for greater understanding and cooperation among communities.",
+        "The participants underscored the longstanding social and cultural links between the people of Assam and Nagaland and called for collective efforts to preserve peace and strengthen cordial relations.",
+        "Following detailed deliberations, the four organisations adopted a set of joint resolutions aimed at promoting cooperation and finding peaceful solutions to outstanding issues.",
+        "As per the resolutions, the organisations will submit a joint memorandum to the governments of Assam and Nagaland, seeking appropriate measures to mitigate the prevailing disaster situation.",
+        "They also resolved to undertake a joint survey of disputed areas along the Assam-Nagaland border and examine other related issues.",
+        "Another important decision was to constitute a joint Peace Committee comprising representatives of the ATASU Central Committee and the Konyak Committee to facilitate dialogue and coordination.",
+        "The organisations further resolved to promote cultural exchanges between the Tai Ahom and Konyak communities as a means of strengthening mutual understanding, friendship and harmony and spreading a message of peaceful coexistence.",
+        "The meeting was attended by Konyak Union secretary Kaiba Konyak, KNSK president Ponglem Konyak, secretary Monglong Konyak, Konyak Students’ Union president Temwang Konyak and secretary Khampai Konyak, among others."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+          "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region."
+        ],
+        "body": [
+          "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+          "Konyak Union president K Yamao Konyak said the July 19 incident had caused deep sorrow and emphasised the importance of maintaining peace and communal harmony.",
+          "He observed that although natural resources such as coal and stone belong to Nagaland, their transportation to Assam has been taking place, and stressed the need for greater understanding and cooperation among communities.",
+          "The participants underscored the longstanding social and cultural links between the people of Assam and Nagaland and called for collective efforts to preserve peace and strengthen cordial relations.",
+          "Following detailed deliberations, the four organisations adopted a set of joint resolutions aimed at promoting cooperation and finding peaceful solutions to outstanding issues.",
+          "As per the resolutions, the organisations will submit a joint memorandum to the governments of Assam and Nagaland, seeking appropriate measures to mitigate the prevailing disaster situation.",
+          "They also resolved to undertake a joint survey of disputed areas along the Assam-Nagaland border and examine other related issues.",
+          "Another important decision was to constitute a joint Peace Committee comprising representatives of the ATASU Central Committee and the Konyak Committee to facilitate dialogue and coordination."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hotel Brahmaputra"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "SIVASAGAR: In a significant initiative aimed at strengthening peace, harmony and mutual understanding between the people of Assam and Nagaland, the All Tai Ahom Students’ Union (ATASU), Konyak Union, Konyak Students’ Union and KNSK held a joint press conference at Hotel Brahmaputra in Sivasagar on Saturday.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          },
+          {
+            "text": "The organisations discussed a range of issues, including the Assam-Nagaland boundary question, the historical ties between the Ahom and Konyak communities, the devastating floods of July 19, and concerns over illegal stone and coal mining and environmental degradation.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          },
+          {
+            "text": "ATASU president Basanta Gogoi addressed the press conference and highlighted the need for greater cooperation and dialogue in the wake of the recent flood disaster in Upper Assam and the prevailing situation in the region.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9410c6ad8618d20e86542e70:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nagaland-groups-forge-joint-peace-push-after-floods-border-strains"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "71dd18e04532b9389b59fb5d",
       "story_id": "71dd18e04532b9389b59fb5d",
       "headline": "DC Sgr lays foundation stone for Addl. Accommodation Block at Zila Sainik Bhawan",
@@ -371,7 +490,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 18.2, score 49.2 -> HIGH"
@@ -483,7 +602,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -686,7 +805,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (9.5h ago) +4",
+        "recency: fresh (9.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -841,7 +960,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1001,7 +1120,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (west bengal)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 44.4, score 44.4 -> HIGH"
@@ -1099,7 +1218,7 @@
       ],
       "confidence": "medium",
       "score": 88.2,
-      "priority_score": 44.4,
+      "priority_score": 40.4,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-08-23T00:23:48+00:00",
@@ -1129,10 +1248,10 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'electricity tariff' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
+        "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "jammu and kashmir",
