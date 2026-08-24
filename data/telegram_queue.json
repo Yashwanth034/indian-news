@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:12:33.234286+00:00",
+  "generated_at": "2026-08-24T11:22:40.289959+00:00",
   "count": 23,
   "stories": [
     {
@@ -45,7 +45,7 @@
         "event term: 'war' in title weight 82",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 32.4, score 82 -> IMMEDIATE"
@@ -143,7 +143,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -233,10 +233,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
-        "dominant event 70, stack 27.8, score 70 -> URGENT"
+        "dominant event 70, stack 23.8, score 70 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -364,7 +364,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'unconstitutional' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -481,7 +481,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -606,7 +606,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: state scope (assam)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -724,7 +724,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -792,6 +792,125 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "2661dfd2079f0ba50b4ee3f1",
+      "story_id": "2661dfd2079f0ba50b4ee3f1",
+      "headline": "Supreme Court bans construction within 100 metres of Jojari River in Rajasthan",
+      "title": "Supreme Court bans construction within 100 metres of Jojari River in Rajasthan",
+      "summary": "This is the latest in a series of orders passed by the Supreme Court to protect the seasonal river, which has faced a barrage of contamination that has affected around two million lives in the water-starved State.",
+      "url": "https://www.thehindu.com/news/national/rajasthan/supreme-court-bans-construction-within-100-metres-of-jojari-river-in-rajasthan/article71383289.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 87.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-24T11:13:22+00:00",
+      "published_at": "2026-08-24T11:13:22+00:00",
+      "effective_at": "2026-08-24T11:13:22+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'contamination' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "rajasthan",
+      "national_significance": true,
+      "article_sentences": [
+        "A Supreme Court Bench of Justices Vikram Nath and Sandeep Mehta has banned any construction or development within 100 metres of Jojari River in Rajasthan,hearing a suo motu case on Monday (August 24, 2026).",
+        "The court also prohibited hazardous industries within 500 metres of the river’s flow path.",
+        "This is the latest in a series of orders passed by the court to protect the seasonal river, which has faced a barrage of contamination that has affected around two million lives in the water-starved State.",
+        "The Supreme Court on August 4, suggested that the Rajasthan government prepare a 20-point resolution plan to deal with the issue of contamination in the Jojari, Bandi and Luni rivers in the State.",
+        "The Jojari river passes through Jodhpur, the Bandi river flows through Pali, and the Luni river runs through Balotra.",
+        "The Bandi and Jojari rivers merge with the Luni river near Balotra city.",
+        "The Supreme Court said that the entire industrial area in Pali is located along the river bank and in the long run, the State authorities may have to consider relocating industries away from the river.",
+        "“Let the State come out with a resolution plan,” it said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A Supreme Court Bench of Justices Vikram Nath and Sandeep Mehta has banned any construction or development within 100 metres of Jojari River in Rajasthan,hearing a suo motu case on Monday (August 24, 2026).",
+          "The court also prohibited hazardous industries within 500 metres of the river’s flow path."
+        ],
+        "body": [
+          "This is the latest in a series of orders passed by the court to protect the seasonal river, which has faced a barrage of contamination that has affected around two million lives in the water-starved State.",
+          "The Supreme Court on August 4, suggested that the Rajasthan government prepare a 20-point resolution plan to deal with the issue of contamination in the Jojari, Bandi and Luni rivers in the State.",
+          "The Jojari river passes through Jodhpur, the Bandi river flows through Pali, and the Luni river runs through Balotra.",
+          "The Bandi and Jojari rivers merge with the Luni river near Balotra city.",
+          "The Supreme Court said that the entire industrial area in Pali is located along the river bank and in the long run, the State authorities may have to consider relocating industries away from the river.",
+          "“Let the State come out with a resolution plan,” it said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rajasthan"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A Supreme Court Bench of Justices Vikram Nath and Sandeep Mehta has banned any construction or development within 100 metres of Jojari River in Rajasthan,hearing a suo motu case on Monday (August 24, 2026).",
+            "source": "The Hindu",
+            "item_id": "2661dfd2079f0ba50b4ee3f1:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court said that the entire industrial area in Pali is located along the river bank and in the long run, the State authorities may have to consider relocating industries away from the river.",
+            "source": "The Hindu",
+            "item_id": "2661dfd2079f0ba50b4ee3f1:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on August 4, suggested that the Rajasthan government prepare a 20-point resolution plan to deal with the issue of contamination in the Jojari, Bandi and Luni rivers in the State.",
+            "source": "The Hindu",
+            "item_id": "2661dfd2079f0ba50b4ee3f1:article",
+            "composed": false
+          },
+          {
+            "text": "The Bandi and Jojari rivers merge with the Luni river near Balotra city.",
+            "source": "The Hindu",
+            "item_id": "2661dfd2079f0ba50b4ee3f1:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/rajasthan/supreme-court-bans-construction-within-100-metres-of-jojari-river-in-rajasthan/article71383289.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "fd7e60205fca126a4087841a",
       "story_id": "fd7e60205fca126a4087841a",
       "headline": "India vs Argentina Hockey World Cup live streaming info: Where to watch online and on TV",
@@ -834,7 +953,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -942,7 +1061,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 43.2, stack 45, score 45 -> HIGH"
@@ -1068,7 +1187,7 @@
         "event term: 'tariffs' in summary weight 24",
         "event term: 'electricity tariff' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 44.4, score 44.4 -> HIGH"
@@ -1178,7 +1297,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1296,7 +1415,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1395,7 +1514,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1510,7 +1629,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1633,7 +1752,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1707,123 +1826,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "ce6e342196aedb76236eecc5",
-      "story_id": "ce6e342196aedb76236eecc5",
-      "headline": "Supreme Court Agrees To Hear Journalist Abhishek Upadhyay's Plea Against UP Police FIR Tomorrow",
-      "title": "Supreme Court Agrees To Hear Journalist Abhishek Upadhyay's Plea Against UP Police FIR Tomorrow",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-journalist-abhishek-upadhyays-plea-against-up-police-fir-tomorrow-547071",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-24T06:13:48+00:00",
-      "published_at": "2026-08-24T06:13:48+00:00",
-      "effective_at": "2026-08-24T06:13:48+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court agreed to hear tomorrow the writ petition filed by Journalist Abhishek Upadhyay, who was among the first to report allegations of theft and irregularities in donations at the Ram Temple in Ayodhya, challenging an FIR registered against him in Ghaziabad over an alleged road-rage incident.",
-        "Chief Justice of India Surya Kant agreed to list the matter tomorrow after the journalist's lawyer mentioned the matter for urgent listing.",
-        "\"This relates to the journalist who broke the news about Ram Mandir donation theft...multiple FIRs have been filed against him.",
-        "Now there's an FIR under stringent provisions of SC/ST Act also...",
-        "Police party has raided his house.",
-        "It may be listed today or tomorrow,\" the counsel mentioned.",
-        "Upadhyay has alleged that the FIR is based on false and concocted allegations and is an attempt to harass him for his independent investigative journalism.",
-        "He has sought the quashing of the FIR and protection from arrest and other coercive action.",
-        "The FIR was registered at Indirapuram police station on August 18.",
-        "According to the complaint, a motorcycle ridden by one person was allegedly hit by a Baleno car near Shipra Mall.",
-        "The complainant alleged that the driver abused and threatened him after the incident and named Upadhyay in connection with the car.",
-        "Upadhyay has denied the allegations."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court agreed to hear tomorrow the writ petition filed by Journalist Abhishek Upadhyay, who was among the first to report allegations of theft and irregularities in donations at the Ram Temple in Ayodhya, challenging an FIR registered against him in Ghaziabad over an alleged road-rage incident.",
-          "Chief Justice of India Surya Kant agreed to list the matter tomorrow after the journalist's lawyer mentioned the matter for urgent listing."
-        ],
-        "body": [
-          "\"This relates to the journalist who broke the news about Ram Mandir donation theft...multiple FIRs have been filed against him.",
-          "Now there's an FIR under stringent provisions of SC/ST Act also...",
-          "Police party has raided his house.",
-          "It may be listed today or tomorrow,\" the counsel mentioned.",
-          "Upadhyay has alleged that the FIR is based on false and concocted allegations and is an attempt to harass him for his independent investigative journalism.",
-          "He has sought the quashing of the FIR and protection from arrest and other coercive action.",
-          "The FIR was registered at Indirapuram police station on August 18.",
-          "According to the complaint, a motorcycle ridden by one person was allegedly hit by a Baleno car near Shipra Mall."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Ayodhya"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Supreme Court agreed to hear tomorrow the writ petition filed by Journalist Abhishek Upadhyay, who was among the first to report allegations of theft and irregularities in donations at the Ram Temple in Ayodhya, challenging an FIR registered against him in Ghaziabad over an alleged road-rage incident.",
-            "source": "LiveLaw",
-            "item_id": "ce6e342196aedb76236eecc5:article",
-            "composed": false
-          },
-          {
-            "text": "The FIR was registered at Indirapuram police station on August 18.",
-            "source": "LiveLaw",
-            "item_id": "ce6e342196aedb76236eecc5:article",
-            "composed": false
-          },
-          {
-            "text": "It may be listed today or tomorrow,\" the counsel mentioned.",
-            "source": "LiveLaw",
-            "item_id": "ce6e342196aedb76236eecc5:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-journalist-abhishek-upadhyays-plea-against-up-police-fir-tomorrow-547071"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "d720f261c9fb2cededb290aa",
       "story_id": "d720f261c9fb2cededb290aa",
       "headline": "Supreme Court To Hear Plea Against Demolition Of Lucknow Lawyers' Chambers",
@@ -1865,7 +1867,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1982,7 +1984,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2104,7 +2106,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 43.2, score 43.2 -> HIGH"
@@ -2190,7 +2192,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -2314,7 +2316,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 8.4, stack 40.8, score 40.8 -> HIGH"
@@ -2439,7 +2441,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 40, stack 32.8, score 40 -> HIGH"
@@ -2544,7 +2546,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 0, stack 38.4, score 38.4 -> HIGH"
