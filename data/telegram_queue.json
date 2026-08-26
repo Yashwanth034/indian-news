@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:22:14.294122+00:00",
+  "generated_at": "2026-08-26T13:32:34.367536+00:00",
   "count": 14,
   "stories": [
     {
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -137,7 +137,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 82, stack 21.2, score 82 -> IMMEDIATE"
@@ -261,7 +261,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -401,7 +401,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -492,6 +492,142 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "e16d1a35f920341a64ac7035",
+      "story_id": "e16d1a35f920341a64ac7035",
+      "headline": "Nearly 400 people, including 105 Indians, missing after Nepal floods near Tibet border",
+      "title": "Nearly 400 people, including 105 Indians, missing after Nepal floods near Tibet border",
+      "summary": "Kathmandu, Aug 26: At least 105 Indians are among the nearly 400 persons missing after the devastating flash floods in Nepal's Rasuwa district bordering Tibet on Wednesday. A sudden, massive flood swept through two central Nepal districts bordering Tibet killing four people, causing extensive devastation at settlements along the river and damaging at least a dozen hydropower projects early Wednesday. The flood surged through the Bhote Koshi River at around 9 am (local time) coming from the Tibet side affecting Rasuwa and Dhading districts bordering Tibet and Nuwakot district, southwest of Kathmandu, officials said. According to a statement by Nepal Tourism Board (NTB), a total of 384 travellers, 291 foreigners and 93 Nepalese nationals, have gone missing due to the Rasuwa floods. These travellers include 105 Indian tourists, 37 NRIs and remaining tourists from USA, Malaysia, UK, South Africa, Australia and Netherlands. The Nepal Tourism Board also issued a toll free emergency number 1234 or hotline 1144 or tourist police 9851289445 for help.",
+      "url": "https://www.greaterkashmir.com/world/nearly-400-people-including-105-indians-missing-after-nepal-floods-near-tibet-border-12436726",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security",
+        "crime-public-safety"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-26T10:28:12+00:00",
+      "published_at": "2026-08-26T10:28:12+00:00",
+      "effective_at": "2026-08-26T10:28:12+00:00",
+      "independent_source_groups": 3,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 3 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (3.1h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Kathmandu, Aug 26: At least 105 Indians are among the nearly 400 persons missing after the devastating flash floods in Nepal's Rasuwa district bordering Tibet on Wednesday.",
+          "A sudden, massive flood swept through two central Nepal districts bordering Tibet killing four people, causing extensive devastation at settlements along the river and damaging at least a dozen hydropower projects early Wednesday."
+        ],
+        "body": [
+          "According to a statement by Nepal Tourism Board (NTB), a total of 384 travellers, 291 foreigners and 93 Nepalese nationals, have gone missing due to the Rasuwa floods.",
+          "These travellers include 105 Indian tourists, 37 NRIs and remaining tourists from USA, Malaysia, UK, South Africa, Australia and Netherlands.",
+          "The Nepal Tourism Board also issued a toll free emergency number 1234 or hotline 1144 or tourist police 9851289445 for help.",
+          "Vulnerable districts along the Ghaghara/Karnali and Mahakali river systems in Uttar Pradesh and Uttarakhand are also being monitored by the paramilitary force.",
+          "The German Research Centre for Geosciences (GFZ) reported that a 4.4-magnitude earthquake hit around seven minutes near the Nepal-Tibet border before the timestamp visible on the security footage.",
+          "The flooding was not caused by local rains in Rasuwa but possibly because of the heavy rainfall or avalanche on the Tibetan side, they said, but the exact cause is yet to be ascertained.",
+          "Multiple downstream districts, including Rasuwa, Nuwakot, Dhading and Chitawan, have been placed on high alert even as officials started search and rescue operations with the help of Nepal Army in the affected areas.",
+          "The sudden rise in water caused widespread destruction in Timure in Rasuwa district and the nearby Syafrubesi area, with vehicles, goods and."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal's Rasuwa district"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The flood surged through the Bhote Koshi River at around 9 am (local time) coming from the Tibet side affecting Rasuwa and Dhading districts bordering Tibet and Nuwakot district, southwest of Kathmandu, officials said."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kathmandu, Aug 26: At least 105 Indians are among the nearly 400 persons missing after the devastating flash floods in Nepal's Rasuwa district bordering Tibet on Wednesday.",
+            "source": "Greater Kashmir",
+            "item_id": "e16d1a35f920341a64ac7035",
+            "composed": false
+          },
+          {
+            "text": "These travellers include 105 Indian tourists, 37 NRIs and remaining tourists from USA, Malaysia, UK, South Africa, Australia and Netherlands.",
+            "source": "Greater Kashmir",
+            "item_id": "e16d1a35f920341a64ac7035",
+            "composed": false
+          },
+          {
+            "text": "According to a statement by Nepal Tourism Board (NTB), a total of 384 travellers, 291 foreigners and 93 Nepalese nationals, have gone missing due to the Rasuwa floods.",
+            "source": "Greater Kashmir",
+            "item_id": "e16d1a35f920341a64ac7035",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [
+          "Deccan Chronicle",
+          "The Hans India",
+          "Business Standard"
+        ],
+        "url": "https://www.greaterkashmir.com/world/nearly-400-people-including-105-indians-missing-after-nepal-floods-near-tibet-border-12436726"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "ba4e7c3e5459cdd0c7427a6a",
       "story_id": "ba4e7c3e5459cdd0c7427a6a",
       "headline": "Indian C-130 Jet Ready To Leave For Nepal Flood Relief Ops, IAF Offers Help",
@@ -537,7 +673,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -624,33 +760,37 @@
       "enrichment": "article"
     },
     {
-      "event_id": "ae0ffa4051bb21c52a84b3a2",
-      "story_id": "ae0ffa4051bb21c52a84b3a2",
-      "headline": "17 killed, nearly 500 missing as flash flood sweeps through Nepal districts",
-      "title": "17 killed, nearly 500 missing as flash flood sweeps through Nepal districts",
-      "summary": "A sudden, massive flood swept through two central Nepal districts bordering Tibet killing four people, causing extensive devastation at settlements along the river and damaging at least a dozen hydropower projects early Wednesday. The flood surged through the Bhote Koshi River at around 9 am (local time) coming from the Tibet side affecting Rasuwa and Dhading districts bordering Tibet and Nuwakot district, southwest of Kathmandu, officials said. The flooding was not caused by local rains in Rasuwa but possibly because of the heavy rainfall or avalanche on the Tibetan side, they said, but the exact cause is yet to be ascertained. Multiple downstream districts, including Rasuwa, Nuwakot, Dhading and Chitawan, have been placed on high alert even as officials started search and rescue operations with the help of Nepal Army in the affected areas. The sudden rise in water caused widespread destruction in Timure in Rasuwa district and the nearby Syafrubesi area, with vehicles, goods and .",
-      "url": "https://www.business-standard.com/world-news/4-killed-after-flash-flood-sweeps-through-nepal-districts-near-tibet-border-126082600633_1.html",
-      "source": "Business Standard",
+      "event_id": "2de228513badb950862728a2",
+      "story_id": "2de228513badb950862728a2",
+      "headline": "Advanced healthcare must reach smaller districts: LG Sinha",
+      "title": "Advanced healthcare must reach smaller districts: LG Sinha",
+      "summary": "Srinagar, Aug 26: Lieutenant Governor Manoj Sinha on Wednesday called for making advanced healthcare accessible beyond major cities and specialised institutions, saying the country must bridge the gap between what modern medicine can provide and what is actually available to people in smaller districts and remote areas. Addressing the inaugural ceremony of the National Summit on Quaternary Healthcare: A National Strategy for Advanced Care at SKICC Srinagar, Sinha said the challenge of providing advanced healthcare is not confined to Jammu and Kashmir but was being faced across the country. Recalling his visit to a health centre near Akhnoor during the administration’s ‘Back to Village’ programme amid the COVID-19 pandemic, Sinha said a conversation with doctors there made him realise the difficulties faced by patients requiring diagnosis and treatment for complex diseases. He said one of the doctors had told him that families often brought sick children to the health centre hoping for proper diagnosis and treatment, but the absence of equipment for diagnosing complex diseases left doctors helpless. Sinha said the lack of specialised facilities often forced families from remote areas to undertake long journeys to Jammu, Chandigarh or Delhi in search of treatment. “I feel that the patience of the mother and the patience of the father is not just in Jammu and Kashmir,” he said, stressing that the issue was much wider and required a national approach. The Lieutenant Governor said India had made significant progress in healthcare over the past 10–12 years, including expansion of health insurance coverage, vaccination programmes, medical education and healthcare infrastructure. He said the country had also witnessed a substantial expansion of medical infrastructure, with new AIIMS, medical colleges and MBBS seats being created across the country, including in Jammu and Kashmir. Sinha, however, said a significant gap continued to exist between the capabilities of modern medicine and their actual availability to people. “There is a gap and there is a distance. Earlier, perhaps, we did not think in this manner because our resources were limited. But I feel now, as the doctors were saying, the country is thinking on a much larger scale,” he said. He said the healthcare sector must now be viewed in the larger context of the vision of a Viksit Bharat, with greater emphasis on advanced care, research and specialised treatment. Referring to institutions such as AIIMS Delhi, PGI Chandigarh and SKIMS Srinagar, Sinha said these institutions represented the country’s specialised healthcare capabilities, but stressed that a comprehensive healthcare ecosystem still required sustained efforts. “This programme is important because you have deep knowledge of this subject,” he told healthcare experts, researchers, scientists and administrators attending the summit. Sinha emphasised that hospitals should not merely function as treatment centres but should also become centres of research and innovation. “We should not only make hospitals. We should also make them centres of research initiatives,” he said, adding that clinical treatment and research should go hand in hand. He stressed that advanced healthcare centres should have access to every facility made possible by modern science. “Every possibility that science allows should be available in the quaternary care centre,” he said. On healthcare infrastructure and funding, Sinha said the government was making provisions through annual budgets to strengthen and modernise the sector. He said the country’s growing economy was creating greater opportunities for healthcare and expressed satisfaction that doctors and specialists were increasingly becoming available across different levels of care. The Lieutenant Governor said institutions such as NITI Aayog could play an important role in developing strategies to strengthen advanced healthcare and integrate it with existing systems. He also called for greater use of telemedicine to connect healthcare facilities across the Union Territory and ensure access to specialised expertise in remote areas. “Advanced care without advanced doctors is not possible,” Sinha said. Calling for greater cooperation among Himalayan states, he said they could jointly plan biomedical research and identify selected areas for coordinated research to address region-specific healthcare challenges. The summit brought together healthcare researchers, scientists, medical professionals, administrators and representatives of various institutions to deliberate on advanced and quaternary healthcare, clinical care, research and strengthening the overall healthcare ecosystem. Sinha said the ultimate objective should be to ensure that advances in medical science translate into accessible and affordable treatment for ordinary citizens, particularly those living away from major urban healthcare centres.—(KNO)",
+      "url": "https://www.greaterkashmir.com/jammu-kashmir/advanced-healthcare-must-reach-smaller-districts-lg-sinha-12436322",
+      "source": "Greater Kashmir",
       "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
+      "tier": 2,
+      "category": "health",
       "secondary_categories": [
-        "defence-security"
+        "education",
+        "transport-infrastructure",
+        "government-policy",
+        "science-space",
+        "economy-finance"
       ],
       "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
+      "score": 100.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-26T10:23:47+00:00",
-      "published_at": "2026-08-26T10:23:47+00:00",
-      "effective_at": "2026-08-26T10:23:47+00:00",
+      "event_time": "2026-08-26T09:19:37+00:00",
+      "published_at": "2026-08-26T09:19:37+00:00",
+      "effective_at": "2026-08-26T09:19:37+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
+        "greater-kashmir": {
+          "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -659,25 +799,19 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'avalanche'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'pandemic'",
+        "category: health (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "event term: 'avalanche' in summary weight 26.4",
+        "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
+        "scale: multi-state (3 states)",
+        "recency: fresh (4.2h ago) +4",
+        "category: health (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "dominant event 49.2, stack 28.4, score 49.2 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -685,43 +819,75 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "A sudden, massive flood swept through two central Nepal districts bordering Tibet killing four people, causing extensive devastation at settlements along the river and damaging at least a dozen hydropower projects early Wednesday.",
-          "The flood surged through the Bhote Koshi River at around 9 am (local time) coming from the Tibet side affecting Rasuwa and Dhading districts bordering Tibet and Nuwakot district, southwest of Kathmandu, officials said."
+          "Srinagar, Aug 26: Lieutenant Governor Manoj Sinha on Wednesday called for making advanced healthcare accessible beyond major cities and specialised institutions, saying the country must bridge the gap between what modern medicine can provide and what is actually available to people in smaller districts and remote areas.",
+          "Addressing the inaugural ceremony of the National Summit on Quaternary Healthcare: A National Strategy for Advanced Care at SKICC Srinagar, Sinha said the challenge of providing advanced healthcare is not confined to Jammu and Kashmir but was being faced across the country."
         ],
         "body": [
-          "The flooding was not caused by local rains in Rasuwa but possibly because of the heavy rainfall or avalanche on the Tibetan side, they said, but the exact cause is yet to be ascertained.",
-          "Multiple downstream districts, including Rasuwa, Nuwakot, Dhading and Chitawan, have been placed on high alert even as officials started search and rescue operations with the help of Nepal Army in the affected areas.",
-          "The sudden rise in water caused widespread destruction in Timure in Rasuwa district and the nearby Syafrubesi area, with vehicles, goods and.",
-          "Uttar Pradesh Chief Minister Yogi Adityanath directed the local administrations in Maharajganj and Kushinagar to ensure all necessary preparedness to deal with any emergency."
+          "Recalling his visit to a health centre near Akhnoor during the administration’s ‘Back to Village’ programme amid the COVID-19 pandemic, Sinha said a conversation with doctors there made him realise the difficulties faced by patients requiring diagnosis and treatment for complex diseases.",
+          "He said one of the doctors had told him that families often brought sick children to the health centre hoping for proper diagnosis and treatment, but the absence of equipment for diagnosing complex diseases left doctors helpless.",
+          "Sinha said the lack of specialised facilities often forced families from remote areas to undertake long journeys to Jammu, Chandigarh or Delhi in search of treatment.",
+          "“I feel that the patience of the mother and the patience of the father is not just in Jammu and Kashmir,” he said, stressing that the issue was much wider and required a national approach.",
+          "The Lieutenant Governor said India had made significant progress in healthcare over the past 10–12 years, including expansion of health insurance coverage, vaccination programmes, medical education and healthcare infrastructure.",
+          "He said the country had also witnessed a substantial expansion of medical infrastructure, with new AIIMS, medical colleges and MBBS seats being created across the country, including in Jammu and Kashmir.",
+          "Sinha, however, said a significant gap continued to exist between the capabilities of modern medicine and their actual availability to people.",
+          "“There is a gap and there is a distance.",
+          "Earlier, perhaps, we did not think in this manner because our resources were limited.",
+          "But I feel now, as the doctors were saying, the country is thinking on a much larger scale,” he said.",
+          "He said the healthcare sector must now be viewed in the larger context of the vision of a Viksit Bharat, with greater emphasis on advanced care, research and specialised treatment.",
+          "Referring to institutions such as AIIMS Delhi, PGI Chandigarh and SKIMS Srinagar, Sinha said these institutions represented the country’s specialised healthcare capabilities, but stressed that a comprehensive healthcare ecosystem still required sustained efforts.",
+          "“This programme is important because you have deep knowledge of this subject,” he told healthcare experts, researchers, scientists and administrators attending the summit.",
+          "Sinha emphasised that hospitals should not merely function as treatment centres but should also become centres of research and innovation.",
+          "“We should not only make hospitals.",
+          "We should also make them centres of research initiatives,” he said, adding that clinical treatment and research should go hand in hand.",
+          "He stressed that advanced healthcare centres should have access to every facility made possible by modern science.",
+          "“Every possibility that science allows should be available in the quaternary care centre,” he said.",
+          "On healthcare infrastructure and funding, Sinha said the government was making provisions through annual budgets to strengthen and modernise the sector.",
+          "He said the country’s growing economy was creating greater opportunities for healthcare and expressed satisfaction that doctors and specialists were increasingly becoming available across different levels of care.",
+          "The Lieutenant Governor said institutions such as NITI Aayog could play an important role in developing strategies to strengthen advanced healthcare and integrate it with existing systems.",
+          "He also called for greater use of telemedicine to connect healthcare facilities across the Union Territory and ensure access to specialised expertise in remote areas.",
+          "“Advanced care without advanced doctors is not possible,” Sinha said.",
+          "Calling for greater cooperation among Himalayan states, he said they could jointly plan biomedical research and identify selected areas for coordinated research to address region-specific healthcare challenges.",
+          "The summit brought together healthcare researchers, scientists, medical professionals, administrators and representatives of various institutions to deliberate on advanced and quaternary healthcare, clinical care, research and strengthening the overall healthcare ecosystem.",
+          "Sinha said the ultimate objective should be to ensure that advances in medical science translate into accessible and affordable treatment for ordinary citizens, particularly those living away from major urban healthcare centres.—(KNO)."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Rasuwa"
+            "text": "SKICC Srinagar"
           }
         ],
         "sentences": [
           {
-            "text": "A sudden, massive flood swept through two central Nepal districts bordering Tibet killing four people, causing extensive devastation at settlements along the river and damaging at least a dozen hydropower projects early Wednesday.",
-            "source": "Business Standard",
-            "item_id": "ae0ffa4051bb21c52a84b3a2",
+            "text": "The Lieutenant Governor said India had made significant progress in healthcare over the past 10–12 years, including expansion of health insurance coverage, vaccination programmes, medical education and healthcare infrastructure.",
+            "source": "Greater Kashmir",
+            "item_id": "2de228513badb950862728a2",
             "composed": false
           },
           {
-            "text": "The flooding was not caused by local rains in Rasuwa but possibly because of the heavy rainfall or avalanche on the Tibetan side, they said, but the exact cause is yet to be ascertained.",
-            "source": "Business Standard",
-            "item_id": "ae0ffa4051bb21c52a84b3a2",
+            "text": "Srinagar, Aug 26: Lieutenant Governor Manoj Sinha on Wednesday called for making advanced healthcare accessible beyond major cities and specialised institutions, saying the country must bridge the gap between what modern medicine can provide and what is actually available to people in smaller districts and remote areas.",
+            "source": "Greater Kashmir",
+            "item_id": "2de228513badb950862728a2",
+            "composed": false
+          },
+          {
+            "text": "Recalling his visit to a health centre near Akhnoor during the administration’s ‘Back to Village’ programme amid the COVID-19 pandemic, Sinha said a conversation with doctors there made him realise the difficulties faced by patients requiring diagnosis and treatment for complex diseases.",
+            "source": "Greater Kashmir",
+            "item_id": "2de228513badb950862728a2",
+            "composed": false
+          },
+          {
+            "text": "He said the country had also witnessed a substantial expansion of medical infrastructure, with new AIIMS, medical colleges and MBBS seats being created across the country, including in Jammu and Kashmir.",
+            "source": "Greater Kashmir",
+            "item_id": "2de228513badb950862728a2",
             "composed": false
           }
         ],
-        "source": "Business Standard",
-        "corroborating": [
-          "Deccan Chronicle"
-        ],
-        "url": "https://www.business-standard.com/world-news/4-killed-after-flash-flood-sweeps-through-nepal-districts-near-tibet-border-126082600633_1.html"
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/jammu-kashmir/advanced-healthcare-must-reach-smaller-districts-lg-sinha-12436322"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -771,7 +937,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -886,7 +1052,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -990,7 +1156,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1070,132 +1236,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f3f98650ba1b640603e91ad6",
-      "story_id": "f3f98650ba1b640603e91ad6",
-      "headline": "Sensex falls 183 points, Nifty closes below 24,250 as market erases all morning gains. What lies ahead?",
-      "title": "Sensex falls 183 points, Nifty closes below 24,250 as market erases all morning gains. What lies ahead?",
-      "summary": "The Indian stock market erased all morning gains, with Sensex and Nifty closing in the deep red even as oil prices slipped.Sensex lost 183 points to close at around 77,473 while Nifty 50 dropped 127 points or more than half a percent to end the session below 24,208. Broader markets ended mixed, with Nifty Smallcap 100 rising 0.8% while Nifty Midcap slipped into the red.Infosys, Bharti Airtel and L&T shares dropped around 2% each to lead losses on Sensex, while Power Grid, Tech Mahindra, NTPC, M&M and Reliance Industries shares fell over 1% each. Meanwhile, Kotak Mahindra Bank shares soared over 3.5%, while UltraTech Cement, Axis Bank and Tata Steel shares jumped 1-2%.Among the sectors, Nifty Realty and Nifty Consumer Durables dropped around 1% each, while Nifty Metal and Nifty Private Bank soared more than 1% each. The overall market breadth favoured the bulls, with NSE seeing 1,967 advances against 1,548 declines, while 130 stocks remained unchanged.What lies ahead for Dalal Street?The domestic market ended lower, giving up early gains as sectoral divergence weighed on benchmarks through the session, said Vinod Nair, Head of Research at Geojit Investments. He noted that inflation concerns receded on tempered US sanctions on Iran, easing domestic bond yields and lifting banking stocks, while metals gained on better realization prospects.However, these gains were largely offset by weakness in IT stocks after the US paused visa appointments amid an immigration crackdown which rekindled margin pressure concerns, according to the analyst. “Investors now await the US Core PCE print for greater clarity on the rate trajectory. A contained core reading would indicate that the recent energy-led inflation spike is transitory, easing rate concerns and supporting flows into emerging markets,” he further said.Technical view on NiftyNifty formed a dark cloud cover pattern on the daily timeframe, raising the possibility of a bearish move in the coming days, said Rupak De, Senior Technical Analyst at LKP Securities. He however noted that the broader trend remains positive as the index continues to trade within a rising channel. Today, the index found support just above the 50 EMA.“Overall, range-bound trading continues, with sellers emerging at higher levels. The RSI has once again entered a bearish crossover. A fall below 24,130 could trigger a serious correction, potentially dragging Nifty towards 23,900 and 23,700. On the higher end, a rock-solid resistance is placed at 24,350. Only a sustained move above 24,350 could change the current perception; until then, choppiness is likely to prevail,” according to the analyst.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own. These do not represent the views of The Economic Times)",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-183-points-nifty-closes-below-24250-as-market-erases-all-morning-gains-what-lies-ahead/articleshow/133537326.cms",
-      "source": "The Economic Times",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "business-industry",
-        "energy-environment",
-        "international-affairs"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-26T10:11:49+00:00",
-      "published_at": "2026-08-26T10:11:49+00:00",
-      "effective_at": "2026-08-26T10:11:49+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in summary weight 24",
-        "event term: 'inflation' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 24, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Indian stock market erased all morning gains, with Sensex and Nifty closing in the deep red even as oil prices slipped.",
-          "Sensex lost 183 points to close at around 77,473 while Nifty 50 dropped 127 points or more than half a percent to end the session below 24,208."
-        ],
-        "body": [
-          "Broader markets ended mixed, with Nifty Smallcap 100 rising 0.8% while Nifty Midcap slipped into the red.",
-          "Infosys, Bharti Airtel and L&T shares dropped around 2% each to lead losses on Sensex, while Power Grid, Tech Mahindra, NTPC, M&M and Reliance Industries shares fell over 1% each.",
-          "Among the sectors, Nifty Realty and Nifty Consumer Durables dropped around 1% each, while Nifty Metal and Nifty Private Bank soared more than 1% each.",
-          "The overall market breadth favoured the bulls, with NSE seeing 1,967 advances against 1,548 declines, while 130 stocks remained unchanged.",
-          "What lies ahead for Dalal Street?",
-          "The domestic market ended lower, giving up early gains as sectoral divergence weighed on benchmarks through the session, said Vinod Nair, Head of Research at Geojit Investments.",
-          "He noted that inflation concerns receded on tempered US sanctions on Iran, easing domestic bond yields and lifting banking stocks, while metals gained on better realization prospects.",
-          "However, these gains were largely offset by weakness in IT stocks after the US paused visa appointments amid an immigration crackdown which rekindled margin pressure concerns, according to the analyst.",
-          "“Investors now await the US Core PCE print for greater clarity on the rate trajectory.",
-          "A contained core reading would indicate that the recent energy-led inflation spike is transitory, easing rate concerns and supporting flows into emerging markets,” he further said.",
-          "Technical view on NiftyNifty formed a dark cloud cover pattern on the daily timeframe, raising the possibility of a bearish move in the coming days, said Rupak De, Senior Technical Analyst at LKP Securities.",
-          "Today, the index found support just above the 50 EMA.",
-          "“Overall, range-bound trading continues, with sellers emerging at higher levels.",
-          "The RSI has once again entered a bearish crossover.",
-          "A fall below 24,130 could trigger a serious correction, potentially dragging Nifty towards 23,900 and 23,700.",
-          "On the higher end, a rock-solid resistance is placed at 24,350.",
-          "Only a sustained move above 24,350 could change the current perception; until then, choppiness is likely to prevail,” according to the analyst.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own.",
-          "These do not represent the views of The Economic Times)."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Geojit Investments"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "He however noted that the broader trend remains positive as the index continues to trade within a rising channel."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Today, the index found support just above the 50 EMA.",
-            "source": "The Economic Times",
-            "item_id": "f3f98650ba1b640603e91ad6",
-            "composed": false
-          },
-          {
-            "text": "Broader markets ended mixed, with Nifty Smallcap 100 rising 0.8% while Nifty Midcap slipped into the red.",
-            "source": "The Economic Times",
-            "item_id": "f3f98650ba1b640603e91ad6",
-            "composed": false
-          },
-          {
-            "text": "Infosys, Bharti Airtel and L&T shares dropped around 2% each to lead losses on Sensex, while Power Grid, Tech Mahindra, NTPC, M&M and Reliance Industries shares fell over 1% each.",
-            "source": "The Economic Times",
-            "item_id": "f3f98650ba1b640603e91ad6",
-            "composed": false
-          }
-        ],
-        "source": "The Economic Times",
-        "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-183-points-nifty-closes-below-24250-as-market-erases-all-morning-gains-what-lies-ahead/articleshow/133537326.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "a776ee715ac68f463035dd01",
       "story_id": "a776ee715ac68f463035dd01",
       "headline": "Why India’s rice exports to Iran may survive Trump's sanctions threat",
@@ -1239,7 +1279,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1325,7 +1365,7 @@
         "event term: 'defence procurement' in title weight 44",
         "event term: 'defence procurement' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1405,7 +1445,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1522,7 +1562,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
