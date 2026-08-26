@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T09:32:32.173359+00:00",
-  "count": 13,
+  "generated_at": "2026-08-26T09:42:37.098979+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "81d10f8eb5da486bdecfb17c",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 34, score 64 -> URGENT"
@@ -166,7 +166,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -222,6 +222,135 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "217c94f4bae9f1f6e93f2f36",
+      "story_id": "217c94f4bae9f1f6e93f2f36",
+      "headline": "Flood Fury Continues in Assam, Death Toll Rises to 107",
+      "title": "Flood Fury Continues in Assam, Death Toll Rises to 107",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/breakingnews/flood-fury-continues-in-assam-death-toll-rises-to-107",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-26T05:11:44+00:00",
+      "published_at": "2026-08-26T05:11:44+00:00",
+      "effective_at": "2026-08-26T05:11:44.832000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: fresh (4.5h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 19, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "Guwahati: Assam continues to face a challenging flood situation, with water levels remaining high in several parts of the state and over 1.37 lakh people affected across 10 districts.",
+        "According to the latest data from the Assam State Disaster Management Authority, flooding has affected 28 revenue circles and 456 villages, while the state's flood-related death toll has climbed to 107.",
+        "The affected districts are Golaghat, Sivasagar, Hojai, Darrang, Lakhimpur, Jorhat, Karbi Anglong, Charaideo, Nagaon and Biswanath.",
+        "Floodwaters have also submerged around 11,933 hectares of agricultural land, raising concerns over crop losses.",
+        "Golaghat has reported the highest number of affected people at 68,239, followed by Sivasagar with 39,495 and Jorhat with 16,259.",
+        "The continuing floods have forced thousands of residents to take shelter in relief camps.",
+        "Authorities have set up 52 relief camps and 73 distribution centres, taking the total number of relief facilities to 125.",
+        "Nearly 8,000 people are currently staying in relief camps, including women and children.",
+        "Sivasagar remains among the worst-hit districts, with 2,277 hectares of farmland inundated.",
+        "The district has 19 relief camps accommodating 4,649 people.",
+        "In Golaghat, more than 2,006 hectares of cropland have been submerged.",
+        "The district has 82 relief camps and distribution centres, with 1,876 people taking shelter in relief camps."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Guwahati: Assam continues to face a challenging flood situation, with water levels remaining high in several parts of the state and over 1.37 lakh people affected across 10 districts.",
+          "According to the latest data from the Assam State Disaster Management Authority, flooding has affected 28 revenue circles and 456 villages, while the state's flood-related death toll has climbed to 107."
+        ],
+        "body": [
+          "The affected districts are Golaghat, Sivasagar, Hojai, Darrang, Lakhimpur, Jorhat, Karbi Anglong, Charaideo, Nagaon and Biswanath.",
+          "Floodwaters have also submerged around 11,933 hectares of agricultural land, raising concerns over crop losses.",
+          "Golaghat has reported the highest number of affected people at 68,239, followed by Sivasagar with 39,495 and Jorhat with 16,259.",
+          "The continuing floods have forced thousands of residents to take shelter in relief camps.",
+          "Authorities have set up 52 relief camps and 73 distribution centres, taking the total number of relief facilities to 125.",
+          "Nearly 8,000 people are currently staying in relief camps, including women and children.",
+          "Sivasagar remains among the worst-hit districts, with 2,277 hectares of farmland inundated.",
+          "Sudden Bhote Koshi River flood sweeps through Rasuwa, damaging homes, vehicles and power infrastructure."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "Nearly 8,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Golaghat has reported the highest number of affected people at 68,239, followed by Sivasagar with 39,495 and Jorhat with 16,259.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "217c94f4bae9f1f6e93f2f36:article",
+            "composed": false
+          },
+          {
+            "text": "Guwahati: Assam continues to face a challenging flood situation, with water levels remaining high in several parts of the state and over 1.37 lakh people affected across 10 districts.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "217c94f4bae9f1f6e93f2f36:article",
+            "composed": false
+          },
+          {
+            "text": "According to the latest data from the Assam State Disaster Management Authority, flooding has affected 28 revenue circles and 456 villages, while the state's flood-related death toll has climbed to 107.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "217c94f4bae9f1f6e93f2f36:article",
+            "composed": false
+          },
+          {
+            "text": "Nearly 8,000 people are currently staying in relief camps, including women and children.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "217c94f4bae9f1f6e93f2f36:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.sentinelassam.com/breakingnews/flood-fury-continues-in-assam-death-toll-rises-to-107"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "a1d451941c71975f496bfeed",
       "story_id": "a1d451941c71975f496bfeed",
       "headline": "Assam: Allegations of low-quality mattresses being distributed among flood victims in Sivasagar",
@@ -264,10 +393,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "dominant event 64, stack 19, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -391,7 +520,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (assam)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 39.2, score 64 -> URGENT"
@@ -486,7 +615,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 32.4, score 49.2 -> HIGH"
@@ -494,7 +623,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Aug 26: Lieutenant Governor Manoj Sinha on Wednesday called for making advanced healthcare accessible beyond major cities and specialised institutions, saying the country must bridge the gap between what modern medicine can provide and what is actually available to people in smaller districts and remote areas.",
@@ -566,7 +695,7 @@
         "url": "https://www.greaterkashmir.com/jammu-kashmir/advanced-healthcare-must-reach-smaller-districts-lg-sinha-12436322"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -617,7 +746,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 24.4, score 49.2 -> HIGH"
@@ -739,7 +868,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -815,6 +944,105 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "fa1e34e5374531088e7b54be",
+      "story_id": "fa1e34e5374531088e7b54be",
+      "headline": "India Confident Rice Exports To Iran Will Weather US Sanctions",
+      "title": "India Confident Rice Exports To Iran Will Weather US Sanctions",
+      "summary": "India's rice shipments to Iran hold steady amid US sanctions and wartime trade disruptions.",
+      "url": "https://www.ndtv.com/india-news/india-confident-rice-exports-to-iran-will-weather-us-sanctions-11960331",
+      "source": "NDTV",
+      "primary_source": false,
+      "tier": 2,
+      "category": "agriculture-rural",
+      "secondary_categories": [
+        "business-industry",
+        "weather-disasters",
+        "international-affairs"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-26T07:17:40+00:00",
+      "published_at": "2026-08-26T07:17:40+00:00",
+      "effective_at": "2026-08-26T07:17:40+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ndtv": {
+          "kind": "independent",
+          "source_ids": [
+            "ndtv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: agriculture-rural (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (ndtv) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'sanctions' in title weight 40",
+        "event term: 'sanctions' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (2.4h ago) +8",
+        "category: agriculture-rural (importance 1) +1.2",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India's rice shipments to Iran hold steady amid US sanctions and wartime trade disruptions.",
+          "Indian exports to Iran largely limited to pharmaceuticals and agricultural commodities."
+        ],
+        "body": [
+          "Demand from Iran remains firm for food security reasons, ensuring continued purchases.",
+          "Indian exporters utilize alternative payment channels in countries like Turkey and the UAE.",
+          "Essential goods like rice and pharmaceuticals are unlikely to face disruption.",
+          "Bilateral trade has significantly declined from its previous peak levels.",
+          "Donald Trump's Operation Economic Outcast could hit India through higher oil prices, trade disruptions, payment hurdles and possible US action over New Delhi's purchases of Russian energy."
+        ],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "India's rice exports to Iran are expected to continue despite tougher US sanctions."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Demand from Iran remains firm for food security reasons, ensuring continued purchases.",
+            "source": "Times of India",
+            "item_id": "a776ee715ac68f463035dd01",
+            "composed": false
+          },
+          {
+            "text": "India's rice shipments to Iran hold steady amid US sanctions and wartime trade disruptions.",
+            "source": "NDTV",
+            "item_id": "fa1e34e5374531088e7b54be",
+            "composed": false
+          }
+        ],
+        "source": "NDTV",
+        "corroborating": [
+          "The Hindu BusinessLine",
+          "Times of India",
+          "Business Standard"
+        ],
+        "url": "https://www.ndtv.com/india-news/india-confident-rice-exports-to-iran-will-weather-us-sanctions-11960331"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "9743d981e57373eae35bc8f3",
       "story_id": "9743d981e57373eae35bc8f3",
       "headline": "Defence Procurement: Who Is Really Your Customer?",
@@ -858,7 +1086,7 @@
         "event term: 'defence procurement' in title weight 44",
         "event term: 'defence procurement' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -938,7 +1166,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1053,7 +1281,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1179,7 +1407,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1315,7 +1543,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1337,7 +1565,7 @@
         "He allegedly threatened her with adverse professional ramifications if the indulgence of bail was not extended to the accused,\" the court added.",
         "The CJM said that the present case was qualitatively different from an ordinary case of cheating or impersonation."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "A Delhi Court has convicted Sukesh Chandrashekhar for calling up a judicial officer who was presiding over a corruption case lodged against him, then impersonating a Supreme Court judge and pressurizing the trial judge to grant him bail further threatening the judicial officer with adverse professional ramifications if bail wasn't granted.",
@@ -1373,7 +1601,7 @@
         "url": "https://www.livelaw.in/news-updates/delhi-court-convicts-sukesh-chandrashekhar-impersonating-sc-judge-pressurize-judicial-officer-grant-bail-547476"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1420,7 +1648,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
