@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:32:56.701930+00:00",
+  "generated_at": "2026-08-26T12:42:13.644682+00:00",
   "count": 13,
   "stories": [
     {
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -52,7 +52,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The US Army faces a leadership void with no permanent chief of staff.",
@@ -93,7 +93,7 @@
         "url": "https://timesofindia.indiatimes.com/defence/international/how-hegseths-purge-triggered-a-us-army-leadership-crisis-as-iran-war-nears-six-months/articleshow/133538231.cms"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -137,7 +137,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 82, stack 25.2, score 82 -> IMMEDIATE"
@@ -261,7 +261,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -357,7 +357,7 @@
       "event_time": "2026-08-26T10:28:12+00:00",
       "published_at": "2026-08-26T10:28:12+00:00",
       "effective_at": "2026-08-26T10:28:12+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -372,13 +372,20 @@
             "greater-kashmir"
           ],
           "count": 1
+        },
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -389,13 +396,13 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -464,122 +471,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "e9d54626b3ec86a1bdb57d4c",
-      "story_id": "e9d54626b3ec86a1bdb57d4c",
-      "headline": "'Stand in solidarity': PM Modi speaks to Nepal's Balen Shah, offers flood aid",
-      "title": "'Stand in solidarity': PM Modi speaks to Nepal's Balen Shah, offers flood aid",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/india/nepal-floods-pm-modi-speaks-to-balen-shah-offers-support/articleshow/133539412.cms",
-      "source": "Times of India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "technology-digital",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 85.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-26T11:33:22+00:00",
-      "published_at": "2026-08-26T11:33:22+00:00",
-      "effective_at": "2026-08-26T11:33:22+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "times-of-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'flood'",
-        "category: technology-digital (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
-        "category: technology-digital (importance 1) +1.2",
-        "geo: national",
-        "dominant event 64, stack 25.2, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
-        "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts.",
-        "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.” PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
-        "“India is ready to provide all possible humanitarian assistance to Nepal.",
-        "Our teams are coordinating closely on rescue and relief efforts,” he said.",
-        "The floods swept through northern Nepal on Wednesday morning after the Bhote Koshi River surged, reportedly from the direction of Tibet.",
-        "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
-        "Nepal authorities placed several downstream districts on high alert and urged people living near river banks to take precautions.",
-        "The Nepal Army, Armed.",
-        "Police Force and Nepal Police have been deployed for rescue operations, while army helicopters have been sent to affected areas.",
-        "Details of the overall damage are still being assessed.",
-        "A digital news desk journalist at The Times of India with over two years of experience."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
-          "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts."
-        ],
-        "body": [
-          "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.” PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
-          "“India is ready to provide all possible humanitarian assistance to Nepal.",
-          "Our teams are coordinating closely on rescue and relief efforts,” he said.",
-          "The floods swept through northern Nepal on Wednesday morning after the Bhote Koshi River surged, reportedly from the direction of Tibet.",
-          "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
-          "Nepal authorities placed several downstream districts on high alert and urged people living near river banks to take precautions.",
-          "The Nepal Army, Armed.",
-          "Police Force and Nepal."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts.",
-            "source": "Times of India",
-            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
-            "composed": false
-          },
-          {
-            "text": "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.”",
-            "source": "Times of India",
-            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
-            "composed": false
-          },
-          {
-            "text": "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
-            "source": "Times of India",
-            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
-            "composed": false
-          }
-        ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/india/nepal-floods-pm-modi-speaks-to-balen-shah-offers-support/articleshow/133539412.cms"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "02b25873a1e03a831f87a880",
       "story_id": "02b25873a1e03a831f87a880",
       "headline": "Nepal flash flood: At least 105 Indian tourists among 291 foreign nationals missing",
@@ -591,7 +482,7 @@
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 65.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
@@ -599,12 +490,19 @@
       "event_time": "2026-08-26T10:17:40+00:00",
       "published_at": "2026-08-26T10:17:40+00:00",
       "effective_at": "2026-08-26T10:17:40+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "mathrubhumi": {
           "kind": "independent",
           "source_ids": [
             "mathrubhumi"
+          ],
+          "count": 1
+        },
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
           ],
           "count": 1
         }
@@ -613,19 +511,21 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (mathrubhumi) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 64, stack 30, score 64 -> URGENT"
+        "dominant event 64, stack 36, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -706,6 +606,122 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e9d54626b3ec86a1bdb57d4c",
+      "story_id": "e9d54626b3ec86a1bdb57d4c",
+      "headline": "'Stand in solidarity': PM Modi speaks to Nepal's Balen Shah, offers flood aid",
+      "title": "'Stand in solidarity': PM Modi speaks to Nepal's Balen Shah, offers flood aid",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/india/nepal-floods-pm-modi-speaks-to-balen-shah-offers-support/articleshow/133539412.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "technology-digital",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-26T11:33:22+00:00",
+      "published_at": "2026-08-26T11:33:22+00:00",
+      "effective_at": "2026-08-26T11:33:22+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'flood'",
+        "category: technology-digital (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: technology-digital (importance 1) +1.2",
+        "geo: national",
+        "dominant event 64, stack 25.2, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
+        "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts.",
+        "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.” PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
+        "“India is ready to provide all possible humanitarian assistance to Nepal.",
+        "Our teams are coordinating closely on rescue and relief efforts,” he said.",
+        "The floods swept through northern Nepal on Wednesday morning after the Bhote Koshi River surged, reportedly from the direction of Tibet.",
+        "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
+        "Nepal authorities placed several downstream districts on high alert and urged people living near river banks to take precautions.",
+        "The Nepal Army, Armed.",
+        "Police Force and Nepal Police have been deployed for rescue operations, while army helicopters have been sent to affected areas.",
+        "Details of the overall damage are still being assessed.",
+        "A digital news desk journalist at The Times of India with over two years of experience."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
+          "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts."
+        ],
+        "body": [
+          "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.” PM Modi added that India was prepared to support Nepal as the country dealt with the disaster.",
+          "“India is ready to provide all possible humanitarian assistance to Nepal.",
+          "Our teams are coordinating closely on rescue and relief efforts,” he said.",
+          "The floods swept through northern Nepal on Wednesday morning after the Bhote Koshi River surged, reportedly from the direction of Tibet.",
+          "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
+          "Nepal authorities placed several downstream districts on high alert and urged people living near river banks to take precautions.",
+          "The Nepal Army, Armed.",
+          "Police Force and Nepal."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "NEW DELHI: Prime Minister Narendra Modi on Wednesday expressed condolences over the loss of lives in devastating floods in Nepal and offered India’s assistance for rescue and relief efforts.",
+            "source": "Times of India",
+            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
+            "composed": false
+          },
+          {
+            "text": "“Spoke to Prime Minister Balendra Shah and conveyed condolences on the loss of lives due to the floods in Nepal,” PM Modi wrote on X. “The people of India stand in solidarity with their sisters and brothers in Nepal at this difficult time.”",
+            "source": "Times of India",
+            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
+            "composed": false
+          },
+          {
+            "text": "Timure in Rasuwa district and nearby Syafrubesi suffered extensive damage, with vehicles, goods and other property washed away.",
+            "source": "Times of India",
+            "item_id": "e9d54626b3ec86a1bdb57d4c:article",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/nepal-floods-pm-modi-speaks-to-balen-shah-offers-support/articleshow/133539412.cms"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2de228513badb950862728a2",
       "story_id": "2de228513badb950862728a2",
       "headline": "Advanced healthcare must reach smaller districts: LG Sinha",
@@ -754,7 +770,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 28.4, score 49.2 -> HIGH"
@@ -879,7 +895,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -987,7 +1003,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1110,7 +1126,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1199,7 +1215,7 @@
         "event term: 'defence procurement' in title weight 44",
         "event term: 'defence procurement' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1279,7 +1295,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1396,7 +1412,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
