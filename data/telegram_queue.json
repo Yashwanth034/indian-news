@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T07:22:05.981988+00:00",
+  "generated_at": "2026-08-27T07:32:52.334986+00:00",
   "count": 25,
   "stories": [
     {
@@ -78,7 +78,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -272,7 +272,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (18.7h ago) +4",
+        "recency: fresh (18.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -455,7 +455,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -533,6 +533,94 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "d471d7670b26ef1ecda0810f",
+      "story_id": "d471d7670b26ef1ecda0810f",
+      "headline": "India ready to extend all assistance to flood hit Nepal, says TN BJP leader H. Raja",
+      "title": "India ready to extend all assistance to flood hit Nepal, says TN BJP leader H. Raja",
+      "summary": "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
+      "url": "https://www.thehansindia.com/tamilnadu/india-ready-to-extend-all-assistance-to-flood-hit-nepal-says-tn-bjp-leader-h-raja-1114500",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T07:29:01+00:00",
+      "published_at": "2026-08-27T07:29:01+00:00",
+      "effective_at": "2026-08-27T07:29:01+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
+          "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes."
+        ],
+        "body": [
+          "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
+            "source": "The Hans India",
+            "item_id": "d471d7670b26ef1ecda0810f",
+            "composed": false
+          },
+          {
+            "text": "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes.",
+            "source": "Down To Earth",
+            "item_id": "c41153731fff548e04e70b63",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "Down To Earth"
+        ],
+        "url": "https://www.thehansindia.com/tamilnadu/india-ready-to-extend-all-assistance-to-flood-hit-nepal-says-tn-bjp-leader-h-raja-1114500"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "17fca40a10903591300da9ac",
       "story_id": "17fca40a10903591300da9ac",
       "headline": "Nepal floods: From rescue to relief, India’s armed forces spring to action",
@@ -575,7 +663,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -660,7 +748,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -777,7 +865,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -895,7 +983,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -976,94 +1064,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c41153731fff548e04e70b63",
-      "story_id": "c41153731fff548e04e70b63",
-      "headline": "Nepal‑Tibet floods: When disaster strikes before communities recover from previous climate extremes, crisis escalates",
-      "title": "Nepal‑Tibet floods: When disaster strikes before communities recover from previous climate extremes, crisis escalates",
-      "summary": "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes. Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap.",
-      "url": "https://www.downtoearth.org.in/climate-change/nepaltibet-floods-when-disaster-strikes-before-communities-recover-from-previous-climate-extremes-crisis-escalates",
-      "source": "Down To Earth",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security",
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:50:43+00:00",
-      "published_at": "2026-08-27T04:50:43+00:00",
-      "effective_at": "2026-08-27T04:50:43.111000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "downtoearth": {
-          "kind": "independent",
-          "source_ids": [
-            "downtoearth"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'disaster'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (downtoearth) +1",
-        "source: specialist (downtoearth) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes.",
-          "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes.",
-            "source": "Down To Earth",
-            "item_id": "c41153731fff548e04e70b63",
-            "composed": false
-          },
-          {
-            "text": "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap.",
-            "source": "Down To Earth",
-            "item_id": "c41153731fff548e04e70b63",
-            "composed": false
-          }
-        ],
-        "source": "Down To Earth",
-        "corroborating": [],
-        "url": "https://www.downtoearth.org.in/climate-change/nepaltibet-floods-when-disaster-strikes-before-communities-recover-from-previous-climate-extremes-crisis-escalates"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "db72e2c5fb721fb88fd1b03c",
       "story_id": "db72e2c5fb721fb88fd1b03c",
       "headline": "37 tourists from Kerala’s Payyanur stranded in flood-hit Nepal",
@@ -1106,7 +1106,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (kerala)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -1228,7 +1228,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1333,10 +1333,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
-        "dominant event 64, stack 32.8, score 64 -> URGENT"
+        "dominant event 64, stack 28.8, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -1457,7 +1457,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -1578,7 +1578,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1667,7 +1667,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1783,7 +1783,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1902,7 +1902,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -2011,7 +2011,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (13 states)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -2144,7 +2144,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2251,7 +2251,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -2361,7 +2361,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (goa)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "geo: state",
         "dominant event 44, stack 16, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2460,7 +2460,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2549,7 +2549,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (meghalaya)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 17, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2648,7 +2648,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2769,7 +2769,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2897,7 +2897,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 29.2, score 42 -> HIGH"
