@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T03:22:24.409610+00:00",
-  "count": 13,
+  "generated_at": "2026-08-27T03:32:59.951647+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "a82f8636a5c6b4fffd6c5d95",
@@ -112,7 +112,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (14.7h ago) +4",
+        "recency: fresh (14.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -291,7 +291,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -380,6 +380,115 @@
       "enrichment": "article"
     },
     {
+      "event_id": "4c6b1f86405d7d8914612ed6",
+      "story_id": "4c6b1f86405d7d8914612ed6",
+      "headline": "Over 150 dead, hundreds missing in Nepal-Tibet border flash floods",
+      "title": "Over 150 dead, hundreds missing in Nepal-Tibet border flash floods",
+      "summary": "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday. As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply. Hundreds of tourists are also reported to […] The post Over 150 dead, hundreds missing in Nepal-Tibet border flash floods appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/world/over-150-dead-hundreds-missing-in-nepal-tibet-border-flash-floods",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security",
+        "crime-public-safety"
+      ],
+      "confidence": "high",
+      "score": 60.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T02:24:07+00:00",
+      "published_at": "2026-08-27T02:24:07+00:00",
+      "effective_at": "2026-08-27T02:24:07+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 2
+        },
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday.",
+          "As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply."
+        ],
+        "body": [
+          "Hundreds of tourists are also reported to […] The post Over 150 dead, hundreds missing in Nepal-Tibet border flash floods appeared first on KalingaTV."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal-Tibet"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 150 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday.",
+            "source": "Kalinga TV",
+            "item_id": "4c6b1f86405d7d8914612ed6",
+            "composed": false
+          },
+          {
+            "text": "As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply.",
+            "source": "Kalinga TV",
+            "item_id": "4c6b1f86405d7d8914612ed6",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [],
+        "url": "https://kalingatv.com/world/over-150-dead-hundreds-missing-in-nepal-tibet-border-flash-floods"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "a13e71470b0c14fda1b8519a",
       "story_id": "a13e71470b0c14fda1b8519a",
       "headline": "For centuries, flood-hit corridor was key route of Himalayan trade",
@@ -424,7 +533,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -539,7 +648,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -685,7 +794,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'customs duty' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -800,7 +909,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -907,7 +1016,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1027,7 +1136,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1175,7 +1284,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1299,7 +1408,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1319,7 +1428,7 @@
         "The reference came as a consequence to a judgment delivered by a two-judge bench(Justices BV Nagarathna and Ujjal Bhuyan) in Syed Ifthikar Andrabi, which criticised the judgments in Gulfisha Fatima and Gurwinder Singh (both authored by Justice Aravind Kumar), saying that they took a narrow view regarding bail in UAPA cases.",
         "The bench in Andrabi took the view that Gulfisha Fatima and Gurwinder Singh departed from the KA Najeeb verdict."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court recently issued notice to the Delhi.",
@@ -1373,7 +1482,7 @@
         "url": "https://www.livelaw.in/news-updates/delhi-riots-uapa-case-accused-athar-khan-moves-supreme-court-seeking-bail-on-parity-with-co-accused-given-bail-547526"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1420,7 +1529,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1517,7 +1626,7 @@
       ],
       "confidence": "medium",
       "score": 100.0,
-      "priority_score": 43.2,
+      "priority_score": 39.2,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-08-27T00:23:25+00:00",
@@ -1546,10 +1655,10 @@
         "event term: 'cloudburst' in summary weight 28.8",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
-        "dominant event 28.8, stack 43.2, score 43.2 -> HIGH"
+        "dominant event 28.8, stack 39.2, score 39.2 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "jammu and kashmir",
@@ -1683,7 +1792,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "scale: national scope",
         "scale: multi-state (21 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 0, stack 38.4, score 38.4 -> HIGH"
