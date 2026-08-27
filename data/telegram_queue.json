@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T07:42:48.023704+00:00",
-  "count": 23,
+  "generated_at": "2026-08-27T07:53:00.639900+00:00",
+  "count": 24,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -78,7 +78,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -196,6 +196,13 @@
             "deccan-chronicle"
           ],
           "count": 1
+        },
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -213,13 +220,13 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: event has 3 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -297,33 +304,34 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "d471d7670b26ef1ecda0810f",
-      "story_id": "d471d7670b26ef1ecda0810f",
-      "headline": "India ready to extend all assistance to flood hit Nepal, says TN BJP leader H. Raja",
-      "title": "India ready to extend all assistance to flood hit Nepal, says TN BJP leader H. Raja",
-      "summary": "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
-      "url": "https://www.thehansindia.com/tamilnadu/india-ready-to-extend-all-assistance-to-flood-hit-nepal-says-tn-bjp-leader-h-raja-1114500",
-      "source": "The Hans India",
+      "event_id": "c41153731fff548e04e70b63",
+      "story_id": "c41153731fff548e04e70b63",
+      "headline": "Nepal‑Tibet floods: When disaster strikes before communities recover from previous climate extremes, crisis escalates",
+      "title": "Nepal‑Tibet floods: When disaster strikes before communities recover from previous climate extremes, crisis escalates",
+      "summary": "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes. Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap.",
+      "url": "https://www.downtoearth.org.in/climate-change/nepaltibet-floods-when-disaster-strikes-before-communities-recover-from-previous-climate-extremes-crisis-escalates",
+      "source": "Down To Earth",
       "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
+      "tier": 3,
+      "category": "weather-disasters",
       "secondary_categories": [
-        "weather-disasters"
+        "defence-security",
+        "transport-infrastructure"
       ],
       "confidence": "medium",
-      "score": 100.0,
+      "score": 60.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T07:29:01+00:00",
-      "published_at": "2026-08-27T07:29:01+00:00",
-      "effective_at": "2026-08-27T07:29:01+00:00",
+      "event_time": "2026-08-27T04:50:43+00:00",
+      "published_at": "2026-08-27T04:50:43+00:00",
+      "effective_at": "2026-08-27T04:50:43.111000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "ians": {
-          "kind": "wire",
+        "downtoearth": {
+          "kind": "independent",
           "source_ids": [
-            "hans-india"
+            "downtoearth"
           ],
           "count": 1
         }
@@ -332,57 +340,179 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "category: national-politics (importance 1.1, urgent=False)",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
-        "category: national-politics (importance 1.1) +2.4",
+        "recency: fresh (3.0h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
-          "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes."
+          "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes.",
+          "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap."
         ],
         "body": [
-          "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap."
+          "Part of a glacier broke off and crashed on to the valley floor, experts say.",
+          "Satellite images show green mountainside now buried in debris and sediment."
         ],
         "bullets": [],
         "sentences": [
-          {
-            "text": "BJP leader H. Raja said India is ready to extend all possible assistance to flood-hit Nepal, expressing solidarity with victims and support for ongoing relief efforts.",
-            "source": "The Hans India",
-            "item_id": "d471d7670b26ef1ecda0810f",
-            "composed": false
-          },
           {
             "text": "Flash floods on the Nepal‑Tibet border and Sri Lankan landslides reveal how disasters striking before full recovery turn crises into catastrophes.",
             "source": "Down To Earth",
             "item_id": "c41153731fff548e04e70b63",
             "composed": false
+          },
+          {
+            "text": "Damaged infrastructure, depleted savings and strained public services create a dangerous recovery gap.",
+            "source": "Down To Earth",
+            "item_id": "c41153731fff548e04e70b63",
+            "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "Down To Earth",
         "corroborating": [
-          "Down To Earth"
+          "Deccan Chronicle"
         ],
-        "url": "https://www.thehansindia.com/tamilnadu/india-ready-to-extend-all-assistance-to-flood-hit-nepal-says-tn-bjp-leader-h-raja-1114500"
+        "url": "https://www.downtoearth.org.in/climate-change/nepaltibet-floods-when-disaster-strikes-before-communities-recover-from-previous-climate-extremes-crisis-escalates"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "589418f57a51a51d642bad9b",
+      "story_id": "589418f57a51a51d642bad9b",
+      "headline": "Nepal flash floods: SDRF on high alert in Uttarakhand's border district of Champawat",
+      "title": "Nepal flash floods: SDRF on high alert in Uttarakhand's border district of Champawat",
+      "summary": "According to officials, apart from the SEOC numbers—0135-2710334, 2710335, 2664314, 2664315, 2664316, and 8218867005—people can also contact the toll-free number 1070",
+      "url": "https://www.thehindu.com/news/national/uttarakhand/nepal-flash-floods-sdrf-on-high-alert-in-uttarakhands-border-district-of-champawat/article71395039.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T07:35:44+00:00",
+      "published_at": "2026-08-27T07:35:44+00:00",
+      "effective_at": "2026-08-27T07:35:44+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "scale: state scope (uttarakhand)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "uttarakhand",
+      "national_significance": true,
+      "article_sentences": [
+        "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
+        "The Tanakpur post of the SDRF has been placed on high alert, and people have been urged to stay away from the banks of the Sharda River, officials said.",
+        "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
+        "The SDRF's Tanakpur team is continuously monitoring and patrolling vulnerable riverbank areas, including the Sharda Ghat, the Sharda Barrage, and surrounding localities.",
+        "The team is keeping a close watch on the river's water level and potential risks while maintaining coordination with the local administration.",
+        "Officials said that the SDRF team visited the Sharda Ghat and low-lying areas to alert local residents, travellers and fishermen about the potential rise in the river's water level.",
+        "People have been urged not to venture near the riverbanks unnecessarily under any circumstances and to adhere to safety guidelines issued by the administration.",
+        "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
+        "The Uttarakhand government has also issued helpline numbers to assist the state’s people stranded there.",
+        "Officials said that the Uttarakhand State Disaster Management Authority (USDMA) has released these helpline numbers to aid the people.",
+        "If any person from Uttarakhand is stranded in the affected area of Nepal, or if anyone wishes to share information regarding an individual, they can contact the helpline numbers of the State Emergency Operation Centre (SEOC) in Dehradun.",
+        "According to officials, apart from the SEOC numbers—0135-2710334, 2710335, 2664314, 2664315, 2664316, and 8218867005—people can also contact the toll-free number 1070."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
+          "The Tanakpur post of the SDRF has been placed on high alert, and people have been urged to stay away from the banks of the Sharda River, officials said."
+        ],
+        "body": [
+          "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
+          "The SDRF's Tanakpur team is continuously monitoring and patrolling vulnerable riverbank areas, including the Sharda Ghat, the Sharda Barrage, and surrounding localities.",
+          "The team is keeping a close watch on the river's water level and potential risks while maintaining coordination with the local administration.",
+          "Officials said that the SDRF team visited the Sharda Ghat and low-lying areas to alert local residents, travellers and fishermen about the potential rise in the river's water level.",
+          "People have been urged not to venture near the riverbanks unnecessarily under any circumstances and to adhere to safety guidelines issued by the administration.",
+          "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
+          "The Uttarakhand government has also issued helpline numbers to assist the state’s people stranded there.",
+          "Officials said that the Uttarakhand State Disaster Management Authority (USDMA) has released these helpline numbers to aid the people."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Uttarakhand's"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
+            "source": "The Hindu",
+            "item_id": "589418f57a51a51d642bad9b:article",
+            "composed": false
+          },
+          {
+            "text": "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
+            "source": "The Hindu",
+            "item_id": "589418f57a51a51d642bad9b:article",
+            "composed": false
+          },
+          {
+            "text": "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
+            "source": "The Hindu",
+            "item_id": "589418f57a51a51d642bad9b:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/uttarakhand/nepal-flash-floods-sdrf-on-high-alert-in-uttarakhands-border-district-of-champawat/article71395039.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "17fca40a10903591300da9ac",
@@ -427,7 +557,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -512,7 +642,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -585,124 +715,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "589418f57a51a51d642bad9b",
-      "story_id": "589418f57a51a51d642bad9b",
-      "headline": "Nepal flash floods: SDRF on high alert in Uttarakhand's border district of Champawat",
-      "title": "Nepal flash floods: SDRF on high alert in Uttarakhand's border district of Champawat",
-      "summary": "According to officials, apart from the SEOC numbers—0135-2710334, 2710335, 2664314, 2664315, 2664316, and 8218867005—people can also contact the toll-free number 1070",
-      "url": "https://www.thehindu.com/news/national/uttarakhand/nepal-flash-floods-sdrf-on-high-alert-in-uttarakhands-border-district-of-champawat/article71395039.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:11:12+00:00",
-      "published_at": "2026-08-27T05:11:12+00:00",
-      "effective_at": "2026-08-27T05:11:12+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "scale: state scope (uttarakhand)",
-        "recency: breaking (2.5h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 24, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "uttarakhand",
-      "national_significance": true,
-      "article_sentences": [
-        "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
-        "The Tanakpur post of the SDRF has been placed on high alert, and people have been urged to stay away from the banks of the Sharda River, officials said.",
-        "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
-        "The SDRF's Tanakpur team is continuously monitoring and patrolling vulnerable riverbank areas, including the Sharda Ghat, the Sharda Barrage, and surrounding localities.",
-        "The team is keeping a close watch on the river's water level and potential risks while maintaining coordination with the local administration.",
-        "Officials said that the SDRF team visited the Sharda Ghat and low-lying areas to alert local residents, travellers and fishermen about the potential rise in the river's water level.",
-        "People have been urged not to venture near the riverbanks unnecessarily under any circumstances and to adhere to safety guidelines issued by the administration.",
-        "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
-        "The Uttarakhand government has also issued helpline numbers to assist the state’s people stranded there.",
-        "Officials said that the Uttarakhand State Disaster Management Authority (USDMA) has released these helpline numbers to aid the people.",
-        "If any person from Uttarakhand is stranded in the affected area of Nepal, or if anyone wishes to share information regarding an individual, they can contact the helpline numbers of the State Emergency Operation Centre (SEOC) in Dehradun.",
-        "According to officials, apart from the SEOC numbers—0135-2710334, 2710335, 2664314, 2664315, 2664316, and 8218867005—people can also contact the toll-free number 1070."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
-          "The Tanakpur post of the SDRF has been placed on high alert, and people have been urged to stay away from the banks of the Sharda River, officials said."
-        ],
-        "body": [
-          "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
-          "The SDRF's Tanakpur team is continuously monitoring and patrolling vulnerable riverbank areas, including the Sharda Ghat, the Sharda Barrage, and surrounding localities.",
-          "The team is keeping a close watch on the river's water level and potential risks while maintaining coordination with the local administration.",
-          "Officials said that the SDRF team visited the Sharda Ghat and low-lying areas to alert local residents, travellers and fishermen about the potential rise in the river's water level.",
-          "People have been urged not to venture near the riverbanks unnecessarily under any circumstances and to adhere to safety guidelines issued by the administration.",
-          "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
-          "The Uttarakhand government has also issued helpline numbers to assist the state’s people stranded there.",
-          "Officials said that the Uttarakhand State Disaster Management Authority (USDMA) has released these helpline numbers to aid the people."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Uttarakhand's"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Vigilance has been stepped up in Uttarakhand's border district of Champawat following severe floods in Nepal on Wednesday (August 26, 2026).",
-            "source": "The Hindu",
-            "item_id": "589418f57a51a51d642bad9b:article",
-            "composed": false
-          },
-          {
-            "text": "They added that the SDRF team is fully prepared round-the-clock with essential life-saving and rescue equipment to initiate immediate relief and rescue operations in the event of any emergency.",
-            "source": "The Hindu",
-            "item_id": "589418f57a51a51d642bad9b:article",
-            "composed": false
-          },
-          {
-            "text": "According to officials, the Tanakpur post in Champawat district has been put on high alert under the instructions of State Disaster Response Force (SDRF) Commandant Arpan Yaduvanshi.",
-            "source": "The Hindu",
-            "item_id": "589418f57a51a51d642bad9b:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/uttarakhand/nepal-flash-floods-sdrf-on-high-alert-in-uttarakhands-border-district-of-champawat/article71395039.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "73ab5e41f6c62991df4bb8a5",
       "story_id": "73ab5e41f6c62991df4bb8a5",
       "headline": "Lost 80 people: Sadhguru appeals for access to Tibet's flood-hit Gyirong",
@@ -747,7 +759,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -870,10 +882,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (kerala)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 24, score 64 -> URGENT"
+        "dominant event 64, stack 20, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "kerala",
@@ -992,7 +1004,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1097,7 +1109,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 64, stack 28.8, score 64 -> URGENT"
@@ -1221,7 +1233,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -1301,6 +1313,161 @@
       "enrichment": "article"
     },
     {
+      "event_id": "b30eff08b7fef3979dc7ce15",
+      "story_id": "b30eff08b7fef3979dc7ce15",
+      "headline": "Tata Power's $640-Million Singapore Problem",
+      "title": "Tata Power's $640-Million Singapore Problem",
+      "summary": "India's largest integrated private power utility has run out of road in Singapore's courts, at least for now. On August 26, 2026, the Singapore International Commercial Court (SICC) dismissed every application Tata Power had filed to overturn a $490.32 million arbitration award won by Kleros Capital Partners, a UK-based investment firm. The court rejected both of Tata Power's core arguments: that the tribunal's damages calculation (quantum) was wrong, and that the majority's decision-making process had breached natural justice. With interest accruing since November 2020 and legal costs added on, the total bill has now crossed $640 million, or upwards of ₹6,000 crore. Tata Power's shares fell as much as 5% in the following session, and the company has confirmed it will appeal to the Singapore Court of Appeal. The market cap loss from today's fall roughly matches the full quantum of the firm' liabilities from the award, indicating how quickly the market has priced in the liability and the uncertainty linked to it. How the dispute began The roots of the case go back to a coal partnership in Russia that never materialised. Kleros initiated arbitration proceedings against Tata Power at the Singapore International Arbitration Centre (SIAC) in November 2020, alleging that Tata Power had breached confidentiality and non-circumvention obligations tied to a proposed joint pursuit of the Krutogorovo coal project in Russia. A three-member tribunal — Professor Lawrence Boo (presiding), Stuart Isaacs KC, and retired Indian Supreme Court judge Amal K. Ganguli heard the matter. In September 2023, the panel unanimously found Tata Power liable, concluding that the company had misused confidential information, deliberately circumvented Kleros, made misleading statements, and concealed material facts in order to pursue the project on its own account. Liability was never in question after that point, only the size of the damages. In July 2025, the tribunal issued its award on quantum. Here the panel split 2:1: Boo and Isaacs, in the majority, awarded Kleros $490.32 million plus simple interest of 5.33% per annum from November 30, 2020, until payment. All three arbitrators agreed Tata Power owed something; they differed only on methodology and amount. Rather than resisting enforcement, Tata Power took the award to the Singapore courts directly, challenging both the quantum and the fairness of the tribunal's process. That challenge is what the SICC dismissed on August 26. What happens next Tata Power has said it will file an appeal with the Singapore Court of Appeal within the mandatory 28-day window from the SICC's order. But this is a narrower and steeper climb than the challenge just rejected. Appellate review of arbitration-related court decisions is deliberately constrained. International arbitration is designed around finality, and courts at the seat of arbitration (Singapore, in this case) generally give tribunals wide deference on quantum and process once liability has been unanimously established. The more immediate complication: filing an appeal does not automatically pause enforcement. Unless Tata Power secures an explicit stay from the Singapore courts, Kleros is free to pursue enforcement of the award in Singapore or in other jurisdictions where Tata Power or its group entities hold assets while the appeal plays out. That makes the coming weeks less about the legal argument and more about interim relief: whether Tata Power can buy itself time without the liability crystallising into an immediate cash call. Does this set a precedent? The SICC's order turns on the specific facts of this arbitration rather than announcing a broad legal principle. But it is a useful data point for Indian companies increasingly exposed to international commercial arbitration on cross-border deal conduct, not just contract non-performance. Two things stand out. First, allegations around confidentiality, circumvention, and misuse of shared information are treated seriously by arbitral tribunals and are hard to unwind on appeal once liability is unanimous. Second, seat courts like Singapore's, much like London's or Hong Kong's set a high bar for \"natural justice\" and \"quantum\" challenges, making them a weak lever once an award has been issued by a properly constituted panel. The market's verdict: a bigger hit than the award itself Tata Power's market capitalisation stood at roughly ₹1,19,346 crore on August 25, just before the ruling. By August 27, with shares down as much as 5% intraday before settling closer to a 4–4.3% decline, market cap had fallen to around ₹1,12,220 crore — a loss of close to ₹6,000–7,000 crore (roughly $700–800 million) in investor wealth in a single session. That one-day loss is, notably, larger than the original $490 million principal award (about ₹4,300 crore) and comparable in size to the full $640 million liability including interest and costs. In other words, the market moved to price in something close to the worst-case cash impact almost immediately, rather than waiting for clarity on provisioning or the appeal's outcome. The reaction also has to be read against where the stock already was. Tata Power shares were trading near ₹349–364 post-ruling, well off their 52-week high of ₹464.9 hit in April 2026 and closer to the 52-week low of ₹342.5. With the firm's renewables, manufacturing, and transmission growth story all strong, the stock was priced for a lot to go right if this ruling had gone in its favour. Cash, debt, and the provisioning question On paper, Tata Power's ₹12,831 crore cash pile could cover the roughly ₹6,000 crore liability outright. In practice, doing so would meaningfully dent the liquidity buffer at a moment when operating cash flow is already negative and capital expenditure is running at record levels to fund the company's renewables and manufacturing build-out. The more pressing issue is accounting, not liquidity. Tata Power had not recognised any provision for the Kleros award in its FY26 financial statements, choosing to rely on legal advice while the challenge was pending. That position becomes difficult to defend now that a court has confirmed the award is \"final and binding\" and payable immediately — accounting standards generally require a provision once an obligation is probable and reliably estimable, and an unappealed, court-confirmed arbitral award is about as unambiguous a trigger as exists. Analysts are likely to press management on provisioning treatment at the next results call. Tata Power's likely paths forward ● Appeal and seek a stay of enforcement — buys time but is unlikely to prevent auditors from forcing a provision given the SICC's language. ● Negotiate a settlement with Kleros — common once appeal odds look weak; could involve a discount for early or certain payment versus continued litigation. ● Fund payment from the balance sheet — feasible given the ₹12,831 crore cash position, but would tighten liquidity headroom already under pressure from negative operating cash flow and record capex. ● Raise fresh debt, or draw on Tata Sons/group support — plausible given the group's scale, though it adds to a net debt load already up sharply quarter-on-quarter. ● Monetise assets — stake sales in renewable SPVs or InvIT-style structures, a route Tata Power has used before to manage leverage, could generate a one-off cash pool without touching core operations. The bottom line This is a genuine capital-allocation event for Tata Power. Against a quarter that delivered ₹1,401 crore in consolidated PAT but negative operating cash flow, a $640 million liability is large enough to influence financing plans, credit metrics, and possibly the pace of renewable capex the market has been rewarding the stock for. Expect provisioning treatment, the appeal's progress, and the funding source for eventual payment to dominate investor questions through the rest of FY27.",
+      "url": "https://www.saurenergy.com/solar-energy-news/tata-powers-640-million-singapore-problem-12443191",
+      "source": "Saur Energy",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "energy-environment",
+        "business-industry",
+        "defence-security",
+        "science-space"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T07:42:43+00:00",
+      "published_at": "2026-08-27T07:42:43+00:00",
+      "effective_at": "2026-08-27T07:42:43+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "saur-energy": {
+          "kind": "independent",
+          "source_ids": [
+            "saur-energy"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "clickbait: 'What happens next' in summary (penalty 12.5, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: marker 'confirmed'",
+        "major: marker 'confirmed'",
+        "major: marker 'confirmed'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "major override dropped penalties: clickbait",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (saur-energy) +1",
+        "source: specialist (saur-energy) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'verdict' in summary weight 13.2",
+        "event term: 'final' in summary weight 6",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 26.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "India's largest integrated private power utility has run out of road in Singapore's courts, at least for now.",
+          "On August 26, 2026, the Singapore International Commercial Court (SICC) dismissed every application."
+        ],
+        "body": [
+          "Tata Power had filed to overturn a $490.32 million arbitration award won by Kleros Capital Partners, a UK-based investment firm.",
+          "The court rejected both of Tata Power's core arguments: that the tribunal's damages calculation (quantum) was wrong, and that the majority's decision-making process had breached natural justice.",
+          "With interest accruing since November 2020 and legal costs added on, the total bill has now crossed $640 million, or upwards of ₹6,000 crore.",
+          "Tata Power's shares fell as much as 5% in the following session, and the company has confirmed it will appeal to the Singapore Court of Appeal.",
+          "The market cap loss from today's fall roughly matches the full quantum of the firm' liabilities from the award, indicating how quickly the market has priced in the liability and the uncertainty linked to it.",
+          "How the dispute began.",
+          "The roots of the case go back to a coal partnership in Russia that never materialised.",
+          "Kleros initiated arbitration proceedings against Tata Power at the Singapore International Arbitration Centre (SIAC) in November 2020, alleging that Tata Power had breached confidentiality and non-circumvention obligations tied to a proposed joint pursuit of the Krutogorovo coal project in Russia.",
+          "A three-member tribunal — Professor Lawrence Boo (presiding), Stuart Isaacs KC, and retired Indian Supreme Court judge Amal K. Ganguli heard the matter.",
+          "In September 2023, the panel unanimously found Tata Power liable, concluding that the company had misused confidential information, deliberately circumvented Kleros, made misleading statements, and concealed material facts in order to pursue the project on its own account.",
+          "Liability was never in question after that point, only the size of the damages.",
+          "In July 2025, the tribunal issued its award on quantum.",
+          "All three arbitrators agreed Tata Power owed something; they differed only on methodology and amount.",
+          "Rather than resisting enforcement, Tata Power took the award to the Singapore courts directly, challenging both the quantum and the fairness of the tribunal's process.",
+          "That challenge is what the SICC dismissed on August 26.",
+          "What happens next.",
+          "Tata Power has said it will file an appeal with the Singapore Court of Appeal within the mandatory 28-day window from the SICC's order.",
+          "But this is a narrower and steeper climb than the challenge just rejected.",
+          "Appellate review of arbitration-related court decisions is deliberately constrained.",
+          "International arbitration is designed around finality, and courts at the seat of arbitration (Singapore, in this case) generally give tribunals wide deference on quantum and process once liability has been unanimously established.",
+          "The more immediate complication: filing an appeal does not automatically pause enforcement.",
+          "Unless Tata Power secures an explicit stay from the Singapore courts, Kleros is free to pursue enforcement of the award in Singapore or in other jurisdictions where Tata Power or its group entities hold assets while the appeal plays out.",
+          "That makes the coming weeks less about the legal argument and more about interim relief: whether Tata Power can buy itself time without the liability crystallising into an immediate cash call.",
+          "Does this set a precedent?",
+          "The SICC's order turns on the specific facts of this arbitration rather than announcing a broad legal principle.",
+          "But it is a useful data point for Indian companies increasingly exposed to international commercial arbitration on cross-border deal conduct, not just contract non-performance.",
+          "Two things stand out.",
+          "First, allegations around confidentiality, circumvention, and misuse of shared information are treated seriously by arbitral tribunals and are hard to unwind on appeal once liability is unanimous.",
+          "Second, seat courts like Singapore's, much like London's or Hong Kong's set a high bar for \"natural justice\" and \"quantum\" challenges, making them a weak lever once an award has been issued by a properly constituted panel.",
+          "The market's verdict: a bigger hit than the award itself Tata Power's market capitalisation stood at roughly ₹1,19,346 crore on August 25, just before the ruling.",
+          "In other words, the market moved to price in something close to the worst-case cash impact almost immediately, rather than waiting for clarity on provisioning or the appeal's outcome.",
+          "The reaction also has to be read against where the stock already was.",
+          "Tata Power shares were trading near ₹349–364 post-ruling, well off their 52-week high of ₹464.9 hit in April 2026 and closer to the 52-week low of ₹342.5.",
+          "With the firm's renewables, manufacturing, and transmission growth story all strong, the stock was priced for a lot to go right if this ruling had gone in its favour.",
+          "Cash, debt, and the provisioning question.",
+          "On paper, Tata Power's ₹12,831 crore cash pile could cover the roughly ₹6,000 crore liability outright.",
+          "In practice, doing so would meaningfully dent the liquidity buffer at a moment when operating cash flow is already negative and capital expenditure is running at record levels to fund the company's renewables and manufacturing build-out.",
+          "The more pressing issue is accounting, not liquidity.",
+          "Tata Power had not recognised any provision for the Kleros award in its FY26 financial statements, choosing to rely on legal advice while the challenge was pending.",
+          "That position becomes difficult to defend now that a court has confirmed the award is \"final and binding\" and payable immediately — accounting standards generally require a provision once an obligation is probable and reliably estimable, and an unappealed, court-confirmed arbitral award is about as unambiguous a trigger as exists.",
+          "Analysts are likely to press management on provisioning treatment at the next results call.",
+          "Tata Power's likely paths forward ● Appeal and seek a stay of enforcement — buys time but is unlikely to prevent auditors from forcing a provision given the SICC's language.",
+          "● Negotiate a settlement with Kleros — common once appeal odds look weak; could involve a discount for early or certain payment versus continued litigation.",
+          "● Fund payment from the balance sheet — feasible given the ₹12,831 crore cash position, but would tighten liquidity headroom already under pressure from negative operating cash flow and record capex.",
+          "● Raise fresh debt, or draw on Tata Sons/group support — plausible given the group's scale, though it adds to a net debt load already up sharply quarter-on-quarter.",
+          "● Monetise assets — stake sales in renewable SPVs or InvIT-style structures, a route Tata Power has used before to manage leverage, could generate a one-off cash pool without touching core operations.",
+          "The bottom line.",
+          "This is a genuine capital-allocation event for Tata Power.",
+          "Against a quarter that delivered ₹1,401 crore in consolidated PAT but negative operating cash flow, a $640 million liability is large enough to influence financing plans, credit metrics, and possibly the pace of renewable capex the market has been rewarding the stock for.",
+          "Expect provisioning treatment, the appeal's progress, and the funding source for eventual payment to dominate investor questions through the rest of FY27."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Singapore's"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kleros initiated arbitration proceedings against Tata Power at the Singapore International Arbitration Centre (SIAC) in November 2020, alleging that Tata Power had breached confidentiality and non-circumvention obligations tied to a proposed joint pursuit of the Krutogorovo coal project in Russia.",
+            "source": "Saur Energy",
+            "item_id": "b30eff08b7fef3979dc7ce15",
+            "composed": false
+          },
+          {
+            "text": "Tata Power shares were trading near ₹349–364 post-ruling, well off their 52-week high of ₹464.9 hit in April 2026 and closer to the 52-week low of ₹342.5.",
+            "source": "Saur Energy",
+            "item_id": "b30eff08b7fef3979dc7ce15",
+            "composed": false
+          },
+          {
+            "text": "The market's verdict: a bigger hit than the award itself Tata Power's market capitalisation stood at roughly ₹1,19,346 crore on August 25, just before the ruling.",
+            "source": "Saur Energy",
+            "item_id": "b30eff08b7fef3979dc7ce15",
+            "composed": false
+          }
+        ],
+        "source": "Saur Energy",
+        "corroborating": [],
+        "url": "https://www.saurenergy.com/solar-energy-news/tata-powers-640-million-singapore-problem-12443191"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "c3c0b9911f376b1e84fae8d1",
       "story_id": "c3c0b9911f376b1e84fae8d1",
       "headline": "India vs Germany: What happened the last time the teams met before Hockey World Cup clash",
@@ -1342,7 +1509,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1431,7 +1598,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1547,7 +1714,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1666,7 +1833,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1775,7 +1942,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (13 states)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1908,7 +2075,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2007,7 +2174,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (goa)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "geo: state",
         "dominant event 44, stack 16, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2106,7 +2273,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2195,7 +2362,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (meghalaya)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 17, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2294,7 +2461,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2415,7 +2582,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2543,7 +2710,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 29.2, score 42 -> HIGH"
