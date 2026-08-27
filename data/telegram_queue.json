@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T04:52:18.097337+00:00",
-  "count": 16,
+  "generated_at": "2026-08-27T05:02:49.196947+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "a82f8636a5c6b4fffd6c5d95",
@@ -38,7 +38,7 @@
           "source_ids": [
             "rising-kashmir"
           ],
-          "count": 3
+          "count": 4
         },
         "pti": {
           "kind": "wire",
@@ -102,7 +102,7 @@
         "major override dropped penalties: rumour",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 9 copies, primary source counted once",
+        "source: event has 10 copies, primary source counted once",
         "corroboration: 5 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'flood' in title weight 64",
@@ -112,7 +112,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (16.2h ago) +4",
+        "recency: fresh (16.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -291,7 +291,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -351,41 +351,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "4c6b1f86405d7d8914612ed6",
-      "story_id": "4c6b1f86405d7d8914612ed6",
-      "headline": "Over 150 dead, hundreds missing in Nepal-Tibet border flash floods",
-      "title": "Over 150 dead, hundreds missing in Nepal-Tibet border flash floods",
-      "summary": "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday. As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply. Hundreds of tourists are also reported to […] The post Over 150 dead, hundreds missing in Nepal-Tibet border flash floods appeared first on KalingaTV .",
-      "url": "https://kalingatv.com/world/over-150-dead-hundreds-missing-in-nepal-tibet-border-flash-floods",
-      "source": "Kalinga TV",
+      "event_id": "db72e2c5fb721fb88fd1b03c",
+      "story_id": "db72e2c5fb721fb88fd1b03c",
+      "headline": "37 tourists from Kerala’s Payyanur stranded in flood-hit Nepal",
+      "title": "37 tourists from Kerala’s Payyanur stranded in flood-hit Nepal",
+      "summary": "Thirty-seven people from Kerala’s Payyanur constituency have been stranded in Nepal following severe flooding and are currently unable to continue their journey or return home, MLA V Kunhikrishnan has said.",
+      "url": "https://www.nationalheraldindia.com/national/37-tourists-from-keralas-payyanur-stranded-in-flood-hit-nepal",
+      "source": "National Herald",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security",
-        "crime-public-safety"
-      ],
-      "confidence": "high",
-      "score": 60.0,
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 64.2,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T02:24:07+00:00",
-      "published_at": "2026-08-27T02:24:07+00:00",
-      "effective_at": "2026-08-27T02:24:07+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-08-27T04:43:54+00:00",
+      "published_at": "2026-08-27T04:43:54+00:00",
+      "effective_at": "2026-08-27T04:43:54.513000+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "kalinga-tv": {
+        "national-herald": {
           "kind": "independent",
           "source_ids": [
-            "kalinga-tv"
-          ],
-          "count": 2
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
+            "national-herald"
           ],
           "count": 1
         }
@@ -394,70 +384,84 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
+        "major: significance event 'flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (kalinga-tv) +1",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (kerala)",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "kerala",
       "national_significance": true,
+      "article_sentences": [
+        "Thirty-seven people from Kerala’s Payyanur constituency have been stranded in Nepal following severe flooding and are currently unable to continue their journey or return home, MLA V Kunhikrishnan has said.",
+        "In a Facebook post on Wednesday night, Kunhikrishnan said he had informed chief minister V.D. Satheesan about the situation and provided the Chief Minister’s Office with the tourists’ current locations and contact numbers.",
+        "Kunhikrishnan said the families of the stranded tourists had been updated and urged them not to panic, as all 37 people were safe.",
+        "He added that contact had been established with every member of the group.",
+        "The Kerala government began urgent efforts on Wednesday night to bring the tourists back from Nepal.",
+        "Satheesan directed the state Chief Secretary to coordinate closely with the Ministry of External Affairs and the Indian Embassy in Nepal to ensure their safety and expedite the evacuation process.",
+        "The state government has also opened two helpline numbers — 9447111844 and 9747132147 — for stranded tourists and their relative's seeking assistance."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday.",
-          "As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply."
+          "Thirty-seven people from Kerala’s Payyanur constituency have been stranded in Nepal following severe flooding and are currently unable to continue their journey or return home, MLA V Kunhikrishnan has said.",
+          "In a Facebook post on Wednesday night, Kunhikrishnan said he had informed chief minister V.D. Satheesan about the situation and provided the Chief Minister’s Office with the tourists’ current locations and contact numbers."
         ],
         "body": [
-          "Hundreds of tourists are also reported to […] The post Over 150 dead, hundreds missing in Nepal-Tibet border flash floods appeared first on KalingaTV."
+          "Kunhikrishnan said the families of the stranded tourists had been updated and urged them not to panic, as all 37 people were safe.",
+          "He added that contact had been established with every member of the group.",
+          "The Kerala government began urgent efforts on Wednesday night to bring the tourists back from Nepal.",
+          "Satheesan directed the state Chief Secretary to coordinate closely with the Ministry of External Affairs and the Indian Embassy in Nepal to ensure their safety and expedite the evacuation process.",
+          "The state government has also opened two helpline numbers — 9447111844 and 9747132147 — for stranded tourists and their relative's seeking assistance."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nepal-Tibet"
+            "text": "Nepal"
           },
           {
             "icon": "👥",
             "label": "Impact",
-            "text": "More than 150 people"
+            "text": "37 people"
           }
         ],
         "sentences": [
           {
-            "text": "Kathmandu: More than 150 people are feared dead after massive flash floods and landslides ripped through Himalayan region near the Nepal-Tibet border on Wednesday.",
-            "source": "Kalinga TV",
-            "item_id": "4c6b1f86405d7d8914612ed6",
+            "text": "Kunhikrishnan said the families of the stranded tourists had been updated and urged them not to panic, as all 37 people were safe.",
+            "source": "National Herald",
+            "item_id": "db72e2c5fb721fb88fd1b03c:article",
             "composed": false
           },
           {
-            "text": "As per reports, so far police have recovered 157 bodies of victims, while hundreds are feared missing, and figures are expected to rise sharply.",
-            "source": "Kalinga TV",
-            "item_id": "4c6b1f86405d7d8914612ed6",
+            "text": "The Kerala government began urgent efforts on Wednesday night to bring the tourists back from Nepal.",
+            "source": "National Herald",
+            "item_id": "db72e2c5fb721fb88fd1b03c:article",
+            "composed": false
+          },
+          {
+            "text": "The state government has also opened two helpline numbers — 9447111844 and 9747132147 — for stranded tourists and their relative's seeking assistance.",
+            "source": "National Herald",
+            "item_id": "db72e2c5fb721fb88fd1b03c:article",
             "composed": false
           }
         ],
-        "source": "Kalinga TV",
+        "source": "National Herald",
         "corroborating": [],
-        "url": "https://kalingatv.com/world/over-150-dead-hundreds-missing-in-nepal-tibet-border-flash-floods"
+        "url": "https://www.nationalheraldindia.com/national/37-tourists-from-keralas-payyanur-stranded-in-flood-hit-nepal"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "511a9da8c9e7552ec1ce1873",
@@ -505,7 +509,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 64, stack 32.8, score 64 -> URGENT"
@@ -629,7 +633,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -701,6 +705,127 @@
       "enrichment": "article"
     },
     {
+      "event_id": "60267d256a941f70dfe500b0",
+      "story_id": "60267d256a941f70dfe500b0",
+      "headline": "AI can augment reasoning but cannot substitute judicial conscience: CJI Surya Kant",
+      "title": "AI can augment reasoning but cannot substitute judicial conscience: CJI Surya Kant",
+      "summary": "New Delhi, Aug 27: Chief Justice of India Surya Kant on Wednesday said the judiciary’s governing principle is that artificial intelligence may augment judicial reasoning, but it cannot substitute judicial conscience, and that a permanent apex body has been proposed to supervise the adoption and accountability of the new technology. Speaking at a bilateral meeting with Ulrich Herrmann, the presiding judge of the Federal Court of Justice at Karlsruhe in Germany, CJI Kant said that artificial intelligence (AI) is being used in certain defined support functions such as legal research, judgement translation into 16 languages and as a conversational interface for citizens to look for case status and procedures. He said that while these tools are designed to reduce repetitive work, they do not determine judicial outcomes. “Artificial intelligence may augment judicial reasoning, but it cannot substitute judicial conscience. Draft regulations from the Supreme Court's AI Committee permit administrative uses such as scheduling, transcription and translation, while barring AI from assessing witness credibility, flight risk, recidivism or bail eligibility; a permanent apex body has been proposed to supervise the adoption and accountability of AI,” he said. “Our two judiciaries share the same underlying responsibility: to preserve judicial independence and public confidence while adapting our institutions to new forms of litigation and new expectations of access. “Technology and administrative reform can support this responsibility, but neither can replace careful adjudication, human judgment and fidelity to law,” he said. The CJI said that institutional mediation centres, Lok Adalats and digital Lok Adalats, including the Supreme Court's recent special Lok Adalat, ‘Samadhan Samaroh’, have brought settlement within reach of parties well beyond major cities, supported by trained professionals, case managers and secure digital systems. “As two major trading partners, our judiciaries and mediation institutions stand to gain from exchanging experience on cross-border commercial mediation, the recognition and enforcement of mediated settlements, and joint training for mediators handling India-Germany commercial disputes,” he said. At the outset, the CJI said that both the countries have developed different judicial structures and legal traditions, as India follows a common-law tradition with one integrated judicial hierarchy, while Germany has a civil-law system with separate branches of federal jurisdiction. “These differences make the exchange particularly useful. They allow us to compare how our institutions deal with the same practical concerns, including appellate workload, consistency of case law, timely disposal, judicial administration and access to justice,” he said. The CJI said he is approaching the meeting with three themes that speak directly to the challenges the two judiciaries share, such as harnessing technology and AI in the administration of justice, strengthening cross-border mediation and other dispute resolution mechanisms, and deepening institutional cooperation through an MoU. “I also see considerable value in identifying areas in which our courts, judges, registries and judicial academies can continue this engagement through a structured and reciprocal programme,” he said. The CJI said he sees value in anchoring any MoU in the themes already discussed: technology and AI in court administration, and cross-border mediation and dispute resolution, alongside the commercial and business law focus and the digitalisation of judicial processes that the Hanseatic court's concept note already identifies as priorities. “I propose that each side identify one institutional point of contact so that today's discussion can be converted into a workable programme, with the MoU or another suitable arrangement to follow once the appropriate authorities on both sides have considered its scope, frequency, participants, confidentiality requirements and working language,” he said. Giving an overview of the Indian judiciary, the CJI said that unlike Germany, India has no separate constitutional court. “The Supreme Court is simultaneously the final appellate court in civil and criminal matters and the country's highest constitutional court, with original jurisdiction under Article 32 to enforce fundamental rights,” he said. The CJI also said that India’s approach has been to make courts not merely more technological, but more accessible, transparent and responsive for every stakeholder in the justice delivery system. On the shared institutional challenge, CJI Kant said Germany's electronic case files, the e-Justice council, the Bund-Laender Commission and the proposed Federal Justice Cloud reflect a similar commitment to a secure digital foundation for justice delivery. “Both our judiciaries agree that judicial decisions must remain with judges and legally authorised judicial officers, whatever the degree of digital transformation,” he said. Promoting mediation as another mode of dispute resolution has always been at the top of the priority list of the Chief Justice of India, right from day one, CJI Kant said. The CJI is on a four-day visit to Germany and the UK during which he will address several programmes.",
+      "url": "https://www.greaterkashmir.com/national/ai-can-augment-reasoning-but-cannot-substitute-judicial-conscience-cji-surya-kant-12442198",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "technology-digital",
+        "defence-security",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T04:58:21+00:00",
+      "published_at": "2026-08-27T04:58:21+00:00",
+      "effective_at": "2026-08-27T04:58:21+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'judgment' in summary weight 10.8",
+        "event term: 'final' in summary weight 6",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 27.6, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Aug 27: Chief Justice of India Surya Kant on Wednesday said the judiciary’s governing principle is that artificial intelligence may augment judicial reasoning, but it cannot substitute judicial conscience, and that a permanent apex body has been proposed to supervise the adoption and accountability of the new technology.",
+          "Speaking at a bilateral meeting with Ulrich Herrmann, the presiding judge of the Federal Court of Justice at Karlsruhe in Germany, CJI Kant said that artificial intelligence (AI) is being used in certain defined support functions such as legal research, judgement translation into 16 languages and as a conversational interface for citizens to look for case status and procedures."
+        ],
+        "body": [
+          "He said that while these tools are designed to reduce repetitive work, they do not determine judicial outcomes.",
+          "“Artificial intelligence may augment judicial reasoning, but it cannot substitute judicial conscience.",
+          "Draft regulations from the Supreme Court's AI Committee permit administrative uses such as scheduling, transcription and translation, while barring AI from assessing witness credibility, flight risk, recidivism or bail eligibility; a permanent apex body has been proposed to supervise the adoption and accountability of AI,” he said.",
+          "“Our two judiciaries share the same underlying responsibility: to preserve judicial independence and public confidence while adapting our institutions to new forms of litigation and new expectations of access.",
+          "“Technology and administrative reform can support this responsibility, but neither can replace careful adjudication, human judgment and fidelity to law,” he said.",
+          "The CJI said that institutional mediation centres, Lok Adalats and digital Lok Adalats, including the Supreme Court's recent special Lok Adalat, ‘Samadhan Samaroh’, have brought settlement within reach of parties well beyond major cities, supported by trained professionals, case managers and secure digital systems.",
+          "“As two major trading partners, our judiciaries and mediation institutions stand to gain from exchanging experience on cross-border commercial mediation, the recognition and enforcement of mediated settlements, and joint training for mediators handling India-Germany commercial disputes,” he said.",
+          "At the outset, the CJI said that both the countries have developed different judicial structures and legal traditions, as India follows a common-law tradition with one integrated judicial hierarchy, while Germany has a civil-law system with separate branches of federal jurisdiction.",
+          "“These differences make the exchange particularly useful.",
+          "They allow us to compare how our institutions deal with the same practical concerns, including appellate workload, consistency of case law, timely disposal, judicial administration and access to justice,” he said.",
+          "The CJI said he is approaching the meeting with three themes that speak directly to the challenges the two judiciaries share, such as harnessing technology and AI in the administration of justice, strengthening cross-border mediation and other dispute resolution mechanisms, and deepening institutional cooperation through an MoU.",
+          "“I also see considerable value in identifying areas in which our courts, judges, registries and judicial academies can continue this engagement through a structured and reciprocal programme,” he said.",
+          "The CJI said he sees value in anchoring any MoU in the themes already discussed: technology and AI in court administration, and cross-border mediation and dispute resolution, alongside the commercial and business law focus and the digitalisation of judicial processes that the Hanseatic court's concept note already identifies as priorities.",
+          "“I propose that each side identify one institutional point of contact so that today's discussion can be converted into a workable programme, with the MoU or another suitable arrangement to follow once the appropriate authorities on both sides have considered its scope, frequency, participants, confidentiality requirements and working language,” he said.",
+          "Giving an overview of the Indian judiciary, the CJI said that unlike Germany, India has no separate constitutional court.",
+          "“The Supreme Court is simultaneously the final appellate court in civil and criminal matters and the country's highest constitutional court, with original jurisdiction under Article 32 to enforce fundamental rights,” he said.",
+          "The CJI also said that India’s approach has been to make courts not merely more technological, but more accessible, transparent and responsive for every stakeholder in the justice delivery system.",
+          "On the shared institutional challenge, CJI Kant said Germany's electronic case files, the e-Justice council, the Bund-Laender Commission and the proposed Federal Justice Cloud reflect a similar commitment to a secure digital foundation for justice delivery.",
+          "“Both our judiciaries agree that judicial decisions must remain with judges and legally authorised judicial officers, whatever the degree of digital transformation,” he said.",
+          "Promoting mediation as another mode of dispute resolution has always been at the top of the priority list of the Chief Justice of India, right from day one, CJI Kant said.",
+          "The CJI is on a four-day visit to Germany and the UK during which he will address several programmes."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Karlsruhe"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Speaking at a bilateral meeting with Ulrich Herrmann, the presiding judge of the Federal Court of Justice at Karlsruhe in Germany, CJI Kant said that artificial intelligence (AI) is being used in certain defined support functions such as legal research, judgement translation into 16 languages and as a conversational interface for citizens to look for case status and procedures.",
+            "source": "Greater Kashmir",
+            "item_id": "60267d256a941f70dfe500b0",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Aug 27: Chief Justice of India Surya Kant on Wednesday said the judiciary’s governing principle is that artificial intelligence may augment judicial reasoning, but it cannot substitute judicial conscience, and that a permanent apex body has been proposed to supervise the adoption and accountability of the new technology.",
+            "source": "Greater Kashmir",
+            "item_id": "60267d256a941f70dfe500b0",
+            "composed": false
+          },
+          {
+            "text": "“I propose that each side identify one institutional point of contact so that today's discussion can be converted into a workable programme, with the MoU or another suitable arrangement to follow once the appropriate authorities on both sides have considered its scope, frequency, participants, confidentiality requirements and working language,” he said.",
+            "source": "Greater Kashmir",
+            "item_id": "60267d256a941f70dfe500b0",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/national/ai-can-augment-reasoning-but-cannot-substitute-judicial-conscience-cji-surya-kant-12442198"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8f03dd65073793b4a11f4074",
       "story_id": "8f03dd65073793b4a11f4074",
       "headline": "Japan Struggles To Attract Solar Bids, Lessons For India",
@@ -744,7 +869,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -822,109 +947,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "eff212241d649d4f47e68c90",
-      "story_id": "eff212241d649d4f47e68c90",
-      "headline": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
-      "title": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
-      "summary": "We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom ‌violations, including revoking the visa issued to Mohan Bhagwat, says Asif Mahmood, chair of the U.S. Commission on International Religious Freedom",
-      "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "international-affairs",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 66.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:31:02+00:00",
-      "published_at": "2026-08-27T04:31:02+00:00",
-      "effective_at": "2026-08-27T04:31:02+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: international-affairs (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in title weight 40",
-        "event term: 'sanctions' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
-        "category: international-affairs (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
-        "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
-        "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-        "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
-        "Washington has not imposed sanctions after recent recommendations.",
-        "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
-        "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
-        "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
-          "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City."
-        ],
-        "body": [
-          "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-          "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
-          "Washington has not imposed sanctions after recent recommendations.",
-          "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
-          "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
-          "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "New York City"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
-            "source": "The Hindu",
-            "item_id": "eff212241d649d4f47e68c90:article",
-            "composed": false
-          },
-          {
-            "text": "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-            "source": "The Hindu",
-            "item_id": "eff212241d649d4f47e68c90:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "c3c0b9911f376b1e84fae8d1",
       "story_id": "c3c0b9911f376b1e84fae8d1",
       "headline": "India vs Germany: What happened the last time the teams met before Hockey World Cup clash",
@@ -966,7 +988,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1087,7 +1109,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (13 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1179,28 +1201,25 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "dade4f07673d5b387571fcb9",
-      "story_id": "dade4f07673d5b387571fcb9",
-      "headline": "Ports Governed By Major Port Trusts Act Liable To Pay Customs Duty On Pilfered Goods Under Customs Act : Supreme Court",
-      "title": "Ports Governed By Major Port Trusts Act Liable To Pay Customs Duty On Pilfered Goods Under Customs Act : Supreme Court",
+      "event_id": "6435f1f5d20f9eff587acd29",
+      "story_id": "6435f1f5d20f9eff587acd29",
+      "headline": "Delhi Court Convicts Sukesh Chandrashekhar For Impersonating Supreme Court Judge To Pressurize Judicial Officer To Grant Him Bail",
+      "title": "Delhi Court Convicts Sukesh Chandrashekhar For Impersonating Supreme Court Judge To Pressurize Judicial Officer To Grant Him Bail",
       "summary": "",
-      "url": "https://www.livelaw.in/supreme-court/ports-governed-by-major-port-trusts-act-liable-to-pay-customs-duty-on-pilfered-goods-under-customs-act-supreme-court-547527",
+      "url": "https://www.livelaw.in/news-updates/delhi-court-convicts-sukesh-chandrashekhar-impersonating-sc-judge-pressurize-judicial-officer-grant-bail-547476",
       "source": "LiveLaw",
       "primary_source": false,
       "tier": 3,
       "category": "courts-law",
-      "secondary_categories": [
-        "economy-finance",
-        "transport-infrastructure"
-      ],
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 70.0,
-      "priority_score": 45.0,
+      "score": 92.0,
+      "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T02:51:53+00:00",
-      "published_at": "2026-08-27T02:51:53+00:00",
-      "effective_at": "2026-08-27T02:51:53+00:00",
+      "event_time": "2026-08-27T04:57:49+00:00",
+      "published_at": "2026-08-27T04:57:49+00:00",
+      "effective_at": "2026-08-27T04:57:49+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "live-law": {
@@ -1222,76 +1241,166 @@
         "source: specialist (live-law) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
-        "event term: 'customs duty' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "delhi",
       "national_significance": true,
       "article_sentences": [
-        "The Supreme Court on Tuesday (August 25) upheld the Commissioner of Customs order of classifying the Mumbai Port Trust as a 'custodian' under the Customs Act for the purpose of paying duty on 'pilfered goods' i.e., loss or damage to stock in a warehouse or to cargo in transit.",
-        "The Court said that regardless of the fact that the Mumbai Port trust is governed by the Major Port Trusts Act, 1963, any liability for the pilfered goods would be payable by the port trust as a custodian under the Customs Act.",
-        "“Since the importer of the goods is not liable to pay the duty leviable on pilfered goods except when such goods are restored to the importer, the obligation is cast on the person approved by the Principal Commissioner of Customs or Commissioner of Customs as notified under sub-section (1) of Section 45 of the Customs Act to pay the duty on such pilfered goods.”, observed a bench of Justice BV Nagarathna and Justice Manmohan, while setting aside that part of the Bombay High Court's judgment which held the Custom's notification declaring the Respondent-Mumbai Port Trust as a custodian to be illegal.",
-        "The High Court said that the Mumbai Port Trust, being a statutory body constituted under the Major Port Trusts Act, 1963, could not be brought within the liability contemplated under Section 45 (3) of the Customs Act.",
-        "The provision entitles the department to seek recovery of customs duty from the custodian under in respect of imported goods allegedly pilfered while in its custody.",
-        "“...we are of the view that the Commissioner of Customs (Import) was fully justified in issuing the Notification dated 11.10.2000 approving the Mumbai Port Trust as the custodian under Section 45(1) of the Customs Act.",
-        "The High Court, therefore, was not justified in holding that the Commissioner lacked the jurisdiction to issue the said Notification and in quashing the same.”, the Court said, while upholding the validity of the notification declaring Mumbai Port trust as a custodian under the Customs Act.",
-        "The dispute arose from show-cause-cum-demand notices issued by the Customs authorities to the Port Trust between 1996 and 2000, seeking recovery of customs duty under Section 45(3) of the Customs Act in respect of imported goods allegedly pilfered while in its custody.",
-        "The Respondent-Mumbai Port Trust challenged the duty demands before the Bombay High Court, which ultimately held that Section 45(1) permitted approval only of a person who was otherwise responsible for the custody of imported goods and that the provision could not override the statutory framework governing the Port Trust i.e., Major Port Trusts Act, 1963.",
-        "The Union government challenged the decision before the Supreme Court.",
-        "Disagreeing with the High Court's approach, the judgment authored by Justice Nagarathna rejected the Respondent-port trust argument that about creation of an additional liability on them, which was otherwise not intended under the Customs Act, as the liability for the loss of goods is covered under the Major Port Trusts Act.",
-        "“If it is a case of loss of goods simpliciter then the provisions of the Major Port Trusts Act would apply having regard to the saving clause under sub-section (1) of Section 45 of the Act."
+        "A Delhi Court has convicted Sukesh Chandrashekhar for calling up a judicial officer who was presiding over a corruption case lodged against him, then impersonating a Supreme Court judge and pressurizing the trial judge to grant him bail further threatening the judicial officer with adverse professional ramifications if bail wasn't granted.",
+        "The allegation against Sukesh was that while in police custody in connection with a 2017 corruption case he obtained access to a constable's mobile phone in whose custody he was and thereafter used it to contact the official landline and mobile number of the judicial officer who was presiding over the corruption case.",
+        "\"There are cases which test the law.",
+        "There are cases which test the evidence.",
+        "And then there are cases which test the limits of human audacity and mendacity.",
+        "The present case belongs, rather unfortunately, to the last category as it presents a particularly disturbing instance of an alleged attempt to interfere with the administration of justice by approaching a Judicial Officer through an extraordinary and wholly impermissible method...\"",
+        "The court further noted that the accused allegedly tried to impersonate first as a Private Secretary of a then sitting Judge of the Supreme Court of India and later as the Judge himself and then sought to persuade the Judicial Officer to grant bail to the accused at the earliest.",
+        "\"The impersonator did not allegedly present himself as an ordinary citizen.",
+        "He borrowed the highest judicial authority in the land.",
+        "The purpose was apparently to create an aura of unquestionable command, where he was not merely asking a Judicial Officer to grant bail to the accused but was using the authority of a Judge of the Highest Court of the Land, to browbeat the Judicial Officer.",
+        "He allegedly threatened her with adverse professional ramifications if the indulgence of bail was not extended to the accused,\" the court added.",
+        "The CJM said that the present case was qualitatively different from an ordinary case of cheating or impersonation."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court on Tuesday (August 25) upheld the Commissioner of Customs order of classifying the Mumbai Port Trust as a 'custodian' under the Customs Act for the purpose of paying duty on 'pilfered goods' i.e., loss or damage to stock in a warehouse or to cargo in transit.",
-          "The Court said that regardless of the fact that the Mumbai Port trust is governed by the Major Port Trusts Act, 1963, any liability for the pilfered goods would be payable by the port trust as a custodian under the Customs Act."
+          "A Delhi Court has convicted Sukesh Chandrashekhar for calling up a judicial officer who was presiding over a corruption case lodged against him, then impersonating a Supreme Court judge and pressurizing the trial judge to grant him bail further threatening the judicial officer with adverse professional ramifications if bail wasn't granted.",
+          "The allegation against Sukesh was that while in police custody in connection with a 2017 corruption case he obtained access to a constable's mobile phone in whose custody he was and thereafter used it to contact the official landline and mobile number of the judicial officer who was presiding over the corruption case."
         ],
         "body": [
-          "“Since the importer of the goods is not liable to pay the duty leviable on pilfered goods except when such goods are restored to the importer, the obligation is cast on the person approved by the Principal Commissioner of Customs or Commissioner of Customs as notified under sub-section (1) of Section 45 of the Customs Act to pay the duty on such pilfered goods.”, observed a bench of Justice BV Nagarathna and Justice Manmohan, while setting aside that part of the Bombay High Court's judgment which held the Custom's notification declaring the Respondent-Mumbai Port Trust as a custodian to be illegal.",
-          "The High Court said that the Mumbai Port Trust, being a statutory body constituted under the Major Port Trusts Act, 1963, could not be brought within the liability contemplated under Section 45 (3) of the Customs Act.",
-          "The provision entitles the department to seek recovery of customs duty from the custodian under in respect of imported goods allegedly pilfered while in its custody.",
-          "“...we are of the view that the Commissioner of Customs (Import) was fully justified in issuing the Notification dated 11.10.2000 approving the Mumbai Port Trust as the custodian under Section 45(1) of the Customs Act.",
-          "The High Court, therefore, was not justified in holding that the Commissioner lacked the jurisdiction to issue the said Notification and in quashing the same.”, the Court said, while upholding the validity of the notification declaring Mumbai Port trust as a custodian under the Customs Act.",
-          "The dispute arose from show-cause-cum-demand notices issued by the Customs authorities to the Port Trust between 1996 and 2000, seeking recovery of customs duty under Section 45(3) of the Customs Act in respect of imported goods allegedly pilfered while in its custody.",
-          "The Respondent-Mumbai Port Trust challenged the duty demands before the Bombay High Court, which ultimately held that Section 45(1) permitted approval only of a person who was otherwise responsible for the custody of imported goods and that the provision could not override the statutory framework governing the Port Trust i.e., Major Port Trusts Act, 1963.",
-          "The Union government challenged the decision before the Supreme Court."
+          "\"There are cases which test the law.",
+          "And then there are cases which test the limits of human audacity and mendacity.",
+          "The present case belongs, rather unfortunately, to the last category as it presents a particularly disturbing instance of an alleged attempt to interfere with the administration of justice by approaching a Judicial Officer through an extraordinary and wholly impermissible method...\" The court further noted that the accused allegedly tried to impersonate first as a Private Secretary of a then sitting Judge of the Supreme Court of India and later as the Judge himself and then sought to persuade the Judicial Officer to grant bail to the accused at the earliest.",
+          "\"The impersonator did not allegedly present himself as an ordinary citizen.",
+          "He borrowed the highest judicial authority in the land.",
+          "The purpose was apparently to create an aura of unquestionable command, where he was not merely asking a Judicial Officer to grant bail to the accused but was using the authority of a Judge of the Highest Court of the Land, to browbeat the Judicial Officer.",
+          "He allegedly threatened her with adverse professional ramifications if the indulgence of bail was not extended to the accused,\" the court added.",
+          "The CJM said that the present case was qualitatively different from an ordinary case of cheating or impersonation."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The High Court said that the Mumbai Port Trust, being a statutory body constituted under the Major Port Trusts Act, 1963, could not be brought within the liability contemplated under Section 45 (3) of the Customs Act.",
+            "text": "The court further noted that the accused allegedly tried to impersonate first as a Private Secretary of a then sitting Judge of the Supreme Court of India and later as the Judge himself and then sought to persuade the Judicial Officer to grant bail to the accused at the earliest.",
             "source": "LiveLaw",
-            "item_id": "dade4f07673d5b387571fcb9:article",
+            "item_id": "6435f1f5d20f9eff587acd29:article",
             "composed": false
           },
           {
-            "text": "The Supreme Court on Tuesday (August 25) upheld the Commissioner of Customs order of classifying the Mumbai Port Trust as a 'custodian' under the Customs Act for the purpose of paying duty on 'pilfered goods' i.e., loss or damage to stock in a warehouse or to cargo in transit.",
+            "text": "The allegation against Sukesh was that while in police custody in connection with a 2017 corruption case he obtained access to a constable's mobile phone in whose custody he was and thereafter used it to contact the official landline and mobile number of the judicial officer who was presiding over the corruption case.",
             "source": "LiveLaw",
-            "item_id": "dade4f07673d5b387571fcb9:article",
-            "composed": false
-          },
-          {
-            "text": "“Since the importer of the goods is not liable to pay the duty leviable on pilfered goods except when such goods are restored to the importer, the obligation is cast on the person approved by the Principal Commissioner of Customs or Commissioner of Customs as notified under sub-section (1) of Section 45 of the Customs Act to pay the duty on such pilfered goods.”, observed a bench of Justice BV Nagarathna and Justice Manmohan, while setting aside that part of the Bombay High Court's judgment which held the Custom's notification declaring the Respondent-Mumbai Port Trust as a custodian to be illegal.",
-            "source": "LiveLaw",
-            "item_id": "dade4f07673d5b387571fcb9:article",
-            "composed": false
-          },
-          {
-            "text": "“...we are of the view that the Commissioner of Customs (Import) was fully justified in issuing the Notification dated 11.10.2000 approving the Mumbai Port Trust as the custodian under Section 45(1) of the Customs Act.",
-            "source": "LiveLaw",
-            "item_id": "dade4f07673d5b387571fcb9:article",
+            "item_id": "6435f1f5d20f9eff587acd29:article",
             "composed": false
           }
         ],
         "source": "LiveLaw",
         "corroborating": [],
-        "url": "https://www.livelaw.in/supreme-court/ports-governed-by-major-port-trusts-act-liable-to-pay-customs-duty-on-pilfered-goods-under-customs-act-supreme-court-547527"
+        "url": "https://www.livelaw.in/news-updates/delhi-court-convicts-sukesh-chandrashekhar-impersonating-sc-judge-pressurize-judicial-officer-grant-bail-547476"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "eff212241d649d4f47e68c90",
+      "story_id": "eff212241d649d4f47e68c90",
+      "headline": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
+      "title": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
+      "summary": "We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom ‌violations, including revoking the visa issued to Mohan Bhagwat, says Asif Mahmood, chair of the U.S. Commission on International Religious Freedom",
+      "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "international-affairs",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 66.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T02:27:51+00:00",
+      "published_at": "2026-08-27T02:27:51+00:00",
+      "effective_at": "2026-08-27T02:27:51+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: international-affairs (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'sanctions' in title weight 40",
+        "event term: 'sanctions' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (2.6h ago) +8",
+        "category: international-affairs (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
+        "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
+        "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
+        "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
+        "Washington has not imposed sanctions after recent recommendations.",
+        "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
+        "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
+        "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
+          "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City."
+        ],
+        "body": [
+          "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
+          "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
+          "Washington has not imposed sanctions after recent recommendations.",
+          "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
+          "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
+          "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "New York City"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
+            "source": "The Hindu",
+            "item_id": "eff212241d649d4f47e68c90:article",
+            "composed": false
+          },
+          {
+            "text": "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
+            "source": "The Hindu",
+            "item_id": "eff212241d649d4f47e68c90:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1343,7 +1452,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1463,7 +1572,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1607,7 +1716,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1728,7 +1837,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1860,7 +1969,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 41.2, score 41.2 -> HIGH"
@@ -2145,7 +2254,7 @@
         "event term: 'cloudburst' in summary weight 28.8",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 28.8, stack 39.2, score 39.2 -> HIGH"
