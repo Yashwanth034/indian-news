@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T10:02:32.635093+00:00",
-  "count": 20,
+  "generated_at": "2026-08-27T10:12:04.991765+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -25,7 +25,7 @@
       "event_time": "2026-08-27T05:00:40+00:00",
       "published_at": "2026-08-27T05:26:24+00:00",
       "effective_at": "2026-08-27T05:26:24+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -34,13 +34,6 @@
             "greater-kashmir"
           ],
           "count": 2
-        },
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
         },
         "ians": {
           "kind": "wire",
@@ -54,7 +47,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -69,14 +62,14 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -225,7 +218,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -374,7 +367,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -493,7 +486,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -614,7 +607,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -711,7 +704,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -752,121 +745,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "29d831feffa18c4aa3d67165",
-      "story_id": "29d831feffa18c4aa3d67165",
-      "headline": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "title": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:21:15+00:00",
-      "published_at": "2026-08-27T05:21:15+00:00",
-      "effective_at": "2026-08-27T05:21:15.702000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: fresh (4.7h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 19, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "assam",
-      "national_significance": true,
-      "article_sentences": [
-        "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-        "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar.",
-        "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-        "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-        "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-        "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-        "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-        "The rescue operation was extremely dangerous.",
-        "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-        "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives.",
-        "The team members reportedly had little food and water during the prolonged rescue operation, but they remained focused on saving those trapped in the floodwaters.",
-        "After stopping the operation around 2 am because of darkness and exhaustion, they returned the following morning to resume rescue efforts."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-          "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar."
-        ],
-        "body": [
-          "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-          "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-          "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-          "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-          "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-          "The rescue operation was extremely dangerous.",
-          "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-          "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bihubar Shiloni"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "more than 1,000 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
-            "composed": false
-          },
-          {
-            "text": "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "60f7b6cc6a9b5499925c2c9f",
@@ -914,7 +792,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1049,7 +927,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1132,7 +1010,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1212,6 +1090,132 @@
       "enrichment": "article"
     },
     {
+      "event_id": "c1a6b6e88a18f8f669169a5c",
+      "story_id": "c1a6b6e88a18f8f669169a5c",
+      "headline": "Karnataka to declare 101 taluks drought-hit as 32 more remain under review",
+      "title": "Karnataka to declare 101 taluks drought-hit as 32 more remain under review",
+      "summary": "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
+      "url": "https://www.nationalheraldindia.com/national/karnataka-to-declare-101-taluks-drought-hit-as-32-more-remain-under-review",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 66.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T09:50:52+00:00",
+      "published_at": "2026-08-27T09:50:52+00:00",
+      "effective_at": "2026-08-27T09:50:52.581000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'drought' in title weight 36",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: state scope (karnataka)",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "karnataka",
+      "national_significance": true,
+      "article_sentences": [
+        "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
+        "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management.",
+        "He maintained that there was no shortage of funds to protect residents and livestock from the impact of the rainfall deficit.",
+        "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
+        "Twenty-nine districts and 190 taluks have recorded deficient to large-deficient rainfall, while 12 taluks are experiencing a severe shortfall.",
+        "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
+        "The state subsequently carried out ground verification using the prescribed assessment parameters and found 101 taluks eligible to be declared drought-hit.",
+        "Another 32 taluks that qualified under Trigger-1 are being reassessed.",
+        "The conditions in the 101 taluks will be reviewed every 15 days after the formal declaration.",
+        "Similar verification has been conducted at the hobli level, and the data is being examined.",
+        "Under the drought manual, Trigger-1 applies to areas experiencing dry spells of at least three consecutive weeks.",
+        "Trigger-2 assesses sowing coverage, crop health, soil moisture, groundwater levels and water availability in tanks and reservoirs."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
+          "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management."
+        ],
+        "body": [
+          "He maintained that there was no shortage of funds to protect residents and livestock from the impact of the rainfall deficit.",
+          "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
+          "Twenty-nine districts and 190 taluks have recorded deficient to large-deficient rainfall, while 12 taluks are experiencing a severe shortfall.",
+          "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
+          "The state subsequently carried out ground verification using the prescribed assessment parameters and found 101 taluks eligible to be declared drought-hit.",
+          "Another 32 taluks that qualified under Trigger-1 are being reassessed.",
+          "The conditions in the 101 taluks will be reviewed every 15 days after the formal declaration.",
+          "Similar verification has been conducted at the hobli level, and the data is being examined."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Vidhana Soudha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
+            "source": "National Herald",
+            "item_id": "c1a6b6e88a18f8f669169a5c:article",
+            "composed": false
+          },
+          {
+            "text": "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
+            "source": "National Herald",
+            "item_id": "c1a6b6e88a18f8f669169a5c:article",
+            "composed": false
+          },
+          {
+            "text": "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
+            "source": "National Herald",
+            "item_id": "c1a6b6e88a18f8f669169a5c:article",
+            "composed": false
+          },
+          {
+            "text": "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management.",
+            "source": "National Herald",
+            "item_id": "c1a6b6e88a18f8f669169a5c:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/national/karnataka-to-declare-101-taluks-drought-hit-as-32-more-remain-under-review"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2fbc56e10c25e5681026d2dc",
       "story_id": "2fbc56e10c25e5681026d2dc",
       "headline": "India vs Germany, Hockey World Cup 2026: When and where to watch 5th/6th place classification match live",
@@ -1255,7 +1259,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1347,7 +1351,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1490,7 +1494,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1579,7 +1583,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1695,7 +1699,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1773,31 +1777,39 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "eff212241d649d4f47e68c90",
-      "story_id": "eff212241d649d4f47e68c90",
-      "headline": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
-      "title": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit",
-      "summary": "We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom ‌violations, including revoking the visa issued to Mohan Bhagwat, says Asif Mahmood, chair of the U.S. Commission on International Religious Freedom",
-      "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece",
-      "source": "The Hindu",
+      "event_id": "5e64152ba97e7214ee44cf9a",
+      "story_id": "5e64152ba97e7214ee44cf9a",
+      "headline": "J&K Deputy CM says Congress likely to join government soon, attacks BJP over ‘discrimination’ against Jammu",
+      "title": "J&K Deputy CM says Congress likely to join government soon, attacks BJP over ‘discrimination’ against Jammu",
+      "summary": "Srinagar, Aug 27: Jammu and Kashmir Deputy Chief Minister Surinder Choudhary said on Thursday that the Congress is expected to join the National Conference-led government soon, describing the move as a natural development given the two parties’ alliance. Choudhary said the National Conference had wanted Congress to become part of the government since the alliance was formed, but that the final decision had rested with the Congress. “As far as Congress is concerned, ever since this government was formed, when we entered into the alliance, it was our desire and we wanted Congress to join,” he said. “But Congress was unable to take a decision. Now Congress is taking a decision, and I think everyone should be happy because it is an alliance partner.” He said Congress joining the government would strengthen the administration and help it deliver for the people. “If Congress also comes in, the government will run with greater strength and we will be able to work for the people,” Choudhary said. “Because it is our alliance partner, they have a right to come into the government.” Asked what the National Conference was offering Congress, including the number of ministerial berths, Choudhary rejected the suggestion that the party was negotiating through inducements. “We are not BJP people. We are not like the BJP people who do horse-trading,” he said. “These are relationships of the heart. We are people who connect hearts, and decisions taken from the heart last long and are for the betterment of the people.” He added: “It does not happen that we will bring someone by giving them greed or temptation. This is the work of the BJP.” Deputy CM attacks BJP over Jammu ‘discrimination’ Choudhary also launched a broadside against the BJP, accusing it of failing to address what he described as discrimination against Jammu. Responding to BJP claims that a cabinet reshuffle could bring down the government, he said the BJP should focus instead on issues affecting the region. He questioned why, according to him, there was no Jammu-based professor serving as vice-chancellor at any of Jammu’s universities and why no local doctor had become director of AIIMS. “Is this not discrimination that professors and doctors from Jammu do not have the right to become vice-chancellors or directors?” he asked. “Are our professors so incompetent? Are our doctors so incompetent that they cannot become vice-chancellors? Can they not become directors of AIIMS, IIM or IIT?” He urged the media in Jammu to question the BJP on these issues rather than focus on the National Conference. “Tell them not to talk about things here and there. Tell them why discrimination against Jammu is still not ending,” he said. Choudhary also alleged that Jammu’s business sector was suffering and challenged the BJP to explain how it planned to revive trade and industry in the region. He referred to the ₹28,000-crore industrial package for Jammu and Kashmir and questioned whether existing industries in Jammu had benefited from it. “Go to the Gangyal Industrial Estate, go to Bari Brahmana Industrial Estate, go to Samba, go to Kathua and wherever our industrial estates are,” he said. “Ask whether the old industries of Jammu and Kashmir have received anything from the package. Nothing has been given.” Power tariffs, inflation and cost of living The Deputy Chief Minister also defended the government on electricity tariffs, arguing that the issue should be viewed against the record of the previous BJP-PDP administration. “You should compare the last 12 years,” he said. “Find out how much electricity rates increased during the BJP period and how high electricity bills were.” He also pointed to the government’s electricity amnesty measures and challenged the BJP to answer questions about the rising prices of basic commodities. “Ask the BJP people how much sugar costs. Is it ₹70 or ₹75 a kilo?” he said. “Ask them how much pulses cost. Ask them the price of vegetables and onions.” Choudhary said the impact of inflation was particularly severe on ordinary households. “For a poor man who has only one bulb, what does he know whether the bill is bigger or smaller?” he said. “He knows the price of the sugar he needs for his tea.” He also accused the BJP of failing to address rising education and healthcare costs. “Ask them why fees in universities have increased,” he said. “Ask them about the fees in hospitals. These are important issues.” ‘We will take back Article 370 and statehood’ On Article 370 and statehood, Choudhary said the National Conference remained committed to restoring Jammu and Kashmir’s special status and statehood. “We will take back 370. We will take back special status. We will protect our children’s jobs and will not allow our poor people’s land to be taken by outsiders,” he said. He argued that the BJP had itself made commitments regarding employment and land during the parliamentary debate following the 2019 changes. “This was a promise made by the BJP,” Choudhary said. “It was said in Parliament that the jobs of Jammu and Kashmir would not be taken by outsiders and the land of the people of Jammu and Kashmir would not be taken by outsiders.” He said the BJP therefore had an even greater responsibility to address the issues of special status and statehood. ‘Stop counting the sacrifices of children’ Choudhary also criticised BJP leader Ashok Kaul over remarks concerning the number of BJP children who had died during militancy. He said the deaths of young people should not be turned into a political calculation. “A child may belong to a poor family, a child may be a BJP worker’s child, a child may be from the National Conference, PDP, Congress or any other party, or even an ordinary person’s child—if someone is killed in militancy, it is a matter of great sorrow,” he said. “What kind of counting is this that you have started, Ashok Kaul sahib?” he asked. He also questioned BJP leaders over their participation, or that of their children, in the Ram temple movement and said political leaders should stop comparing sacrifices. “Stop talking about the sacrifices and martyrdom of children,” he said, urging the BJP to instead answer questions about Jammu and Kashmir. BJP challenged over unemployment and vacant posts Choudhary further challenged the BJP to explain its record on unemployment and the regularisation of temporary workers. Ahead of the BJP’s proposed September 2 protest at the Civil Secretariat, he asked the party to explain why vacant posts had not been filled over the past 12 years. “Ask them why they did not fill them,” he said, referring to vacant government posts. He also questioned why various categories of temporary workers—including SPOs, Home Guards, daily wagers and workers associated with horticulture, agriculture and other departments—had not been regularised. “They talk about unemployment. Ask them, you had promised that you would provide two crore jobs,” Choudhary said. “Of that two crore, what share did Jammu and Kashmir get?” He also invoked the BJP’s earlier promise of depositing ₹15 lakh in people’s bank accounts, saying the party should fulfil that promise before coming to the Civil Secretariat. ‘We are politicians; we move towards the destination’ On speculation about internal divisions within the National Conference and whether political developments could affect the party, Choudhary said his focus remained on fulfilling the commitments made to the people. “We are politicians. We move towards the destination,” he said. “We do not calculate into plus or minus. We know that the destination is in front of us, and that destination is one—to work for the welfare of the people and fulfil the promises we have made.” Choudhary also dismissed suggestions that he was afraid of the BJP, pointing out that he had previously defeated its state president. “If I was afraid of the BJP, I would not have left after defeating its state president,” he said.",
+      "url": "https://www.greaterkashmir.com/jammu-kashmir/jk-deputy-cm-says-congress-likely-to-join-government-soon-attacks-bjp-over-discrimination-against-jammu-12443900",
+      "source": "Greater Kashmir",
       "primary_source": false,
       "tier": 2,
-      "category": "international-affairs",
-      "secondary_categories": [],
+      "category": "national-politics",
+      "secondary_categories": [
+        "economy-finance",
+        "health",
+        "education",
+        "jobs-employment",
+        "government-policy",
+        "energy-environment",
+        "agriculture-rural"
+      ],
       "confidence": "medium",
-      "score": 66.0,
-      "priority_score": 45.0,
+      "score": 83.4,
+      "priority_score": 44.4,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:31:02+00:00",
-      "published_at": "2026-08-27T04:31:02+00:00",
-      "effective_at": "2026-08-27T04:31:02+00:00",
+      "event_time": "2026-08-27T10:08:38+00:00",
+      "published_at": "2026-08-27T10:08:38+00:00",
+      "effective_at": "2026-08-27T10:08:38+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -1807,73 +1819,130 @@
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
-        "category: international-affairs (importance 1.1, urgent=False)",
+        "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in title weight 40",
-        "event term: 'sanctions' in summary weight 24",
-        "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
-        "category: international-affairs (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
+        "event term: 'inflation' in summary weight 21.6",
+        "event term: 'final' in summary weight 6",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 24, stack 44.4, score 44.4 -> HIGH"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
       "national_significance": true,
-      "article_sentences": [
-        "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
-        "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
-        "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-        "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
-        "Washington has not imposed sanctions after recent recommendations.",
-        "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
-        "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
-        "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
-      ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "A U.S. panel on religious freedom has expressed concern over RSS chief Mohan Bhagwat’s visit to the U.S. and urged sanctions against members of the organisation, which it described as the ideological parent of the ruling Bharatiya Janata Party (BJP).",
-          "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City."
+          "Srinagar, Aug 27: Jammu and Kashmir Deputy Chief Minister Surinder Choudhary said on Thursday that the Congress is expected to join the National Conference-led government soon, describing the move as a natural development given the two parties’ alliance.",
+          "Choudhary said the National Conference had wanted Congress to become part of the government since the alliance was formed, but that the final decision had rested with the Congress."
         ],
         "body": [
-          "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-          "USCIRF is a bipartisan body of the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding.",
-          "Washington has not imposed sanctions after recent recommendations.",
-          "The External Affairs Ministry dismissed the panel’s assertions, casting USCIRF as biased against India.",
-          "Rights groups say the RSS promotes majoritarian ideology fueling intolerance towards minorities.",
-          "The RSS disputes being intolerant and says it is a “Hindu-centric civilisational, cultural movement” that wants to take India “to the pinnacle of glory,” including by uniting Hindus."
+          "“As far as Congress is concerned, ever since this government was formed, when we entered into the alliance, it was our desire and we wanted Congress to join,” he said.",
+          "“But Congress was unable to take a decision.",
+          "Now Congress is taking a decision, and I think everyone should be happy because it is an alliance partner.” He said Congress joining the government would strengthen the administration and help it deliver for the people.",
+          "“If Congress also comes in, the government will run with greater strength and we will be able to work for the people,” Choudhary said.",
+          "“Because it is our alliance partner, they have a right to come into the government.” Asked what the National Conference was offering Congress, including the number of ministerial berths, Choudhary rejected the suggestion that the party was negotiating through inducements.",
+          "“We are not BJP people.",
+          "We are not like the BJP people who do horse-trading,” he said.",
+          "“These are relationships of the heart.",
+          "We are people who connect hearts, and decisions taken from the heart last long and are for the betterment of the people.” He added: “It does not happen that we will bring someone by giving them greed or temptation.",
+          "This is the work of the BJP.” Deputy CM attacks BJP over Jammu ‘discrimination’ Choudhary also launched a broadside against the BJP, accusing it of failing to address what he described as discrimination against Jammu.",
+          "Responding to BJP claims that a cabinet reshuffle could bring down the government, he said the BJP should focus instead on issues affecting the region.",
+          "He questioned why, according to him, there was no Jammu-based professor serving as vice-chancellor at any of Jammu’s universities and why no local doctor had become director of AIIMS.",
+          "“Is this not discrimination that professors and doctors from Jammu do not have the right to become vice-chancellors or directors?” he asked.",
+          "“Are our professors so incompetent?",
+          "Are our doctors so incompetent that they cannot become vice-chancellors?",
+          "Can they not become directors of AIIMS, IIM or IIT?” He urged the media in Jammu to question the BJP on these issues rather than focus on the National Conference.",
+          "“Tell them not to talk about things here and there.",
+          "Tell them why discrimination against Jammu is still not ending,” he said.",
+          "Choudhary also alleged that Jammu’s business sector was suffering and challenged the BJP to explain how it planned to revive trade and industry in the region.",
+          "He referred to the ₹28,000-crore industrial package for Jammu and Kashmir and questioned whether existing industries in Jammu had benefited from it.",
+          "“Go to the Gangyal Industrial Estate, go to Bari Brahmana Industrial Estate, go to Samba, go to Kathua and wherever our industrial estates are,” he said.",
+          "“Ask whether the old industries of Jammu and Kashmir have received anything from the package.",
+          "Nothing has been given.” Power tariffs, inflation and cost of living.",
+          "The Deputy Chief Minister also defended the government on electricity tariffs, arguing that the issue should be viewed against the record of the previous BJP-PDP administration.",
+          "“You should compare the last 12 years,” he said.",
+          "“Find out how much electricity rates increased during the BJP period and how high electricity bills were.” He also pointed to the government’s electricity amnesty measures and challenged the BJP to answer questions about the rising prices of basic commodities.",
+          "“Ask the BJP people how much sugar costs.",
+          "Is it ₹70 or ₹75 a kilo?” he said.",
+          "“Ask them how much pulses cost.",
+          "Ask them the price of vegetables and onions.” Choudhary said the impact of inflation was particularly severe on ordinary households.",
+          "“For a poor man who has only one bulb, what does he know whether the bill is bigger or smaller?” he said.",
+          "“He knows the price of the sugar he needs for his tea.” He also accused the BJP of failing to address rising education and healthcare costs.",
+          "“Ask them why fees in universities have increased,” he said.",
+          "“Ask them about the fees in hospitals.",
+          "These are important issues.” ‘We will take back Article 370 and statehood’ On Article 370 and statehood, Choudhary said the National Conference remained committed to restoring Jammu and Kashmir’s special status and statehood.",
+          "“We will take back 370.",
+          "We will take back special status.",
+          "We will protect our children’s jobs and will not allow our poor people’s land to be taken by outsiders,” he said.",
+          "He argued that the BJP had itself made commitments regarding employment and land during the parliamentary debate following the 2019 changes.",
+          "“This was a promise made by the BJP,” Choudhary said.",
+          "“It was said in Parliament that the jobs of Jammu and Kashmir would not be taken by outsiders and the land of the people of Jammu and Kashmir would not be taken by outsiders.” He said the BJP therefore had an even greater responsibility to address the issues of special status and statehood.",
+          "‘Stop counting the sacrifices of children’ Choudhary also criticised BJP leader Ashok Kaul over remarks concerning the number of BJP children who had died during militancy.",
+          "He said the deaths of young people should not be turned into a political calculation.",
+          "“A child may belong to a poor family, a child may be a BJP worker’s child, a child may be from the National Conference, PDP, Congress or any other party, or even an ordinary person’s child—if someone is killed in militancy, it is a matter of great sorrow,” he said.",
+          "“What kind of counting is this that you have started, Ashok Kaul sahib?” he asked.",
+          "He also questioned BJP leaders over their participation, or that of their children, in the Ram temple movement and said political leaders should stop comparing sacrifices.",
+          "“Stop talking about the sacrifices and martyrdom of children,” he said, urging the BJP to instead answer questions about Jammu and Kashmir.",
+          "BJP challenged over unemployment and vacant posts Choudhary further challenged the BJP to explain its record on unemployment and the regularisation of temporary workers.",
+          "Ahead of the BJP’s proposed September 2 protest at the Civil Secretariat, he asked the party to explain why vacant posts had not been filled over the past 12 years.",
+          "“Ask them why they did not fill them,” he said, referring to vacant government posts.",
+          "He also questioned why various categories of temporary workers—including SPOs, Home Guards, daily wagers and workers associated with horticulture, agriculture and other departments—had not been regularised.",
+          "“They talk about unemployment.",
+          "Ask them, you had promised that you would provide two crore jobs,” Choudhary said.",
+          "“Of that two crore, what share did Jammu and Kashmir get?” He also invoked the BJP’s earlier promise of depositing ₹15 lakh in people’s bank accounts, saying the party should fulfil that promise before coming to the Civil Secretariat.",
+          "‘We are politicians; we move towards the destination’ On speculation about internal divisions within the National Conference and whether political developments could affect the party, Choudhary said his focus remained on fulfilling the commitments made to the people.",
+          "“We are politicians.",
+          "We move towards the destination,” he said.",
+          "“We do not calculate into plus or minus.",
+          "We know that the destination is in front of us, and that destination is one—to work for the welfare of the people and fulfil the promises we have made.” Choudhary also dismissed suggestions that he was afraid of the BJP, pointing out that he had previously defeated its state president.",
+          "“If I was afraid of the BJP, I would not have left after defeating its state president,” he said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "New York City"
+            "text": "Jammu"
           }
         ],
         "sentences": [
           {
-            "text": "Mohan Bhagwat, chief of the RSS, is on a U.S. visit and is scheduled to speak at a Saturday (August 29, 2026) event in New York City.",
-            "source": "The Hindu",
-            "item_id": "eff212241d649d4f47e68c90:article",
+            "text": "Ahead of the BJP’s proposed September 2 protest at the Civil Secretariat, he asked the party to explain why vacant posts had not been filled over the past 12 years.",
+            "source": "Greater Kashmir",
+            "item_id": "5e64152ba97e7214ee44cf9a",
             "composed": false
           },
           {
-            "text": "“We urge the U.S. government to consider targeted sanctions against RSS members and Indian officials complicit in religious freedom violations, including revoking the visa issued to Mohan Bhagwat,” Asif Mahmood, chair of the U.S. Commission on International Religious Freedom, said in a statement on Wednesday (August 26).",
-            "source": "The Hindu",
-            "item_id": "eff212241d649d4f47e68c90:article",
+            "text": "“A child may belong to a poor family, a child may be a BJP worker’s child, a child may be from the National Conference, PDP, Congress or any other party, or even an ordinary person’s child—if someone is killed in militancy, it is a matter of great sorrow,” he said.",
+            "source": "Greater Kashmir",
+            "item_id": "5e64152ba97e7214ee44cf9a",
+            "composed": false
+          },
+          {
+            "text": "Srinagar, Aug 27: Jammu and Kashmir Deputy Chief Minister Surinder Choudhary said on Thursday that the Congress is expected to join the National Conference-led government soon, describing the move as a natural development given the two parties’ alliance.",
+            "source": "Greater Kashmir",
+            "item_id": "5e64152ba97e7214ee44cf9a",
+            "composed": false
+          },
+          {
+            "text": "He referred to the ₹28,000-crore industrial package for Jammu and Kashmir and questioned whether existing industries in Jammu had benefited from it.",
+            "source": "Greater Kashmir",
+            "item_id": "5e64152ba97e7214ee44cf9a",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-urges-sanctions-on-rss-members-over-mohan-bhagwat-visit/article71394840.ece"
+        "url": "https://www.greaterkashmir.com/jammu-kashmir/jk-deputy-cm-says-congress-likely-to-join-government-soon-attacks-bjp-over-discrimination-against-jammu-12443900"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "03af0e818b193adc03d0c447",
@@ -1913,7 +1982,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (goa)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "geo: state",
         "dominant event 44, stack 12, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2012,7 +2081,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2056,101 +2125,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-stays-bci-order-debarring-former-judicial-officer-from-practice-547523"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "a24e046d3e27cae0ed9bc1fc",
-      "story_id": "a24e046d3e27cae0ed9bc1fc",
-      "headline": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "title": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": null,
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:13:34+00:00",
-      "published_at": "2026-08-27T05:13:34+00:00",
-      "effective_at": "2026-08-27T05:13:34.907000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'disaster'",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (meghalaya)",
-        "recency: fresh (4.8h ago) +4",
-        "geo: national significance (local/state event)",
-        "dominant event 44, stack 13, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "state",
-      "state": "meghalaya",
-      "national_significance": true,
-      "article_sentences": [
-        "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-        "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-        "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\"",
-        "\"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-        "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities.",
-        "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-          "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone."
-        ],
-        "body": [
-          "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\" \"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-          "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-        ],
-        "bullets": [
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          },
-          {
-            "text": "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -2205,7 +2179,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
