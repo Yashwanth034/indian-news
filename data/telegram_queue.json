@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T05:53:06.503482+00:00",
-  "count": 24,
+  "generated_at": "2026-08-27T06:03:21.225351+00:00",
+  "count": 23,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -35,12 +35,13 @@
           ],
           "count": 2
         },
-        "sentinel-assam": {
-          "kind": "independent",
+        "ians": {
+          "kind": "wire",
           "source_ids": [
-            "sentinel-assam"
+            "hans-india",
+            "telangana-today"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -62,14 +63,14 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 3 copies, primary source counted once",
+        "source: event has 4 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -261,7 +262,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (17.2h ago) +4",
+        "recency: fresh (17.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -441,7 +442,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -501,31 +502,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "29d831feffa18c4aa3d67165",
-      "story_id": "29d831feffa18c4aa3d67165",
-      "headline": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "title": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood",
-      "source": "The Sentinel (Assam)",
+      "event_id": "17fca40a10903591300da9ac",
+      "story_id": "17fca40a10903591300da9ac",
+      "headline": "Nepal floods: From rescue to relief, India’s armed forces spring to action",
+      "title": "Nepal floods: From rescue to relief, India’s armed forces spring to action",
+      "summary": "India's armed forces have repeatedly aided nations facing distress. These missions showcase rapid mobilization and response capabilities. From natural disasters to evacuations, India acts as a first responder. The nation has demonstrated power projection and humanitarian assistance. These operations highlight India's global role and commitment.",
+      "url": "https://timesofindia.indiatimes.com/defence/news/nepal-floods-from-rescue-to-relief-indias-armed-forces-spring-to-action/articleshow/133557646.cms",
+      "source": "Times of India",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:21:15+00:00",
-      "published_at": "2026-08-27T05:21:15+00:00",
-      "effective_at": "2026-08-27T05:21:15.702000+00:00",
+      "event_time": "2026-08-27T05:45:24+00:00",
+      "published_at": "2026-08-27T05:45:24+00:00",
+      "effective_at": "2026-08-27T05:45:24+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "times-of-india"
           ],
           "count": 1
         }
@@ -536,84 +537,54 @@
         "major: geo national significance",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'flood'",
+        "major: significance event 'floods'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
+        "source: tier 2 (times-of-india) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: breaking (0.5h ago) +8",
+        "event term: 'floods' in title weight 64",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "geo: national",
+        "dominant event 64, stack 30, score 64 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "assam",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
-      "article_sentences": [
-        "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-        "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar.",
-        "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-        "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-        "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-        "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-        "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-        "The rescue operation was extremely dangerous.",
-        "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-        "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives.",
-        "The team members reportedly had little food and water during the prolonged rescue operation, but they remained focused on saving those trapped in the floodwaters.",
-        "After stopping the operation around 2 am because of darkness and exhaustion, they returned the following morning to resume rescue efforts."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-          "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar."
+          "India's armed forces have repeatedly aided nations facing distress.",
+          "These missions showcase rapid mobilization and response capabilities."
         ],
         "body": [
-          "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-          "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-          "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-          "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-          "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-          "The rescue operation was extremely dangerous.",
-          "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-          "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives."
+          "From natural disasters to evacuations, India acts as a first responder.",
+          "The nation has demonstrated power projection and humanitarian assistance.",
+          "These operations highlight India's global role and commitment."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bihubar Shiloni"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "more than 1,000 people"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
+            "text": "India's armed forces have repeatedly aided nations facing distress.",
+            "source": "Times of India",
+            "item_id": "17fca40a10903591300da9ac",
             "composed": false
           },
           {
-            "text": "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
+            "text": "From natural disasters to evacuations, India acts as a first responder.",
+            "source": "Times of India",
+            "item_id": "17fca40a10903591300da9ac",
             "composed": false
           }
         ],
-        "source": "The Sentinel (Assam)",
+        "source": "Times of India",
         "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood"
+        "url": "https://timesofindia.indiatimes.com/defence/news/nepal-floods-from-rescue-to-relief-indias-armed-forces-spring-to-action/articleshow/133557646.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "589418f57a51a51d642bad9b",
@@ -660,7 +631,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -778,7 +749,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -908,7 +879,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -989,7 +960,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (kerala)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -1105,7 +1076,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 64, stack 32.8, score 64 -> URGENT"
@@ -1230,7 +1201,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1346,7 +1317,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1462,7 +1433,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1581,7 +1552,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1684,7 +1655,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1805,7 +1776,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (13 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1938,7 +1909,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2045,7 +2016,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -2165,7 +2136,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2307,7 +2278,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2322,7 +2293,7 @@
         "Challenging the BCI's order, the petitioner, in his plea, claimed that he was not given an opportunity to defend himself, violating the principles of natural justice.",
         "Senior Advocate Vivek Tankha appeared for the former judicial officer, and based on his submissions, the bench stayed the BCI's order."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court recently stayed the order passed by the Bar Council of India permanently debarring Madhya Pradesh-based advocate and former judicial officer, Narendra Kumar Jain, from practising law over his alleged unwarranted remarks on the judiciary.",
@@ -2351,101 +2322,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-stays-bci-order-debarring-former-judicial-officer-from-practice-547523"
-      },
-      "group_size": 1,
-      "label": "⚡ JUST IN",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "a24e046d3e27cae0ed9bc1fc",
-      "story_id": "a24e046d3e27cae0ed9bc1fc",
-      "headline": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "title": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": null,
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:13:34+00:00",
-      "published_at": "2026-08-27T05:13:34+00:00",
-      "effective_at": "2026-08-27T05:13:34.907000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'disaster'",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (meghalaya)",
-        "recency: breaking (0.7h ago) +8",
-        "geo: national significance (local/state event)",
-        "dominant event 44, stack 17, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "state",
-      "state": "meghalaya",
-      "national_significance": true,
-      "article_sentences": [
-        "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-        "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-        "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\"",
-        "\"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-        "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities.",
-        "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-          "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone."
-        ],
-        "body": [
-          "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\" \"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-          "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-        ],
-        "bullets": [
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          },
-          {
-            "text": "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -2495,7 +2371,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2616,7 +2492,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2748,7 +2624,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 41.2, score 41.2 -> HIGH"
@@ -3032,7 +2908,7 @@
         "event term: 'cloudburst' in summary weight 28.8",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 28.8, stack 39.2, score 39.2 -> HIGH"
