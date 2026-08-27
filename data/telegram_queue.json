@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T10:32:12.407783+00:00",
-  "count": 20,
+  "generated_at": "2026-08-27T10:41:43.057122+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -25,7 +25,7 @@
       "event_time": "2026-08-27T05:00:40+00:00",
       "published_at": "2026-08-27T05:26:24+00:00",
       "effective_at": "2026-08-27T05:26:24+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -34,13 +34,6 @@
             "greater-kashmir"
           ],
           "count": 2
-        },
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
         },
         "ians": {
           "kind": "wire",
@@ -54,7 +47,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -69,14 +62,14 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -225,7 +218,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -373,7 +366,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -448,6 +441,122 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "1fe8dc3dfe8db45acb5e922f",
+      "story_id": "1fe8dc3dfe8db45acb5e922f",
+      "headline": "Nepal floods: Mallikarjun Kharge seeks Centre’s intervention for victims, dismisses State cabinet reshuffle talk",
+      "title": "Nepal floods: Mallikarjun Kharge seeks Centre’s intervention for victims, dismisses State cabinet reshuffle talk",
+      "summary": "The veteran leader said he would write a formal letter to PM Modi seeking his intervention for comprehensive compensation and assistance measures for affected families.",
+      "url": "https://www.thehindu.com/news/national/karnataka/nepal-floods-mallikarjun-kharge-seeks-centres-intervention-for-victims-dismisses-state-cabinet-reshuffle-talk/article71395840.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 74.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T02:30:12+00:00",
+      "published_at": "2026-08-27T10:34:09+00:00",
+      "effective_at": "2026-08-27T10:34:09+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "idrw"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "scale: national scope",
+        "recency: fresh (8.2h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 32, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Expressing deep anguish over the severe flooding and flash floods in Nepal, All India Congress Committee (AICC) President and Leader of Opposition in Rajya Sabha Mallikarjun Kharge on Thursday (August 27, 2026) urged the Union Government to step in immediately to assist stranded tourists and pilgrims from India, including those from Karnataka.",
+        "Speaking to media representatives at the Kalaburagi Airport, the veteran leader said that he would write a formal letter to Prime Minister Narendra Modi seeking his intervention for comprehensive compensation and assistance measures for affected families.",
+        "Mr. Kharge noted that the catastrophic deluge in Nepal has affected numerous citizens from across the country, with hundreds caught in the deluge, several lives lost, and many reported missing.",
+        "He extended his heartfelt condolences to the families of those who died in the natural calamity.",
+        "Emphasising the close bilateral relations between the two nations, Mr. Kharge urged the Indian government to extend substantial relief aid to Nepal to support search, rescue, and rehabilitation efforts alongside the foreign administration.",
+        "Responding to the queries around political developments in the State, Mr. Kharge firmly dismissed widespread speculation regarding an imminent cabinet reshuffle or organisational changes in the Karnataka government.",
+        "He clarified that decisions concerning ministerial appointments, portfolio reallocations, or cabinet changes fall strictly under the purview of the party’s central leadership.",
+        "“Any inclusion to or removal from the cabinet will have to be done with my consultation.",
+        "I have received no proposal on the matter,” he said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Expressing deep anguish over the severe flooding and flash floods in Nepal, All India Congress Committee (AICC) President and Leader of Opposition in Rajya Sabha Mallikarjun Kharge on Thursday (August 27, 2026) urged the Union Government to step in immediately to assist stranded tourists and pilgrims from India, including those from Karnataka.",
+          "Speaking to media representatives at the Kalaburagi Airport, the veteran leader said that he would write a formal letter to Prime Minister Narendra Modi seeking his intervention for comprehensive compensation and assistance measures for affected families."
+        ],
+        "body": [
+          "Mr. Kharge noted that the catastrophic deluge in Nepal has affected numerous citizens from across the country, with hundreds caught in the deluge, several lives lost, and many reported missing.",
+          "He extended his heartfelt condolences to the families of those who died in the natural calamity.",
+          "Emphasising the close bilateral relations between the two nations, Mr. Kharge urged the Indian government to extend substantial relief aid to Nepal to support search, rescue, and rehabilitation efforts alongside the foreign administration.",
+          "Responding to the queries around political developments in the State, Mr. Kharge firmly dismissed widespread speculation regarding an imminent cabinet reshuffle or organisational changes in the Karnataka government.",
+          "He clarified that decisions concerning ministerial appointments, portfolio reallocations, or cabinet changes fall strictly under the purview of the party’s central leadership.",
+          "“Any inclusion to or removal from the cabinet will have to be done with my consultation.",
+          "I have received no proposal on the matter,” he said.",
+          "The veteran leader said he would write a formal letter to PM Modi seeking his intervention for comprehensive compensation and assistance measures for affected families."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Expressing deep anguish over the severe flooding and flash floods in Nepal, All India Congress Committee (AICC) President and Leader of Opposition in Rajya Sabha Mallikarjun Kharge on Thursday (August 27, 2026) urged the Union Government to step in immediately to assist stranded tourists and pilgrims from India, including those from Karnataka.",
+            "source": "The Hindu",
+            "item_id": "1fe8dc3dfe8db45acb5e922f:article",
+            "composed": false
+          },
+          {
+            "text": "Mr. Kharge noted that the catastrophic deluge in Nepal has affected numerous citizens from across the country, with hundreds caught in the deluge, several lives lost, and many reported missing.",
+            "source": "The Hindu",
+            "item_id": "1fe8dc3dfe8db45acb5e922f:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/karnataka/nepal-floods-mallikarjun-kharge-seeks-centres-intervention-for-victims-dismisses-state-cabinet-reshuffle-talk/article71395840.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "e551e56a201df69a68753d65",
       "story_id": "e551e56a201df69a68753d65",
       "headline": "Nepal flood: Keralam starts help desk to provide emergency assisstance to stranded people",
@@ -492,7 +601,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -619,7 +728,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -693,238 +802,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "04d7a023f4d486c25c7216e8",
-      "story_id": "04d7a023f4d486c25c7216e8",
-      "headline": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
-      "title": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
-      "summary": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists. The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
-      "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 62.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:35:52+00:00",
-      "published_at": "2026-08-27T04:35:52+00:00",
-      "effective_at": "2026-08-27T04:35:52+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
-          "The operation unfolded as deaths, missing persons and damage mounted across Nepal."
-        ],
-        "body": [
-          "Part of a glacier broke off and crashed on to the valley floor, experts say.",
-          "Satellite images show green mountainside now buried in debris and sediment."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "123 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
-            "source": "Business Today",
-            "item_id": "04d7a023f4d486c25c7216e8",
-            "composed": false
-          },
-          {
-            "text": "The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
-            "source": "Business Today",
-            "item_id": "04d7a023f4d486c25c7216e8",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [
-          "Deccan Chronicle"
-        ],
-        "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "60f7b6cc6a9b5499925c2c9f",
-      "story_id": "60f7b6cc6a9b5499925c2c9f",
-      "headline": "'Lost 80 people': Sadhguru seeks China approval to search for missing pilgrims in flood-hit Gyirong",
-      "title": "'Lost 80 people': Sadhguru seeks China approval to search for missing pilgrims in flood-hit Gyirong",
-      "summary": "Gyirong floods: Shortly after the incident, the Isha Foundation founder said 77 pilgrims from one of his Kailash pilgrimage groups were at an immigration centre in the town when floodwaters surged through the building as they were returning from the pilgrimage.",
-      "url": "https://www.businesstoday.in/world/story/lost-80-people-sadhguru-seeks-china-approval-to-search-for-missing-pilgrims-in-flood-hit-gyirong-551660-2026-08-27",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:05:30+00:00",
-      "published_at": "2026-08-27T05:05:30+00:00",
-      "effective_at": "2026-08-27T05:05:30+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Gyirong floods: Shortly after the incident, the Isha Foundation founder said 77 pilgrims from one of his Kailash pilgrimage groups were at an immigration centre in the town when floodwaters surged through the building as they were returning from the pilgrimage.",
-        "The appeal came a day after the flood struck Gyirong on Wednesday.",
-        "Gyirong floods latest: Spiritual leader Sadhguru Jaggi Vasudev on Thursday appealed to Chinese authorities to allow him and a small team of volunteers to travel to Gyirong to assist in the search for 80 pilgrims who went missing after a devastating flash flood and mudslide swept through the town on the Nepal-Tibet border.",
-        "He said there had been no further information about the missing people following the disaster.",
-        "In his appeal to the authorities, Sadhguru said he was writing “in absolute pain” over \"losing 80 people from our group in the floods in Gyirong.",
-        "We have no further information after the floods.\"",
-        "Shortly after the incident, the Isha Foundation founder said 77 pilgrims from one of his Kailash pilgrimage groups were at an immigration centre in the town when floodwaters surged through the building as they were returning from the pilgrimage.",
-        "Sadhguru said he and the families of the missing pilgrims were seeking permission to travel to Gyirong to assist with the search.",
-        "“We deeply respect and understand the nature of the rescue efforts and will in no way hamper them.",
-        "Our only intent is to stand with them and aid in looking for some signs that would help the families,” Sadhguru said in his appeal to the authorities.",
-        "In an earlier post on X, Sadhguru said, “A terrible and tragic flash flood has taken place at Gyirong in Tibet - China, and one of our Kailash groups was caught in it.” He said the pilgrims were at the immigration office while returning from the pilgrimage when the flood occurred and that “the building and much of the town seems to have been flooded”.",
-        "He added, “There has been no official information on the whereabouts of any of the people who were at the immigration office,” and said volunteers and support teams were working with authorities to reach the affected location."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Gyirong floods: Shortly after the incident, the Isha Foundation founder said 77 pilgrims from one of his Kailash pilgrimage groups were at an immigration centre in the town when floodwaters surged through the building as they were returning from the pilgrimage.",
-          "The appeal came a day after the flood struck Gyirong on Wednesday."
-        ],
-        "body": [
-          "Gyirong floods latest: Spiritual leader Sadhguru Jaggi Vasudev on Thursday appealed to Chinese authorities to allow him and a small team of volunteers to travel to Gyirong to assist in the search for 80 pilgrims who went missing after a devastating flash flood and mudslide swept through the town on the Nepal-Tibet border.",
-          "He said there had been no further information about the missing people following the disaster.",
-          "In his appeal to the authorities, Sadhguru said he was writing “in absolute pain” over \"losing 80 people from our group in the floods in Gyirong.",
-          "Sadhguru said he and the families of the missing pilgrims were seeking permission to travel to Gyirong to assist with the search.",
-          "“We deeply respect and understand the nature of the rescue efforts and will in no way hamper them.",
-          "Our only intent is to stand with them and aid in looking for some signs that would help the families,” Sadhguru said in his appeal to the authorities.",
-          "In an earlier post on X, Sadhguru said, “A terrible and tragic flash flood has taken place at Gyirong in Tibet - China, and one of our Kailash groups was caught in it.” He said the pilgrims were at the immigration office while returning from the pilgrimage when the flood occurred and that “the building and much of the town seems to have been flooded”.",
-          "He added, “There has been no official information on the whereabouts of any of the people who were at the immigration office,” and said volunteers and support teams were working with authorities to reach the affected location."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Gyirong"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "80 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In his appeal to the authorities, Sadhguru said he was writing “in absolute pain” over \"losing 80 people from our group in the floods in Gyirong.",
-            "source": "Business Today",
-            "item_id": "60f7b6cc6a9b5499925c2c9f:article",
-            "composed": false
-          },
-          {
-            "text": "Gyirong floods latest: Spiritual leader Sadhguru Jaggi Vasudev on Thursday appealed to Chinese authorities to allow him and a small team of volunteers to travel to Gyirong to assist in the search for 80 pilgrims who went missing after a devastating flash flood and mudslide swept through the town on the Nepal-Tibet border.",
-            "source": "Business Today",
-            "item_id": "60f7b6cc6a9b5499925c2c9f:article",
-            "composed": false
-          },
-          {
-            "text": "In an earlier post on X, Sadhguru said, “A terrible and tragic flash flood has taken place at Gyirong in Tibet - China, and one of our Kailash groups was caught in it.”",
-            "source": "Business Today",
-            "item_id": "60f7b6cc6a9b5499925c2c9f:article",
-            "composed": false
-          },
-          {
-            "text": "The appeal came a day after the flood struck Gyirong on Wednesday.",
-            "source": "Business Today",
-            "item_id": "60f7b6cc6a9b5499925c2c9f:article",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [],
-        "url": "https://www.businesstoday.in/world/story/lost-80-people-sadhguru-seeks-china-approval-to-search-for-missing-pilgrims-in-flood-hit-gyirong-551660-2026-08-27"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "e4df2c2c851a6fe143dcd606",
       "story_id": "e4df2c2c851a6fe143dcd606",
       "headline": "Nearly 300 Indians missing after flash flood hits Nepal’s Rasuwa region",
@@ -975,7 +852,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1058,7 +935,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1184,7 +1061,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (karnataka)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1307,7 +1184,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1399,7 +1276,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1543,7 +1420,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1630,7 +1507,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1703,127 +1580,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8f03dd65073793b4a11f4074",
-      "story_id": "8f03dd65073793b4a11f4074",
-      "headline": "Japan Struggles To Attract Solar Bids, Lessons For India",
-      "title": "Japan Struggles To Attract Solar Bids, Lessons For India",
-      "summary": "A Mature Market Running Out of Easy Sites Japan added 5.8 GW of solar in 2025, a respectable pace for a land-constrained, densely built country, but the most recent auction data suggests the Feed in Premium tariffs (FIP) mechanism itself is straining. Unlike the older feed-in tariff system it replaced, FIP tariffs are explicitly designed to shrink over successive rounds as a maturing market is expected to need less support. The problem is that Japan's remaining greenfield sites are disproportionately the difficult ones, be it mountainous terrain, land-use conflicts, or locations requiring costly grid upgrades. A shrinking premium on top of that is making marginal projects harder to underwrite. Developers appear to be sitting out rounds rather than bidding at tariffs that no longer work out. Recent Auction Seven companies split just a third of the capacity Japan put up for bids in its 29th solar auction, extending a run of undersubscribed rounds that offers some pointers perhaps for India's own auction economics. Japan's power auctioneer awarded just 38.2 MW out of 115 MW put up for bidding, continuing a run of undersubscribed rounds that is starting to look less like an anomaly and more like a pattern in one of the world's most mature solar markets. And one might add, well paying ones. The Organization for Cross-regional Coordination of Transmission Operators (OCCTO) said that of the seven companies that split eight winning bids for projects of at least 250 kW, AC12 took the largest share at 29.9 MW; Sandia, Japan Petroleum Exploration and Solar Field 13 rounded out the rest. The weighted-average winning tariff came in at ¥8.89 (~Rs 5.32)/kWh, just under OCCTO's ceiling price of ¥9.6/kWh. A clear sign that competitive tension in the auction was thin rather than fierce. The shortfall is not new. Of 13 business plans submitted for eligibility screening, only eight bids totalling 38.2 MW were ultimately submitted with some developers who cleared the eligibility bar simply chose not to bid the full amount they qualified for. Japan's 26th auction saw a similar pattern: 163 MW offered, only 75.4 MW awarded to 16 companies, a 46 percent fill rate. The 27th auction produced a lower weighted-average tariff of ¥4.61/kWh on a smaller pool of interest, and the 28th awarded 89.2 MW across 29 bids. Four consecutive rounds, four undersubscribed outcomes. The Indian Contrast And Future Pointers India's own auction experience has run in almost the opposite direction for most of the past decade: SECI and state-level tenders have typically been oversubscribed, with tariffs falling because competition for capacity remained intense even as the ceiling prices themselves were reduced round over round. India added a record 27 GW of solar in the first half of 2026 alone, and the country's tariff discovery process has generally been treated as evidence that aggressive price competition and high participation can coexist. But the conditions that produced Japan's fall-off, namely, a maturing pipeline, shrinking premiums, and constrained sites are not unique to Japan, and India is not immune to the same mechanics showing up later. MNRE Secretary flagged this month that nearly 42 GW of solar capacity is struggling to find offtake buyers, with grid curtailment eating into project economics in the same states that pioneered the low-tariff auction model. If ceiling prices in future Indian rounds are set without enough regard for the deteriorating economics of curtailment-exposed, storage-less capacity, the same undersubscription pattern Japan is now living through is not just a hypothetical risk but a real possibility.",
-      "url": "https://www.saurenergy.com/solar-energy-news/japan-struggles-to-attract-solar-bids-lessons-for-india-12442042",
-      "source": "Saur Energy",
-      "primary_source": false,
-      "tier": 3,
-      "category": "energy-environment",
-      "secondary_categories": [
-        "economy-finance"
-      ],
-      "confidence": "medium",
-      "score": 56.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:32:33+00:00",
-      "published_at": "2026-08-27T04:32:33+00:00",
-      "effective_at": "2026-08-27T04:32:33+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "saur-energy": {
-          "kind": "independent",
-          "source_ids": [
-            "saur-energy"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: energy-environment (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (saur-energy) +1",
-        "source: specialist (saur-energy) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'tariff' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: energy-environment (importance 1) +1.2",
-        "geo: national",
-        "dominant event 24, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "A Mature Market Running Out of Easy Sites Japan added 5.8 GW of solar in 2025, a respectable pace for a land-constrained, densely built country, but the most recent auction data suggests the Feed in Premium tariffs (FIP) mechanism itself is straining.",
-          "Unlike the older feed-in tariff system it replaced, FIP tariffs are explicitly designed to shrink over successive rounds as a maturing market is expected to need less support."
-        ],
-        "body": [
-          "The problem is that Japan's remaining greenfield sites are disproportionately the difficult ones, be it mountainous terrain, land-use conflicts, or locations requiring costly grid upgrades.",
-          "A shrinking premium on top of that is making marginal projects harder to underwrite.",
-          "Developers appear to be sitting out rounds rather than bidding at tariffs that no longer work out.",
-          "Recent Auction.",
-          "Seven companies split just a third of the capacity Japan put up for bids in its 29th solar auction, extending a run of undersubscribed rounds that offers some pointers perhaps for India's own auction economics.",
-          "Japan's power auctioneer awarded just 38.2 MW out of 115 MW put up for bidding, continuing a run of undersubscribed rounds that is starting to look less like an anomaly and more like a pattern in one of the world's most mature solar markets.",
-          "And one might add, well paying ones.",
-          "The Organization for Cross-regional Coordination of Transmission Operators (OCCTO) said that of the seven companies that split eight winning bids for projects of at least 250 kW, AC12 took the largest share at 29.9 MW; Sandia, Japan Petroleum Exploration and Solar Field 13 rounded out the rest.",
-          "The weighted-average winning tariff came in at ¥8.89 (~Rs 5.32)/kWh, just under OCCTO's ceiling price of ¥9.6/kWh.",
-          "A clear sign that competitive tension in the auction was thin rather than fierce.",
-          "The shortfall is not new.",
-          "Of 13 business plans submitted for eligibility screening, only eight bids totalling 38.2 MW were ultimately submitted with some developers who cleared the eligibility bar simply chose not to bid the full amount they qualified for.",
-          "Japan's 26th auction saw a similar pattern: 163 MW offered, only 75.4 MW awarded to 16 companies, a 46 percent fill rate.",
-          "The 27th auction produced a lower weighted-average tariff of ¥4.61/kWh on a smaller pool of interest, and the 28th awarded 89.2 MW across 29 bids.",
-          "Four consecutive rounds, four undersubscribed outcomes.",
-          "The Indian Contrast And Future Pointers India's own auction experience has run in almost the opposite direction for most of the past decade: SECI and state-level tenders have typically been oversubscribed, with tariffs falling because competition for capacity remained intense even as the ceiling prices themselves were reduced round over round.",
-          "India added a record 27 GW of solar in the first half of 2026 alone, and the country's tariff discovery process has generally been treated as evidence that aggressive price competition and high participation can coexist.",
-          "But the conditions that produced Japan's fall-off, namely, a maturing pipeline, shrinking premiums, and constrained sites are not unique to Japan, and India is not immune to the same mechanics showing up later.",
-          "MNRE Secretary flagged this month that nearly 42 GW of solar capacity is struggling to find offtake buyers, with grid curtailment eating into project economics in the same states that pioneered the low-tariff auction model.",
-          "If ceiling prices in future Indian rounds are set without enough regard for the deteriorating economics of curtailment-exposed, storage-less capacity, the same undersubscription pattern Japan is now living through is not just a hypothetical risk but a real possibility."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Premium"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "A Mature Market Running Out of Easy Sites Japan added 5.8 GW of solar in 2025, a respectable pace for a land-constrained, densely built country, but the most recent auction data suggests the Feed in Premium tariffs (FIP) mechanism itself is straining.",
-            "source": "Saur Energy",
-            "item_id": "8f03dd65073793b4a11f4074",
-            "composed": false
-          },
-          {
-            "text": "India added a record 27 GW of solar in the first half of 2026 alone, and the country's tariff discovery process has generally been treated as evidence that aggressive price competition and high participation can coexist.",
-            "source": "Saur Energy",
-            "item_id": "8f03dd65073793b4a11f4074",
-            "composed": false
-          },
-          {
-            "text": "Japan's power auctioneer awarded just 38.2 MW out of 115 MW put up for bidding, continuing a run of undersubscribed rounds that is starting to look less like an anomaly and more like a pattern in one of the world's most mature solar markets.",
-            "source": "Saur Energy",
-            "item_id": "8f03dd65073793b4a11f4074",
-            "composed": false
-          },
-          {
-            "text": "The Organization for Cross-regional Coordination of Transmission Operators (OCCTO) said that of the seven companies that split eight winning bids for projects of at least 250 kW, AC12 took the largest share at 29.9 MW; Sandia, Japan Petroleum Exploration and Solar Field 13 rounded out the rest.",
-            "source": "Saur Energy",
-            "item_id": "8f03dd65073793b4a11f4074",
-            "composed": false
-          }
-        ],
-        "source": "Saur Energy",
-        "corroborating": [],
-        "url": "https://www.saurenergy.com/solar-energy-news/japan-struggles-to-attract-solar-bids-lessons-for-india-12442042"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "5e64152ba97e7214ee44cf9a",
       "story_id": "5e64152ba97e7214ee44cf9a",
       "headline": "J&K Deputy CM says Congress likely to join government soon, attacks BJP over ‘discrimination’ against Jammu",
@@ -1874,7 +1630,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 44.4, score 44.4 -> HIGH"
@@ -2033,7 +1789,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2131,7 +1887,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
@@ -2242,7 +1998,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -2361,7 +2117,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 0, stack 38.8, score 38.8 -> HIGH"
