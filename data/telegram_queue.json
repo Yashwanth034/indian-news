@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T09:51:34.929793+00:00",
-  "count": 17,
+  "generated_at": "2026-08-27T10:02:32.635093+00:00",
+  "count": 20,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -25,16 +25,22 @@
       "event_time": "2026-08-27T05:00:40+00:00",
       "published_at": "2026-08-27T05:26:24+00:00",
       "effective_at": "2026-08-27T05:26:24+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "business-standard",
-            "greater-kashmir",
-            "telangana-today"
+            "greater-kashmir"
           ],
-          "count": 3
+          "count": 2
+        },
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
         },
         "ians": {
           "kind": "wire",
@@ -48,7 +54,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -64,13 +70,13 @@
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
         "source: event has 4 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -219,7 +225,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -368,7 +374,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -487,7 +493,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -608,7 +614,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -705,7 +711,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -746,6 +752,121 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "29d831feffa18c4aa3d67165",
+      "story_id": "29d831feffa18c4aa3d67165",
+      "headline": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
+      "title": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T05:21:15+00:00",
+      "published_at": "2026-08-27T05:21:15+00:00",
+      "effective_at": "2026-08-27T05:21:15.702000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: fresh (4.7h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 19, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
+        "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar.",
+        "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
+        "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
+        "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
+        "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
+        "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
+        "The rescue operation was extremely dangerous.",
+        "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
+        "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives.",
+        "The team members reportedly had little food and water during the prolonged rescue operation, but they remained focused on saving those trapped in the floodwaters.",
+        "After stopping the operation around 2 am because of darkness and exhaustion, they returned the following morning to resume rescue efforts."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
+          "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar."
+        ],
+        "body": [
+          "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
+          "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
+          "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
+          "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
+          "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
+          "The rescue operation was extremely dangerous.",
+          "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
+          "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bihubar Shiloni"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 1,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "29d831feffa18c4aa3d67165:article",
+            "composed": false
+          },
+          {
+            "text": "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "29d831feffa18c4aa3d67165:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "60f7b6cc6a9b5499925c2c9f",
@@ -793,7 +914,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -878,6 +999,95 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e4df2c2c851a6fe143dcd606",
+      "story_id": "e4df2c2c851a6fe143dcd606",
+      "headline": "Nearly 300 Indians missing after flash flood hits Nepal’s Rasuwa region",
+      "title": "Nearly 300 Indians missing after flash flood hits Nepal’s Rasuwa region",
+      "summary": "Nearly 300 Indian nationals are among thousands reported missing after a devastating flash flood struck Nepal’s Rasuwa region along the Nepal‑Tibet border. The disaster has claimed at least 162 lives and wreaked havoc across three districts.",
+      "url": "https://telanganatoday.com/nearly-300-indians-missing-after-flash-flood-hits-nepals-rasuwa-region",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "low",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T05:27:16+00:00",
+      "published_at": "2026-08-27T06:10:33+00:00",
+      "effective_at": "2026-08-27T06:10:33+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "kashmir-observer",
+            "telangana-today"
+          ],
+          "count": 3
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'disaster'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (4.6h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Nearly 300 Indian nationals are among thousands reported missing after a devastating flash flood struck Nepal’s Rasuwa region along the Nepal‑Tibet border.",
+          "The disaster has claimed at least 162 lives and wreaked havoc across three districts."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Nearly 300 Indian nationals are among thousands reported missing after a devastating flash flood struck Nepal’s Rasuwa region along the Nepal‑Tibet border.",
+            "source": "Telangana Today",
+            "item_id": "e4df2c2c851a6fe143dcd606",
+            "composed": false
+          },
+          {
+            "text": "The disaster has claimed at least 162 lives and wreaked havoc across three districts.",
+            "source": "Telangana Today",
+            "item_id": "e4df2c2c851a6fe143dcd606",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [],
+        "url": "https://telanganatoday.com/nearly-300-indians-missing-after-flash-flood-hits-nepals-rasuwa-region"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "9dcc5a664f9bc03455ae88f2",
       "story_id": "9dcc5a664f9bc03455ae88f2",
       "headline": "Tamil Nadu CM Joseph Vijay, Minister Aadhav Arjuna Move High Court Seeking Rejection Of Election Petitions Challenging Their 2026 Poll Victory",
@@ -922,7 +1132,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1045,7 +1255,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1137,7 +1347,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1280,7 +1490,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1369,7 +1579,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1485,7 +1695,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1604,7 +1814,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1703,7 +1913,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (goa)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "geo: state",
         "dominant event 44, stack 12, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1802,7 +2012,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1846,6 +2056,101 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-stays-bci-order-debarring-former-judicial-officer-from-practice-547523"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "a24e046d3e27cae0ed9bc1fc",
+      "story_id": "a24e046d3e27cae0ed9bc1fc",
+      "headline": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
+      "title": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": null,
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T05:13:34+00:00",
+      "published_at": "2026-08-27T05:13:34+00:00",
+      "effective_at": "2026-08-27T05:13:34.907000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'disaster'",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "scale: state scope (meghalaya)",
+        "recency: fresh (4.8h ago) +4",
+        "geo: national significance (local/state event)",
+        "dominant event 44, stack 13, score 44 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "state",
+      "state": "meghalaya",
+      "national_significance": true,
+      "article_sentences": [
+        "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
+        "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
+        "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\"",
+        "\"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
+        "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities.",
+        "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
+          "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone."
+        ],
+        "body": [
+          "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\" \"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
+          "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
+        ],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
+            "composed": false
+          },
+          {
+            "text": "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1900,7 +2205,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
