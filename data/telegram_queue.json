@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T09:41:45.445263+00:00",
-  "count": 20,
+  "generated_at": "2026-08-27T09:51:34.929793+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -25,7 +25,7 @@
       "event_time": "2026-08-27T05:00:40+00:00",
       "published_at": "2026-08-27T05:26:24+00:00",
       "effective_at": "2026-08-27T05:26:24+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -35,13 +35,6 @@
             "telangana-today"
           ],
           "count": 3
-        },
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
         },
         "ians": {
           "kind": "wire",
@@ -55,7 +48,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -70,14 +63,14 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 5 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -176,7 +169,7 @@
       "event_time": "2026-08-27T08:09:20+00:00",
       "published_at": "2026-08-27T08:09:20+00:00",
       "effective_at": "2026-08-27T08:09:20.326000+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 4,
       "source_groups": {
         "national-herald": {
           "kind": "independent",
@@ -198,13 +191,20 @@
             "hans-india"
           ],
           "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 4 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
@@ -213,13 +213,13 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (national-herald) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -368,7 +368,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -443,108 +443,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "04d7a023f4d486c25c7216e8",
-      "story_id": "04d7a023f4d486c25c7216e8",
-      "headline": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
-      "title": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
-      "summary": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists. The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
-      "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 62.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T04:35:52+00:00",
-      "published_at": "2026-08-27T04:35:52+00:00",
-      "effective_at": "2026-08-27T04:35:52+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
-          "The operation unfolded as deaths, missing persons and damage mounted across Nepal."
-        ],
-        "body": [
-          "Part of a glacier broke off and crashed on to the valley floor, experts say.",
-          "Satellite images show green mountainside now buried in debris and sediment."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "123 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
-            "source": "Business Today",
-            "item_id": "04d7a023f4d486c25c7216e8",
-            "composed": false
-          },
-          {
-            "text": "The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
-            "source": "Business Today",
-            "item_id": "04d7a023f4d486c25c7216e8",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [
-          "Deccan Chronicle"
-        ],
-        "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "589418f57a51a51d642bad9b",
       "story_id": "589418f57a51a51d642bad9b",
       "headline": "Nepal flash floods: SDRF on high alert in Uttarakhand's border district of Champawat",
@@ -563,9 +461,9 @@
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-27T07:35:44+00:00",
-      "published_at": "2026-08-27T07:35:44+00:00",
-      "effective_at": "2026-08-27T07:35:44+00:00",
+      "event_time": "2026-08-27T09:42:20+00:00",
+      "published_at": "2026-08-27T09:42:20+00:00",
+      "effective_at": "2026-08-27T09:42:20+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -589,7 +487,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -663,6 +561,108 @@
       "enrichment": "article"
     },
     {
+      "event_id": "04d7a023f4d486c25c7216e8",
+      "story_id": "04d7a023f4d486c25c7216e8",
+      "headline": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
+      "title": "Nepal flash floods: 21 Indian tourists rescued so far, over 160 bodies recovered - Top developments",
+      "summary": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists. The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
+      "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 62.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T04:35:52+00:00",
+      "published_at": "2026-08-27T04:35:52+00:00",
+      "effective_at": "2026-08-27T04:35:52+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (5.3h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
+          "The operation unfolded as deaths, missing persons and damage mounted across Nepal."
+        ],
+        "body": [
+          "Part of a glacier broke off and crashed on to the valley floor, experts say.",
+          "Satellite images show green mountainside now buried in debris and sediment."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "123 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Nepal Army helicopters rescued 123 people from flood-hit Rasuwa, including 21 Indian tourists.",
+            "source": "Business Today",
+            "item_id": "04d7a023f4d486c25c7216e8",
+            "composed": false
+          },
+          {
+            "text": "The operation unfolded as deaths, missing persons and damage mounted across Nepal.",
+            "source": "Business Today",
+            "item_id": "04d7a023f4d486c25c7216e8",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.businesstoday.in/world/story/nepal-flash-floods-21-indian-tourists-rescued-so-far-over-160-bodies-recovered-top-developments-551652-2026-08-27"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "17fca40a10903591300da9ac",
       "story_id": "17fca40a10903591300da9ac",
       "headline": "Nepal floods: From rescue to relief, India’s armed forces spring to action",
@@ -705,7 +705,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -746,121 +746,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "29d831feffa18c4aa3d67165",
-      "story_id": "29d831feffa18c4aa3d67165",
-      "headline": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "title": "Assam: Team of boatmen saves over 1,000 lives in devastating Dikhow flood",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:21:15+00:00",
-      "published_at": "2026-08-27T05:21:15+00:00",
-      "effective_at": "2026-08-27T05:21:15.702000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: fresh (4.3h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 19, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "assam",
-      "national_significance": true,
-      "article_sentences": [
-        "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-        "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar.",
-        "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-        "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-        "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-        "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-        "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-        "The rescue operation was extremely dangerous.",
-        "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-        "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives.",
-        "The team members reportedly had little food and water during the prolonged rescue operation, but they remained focused on saving those trapped in the floodwaters.",
-        "After stopping the operation around 2 am because of darkness and exhaustion, they returned the following morning to resume rescue efforts."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-          "The unprecedented surge in the Dikhow river created a terrifying situation at Bihubar Shiloni under Nazira sub-district of Sivasagar."
-        ],
-        "body": [
-          "Within moments, the normally calm river turned into a raging torrent, with tsunami-like waves sweeping away houses and devastating Bihubar and several neighbouring villages.",
-          "Amid desperate cries for help from residents and livestock, many people were forced to take shelter on rooftops and trees to save their lives.",
-          "At a time when people were waiting for rescue teams and boats from the SDRF and NDRF, a 27-member local team led by people such as Shravan Prasad, Narayan Choudhury, Rajkumar Rajbhar, and Ravi Rajbhar came forward.",
-          "Using their six small boats, the team divided themselves into groups of six or seven and launched rescue operations.",
-          "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-          "The rescue operation was extremely dangerous.",
-          "Strong currents and huge trees, branches, and bamboo being swept downstream posed a constant threat to the rescuers.",
-          "However, the experienced boatmen continued their mission despite the risks and succeeded in saving more than a thousand lives."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bihubar Shiloni"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "more than 1,000 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "NAZIRA: A 27-member team of local boatmen has emerged as a symbol of courage and humanity after risking their own lives to rescue more than 1,000 people during the devastating flood that hit Upper Assam on July 19.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
-            "composed": false
-          },
-          {
-            "text": "From around 11 am until 1-2 am, they rescued approximately 1,200-1,300 people from Bihubar Shiloni, Nepalikuthi, Mirdhabasti, Signal Basti, Natun Basti, and several other villages.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "29d831feffa18c4aa3d67165:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-team-of-boatmen-saves-over-1000-lives-in-devastating-dikhow-flood"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "60f7b6cc6a9b5499925c2c9f",
@@ -908,7 +793,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1037,7 +922,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1160,7 +1045,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1168,7 +1053,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "India takes on Germany in the 5th/6th place classification match at the Hockey World Cup 2026 today.",
@@ -1195,7 +1080,7 @@
         "url": "https://sportstar.thehindu.com/hockey/india-vs-germany-hockey-world-cup-2026-live-streaming-where-to-watch/article71394916.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1252,7 +1137,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1395,7 +1280,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1484,7 +1369,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1600,7 +1485,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1719,7 +1604,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1781,145 +1666,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "123eda2b02c116e436f8f9ab",
-      "story_id": "123eda2b02c116e436f8f9ab",
-      "headline": "India's Plan To Solarise Govt Buildings Mixed With Myriad Challenges",
-      "title": "India's Plan To Solarise Govt Buildings Mixed With Myriad Challenges",
-      "summary": "“Gujarat issues tender to solarise government buildings with rooftop solar.” Swap in Rajasthan, Uttar Pradesh, Uttarakhand, Sikkim, or any of a dozen others, and the headline still reads true — India has been running an almost continuous rotation of state-level rooftop solar tenders for government buildings through 2026. Rajasthan’s RRECL floated 33 MW in January. REIL, a central PSU, tendered 17.5 MW spanning multiple states the same month. NHPC issued 16.64 MW for central ministry buildings in February and another tranche for Sikkim, Manipur and Nagaland in May. Uttarakhand’s UREDA followed with 6.5 MW in June, Maharashtra’s MEDA has been quietly tendering primary health centres district by district, and UP’s UPNEDA issued 11 MW just this week. Nearly all of them use the same template: RESCO mode, tariff-based competitive bidding, a 25-year power purchase agreement, and roughly nine months from signing to commissioning. What almost none of them come with is a follow-up. Tender notices are routine, well-publicised and easy to track. Completion data is not. The handful of disclosures that do exist, mostly forced out through legislative questions rather than volunteered in press releases suggest the gap between announcement and execution is wide, and wider in some states than others. THE NATIONAL NUMBER, THREE WEEKS OLD The clearest recent data point is a Lok Sabha answer from August 5, 2026. Responding to a question on rooftop solar mandates for government offices, the Ministry of New and Renewable Energy disclosed that it had received Action Plans for solarising 41,972 Central Government buildings, of which 24,376 or about 58 percent had actually been solarised, adding up to roughly 854 MW. States and Union Territories, taken together, reported 81,754 government buildings solarised with a cumulative capacity of about 1,447 MW. Notably, the ministry could not or did not supply the denominator for the state figure, there is no total eligible-building count against which to measure that 81,754, which makes it impossible to compute a comparable completion rate for states the way the Centre’s own 58 percent can be computed. The same answer contained a smaller but telling admission: no Central Financial Assistance is available for rooftop solar on government buildings, because MNRE considers such installations “financially viable... even without CFA.” That assumption does a lot of work in explaining what follows. WHERE THE GRANULAR NUMBERS EXIST Karnataka is the one state that has put a hard number on the record recently, and it is stark. According to the state Energy Department, nearly 59,000 government buildings could together generate 698.2 MW of rooftop solar. As of this month, only 2,624 buildings — under 5 percent — have actually been fitted, totalling 33.68 MW, itself under 5 percent of the technical potential identified. A senior official acknowledged the shortfall directly, pointing to funding constraints and the absence of subsidy support for institutional buildings as the core blockers — essentially confirming, from the state side, the gap the Centre’s own no-CFA policy leaves open. Madhya Pradesh offers a useful before-and-after. In June 2025, Chief Minister Mohan Yadav announced that all government buildings in the state would carry rooftop solar by the end of 2025. That deadline has now passed with no completion announcement to match the original promise; the only recent capacity figure attached to Madhya Pradesh, 566 MW, refers to nearly 1.5 lakh residential PM Surya Ghar installations, not government buildings, and cannot be used as a proxy for the CM’s pledge. Gujarat, Rajasthan, Maharashtra and Tamil Nadu occupy a middle position: MNRE has repeatedly named them as states “performing well” on government-building solarisation, most recently in a March 2025 ministry statement that also noted Chandigarh and Daman & Diu had reached full saturation of their government-building targets. But “performing well” is a qualitative label, not a disclosed percentage, and none of the four states appears to have published a Karnataka-style ratio of buildings solarised against buildings eligible. Gujarat’s own public figure — 2,451 government buildings solarised, from a 2024 state report — has no accompanying denominator either, so it is impossible to say from the public record whether Gujarat’s position as a stated leader reflects a genuinely higher completion rate or simply a larger base of early installations from a state that has run solar policy since 2009. WHY THE GAP EXISTS Three structural threads run through the disclosures that do exist. First, the financing assumption: MNRE’s position that government buildings don’t need Central Financial Assistance because RESCO tariffs are self-liquidating collides with the reality that RESCO payments still have to clear government budget-approval cycles, which move slower than a developer’s working-capital timeline. Second, net-metering and billing integration with DISCOMs remains a persistent friction point at the point of commissioning — an old but illustrative Himachal Pradesh case saw completed rooftop systems left non-functional for want of a working billing interface with the state board. Third, the CAG’s broader audit findings on renewable energy projects — including a specific finding that Coal India had covered only 4.08 percent of its 3,000 MW solar mandate by December 2024, with rooftop work orders issued for just 34.56 MW — point to a pattern of delay at every stage from planning through execution across public-sector renewable projects generally, not just rooftop-on-buildings specifically. None of this means the tenders are cosmetic. RESCO structures, competitive tariffs and 25-year PPAs are the correct mechanism, and the steady tender flow shows states are still actively working the pipeline rather than letting it lapse. What it does mean is that the tender is the visible, low-friction 10 percent of the process, and the commissioning, metering and reporting that follow are where the programme is actually tested — and where almost no state volunteers data unless a legislator forces the question. WHAT TO WATCH INSTEAD OF THE NEXT TENDER For anyone tracking this beyond the headline, the signal is not the next state to issue a tender — that is close to guaranteed to happen again within weeks. The signal is the next legislative answer or RTI response that discloses a completion number against a stated target, the way Karnataka’s assembly and the August 5 Lok Sabha reply did. Those are still rare enough that each one is worth a story in its own right, and collectively they are the only real audit trail this programme currently has.",
-      "url": "https://www.saurenergy.com/solar-energy-news/indias-plan-to-solarise-govt-buildings-mixed-with-myriad-challenges-12441990",
-      "source": "Saur Energy",
-      "primary_source": false,
-      "tier": 3,
-      "category": "energy-environment",
-      "secondary_categories": [
-        "economy-finance",
-        "government-policy",
-        "national-politics"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T03:46:53+00:00",
-      "published_at": "2026-08-27T03:46:53+00:00",
-      "effective_at": "2026-08-27T03:46:53+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "saur-energy": {
-          "kind": "independent",
-          "source_ids": [
-            "saur-energy"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: energy-environment (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (saur-energy) +1",
-        "source: specialist (saur-energy) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'match' in summary weight 4.8",
-        "event term: 'tariff' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
-        "scale: national scope",
-        "scale: multi-state (13 states)",
-        "recency: fresh (5.9h ago) +4",
-        "category: energy-environment (importance 1) +1.2",
-        "geo: national",
-        "dominant event 24, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "“Gujarat issues tender to solarise government buildings with rooftop solar.” Swap in Rajasthan, Uttar Pradesh, Uttarakhand, Sikkim, or any of a dozen others, and the headline still reads true — India has been running an almost continuous rotation of state-level rooftop solar tenders for government buildings through 2026.",
-          "Rajasthan’s RRECL floated 33 MW in January."
-        ],
-        "body": [
-          "REIL, a central PSU, tendered 17.5 MW spanning multiple states the same month.",
-          "NHPC issued 16.64 MW for central ministry buildings in February and another tranche for Sikkim, Manipur and Nagaland in May.",
-          "Uttarakhand’s UREDA followed with 6.5 MW in June, Maharashtra’s MEDA has been quietly tendering primary health centres district by district, and UP’s UPNEDA issued 11 MW just this week.",
-          "Nearly all of them use the same template: RESCO mode, tariff-based competitive bidding, a 25-year power purchase agreement, and roughly nine months from signing to commissioning.",
-          "What almost none of them come with is a follow-up.",
-          "Tender notices are routine, well-publicised and easy to track.",
-          "Completion data is not.",
-          "The handful of disclosures that do exist, mostly forced out through legislative questions rather than volunteered in press releases suggest the gap between announcement and execution is wide, and wider in some states than others.",
-          "THE NATIONAL NUMBER, THREE WEEKS OLD.",
-          "The clearest recent data point is a Lok Sabha answer from August 5, 2026.",
-          "Responding to a question on rooftop solar mandates for government offices, the Ministry of New and Renewable Energy disclosed that it had received Action Plans for solarising 41,972 Central Government buildings, of which 24,376 or about 58 percent had actually been solarised, adding up to roughly 854 MW.",
-          "States and Union Territories, taken together, reported 81,754 government buildings solarised with a cumulative capacity of about 1,447 MW.",
-          "Notably, the ministry could not or did not supply the denominator for the state figure, there is no total eligible-building count against which to measure that 81,754, which makes it impossible to compute a comparable completion rate for states the way the Centre’s own 58 percent can be computed.",
-          "The same answer contained a smaller but telling admission: no Central Financial Assistance is available for rooftop solar on government buildings, because MNRE considers such installations “financially viable...",
-          "even without CFA.” That assumption does a lot of work in explaining what follows.",
-          "WHERE THE GRANULAR NUMBERS EXIST Karnataka is the one state that has put a hard number on the record recently, and it is stark.",
-          "According to the state Energy Department, nearly 59,000 government buildings could together generate 698.2 MW of rooftop solar.",
-          "A senior official acknowledged the shortfall directly, pointing to funding constraints and the absence of subsidy support for institutional buildings as the core blockers — essentially confirming, from the state side, the gap the Centre’s own no-CFA policy leaves open.",
-          "Madhya Pradesh offers a useful before-and-after.",
-          "In June 2025, Chief Minister Mohan Yadav announced that all government buildings in the state would carry rooftop solar by the end of 2025.",
-          "That deadline has now passed with no completion announcement to match the original promise; the only recent capacity figure attached to Madhya Pradesh, 566 MW, refers to nearly 1.5 lakh residential PM Surya Ghar installations, not government buildings, and cannot be used as a proxy for the CM’s pledge.",
-          "Gujarat, Rajasthan, Maharashtra and Tamil Nadu occupy a middle position: MNRE has repeatedly named them as states “performing well” on government-building solarisation, most recently in a March 2025 ministry statement that also noted Chandigarh and Daman & Diu had reached full saturation of their government-building targets.",
-          "But “performing well” is a qualitative label, not a disclosed percentage, and none of the four states appears to have published a Karnataka-style ratio of buildings solarised against buildings eligible.",
-          "Gujarat’s own public figure — 2,451 government buildings solarised, from a 2024 state report — has no accompanying denominator either, so it is impossible to say from the public record whether Gujarat’s position as a stated leader reflects a genuinely higher completion rate or simply a larger base of early installations from a state that has run solar policy since 2009.",
-          "WHY THE GAP EXISTS.",
-          "Three structural threads run through the disclosures that do exist.",
-          "First, the financing assumption: MNRE’s position that government buildings don’t need Central Financial Assistance because RESCO tariffs are self-liquidating collides with the reality that RESCO payments still have to clear government budget-approval cycles, which move slower than a developer’s working-capital timeline.",
-          "Second, net-metering and billing integration with DISCOMs remains a persistent friction point at the point of commissioning — an old but illustrative Himachal Pradesh case saw completed rooftop systems left non-functional for want of a working billing interface with the state board.",
-          "None of this means the tenders are cosmetic.",
-          "RESCO structures, competitive tariffs and 25-year PPAs are the correct mechanism, and the steady tender flow shows states are still actively working the pipeline rather than letting it lapse.",
-          "WHAT TO WATCH.",
-          "INSTEAD OF THE NEXT TENDER For anyone tracking this beyond the headline, the signal is not the next state to issue a tender — that is close to guaranteed to happen again within weeks.",
-          "The signal is the next legislative answer or RTI response that discloses a completion number against a stated target, the way Karnataka’s assembly and the August 5 Lok Sabha reply did.",
-          "Those are still rare enough that each one is worth a story in its own right, and collectively they are the only real audit trail this programme currently has."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Rajasthan"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "NHPC issued 16.64 MW for central ministry buildings in February and another tranche for Sikkim, Manipur and Nagaland in May.",
-            "source": "Saur Energy",
-            "item_id": "123eda2b02c116e436f8f9ab",
-            "composed": false
-          },
-          {
-            "text": "Uttarakhand’s UREDA followed with 6.5 MW in June, Maharashtra’s MEDA has been quietly tendering primary health centres district by district, and UP’s UPNEDA issued 11 MW just this week.",
-            "source": "Saur Energy",
-            "item_id": "123eda2b02c116e436f8f9ab",
-            "composed": false
-          },
-          {
-            "text": "Rajasthan’s RRECL floated 33 MW in January.",
-            "source": "Saur Energy",
-            "item_id": "123eda2b02c116e436f8f9ab",
-            "composed": false
-          },
-          {
-            "text": "In June 2025, Chief Minister Mohan Yadav announced that all government buildings in the state would carry rooftop solar by the end of 2025.",
-            "source": "Saur Energy",
-            "item_id": "123eda2b02c116e436f8f9ab",
-            "composed": false
-          }
-        ],
-        "source": "Saur Energy",
-        "corroborating": [],
-        "url": "https://www.saurenergy.com/solar-energy-news/indias-plan-to-solarise-govt-buildings-mixed-with-myriad-challenges-12441990"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "03af0e818b193adc03d0c447",
       "story_id": "03af0e818b193adc03d0c447",
       "headline": "Goa Cabinet clears anti-conversion Bill, to be tabled in upcoming Assembly session",
@@ -1957,7 +1703,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (goa)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "geo: state",
         "dominant event 44, stack 12, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2056,7 +1802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2100,101 +1846,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-stays-bci-order-debarring-former-judicial-officer-from-practice-547523"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "a24e046d3e27cae0ed9bc1fc",
-      "story_id": "a24e046d3e27cae0ed9bc1fc",
-      "headline": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "title": "Meghalaya Cabinet approves state disaster status for thunderstorms, strong winds",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": null,
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T05:13:34+00:00",
-      "published_at": "2026-08-27T05:13:34+00:00",
-      "effective_at": "2026-08-27T05:13:34.907000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'disaster'",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (meghalaya)",
-        "recency: fresh (4.5h ago) +4",
-        "geo: national significance (local/state event)",
-        "dominant event 44, stack 13, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "state",
-      "state": "meghalaya",
-      "national_significance": true,
-      "article_sentences": [
-        "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-        "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-        "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\"",
-        "\"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-        "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities.",
-        "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-          "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone."
-        ],
-        "body": [
-          "\"Cabinet has approved the proposal to notify 'Thunderstorm and Strong Winds (other than Cyclone)' as a State/Local Disaster.\" \"In recent years, Meghalaya has witnessed increasing damage from strong winds and thunderstorms that do not fall under the technical category of a cyclone, creating challenges in declaring and responding to such events,\" he added.",
-          "\"This notification will provide greater clarity to the administration and ensure that communities affected by these events can receive timely relief and support,\" the CM added."
-        ],
-        "bullets": [
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The decision is expected to provide a clearer administrative framework for responding to damage caused by severe thunderstorms and strong winds and facilitate timely relief and support for affected communities."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "SHILLONG: The Meghalaya Cabinet has approved a proposal to notify \"Thunderstorm and Strong Winds (other than Cyclone)\" as a State/Local Disaster, in a move aimed at strengthening the State's response to severe weather events that have caused increasing damage in recent years.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          },
-          {
-            "text": "Chief Minister Conrad K. Sangma said in a social media post that the decision would address the difficulties faced by the administration in declaring and responding to severe thunderstorms and strong winds that do not fall under the technical category of a cyclone.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "a24e046d3e27cae0ed9bc1fc:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-cabinet-approves-state-disaster-status-for-thunderstorms-strong-winds"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -2249,7 +1900,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
