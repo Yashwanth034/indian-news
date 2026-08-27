@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T22:02:16.155119+00:00",
-  "count": 9,
+  "generated_at": "2026-08-27T22:11:41.690318+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "81ae4f9ecd05e3475723479a",
@@ -53,7 +53,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -137,7 +137,7 @@
         "event term: 'floods' in title weight 64",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 36, score 64 -> URGENT"
@@ -239,7 +239,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -363,7 +363,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -469,7 +469,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -593,7 +593,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (odisha)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 39.4, score 58 -> HIGH"
@@ -685,7 +685,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -775,7 +775,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -849,6 +849,88 @@
       "enrichment": "article"
     },
     {
+      "event_id": "346135e0543fa43ffde2737a",
+      "story_id": "346135e0543fa43ffde2737a",
+      "headline": "Supreme Court issues directions to expedite dowry trials",
+      "title": "Supreme Court issues directions to expedite dowry trials",
+      "summary": "The bench also directed states/Union territories and high courts to conduct periodic training and sensitisation programmes for judicial officers, police officials, prosecutors, protection officers, counsellors through judicial academies, police training institutions and other appropriate bodies. A bench of Justices Sanjay Karol and Augustine George Masih said there was a need for time-bound completion of trial in dowry cases and directed the high courts to periodically review pending criminal appeals.",
+      "url": "https://timesofindia.indiatimes.com/india/supreme-court-issues-directions-to-expedite-dowry-trials/articleshow/133578098.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T21:06:46+00:00",
+      "published_at": "2026-08-27T21:06:46+00:00",
+      "effective_at": "2026-08-27T21:06:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The bench also directed states/Union territories and high courts to conduct periodic training and sensitisation programmes for judicial officers, police officials, prosecutors, protection officers, counsellors through judicial academies, police training institutions and other appropriate bodies.",
+          "A bench of Justices Sanjay Karol and Augustine George Masih said there was a need for time-bound completion of trial in dowry cases and directed the high courts to periodically review pending criminal appeals."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The bench also directed states/Union territories and high courts to conduct periodic training and sensitisation programmes for judicial officers, police officials, prosecutors, protection officers, counsellors through judicial academies, police training institutions and other appropriate bodies.",
+            "source": "Times of India",
+            "item_id": "346135e0543fa43ffde2737a",
+            "composed": false
+          },
+          {
+            "text": "A bench of Justices Sanjay Karol and Augustine George Masih said there was a need for time-bound completion of trial in dowry cases and directed the high courts to periodically review pending criminal appeals.",
+            "source": "Times of India",
+            "item_id": "346135e0543fa43ffde2737a",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/supreme-court-issues-directions-to-expedite-dowry-trials/articleshow/133578098.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "26dae1d645548a059ab93c55",
       "story_id": "26dae1d645548a059ab93c55",
       "headline": "Amit Shah says Gujarat stayed drought-free after PM Modi's water push",
@@ -893,7 +975,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (gujarat)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 41.6, score 41.6 -> HIGH"
