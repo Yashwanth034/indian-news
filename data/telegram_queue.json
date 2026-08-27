@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T10:41:43.057122+00:00",
-  "count": 18,
+  "generated_at": "2026-08-27T10:51:54.847532+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "3b4067902429adf3991015b0",
@@ -69,7 +69,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -196,7 +196,7 @@
           "source_ids": [
             "the-hindu"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -212,13 +212,13 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (national-herald) +2",
-        "source: event has 4 copies, primary source counted once",
+        "source: event has 5 copies, primary source counted once",
         "corroboration: 4 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -366,7 +366,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -492,7 +492,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (8.2h ago) +4",
+        "recency: fresh (8.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 32, score 64 -> URGENT"
@@ -511,7 +511,7 @@
         "“Any inclusion to or removal from the cabinet will have to be done with my consultation.",
         "I have received no proposal on the matter,” he said."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Expressing deep anguish over the severe flooding and flash floods in Nepal, All India Congress Committee (AICC) President and Leader of Opposition in Rajya Sabha Mallikarjun Kharge on Thursday (August 27, 2026) urged the Union Government to step in immediately to assist stranded tourists and pilgrims from India, including those from Karnataka.",
@@ -553,8 +553,98 @@
         "url": "https://www.thehindu.com/news/national/karnataka/nepal-floods-mallikarjun-kharge-seeks-centres-intervention-for-victims-dismisses-state-cabinet-reshuffle-talk/article71395840.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "a49f38731e2eb67092242028",
+      "story_id": "a49f38731e2eb67092242028",
+      "headline": "Nepal flash floods: 21 Tamils rescued, says Union Ministry of External Affairs",
+      "title": "Nepal flash floods: 21 Tamils rescued, says Union Ministry of External Affairs",
+      "summary": "A 57-member group from Tamil Nadu and Puducherry had travelled to Nepal as part of a tour. Besides this group, another 49 people had travelled to Nepal from Chennai.",
+      "url": "https://www.thehindu.com/news/national/nepal-flash-floods-21-tamils-rescued-says-union-ministry-of-external-affairs/article71395749.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "international-affairs"
+      ],
+      "confidence": "medium",
+      "score": 66.6,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-27T10:40:24+00:00",
+      "published_at": "2026-08-27T10:40:24+00:00",
+      "effective_at": "2026-08-27T10:40:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 36, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A 57-member group from Tamil Nadu and Puducherry had travelled to Nepal as part of a tour.",
+          "Besides this group, another 49 people had travelled to Nepal from Chennai."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "49 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Besides this group, another 49 people had travelled to Nepal from Chennai.",
+            "source": "The Hindu",
+            "item_id": "a49f38731e2eb67092242028",
+            "composed": false
+          },
+          {
+            "text": "A 57-member group from Tamil Nadu and Puducherry had travelled to Nepal as part of a tour.",
+            "source": "The Hindu",
+            "item_id": "a49f38731e2eb67092242028",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/nepal-flash-floods-21-tamils-rescued-says-union-ministry-of-external-affairs/article71395749.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "e551e56a201df69a68753d65",
@@ -601,7 +691,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -728,7 +818,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -852,7 +942,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -935,7 +1025,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1015,132 +1105,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c1a6b6e88a18f8f669169a5c",
-      "story_id": "c1a6b6e88a18f8f669169a5c",
-      "headline": "Karnataka to declare 101 taluks drought-hit as 32 more remain under review",
-      "title": "Karnataka to declare 101 taluks drought-hit as 32 more remain under review",
-      "summary": "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
-      "url": "https://www.nationalheraldindia.com/national/karnataka-to-declare-101-taluks-drought-hit-as-32-more-remain-under-review",
-      "source": "National Herald",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "business-industry"
-      ],
-      "confidence": "medium",
-      "score": 66.2,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T09:50:52+00:00",
-      "published_at": "2026-08-27T09:50:52+00:00",
-      "effective_at": "2026-08-27T09:50:52.581000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "national-herald": {
-          "kind": "independent",
-          "source_ids": [
-            "national-herald"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'drought'",
-        "major: significance event 'drought'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'drought' in title weight 36",
-        "event term: 'drought' in summary weight 21.6",
-        "scale: state scope (karnataka)",
-        "recency: breaking (0.8h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 36, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "karnataka",
-      "national_significance": true,
-      "article_sentences": [
-        "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
-        "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management.",
-        "He maintained that there was no shortage of funds to protect residents and livestock from the impact of the rainfall deficit.",
-        "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
-        "Twenty-nine districts and 190 taluks have recorded deficient to large-deficient rainfall, while 12 taluks are experiencing a severe shortfall.",
-        "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
-        "The state subsequently carried out ground verification using the prescribed assessment parameters and found 101 taluks eligible to be declared drought-hit.",
-        "Another 32 taluks that qualified under Trigger-1 are being reassessed.",
-        "The conditions in the 101 taluks will be reviewed every 15 days after the formal declaration.",
-        "Similar verification has been conducted at the hobli level, and the data is being examined.",
-        "Under the drought manual, Trigger-1 applies to areas experiencing dry spells of at least three consecutive weeks.",
-        "Trigger-2 assesses sowing coverage, crop health, soil moisture, groundwater levels and water availability in tanks and reservoirs."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
-          "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management."
-        ],
-        "body": [
-          "He maintained that there was no shortage of funds to protect residents and livestock from the impact of the rainfall deficit.",
-          "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
-          "Twenty-nine districts and 190 taluks have recorded deficient to large-deficient rainfall, while 12 taluks are experiencing a severe shortfall.",
-          "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
-          "The state subsequently carried out ground verification using the prescribed assessment parameters and found 101 taluks eligible to be declared drought-hit.",
-          "Another 32 taluks that qualified under Trigger-1 are being reassessed.",
-          "The conditions in the 101 taluks will be reviewed every 15 days after the formal declaration.",
-          "Similar verification has been conducted at the hobli level, and the data is being examined."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vidhana Soudha"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Karnataka government has decided to declare 101 taluks drought-hit, while another 32 that have met the initial eligibility criteria are being reassessed, Deputy Chief Minister and Revenue Minister G Parameshwara said on Thursday.",
-            "source": "National Herald",
-            "item_id": "c1a6b6e88a18f8f669169a5c:article",
-            "composed": false
-          },
-          {
-            "text": "Karnataka received 465 mm of rain between 1 June and 26 August against the normal 666 mm, resulting in a deficit of 30 per cent.",
-            "source": "National Herald",
-            "item_id": "c1a6b6e88a18f8f669169a5c:article",
-            "composed": false
-          },
-          {
-            "text": "As of 26 August, 134 taluks had witnessed dry spells lasting more than three consecutive weeks, making them eligible for an assessment under Trigger-1 of the Centre’s Drought Manual, 2020.",
-            "source": "National Herald",
-            "item_id": "c1a6b6e88a18f8f669169a5c:article",
-            "composed": false
-          },
-          {
-            "text": "Addressing a press conference at Vidhana Soudha, Parameshwara described the current conditions as unprecedented and said the government was spending Rs 635 crore on drought management.",
-            "source": "National Herald",
-            "item_id": "c1a6b6e88a18f8f669169a5c:article",
-            "composed": false
-          }
-        ],
-        "source": "National Herald",
-        "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/national/karnataka-to-declare-101-taluks-drought-hit-as-32-more-remain-under-review"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "2fbc56e10c25e5681026d2dc",
       "story_id": "2fbc56e10c25e5681026d2dc",
       "headline": "India vs Germany, Hockey World Cup 2026: When and where to watch 5th/6th place classification match live",
@@ -1184,7 +1148,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1276,7 +1240,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1420,7 +1384,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1507,7 +1471,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1630,7 +1594,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 44.4, score 44.4 -> HIGH"
@@ -1789,7 +1753,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1887,7 +1851,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
@@ -1998,7 +1962,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -2070,103 +2034,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
-    },
-    {
-      "event_id": "2ae6ec8bf952a285f001c53e",
-      "story_id": "2ae6ec8bf952a285f001c53e",
-      "headline": "Rajnath lays foundation for ₹472 cr battle tank overhaul facility in MP",
-      "title": "Rajnath lays foundation for ₹472 cr battle tank overhaul facility in MP",
-      "summary": "Defence Minister Rajnath Singh on Thursday laid the foundation stone of a Rs 472-crore facility for the overhaul of T-series battle tanks at Vehicle Factory Jabalpur (VFJ), an ordnance unit in Madhya Pradesh. Under the upcoming project, the facility will overhaul 80 T-72 and T-90 tanks annually, officials said. The Indian Army requires the overhaul of around 230 such tanks every year, they said. The Heavy Vehicles Factory, Avadi (in Chennai), currently overhauls around 150 tanks annually. The new facility at the 57-year-old VFJ will bridge the remaining shortfall, the officials said. VFJ is a premier military vehicle manufacturing unit operating under Armoured Vehicles Nigam Limited and the Ministry of Defence. Established in 1969, the factory initially produced Shaktiman 3T vehicles in collaboration with Germany's MAN, as well as Nissan 1T and Jonga vehicles in collaboration with Japan's Nissan Motors Co. The factory complex is spread over 330 acres, while its adjoining estate c",
-      "url": "https://www.business-standard.com/india-news/rajnath-lays-foundation-for-472-cr-battle-tank-overhaul-facility-in-mp-126082700689_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "defence-security",
-      "secondary_categories": [
-        "business-industry",
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 38.8,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T10:05:45+00:00",
-      "published_at": "2026-08-27T10:05:45+00:00",
-      "effective_at": "2026-08-27T10:05:45+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (0.6h ago) +8",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national",
-        "dominant event 0, stack 38.8, score 38.8 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Defence Minister Rajnath Singh on Thursday laid the foundation stone of a Rs 472-crore facility for the overhaul of T-series battle tanks at Vehicle Factory Jabalpur (VFJ), an ordnance unit in Madhya Pradesh.",
-          "Under the upcoming project, the facility will overhaul 80 T-72 and T-90 tanks annually, officials said."
-        ],
-        "body": [
-          "The Indian Army requires the overhaul of around 230 such tanks every year, they said.",
-          "The Heavy Vehicles Factory, Avadi (in Chennai), currently overhauls around 150 tanks annually.",
-          "The new facility at the 57-year-old VFJ will bridge the remaining shortfall, the officials said.",
-          "VFJ is a premier military vehicle manufacturing unit operating under Armoured Vehicles Nigam Limited and the Ministry of Defence.",
-          "Established in 1969, the factory initially produced Shaktiman 3T vehicles in collaboration with Germany's MAN, as well as Nissan 1T and Jonga vehicles in collaboration with Japan's Nissan Motors Co.",
-          "The factory complex is spread over 330 acres, while its adjoining estate."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vehicle Factory Jabalpur"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Defence Minister Rajnath Singh on Thursday laid the foundation stone of a Rs 472-crore facility for the overhaul of T-series battle tanks at Vehicle Factory Jabalpur (VFJ), an ordnance unit in Madhya Pradesh.",
-            "source": "Business Standard",
-            "item_id": "2ae6ec8bf952a285f001c53e",
-            "composed": false
-          },
-          {
-            "text": "The Heavy Vehicles Factory, Avadi (in Chennai), currently overhauls around 150 tanks annually.",
-            "source": "Business Standard",
-            "item_id": "2ae6ec8bf952a285f001c53e",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/rajnath-lays-foundation-for-472-cr-battle-tank-overhaul-facility-in-mp-126082700689_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
     }
   ]
 }
