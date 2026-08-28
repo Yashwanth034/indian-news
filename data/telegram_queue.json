@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T21:32:06.877306+00:00",
-  "count": 11,
+  "generated_at": "2026-08-28T21:41:35.207128+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "5540cb25450c6145765f49a7",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 64, stack 25.2, score 64 -> URGENT"
@@ -68,6 +68,11 @@
             "icon": "📍",
             "label": "Location",
             "text": "Nepal"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Officials said 325 tourists from Maharashtra have been contacted by their relatives or government agencies and confirmed safe."
           }
         ],
         "sentences": [
@@ -75,6 +80,12 @@
             "text": "Himanta Biswa Sarma on Friday informed that six youths from Assam reportedly missing in Nepal floods.",
             "source": "NDTV",
             "item_id": "68e7f908c7e3a633e10714a3",
+            "composed": false
+          },
+          {
+            "text": "Officials said 325 tourists from Maharashtra have been contacted by their relatives or government agencies and confirmed safe.",
+            "source": "Deccan Chronicle",
+            "item_id": "b33fc554f0e40ea26ddc0eda",
             "composed": false
           },
           {
@@ -86,96 +97,12 @@
         ],
         "source": "Business Standard",
         "corroborating": [
-          "NDTV"
+          "NDTV",
+          "Deccan Chronicle"
         ],
         "url": "https://www.business-standard.com/companies/news/infosys-says-public-services-ceo-unreachable-after-deadly-nepal-flood-126082801441_1.html"
       },
-      "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "612bf307f1fb4f189e4bfac2",
-      "story_id": "612bf307f1fb4f189e4bfac2",
-      "headline": "Death toll rises to 579 amid fresh flood alert",
-      "title": "Death toll rises to 579 amid fresh flood alert",
-      "summary": "Nepal's flood death toll rises to 579 as authorities issue fresh alerts over a dangerous barrier lake near the Tibet border. Read the latest on rescue operations and evacuations.",
-      "url": "https://www.thehansindia.com/news/international/death-toll-rises-to-579-amid-fresh-flood-alert-1115139",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-28T19:15:16+00:00",
-      "published_at": "2026-08-28T19:15:16+00:00",
-      "effective_at": "2026-08-28T19:15:16+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Nepal's flood death toll rises to 579 as authorities issue fresh alerts over a dangerous barrier lake near the Tibet border.",
-          "Read the latest on rescue operations and evacuations."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Nepal's flood death toll rises to 579 as authorities issue fresh alerts over a dangerous barrier lake near the Tibet border.",
-            "source": "The Hans India",
-            "item_id": "612bf307f1fb4f189e4bfac2",
-            "composed": false
-          },
-          {
-            "text": "Read the latest on rescue operations and evacuations.",
-            "source": "The Hans India",
-            "item_id": "612bf307f1fb4f189e4bfac2",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/news/international/death-toll-rises-to-579-amid-fresh-flood-alert-1115139"
-      },
-      "group_size": 1,
+      "group_size": 4,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -235,7 +162,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -368,7 +295,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -495,7 +422,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -617,7 +544,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -744,7 +671,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -874,7 +801,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -971,7 +898,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1090,7 +1017,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1188,7 +1115,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 22.8, score 38.4 -> HIGH"
