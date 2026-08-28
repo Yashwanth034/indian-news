@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T08:32:06.385898+00:00",
-  "count": 9,
+  "generated_at": "2026-08-28T08:41:51.072461+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "df69e2c099a915b954e3daf7",
@@ -56,7 +56,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 36, score 64 -> URGENT"
@@ -160,7 +160,7 @@
       "event_time": "2026-08-28T04:35:09+00:00",
       "published_at": "2026-08-28T04:51:18+00:00",
       "effective_at": "2026-08-28T04:51:18+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 4,
       "source_groups": {
         "ani": {
           "kind": "wire",
@@ -182,24 +182,31 @@
             "hans-india"
           ],
           "count": 1
+        },
+        "assam-tribune": {
+          "kind": "independent",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 4 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -279,40 +286,143 @@
       "enrichment": "article"
     },
     {
-      "event_id": "9da26b9270a8e994de2efc6b",
-      "story_id": "9da26b9270a8e994de2efc6b",
-      "headline": "Congress writes to Guv, seeks fee waiver for flood-hit Upper Assam students",
-      "title": "Congress writes to Guv, seeks fee waiver for flood-hit Upper Assam students",
-      "summary": "Senior leader Debabrata Saikia also asked the state govt to grant free admission to all eligible students from the flood-affected villages",
-      "url": "https://assamtribune.com/assam/congress-writes-to-guv-seeks-fee-waiver-for-flood-hit-upper-assam-students-1616223",
+      "event_id": "d683ef5a0f110aab0b8678c6",
+      "story_id": "d683ef5a0f110aab0b8678c6",
+      "headline": "Nepal floods disrupt India trade, 16 km truck queue at Sonauli border in UP",
+      "title": "Nepal floods disrupt India trade, 16 km truck queue at Sonauli border in UP",
+      "summary": "The Nepal flash floods have disrupted cross-border trade between India and the neighbouring country, with the movement of goods vehicles to Kathmandu and other parts of Nepal via Maharajganj in Uttar Pradesh, affected by damaged and flooded roads. A queue of around 16 km of cargo vehicles has formed on the Indian side of the Sonauli border in Maharajganj as trucks wait to enter Nepal. Besides vehicles bound for Kathmandu, cargo trucks heading to other parts of Nepal are also facing delays as traffic movement on several routes remains affected. The queue has extended towards Nautanwa, raising concerns over traffic movement on the national highway. Security agencies and police personnel are monitoring the situation and regulating the movement of vehicles. Circle Officer Basant Singh said, \"Surveillance at the Sonauli border has been intensified, and police station heads in the border areas have been directed to remain alert.\" Officials warned that the situation could worsen if road",
+      "url": "https://www.business-standard.com/india-news/nepal-floods-disrupt-india-trade-16-km-truck-queue-at-sonauli-border-in-up-126082800579_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security",
+        "transport-infrastructure",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T08:35:41+00:00",
+      "published_at": "2026-08-28T08:35:41+00:00",
+      "effective_at": "2026-08-28T08:35:41+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: state scope (uttar pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "uttar pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Nepal flash floods have disrupted cross-border trade between India and the neighbouring country, with the movement of goods vehicles to Kathmandu and other parts of Nepal via Maharajganj in Uttar Pradesh, affected by damaged and flooded roads.",
+          "A queue of around 16 km of cargo vehicles has formed on the Indian side of the Sonauli border in Maharajganj as trucks wait to enter Nepal."
+        ],
+        "body": [
+          "Besides vehicles bound for Kathmandu, cargo trucks heading to other parts of Nepal are also facing delays as traffic movement on several routes remains affected.",
+          "The queue has extended towards Nautanwa, raising concerns over traffic movement on the national highway.",
+          "Security agencies and police personnel are monitoring the situation and regulating the movement of vehicles."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Uttar Pradesh"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Circle Officer Basant Singh said, \"Surveillance at the Sonauli border has been intensified, and police station heads in the border areas have been directed to remain alert.\" Officials warned that the situation could worsen if road."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Nepal flash floods have disrupted cross-border trade between India and the neighbouring country, with the movement of goods vehicles to Kathmandu and other parts of Nepal via Maharajganj in Uttar Pradesh, affected by damaged and flooded roads.",
+            "source": "Business Standard",
+            "item_id": "d683ef5a0f110aab0b8678c6",
+            "composed": false
+          },
+          {
+            "text": "A queue of around 16 km of cargo vehicles has formed on the Indian side of the Sonauli border in Maharajganj as trucks wait to enter Nepal.",
+            "source": "Business Standard",
+            "item_id": "d683ef5a0f110aab0b8678c6",
+            "composed": false
+          },
+          {
+            "text": "The queue has extended towards Nautanwa, raising concerns over traffic movement on the national highway.",
+            "source": "Business Standard",
+            "item_id": "d683ef5a0f110aab0b8678c6",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/nepal-floods-disrupt-india-trade-16-km-truck-queue-at-sonauli-border-in-up-126082800579_1.html"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "8c9ac13defbdfd90adf03807",
+      "story_id": "8c9ac13defbdfd90adf03807",
+      "headline": "Tim Cook announces Apple aid for flood relief and rebuilding in Nepal",
+      "title": "Tim Cook announces Apple aid for flood relief and rebuilding in Nepal",
+      "summary": "New Delhi, Aug 28 : Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts. The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed. The debris briefly blocked the river before giving way, sending floodwaters and mud downstream, killing hundreds of people, displacing others, and damaging villages, roads, bridges, and other infrastructure. In a post on social media platform X, Cook said that our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. \"Our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. Apple is making a donation to support relief and rebuilding efforts on the ground,\" he stated. Cook did not disclose the amount of Apple's contribution or specify the organisations through which the funds would be channelled. The announcement comes as Nepal continues to grapple with the aftermath of a massive flash flood that swept through the transboundary Bhote Koshi River after an ice-rock avalanche in the Tibetan region triggered a sudden surge of water and debris. The disaster has devastated settlements, roads, bridges, hydropower facilities and other critical infrastructure in several districts of Nepal. According to the latest reports, the death toll in Nepal has continued to rise, with hundreds of bodies recovered from districts along the Bhote Koshi and Trishuli river systems. More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents. The disaster has also affected foreign nationals, including Indian tourists. Nepalese authorities have been carrying out search, rescue and relief operations across the affected areas, while helicopters have been deployed to evacuate stranded people and deliver essential supplies. Earlier, the Indian Embassy in Nepal issued emergency contact numbers to assist Indian nationals affected by the floods. More than 100 Indians were among tourists initially reported missing in the affected region, although authorities have continued to verify and update the figures. The Nepal government has declared severely affected areas as disaster crisis-hit zones and launched efforts to restore damaged infrastructure and provide relief to displaced and affected communities. India, China and international institutions have also indicated support for rescue, relief and reconstruction efforts. --IANS",
+      "url": "https://assamtribune.com/business/tim-cook-announces-apple-aid-for-flood-relief-and-rebuilding-in-nepal-1616212",
       "source": "The Assam Tribune",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [
-        "education",
-        "national-politics",
-        "courts-law"
+        "technology-digital",
+        "transport-infrastructure",
+        "business-industry",
+        "defence-security"
       ],
-      "confidence": "high",
-      "score": 72.0,
+      "confidence": "medium",
+      "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-28T04:28:22+00:00",
-      "published_at": "2026-08-28T07:49:32+00:00",
-      "effective_at": "2026-08-28T07:49:32+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-08-28T06:41:35+00:00",
+      "published_at": "2026-08-28T06:41:35+00:00",
+      "effective_at": "2026-08-28T06:41:35+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        },
-        "assam-tribune": {
-          "kind": "independent",
+        "ians": {
+          "kind": "wire",
           "source_ids": [
             "assam-tribune"
           ],
@@ -323,80 +433,124 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
         "major: significance event 'flood'",
+        "major: significance event 'avalanche'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
-        "scale: state scope (assam)",
-        "recency: fresh (4.1h ago) +4",
+        "event term: 'floods' in summary weight 38.4",
+        "event term: 'avalanche' in summary weight 26.4",
+        "scale: state scope (delhi)",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
       ],
       "geo_scope": "state",
-      "state": "assam",
+      "state": "delhi",
       "national_significance": true,
-      "article_sentences": [
-        "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-        "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students.",
-        "He pointed out that many students have lost books, certificates, study materials and other essential belongings in the floods.",
-        "While acknowledging that the state government has announced certain relief measures for flood-affected students and educational institutions, Saikia said college and university students continue to face serious financial difficulties.",
-        "He requested the government to issue an immediate directive to universities, colleges and schools to provide free admission to eligible students from flood-affected villages in the three districts.",
-        "He also sought a complete waiver of semester fees, admission fees, examination fees, laboratory fees, library fees and other compulsory educational charges for the affected students.",
-        "Saikia further urged that the directive be implemented uniformly across educational institutions to ensure that eligible students receive relief without discrimination or delay.",
-        "Describing the matter as an urgent humanitarian and educational issue, the former MLA appealed to the Governor to intervene and ensure immediate financial relief for flood-affected students."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-          "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students."
+          "New Delhi, Aug 28: Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts.",
+          "The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed."
         ],
         "body": [
-          "He pointed out that many students have lost books, certificates, study materials and other essential belongings in the floods.",
-          "While acknowledging that the state government has announced certain relief measures for flood-affected students and educational institutions, Saikia said college and university students continue to face serious financial difficulties.",
-          "He requested the government to issue an immediate directive to universities, colleges and schools to provide free admission to eligible students from flood-affected villages in the three districts.",
-          "He also sought a complete waiver of semester fees, admission fees, examination fees, laboratory fees, library fees and other compulsory educational charges for the affected students.",
-          "Saikia further urged that the directive be implemented uniformly across educational institutions to ensure that eligible students receive relief without discrimination or delay.",
-          "Describing the matter as an urgent humanitarian and educational issue, the former MLA appealed to the Governor to intervene and ensure immediate financial relief for flood-affected students.",
-          "Senior leader Debabrata Saikia also asked the state govt to grant free admission to all eligible students from the flood-affected villages."
+          "The debris briefly blocked the river before giving way, sending floodwaters and mud downstream, killing hundreds of people, displacing others, and damaging villages, roads, bridges, and other infrastructure.",
+          "In a post on social media platform X, Cook said that our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet.",
+          "\"Our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet.",
+          "Apple is making a donation to support relief and rebuilding efforts on the ground,\" he stated.",
+          "Cook did not disclose the amount of Apple's contribution or specify the organisations through which the funds would be channelled.",
+          "The disaster has devastated settlements, roads, bridges, hydropower facilities and other critical infrastructure in several districts of Nepal.",
+          "According to the latest reports, the death toll in Nepal has continued to rise, with hundreds of bodies recovered from districts along the Bhote Koshi and Trishuli river systems.",
+          "More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents.",
+          "The disaster has also affected foreign nationals, including Indian tourists.",
+          "Nepalese authorities have been carrying out search, rescue and relief operations across the affected areas, while helicopters have been deployed to evacuate stranded people and deliver essential supplies.",
+          "Earlier, the Indian Embassy in Nepal issued emergency contact numbers to assist Indian nationals affected by the floods.",
+          "More than 100 Indians were among tourists initially reported missing in the affected region, although authorities have continued to verify and update the figures.",
+          "The Nepal government has declared severely affected areas as disaster crisis-hit zones and launched efforts to restore damaged infrastructure and provide relief to displaced and affected communities.",
+          "India, China and international institutions have also indicated support for rescue, relief and reconstruction efforts.",
+          "--IANS.",
+          "Kashmir, Observer, Jammu, Srinagar, Latest Kashmir News, Kashmir News, Kashmir Latest News.",
+          "The death toll from flash floods in central Nepal rose to 469 on Friday as search and rescue operations continued for a third day, with nearly 1,000 people still missing in the Himalayan nation.",
+          "The post Nepal Flash Flood Death Toll Rises to 469, Rescue Ops Continue appeared first on Kashmir Observer.",
+          "Apple CEO Tim Cook has announced a donation to support relief and rebuilding efforts after devastating flash floods and mudslides along the Nepal-Tibet border.",
+          "The disaster killed hundreds, displaced communities and damaged villages, roads, bridges and critical infrastructure across Nepal.",
+          "‘Nothing is left’: Nepal flood survivors recount desperate escapes."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Sivasagar"
+            "text": "Nepal"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 800 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The announcement comes as Nepal continues to grapple with the aftermath of a massive flash flood that swept through the transboundary Bhote Koshi River after an ice-rock avalanche in the Tibetan region triggered a sudden surge of water and debris."
           }
         ],
         "sentences": [
           {
-            "text": "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-            "source": "The Assam Tribune",
-            "item_id": "9da26b9270a8e994de2efc6b:article",
+            "text": "The death toll from flash floods in central Nepal rose to 469 on Friday as search and rescue operations continued for a third day, with nearly 1,000 people still missing in the Himalayan nation.",
+            "source": "Kashmir Observer",
+            "item_id": "22282e912943828a84bdfbf7",
             "composed": false
           },
           {
-            "text": "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students.",
+            "text": "New Delhi, Aug 28: Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts.",
             "source": "The Assam Tribune",
-            "item_id": "9da26b9270a8e994de2efc6b:article",
+            "item_id": "8c9ac13defbdfd90adf03807",
+            "composed": false
+          },
+          {
+            "text": "More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents.",
+            "source": "The Assam Tribune",
+            "item_id": "8c9ac13defbdfd90adf03807",
+            "composed": false
+          },
+          {
+            "text": "The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed.",
+            "source": "The Assam Tribune",
+            "item_id": "8c9ac13defbdfd90adf03807",
             "composed": false
           }
         ],
         "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/assam/congress-writes-to-guv-seeks-fee-waiver-for-flood-hit-upper-assam-students-1616223"
+        "corroborating": [
+          "Kashmir Observer",
+          "Telangana Today",
+          "National Herald"
+        ],
+        "url": "https://assamtribune.com/business/tim-cook-announces-apple-aid-for-flood-relief-and-rebuilding-in-nepal-1616212"
       },
-      "group_size": 1,
+      "group_size": 4,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "ad54304504194b9baeb3776b",
@@ -448,7 +602,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -552,7 +706,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -591,162 +745,6 @@
         "url": "https://www.business-standard.com/world-news/nepal-issues-new-flood-warning-as-water-level-rises-at-site-of-flash-flood-126082800480_1.html"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "8c9ac13defbdfd90adf03807",
-      "story_id": "8c9ac13defbdfd90adf03807",
-      "headline": "Tim Cook announces Apple aid for flood relief and rebuilding in Nepal",
-      "title": "Tim Cook announces Apple aid for flood relief and rebuilding in Nepal",
-      "summary": "New Delhi, Aug 28 : Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts. The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed. The debris briefly blocked the river before giving way, sending floodwaters and mud downstream, killing hundreds of people, displacing others, and damaging villages, roads, bridges, and other infrastructure. In a post on social media platform X, Cook said that our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. \"Our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. Apple is making a donation to support relief and rebuilding efforts on the ground,\" he stated. Cook did not disclose the amount of Apple's contribution or specify the organisations through which the funds would be channelled. The announcement comes as Nepal continues to grapple with the aftermath of a massive flash flood that swept through the transboundary Bhote Koshi River after an ice-rock avalanche in the Tibetan region triggered a sudden surge of water and debris. The disaster has devastated settlements, roads, bridges, hydropower facilities and other critical infrastructure in several districts of Nepal. According to the latest reports, the death toll in Nepal has continued to rise, with hundreds of bodies recovered from districts along the Bhote Koshi and Trishuli river systems. More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents. The disaster has also affected foreign nationals, including Indian tourists. Nepalese authorities have been carrying out search, rescue and relief operations across the affected areas, while helicopters have been deployed to evacuate stranded people and deliver essential supplies. Earlier, the Indian Embassy in Nepal issued emergency contact numbers to assist Indian nationals affected by the floods. More than 100 Indians were among tourists initially reported missing in the affected region, although authorities have continued to verify and update the figures. The Nepal government has declared severely affected areas as disaster crisis-hit zones and launched efforts to restore damaged infrastructure and provide relief to displaced and affected communities. India, China and international institutions have also indicated support for rescue, relief and reconstruction efforts. --IANS",
-      "url": "https://assamtribune.com/business/tim-cook-announces-apple-aid-for-flood-relief-and-rebuilding-in-nepal-1616212",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "technology-digital",
-        "transport-infrastructure",
-        "business-industry",
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-28T06:41:35+00:00",
-      "published_at": "2026-08-28T06:41:35+00:00",
-      "effective_at": "2026-08-28T06:41:35+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'floods'",
-        "major: significance event 'disaster'",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
-        "major: significance event 'flood'",
-        "major: significance event 'avalanche'",
-        "major: significance event 'disaster'",
-        "major: significance event 'disaster'",
-        "major: significance event 'floods'",
-        "major: significance event 'disaster'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "event term: 'floods' in summary weight 38.4",
-        "event term: 'avalanche' in summary weight 26.4",
-        "scale: state scope (delhi)",
-        "recency: breaking (1.8h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Aug 28: Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts.",
-          "The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed."
-        ],
-        "body": [
-          "The debris briefly blocked the river before giving way, sending floodwaters and mud downstream, killing hundreds of people, displacing others, and damaging villages, roads, bridges, and other infrastructure.",
-          "In a post on social media platform X, Cook said that our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet.",
-          "\"Our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet.",
-          "Apple is making a donation to support relief and rebuilding efforts on the ground,\" he stated.",
-          "Cook did not disclose the amount of Apple's contribution or specify the organisations through which the funds would be channelled.",
-          "The disaster has devastated settlements, roads, bridges, hydropower facilities and other critical infrastructure in several districts of Nepal.",
-          "According to the latest reports, the death toll in Nepal has continued to rise, with hundreds of bodies recovered from districts along the Bhote Koshi and Trishuli river systems.",
-          "More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents.",
-          "The disaster has also affected foreign nationals, including Indian tourists.",
-          "Nepalese authorities have been carrying out search, rescue and relief operations across the affected areas, while helicopters have been deployed to evacuate stranded people and deliver essential supplies.",
-          "Earlier, the Indian Embassy in Nepal issued emergency contact numbers to assist Indian nationals affected by the floods.",
-          "More than 100 Indians were among tourists initially reported missing in the affected region, although authorities have continued to verify and update the figures.",
-          "The Nepal government has declared severely affected areas as disaster crisis-hit zones and launched efforts to restore damaged infrastructure and provide relief to displaced and affected communities.",
-          "India, China and international institutions have also indicated support for rescue, relief and reconstruction efforts.",
-          "--IANS.",
-          "Kashmir, Observer, Jammu, Srinagar, Latest Kashmir News, Kashmir News, Kashmir Latest News.",
-          "The death toll from flash floods in central Nepal rose to 469 on Friday as search and rescue operations continued for a third day, with nearly 1,000 people still missing in the Himalayan nation.",
-          "The post Nepal Flash Flood Death Toll Rises to 469, Rescue Ops Continue appeared first on Kashmir Observer.",
-          "Apple CEO Tim Cook has announced a donation to support relief and rebuilding efforts after devastating flash floods and mudslides along the Nepal-Tibet border.",
-          "The disaster killed hundreds, displaced communities and damaged villages, roads, bridges and critical infrastructure across Nepal."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "More than 800 people"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The announcement comes as Nepal continues to grapple with the aftermath of a massive flash flood that swept through the transboundary Bhote Koshi River after an ice-rock avalanche in the Tibetan region triggered a sudden surge of water and debris."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The death toll from flash floods in central Nepal rose to 469 on Friday as search and rescue operations continued for a third day, with nearly 1,000 people still missing in the Himalayan nation.",
-            "source": "Kashmir Observer",
-            "item_id": "22282e912943828a84bdfbf7",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, Aug 28: Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts.",
-            "source": "The Assam Tribune",
-            "item_id": "8c9ac13defbdfd90adf03807",
-            "composed": false
-          },
-          {
-            "text": "More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents.",
-            "source": "The Assam Tribune",
-            "item_id": "8c9ac13defbdfd90adf03807",
-            "composed": false
-          },
-          {
-            "text": "The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed.",
-            "source": "The Assam Tribune",
-            "item_id": "8c9ac13defbdfd90adf03807",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [
-          "Kashmir Observer",
-          "Telangana Today"
-        ],
-        "url": "https://assamtribune.com/business/tim-cook-announces-apple-aid-for-flood-relief-and-rebuilding-in-nepal-1616212"
-      },
-      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -795,7 +793,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -899,7 +897,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -977,6 +975,115 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e225276bffd16aa46ca0f20e",
+      "story_id": "e225276bffd16aa46ca0f20e",
+      "headline": "Savita Punia urges PM Modi, Shah Rukh Khan to save Women’s HIL after India’s success at World Cup",
+      "title": "Savita Punia urges PM Modi, Shah Rukh Khan to save Women’s HIL after India’s success at World Cup",
+      "summary": "Just hours after India secured its best finish at the FIH Women’s World Cup since 1974, Savita took to social media to gather support for the Women’s HIL, which is currently faces an uncertain future.",
+      "url": "https://sportstar.thehindu.com/hockey/savita-punia-save-womens-hockey-india-league-request-pm-modi-shah-rukh-khan-financial-help-appeal/article71399624.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T08:35:41+00:00",
+      "published_at": "2026-08-28T08:35:41+00:00",
+      "effective_at": "2026-08-28T08:35:41+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "event term: 'world cup' in summary weight 25.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "India women’s hockey team player Savita Punia urged Prime Minister Narendra Modi and actor Shah Rukh Khan to save the Women’s Hockey India League, which faces the threat of going under amid financial constraints.",
+        "Sportstar had reported last week that only two of the four teams’ owners are willing to continue operating, due to high costs, low broadcast and ticket revenue, and not enough sponsorship.",
+        "Requesting PM Modi to intervene in the matter, Savita wrote on her social media: “Sir, our women just rewrote hockey history after 52 years [at the World Cup].",
+        "The league that built these players — the Women’s HIL — needs support to survive.",
+        "A word from you could change its fate.”",
+        "Savita also urged Shah Rukh to help create an ecosystem like the IPL, where he owns the Kolkata Knight Riders franchise.",
+        "“You’ve championed sport and women’s talent before — Priyanka Chopra with women’s causes, SRK with KKR, Ananya Pandey with young talent.",
+        "Women’s hockey needs your voice right now.",
+        "A single tweet from you could bring sponsors and visibility back to WHIL.",
+        "“Nita Ambani ji has long championed grassroots sport and Olympic talent through Reliance Foundation.",
+        "Women’s HIL is exactly the kind of grassroots-to-elite pipeline that needs a backer like this right now,” she wrote.",
+        "Savita’s appeal came hours after India defeated Germany 3-1 in the fifth-place classification game, securing India’s best finish at the FIH Women’s World Cup since 1974."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "India women’s hockey team player Savita Punia urged Prime Minister Narendra Modi and actor Shah Rukh Khan to save the Women’s Hockey India League, which faces the threat of going under amid financial constraints.",
+          "Sportstar had reported last week that only two of the four teams’ owners are willing to continue operating, due to high costs, low broadcast and ticket revenue, and not enough sponsorship."
+        ],
+        "body": [
+          "Requesting PM Modi to intervene in the matter, Savita wrote on her social media: “Sir, our women just rewrote hockey history after 52 years [at the World Cup].",
+          "The league that built these players — the Women’s HIL — needs support to survive.",
+          "A word from you could change its fate.” Savita also urged Shah Rukh to help create an ecosystem like the IPL, where he owns the Kolkata Knight Riders franchise.",
+          "“You’ve championed sport and women’s talent before — Priyanka Chopra with women’s causes, SRK with KKR, Ananya Pandey with young talent.",
+          "Women’s hockey needs your voice right now.",
+          "A single tweet from you could bring sponsors and visibility back to WHIL.",
+          "“Nita Ambani ji has long championed grassroots sport and Olympic talent through Reliance Foundation.",
+          "Women’s HIL is exactly the kind of grassroots-to-elite pipeline that needs a backer like this right now,” she wrote."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Sportstar had reported last week that only two of the four teams’ owners are willing to continue operating, due to high costs, low broadcast and ticket revenue, and not enough sponsorship.",
+            "source": "Sportstar",
+            "item_id": "e225276bffd16aa46ca0f20e:article",
+            "composed": false
+          },
+          {
+            "text": "India women’s hockey team player Savita Punia urged Prime Minister Narendra Modi and actor Shah Rukh Khan to save the Women’s Hockey India League, which faces the threat of going under amid financial constraints.",
+            "source": "Sportstar",
+            "item_id": "e225276bffd16aa46ca0f20e:article",
+            "composed": false
+          },
+          {
+            "text": "Requesting PM Modi to intervene in the matter, Savita wrote on her social media: “Sir, our women just rewrote hockey history after 52 years [at the World Cup].",
+            "source": "Sportstar",
+            "item_id": "e225276bffd16aa46ca0f20e:article",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/hockey/savita-punia-save-womens-hockey-india-league-request-pm-modi-shah-rukh-khan-financial-help-appeal/article71399624.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "47c2df5044c54a66a868357d",
       "story_id": "47c2df5044c54a66a868357d",
       "headline": "India vs Belgium Preview: Harmanpreet Singh’s side eyes winning finish at Hockey World Cup 2026",
@@ -1019,7 +1126,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
