@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T09:41:48.976158+00:00",
-  "count": 10,
+  "generated_at": "2026-08-28T09:51:36.557187+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "8c9ac13defbdfd90adf03807",
@@ -79,7 +79,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -113,7 +113,8 @@
           "The death toll from flash floods in central Nepal rose to 469 on Friday as search and rescue operations continued for a third day, with nearly 1,000 people still missing in the Himalayan nation.",
           "The post Nepal Flash Flood Death Toll Rises to 469, Rescue Ops Continue appeared first on Kashmir Observer.",
           "Apple CEO Tim Cook has announced a donation to support relief and rebuilding efforts after devastating flash floods and mudslides along the Nepal-Tibet border.",
-          "The disaster killed hundreds, displaced communities and damaged villages, roads, bridges and critical infrastructure across Nepal."
+          "The disaster killed hundreds, displaced communities and damaged villages, roads, bridges and critical infrastructure across Nepal.",
+          "‘Nothing is left’: Nepal flood survivors recount desperate escapes."
         ],
         "bullets": [
           {
@@ -166,11 +167,12 @@
         "source": "The Assam Tribune",
         "corroborating": [
           "Kashmir Observer",
-          "Telangana Today"
+          "Telangana Today",
+          "National Herald"
         ],
         "url": "https://assamtribune.com/business/tim-cook-announces-apple-aid-for-flood-relief-and-rebuilding-in-nepal-1616212"
       },
-      "group_size": 3,
+      "group_size": 4,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -194,7 +196,7 @@
       "event_time": "2026-08-28T04:35:09+00:00",
       "published_at": "2026-08-28T04:51:18+00:00",
       "effective_at": "2026-08-28T04:51:18+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 4,
       "source_groups": {
         "ani": {
           "kind": "wire",
@@ -216,24 +218,31 @@
             "assam-tribune"
           ],
           "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 4 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'floods'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 5 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -313,6 +322,247 @@
       "enrichment": "article"
     },
     {
+      "event_id": "a66400893a0cc728357c7b26",
+      "story_id": "a66400893a0cc728357c7b26",
+      "headline": "Nepal floods: How recent reports warned of this disaster months ago",
+      "title": "Nepal floods: How recent reports warned of this disaster months ago",
+      "summary": "Recent floods in Nepal and Tibet followed ICIMOD's warnings about melting glaciers. These reports highlighted doubled ice loss rates and increased flood risks across the region. A catastrophic flash flood triggered by a glacier collapse killed hundreds and left many missing. Smaller glaciers are shrinking faster, intensifying hazards like glacial lake outburst floods. Regional cooperation is vital for understanding and preparing for these cross-border mountain disasters.",
+      "url": "https://timesofindia.indiatimes.com/world/south-asia/nepal-floods-how-two-reports-warned-of-this-disaster-months-ago/articleshow/133587912.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T09:29:42+00:00",
+      "published_at": "2026-08-28T09:29:42+00:00",
+      "effective_at": "2026-08-28T09:29:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Recent floods in Nepal and Tibet followed ICIMOD's warnings about melting glaciers.",
+          "These reports highlighted doubled ice loss rates and increased flood risks across the region."
+        ],
+        "body": [
+          "A catastrophic flash flood triggered by a glacier collapse killed hundreds and left many missing.",
+          "Smaller glaciers are shrinking faster, intensifying hazards like glacial lake outburst floods.",
+          "Regional cooperation is vital for understanding and preparing for these cross-border mountain disasters."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Recent floods in Nepal and Tibet followed ICIMOD's warnings about melting glaciers.",
+            "source": "Times of India",
+            "item_id": "a66400893a0cc728357c7b26",
+            "composed": false
+          },
+          {
+            "text": "These reports highlighted doubled ice loss rates and increased flood risks across the region.",
+            "source": "Times of India",
+            "item_id": "a66400893a0cc728357c7b26",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/world/south-asia/nepal-floods-how-two-reports-warned-of-this-disaster-months-ago/articleshow/133587912.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "fed842059baa1a6fefe83260",
+      "story_id": "fed842059baa1a6fefe83260",
+      "headline": "Xi Jinping chairs emergency meeting on Tibet-Nepal flood disaster",
+      "title": "Xi Jinping chairs emergency meeting on Tibet-Nepal flood disaster",
+      "summary": "Chinese President Xi Jinping chaired a meeting of the ruling Communist Party on Friday to review rescue and relief operations following the devastating flash floods along the Tibet-Nepal border.",
+      "url": "https://www.nationalheraldindia.com/international/xi-jinping-chairs-emergency-meeting-on-tibet-nepal-flood-disaster",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T08:40:37+00:00",
+      "published_at": "2026-08-28T08:40:37+00:00",
+      "effective_at": "2026-08-28T08:40:37.965000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (1.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Chinese President Xi Jinping chaired a meeting of the ruling Communist Party on Friday to review rescue and relief operations following the devastating flash floods along the Tibet-Nepal border.",
+        "The meeting assessed the situation after floods struck Gyirong County in the Tibet Autonomous Region on Wednesday, killing hundreds across the border region and leaving many others missing.",
+        "Xi and other senior leaders observed a moment of silence for the victims at the start of the meeting, state-run Xinhua news agency reported.",
+        "Officials said emergency rescue operations had been launched swiftly and conducted in a coordinated manner.",
+        "Efforts were also under way to relocate and provide assistance to people affected by the disaster.",
+        "The meeting called for scientifically planned search-and-rescue operations and directed authorities to make every effort to locate missing Chinese and foreign nationals.",
+        "The death toll in Nepal has risen to 469, while three people have been confirmed dead in Tibet.",
+        "More than 550 people remain missing in Tibet, and about 100 Chinese nationals have yet to be traced in Nepal.",
+        "Chinese officials said around 1,000 people had been evacuated to safety, including 555 tourists.",
+        "The nationalities of the tourists have not yet been disclosed.",
+        "Several Indian pilgrims undertaking the Kailash Mansarovar Yatra were also reportedly stranded after the floods disrupted roads and other infrastructure across the region.",
+        "Meanwhile, China has activated a Level-IV emergency response amid fears that a newly formed barrier lake could breach and inundate downstream areas."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Chinese President Xi Jinping chaired a meeting of the ruling Communist Party on Friday to review rescue and relief operations following the devastating flash floods along the Tibet-Nepal border.",
+          "The meeting assessed the situation after floods struck Gyirong County in the Tibet Autonomous Region on Wednesday, killing hundreds across the border region and leaving many others missing."
+        ],
+        "body": [
+          "Xi and other senior leaders observed a moment of silence for the victims at the start of the meeting, state-run Xinhua news agency reported.",
+          "Efforts were also under way to relocate and provide assistance to people affected by the disaster.",
+          "The meeting called for scientifically planned search-and-rescue operations and directed authorities to make every effort to locate missing Chinese and foreign nationals.",
+          "The death toll in Nepal has risen to 469, while three people have been confirmed dead in Tibet.",
+          "More than 550 people remain missing in Tibet, and about 100 Chinese nationals have yet to be traced in Nepal.",
+          "Chinese officials said around 1,000 people had been evacuated to safety, including 555 tourists.",
+          "The nationalities of the tourists have not yet been disclosed."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 550 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Officials said emergency rescue operations had been launched swiftly and conducted in a coordinated manner."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "More than 550 people remain missing in Tibet, and about 100 Chinese nationals have yet to be traced in Nepal.",
+            "source": "National Herald",
+            "item_id": "fed842059baa1a6fefe83260:article",
+            "composed": false
+          },
+          {
+            "text": "Chinese officials said around 1,000 people had been evacuated to safety, including 555 tourists.",
+            "source": "National Herald",
+            "item_id": "fed842059baa1a6fefe83260:article",
+            "composed": false
+          },
+          {
+            "text": "The death toll in Nepal has risen to 469, while three people have been confirmed dead in Tibet.",
+            "source": "National Herald",
+            "item_id": "fed842059baa1a6fefe83260:article",
+            "composed": false
+          },
+          {
+            "text": "Chinese President Xi Jinping chaired a meeting of the ruling Communist Party on Friday to review rescue and relief operations following the devastating flash floods along the Tibet-Nepal border.",
+            "source": "National Herald",
+            "item_id": "fed842059baa1a6fefe83260:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/international/xi-jinping-chairs-emergency-meeting-on-tibet-nepal-flood-disaster"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "d683ef5a0f110aab0b8678c6",
       "story_id": "d683ef5a0f110aab0b8678c6",
       "headline": "Nepal floods disrupt India trade, 16 km truck queue at Sonauli border in UP",
@@ -362,7 +612,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -471,7 +721,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -575,7 +825,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -662,7 +912,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -766,7 +1016,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -846,16 +1096,16 @@
     {
       "event_id": "0cc04af6717f2bb00794271b",
       "story_id": "0cc04af6717f2bb00794271b",
-      "headline": "President clears way for High Court bench in Ladakh, invokes Article 240",
-      "title": "President clears way for High Court bench in Ladakh, invokes Article 240",
-      "summary": "New Delhi , August 28 : In a significant move aimed at bringing the High Court closer to litigants in Ladakh, President Droupadi Murmu has promulgated a regulation enabling the High Court of Jammu and Kashmir and Ladakh to hold sittings in the Union Territory of Ladakh. The Union Territory of Ladakh (Sitting of Bench of the High Court of Jammu and Kashmir, and Ladakh in Ladakh) Regulation, 2026, was promulgated on August 27 under Article 240 of the Constitution, read with Section 58(2) of the Jammu and Kashmir Reorganisation Act, 2019. The regulation provides the legal framework for a bench of the common High Court to sit in Ladakh. It states that the Judges and Division Courts of the High Court may sit at a place in Ladakh as may be appointed by the Chief Justice, with the approval of the Lieutenant Governor of Ladakh. At the same time, the regulation keeps the existing principal seat of the High Court unchanged. It also empowers the Chief Justice to direct that any case or class of cases arising in Ladakh may instead be heard at Srinagar or Jammu. The President has exercised a specific constitutional power under Article 240, which authorises the President to make regulations for the peace, progress and good government of certain Union Territories. The Jammu and Kashmir Reorganisation Act, 2019, read with Article 240, provides the constitutional and statutory basis for such regulations in relation to Ladakh. Unlike a presidential ordinance under Article 123, the power under Article 240 is not conditioned on Parliament being in recess. Legal sources point out that there is, therefore, no requirement that Parliament must first be prorogued before the President can promulgate a regulation under Article 240. The notification, however, provides that the regulation will come into force on a date to be specified by the Administrator of the Union Territory of Ladakh through a notification in the Official Gazette.",
-      "url": "https://risingkashmir.com/national/presidenthighcourtbenchladakh-12446833",
-      "source": "Rising Kashmir",
+      "headline": "President Murmu paves way for High Court bench in Ladakh",
+      "title": "President Murmu paves way for High Court bench in Ladakh",
+      "summary": "Leh, Aug 28: President Droupadi Murmu has issued a regulation that establishes a bench of the High Court of Jammu and Kashmir and Ladakh in the Union Territory of Ladakh, paving the way for bringing higher judicial services closer to the people of the region. The regulation, titled 'The Union Territory of Ladakh (Sitting of the Bench of the High Court of Jammu and Kashmir and Ladakh in Ladakh) Regulation, 2026,' was promulgated by President Murmu on August 27 and published in the Gazette of India Extraordinary on the same day. Issued by the Ministry of Law and Justice, the regulation seeks to establish a high court bench in Ladakh and address related matters, fulfilling a long-standing demand from the people of Ladakh for improved access to higher judicial remedies in the geographically remote area. Lieutenant Governor Vinai Kumar Saxena welcomed the promulgation, stating that the notification was issued within seven days of the Union Cabinet's decision. He emphasised that this quick action demonstrates the Centre's commitment to addressing the aspirations of the people of Ladakh. On August 20, the Union Cabinet, chaired by Prime Minister Narendra Modi, approved the proposal to enable sittings of a high court bench in Ladakh, aiming to make justice more accessible, especially for residents of remote and far-flung areas. Saxena expressed gratitude to the prime minister and Union Home Minister Amit Shah for the \"historic step\" towards bringing the high court closer to the people of Ladakh. \"For a geographically challenging region like Ladakh, access to justice cannot be separated from physical accessibility. This decision will substantially ease the difficulties faced by our people in accessing higher judicial remedies and will strengthen their faith in our justice delivery system,\" the lieutenant governor said. Having high court sittings within Ladakh is expected to decrease the time and expenses incurred by litigants who currently have to travel outside the Union Territory for high court proceedings. The move will also make the justice delivery system more accessible to ordinary citizens, litigants, advocates and other stakeholders, while facilitating access to constitutional and legal remedies closer to their homes. Saxena stated that the measure would ensure \"easier, faster and more accessible access to justice\" for the people of Ladakh. According to the regulation, the principal seat of the common High Court will continue to be at the same place where the principal seat of the High Court of Jammu and Kashmir and Ladakh was located before the commencement of the regulation. However, the judges and divisions of the High Court may also hold sittings in other locations within the Union Territory of Ladakh as designated by the Chief Justice, with the approval of the lieutenant governor of Ladakh. The regulation further provides that the chief justice may, in his discretion, order that any case or class of cases arising in the Union Territory of Ladakh be heard at Srinagar or Jammu, as the case may be. The regulation extends to the whole of the Union Territory of Ladakh and will come into force on a date to be appointed by the Administrator by notification in the Official Gazette. The promulgation comes within a week of the Union Cabinet's decision on August 20 to enable sittings of a High Court bench in Ladakh.",
+      "url": "https://www.greaterkashmir.com/ladakh/president-murmu-paves-way-for-high-court-bench-in-ladakh-12447627",
+      "source": "Greater Kashmir",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "courts-law",
       "secondary_categories": [
-        "government-policy"
+        "national-politics"
       ],
       "confidence": "high",
       "score": 100.0,
@@ -863,8 +1113,8 @@
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-08-28T06:09:39+00:00",
-      "published_at": "2026-08-28T06:09:39+00:00",
-      "effective_at": "2026-08-28T06:09:39+00:00",
+      "published_at": "2026-08-28T09:50:41+00:00",
+      "effective_at": "2026-08-28T09:50:41+00:00",
       "independent_source_groups": 2,
       "source_groups": {
         "ani": {
@@ -877,27 +1127,29 @@
         "pti": {
           "kind": "wire",
           "source_ids": [
+            "greater-kashmir",
             "kashmir-observer"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
+        "routine_official: 'commencement of' in summary (penalty 7.5, active)",
         "major: geo national significance",
         "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (rising-kashmir) +1",
-        "source: event has 2 copies, primary source counted once",
+        "score 92.5 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 3 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'appointed' in summary weight 21.6",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: fresh (3.5h ago) +4",
+        "scale: multi-state (2 states)",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -905,62 +1157,72 @@
       "geo_scope": "national",
       "state": "ladakh",
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "New Delhi, August 28: In a significant move aimed at bringing the High Court closer to litigants in Ladakh, President Droupadi Murmu has promulgated a regulation enabling the High Court of Jammu and Kashmir and Ladakh to hold sittings in the Union Territory of Ladakh.",
-          "The Union Territory of Ladakh (Sitting of Bench of the High Court of Jammu and Kashmir, and Ladakh in Ladakh) Regulation, 2026, was promulgated on August 27 under Article 240 of the Constitution, read with Section 58(2) of the Jammu and Kashmir Reorganisation Act, 2019."
+          "Leh, Aug 28: President Droupadi Murmu has issued a regulation that establishes a bench of the High Court of Jammu and Kashmir and Ladakh in the Union Territory of Ladakh, paving the way for bringing higher judicial services closer to the people of the region.",
+          "The regulation, titled 'The Union Territory of Ladakh (Sitting of the Bench of the High Court of Jammu and Kashmir and Ladakh in Ladakh) Regulation, 2026,' was promulgated by President Murmu on August 27 and published in the Gazette of India Extraordinary on the same day."
         ],
         "body": [
-          "The regulation provides the legal framework for a bench of the common High Court to sit in Ladakh.",
-          "It states that the Judges and Division Courts of the High Court may sit at a place in Ladakh as may be appointed by the Chief Justice, with the approval of the Lieutenant Governor of Ladakh.",
-          "At the same time, the regulation keeps the existing principal seat of the High Court unchanged.",
-          "It also empowers the Chief Justice to direct that any case or class of cases arising in Ladakh may instead be heard at Srinagar or Jammu.",
-          "The President has exercised a specific constitutional power under Article 240, which authorises the President to make regulations for the peace, progress and good government of certain Union Territories.",
-          "The Jammu and Kashmir Reorganisation Act, 2019, read with Article 240, provides the constitutional and statutory basis for such regulations in relation to Ladakh.",
-          "Unlike a presidential ordinance under Article 123, the power under Article 240 is not conditioned on Parliament being in recess.",
-          "Legal sources point out that there is, therefore, no requirement that Parliament must first be prorogued before the President can promulgate a regulation under Article 240.",
-          "The notification, however, provides that the regulation will come into force on a date to be specified by the Administrator of the Union Territory of Ladakh through a notification in the Official Gazette."
+          "Issued by the Ministry of Law and Justice, the regulation seeks to establish a high court bench in Ladakh and address related matters, fulfilling a long-standing demand from the people of Ladakh for improved access to higher judicial remedies in the geographically remote area.",
+          "Lieutenant Governor Vinai Kumar Saxena welcomed the promulgation, stating that the notification was issued within seven days of the Union Cabinet's decision.",
+          "He emphasised that this quick action demonstrates the Centre's commitment to addressing the aspirations of the people of Ladakh.",
+          "On August 20, the Union Cabinet, chaired by Prime Minister Narendra Modi, approved the proposal to enable sittings of a high court bench in Ladakh, aiming to make justice more accessible, especially for residents of remote and far-flung areas.",
+          "Saxena expressed gratitude to the prime minister and Union Home Minister Amit Shah for the \"historic step\" towards bringing the high court closer to the people of Ladakh.",
+          "\"For a geographically challenging region like Ladakh, access to justice cannot be separated from physical accessibility.",
+          "This decision will substantially ease the difficulties faced by our people in accessing higher judicial remedies and will strengthen their faith in our justice delivery system,\" the lieutenant governor said.",
+          "The move will also make the justice delivery system more accessible to ordinary citizens, litigants, advocates and other stakeholders, while facilitating access to constitutional and legal remedies closer to their homes.",
+          "Saxena stated that the measure would ensure \"easier, faster and more accessible access to justice\" for the people of Ladakh.",
+          "According to the regulation, the principal seat of the common High Court will continue to be at the same place where the principal seat of the High Court of Jammu and Kashmir and Ladakh was located before the commencement of the regulation.",
+          "However, the judges and divisions of the High Court may also hold sittings in other locations within the Union Territory of Ladakh as designated by the Chief Justice, with the approval of the lieutenant governor of Ladakh.",
+          "The regulation further provides that the chief justice may, in his discretion, order that any case or class of cases arising in the Union Territory of Ladakh be heard at Srinagar or Jammu, as the case may be.",
+          "The regulation extends to the whole of the Union Territory of Ladakh and will come into force on a date to be appointed by the Administrator by notification in the Official Gazette.",
+          "The promulgation comes within a week of the Union Cabinet's decision on August 20 to enable sittings of a High Court bench in Ladakh."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
             "text": "Ladakh"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Having high court sittings within Ladakh is expected to decrease the time and expenses incurred by litigants who currently have to travel outside the Union Territory for high court proceedings."
           }
         ],
         "sentences": [
           {
-            "text": "The Union Territory of Ladakh (Sitting of Bench of the High Court of Jammu and Kashmir, and Ladakh in Ladakh) Regulation, 2026, was promulgated on August 27 under Article 240 of the Constitution, read with Section 58(2) of the Jammu and Kashmir Reorganisation Act, 2019.",
-            "source": "Rising Kashmir",
+            "text": "The regulation, titled 'The Union Territory of Ladakh (Sitting of the Bench of the High Court of Jammu and Kashmir and Ladakh in Ladakh) Regulation, 2026,' was promulgated by President Murmu on August 27 and published in the Gazette of India Extraordinary on the same day.",
+            "source": "Greater Kashmir",
             "item_id": "0cc04af6717f2bb00794271b",
             "composed": false
           },
           {
-            "text": "It also empowers the Chief Justice to direct that any case or class of cases arising in Ladakh may instead be heard at Srinagar or Jammu.",
-            "source": "Rising Kashmir",
+            "text": "On August 20, the Union Cabinet, chaired by Prime Minister Narendra Modi, approved the proposal to enable sittings of a high court bench in Ladakh, aiming to make justice more accessible, especially for residents of remote and far-flung areas.",
+            "source": "Greater Kashmir",
             "item_id": "0cc04af6717f2bb00794271b",
             "composed": false
           },
           {
-            "text": "New Delhi, August 28: In a significant move aimed at bringing the High Court closer to litigants in Ladakh, President Droupadi Murmu has promulgated a regulation enabling the High Court of Jammu and Kashmir and Ladakh to hold sittings in the Union Territory of Ladakh.",
-            "source": "Rising Kashmir",
+            "text": "The regulation further provides that the chief justice may, in his discretion, order that any case or class of cases arising in the Union Territory of Ladakh be heard at Srinagar or Jammu, as the case may be.",
+            "source": "Greater Kashmir",
             "item_id": "0cc04af6717f2bb00794271b",
             "composed": false
           },
           {
-            "text": "The Jammu and Kashmir Reorganisation Act, 2019, read with Article 240, provides the constitutional and statutory basis for such regulations in relation to Ladakh.",
-            "source": "Rising Kashmir",
+            "text": "Leh, Aug 28: President Droupadi Murmu has issued a regulation that establishes a bench of the High Court of Jammu and Kashmir and Ladakh in the Union Territory of Ladakh, paving the way for bringing higher judicial services closer to the people of the region.",
+            "source": "Greater Kashmir",
             "item_id": "0cc04af6717f2bb00794271b",
             "composed": false
           }
         ],
-        "source": "Rising Kashmir",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://risingkashmir.com/national/presidenthighcourtbenchladakh-12446833"
+        "url": "https://www.greaterkashmir.com/ladakh/president-murmu-paves-way-for-high-court-bench-in-ladakh-12447627"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -1005,7 +1267,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1115,7 +1377,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
