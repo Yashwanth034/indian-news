@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:02:13.230059+00:00",
+  "generated_at": "2026-08-28T04:12:04.583806+00:00",
   "count": 8,
   "stories": [
     {
@@ -55,7 +55,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -170,7 +170,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -249,6 +249,124 @@
       "enrichment": "article"
     },
     {
+      "event_id": "9f61df4555b6a5a2f4483905",
+      "story_id": "9f61df4555b6a5a2f4483905",
+      "headline": "Death toll from Nepal-Tibet flash flood climbs to 469",
+      "title": "Death toll from Nepal-Tibet flash flood climbs to 469",
+      "summary": "Kathmandu, Aug 28: The death toll from flash floods in central Nepal rose to 469 on Friday, with more bodies recovered as search and rescue operations continued for the third day following the disaster. In a statement, Nepal Police said the bodies were recovered from eight districts of the Himalayan nation. According to the police, 178 dead bodies have been recovered from Chitwan, 110 from Nawalparasi East, 44 from Gorkha, 37 from Nuwakot and 33 from Dhading district. Similarly, 28 bodies have been recovered from Tanahu, 27 from Nawalparasi West and 12 from Rasuwa. So far, 1,545 injured and stranded people have been rescued from various affected regions. Among them, 84 are currently undergoing treatment in various hospitals in Kathmandu. Search and rescue operations continued for the third day of the tragic incident with the mobilisation of 7,451 security personnel, including 2,391 Nepal Army personnel, the statement said. An ice-rock avalanche triggered by a glacial collapse near the Nepal-Tibet border sent a torrent of water, mud and debris downstream through central Nepal on Wednesday, devastating towns and villages, washing away homes, vehicles, roads and bridges, and damaging hydropower projects.",
+      "url": "https://www.greaterkashmir.com/world/death-toll-from-nepal-tibet-flash-flood-climbs-to-469-12446374",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security",
+        "transport-infrastructure",
+        "health",
+        "crime-public-safety"
+      ],
+      "confidence": "low",
+      "score": 90.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T03:46:38+00:00",
+      "published_at": "2026-08-28T04:02:38+00:00",
+      "effective_at": "2026-08-28T04:02:38+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "greater-kashmir"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'avalanche'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'flood' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "event term: 'avalanche' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Kathmandu, Aug 28: The death toll from flash floods in central Nepal rose to 469 on Friday, with more bodies recovered as search and rescue operations continued for the third day following the disaster.",
+          "In a statement, Nepal."
+        ],
+        "body": [
+          "Police said the bodies were recovered from eight districts of the Himalayan nation.",
+          "According to the police, 178 dead bodies have been recovered from Chitwan, 110 from Nawalparasi East, 44 from Gorkha, 37 from Nuwakot and 33 from Dhading district.",
+          "Similarly, 28 bodies have been recovered from Tanahu, 27 from Nawalparasi West and 12 from Rasuwa.",
+          "So far, 1,545 injured and stranded people have been rescued from various affected regions.",
+          "Among them, 84 are currently undergoing treatment in various hospitals in Kathmandu.",
+          "Search and rescue operations continued for the third day of the tragic incident with the mobilisation of 7,451 security personnel, including 2,391 Nepal Army personnel, the statement said.",
+          "An ice-rock avalanche triggered by a glacial collapse near the Nepal-Tibet border sent a torrent of water, mud and debris downstream through central Nepal on Wednesday, devastating towns and villages, washing away homes, vehicles, roads and bridges, and damaging hydropower projects."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kathmandu"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "178 dead"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "According to the police, 178 dead bodies have been recovered from Chitwan, 110 from Nawalparasi East, 44 from Gorkha, 37 from Nuwakot and 33 from Dhading district.",
+            "source": "Greater Kashmir",
+            "item_id": "9f61df4555b6a5a2f4483905",
+            "composed": false
+          },
+          {
+            "text": "Kathmandu, Aug 28: The death toll from flash floods in central Nepal rose to 469 on Friday, with more bodies recovered as search and rescue operations continued for the third day following the disaster.",
+            "source": "Greater Kashmir",
+            "item_id": "9f61df4555b6a5a2f4483905",
+            "composed": false
+          },
+          {
+            "text": "So far, 1,545 injured and stranded people have been rescued from various affected regions.",
+            "source": "Greater Kashmir",
+            "item_id": "9f61df4555b6a5a2f4483905",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/world/death-toll-from-nepal-tibet-flash-flood-climbs-to-469-12446374"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "105032394d149faddd1d0859",
       "story_id": "105032394d149faddd1d0859",
       "headline": "India, China agree to advance boundary delimitation talks, prevent LAC miscalculation",
@@ -291,10 +409,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'lac' in title weight 62",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
-        "dominant event 62, stack 32.8, score 62 -> URGENT"
+        "dominant event 62, stack 28.8, score 62 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -407,7 +525,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 26.8, score 49.2 -> HIGH"
@@ -523,7 +641,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -714,7 +832,7 @@
         "event term: 'electricity tariff' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -882,7 +1000,7 @@
         "event term: 'takeover' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -938,121 +1056,6 @@
         "source": "Greater Kashmir",
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/security/birdi-passes-the-baton-kumar-takes-charge-12446032"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "4dfa85a6e972df2a04cf835a",
-      "story_id": "4dfa85a6e972df2a04cf835a",
-      "headline": "M K Sinha is new CID chief, Sujit Kumar is IGP Kashmir",
-      "title": "M K Sinha is new CID chief, Sujit Kumar is IGP Kashmir",
-      "summary": "Srinagar, Aug 27: The Jammu and Kashmir government on Thursday ordered a major reshuffle in the police administration, appointing senior IPS officer M K Sinha as the new Additional Director General of the Criminal Investigation Department (CID), J&K, while Sujit Kumar has been posted as Inspector General of Police (IGP), Kashmir Zone, as part of a wider transfer and posting of 14 senior IPS and JKPS officers. The changes are part of a wider reshuffle involving 14 senior IPS and JKPS officers and were ordered with immediate effect by the Home Department under Government Order Non438-Home of 2026, dated August 27. M K Sinha, an IPS officer of the 1996 AGMUT cadre, has been shifted from his present position as ADG Headquarters and posted as ADG CID J&K, replacing Nitish Kumar. Nitish Kumar, IPS (AGMUT:1999), has been transferred from CID and posted as ADG Armed Police J&K against an available vacancy. The government has also made a key change in the Kashmir Zone, with Sujit Kumar, IPS (AGMUT:2007), appointed as IGP Kashmir Zone. Kumar, who was serving as IG Security, has been moved to the Kashmir Zone against an available vacancy. His transfer also triggered a change in the Security Wing, with Vivek Gupta, IPS (AGMUT:2007), appointed as IGP Security, replacing Sujit Kumar. In another important move, Tejinder Singh, IPS (AGMUT:2008), presently IG CID J&K, has been transferred and posted as IG Jammu Zone, replacing BhimSenTuti. Tuti, an IPS officer of the 2004 AGMUT batch, has been posted as IG Headquarters, J&K. Uttam Chand, IPS (AGMUT:2002), IGP Police Operations and Services at Police Headquarters, has been appointed IGP Railways, J&K, replacing Vivek Gupta. He will continue to hold additional charge of IGP Police Operations and Services until further orders. Shakti Kumar Pathak, IPS (AGMUT:2009), has been designated as Director, Anti-Corruption Bureau, while Mubassir Latifi Ameer, IPS (AGMUT:2011), has been transferred from DIG Personnel, PHQ, and posted as DIG IR Kashmir. He was also holding additional charge of DIG Training, PHQ. At the district level, Sahil Sarangal, IPS (AGMUT:2017), has been transferred from SSP Handwara and posted as SSP Pulwama. Sunny Gupta, IPS (AGMUT:2020), presently Additional SP Anantnag, has been appointed SSP Kishtwar, replacing Naresh Singh. Tahir Saleem Khan, JKPS (2001), has been shifted from his post as SO to IG Kashmir Zone and posted as SSP Handwara, replacing Sarangal. Muzaffar Ahmad Shah, JKPS (2004), presently SSP SCW Kashmir, has been appointed as SO to IG Kashmir Zone, replacing Tahir Saleem Khan. Naresh Singh, JKPS (2004), has been transferred from SSP Kishtwar and posted as SSP Rajouri against an available vacancy. The order was issued by the Home Department on behalf of the Lieutenant Governor and signed by Chandraker Bharti, IAS, Principal Secretary to the Government, Home Department. The reshuffle comes with key changes at the top of the CID and Kashmir Zone, with M K Sinha taking charge of the CID and Sujit Kumar moving to head the Kashmir Zone, besides changes in the Jammu Zone, Security, Armed Police, Railways and Anti-Corruption Bureau.",
-      "url": "https://www.greaterkashmir.com/security/m-k-sinha-is-new-cid-chief-sujit-kumar-is-igp-kashmir-12446031",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 42.8,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-28T00:27:22+00:00",
-      "published_at": "2026-08-28T00:27:22+00:00",
-      "effective_at": "2026-08-28T00:27:22+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'appointed as' in summary weight 24",
-        "event term: 'appointed' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national",
-        "dominant event 24, stack 42.8, score 42.8 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "jammu and kashmir",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Srinagar, Aug 27: The Jammu and Kashmir government on Thursday ordered a major reshuffle in the police administration, appointing senior IPS officer M K Sinha as the new Additional Director General of the Criminal Investigation Department (CID), J&K, while Sujit Kumar has been posted as Inspector General of Police (IGP), Kashmir Zone, as part of a wider transfer and posting of 14 senior IPS and JKPS officers.",
-          "The changes are part of a wider reshuffle involving 14 senior IPS and JKPS officers and were ordered with immediate effect by the Home Department under Government Order Non438-Home of 2026, dated August 27."
-        ],
-        "body": [
-          "M K Sinha, an IPS officer of the 1996 AGMUT cadre, has been shifted from his present position as ADG Headquarters and posted as ADG CID J&K, replacing Nitish Kumar.",
-          "Nitish Kumar, IPS (AGMUT:1999), has been transferred from CID and posted as ADG Armed.",
-          "Police J&K against an available vacancy.",
-          "The government has also made a key change in the Kashmir Zone, with Sujit Kumar, IPS (AGMUT:2007), appointed as IGP Kashmir Zone.",
-          "Kumar, who was serving as IG Security, has been moved to the Kashmir Zone against an available vacancy.",
-          "His transfer also triggered a change in the Security Wing, with Vivek Gupta, IPS (AGMUT:2007), appointed as IGP Security, replacing Sujit Kumar.",
-          "In another important move, Tejinder Singh, IPS (AGMUT:2008), presently IG CID J&K, has been transferred and posted as IG Jammu Zone, replacing BhimSenTuti.",
-          "Tuti, an IPS officer of the 2004 AGMUT batch, has been posted as IG Headquarters, J&K. Uttam Chand, IPS (AGMUT:2002), IGP.",
-          "Police Operations and Services at Police Headquarters, has been appointed IGP Railways, J&K, replacing Vivek Gupta.",
-          "He will continue to hold additional charge of IGP.",
-          "Police Operations and Services until further orders.",
-          "Shakti Kumar Pathak, IPS (AGMUT:2009), has been designated as Director, Anti-Corruption Bureau, while Mubassir Latifi Ameer, IPS (AGMUT:2011), has been transferred from DIG Personnel, PHQ, and posted as DIG IR Kashmir.",
-          "He was also holding additional charge of DIG Training, PHQ.",
-          "At the district level, Sahil Sarangal, IPS (AGMUT:2017), has been transferred from SSP Handwara and posted as SSP Pulwama.",
-          "Sunny Gupta, IPS (AGMUT:2020), presently Additional SP Anantnag, has been appointed SSP Kishtwar, replacing Naresh Singh.",
-          "Tahir Saleem Khan, JKPS (2001), has been shifted from his post as SO to IG Kashmir Zone and posted as SSP Handwara, replacing Sarangal.",
-          "Muzaffar Ahmad Shah, JKPS (2004), presently SSP SCW Kashmir, has been appointed as SO to IG Kashmir Zone, replacing Tahir Saleem Khan.",
-          "Naresh Singh, JKPS (2004), has been transferred from SSP Kishtwar and posted as SSP Rajouri against an available vacancy.",
-          "The order was issued by the Home Department on behalf of the Lieutenant Governor and signed by Chandraker Bharti, IAS, Principal Secretary to the Government, Home Department.",
-          "The reshuffle comes with key changes at the top of the CID and Kashmir Zone, with M K Sinha taking charge of the CID and Sujit Kumar moving to head the Kashmir Zone, besides changes in the Jammu Zone, Security, Armed.",
-          "Police, Railways and Anti-Corruption Bureau."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Police Headquarters"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Srinagar, Aug 27: The Jammu and Kashmir government on Thursday ordered a major reshuffle in the police administration, appointing senior IPS officer M K Sinha as the new Additional Director General of the Criminal Investigation Department (CID), J&K, while Sujit Kumar has been posted as Inspector General of Police (IGP), Kashmir Zone, as part of a wider transfer and posting of 14 senior IPS and JKPS officers.",
-            "source": "Greater Kashmir",
-            "item_id": "4dfa85a6e972df2a04cf835a",
-            "composed": false
-          },
-          {
-            "text": "Shakti Kumar Pathak, IPS (AGMUT:2009), has been designated as Director, Anti-Corruption Bureau, while Mubassir Latifi Ameer, IPS (AGMUT:2011), has been transferred from DIG Personnel, PHQ, and posted as DIG IR Kashmir.",
-            "source": "Greater Kashmir",
-            "item_id": "4dfa85a6e972df2a04cf835a",
-            "composed": false
-          },
-          {
-            "text": "Naresh Singh, JKPS (2004), has been transferred from SSP Kishtwar and posted as SSP Rajouri against an available vacancy.",
-            "source": "Greater Kashmir",
-            "item_id": "4dfa85a6e972df2a04cf835a",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/security/m-k-sinha-is-new-cid-chief-sujit-kumar-is-igp-kashmir-12446031"
       },
       "group_size": 1,
       "label": "📰 NEWS",
