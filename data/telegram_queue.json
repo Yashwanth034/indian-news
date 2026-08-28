@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T04:52:04.254285+00:00",
-  "count": 5,
+  "generated_at": "2026-08-28T05:02:24.338397+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "3b061732effa73a614d9330a",
@@ -21,7 +21,7 @@
         "transport-infrastructure",
         "crime-public-safety"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
@@ -29,12 +29,19 @@
       "event_time": "2026-08-28T04:35:09+00:00",
       "published_at": "2026-08-28T04:35:09+00:00",
       "effective_at": "2026-08-28T04:35:09+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "ani": {
           "kind": "wire",
           "source_ids": [
             "rising-kashmir"
+          ],
+          "count": 1
+        },
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
           ],
           "count": 1
         }
@@ -43,6 +50,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'flood'",
@@ -58,12 +66,13 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (rising-kashmir) +1",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -135,33 +144,36 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9da26b9270a8e994de2efc6b",
-      "story_id": "9da26b9270a8e994de2efc6b",
-      "headline": "Assam: Debabrata Saikia seeks free admission, fee waiver for flood-hit students",
-      "title": "Assam: Debabrata Saikia seeks free admission, fee waiver for flood-hit students",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-debabrata-saikia-seeks-free-admission-fee-waiver-for-flood-hit-students",
-      "source": "The Sentinel (Assam)",
+      "event_id": "da87f42e63e884691f097fd4",
+      "story_id": "da87f42e63e884691f097fd4",
+      "headline": "New Delhi sends second relief consignment to flood-hit Nepal",
+      "title": "New Delhi sends second relief consignment to flood-hit Nepal",
+      "summary": "New Delhi on Thursday sent a second consignment of relief material to flood-hit Nepal, with a military transport aircraft carrying 37.5 tonnes of humanitarian assistance, medicines and food packets. External Affairs Minister S Jaishankar said the latest consignment followed the dispatch of 10 tonnes of Humanitarian Assistance and Disaster Relief (HADR) material to Nepal on Wednesday. “A second flight has just taken off, carrying 37.5 tonnes of HADR material, medicines & food packets for Nepal,” Jaishankar said in a social media post. “India remains in close and continuous touch with the Nepalese authorities. We will continue to strongly support the ongoing relief efforts,” he said. India has stepped up assistance following devastating flash floods along Nepal’s border with Tibet, which have killed at least 270 people and caused widespread destruction. The first consignment sent yesterday evening included temporary shelters, blankets, hygiene kits, solar lamps and medicines. The relief effort was launched after Prime Minister Narendra Modi spoke to Nepalese Prime Minister Balendra Shah and assured him of India’s support. More relief supplies are expected to be sent in the coming days as Nepal continues rescue and relief operations.",
+      "url": "https://www.greaterkashmir.com/national/new-delhi-sends-second-relief-consignment-to-flood-hit-nepal-12446148",
+      "source": "Greater Kashmir",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [
-        "education"
+        "defence-security",
+        "national-politics",
+        "energy-environment",
+        "international-affairs"
       ],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-28T04:28:22+00:00",
-      "published_at": "2026-08-28T04:28:22+00:00",
-      "effective_at": "2026-08-28T04:28:22.497000+00:00",
+      "event_time": "2026-08-28T01:46:34+00:00",
+      "published_at": "2026-08-28T01:46:34+00:00",
+      "effective_at": "2026-08-28T01:46:34+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
+        "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -173,197 +185,84 @@
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'Disaster'",
+        "major: significance event 'floods'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: breaking (0.4h ago) +8",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: state scope (delhi)",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "dominant event 64, stack 44, score 64 -> URGENT"
       ],
       "geo_scope": "state",
-      "state": "assam",
+      "state": "delhi",
       "national_significance": true,
-      "article_sentences": [
-        "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-        "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students.",
-        "He pointed out that many students have lost books, certificates, study materials and other essential belongings in the floods.",
-        "While acknowledging that the state government has announced certain relief measures for flood-affected students and educational institutions, Saikia said college and university students continue to face serious financial difficulties.",
-        "He requested the government to issue an immediate directive to universities, colleges and schools to provide free admission to eligible students from flood-affected villages in the three districts.",
-        "He also sought a complete waiver of semester fees, admission fees, examination fees, laboratory fees, library fees and other compulsory educational charges for the affected students.",
-        "Saikia further urged that the directive be implemented uniformly across educational institutions to ensure that eligible students receive relief without discrimination or delay.",
-        "Describing the matter as an urgent humanitarian and educational issue, the former MLA appealed to the Governor to intervene and ensure immediate financial relief for flood-affected students."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-          "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students."
+          "New Delhi on Thursday sent a second consignment of relief material to flood-hit Nepal, with a military transport aircraft carrying 37.5 tonnes of humanitarian assistance, medicines and food packets.",
+          "External Affairs Minister S Jaishankar said the latest consignment followed the dispatch of 10 tonnes of Humanitarian Assistance and Disaster Relief (HADR) material to Nepal on Wednesday."
         ],
         "body": [
-          "He pointed out that many students have lost books, certificates, study materials and other essential belongings in the floods.",
-          "While acknowledging that the state government has announced certain relief measures for flood-affected students and educational institutions, Saikia said college and university students continue to face serious financial difficulties.",
-          "He requested the government to issue an immediate directive to universities, colleges and schools to provide free admission to eligible students from flood-affected villages in the three districts.",
-          "He also sought a complete waiver of semester fees, admission fees, examination fees, laboratory fees, library fees and other compulsory educational charges for the affected students.",
-          "Saikia further urged that the directive be implemented uniformly across educational institutions to ensure that eligible students receive relief without discrimination or delay.",
-          "Describing the matter as an urgent humanitarian and educational issue, the former MLA appealed to the Governor to intervene and ensure immediate financial relief for flood-affected students."
+          "“A second flight has just taken off, carrying 37.5 tonnes of HADR material, medicines & food packets for Nepal,” Jaishankar said in a social media post.",
+          "“India remains in close and continuous touch with the Nepalese authorities.",
+          "We will continue to strongly support the ongoing relief efforts,” he said.",
+          "India has stepped up assistance following devastating flash floods along Nepal’s border with Tibet, which have killed at least 270 people and caused widespread destruction.",
+          "The first consignment sent yesterday evening included temporary shelters, blankets, hygiene kits, solar lamps and medicines.",
+          "The relief effort was launched after Prime Minister Narendra Modi spoke to Nepalese Prime Minister Balendra Shah and assured him of India’s support."
         ],
         "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Sivasagar"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "GUWAHATI: Senior Assam Congress leader and former MLA Debabrata Saikia has urged Governor Lakshman Prasad Acharya to direct the Assam government to provide free admission and waive semester and other educational fees for students affected by floods in Sivasagar, Charaideo and Jorhat districts.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "9da26b9270a8e994de2efc6b:article",
-            "composed": false
-          },
-          {
-            "text": "In a letter submitted to the Governor, Saikia said repeated floods have caused severe hardship to families in the affected areas and disrupted the education of students.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "9da26b9270a8e994de2efc6b:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/cities/guwahati-city/assam-debabrata-saikia-seeks-free-admission-fee-waiver-for-flood-hit-students"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "8a4ae820d6003331a7a109a0",
-      "story_id": "8a4ae820d6003331a7a109a0",
-      "headline": "UP sounds high alert in border districts after deadly Nepal floods",
-      "title": "UP sounds high alert in border districts after deadly Nepal floods",
-      "summary": "UP sounds high alert in border districts after deadly Nepal floods",
-      "url": "https://www.indiatoday.in/india/uttar-pradesh/story/nepal-floods-up-high-alert-maharajganj-kushinagar-gandak-levels-rise-2981609-2026-08-28",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-27T22:52:34+00:00",
-      "published_at": "2026-08-27T22:52:34+00:00",
-      "effective_at": "2026-08-27T22:52:34+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Uttar Pradesh has sounded a high alert in border districts and sent rescue teams to Nepal after deadly flash floods.",
-        "The move comes as river levels rise, Indian tourists remain missing and vulnerable villages are being warned.",
-        "The administration has sounded a high alert in Maharajganj and Kushinagar districts of Uttar Pradesh and stepped up monitoring of the Gandak and other water bodies downstream of rivers in Nepal, following devastating flash floods in the neighbouring country that have killed at least 177 people and left thousands missing.",
-        "The administration in UP, which shares its northern borders with Nepal, is focusing on river monitoring, alerting vulnerable villages and keeping relief-and-rescue teams ready.",
-        "The UP government has deployed a 32-member SDRF platoon and 22 PAC personnel to Nepal for rescue and relief operations following directions from Chief Minister Yogi Adityanath, an official statement said.",
-        "Four rubber boats are available and an aluminium boat is also being sent with an additional SDRF platoon.",
-        "The relief commissioner's control room is monitoring border districts, while families of stranded UP residents can contact the 1070 helpline, it said.",
-        "The Nepal floods were triggered after an ice-rock landslide blocked a river near the country's border with China.",
-        "The floods have affected several districts and left at least 826 people missing, according to Nepal's disaster management authorities.",
-        "Nepal's Foreign Minister Shisir Khanal has said nearly 300 Indian tourists are among those reported missing.",
-        "The flash floods have caused extensive damage to bridges and roads, with several major highways blocked.",
-        "In Maharajganj, District Magistrate Gaurav Singh Sogarwal and Superintendent of Police Shakti Mohan Avasthy inspected the Narayani river and adjoining areas and reviewed flood preparedness."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Uttar Pradesh has sounded a high alert in border districts and sent rescue teams to Nepal after deadly flash floods.",
-          "The move comes as river levels rise, Indian tourists remain missing and vulnerable villages are being warned."
-        ],
-        "body": [
-          "The administration has sounded a high alert in Maharajganj and Kushinagar districts of Uttar Pradesh and stepped up monitoring of the Gandak and other water bodies downstream of rivers in Nepal, following devastating flash floods in the neighbouring country that have killed at least 177 people and left thousands missing.",
-          "The administration in UP, which shares its northern borders with Nepal, is focusing on river monitoring, alerting vulnerable villages and keeping relief-and-rescue teams ready.",
-          "The UP government has deployed a 32-member SDRF platoon and 22 PAC personnel to Nepal for rescue and relief operations following directions from Chief Minister Yogi Adityanath, an official statement said.",
-          "Four rubber boats are available and an aluminium boat is also being sent with an additional SDRF platoon.",
-          "The relief commissioner's control room is monitoring border districts, while families of stranded UP residents can contact the 1070 helpline, it said.",
-          "The Nepal floods were triggered after an ice-rock landslide blocked a river near the country's border with China.",
-          "Nepal's Foreign Minister Shisir Khanal has said nearly 300 Indian tourists are among those reported missing.",
-          "The flash floods have caused extensive damage to bridges and roads, with several major highways blocked."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Maharajganj"
-          },
           {
             "icon": "👥",
             "label": "Impact",
-            "text": "at least 177 people"
+            "text": "at least 270 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "More relief supplies are expected to be sent in the coming days as Nepal continues rescue and relief operations."
           }
         ],
         "sentences": [
           {
-            "text": "The administration has sounded a high alert in Maharajganj and Kushinagar districts of Uttar Pradesh and stepped up monitoring of the Gandak and other water bodies downstream of rivers in Nepal, following devastating flash floods in the neighbouring country that have killed at least 177 people and left thousands missing.",
-            "source": "India Today",
-            "item_id": "8a4ae820d6003331a7a109a0:article",
+            "text": "India has stepped up assistance following devastating flash floods along Nepal’s border with Tibet, which have killed at least 270 people and caused widespread destruction.",
+            "source": "Greater Kashmir",
+            "item_id": "da87f42e63e884691f097fd4",
             "composed": false
           },
           {
-            "text": "The administration in UP, which shares its northern borders with Nepal, is focusing on river monitoring, alerting vulnerable villages and keeping relief-and-rescue teams ready.",
-            "source": "India Today",
-            "item_id": "8a4ae820d6003331a7a109a0:article",
+            "text": "New Delhi on Thursday sent a second consignment of relief material to flood-hit Nepal, with a military transport aircraft carrying 37.5 tonnes of humanitarian assistance, medicines and food packets.",
+            "source": "Greater Kashmir",
+            "item_id": "da87f42e63e884691f097fd4",
             "composed": false
           },
           {
-            "text": "Nepal's Foreign Minister Shisir Khanal has said nearly 300 Indian tourists are among those reported missing.",
-            "source": "India Today",
-            "item_id": "8a4ae820d6003331a7a109a0:article",
+            "text": "External Affairs Minister S Jaishankar said the latest consignment followed the dispatch of 10 tonnes of Humanitarian Assistance and Disaster Relief (HADR) material to Nepal on Wednesday.",
+            "source": "Greater Kashmir",
+            "item_id": "da87f42e63e884691f097fd4",
+            "composed": false
+          },
+          {
+            "text": "The first consignment sent yesterday evening included temporary shelters, blankets, hygiene kits, solar lamps and medicines.",
+            "source": "Greater Kashmir",
+            "item_id": "da87f42e63e884691f097fd4",
             "composed": false
           }
         ],
-        "source": "India Today",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://www.indiatoday.in/india/uttar-pradesh/story/nepal-floods-up-high-alert-maharajganj-kushinagar-gandak-levels-rise-2981609-2026-08-28"
+        "url": "https://www.greaterkashmir.com/national/new-delhi-sends-second-relief-consignment-to-flood-hit-nepal-12446148"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "a0b07747444369ef4ed8da20",
@@ -408,7 +307,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 26.8, score 49.2 -> HIGH"
@@ -518,7 +417,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -562,6 +461,367 @@
         "url": "https://sportstar.thehindu.com/hockey/india-vs-belgium-hockey-world-cup-2026-preview/article71399091.ece"
       },
       "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "0bce64740df8344a5e49ee8d",
+      "story_id": "0bce64740df8344a5e49ee8d",
+      "headline": "Ruhullah’s Real Arithmetic",
+      "title": "Ruhullah’s Real Arithmetic",
+      "summary": "Malik Daniyal’s column makes one confident claim after another about Agha Ruhullah Mehdi that he owns nothing beyond his own voice, that his Article 370 politics is a lucrative pose, that he has “never once threatened to leave” his party. Each of these claims sounds sharp on the page. None of them survives contact with the actual record. Let’s go through them one at a time. 1. His victory belonged to the party, not to him. Prove it. Daniyal states, as settled fact, that Ruhullah’s 2024 Srinagar win was built upon the National Conference’s organisational apparatus and was not a personal following assembled independently. He offers no polling data, no booth analysis, nothing. He just asserts it. Here’s what the actual numbers say. Ruhullah won Srinagar with 356,866 votes 52.85% beating Waheed Para by 188,416 votes. Compare that to 2019, when NC’s Farooq Abdullah arguably the most recognisable name in Kashmiri politics won the same seat with only 106,750 votes, on a turnout of barely 14%. In 2024, turnout rose and Ruhullah’s vote count more than tripled Farooq’s. You cannot explain that gap by pointing at the party symbol alone. Something about the candidate mattered. Daniyal never engages with this, he simply declares the conclusion he needs and moves on. And Kashmir’s own recent history undercuts the ‘voters belong to the institution’ theory anyway. In 2014, Farooq Abdullah the NC’s own patriarch lost Srinagar to PDP’s Tariq Hameed Karra. The “institution” didn’t save him that year. Voters in this city have moved between NC, PDP, independents and abstention for two decades. That’s not blind institutional loyalty. That’s an electorate making live judgments, election to election. 2. He has never threatened to leave. He had eight days before this was published. This is the essay’s most serious factual problem. Daniyal’s piece appeared on 25 August 2026 built around the idea that Ruhullah talks like a rebel but never risks anything. But on 17 August a full week earlier Ruhullah had already said, in his own words, “made up my mind” to resign from Parliament within a few months, once he had taken the fight for constitutional restoration to “a certain level.” He said this knowing exactly what it would cost him. “I won’t have the Parliament. The lobbying that I can do through the Parliament, the outreach that I can do, I won’t have that.” That is a man naming the price of his own position and saying he’ll pay it. Since then, matters have moved further, not less, in the direction that damages Daniyal’s thesis. Farooq Abdullah himself has publicly challenged Ruhullah to resign and “seek a fresh mandate” if he believes his 2024 win was personal, saying, “we will see how many votes you get.” That is the party leadership calling what it believes is a bluff the opposite of an MP quietly enjoying incumbency while talking tough. Whatever you think of how this ends, a man who has never once threatened to leave is simply not an accurate description of where things stood by publication day, and it was demonstrably inaccurate before the essay even ran. 3. “Chasing Article 370 is keeping a wound lucrative.” No it’s keeping a promise. Daniyal frames the demand for restoration as either constitutional illiteracy or a cynical grievance industry. He skips the obvious third possibility, that this was a promise the National Conference itself made to get elected and Ruhullah is one of the people who wrote it. The NC’s 2024 manifesto, its “12 guarantees” explicitly promised to “strive to restore Articles 370 and 35A and statehood as prior to August 5, 2019.” That document was drafted by senior leader Abdul Rahim Rather and by Ruhullah himself. So when Ruhullah now says the party is walking away from a commitment it sought votes on, he is not inventing a grievance to sell. He is holding his own party to a document he helped write. Calling that “keeping an old wound lucrative” only makes sense if you also believe the NC’s own manifesto was itself a cynical exercise, which is not the argument Daniyal is making but it’s the argument his logic requires. Difficulty is not the same as dishonesty. Yes the Supreme Court upheld the abrogation in 2023. Yes reversing it needs a parliamentary majority nobody currently has. That is a real obstacle. It is not proof that raising the demand is insincere, by that standard almost every hard political struggle in India from federal autonomy movements to reservation battles would have to be dismissed as fake the moment it wasn’t instantly winnable. 4. The essay talks about Ruhullah’s motives. It never once asks if he’s right. This is the real gap in “Rebel Arithmetic.” Ruhullah has made specific, checkable complaints, that he’s been excluded from internal party deliberations, that the party has “stopped striving” for the restoration it promised, that it has quietly settled for statehood alone. Daniyal repeats these charges in a line or two and then spends the rest of the essay asking whether Ruhullah is being clever, careerist or performing for a future comeback. He never asks whether Ruhullah’s actual complaint, that the party is retreating from its own manifesto is true. That is a very old trick in political commentary, when someone’s argument is inconvenient, write about their ambition instead of their argument. 5. The historical comparisons don’t do the work Daniyal needs them to do and they don’t even mean what he thinks. Yes, Ghulam Mohammad Shah, Sajad Lone, Altaf Bukhari, Imran Ansari and Muzaffar Baig all left their parties and none of them became a Valley-wide force. That’s a real pattern and it’s worth taking seriously. But look at why each of them left. They all left for a chair. Shah broke away with Delhi’s backing to grab the chief minister’s seat. Bukhari left to become a minister under an administration favourable to him. Ansari and Baig moved from party to party chasing position, cabinet berths, proximity to power. Strip away the individual details and the pattern is identical, every single name on Daniyal’s list left because he wanted office and left toward it. Power was the destination in every case. Ruhullah is the only name on this list moving in the opposite direction threatening to give up the seat he already holds, not manoeuvring for a better one, and doing it on a point of principle his own party leadership doesn’t want raised. Comparing a man risking his seat over a manifesto commitment to men who abandoned their parties chasing ministries is not a fair comparison. It’s the wrong shelf. There’s also the plain fact that every one of those cases is about a man who left. Ruhullah, as of the point Daniyal was writing, had not left and even now, any resignation he pursues would be a fresh mandate contest from his own sitting seat, not a defection to a new outfit built from scratch, which is a materially different gamble than what Shah or Bukhari attempted. Using the fate of people who exited to predict the fate of a man testing his standing through re-election is comparing two different bets. Even Sajad Lone’s case, the closest parallel Daniyal offers, cuts against him on closer look. Lone won Handwara in 2024 by only 662 votes and lost Kupwara outright. That shows how hard it is to build a durable, geographically broad organisation from nothing. It does not show that a sitting MP who has just posted an 188,000-vote margin and who is now being dared by his own party president to test that margin directly will suffer the same fate. And there is Srinagar’s own electoral memory the 2017 bypoll. This cuts even harder against the “voters belong to the institution, not the man” theory. In the 2017 Srinagar bypoll, Farooq Abdullah won with just 48,555 votes on the lowest turnout the seat has ever recorded, 7.13%, after separatists called for a boycott in the tense aftermath of the 2016 unrest and much of the electorate stayed away from the booths in protest. The seat was effectively decided by whoever could still turn out a vote in that climate and the constituency’s concentrated in Budgam and some parts of Srinagar city like Zadibal, Alamgiri Bazar etc, was the bloc that came out. Ruhullah, the most prominent political figure in central Kashmir played a central role in holding that vote for the NC that year. With most voters boycotting, it was his core constituency’s turnout that helped deliver Farooq’s winning margin. That is not a footnote. It means the party’s survival on this very seat has at least once before depended directly on Ruhullah’s own standing with a constituency the NC could not otherwise turn out. If the “institution, not the individual” theory were as absolute as Daniyal claims, that 2017 win shouldn’t have needed him at all. The real question, reversed Daniyal asks whether Ruhullah can survive without the National Conference. That’s a fair question for some future date. The more urgent one, given where things stand right now, is this; can the National Conference keep telling voters it stands for restoration of Article 370 while trying to silence the MP who co-wrote that very promise into its manifesto and is refusing to let the party quietly walk away from it? Kashmir’s political history does punish men who overestimate their own gravity Daniyal is right about that much. But the honest test of whether Ruhullah is one of them is the fresh mandate his own party president has now dared him to seek. Don’t crown him before that test. But don’t bury him with an essay built on a threat to leave that had already been made, and a motive-question that avoids the substance of what he’s actually saying. Sahil Parray, a Student Activist.",
+      "url": "https://www.greaterkashmir.com/opinion/ruhullahs-real-arithmetic-12446054",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics",
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T00:54:16+00:00",
+      "published_at": "2026-08-28T00:54:16+00:00",
+      "effective_at": "2026-08-28T00:54:16+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: fresh (4.1h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 34.8, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Malik Daniyal’s column makes one confident claim after another about Agha Ruhullah Mehdi that he owns nothing beyond his own voice, that his Article 370 politics is a lucrative pose, that he has “never once threatened to leave” his party.",
+          "Each of these claims sounds sharp on the page."
+        ],
+        "body": [
+          "None of them survives contact with the actual record.",
+          "Let’s go through them one at a time.",
+          "His victory belonged to the party, not to him.",
+          "Prove it.",
+          "Daniyal states, as settled fact, that Ruhullah’s 2024 Srinagar win was built upon the National Conference’s organisational apparatus and was not a personal following assembled independently.",
+          "He offers no polling data, no booth analysis, nothing.",
+          "He just asserts it.",
+          "Here’s what the actual numbers say.",
+          "Ruhullah won Srinagar with 356,866 votes 52.85% beating Waheed Para by 188,416 votes.",
+          "Compare that to 2019, when NC’s Farooq Abdullah arguably the most recognisable name in Kashmiri politics won the same seat with only 106,750 votes, on a turnout of barely 14%.",
+          "In 2024, turnout rose and Ruhullah’s vote count more than tripled Farooq’s.",
+          "You cannot explain that gap by pointing at the party symbol alone.",
+          "Something about the candidate mattered.",
+          "Daniyal never engages with this, he simply declares the conclusion he needs and moves on.",
+          "And Kashmir’s own recent history undercuts the ‘voters belong to the institution’ theory anyway.",
+          "In 2014, Farooq Abdullah the NC’s own patriarch lost Srinagar to PDP’s Tariq Hameed Karra.",
+          "The “institution” didn’t save him that year.",
+          "Voters in this city have moved between NC, PDP, independents and abstention for two decades.",
+          "That’s not blind institutional loyalty.",
+          "That’s an electorate making live judgments, election to election.",
+          "He has never threatened to leave.",
+          "He had eight days before this was published.",
+          "This is the essay’s most serious factual problem.",
+          "Daniyal’s piece appeared on 25 August 2026 built around the idea that Ruhullah talks like a rebel but never risks anything.",
+          "But on 17 August a full week earlier Ruhullah had already said, in his own words, “made up my mind” to resign from Parliament within a few months, once he had taken the fight for constitutional restoration to “a certain level.” He said this knowing exactly what it would cost him.",
+          "“I won’t have the Parliament.",
+          "The lobbying that I can do through the Parliament, the outreach that I can do, I won’t have that.” That is a man naming the price of his own position and saying he’ll pay it.",
+          "Since then, matters have moved further, not less, in the direction that damages Daniyal’s thesis.",
+          "Farooq Abdullah himself has publicly challenged Ruhullah to resign and “seek a fresh mandate” if he believes his 2024 win was personal, saying, “we will see how many votes you get.” That is the party leadership calling what it believes is a bluff the opposite of an MP quietly enjoying incumbency while talking tough.",
+          "Whatever you think of how this ends, a man who has never once threatened to leave is simply not an accurate description of where things stood by publication day, and it was demonstrably inaccurate before the essay even ran.",
+          "“Chasing Article 370 is keeping a wound lucrative.” No it’s keeping a promise.",
+          "Daniyal frames the demand for restoration as either constitutional illiteracy or a cynical grievance industry.",
+          "He skips the obvious third possibility, that this was a promise the National Conference itself made to get elected and Ruhullah is one of the people who wrote it.",
+          "The NC’s 2024 manifesto, its “12 guarantees” explicitly promised to “strive to restore Articles 370 and 35A and statehood as prior to August 5, 2019.” That document was drafted by senior leader Abdul Rahim Rather and by Ruhullah himself.",
+          "So when Ruhullah now says the party is walking away from a commitment it sought votes on, he is not inventing a grievance to sell.",
+          "He is holding his own party to a document he helped write.",
+          "Calling that “keeping an old wound lucrative” only makes sense if you also believe the NC’s own manifesto was itself a cynical exercise, which is not the argument Daniyal is making but it’s the argument his logic requires.",
+          "Difficulty is not the same as dishonesty.",
+          "Yes the Supreme Court upheld the abrogation in 2023.",
+          "Yes reversing it needs a parliamentary majority nobody currently has.",
+          "That is a real obstacle.",
+          "It is not proof that raising the demand is insincere, by that standard almost every hard political struggle in India from federal autonomy movements to reservation battles would have to be dismissed as fake the moment it wasn’t instantly winnable.",
+          "The essay talks about Ruhullah’s motives.",
+          "It never once asks if he’s right.",
+          "This is the real gap in “Rebel Arithmetic.” Ruhullah has made specific, checkable complaints, that he’s been excluded from internal party deliberations, that the party has “stopped striving” for the restoration it promised, that it has quietly settled for statehood alone.",
+          "Daniyal repeats these charges in a line or two and then spends the rest of the essay asking whether Ruhullah is being clever, careerist or performing for a future comeback.",
+          "He never asks whether Ruhullah’s actual complaint, that the party is retreating from its own manifesto is true.",
+          "That is a very old trick in political commentary, when someone’s argument is inconvenient, write about their ambition instead of their argument.",
+          "The historical comparisons don’t do the work Daniyal needs them to do and they don’t even mean what he thinks.",
+          "Yes, Ghulam Mohammad Shah, Sajad Lone, Altaf Bukhari, Imran Ansari and Muzaffar Baig all left their parties and none of them became a Valley-wide force.",
+          "That’s a real pattern and it’s worth taking seriously.",
+          "But look at why each of them left.",
+          "They all left for a chair.",
+          "Shah broke away with Delhi’s backing to grab the chief minister’s seat.",
+          "Bukhari left to become a minister under an administration favourable to him.",
+          "Ansari and Baig moved from party to party chasing position, cabinet berths, proximity to power.",
+          "Strip away the individual details and the pattern is identical, every single name on Daniyal’s list left because he wanted office and left toward it.",
+          "Power was the destination in every case.",
+          "Ruhullah is the only name on this list moving in the opposite direction threatening to give up the seat he already holds, not manoeuvring for a better one, and doing it on a point of principle his own party leadership doesn’t want raised.",
+          "Comparing a man risking his seat over a manifesto commitment to men who abandoned their parties chasing ministries is not a fair comparison.",
+          "It’s the wrong shelf.",
+          "There’s also the plain fact that every one of those cases is about a man who left.",
+          "Ruhullah, as of the point Daniyal was writing, had not left and even now, any resignation he pursues would be a fresh mandate contest from his own sitting seat, not a defection to a new outfit built from scratch, which is a materially different gamble than what Shah or Bukhari attempted.",
+          "Using the fate of people who exited to predict the fate of a man testing his standing through re-election is comparing two different bets.",
+          "Even Sajad Lone’s case, the closest parallel Daniyal offers, cuts against him on closer look.",
+          "Lone won Handwara in 2024 by only 662 votes and lost Kupwara outright.",
+          "That shows how hard it is to build a durable, geographically broad organisation from nothing.",
+          "It does not show that a sitting MP who has just posted an 188,000-vote margin and who is now being dared by his own party president to test that margin directly will suffer the same fate.",
+          "And there is Srinagar’s own electoral memory the 2017 bypoll.",
+          "This cuts even harder against the “voters belong to the institution, not the man” theory.",
+          "The seat was effectively decided by whoever could still turn out a vote in that climate and the constituency’s concentrated in Budgam and some parts of Srinagar city like Zadibal, Alamgiri Bazar etc, was the bloc that came out.",
+          "Ruhullah, the most prominent political figure in central Kashmir played a central role in holding that vote for the NC that year.",
+          "With most voters boycotting, it was his core constituency’s turnout that helped deliver Farooq’s winning margin.",
+          "That is not a footnote.",
+          "It means the party’s survival on this very seat has at least once before depended directly on Ruhullah’s own standing with a constituency the NC could not otherwise turn out.",
+          "If the “institution, not the individual” theory were as absolute as Daniyal claims, that 2017 win shouldn’t have needed him at all.",
+          "The real question, reversed Daniyal asks whether Ruhullah can survive without the National Conference.",
+          "That’s a fair question for some future date.",
+          "The more urgent one, given where things stand right now, is this; can the National Conference keep telling voters it stands for restoration of Article 370 while trying to silence the MP who co-wrote that very promise into its manifesto and is refusing to let the party quietly walk away from it?",
+          "Kashmir’s political history does punish men who overestimate their own gravity Daniyal is right about that much.",
+          "But the honest test of whether Ruhullah is one of them is the fresh mandate his own party president has now dared him to seek.",
+          "Don’t crown him before that test.",
+          "But don’t bury him with an essay built on a threat to leave that had already been made, and a motive-question that avoids the substance of what he’s actually saying.",
+          "Sahil Parray, a Student Activist."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kashmiri"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "But on 17 August a full week earlier Ruhullah had already said, in his own words, “made up my mind” to resign from Parliament within a few months, once he had taken the fight for constitutional restoration to “a certain level.”",
+            "source": "Greater Kashmir",
+            "item_id": "0bce64740df8344a5e49ee8d",
+            "composed": false
+          },
+          {
+            "text": "Compare that to 2019, when NC’s Farooq Abdullah arguably the most recognisable name in Kashmiri politics won the same seat with only 106,750 votes, on a turnout of barely 14%.",
+            "source": "Greater Kashmir",
+            "item_id": "0bce64740df8344a5e49ee8d",
+            "composed": false
+          },
+          {
+            "text": "Daniyal’s piece appeared on 25 August 2026 built around the idea that Ruhullah talks like a rebel but never risks anything.",
+            "source": "Greater Kashmir",
+            "item_id": "0bce64740df8344a5e49ee8d",
+            "composed": false
+          },
+          {
+            "text": "The NC’s 2024 manifesto, its “12 guarantees” explicitly promised to “strive to restore Articles 370 and 35A and statehood as prior to August 5, 2019.”",
+            "source": "Greater Kashmir",
+            "item_id": "0bce64740df8344a5e49ee8d",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/opinion/ruhullahs-real-arithmetic-12446054"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "1527ba9c56104a91dba2d024",
+      "story_id": "1527ba9c56104a91dba2d024",
+      "headline": "Understanding tariff, and the hike",
+      "title": "Understanding tariff, and the hike",
+      "summary": "The recent power tariff hike in Jammu and Kashmir has created quite a fierce debate on the social media and amongst the society. Many statistics were tossed around in news reports about the hike in different categories of consumers, the cost of purchase of energy and the recovery thereof. The standard practice across the country is to determine the tariff every year. In case of J&K it was last done in 2023 and hence was overdue. As a matter of fact, this exercise should have been completed before the start of the financial year i.e., latest by end of March. It is now being done after five months into the current financial year. As per the Electricity Act of 2003, electricity tariff is determined by the appropriate electricity regulatory commission. For state distribution utilities (like JPDCL and KPDCL), the State Electricity Regulatory Commission (SERC) decides retail supply tariffs for consumers within the state. Prior to reorganisation of the State in 2019, Jammu & Kashmir had its State Electricity Regulatory Commission (SERC) which determined the tariff. After the reorganisation SERC was replaced by Joint Electricity Regulatory Commission (JERC). The operating principles of the Commission, however, remain the same i.e., to determine tariff in a transparent way while being guided by the need to ensure efficiency, protect consumer interests, and progressively reduce cross-subsidies while moving toward the actual cost of supply. The tariff policy under the Act also requires a fair, open, and transparent process for all parts of the electricity sector i.e., generation, transmission, and distribution. The Commission determines the tariff through a cost-based approach, where the regulator examines expenses such as power purchase cost, operation and maintenance, capital cost, return on equity, and other approved costs. The process involves submission of a petition by the utility (JPDCL or KPDCL in our case) to JERC in which it submits its accounts as regards the purchase of energy, the losses, the cost of distributing it to consumers. The JERC is expected to check these in detail and satisfy themselves to their correctness. Once found in order the expense is allowed – in case the expense is not admissible or it is more than the standard norm the Regulator can allow part, or completely disallow the expense. If the State Government wants to keep consumer tariffs below the level fixed by the Commission, it can provide a subsidy in advance through its budget provision. This means the legal tariff can remain cost-reflective while selected consumer groups receive relief through government support. The case in point is the often discussed 200 units of free power. While the utility will submit its petition and the Regulator will fix the tariff, the government can decide to foot the bill for 200 units of the consumers at the rate determined by JERC. This way there is no adverse impact on the financial health of the utility (JPDCL or KPDCL). The utilities (JPDCL or KPDCL) estimate the cost of purchasing and distributing the energy and these calculations are to be checked and verified by the Regulator who then accordingly determines the tariff to be paid by the consumers. Prior to unbundling of the power sector, which led to creation of the utilities, the Power Development Department worked out the costings and petitioned the Regulator for determination of tariff. The utilities are commercial entities who are mandated to provide energy to the consumers in an efficient and competitive manner. It is worth mentioning here that the electricity tariff in J&K is amongst the lowest in the country. Based on existing tariff structure our average domestic tariff is Rs 3.90 per unit while the two states having tariff lower than us were Himachal Pradesh and Tamil Nadu, both with average domestic tariff marginally lower at Rs 3.80 per unit. States like Maharashtra and West Bengal have an average domestic tariff of Rs 8.20 and Rs 7.40 per unit. Incidentally, J&K had the highest ‘T&D Losses’ in the country. In the year 2023-24 J&K’s losses stood at 48% followed by Arunachal Pradesh at 34% while the All India average was well below 20%. In the last few years these losses have been now substantially reduced are somewhere between 35 to 40%. This is a huge achievement and with the efforts of the utilities and cooperation of the consumers it should be possible to bring the figure down to the national average of around 15%. With the reduction in the T&D losses the tariff will also stabilise and the subsidy component currently funded by the UT Government will be used towards funding other welfare schemes. Equally, the other big achievement is the installation of pre-paid meters. The pre-paid concept itself is so alien to most of us particularly when it had been ingrained in us that electricity should be supplied free of cost. Though there is still a lot of work to do on that front commendable strides have been made in this important area. Without the cooperation of the consumers neither of these two achievements would have been possible. Frankly, a few years back nobody could have thought that such reduction in the losses and on installation of meters was achievable in such a short duration. Both the initiatives needed a complete change of mindset to be successful. Now looking at the financials projected in the tariff petition for the year 2026-2027 the projected cost of purchase and distribution of electricity for the two utilities i.e., JPDCL and KPDCL, is Rs 10276 crores. Out of this, Rs 7856 crores are expected to be collected leaving a shortfall in revenue collection of Rs 2421 crores. This amount of Rs 2421 crores is being funded by the government and will not be passed on to the consumers. Since an amount of Rs 502 crores is expected to be collected by increasing the tariff it implies that the actual shortfall in revenue collection, without increase in tariff would have been Rs 2923 crores. While a figure of 6.83% increase in tariff has been mentioned, this figure for consumers other than domestic, is much higher. Only in case of the BPL consumers it is unchanged at Rs 1.40 per unit subject to a maximum of 30 units per month. A preliminary review of the 334-page order issued by the JERC throws up a number of questions that demand clarification: i. If both JPDCL and KPDCL in their tariff petitions had asked for only a 5% across-the-board increase why did JERC approve a much higher tariff structure across different categories of consumers? What is the rationale behind this additional increase? ii. As per the Order the current hike will be effective 1 Sep 26 and will be valid till 31 Mar 27. What happens after Mar 2027? iii. Since the cost of purchase and distribution of electricity is for the full financial year (26-27) and the new tariff regime will be implemented only from 1 Sep 26, how will the full amount of Rs 502 crores be collected by billing at revised tariff for only 7 months (Sep 26 to Mar 27) instead of estimated 12 months in the petition? iv. The Order has considered Time of Day tariff. While it will have an impact the billing for domestic consumers during the peak hours because of 10% surcharge, it will positively effect the commercial and industrial consumers during the solar hours. Most of the commercial establishments and industries operate during the day and thus their bills for solar hour consumption will be reduced by 20% because of the rebate on ToD tariff. The impact of the rebate and of surcharge has not been captured in the calculations. v. The Order has not considered the impact of roof top solar units. Because of the generation from these roof top solar installations there will be lesser withdrawal of energy from the system and thence lesser purchase of energy from grid. Even though the installed capacity is small, it is only proper to capture its impact in the Order. For the hearing on KPDCL petition there hasn’t been much of a public consultation and participation. Only three stakeholders attended the hearing of KPDCL and as can be seen from the Order they did not engage in any interaction during the hearing nor had they submitted any objections against the KPDCL petition. However, in the hearing held in Jammu for the JPDCL petition there were 32 stakeholders / consumers present in the hearing and a total of 13 objections were submitted against the proposed hike of 5% in the JPDCL petition. Going forward, for utilities to win the confidence of consumers, it is time to invest in transparent public outreach and shift toward a partnership-based approach. Engaging stakeholders is not optional; continuous engagement with stakeholders is critical to ensuring that the public not only understands but also supports the initiatives and programmes launched by the utilities. Iftikhar A Drabu is a Civil Engineer",
+      "url": "https://www.greaterkashmir.com/opinion/understanding-tariff-and-the-hike-12446045",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "government-policy",
+        "energy-environment",
+        "business-industry",
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 70.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-28T00:43:31+00:00",
+      "published_at": "2026-08-28T00:43:31+00:00",
+      "effective_at": "2026-08-28T00:43:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'tariff' in title weight 40",
+        "event term: 'tariff' in summary weight 24",
+        "event term: 'tariffs' in summary weight 24",
+        "event term: 'electricity tariff' in summary weight 24",
+        "scale: national scope",
+        "scale: multi-state (6 states)",
+        "recency: fresh (4.3h ago) +4",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The recent power tariff hike in Jammu and Kashmir has created quite a fierce debate on the social media and amongst the society.",
+          "Many statistics were tossed around in news reports about the hike in different categories of consumers, the cost of purchase of energy and the recovery thereof."
+        ],
+        "body": [
+          "The standard practice across the country is to determine the tariff every year.",
+          "In case of J&K it was last done in 2023 and hence was overdue.",
+          "As a matter of fact, this exercise should have been completed before the start of the financial year i.e., latest by end of March.",
+          "It is now being done after five months into the current financial year.",
+          "As per the Electricity Act of 2003, electricity tariff is determined by the appropriate electricity regulatory commission.",
+          "For state distribution utilities (like JPDCL and KPDCL), the State Electricity Regulatory Commission (SERC) decides retail supply tariffs for consumers within the state.",
+          "Prior to reorganisation of the State in 2019, Jammu & Kashmir had its State Electricity Regulatory Commission (SERC) which determined the tariff.",
+          "After the reorganisation SERC was replaced by Joint Electricity Regulatory Commission (JERC).",
+          "The operating principles of the Commission, however, remain the same i.e., to determine tariff in a transparent way while being guided by the need to ensure efficiency, protect consumer interests, and progressively reduce cross-subsidies while moving toward the actual cost of supply.",
+          "The tariff policy under the Act also requires a fair, open, and transparent process for all parts of the electricity sector i.e., generation, transmission, and distribution.",
+          "The Commission determines the tariff through a cost-based approach, where the regulator examines expenses such as power purchase cost, operation and maintenance, capital cost, return on equity, and other approved costs.",
+          "The process involves submission of a petition by the utility (JPDCL or KPDCL in our case) to JERC in which it submits its accounts as regards the purchase of energy, the losses, the cost of distributing it to consumers.",
+          "Once found in order the expense is allowed – in case the expense is not admissible or it is more than the standard norm the Regulator can allow part, or completely disallow the expense.",
+          "If the State Government wants to keep consumer tariffs below the level fixed by the Commission, it can provide a subsidy in advance through its budget provision.",
+          "This means the legal tariff can remain cost-reflective while selected consumer groups receive relief through government support.",
+          "The case in point is the often discussed 200 units of free power.",
+          "While the utility will submit its petition and the Regulator will fix the tariff, the government can decide to foot the bill for 200 units of the consumers at the rate determined by JERC.",
+          "This way there is no adverse impact on the financial health of the utility (JPDCL or KPDCL).",
+          "The utilities (JPDCL or KPDCL) estimate the cost of purchasing and distributing the energy and these calculations are to be checked and verified by the Regulator who then accordingly determines the tariff to be paid by the consumers.",
+          "Prior to unbundling of the power sector, which led to creation of the utilities, the Power Development Department worked out the costings and petitioned the Regulator for determination of tariff.",
+          "The utilities are commercial entities who are mandated to provide energy to the consumers in an efficient and competitive manner.",
+          "It is worth mentioning here that the electricity tariff in J&K is amongst the lowest in the country.",
+          "Based on existing tariff structure our average domestic tariff is Rs 3.90 per unit while the two states having tariff lower than us were Himachal Pradesh and Tamil Nadu, both with average domestic tariff marginally lower at Rs 3.80 per unit.",
+          "States like Maharashtra and West Bengal have an average domestic tariff of Rs 8.20 and Rs 7.40 per unit.",
+          "Incidentally, J&K had the highest ‘T&D Losses’ in the country.",
+          "In the year 2023-24 J&K’s losses stood at 48% followed by Arunachal Pradesh at 34% while the All India average was well below 20%.",
+          "In the last few years these losses have been now substantially reduced are somewhere between 35 to 40%.",
+          "This is a huge achievement and with the efforts of the utilities and cooperation of the consumers it should be possible to bring the figure down to the national average of around 15%.",
+          "With the reduction in the T&D losses the tariff will also stabilise and the subsidy component currently funded by the UT Government will be used towards funding other welfare schemes.",
+          "Equally, the other big achievement is the installation of pre-paid meters.",
+          "The pre-paid concept itself is so alien to most of us particularly when it had been ingrained in us that electricity should be supplied free of cost.",
+          "Though there is still a lot of work to do on that front commendable strides have been made in this important area.",
+          "Without the cooperation of the consumers neither of these two achievements would have been possible.",
+          "Frankly, a few years back nobody could have thought that such reduction in the losses and on installation of meters was achievable in such a short duration.",
+          "Both the initiatives needed a complete change of mindset to be successful.",
+          "Now looking at the financials projected in the tariff petition for the year 2026-2027 the projected cost of purchase and distribution of electricity for the two utilities i.e., JPDCL and KPDCL, is Rs 10276 crores.",
+          "Out of this, Rs 7856 crores are expected to be collected leaving a shortfall in revenue collection of Rs 2421 crores.",
+          "This amount of Rs 2421 crores is being funded by the government and will not be passed on to the consumers.",
+          "Since an amount of Rs 502 crores is expected to be collected by increasing the tariff it implies that the actual shortfall in revenue collection, without increase in tariff would have been Rs 2923 crores.",
+          "Only in case of the BPL consumers it is unchanged at Rs 1.40 per unit subject to a maximum of 30 units per month.",
+          "A preliminary review of the 334-page order issued by the JERC throws up a number of questions that demand clarification:.",
+          "If both JPDCL and KPDCL in their tariff petitions had asked for only a 5% across-the-board increase why did JERC approve a much higher tariff structure across different categories of consumers?",
+          "What is the rationale behind this additional increase?",
+          "As per the Order the current hike will be effective 1 Sep 26 and will be valid till 31 Mar 27.",
+          "What happens after Mar 2027?",
+          "Since the cost of purchase and distribution of electricity is for the full financial year (26-27) and the new tariff regime will be implemented only from 1 Sep 26, how will the full amount of Rs 502 crores be collected by billing at revised tariff for only 7 months (Sep 26 to Mar 27) instead of estimated 12 months in the petition?",
+          "The Order has considered Time of Day tariff.",
+          "While it will have an impact the billing for domestic consumers during the peak hours because of 10% surcharge, it will positively effect the commercial and industrial consumers during the solar hours.",
+          "The impact of the rebate and of surcharge has not been captured in the calculations.",
+          "The Order has not considered the impact of roof top solar units.",
+          "Because of the generation from these roof top solar installations there will be lesser withdrawal of energy from the system and thence lesser purchase of energy from grid.",
+          "Even though the installed capacity is small, it is only proper to capture its impact in the Order.",
+          "For the hearing on KPDCL petition there hasn’t been much of a public consultation and participation.",
+          "Only three stakeholders attended the hearing of KPDCL and as can be seen from the Order they did not engage in any interaction during the hearing nor had they submitted any objections against the KPDCL petition.",
+          "However, in the hearing held in Jammu for the JPDCL petition there were 32 stakeholders / consumers present in the hearing and a total of 13 objections were submitted against the proposed hike of 5% in the JPDCL petition.",
+          "Going forward, for utilities to win the confidence of consumers, it is time to invest in transparent public outreach and shift toward a partnership-based approach.",
+          "Engaging stakeholders is not optional; continuous engagement with stakeholders is critical to ensuring that the public not only understands but also supports the initiatives and programmes launched by the utilities.",
+          "Iftikhar.",
+          "A Drabu is a Civil Engineer."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jammu"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The JERC is expected to check these in detail and satisfy themselves to their correctness."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Based on existing tariff structure our average domestic tariff is Rs 3.90 per unit while the two states having tariff lower than us were Himachal Pradesh and Tamil Nadu, both with average domestic tariff marginally lower at Rs 3.80 per unit.",
+            "source": "Greater Kashmir",
+            "item_id": "1527ba9c56104a91dba2d024",
+            "composed": false
+          },
+          {
+            "text": "Only in case of the BPL consumers it is unchanged at Rs 1.40 per unit subject to a maximum of 30 units per month.",
+            "source": "Greater Kashmir",
+            "item_id": "1527ba9c56104a91dba2d024",
+            "composed": false
+          },
+          {
+            "text": "However, in the hearing held in Jammu for the JPDCL petition there were 32 stakeholders / consumers present in the hearing and a total of 13 objections were submitted against the proposed hike of 5% in the JPDCL petition.",
+            "source": "Greater Kashmir",
+            "item_id": "1527ba9c56104a91dba2d024",
+            "composed": false
+          },
+          {
+            "text": "States like Maharashtra and West Bengal have an average domestic tariff of Rs 8.20 and Rs 7.40 per unit.",
+            "source": "Greater Kashmir",
+            "item_id": "1527ba9c56104a91dba2d024",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/opinion/understanding-tariff-and-the-hike-12446045"
+      },
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     }
