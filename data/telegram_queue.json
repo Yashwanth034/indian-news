@@ -1,67 +1,74 @@
 {
-  "generated_at": "2026-08-29T12:41:45.192974+00:00",
-  "count": 10,
+  "generated_at": "2026-08-29T12:51:32.866328+00:00",
+  "count": 8,
   "stories": [
     {
-      "event_id": "decd461beb0d6587312ee4a3",
-      "story_id": "decd461beb0d6587312ee4a3",
-      "headline": "Nepal President thanks India for support after deadly flash floods",
-      "title": "Nepal President thanks India for support after deadly flash floods",
-      "summary": "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds. He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616.",
-      "url": "https://telanganatoday.com/nepal-president-thanks-india-for-support-after-deadly-flash-floods",
+      "event_id": "7b805b85cf836ca94e45b737",
+      "story_id": "7b805b85cf836ca94e45b737",
+      "headline": "Nepal says India has pledged generous assistance for flood reconstruction",
+      "title": "Nepal says India has pledged generous assistance for flood reconstruction",
+      "summary": "Nepal has praised India’s assistance following devastating floods that have killed more than 600 people. Finance Minister Swarnim Wagle described Prime Minister Narendra Modi as “exceptionally generous” and said New Delhi had indicated it would provide generous assistance for reconstruction",
+      "url": "https://telanganatoday.com/nepal-says-india-has-pledged-generous-assistance-for-flood-reconstruction",
       "source": "Telangana Today",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 56.0,
+      "secondary_categories": [
+        "national-politics",
+        "economy-finance"
+      ],
+      "confidence": "low",
+      "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-29T08:50:49+00:00",
-      "published_at": "2026-08-29T08:50:49+00:00",
-      "effective_at": "2026-08-29T08:50:49+00:00",
+      "event_time": "2026-08-29T12:19:34+00:00",
+      "published_at": "2026-08-29T12:48:33+00:00",
+      "effective_at": "2026-08-29T12:48:33+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "ians": {
+        "pti": {
           "kind": "wire",
           "source_ids": [
+            "business-standard",
             "telangana-today"
           ],
-          "count": 1
+          "count": 2
         }
       },
-      "is_wire_echo": false,
+      "is_wire_echo": true,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'floods'",
+        "major: significance event 'flood'",
         "major: significance event 'floods'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (telangana-today) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
+        "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "delhi",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
-          "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616."
+          "Nepal has praised India’s assistance following devastating floods that have killed more than 600 people.",
+          "Finance Minister Swarnim Wagle described Prime Minister Narendra Modi as “exceptionally generous” and said New Delhi had indicated it would provide generous assistance for reconstruction."
         ],
         "body": [
+          "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
+          "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616.",
           "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement.",
           "He remains unreachable following the devastating floods in the Nepal-Tiber border region."
         ],
@@ -70,9 +77,20 @@
             "icon": "📍",
             "label": "Location",
             "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 600 people"
           }
         ],
         "sentences": [
+          {
+            "text": "Nepal has praised India’s assistance following devastating floods that have killed more than 600 people.",
+            "source": "Telangana Today",
+            "item_id": "7b805b85cf836ca94e45b737",
+            "composed": false
+          },
           {
             "text": "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
             "source": "Telangana Today",
@@ -96,9 +114,9 @@
         "corroborating": [
           "Mint - Companies"
         ],
-        "url": "https://telanganatoday.com/nepal-president-thanks-india-for-support-after-deadly-flash-floods"
+        "url": "https://telanganatoday.com/nepal-says-india-has-pledged-generous-assistance-for-flood-reconstruction"
       },
-      "group_size": 2,
+      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -156,7 +174,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (maharashtra)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 42, score 64 -> URGENT"
@@ -236,6 +254,122 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "2877c34f0f8ebbc11ad339e9",
+      "story_id": "2877c34f0f8ebbc11ad339e9",
+      "headline": "'Water up to 20 feet... climbed trees to stay alive': Indians rescued from flood-hit Nepal",
+      "title": "'Water up to 20 feet... climbed trees to stay alive': Indians rescued from flood-hit Nepal",
+      "summary": "",
+      "url": "https://english.mathrubhumi.com/news/india/nepal-floods-indians-rescued-survivors-recount-horror-rizu9x01",
+      "source": "Mathrubhumi English",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 65.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T12:40:42+00:00",
+      "published_at": "2026-08-29T12:40:42+00:00",
+      "effective_at": "2026-08-29T12:40:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "mathrubhumi": {
+          "kind": "independent",
+          "source_ids": [
+            "mathrubhumi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (mathrubhumi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 30, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "After the first batch of 106 stranded Maharashtra tourists reached India, people thanked the Indian and Nepalese authorities for facilitating the rescue.",
+        "New Delhi: People from different parts of the country, who were rescued from flood-ravaged Nepal, on Saturday recounted the extent of devastation in the Himalayan Nation and considered themselves lucky to have escaped the catastrophe.",
+        "Migrant labourers from Bihar's Bettiah referred to the flash floods as \"unimaginable\", while speaking to IANS in their hometown.",
+        "One of the labourers said, \"There were five to seven of us, three of our people went missing...",
+        "There was a lot of water in the area, rising up to 20 feet.",
+        "We took our children and ran up the hill.",
+        "After an hour, when the water level receded, we went to look for them, but we could not find the three people.\"",
+        "\"We were told to run away from there as people said there is no guarantee the water (flood) might come again,\" he added.",
+        "A youngster said, \"At around 9:30 a.m., I heard a lot of noise.",
+        "I went outside to see what was happening, but I could only see dust.",
+        "Moments later, I saw that there was a lot of water due to the storm...",
+        "Immediately, I alerted the people inside."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "After the first batch of 106 stranded Maharashtra tourists reached India, people thanked the Indian and Nepalese authorities for facilitating the rescue.",
+          "New Delhi: People from different parts of the country, who were rescued from flood-ravaged Nepal, on Saturday recounted the extent of devastation in the Himalayan Nation and considered themselves lucky to have escaped the catastrophe."
+        ],
+        "body": [
+          "Migrant labourers from Bihar's Bettiah referred to the flash floods as \"unimaginable\", while speaking to IANS in their hometown.",
+          "One of the labourers said, \"There were five to seven of us, three of our people went missing...",
+          "There was a lot of water in the area, rising up to 20 feet.",
+          "We took our children and ran up the hill.",
+          "After an hour, when the water level receded, we went to look for them, but we could not find the three people.\" \"We were told to run away from there as people said there is no guarantee the water (flood) might come again,\" he added.",
+          "A youngster said, \"At around 9:30 a.m., I heard a lot of noise.",
+          "I went outside to see what was happening, but I could only see dust.",
+          "Moments later, I saw that there was a lot of water due to the storm..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A youngster said, \"At around 9:30 a.m., I heard a lot of noise.",
+            "source": "Mathrubhumi English",
+            "item_id": "2877c34f0f8ebbc11ad339e9:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: People from different parts of the country, who were rescued from flood-ravaged Nepal, on Saturday recounted the extent of devastation in the Himalayan Nation and considered themselves lucky to have escaped the catastrophe.",
+            "source": "Mathrubhumi English",
+            "item_id": "2877c34f0f8ebbc11ad339e9:article",
+            "composed": false
+          },
+          {
+            "text": "After the first batch of 106 stranded Maharashtra tourists reached India, people thanked the Indian and Nepalese authorities for facilitating the rescue.",
+            "source": "Mathrubhumi English",
+            "item_id": "2877c34f0f8ebbc11ad339e9:article",
+            "composed": false
+          },
+          {
+            "text": "Migrant labourers from Bihar's Bettiah referred to the flash floods as \"unimaginable\", while speaking to IANS in their hometown.",
+            "source": "Mathrubhumi English",
+            "item_id": "2877c34f0f8ebbc11ad339e9:article",
+            "composed": false
+          }
+        ],
+        "source": "Mathrubhumi English",
+        "corroborating": [],
+        "url": "https://english.mathrubhumi.com/news/india/nepal-floods-indians-rescued-survivors-recount-horror-rizu9x01"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "ddff35bf5d2b650f1354f9c2",
       "story_id": "ddff35bf5d2b650f1354f9c2",
       "headline": "Nepal flood horror reaches UP as 10 bodies recovered from Gandak river",
@@ -280,7 +414,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -400,7 +534,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -472,131 +606,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "7fb5ac8c95013ab3d351d177",
-      "story_id": "7fb5ac8c95013ab3d351d177",
-      "headline": "Odisha flood update: IMD predicts heavy rains across districts till September 4",
-      "title": "Odisha flood update: IMD predicts heavy rains across districts till September 4",
-      "summary": "",
-      "url": "https://english.mathrubhumi.com/news/india/odisha-low-pressure-bay-of-bengal-imd-rain-warning-2026-adr26ir7",
-      "source": "Mathrubhumi English",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T06:49:21+00:00",
-      "published_at": "2026-08-29T06:49:21+00:00",
-      "effective_at": "2026-08-29T06:49:21+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "mathrubhumi": {
-          "kind": "independent",
-          "source_ids": [
-            "mathrubhumi"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (mathrubhumi) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (odisha)",
-        "recency: fresh (5.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 20, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "article_sentences": [
-        "Heavy downpours expected in northern, interior, and coastal regions.",
-        "Bhubaneswar: A fresh low-pressure system has formed over the Bay of Bengal, which could bring heavy downpours across Odisha until 4 September, the India Meteorological Department stated on Saturday.",
-        "State authorities have initiated preparations to address potential waterlogging and flooding in northern and coastal districts of Odisha, according to an official.",
-        "“Under the influence of the upper air cyclonic circulation over northwest Bay of Bengal and adjoining West Bengal-Bangladesh coasts, a low-pressure area has formed over northwest Bay of Bengal and adjoining West Bengal-north Odisha coasts at 5.30 am,” the IMD stated in a weather bulletin.",
-        "The weather system is expected to prompt heavy precipitation in the northern, interior, and coastal regions of the state, the agency noted.",
-        "Odisha is already dealing with severe flooding in several areas, with over 67,000 residents across three districts affected by a second wave of deluges, the official said.",
-        "The IMD had previously issued weather alerts predicting heavy to very heavy rainfall across various parts of Odisha between 20 August and 4 September.",
-        "For Saturday, forecasters issued warnings for heavy rain at isolated locations in flood-affected districts including Balasore, Bhadrak, Jagatsinghpur, Keonjhar, Kendrapara, and Mayurbhanj, alongside other districts such as Jajpur, Cuttack, Sundergarh, Jharsuguda, Baragarh, Sambalpur, Deogarh, Angul, Dhenkanal, Kalahandi, Puri, and Nayagada.",
-        "“As squally weather with wind speeds reaching 40-50 kmph occasionally gusting to 60 kmph is very likely to prevail along and off the Odisha coast till August 31, fishermen have been advised not to venture into the sea during the period,” the IMD bulletin added.",
-        "Disclaimer: Kindly avoid objectionable, derogatory, unlawful and lewd comments, while responding to reports.",
-        "Such comments are punishable under cyber laws.",
-        "Please keep away from personal attacks."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Heavy downpours expected in northern, interior, and coastal regions.",
-          "Bhubaneswar: A fresh low-pressure system has formed over the Bay of Bengal, which could bring heavy downpours across Odisha until 4 September, the India Meteorological Department stated on Saturday."
-        ],
-        "body": [
-          "State authorities have initiated preparations to address potential waterlogging and flooding in northern and coastal districts of Odisha, according to an official.",
-          "“Under the influence of the upper air cyclonic circulation over northwest Bay of Bengal and adjoining West Bengal-Bangladesh coasts, a low-pressure area has formed over northwest Bay of Bengal and adjoining West Bengal-north Odisha coasts at 5.30 am,” the IMD stated in a weather bulletin.",
-          "Odisha is already dealing with severe flooding in several areas, with over 67,000 residents across three districts affected by a second wave of deluges, the official said.",
-          "The IMD had previously issued weather alerts predicting heavy to very heavy rainfall across various parts of Odisha between 20 August and 4 September.",
-          "For Saturday, forecasters issued warnings for heavy rain at isolated locations in flood-affected districts including Balasore, Bhadrak, Jagatsinghpur, Keonjhar, Kendrapara, and Mayurbhanj, alongside other districts such as Jajpur, Cuttack, Sundergarh, Jharsuguda, Baragarh, Sambalpur, Deogarh, Angul, Dhenkanal, Kalahandi, Puri, and Nayagada.",
-          "“As squally weather with wind speeds reaching 40-50 kmph occasionally gusting to 60 kmph is very likely to prevail along and off the Odisha coast till August 31, fishermen have been advised not to venture into the sea during the period,” the IMD bulletin added.",
-          "Disclaimer: Kindly avoid objectionable, derogatory, unlawful and lewd comments, while responding to reports."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Odisha"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "over 67,000 residents"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The weather system is expected to prompt heavy precipitation in the northern, interior, and coastal regions of the state, the agency noted."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Bhubaneswar: A fresh low-pressure system has formed over the Bay of Bengal, which could bring heavy downpours across Odisha until 4 September, the India Meteorological Department stated on Saturday.",
-            "source": "Mathrubhumi English",
-            "item_id": "7fb5ac8c95013ab3d351d177:article",
-            "composed": false
-          },
-          {
-            "text": "The IMD had previously issued weather alerts predicting heavy to very heavy rainfall across various parts of Odisha between 20 August and 4 September.",
-            "source": "Mathrubhumi English",
-            "item_id": "7fb5ac8c95013ab3d351d177:article",
-            "composed": false
-          },
-          {
-            "text": "“As squally weather with wind speeds reaching 40-50 kmph occasionally gusting to 60 kmph is very likely to prevail along and off the Odisha coast till August 31, fishermen have been advised not to venture into the sea during the period,” the IMD bulletin added.",
-            "source": "Mathrubhumi English",
-            "item_id": "7fb5ac8c95013ab3d351d177:article",
-            "composed": false
-          }
-        ],
-        "source": "Mathrubhumi English",
-        "corroborating": [],
-        "url": "https://english.mathrubhumi.com/news/india/odisha-low-pressure-bay-of-bengal-imd-rain-warning-2026-adr26ir7"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "0d7e467d008f0c42f82fe087",
       "story_id": "0d7e467d008f0c42f82fe087",
       "headline": "'Strikes not just near LoC': Ex-Army chief on India's fresh tactics in Op Sindoor",
@@ -638,7 +647,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 28.8, score 62 -> URGENT"
@@ -761,7 +770,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (gujarat)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 44.8, score 50.4 -> HIGH"
@@ -833,113 +842,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7c94e6de9e8cc048d54a68e8",
-      "story_id": "7c94e6de9e8cc048d54a68e8",
-      "headline": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
-      "title": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
-      "summary": "New Delhi, Aug 28 : Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026. Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974. The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany. Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey. To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament. On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world. This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS",
-      "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "sports",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 75.2,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T06:42:49+00:00",
-      "published_at": "2026-08-29T06:42:49+00:00",
-      "effective_at": "2026-08-29T06:42:49+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        },
-        "kalinga-tv": {
-          "kind": "independent",
-          "source_ids": [
-            "kalinga-tv"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "category: sports (importance 0.6, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'world cup' in title weight 42",
-        "event term: 'world cup' in summary weight 25.2",
-        "event term: 'match' in summary weight 4.8",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: sports (importance 0.6) +0",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
-          "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974."
-        ],
-        "body": [
-          "The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany.",
-          "Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey.",
-          "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
-          "On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world.",
-          "This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Amstelveen"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          },
-          {
-            "text": "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "8ed1c860f0c70506506ba954",
       "story_id": "8ed1c860f0c70506506ba954",
       "headline": "Karnataka CM Shivakumar to send Nagendra’s resignation to Governor",
@@ -990,7 +892,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1079,120 +981,6 @@
         "source": "The Assam Tribune",
         "corroborating": [],
         "url": "https://assamtribune.com/national/karnataka-cm-shivakumar-to-send-nagendras-resignation-to-governor-1616289"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "7b805b85cf836ca94e45b737",
-      "story_id": "7b805b85cf836ca94e45b737",
-      "headline": "Nepal's private, public sectors pledge millions to disaster relief fund",
-      "title": "Nepal's private, public sectors pledge millions to disaster relief fund",
-      "summary": "Nepal's public sector, private companies and individuals have pledged millions of rupees to the disaster relief fund as the Himalayan nation continues its fight against one of its worst natural disasters that has killed over 600 people. Nepal is struggling to find its footing after a massive flash flood swept through towns and villages on Wednesday, washing away homes, vehicles, roads and bridges, besides damaging hydropower projects. The death toll crossed 600 on Saturday, while more than 2,400 people remained missing. Nearly 2,500 people, including 163 foreigners, were evacuated as rescue teams raced against time amid intermittent rainfall in flood-affected regions. Nepal's private companies, banks, insurers and individual donors have decided to contribute to the disaster relief fund to help victims, The Kathmandu Post reported. The contributions to the Prime Minister's Disaster Relief Fund will help authorities treat the injured and provide food and shelter to families displaced",
-      "url": "https://www.business-standard.com/world-news/nepal-s-private-public-sectors-pledge-millions-to-disaster-relief-fund-126082900591_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "national-politics",
-        "economy-finance",
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 99.0,
-      "priority_score": 38.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T12:19:34+00:00",
-      "published_at": "2026-08-29T12:19:34+00:00",
-      "effective_at": "2026-08-29T12:19:34+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'disaster'",
-        "major: significance event 'disaster'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'disaster'",
-        "major: significance event 'Disaster'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 38.4, stack 34, score 38.4 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Nepal's public sector, private companies and individuals have pledged millions of rupees to the disaster relief fund as the Himalayan nation continues its fight against one of its worst natural disasters that has killed over 600 people.",
-          "Nepal is struggling to find its footing after a massive flash flood swept through towns and villages on Wednesday, washing away homes, vehicles, roads and bridges, besides damaging hydropower projects."
-        ],
-        "body": [
-          "The death toll crossed 600 on Saturday, while more than 2,400 people remained missing.",
-          "Nearly 2,500 people, including 163 foreigners, were evacuated as rescue teams raced against time amid intermittent rainfall in flood-affected regions.",
-          "Nepal's private companies, banks, insurers and individual donors have decided to contribute to the disaster relief fund to help victims, The Kathmandu Post reported.",
-          "The contributions to the Prime Minister's Disaster Relief Fund will help authorities treat the injured and provide food and shelter to families displaced."
-        ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "over 600 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The death toll crossed 600 on Saturday, while more than 2,400 people remained missing.",
-            "source": "Business Standard",
-            "item_id": "7b805b85cf836ca94e45b737",
-            "composed": false
-          },
-          {
-            "text": "Nearly 2,500 people, including 163 foreigners, were evacuated as rescue teams raced against time amid intermittent rainfall in flood-affected regions.",
-            "source": "Business Standard",
-            "item_id": "7b805b85cf836ca94e45b737",
-            "composed": false
-          },
-          {
-            "text": "Nepal's public sector, private companies and individuals have pledged millions of rupees to the disaster relief fund as the Himalayan nation continues its fight against one of its worst natural disasters that has killed over 600 people.",
-            "source": "Business Standard",
-            "item_id": "7b805b85cf836ca94e45b737",
-            "composed": false
-          },
-          {
-            "text": "Nepal is struggling to find its footing after a massive flash flood swept through towns and villages on Wednesday, washing away homes, vehicles, roads and bridges, besides damaging hydropower projects.",
-            "source": "Business Standard",
-            "item_id": "7b805b85cf836ca94e45b737",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/world-news/nepal-s-private-public-sectors-pledge-millions-to-disaster-relief-fund-126082900591_1.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
