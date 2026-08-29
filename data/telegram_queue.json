@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-08-29T11:51:30.566620+00:00",
-  "count": 10,
+  "generated_at": "2026-08-29T12:02:09.105058+00:00",
+  "count": 9,
   "stories": [
+    {
+      "event_id": "decd461beb0d6587312ee4a3",
+      "story_id": "decd461beb0d6587312ee4a3",
+      "headline": "Nepal President thanks India for support after deadly flash floods",
+      "title": "Nepal President thanks India for support after deadly flash floods",
+      "summary": "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds. He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616.",
+      "url": "https://telanganatoday.com/nepal-president-thanks-india-for-support-after-deadly-flash-floods",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 56.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T08:50:49+00:00",
+      "published_at": "2026-08-29T08:50:49+00:00",
+      "effective_at": "2026-08-29T08:50:49+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (3.2h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
+          "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616."
+        ],
+        "body": [
+          "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement.",
+          "He remains unreachable following the devastating floods in the Nepal-Tiber border region."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
+            "source": "Telangana Today",
+            "item_id": "decd461beb0d6587312ee4a3",
+            "composed": false
+          },
+          {
+            "text": "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616.",
+            "source": "Telangana Today",
+            "item_id": "decd461beb0d6587312ee4a3",
+            "composed": false
+          },
+          {
+            "text": "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement.",
+            "source": "Mint - Companies",
+            "item_id": "22e8cbd3dc74f7b80c2ff716",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [
+          "Mint - Companies"
+        ],
+        "url": "https://telanganatoday.com/nepal-president-thanks-india-for-support-after-deadly-flash-floods"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
     {
       "event_id": "06278bb27418e30735d7231a",
       "story_id": "06278bb27418e30735d7231a",
@@ -14,7 +114,7 @@
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "low",
       "score": 79.2,
       "priority_score": 64.0,
       "priority_level": "URGENT",
@@ -29,10 +129,10 @@
           "source_ids": [
             "assam-tribune"
           ],
-          "count": 1
+          "count": 2
         }
       },
-      "is_wire_echo": false,
+      "is_wire_echo": true,
       "status": "queued",
       "reasons": [
         "rumour: 'reportedly' in summary (penalty 3, overridden)",
@@ -50,15 +150,16 @@
         "major override dropped penalties: rumour",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (ians) -> no independent boost",
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (maharashtra)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 44, score 64 -> URGENT"
+        "dominant event 64, stack 42, score 64 -> URGENT"
       ],
       "geo_scope": "local",
       "state": "maharashtra",
@@ -135,321 +236,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "eea2509556d9e239bdc7525b",
-      "story_id": "eea2509556d9e239bdc7525b",
-      "headline": "Vishal Mishra announces concerts in Nepal, Assam: Every single penny will go towards flood relief, people affected",
-      "title": "Vishal Mishra announces concerts in Nepal, Assam: Every single penny will go towards flood relief, people affected",
-      "summary": "Vishal, who has crooned numbers such as “Kaise Hua,” “Pehle Bhi Main,” “Aaj Bhi,” “Jaanam,” “Manjha,” “Ramta Jogi,” and “Sau Gram Zindagi”, took to Instagram, where he made the announcement.",
-      "url": "https://www.thehansindia.com/cinema/vishal-mishra-announces-concerts-in-nepal-assam-every-single-penny-will-go-towards-flood-relief-people-affected-1115329",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 57.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T08:40:34+00:00",
-      "published_at": "2026-08-29T08:40:34+00:00",
-      "effective_at": "2026-08-29T08:40:34+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune",
-            "hans-india"
-          ],
-          "count": 2
-        },
-        "mathrubhumi": {
-          "kind": "independent",
-          "source_ids": [
-            "mathrubhumi"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (assam)",
-        "recency: fresh (3.2h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 26, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "assam",
-      "national_significance": true,
-      "article_sentences": [
-        "GUWAHATI: All India Congress Committee (AICC) Secretary and Co-in-charge of Assam Pradesh Congress Committee (APCC) Manoj Chouhan on Friday launched a sharp attack on the BJP-led governments at the Centre and in Assam, raising allegations over Ram Mandir donations, examination paper leaks and the handling of the recent floods in Upper Assam.",
-        "Addressing the media, Chouhan alleged large-scale financial irregularities involving donations collected for the construction of the Ram Mandir.",
-        "Chouhan said the Shri Ram Janmabhoomi Teerth Kshetra Trust was constituted in 2020 by Prime Minister Narendra Modi, with Champat Rai appointed as its General Secretary.",
-        "He alleged that thousands of crores in donations, along with gold, silver and precious stones, had been misappropriated.",
-        "Holding the Prime Minister politically responsible for the alleged irregularities, Chouhan demanded that Modi come forward and answer questions raised by devotees and the public.",
-        "He alleged that action against a few lower-level employees and the resignation of Champat Rai would not address the larger questions surrounding the alleged financial wrongdoing.",
-        "The Congress leader said the party has launched a nationwide campaign titled “Choupal against Chanda Chori”, which, he said, would be expanded to district and block headquarters across Assam in the coming week.",
-        "Chouhan also attacked the Centre over alleged irregularities and question paper leaks in competitive examinations, including NEET, SSC and BPSC.",
-        "He said Rahul Gandhi has been leading a nationwide campaign highlighting the concerns of students and unemployed youth.",
-        "The Congress has also launched a non-political platform, “Chhatron Ki Goonj”, and plans to organise programmes at around 800 locations across the country.",
-        "Referring to student protests in Delhi, Chouhan alleged that police had used pellet guns against protesting students and that one student lost an eye.",
-        "He said Rahul Gandhi subsequently staged a dharna at a police station for more than seven and a half hours to press for registration of an FIR and justice for the affected students."
-      ],
-      "enrichment_source": "The Sentinel (Assam)",
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Vishal, who has crooned numbers such as “Kaise Hua,” “Pehle Bhi Main,” “Aaj Bhi,” “Jaanam,” “Manjha,” “Ramta Jogi,” and “Sau Gram Zindagi”, took to Instagram, where he made the announcement.",
-          "GUWAHATI: All India Congress Committee (AICC) Secretary and Co-in-charge of Assam Pradesh Congress Committee (APCC) Manoj Chouhan on Friday launched a sharp attack on the BJP-led governments at the Centre and in Assam, raising allegations over Ram Mandir donations, examination paper leaks and the handling of the recent floods in Upper Assam."
-        ],
-        "body": [
-          "Addressing the media, Chouhan alleged large-scale financial irregularities involving donations collected for the construction of the Ram Mandir.",
-          "Chouhan said the Shri Ram Janmabhoomi Teerth Kshetra Trust was constituted in 2020 by Prime Minister Narendra Modi, with Champat Rai appointed as its General Secretary.",
-          "He alleged that thousands of crores in donations, along with gold, silver and precious stones, had been misappropriated.",
-          "Holding the Prime Minister politically responsible for the alleged irregularities, Chouhan demanded that Modi come forward and answer questions raised by devotees and the public.",
-          "He alleged that action against a few lower-level employees and the resignation of Champat Rai would not address the larger questions surrounding the alleged financial wrongdoing.",
-          "The Congress leader said the party has launched a nationwide campaign titled “Choupal against Chanda Chori”, which, he said, would be expanded to district and block headquarters across Assam in the coming week.",
-          "Chouhan also attacked the Centre over alleged irregularities and question paper leaks in competitive examinations, including NEET, SSC and BPSC.",
-          "He said Rahul Gandhi has been leading a nationwide campaign highlighting the concerns of students and unemployed youth."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Assam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "GUWAHATI: All India Congress Committee (AICC) Secretary and Co-in-charge of Assam Pradesh Congress Committee (APCC) Manoj Chouhan on Friday launched a sharp attack on the BJP-led governments at the Centre and in Assam, raising allegations over Ram Mandir donations, examination paper leaks and the handling of the recent floods in Upper Assam.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "eea2509556d9e239bdc7525b:article",
-            "composed": false
-          },
-          {
-            "text": "The Congress leader said the party has launched a nationwide campaign titled “Choupal against Chanda Chori”, which, he said, would be expanded to district and block headquarters across Assam in the coming week.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "eea2509556d9e239bdc7525b:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [
-          "The Sentinel (Assam)"
-        ],
-        "url": "https://www.thehansindia.com/cinema/vishal-mishra-announces-concerts-in-nepal-assam-every-single-penny-will-go-towards-flood-relief-people-affected-1115329"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "d4086f263ad4c8e278ec340e",
-      "story_id": "d4086f263ad4c8e278ec340e",
-      "headline": "28 from Karnataka stranded or missing in Nepal, Tibet amid flash flood",
-      "title": "28 from Karnataka stranded or missing in Nepal, Tibet amid flash flood",
-      "summary": "Of the 28 people, 23 are from Bengaluru Urban, two from Mysuru and one each from Dharwad, Udupi and Vijayanagara districts, according to the latest information compiled by the SEOC as of 10 a.m.",
-      "url": "https://www.thehindu.com/news/national/karnataka/28-from-karnataka-stranded-or-missing-in-nepal-tibet-amid-flash-flood/article71403924.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 83.4,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T10:09:33+00:00",
-      "published_at": "2026-08-29T10:09:33+00:00",
-      "effective_at": "2026-08-29T10:09:33+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (karnataka)",
-        "recency: breaking (1.7h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 24, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "karnataka",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Of the 28 people, 23 are from Bengaluru Urban, two from Mysuru and one each from Dharwad, Udupi and Vijayanagara districts, according to the latest information compiled by the SEOC as of 10 a.m.",
-          "Nepal Flash Flood LIVE Updates: A glacier collapse led to a sudden massive flood in the Bhote Koshi River."
-        ],
-        "body": [
-          "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
-          "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616."
-        ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "28 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Of the 28 people, 23 are from Bengaluru Urban, two from Mysuru and one each from Dharwad, Udupi and Vijayanagara districts, according to the latest information compiled by the SEOC as of 10 a.m.",
-            "source": "The Hindu",
-            "item_id": "d4086f263ad4c8e278ec340e",
-            "composed": false
-          },
-          {
-            "text": "Nepal President Ramchandra Paudel on Saturday thanked India and President Droupadi Murmu for their support following devastating flash floods that killed hundreds.",
-            "source": "Telangana Today",
-            "item_id": "decd461beb0d6587312ee4a3",
-            "composed": false
-          },
-          {
-            "text": "He also expressed condolences over Indian deaths, as rescue efforts continued and the death toll reached 616.",
-            "source": "Telangana Today",
-            "item_id": "decd461beb0d6587312ee4a3",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [
-          "NDTV",
-          "Telangana Today"
-        ],
-        "url": "https://www.thehindu.com/news/national/karnataka/28-from-karnataka-stranded-or-missing-in-nepal-tibet-amid-flash-flood/article71403924.ece"
-      },
-      "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "22e8cbd3dc74f7b80c2ff716",
-      "story_id": "22e8cbd3dc74f7b80c2ff716",
-      "headline": "Who is Lax Gopisetty? Infosys says their subsidiary firm's CEO remains unreachable amid Nepal flash floods",
-      "title": "Who is Lax Gopisetty? Infosys says their subsidiary firm's CEO remains unreachable amid Nepal flash floods",
-      "summary": "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement. He remains unreachable following the devastating floods in the Nepal-Tiber border region.",
-      "url": "https://www.livemint.com/companies/people/who-is-lax-gopisetty-infosys-says-their-subsidiary-firms-ceo-remains-unreachable-amid-nepal-flash-floods-11787994457311.html",
-      "source": "Mint - Companies",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "business-industry",
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 55.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T10:01:47+00:00",
-      "published_at": "2026-08-29T10:01:47+00:00",
-      "effective_at": "2026-08-29T10:01:47+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ht-media": {
-          "kind": "independent",
-          "source_ids": [
-            "mint-companies"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (mint-companies) +1",
-        "source: specialist (mint-companies) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement.",
-          "He remains unreachable following the devastating floods in the Nepal-Tiber border region."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Infosys Public Services CEO Lax Gopisetty was in Nepal for personal reasons, revealed the company in a statement.",
-            "source": "Mint - Companies",
-            "item_id": "22e8cbd3dc74f7b80c2ff716",
-            "composed": false
-          },
-          {
-            "text": "He remains unreachable following the devastating floods in the Nepal-Tiber border region.",
-            "source": "Mint - Companies",
-            "item_id": "22e8cbd3dc74f7b80c2ff716",
-            "composed": false
-          }
-        ],
-        "source": "Mint - Companies",
-        "corroborating": [],
-        "url": "https://www.livemint.com/companies/people/who-is-lax-gopisetty-infosys-says-their-subsidiary-firms-ceo-remains-unreachable-amid-nepal-flash-floods-11787994457311.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "ddff35bf5d2b650f1354f9c2",
       "story_id": "ddff35bf5d2b650f1354f9c2",
       "headline": "Nepal flood horror reaches UP as 10 bodies recovered from Gandak river",
@@ -494,7 +280,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -572,6 +358,120 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e0a02f3df12976739ed758a9",
+      "story_id": "e0a02f3df12976739ed758a9",
+      "headline": "Vishal Mishra pledges concerts in Assam and Nepal, says every penny will go towards flood relief",
+      "title": "Vishal Mishra pledges concerts in Assam and Nepal, says every penny will go towards flood relief",
+      "summary": "",
+      "url": "https://english.mathrubhumi.com/movies-music/news/vishal-mishra-concerts-assam-nepal-flood-relief-lbmjgzyl",
+      "source": "Mathrubhumi English",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T09:17:53+00:00",
+      "published_at": "2026-08-29T09:17:53+00:00",
+      "effective_at": "2026-08-29T09:17:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "mathrubhumi": {
+          "kind": "independent",
+          "source_ids": [
+            "mathrubhumi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (mathrubhumi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (2.7h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "Singer Vishal Mishra has pledged to hold concerts in Assam and Nepal, with every penny raised going towards flood relief and affected communities.",
+        "Mumbai: Musician Vishal Mishra has announced plans to organise concerts in Assam and Nepal, pledging that every penny raised from the events will go towards flood relief and supporting people affected by the disasters.",
+        "The singer-composer shared the announcement on Instagram, saying he was deeply affected by the devastation caused by the floods.",
+        "An official announcement on the concerts is expected soon.",
+        "“My heart is heavy seeing what's happening So I have made a decision.",
+        "I WILL PERFORM A CONCERT IN #NEPAL AND A CONCERT IN #ASSAM.",
+        "EVERY SINGLE PENNY.",
+        "WILL GO TOWARDS FLOOD RELIEF AND THE PEOPLE AFFECTED.",
+        "I GIVE YOU MY WORD.",
+        "Announcement soon (sic),” Vishal wrote.",
+        "He captioned the post: “Stay strong, will do whatever I can individually, Har Mahadev.”",
+        "The announcement comes as Assam and Nepal continue to grapple with the aftermath of devastating floods."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Singer Vishal Mishra has pledged to hold concerts in Assam and Nepal, with every penny raised going towards flood relief and affected communities.",
+          "Mumbai: Musician Vishal Mishra has announced plans to organise concerts in Assam and Nepal, pledging that every penny raised from the events will go towards flood relief and supporting people affected by the disasters."
+        ],
+        "body": [
+          "The singer-composer shared the announcement on Instagram, saying he was deeply affected by the devastation caused by the floods.",
+          "“My heart is heavy seeing what's happening So I have made a decision.",
+          "I WILL PERFORM A CONCERT IN #NEPAL AND A CONCERT IN #ASSAM.",
+          "EVERY SINGLE PENNY.",
+          "WILL GO TOWARDS FLOOD RELIEF AND THE PEOPLE AFFECTED.",
+          "I GIVE YOU MY WORD.",
+          "Announcement soon (sic),” Vishal wrote."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Assam"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "An official announcement on the concerts is expected soon."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Singer Vishal Mishra has pledged to hold concerts in Assam and Nepal, with every penny raised going towards flood relief and affected communities.",
+            "source": "Mathrubhumi English",
+            "item_id": "e0a02f3df12976739ed758a9:article",
+            "composed": false
+          },
+          {
+            "text": "Mumbai: Musician Vishal Mishra has announced plans to organise concerts in Assam and Nepal, pledging that every penny raised from the events will go towards flood relief and supporting people affected by the disasters.",
+            "source": "Mathrubhumi English",
+            "item_id": "e0a02f3df12976739ed758a9:article",
+            "composed": false
+          }
+        ],
+        "source": "Mathrubhumi English",
+        "corroborating": [],
+        "url": "https://english.mathrubhumi.com/movies-music/news/vishal-mishra-concerts-assam-nepal-flood-relief-lbmjgzyl"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "7fb5ac8c95013ab3d351d177",
       "story_id": "7fb5ac8c95013ab3d351d177",
       "headline": "Odisha flood update: IMD predicts heavy rains across districts till September 4",
@@ -614,7 +514,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (odisha)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -740,7 +640,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -867,7 +767,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (gujarat)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 45, score 50.4 -> HIGH"
@@ -939,113 +839,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7c94e6de9e8cc048d54a68e8",
-      "story_id": "7c94e6de9e8cc048d54a68e8",
-      "headline": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
-      "title": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
-      "summary": "New Delhi, Aug 28 : Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026. Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974. The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany. Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey. To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament. On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world. This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS",
-      "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "sports",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 75.2,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T06:42:49+00:00",
-      "published_at": "2026-08-29T06:42:49+00:00",
-      "effective_at": "2026-08-29T06:42:49+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        },
-        "kalinga-tv": {
-          "kind": "independent",
-          "source_ids": [
-            "kalinga-tv"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "category: sports (importance 0.6, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'world cup' in title weight 42",
-        "event term: 'world cup' in summary weight 25.2",
-        "event term: 'match' in summary weight 4.8",
-        "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
-        "category: sports (importance 0.6) +0",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
-          "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974."
-        ],
-        "body": [
-          "The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany.",
-          "Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey.",
-          "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
-          "On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world.",
-          "This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Amstelveen"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          },
-          {
-            "text": "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
-            "source": "The Assam Tribune",
-            "item_id": "7c94e6de9e8cc048d54a68e8",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "8ed1c860f0c70506506ba954",
       "story_id": "8ed1c860f0c70506506ba954",
       "headline": "Karnataka CM Shivakumar to send Nagendra’s resignation to Governor",
@@ -1096,7 +889,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1185,6 +978,104 @@
         "source": "The Assam Tribune",
         "corroborating": [],
         "url": "https://assamtribune.com/national/karnataka-cm-shivakumar-to-send-nagendras-resignation-to-governor-1616289"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "7c94e6de9e8cc048d54a68e8",
+      "story_id": "7c94e6de9e8cc048d54a68e8",
+      "headline": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
+      "title": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
+      "summary": "New Delhi, Aug 28 : Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026. Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974. The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany. Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey. To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament. On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world. This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS",
+      "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.2,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T06:42:49+00:00",
+      "published_at": "2026-08-29T06:42:49+00:00",
+      "effective_at": "2026-08-29T06:42:49+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "event term: 'world cup' in summary weight 25.2",
+        "event term: 'match' in summary weight 4.8",
+        "scale: national scope",
+        "recency: fresh (5.3h ago) +4",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 44, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
+          "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974."
+        ],
+        "body": [
+          "The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany.",
+          "Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey.",
+          "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
+          "On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world.",
+          "This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Amstelveen"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          },
+          {
+            "text": "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265"
       },
       "group_size": 1,
       "label": "📰 NEWS",
