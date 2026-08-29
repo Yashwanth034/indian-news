@@ -1,35 +1,42 @@
 {
-  "generated_at": "2026-08-29T00:02:17.274551+00:00",
+  "generated_at": "2026-08-29T00:11:30.811506+00:00",
   "count": 5,
   "stories": [
     {
-      "event_id": "5540cb25450c6145765f49a7",
-      "story_id": "5540cb25450c6145765f49a7",
-      "headline": "Infosys says public services CEO unreachable after deadly Nepal flood",
-      "title": "Infosys says public services CEO unreachable after deadly Nepal flood",
-      "summary": "Lax Gopisetty was visiting the region in his personal capacity; Infosys says it is working with relevant agencies to gather information and establish contact",
-      "url": "https://www.business-standard.com/companies/news/infosys-says-public-services-ceo-unreachable-after-deadly-nepal-flood-126082801441_1.html",
-      "source": "Business Standard",
+      "event_id": "d9e95a39f44b2fdab8c7463e",
+      "story_id": "d9e95a39f44b2fdab8c7463e",
+      "headline": "Infosys Public Services CEO Lax Gopisetty Missing After Nepal Floods",
+      "title": "Infosys Public Services CEO Lax Gopisetty Missing After Nepal Floods",
+      "summary": "At least 320 Indians remain missing.",
+      "url": "https://www.ndtv.com/india-news/infosys-public-services-ceo-lax-gopisetty-missing-after-nepal-floods-11972859",
+      "source": "NDTV",
       "primary_source": false,
-      "tier": 3,
-      "category": "business-industry",
+      "tier": 2,
+      "category": "weather-disasters",
       "secondary_categories": [
-        "weather-disasters"
+        "business-industry"
       ],
-      "confidence": "medium",
-      "score": 100.0,
+      "confidence": "high",
+      "score": 72.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-28T18:04:05+00:00",
-      "published_at": "2026-08-28T18:04:05+00:00",
-      "effective_at": "2026-08-28T18:04:05+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-08-28T18:34:09+00:00",
+      "published_at": "2026-08-28T18:34:09+00:00",
+      "effective_at": "2026-08-28T18:34:09+00:00",
+      "independent_source_groups": 2,
       "source_groups": {
-        "business-standard": {
+        "ndtv": {
           "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "ndtv"
+          ],
+          "count": 1
+        },
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
           ],
           "count": 1
         }
@@ -38,18 +45,21 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: significance event 'flood'",
-        "category: business-industry (importance 1, urgent=False)",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
+        "source: tier 2 (ndtv) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: business-industry (importance 1) +1.2",
+        "recency: fresh (5.6h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 64, stack 25.2, score 64 -> URGENT"
+        "dominant event 64, stack 32, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -57,12 +67,10 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Lax Gopisetty was visiting the region in his personal capacity; Infosys says it is working with relevant agencies to gather information and establish contact.",
-          "At least 320 Indians remain missing."
-        ],
-        "body": [
+          "At least 320 Indians remain missing.",
           "Himanta Biswa Sarma on Friday informed that six youths from Assam reportedly missing in Nepal floods."
         ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
@@ -84,13 +92,11 @@
             "composed": false
           }
         ],
-        "source": "Business Standard",
-        "corroborating": [
-          "NDTV"
-        ],
-        "url": "https://www.business-standard.com/companies/news/infosys-says-public-services-ceo-unreachable-after-deadly-nepal-flood-126082801441_1.html"
+        "source": "NDTV",
+        "corroborating": [],
+        "url": "https://www.ndtv.com/india-news/infosys-public-services-ceo-lax-gopisetty-missing-after-nepal-floods-11972859"
       },
-      "group_size": 3,
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -139,7 +145,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (sikkim)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -241,7 +247,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -374,7 +380,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -504,7 +510,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
