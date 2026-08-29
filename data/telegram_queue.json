@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T02:02:16.596762+00:00",
+  "generated_at": "2026-08-29T02:11:35.304921+00:00",
   "count": 10,
   "stories": [
     {
@@ -41,7 +41,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -172,7 +172,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -280,7 +280,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (sikkim)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -345,7 +345,7 @@
         "transport-infrastructure",
         "agriculture-rural"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 49.2,
       "priority_level": "HIGH",
@@ -353,12 +353,19 @@
       "event_time": "2026-08-29T00:40:55+00:00",
       "published_at": "2026-08-29T00:40:55+00:00",
       "effective_at": "2026-08-29T00:40:55+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
             "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "business-standard": {
+          "kind": "independent",
+          "source_ids": [
+            "business-standard"
           ],
           "count": 1
         }
@@ -368,6 +375,7 @@
       "reasons": [
         "clickbait: 'wait for it' in summary (penalty 12.5, overridden)",
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'avalanche'",
@@ -384,12 +392,13 @@
         "major override dropped penalties: clickbait",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -579,7 +588,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: fresh (7.3h ago) +4",
+        "recency: fresh (7.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -699,7 +708,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -799,7 +808,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'sanctions' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -910,7 +919,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1085,7 +1094,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1215,7 +1224,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 24, score 38.4 -> HIGH"
