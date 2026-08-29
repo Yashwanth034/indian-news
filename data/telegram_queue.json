@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-08-29T23:32:03.083109+00:00",
-  "count": 5,
+  "generated_at": "2026-08-29T23:41:45.517453+00:00",
+  "count": 4,
   "stories": [
     {
-      "event_id": "434d6c63ea9a44cd5bceeb5e",
-      "story_id": "434d6c63ea9a44cd5bceeb5e",
-      "headline": "Flood scare in MP: IAF helicopters, SDRF teams deployed as Mandakini river overflows",
-      "title": "Flood scare in MP: IAF helicopters, SDRF teams deployed as Mandakini river overflows",
-      "summary": "Indian Air Force helicopters were deployed to rescue stranded people in Chitrakoot. Torrential rains caused the Mandakini river to overflow, flooding large parts of the town. Three State Disaster Response Force teams were also engaged in shifting people to safer places. A dam breach in Uttar Pradesh worsened the situation, while relief shelters were prepared. The water level in the Mandakini had started receding Saturday night after rainfall paused.",
-      "url": "https://timesofindia.indiatimes.com/city/bhopal/flood-scare-in-mp-iaf-helicopters-sdrf-teams-deployed-as-mandakini-river-overflows/articleshow/133616196.cms",
+      "event_id": "aed9527a25f189c955f33228",
+      "story_id": "aed9527a25f189c955f33228",
+      "headline": "Nepal floods: 4 at hydropower tunnel among 108 Indians rescued; toll 682",
+      "title": "Nepal floods: 4 at hydropower tunnel among 108 Indians rescued; toll 682",
+      "summary": "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing. Rescuers searched mud-filled valleys and tunnels three days after the catastrophic flood occurred. Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border. Indian nationals unaccounted for in Nepal were revised down to 287. India sent relief and worked to bring back citizens stranded on the Chinese side.",
+      "url": "https://timesofindia.indiatimes.com/world/south-asia/4-at-hydel-unit-among-108-indians-rescued-toll-682/articleshow/133619521.cms",
       "source": "Times of India",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [
+        "transport-infrastructure",
         "defence-security"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-29T17:40:52+00:00",
-      "published_at": "2026-08-29T17:40:52+00:00",
-      "effective_at": "2026-08-29T17:40:52+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-08-29T13:40:59+00:00",
+      "published_at": "2026-08-29T20:51:30+00:00",
+      "effective_at": "2026-08-29T20:51:30+00:00",
+      "independent_source_groups": 2,
       "source_groups": {
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        },
         "indiatimes": {
           "kind": "independent",
           "source_ids": [
@@ -38,59 +46,74 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'Flood'",
-        "major: significance event 'Disaster'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (times-of-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.9h ago) +4",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (10.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 20, score 64 -> URGENT"
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "uttar pradesh",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Indian Air Force helicopters were deployed to rescue stranded people in Chitrakoot.",
-          "Torrential rains caused the Mandakini river to overflow, flooding large parts of the town."
+          "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing.",
+          "Rescuers searched mud-filled valleys and tunnels three days after the catastrophic flood occurred."
         ],
         "body": [
-          "Three State Disaster Response Force teams were also engaged in shifting people to safer places.",
-          "A dam breach in Uttar Pradesh worsened the situation, while relief shelters were prepared.",
-          "The water level in the Mandakini had started receding Saturday night after rainfall paused."
+          "Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border.",
+          "Indian nationals unaccounted for in Nepal were revised down to 287.",
+          "India sent relief and worked to bring back citizens stranded on the Chinese side."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Chitrakoot"
+            "text": "Gyirong"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "2,426 people"
           }
         ],
         "sentences": [
           {
-            "text": "Indian Air Force helicopters were deployed to rescue stranded people in Chitrakoot.",
+            "text": "Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border.",
             "source": "Times of India",
-            "item_id": "434d6c63ea9a44cd5bceeb5e",
+            "item_id": "aed9527a25f189c955f33228",
             "composed": false
           },
           {
-            "text": "The water level in the Mandakini had started receding Saturday night after rainfall paused.",
+            "text": "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing.",
             "source": "Times of India",
-            "item_id": "434d6c63ea9a44cd5bceeb5e",
+            "item_id": "aed9527a25f189c955f33228",
+            "composed": false
+          },
+          {
+            "text": "Indian nationals unaccounted for in Nepal were revised down to 287.",
+            "source": "Times of India",
+            "item_id": "aed9527a25f189c955f33228",
             "composed": false
           }
         ],
         "source": "Times of India",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/city/bhopal/flood-scare-in-mp-iaf-helicopters-sdrf-teams-deployed-as-mandakini-river-overflows/articleshow/133616196.cms"
+        "url": "https://timesofindia.indiatimes.com/world/south-asia/4-at-hydel-unit-among-108-indians-rescued-toll-682/articleshow/133619521.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -140,7 +163,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -281,7 +304,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 43, score 43 -> HIGH"
@@ -419,7 +442,7 @@
         "event term: 'tariffs' in summary weight 24",
         "event term: 'electricity tariff' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 40.6, score 40.6 -> HIGH"
@@ -549,110 +572,6 @@
         "source": "Rising Kashmir",
         "corroborating": [],
         "url": "https://risingkashmir.com/opinion/power-tariff-hike-omar-government-adds-to-the-burden-of-the-people-of-jammu-kashmir-12452478"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "1cd94b4feef49e69f7dc5163",
-      "story_id": "1cd94b4feef49e69f7dc5163",
-      "headline": "4 at hydropower tunnel among 108 Indians rescued; toll 682",
-      "title": "4 at hydropower tunnel among 108 Indians rescued; toll 682",
-      "summary": "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing. Rescuers searched mud-filled valleys and tunnels three days after the catastrophic flood occurred. Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border. Indian nationals unaccounted for in Nepal were revised down to 287. India sent relief and worked to bring back citizens stranded on the Chinese side.",
-      "url": "https://timesofindia.indiatimes.com/world/south-asia/4-at-hydel-unit-among-108-indians-rescued-toll-682/articleshow/133619521.cms",
-      "source": "Times of India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [
-        "weather-disasters",
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 38.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T20:51:30+00:00",
-      "published_at": "2026-08-29T20:51:30+00:00",
-      "effective_at": "2026-08-29T20:51:30+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "times-of-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'disaster'",
-        "major: significance event 'flood'",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national",
-        "dominant event 38.4, stack 25.2, score 38.4 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing.",
-          "Rescuers searched mud-filled valleys and tunnels three days after the catastrophic flood occurred."
-        ],
-        "body": [
-          "Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border.",
-          "Indian nationals unaccounted for in Nepal were revised down to 287.",
-          "India sent relief and worked to bring back citizens stranded on the Chinese side."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Gyirong"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "2,426 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Chinese authorities reported seven deaths and 554 missing at Gyirong port across the border.",
-            "source": "Times of India",
-            "item_id": "1cd94b4feef49e69f7dc5163",
-            "composed": false
-          },
-          {
-            "text": "Nepal's Bhote Koshi-Trishuli disaster death toll reached 675, with 2,426 people still missing.",
-            "source": "Times of India",
-            "item_id": "1cd94b4feef49e69f7dc5163",
-            "composed": false
-          },
-          {
-            "text": "Indian nationals unaccounted for in Nepal were revised down to 287.",
-            "source": "Times of India",
-            "item_id": "1cd94b4feef49e69f7dc5163",
-            "composed": false
-          }
-        ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/world/south-asia/4-at-hydel-unit-among-108-indians-rescued-toll-682/articleshow/133619521.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
