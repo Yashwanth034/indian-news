@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T06:41:39.134125+00:00",
+  "generated_at": "2026-08-29T06:51:39.600243+00:00",
   "count": 16,
   "stories": [
     {
@@ -41,7 +41,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "geo: national",
         "dominant event 82, stack 24, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -174,7 +174,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'floods' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 36, score 64 -> URGENT"
@@ -308,7 +308,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -372,33 +372,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "35e55906229a4c0cf3191839",
-      "story_id": "35e55906229a4c0cf3191839",
-      "headline": "Assam: Stench of post-flood garbage plagues Nazira; residents fear disease outbreak",
-      "title": "Assam: Stench of post-flood garbage plagues Nazira; residents fear disease outbreak",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-stench-of-post-flood-garbage-plagues-nazira-residents-fear-disease-outbreak",
-      "source": "The Sentinel (Assam)",
+      "event_id": "07ac3e6d5f6e7407b247a2a4",
+      "story_id": "07ac3e6d5f6e7407b247a2a4",
+      "headline": "Nepal’s flood damage may cost up to a tenth of economy to rebuild",
+      "title": "Nepal’s flood damage may cost up to a tenth of economy to rebuild",
+      "summary": "“The ‌initial ⁠estimate is between $4-$5 billion, we will require much less than what we needed for the 2015 earthquake,” ‌Finance Minister said",
+      "url": "https://www.thehindubusinessline.com/news/world/nepal-needs-at-least-4-billion-for-rebuilding-finance-minister-says/article71403531.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
       "tier": 3,
-      "category": "health",
+      "category": "weather-disasters",
       "secondary_categories": [
-        "weather-disasters"
+        "economy-finance"
       ],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 72.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-29T05:58:39+00:00",
-      "published_at": "2026-08-29T05:58:39+00:00",
-      "effective_at": "2026-08-29T05:58:39.599000+00:00",
+      "event_time": "2026-08-29T06:42:38+00:00",
+      "published_at": "2026-08-29T06:42:38+00:00",
+      "effective_at": "2026-08-29T06:42:38+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "businessline"
           ],
           "count": 1
         }
@@ -407,86 +407,91 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
         "major: significance event 'flood'",
-        "category: health (importance 1.1, urgent=False)",
+        "major: significance event 'earthquake'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
-        "event term: 'disease outbreak' in title weight 46",
-        "scale: state scope (assam)",
-        "recency: breaking (0.7h ago) +8",
-        "category: health (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 43.4, score 64 -> URGENT"
+        "event term: 'earthquake' in summary weight 49.2",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "assam",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "NAZIRA: More than a month after the devastating flood of July 19 wreaked havoc on normal life in Nazira, large quantities of post-flood garbage and debris remain uncleared in several parts of the town and surrounding areas.",
-        "The accumulation of waste has created a foul-smelling and unhygienic environment, leaving residents worried about the possible spread of diseases.",
-        "After the floodwaters receded, decomposed materials, remains of dead animals, mud and other waste were left behind at various locations.",
-        "The stench emanating from accumulated garbage has made life difficult for residents and pedestrians, many of whom are reportedly forced to cover their noses and mouths while passing through affected areas.",
-        "Residents have particularly complained about garbage piling up in residential areas, along roadsides, drains, and other places severely affected by the flood.",
-        "Near the Bartal railway crossing on the outskirts of Nazira town, garbage lying beside the main road for a prolonged period has reportedly caused severe inconvenience to people living in the area because of the foul odour.",
-        "Residents fear that rainfall could further worsen the situation.",
-        "They apprehend that rainwater may intensify the stench and increase the breeding of flies, mosquitoes, and other disease-carrying insects.",
-        "Another major concern has been raised along the Dhodar Ali road near the Dikhow bridge in Nazira town.",
-        "The area has reportedly turned into a dumping ground for flood-damaged household belongings, including mattresses, quilts, clothes, furniture, and other materials discarded by residents after the devastating Dikhow flood.",
-        "The foul smell from the accumulated waste has added to the suffering of people in the locality.",
-        "Although a special post-flood cleanliness and sanitation drive is considered necessary, sections of the public have expressed dissatisfaction over what they perceive as inadequate administrative action."
+        "Nepal may need $4 billion to $5 billion to rebuild after this week’s devastating floods, Finance Minister Swarnim Wagle told Reuters on Saturday, a bill equal to nearly a tenth of the economy.",
+        "“The initial estimate is between $4-$5 billion.",
+        "Just an estimate,” Wagle said.",
+        "“We will require much less than what we needed for the 2015 earthquake.",
+        "Loss and damage is being assessed.”",
+        "A glacier collapse on Wednesday unleashed a huge torrent of rock, ice, mud and debris through Himalayan mountain river systems, killing more than 600 people in Nepal and China’s Tibet, with more than 2,000 still unaccounted for.",
+        "The flood levelled towns in the border area, sweeping away bridges and roads and damaging major hydropower stations.",
+        "Wagle did not elaborate on why the reconstruction bill was expected to be less than the $9 billion spent after the 2015 magnitude-7.8 quake, Nepal’s worst recorded disaster.",
+        "It killed nearly 9,000 people, destroyed more than half a million homes and caused losses estimated at around a third of Nepal’s economy.",
+        "Wednesday’s floods will nevertheless be a major blow to an economy reliant on remittances, tourism and hydropower, damaging power projects that account for more than 12% of national generating capacity."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "NAZIRA: More than a month after the devastating flood of July 19 wreaked havoc on normal life in Nazira, large quantities of post-flood garbage and debris remain uncleared in several parts of the town and surrounding areas.",
-          "The accumulation of waste has created a foul-smelling and unhygienic environment, leaving residents worried about the possible spread of diseases."
+          "Nepal may need $4 billion to $5 billion to rebuild after this week’s devastating floods, Finance Minister Swarnim Wagle told Reuters on Saturday, a bill equal to nearly a tenth of the economy.",
+          "“The initial estimate is between $4-$5 billion."
         ],
         "body": [
-          "After the floodwaters receded, decomposed materials, remains of dead animals, mud and other waste were left behind at various locations.",
-          "The stench emanating from accumulated garbage has made life difficult for residents and pedestrians, many of whom are reportedly forced to cover their noses and mouths while passing through affected areas.",
-          "Residents have particularly complained about garbage piling up in residential areas, along roadsides, drains, and other places severely affected by the flood.",
-          "Near the Bartal railway crossing on the outskirts of Nazira town, garbage lying beside the main road for a prolonged period has reportedly caused severe inconvenience to people living in the area because of the foul odour.",
-          "Residents fear that rainfall could further worsen the situation.",
-          "They apprehend that rainwater may intensify the stench and increase the breeding of flies, mosquitoes, and other disease-carrying insects.",
-          "Another major concern has been raised along the Dhodar Ali road near the Dikhow bridge in Nazira town.",
-          "The area has reportedly turned into a dumping ground for flood-damaged household belongings, including mattresses, quilts, clothes, furniture, and other materials discarded by residents after the devastating Dikhow flood."
+          "Just an estimate,” Wagle said.",
+          "“We will require much less than what we needed for the 2015 earthquake.",
+          "Loss and damage is being assessed.” A glacier collapse on Wednesday unleashed a huge torrent of rock, ice, mud and debris through Himalayan mountain river systems, killing more than 600 people in Nepal and China’s Tibet, with more than 2,000 still unaccounted for.",
+          "The flood levelled towns in the border area, sweeping away bridges and roads and damaging major hydropower stations.",
+          "It killed nearly 9,000 people, destroyed more than half a million homes and caused losses estimated at around a third of Nepal’s economy.",
+          "Wednesday’s floods will nevertheless be a major blow to an economy reliant on remittances, tourism and hydropower, damaging power projects that account for more than 12% of national generating capacity.",
+          "“The ‌initial ⁠estimate is between $4-$5 billion, we will require much less than what we needed for the 2015 earthquake,” ‌Finance Minister said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nazira"
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 600 people"
           }
         ],
         "sentences": [
           {
-            "text": "NAZIRA: More than a month after the devastating flood of July 19 wreaked havoc on normal life in Nazira, large quantities of post-flood garbage and debris remain uncleared in several parts of the town and surrounding areas.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "35e55906229a4c0cf3191839:article",
+            "text": "It killed nearly 9,000 people, destroyed more than half a million homes and caused losses estimated at around a third of Nepal’s economy.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "07ac3e6d5f6e7407b247a2a4:article",
             "composed": false
           },
           {
-            "text": "Another major concern has been raised along the Dhodar Ali road near the Dikhow bridge in Nazira town.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "35e55906229a4c0cf3191839:article",
+            "text": "Nepal may need $4 billion to $5 billion to rebuild after this week’s devastating floods, Finance Minister Swarnim Wagle told Reuters on Saturday, a bill equal to nearly a tenth of the economy.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "07ac3e6d5f6e7407b247a2a4:article",
             "composed": false
           },
           {
-            "text": "They apprehend that rainwater may intensify the stench and increase the breeding of flies, mosquitoes, and other disease-carrying insects.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "35e55906229a4c0cf3191839:article",
+            "text": "Wednesday’s floods will nevertheless be a major blow to an economy reliant on remittances, tourism and hydropower, damaging power projects that account for more than 12% of national generating capacity.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "07ac3e6d5f6e7407b247a2a4:article",
             "composed": false
           }
         ],
-        "source": "The Sentinel (Assam)",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-stench-of-post-flood-garbage-plagues-nazira-residents-fear-disease-outbreak"
+        "url": "https://www.thehindubusinessline.com/news/world/nepal-needs-at-least-4-billion-for-rebuilding-finance-minister-says/article71403531.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -539,7 +544,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -664,7 +669,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -755,7 +760,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -872,7 +877,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -993,7 +998,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1093,6 +1098,104 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7c94e6de9e8cc048d54a68e8",
+      "story_id": "7c94e6de9e8cc048d54a68e8",
+      "headline": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
+      "title": "Hockey India announces Rs 50 lakh reward for historic World Cup feat",
+      "summary": "New Delhi, Aug 28 : Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026. Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974. The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany. Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey. To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament. On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world. This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS",
+      "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T06:42:49+00:00",
+      "published_at": "2026-08-29T06:42:49+00:00",
+      "effective_at": "2026-08-29T06:42:49+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "event term: 'world cup' in summary weight 25.2",
+        "event term: 'match' in summary weight 4.8",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
+          "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974."
+        ],
+        "body": [
+          "The team went through the campaign with just one defeat, holding higher-ranked sides China, England and Australia to draws and recording a 6-1 win over South Africa, before completing their run under chief Coach Sjoerd Marijne with the win over Germany.",
+          "Congratulating the team on the achievement, Hockey India president Padma Dr Dilip Tirkey said, \"This is a historic result for Indian women's hockey.",
+          "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
+          "On behalf of Hockey India, I am pleased to announce a cash award of Rs 50 lakh for the team as a token of our appreciation, and I hope this inspires the players to keep raising the bar.\" Reflecting the president's sentiments, Hockey India secretary general Bhola Nath Singh said, \"Salima and her team have done the country proud with a campaign that saw them compete with, and hold their own against, some of the best sides in the world.",
+          "This announcement is our way of recognising their commitment and hard work, and we hope it further motivates the team as they turn their focus towards the Asian Games.\" --IANS."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Amstelveen"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Salima Tete's side sealed the milestone with a 3-1 win over World No. 5 Germany in the 5th/6th place classification match in Amstelveen on Thursday, marking India's best result at the tournament since they finished fourth at the inaugural edition in 1974.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Aug 28: Hockey India on Friday announced a cash award of Rs 50 lakh for the Indian Women's Hockey Team in recognition of their historic fifth-place finish at the FIH Hockey Women's World Cup Belgium and Netherlands 2026.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          },
+          {
+            "text": "To finish fifth at a World Cup after 52 years is a testament to the hard work, resilience and fighting spirit this team has shown throughout the tournament.",
+            "source": "The Assam Tribune",
+            "item_id": "7c94e6de9e8cc048d54a68e8",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/sports/hockey-india-announces-rs-50-lakh-reward-for-historic-world-cup-feat-1616265"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "65f2bb1dadc5272b8a0f7d46",
       "story_id": "65f2bb1dadc5272b8a0f7d46",
       "headline": "RBI rate hike risk rises: Bandhan AMC’s Suyash Choudhary dials back duration in bond portfolios",
@@ -1138,7 +1241,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1267,7 +1370,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1302,186 +1405,6 @@
         "url": "https://telanganatoday.com/india-finishes-eighth-after-belgium-win-shootout-at-hockey-world-cup-2026"
       },
       "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "153a927f47edaf5c6c41de3b",
-      "story_id": "153a927f47edaf5c6c41de3b",
-      "headline": "Lawyers must re-enter political mainstream",
-      "title": "Lawyers must re-enter political mainstream",
-      "summary": "India’s democratic journey has always been closely intertwined with the legal profession. From the struggle for independence to the making of the Constitution and the establishment of parliamentary democracy, lawyers played an extraordinary role in shaping the nation. The freedom movement was not merely a political struggle; it was also a struggle for civil liberties, equality, dignity and the rule of law. Mahatma Gandhi, Pandit Jawaharlal Nehru, Sardar Vallabhbhai Patel, Dr. Rajendra Prasad and countless other lawyers stepped beyond their courtrooms to stand with the people and lead the country towards freedom. The composition of the first Parliament of independent India reflected this remarkable tradition. Around 70 lawyers were members of the first Lok Sabha. Their presence was not accidental. They understood that political freedom would have little meaning unless it was translated into constitutional governance, social justice, economic opportunity and protection of individual rights. Their legal training enabled them to participate meaningfully in framing laws, scrutinising executive action and building the institutional architecture of the Republic. It is worth asking why this tradition has weakened over the years. Lawyers continue to occupy a position of considerable respect in courts and public discourse, and many distinguished members of the profession continue to serve in Parliament and State legislatures. Yet, in relative terms, the participation of lawyers in electoral politics and public life has declined. This should concern everyone committed to the health of Indian democracy. When lawyers withdraw from public life, politics loses an important source of constitutional knowledge, institutional experience and principled accountability. The courtroom and the political arena are different, but they are not disconnected. A lawyer appearing before a constitutional court may argue about fundamental rights, federalism, separation of powers or administrative accountability. A legislator must confront these very principles while making laws and scrutinising government. Lawyers understand how an apparently simple administrative decision can affect the liberty, livelihood, property or dignity of an ordinary citizen. This experience can make an important contribution to public policy. Lawyers are also professionally trained to question power. Legal practice requires examining facts, testing evidence, identifying contradictions and demanding reasons for the exercise of authority. In a democracy, these qualities are indispensable. Political power must remain accountable; legislation must be carefully scrutinised; executive authority must remain within constitutional limits; and institutions must function according to law. Lawyers are therefore naturally equipped to ask a fundamental democratic question: Is this exercise of power lawful, fair and constitutionally justified? At the same time, legal training alone does not make someone a good politician or administrator. Politics requires empathy, patience, social understanding, organisational ability, communication, political judgment and moral courage. A lawyer entering politics must understand the lives of people beyond the courtroom—the farmer facing agrarian distress, the worker seeking employment, the student struggling for opportunity, the displaced family seeking rehabilitation and the young person searching for a secure future. That is precisely why more lawyers should enter public life. Their purpose should not be to create a separate class of legal politicians, but to bring constitutional consciousness into the political process. They can help bridge the gap between constitutional promises and everyday realities. They can explain complex questions of law and policy in language ordinary citizens understand, challenge misinformation and insist that political programmes remain consistent with constitutional values. Justice, after all, is not confined to courtrooms. Poverty, unemployment, discrimination, displacement, custodial violence, unequal access to education and healthcare, environmental degradation and denial of basic services are also questions of justice. Courts can provide remedies in individual cases, but many structural problems require legislative and political solutions. Laws have to be enacted, budgets allocated, institutions strengthened and policies implemented. Lawyers who understand both the law and the lived experience of citizens can therefore make a significant contribution to translating constitutional ideals into effective governance. This responsibility becomes even more important as India’s young population becomes increasingly politically conscious. Gen Z is not merely an audience of politics; it is increasingly becoming a participant in it. Young Indians are entering public debate with new expectations of transparency, accountability, employment, quality education and dignity. They are also confronting questions relating to climate change, technology, artificial intelligence, privacy, data protection, surveillance and freedom of expression in the digital age. The legal fraternity must engage with this generation—not merely as teachers, but as listeners and partners. Gen Z is bringing new forms of political participation and communication. Lawyers must understand these changes and help ensure that technological and social transformation takes place within the framework of constitutional rights and human dignity. Artificial intelligence and digital technologies, for example, raise profound questions about privacy, employment, intellectual property, discrimination, surveillance and accountability. Social media has transformed political communication while creating new challenges involving misinformation and freedom of expression. These are not distant legal questions. They will directly influence the future of Indian democracy. Lawyers with a sound understanding of constitutional principles have an important role in ensuring that technological progress does not come at the cost of fundamental freedoms. Lawyers can also bring greater seriousness and evidence-based reasoning to political debate. Their professional experience encourages them to distinguish fact from allegation and argument from evidence. But legal expertise must never become a means of hiding moral responsibility behind technicalities. Constitutionalism is not merely about procedures and institutional boundaries. At its heart are human dignity, liberty, equality and justice. Political parties and the Bar also have responsibilities. Political parties should encourage lawyers of integrity, competence and public commitment to enter electoral politics and legislative institutions. Opportunities should be created for younger members of the Bar to participate in policy discussions, legislative research and public affairs. Bar associations can promote constitutional literacy, public-policy debates, legal aid and civic engagement. Entering public life does not necessarily mean contesting an election. Lawyers can contribute as legislators, political organisers, policy advisers, researchers, local representatives, civil-society leaders and educators. What matters is a willingness to accept public responsibility and use professional knowledge in the larger service of society. The legal profession has historically understood that law is ultimately about people. The courtroom remains an essential institution of justice, but it cannot be the only arena in which lawyers serve the nation. Democracy also needs committed citizens in legislatures, political organisations, public institutions and communities. I therefore urge more and more lawyers to enter the polity of India. The country needs their constitutional understanding, their ability to question authority, their commitment to institutions and their experience of defending the rights of citizens. At a time when democratic institutions face new challenges and a new generation is seeking a greater voice in India’s future, the legal fraternity cannot remain a silent spectator. The lawyers who participated in India’s freedom movement understood that their professional knowledge carried a national responsibility. Those who helped build the Republic understood that independence had to be secured through constitutional democracy. The challenge before our generation is to carry that legacy forward. India’s democracy needs lawyers not only in courtrooms, but also in Parliament, State legislatures, political organisations and public life. The time has come for the legal fraternity to reclaim its historic role in shaping the political, constitutional and democratic future of the nation. Author is a political analyst and Senior Advocate in Supreme Court of India.",
-      "url": "https://www.greaterkashmir.com/opinion/lawyers-must-re-enter-political-mainstream-12449189",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "technology-digital",
-        "national-politics",
-        "energy-environment",
-        "education",
-        "jobs-employment",
-        "transport-infrastructure",
-        "health",
-        "economy-finance"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-29T00:47:59+00:00",
-      "published_at": "2026-08-29T00:47:59+00:00",
-      "effective_at": "2026-08-29T00:47:59+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'election'",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'judgment' in summary weight 10.8",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India’s democratic journey has always been closely intertwined with the legal profession.",
-          "From the struggle for independence to the making of the Constitution and the establishment of parliamentary democracy, lawyers played an extraordinary role in shaping the nation."
-        ],
-        "body": [
-          "The freedom movement was not merely a political struggle; it was also a struggle for civil liberties, equality, dignity and the rule of law.",
-          "Mahatma Gandhi, Pandit Jawaharlal Nehru, Sardar Vallabhbhai Patel, Dr. Rajendra Prasad and countless other lawyers stepped beyond their courtrooms to stand with the people and lead the country towards freedom.",
-          "The composition of the first Parliament of independent India reflected this remarkable tradition.",
-          "Around 70 lawyers were members of the first Lok Sabha.",
-          "Their presence was not accidental.",
-          "They understood that political freedom would have little meaning unless it was translated into constitutional governance, social justice, economic opportunity and protection of individual rights.",
-          "Their legal training enabled them to participate meaningfully in framing laws, scrutinising executive action and building the institutional architecture of the Republic.",
-          "It is worth asking why this tradition has weakened over the years.",
-          "Lawyers continue to occupy a position of considerable respect in courts and public discourse, and many distinguished members of the profession continue to serve in Parliament and State legislatures.",
-          "Yet, in relative terms, the participation of lawyers in electoral politics and public life has declined.",
-          "This should concern everyone committed to the health of Indian democracy.",
-          "When lawyers withdraw from public life, politics loses an important source of constitutional knowledge, institutional experience and principled accountability.",
-          "The courtroom and the political arena are different, but they are not disconnected.",
-          "A lawyer appearing before a constitutional court may argue about fundamental rights, federalism, separation of powers or administrative accountability.",
-          "A legislator must confront these very principles while making laws and scrutinising government.",
-          "Lawyers understand how an apparently simple administrative decision can affect the liberty, livelihood, property or dignity of an ordinary citizen.",
-          "This experience can make an important contribution to public policy.",
-          "Lawyers are also professionally trained to question power.",
-          "Legal practice requires examining facts, testing evidence, identifying contradictions and demanding reasons for the exercise of authority.",
-          "In a democracy, these qualities are indispensable.",
-          "Political power must remain accountable; legislation must be carefully scrutinised; executive authority must remain within constitutional limits; and institutions must function according to law.",
-          "Lawyers are therefore naturally equipped to ask a fundamental democratic question: Is this exercise of power lawful, fair and constitutionally justified?",
-          "At the same time, legal training alone does not make someone a good politician or administrator.",
-          "Politics requires empathy, patience, social understanding, organisational ability, communication, political judgment and moral courage.",
-          "A lawyer entering politics must understand the lives of people beyond the courtroom—the farmer facing agrarian distress, the worker seeking employment, the student struggling for opportunity, the displaced family seeking rehabilitation and the young person searching for a secure future.",
-          "That is precisely why more lawyers should enter public life.",
-          "Their purpose should not be to create a separate class of legal politicians, but to bring constitutional consciousness into the political process.",
-          "They can help bridge the gap between constitutional promises and everyday realities.",
-          "They can explain complex questions of law and policy in language ordinary citizens understand, challenge misinformation and insist that political programmes remain consistent with constitutional values.",
-          "Justice, after all, is not confined to courtrooms.",
-          "Poverty, unemployment, discrimination, displacement, custodial violence, unequal access to education and healthcare, environmental degradation and denial of basic services are also questions of justice.",
-          "Courts can provide remedies in individual cases, but many structural problems require legislative and political solutions.",
-          "Laws have to be enacted, budgets allocated, institutions strengthened and policies implemented.",
-          "Lawyers who understand both the law and the lived experience of citizens can therefore make a significant contribution to translating constitutional ideals into effective governance.",
-          "This responsibility becomes even more important as India’s young population becomes increasingly politically conscious.",
-          "Gen Z is not merely an audience of politics; it is increasingly becoming a participant in it.",
-          "Young Indians are entering public debate with new expectations of transparency, accountability, employment, quality education and dignity.",
-          "They are also confronting questions relating to climate change, technology, artificial intelligence, privacy, data protection, surveillance and freedom of expression in the digital age.",
-          "The legal fraternity must engage with this generation—not merely as teachers, but as listeners and partners.",
-          "Gen Z is bringing new forms of political participation and communication.",
-          "Lawyers must understand these changes and help ensure that technological and social transformation takes place within the framework of constitutional rights and human dignity.",
-          "Artificial intelligence and digital technologies, for example, raise profound questions about privacy, employment, intellectual property, discrimination, surveillance and accountability.",
-          "Social media has transformed political communication while creating new challenges involving misinformation and freedom of expression.",
-          "These are not distant legal questions.",
-          "They will directly influence the future of Indian democracy.",
-          "Lawyers with a sound understanding of constitutional principles have an important role in ensuring that technological progress does not come at the cost of fundamental freedoms.",
-          "Lawyers can also bring greater seriousness and evidence-based reasoning to political debate.",
-          "Their professional experience encourages them to distinguish fact from allegation and argument from evidence.",
-          "But legal expertise must never become a means of hiding moral responsibility behind technicalities.",
-          "Constitutionalism is not merely about procedures and institutional boundaries.",
-          "At its heart are human dignity, liberty, equality and justice.",
-          "Political parties and the Bar also have responsibilities.",
-          "Political parties should encourage lawyers of integrity, competence and public commitment to enter electoral politics and legislative institutions.",
-          "Opportunities should be created for younger members of the Bar to participate in policy discussions, legislative research and public affairs.",
-          "Bar associations can promote constitutional literacy, public-policy debates, legal aid and civic engagement.",
-          "Entering public life does not necessarily mean contesting an election.",
-          "Lawyers can contribute as legislators, political organisers, policy advisers, researchers, local representatives, civil-society leaders and educators.",
-          "What matters is a willingness to accept public responsibility and use professional knowledge in the larger service of society.",
-          "The legal profession has historically understood that law is ultimately about people.",
-          "The courtroom remains an essential institution of justice, but it cannot be the only arena in which lawyers serve the nation.",
-          "Democracy also needs committed citizens in legislatures, political organisations, public institutions and communities.",
-          "I therefore urge more and more lawyers to enter the polity of India.",
-          "The country needs their constitutional understanding, their ability to question authority, their commitment to institutions and their experience of defending the rights of citizens.",
-          "At a time when democratic institutions face new challenges and a new generation is seeking a greater voice in India’s future, the legal fraternity cannot remain a silent spectator.",
-          "The lawyers who participated in India’s freedom movement understood that their professional knowledge carried a national responsibility.",
-          "Those who helped build the Republic understood that independence had to be secured through constitutional democracy.",
-          "The challenge before our generation is to carry that legacy forward.",
-          "India’s democracy needs lawyers not only in courtrooms, but also in Parliament, State legislatures, political organisations and public life.",
-          "The time has come for the legal fraternity to reclaim its historic role in shaping the political, constitutional and democratic future of the nation.",
-          "Author is a political analyst and Senior Advocate in Supreme Court of India."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Parliament"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Lawyers continue to occupy a position of considerable respect in courts and public discourse, and many distinguished members of the profession continue to serve in Parliament and State legislatures.",
-            "source": "Greater Kashmir",
-            "item_id": "153a927f47edaf5c6c41de3b",
-            "composed": false
-          },
-          {
-            "text": "India’s democracy needs lawyers not only in courtrooms, but also in Parliament, State legislatures, political organisations and public life.",
-            "source": "Greater Kashmir",
-            "item_id": "153a927f47edaf5c6c41de3b",
-            "composed": false
-          },
-          {
-            "text": "Author is a political analyst and Senior Advocate in Supreme Court of India.",
-            "source": "Greater Kashmir",
-            "item_id": "153a927f47edaf5c6c41de3b",
-            "composed": false
-          },
-          {
-            "text": "At a time when democratic institutions face new challenges and a new generation is seeking a greater voice in India’s future, the legal fraternity cannot remain a silent spectator.",
-            "source": "Greater Kashmir",
-            "item_id": "153a927f47edaf5c6c41de3b",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/opinion/lawyers-must-re-enter-political-mainstream-12449189"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1527,7 +1450,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1655,7 +1578,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 43, score 43 -> HIGH"
@@ -1779,7 +1702,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'sanctions' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 42.8, score 42.8 -> HIGH"
@@ -1879,7 +1802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sebi bars' in title weight 42",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 27.6, score 42 -> HIGH"
