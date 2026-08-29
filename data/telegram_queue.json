@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T15:41:40.668723+00:00",
-  "count": 9,
+  "generated_at": "2026-08-29T15:51:43.336061+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "08921498b6ed45c3c73dbdc3",
@@ -59,7 +59,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -159,7 +159,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -197,19 +197,9 @@
             "text": "Nepal"
           },
           {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          },
-          {
             "icon": "👥",
             "label": "Impact",
             "text": "2,426 people"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "India is closely monitoring Nepal flood situation and has repeatedly dispatched special flights carrying medical aid and essential supplies to Nepal and continues to send relief material."
           }
         ],
         "sentences": [
@@ -240,14 +230,140 @@
         ],
         "source": "Rising Kashmir",
         "corroborating": [
-          "Deccan Chronicle",
           "Mint - Companies"
         ],
         "url": "https://risingkashmir.com/world/indiaassistanceflashfloodnepal-12451972"
       },
-      "group_size": 3,
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "f6a7e1355fd0f8d560df857d",
+      "story_id": "f6a7e1355fd0f8d560df857d",
+      "headline": "Nepal seeks to import power from India after flood devastation, asks for early approvals",
+      "title": "Nepal seeks to import power from India after flood devastation, asks for early approvals",
+      "summary": "While the Himalayan country usually imports electricity from India during the winter months, it has now asked that the required approvals for sending power be processed in September itself",
+      "url": "https://www.thehindu.com/business/nepal-seeks-to-import-power-from-india-after-flood-devastation-asks-for-early-approvals/article71405229.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "weather-disasters",
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 77.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T15:48:30+00:00",
+      "published_at": "2026-08-29T15:48:30+00:00",
+      "effective_at": "2026-08-29T15:48:30+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'flood'",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 64, stack 25.2, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "In the wake of the devastating flash flood that severely impacted Nepal’s power infrastructure, Kathmandu has asked India to give the requisite approvals for the transmission of electricity to Nepal earlier than usual, senior officials in the Union Power Ministry said on Saturday (August 29, 2026).",
+        "“Nepal has asked that India advance import approvals, starting from September this year, in view of the generation deficits caused by this disaster.",
+        "The concerned authorities are processing the requests,” an official said.",
+        "According to officials, India is willing to provide any additional power that Nepal may need.",
+        "Nepal usually imports electricity from India during the winter months, starting around October, as power generation is typically low in the Himalayan country during the freezing winter months.",
+        "Conversely, the country exports its excess hydropower to India during the summer.",
+        "According to official data, India imported 3,299 million units (MUs) of power from Nepal in fiscal year 2025-26 and exported 1,451 MUs to it.",
+        "Transmission of electricity across India’s borders requires mandatory clearances from the Central Electricity Authority (CEA).",
+        "According to an internal assessment, Nepal’s electricity generation capacity has declined by about 550 megawatts because of the infrastructural damage induced by the flood.",
+        "Officials said that this resulted in the cross-border power flow to India reducing by approximately 400 MW from earlier peaks of 950 MW to 1,000 MW.",
+        "However, the officials assured that India was not foreseeing any requirement to make alternative arrangements to compensate for the shortfall.",
+        "“We do not foresee any requirement for exceptional emergency procurement or alternative arrangement to balance domestic demand,” an official said, adding, “India’s vast national grid capacity and robust generation reserve margins are capable of absorbing a temporary shortfall of 400 MW seamlessly without disrupting grid stability or retail supply.\""
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "In the wake of the devastating flash flood that severely impacted Nepal’s power infrastructure, Kathmandu has asked India to give the requisite approvals for the transmission of electricity to Nepal earlier than usual, senior officials in the Union Power Ministry said on Saturday (August 29, 2026).",
+          "“Nepal has asked that India advance import approvals, starting from September this year, in view of the generation deficits caused by this disaster."
+        ],
+        "body": [
+          "The concerned authorities are processing the requests,” an official said.",
+          "According to officials, India is willing to provide any additional power that Nepal may need.",
+          "Nepal usually imports electricity from India during the winter months, starting around October, as power generation is typically low in the Himalayan country during the freezing winter months.",
+          "Conversely, the country exports its excess hydropower to India during the summer.",
+          "According to official data, India imported 3,299 million units (MUs) of power from Nepal in fiscal year 2025-26 and exported 1,451 MUs to it.",
+          "Transmission of electricity across India’s borders requires mandatory clearances from the Central Electricity Authority (CEA).",
+          "According to an internal assessment, Nepal’s electricity generation capacity has declined by about 550 megawatts because of the infrastructural damage induced by the flood."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "October"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Officials said that this resulted in the cross-border power flow to India reducing by approximately 400 MW from earlier peaks of 950 MW to 1,000 MW."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Nepal usually imports electricity from India during the winter months, starting around October, as power generation is typically low in the Himalayan country during the freezing winter months.",
+            "source": "The Hindu",
+            "item_id": "f6a7e1355fd0f8d560df857d:article",
+            "composed": false
+          },
+          {
+            "text": "In the wake of the devastating flash flood that severely impacted Nepal’s power infrastructure, Kathmandu has asked India to give the requisite approvals for the transmission of electricity to Nepal earlier than usual, senior officials in the Union Power Ministry said on Saturday (August 29, 2026).",
+            "source": "The Hindu",
+            "item_id": "f6a7e1355fd0f8d560df857d:article",
+            "composed": false
+          },
+          {
+            "text": "According to official data, India imported 3,299 million units (MUs) of power from Nepal in fiscal year 2025-26 and exported 1,451 MUs to it.",
+            "source": "The Hindu",
+            "item_id": "f6a7e1355fd0f8d560df857d:article",
+            "composed": false
+          },
+          {
+            "text": "“Nepal has asked that India advance import approvals, starting from September this year, in view of the generation deficits caused by this disaster.",
+            "source": "The Hindu",
+            "item_id": "f6a7e1355fd0f8d560df857d:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/business/nepal-seeks-to-import-power-from-india-after-flood-devastation-asks-for-early-approvals/article71405229.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "ae26fd0b72d39190beb949ce",
@@ -296,7 +412,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -418,7 +534,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -545,7 +661,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -668,7 +784,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (gujarat)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 40.8, score 50.4 -> HIGH"
@@ -753,7 +869,7 @@
       "secondary_categories": [
         "courts-law"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 75.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
@@ -761,7 +877,7 @@
       "event_time": "2026-08-29T15:28:23+00:00",
       "published_at": "2026-08-29T15:28:23+00:00",
       "effective_at": "2026-08-29T15:28:23+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -769,20 +885,29 @@
             "business-standard"
           ],
           "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
+        "major: corroborated by 2 independent sources",
         "category: business-industry (importance 1, urgent=False)",
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (business-standard) +1",
         "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'acquires' in title weight 40",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -790,7 +915,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": false,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Tata Chemicals Ltd on Saturday said its wholly-owned US subsidiary, Tata Chemicals North America, has acquired North American soda ash customer contracts worth more than 5,00,000 metric tonnes for supply from September 2026 through December 2028.",
@@ -833,7 +958,7 @@
         "url": "https://www.business-standard.com/companies/news/tata-chemicals-acquires-us-soda-ash-contracts-worth-over-500-000-tonnes-126082900813_1.html"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -887,7 +1012,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1034,7 +1159,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 30, score 38.4 -> HIGH"
