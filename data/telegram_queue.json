@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T03:21:54.255761+00:00",
-  "count": 10,
+  "generated_at": "2026-08-29T03:32:21.242996+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "17e636e40c22aa3cf186adfd",
@@ -41,7 +41,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -172,7 +172,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -236,31 +236,34 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "272dd47fada709a12e5b6890",
-      "story_id": "272dd47fada709a12e5b6890",
-      "headline": "Pak drone detected in J&K's Poonch, security forces put LoC sector on high alert",
-      "title": "Pak drone detected in J&K's Poonch, security forces put LoC sector on high alert",
-      "summary": "Security forces are on high alert after a Pakistani drone was detected near the LoC. Military personnel tracked the unmanned aerial vehicle over the Rajouri sector on Friday evening. This incident follows several other suspected drone sightings reported in Jammu and Kashmir recently. Security forces have intensified search operations in forward areas to detect any dropped materials. Border monitoring remains active as authorities await further official updates on the situation.",
-      "url": "https://timesofindia.indiatimes.com/india/pakistani-drone-detected-in-jammu-and-kashmirs-rajouri-security-forces-put-loc-sector-on-high-alert/articleshow/133602407.cms",
-      "source": "Times of India",
+      "event_id": "9b1f8a5c6b74ab1016f7279a",
+      "story_id": "9b1f8a5c6b74ab1016f7279a",
+      "headline": "Suspected Pak drone spotted along LoC in J-K's Poonch, search operation underway",
+      "title": "Suspected Pak drone spotted along LoC in J-K's Poonch, search operation underway",
+      "summary": "Mendhar, Aug 29: A drone suspected to be from Pakistan was spotted hovering over forward areas along the Line of Control (LoC) in Jammu and Kashmir's Poonch district, prompting security forces to launch a search operation in the area early Saturday, officials said. The drone was noticed at Balakote area’s Behrooti village in Mendhar sector late Friday evening, and it moved towards the Mangalnar-Dabrote side near the border before returning to Pakistan, the officials said. They said Army troops guarding the LoC intensified surveillance and launched a search operation at first light to determine whether it had dropped or carried any suspicious material. Officials further said that the search operation is still underway and added that security forces remained on heightened alert along the border. At the same time, police, along with Army and paramilitary forces, have been engaging in a massive search operation in the vast forested districts of Udhampur, Kathua and Rajouri following information about suspicious movement, they added. According to officials, the joint search operation took place at Khuban, Nagain, Khtrail, Godu Falal, Padetar, Chor Mottu, Kia, Kheba, Bhed, Marta, Joffar, and the adjoining areas in the Udhampur-Kathua forest belt on Friday evening and is still underway. In Rajouri, another search operation was launched in Gaibas, Mithiyani, Mogla and Narla after villagers informed about the movement of two suspected armed persons, believed to be terrorists. Officials said there have been no contact with any suspected persons so far.",
+      "url": "https://www.greaterkashmir.com/jammu/suspected-pak-drone-spotted-along-loc-in-j-ks-poonch-search-operation-underway-12449617",
+      "source": "Greater Kashmir",
       "primary_source": false,
       "tier": 2,
       "category": "defence-security",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "energy-environment",
+        "crime-public-safety"
+      ],
       "confidence": "medium",
-      "score": 97.2,
+      "score": 100.0,
       "priority_score": 62.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-29T02:32:56+00:00",
-      "published_at": "2026-08-29T02:32:56+00:00",
-      "effective_at": "2026-08-29T02:32:56+00:00",
+      "event_time": "2026-08-29T03:30:30+00:00",
+      "published_at": "2026-08-29T03:30:30+00:00",
+      "effective_at": "2026-08-29T03:30:30+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
+        "pti": {
+          "kind": "wire",
           "source_ids": [
-            "times-of-india"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -273,12 +276,12 @@
         "major: urgent category",
         "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -286,43 +289,61 @@
       "geo_scope": "national",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "Military personnel tracked the unmanned aerial vehicle over the Rajouri sector on Friday evening.",
-          "This incident follows several other suspected drone sightings reported in Jammu and Kashmir recently."
+          "Mendhar, Aug 29: A drone suspected to be from Pakistan was spotted hovering over forward areas along the Line of Control (LoC) in Jammu and Kashmir's Poonch district, prompting security forces to launch a search operation in the area early Saturday, officials said.",
+          "The drone was noticed at Balakote area’s Behrooti village in Mendhar sector late Friday evening, and it moved towards the Mangalnar-Dabrote side near the border before returning to Pakistan, the officials said."
         ],
         "body": [
+          "They said Army troops guarding the LoC intensified surveillance and launched a search operation at first light to determine whether it had dropped or carried any suspicious material.",
+          "Officials further said that the search operation is still underway and added that security forces remained on heightened alert along the border.",
+          "At the same time, police, along with Army and paramilitary forces, have been engaging in a massive search operation in the vast forested districts of Udhampur, Kathua and Rajouri following information about suspicious movement, they added.",
+          "According to officials, the joint search operation took place at Khuban, Nagain, Khtrail, Godu Falal, Padetar, Chor Mottu, Kia, Kheba, Bhed, Marta, Joffar, and the adjoining areas in the Udhampur-Kathua forest belt on Friday evening and is still underway.",
+          "In Rajouri, another search operation was launched in Gaibas, Mithiyani, Mogla and Narla after villagers informed about the movement of two suspected armed persons, believed to be terrorists.",
+          "Officials said there have been no contact with any suspected persons so far.",
+          "Security forces are on high alert after a Pakistani drone was detected near the LoC.",
+          "Military personnel tracked the unmanned aerial vehicle over the Rajouri sector on Friday evening.",
+          "This incident follows several other suspected drone sightings reported in Jammu and Kashmir recently.",
           "Security forces have intensified search operations in forward areas to detect any dropped materials.",
-          "Border monitoring remains active as authorities await further official updates on the situation."
+          "Border monitoring remains active as authorities await further official updates on the situation.",
+          "Following unconfirmed reports of suspected movement of an infiltrator along the LoC in the Nowshera sector, security forces launched a search operation in the area."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
             "text": "Jammu"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
           }
         ],
         "sentences": [
           {
-            "text": "Military personnel tracked the unmanned aerial vehicle over the Rajouri sector on Friday evening.",
-            "source": "Times of India",
-            "item_id": "272dd47fada709a12e5b6890",
+            "text": "According to officials, the joint search operation took place at Khuban, Nagain, Khtrail, Godu Falal, Padetar, Chor Mottu, Kia, Kheba, Bhed, Marta, Joffar, and the adjoining areas in the Udhampur-Kathua forest belt on Friday evening and is still underway.",
+            "source": "Greater Kashmir",
+            "item_id": "9b1f8a5c6b74ab1016f7279a",
             "composed": false
           },
           {
-            "text": "This incident follows several other suspected drone sightings reported in Jammu and Kashmir recently.",
-            "source": "Times of India",
-            "item_id": "272dd47fada709a12e5b6890",
+            "text": "In Rajouri, another search operation was launched in Gaibas, Mithiyani, Mogla and Narla after villagers informed about the movement of two suspected armed persons, believed to be terrorists.",
+            "source": "Greater Kashmir",
+            "item_id": "9b1f8a5c6b74ab1016f7279a",
             "composed": false
           }
         ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/india/pakistani-drone-detected-in-jammu-and-kashmirs-rajouri-security-forces-put-loc-sector-on-high-alert/articleshow/133602407.cms"
+        "source": "Greater Kashmir",
+        "corroborating": [
+          "Times of India",
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.greaterkashmir.com/jammu/suspected-pak-drone-spotted-along-loc-in-j-ks-poonch-search-operation-underway-12449617"
       },
-      "group_size": 1,
-      "label": "📰 NEWS",
+      "group_size": 3,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -397,7 +418,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -524,6 +545,156 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "e3db9f19e7412deb32a44246",
+      "story_id": "e3db9f19e7412deb32a44246",
+      "headline": "Israeli strikes kill 5 in Gaza, Iran touts Russian energy deal, and other news in Middle East",
+      "title": "Israeli strikes kill 5 in Gaza, Iran touts Russian energy deal, and other news in Middle East",
+      "summary": "Dubai, Aug 28: Israeli airstrikes in Gaza killed five people on Friday, despite a fragile ceasefire brokered by the United States. Meanwhile, thousands of sailors remain stranded in the Persian Gulf by the Iran war, while Iran is touting an energy deal with Russia and the US has imposed restrictions on a major Egyptian bank for its ties with Iran. Here's a look at the latest developments in the Iran war and the wider Middle East. Full coverage can be found here. Israeli strikes in Gaza kill 5 Israeli strikes in Gaza have killed five people, local hospital officials said Friday. Two brothers and another relative died in a strike on the family's home outside Khan Younis, officials at Nasser Hospital said. Israel's military said it was not aware of a strike in Khan Younis. Two separate Israeli strikes killed one person each in Gaza City on Friday, according to health officials at Shifa hospital. Israel's military confirmed it struck two separate areas in the city, without elaborating. The five deaths are the latest in Gaza since an October ceasefire deal attempted to halt a more than two-year war between Israel and Hamas. While the heaviest fighting has subsided, Israeli forces have carried out repeated airstrikes, killing at least 1,303 Palestinians, according to health officials in Gaza. Thousands of sailors stranded by Iran war The UN's maritime agency said Friday that 19 seafarers have been killed and at least 6,000 remain stranded on hundreds of ships unable to leave the region since the start of the Iran war on February 28. There have been at least 70 attacks on international shipping in the Persian Gulf, according to the International Maritime Organisation. IMO Secretary-General Arsenio Dominguez urged practical solutions and renewed cooperation to restore freedom of navigation through the Strait of Hormuz. About 20 per cent of the world's traded oil and natural gas passed through the vital commercial waterway at the mouth of the Persian Gulf before the war. Iran and Russia look to revive energy deal Iran's ambassador to Russia on Friday said the two countries are seeking to deepen links between their energy grids by reviving a plan that dates to 2022, according to Iranian state media. Umud Shokri, a fellow at George Mason University, said the plan calls for piping 55 billion cubic metres of Russian gas annually into Iran, via Azerbaijan. He said that would help Iran weather US economic pressure by alleviating seasonal shortages of gas, though there are significant hurdles, as building out the infrastructure would be expensive and time-consuming. “It is more than bluster, but not yet a game changer,” Shokri said. US imposes restrictions on Egyptian bank The Trump administration is taking steps to limit an Egyptian bank's operations in the United Arab Emirates. Banque Misr, Egypt's second-largest bank, is accused of serving as an economic lifeline to Iran's leadership. But under a new rule proposed by the US Treasury, the bank's Emirati branches would be severed from access to the US financial system. Iran objects to US economic pressure Iran's Foreign Ministry on Friday condemned a new round of US economic measures against the country, calling them “economic terrorism” and saying Tehran would use all available means to counter them. The ministry said the sanctions violated international law and called on other countries to refrain from implementing them. It accused Washington of using the US dollar to pressure other countries into complying with its policies. Earlier this week, US Treasury Secretary Scott Bessent vowed to fully sever Iran from the global economy and threatened countries that continue to do business with Iran with secondary sanctions. It was part of the US campaign to use economic pressure to try and wring concessions from Iran. Finland to stop providing UN agency aid for Palestine Finland said it will not extend an agreement to provide humanitarian aid with the United Nations agency for Palestinian refugees, or UNRWA. Israel's Foreign Ministry, which has accused the UN agency of being a “hotbed of terrorism,” welcomed the news. UNRWA did not immediately respond to a request for comment. Finland provided UNRWA with 5 million euros (USD 5.8 million) annually under a multi-year deal set to expire later this year. Ville Tavio, the country's foreign trade minister, said in a post on X that aid to Palestinian territories would instead be provided through other channels, such as the UN's World Food Programme. UK warns Israel against removing British officials The United Kingdom warned against any attempt by Israel to remove British officials from the Gaza ceasefire coordination centre on Friday, after reports that Israel was considering expelling UK officials. The UK government said any move to remove its officials would “undermine shared efforts” to implement the 20-point Gaza peace plan. The comments came in response to reports that Israel is considering expelling officials from Britain and other European nations from the monitoring centre. Israel has already removed two Dutch diplomats from the ceasefire centre. The country said Thursday that the decision was in response to a Dutch ban on the trade of Israeli products from the occupied West Bank and other “anti-Israel measures.”",
+      "url": "https://www.greaterkashmir.com/world/israeli-strikes-kill-5-in-gaza-iran-touts-russian-energy-deal-and-other-news-in-middle-east-12449592",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "defence-security",
+        "transport-infrastructure",
+        "international-affairs",
+        "health",
+        "technology-digital",
+        "weather-disasters",
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T03:23:48+00:00",
+      "published_at": "2026-08-29T03:23:48+00:00",
+      "effective_at": "2026-08-29T03:23:48+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: marker 'confirmed'",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'war' in summary weight 49.2",
+        "event term: 'ceasefire' in summary weight 24",
+        "event term: 'sanctions' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Dubai, Aug 28: Israeli airstrikes in Gaza killed five people on Friday, despite a fragile ceasefire brokered by the United States.",
+          "Meanwhile, thousands of sailors remain stranded in the Persian Gulf by the Iran war, while Iran is touting an energy deal with Russia and the US has imposed restrictions on a major Egyptian bank for its ties with Iran."
+        ],
+        "body": [
+          "Here's a look at the latest developments in the Iran war and the wider Middle East.",
+          "Full coverage can be found here.",
+          "Two brothers and another relative died in a strike on the family's home outside Khan Younis, officials at Nasser Hospital said.",
+          "Israel's military said it was not aware of a strike in Khan Younis.",
+          "Two separate Israeli strikes killed one person each in Gaza City on Friday, according to health officials at Shifa hospital.",
+          "Israel's military confirmed it struck two separate areas in the city, without elaborating.",
+          "The five deaths are the latest in Gaza since an October ceasefire deal attempted to halt a more than two-year war between Israel and Hamas.",
+          "While the heaviest fighting has subsided, Israeli forces have carried out repeated airstrikes, killing at least 1,303 Palestinians, according to health officials in Gaza.",
+          "Thousands of sailors stranded by Iran war.",
+          "The UN's maritime agency said Friday that 19 seafarers have been killed and at least 6,000 remain stranded on hundreds of ships unable to leave the region since the start of the Iran war on February 28.",
+          "There have been at least 70 attacks on international shipping in the Persian Gulf, according to the International Maritime Organisation.",
+          "IMO Secretary-General Arsenio Dominguez urged practical solutions and renewed cooperation to restore freedom of navigation through the Strait of Hormuz.",
+          "About 20 per cent of the world's traded oil and natural gas passed through the vital commercial waterway at the mouth of the Persian Gulf before the war.",
+          "Iran and Russia look to revive energy deal Iran's ambassador to Russia on Friday said the two countries are seeking to deepen links between their energy grids by reviving a plan that dates to 2022, according to Iranian state media.",
+          "Umud Shokri, a fellow at George Mason University, said the plan calls for piping 55 billion cubic metres of Russian gas annually into Iran, via Azerbaijan.",
+          "He said that would help Iran weather US economic pressure by alleviating seasonal shortages of gas, though there are significant hurdles, as building out the infrastructure would be expensive and time-consuming.",
+          "“It is more than bluster, but not yet a game changer,” Shokri said.",
+          "US imposes restrictions on Egyptian bank.",
+          "The Trump administration is taking steps to limit an Egyptian bank's operations in the United Arab Emirates.",
+          "Banque Misr, Egypt's second-largest bank, is accused of serving as an economic lifeline to Iran's leadership.",
+          "But under a new rule proposed by the US Treasury, the bank's Emirati branches would be severed from access to the US financial system.",
+          "Iran objects to US economic pressure Iran's Foreign Ministry on Friday condemned a new round of US economic measures against the country, calling them “economic terrorism” and saying Tehran would use all available means to counter them.",
+          "The ministry said the sanctions violated international law and called on other countries to refrain from implementing them.",
+          "It accused Washington of using the US dollar to pressure other countries into complying with its policies.",
+          "Earlier this week, US Treasury Secretary Scott Bessent vowed to fully sever Iran from the global economy and threatened countries that continue to do business with Iran with secondary sanctions.",
+          "It was part of the US campaign to use economic pressure to try and wring concessions from Iran.",
+          "Finland to stop providing UN agency aid for Palestine Finland said it will not extend an agreement to provide humanitarian aid with the United Nations agency for Palestinian refugees, or UNRWA.",
+          "Israel's Foreign Ministry, which has accused the UN agency of being a “hotbed of terrorism,” welcomed the news.",
+          "UNRWA did not immediately respond to a request for comment.",
+          "Finland provided UNRWA with 5 million euros (USD 5.8 million) annually under a multi-year deal set to expire later this year.",
+          "Ville Tavio, the country's foreign trade minister, said in a post on X that aid to Palestinian territories would instead be provided through other channels, such as the UN's World Food Programme.",
+          "UK warns Israel against removing British officials.",
+          "The United Kingdom warned against any attempt by Israel to remove British officials from the Gaza ceasefire coordination centre on Friday, after reports that Israel was considering expelling UK officials.",
+          "The UK government said any move to remove its officials would “undermine shared efforts” to implement the 20-point Gaza peace plan.",
+          "The comments came in response to reports that Israel is considering expelling officials from Britain and other European nations from the monitoring centre.",
+          "Israel has already removed two Dutch diplomats from the ceasefire centre.",
+          "The country said Thursday that the decision was in response to a Dutch ban on the trade of Israeli products from the occupied West Bank and other “anti-Israel measures.”"
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Israeli strikes in Gaza kill 5 Israeli strikes in Gaza have killed five people, local hospital officials said Friday."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Two separate Israeli strikes killed one person each in Gaza City on Friday, according to health officials at Shifa hospital.",
+            "source": "Greater Kashmir",
+            "item_id": "e3db9f19e7412deb32a44246",
+            "composed": false
+          },
+          {
+            "text": "The UN's maritime agency said Friday that 19 seafarers have been killed and at least 6,000 remain stranded on hundreds of ships unable to leave the region since the start of the Iran war on February 28.",
+            "source": "Greater Kashmir",
+            "item_id": "e3db9f19e7412deb32a44246",
+            "composed": false
+          },
+          {
+            "text": "Dubai, Aug 28: Israeli airstrikes in Gaza killed five people on Friday, despite a fragile ceasefire brokered by the United States.",
+            "source": "Greater Kashmir",
+            "item_id": "e3db9f19e7412deb32a44246",
+            "composed": false
+          },
+          {
+            "text": "Israeli strikes in Gaza kill 5 Israeli strikes in Gaza have killed five people, local hospital officials said Friday.",
+            "source": "Greater Kashmir",
+            "item_id": "e3db9f19e7412deb32a44246",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/world/israeli-strikes-kill-5-in-gaza-iran-touts-russian-energy-deal-and-other-news-in-middle-east-12449592"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "abfdde2760717c67ec099c05",
       "story_id": "abfdde2760717c67ec099c05",
       "headline": "Nepal GLOF tragedy puts spotlight on Kashmir’s lagging preparedness",
@@ -587,7 +758,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: fresh (8.6h ago) +4",
+        "recency: fresh (8.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -715,7 +886,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -839,7 +1010,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'sanctions' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -950,7 +1121,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1117,7 +1288,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
@@ -1227,7 +1398,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 20, score 38.4 -> HIGH"
