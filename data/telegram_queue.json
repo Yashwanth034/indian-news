@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T07:21:44.138762+00:00",
-  "count": 16,
+  "generated_at": "2026-08-29T07:31:53.030335+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "89e7bbd5e8e8fa9791697737",
@@ -58,7 +58,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -178,7 +178,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -186,7 +186,7 @@
       "geo_scope": "local",
       "state": "maharashtra",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Mumbai, Aug 29: Megastar Amitabh Bachchan expressed his concern over the devastating floods in Nepal, describing the destruction as “unbearable to watch”.",
@@ -251,7 +251,105 @@
         "url": "https://assamtribune.com/entertainment/big-b-mourns-nepal-flood-devastation-says-it-is-unbearable-to-watch-1616270"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "dd14c7e75064311d70107cca",
+      "story_id": "dd14c7e75064311d70107cca",
+      "headline": "Nepal President Ramchandra Paudel Thanks India for Support After Devastating Floods",
+      "title": "Nepal President Ramchandra Paudel Thanks India for Support After Devastating Floods",
+      "summary": "Kathmandu: Nepal President Ramchandra Paudel on Saturday expressed gratitude towards India for support and solidarity following a devastating flash flood on August 26, which killed 626 people. In an X post, Paudel also condoled the demise of Indian nationals in Nepal. He wrote, “On behalf of the Government and the people of Nepal, I extend […] The post Nepal President Ramchandra Paudel Thanks India for Support After Devastating Floods appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/world/nepal-president-ramchandra-paudel-thanks-india-for-support-after-devastating-floods",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 59.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-29T06:56:12+00:00",
+      "published_at": "2026-08-29T06:56:12+00:00",
+      "effective_at": "2026-08-29T06:56:12+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Floods'",
+        "major: significance event 'flood'",
+        "major: significance event 'Floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.6h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Kathmandu: Nepal President Ramchandra Paudel on Saturday expressed gratitude towards India for support and solidarity following a devastating flash flood on August 26, which killed 626 people.",
+          "In an X post, Paudel also condoled the demise of Indian nationals in Nepal."
+        ],
+        "body": [
+          "He wrote, “On behalf of the Government and the people of Nepal, I extend […] The post Nepal President Ramchandra Paudel Thanks India for Support After Devastating Floods appeared first on KalingaTV."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "626 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kathmandu: Nepal President Ramchandra Paudel on Saturday expressed gratitude towards India for support and solidarity following a devastating flash flood on August 26, which killed 626 people.",
+            "source": "Kalinga TV",
+            "item_id": "dd14c7e75064311d70107cca",
+            "composed": false
+          },
+          {
+            "text": "In an X post, Paudel also condoled the demise of Indian nationals in Nepal.",
+            "source": "Kalinga TV",
+            "item_id": "dd14c7e75064311d70107cca",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [],
+        "url": "https://kalingatv.com/world/nepal-president-ramchandra-paudel-thanks-india-for-support-after-devastating-floods"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -297,7 +395,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (odisha)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 24, score 64 -> URGENT"
@@ -423,7 +521,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 34, score 64 -> URGENT"
@@ -547,7 +645,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'disease outbreak' in title weight 46",
         "scale: state scope (assam)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 43.4, score 64 -> URGENT"
@@ -670,7 +768,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -795,7 +893,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -886,7 +984,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -1003,7 +1101,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -1124,7 +1222,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1270,7 +1368,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1390,7 +1488,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1487,7 +1585,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1567,7 +1665,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1695,7 +1793,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 43, score 43 -> HIGH"
@@ -1812,7 +1910,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sebi bars' in title weight 42",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 27.6, score 42 -> HIGH"
