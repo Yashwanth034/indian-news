@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T09:51:57.924899+00:00",
-  "count": 7,
+  "generated_at": "2026-08-30T10:02:10.292813+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "43d1bfe3008f2df6c6717494",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -97,6 +97,129 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "2c12c09a134952e2f51e127b",
+      "story_id": "2c12c09a134952e2f51e127b",
+      "headline": "Chhattisgarh friends recount Nepal flood ordeal",
+      "title": "Chhattisgarh friends recount Nepal flood ordeal",
+      "summary": "",
+      "url": "https://economictimes.indiatimes.com/news/india/a-tea-break-a-raging-river-and-a-narrow-escape-chhattisgarh-friends-recount-nepal-flood-ordeal/articleshow/133623007.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-30T04:25:34+00:00",
+      "published_at": "2026-08-30T04:25:34+00:00",
+      "effective_at": "2026-08-30T04:25:34+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (chhattisgarh)",
+        "recency: fresh (5.6h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "chhattisgarh",
+      "national_significance": true,
+      "article_sentences": [
+        "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
+        "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28.",
+        "\"We were lucky that we stopped for tea on August 26 when the flash floods struck.",
+        "If we had left 10-15 minutes earlier, we might have got trapped,\" 53-year-old Sen, who runs a salon, told PTI Videos.",
+        "\"Had we not stopped there, we do not know what would have happened,\" he said.",
+        "The group had left Raipur on August 21 and reached Nepal the following day.",
+        "They had hired a car and planned to visit the Pashupatinath Temple, Manokamana Temple and other tourist attractions.",
+        "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
+        "\"There we learnt that a bridge ahead had been washed away in a flood.",
+        "The hotel belonged to an Indian, who helped us a lot and provided us food,\" Sen said.",
+        "From their vantage point, the friends watched the disaster unfold.",
+        "\"We saw cars being swept away in the Trishuli river."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
+          "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28."
+        ],
+        "body": [
+          "\"We were lucky that we stopped for tea on August 26 when the flash floods struck.",
+          "If we had left 10-15 minutes earlier, we might have got trapped,\" 53-year-old Sen, who runs a salon, told PTI Videos.",
+          "\"Had we not stopped there, we do not know what would have happened,\" he said.",
+          "The group had left Raipur on August 21 and reached Nepal the following day.",
+          "They had hired a car and planned to visit the Pashupatinath Temple, Manokamana Temple and other tourist attractions.",
+          "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
+          "\"There we learnt that a bridge ahead had been washed away in a flood.",
+          "The hotel belonged to an Indian, who helped us a lot and provided us food,\" Sen said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Malekhu town"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
+            "source": "The Economic Times",
+            "item_id": "2c12c09a134952e2f51e127b:article",
+            "composed": false
+          },
+          {
+            "text": "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28.",
+            "source": "The Economic Times",
+            "item_id": "2c12c09a134952e2f51e127b:article",
+            "composed": false
+          },
+          {
+            "text": "The group had left Raipur on August 21 and reached Nepal the following day.",
+            "source": "The Economic Times",
+            "item_id": "2c12c09a134952e2f51e127b:article",
+            "composed": false
+          },
+          {
+            "text": "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
+            "source": "The Economic Times",
+            "item_id": "2c12c09a134952e2f51e127b:article",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/news/india/a-tea-break-a-raging-river-and-a-narrow-escape-chhattisgarh-friends-recount-nepal-flood-ordeal/articleshow/133623007.cms"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "2aaba19b003e873125d6ac55",
@@ -164,7 +287,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -291,7 +414,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -390,7 +513,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -505,7 +628,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -627,7 +750,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -740,7 +863,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'power outage' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 40, stack 24, score 40 -> HIGH"
