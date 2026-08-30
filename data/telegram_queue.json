@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T09:02:28.314722+00:00",
-  "count": 9,
+  "generated_at": "2026-08-30T09:11:44.958385+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "43d1bfe3008f2df6c6717494",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -164,7 +164,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -295,7 +295,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -417,7 +417,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -507,124 +507,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "fc79933c676c23289b81f681",
-      "story_id": "fc79933c676c23289b81f681",
-      "headline": "49 Indians among 261 foreigners missing after flash flood on Tibet-Nepal border: Officials",
-      "title": "49 Indians among 261 foreigners missing after flash flood on Tibet-Nepal border: Officials",
-      "summary": "Beijing, Aug 30: Chinese officials on Sunday said 261 foreign nationals, including 49 Indians, remained unaccounted for after a catastrophic flash flood struck Gyirong Port, one of the main border crossings between Nepal and Tibet, on August 26. The 261 foreigners are from 23 countries, Chinese officials told a media briefing at Gyirong, state-run Xinhua news agency reported. The media briefing was held after a joint search and cross-checking of information by foreign affairs, public security, culture and tourism, and emergency management authorities. Those unaccounted for include 104 people from Nepal, 49 from India, 33 from Latvia, 18 from the United States, 15 from Britain, six from Canada, six from Australia, four from South Africa, three each from Malaysia, Germany and Russia, two each from Ireland, Estonia, France, Netherlands, New Zealand, and one each from Kazakhstan, Finland, Lithuania, Portugal, Ukraine, Spain and Hungary, it reported. A large number of Indian pilgrims were visiting Tibet to take part in the Kailash Manasarovar Yatra after ties between China and India improved. Some of the Indian pilgrims were reportedly at the immigration building at the Tibet-Nepal border when the flood struck the region, wreaking havoc in Gyirong County in Tibet. Videos of the giant flash flood engulfing the sprawling immigration building went viral globally.",
-      "url": "https://www.greaterkashmir.com/world/49-indians-among-261-foreigners-missing-after-flash-flood-on-tibet-nepal-border-officials-12453072",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "defence-security",
-      "secondary_categories": [
-        "weather-disasters",
-        "transport-infrastructure"
-      ],
-      "confidence": "low",
-      "score": 100.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-08-30T03:11:04+00:00",
-      "published_at": "2026-08-30T03:11:04+00:00",
-      "effective_at": "2026-08-30T03:11:04+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": true,
-      "status": "queued",
-      "reasons": [
-        "rumour: 'reportedly' in summary (penalty 3, overridden)",
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "major override dropped penalties: rumour",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Beijing, Aug 30: Chinese officials on Sunday said 261 foreign nationals, including 49 Indians, remained unaccounted for after a catastrophic flash flood struck Gyirong Port, one of the main border crossings between Nepal and Tibet, on August 26.",
-          "The 261 foreigners are from 23 countries, Chinese officials told a media briefing at Gyirong, state-run Xinhua news agency reported."
-        ],
-        "body": [
-          "The media briefing was held after a joint search and cross-checking of information by foreign affairs, public security, culture and tourism, and emergency management authorities.",
-          "Those unaccounted for include 104 people from Nepal, 49 from India, 33 from Latvia, 18 from the United States, 15 from Britain, six from Canada, six from Australia, four from South Africa, three each from Malaysia, Germany and Russia, two each from Ireland, Estonia, France, Netherlands, New Zealand, and one each from Kazakhstan, Finland, Lithuania, Portugal, Ukraine, Spain and Hungary, it reported.",
-          "A large number of Indian pilgrims were visiting Tibet to take part in the Kailash Manasarovar Yatra after ties between China and India improved.",
-          "Some of the Indian pilgrims were reportedly at the immigration building at the Tibet-Nepal border when the flood struck the region, wreaking havoc in Gyirong County in Tibet.",
-          "Videos of the giant flash flood engulfing the sprawling immigration building went viral globally.",
-          "Local authorities report that 261 foreign nationals, including 49 Indians, are missing following a deadly mudslide at Gyirong Port on the Tibet-Nepal border."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Gyirong"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "104 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Local authorities report that 261 foreign nationals, including 49 Indians, are missing following a deadly mudslide at Gyirong Port on the Tibet-Nepal border.",
-            "source": "The Hans India",
-            "item_id": "1cc9380b2385ee773307a067",
-            "composed": false
-          },
-          {
-            "text": "Beijing, Aug 30: Chinese officials on Sunday said 261 foreign nationals, including 49 Indians, remained unaccounted for after a catastrophic flash flood struck Gyirong Port, one of the main border crossings between Nepal and Tibet, on August 26.",
-            "source": "Greater Kashmir",
-            "item_id": "fc79933c676c23289b81f681",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [
-          "The Hans India"
-        ],
-        "url": "https://www.greaterkashmir.com/world/49-indians-among-261-foreigners-missing-after-flash-flood-on-tibet-nepal-border-officials-12453072"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "31fbd57dd53f8a589bd29167",
       "story_id": "31fbd57dd53f8a589bd29167",
       "headline": "AAP leader Gurpreet Singh shot dead in Punjab: Election dispute eyed as motive",
@@ -666,7 +548,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -781,7 +663,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -903,7 +785,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -1016,7 +898,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'power outage' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 40, stack 24, score 40 -> HIGH"
