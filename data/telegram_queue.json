@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:21:51.460754+00:00",
+  "generated_at": "2026-08-30T10:32:06.021004+00:00",
   "count": 7,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -99,31 +99,45 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "2c12c09a134952e2f51e127b",
-      "story_id": "2c12c09a134952e2f51e127b",
-      "headline": "Chhattisgarh friends recount Nepal flood ordeal",
-      "title": "Chhattisgarh friends recount Nepal flood ordeal",
-      "summary": "",
-      "url": "https://economictimes.indiatimes.com/news/india/a-tea-break-a-raging-river-and-a-narrow-escape-chhattisgarh-friends-recount-nepal-flood-ordeal/articleshow/133623007.cms",
-      "source": "The Economic Times",
+      "event_id": "f7ea6d03f87871477adf3d9e",
+      "story_id": "f7ea6d03f87871477adf3d9e",
+      "headline": "Nepal Flash Flood LIVE Updates: 734 Bodies Recovered, 275 Indians Among Nearly 2,500 Still Missing",
+      "title": "Nepal Flash Flood LIVE Updates: 734 Bodies Recovered, 275 Indians Among Nearly 2,500 Still Missing",
+      "summary": "Nepal Flash Flood LIVE Updates: A glacier collapse led to a sudden massive flood in the Bhote Koshi River",
+      "url": "https://www.ndtv.com/world-news/nepal-flash-flood-2026-live-updates-death-count-rescue-operation-latest-news-rasuwa-nuwakot-bhote-koshi-11973405",
+      "source": "NDTV",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
-      "score": 92.0,
+      "confidence": "high",
+      "score": 80.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-30T04:25:34+00:00",
-      "published_at": "2026-08-30T04:25:34+00:00",
-      "effective_at": "2026-08-30T04:25:34+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-08-29T09:10:35+00:00",
+      "published_at": "2026-08-30T04:38:39+00:00",
+      "effective_at": "2026-08-30T04:38:39+00:00",
+      "independent_source_groups": 3,
       "source_groups": {
-        "indiatimes": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 2
+        },
+        "ndtv": {
           "kind": "independent",
           "source_ids": [
-            "economic-times"
+            "ndtv"
+          ],
+          "count": 1
+        },
+        "assam-tribune": {
+          "kind": "independent",
+          "source_ids": [
+            "assam-tribune"
           ],
           "count": 1
         }
@@ -132,92 +146,105 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
+        "major: significance event 'Flood'",
+        "major: significance event 'Flood'",
         "major: significance event 'flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
+        "source: tier 2 (ndtv) +2",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
-        "scale: state scope (chhattisgarh)",
-        "recency: fresh (5.9h ago) +4",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: 25.4h old, no boost",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 24, score 64 -> URGENT"
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "chhattisgarh",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
-        "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28.",
-        "\"We were lucky that we stopped for tea on August 26 when the flash floods struck.",
-        "If we had left 10-15 minutes earlier, we might have got trapped,\" 53-year-old Sen, who runs a salon, told PTI Videos.",
-        "\"Had we not stopped there, we do not know what would have happened,\" he said.",
-        "The group had left Raipur on August 21 and reached Nepal the following day.",
-        "They had hired a car and planned to visit the Pashupatinath Temple, Manokamana Temple and other tourist attractions.",
-        "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
-        "\"There we learnt that a bridge ahead had been washed away in a flood.",
-        "The hotel belonged to an Indian, who helped us a lot and provided us food,\" Sen said.",
-        "From their vantage point, the friends watched the disaster unfold.",
-        "\"We saw cars being swept away in the Trishuli river."
+        "Nepal’s weather authorities have warned of fresh rainfall, thunderstorms and snowfall in several parts of the country, raising concerns that worsening weather could disrupt rescue and relief operations in areas devastated by flash floods.",
+        "The warning comes days after an ice-rock avalanche triggered by a glacial collapse near the Nepal-Tibet border sent a torrent of water, mud and debris downstream through central Nepal on Wednesday.",
+        "The disaster has claimed more than 600 lives, while over 2,400 people remain missing.",
+        "Nearly 2,500 people, including 163 foreigners, have been evacuated as rescue teams continue searching for survivors amid intermittent rainfall.",
+        "More than 11,000 security personnel, including over 5,000 Nepal Army personnel, have been deployed for search and rescue operations.",
+        "Nepal’s Department of Hydrology and Meteorology has forecast heavy rainfall in the hilly and mountainous areas of Koshi, Bagmati and Gandaki provinces, parts of Karnali, and the Terai regions of Lumbini and Sudurpashchim provinces, according to The Rising Nepal.",
+        "Meteorologist Hari Prasad Dahal said most areas around the Bhotekoshi flood-hit region in Rasuwa could receive moderate rainfall on Saturday.",
+        "He warned that heavy rain in isolated areas could hamper search and rescue efforts and urged authorities to exercise caution.",
+        "The department has also forecast moderate rain accompanied by thunder and lightning, along with snowfall in several hilly and mountainous areas from Saturday afternoon.",
+        "Meanwhile, rescuers are continuing search operations as water levels in the Bhotekoshi River rise, fuelling fears of another wave of flooding.",
+        "The threat has been compounded by a warning from Chinese authorities about a new barrier lake forming near the river’s source in Tibet.",
+        "Authorities have cautioned that the lake could breach, potentially triggering fresh flooding downstream in Nepal."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
-          "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28."
+          "Nepal’s weather authorities have warned of fresh rainfall, thunderstorms and snowfall in several parts of the country, raising concerns that worsening weather could disrupt rescue and relief operations in areas devastated by flash floods.",
+          "The warning comes days after an ice-rock avalanche triggered by a glacial collapse near the Nepal-Tibet border sent a torrent of water, mud and debris downstream through central Nepal on Wednesday."
         ],
         "body": [
-          "\"We were lucky that we stopped for tea on August 26 when the flash floods struck.",
-          "If we had left 10-15 minutes earlier, we might have got trapped,\" 53-year-old Sen, who runs a salon, told PTI Videos.",
-          "\"Had we not stopped there, we do not know what would have happened,\" he said.",
-          "The group had left Raipur on August 21 and reached Nepal the following day.",
-          "They had hired a car and planned to visit the Pashupatinath Temple, Manokamana Temple and other tourist attractions.",
-          "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
-          "\"There we learnt that a bridge ahead had been washed away in a flood.",
-          "The hotel belonged to an Indian, who helped us a lot and provided us food,\" Sen said."
+          "The disaster has claimed more than 600 lives, while over 2,400 people remain missing.",
+          "Nearly 2,500 people, including 163 foreigners, have been evacuated as rescue teams continue searching for survivors amid intermittent rainfall.",
+          "More than 11,000 security personnel, including over 5,000 Nepal Army personnel, have been deployed for search and rescue operations.",
+          "Nepal’s Department of Hydrology and Meteorology has forecast heavy rainfall in the hilly and mountainous areas of Koshi, Bagmati and Gandaki provinces, parts of Karnali, and the Terai regions of Lumbini and Sudurpashchim provinces, according to The Rising Nepal.",
+          "Meteorologist Hari Prasad Dahal said most areas around the Bhotekoshi flood-hit region in Rasuwa could receive moderate rainfall on Saturday.",
+          "He warned that heavy rain in isolated areas could hamper search and rescue efforts and urged authorities to exercise caution.",
+          "The department has also forecast moderate rain accompanied by thunder and lightning, along with snowfall in several hilly and mountainous areas from Saturday afternoon."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Malekhu town"
+            "text": "Rasuwa"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "over 2,400 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Meanwhile, rescuers are continuing search operations as water levels in the Bhotekoshi River rise, fuelling fears of another wave of flooding."
           }
         ],
         "sentences": [
           {
-            "text": "Their trip took a dramatic turn around 9.30-10 am on August 26, when they stopped for tea at a hotel in Malekhu.",
-            "source": "The Economic Times",
-            "item_id": "2c12c09a134952e2f51e127b:article",
+            "text": "The disaster has claimed more than 600 lives, while over 2,400 people remain missing.",
+            "source": "NDTV",
+            "item_id": "f7ea6d03f87871477adf3d9e:article",
             "composed": false
           },
           {
-            "text": "The five friends — Narayan Sen, Dinesh Ojha, Prem Singh Jagat, Yatendra Prakash and Dinesh Singh Thakur, all aged between 50 and 60 and residents of Raipur's Mana Camp area — returned home on Saturday after leaving Nepal on August 28.",
-            "source": "The Economic Times",
-            "item_id": "2c12c09a134952e2f51e127b:article",
+            "text": "Nearly 2,500 people, including 163 foreigners, have been evacuated as rescue teams continue searching for survivors amid intermittent rainfall.",
+            "source": "NDTV",
+            "item_id": "f7ea6d03f87871477adf3d9e:article",
             "composed": false
           },
           {
-            "text": "The group had left Raipur on August 21 and reached Nepal the following day.",
-            "source": "The Economic Times",
-            "item_id": "2c12c09a134952e2f51e127b:article",
+            "text": "Meteorologist Hari Prasad Dahal said most areas around the Bhotekoshi flood-hit region in Rasuwa could receive moderate rainfall on Saturday.",
+            "source": "NDTV",
+            "item_id": "f7ea6d03f87871477adf3d9e:article",
             "composed": false
           },
           {
-            "text": "The brief stop at a hotel in Malekhu town of Dhading district became a narrow escape for the group, who then spent two tense days on higher ground, sleeping in a rented car and watching the swollen Trishuli river carry away vehicles, bodies and debris.",
-            "source": "The Economic Times",
-            "item_id": "2c12c09a134952e2f51e127b:article",
+            "text": "More than 11,000 security personnel, including over 5,000 Nepal Army personnel, have been deployed for search and rescue operations.",
+            "source": "NDTV",
+            "item_id": "f7ea6d03f87871477adf3d9e:article",
             "composed": false
           }
         ],
-        "source": "The Economic Times",
+        "source": "NDTV",
         "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/news/india/a-tea-break-a-raging-river-and-a-narrow-escape-chhattisgarh-friends-recount-nepal-flood-ordeal/articleshow/133623007.cms"
+        "url": "https://www.ndtv.com/world-news/nepal-flash-flood-2026-live-updates-death-count-rescue-operation-latest-news-rasuwa-nuwakot-bhote-koshi-11973405"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -287,7 +314,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -413,7 +440,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -528,7 +555,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -650,7 +677,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -763,10 +790,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'power outage' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national",
-        "dominant event 40, stack 24, score 40 -> HIGH"
+        "dominant event 40, stack 20, score 40 -> HIGH"
       ],
       "geo_scope": "national",
       "state": "rajasthan",
