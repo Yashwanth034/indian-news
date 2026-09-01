@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:41:48.483722+00:00",
+  "generated_at": "2026-09-01T18:51:38.519320+00:00",
   "count": 8,
   "stories": [
     {
@@ -51,7 +51,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -136,7 +136,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 34, score 64 -> URGENT"
@@ -242,7 +242,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 28, score 64 -> URGENT"
@@ -322,33 +322,34 @@
       "enrichment": "article"
     },
     {
-      "event_id": "29932c3c4c13835384ab8e8b",
-      "story_id": "29932c3c4c13835384ab8e8b",
-      "headline": "UP rains: Flood hits Lakhimpur, Varanasi; Mandakini rises 4 metre above danger",
-      "title": "UP rains: Flood hits Lakhimpur, Varanasi; Mandakini rises 4 metre above danger",
-      "summary": "Heavy rain triggers flooding across UP, disrupting trains and forcing evacuations as Ganga rises in Varanasi and Mandakini breaches danger mark in Chitrakoot",
-      "url": "https://www.nationalheraldindia.com/national/up-rains-flood-hits-lakhimpur-varanasi-mandakini-rises-4-metre-above-danger",
-      "source": "National Herald",
+      "event_id": "fd630c91d32d645029b945d4",
+      "story_id": "fd630c91d32d645029b945d4",
+      "headline": "CM’s helpline emerges as lifeline for residents outside UT",
+      "title": "CM’s helpline emerges as lifeline for residents outside UT",
+      "summary": "Srinagar, Sep 1: A toll-free helpline launched by the Omar Abdullah-led government in the aftermath of the Pahalgam terror attack has evolved into a round-the-clock support mechanism for residents of Jammu and Kashmir facing difficulties across India and abroad. The 24x7 helpline (1800-8900-166) was launched on April 25, 2025, to assist students and residents of J&K following reports of intimidation, harassment and assaults on people from the Union Territory studying or working outside. Set up through the Chief Minister’s Office, the helpline was initially intended to provide emergency assistance, coordinate with state governments and law-enforcement agencies, and offer families a direct channel to seek help. Officials said the service has since expanded into a single-window support platform, assisting students, facilitating emergency travel, coordinating with local administrations and addressing various public-service-related concerns. One of its significant interventions came during the Iran-Israel conflict, when students from Jammu and Kashmir were stranded amid escalating tensions. The helpline helped maintain communication with affected students, their families and authorities while facilitating the flow of information during the crisis. The service also received appreciation from students and families following the Pahalgam attack, when uncertainty and concerns over the safety of J&K residents outside the UT were high. Officials said the helpline has handled thousands of calls and messages despite being managed by a single officer posted at the Chief Minister’s Secretariat. The officer monitors calls, coordinates responses and follows up with departments and authorities across jurisdictions. Government sources said the initiative reflects the administration’s effort to remain accessible beyond conventional office channels and provide residents with direct access to government assistance regardless of their location. More than a year after its launch, the helpline has increasingly become a support and reassurance mechanism for students, workers, professionals and families from Jammu and Kashmir seeking assistance away from home.",
+      "url": "https://risingkashmir.com/politics/cms-helpline-emerges-as-lifeline-for-residents-outside-ut-12481642",
+      "source": "Rising Kashmir",
       "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
+      "tier": 3,
+      "category": null,
       "secondary_categories": [
-        "transport-infrastructure"
+        "defence-security",
+        "education"
       ],
       "confidence": "medium",
-      "score": 64.2,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
+      "score": 68.4,
+      "priority_score": 50.4,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-09-01T13:46:46+00:00",
-      "published_at": "2026-09-01T13:46:46+00:00",
-      "effective_at": "2026-09-01T13:46:46.634000+00:00",
+      "event_time": "2026-09-01T18:41:57+00:00",
+      "published_at": "2026-09-01T18:41:57+00:00",
+      "effective_at": "2026-09-01T18:41:57+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "national-herald": {
+        "rising-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "national-herald"
+            "rising-kashmir"
           ],
           "count": 1
         }
@@ -357,91 +358,75 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: significance event 'terror attack'",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
+        "source: tier 3 (rising-kashmir) +1",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (uttar pradesh)",
-        "recency: fresh (4.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
+        "event term: 'terror attack' in summary weight 50.4",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.2h ago) +8",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 20, score 64 -> URGENT"
+        "dominant event 50.4, stack 17, score 50.4 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
       ],
-      "geo_scope": "local",
-      "state": "uttar pradesh",
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
       "national_significance": true,
-      "article_sentences": [
-        "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
-        "In Varanasi, rising waters of the Ganga flooded several lanes, prompting authorities to deploy boats in waterlogged areas.",
-        "Cremations at the Manikarnika and Harishchandra ghats were shifted to rooftops and bylanes after water inundated the traditional cremation spots.",
-        "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
-        "The river was rising at a rate of 0.5 cm per hour, the CWC said.",
-        "The highest-ever recorded water level in Varanasi is 73.901 metres.",
-        "Several families affected by waterlogging in areas along the Varuna river had already been evacuated and moved to relief camps, district officials said.",
-        "The situation in Lakhimpur Kheri was also affected by rising water levels in the Sharda river, which disrupted train services on the Mailani-Nanpara section.",
-        "Water seepage between Bhira and Palia stations led to the suspension of around half a dozen trains.",
-        "North Eastern Railway PRO Mahesh Gupta said train services between Mailani, Bichhia and Nanpara would remain suspended until further orders.",
-        "Amid heavy rainfall, district basic education officer Pravin Tiwari announced a holiday for all schools up to Class 8 in Lakhimpur Kheri on Tuesday.",
-        "The Nepal border areas also remained a concern, with water levels rising in the Mohana and Karnali rivers in the Tikunia area of Nighasan tehsil."
-      ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
-          "In Varanasi, rising waters of the Ganga flooded several lanes, prompting authorities to deploy boats in waterlogged areas."
+          "Srinagar, Sep 1: A toll-free helpline launched by the Omar Abdullah-led government in the aftermath of the Pahalgam terror attack has evolved into a round-the-clock support mechanism for residents of Jammu and Kashmir facing difficulties across India and abroad.",
+          "The 24x7 helpline (1800-8900-166) was launched on April 25, 2025, to assist students and residents of J&K following reports of intimidation, harassment and assaults on people from the Union Territory studying or working outside."
         ],
         "body": [
-          "Cremations at the Manikarnika and Harishchandra ghats were shifted to rooftops and bylanes after water inundated the traditional cremation spots.",
-          "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
-          "The river was rising at a rate of 0.5 cm per hour, the CWC said.",
-          "The highest-ever recorded water level in Varanasi is 73.901 metres.",
-          "The situation in Lakhimpur Kheri was also affected by rising water levels in the Sharda river, which disrupted train services on the Mailani-Nanpara section.",
-          "Water seepage between Bhira and Palia stations led to the suspension of around half a dozen trains.",
-          "North Eastern Railway PRO Mahesh Gupta said train services between Mailani, Bichhia and Nanpara would remain suspended until further orders."
+          "Set up through the Chief Minister’s Office, the helpline was initially intended to provide emergency assistance, coordinate with state governments and law-enforcement agencies, and offer families a direct channel to seek help.",
+          "One of its significant interventions came during the Iran-Israel conflict, when students from Jammu and Kashmir were stranded amid escalating tensions.",
+          "The helpline helped maintain communication with affected students, their families and authorities while facilitating the flow of information during the crisis.",
+          "The service also received appreciation from students and families following the Pahalgam attack, when uncertainty and concerns over the safety of J&K residents outside the UT were high.",
+          "Officials said the helpline has handled thousands of calls and messages despite being managed by a single officer posted at the Chief Minister’s Secretariat.",
+          "The officer monitors calls, coordinates responses and follows up with departments and authorities across jurisdictions.",
+          "Government sources said the initiative reflects the administration’s effort to remain accessible beyond conventional office channels and provide residents with direct access to government assistance regardless of their location.",
+          "More than a year after its launch, the helpline has increasingly become a support and reassurance mechanism for students, workers, professionals and families from Jammu and Kashmir seeking assistance away from home."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Lakhimpur Kheri"
+            "text": "India"
           },
           {
             "icon": "➡️",
             "label": "Next",
-            "text": "Several families affected by waterlogging in areas along the Varuna river had already been evacuated and moved to relief camps, district officials said."
+            "text": "Officials said the service has since expanded into a single-window support platform, assisting students, facilitating emergency travel, coordinating with local administrations and addressing various public-service-related concerns."
           }
         ],
         "sentences": [
           {
-            "text": "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
-            "source": "National Herald",
-            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "text": "The 24x7 helpline (1800-8900-166) was launched on April 25, 2025, to assist students and residents of J&K following reports of intimidation, harassment and assaults on people from the Union Territory studying or working outside.",
+            "source": "Rising Kashmir",
+            "item_id": "fd630c91d32d645029b945d4",
             "composed": false
           },
           {
-            "text": "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
-            "source": "National Herald",
-            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "text": "Srinagar, Sep 1: A toll-free helpline launched by the Omar Abdullah-led government in the aftermath of the Pahalgam terror attack has evolved into a round-the-clock support mechanism for residents of Jammu and Kashmir facing difficulties across India and abroad.",
+            "source": "Rising Kashmir",
+            "item_id": "fd630c91d32d645029b945d4",
             "composed": false
           },
           {
-            "text": "The highest-ever recorded water level in Varanasi is 73.901 metres.",
-            "source": "National Herald",
-            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "text": "One of its significant interventions came during the Iran-Israel conflict, when students from Jammu and Kashmir were stranded amid escalating tensions.",
+            "source": "Rising Kashmir",
+            "item_id": "fd630c91d32d645029b945d4",
             "composed": false
           }
         ],
-        "source": "National Herald",
+        "source": "Rising Kashmir",
         "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/national/up-rains-flood-hits-lakhimpur-varanasi-mandakini-rises-4-metre-above-danger"
+        "url": "https://risingkashmir.com/politics/cms-helpline-emerges-as-lifeline-for-residents-outside-ut-12481642"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "f19bb6433702ac61ca2c43bf",
@@ -489,7 +474,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -626,7 +611,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -714,7 +699,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -805,7 +790,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
