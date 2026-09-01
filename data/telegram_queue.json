@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T05:03:58.538062+00:00",
-  "count": 21,
+  "generated_at": "2026-09-01T05:33:37.579240+00:00",
+  "count": 22,
   "stories": [
     {
       "event_id": "68127b6d2422cb2514bc5bbd",
@@ -45,7 +45,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -157,9 +157,9 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.3h ago) +4",
         "geo: national",
-        "dominant event 82, stack 24, score 82 -> IMMEDIATE",
+        "dominant event 82, stack 20, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
       ],
       "geo_scope": "national",
@@ -286,7 +286,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -462,7 +462,7 @@
         "event term: 'cloudburst' in summary weight 28.8",
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -548,42 +548,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "edacfa79dfc3537c8bb2c07c",
-      "story_id": "edacfa79dfc3537c8bb2c07c",
-      "headline": "Rethinking Himalayan Floods",
-      "title": "Rethinking Himalayan Floods",
-      "summary": "The flash floods that tore through the Nepal-Tibet border on August 26 were, for a few days, were described as a Glacial Lake Outburst Flood (GLOF). That assumption turned out to be wrong. Satellite analysis later showed the disaster began not with a lake bursting its banks, but with a chunk of glacier, ice and rock giving way on an unstable slope and crashing into a river valley below. For years, the dominant framework for understanding Himalayan flood risk has been the glacial lake. The Nepal event is a reminder that a slope does not need a lake beneath it to become a disaster. Fractured bedrock and glacier ice sitting on a steep incline can fail on their own, and once that debris reaches a river channel, it can turn into a flood just as destructive as a GLOF. Jammu and Kashmir, Ladakh and Himachal Pradesh have already been flagged as the most climate-sensitive part of the Himalayan range, warming faster than other sectors and facing much sharper temperature rises in the decades ahead. Kishtwar, Doda, Ramban and large parts of Ladakh sit in terrain that scientists say closely resembles the slopes that failed in Nepal. Kashmir’s own glacial lake studies have already flagged thousands of buildings and more than a dozen bridges within potential flood zones. What has not been done, by the scientists’ own account, is a comparable assessment of the unstable rock and ice slopes themselves. A disaster elsewhere prompts a round of statements and studies, some monitoring stations go up, and attention moves on before the harder work of mapping is finished. Permafrost and bedrock studies are slower and less visible, and there is no local memory of a slope collapse in the way there is of a lake breach. That should not be mistaken for safety. The scientists quoted after the Nepal disaster are asking for something more basic: that the slopes above Kashmir, Ladakh and Himachal Pradesh be studied with the same seriousness as the lakes below them, before one of them fails without warning. Given how much of the region’s population and infrastructure sits downstream, that is a reasonable ask, and one the government should not wait for the next disaster to act on.",
-      "url": "https://www.greaterkashmir.com/opinion/rethinking-himalayan-floods-12478091",
-      "source": "Greater Kashmir",
+      "event_id": "135ad487bdaa8f62e2aa62ab",
+      "story_id": "135ad487bdaa8f62e2aa62ab",
+      "headline": "Satellite images show how the Nepal flood disaster unfolded",
+      "title": "Satellite images show how the Nepal flood disaster unfolded",
+      "summary": "",
+      "url": "https://www.thenewsminute.com/news/satellite-images-show-how-the-nepal-flood-disaster-unfolded-2",
+      "source": "The News Minute",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [
-        "science-space",
-        "transport-infrastructure",
-        "defence-security"
+        "science-space"
       ],
-      "confidence": "high",
-      "score": 81.6,
+      "confidence": "medium",
+      "score": 70.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-08-31T21:55:10+00:00",
-      "published_at": "2026-09-01T00:56:50+00:00",
-      "effective_at": "2026-09-01T00:56:50+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-09-01T05:10:34+00:00",
+      "published_at": "2026-09-01T05:10:34+00:00",
+      "effective_at": "2026-09-01T05:10:34.302000+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "rising-kashmir": {
+        "the-news-minute": {
           "kind": "independent",
           "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        },
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
+            "the-news-minute"
           ],
           "count": 1
         }
@@ -592,87 +583,69 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'Floods'",
-        "major: significance event 'floods'",
-        "major: significance event 'Flood'",
-        "major: significance event 'disaster'",
         "major: significance event 'flood'",
-        "major: significance event 'disaster'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'disaster'",
-        "major: significance event 'disaster'",
         "major: significance event 'disaster'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'floods' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "event term: 'floods' in summary weight 38.4",
+        "source: tier 2 (the-news-minute) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: fresh (7.1h ago) +4",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "dominant event 64, stack 30, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "On August 26 a glacier collapsed in the Langtang region of Nepal near the China border, triggering an ice and rock avalanche.",
+        "This apparently entered the Lhende Khola, a tributary of the Bhote Koshi river, where it either caused or contributed to a temporary blockage.",
+        "When this burst, a catastrophic flash flood travelled almost 100 kilometres downstream.",
+        "There is increasing interest in the role of unusually warm conditions and glacial permafrost instability.",
+        "Warming can increase meltwater penetration into the crevasses of glaciers and weaken ice-rock bonds.",
+        "British Antarctic Survey researchers reported unusually high ground temperatures two days before the collapse."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The flash floods that tore through the Nepal-Tibet border on August 26 were, for a few days, were described as a Glacial Lake Outburst Flood (GLOF).",
-          "That assumption turned out to be wrong."
+          "On August 26 a glacier collapsed in the Langtang region of Nepal near the China border, triggering an ice and rock avalanche.",
+          "This apparently entered the Lhende Khola, a tributary of the Bhote Koshi river, where it either caused or contributed to a temporary blockage."
         ],
         "body": [
-          "Satellite analysis later showed the disaster began not with a lake bursting its banks, but with a chunk of glacier, ice and rock giving way on an unstable slope and crashing into a river valley below.",
-          "For years, the dominant framework for understanding Himalayan flood risk has been the glacial lake.",
-          "The Nepal event is a reminder that a slope does not need a lake beneath it to become a disaster.",
-          "Fractured bedrock and glacier ice sitting on a steep incline can fail on their own, and once that debris reaches a river channel, it can turn into a flood just as destructive as a GLOF.",
-          "Jammu and Kashmir, Ladakh and Himachal Pradesh have already been flagged as the most climate-sensitive part of the Himalayan range, warming faster than other sectors and facing much sharper temperature rises in the decades ahead.",
-          "Kishtwar, Doda, Ramban and large parts of Ladakh sit in terrain that scientists say closely resembles the slopes that failed in Nepal.",
-          "Kashmir’s own glacial lake studies have already flagged thousands of buildings and more than a dozen bridges within potential flood zones.",
-          "What has not been done, by the scientists’ own account, is a comparable assessment of the unstable rock and ice slopes themselves.",
-          "A disaster elsewhere prompts a round of statements and studies, some monitoring stations go up, and attention moves on before the harder work of mapping is finished.",
-          "Permafrost and bedrock studies are slower and less visible, and there is no local memory of a slope collapse in the way there is of a lake breach.",
-          "That should not be mistaken for safety.",
-          "The scientists quoted after the Nepal disaster are asking for something more basic: that the slopes above Kashmir, Ladakh and Himachal Pradesh be studied with the same seriousness as the lakes below them, before one of them fails without warning.",
-          "Given how much of the region’s population and infrastructure sits downstream, that is a reasonable ask, and one the government should not wait for the next disaster to act on."
+          "When this burst, a catastrophic flash flood travelled almost 100 kilometres downstream.",
+          "There is increasing interest in the role of unusually warm conditions and glacial permafrost instability.",
+          "Warming can increase meltwater penetration into the crevasses of glaciers and weaken ice-rock bonds.",
+          "British Antarctic Survey researchers reported unusually high ground temperatures two days before the collapse.",
+          "There has been no NISAR based assessment of the Nepal flood yet."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The flash floods that tore through the Nepal-Tibet border on August 26 were, for a few days, were described as a Glacial Lake Outburst Flood (GLOF).",
-            "source": "Greater Kashmir",
-            "item_id": "edacfa79dfc3537c8bb2c07c",
+            "text": "On August 26 a glacier collapsed in the Langtang region of Nepal near the China border, triggering an ice and rock avalanche.",
+            "source": "The News Minute",
+            "item_id": "135ad487bdaa8f62e2aa62ab:article",
             "composed": false
           },
           {
-            "text": "Jammu and Kashmir, Ladakh and Himachal Pradesh have already been flagged as the most climate-sensitive part of the Himalayan range, warming faster than other sectors and facing much sharper temperature rises in the decades ahead.",
-            "source": "Greater Kashmir",
-            "item_id": "edacfa79dfc3537c8bb2c07c",
+            "text": "When this burst, a catastrophic flash flood travelled almost 100 kilometres downstream.",
+            "source": "The News Minute",
+            "item_id": "135ad487bdaa8f62e2aa62ab:article",
             "composed": false
           }
         ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/opinion/rethinking-himalayan-floods-12478091"
+        "source": "The News Minute",
+        "corroborating": [
+          "NDTV"
+        ],
+        "url": "https://www.thenewsminute.com/news/satellite-images-show-how-the-nepal-flood-disaster-unfolded-2"
       },
-      "group_size": 1,
+      "group_size": 3,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "8fdd161f53e975b3837cc32d",
@@ -719,7 +692,7 @@
         "event term: 'flood' in title weight 64",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 40, score 64 -> URGENT"
@@ -741,7 +714,7 @@
         "The India Meteorological Department has warned of heavy to very heavy rainfall, with isolated areas likely to receive extremely heavy rainfall exceeding 204.5 mm.",
         "Several districts, including Gaurela-Pendra-Marwahi, Balrampur, Korea, Surguja, Manendragarh-Chirmiri-Bharatpur, Surajpur, Raigarh, Korba, Jashpur, Baloda Bazar and Raipur, face the possibility of sudden flooding during the next 24 hours."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Chhattisgarh faces extremely heavy rainfall, with several districts under flash-flood threat as authorities urge residents to remain vigilant.",
@@ -795,117 +768,6 @@
         "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-heavy-rains-trigger-flash-flood-alerts-in-chhattisgarh-odisha-uttar-pradesh-uttarakhand-and-several-other-states"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "0786233b273786096b1db7c5",
-      "story_id": "0786233b273786096b1db7c5",
-      "headline": "‘I hope and pray’: Manisha Koirala extends support to Nepal after flash flood disaster",
-      "title": "‘I hope and pray’: Manisha Koirala extends support to Nepal after flash flood disaster",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/more-news/entertainment/i-hope-and-pray-manisha-koirala-extends-support-to-nepal-after-flash-flood-disaster",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 70.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-01T04:28:17+00:00",
-      "published_at": "2026-09-01T04:28:17+00:00",
-      "effective_at": "2026-09-01T04:28:17.070000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'disaster'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 64, stack 29, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Actress Manisha Koirala attended the event 'In Solidarity with Nepal' in Nepal, which was organised by Sadhguru's Isha Foundation on Sunday.",
-        "The Bollywood star extended her support and expressed her solidarity with the people of Nepal after the country was hit by a devastating flash flood on Wednesday.",
-        "While speaking at the special solidarity event 'In Solidarity with Nepal', Manisha Koirala urged the international community and neighbouring nations to extend their support to Nepal by increasing tourism.",
-        "\"We are facing the brunt of global warming.",
-        "What should be our next step?",
-        "I request that we, as human beings, our great neighbours, China, India, Nepal, somehow join hands in this and do something collectively.",
-        "We are so linked with each other.",
-        "And to try and avoid something like this.",
-        "I hope and pray.",
-        "Without making sense of this disastrous moment, we become better people.",
-        "We help others just like we'll help our own.\"",
-        "She continued, \"Other than this, I want to request all the international communities..."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Actress Manisha Koirala attended the event 'In Solidarity with Nepal' in Nepal, which was organised by Sadhguru's Isha Foundation on Sunday.",
-          "The Bollywood star extended her support and expressed her solidarity with the people of Nepal after the country was hit by a devastating flash flood on Wednesday."
-        ],
-        "body": [
-          "While speaking at the special solidarity event 'In Solidarity with Nepal', Manisha Koirala urged the international community and neighbouring nations to extend their support to Nepal by increasing tourism.",
-          "\"We are facing the brunt of global warming.",
-          "What should be our next step?",
-          "I request that we, as human beings, our great neighbours, China, India, Nepal, somehow join hands in this and do something collectively.",
-          "We are so linked with each other.",
-          "And to try and avoid something like this.",
-          "I hope and pray.",
-          "Without making sense of this disastrous moment, we become better people."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Actress Manisha Koirala attended the event 'In Solidarity with Nepal' in Nepal, which was organised by Sadhguru's Isha Foundation on Sunday.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "0786233b273786096b1db7c5:article",
-            "composed": false
-          },
-          {
-            "text": "The Bollywood star extended her support and expressed her solidarity with the people of Nepal after the country was hit by a devastating flash flood on Wednesday.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "0786233b273786096b1db7c5:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/more-news/entertainment/i-hope-and-pray-manisha-koirala-extends-support-to-nepal-after-flash-flood-disaster"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -954,7 +816,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1043,6 +905,100 @@
       "enrichment": "article"
     },
     {
+      "event_id": "0a0dcac6b76430e500f094b5",
+      "story_id": "0a0dcac6b76430e500f094b5",
+      "headline": "Over 11,000 rescued from flood-hit areas in Nepal",
+      "title": "Over 11,000 rescued from flood-hit areas in Nepal",
+      "summary": "Nepal has rescued more than 11,000 people from flood-affected areas as search operations continue for thousands still missing. The death toll from the devastating floods has risen to 939.",
+      "url": "https://www.thehansindia.com/news/international/over-11000-rescued-from-flood-hit-areas-in-nepal-1116430",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "low",
+      "score": 60.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-08-31T17:59:30+00:00",
+      "published_at": "2026-09-01T05:12:03+00:00",
+      "effective_at": "2026-09-01T05:12:03+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "greater-kashmir",
+            "hans-india"
+          ],
+          "count": 3
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: fresh (11.6h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Nepal has rescued more than 11,000 people from flood-affected areas as search operations continue for thousands still missing.",
+          "The death toll from the devastating floods has risen to 939."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 11,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Nepal has rescued more than 11,000 people from flood-affected areas as search operations continue for thousands still missing.",
+            "source": "The Hans India",
+            "item_id": "0a0dcac6b76430e500f094b5",
+            "composed": false
+          },
+          {
+            "text": "The death toll from the devastating floods has risen to 939.",
+            "source": "The Hans India",
+            "item_id": "0a0dcac6b76430e500f094b5",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/international/over-11000-rescued-from-flood-hit-areas-in-nepal-1116430"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "e980d168e176b76ee34fbea1",
       "story_id": "e980d168e176b76ee34fbea1",
       "headline": "How Massive Chinese Military Shakeup Complicates India’s Assessment of PLA Intentions Along the LAC",
@@ -1087,10 +1043,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'lac' in title weight 62",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
-        "dominant event 62, stack 32.8, score 62 -> URGENT"
+        "dominant event 62, stack 28.8, score 62 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -1174,7 +1130,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -1261,7 +1217,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (assam)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -1280,7 +1236,7 @@
         "Of the 42 wards, seven seats will be reserved for Scheduled Caste candidates, including three for women.",
         "The remaining 35 seats will be open for contest, with 18 of them reserved for women."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "GUWAHATI: The State Election Commission (SEC) on Monday held a meeting with representatives of various political parties in Guwahati to discuss preparations for the forthcoming Silchar Municipal Corporation (SMC) election.",
@@ -1337,7 +1293,7 @@
         "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-sec-reviews-poll-preparedness-for-silchar-municipal-corporation-election"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1396,7 +1352,7 @@
         "event term: 'takeover' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 50.4, stack 45, score 50.4 -> HIGH"
@@ -1514,6 +1470,145 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "75e8b3d9dc8e22f06fd523f3",
+      "story_id": "75e8b3d9dc8e22f06fd523f3",
+      "headline": "India achieved 7.8 % growth despite wars, instability: PM Modi",
+      "title": "India achieved 7.8 % growth despite wars, instability: PM Modi",
+      "summary": "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions. In a video message on Instagram, the prime minister said that if people continue to stress on Swadeshi and self-reliance, the country's youth will be presented with a developed India in the 100th year of Independence. He also asked people not to go for foreign holidays, host weddings abroad, or buy gold unless necessary. \"I want to congratulate the people of the country for 7.8 per cent GDP growth. It has been possible due to their collective resolve and efforts. India has achieved this milestone despite conflicts, wars and instability everywhere,\" Modi said. The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well. He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same. \"We have to maintain the speed of our growth. We have to grow. And for that we must become self-reliant. The youth's dreams need our hard work to be realised. Let's not be lacking in efforts,\" he said. Modi said his government's policies are good, its intention clear, and that is why the country is reaching new heights of progress. India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia. Gross domestic product (GDP) growth in the first quarter of the 2026-27 fiscal year slowed from a barnstorming 8.6 per cent in the previous quarter, but remained well above expectations when the conflict erupted and disrupted energy markets.",
+      "url": "https://www.greaterkashmir.com/business/india-achieved-78-growth-despite-wars-instability-pm-modi-12478634",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "health",
+        "national-politics",
+        "business-industry",
+        "energy-environment"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T04:25:59+00:00",
+      "published_at": "2026-09-01T04:56:40+00:00",
+      "effective_at": "2026-09-01T04:56:40+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        },
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.2 >= 1.2",
+        "major: significance event 'Pandemic'",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'war' in summary weight 49.2",
+        "event term: 'pandemic' in summary weight 49.2",
+        "event term: 'gdp' in summary weight 22.8",
+        "scale: state scope (delhi)",
+        "recency: breaking (1.1h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions.",
+          "In a video message on Instagram, the prime minister said that if people continue to stress on Swadeshi and self-reliance, the country's youth will be presented with a developed India in the 100th year of Independence."
+        ],
+        "body": [
+          "He also asked people not to go for foreign holidays, host weddings abroad, or buy gold unless necessary.",
+          "\"I want to congratulate the people of the country for 7.8 per cent GDP growth.",
+          "It has been possible due to their collective resolve and efforts.",
+          "India has achieved this milestone despite conflicts, wars and instability everywhere,\" Modi said.",
+          "The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well.",
+          "He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same.",
+          "\"We have to maintain the speed of our growth.",
+          "We have to grow.",
+          "And for that we must become self-reliant.",
+          "The youth's dreams need our hard work to be realised.",
+          "Let's not be lacking in efforts,\" he said.",
+          "Modi said his government's policies are good, its intention clear, and that is why the country is reaching new heights of progress.",
+          "India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia.",
+          "Gross domestic product (GDP) growth in the first quarter of the 2026-27 fiscal year slowed from a barnstorming 8.6 per cent in the previous quarter, but remained well above expectations when the conflict erupted and disrupted energy markets.",
+          "PM Narendra Modi congratulates citizens over latest GDP growth data."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia.",
+            "source": "Greater Kashmir",
+            "item_id": "75e8b3d9dc8e22f06fd523f3",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions.",
+            "source": "Greater Kashmir",
+            "item_id": "75e8b3d9dc8e22f06fd523f3",
+            "composed": false
+          },
+          {
+            "text": "He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same.",
+            "source": "Greater Kashmir",
+            "item_id": "75e8b3d9dc8e22f06fd523f3",
+            "composed": false
+          },
+          {
+            "text": "The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well.",
+            "source": "Greater Kashmir",
+            "item_id": "75e8b3d9dc8e22f06fd523f3",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [
+          "NDTV"
+        ],
+        "url": "https://www.greaterkashmir.com/business/india-achieved-78-growth-despite-wars-instability-pm-modi-12478634"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "55155c62994b9f7a6a44eba6",
       "story_id": "55155c62994b9f7a6a44eba6",
       "headline": "PM Modi, President Putin exchange views on conflicts in West Asia, Black Sea region which have impacted trade and safety of Indian seafarers",
@@ -1558,7 +1653,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 25.4, score 49.2 -> HIGH"
@@ -1691,7 +1786,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 31.4, score 49.2 -> HIGH"
@@ -1803,7 +1898,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1911,131 +2006,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "81e5130e367b83b5dc365611",
-      "story_id": "81e5130e367b83b5dc365611",
-      "headline": "India achieved 7.8 % growth despite wars, instability: PM Modi",
-      "title": "India achieved 7.8 % growth despite wars, instability: PM Modi",
-      "summary": "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions. In a video message on Instagram, the prime minister said that if people continue to stress on Swadeshi and self-reliance, the country's youth will be presented with a developed India in the 100th year of Independence. He also asked people not to go for foreign holidays, host weddings abroad, or buy gold unless necessary. \"I want to congratulate the people of the country for 7.8 per cent GDP growth. It has been possible due to their collective resolve and efforts. India has achieved this milestone despite conflicts, wars and instability everywhere,\" Modi said. The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well. He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same. \"We have to maintain the speed of our growth. We have to grow. And for that we must become self-reliant. The youth's dreams need our hard work to be realised. Let's not be lacking in efforts,\" he said. Modi said his government's policies are good, its intention clear, and that is why the country is reaching new heights of progress. India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia. Gross domestic product (GDP) growth in the first quarter of the 2026-27 fiscal year slowed from a barnstorming 8.6 per cent in the previous quarter, but remained well above expectations when the conflict erupted and disrupted energy markets.",
-      "url": "https://www.greaterkashmir.com/business/india-achieved-78-growth-despite-wars-instability-pm-modi-12478634",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "health",
-        "national-politics",
-        "business-industry",
-        "energy-environment"
-      ],
-      "confidence": "low",
-      "score": 100.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-01T04:56:40+00:00",
-      "published_at": "2026-09-01T04:56:40+00:00",
-      "effective_at": "2026-09-01T04:56:40+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir",
-            "telangana-today"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": true,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "major: significance event 'Pandemic'",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
-        "event term: 'war' in summary weight 49.2",
-        "event term: 'pandemic' in summary weight 49.2",
-        "event term: 'gdp' in summary weight 22.8",
-        "scale: state scope (delhi)",
-        "recency: breaking (0.1h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national significance (local/state event)",
-        "dominant event 49.2, stack 43.6, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions.",
-          "In a video message on Instagram, the prime minister said that if people continue to stress on Swadeshi and self-reliance, the country's youth will be presented with a developed India in the 100th year of Independence."
-        ],
-        "body": [
-          "He also asked people not to go for foreign holidays, host weddings abroad, or buy gold unless necessary.",
-          "\"I want to congratulate the people of the country for 7.8 per cent GDP growth.",
-          "It has been possible due to their collective resolve and efforts.",
-          "India has achieved this milestone despite conflicts, wars and instability everywhere,\" Modi said.",
-          "The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well.",
-          "He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same.",
-          "\"We have to maintain the speed of our growth.",
-          "We have to grow.",
-          "And for that we must become self-reliant.",
-          "The youth's dreams need our hard work to be realised.",
-          "Let's not be lacking in efforts,\" he said.",
-          "Modi said his government's policies are good, its intention clear, and that is why the country is reaching new heights of progress.",
-          "India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia.",
-          "Gross domestic product (GDP) growth in the first quarter of the 2026-27 fiscal year slowed from a barnstorming 8.6 per cent in the previous quarter, but remained well above expectations when the conflict erupted and disrupted energy markets.",
-          "PM Narendra Modi congratulates citizens over latest GDP growth data."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "India's economy grew at a faster-than-expected 7.8 per cent in the April-June quarter, showing resilience against concerns of an economic downturn over the war in West Asia.",
-            "source": "Greater Kashmir",
-            "item_id": "81e5130e367b83b5dc365611",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, Sep 01: Prime Minister Narendra Modi on Tuesday commended the people for the 7.8 per cent GDP growth rate, noting that the feat was accomplished despite wars, instability, and supply chain disruptions.",
-            "source": "Greater Kashmir",
-            "item_id": "81e5130e367b83b5dc365611",
-            "composed": false
-          },
-          {
-            "text": "He said certain people in India have been trying to spread negativity and falsehood, but the country grew all the same.",
-            "source": "Greater Kashmir",
-            "item_id": "81e5130e367b83b5dc365611",
-            "composed": false
-          },
-          {
-            "text": "The prime minister said that since the 2020 COVID Pandemic, there has been no stability anywhere, but India progressed well.",
-            "source": "Greater Kashmir",
-            "item_id": "81e5130e367b83b5dc365611",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [
-          "NDTV"
-        ],
-        "url": "https://www.greaterkashmir.com/business/india-achieved-78-growth-despite-wars-instability-pm-modi-12478634"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "7cf0261378e3514e4d352792",
       "story_id": "7cf0261378e3514e4d352792",
       "headline": "US Supreme Court lets WH continue construction on Trump's $400 mn ballroom",
@@ -2081,7 +2051,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2179,7 +2149,7 @@
         "event term: 'electricity tariff' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -2350,7 +2320,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (ladakh)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 39.2, score 39.2 -> HIGH"
@@ -2494,7 +2464,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 26, score 38.4 -> HIGH"
@@ -2561,6 +2531,88 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "e9716a4f3d45ee94b9ea5be8",
+      "story_id": "e9716a4f3d45ee94b9ea5be8",
+      "headline": "Rupee gains 26 paise as 7.8% GDP growth offsets global market jitters",
+      "title": "Rupee gains 26 paise as 7.8% GDP growth offsets global market jitters",
+      "summary": "On Tuesday, the Indian Rupee showcased its strength, appreciating against the US dollar. This upward shift is attributed to vigorous domestic economic growth alongside strong portfolio inflows. Notably, the rupee found temporary support from MSCI-related investments, overcoming the initial sluggishness in domestic stocks and foreign institutional selling. This performance reflects India's robust economic resilience in the face of global uncertainties.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-jumps-26-paise-against-us-dollar-after-strong-gdp-numbers/articleshow/133668922.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 91.0,
+      "priority_score": 38.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T05:04:31+00:00",
+      "published_at": "2026-09-01T05:04:31+00:00",
+      "effective_at": "2026-09-01T05:04:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'gdp' in title weight 38",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 38, stack 27.6, score 38 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "On Tuesday, the Indian Rupee showcased its strength, appreciating against the US dollar.",
+          "This upward shift is attributed to vigorous domestic economic growth alongside strong portfolio inflows."
+        ],
+        "body": [
+          "Notably, the rupee found temporary support from MSCI-related investments, overcoming the initial sluggishness in domestic stocks and foreign institutional selling.",
+          "This performance reflects India's robust economic resilience in the face of global uncertainties."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "On Tuesday, the Indian Rupee showcased its strength, appreciating against the US dollar.",
+            "source": "Times of India",
+            "item_id": "e9716a4f3d45ee94b9ea5be8",
+            "composed": false
+          },
+          {
+            "text": "Notably, the rupee found temporary support from MSCI-related investments, overcoming the initial sluggishness in domestic stocks and foreign institutional selling.",
+            "source": "Times of India",
+            "item_id": "e9716a4f3d45ee94b9ea5be8",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-jumps-26-paise-against-us-dollar-after-strong-gdp-numbers/articleshow/133668922.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "614560d64b860b3d75da57bf",
       "story_id": "614560d64b860b3d75da57bf",
       "headline": "PM Modi's 'jhooth ki goonj' swipe at Rahul Gandhi comes with a Gen Z-style GDP pitch",
@@ -2601,7 +2653,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
