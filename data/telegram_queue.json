@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:11:50.357902+00:00",
+  "generated_at": "2026-09-01T00:21:41.013119+00:00",
   "count": 7,
   "stories": [
     {
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "geo: national",
         "dominant event 82, stack 20, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -134,7 +134,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "geo: national",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -224,7 +224,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'union budget' in summary weight 26.4",
         "scale: state scope (bihar)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -384,7 +384,7 @@
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -606,7 +606,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -714,7 +714,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -850,31 +850,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "2f3f3bfbbaadaa9944eec117",
-      "story_id": "2f3f3bfbbaadaa9944eec117",
-      "headline": "India needs to raise investment rate to 34-35% of GDP for faster growth: Economist Surjit Bhalla",
-      "title": "India needs to raise investment rate to 34-35% of GDP for faster growth: Economist Surjit Bhalla",
-      "summary": "India's current investment-to-GDP ratio of around 28-30% would support long-term growth of about 6.5%, says economist Surjit Bhalla",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-needs-to-raise-investment-rate-to-34-35-of-gdp-for-faster-growth-economist-surjit-bhalla-552418-2026-08-31",
-      "source": "Business Today",
+      "event_id": "2aedff24e1c4f9b29dd32478",
+      "story_id": "2aedff24e1c4f9b29dd32478",
+      "headline": "After Supreme Court judge’s letters, Collegium recommends new Chief Justice for Rajasthan HC",
+      "title": "After Supreme Court judge’s letters, Collegium recommends new Chief Justice for Rajasthan HC",
+      "summary": "Resolution by the Collegium came a weekend after letters written by serving top court judge Justice Sandeep Mehta, complaining of the conduct of Rajasthan Acting Chief Justice S.P. Sharma, became public",
+      "url": "https://www.thehindu.com/news/national/after-supreme-court-judges-letters-collegium-recommends-new-chief-justice-for-rajasthan-hc/article71412531.ece",
+      "source": "The Hindu",
       "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
+      "tier": 2,
+      "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 67.0,
+      "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-08-31T18:16:09+00:00",
-      "published_at": "2026-08-31T18:16:09+00:00",
-      "effective_at": "2026-08-31T18:16:09+00:00",
+      "event_time": "2026-08-31T20:37:29+00:00",
+      "published_at": "2026-08-31T20:37:29+00:00",
+      "effective_at": "2026-08-31T20:37:29+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatoday": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "business-today"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -883,89 +883,83 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
+        "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'gdp' in title weight 38",
-        "event term: 'gdp' in summary weight 22.8",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'chief justice' in title weight 42",
+        "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
+        "recency: fresh (3.7h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 38, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "rajasthan",
       "national_significance": true,
       "article_sentences": [
-        "India's economy grew 7.8% in the first quarter of FY27.",
-        "\"The most important policy that has been tried and tested in India and every other country in the world is that the investment rate,\" Bhalla said while speaking to news agency ANI.",
-        "He said India would need to raise the investment rate to around 34-35% of GDP to accelerate growth.",
-        "\"Now, some years you get 7%, some years you get 7.5, some years, we get even 8,\" Bhalla said.",
-        "The noted economist pointed to the 2004-2013 period, when India sustained an investment rate of around 34% and recorded higher economic growth.",
-        "Bhalla said the effectiveness of investment also depends on global conditions.",
-        "\"If global conditions are very favorable, then you may want that you can achieve a higher growth rate with a lower rate of investment,\" he said.",
-        "\"But if the global conditions are as they are now and may even get worse, then you definitely need to step up the investment rate.\"",
-        "According to Bhalla, India's overall investment rate had remained relatively high, but its composition had changed sharply.",
-        "Private investment, he said, has declined by around 5-7 percentage points since 2011-12.",
-        "\"We've had a higher investment rate.",
-        "As I said, 28 to 30."
+        "The Supreme Court Collegium on Monday (August 31, 2026) recommended Chhattisgarh High Court judge, Justice Sanjay K. Agrawal, for appointment as the Chief Justice of the Rajasthan High Court.",
+        "The resolution by the Collegium headed by Chief Justice of India Surya Kant came days after letters written by serving top court judge Justice Sandeep Mehta, complaining of the conduct of Rajasthan Acting Chief Justice S.P. Sharma, became public.",
+        "Justice Mehta, in a series of three letters in August, had accused Justice Sharma of “favouritism” and misconduct.",
+        "The Supreme Court judge highlighted that his entreaties to Chief Justice Kant to transfer Justice Sharma out of Rajasthan failed to evoke any response.",
+        "Justice Mehta had sought a regular Chief Justice for the Rajasthan High Court.",
+        "Justice Sharma had been the Acting Chief Justice for the past 10 months.",
+        "Chief Justice Kant had issued a press statement the same day the letters came into the public domain.",
+        "In his statement, the CJI had said the Collegium would consider Justice Mehta’s allegations through an institutional mechanism.",
+        "The Collegium has also recommended new Chief Justices for two other High Courts – Madhya Pradesh and Jammu & Kashmir and Ladakh.",
+        "Justices Alpesh Yeshvant Kogje of Gujarat and Dr. Pushpinder Singh Bhati of Rajasthan have been suggested for appointment as Chief Justices of Madhya Pradesh and Jammu & Kashmir and Ladakh High Courts, respectively.",
+        "In a separate resolution, the Supreme Court Collegium said it had recommended, in a meeting held on August 6, to appoint Justice Krushna Ram Mohapatra, a judge of the High Court of Orissa, as Chief Justice of the Chhattisgarh High Court on the retirement of the incumbent on September 4, 2026.",
+        "The Collegium has, in a separate resolution, recommended the immediate transfer of Justice Agrawal to the Rajasthan High Court, pending his appointment as its Chief Justice."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "India's economy grew 7.8% in the first quarter of FY27.",
-          "\"The most important policy that has been tried and tested in India and every other country in the world is that the investment rate,\" Bhalla said while speaking to news agency ANI."
+          "The Supreme Court Collegium on Monday (August 31, 2026) recommended Chhattisgarh High Court judge, Justice Sanjay K. Agrawal, for appointment as the Chief Justice of the Rajasthan High Court.",
+          "The resolution by the Collegium headed by Chief Justice of India Surya Kant came days after letters written by serving top court judge Justice Sandeep Mehta, complaining of the conduct of Rajasthan Acting Chief Justice S.P. Sharma, became public."
         ],
         "body": [
-          "He said India would need to raise the investment rate to around 34-35% of GDP to accelerate growth.",
-          "\"Now, some years you get 7%, some years you get 7.5, some years, we get even 8,\" Bhalla said.",
-          "Bhalla said the effectiveness of investment also depends on global conditions.",
-          "\"If global conditions are very favorable, then you may want that you can achieve a higher growth rate with a lower rate of investment,\" he said.",
-          "\"But if the global conditions are as they are now and may even get worse, then you definitely need to step up the investment rate.\" According to Bhalla, India's overall investment rate had remained relatively high, but its composition had changed sharply.",
-          "Private investment, he said, has declined by around 5-7 percentage points since 2011-12.",
-          "\"We've had a higher investment rate.",
-          "As I said, 28 to 30."
+          "Justice Mehta, in a series of three letters in August, had accused Justice Sharma of “favouritism” and misconduct.",
+          "The Supreme Court judge highlighted that his entreaties to Chief Justice Kant to transfer Justice Sharma out of Rajasthan failed to evoke any response.",
+          "Justice Mehta had sought a regular Chief Justice for the Rajasthan High Court.",
+          "Justice Sharma had been the Acting Chief Justice for the past 10 months.",
+          "Chief Justice Kant had issued a press statement the same day the letters came into the public domain.",
+          "In his statement, the CJI had said the Collegium would consider Justice Mehta’s allegations through an institutional mechanism.",
+          "The Collegium has also recommended new Chief Justices for two other High Courts – Madhya Pradesh and Jammu & Kashmir and Ladakh.",
+          "Justices Alpesh Yeshvant Kogje of Gujarat and Dr. Pushpinder Singh Bhati of Rajasthan have been suggested for appointment as Chief Justices of Madhya Pradesh and Jammu & Kashmir and Ladakh High Courts, respectively."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "India"
+            "text": "August"
           }
         ],
         "sentences": [
           {
-            "text": "He said India would need to raise the investment rate to around 34-35% of GDP to accelerate growth.",
-            "source": "Business Today",
-            "item_id": "2f3f3bfbbaadaa9944eec117:article",
+            "text": "The Supreme Court Collegium on Monday (August 31, 2026) recommended Chhattisgarh High Court judge, Justice Sanjay K. Agrawal, for appointment as the Chief Justice of the Rajasthan High Court.",
+            "source": "The Hindu",
+            "item_id": "2aedff24e1c4f9b29dd32478:article",
             "composed": false
           },
           {
-            "text": "India's economy grew 7.8% in the first quarter of FY27.",
-            "source": "Business Today",
-            "item_id": "2f3f3bfbbaadaa9944eec117:article",
+            "text": "Justice Mehta, in a series of three letters in August, had accused Justice Sharma of “favouritism” and misconduct.",
+            "source": "The Hindu",
+            "item_id": "2aedff24e1c4f9b29dd32478:article",
             "composed": false
           },
           {
-            "text": "\"The most important policy that has been tried and tested in India and every other country in the world is that the investment rate,\" Bhalla said while speaking to news agency ANI.",
-            "source": "Business Today",
-            "item_id": "2f3f3bfbbaadaa9944eec117:article",
-            "composed": false
-          },
-          {
-            "text": "\"Now, some years you get 7%, some years you get 7.5, some years, we get even 8,\" Bhalla said.",
-            "source": "Business Today",
-            "item_id": "2f3f3bfbbaadaa9944eec117:article",
+            "text": "Justice Sharma had been the Acting Chief Justice for the past 10 months.",
+            "source": "The Hindu",
+            "item_id": "2aedff24e1c4f9b29dd32478:article",
             "composed": false
           }
         ],
-        "source": "Business Today",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.businesstoday.in/latest/economy/story/india-needs-to-raise-investment-rate-to-34-35-of-gdp-for-faster-growth-economist-surjit-bhalla-552418-2026-08-31"
+        "url": "https://www.thehindu.com/news/national/after-supreme-court-judges-letters-collegium-recommends-new-chief-justice-for-rajasthan-hc/article71412531.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
