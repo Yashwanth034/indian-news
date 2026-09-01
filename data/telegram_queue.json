@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T18:51:38.519320+00:00",
-  "count": 8,
+  "generated_at": "2026-09-01T19:02:17.191127+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "c0ea5fabfefc434694ede48c",
@@ -51,7 +51,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -136,7 +136,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 34, score 64 -> URGENT"
@@ -242,10 +242,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 28, score 64 -> URGENT"
+        "dominant event 64, stack 24, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -364,7 +364,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 17, score 50.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -372,7 +372,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Sep 1: A toll-free helpline launched by the Omar Abdullah-led government in the aftermath of the Pahalgam terror attack has evolved into a round-the-clock support mechanism for residents of Jammu and Kashmir facing difficulties across India and abroad.",
@@ -425,6 +425,88 @@
         "url": "https://risingkashmir.com/politics/cms-helpline-emerges-as-lifeline-for-residents-outside-ut-12481642"
       },
       "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "68aadef5426941d50223841e",
+      "story_id": "68aadef5426941d50223841e",
+      "headline": "Dr. Farooq calls for end to Middle East conflict",
+      "title": "Dr. Farooq calls for end to Middle East conflict",
+      "summary": "Srinagar, Sep 1: Jammu and Kashmir National Conference president Dr Farooq Abdullah on Tuesday expressed concern over the continuing conflict in the Middle East and its widening humanitarian and economic consequences. Abdullah appealed to countries, world leaders and the United Nations to take urgent and meaningful steps to end the ongoing war and restore peace and stability in the region. He said prolonged conflicts not only cause immense human suffering but also have serious repercussions for the global economy, aggravating poverty and hardship worldwide. Abdullah also called for an immediate end to the Israel-Palestine conflict and urged all sides to work towards a peaceful and lasting resolution.",
+      "url": "https://risingkashmir.com/politics/dr-farooq-calls-for-end-to-middle-east-conflict-12481654",
+      "source": "Rising Kashmir",
+      "primary_source": false,
+      "tier": 3,
+      "category": null,
+      "secondary_categories": [
+        "international-affairs"
+      ],
+      "confidence": "medium",
+      "score": 68.4,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T18:53:22+00:00",
+      "published_at": "2026-09-01T18:53:22+00:00",
+      "effective_at": "2026-09-01T18:53:22+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "rising-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (rising-kashmir) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'war' in summary weight 49.2",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.1h ago) +8",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 17, score 49.2 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Srinagar, Sep 1: Jammu and Kashmir National Conference president Dr Farooq Abdullah on Tuesday expressed concern over the continuing conflict in the Middle East and its widening humanitarian and economic consequences.",
+          "Abdullah appealed to countries, world leaders and the United Nations to take urgent and meaningful steps to end the ongoing war and restore peace and stability in the region."
+        ],
+        "body": [
+          "He said prolonged conflicts not only cause immense human suffering but also have serious repercussions for the global economy, aggravating poverty and hardship worldwide.",
+          "Abdullah also called for an immediate end to the Israel-Palestine conflict and urged all sides to work towards a peaceful and lasting resolution."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Srinagar, Sep 1: Jammu and Kashmir National Conference president Dr Farooq Abdullah on Tuesday expressed concern over the continuing conflict in the Middle East and its widening humanitarian and economic consequences.",
+            "source": "Rising Kashmir",
+            "item_id": "68aadef5426941d50223841e",
+            "composed": false
+          },
+          {
+            "text": "Abdullah appealed to countries, world leaders and the United Nations to take urgent and meaningful steps to end the ongoing war and restore peace and stability in the region.",
+            "source": "Rising Kashmir",
+            "item_id": "68aadef5426941d50223841e",
+            "composed": false
+          }
+        ],
+        "source": "Rising Kashmir",
+        "corroborating": [],
+        "url": "https://risingkashmir.com/politics/dr-farooq-calls-for-end-to-middle-east-conflict-12481654"
+      },
+      "group_size": 1,
       "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
@@ -474,7 +556,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -611,7 +693,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -658,6 +740,118 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "8195807d112af20c4968e379",
+      "story_id": "8195807d112af20c4968e379",
+      "headline": "Delhi Cabinet clears free rooftop solar systems for households using up to 400 units",
+      "title": "Delhi Cabinet clears free rooftop solar systems for households using up to 400 units",
+      "summary": "",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-clears-free-rooftop-solar-systems-for-households-using-up-to-400-units/article71417045.ece",
+      "source": "The Hindu - Delhi",
+      "primary_source": false,
+      "tier": 2,
+      "category": "energy-environment",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T18:49:58+00:00",
+      "published_at": "2026-09-01T18:49:58+00:00",
+      "effective_at": "2026-09-01T18:49:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-delhi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-delhi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet clears' in title weight 44",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.2h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: state",
+        "dominant event 44, stack 17.2, score 44 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": false,
+      "article_sentences": [
+        "The Delhi Cabinet on Tuesday approved second amendment to Delhi Solar Energy Policy, 2023, under which rooftop solar systems of up to 3 kW will be installed for free for domestic consumers with an average consumption of up to 400 units per month.",
+        "Chief Minister Rekha Gupta said consumers using up to 200 units of electricity would not only continue to receive the subsidy after installing rooftop solar systems but would also earn an energy-saving incentive for the electricity they save.",
+        "The government has set a target of installing solar systems on 2.3 lakh rooftops and adding 500 MW of rooftop solar capacity by March 2027.",
+        "Ms. Gupta said work to install solar systems on government buildings is already under way.",
+        "In addition to the ₹78,000 subsidy provided by the Central government, the Delhi government will provide a Capital subsidy of ₹78,000.",
+        "It will also provide an additional top-up to cover the difference between the subsidies and the tendered cost of the solar plant, the Chief Minister’s Office stated.",
+        "Power Minister Ashish Sood said the government has “shattered the AAP’s (Aam Aadmi Party) massive lie that free electricity cannot be sustained”.",
+        "“We have not only kept free electricity alive, but have secured and institutionalised it for the next 25 years,” Mr. Sood said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Delhi Cabinet on Tuesday approved second amendment to Delhi Solar Energy Policy, 2023, under which rooftop solar systems of up to 3 kW will be installed for free for domestic consumers with an average consumption of up to 400 units per month.",
+          "Chief Minister Rekha Gupta said consumers using up to 200 units of electricity would not only continue to receive the subsidy after installing rooftop solar systems but would also earn an energy-saving incentive for the electricity they save."
+        ],
+        "body": [
+          "The government has set a target of installing solar systems on 2.3 lakh rooftops and adding 500 MW of rooftop solar capacity by March 2027.",
+          "Ms. Gupta said work to install solar systems on government buildings is already under way.",
+          "In addition to the ₹78,000 subsidy provided by the Central government, the Delhi government will provide a Capital subsidy of ₹78,000.",
+          "It will also provide an additional top-up to cover the difference between the subsidies and the tendered cost of the solar plant, the Chief Minister’s Office stated.",
+          "Power Minister Ashish Sood said the government has “shattered the AAP’s (Aam Aadmi Party) massive lie that free electricity cannot be sustained”.",
+          "“We have not only kept free electricity alive, but have secured and institutionalised it for the next 25 years,” Mr. Sood said."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Delhi Cabinet on Tuesday approved second amendment to Delhi Solar Energy Policy, 2023, under which rooftop solar systems of up to 3 kW will be installed for free for domestic consumers with an average consumption of up to 400 units per month.",
+            "source": "The Hindu - Delhi",
+            "item_id": "8195807d112af20c4968e379:article",
+            "composed": false
+          },
+          {
+            "text": "The government has set a target of installing solar systems on 2.3 lakh rooftops and adding 500 MW of rooftop solar capacity by March 2027.",
+            "source": "The Hindu - Delhi",
+            "item_id": "8195807d112af20c4968e379:article",
+            "composed": false
+          },
+          {
+            "text": "Chief Minister Rekha Gupta said consumers using up to 200 units of electricity would not only continue to receive the subsidy after installing rooftop solar systems but would also earn an energy-saving incentive for the electricity they save.",
+            "source": "The Hindu - Delhi",
+            "item_id": "8195807d112af20c4968e379:article",
+            "composed": false
+          },
+          {
+            "text": "In addition to the ₹78,000 subsidy provided by the Central government, the Delhi government will provide a Capital subsidy of ₹78,000.",
+            "source": "The Hindu - Delhi",
+            "item_id": "8195807d112af20c4968e379:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Delhi",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-clears-free-rooftop-solar-systems-for-households-using-up-to-400-units/article71417045.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "53b58ab17c9d3285078e712e",
       "story_id": "53b58ab17c9d3285078e712e",
       "headline": "Supreme Court Daily Round-Up : September 1, 2026",
@@ -699,7 +893,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -790,7 +984,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
