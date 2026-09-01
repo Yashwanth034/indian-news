@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T18:31:53.529121+00:00",
-  "count": 7,
+  "generated_at": "2026-09-01T18:41:48.483722+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "c0ea5fabfefc434694ede48c",
@@ -51,7 +51,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -136,7 +136,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 34, score 64 -> URGENT"
@@ -242,7 +242,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 28, score 64 -> URGENT"
@@ -322,6 +322,128 @@
       "enrichment": "article"
     },
     {
+      "event_id": "29932c3c4c13835384ab8e8b",
+      "story_id": "29932c3c4c13835384ab8e8b",
+      "headline": "UP rains: Flood hits Lakhimpur, Varanasi; Mandakini rises 4 metre above danger",
+      "title": "UP rains: Flood hits Lakhimpur, Varanasi; Mandakini rises 4 metre above danger",
+      "summary": "Heavy rain triggers flooding across UP, disrupting trains and forcing evacuations as Ganga rises in Varanasi and Mandakini breaches danger mark in Chitrakoot",
+      "url": "https://www.nationalheraldindia.com/national/up-rains-flood-hits-lakhimpur-varanasi-mandakini-rises-4-metre-above-danger",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 64.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T13:46:46+00:00",
+      "published_at": "2026-09-01T13:46:46+00:00",
+      "effective_at": "2026-09-01T13:46:46.634000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (uttar pradesh)",
+        "recency: fresh (4.9h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 20, score 64 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "uttar pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
+        "In Varanasi, rising waters of the Ganga flooded several lanes, prompting authorities to deploy boats in waterlogged areas.",
+        "Cremations at the Manikarnika and Harishchandra ghats were shifted to rooftops and bylanes after water inundated the traditional cremation spots.",
+        "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
+        "The river was rising at a rate of 0.5 cm per hour, the CWC said.",
+        "The highest-ever recorded water level in Varanasi is 73.901 metres.",
+        "Several families affected by waterlogging in areas along the Varuna river had already been evacuated and moved to relief camps, district officials said.",
+        "The situation in Lakhimpur Kheri was also affected by rising water levels in the Sharda river, which disrupted train services on the Mailani-Nanpara section.",
+        "Water seepage between Bhira and Palia stations led to the suspension of around half a dozen trains.",
+        "North Eastern Railway PRO Mahesh Gupta said train services between Mailani, Bichhia and Nanpara would remain suspended until further orders.",
+        "Amid heavy rainfall, district basic education officer Pravin Tiwari announced a holiday for all schools up to Class 8 in Lakhimpur Kheri on Tuesday.",
+        "The Nepal border areas also remained a concern, with water levels rising in the Mohana and Karnali rivers in the Tikunia area of Nighasan tehsil."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
+          "In Varanasi, rising waters of the Ganga flooded several lanes, prompting authorities to deploy boats in waterlogged areas."
+        ],
+        "body": [
+          "Cremations at the Manikarnika and Harishchandra ghats were shifted to rooftops and bylanes after water inundated the traditional cremation spots.",
+          "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
+          "The river was rising at a rate of 0.5 cm per hour, the CWC said.",
+          "The highest-ever recorded water level in Varanasi is 73.901 metres.",
+          "The situation in Lakhimpur Kheri was also affected by rising water levels in the Sharda river, which disrupted train services on the Mailani-Nanpara section.",
+          "Water seepage between Bhira and Palia stations led to the suspension of around half a dozen trains.",
+          "North Eastern Railway PRO Mahesh Gupta said train services between Mailani, Bichhia and Nanpara would remain suspended until further orders."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Lakhimpur Kheri"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Several families affected by waterlogging in areas along the Varuna river had already been evacuated and moved to relief camps, district officials said."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Incessant rain triggered flooding in several parts of Uttar Pradesh on Tuesday, forcing the closure of schools up to Class 8 in Lakhimpur Kheri, disrupting train services and inundating parts of Varanasi, while the Mandakini river in Chitrakoot rose around four metres above the danger mark.",
+            "source": "National Herald",
+            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "composed": false
+          },
+          {
+            "text": "According to the Central Water Commission (CWC), the Ganga's water level in Varanasi stood at 70.28 metres at 10 am, above the warning level of 70.26 metres but below the danger mark of 71.262 metres.",
+            "source": "National Herald",
+            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "composed": false
+          },
+          {
+            "text": "The highest-ever recorded water level in Varanasi is 73.901 metres.",
+            "source": "National Herald",
+            "item_id": "29932c3c4c13835384ab8e8b:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/national/up-rains-flood-hits-lakhimpur-varanasi-mandakini-rises-4-metre-above-danger"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "f19bb6433702ac61ca2c43bf",
       "story_id": "f19bb6433702ac61ca2c43bf",
       "headline": "The bonds yield warning markets can no longer ignore",
@@ -367,7 +489,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -504,7 +626,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -592,7 +714,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -683,7 +805,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
