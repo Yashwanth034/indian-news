@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T11:41:39.220449+00:00",
-  "count": 15,
+  "generated_at": "2026-09-02T11:51:35.393484+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "f5201a8e48d520271ac1ef30",
@@ -54,7 +54,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -138,6 +138,93 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "564a3dd64b9c0161e074edca",
+      "story_id": "564a3dd64b9c0161e074edca",
+      "headline": "Artificial flood from Glen Canyon Dam rebuilt Grand Canyon sandbars in 8 days",
+      "title": "Artificial flood from Glen Canyon Dam rebuilt Grand Canyon sandbars in 8 days",
+      "summary": "In 1996, a controlled flood was executed in the Grand Canyon to rejuvenate its natural river dynamics. Leveraging the Glen Canyon Dam, scientists released substantial volumes of water to transport sediment downstream, with the goal of restoring sandbars that had diminished due to the dam's existence. This initiative highlighted the potential of dam operations to contribute positively to ecological restoration, paving the way for future river management experiments.",
+      "url": "https://timesofindia.indiatimes.com/science/scientists-released-up-to-45000-cubic-feet-of-water-per-second-from-glen-canyon-dam-for-8-days-in-1996-the-artificial-flood-rebuilt-grand-canyon-sandbars/articleshow/133708366.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "science-space"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-02T11:33:19+00:00",
+      "published_at": "2026-09-02T11:33:19+00:00",
+      "effective_at": "2026-09-02T11:33:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "In 1996, a controlled flood was executed in the Grand Canyon to rejuvenate its natural river dynamics.",
+          "Leveraging the Glen Canyon Dam, scientists released substantial volumes of water to transport sediment downstream, with the goal of restoring sandbars that had diminished due to the dam's existence."
+        ],
+        "body": [
+          "This initiative highlighted the potential of dam operations to contribute positively to ecological restoration, paving the way for future river management experiments."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "In 1996, a controlled flood was executed in the Grand Canyon to rejuvenate its natural river dynamics.",
+            "source": "Times of India",
+            "item_id": "564a3dd64b9c0161e074edca",
+            "composed": false
+          },
+          {
+            "text": "Leveraging the Glen Canyon Dam, scientists released substantial volumes of water to transport sediment downstream, with the goal of restoring sandbars that had diminished due to the dam's existence.",
+            "source": "Times of India",
+            "item_id": "564a3dd64b9c0161e074edca",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/science/scientists-released-up-to-45000-cubic-feet-of-water-per-second-from-glen-canyon-dam-for-8-days-in-1996-the-artificial-flood-rebuilt-grand-canyon-sandbars/articleshow/133708366.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "cc9ae8935c151b631d5aee7a",
       "story_id": "cc9ae8935c151b631d5aee7a",
       "headline": "Nepal Flood Miracle? One Turquoise House Stands As Family Survives Deadly Trishuli Disaster",
@@ -187,7 +274,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -279,7 +366,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -397,7 +484,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 62, stack 26.4, score 62 -> URGENT"
@@ -504,7 +591,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -610,7 +697,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
@@ -704,7 +791,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -819,7 +906,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -911,7 +998,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1010,7 +1097,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1106,7 +1193,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1228,7 +1315,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1336,7 +1423,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 21.6, stack 40.6, score 40.6 -> HIGH"
@@ -1464,7 +1551,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (6.9h ago) +4",
+        "recency: fresh (7.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 26, score 38.4 -> HIGH"
@@ -1586,7 +1673,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 31.6, score 38 -> HIGH"
