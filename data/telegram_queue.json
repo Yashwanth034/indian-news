@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T06:21:45.780039+00:00",
-  "count": 15,
+  "generated_at": "2026-09-02T06:32:01.915067+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "cf903ad2e55dad858e94a091",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (sikkim)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -168,7 +168,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -296,7 +296,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -401,10 +401,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "dominant event 64, stack 19, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -529,7 +529,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (23.1h ago) +4",
+        "recency: fresh (23.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -637,7 +637,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -773,7 +773,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -863,6 +863,95 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "5ddfd5719a19770d85caea54",
+      "story_id": "5ddfd5719a19770d85caea54",
+      "headline": "India GDP Grows 7.8%: Modi Hails Growth, BJP Hits Back At Rahul Gandhi's 'Economic Tsunami'",
+      "title": "India GDP Grows 7.8%: Modi Hails Growth, BJP Hits Back At Rahul Gandhi's 'Economic Tsunami'",
+      "summary": "India's economy grew a stronger-than-expected 7.8% in the April-June quarter, beating the RBI's 7% forecast. Manufacturing expanded 9.2%, services grew 10%, while investment surged 11.9%, signalling broad-based momentum. PM Narendra Modi hailed the growth as a major achievement and renewed his push for Aatmanirbhar Bharat, Swadeshi and Vocal for Local. The GDP figures have also triggered a political war, with the BJP targeting Rahul Gandhi's earlier warning of an “economic tsunami”, while Congress questions whether headline growth is translating into jobs, incomes and benefits for ordinary Indians.",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/india-gdp-grows-7-8-modi-hails-growth-bjp-hits-back-at-rahul-gandhis-economic-tsunami-552739-2026-09-02",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "economy-finance",
+        "business-industry",
+        "jobs-employment"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-02T06:00:14+00:00",
+      "published_at": "2026-09-02T06:00:14+00:00",
+      "effective_at": "2026-09-02T06:00:14+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'gdp' in title weight 38",
+        "event term: 'war' in summary weight 49.2",
+        "event term: 'gdp' in summary weight 22.8",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India's economy grew a stronger-than-expected 7.8% in the April-June quarter, beating the RBI's 7% forecast.",
+          "Manufacturing expanded 9.2%, services grew 10%, while investment surged 11.9%, signalling broad-based momentum."
+        ],
+        "body": [
+          "PM Narendra Modi hailed the growth as a major achievement and renewed his push for Aatmanirbhar Bharat, Swadeshi and Vocal for Local.",
+          "The GDP figures have also triggered a political war, with the BJP targeting Rahul Gandhi's earlier warning of an “economic tsunami”, while Congress questions whether headline growth is translating into jobs, incomes and benefits for ordinary Indians."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India's economy grew a stronger-than-expected 7.8% in the April-June quarter, beating the RBI's 7% forecast.",
+            "source": "Business Today",
+            "item_id": "5ddfd5719a19770d85caea54",
+            "composed": false
+          },
+          {
+            "text": "Manufacturing expanded 9.2%, services grew 10%, while investment surged 11.9%, signalling broad-based momentum.",
+            "source": "Business Today",
+            "item_id": "5ddfd5719a19770d85caea54",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/india-gdp-grows-7-8-modi-hails-growth-bjp-hits-back-at-rahul-gandhis-economic-tsunami-552739-2026-09-02"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "c46774aaff1028a0ce4e128c",
       "story_id": "c46774aaff1028a0ce4e128c",
       "headline": "US and Iran trade strikes, and other Mideast news",
@@ -913,7 +1002,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1082,7 +1171,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (11.7h ago) +4",
+        "recency: fresh (11.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1204,7 +1293,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (10.9h ago) +4",
+        "recency: fresh (11.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 37.2, stack 45, score 45 -> HIGH"
@@ -1386,7 +1475,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1507,7 +1596,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1616,7 +1705,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1722,7 +1811,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'judgment' in summary weight 10.8",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
@@ -2017,7 +2106,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (9.5h ago) +4",
+        "recency: fresh (9.7h ago) +4",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 20, score 38.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
