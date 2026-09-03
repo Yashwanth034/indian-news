@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T11:21:47.182771+00:00",
-  "count": 24,
+  "generated_at": "2026-09-03T11:32:01.220149+00:00",
+  "count": 25,
   "stories": [
     {
       "event_id": "60912846d04df576c1ef9b0d",
@@ -42,7 +42,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -153,7 +153,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -263,7 +263,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 32.8, score 70 -> URGENT"
@@ -407,7 +407,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -452,6 +452,146 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "deaf9a205f2326f5e7858981",
+      "story_id": "deaf9a205f2326f5e7858981",
+      "headline": "Around 100 Nepalese nationals missing after border floods, foreign ministry says",
+      "title": "Around 100 Nepalese nationals missing after border floods, foreign ministry says",
+      "summary": "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+      "url": "https://www.nationalheraldindia.com/international/around-100-nepalese-nationals-missing-after-border-floods-foreign-ministry-says",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "high",
+      "score": 60.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T06:02:27+00:00",
+      "published_at": "2026-09-03T06:27:10+00:00",
+      "effective_at": "2026-09-03T06:27:10.456000+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "bbc-india": {
+          "kind": "independent",
+          "source_ids": [
+            "bbc-india"
+          ],
+          "count": 1
+        },
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: very old (53.5h) -2",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+        "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal.",
+        "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+        "The bodies were reportedly carried by the current from the Bhotekoshi into the Trishuli and Narayani rivers before crossing the border.",
+        "They were found near Indian areas adjoining Nepal’s Rupandehi and Nawalparasi West districts and are being handed over to Nepalese authorities.",
+        "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+        "About 3,000 Nepalese nationals who had travelled to Tibet for pilgrimage and business were stranded following the disaster.",
+        "More than 2,500 have since returned through the Hilsa and Tatopani border crossings or by air, he said.",
+        "The spokesperson added that around 1,500 Nepalese nationals were still stranded at the Kerung border point.",
+        "Officials from Nepal and China were discussing arrangements for their safe evacuation.",
+        "The flash floods were triggered by an ice-rock avalanche near the Nepal-Tibet border on 26 August.",
+        "The resulting surge of water devastated settlements across large parts of northern and central Nepal, causing widespread destruction and leaving thousands of people missing."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+          "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal."
+        ],
+        "body": [
+          "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+          "The bodies were reportedly carried by the current from the Bhotekoshi into the Trishuli and Narayani rivers before crossing the border.",
+          "They were found near Indian areas adjoining Nepal’s Rupandehi and Nawalparasi West districts and are being handed over to Nepalese authorities.",
+          "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+          "About 3,000 Nepalese nationals who had travelled to Tibet for pilgrimage and business were stranded following the disaster.",
+          "More than 2,500 have since returned through the Hilsa and Tatopani border crossings or by air, he said.",
+          "The spokesperson added that around 1,500 Nepalese nationals were still stranded at the Kerung border point.",
+          "Officials from Nepal and China were discussing arrangements for their safe evacuation."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rasuwa district"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 1,200 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/international/around-100-nepalese-nationals-missing-after-border-floods-foreign-ministry-says"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "e9d4fee1e17da5c276315338",
@@ -505,7 +645,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -630,7 +770,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -761,7 +901,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (assam)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -851,7 +991,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -921,57 +1061,69 @@
     {
       "event_id": "8408b1653086de1a5ea22895",
       "story_id": "8408b1653086de1a5ea22895",
-      "headline": "Nepal flash floods: Death toll rises to 1,252 as more bodies recovered",
-      "title": "Nepal flash floods: Death toll rises to 1,252 as more bodies recovered",
-      "summary": "The death toll due to the devastating flash floods in Nepal rose to 1,252 on Thursday as more bodies were recovered from the affected areas while thousands remain missing after more than a week of the disaster, police said. According to the data released by Nepal Police, 355 bodies were recovered from Chitawan district, 218 from Nawalparasi East, 208 from Nawalparasi West, including 18 recovered from India and handed over to Nawalparasi West, and 177 from Nuwakot. Similarly, 127 bodies were recovered from Rasuwa district, 69 from Gorkha, 60 from Dhading and 38 from Tahanu. The joint rescue teams led by the Nepal Army have continued their search and rescue efforts on the ninth day on Thursday, with the number of missing people estimated at 4,875. The flash floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on August 26, devastated towns and villages in northern and central Nepal, leaving a trail of destruction and thousands of people missing.",
-      "url": "https://www.business-standard.com/world-news/nepal-flash-floods-death-toll-rises-to-1-252-as-more-bodies-recovered-126090300405_1.html",
-      "source": "Business Standard",
+      "headline": "Nepal-Tibet flood: Chinese official warns of more glacier collapses, cascading disasters",
+      "title": "Nepal-Tibet flood: Chinese official warns of more glacier collapses, cascading disasters",
+      "summary": "Beijing, Sep 3: Glaciers on the Tibetan Plateau are likely to become more unstable, which may lead to more collapses and collateral disasters similar to last week's deadly flash flood at the Tibet-Nepal border, a senior Chinese climate official has warned. The flash floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on August 26, devastated towns and villages in northern and central Nepal, leaving a trail of destruction and killing hundreds. “Over the past 60 years, the glacier area on the Tibetan Plateau has shrunk by around 24 per cent, with around 7,000 small glaciers disappearing completely,” said Gao Rong, deputy director of China’s National Climate Centre, an official body of the Chinese government. “Looking ahead, the structural stability of glaciers across the Tibetan Plateau will decline further. Glacial disasters are likely to become more frequent and could amplify in destruction and reach through cascading effects,” Gao was quoted as saying by the Hong Kong-based South China Morning Post. According to the figures released by Chinese officials on Wednesday, 21 people died and 541 missing in last week's flash flood at Gyirong Port on the Tibet side of the Nepal border. According to figures released on August 30, the missing included 261 foreigners, including 49 from India and 22 other countries, state-run Xinhua news agency reported, quoting an official briefing in Tibet. In Nepal, the death toll due to the devastating flash floods rose to 1,252 on Thursday as more bodies were recovered from the affected areas. The Institute of Tibetan Plateau Research, Chinese Academy of Sciences, another official body, in its report on the recent disaster, said the mudslide created by the glacier collapse travelled 22km along the valley and reached the Gyirong Port at the Tibet border crossing in just seven minutes. Scientists stress that hazard evaluations can no longer rely solely on measuring initial collapses. Analysing satellite and field data from Gyirong county, researchers found that collapsing ice and rock swept down the 22km valley, scouring the riverbed, dragging bank debris with it, and mixing with water, turning a high-elevation collapse into a devastating mudslide, the Post reported. Therefore, the Chinese research suggested, disaster risk assessment in the high-mountain cryosphere – or frozen areas – must look beyond the initial failure volume of material breaking away from the mountain, and include the valley bulking potential – the capacity to increase the size of a landslide as it travels downhill – and downstream exposure. “What truly determines risk is not just how much collapsed on the mountain, but how much can be entrained in the gully, and what critical infrastructure and populations downstream are exposed to the hazard chain,” it said. An article published in Nature on Wednesday highlighted the urgent need to upgrade future monitoring and forecasting systems. The disaster proved difficult to predict because it was triggered by the sudden failure of a high-altitude glacier-rock system rather than typical signals, such as extreme rainfall or rising glacial lakes, the Post reported. Manoochehr Shirzaei, a geophysicist at Virginia Tech in Blacksburg, told Nature that conventional monitoring tools fell short in predicting such disasters, and stressed the need to have better integrated detection systems. “What is still largely missing is a regional satellite-based system that routinely searches for accelerating glacier and rock-slope deformation and then connects that information directly to downstream flood and avalanche modelling,” the article said.",
+      "url": "https://www.greaterkashmir.com/world/nepal-tibet-flood-chinese-official-warns-of-more-glacier-collapses-cascading-disasters-12487866",
+      "source": "Greater Kashmir",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [
-        "defence-security",
-        "crime-public-safety"
+        "science-space",
+        "transport-infrastructure",
+        "defence-security"
       ],
-      "confidence": "medium",
-      "score": 57.0,
+      "confidence": "low",
+      "score": 100.0,
       "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
       "event_time": "2026-09-03T06:28:44+00:00",
-      "published_at": "2026-09-03T06:28:44+00:00",
-      "effective_at": "2026-09-03T06:28:44+00:00",
+      "published_at": "2026-09-03T11:27:26+00:00",
+      "effective_at": "2026-09-03T11:27:26+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
-            "business-standard"
+            "business-standard",
+            "greater-kashmir"
           ],
-          "count": 1
+          "count": 2
         }
       },
-      "is_wire_echo": false,
+      "is_wire_echo": true,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'floods'",
-        "major: significance event 'disaster'",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
         "major: significance event 'floods'",
         "major: significance event 'avalanche'",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'landslide'",
+        "major: significance event 'disaster'",
+        "major: significance event 'flood'",
+        "major: significance event 'avalanche'",
+        "major: marker 'breaking'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in title weight 64",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
+        "event term: 'landslide' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -982,174 +1134,65 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The death toll due to the devastating flash floods in Nepal rose to 1,252 on Thursday as more bodies were recovered from the affected areas while thousands remain missing after more than a week of the disaster, police said.",
-          "According to the data released by Nepal."
+          "Beijing, Sep 3: Glaciers on the Tibetan Plateau are likely to become more unstable, which may lead to more collapses and collateral disasters similar to last week's deadly flash flood at the Tibet-Nepal border, a senior Chinese climate official has warned.",
+          "The flash floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on August 26, devastated towns and villages in northern and central Nepal, leaving a trail of destruction and killing hundreds."
         ],
         "body": [
-          "Police, 355 bodies were recovered from Chitawan district, 218 from Nawalparasi East, 208 from Nawalparasi West, including 18 recovered from India and handed over to Nawalparasi West, and 177 from Nuwakot.",
-          "Similarly, 127 bodies were recovered from Rasuwa district, 69 from Gorkha, 60 from Dhading and 38 from Tahanu.",
-          "The joint rescue teams led by the Nepal Army have continued their search and rescue efforts on the ninth day on Thursday, with the number of missing people estimated at 4,875.",
-          "The flash floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on August 26, devastated towns and villages in northern and central Nepal, leaving a trail of destruction and thousands of people missing."
+          "“Over the past 60 years, the glacier area on the Tibetan Plateau has shrunk by around 24 per cent, with around 7,000 small glaciers disappearing completely,” said Gao Rong, deputy director of China’s National Climate Centre, an official body of the Chinese government.",
+          "“Looking ahead, the structural stability of glaciers across the Tibetan Plateau will decline further.",
+          "Glacial disasters are likely to become more frequent and could amplify in destruction and reach through cascading effects,” Gao was quoted as saying by the Hong Kong-based South China Morning Post.",
+          "According to the figures released by Chinese officials on Wednesday, 21 people died and 541 missing in last week's flash flood at Gyirong Port on the Tibet side of the Nepal border.",
+          "According to figures released on August 30, the missing included 261 foreigners, including 49 from India and 22 other countries, state-run Xinhua news agency reported, quoting an official briefing in Tibet.",
+          "In Nepal, the death toll due to the devastating flash floods rose to 1,252 on Thursday as more bodies were recovered from the affected areas.",
+          "The Institute of Tibetan Plateau Research, Chinese Academy of Sciences, another official body, in its report on the recent disaster, said the mudslide created by the glacier collapse travelled 22km along the valley and reached the Gyirong Port at the Tibet border crossing in just seven minutes.",
+          "Scientists stress that hazard evaluations can no longer rely solely on measuring initial collapses.",
+          "Analysing satellite and field data from Gyirong county, researchers found that collapsing ice and rock swept down the 22km valley, scouring the riverbed, dragging bank debris with it, and mixing with water, turning a high-elevation collapse into a devastating mudslide, the Post reported.",
+          "Therefore, the Chinese research suggested, disaster risk assessment in the high-mountain cryosphere – or frozen areas – must look beyond the initial failure volume of material breaking away from the mountain, and include the valley bulking potential – the capacity to increase the size of a landslide as it travels downhill – and downstream exposure.",
+          "“What truly determines risk is not just how much collapsed on the mountain, but how much can be entrained in the gully, and what critical infrastructure and populations downstream are exposed to the hazard chain,” it said.",
+          "An article published in Nature on Wednesday highlighted the urgent need to upgrade future monitoring and forecasting systems.",
+          "The disaster proved difficult to predict because it was triggered by the sudden failure of a high-altitude glacier-rock system rather than typical signals, such as extreme rainfall or rising glacial lakes, the Post reported.",
+          "Manoochehr Shirzaei, a geophysicist at Virginia Tech in Blacksburg, told Nature that conventional monitoring tools fell short in predicting such disasters, and stressed the need to have better integrated detection systems.",
+          "“What is still largely missing is a regional satellite-based system that routinely searches for accelerating glacier and rock-slope deformation and then connects that information directly to downstream flood and avalanche modelling,” the article said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nepal"
+            "text": "Gyirong Port"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "21 people"
           }
         ],
         "sentences": [
           {
-            "text": "Police, 355 bodies were recovered from Chitawan district, 218 from Nawalparasi East, 208 from Nawalparasi West, including 18 recovered from India and handed over to Nawalparasi West, and 177 from Nuwakot.",
-            "source": "Business Standard",
+            "text": "According to the figures released by Chinese officials on Wednesday, 21 people died and 541 missing in last week's flash flood at Gyirong Port on the Tibet side of the Nepal border.",
+            "source": "Greater Kashmir",
             "item_id": "8408b1653086de1a5ea22895",
             "composed": false
           },
           {
-            "text": "Similarly, 127 bodies were recovered from Rasuwa district, 69 from Gorkha, 60 from Dhading and 38 from Tahanu.",
-            "source": "Business Standard",
+            "text": "According to figures released on August 30, the missing included 261 foreigners, including 49 from India and 22 other countries, state-run Xinhua news agency reported, quoting an official briefing in Tibet.",
+            "source": "Greater Kashmir",
             "item_id": "8408b1653086de1a5ea22895",
             "composed": false
           },
           {
-            "text": "The joint rescue teams led by the Nepal Army have continued their search and rescue efforts on the ninth day on Thursday, with the number of missing people estimated at 4,875.",
-            "source": "Business Standard",
+            "text": "In Nepal, the death toll due to the devastating flash floods rose to 1,252 on Thursday as more bodies were recovered from the affected areas.",
+            "source": "Greater Kashmir",
             "item_id": "8408b1653086de1a5ea22895",
             "composed": false
           }
         ],
-        "source": "Business Standard",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://www.business-standard.com/world-news/nepal-flash-floods-death-toll-rises-to-1-252-as-more-bodies-recovered-126090300405_1.html"
+        "url": "https://www.greaterkashmir.com/world/nepal-tibet-flood-chinese-official-warns-of-more-glacier-collapses-cascading-disasters-12487866"
       },
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "9fd08f29e0b95c680cffc1fd",
-      "story_id": "9fd08f29e0b95c680cffc1fd",
-      "headline": "Nominations begin for Thrikkodithanam district panchayat by-election",
-      "title": "Nominations begin for Thrikkodithanam district panchayat by-election",
-      "summary": "Kottayam's Thrikkodithanam district panchayat by-election is underway.",
-      "url": "https://www.onmanorama.com/kerala/top-news/2026/09/03/thrikkodithanam-election-update.html",
-      "source": "Onmanorama",
-      "primary_source": false,
-      "tier": 3,
-      "category": "national-politics",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 58.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-03T09:33:35+00:00",
-      "published_at": "2026-09-03T09:33:35+00:00",
-      "effective_at": "2026-09-03T09:33:35+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "onmanorama": {
-          "kind": "independent",
-          "source_ids": [
-            "onmanorama"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'election'",
-        "major: significance event 'election'",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (onmanorama) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in title weight 58",
-        "event term: 'election' in summary weight 34.8",
-        "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 58, stack 45, score 58 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The stage is set for the Thrikkodithanam district panchayat by-election, marking the first local body poll in Kottayam district since the last assembly elections in Kerala.",
-        "The filing of nomination papers has started on Thursday.",
-        "The by-election was necessitated after the sitting district panchayat member, Vinu Job, resigned following his election as the Changanassery MLA.",
-        "While the poll has generated significant local interest, its outcome will not impact the power dynamics of the 23-member district panchayat, where the United Democratic Front (UDF) holds a comfortable majority with 15 seats.",
-        "The CPM is gearing up to field Manju Sujith, a former district panchayat member, as the Left Democratic Front (LDF) candidate.",
-        "Her candidature, recommended by the Changanassery Area Committee, has received the backing of the CPM district committee, with an official announcement expected shortly.",
-        "Manju, who served as the district panchayat's development standing committee chairperson from 2020 to 2025, had lost to Vinu Job by 743 votes in the previous election.",
-        "She is also a district committee member of the Democratic Women's Association.",
-        "Within the UDF, the seat has been allocated to the Kerala Congress.",
-        "Though the final candidate is yet to be officially declared, the party is reportedly considering Jobin S Kottaram, a member of the Kerala Congress high power committee, and Vijay Jose Marett.",
-        "Jayson Joseph, the Kerala Congress district president, confirmed that the candidate would be announced soon after consultations with the state leadership.",
-        "Meanwhile, the BJP is likely to field its Changanassery constituency president, Gopan Manimuri."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The stage is set for the Thrikkodithanam district panchayat by-election, marking the first local body poll in Kottayam district since the last assembly elections in Kerala.",
-          "The filing of nomination papers has started on Thursday."
-        ],
-        "body": [
-          "The by-election was necessitated after the sitting district panchayat member, Vinu Job, resigned following his election as the Changanassery MLA.",
-          "While the poll has generated significant local interest, its outcome will not impact the power dynamics of the 23-member district panchayat, where the United Democratic Front (UDF) holds a comfortable majority with 15 seats.",
-          "The CPM is gearing up to field Manju Sujith, a former district panchayat member, as the Left Democratic Front (LDF) candidate.",
-          "Her candidature, recommended by the Changanassery Area Committee, has received the backing of the CPM district committee, with an official announcement expected shortly.",
-          "Manju, who served as the district panchayat's development standing committee chairperson from 2020 to 2025, had lost to Vinu Job by 743 votes in the previous election.",
-          "She is also a district committee member of the Democratic Women's Association.",
-          "Within the UDF, the seat has been allocated to the Kerala Congress.",
-          "Though the final candidate is yet to be officially declared, the party is reportedly considering Jobin S Kottaram, a member of the Kerala Congress high power committee, and Vijay Jose Marett."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kottayam district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The stage is set for the Thrikkodithanam district panchayat by-election, marking the first local body poll in Kottayam district since the last assembly elections in Kerala.",
-            "source": "Onmanorama",
-            "item_id": "9fd08f29e0b95c680cffc1fd:article",
-            "composed": false
-          },
-          {
-            "text": "While the poll has generated significant local interest, its outcome will not impact the power dynamics of the 23-member district panchayat, where the United Democratic Front (UDF) holds a comfortable majority with 15 seats.",
-            "source": "Onmanorama",
-            "item_id": "9fd08f29e0b95c680cffc1fd:article",
-            "composed": false
-          },
-          {
-            "text": "Manju, who served as the district panchayat's development standing committee chairperson from 2020 to 2025, had lost to Vinu Job by 743 votes in the previous election.",
-            "source": "Onmanorama",
-            "item_id": "9fd08f29e0b95c680cffc1fd:article",
-            "composed": false
-          },
-          {
-            "text": "The filing of nomination papers has started on Thursday.",
-            "source": "Onmanorama",
-            "item_id": "9fd08f29e0b95c680cffc1fd:article",
-            "composed": false
-          }
-        ],
-        "source": "Onmanorama",
-        "corroborating": [],
-        "url": "https://www.onmanorama.com/kerala/top-news/2026/09/03/thrikkodithanam-election-update.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "2d57ef9867af14a39f8daca3",
@@ -1197,7 +1240,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1292,7 +1335,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -1386,7 +1429,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (himachal pradesh)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1517,7 +1560,7 @@
         "event term: 'merger' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1525,7 +1568,7 @@
       "geo_scope": "state",
       "state": "maharashtra",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Indian banks are finding it increasingly difficult to identify successors for top leadership.",
@@ -1631,7 +1674,7 @@
         "url": "https://www.forbesindia.com/article/news/deep-dive/crack-at-the-top-what-do-top-level-exits-at-banks-indicate/2997767/1"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1679,7 +1722,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (telangana)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1767,7 +1810,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1889,7 +1932,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1947,6 +1990,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "0d63d8e6ec76b9f039ef2c46",
+      "story_id": "0d63d8e6ec76b9f039ef2c46",
+      "headline": "Centre working on suggestions for CBSE three-language policy, tells Supreme Court",
+      "title": "Centre working on suggestions for CBSE three-language policy, tells Supreme Court",
+      "summary": "The policy requires Class 9 students to study three languages, with at least two being native Indian languages, from July 1",
+      "url": "https://www.thehindubusinessline.com/news/education/centre-working-on-suggestions-for-cbse-three-language-policy-tells-supreme-court/article71423453.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-03T11:17:54+00:00",
+      "published_at": "2026-09-03T11:17:54+00:00",
+      "effective_at": "2026-09-03T11:17:54+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Centre informed the Supreme Court on Thursday that it was working on its suggestions on implementation of the CBSE’s policy mandating the study of three languages, including two native Indian languages, for Class 9 students.",
+        "Additional Solicitor General Aishwarya Bhati told a bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana that CBSE is in the process of working out various modalities and sought time.",
+        "The top court took note of the submission and deferred the matter by a week.",
+        "Observing that children should not come under pressure, the top court on August 20 stressed the need to find a solution to issues arising out of the CBSE’s three-language policy for Class 9 students.",
+        "It observed that while there was nothing wrong in introducing the policy, the only concern of the petitioners was the manner in which it was being introduced.",
+        "“You may revisit some of these problems.",
+        "There is no doubt that sooner or later, it has to be introduced; there is nothing wrong with that.",
+        "But how it is to be streamlined so that whatever impediments or blockades are coming up, you may find a solution to those,” the bench had said.",
+        "One aspect to be considered was how to build adequate human resource infrastructure for the language options available, it had said.",
+        "On May 27, the top court agreed to examine a plea challenging the policy and issued notices to the Centre, the CBSE and the NCERT seeking their responses.",
+        "According to a circular issued by the Central Board of Secondary Education (CBSE), the study of three languages, including at least two native Indian languages, has been made compulsory for Class 9 students beginning July 1.",
+        "The move is part of the CBSE’s alignment of its scheme of studies with the National Education Policy 2020 and the National Curriculum Framework for School Education 2023."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Centre informed the Supreme Court on Thursday that it was working on its suggestions on implementation of the CBSE’s policy mandating the study of three languages, including two native Indian languages, for Class 9 students.",
+          "Additional Solicitor General Aishwarya Bhati told a bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana that CBSE is in the process of working out various modalities and sought time."
+        ],
+        "body": [
+          "The top court took note of the submission and deferred the matter by a week.",
+          "Observing that children should not come under pressure, the top court on August 20 stressed the need to find a solution to issues arising out of the CBSE’s three-language policy for Class 9 students.",
+          "It observed that while there was nothing wrong in introducing the policy, the only concern of the petitioners was the manner in which it was being introduced.",
+          "“You may revisit some of these problems.",
+          "There is no doubt that sooner or later, it has to be introduced; there is nothing wrong with that.",
+          "But how it is to be streamlined so that whatever impediments or blockades are coming up, you may find a solution to those,” the bench had said.",
+          "One aspect to be considered was how to build adequate human resource infrastructure for the language options available, it had said.",
+          "On May 27, the top court agreed to examine a plea challenging the policy and issued notices to the Centre, the CBSE and the NCERT seeking their responses."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Observing that children should not come under pressure, the top court on August 20 stressed the need to find a solution to issues arising out of the CBSE’s three-language policy for Class 9 students.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "0d63d8e6ec76b9f039ef2c46:article",
+            "composed": false
+          },
+          {
+            "text": "The Centre informed the Supreme Court on Thursday that it was working on its suggestions on implementation of the CBSE’s policy mandating the study of three languages, including two native Indian languages, for Class 9 students.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "0d63d8e6ec76b9f039ef2c46:article",
+            "composed": false
+          },
+          {
+            "text": "On May 27, the top court agreed to examine a plea challenging the policy and issued notices to the Centre, the CBSE and the NCERT seeking their responses.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "0d63d8e6ec76b9f039ef2c46:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/news/education/centre-working-on-suggestions-for-cbse-three-language-policy-tells-supreme-court/article71423453.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "ae831d4fac5c0bd1b6f8e79c",
       "story_id": "ae831d4fac5c0bd1b6f8e79c",
       "headline": "Supreme court dismisses SEBI’s plea against NSE after ₹1500-crore settlement",
@@ -1991,7 +2145,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2105,7 +2259,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2206,7 +2360,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2323,7 +2477,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2456,7 +2610,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 34.8, score 42 -> HIGH"
@@ -2540,7 +2694,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquisition' in title weight 42",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 29.2, score 42 -> HIGH"
@@ -2648,7 +2802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 22.4, score 40 -> HIGH"
