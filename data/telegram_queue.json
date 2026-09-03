@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T08:11:39.164124+00:00",
-  "count": 21,
+  "generated_at": "2026-09-03T08:21:51.879897+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "251b1276cffb868273fe0acd",
@@ -58,7 +58,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -178,7 +178,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: very old (50.2h) -2",
+        "recency: very old (50.3h) -2",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -263,6 +263,96 @@
       "enrichment": "article"
     },
     {
+      "event_id": "88c7fd7519216336420eaefd",
+      "story_id": "88c7fd7519216336420eaefd",
+      "headline": "Why Assam needs a new flood governance framework",
+      "title": "Why Assam needs a new flood governance framework",
+      "summary": "Despite a rainfall deficit, Assam continues to drown. The recurring floods expose how outdated policies, State-centric planning and weak institutions have failed the Brahmaputra basin.",
+      "url": "https://frontline.thehindu.com/environment/assam-floods-brahmaputra-governance/article71305015.ece",
+      "source": "Frontline (The Hindu group)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 64.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-03T07:55:29+00:00",
+      "published_at": "2026-09-03T07:55:29+00:00",
+      "effective_at": "2026-09-03T07:55:29+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "frontline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (frontline) +1",
+        "source: specialist (frontline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: state scope (assam)",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Despite a rainfall deficit, Assam continues to drown.",
+          "The recurring floods expose how outdated policies, State-centric planning and weak institutions have failed the Brahmaputra basin."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The recurring floods expose how outdated policies, State-centric planning and weak institutions have failed the Brahmaputra basin.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "88c7fd7519216336420eaefd",
+            "composed": false
+          },
+          {
+            "text": "Despite a rainfall deficit, Assam continues to drown.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "88c7fd7519216336420eaefd",
+            "composed": false
+          }
+        ],
+        "source": "Frontline (The Hindu group)",
+        "corroborating": [],
+        "url": "https://frontline.thehindu.com/environment/assam-floods-brahmaputra-governance/article71305015.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "dfc97b77fdcab3975258bff6",
       "story_id": "dfc97b77fdcab3975258bff6",
       "headline": "Bihar flood situation worsens as eight major rivers flow above danger mark",
@@ -307,7 +397,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -399,7 +489,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -519,7 +609,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -619,7 +709,7 @@
         "event term: 'flood' in title weight 64",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 36, score 64 -> URGENT"
@@ -708,238 +798,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "8111ebc967ff38349f0b3e5c",
-      "story_id": "8111ebc967ff38349f0b3e5c",
-      "headline": "Nepal-Tibet flood death toll rises to 1,243 as PM Shah flags climate change link",
-      "title": "Nepal-Tibet flood death toll rises to 1,243 as PM Shah flags climate change link",
-      "summary": "Nepal-Tibet flood death toll rises to 1,243 as PM Shah flags climate change link",
-      "url": "https://www.nationalheraldindia.com/international/nepal-tibet-flood-death-toll-rises-to-1243-as-pm-shah-flags-climate-change-link",
-      "source": "National Herald",
-      "primary_source": false,
-      "tier": 2,
-      "category": "energy-environment",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-03T04:00:50+00:00",
-      "published_at": "2026-09-03T04:00:50+00:00",
-      "effective_at": "2026-09-03T04:00:50.608000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "national-herald": {
-          "kind": "independent",
-          "source_ids": [
-            "national-herald"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "category: energy-environment (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
-        "category: energy-environment (importance 1) +1.2",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The death toll from the devastating flash floods in Nepal has risen to 1,243, with thousands still missing as rescuers battle rain, debris and difficult terrain to search for survivors along the Bhotekoshi and Trishuli river systems.",
-        "The floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on 26 August, swept through towns and villages across northern and central Nepal, causing widespread destruction and leaving thousands unaccounted for.",
-        "According to Nepal Police, 4,875 people remain missing, including 583 foreigners.",
-        "Security forces have rescued 11,993 people by helicopter and overland routes, while more than 21,000 personnel have been deployed for search and rescue operations.",
-        "The disaster has hit eight districts particularly hard.",
-        "Chitwan has recorded 348 deaths, followed by Nawalparasi East with 218, Nawalparasi West with 208 and Nuwakot with 155.",
-        "Rasuwa has reported 127 deaths, while Gorkha, Dhading and Tanahu have recorded 69, 60 and 38 deaths respectively.",
-        "On the Chinese side of the border, the death toll from flooding in Tibet's Gyirong county has risen to 21, with another 541 people reported missing.",
-        "China's foreign ministry said nearly 100 Chinese nationals remain unaccounted for in Nepal.",
-        "Rescue efforts have intensified at hydropower projects along the Bhotekoshi and Trishuli rivers, where hundreds of workers are feared trapped inside tunnels and underground powerhouses.",
-        "Data from Nepal's Independent Power Producers' Association shows 947 people from various hydropower projects remain unaccounted for, although authorities have yet to determine how many are trapped underground and how many were swept away.",
-        "More than 557 people are missing from the 216-MW Upper Trishuli-1 Hydropower Project alone."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The death toll from the devastating flash floods in Nepal has risen to 1,243, with thousands still missing as rescuers battle rain, debris and difficult terrain to search for survivors along the Bhotekoshi and Trishuli river systems.",
-          "The floods, triggered by an ice-rock avalanche near the Nepal-Tibet border on 26 August, swept through towns and villages across northern and central Nepal, causing widespread destruction and leaving thousands unaccounted for."
-        ],
-        "body": [
-          "According to Nepal.",
-          "Police, 4,875 people remain missing, including 583 foreigners.",
-          "Security forces have rescued 11,993 people by helicopter and overland routes, while more than 21,000 personnel have been deployed for search and rescue operations.",
-          "The disaster has hit eight districts particularly hard.",
-          "Chitwan has recorded 348 deaths, followed by Nawalparasi East with 218, Nawalparasi West with 208 and Nuwakot with 155.",
-          "Rasuwa has reported 127 deaths, while Gorkha, Dhading and Tanahu have recorded 69, 60 and 38 deaths respectively.",
-          "On the Chinese side of the border, the death toll from flooding in Tibet's Gyirong county has risen to 21, with another 541 people reported missing.",
-          "China's foreign ministry said nearly 100 Chinese nationals remain unaccounted for in Nepal."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "4,875 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Rasuwa has reported 127 deaths, while Gorkha, Dhading and Tanahu have recorded 69, 60 and 38 deaths respectively.",
-            "source": "National Herald",
-            "item_id": "8111ebc967ff38349f0b3e5c:article",
-            "composed": false
-          },
-          {
-            "text": "On the Chinese side of the border, the death toll from flooding in Tibet's Gyirong county has risen to 21, with another 541 people reported missing.",
-            "source": "National Herald",
-            "item_id": "8111ebc967ff38349f0b3e5c:article",
-            "composed": false
-          },
-          {
-            "text": "Chitwan has recorded 348 deaths, followed by Nawalparasi East with 218, Nawalparasi West with 208 and Nuwakot with 155.",
-            "source": "National Herald",
-            "item_id": "8111ebc967ff38349f0b3e5c:article",
-            "composed": false
-          },
-          {
-            "text": "Police, 4,875 people remain missing, including 583 foreigners.",
-            "source": "National Herald",
-            "item_id": "8111ebc967ff38349f0b3e5c:article",
-            "composed": false
-          }
-        ],
-        "source": "National Herald",
-        "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/international/nepal-tibet-flood-death-toll-rises-to-1243-as-pm-shah-flags-climate-change-link"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "e65b460e1b071ca4767175ef",
-      "story_id": "e65b460e1b071ca4767175ef",
-      "headline": "UP flood situation: 3 killed, over 16K evacuated from 23 affected districts",
-      "title": "UP flood situation: 3 killed, over 16K evacuated from 23 affected districts",
-      "summary": "As many as 16,784 people have been evacuated to safety so far, with 3,042 of them rescued on Wednesday, as flood conditions persisted in parts of Uttar Pradesh, with 23 districts currently affected out of 35 districts impacted so far, officials said. Three people have died in rain-related incidents -- 18-month-old Priyansh in Pratapgarh and Shera, 32, and Suresh, 55, in Amroha's Gajraula. The government said 1,499 boats and motorboats have been deployed for relief and rescue operations, while 1,067 medical teams have been pressed into service. The affected districts are Ayodhya, Azamgarh, Ballia, Barabanki, Badaun, Chandauli, Farrukhabad, Ghazipur, Gorakhpur, Hardoi, Kasganj, Lakhimpur Kheri, Mirzapur, Moradabad, Pilibhit, Prayagraj, Raebareli, Sant Kabir Nagar, Shahjahanpur, Sitapur, Sonbhadra, Unnao and Varanasi, it said in the evening. The government has established 1,311 flood shelters, of which 201 are currently operational. Relief agencies have also provided assistance in 442",
-      "url": "https://www.business-standard.com/india-news/up-flood-situation-3-killed-over-16k-evacuated-from-23-affected-districts-126090300013_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "health"
-      ],
-      "confidence": "medium",
-      "score": 74.4,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-03T02:14:15+00:00",
-      "published_at": "2026-09-03T02:14:15+00:00",
-      "effective_at": "2026-09-03T02:14:15+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: state scope (uttar pradesh)",
-        "recency: fresh (6.0h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "uttar pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "As many as 16,784 people have been evacuated to safety so far, with 3,042 of them rescued on Wednesday, as flood conditions persisted in parts of Uttar Pradesh, with 23 districts currently affected out of 35 districts impacted so far, officials said.",
-          "Three people have died in rain-related incidents -- 18-month-old Priyansh in Pratapgarh and Shera, 32, and Suresh, 55, in Amroha's Gajraula."
-        ],
-        "body": [
-          "The government said 1,499 boats and motorboats have been deployed for relief and rescue operations, while 1,067 medical teams have been pressed into service.",
-          "The affected districts are Ayodhya, Azamgarh, Ballia, Barabanki, Badaun, Chandauli, Farrukhabad, Ghazipur, Gorakhpur, Hardoi, Kasganj, Lakhimpur Kheri, Mirzapur, Moradabad, Pilibhit, Prayagraj, Raebareli, Sant Kabir Nagar, Shahjahanpur, Sitapur, Sonbhadra, Unnao and Varanasi, it said in the evening.",
-          "The government has established 1,311 flood shelters, of which 201 are currently operational.",
-          "Relief agencies have also provided assistance in 442."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Pratapgarh"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "16,784 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The government said 1,499 boats and motorboats have been deployed for relief and rescue operations, while 1,067 medical teams have been pressed into service.",
-            "source": "Business Standard",
-            "item_id": "e65b460e1b071ca4767175ef",
-            "composed": false
-          },
-          {
-            "text": "The government has established 1,311 flood shelters, of which 201 are currently operational.",
-            "source": "Business Standard",
-            "item_id": "e65b460e1b071ca4767175ef",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/up-flood-situation-3-killed-over-16k-evacuated-from-23-affected-districts-126090300013_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "baa03fd2d6a2fd33c5b5977f",
       "story_id": "baa03fd2d6a2fd33c5b5977f",
       "headline": "EVMs used in Kolathur constituency being verified after M.K. Stalin’s petition to Election Commission",
@@ -985,7 +843,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -1079,7 +937,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (himachal pradesh)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -1159,139 +1017,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "56bdc69665b189ac790eb14b",
-      "story_id": "56bdc69665b189ac790eb14b",
-      "headline": "El Nino to be 'very strong', last until Feb: UN",
-      "title": "El Nino to be 'very strong', last until Feb: UN",
-      "summary": "El Nino is set to become \"very strong\" in the months ahead, with the weather phenomenon near certain to persist through to February, the United Nations' climate agency warned Thursday.The World Meteorological Organization said El Nino would peak towards the end of this year -- though its knock-on impacts for the climate will continue well into 2027.\"El Nino is firmly established and will intensify into a very strong event in the coming months, with big impacts on rainfall and temperature patterns and associated risks of floods, drought and extreme heat,\" the WMO said.El Nino is a natural climate phenomenon and is not caused by climate change.But scientists expect it will exacerbate the heat of a planet already warming from burning fossil fuels, while amping up weather extremes.\"El Nino is being supersized before our eyes,\" said UN chief Antonio Guterres.\"The science leaves no room for doubt: the planet is in uncharted waters, and those waters are heating up. Sea surface temperatures are rising, temperatures keep climbing, and the world is in the danger zone of extreme weather.\"The race now is between rising risks and our commitment to take climate action and protect people. We must win that race.\"'Massive blow' to economiesEl Nino tends to peak late in the year but heat in the oceans releases more slowly into the atmosphere, pushing up global temperatures the following year.The hottest year on record is 2024, following the last El Nino.\"This exceptional El Nino... has the potential to deliver a massive blow to communities and economies across the world\", said WMO chief Celeste Saulo.\"We are already seeing disruption and devastation from droughts and floods, and we expect these impacts to increase as El Nino intensifies.\"She put disaster management authorities and climate-sensitive sectors like agriculture, health, energy and water on notice, saying there was \"no time to lose\" in getting ready.El Nino warms surface temperatures in the central and eastern equatorial Pacific Ocean, bringing worldwide changes in winds, pressure and rainfall patterns.It typically takes place every two to seven years and lasts around nine to 12 months.Conditions oscillate between El Nino and its opposite La Nina, with neutral conditions in between.\"Fuelled by exceptionally warm ocean conditions across the tropical Pacific, El Nino is expected to strengthen further during the coming months to a very strong intensity,\" the WMO said.The UN agency classifies El Nino events as weak, moderate, strong or very strong -- meaning it is set to reach the highest level out of four.The WMO said there was an \"exceptionally high likelihood of nearly 100 percent\" that El Nino will continue through to February.Pacific Ocean heating upEl Nino can reshape weather and climate patterns thousands of kilometres away from the tropical Pacific.Every El Nino is different, but major events often follow familiar patterns. This includes drought across parts of the Amazon, Indonesia and Australia, disrupted monsoons in India, and shifting rainfall throughout the tropics.For September-November, WMO forecasts indicate an increased likelihood of above-normal temperatures \"across almost all land areas\", alongside rainfall patterns showing a \"pronounced and classic atmospheric response to the strong Pacific El Nino\", the UN's weather and climate agency said.The index which measures sea surface temperature anomalies in the central eastern equatorial Pacific has strengthened from an average 1.5C above normal between May and July.Weekly values between late July and mid-August ranged from around 2.2C to 2.6C above average, indicating continued El Nino intensification.In some areas, subsurface ocean temperatures were more than 8C above average during July and early August.",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/el-nino-to-be-very-strong-last-until-february-un-warns/articleshow/133729352.cms",
-      "source": "The Economic Times",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "energy-environment",
-        "agriculture-rural",
-        "science-space",
-        "international-affairs"
-      ],
-      "confidence": "medium",
-      "score": 66.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-03T07:41:27+00:00",
-      "published_at": "2026-09-03T07:41:27+00:00",
-      "effective_at": "2026-09-03T07:41:27+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'floods'",
-        "major: significance event 'drought'",
-        "major: significance event 'floods'",
-        "major: significance event 'disaster'",
-        "major: significance event 'drought'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'floods' in summary weight 38.4",
-        "event term: 'drought' in summary weight 21.6",
-        "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 38.4, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "El Nino is set to become \"very strong\" in the months ahead, with the weather phenomenon near certain to persist through to February, the United Nations' climate agency warned Thursday.",
-          "The World Meteorological Organization said El Nino would peak towards the end of this year -- though its knock-on impacts for the climate will continue well into 2027.\" El Nino is firmly established and will intensify into a very strong event in the coming months, with big impacts on rainfall and temperature patterns and associated risks of floods, drought and extreme heat,\" the WMO said."
-        ],
-        "body": [
-          "El Nino is a natural climate phenomenon and is not caused by climate change.",
-          "But scientists expect it will exacerbate the heat of a planet already warming from burning fossil fuels, while amping up weather extremes.\" El Nino is being supersized before our eyes,\" said UN chief Antonio Guterres.\" The science leaves no room for doubt: the planet is in uncharted waters, and those waters are heating up.",
-          "Sea surface temperatures are rising, temperatures keep climbing, and the world is in the danger zone of extreme weather.\" The race now is between rising risks and our commitment to take climate action and protect people.",
-          "We must win that race.\"'Massive blow' to economiesEl Nino tends to peak late in the year but heat in the oceans releases more slowly into the atmosphere, pushing up global temperatures the following year.",
-          "The hottest year on record is 2024, following the last El Nino.\" This exceptional El Nino...",
-          "has the potential to deliver a massive blow to communities and economies across the world\", said WMO chief Celeste Saulo.\" We are already seeing disruption and devastation from droughts and floods, and we expect these impacts to increase as El Nino intensifies.\" She put disaster management authorities and climate-sensitive sectors like agriculture, health, energy and water on notice, saying there was \"no time to lose\" in getting ready.",
-          "El Nino warms surface temperatures in the central and eastern equatorial Pacific Ocean, bringing worldwide changes in winds, pressure and rainfall patterns.",
-          "It typically takes place every two to seven years and lasts around nine to 12 months.",
-          "The UN agency classifies El Nino events as weak, moderate, strong or very strong -- meaning it is set to reach the highest level out of four.",
-          "The WMO said there was an \"exceptionally high likelihood of nearly 100 percent\" that El Nino will continue through to February.",
-          "Pacific Ocean heating upEl Nino can reshape weather and climate patterns thousands of kilometres away from the tropical Pacific.",
-          "Every El Nino is different, but major events often follow familiar patterns.",
-          "This includes drought across parts of the Amazon, Indonesia and Australia, disrupted monsoons in India, and shifting rainfall throughout the tropics.",
-          "For September-November, WMO forecasts indicate an increased likelihood of above-normal temperatures \"across almost all land areas\", alongside rainfall patterns showing a \"pronounced and classic atmospheric response to the strong Pacific El Nino\", the UN's weather and climate agency said.",
-          "The index which measures sea surface temperature anomalies in the central eastern equatorial Pacific has strengthened from an average 1.5C above normal between May and July.",
-          "Weekly values between late July and mid-August ranged from around 2.2C to 2.6C above average, indicating continued El Nino intensification.",
-          "In some areas, subsurface ocean temperatures were more than 8C above average during July and early August."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Conditions oscillate between El Nino and its opposite La Nina, with neutral conditions in between.\" Fuelled by exceptionally warm ocean conditions across the tropical Pacific, El Nino is expected to strengthen further during the coming months to a very strong intensity,\" the WMO said."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The WMO said there was an \"exceptionally high likelihood of nearly 100 percent\" that El Nino will continue through to February.",
-            "source": "The Economic Times",
-            "item_id": "56bdc69665b189ac790eb14b",
-            "composed": false
-          },
-          {
-            "text": "Weekly values between late July and mid-August ranged from around 2.2C to 2.6C above average, indicating continued El Nino intensification.",
-            "source": "The Economic Times",
-            "item_id": "56bdc69665b189ac790eb14b",
-            "composed": false
-          },
-          {
-            "text": "The index which measures sea surface temperature anomalies in the central eastern equatorial Pacific has strengthened from an average 1.5C above normal between May and July.",
-            "source": "The Economic Times",
-            "item_id": "56bdc69665b189ac790eb14b",
-            "composed": false
-          },
-          {
-            "text": "In some areas, subsurface ocean temperatures were more than 8C above average during July and early August.",
-            "source": "The Economic Times",
-            "item_id": "56bdc69665b189ac790eb14b",
-            "composed": false
-          }
-        ],
-        "source": "The Economic Times",
-        "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/el-nino-to-be-very-strong-last-until-february-un-warns/articleshow/133729352.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "2992272dc08428f76f062754",
       "story_id": "2992272dc08428f76f062754",
       "headline": "India's GDP growth defies oil shock but stirs up controversy",
@@ -1337,7 +1062,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1461,7 +1186,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1565,7 +1290,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1688,7 +1413,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1792,7 +1517,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1907,7 +1632,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2021,9 +1746,9 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'cabinet nod' in summary weight 24",
         "scale: state scope (bihar)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "geo: state",
-        "dominant event 44, stack 40, score 44 -> HIGH",
+        "dominant event 44, stack 36, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
       ],
       "geo_scope": "state",
@@ -2100,7 +1825,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -2205,7 +1930,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'bandh' in title weight 40",
         "scale: state scope (karnataka)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "geo: state",
         "dominant event 40, stack 12, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2324,7 +2049,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
