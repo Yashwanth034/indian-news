@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T06:21:44.130316+00:00",
-  "count": 19,
+  "generated_at": "2026-09-03T06:31:56.274568+00:00",
+  "count": 22,
   "stories": [
     {
       "event_id": "3e3acc3898235acb56da23e8",
@@ -51,7 +51,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -59,7 +59,7 @@
       "geo_scope": "local",
       "state": "uttar pradesh",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Prime Minister Narendra Modi reviewed the flood situation in Varanasi and directed officials to provide relief on a war footing.",
@@ -92,8 +92,148 @@
         "url": "https://www.thehansindia.com/news/cities/new-delhi/pm-modi-takes-stock-of-varanasi-flood-situation-directs-officials-to-ensure-relief-on-war-footing-1117374"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "deaf9a205f2326f5e7858981",
+      "story_id": "deaf9a205f2326f5e7858981",
+      "headline": "Around 100 Nepalese nationals missing after border floods, foreign ministry says",
+      "title": "Around 100 Nepalese nationals missing after border floods, foreign ministry says",
+      "summary": "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+      "url": "https://www.nationalheraldindia.com/international/around-100-nepalese-nationals-missing-after-border-floods-foreign-ministry-says",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "high",
+      "score": 60.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-01T06:02:27+00:00",
+      "published_at": "2026-09-03T06:27:10+00:00",
+      "effective_at": "2026-09-03T06:27:10.456000+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "bbc-india": {
+          "kind": "independent",
+          "source_ids": [
+            "bbc-india"
+          ],
+          "count": 1
+        },
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: very old (48.5h) -2",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+        "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal.",
+        "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+        "The bodies were reportedly carried by the current from the Bhotekoshi into the Trishuli and Narayani rivers before crossing the border.",
+        "They were found near Indian areas adjoining Nepal’s Rupandehi and Nawalparasi West districts and are being handed over to Nepalese authorities.",
+        "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+        "About 3,000 Nepalese nationals who had travelled to Tibet for pilgrimage and business were stranded following the disaster.",
+        "More than 2,500 have since returned through the Hilsa and Tatopani border crossings or by air, he said.",
+        "The spokesperson added that around 1,500 Nepalese nationals were still stranded at the Kerung border point.",
+        "Officials from Nepal and China were discussing arrangements for their safe evacuation.",
+        "The flash floods were triggered by an ice-rock avalanche near the Nepal-Tibet border on 26 August.",
+        "The resulting surge of water devastated settlements across large parts of northern and central Nepal, causing widespread destruction and leaving thousands of people missing."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+          "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal."
+        ],
+        "body": [
+          "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+          "The bodies were reportedly carried by the current from the Bhotekoshi into the Trishuli and Narayani rivers before crossing the border.",
+          "They were found near Indian areas adjoining Nepal’s Rupandehi and Nawalparasi West districts and are being handed over to Nepalese authorities.",
+          "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+          "About 3,000 Nepalese nationals who had travelled to Tibet for pilgrimage and business were stranded following the disaster.",
+          "More than 2,500 have since returned through the Hilsa and Tatopani border crossings or by air, he said.",
+          "The spokesperson added that around 1,500 Nepalese nationals were still stranded at the Kerung border point.",
+          "Officials from Nepal and China were discussing arrangements for their safe evacuation."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rasuwa district"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 1,200 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Chhetri said around 100 Nepalese citizens who had been in Tibet at the time of the floods remained missing.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "More than 1,200 people have died and over 4,875 remain unaccounted for a week after the disaster swept through several towns and villages across northern and central Nepal.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "Addressing a press briefing, Chhetri said at least 19 bodies swept away by the Bhotekoshi river in Rasuwa district had been recovered in India.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          },
+          {
+            "text": "Around 100 Nepalese nationals remain missing after devastating flash floods originating near the Nepal-Tibet border, Nepal’s Foreign Ministry spokesperson Lok Bahadur Chhetri said on Wednesday.",
+            "source": "National Herald",
+            "item_id": "deaf9a205f2326f5e7858981:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/international/around-100-nepalese-nationals-missing-after-border-floods-foreign-ministry-says"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "af11e0a7023780adedaea5f6",
@@ -140,7 +280,7 @@
         "event term: 'flood' in title weight 64",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 40, score 64 -> URGENT"
@@ -273,7 +413,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -400,7 +540,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 29, score 64 -> URGENT"
@@ -523,7 +663,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 25, score 64 -> URGENT"
@@ -650,7 +790,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -705,6 +845,98 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "baa03fd2d6a2fd33c5b5977f",
+      "story_id": "baa03fd2d6a2fd33c5b5977f",
+      "headline": "EVMs used in Kolathur constituency being verified after M.K. Stalin’s petition to Election Commission",
+      "title": "EVMs used in Kolathur constituency being verified after M.K. Stalin’s petition to Election Commission",
+      "summary": "Mr. Stalin, the defeated DMK candidate, alleged that the votes expected to have been polled in his favour were not recorded in 14 polling booths; the checking and verification process will continue for seven days",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/verification-of-evms-used-in-kolathur-constituency-under-way-after-mk-stalins-petition/article71280364.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 90.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-03T06:24:08+00:00",
+      "published_at": "2026-09-03T06:24:08+00:00",
+      "effective_at": "2026-09-03T06:24:08+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 26.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The checking and verification of the burnt memory and microcontroller of Electronic Voting Machines (EVMs) used in 14 polling booths in the Kolathur constituency during the 2026 Tamil Nadu Assembly election was undertaken on Wednesday (July 29, 2026) following a petition filed by defeated DMK candidate and former Chief Minister M.K. Stalin before the Election Commission of India (ECI).",
+        "Mr. Stalin lost the constituency to Tamilaga Vettri Kazhagam (TVK) candidate V.S. Babu by a margin of 8,795 votes."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The checking and verification of the burnt memory and microcontroller of Electronic Voting Machines (EVMs) used in 14 polling booths in the Kolathur constituency during the 2026 Tamil Nadu Assembly election was undertaken on Wednesday (July 29, 2026) following a petition filed by defeated DMK candidate and former Chief Minister M.K. Stalin before the Election Commission of India (ECI).",
+          "Mr. Stalin lost the constituency to Tamilaga Vettri Kazhagam (TVK) candidate V.S. Babu by a margin of 8,795 votes."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Mr. Stalin, the defeated DMK candidate, alleged that the votes expected to have been polled in his favour were not recorded in 14 polling booths; the checking and verification process will continue for seven days."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The checking and verification of the burnt memory and microcontroller of Electronic Voting Machines (EVMs) used in 14 polling booths in the Kolathur constituency during the 2026 Tamil Nadu Assembly election was undertaken on Wednesday (July 29, 2026) following a petition filed by defeated DMK candidate and former Chief Minister M.K. Stalin before the Election Commission of India (ECI).",
+            "source": "The Hindu",
+            "item_id": "baa03fd2d6a2fd33c5b5977f:article",
+            "composed": false
+          },
+          {
+            "text": "Mr. Stalin lost the constituency to Tamilaga Vettri Kazhagam (TVK) candidate V.S. Babu by a margin of 8,795 votes.",
+            "source": "The Hindu",
+            "item_id": "baa03fd2d6a2fd33c5b5977f:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/verification-of-evms-used-in-kolathur-constituency-under-way-after-mk-stalins-petition/article71280364.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "7de7b001ccb70d713eec92a1",
       "story_id": "7de7b001ccb70d713eec92a1",
       "headline": "SDM Cannot Halt Panchayat Samiti Chairman Election Over Horse-Trading Allegations: Himachal Pradesh High Court",
@@ -750,7 +982,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (himachal pradesh)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -881,7 +1113,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (10.8h ago) +4",
+        "recency: fresh (11.0h ago) +4",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 20, score 50.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -940,6 +1172,108 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "4354c0253fcfa0971084669b",
+      "story_id": "4354c0253fcfa0971084669b",
+      "headline": "Supreme Court asks Prashant Bhushan to approach Delhi High Court in case of lawyers beaten at BCI premises",
+      "title": "Supreme Court asks Prashant Bhushan to approach Delhi High Court in case of lawyers beaten at BCI premises",
+      "summary": "A Bench headed by Chief Justice of India Surya Kant was informed by advocate Prashant Bhushan that he had come directly to the apex court as several petitions connected to the BCI is being heard by the court",
+      "url": "https://www.thehindu.com/news/national/supreme-court-asks-prashant-bhushan-to-approach-delhi-high-court-in-case-of-lawyers-beaten-at-bci-premises/article71422600.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-03T06:16:39+00:00",
+      "published_at": "2026-09-03T06:16:39+00:00",
+      "effective_at": "2026-09-03T06:16:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu",
+            "the-hindu-delhi"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court granted liberty to advocate Prashant Bhushan on Thursday (September 3, 2026) to approach the Delhi High Court seeking relief for young lawyers who were beaten up while protesting at the Bar Council of India (BCI) premises on August 21.",
+        "A Bench headed by Chief Justice of India Surya Kant was informed by advocate Prashant Bhushan that he had come directly to the apex court as several petitions connected to the BCI is being heard by the court.",
+        "Mr. Bhushan, in an oral mentioning, alleged BCI chairperson, senior advocate Manan Kumar Mishra, had later on referred to the protesting lawyers as “legal cockroaches” who were dealt with by “our lawyers”.",
+        "Mr. Bhushan sought a CBI probe into the affair.",
+        "Justice Joymalya Bagchi said though lawyers have a right to protest, the legal fraternity was still a disciplined community, which had multiple fora to present their grievances.",
+        "Mr. Bhushan said nobody however had a right to beat up anyone.",
+        "The protesting lawyers were mostly in their twenties, he said.",
+        "The senior lawyer said he would comply with whatever the apex court thought best.",
+        "Chief Justice Kant observed that it would be more opportune if the petition was filed in the High Court first."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court granted liberty to advocate Prashant Bhushan on Thursday (September 3, 2026) to approach the Delhi High Court seeking relief for young lawyers who were beaten up while protesting at the Bar Council of India (BCI) premises on August 21.",
+          "A Bench headed by Chief Justice of India Surya Kant was informed by advocate Prashant Bhushan that he had come directly to the apex court as several petitions connected to the BCI is being heard by the court."
+        ],
+        "body": [
+          "Mr. Bhushan, in an oral mentioning, alleged BCI chairperson, senior advocate Manan Kumar Mishra, had later on referred to the protesting lawyers as “legal cockroaches” who were dealt with by “our lawyers”.",
+          "Mr. Bhushan sought a CBI probe into the affair.",
+          "Justice Joymalya Bagchi said though lawyers have a right to protest, the legal fraternity was still a disciplined community, which had multiple fora to present their grievances.",
+          "Mr. Bhushan said nobody however had a right to beat up anyone.",
+          "The protesting lawyers were mostly in their twenties, he said.",
+          "The senior lawyer said he would comply with whatever the apex court thought best.",
+          "Chief Justice Kant observed that it would be more opportune if the petition was filed in the High Court first."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court granted liberty to advocate Prashant Bhushan on Thursday (September 3, 2026) to approach the Delhi High Court seeking relief for young lawyers who were beaten up while protesting at the Bar Council of India (BCI) premises on August 21.",
+            "source": "The Hindu",
+            "item_id": "4354c0253fcfa0971084669b:article",
+            "composed": false
+          },
+          {
+            "text": "Justice Joymalya Bagchi said though lawyers have a right to protest, the legal fraternity was still a disciplined community, which had multiple fora to present their grievances.",
+            "source": "The Hindu",
+            "item_id": "4354c0253fcfa0971084669b:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-asks-prashant-bhushan-to-approach-delhi-high-court-in-case-of-lawyers-beaten-at-bci-premises/article71422600.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2992272dc08428f76f062754",
       "story_id": "2992272dc08428f76f062754",
       "headline": "India's GDP growth defies oil shock but stirs up controversy",
@@ -985,7 +1319,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1111,7 +1445,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1233,7 +1567,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1350,7 +1684,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1470,7 +1804,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'cabinet nod' in summary weight 24",
         "scale: state scope (bihar)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "geo: state",
         "dominant event 44, stack 40, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1549,7 +1883,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1656,7 +1990,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'bandh' in title weight 40",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "geo: state",
         "dominant event 40, stack 16, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1775,7 +2109,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
@@ -1891,7 +2225,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -1978,7 +2312,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 39.4, score 39.4 -> HIGH"
@@ -2097,7 +2431,7 @@
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 38, stack 27.2, score 38 -> HIGH"
