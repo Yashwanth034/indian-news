@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T00:51:48.998318+00:00",
-  "count": 9,
+  "generated_at": "2026-09-04T01:02:03.134913+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "c909d65f7cffe29a20b5a5e2",
@@ -47,7 +47,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -170,7 +170,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -304,7 +304,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -454,7 +454,7 @@
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -568,19 +568,19 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "bad220d06c8b3e5e3e39edaa",
-      "story_id": "bad220d06c8b3e5e3e39edaa",
-      "headline": "SC clears NSE settlement, paving way for mega IPO",
-      "title": "SC clears NSE settlement, paving way for mega IPO",
+      "event_id": "8205de78798f19808802cf75",
+      "story_id": "8205de78798f19808802cf75",
+      "headline": "NSE’s mega IPO moves closer as SC approves Sebi settlement",
+      "title": "NSE’s mega IPO moves closer as SC approves Sebi settlement",
       "summary": "New Delhi: The Supreme Court Thursday accepted the settlement terms arrived at between Securities and Exchange Board of India and National Stock Exchange of India (NSE) in the co-location and dark fibre cases, removing a key regulatory hurdle to the exchange's listing that's expected to be the country's second-largest initial public offering (IPO) ever.The proposed NSE IPO is expected to garner as much as ₹31,000 crore, making it the country's second-biggest IPO - next only to the proposed initial share sales by Jio Platforms. The nearly ₹28,000-crore IPO by Hyundai Motor India, launched in October 2024, remains the country's biggest concluded IPO to date.Last week, Sebi Chairman Tuhin Kanta Pandey said on the sidelines of an event in Mumbai that the regulator was 'close' to giving its approval to the NSE IPO.Read more: Up to 290% gains! SBI, Federal Bank make massive windfall as Arcil’s Rs 733-crore IPO hits D-StreetThe country's biggest stock exchange had filed on June 18 the draft red herring prospectus (DRHP) for its initial public offering . The offering comprises an offer for sale of 148.91 million shares to be offloaded by some existing shareholders.The case relates to the alleged lapses in high-frequency trading offered through the exchange's colocation facility that allegedly gave some entities preferential access.The market regulator had in July accepted the National Stock Exchange of India's application under the settlement proceedings regulation for a settlement amount of ₹1,491 crore. NSE said the capital markets regulator granted in-principle approval to settle certain past regulatory lapses, subject to the payment of ₹1,491 crore.The NSE had filed the settlement application of ₹1,224 crore to close the market regulator's pending appeal in the Supreme Court in the co-location facility case. The NSE had also filed another application for a settlement amount of about ₹268 crore to another pending appeal in the co-location facility-related dark fibre case. However, the co-location case pending against NSE's former managing director and chief executive officer Chitra Ramkrishna, and others will continue and will be decided separately, a bench led by Justice JB Pardiwala said. It disposed of Sebi appeals challenging the Securities Appellate Tribunal orders that set aside the market regulator's disgorgement directive in the co-location and dark fibre cases.Sebi's 2019 order had imposed a ₹625 crore disgorgement penalty on the NSE. SAT had set aside the disgorgement order in January 2023 and instead imposed a ₹100 crore penalty on the exchange for lack of due diligence in following norms while offering colocation.It said the stock exchange did not make any illicit gain in the colocation case and there was no finding of fraud, unfair trade practice or collusion against them.The NSE launched the colocation facility in 2009, allowing traders and brokers to establish their IT servers within its premises for a fee.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/sc-clears-nse-settlement-paving-way-for-mega-ipo/articleshow/133748533.cms",
       "source": "The Economic Times",
       "primary_source": false,
       "tier": 3,
-      "category": "business-industry",
+      "category": "economy-finance",
       "secondary_categories": [
+        "business-industry",
         "courts-law",
-        "economy-finance",
         "crime-public-safety"
       ],
       "confidence": "medium",
@@ -604,10 +604,12 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "filler: 'Read more' in summary (penalty 9, active)",
+        "filler: 'Read more' in summary (penalty 9, overridden)",
         "major: geo national significance",
-        "category: business-industry (importance 1, urgent=False)",
-        "score 91.0 -> pass (pass >= 60, filler >= 35)",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "major override dropped penalties: filler",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (economic-times) +1",
         "source: specialist (economic-times) +5",
         "corroboration: single independent source -> medium confidence",
@@ -615,8 +617,8 @@
         "event term: 'market regulator' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
-        "category: business-industry (importance 1) +1.2",
+        "recency: breaking (0.8h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
       ],
@@ -660,25 +662,25 @@
           {
             "text": "The nearly ₹28,000-crore IPO by Hyundai Motor India, launched in October 2024, remains the country's biggest concluded IPO to date.",
             "source": "The Economic Times",
-            "item_id": "bad220d06c8b3e5e3e39edaa",
+            "item_id": "8205de78798f19808802cf75",
             "composed": false
           },
           {
             "text": "SAT had set aside the disgorgement order in January 2023 and instead imposed a ₹100 crore penalty on the exchange for lack of due diligence in following norms while offering colocation.",
             "source": "The Economic Times",
-            "item_id": "bad220d06c8b3e5e3e39edaa",
+            "item_id": "8205de78798f19808802cf75",
             "composed": false
           },
           {
             "text": "The market regulator had in July accepted the National Stock Exchange of India's application under the settlement proceedings regulation for a settlement amount of ₹1,491 crore.",
             "source": "The Economic Times",
-            "item_id": "bad220d06c8b3e5e3e39edaa",
+            "item_id": "8205de78798f19808802cf75",
             "composed": false
           },
           {
             "text": "Last week, Sebi Chairman Tuhin Kanta Pandey said on the sidelines of an event in Mumbai that the regulator was 'close' to giving its approval to the NSE IPO.",
             "source": "The Economic Times",
-            "item_id": "bad220d06c8b3e5e3e39edaa",
+            "item_id": "8205de78798f19808802cf75",
             "composed": false
           }
         ],
@@ -689,129 +691,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "9c922e04a36fbe183bb443ef",
-      "story_id": "9c922e04a36fbe183bb443ef",
-      "headline": "Centre willing to return unfilled NEET-SS seats to T.N. government doctors, tells Supreme Court",
-      "title": "Centre willing to return unfilled NEET-SS seats to T.N. government doctors, tells Supreme Court",
-      "summary": "In a previous hearing, the Union government had submitted that out of the 152 seats transferred by the State of Tamil Nadu, approximately 40 seats continued to remain vacant",
-      "url": "https://www.thehindu.com/news/national/centre-willing-to-return-unfilled-neet-ss-seats-to-tn-government-doctors-tells-supreme-court/article71425162.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "health",
-        "education"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-03T18:59:49+00:00",
-      "published_at": "2026-09-03T18:59:49+00:00",
-      "effective_at": "2026-09-03T18:59:49+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "tamil nadu",
-      "national_significance": true,
-      "article_sentences": [
-        "The Union government informed the Supreme Court on Thursday of its willingness to revert all the vacant National Eligibility-cum-Entrance Test-Super Speciality seats (NEET-SS) for in-service government doctors to the State of Tamil Nadu.",
-        "Appearing before a Bench headed by Justice P.S. Narasimha, Additional Solicitor General Aishwarya Bhati, for the Centre, submitted that the qualifying percentile for super speciality admissions would be reduced.",
-        "However, the extent or quantum of such reduction has not yet been decided.",
-        "Senior Advocate P. Wilson, appearing for petitioner Tamil Nadu Medical.",
-        "Officers Association, stressed that the State needed to return the vacant seats, as many eligible candidates, mostly doctors serving in rural areas, were awaiting a reduction in the qualifying percentile.",
-        "In a previous hearing, the Union government had submitted that out of the 152 seats transferred by the State of Tamil Nadu, approximately 40 seats continued to remain vacant.",
-        "Mr. Wilson had submitted that all 40 in-service seats must be returned to Tamil Nadu as 111 candidates were awaiting a reduction in the qualifying percentile.",
-        "The association had challenged the “premature diversion” of 152 vacant Super Speciality seats earmarked for in-service government doctors in Tamil Nadu to the All India Quota.",
-        "It had also sought protection of the State’s in-service reservation policy, pending a final decision on reduction of the NEET-SS qualifying percentile.",
-        "The petition has submitted that Tamil Nadu had earmarked 219 super speciality seats for in-service candidates for the academic year 2025-2026.",
-        "Upon completion of two rounds of counselling, only 68 candidates had joined, leaving as many as 152 seats vacant.",
-        "“Over 111 in-service candidates remain on the waiting list and are legitimately anticipating a reduction of the qualifying percentile in accordance with the consistent practice followed during previous academic sessions."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Union government informed the Supreme Court on Thursday of its willingness to revert all the vacant National Eligibility-cum-Entrance Test-Super Speciality seats (NEET-SS) for in-service government doctors to the State of Tamil Nadu.",
-          "Appearing before a Bench headed by Justice P.S. Narasimha, Additional Solicitor General Aishwarya Bhati, for the Centre, submitted that the qualifying percentile for super speciality admissions would be reduced."
-        ],
-        "body": [
-          "However, the extent or quantum of such reduction has not yet been decided.",
-          "Senior Advocate P. Wilson, appearing for petitioner Tamil Nadu Medical.",
-          "Officers Association, stressed that the State needed to return the vacant seats, as many eligible candidates, mostly doctors serving in rural areas, were awaiting a reduction in the qualifying percentile.",
-          "In a previous hearing, the Union government had submitted that out of the 152 seats transferred by the State of Tamil Nadu, approximately 40 seats continued to remain vacant.",
-          "Mr. Wilson had submitted that all 40 in-service seats must be returned to Tamil Nadu as 111 candidates were awaiting a reduction in the qualifying percentile.",
-          "The association had challenged the “premature diversion” of 152 vacant Super Speciality seats earmarked for in-service government doctors in Tamil Nadu to the All India Quota.",
-          "It had also sought protection of the State’s in-service reservation policy, pending a final decision on reduction of the NEET-SS qualifying percentile.",
-          "The petition has submitted that Tamil Nadu had earmarked 219 super speciality seats for in-service candidates for the academic year 2025-2026."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Tamil Nadu"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The association had challenged the “premature diversion” of 152 vacant Super Speciality seats earmarked for in-service government doctors in Tamil Nadu to the All India Quota.",
-            "source": "The Hindu",
-            "item_id": "9c922e04a36fbe183bb443ef:article",
-            "composed": false
-          },
-          {
-            "text": "In a previous hearing, the Union government had submitted that out of the 152 seats transferred by the State of Tamil Nadu, approximately 40 seats continued to remain vacant.",
-            "source": "The Hindu",
-            "item_id": "9c922e04a36fbe183bb443ef:article",
-            "composed": false
-          },
-          {
-            "text": "Mr. Wilson had submitted that all 40 in-service seats must be returned to Tamil Nadu as 111 candidates were awaiting a reduction in the qualifying percentile.",
-            "source": "The Hindu",
-            "item_id": "9c922e04a36fbe183bb443ef:article",
-            "composed": false
-          },
-          {
-            "text": "The petition has submitted that Tamil Nadu had earmarked 219 super speciality seats for in-service candidates for the academic year 2025-2026.",
-            "source": "The Hindu",
-            "item_id": "9c922e04a36fbe183bb443ef:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/centre-willing-to-return-unfilled-neet-ss-seats-to-tn-government-doctors-tells-supreme-court/article71425162.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "f25547d8b432982c115a0c73",
@@ -864,7 +743,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'acquires' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 43.2, score 43.2 -> HIGH"
@@ -1025,7 +904,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 38.2, score 40 -> HIGH"
@@ -1143,7 +1022,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 30, score 38.4 -> HIGH"
