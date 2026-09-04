@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T13:32:23.690390+00:00",
-  "count": 14,
+  "generated_at": "2026-09-04T13:41:43.208317+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "11cde6742b95ee8db749f659",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "scale: state scope (delhi)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19.2, score 64 -> URGENT"
@@ -185,7 +185,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -277,6 +277,87 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "f094eaea049476d2ab91b9ea",
+      "story_id": "f094eaea049476d2ab91b9ea",
+      "headline": "'Thank you, dear PM Modi': Meloni signals deepening India-Italy strategic embrace",
+      "title": "'Thank you, dear PM Modi': Meloni signals deepening India-Italy strategic embrace",
+      "summary": "Italian Prime Minister Giorgia Meloni thanked Prime Minister Narendra Modi for his congratulatory message, saying the relationship between Italy and India is “stronger than ever” and highlighting their Special Strategic Partnership. Meloni has served as Italy’s PM since October 22, 2022. On Thursday, after completing 1,413 consecutive days in office, she became the country’s longest continuously serving prime minister since World War II.",
+      "url": "https://timesofindia.indiatimes.com/india/thank-you-dear-pm-modi-meloni-signals-deepening-india-italy-strategic-embrace/articleshow/133763417.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": null,
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-04T12:53:13+00:00",
+      "published_at": "2026-09-04T12:53:13+00:00",
+      "effective_at": "2026-09-04T12:53:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'war' in summary weight 49.2",
+        "scale: national scope",
+        "recency: breaking (0.8h ago) +8",
+        "geo: national",
+        "dominant event 49.2, stack 24, score 49.2 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Italian Prime Minister Giorgia Meloni thanked Prime Minister Narendra Modi for his congratulatory message, saying the relationship between Italy and India is “stronger than ever” and highlighting their Special Strategic Partnership.",
+          "Meloni has served as Italy’s PM since October 22, 2022."
+        ],
+        "body": [
+          "On Thursday, after completing 1,413 consecutive days in office, she became the country’s longest continuously serving prime minister since World War II."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Meloni has served as Italy’s PM since October 22, 2022.",
+            "source": "Times of India",
+            "item_id": "f094eaea049476d2ab91b9ea",
+            "composed": false
+          },
+          {
+            "text": "Italian Prime Minister Giorgia Meloni thanked Prime Minister Narendra Modi for his congratulatory message, saying the relationship between Italy and India is “stronger than ever” and highlighting their Special Strategic Partnership.",
+            "source": "Times of India",
+            "item_id": "f094eaea049476d2ab91b9ea",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/thank-you-dear-pm-modi-meloni-signals-deepening-india-italy-strategic-embrace/articleshow/133763417.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "6741aa55ed05defb5b0776bb",
       "story_id": "6741aa55ed05defb5b0776bb",
       "headline": "What did the Supreme Court say about paid maternity leave?",
@@ -318,7 +399,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -409,7 +490,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -533,7 +614,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -632,7 +713,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -738,7 +819,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -822,105 +903,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "eb653aab5514448cef71471b",
-      "story_id": "eb653aab5514448cef71471b",
-      "headline": "Sikkim identifies 40 high-hazard glacial lakes, 16 at highest risk",
-      "title": "Sikkim identifies 40 high-hazard glacial lakes, 16 at highest risk",
-      "summary": "The eastern Himalayan state of Sikkim has identified 40 high-hazard glacial lakes, with 16 of them classified as being at the highest risk of catastrophic outbursts that could threaten downstream settlements. The data is significant as it comes against the backdrop of the recent flash flood in Nepal, triggered by a glacial collapse near the Nepal-Tibet border on August 26 that left a trail of destruction with hundreds of people dead and scores missing. Though the catastrophe was not linked to a Glacial Lake Outburst Flood (GLOF), the flash flood has highlighted a broader transformation across the Himalayas as glaciers retreat, new lakes are forming in their place, while existing ones are expanding. Glacial lakes are formed by the melting of glaciers and accumulation of meltwater in depressions on or near the glacier's surface. GLOFs occur when these lakes suddenly burst open due to factors such as excessive water accumulation or triggers like earthquakes. These floods can cause ...",
-      "url": "https://www.business-standard.com/india-news/sikkim-identifies-40-high-hazard-glacial-lakes-16-at-highest-risk-126090400457_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 84.2,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-04T07:39:00+00:00",
-      "published_at": "2026-09-04T07:39:00+00:00",
-      "effective_at": "2026-09-04T07:39:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'Flood'",
-        "major: significance event 'flood'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in summary weight 38.4",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: state scope (sikkim)",
-        "recency: fresh (5.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 38.4, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "sikkim",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The eastern Himalayan state of Sikkim has identified 40 high-hazard glacial lakes, with 16 of them classified as being at the highest risk of catastrophic outbursts that could threaten downstream settlements.",
-          "The data is significant as it comes against the backdrop of the recent flash flood in Nepal, triggered by a glacial collapse near the Nepal-Tibet border on August 26 that left a trail of destruction with hundreds of people dead and scores missing."
-        ],
-        "body": [
-          "Though the catastrophe was not linked to a Glacial Lake Outburst Flood (GLOF), the flash flood has highlighted a broader transformation across the Himalayas as glaciers retreat, new lakes are forming in their place, while existing ones are expanding.",
-          "Glacial lakes are formed by the melting of glaciers and accumulation of meltwater in depressions on or near the glacier's surface.",
-          "GLOFs occur when these lakes suddenly burst open due to factors such as excessive water accumulation or triggers like earthquakes.",
-          "These floods can cause..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The data is significant as it comes against the backdrop of the recent flash flood in Nepal, triggered by a glacial collapse near the Nepal-Tibet border on August 26 that left a trail of destruction with hundreds of people dead and scores missing.",
-            "source": "Business Standard",
-            "item_id": "eb653aab5514448cef71471b",
-            "composed": false
-          },
-          {
-            "text": "Though the catastrophe was not linked to a Glacial Lake Outburst Flood (GLOF), the flash flood has highlighted a broader transformation across the Himalayas as glaciers retreat, new lakes are forming in their place, while existing ones are expanding.",
-            "source": "Business Standard",
-            "item_id": "eb653aab5514448cef71471b",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/sikkim-identifies-40-high-hazard-glacial-lakes-16-at-highest-risk-126090400457_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "b07c653c6686d51b5c3b9600",
       "story_id": "b07c653c6686d51b5c3b9600",
       "headline": "Supreme Court Allows NGO Energy Watchdog To Participate In Proceedings Against Companies Over Alleged Unauthorised Power Use",
@@ -964,7 +946,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1069,7 +1051,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1181,7 +1163,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1304,7 +1286,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1427,7 +1409,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 43.2, score 43.2 -> HIGH"
@@ -1487,6 +1469,126 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "8fc3b827e50a59878ab6cd4d",
+      "story_id": "8fc3b827e50a59878ab6cd4d",
+      "headline": "Karnataka HC strikes down notification empowering SPs to issue externment orders under Police Act",
+      "title": "Karnataka HC strikes down notification empowering SPs to issue externment orders under Police Act",
+      "summary": "The court said the law empowers only the Police Commissioner in Bengaluru and other commissionerate cities, the District Magistrate in other areas, and a Sub-Divisional Magistrate, if specially empowered, to pass externment orders",
+      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-hc-strikes-down-notification-empowering-sps-to-issue-externment-orders-under-police-act/article71428418.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "crime-public-safety",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 66.2,
+      "priority_score": 40.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-04T13:28:19+00:00",
+      "published_at": "2026-09-04T13:28:19+00:00",
+      "effective_at": "2026-09-04T13:28:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: category importance 1.1 >= 1.1",
+        "major: urgent category",
+        "category: crime-public-safety (importance 1.1, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'strikes down' in title weight 40",
+        "scale: state scope (karnataka)",
+        "recency: breaking (0.2h ago) +8",
+        "category: crime-public-safety (importance 1.1) +2.4",
+        "geo: state",
+        "dominant event 40, stack 18.4, score 40 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "karnataka",
+      "national_significance": false,
+      "article_sentences": [
+        "The High Court of Karnataka has struck down a notification issued by the State government in November last year empowering Superintendents of Police (SPs) in districts to pass externment orders under the Karnataka.",
+        "Police (KP) Act, 1963.",
+        "Referring to Section 55 of the Act, the court said the law empowers only the Police Commissioner in Bengaluru and other commissionerate cities, the District Magistrate in other areas, and a Sub-Divisional Magistrate, if specially empowered, to pass externment orders.",
+        "Justice Sachin Shankar Magadum passed the order while striking down the State government’s November 18, 2025, notification empowering Superintendents of Police to pass externment orders under the Act.",
+        "“The Superintendent of Police does not fall within either of the categories expressly contemplated by Section 55 of the KP Act.",
+        "The office or cadre of Superintendent of Police cannot be equated with that of a District Magistrate or a Sub-Divisional Magistrate.",
+        "The statutory authority identified by the legislature cannot be substituted by another authority merely through an executive act of delegation,” the court observed.",
+        "The court also set aside the April 2026 order of Belagavi SP, who had passed an order of externment of one Chandrakant Shankar Vaddar, a 54-year-old labourer from Nippani in Belagavi district, by exercising the power under the government’s November 18, 2025 notification.",
+        "“The executive instructions may supplement statutory rules where there is a gap, but they cannot override, amend, or run contrary to the express provisions of the parent statute,” the court said.",
+        "It further clarified that when a statute specifies the authority, mode, and manner of exercising a power, the executive cannot, through an administrative instruction, circular, or notification, confer that power on an authority not contemplated by the statute."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The High Court of Karnataka has struck down a notification issued by the State government in November last year empowering Superintendents of Police (SPs) in districts to pass externment orders under the Karnataka.",
+          "Police (KP) Act, 1963."
+        ],
+        "body": [
+          "Referring to Section 55 of the Act, the court said the law empowers only the Police Commissioner in Bengaluru and other commissionerate cities, the District Magistrate in other areas, and a Sub-Divisional Magistrate, if specially empowered, to pass externment orders.",
+          "Justice Sachin Shankar Magadum passed the order while striking down the State government’s November 18, 2025, notification empowering Superintendents of Police to pass externment orders under the Act.",
+          "“The Superintendent of Police does not fall within either of the categories expressly contemplated by Section 55 of the KP Act.",
+          "The office or cadre of Superintendent of Police cannot be equated with that of a District Magistrate or a Sub-Divisional Magistrate.",
+          "The statutory authority identified by the legislature cannot be substituted by another authority merely through an executive act of delegation,” the court observed.",
+          "The court also set aside the April 2026 order of Belagavi SP, who had passed an order of externment of one Chandrakant Shankar Vaddar, a 54-year-old labourer from Nippani in Belagavi district, by exercising the power under the government’s November 18, 2025 notification.",
+          "“The executive instructions may supplement statutory rules where there is a gap, but they cannot override, amend, or run contrary to the express provisions of the parent statute,” the court said.",
+          "It further clarified that when a statute specifies the authority, mode, and manner of exercising a power, the executive cannot, through an administrative instruction, circular, or notification, confer that power on an authority not contemplated by the statute."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "November"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The court also set aside the April 2026 order of Belagavi SP, who had passed an order of externment of one Chandrakant Shankar Vaddar, a 54-year-old labourer from Nippani in Belagavi district, by exercising the power under the government’s November 18, 2025 notification.",
+            "source": "The Hindu",
+            "item_id": "8fc3b827e50a59878ab6cd4d:article",
+            "composed": false
+          },
+          {
+            "text": "Justice Sachin Shankar Magadum passed the order while striking down the State government’s November 18, 2025, notification empowering Superintendents of Police to pass externment orders under the Act.",
+            "source": "The Hindu",
+            "item_id": "8fc3b827e50a59878ab6cd4d:article",
+            "composed": false
+          },
+          {
+            "text": "The High Court of Karnataka has struck down a notification issued by the State government in November last year empowering Superintendents of Police (SPs) in districts to pass externment orders under the Karnataka.",
+            "source": "The Hindu",
+            "item_id": "8fc3b827e50a59878ab6cd4d:article",
+            "composed": false
+          },
+          {
+            "text": "Referring to Section 55 of the Act, the court said the law empowers only the Police Commissioner in Bengaluru and other commissionerate cities, the District Magistrate in other areas, and a Sub-Divisional Magistrate, if specially empowered, to pass externment orders.",
+            "source": "The Hindu",
+            "item_id": "8fc3b827e50a59878ab6cd4d:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-hc-strikes-down-notification-empowering-sps-to-issue-externment-orders-under-police-act/article71428418.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "f3d3712e20d038f63b1815af",
       "story_id": "f3d3712e20d038f63b1815af",
       "headline": "Asiad-bound shooters gear up with final preparatory camps in Delhi, Bhopal",
@@ -1531,7 +1633,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 40, score 40 -> HIGH"
