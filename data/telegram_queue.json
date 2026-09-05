@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:51:33.703117+00:00",
+  "generated_at": "2026-09-05T07:02:07.577898+00:00",
   "count": 8,
   "stories": [
     {
@@ -56,7 +56,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -99,6 +99,116 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "75594cb23deffa8018c9b2c1",
+      "story_id": "75594cb23deffa8018c9b2c1",
+      "headline": "Ganga water level breaches 'highest flood mark' at Patna's Gandhi Ghat amid heavy rain",
+      "title": "Ganga water level breaches 'highest flood mark' at Patna's Gandhi Ghat amid heavy rain",
+      "summary": "People have been asked to exercise caution in view of the rising water level of the river",
+      "url": "https://www.thehindubusinessline.com/news/ganga-water-level-breaches-highest-flood-mark-at-patnas-gandhi-ghat-amid-heavy-rain/article71431179.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-05T06:54:05+00:00",
+      "published_at": "2026-09-05T06:54:05+00:00",
+      "effective_at": "2026-09-05T06:54:05+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (bihar)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 28, score 64 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "bihar",
+      "national_significance": true,
+      "article_sentences": [
+        "Amid heavy rain in Bihar, the Ganga water level rose by 10 cm at Gandhi Ghat here on Saturday morning, and the river was flowing 1 cm above the 'highest flood level', posing a risk of inundation in low-lying areas in the State's capital, an official bulletin said.",
+        "People have been asked to exercise caution in view of the rising water level of the river.",
+        "According to the latest bulletin issued by the Water Resources Department (WRD), the \"Ganga water level at Gandhi Ghat in Patna rose by 10 cm in the past four hours, reaching 50.53 cm, which is 1 cm above the highest flood level, at 10 am on Saturday.\"",
+        "“The forecast is that the Ganga water level at Gandhi Ghat is likely to rise further to 50.62 cm by 8 am on Sunday.",
+        "People have been advised to exercise caution,” it said.",
+        "Several districts in Bihar are experiencing a flood-like situation as the Ganga, Gandak, Kosi, Burhi Gandak, Bagmati, Punpun and Ghaghra rivers are flowing above danger marks following heavy rainfall in the state and neighbouring Nepal.",
+        "Chief Minister Samrat Choudhary conducted an aerial survey of the affected areas on Friday and reviewed relief and rescue operations.",
+        "He directed officials to identify affected families, ensure timely relief and continuously monitor vulnerable areas and the Ganga embankments from Buxar to Bhagalpur to prevent erosion and breaches."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Amid heavy rain in Bihar, the Ganga water level rose by 10 cm at Gandhi Ghat here on Saturday morning, and the river was flowing 1 cm above the 'highest flood level', posing a risk of inundation in low-lying areas in the State's capital, an official bulletin said.",
+          "People have been asked to exercise caution in view of the rising water level of the river."
+        ],
+        "body": [
+          "According to the latest bulletin issued by the Water Resources Department (WRD), the \"Ganga water level at Gandhi Ghat in Patna rose by 10 cm in the past four hours, reaching 50.53 cm, which is 1 cm above the highest flood level, at 10 am on Saturday.\" “The forecast is that the Ganga water level at Gandhi Ghat is likely to rise further to 50.62 cm by 8 am on Sunday.",
+          "People have been advised to exercise caution,” it said.",
+          "Several districts in Bihar are experiencing a flood-like situation as the Ganga, Gandak, Kosi, Burhi Gandak, Bagmati, Punpun and Ghaghra rivers are flowing above danger marks following heavy rainfall in the state and neighbouring Nepal.",
+          "Chief Minister Samrat Choudhary conducted an aerial survey of the affected areas on Friday and reviewed relief and rescue operations.",
+          "He directed officials to identify affected families, ensure timely relief and continuously monitor vulnerable areas and the Ganga embankments from Buxar to Bhagalpur to prevent erosion and breaches."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bihar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "According to the latest bulletin issued by the Water Resources Department (WRD), the \"Ganga water level at Gandhi Ghat in Patna rose by 10 cm in the past four hours, reaching 50.53 cm, which is 1 cm above the highest flood level, at 10 am on Saturday.\"",
+            "source": "The Hindu BusinessLine",
+            "item_id": "75594cb23deffa8018c9b2c1:article",
+            "composed": false
+          },
+          {
+            "text": "“The forecast is that the Ganga water level at Gandhi Ghat is likely to rise further to 50.62 cm by 8 am on Sunday.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "75594cb23deffa8018c9b2c1:article",
+            "composed": false
+          },
+          {
+            "text": "He directed officials to identify affected families, ensure timely relief and continuously monitor vulnerable areas and the Ganga embankments from Buxar to Bhagalpur to prevent erosion and breaches.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "75594cb23deffa8018c9b2c1:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/news/ganga-water-level-breaches-highest-flood-mark-at-patnas-gandhi-ghat-amid-heavy-rain/article71431179.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "752de7027cab64e4936e0211",
@@ -149,7 +259,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -295,7 +405,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'contamination' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -439,7 +549,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -526,111 +636,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "f71567540ac3a0add90a30a5",
-      "story_id": "f71567540ac3a0add90a30a5",
-      "headline": "Imran Ansari meets Iranian Chief Justice during New Delhi visit",
-      "title": "Imran Ansari meets Iranian Chief Justice during New Delhi visit",
-      "summary": "President of the All Jammu and Kashmir Shia Association and JKPC General Secretary, Molvi Imran Ansari, met the Chief Justice of the Islamic Republic of Iran, Ayatollah Gholam-Hossein Mohseni-Eje’i, during his official visit to New Delhi for the BRICS judicial leaders’ summit. The meeting was also attended by Dr. Mohammad Fathali, Ambassador of the Islamic Republic of Iran to India, and Dr. Abdul Majid Hakeem Ilahi, Representative of the Supreme Leader of Iran in India. During the interaction, Molvi Imran Ansari conveyed his respect for the people of Iran and remembered the martyrs of Iran, including Ayatollah Sayyid Ali Hosseini Khamenei, as well as the innocent victims of the tragic Minab school incident, particularly the children. He offered prayers for the departed and expressed solidarity with their families. Speaking about Kashmir’s historic relationship with Iran, Molvi Imran Ansari said that the connection between the two societies goes back centuries and is deeply rooted in civilization rather than politics alone. Persian language and literature, Islamic scholarship, poetry, architecture, art and traditional crafts have all played an important role in shaping Kashmir’s cultural and intellectual heritage. For generations, scholars and ideas travelled between these regions, creating a relationship of faith, knowledge and mutual respect. Molvi Imran Ansari also spoke about the historic relationship between India and Iran, describing the two countries as ancient civilizations connected through centuries of cultural exchange, trade and people-to-people relations. (KNS)",
-      "url": "https://www.greaterkashmir.com/kashmir/imran-ansari-meets-iranian-chief-justice-during-new-delhi-visit-12494265",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "education"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-04T07:21:50+00:00",
-      "published_at": "2026-09-05T01:01:49+00:00",
-      "effective_at": "2026-09-05T01:01:49+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "rising-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        },
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'chief justice' in title weight 42",
-        "event term: 'chief justice' in summary weight 25.2",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (23.5h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "President of the All Jammu and Kashmir Shia Association and JKPC General Secretary, Molvi Imran Ansari, met the Chief Justice of the Islamic Republic of Iran, Ayatollah Gholam-Hossein Mohseni-Eje’i, during his official visit to New Delhi for the BRICS judicial leaders’ summit.",
-          "The meeting was also attended by Dr. Mohammad Fathali, Ambassador of the Islamic Republic of Iran to India, and Dr. Abdul Majid Hakeem Ilahi, Representative of the Supreme Leader of Iran in India."
-        ],
-        "body": [
-          "During the interaction, Molvi Imran Ansari conveyed his respect for the people of Iran and remembered the martyrs of Iran, including Ayatollah Sayyid Ali Hosseini Khamenei, as well as the innocent victims of the tragic Minab school incident, particularly the children.",
-          "He offered prayers for the departed and expressed solidarity with their families.",
-          "Speaking about Kashmir’s historic relationship with Iran, Molvi Imran Ansari said that the connection between the two societies goes back centuries and is deeply rooted in civilization rather than politics alone.",
-          "Persian language and literature, Islamic scholarship, poetry, architecture, art and traditional crafts have all played an important role in shaping Kashmir’s cultural and intellectual heritage.",
-          "For generations, scholars and ideas travelled between these regions, creating a relationship of faith, knowledge and mutual respect.",
-          "Molvi Imran Ansari also spoke about the historic relationship between India and Iran, describing the two countries as ancient civilizations connected through centuries of cultural exchange, trade and people-to-people relations."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The meeting was also attended by Dr. Mohammad Fathali, Ambassador of the Islamic Republic of Iran to India, and Dr. Abdul Majid Hakeem Ilahi, Representative of the Supreme Leader of Iran in India.",
-            "source": "Greater Kashmir",
-            "item_id": "f71567540ac3a0add90a30a5",
-            "composed": false
-          },
-          {
-            "text": "President of the All Jammu and Kashmir Shia Association and JKPC General Secretary, Molvi Imran Ansari, met the Chief Justice of the Islamic Republic of Iran, Ayatollah Gholam-Hossein Mohseni-Eje’i, during his official visit to New Delhi for the BRICS judicial leaders’ summit.",
-            "source": "Greater Kashmir",
-            "item_id": "f71567540ac3a0add90a30a5",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/kashmir/imran-ansari-meets-iranian-chief-justice-during-new-delhi-visit-12494265"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "196b6ae4bf0db123877f7d0b",
       "story_id": "196b6ae4bf0db123877f7d0b",
       "headline": "Supreme Court Allows Retiral Benefits To Employee Whose ST Certificate Was Found Invalid After 25 Years' Service",
@@ -672,7 +677,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -793,7 +798,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -898,7 +903,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
