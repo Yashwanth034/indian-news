@@ -46,6 +46,28 @@ jobs:
       - name: Create data directory
         run: mkdir -p data
 
+      - name: Restore Telegram queue and state
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          set +e
+          git ls-remote --exit-code --heads origin telegram-state >/dev/null 2>&1
+          state_branch_status=$?
+          set -e
+
+          if [ "$state_branch_status" -eq 0 ]; then
+            git fetch --depth=1 origin telegram-state
+            git show FETCH_HEAD:data/telegram_queue.json > data/telegram_queue.json
+            git show FETCH_HEAD:data/telegram_state.json > data/telegram_state.json
+            echo "restored Telegram queue/state from telegram-state"
+          elif [ "$state_branch_status" -eq 2 ]; then
+            echo "telegram-state branch not found; using main defaults"
+          else
+            echo "failed to inspect telegram-state branch" >&2
+            exit "$state_branch_status"
+          fi
+
       - name: Collect fresh news
         run: |
           python -m src.main
@@ -56,23 +78,44 @@ jobs:
         env:
           TELEGRAM_PUBLISH: "1"
 
-      - name: Commit queue and state
+      - name: Persist queue and state
+        shell: bash
         run: |
-          if [ -n "$(git status --porcelain --untracked-files=all \
-            -- data/telegram_queue.json data/telegram_state.json)" ]; then
+          set -euo pipefail
 
-            echo "state changes detected"
+          state_dir="$RUNNER_TEMP/telegram-state"
+          rm -rf "$state_dir"
 
-            git config user.name "telegram-bot"
-            git config user.email "telegram-bot@localhost"
+          set +e
+          git ls-remote --exit-code --heads origin telegram-state >/dev/null 2>&1
+          state_branch_status=$?
+          set -e
 
-            git add data/telegram_queue.json data/telegram_state.json
-
-            git commit -m "telegram queue+state: $(date -u +%Y-%m-%dT%H:%MZ)"
-
-            git pull --rebase origin main
-
-            git push origin main
+          if [ "$state_branch_status" -eq 0 ]; then
+            git fetch --depth=1 origin telegram-state
+            state_base=FETCH_HEAD
+          elif [ "$state_branch_status" -eq 2 ]; then
+            state_base=HEAD
           else
-            echo "no state changes"
+            echo "failed to inspect telegram-state branch" >&2
+            exit "$state_branch_status"
           fi
+
+          git worktree add --detach "$state_dir" "$state_base"
+          trap 'git worktree remove --force "$state_dir" >/dev/null 2>&1 || true' EXIT
+
+          mkdir -p "$state_dir/data"
+          cp data/telegram_queue.json "$state_dir/data/telegram_queue.json"
+          cp data/telegram_state.json "$state_dir/data/telegram_state.json"
+
+          git -C "$state_dir" config user.name "telegram-bot"
+          git -C "$state_dir" config user.email "telegram-bot@localhost"
+          git -C "$state_dir" add data/telegram_queue.json data/telegram_state.json
+
+          if git -C "$state_dir" diff --cached --quiet; then
+            echo "no state changes"
+            exit 0
+          fi
+
+          git -C "$state_dir" commit -m "telegram queue+state: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git -C "$state_dir" push origin HEAD:refs/heads/telegram-state

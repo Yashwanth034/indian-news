@@ -1,24 +1,12 @@
-"""Regression tests for Telegram queue/state git persistence.
+"""Regression tests for Telegram queue/state persistence.
 
-The production ``telegram.yml`` workflow must persist
-``data/telegram_queue.json`` and ``data/telegram_state.json``
-across GitHub Actions runs.  These files are git-ignored with
-explicit un-ignore exceptions, which means they are UNTRACKED
-until their first commit; a plain ``git diff --quiet`` can never
-see them.  The tests below execute the real ``Commit queue and
-state`` run block from the workflow inside throwaway git repos and
-assert that:
-
-- missing queue/state files are detected as "no state changes"
-- newly created (untracked) queue/state files are staged,
-  committed and pushed
-- modified tracked queue/state files are staged again
-- ONLY the two intended files ever land in a commit
-- every other data/ file (news.db, source_health.json, ...)
-  stays excluded
+The production workflow keeps main protected and stores mutable Telegram
+runtime state on a dedicated telegram-state branch.
 """
-import subprocess
+
+import os
 import shutil
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -38,15 +26,11 @@ def _git(repo, *args):
     return proc.stdout.strip()
 
 
-def _commit_step_block():
-    """Extract the literal ``run`` content of the workflow's
-    ``Commit queue and state`` step.
-    """
+def _step_block(name):
     lines = WORKFLOW.read_text().splitlines()
     step_index = next(
-        i
-        for i, line in enumerate(lines)
-        if line.strip() == "- name: Commit queue and state"
+        i for i, line in enumerate(lines)
+        if line.strip() == f"- name: {name}"
     )
     run_index = next(
         i
@@ -64,34 +48,36 @@ def _commit_step_block():
     return "\n".join(block).rstrip() + "\n"
 
 
-def _run_commit_step(repo):
-    block = _commit_step_block()
-    proc = subprocess.run(
-        ["bash", "-e", "-c", block],
+def _run_step(repo, name, runner_temp):
+    runner_temp.mkdir(parents=True, exist_ok=True)
+    env = os.environ.copy()
+    env["RUNNER_TEMP"] = str(runner_temp)
+    return subprocess.run(
+        ["bash", "-e", "-c", _step_block(name)],
         cwd=repo,
+        env=env,
         capture_output=True,
         text=True,
     )
-    return proc
 
 
-def _last_commit_files(repo, ref="origin/main"):
-    out = _git(
-        repo,
-        "diff-tree",
-        "--no-commit-id",
-        "--name-only",
-        "-r",
-        ref,
+def _write_runtime_files(work, marker="initial"):
+    data = work / "data"
+    data.mkdir(exist_ok=True)
+    (data / "telegram_queue.json").write_text(
+        '{"generated_at":"%s","count":0,"stories":[]}' % marker,
+        encoding="utf-8",
     )
-    return out.splitlines()
+    (data / "telegram_state.json").write_text(
+        '{"posted":[{"story_id":"%s"}],"scheduled":[],"failures":[]}' % marker,
+        encoding="utf-8",
+    )
 
 
 @pytest.fixture
 def git_sandbox(tmp_path):
     work = tmp_path / "work"
     origin = tmp_path / "origin.git"
-    origin.mkdir()
     subprocess.run(
         ["git", "init", "--bare", "-q", str(origin)],
         check=True,
@@ -110,166 +96,145 @@ def git_sandbox(tmp_path):
     return work
 
 
-def _write_runtime_files(work):
-    data = work / "data"
-    data.mkdir()
-    (data / "telegram_queue.json").write_text(
-        '{"generated_at": "2026-08-13T00:00:00Z", "count": 0, '
-        '"stories": []}',
-        encoding="utf-8",
-    )
-    (data / "telegram_state.json").write_text(
-        '{"posted": [], "scheduled": [], "failures": [], '
-        '"last_posted_at": null}',
-        encoding="utf-8",
-    )
+def _state_branch_head(work):
+    out = _git(work, "ls-remote", "--heads", "origin", "telegram-state")
+    assert out
+    return out.split()[0]
 
 
-def test_detects_missing_files_as_no_changes(git_sandbox):
+def _fetch_state_branch(work):
+    _git(work, "fetch", "-q", "origin", "telegram-state")
+    return _git(work, "rev-parse", "FETCH_HEAD")
+
+
+def test_persist_creates_state_branch_without_updating_main(
+    git_sandbox, tmp_path
+):
     work = git_sandbox
-    proc = _run_commit_step(work)
-    assert proc.returncode == 0
-    assert "no state changes" in proc.stdout
-    assert "state changes detected" not in proc.stdout
-    assert len(_last_commit_files(work)) == 0
-
-
-def test_newly_created_queue_state_staged_and_committed(git_sandbox):
-    work = git_sandbox
+    main_before = _git(work, "rev-parse", "origin/main")
     _write_runtime_files(work)
-    (work / "data" / "news.db").write_bytes(b"db-bytes")
-    (work / "data" / "source_health.json").write_text(
-        "{}", encoding="utf-8"
+
+    proc = _run_step(
+        work,
+        "Persist queue and state",
+        tmp_path / "runner-1",
     )
-    (work / "data" / "junk.bin").write_bytes(b"junk")
 
-    proc = _run_commit_step(work)
     assert proc.returncode == 0, proc.stderr
-    assert "state changes detected" in proc.stdout
-    assert "no state changes" not in proc.stdout
+    assert _git(work, "rev-parse", "origin/main") == main_before
+    state_head = _state_branch_head(work)
+    assert state_head != main_before
 
-    files = _last_commit_files(work)
+    _fetch_state_branch(work)
+    files = _git(
+        work,
+        "show",
+        "--pretty=",
+        "--name-only",
+        "FETCH_HEAD",
+    ).splitlines()
     assert set(files) == {
         "data/telegram_queue.json",
         "data/telegram_state.json",
     }
-    # pushed origin/main equals local head after the bot commit
-    assert _git(work, "rev-parse", "origin/main") == _git(
-        work, "rev-parse", "HEAD"
+
+
+def test_persist_updates_existing_state_branch(git_sandbox, tmp_path):
+    work = git_sandbox
+    main_before = _git(work, "rev-parse", "origin/main")
+
+    _write_runtime_files(work, "first")
+    first = _run_step(
+        work,
+        "Persist queue and state",
+        tmp_path / "runner-1",
     )
+    assert first.returncode == 0, first.stderr
+    first_state_head = _state_branch_head(work)
+
+    _write_runtime_files(work, "second")
+    second = _run_step(
+        work,
+        "Persist queue and state",
+        tmp_path / "runner-2",
+    )
+    assert second.returncode == 0, second.stderr
+    second_state_head = _state_branch_head(work)
+
+    assert second_state_head != first_state_head
+    assert _git(work, "rev-parse", "origin/main") == main_before
+
+    _fetch_state_branch(work)
+    state = _git(
+        work,
+        "show",
+        "FETCH_HEAD:data/telegram_state.json",
+    )
+    assert '"story_id":"second"' in state
 
 
-def test_modified_tracked_state_detected_again(git_sandbox):
+def test_persist_excludes_other_runtime_files(git_sandbox, tmp_path):
     work = git_sandbox
     _write_runtime_files(work)
-    assert _run_commit_step(work).returncode == 0
-
-    state_file = work / "data" / "telegram_state.json"
-    state_file.write_text(
-        '{"posted": [{"story_id": "s1"}], "scheduled": [], '
-        '"failures": [], "last_posted_at": null}',
+    (work / "data" / "news.db").write_bytes(b"db-bytes")
+    (work / "data" / "source_health.json").write_text(
+        "{}",
         encoding="utf-8",
     )
 
-    proc = _run_commit_step(work)
-    assert proc.returncode == 0, proc.stderr
-    # the second commit must contain ONLY the modified state file
-    files = _last_commit_files(work)
-    assert files == ["data/telegram_state.json"]
-
-
-def test_only_two_intended_files_can_be_staged(git_sandbox):
-    work = git_sandbox
-    _write_runtime_files(work)
-    (work / "data" / "news.db").write_bytes(b"db-bytes")
-    (work / "data" / "source_health.json").write_text(
-        "{}", encoding="utf-8"
-    )
-    (work / "data" / "junk.bin").write_bytes(b"junk")
-
-    # stage exactly as the workflow's git add line does
-    _git(
+    proc = _run_step(
         work,
-        "add",
-        "--",
-        "data/telegram_queue.json",
-        "data/telegram_state.json",
+        "Persist queue and state",
+        tmp_path / "runner-1",
     )
-    staged = _git(work, "diff", "--cached", "--name-only")
-    assert staged.splitlines() == [
-        "data/telegram_queue.json",
-        "data/telegram_state.json",
-    ]
+    assert proc.returncode == 0, proc.stderr
 
-
-def test_other_data_files_remain_excluded_across_commits(
-    git_sandbox,
-):
-    work = git_sandbox
-    _write_runtime_files(work)
-    (work / "data" / "news.db").write_bytes(b"db-bytes")
-    (work / "data" / "source_health.json").write_text(
-        "{}", encoding="utf-8"
-    )
-
-    for turn in range(2):
-        state_file = work / "data" / "telegram_state.json"
-        state_file.write_text(
-            '{"posted": [{"story_id": "s%d"}], "scheduled": [], '
-            '"failures": [], "last_posted_at": null}' % turn,
-            encoding="utf-8",
-        )
-        proc = _run_commit_step(work)
-        assert proc.returncode == 0, proc.stderr
-
-    commit_files = set()
-    for ref in _git(
-        work, "rev-list", "--first-parent", "origin/main"
-    ).splitlines():
-        out = _git(
-            work,
-            "diff-tree",
-            "--no-commit-id",
-            "--name-only",
-            "-r",
-            ref,
-        )
-        for path in out.splitlines():
-            commit_files.add(path)
-
-    assert commit_files == {
+    _fetch_state_branch(work)
+    files = _git(
+        work,
+        "show",
+        "--pretty=",
+        "--name-only",
+        "FETCH_HEAD",
+    ).splitlines()
+    assert set(files) == {
         "data/telegram_queue.json",
         "data/telegram_state.json",
     }
-    for forbidden in (
-        "data/news.db",
-        "data/source_health.json",
-        "data/.gitkeep",
-    ):
-        assert forbidden not in commit_files
-    # runtime noise stays ignored and un-tracked
-    status = _git(
+
+
+def test_restore_loads_latest_state_branch(git_sandbox, tmp_path):
+    work = git_sandbox
+    _write_runtime_files(work, "saved")
+
+    persist = _run_step(
         work,
-        "status",
-        "--porcelain",
-        "--ignored",
-        "data/",
+        "Persist queue and state",
+        tmp_path / "runner-1",
     )
-    assert "!! data/news.db" in status
-    assert "!! data/source_health.json" in status
+    assert persist.returncode == 0, persist.stderr
+
+    _write_runtime_files(work, "local")
+    restore = _run_step(
+        work,
+        "Restore Telegram queue and state",
+        tmp_path / "runner-2",
+    )
+    assert restore.returncode == 0, restore.stderr
+    assert '"story_id":"saved"' in (
+        work / "data" / "telegram_state.json"
+    ).read_text(encoding="utf-8")
 
 
-def test_workflow_uses_untracked_aware_detection():
-    block = _commit_step_block()
-    assert "git status --porcelain" in block
-    assert "--untracked-files=all" in block
-    assert (
-        "-- data/telegram_queue.json data/telegram_state.json"
-        in block
+def test_workflow_never_pushes_runtime_state_to_main():
+    text = WORKFLOW.read_text(encoding="utf-8")
+    assert "HEAD:refs/heads/telegram-state" in text
+    assert "git push origin main" not in text
+    assert "git pull --rebase origin main" not in text
+
+
+def test_restore_happens_before_collection():
+    text = WORKFLOW.read_text(encoding="utf-8")
+    assert text.index("- name: Restore Telegram queue and state") < text.index(
+        "- name: Collect fresh news"
     )
-    # the bug it guards against: plain git diff cannot see
-    # freshly-created (untracked) queue/state files
-    assert "git diff --quiet" not in block
-    assert "git add data/telegram_queue.json data/telegram_state.json" in block
-    assert "git pull --rebase origin main" in block
-    assert "git push origin main" in block
