@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T19:51:37.453630+00:00",
-  "count": 14,
+  "generated_at": "2026-09-23T20:02:18.314274+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "dc1790dd68f1570f0794cd4d",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: state scope (west bengal)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 22, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -136,9 +136,10 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
+            "the-hindu",
             "the-hindu-kerala"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -152,11 +153,12 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu-kerala) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -230,93 +232,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "41a60977be91fec4b31505d2",
-      "story_id": "41a60977be91fec4b31505d2",
-      "headline": "Social media puts Kerala’s offbeat tourism spots on the safety radar after Nilambur flash flood tragedy",
-      "title": "Social media puts Kerala’s offbeat tourism spots on the safety radar after Nilambur flash flood tragedy",
-      "summary": "Social media popularity of unregulated tourist spots in Kerala poses safety challenges. The government is exploring regulation, but local community management is suggested for these emerging, often unmapped, destinations.",
-      "url": "https://www.onmanorama.com/kerala/top-news/2026/09/23/nilambur-flash-floods-review-kerala-tourism-promotion-safety.html",
-      "source": "Onmanorama",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 64.2,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-23T13:57:10+00:00",
-      "published_at": "2026-09-23T13:57:10+00:00",
-      "effective_at": "2026-09-23T13:57:10+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "onmanorama": {
-          "kind": "independent",
-          "source_ids": [
-            "onmanorama"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (onmanorama) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (kerala)",
-        "recency: fresh (5.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 19, score 64 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "kerala",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Social media popularity of unregulated tourist spots in Kerala poses safety challenges.",
-          "The government is exploring regulation, but local community management is suggested for these emerging, often unmapped, destinations."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kerala"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Social media popularity of unregulated tourist spots in Kerala poses safety challenges.",
-            "source": "Onmanorama",
-            "item_id": "41a60977be91fec4b31505d2",
-            "composed": false
-          },
-          {
-            "text": "The government is exploring regulation, but local community management is suggested for these emerging, often unmapped, destinations.",
-            "source": "Onmanorama",
-            "item_id": "41a60977be91fec4b31505d2",
-            "composed": false
-          }
-        ],
-        "source": "Onmanorama",
-        "corroborating": [],
-        "url": "https://www.onmanorama.com/kerala/top-news/2026/09/23/nilambur-flash-floods-review-kerala-tourism-promotion-safety.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "429645f7d078825a2b094dcc",
       "story_id": "429645f7d078825a2b094dcc",
       "headline": "After damning reports on CEC, Tejashwi Yadav seeks re-election in Bihar and West Bengal",
@@ -361,7 +276,7 @@
         "event term: 'election' in title weight 58",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 28.4, score 58 -> HIGH"
@@ -482,7 +397,7 @@
         "event term: 'election' in title weight 58",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 28.4, score 58 -> HIGH"
@@ -601,7 +516,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 19.4, score 49.2 -> HIGH"
@@ -609,7 +524,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Sep 23: The J&K Hospitals and Dialysis Centres Association (JKPHDA) on Wednesday expressed serious concern over the manner in which the National Apprenticeship Promotion Scheme (NAPS) under Skill India is being pushed in the private health sector in J&K. The NAPS, launched by the Prime Minister under Ministry of Skill Development and Entrepreneurship in 2015, is a 6 to 12 months training program where 75 percent of stipend is borne by the establishment and 25 percent by the Govt.",
@@ -665,7 +580,7 @@
         "url": "https://risingkashmir.com/health/private-hospitals-oppose-naps-push-12568996"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -726,7 +641,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -734,7 +649,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The common Indian does not wake up in the morning thinking about the rupee-dollar exchange rate or the international price of crude oil.",
@@ -905,7 +820,7 @@
         "url": "https://risingkashmir.com/viewpoint/the-rupee-the-oil-barrel-and-the-common-indian-12568972"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -954,7 +869,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1064,7 +979,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -1159,7 +1074,7 @@
         "event term: 'acquires' in title weight 40",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1270,7 +1185,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (delhi)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "geo: state",
         "dominant event 44, stack 16, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1386,7 +1301,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1495,7 +1410,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1604,7 +1519,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
