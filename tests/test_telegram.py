@@ -1781,7 +1781,8 @@ def test_workflow_uses_main_branch():
     assert "ref: main" in text
     assert "python -m src.main" in text
     assert "python -m src.telegram_run --yes" in text
-    assert "git push origin main" in text
+    assert "HEAD:refs/heads/telegram-state" in text
+    assert "git push origin main" not in text
     assert "git checkout origin/main" not in text
 
 
@@ -1884,7 +1885,7 @@ def test_workflow_main_runs_before_telegram_run():
 def test_workflow_commits_only_intended_runtime_files():
     text = _workflow_path("telegram.yml").read_text()
     assert (
-        "git add data/telegram_queue.json "
+        'git -C "$state_dir" add data/telegram_queue.json '
         "data/telegram_state.json"
     ) in text
     assert "git add ." not in text
@@ -1897,8 +1898,9 @@ def test_workflow_commits_only_intended_runtime_files():
         "queue.json",
     ):
         assert "git add data/" + bogus not in text
-    assert "git pull --rebase origin main" in text
-    assert "git push origin main" in text
+    assert "git pull --rebase origin main" not in text
+    assert "git push origin main" not in text
+    assert "HEAD:refs/heads/telegram-state" in text
 
 
 def test_workflow_permissions_limited_to_contents_write():
@@ -1920,7 +1922,7 @@ def test_production_workflow_byte_for_byte_unchanged():
     text = _workflow_path("telegram.yml").read_bytes()
     assert (
         hashlib.sha256(text).hexdigest()
-        == "2757e2e83e10d3254a161fc33eb199d324853533fc5a29d237e4d8f8b9a3eb37"
+        == "3fbd6298550338d641492cd50001e5d2b0c826774b94e5dc8c4a8d52b4d9fbf1"
     )
 
 
