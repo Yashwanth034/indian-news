@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T10:52:20.629688+00:00",
-  "count": 23,
+  "generated_at": "2026-09-24T11:02:39.962069+00:00",
+  "count": 24,
   "stories": [
     {
       "event_id": "e8b3d11c81349c4ef5a515a5",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -171,7 +171,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -222,7 +222,7 @@
       "title": "‘Freebie’ row over Satheesan’s chartered flight to flood-hit Malappuram heats up Keralam politics",
       "summary": "DYFI organising painting competitions across Keralam, urging the public to use their 'imagination to conjure up the likeness of the mysterious sponsor’ whose identity Chief Minister Satheesan has refused to reveal",
       "url": "https://www.thehindu.com/news/national/kerala/freebie-row-over-satheesans-chartered-flight-to-flood-hit-malappuram-dominates-keralam-politics/article71502884.ece",
-      "source": "The Hindu",
+      "source": "The Hindu - Kerala",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
@@ -240,10 +240,9 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu",
             "the-hindu-kerala"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -255,12 +254,11 @@
         "major: significance event 'flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: tier 2 (the-hindu-kerala) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -308,20 +306,137 @@
         "sentences": [
           {
             "text": "A ‘freebie’ row centring on Keralam Chief Minister V.D. Satheesan’s recent travel to flood-hit Malappuram district on a chartered flight lent by an “anonymous benefactor” appeared to dominate the political narrative in Keralam on Thursday (September 24, 2026).",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "ef594302a0298ced4b39bfe0:article",
             "composed": false
           },
           {
             "text": "Mr Satheesan on Wednesday said the government’s contract with a helicopter company for emergency travel had expired.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "ef594302a0298ced4b39bfe0:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Kerala",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/kerala/freebie-row-over-satheesans-chartered-flight-to-flood-hit-malappuram-dominates-keralam-politics/article71502884.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "56399dcc9421f9f4afd772ff",
+      "story_id": "56399dcc9421f9f4afd772ff",
+      "headline": "Election Commission row LIVE: CJP demands resignation of CEC Gyanesh Kumar within 48 hours",
+      "title": "Election Commission row LIVE: CJP demands resignation of CEC Gyanesh Kumar within 48 hours",
+      "summary": "The Cockroach Janta Party demanded initiation of criminal proceedings against Chief Election Commissioner Gyanesh Kumar and called for the restoration of pre-SIR voter rolls in all States",
+      "url": "https://www.thehindu.com/news/national/ec-dissent-gyanesh-kumar-resignation-row-september-24-2026-live-updates/article71502728.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-24T10:38:58+00:00",
+      "published_at": "2026-09-24T10:38:58+00:00",
+      "effective_at": "2026-09-24T10:38:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "CJP demands resignation of CEC Gyanesh Kumar within 48 hours from a press conference on September 24, 2026.",
+        "Opposition parties on Wednesday (September 23, 2026) sought the removal of Chief Election Commissioner (CEC) Gyanesh Kumar after an Indian Express expose claimed that two of the three Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, had formally recorded objections at least 14 times over the last 10 months.",
+        "The two ECs said major decisions were being made in the name of the full Election Commission without their knowledge, several of which they called “unauthorised and illegal”.",
+        "“To ensure free and fair elections, CEC Gyanesh Kumar must resign,” the Cockroach Janta Party (CJP) founder Abhijeet Dipke said.",
+        "The CJP said if the CEC doesn’t resign within 48 hours, the outfit will start nationwide agitation, like the Jantar Mantar protest in June.",
+        "The ECI responded on Wednesday (September 23, 2026), saying that all its actions have been in accordance with laws and instructions of the Commission.",
+        "Highlighting specific internal notes or observations spread over the 10 months while overlooking the much larger body of approvals, decisions, instructions, and initiatives gives only “one part of the picture”, it said.",
+        "New Delhi Trinamool Congress (TMC) leader Saket Gokhale on September 24, 2026 accused the Election Commission of India (ECI) of withholding details of software and algorithm used for SIR of electoral rolls, citing an RTI response in which the poll panel said the information sought was related to “commercial confidence, trade secrets and intellectual property matters”.",
+        "In a post on X, Mr. Gokhale shared his RTI application and the response from the Election Commission, and questioned why details of software used by a public authority were being withheld on grounds of commercial interests.",
+        "“I’d asked the ECI about details of the software, who designed it, & who was given the tender.",
+        "SHOCKINGLY, ECI has refused to disclose the details claiming it would ‘affect commercial confidence’,” he said.",
+        "“A software used by a public authority is being kept secret for “commercial interests”."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "CJP demands resignation of CEC Gyanesh Kumar within 48 hours from a press conference on September 24, 2026.",
+          "Opposition parties on Wednesday (September 23, 2026) sought the removal of Chief Election Commissioner (CEC) Gyanesh Kumar after an Indian Express expose claimed that two of the three Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, had formally recorded objections at least 14 times over the last 10 months."
+        ],
+        "body": [
+          "The two ECs said major decisions were being made in the name of the full Election Commission without their knowledge, several of which they called “unauthorised and illegal”.",
+          "“To ensure free and fair elections, CEC Gyanesh Kumar must resign,” the Cockroach Janta Party (CJP) founder Abhijeet Dipke said.",
+          "The CJP said if the CEC doesn’t resign within 48 hours, the outfit will start nationwide agitation, like the Jantar Mantar protest in June.",
+          "The ECI responded on Wednesday (September 23, 2026), saying that all its actions have been in accordance with laws and instructions of the Commission.",
+          "Highlighting specific internal notes or observations spread over the 10 months while overlooking the much larger body of approvals, decisions, instructions, and initiatives gives only “one part of the picture”, it said.",
+          "New Delhi Trinamool Congress (TMC) leader Saket Gokhale on September 24, 2026 accused the Election Commission of India (ECI) of withholding details of software and algorithm used for SIR of electoral rolls, citing an RTI response in which the poll panel said the information sought was related to “commercial confidence, trade secrets and intellectual property matters”.",
+          "In a post on X, Mr. Gokhale shared his RTI application and the response from the Election Commission, and questioned why details of software used by a public authority were being withheld on grounds of commercial interests.",
+          "“I’d asked the ECI about details of the software, who designed it, & who was given the tender."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "June"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The CJP said if the CEC doesn’t resign within 48 hours, the outfit will start nationwide agitation, like the Jantar Mantar protest in June.",
+            "source": "The Hindu",
+            "item_id": "56399dcc9421f9f4afd772ff:article",
+            "composed": false
+          },
+          {
+            "text": "CJP demands resignation of CEC Gyanesh Kumar within 48 hours from a press conference on September 24, 2026.",
+            "source": "The Hindu",
+            "item_id": "56399dcc9421f9f4afd772ff:article",
+            "composed": false
+          },
+          {
+            "text": "Opposition parties on Wednesday (September 23, 2026) sought the removal of Chief Election Commissioner (CEC) Gyanesh Kumar after an Indian Express expose claimed that two of the three Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, had formally recorded objections at least 14 times over the last 10 months.",
+            "source": "The Hindu",
+            "item_id": "56399dcc9421f9f4afd772ff:article",
             "composed": false
           }
         ],
         "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/kerala/freebie-row-over-satheesans-chartered-flight-to-flood-hit-malappuram-dominates-keralam-politics/article71502884.ece"
+        "url": "https://www.thehindu.com/news/national/ec-dissent-gyanesh-kumar-resignation-row-september-24-2026-live-updates/article71502728.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -369,7 +484,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -463,7 +578,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -545,7 +660,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -660,7 +775,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 25.4, score 58 -> HIGH"
@@ -767,7 +882,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -843,7 +958,7 @@
       "event_time": "2026-09-24T07:07:44+00:00",
       "published_at": "2026-09-24T07:07:44+00:00",
       "effective_at": "2026-09-24T07:07:44+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "indiatimes": {
           "kind": "independent",
@@ -858,25 +973,32 @@
             "hans-india"
           ],
           "count": 1
+        },
+        "mathrubhumi": {
+          "kind": "independent",
+          "source_ids": [
+            "mathrubhumi"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -959,7 +1081,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -981,7 +1103,7 @@
         "CWMA is an expert body and both the parties are heard there.\"",
         "Divan also argued that all factors were being considered by the CWMA, while the court was told that the Cauvery Water Regulation Committee (CWRC) was reviewing the situation every 15 days."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court asked Karnataka to respond to Tamil Nadu's plea on Cauvery water release.",
@@ -1029,7 +1151,7 @@
         "url": "https://www.indiatoday.in/india/law-news/story/cauvery-water-dispute-supreme-court-seeks-karnataka-reply-to-tamil-nadu-plea-ptag-3001901-2026-09-24"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1039,7 +1161,7 @@
       "title": "Kerala HC says investigating officer can also be appointed as prosecutor in court-martial case as per Navy regulations",
       "summary": "Court holds that this will not violate accused person’s fundamental right to a fair trial",
       "url": "https://www.thehindu.com/news/national/kerala/kerala-hc-says-investigating-officer-can-also-be-appointed-as-prosecutor-in-court-martial-case-as-per-navy-regulations/article71503499.ece",
-      "source": "The Hindu",
+      "source": "The Hindu - Kerala",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
@@ -1072,13 +1194,13 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (the-hindu-kerala) +2",
         "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'appointed as' in title weight 40",
         "event term: 'appointed' in title weight 36",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1120,24 +1242,24 @@
         "sentences": [
           {
             "text": "The Division Bench of Justices K. Natarajan and Johnson John held that a combined analysis of the Constitution of India, the Code of Criminal Procedure, 1973, the Navy Act, 1957 and the Navy Regulations would indicate that, in matters of the armed forces, there are restrictions imposed on the fundamental rights of military personnel.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "35a5936088ab2fd0117f8553:article",
             "composed": false
           },
           {
             "text": "The Kerala High Court recently held that an investigating officer can be appointed as a prosecutor in a court-martial case as per the Navy (Discipline and Miscellaneous Provisions) Regulations, 1965, and that it would not violate the accused person’s fundamental right to a fair trial.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "35a5936088ab2fd0117f8553:article",
             "composed": false
           },
           {
             "text": "The petitioner was a Navy personnel with 31 years of service, undergoing a trial where he was charged with offences, including cheating.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "35a5936088ab2fd0117f8553:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "The Hindu - Kerala",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/kerala/kerala-hc-says-investigating-officer-can-also-be-appointed-as-prosecutor-in-court-martial-case-as-per-navy-regulations/article71503499.ece"
       },
@@ -1189,7 +1311,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1271,7 +1393,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1365,7 +1487,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (telangana)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 44.4, score 44.4 -> HIGH"
@@ -1475,7 +1597,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 44.4, score 44.4 -> HIGH"
@@ -1586,7 +1708,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1691,7 +1813,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1788,7 +1910,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1896,7 +2018,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1998,7 +2120,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -2121,7 +2243,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2244,7 +2366,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "geo: national",
         "dominant event 42, stack 28, score 42 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2332,7 +2454,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
