@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T18:12:11.051798+00:00",
-  "count": 6,
+  "generated_at": "2026-09-26T18:22:01.163443+00:00",
+  "count": 5,
   "stories": [
     {
       "event_id": "b4b4483afe7dc5a9bd24d610",
@@ -22,12 +22,19 @@
       "event_time": "2026-09-26T14:20:01+00:00",
       "published_at": "2026-09-26T14:20:01+00:00",
       "effective_at": "2026-09-26T14:20:01+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "thehindu": {
           "kind": "independent",
           "source_ids": [
             "the-hindu-kerala"
+          ],
+          "count": 1
+        },
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
           ],
           "count": 1
         },
@@ -43,17 +50,17 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu-kerala) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (kerala)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -172,7 +179,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (goa)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -261,7 +268,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -384,7 +391,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -504,7 +511,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
@@ -541,132 +548,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "4e4fb4d2fd8b86a15fd027ae",
-      "story_id": "4e4fb4d2fd8b86a15fd027ae",
-      "headline": "Tamil Nadu among pronounced drought hotspots as South Peninsular India sees strongest drought trend: study",
-      "title": "Tamil Nadu among pronounced drought hotspots as South Peninsular India sees strongest drought trend: study",
-      "summary": "While less than 10% of the region was affected by drought in much of the period before the 1990s, several years after 2000 saw more than 40% of the region under drought conditions",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-among-pronounced-drought-hotspots-as-south-peninsular-india-sees-strongest-drought-trend-study/article71512533.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 67.0,
-      "priority_score": 41.6,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-26T15:02:17+00:00",
-      "published_at": "2026-09-26T15:02:17+00:00",
-      "effective_at": "2026-09-26T15:02:17+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'drought'",
-        "major: significance event 'drought'",
-        "major: significance event 'drought'",
-        "major: significance event 'drought'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'drought' in title weight 36",
-        "event term: 'drought' in summary weight 21.6",
-        "scale: state scope (tamil nadu)",
-        "recency: fresh (3.2h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 36, stack 41.6, score 41.6 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "tamil nadu",
-      "national_significance": true,
-      "article_sentences": [
-        "Tamil Nadu is among the more pronounced drought hotspots in India, as a new 52-year analysis has found that South Peninsular India, the region that includes Tamil Nadu, recorded the strongest long-term increase in drought-affected area among the four broad climatic regions of the country.",
-        "The study, ‘Evolution of Climate Extremes Over the Indian Subcontinent Using a Revised CEI’, published in the International Journal of Climatology, analysed daily rainfall and temperature data from 1971 to 2022 to assess changes in multiple climate extremes.",
-        "The researchers developed a revised India Climate Extremes Index (IndCEI) combining seven indicators, including heat, drought, dry spells, and heavy rainfall.",
-        "The study found a strong positive trend in drought-affected areas over South Peninsular India, with the trend being the strongest among the four regions.",
-        "While less than 10% of the region was affected by drought in much of the period before the 1990s, several years after 2000 saw more than 40% of the region under drought conditions.",
-        "The researchers noted that severe and persistent drought conditions were particularly evident during the 2010s and early 2020s.",
-        "The study’s regional classification places Tamil Nadu within South Peninsular India.",
-        "A media note accompanying the research identifies Tamil Nadu, along with Odisha and Andhra Pradesh, among the eastern coastal States where the area affected by drought increased by 20% to 30% during 2011–2021, compared to the 1980s.",
-        "The researchers used the Standardised Precipitation-Evapotranspiration Index (SPEI) to assess drought.",
-        "Unlike an indicator based only on rainfall, SPEI incorporates both precipitation and potential evapotranspiration, thereby capturing the influence of increasing temperatures on water availability.",
-        "The findings also point to a growing heat burden over southern India.",
-        "The area experiencing high maximum-temperature extremes has increased in South Peninsular India, particularly since the 2010s."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Tamil Nadu is among the more pronounced drought hotspots in India, as a new 52-year analysis has found that South Peninsular India, the region that includes Tamil Nadu, recorded the strongest long-term increase in drought-affected area among the four broad climatic regions of the country.",
-          "The study, ‘Evolution of Climate Extremes Over the Indian Subcontinent Using a Revised CEI’, published in the International Journal of Climatology, analysed daily rainfall and temperature data from 1971 to 2022 to assess changes in multiple climate extremes."
-        ],
-        "body": [
-          "The researchers developed a revised India Climate Extremes Index (IndCEI) combining seven indicators, including heat, drought, dry spells, and heavy rainfall.",
-          "The study found a strong positive trend in drought-affected areas over South Peninsular India, with the trend being the strongest among the four regions.",
-          "While less than 10% of the region was affected by drought in much of the period before the 1990s, several years after 2000 saw more than 40% of the region under drought conditions.",
-          "The researchers noted that severe and persistent drought conditions were particularly evident during the 2010s and early 2020s.",
-          "The study’s regional classification places Tamil Nadu within South Peninsular India.",
-          "The researchers used the Standardised Precipitation-Evapotranspiration Index (SPEI) to assess drought.",
-          "Unlike an indicator based only on rainfall, SPEI incorporates both precipitation and potential evapotranspiration, thereby capturing the influence of increasing temperatures on water availability.",
-          "The findings also point to a growing heat burden over southern India."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Tamil Nadu is among the more pronounced drought hotspots in India, as a new 52-year analysis has found that South Peninsular India, the region that includes Tamil Nadu, recorded the strongest long-term increase in drought-affected area among the four broad climatic regions of the country.",
-            "source": "The Hindu",
-            "item_id": "4e4fb4d2fd8b86a15fd027ae:article",
-            "composed": false
-          },
-          {
-            "text": "While less than 10% of the region was affected by drought in much of the period before the 1990s, several years after 2000 saw more than 40% of the region under drought conditions.",
-            "source": "The Hindu",
-            "item_id": "4e4fb4d2fd8b86a15fd027ae:article",
-            "composed": false
-          },
-          {
-            "text": "The study, ‘Evolution of Climate Extremes Over the Indian Subcontinent Using a Revised CEI’, published in the International Journal of Climatology, analysed daily rainfall and temperature data from 1971 to 2022 to assess changes in multiple climate extremes.",
-            "source": "The Hindu",
-            "item_id": "4e4fb4d2fd8b86a15fd027ae:article",
-            "composed": false
-          },
-          {
-            "text": "The researchers noted that severe and persistent drought conditions were particularly evident during the 2010s and early 2020s.",
-            "source": "The Hindu",
-            "item_id": "4e4fb4d2fd8b86a15fd027ae:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-among-pronounced-drought-hotspots-as-south-peninsular-india-sees-strongest-drought-trend-study/article71512533.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     }
   ]
 }
