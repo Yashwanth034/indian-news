@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:51:24.517081+00:00",
+  "generated_at": "2026-09-26T20:02:01.068655+00:00",
   "count": 6,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -69,7 +69,7 @@
         "In the Krishna basin, Prakasam Barrage inflows rose from 8,187 to 40,521 cusecs, while Munneru flows increased from 3,210 to 9,000 cusecs.",
         "Naidu directed officials to fill small and medium water bodies wherever possible and to divert available water into reservoirs."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Amaravati: The state government is moving to capture the surge in river flows triggered by heavy rains, with storage in 29 reservoirs rising by about 21 TMC in three days even as several districts face inundation and crop damage.",
@@ -123,7 +123,7 @@
         "url": "https://www.thehansindia.com/news/cities/amaravati/ap-moves-to-capture-flood-surge-as-reservoirs-gain-21-tmc-1125968"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -169,7 +169,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 64, stack 25.2, score 64 -> URGENT"
@@ -306,7 +306,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (kerala)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -373,38 +373,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "b2fae278a65a1df951e97cf0",
-      "story_id": "b2fae278a65a1df951e97cf0",
-      "headline": "Election Commission denies rift within poll panel, clarifies on Form 6, SIR decisions",
-      "title": "Election Commission denies rift within poll panel, clarifies on Form 6, SIR decisions",
-      "summary": "The Election Commission of India (ECI) sought to dispel reports of internal differences, stressing that all decisions on the Special Intensive Revision (SIR) of electoral rolls were taken unanimously. In a detailed press note, the Commission addressed concerns over voter enrolment forms, ECINET access, and missing voters in Goa.",
-      "url": "https://telanganatoday.com/election-commission-denies-rift-within-poll-panel-clarifies-on-form-6-sir-decisions",
-      "source": "Telangana Today",
+      "event_id": "e539f54f67ac2e272c723555",
+      "story_id": "e539f54f67ac2e272c723555",
+      "headline": "Sukhbir Singh Sandhu and Vivek Joshi | Dissent in the Election Commission",
+      "title": "Sukhbir Singh Sandhu and Vivek Joshi | Dissent in the Election Commission",
+      "summary": "The two Election Commissioner, both appointed by the government under the new 2023 law, have raised questions about changes to electoral rolls, centralised control and the Election Commission’s decision-making process",
+      "url": "https://www.thehindu.com/news/national/sukhbir-singh-sandhu-and-vivek-joshi-dissent-in-the-commission/article71513848.ece",
+      "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
       "category": "national-politics",
       "secondary_categories": [],
-      "confidence": "high",
+      "confidence": "medium",
       "score": 100.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-09-26T13:59:55+00:00",
-      "published_at": "2026-09-26T13:59:55+00:00",
-      "effective_at": "2026-09-26T13:59:55+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-09-26T18:09:12+00:00",
+      "published_at": "2026-09-26T18:09:12+00:00",
+      "effective_at": "2026-09-26T18:09:12+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "telangana-today"
-          ],
-          "count": 1
-        },
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "businessline"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -413,61 +406,90 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
         "major: significance event 'Election'",
         "major: significance event 'Election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (telangana-today) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
-        "scale: state scope (goa)",
-        "recency: fresh (5.9h ago) +4",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (1.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
+        "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "goa",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "When notices began to be issued after the publication of the draft list during the Delhi SIR [special intensive revision], one of the names was that of Election Commissioner (EC) Sukhbir Singh Sandhu.",
+        "What was considered ironical on that day and time soon became a moment of reckoning for the poll body as reports emerged that Dr. Sandhu, along with his fellow Election Commissioner Vivek Joshi, had flagged many anomalies in the ongoing SIR process across the country over the last 10 months.",
+        "Though rumours of a rift within the Election Commission of India had been doing the rounds for some months, what came as a surprise were the formal dissent notes written by the two ECs, including one to the Cabinet Secretary, as both had been virtually handpicked by the government under the new 2023 Law for Appointment of the Chief Election Commissioner and Election Commissioners.",
+        "The Opposition Congress party had given written objections during the appointment of both in the selection committee meetings.",
+        "When Dr. Sandhu was appointed along with CEC Gyanesh Kumar on March 14, 2024, following the retirement of EC Anup Chandra Pandey and the abrupt resignation of EC Arun Goel, Congress leader Adhir Ranjan Chowdhury had given a formal dissent note in the selection committee.",
+        "Later, when Mr. Joshi was appointed on February 17, 2025 after Gyanesh Kumar was elevated to CEC, Leader of Opposition Rahul Gandhi raised objection in the committee meeting.",
+        "Both the Election Commissioners had reportedly flagged several key issues, including the centralisation of the Electoral Rolls.",
+        "In May this year, Mr. Joshi proposed an audit to certify that “no one except the concerned statutory authorities has any credentials to make any change in the (voter) database”.",
+        "In August, Dr. Sandhu recorded that State-level election officials were reporting that they do not have “proper and complete access” to the ERONet portal — the digital system through which the electoral rolls are maintained.",
+        "He further flagged that Election Commission Director General of IT “does not have any legal authority to restrict proper and complete access and freedom to operate as given by law to the statutory authorities”.",
+        "The two ECs also said that Form 6 — which new voters must fill to register— was altered to ask if the applicant or their parents/grandparents “exist” in the electoral roll of the last SIR.",
+        "They warned as early as May that such a statutory form cannot be changed without amending the Registration of Electors Rules, 1960, and Dr. Sandhu called the change “unauthorised and illegal” in August, demanding its immediate removal."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Election Commission of India (ECI) sought to dispel reports of internal differences, stressing that all decisions on the Special Intensive Revision (SIR) of electoral rolls were taken unanimously.",
-          "In a detailed press note, the Commission addressed concerns over voter enrolment forms, ECINET access, and missing voters in Goa."
+          "When notices began to be issued after the publication of the draft list during the Delhi SIR [special intensive revision], one of the names was that of Election Commissioner (EC) Sukhbir Singh Sandhu.",
+          "What was considered ironical on that day and time soon became a moment of reckoning for the poll body as reports emerged that Dr. Sandhu, along with his fellow Election Commissioner Vivek Joshi, had flagged many anomalies in the ongoing SIR process across the country over the last 10 months."
         ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Goa"
-          }
+        "body": [
+          "Though rumours of a rift within the Election Commission of India had been doing the rounds for some months, what came as a surprise were the formal dissent notes written by the two ECs, including one to the Cabinet Secretary, as both had been virtually handpicked by the government under the new 2023 Law for Appointment of the Chief Election Commissioner and Election Commissioners.",
+          "The Opposition Congress party had given written objections during the appointment of both in the selection committee meetings.",
+          "When Dr. Sandhu was appointed along with CEC Gyanesh Kumar on March 14, 2024, following the retirement of EC Anup Chandra Pandey and the abrupt resignation of EC Arun Goel, Congress leader Adhir Ranjan Chowdhury had given a formal dissent note in the selection committee.",
+          "Later, when Mr. Joshi was appointed on February 17, 2025 after Gyanesh Kumar was elevated to CEC, Leader of Opposition Rahul Gandhi raised objection in the committee meeting.",
+          "Both the Election Commissioners had reportedly flagged several key issues, including the centralisation of the Electoral Rolls.",
+          "In May this year, Mr. Joshi proposed an audit to certify that “no one except the concerned statutory authorities has any credentials to make any change in the (voter) database”.",
+          "In August, Dr. Sandhu recorded that State-level election officials were reporting that they do not have “proper and complete access” to the ERONet portal — the digital system through which the electoral rolls are maintained.",
+          "He further flagged that Election Commission Director General of IT “does not have any legal authority to restrict proper and complete access and freedom to operate as given by law to the statutory authorities”."
         ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "In a detailed press note, the Commission addressed concerns over voter enrolment forms, ECINET access, and missing voters in Goa.",
-            "source": "Telangana Today",
-            "item_id": "b2fae278a65a1df951e97cf0",
+            "text": "When Dr. Sandhu was appointed along with CEC Gyanesh Kumar on March 14, 2024, following the retirement of EC Anup Chandra Pandey and the abrupt resignation of EC Arun Goel, Congress leader Adhir Ranjan Chowdhury had given a formal dissent note in the selection committee.",
+            "source": "The Hindu",
+            "item_id": "e539f54f67ac2e272c723555:article",
             "composed": false
           },
           {
-            "text": "The Election Commission of India (ECI) sought to dispel reports of internal differences, stressing that all decisions on the Special Intensive Revision (SIR) of electoral rolls were taken unanimously.",
-            "source": "Telangana Today",
-            "item_id": "b2fae278a65a1df951e97cf0",
+            "text": "Later, when Mr. Joshi was appointed on February 17, 2025 after Gyanesh Kumar was elevated to CEC, Leader of Opposition Rahul Gandhi raised objection in the committee meeting.",
+            "source": "The Hindu",
+            "item_id": "e539f54f67ac2e272c723555:article",
+            "composed": false
+          },
+          {
+            "text": "In May this year, Mr. Joshi proposed an audit to certify that “no one except the concerned statutory authorities has any credentials to make any change in the (voter) database”.",
+            "source": "The Hindu",
+            "item_id": "e539f54f67ac2e272c723555:article",
+            "composed": false
+          },
+          {
+            "text": "In August, Dr. Sandhu recorded that State-level election officials were reporting that they do not have “proper and complete access” to the ERONet portal — the digital system through which the electoral rolls are maintained.",
+            "source": "The Hindu",
+            "item_id": "e539f54f67ac2e272c723555:article",
             "composed": false
           }
         ],
-        "source": "Telangana Today",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://telanganatoday.com/election-commission-denies-rift-within-poll-panel-clarifies-on-form-6-sir-decisions"
+        "url": "https://www.thehindu.com/news/national/sukhbir-singh-sandhu-and-vivek-joshi-dissent-in-the-commission/article71513848.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "abf4489d9abe79d586cab7b8",
@@ -514,7 +536,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -634,7 +656,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
