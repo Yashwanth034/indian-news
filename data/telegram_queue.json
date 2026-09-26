@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T09:12:00.877123+00:00",
-  "count": 8,
+  "generated_at": "2026-09-26T09:22:17.672044+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "26c0729cff380084dd683a96",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (chhattisgarh)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -162,7 +162,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -275,10 +275,10 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (west bengal)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 44.4, score 58 -> HIGH"
+        "dominant event 58, stack 40.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "west bengal",
@@ -355,7 +355,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -472,7 +472,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -549,31 +549,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "76eec9eaed65787d624b8e8b",
-      "story_id": "76eec9eaed65787d624b8e8b",
-      "headline": "Arunachal Pradesh Congress Stages Dharna over Election Commission, SIR",
-      "title": "Arunachal Pradesh Congress Stages Dharna over Election Commission, SIR",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/north-east-india-news/arunachal-news/arunachal-pradesh-congress-stages-dharna-over-election-commission-sir",
-      "source": "The Sentinel (Assam)",
+      "event_id": "dfe7c882aaacf0f1b4668b35",
+      "story_id": "dfe7c882aaacf0f1b4668b35",
+      "headline": "Congress calls Form 6 online change ‘illegal’, seeks Supreme Court intervention",
+      "title": "Congress calls Form 6 online change ‘illegal’, seeks Supreme Court intervention",
+      "summary": "Congress leader Jairam Ramesh alleged on Saturday that the Election Commission added a mandatory declaration to the online Form 6 without following the required procedure and called for Supreme Court intervention.",
+      "url": "https://www.nationalheraldindia.com/politics/congress-calls-form-6-online-change-illegal-seeks-supreme-court-intervention",
+      "source": "National Herald",
       "primary_source": false,
-      "tier": 3,
-      "category": "national-politics",
-      "secondary_categories": [],
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 58.0,
+      "score": 82.0,
+      "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-09-26T04:33:55+00:00",
-      "published_at": "2026-09-26T04:33:55+00:00",
-      "effective_at": "2026-09-26T04:33:55.393000+00:00",
+      "event_time": "2026-09-26T08:40:21+00:00",
+      "published_at": "2026-09-26T08:40:21+00:00",
+      "effective_at": "2026-09-26T08:40:21.525000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "sentinel-assam": {
+        "national-herald": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "national-herald"
           ],
           "count": 1
         }
@@ -584,72 +586,203 @@
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
-        "category: national-politics (importance 1.1, urgent=False)",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
+        "source: tier 2 (national-herald) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in title weight 58",
-        "scale: state scope (arunachal pradesh)",
-        "recency: fresh (4.6h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 58, stack 15.4, score 58 -> HIGH"
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.7h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "arunachal pradesh",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "ITANAGAR: The Arunachal Pradesh Congress Committee (APCC) joined the nationwide protest called by the Congress against the Election Commission on Friday, staging a peaceful dharna near Nirvachan Bhawan in Itanagar.",
-        "The party demanded the resignation and removal of Chief Election Commissioner Gyanesh Kumar, a freeze on the Special Intensive Revision (SIR) exercise and an independent inquiry into decisions concerning electoral rolls.",
-        "The APCC also sought criminal proceedings against Kumar and an investigation into the orders issued under his tenure.",
-        "It demanded that upcoming elections be put on hold and the electoral roll restored to the January 2025 voters' list until the completion of an independent inquiry.",
-        "The party further sought custody of all SIR-related files by the Supreme Court and repeal of the 2023 law governing the appointment of Election Commissioners, calling for new legislation with greater participation of civil society.",
-        "The Congress has cited reported differences among the three Election Commissioners over decisions and orders relating to the SIR as one of the reasons for seeking an independent review.",
-        "The Election Commission, however, maintained that differences of views were part of institutional deliberations and that its recent orders were taken unanimously."
+        "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
+        "- He argued that the Commission could not change the form unilaterally and said two.",
+        "Election Commissioners had sought its withdrawal.",
+        "- The Congress leader urged the Supreme Court to take suo motu cognisance and hold Chief Election Commissioner Gyanesh Kumar accountable.",
+        "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
+        "In a post on X, Ramesh said the online form was altered in early July to ask applicants whether their parents or grandparents had been included in an earlier Special Intensive Revision (SIR) of electoral rolls.",
+        "He called the change “totally illegal” and said it could make registration harder for young and first-time voters.",
+        "Ramesh contrasted the new requirement with the Election Commission’s direction to officials to organise special enrolment camps for young voters and publicise them on social media.",
+        "He argued that encouraging registration while adding a further condition to the online process was contradictory.",
+        "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own.",
+        "He claimed that any change to the prescribed form would require an amendment to the rules and communication to Parliament.",
+        "The rules, including Form 6, are published by the government."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "ITANAGAR: The Arunachal Pradesh Congress Committee (APCC) joined the nationwide protest called by the Congress against the Election Commission on Friday, staging a peaceful dharna near Nirvachan Bhawan in Itanagar.",
-          "The party demanded the resignation and removal of Chief Election Commissioner Gyanesh Kumar, a freeze on the Special Intensive Revision (SIR) exercise and an independent inquiry into decisions concerning electoral rolls."
+          "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
+          "- He argued that the Commission could not change the form unilaterally and said two."
         ],
         "body": [
-          "The APCC also sought criminal proceedings against Kumar and an investigation into the orders issued under his tenure.",
-          "It demanded that upcoming elections be put on hold and the electoral roll restored to the January 2025 voters' list until the completion of an independent inquiry.",
-          "The party further sought custody of all SIR-related files by the Supreme Court and repeal of the 2023 law governing the appointment of Election Commissioners, calling for new legislation with greater participation of civil society.",
-          "The Congress has cited reported differences among the three Election Commissioners over decisions and orders relating to the SIR as one of the reasons for seeking an independent review.",
-          "The Election Commission, however, maintained that differences of views were part of institutional deliberations and that its recent orders were taken unanimously."
+          "Election Commissioners had sought its withdrawal.",
+          "- The Congress leader urged the Supreme Court to take suo motu cognisance and hold Chief Election Commissioner Gyanesh Kumar accountable.",
+          "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
+          "In a post on X, Ramesh said the online form was altered in early July to ask applicants whether their parents or grandparents had been included in an earlier Special Intensive Revision (SIR) of electoral rolls.",
+          "He called the change “totally illegal” and said it could make registration harder for young and first-time voters.",
+          "Ramesh contrasted the new requirement with the Election Commission’s direction to officials to organise special enrolment camps for young voters and publicise them on social media.",
+          "He argued that encouraging registration while adding a further condition to the online process was contradictory.",
+          "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nirvachan Bhawan"
+            "text": "July"
           }
         ],
         "sentences": [
           {
-            "text": "ITANAGAR: The Arunachal Pradesh Congress Committee (APCC) joined the nationwide protest called by the Congress against the Election Commission on Friday, staging a peaceful dharna near Nirvachan Bhawan in Itanagar.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "76eec9eaed65787d624b8e8b:article",
+            "text": "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
+            "source": "National Herald",
+            "item_id": "dfe7c882aaacf0f1b4668b35:article",
             "composed": false
           },
           {
-            "text": "It demanded that upcoming elections be put on hold and the electoral roll restored to the January 2025 voters' list until the completion of an independent inquiry.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "76eec9eaed65787d624b8e8b:article",
+            "text": "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
+            "source": "National Herald",
+            "item_id": "dfe7c882aaacf0f1b4668b35:article",
             "composed": false
           },
           {
-            "text": "The party further sought custody of all SIR-related files by the Supreme Court and repeal of the 2023 law governing the appointment of Election Commissioners, calling for new legislation with greater participation of civil society.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "76eec9eaed65787d624b8e8b:article",
+            "text": "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own.",
+            "source": "National Herald",
+            "item_id": "dfe7c882aaacf0f1b4668b35:article",
             "composed": false
           }
         ],
-        "source": "The Sentinel (Assam)",
+        "source": "National Herald",
         "corroborating": [],
-        "url": "https://www.sentinelassam.com/north-east-india-news/arunachal-news/arunachal-pradesh-congress-stages-dharna-over-election-commission-sir"
+        "url": "https://www.nationalheraldindia.com/politics/congress-calls-form-6-online-change-illegal-seeks-supreme-court-intervention"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "b654c948e061413981e4f909",
+      "story_id": "b654c948e061413981e4f909",
+      "headline": "Supreme Court orders sealing of over 16,000 properties, demolition of illegal structures in Meerut",
+      "title": "Supreme Court orders sealing of over 16,000 properties, demolition of illegal structures in Meerut",
+      "summary": "A Bench of Justices J.B. Pardiwala and K.V. Viswanathan also formed a judicial commission, led by former Supreme Court judge Justice Sudhanshu Dhulia, to conduct a thorough inquiry in Uldepur, on the outskirts of Meerut, regarding the nature of land where these illegal residential colonies have developed",
+      "url": "https://www.thehindu.com/news/national/supreme-court-orders-sealing-of-over-16000-properties-demolition-of-illegal-structures-in-meerut/article71512123.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 94.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-26T08:15:58+00:00",
+      "published_at": "2026-09-26T08:15:58+00:00",
+      "effective_at": "2026-09-26T08:15:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "uttar pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "Taking serious note of illegal constructions and the conversion of residential properties for commercial use, the Supreme Court has directed the Uttar Pradesh government to seal over 16,000 properties in Meerut and demolish unauthorised structures.",
+        "A Bench of Justices J.B. Pardiwala and K.V. Viswanathan also formed a judicial commission, led by former Supreme Court judge Justice Sudhanshu Dhulia, to conduct a thorough inquiry in Uldepur, on the outskirts of Meerut, regarding the nature of land where these illegal residential colonies have developed.",
+        "\"We are shocked and disturbed to learn, reading the status report, that hundreds of illegal residential colonies have come up at Uldepur,\" the Bench said, after perusing the report by P. Guruprasad, Chairman of Uttar Pradesh Awas Evam Vikas Parishad.",
+        "The Bench noted that the department has undertaken an inspection and survey of various parts of Meerut.",
+        "The report showed that the town has been divided into four zones: Zone-A, Zone-B, Zone-C, and Zone-D.",
+        "\"In Zone-A, 16 teams deputed for the purpose of inspection/survey have identified 16,726 structures to be absolutely illegal/unauthorised.",
+        "Out of 16,726 structures, 12,907 comprise residential, 874 residential-cum-non- residential, and 2945 non-residential constructions,\" it noted in its September 21 order.",
+        "The top court, hearing a contempt petition related to non-compliance with previous directives on illegal constructions, instructed the authorities to take appropriate action against all the 16,726 illegal structures in Zone-A at the earliest.",
+        "\"The first step in the process is to ask the occupants to vacate the premises and to seal all these premises, i.e., the 16,726 illegal structures.",
+        "We direct accordingly.",
+        "It is possible that some of these structures may be in a dilapidated condition and may collapse, resulting in casualties.",
+        "We do not want this to happen at any cost."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Taking serious note of illegal constructions and the conversion of residential properties for commercial use, the Supreme Court has directed the Uttar Pradesh government to seal over 16,000 properties in Meerut and demolish unauthorised structures.",
+          "A Bench of Justices J.B. Pardiwala and K.V. Viswanathan also formed a judicial commission, led by former Supreme Court judge Justice Sudhanshu Dhulia, to conduct a thorough inquiry in Uldepur, on the outskirts of Meerut, regarding the nature of land where these illegal residential colonies have developed."
+        ],
+        "body": [
+          "\"We are shocked and disturbed to learn, reading the status report, that hundreds of illegal residential colonies have come up at Uldepur,\" the Bench said, after perusing the report by P. Guruprasad, Chairman of Uttar Pradesh Awas Evam Vikas Parishad.",
+          "The Bench noted that the department has undertaken an inspection and survey of various parts of Meerut.",
+          "The report showed that the town has been divided into four zones: Zone-A, Zone-B, Zone-C, and Zone-D. \"In Zone-A, 16 teams deputed for the purpose of inspection/survey have identified 16,726 structures to be absolutely illegal/unauthorised.",
+          "Out of 16,726 structures, 12,907 comprise residential, 874 residential-cum-non- residential, and 2945 non-residential constructions,\" it noted in its September 21 order.",
+          "The top court, hearing a contempt petition related to non-compliance with previous directives on illegal constructions, instructed the authorities to take appropriate action against all the 16,726 illegal structures in Zone-A at the earliest.",
+          "\"The first step in the process is to ask the occupants to vacate the premises and to seal all these premises, i.e., the 16,726 illegal structures.",
+          "We direct accordingly.",
+          "It is possible that some of these structures may be in a dilapidated condition and may collapse, resulting in casualties."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Meerut"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Out of 16,726 structures, 12,907 comprise residential, 874 residential-cum-non- residential, and 2945 non-residential constructions,\" it noted in its September 21 order.",
+            "source": "The Hindu",
+            "item_id": "b654c948e061413981e4f909:article",
+            "composed": false
+          },
+          {
+            "text": "The report showed that the town has been divided into four zones: Zone-A, Zone-B, Zone-C, and Zone-D. \"In Zone-A, 16 teams deputed for the purpose of inspection/survey have identified 16,726 structures to be absolutely illegal/unauthorised.",
+            "source": "The Hindu",
+            "item_id": "b654c948e061413981e4f909:article",
+            "composed": false
+          },
+          {
+            "text": "Taking serious note of illegal constructions and the conversion of residential properties for commercial use, the Supreme Court has directed the Uttar Pradesh government to seal over 16,000 properties in Meerut and demolish unauthorised structures.",
+            "source": "The Hindu",
+            "item_id": "b654c948e061413981e4f909:article",
+            "composed": false
+          },
+          {
+            "text": "The top court, hearing a contempt petition related to non-compliance with previous directives on illegal constructions, instructed the authorities to take appropriate action against all the 16,726 illegal structures in Zone-A at the earliest.",
+            "source": "The Hindu",
+            "item_id": "b654c948e061413981e4f909:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-orders-sealing-of-over-16000-properties-demolition-of-illegal-structures-in-meerut/article71512123.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -702,7 +835,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -795,7 +928,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -816,7 +949,7 @@
         "For Respondents: Mr. Kapil Sibal, Sr. Adv.; Mr. Vivek Jain, AOR; Ms. Suchitra Kumbhat, Adv.",
         "Mr. Rohit H Nair, Adv.; Ms. Ishika Gandhi, Adv.; Mr. Shathabish Shivanna, Adv.; Mr. Abhishek Janardhan, Adv.; Mr. Samrudh Suraj Hegde, Adv."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court on Friday (25 September) dismissed a Special Leave Petition (SLP) against the Karnataka High Court's judgment which had quashed criminal complaint against Karnataka's Energy Minister KJ George and Bangalore Electricity Supply Company Limited (BESCOM) officials over alleged irregularities in the tender procurement and installation of smart electricity meters in Karnataka.",
@@ -857,7 +990,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-refuses-interfere-karnataka-hc-order-quashing-corruption-case-energy-minister-kj-george-551951"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     }
   ]
