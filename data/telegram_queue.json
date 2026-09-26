@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:32:25.790628+00:00",
+  "generated_at": "2026-09-26T09:41:58.977957+00:00",
   "count": 7,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (chhattisgarh)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -162,7 +162,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -275,7 +275,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (west bengal)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 40.4, score 58 -> HIGH"
@@ -314,40 +314,34 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "dfe7c882aaacf0f1b4668b35",
-      "story_id": "dfe7c882aaacf0f1b4668b35",
-      "headline": "Congress calls Form 6 online change ‘illegal’, seeks Supreme Court intervention",
-      "title": "Congress calls Form 6 online change ‘illegal’, seeks Supreme Court intervention",
-      "summary": "Congress leader Jairam Ramesh alleged on Saturday that the Election Commission added a mandatory declaration to the online Form 6 without following the required procedure and called for Supreme Court intervention.",
-      "url": "https://www.nationalheraldindia.com/politics/congress-calls-form-6-online-change-illegal-seeks-supreme-court-intervention",
-      "source": "National Herald",
+      "event_id": "799595db954a31cb6838bb04",
+      "story_id": "799595db954a31cb6838bb04",
+      "headline": "Maharashtra declares 265 of 358 talukas drought-hit, announces relief",
+      "title": "Maharashtra declares 265 of 358 talukas drought-hit, announces relief",
+      "summary": "The Maharashtra government on Saturday declared 265 of the 358 talukas in the state as drought-affected, announcing relief measures, including restructuring of crop loans, concession in land revenue and deferment of recovery of agriculture-related loans. According to a government resolution issued late on Friday, this covers 74 per cent of the state. The decision follows Chief Minister Devendra Fadnavis's recent visit to some drought-affected parts of the state. The state government has activated 'Trigger-1' under its manual for drought management 2016 (updated in 2020) and Drought Management Code to declare drought conditions and initiate relief. Trigger-1 is the first stage in the state's drought framework, activated by a rainfall deficit of more than 25 per cent combined with a prolonged dry spell of 21 days. A report submitted by the Agriculture Commissioner found drought-like conditions in the 265 talukas across 32 districts due to rainfall deficit and other factors since ...",
+      "url": "https://www.business-standard.com/india-news/maharashtra-declares-265-of-358-talukas-drought-hit-announces-relief-126092600381_1.html",
+      "source": "Business Standard",
       "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
+      "tier": 3,
+      "category": "weather-disasters",
       "secondary_categories": [
-        "national-politics"
+        "agriculture-rural",
+        "business-industry"
       ],
-      "confidence": "high",
-      "score": 82.0,
+      "confidence": "medium",
+      "score": 78.2,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-09-26T08:40:21+00:00",
-      "published_at": "2026-09-26T08:40:21+00:00",
-      "effective_at": "2026-09-26T08:40:21.525000+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-09-26T09:22:44+00:00",
+      "published_at": "2026-09-26T09:22:44+00:00",
+      "effective_at": "2026-09-26T09:22:44+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "national-herald": {
-          "kind": "independent",
+        "pti": {
+          "kind": "wire",
           "source_ids": [
-            "national-herald"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
+            "business-standard"
           ],
           "count": 1
         }
@@ -356,90 +350,72 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "major: significance event 'Drought'",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'drought' in title weight 36",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: state scope (maharashtra)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 36, stack 45, score 45 -> HIGH"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "maharashtra",
       "national_significance": true,
-      "article_sentences": [
-        "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
-        "- He argued that the Commission could not change the form unilaterally and said two.",
-        "Election Commissioners had sought its withdrawal.",
-        "- The Congress leader urged the Supreme Court to take suo motu cognisance and hold Chief Election Commissioner Gyanesh Kumar accountable.",
-        "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
-        "In a post on X, Ramesh said the online form was altered in early July to ask applicants whether their parents or grandparents had been included in an earlier Special Intensive Revision (SIR) of electoral rolls.",
-        "He called the change “totally illegal” and said it could make registration harder for young and first-time voters.",
-        "Ramesh contrasted the new requirement with the Election Commission’s direction to officials to organise special enrolment camps for young voters and publicise them on social media.",
-        "He argued that encouraging registration while adding a further condition to the online process was contradictory.",
-        "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own.",
-        "He claimed that any change to the prescribed form would require an amendment to the rules and communication to Parliament.",
-        "The rules, including Form 6, are published by the government."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
-          "- He argued that the Commission could not change the form unilaterally and said two."
+          "The Maharashtra government on Saturday declared 265 of the 358 talukas in the state as drought-affected, announcing relief measures, including restructuring of crop loans, concession in land revenue and deferment of recovery of agriculture-related loans.",
+          "According to a government resolution issued late on Friday, this covers 74 per cent of the state."
         ],
         "body": [
-          "Election Commissioners had sought its withdrawal.",
-          "- The Congress leader urged the Supreme Court to take suo motu cognisance and hold Chief Election Commissioner Gyanesh Kumar accountable.",
-          "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
-          "In a post on X, Ramesh said the online form was altered in early July to ask applicants whether their parents or grandparents had been included in an earlier Special Intensive Revision (SIR) of electoral rolls.",
-          "He called the change “totally illegal” and said it could make registration harder for young and first-time voters.",
-          "Ramesh contrasted the new requirement with the Election Commission’s direction to officials to organise special enrolment camps for young voters and publicise them on social media.",
-          "He argued that encouraging registration while adding a further condition to the online process was contradictory.",
-          "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own."
+          "The decision follows Chief Minister Devendra Fadnavis's recent visit to some drought-affected parts of the state.",
+          "The state government has activated 'Trigger-1' under its manual for drought management 2016 (updated in 2020) and Drought Management Code to declare drought conditions and initiate relief.",
+          "Trigger-1 is the first stage in the state's drought framework, activated by a rainfall deficit of more than 25 per cent combined with a prolonged dry spell of 21 days.",
+          "A report submitted by the Agriculture Commissioner found drought-like conditions in the 265 talukas across 32 districts due to rainfall deficit and other factors since..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "July"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "- Jairam Ramesh alleged that the Election Commission added a mandatory declaration to the online Form 6 in July without an official notification.",
-            "source": "National Herald",
-            "item_id": "dfe7c882aaacf0f1b4668b35:article",
+            "text": "The Maharashtra government on Saturday declared 265 of the 358 talukas in the state as drought-affected, announcing relief measures, including restructuring of crop loans, concession in land revenue and deferment of recovery of agriculture-related loans.",
+            "source": "Business Standard",
+            "item_id": "799595db954a31cb6838bb04",
             "composed": false
           },
           {
-            "text": "Congress general secretary Jairam Ramesh on Saturday questioned a change to the online voter registration process, alleging that the Election Commission had added a mandatory declaration to Form 6 without following the procedure required to amend it.",
-            "source": "National Herald",
-            "item_id": "dfe7c882aaacf0f1b4668b35:article",
+            "text": "According to a government resolution issued late on Friday, this covers 74 per cent of the state.",
+            "source": "Business Standard",
+            "item_id": "799595db954a31cb6838bb04",
             "composed": false
           },
           {
-            "text": "Citing the Registration of Electors Rules, 1960, Ramesh said the power to amend Form 6 lay with the central government, not the Election Commission acting on its own.",
-            "source": "National Herald",
-            "item_id": "dfe7c882aaacf0f1b4668b35:article",
+            "text": "The state government has activated 'Trigger-1' under its manual for drought management 2016 (updated in 2020) and Drought Management Code to declare drought conditions and initiate relief.",
+            "source": "Business Standard",
+            "item_id": "799595db954a31cb6838bb04",
             "composed": false
           }
         ],
-        "source": "National Herald",
+        "source": "Business Standard",
         "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/politics/congress-calls-form-6-online-change-illegal-seeks-supreme-court-intervention"
+        "url": "https://www.business-standard.com/india-news/maharashtra-declares-265-of-358-talukas-drought-hit-announces-relief-126092600381_1.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "b654c948e061413981e4f909",
@@ -483,7 +459,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -609,7 +585,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -702,7 +678,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
