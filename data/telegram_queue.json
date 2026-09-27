@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:32:22.142207+00:00",
+  "generated_at": "2026-09-27T08:41:57.558856+00:00",
   "count": 14,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -139,7 +139,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -252,7 +252,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -367,10 +367,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (assam)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 19.4, score 58 -> HIGH"
+        "dominant event 58, stack 15.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -464,7 +464,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 22.8, score 50.4 -> HIGH"
@@ -581,7 +581,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -715,7 +715,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -847,7 +847,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'steps down' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 30.4, score 40 -> HIGH"
@@ -946,7 +946,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -1026,7 +1026,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1112,7 +1112,7 @@
       "title": "Tamil Nadu government exempts Public (Law and Order) Department from RTI Act",
       "summary": "Information on communal and caste clashes, inquiry reports on police firing, custodial deaths, details on handling of agitations by students and farmers; and all matters relating to National Security Act detentions, are now excluded from the ambit of the RTI Act",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-exempts-public-law-and-order-department-from-rti-act/article71515196.ece",
-      "source": "The Hindu - Chennai",
+      "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
       "category": "crime-public-safety",
@@ -1134,9 +1134,10 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
+            "the-hindu",
             "the-hindu-chennai"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -1148,11 +1149,12 @@
         "major: significance event 'National Security'",
         "category: crime-public-safety (importance 1.1, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu-chennai) +2",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 20.4, score 42 -> HIGH"
@@ -1191,30 +1193,30 @@
         "sentences": [
           {
             "text": "The order dated September 21, 2026 was issued under Section 24(4) of the RTI Act, 2005.",
-            "source": "The Hindu - Chennai",
+            "source": "The Hindu",
             "item_id": "80ae6d5fdaccd871aab80109:article",
             "composed": false
           },
           {
             "text": "AMMK founder T.T.V. Dhinakaran on Sunday (September 27) opposed this decision of the Tamil Nadu government.",
-            "source": "The Hindu - Chennai",
+            "source": "The Hindu",
             "item_id": "80ae6d5fdaccd871aab80109:article",
             "composed": false
           },
           {
             "text": "Seeking an explanation in this regard from Tamil Nadu Chief Minister C. Joseph Vijay, Mr. Dhinakaran called for revoking the decision exempting subjects pertaining to the law and order, from the ambit of the RTI Act.",
-            "source": "The Hindu - Chennai",
+            "source": "The Hindu",
             "item_id": "80ae6d5fdaccd871aab80109:article",
             "composed": false
           },
           {
             "text": "What are the subjects excluded from RTI’s ambit?",
-            "source": "The Hindu - Chennai",
+            "source": "The Hindu",
             "item_id": "80ae6d5fdaccd871aab80109:article",
             "composed": false
           }
         ],
-        "source": "The Hindu - Chennai",
+        "source": "The Hindu",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-exempts-public-law-and-order-department-from-rti-act/article71515196.ece"
       },
@@ -1267,7 +1269,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -1387,7 +1389,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 32, score 38.4 -> HIGH"
@@ -1470,7 +1472,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
