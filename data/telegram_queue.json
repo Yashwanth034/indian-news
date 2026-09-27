@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T03:51:34.681704+00:00",
-  "count": 3,
+  "generated_at": "2026-09-27T04:02:19.556642+00:00",
+  "count": 4,
   "stories": [
     {
       "event_id": "e0f7deaa30bbaa8e1d053be0",
@@ -46,7 +46,7 @@
         "event term: 'pandemic' in title weight 82",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -285,7 +285,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -293,7 +293,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Tehran, September 27: Iranian President Masoud Pezeshkian said that Iran will remain resolute and not retreat in the face of the United States and Israel, as US President Donald Trump rejected Iran’s proposal for a seven-day ceasefire and reopening of the Strait of Hormuz.",
@@ -361,7 +361,89 @@
         "url": "https://risingkashmir.com/world/will-stand-until-our-last-breath-prez-pezeshkian-says-iran-will-not-retreat-as-trump-rejects-ceasefire-proposal-12580889"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "3a9e76e05945c0f103612153",
+      "story_id": "3a9e76e05945c0f103612153",
+      "headline": "AP, Telangana to receive rains amid low pressure area in Bay of Bengal",
+      "title": "AP, Telangana to receive rains amid low pressure area in Bay of Bengal",
+      "summary": "Andhra Pradesh and Telangana are expected to receive light to moderate rainfall as a low-pressure area forms after the weakening depression. Authorities remain alert as Godavari flood levels rise and NDRF-SDRF teams stay on standby.",
+      "url": "https://www.thehansindia.com/andhra-pradesh/ap-telangana-to-receive-rains-amid-low-pressure-area-in-bay-of-bengal-1126112",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 56.4,
+      "priority_score": 38.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-27T03:55:19+00:00",
+      "published_at": "2026-09-27T03:55:19+00:00",
+      "effective_at": "2026-09-27T03:55:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 38.4, stack 36, score 38.4 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "telangana",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Andhra Pradesh and Telangana are expected to receive light to moderate rainfall as a low-pressure area forms after the weakening depression.",
+          "Authorities remain alert as Godavari flood levels rise and NDRF-SDRF teams stay on standby."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Andhra Pradesh and Telangana are expected to receive light to moderate rainfall as a low-pressure area forms after the weakening depression.",
+            "source": "The Hans India",
+            "item_id": "3a9e76e05945c0f103612153",
+            "composed": false
+          },
+          {
+            "text": "Authorities remain alert as Godavari flood levels rise and NDRF-SDRF teams stay on standby.",
+            "source": "The Hans India",
+            "item_id": "3a9e76e05945c0f103612153",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/andhra-pradesh/ap-telangana-to-receive-rains-amid-low-pressure-area-in-bay-of-bengal-1126112"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "rss"
     }
   ]
