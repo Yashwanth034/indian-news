@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T06:32:09.833064+00:00",
-  "count": 7,
+  "generated_at": "2026-09-27T06:41:53.241902+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "e0f7deaa30bbaa8e1d053be0",
@@ -46,7 +46,7 @@
         "event term: 'pandemic' in title weight 82",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -118,6 +118,97 @@
       "enrichment": "article"
     },
     {
+      "event_id": "b6e6336e7bf3a4847657eb95",
+      "story_id": "b6e6336e7bf3a4847657eb95",
+      "headline": "Rains subside in Chinturu Agency, flood relief underway",
+      "title": "Rains subside in Chinturu Agency, flood relief underway",
+      "summary": "Flood relief operations are underway in the Chinturu Agency region of Andhra Pradesh's Polavaram district as water levels remain high in the Sabari and Godavari rivers despite a reduction in rainfall. District officials are assessing damage to homes, crops, and livestock while urging residents in riverbank areas to remain alert for the next 48 hours.",
+      "url": "https://www.thehansindia.com/andhra-pradesh/rains-subside-in-chinturu-agency-flood-relief-underway-1126136",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 67.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-27T06:35:58+00:00",
+      "published_at": "2026-09-27T06:35:58+00:00",
+      "effective_at": "2026-09-27T06:35:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Flood relief operations are underway in the Chinturu Agency region of Andhra Pradesh's Polavaram district as water levels remain high in the Sabari and Godavari rivers despite a reduction in rainfall.",
+          "District officials are assessing damage to homes, crops, and livestock while urging residents in riverbank areas to remain alert for the next 48 hours."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Flood relief operations are underway in the Chinturu Agency region of Andhra Pradesh's Polavaram district as water levels remain high in the Sabari and Godavari rivers despite a reduction in rainfall.",
+            "source": "The Hans India",
+            "item_id": "b6e6336e7bf3a4847657eb95",
+            "composed": false
+          },
+          {
+            "text": "District officials are assessing damage to homes, crops, and livestock while urging residents in riverbank areas to remain alert for the next 48 hours.",
+            "source": "The Hans India",
+            "item_id": "b6e6336e7bf3a4847657eb95",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/andhra-pradesh/rains-subside-in-chinturu-agency-flood-relief-underway-1126136"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "40ce70ba88a201cbde43ebbe",
       "story_id": "40ce70ba88a201cbde43ebbe",
       "headline": "Assam: 24x7 helpline launched for Nagaon Lok Sabha bye-election",
@@ -159,7 +250,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (assam)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -249,7 +340,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -372,7 +463,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -497,7 +588,7 @@
         "event term: 'steps down' in title weight 40",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -585,7 +676,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 36, score 38.4 -> HIGH"
@@ -668,7 +759,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 31.6, score 38 -> HIGH"
