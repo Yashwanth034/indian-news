@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T10:11:40.418785+00:00",
-  "count": 15,
+  "generated_at": "2026-09-28T10:21:36.263759+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "0966067b7b6de1be1c4e9368",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 27.8, score 82 -> IMMEDIATE"
@@ -157,7 +157,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -276,7 +276,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -410,7 +410,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -478,6 +478,92 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "11d581ca3c2b91a287e92c81",
+      "story_id": "11d581ca3c2b91a287e92c81",
+      "headline": "Centre to send teams to assess drought in Karnataka, Maharashtra: Shivraj Singh Chouhan",
+      "title": "Centre to send teams to assess drought in Karnataka, Maharashtra: Shivraj Singh Chouhan",
+      "summary": "“We will send a central team to Karnataka on October 3 to assess the drought situation. I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too. I, along with my team, will personally visit the States facing this crisis,” Mr. Chouhan said",
+      "url": "https://www.thehindu.com/news/national/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-28T10:05:20+00:00",
+      "published_at": "2026-09-28T10:05:20+00:00",
+      "effective_at": "2026-09-28T10:05:20+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'drought' in title weight 36",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "“We will send a central team to Karnataka on October 3 to assess the drought situation.",
+          "I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too."
+        ],
+        "body": [
+          "I, along with my team, will personally visit the States facing this crisis,” Mr. Chouhan said."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "“We will send a central team to Karnataka on October 3 to assess the drought situation.",
+            "source": "The Hindu",
+            "item_id": "11d581ca3c2b91a287e92c81",
+            "composed": false
+          },
+          {
+            "text": "I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too.",
+            "source": "The Hindu",
+            "item_id": "11d581ca3c2b91a287e92c81",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "61956e724ba062ea94753435",
       "story_id": "61956e724ba062ea94753435",
       "headline": "India’s BESS Pipeline Set to Hit 45-50 GWh, But 8-9 GWh Faces Delay Risk: Crisil",
@@ -523,7 +609,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -606,92 +692,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "11d581ca3c2b91a287e92c81",
-      "story_id": "11d581ca3c2b91a287e92c81",
-      "headline": "Centre to send teams to assess drought in Karnataka, Maharashtra: Shivraj Singh Chouhan",
-      "title": "Centre to send teams to assess drought in Karnataka, Maharashtra: Shivraj Singh Chouhan",
-      "summary": "“We will send a central team to Karnataka on October 3 to assess the drought situation. I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too. I, along with my team, will personally visit the States facing this crisis,” Mr. Chouhan said",
-      "url": "https://www.thehindu.com/sci-tech/agriculture/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-28T09:48:54+00:00",
-      "published_at": "2026-09-28T09:48:54+00:00",
-      "effective_at": "2026-09-28T09:48:54+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'drought'",
-        "major: significance event 'drought'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'drought' in title weight 36",
-        "event term: 'drought' in summary weight 21.6",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 36, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "“We will send a central team to Karnataka on October 3 to assess the drought situation.",
-          "I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too."
-        ],
-        "body": [
-          "I, along with my team, will personally visit the States facing this crisis,” Mr. Chouhan said."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "“We will send a central team to Karnataka on October 3 to assess the drought situation.",
-            "source": "The Hindu",
-            "item_id": "11d581ca3c2b91a287e92c81",
-            "composed": false
-          },
-          {
-            "text": "I have spoken with the Chief Minister of Maharashtra, who is concerned as well, and we will send a central team there too.",
-            "source": "The Hindu",
-            "item_id": "11d581ca3c2b91a287e92c81",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/sci-tech/agriculture/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "3768c70ef7bda3a81a6028c8",
       "story_id": "3768c70ef7bda3a81a6028c8",
       "headline": "SC fixes time frame for EC to decide dispute over TMC's name, symbol",
@@ -741,7 +741,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (west bengal)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -784,95 +784,6 @@
         "url": "https://www.business-standard.com/india-news/sc-fixes-time-frame-for-ec-to-decide-dispute-over-tmc-s-name-symbol-126092800500_1.html"
       },
       "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "7338c8224f07eff388a70107",
-      "story_id": "7338c8224f07eff388a70107",
-      "headline": "Believe Bengal Speaker aware of deadline on TMC rebels disqualification: SC",
-      "title": "Believe Bengal Speaker aware of deadline on TMC rebels disqualification: SC",
-      "summary": "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs. The observations came from a bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana during the hearing of a plea filed by Mamata Banerjee-led TMC faction MLA Sohandeb Chattopadhyay. In his petition, Chattopadhyay sought direction to the speaker to expeditiously decide the disqualification petition filed against the rebel MLAs. \"We have every reason to believe that the speaker is fully cognisant of the decision of this court and he will make an endeavour to take an appropriate decision within the time-frame fixed,\" the bench said while disposing of the plea. The top court noted that in this case, the three-month period would expire on October 10. Chattopadhyay had earlier approached Speaker Rathin Bose",
-      "url": "https://www.business-standard.com/india-news/believe-bengal-speaker-aware-of-deadline-on-tmc-rebels-disqualification-sc-126092800382_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "medium",
-      "score": 85.2,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-09-28T07:13:44+00:00",
-      "published_at": "2026-09-28T07:13:44+00:00",
-      "effective_at": "2026-09-28T07:13:44+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
-        "scale: state scope (west bengal)",
-        "recency: breaking (3.0h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 27.6, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "west bengal",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs.",
-          "The observations came from a bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana during the hearing of a plea filed by Mamata Banerjee-led TMC faction MLA Sohandeb Chattopadhyay."
-        ],
-        "body": [
-          "In his petition, Chattopadhyay sought direction to the speaker to expeditiously decide the disqualification petition filed against the rebel MLAs.",
-          "\"We have every reason to believe that the speaker is fully cognisant of the decision of this court and he will make an endeavour to take an appropriate decision within the time-frame fixed,\" the bench said while disposing of the plea.",
-          "The top court noted that in this case, the three-month period would expire on October 10.",
-          "Chattopadhyay had earlier approached Speaker Rathin Bose."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The top court noted that in this case, the three-month period would expire on October 10.",
-            "source": "Business Standard",
-            "item_id": "7338c8224f07eff388a70107",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs.",
-            "source": "Business Standard",
-            "item_id": "7338c8224f07eff388a70107",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/believe-bengal-speaker-aware-of-deadline-on-tmc-rebels-disqualification-sc-126092800382_1.html"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -923,7 +834,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -996,6 +907,95 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7338c8224f07eff388a70107",
+      "story_id": "7338c8224f07eff388a70107",
+      "headline": "Believe Bengal Speaker aware of deadline on TMC rebels disqualification: SC",
+      "title": "Believe Bengal Speaker aware of deadline on TMC rebels disqualification: SC",
+      "summary": "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs. The observations came from a bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana during the hearing of a plea filed by Mamata Banerjee-led TMC faction MLA Sohandeb Chattopadhyay. In his petition, Chattopadhyay sought direction to the speaker to expeditiously decide the disqualification petition filed against the rebel MLAs. \"We have every reason to believe that the speaker is fully cognisant of the decision of this court and he will make an endeavour to take an appropriate decision within the time-frame fixed,\" the bench said while disposing of the plea. The top court noted that in this case, the three-month period would expire on October 10. Chattopadhyay had earlier approached Speaker Rathin Bose",
+      "url": "https://www.business-standard.com/india-news/believe-bengal-speaker-aware-of-deadline-on-tmc-rebels-disqualification-sc-126092800382_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 85.2,
+      "priority_score": 44.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-28T07:13:44+00:00",
+      "published_at": "2026-09-28T07:13:44+00:00",
+      "effective_at": "2026-09-28T07:13:44+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: state scope (west bengal)",
+        "recency: fresh (3.1h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "west bengal",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs.",
+          "The observations came from a bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana during the hearing of a plea filed by Mamata Banerjee-led TMC faction MLA Sohandeb Chattopadhyay."
+        ],
+        "body": [
+          "In his petition, Chattopadhyay sought direction to the speaker to expeditiously decide the disqualification petition filed against the rebel MLAs.",
+          "\"We have every reason to believe that the speaker is fully cognisant of the decision of this court and he will make an endeavour to take an appropriate decision within the time-frame fixed,\" the bench said while disposing of the plea.",
+          "The top court noted that in this case, the three-month period would expire on October 10.",
+          "Chattopadhyay had earlier approached Speaker Rathin Bose."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The top court noted that in this case, the three-month period would expire on October 10.",
+            "source": "Business Standard",
+            "item_id": "7338c8224f07eff388a70107",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Monday said it has every reason to believe that the West Bengal Assembly speaker is \"fully cognisant\" of the apex court's order fixing a three-month time frame to decide the disqualification petition against 10 rebel TMC MLAs.",
+            "source": "Business Standard",
+            "item_id": "7338c8224f07eff388a70107",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/believe-bengal-speaker-aware-of-deadline-on-tmc-rebels-disqualification-sc-126092800382_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "43cbf31154d2247eff7021d1",
       "story_id": "43cbf31154d2247eff7021d1",
       "headline": "Supreme Court Dismisses Percept's Appeal Against ₹14.49 Crore Arbitral Award In Favour Of Sourav Ganguly",
@@ -1037,7 +1037,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1154,7 +1154,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1268,7 +1268,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1336,6 +1336,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "fdc62ec59822f5edd087c0a7",
+      "story_id": "fdc62ec59822f5edd087c0a7",
+      "headline": "Supreme Court takes suo motu cognisance of recent sexual assault cases in Delhi-NCR, flags ‘lax patrolling’ by authorities",
+      "title": "Supreme Court takes suo motu cognisance of recent sexual assault cases in Delhi-NCR, flags ‘lax patrolling’ by authorities",
+      "summary": "The top court underlined that public spaces cannot be allowed to become “zones of high risk” because of “lax patrolling and other preventable administrative deficiencies”",
+      "url": "https://www.thehindu.com/news/cities/Delhi/supreme-court-register-suo-motu-case-on-delhi-rape-case/article71518477.ece",
+      "source": "The Hindu - Delhi",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-28T06:09:14+00:00",
+      "published_at": "2026-09-28T06:09:14+00:00",
+      "effective_at": "2026-09-28T06:09:14+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-delhi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-delhi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (4.2h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 22.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Monday (September 28, 2026) took suo motu cognisance of a spate of sexual assault incidents against minors and women in Delhi-NCR, seeking a response from the Delhi.",
+        "Police and observing that public spaces, including parks, buses and Metro stations, cannot be allowed to become “zones of high risk” because of “lax patrolling and other preventable administrative deficiencies”.",
+        "A Bench of Justices J.B. Pardiwala and K. Vinod Chandran took note of several recent cases of sexual violence reported in the national capital, including the alleged rape of a 17-year-old at Astha Kunj park near Lady Shri Ram College, the gang-rape of a minor at Swaroop Nagar, and the sexual assault of another minor inside a bus travelling from Greater Noida to Delhi.",
+        "“These incidents, considered alongside recent reports of sexual offences across Delhi-NCR, starkly underline the failure of law enforcement and public administration authorities to guarantee basic public safety.",
+        "The right to live with dignity, free from the fear of violence, is an intrinsic facet of the fundamental guarantee of life and personal liberty enshrined under Article 21 of the Constitution,” the Bench said.",
+        "The Bench further observed that public spaces, including roads, buses, Metro stations, footbridges and subways, cannot be permitted to become “zones of high risk” because of inadequate illumination, poor surveillance, lax patrolling and other preventable administrative deficiencies.",
+        "Expressing serious concern over the alleged gang-rape of a 17-year-old girl in a moving bus that travelled nearly 47 km from Greater Noida to Kashmere Gate in Delhi without being stopped at a single police picket earlier this month, the apex court said it could not help but “draw painful parallels with the 2012 Nirbhaya case”.",
+        "The incident, it said, called into question whether systemic law-enforcement mechanisms had made any “meaningful progress” in the decade since then.",
+        "While acknowledging that statements by public authorities and elected representatives expressing concern over such incidents were understandable, the Bench said expressions of solidarity, without accountability, failed to address the larger institutional question.",
+        "“Expressing solidarity is not a solution to this social evil.",
+        "What is required is a measurable response with responsibility and accountability being fixed upon the authorities entrusted with prevention of crime, maintenance of public order and protection of vulnerable persons,” the Bench added.",
+        "The court also questioned the police response in the Astha Kunj case, taking note of reports that students of Lady Shri Ram College had previously complained of instances of sexual harassment in the area that had gone unaddressed."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Monday (September 28, 2026) took suo motu cognisance of a spate of sexual assault incidents against minors and women in Delhi-NCR, seeking a response from the Delhi.",
+          "Police and observing that public spaces, including parks, buses and Metro stations, cannot be allowed to become “zones of high risk” because of “lax patrolling and other preventable administrative deficiencies”."
+        ],
+        "body": [
+          "A Bench of Justices J.B. Pardiwala and K. Vinod Chandran took note of several recent cases of sexual violence reported in the national capital, including the alleged rape of a 17-year-old at Astha Kunj park near Lady Shri Ram College, the gang-rape of a minor at Swaroop Nagar, and the sexual assault of another minor inside a bus travelling from Greater Noida to Delhi.",
+          "“These incidents, considered alongside recent reports of sexual offences across Delhi-NCR, starkly underline the failure of law enforcement and public administration authorities to guarantee basic public safety.",
+          "The right to live with dignity, free from the fear of violence, is an intrinsic facet of the fundamental guarantee of life and personal liberty enshrined under Article 21 of the Constitution,” the Bench said.",
+          "The Bench further observed that public spaces, including roads, buses, Metro stations, footbridges and subways, cannot be permitted to become “zones of high risk” because of inadequate illumination, poor surveillance, lax patrolling and other preventable administrative deficiencies.",
+          "Expressing serious concern over the alleged gang-rape of a 17-year-old girl in a moving bus that travelled nearly 47 km from Greater Noida to Kashmere Gate in Delhi without being stopped at a single police picket earlier this month, the apex court said it could not help but “draw painful parallels with the 2012 Nirbhaya case”.",
+          "The incident, it said, called into question whether systemic law-enforcement mechanisms had made any “meaningful progress” in the decade since then.",
+          "While acknowledging that statements by public authorities and elected representatives expressing concern over such incidents were understandable, the Bench said expressions of solidarity, without accountability, failed to address the larger institutional question.",
+          "“Expressing solidarity is not a solution to this social evil."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi-NCR"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Monday (September 28, 2026) took suo motu cognisance of a spate of sexual assault incidents against minors and women in Delhi-NCR, seeking a response from the Delhi.",
+            "source": "The Hindu - Delhi",
+            "item_id": "fdc62ec59822f5edd087c0a7:article",
+            "composed": false
+          },
+          {
+            "text": "Expressing serious concern over the alleged gang-rape of a 17-year-old girl in a moving bus that travelled nearly 47 km from Greater Noida to Kashmere Gate in Delhi without being stopped at a single police picket earlier this month, the apex court said it could not help but “draw painful parallels with the 2012 Nirbhaya case”.",
+            "source": "The Hindu - Delhi",
+            "item_id": "fdc62ec59822f5edd087c0a7:article",
+            "composed": false
+          },
+          {
+            "text": "A Bench of Justices J.B. Pardiwala and K. Vinod Chandran took note of several recent cases of sexual violence reported in the national capital, including the alleged rape of a 17-year-old at Astha Kunj park near Lady Shri Ram College, the gang-rape of a minor at Swaroop Nagar, and the sexual assault of another minor inside a bus travelling from Greater Noida to Delhi.",
+            "source": "The Hindu - Delhi",
+            "item_id": "fdc62ec59822f5edd087c0a7:article",
+            "composed": false
+          },
+          {
+            "text": "The right to live with dignity, free from the fear of violence, is an intrinsic facet of the fundamental guarantee of life and personal liberty enshrined under Article 21 of the Constitution,” the Bench said.",
+            "source": "The Hindu - Delhi",
+            "item_id": "fdc62ec59822f5edd087c0a7:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Delhi",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Delhi/supreme-court-register-suo-motu-case-on-delhi-rape-case/article71518477.ece"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "1e1a4e4c65c6043f1d8a5cb6",
       "story_id": "1e1a4e4c65c6043f1d8a5cb6",
       "headline": "| Rape Cases In Delhi-NCR Show Systematic Failure Of Police & Administration : Supreme Court Takes Suo Motu Cognizance",
@@ -1380,7 +1500,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1504,7 +1624,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "event term: 'supreme court judgment' in summary weight 27.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 43.4, score 43.4 -> HIGH"
@@ -1613,7 +1733,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'repo rate' in title weight 42",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 31.6, score 42 -> HIGH"
