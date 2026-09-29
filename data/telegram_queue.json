@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T07:02:24.397847+00:00",
-  "count": 12,
+  "generated_at": "2026-09-29T07:11:34.473820+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "3220c9a29e63ff4ecab07d6d",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'epidemic' in title weight 70",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "geo: national",
         "dominant event 70, stack 24, score 70 -> URGENT",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -162,7 +162,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -271,7 +271,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: state scope (rajasthan)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -378,7 +378,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -456,6 +456,133 @@
       "enrichment": "article"
     },
     {
+      "event_id": "c8fc715086510b4564d142b1",
+      "story_id": "c8fc715086510b4564d142b1",
+      "headline": "Flood mitigation work in Chennai and suburbs to be completed by October 15",
+      "title": "Flood mitigation work in Chennai and suburbs to be completed by October 15",
+      "summary": "Work on storm water drain in Kosasthalaiyar basin is almost complete; 0.69 km will be completed in two weeks",
+      "url": "https://www.thehindu.com/news/cities/chennai/flood-mitigation-work-in-chennai-and-suburbs-to-be-completed-by-october-15/article71521249.ece",
+      "source": "The Hindu - Chennai",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-29T05:53:25+00:00",
+      "published_at": "2026-09-29T05:53:25+00:00",
+      "effective_at": "2026-09-29T05:53:25+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-chennai"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-chennai) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (tamil nadu)",
+        "recency: breaking (1.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 24, score 64 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "tamil nadu",
+      "national_significance": true,
+      "article_sentences": [
+        "The State government has extended the deadline for completion of flood mitigation work in Chennai and suburban districts and has ordered civic agencies to complete the work by October 15.",
+        "At a meeting on Monday, B.Chandra Mohan, the Additional Chief Secretary/Commissioner of Revenue Administration reviewed the flood mitigation works and monsoon preparatory works for Chennai, Chengalpattu,Tiruvallur and Kancheepuram Districts in the presence of Commissioners of Chennai, Avadi and Tambaram Municipal Corporations, District Revenue.",
+        "Officials, WRD and Highway Officials.",
+        "The Commissioner of Revenue Administration also extensively reviewed various flood mitigation works and instructed to complete before October 15.",
+        "“The construction of a storm water drain network under ADB Scheme for Kosasthalaiyar basin is almost completed.",
+        "The balance 0.69 km will be completed in two weeks.",
+        "The priority works in Kovalam basin covering Sholinganallur, Perungudi, Alandur will be completed before the onset of Northeast Monsoon,” said an official.",
+        "In Chennai Corporation zones, desilting works are being carried out in 1,683 km of storm water drains.",
+        "Desilting has been completed in 1,328 km of drains so far.",
+        "The work is under way, and will be completed in one week.",
+        "Desilting works in 1.10 lakh silt catch pits were fully completed in the first phase.",
+        "In the second phase, desilting has been completed in 77,600 silt catch pits so far."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The State government has extended the deadline for completion of flood mitigation work in Chennai and suburban districts and has ordered civic agencies to complete the work by October 15.",
+          "At a meeting on Monday, B.Chandra Mohan, the Additional Chief Secretary/Commissioner of Revenue Administration reviewed the flood mitigation works and monsoon preparatory works for Chennai, Chengalpattu,Tiruvallur and Kancheepuram Districts in the presence of Commissioners of Chennai, Avadi and Tambaram Municipal Corporations, District Revenue."
+        ],
+        "body": [
+          "Officials, WRD and Highway.",
+          "Officials.",
+          "The Commissioner of Revenue Administration also extensively reviewed various flood mitigation works and instructed to complete before October 15.",
+          "“The construction of a storm water drain network under ADB Scheme for Kosasthalaiyar basin is almost completed.",
+          "The balance 0.69 km will be completed in two weeks.",
+          "The priority works in Kovalam basin covering Sholinganallur, Perungudi, Alandur will be completed before the onset of Northeast Monsoon,” said an official.",
+          "In Chennai Corporation zones, desilting works are being carried out in 1,683 km of storm water drains.",
+          "The work is under way, and will be completed in one week."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Chennai"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The State government has extended the deadline for completion of flood mitigation work in Chennai and suburban districts and has ordered civic agencies to complete the work by October 15.",
+            "source": "The Hindu - Chennai",
+            "item_id": "c8fc715086510b4564d142b1:article",
+            "composed": false
+          },
+          {
+            "text": "The Commissioner of Revenue Administration also extensively reviewed various flood mitigation works and instructed to complete before October 15.",
+            "source": "The Hindu - Chennai",
+            "item_id": "c8fc715086510b4564d142b1:article",
+            "composed": false
+          },
+          {
+            "text": "At a meeting on Monday, B.Chandra Mohan, the Additional Chief Secretary/Commissioner of Revenue Administration reviewed the flood mitigation works and monsoon preparatory works for Chennai, Chengalpattu,Tiruvallur and Kancheepuram Districts in the presence of Commissioners of Chennai, Avadi and Tambaram Municipal Corporations, District Revenue.",
+            "source": "The Hindu - Chennai",
+            "item_id": "c8fc715086510b4564d142b1:article",
+            "composed": false
+          },
+          {
+            "text": "The priority works in Kovalam basin covering Sholinganallur, Perungudi, Alandur will be completed before the onset of Northeast Monsoon,” said an official.",
+            "source": "The Hindu - Chennai",
+            "item_id": "c8fc715086510b4564d142b1:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Chennai",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/chennai/flood-mitigation-work-in-chennai-and-suburbs-to-be-completed-by-october-15/article71521249.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "983ff9f6478bf1ca8e1a7dc1",
       "story_id": "983ff9f6478bf1ca8e1a7dc1",
       "headline": "Embankment breach along swollen Gandak in Bihar poses flood risk",
@@ -500,10 +627,10 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "dominant event 64, stack 44, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "bihar",
@@ -629,7 +756,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: state scope (punjab)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -647,7 +774,7 @@
         "As such, the Court impressed upon the parties that a Fact Finding Commission be constituted to conduct enquiry and passed an order to that effect when they consented.",
         "In this backdrop, the Court constituted the Fact Finding Commission and appointed a former Punjab and Haryana High Court judge, Justice Nirmaljit Kaur, to enquire into issues raised by the candidates regarding conduct of the polls."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court yesterday said that all wards in Punjab, where a Fact-Finding Commission found that violence took place during Municipal Elections, must go for re-election.",
@@ -693,7 +820,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-punjab-municipal-elections-wards-where-violence-took-place-must-go-for-re-election-552225"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -741,7 +868,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (rajasthan)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -847,10 +974,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 49.2, stack 26.4, score 49.2 -> HIGH"
+        "dominant event 49.2, stack 22.4, score 49.2 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -971,7 +1098,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 49.2, stack 19, score 49.2 -> HIGH"
@@ -1080,7 +1207,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1197,7 +1324,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1313,7 +1440,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
