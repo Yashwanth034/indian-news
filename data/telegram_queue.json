@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T09:52:01.218409+00:00",
-  "count": 13,
+  "generated_at": "2026-09-29T10:02:28.919452+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "d3c22fb8156beede57b866bc",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -153,7 +153,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'epidemic' in title weight 70",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "geo: national",
         "dominant event 70, stack 20, score 70 -> URGENT",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -213,6 +213,96 @@
       "enrichment": "article"
     },
     {
+      "event_id": "9f0876a0a0aa8b7be4039483",
+      "story_id": "9f0876a0a0aa8b7be4039483",
+      "headline": "Assam: Nazira Co-District Commissioner Pratibha Meshram Inspects Flood Zones",
+      "title": "Assam: Nazira Co-District Commissioner Pratibha Meshram Inspects Flood Zones",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nazira-co-district-commissioner-pratibha-meshram-inspects-flood-zones",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-29T09:42:02+00:00",
+      "published_at": "2026-09-29T09:42:02+00:00",
+      "effective_at": "2026-09-29T09:42:02.387000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "NAZIRA: Nazira Co-District Commissioner Pratibha Meshram visited the severely flood-affected areas along Amguri Tol Line and Bamunpukhuri tea estate on Monday to assess the post-flood situation and review the condition of affected families.",
+        "During the visit, the co-district commissioner inspected sites identified for the rehabilitation and relocation of families whose houses were completely washed away in the recent floods.",
+        "The suitability of the proposed sites for resettlement was also assessed, with emphasis on ensuring appropriate rehabilitation measures for the affected families.",
+        "Officials reviewed the ground situation and the requirements for relocating the families to safer and suitable locations as part of the post-flood rehabilitation process."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "NAZIRA: Nazira Co-District Commissioner Pratibha Meshram visited the severely flood-affected areas along Amguri Tol Line and Bamunpukhuri tea estate on Monday to assess the post-flood situation and review the condition of affected families.",
+          "During the visit, the co-district commissioner inspected sites identified for the rehabilitation and relocation of families whose houses were completely washed away in the recent floods."
+        ],
+        "body": [
+          "The suitability of the proposed sites for resettlement was also assessed, with emphasis on ensuring appropriate rehabilitation measures for the affected families.",
+          "Officials reviewed the ground situation and the requirements for relocating the families to safer and suitable locations as part of the post-flood rehabilitation process."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "NAZIRA: Nazira Co-District Commissioner Pratibha Meshram visited the severely flood-affected areas along Amguri Tol Line and Bamunpukhuri tea estate on Monday to assess the post-flood situation and review the condition of affected families.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9f0876a0a0aa8b7be4039483:article",
+            "composed": false
+          },
+          {
+            "text": "During the visit, the co-district commissioner inspected sites identified for the rehabilitation and relocation of families whose houses were completely washed away in the recent floods.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9f0876a0a0aa8b7be4039483:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-nazira-co-district-commissioner-pratibha-meshram-inspects-flood-zones"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2b9064896036b7aac592beb2",
       "story_id": "2b9064896036b7aac592beb2",
       "headline": "Assam: Flood-hit Dhodang residents demand permanent road reconstruction in Golaghat",
@@ -255,7 +345,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -380,7 +470,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: state scope (rajasthan)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44.4, score 64 -> URGENT"
@@ -487,7 +577,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -607,7 +697,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -692,6 +782,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "74a33cbb5836bf72ba85f8cd",
+      "story_id": "74a33cbb5836bf72ba85f8cd",
+      "headline": "Election Commission row: Thackeray cousins to lead MNS-Sena (UBT) protest march on Oct. 4",
+      "title": "Election Commission row: Thackeray cousins to lead MNS-Sena (UBT) protest march on Oct. 4",
+      "summary": "Raj Thackeray also invited all parties to join this protest march, while extended support to the Cockroach Janta Party’s (CJP)‘s “Jail Bharo Andolan” protest on October 2, demanding for the resignation of CEC Gyanesh Kumar",
+      "url": "https://www.thehindu.com/news/cities/mumbai/election-commission-row-thackeray-cousins-to-lead-mns-sena-ubt-protestmarch-on-oct-4/article71523038.ece",
+      "source": "The Hindu - Mumbai",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-29T09:55:36+00:00",
+      "published_at": "2026-09-29T09:55:36+00:00",
+      "effective_at": "2026-09-29T09:55:36+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-mumbai"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-mumbai) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 26.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Maharashtra Navnirman Sena (MNS) and the Uddhav Thackeray-led Shiv Sena (UBT) will hold a joint protest march against the Election Commission of India (ECI) on October 4.",
+        "The announcement comes amid the ongoing row over Chief Election Commissioner Gyanesh Kumar reagrding dissent within the poll panel.",
+        "The march will start from Mumbai’s Byculla region to the BMC headquarters in CSMT, MNS chief Raj Thackeray said on Tuesday (September 29, 2026), adding that the next step to the protest will be decided after October 4.",
+        "The distance between Byculla and BMC is around 5kms.",
+        "Days after Mr. Raj Thackeray first called for demonstrations against the ECI, the Thackeray cousins on Tuesday (September 29, 2026) appealed citizen to join the cause and raise voice against the CEC, who has been accused of rigging elections in the name of SIR.",
+        "Mr. Uddhav Thackeray pointed out that the Opposition and pressure groups are demonstrating and highlighting discrepancies in their own way.",
+        "“Congress protested on September 29, Cockroach Janta Party is doing on October 2, and we will be doing on October 4.",
+        "If there is a need we will come together,” he said.",
+        "While speaking to media persons in Dadar region, Mr. Raj Thackeray reiterated that they have been constantly raising concerns over Electronic Voting Machines (EVMs) and the functioning of the Election Commission, yet it was kept unresolved.",
+        "Mr. Raj Thackeray also invited all parties to join this protest march, while extended support to the Cockroach Janta Party’s (CJP)‘s “Jail Bharo Andolan” protest on October 2, demanding for the resignation of CEC Gyanesh Kumar.",
+        "However, the Mumbai Police have denied permission to CJP for a proposed protest on October 2 at Shivaji Park in Dadar against Mr. Kumar."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Maharashtra Navnirman Sena (MNS) and the Uddhav Thackeray-led Shiv Sena (UBT) will hold a joint protest march against the Election Commission of India (ECI) on October 4.",
+          "The announcement comes amid the ongoing row over Chief Election Commissioner Gyanesh Kumar reagrding dissent within the poll panel."
+        ],
+        "body": [
+          "The march will start from Mumbai’s Byculla region to the BMC headquarters in CSMT, MNS chief Raj Thackeray said on Tuesday (September 29, 2026), adding that the next step to the protest will be decided after October 4.",
+          "The distance between Byculla and BMC is around 5kms.",
+          "Days after Mr. Raj Thackeray first called for demonstrations against the ECI, the Thackeray cousins on Tuesday (September 29, 2026) appealed citizen to join the cause and raise voice against the CEC, who has been accused of rigging elections in the name of SIR.",
+          "Mr. Uddhav Thackeray pointed out that the Opposition and pressure groups are demonstrating and highlighting discrepancies in their own way.",
+          "“Congress protested on September 29, Cockroach Janta Party is doing on October 2, and we will be doing on October 4.",
+          "If there is a need we will come together,” he said.",
+          "While speaking to media persons in Dadar region, Mr. Raj Thackeray reiterated that they have been constantly raising concerns over Electronic Voting Machines (EVMs) and the functioning of the Election Commission, yet it was kept unresolved.",
+          "Mr. Raj Thackeray also invited all parties to join this protest march, while extended support to the Cockroach Janta Party’s (CJP)‘s “Jail Bharo Andolan” protest on October 2, demanding for the resignation of CEC Gyanesh Kumar."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "CSMT"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The march will start from Mumbai’s Byculla region to the BMC headquarters in CSMT, MNS chief Raj Thackeray said on Tuesday (September 29, 2026), adding that the next step to the protest will be decided after October 4.",
+            "source": "The Hindu - Mumbai",
+            "item_id": "74a33cbb5836bf72ba85f8cd:article",
+            "composed": false
+          },
+          {
+            "text": "Days after Mr. Raj Thackeray first called for demonstrations against the ECI, the Thackeray cousins on Tuesday (September 29, 2026) appealed citizen to join the cause and raise voice against the CEC, who has been accused of rigging elections in the name of SIR.",
+            "source": "The Hindu - Mumbai",
+            "item_id": "74a33cbb5836bf72ba85f8cd:article",
+            "composed": false
+          },
+          {
+            "text": "“Congress protested on September 29, Cockroach Janta Party is doing on October 2, and we will be doing on October 4.",
+            "source": "The Hindu - Mumbai",
+            "item_id": "74a33cbb5836bf72ba85f8cd:article",
+            "composed": false
+          },
+          {
+            "text": "While speaking to media persons in Dadar region, Mr. Raj Thackeray reiterated that they have been constantly raising concerns over Electronic Voting Machines (EVMs) and the functioning of the Election Commission, yet it was kept unresolved.",
+            "source": "The Hindu - Mumbai",
+            "item_id": "74a33cbb5836bf72ba85f8cd:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Mumbai",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/mumbai/election-commission-row-thackeray-cousins-to-lead-mns-sena-ubt-protestmarch-on-oct-4/article71523038.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "d14df0766be13b91ec04000a",
       "story_id": "d14df0766be13b91ec04000a",
       "headline": "Punjab Municipal Elections: Supreme Court Says All Wards Where Violence Took Place Must Go For Re-Election",
@@ -737,7 +947,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: state scope (punjab)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -849,7 +1059,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (rajasthan)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -955,7 +1165,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1040,7 +1250,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1136,7 +1346,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 28.4, score 44 -> HIGH"
@@ -1252,7 +1462,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1349,7 +1559,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: state scope (telangana)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: state",
         "dominant event 40, stack 21.2, score 40 -> HIGH"
