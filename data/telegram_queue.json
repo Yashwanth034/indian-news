@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T08:32:44.674381+00:00",
-  "count": 15,
+  "generated_at": "2026-09-30T08:42:30.705627+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "1831d7ffaf1bee9f270be575",
@@ -51,7 +51,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -171,7 +171,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -274,7 +274,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (assam)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -387,7 +387,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -509,7 +509,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -625,7 +625,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -676,6 +676,216 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "8f551e72313cee30d7bccb3e",
+      "story_id": "8f551e72313cee30d7bccb3e",
+      "headline": "RBI rate hikes ahead? BofA sees 100 bps repo rate increase through H1 2027",
+      "title": "RBI rate hikes ahead? BofA sees 100 bps repo rate increase through H1 2027",
+      "summary": "Bank of America Securities anticipates that the Reserve Bank of India will implement significant interest rate hikes by mid-2027. They have adjusted their forecast for the initial hike to October instead of December, predicting a cumulative increase of 100 basis points, resulting in a terminal rate of 6.25 percent. This expectation is bolstered by economic growth and inflation concerns, but any slowdown in the economy could impact the RBI's strategy.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hikes-ahead-bofa-sees-100-bps-repo-rate-increase-through-h1-2027/articleshow/134584123.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-28T09:46:45+00:00",
+      "published_at": "2026-09-30T08:29:14+00:00",
+      "effective_at": "2026-09-30T08:29:14+00:00",
+      "independent_source_groups": 3,
+      "source_groups": {
+        "network18": {
+          "kind": "independent",
+          "source_ids": [
+            "cnbc-tv18"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        },
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 3 independent sources",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
+        "event term: 'repo rate' in title weight 42",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: national scope",
+        "recency: 46.9h old, no boost",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Bank of America Securities anticipates that the Reserve Bank of India will implement significant interest rate hikes by mid-2027.",
+          "They have adjusted their forecast for the initial hike to October instead of December, predicting a cumulative increase of 100 basis points, resulting in a terminal rate of 6.25 percent."
+        ],
+        "body": [
+          "This expectation is bolstered by economic growth and inflation concerns, but any slowdown in the economy could impact the RBI's strategy."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "They have adjusted their forecast for the initial hike to October instead of December, predicting a cumulative increase of 100 basis points, resulting in a terminal rate of 6.25 percent.",
+            "source": "Times of India",
+            "item_id": "8f551e72313cee30d7bccb3e",
+            "composed": false
+          },
+          {
+            "text": "Bank of America Securities anticipates that the Reserve Bank of India will implement significant interest rate hikes by mid-2027.",
+            "source": "Times of India",
+            "item_id": "8f551e72313cee30d7bccb3e",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hikes-ahead-bofa-sees-100-bps-repo-rate-increase-through-h1-2027/articleshow/134584123.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "8fa679f2178e7ad4b0134749",
+      "story_id": "8fa679f2178e7ad4b0134749",
+      "headline": "LPG to UPI: Major rule changes to take effect from October 1",
+      "title": "LPG to UPI: Major rule changes to take effect from October 1",
+      "summary": "New Delhi, Sep 30 : As we approach October, several changes affecting banking, taxes, savings and household expenses are set to take effect from Thursday, such as revised SBI ATM limits, LPG Aadhaar authentication requirements and changes to NPS and UPI rules. One of the major changes in the next month is a new UPI MDR framework that will apply to specified merchant transactions above Rs 2,000. However, customers will not be charged MDR and person-to-person UPI transactions will remain free. In addition, the Central Board of Direct Taxes has extended key deadlines for taxpayers covered by tax audit provisions for assessment year 2026-27. The deadline for filing the tax audit report has been extended to October 21 from September 30, while the income tax return filing deadline has been extended to November 21 from October 31. Apart from that, from October 1, domestic LPG consumers will need to complete biometric Aadhaar authentication to book refills at the regulated retail selling price with applicable subsidy. Consumers who do not complete the process can still obtain LPG but at the applicable market price without subsidy, subject to oil marketing company rules. Moreover, India’s largest lender, State Bank of India will reduce free monthly transactions at other banks’ ATMs for salary package account holders from 10 to five starting from the month. The limit will cover both financial and non-financial transactions. For Basic Savings Bank Deposit accounts, four cash withdrawals a month will continue to be free after which a charge of Rs 15 plus GST will apply. From October 1, resident individuals and Hindu Undivided Families buying property from non-resident sellers will not need a separate TAN for applicable TDS compliance and can use PAN. Similarly, the revised NPS Point of Presence fee structure will also take effect, including a one-time onboarding charge of Rs 200 per PRAN. RBI rules on bulk deposit rate disclosures will require regional rural banks to publish applicable rates on their websites by 10 am on business days. Additionally, the Reserve Bank of India’s Monetary Policy Committee will meet from October 5-7 with the policy decision due on October 7. In its last review the central bank kept repo rate unchanged at 5.25 per cent --IANS",
+      "url": "https://assamtribune.com/sci-and-tech/lpg-to-upi-major-rule-changes-to-take-effect-from-october-1-1618907",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "technology-digital",
+        "business-industry",
+        "government-policy",
+        "jobs-employment",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-30T08:32:29+00:00",
+      "published_at": "2026-09-30T08:32:29+00:00",
+      "effective_at": "2026-09-30T08:32:29+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'repo rate' in summary weight 25.2",
+        "event term: 'monetary policy' in summary weight 24",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national significance (local/state event)",
+        "dominant event 25.2, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Sep 30: As we approach October, several changes affecting banking, taxes, savings and household expenses are set to take effect from Thursday, such as revised SBI ATM limits, LPG Aadhaar authentication requirements and changes to NPS and UPI rules.",
+          "One of the major changes in the next month is a new UPI MDR framework that will apply to specified merchant transactions above Rs 2,000."
+        ],
+        "body": [
+          "However, customers will not be charged MDR and person-to-person UPI transactions will remain free.",
+          "In addition, the Central Board of Direct Taxes has extended key deadlines for taxpayers covered by tax audit provisions for assessment year 2026-27.",
+          "The deadline for filing the tax audit report has been extended to October 21 from September 30, while the income tax return filing deadline has been extended to November 21 from October 31.",
+          "Apart from that, from October 1, domestic LPG consumers will need to complete biometric Aadhaar authentication to book refills at the regulated retail selling price with applicable subsidy.",
+          "Consumers who do not complete the process can still obtain LPG but at the applicable market price without subsidy, subject to oil marketing company rules.",
+          "Moreover, India’s largest lender, State Bank of India will reduce free monthly transactions at other banks’ ATMs for salary package account holders from 10 to five starting from the month.",
+          "The limit will cover both financial and non-financial transactions.",
+          "For Basic Savings Bank Deposit accounts, four cash withdrawals a month will continue to be free after which a charge of Rs 15 plus GST will apply.",
+          "From October 1, resident individuals and Hindu Undivided Families buying property from non-resident sellers will not need a separate TAN for applicable TDS compliance and can use PAN.",
+          "Similarly, the revised NPS Point of Presence fee structure will also take effect, including a one-time onboarding charge of Rs 200 per PRAN.",
+          "RBI rules on bulk deposit rate disclosures will require regional rural banks to publish applicable rates on their websites by 10 am on business days.",
+          "Additionally, the Reserve Bank of India’s Monetary Policy Committee will meet from October 5-7 with the policy decision due on October 7.",
+          "In its last review the central bank kept repo rate unchanged at 5.25 per cent --IANS."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The deadline for filing the tax audit report has been extended to October 21 from September 30, while the income tax return filing deadline has been extended to November 21 from October 31.",
+            "source": "The Assam Tribune",
+            "item_id": "8fa679f2178e7ad4b0134749",
+            "composed": false
+          },
+          {
+            "text": "Additionally, the Reserve Bank of India’s Monetary Policy Committee will meet from October 5-7 with the policy decision due on October 7.",
+            "source": "The Assam Tribune",
+            "item_id": "8fa679f2178e7ad4b0134749",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Sep 30: As we approach October, several changes affecting banking, taxes, savings and household expenses are set to take effect from Thursday, such as revised SBI ATM limits, LPG Aadhaar authentication requirements and changes to NPS and UPI rules.",
+            "source": "The Assam Tribune",
+            "item_id": "8fa679f2178e7ad4b0134749",
+            "composed": false
+          },
+          {
+            "text": "Apart from that, from October 1, domestic LPG consumers will need to complete biometric Aadhaar authentication to book refills at the regulated retail selling price with applicable subsidy.",
+            "source": "The Assam Tribune",
+            "item_id": "8fa679f2178e7ad4b0134749",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/sci-and-tech/lpg-to-upi-major-rule-changes-to-take-effect-from-october-1-1618907"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "dba1b8b192522f7f40f788e4",
       "story_id": "dba1b8b192522f7f40f788e4",
       "headline": "India, New Zealand FTA to boost agri, processed food exports: Trade body",
@@ -721,7 +931,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -729,7 +939,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The free trade agreement between India and New Zealand, which will come into force from October 20, will give a major boost to domestic farm products and processed food sectors, trade promotion body TPCI said on Wednesday.",
@@ -773,7 +983,7 @@
         "url": "https://www.business-standard.com/economy/news/india-new-zealand-fta-to-boost-agri-processed-food-exports-trade-body-126093000518_1.html"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -822,7 +1032,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -939,7 +1149,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1046,7 +1256,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1164,7 +1374,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: state",
         "dominant event 44, stack 11, score 44 -> HIGH"
@@ -1239,6 +1449,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "6bd26d08e68374bde92657bd",
+      "story_id": "6bd26d08e68374bde92657bd",
+      "headline": "Supreme Court Questions Inflated Medicine Prices, Seeks Uniform Pricing Cap",
+      "title": "Supreme Court Questions Inflated Medicine Prices, Seeks Uniform Pricing Cap",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-questions-inflated-medicine-prices-seeks-uniform-pricing-cap",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-09-30T03:28:49+00:00",
+      "published_at": "2026-09-30T03:28:49+00:00",
+      "effective_at": "2026-09-30T03:28:49.044000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (5.2h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 21.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi: The Supreme Court on Tuesday questioned the huge disparity between the maximum retail price (MRP) of medicines and the price at which they are supplied to retailers, asking the Centre why a uniform margin cap could not be prescribed for pharmaceutical products.",
+        "A bench of Justices Vikram Nath and Sandeep Mehta raised particular concern over cancer medicines carrying an MRP of Rs 27,000 while their price to retailers (PTR) was around Rs 3,000.",
+        "The apex court also flagged the practice of corporate hospitals requiring patients to purchase medicines from their in-house pharmacies, observing that patients who procure medicines from outside may not be assured treatment.",
+        "\"Corporate hospitals say you have to buy from our chemist.",
+        "If you bring it from outside, we are not assuring treatment.",
+        "If that patient is taking treatment under a government scheme, who reimburses?",
+        "The taxpayer pays.",
+        "Why not uniform criteria?\" it asked.",
+        "The Justice Vikram Nath-led Bench further questioned the distinction between essential and non-essential medicines under the Drug Price Control Order (DPCO), asking why a uniform margin per cent could not be prescribed across pharmaceutical products covered by the Essential Commodities Act.",
+        "It also raised concerns over the impact of a large MRP-PTR gap on consumer trust, observing that a patient could even suspect a medicine to be spurious if a drug carrying an MRP of Rs 27,000 was offered by a chemist for around Rs 3,000.",
+        "\"Suppose there is a medicine, the patient goes to the chemist; the chemist says MRP may be Rs 27,000, I will give it for Rs 3,000.",
+        "Will the patient think it is genuine?"
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi: The Supreme Court on Tuesday questioned the huge disparity between the maximum retail price (MRP) of medicines and the price at which they are supplied to retailers, asking the Centre why a uniform margin cap could not be prescribed for pharmaceutical products.",
+          "A bench of Justices Vikram Nath and Sandeep Mehta raised particular concern over cancer medicines carrying an MRP of Rs 27,000 while their price to retailers (PTR) was around Rs 3,000."
+        ],
+        "body": [
+          "The apex court also flagged the practice of corporate hospitals requiring patients to purchase medicines from their in-house pharmacies, observing that patients who procure medicines from outside may not be assured treatment.",
+          "\"Corporate hospitals say you have to buy from our chemist.",
+          "If you bring it from outside, we are not assuring treatment.",
+          "If that patient is taking treatment under a government scheme, who reimburses?",
+          "The taxpayer pays.",
+          "Why not uniform criteria?\" it asked.",
+          "The Justice Vikram Nath-led Bench further questioned the distinction between essential and non-essential medicines under the Drug Price Control Order (DPCO), asking why a uniform margin per cent could not be prescribed across pharmaceutical products covered by the Essential Commodities Act.",
+          "It also raised concerns over the impact of a large MRP-PTR gap on consumer trust, observing that a patient could even suspect a medicine to be spurious if a drug carrying an MRP of Rs 27,000 was offered by a chemist for around Rs 3,000."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rs"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A bench of Justices Vikram Nath and Sandeep Mehta raised particular concern over cancer medicines carrying an MRP of Rs 27,000 while their price to retailers (PTR) was around Rs 3,000.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "6bd26d08e68374bde92657bd:article",
+            "composed": false
+          },
+          {
+            "text": "It also raised concerns over the impact of a large MRP-PTR gap on consumer trust, observing that a patient could even suspect a medicine to be spurious if a drug carrying an MRP of Rs 27,000 was offered by a chemist for around Rs 3,000.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "6bd26d08e68374bde92657bd:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: The Supreme Court on Tuesday questioned the huge disparity between the maximum retail price (MRP) of medicines and the price at which they are supplied to retailers, asking the Centre why a uniform margin cap could not be prescribed for pharmaceutical products.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "6bd26d08e68374bde92657bd:article",
+            "composed": false
+          },
+          {
+            "text": "The apex court also flagged the practice of corporate hospitals requiring patients to purchase medicines from their in-house pharmacies, observing that patients who procure medicines from outside may not be assured treatment.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "6bd26d08e68374bde92657bd:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-questions-inflated-medicine-prices-seeks-uniform-pricing-cap"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "62939da8177e0664733ef3da",
       "story_id": "62939da8177e0664733ef3da",
       "headline": "Maharashtra tells banks to halt farm recovery visits amid drought",
@@ -1286,7 +1616,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (maharashtra)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 41.6, score 41.6 -> HIGH"
@@ -1396,7 +1726,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'merger' in title weight 40",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
@@ -1506,7 +1836,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'merger' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
@@ -1627,7 +1957,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 6, stack 38.4, score 38.4 -> HIGH"
