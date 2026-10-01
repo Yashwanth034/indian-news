@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T06:02:23.297906+00:00",
-  "count": 5,
+  "generated_at": "2026-10-01T06:12:26.059217+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "59558de7913acf448ee26bac",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -86,6 +86,103 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "76f05bbe8d9c4e66b9a8964f",
+      "story_id": "76f05bbe8d9c4e66b9a8964f",
+      "headline": "Agricultural information centre launched under Palasbari LAC in Kamrup district",
+      "title": "Agricultural information centre launched under Palasbari LAC in Kamrup district",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/agricultural-information-centre-launched-under-palasbari-lac-in-kamrup-district",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 70.0,
+      "priority_score": 62.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-01T05:41:27+00:00",
+      "published_at": "2026-10-01T05:41:27+00:00",
+      "effective_at": "2026-10-01T05:41:27.709000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'lac' in title weight 62",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 62, stack 27.8, score 62 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "AZARA: An Agricultural Technology Information Centre was inaugurated at the premises of the Swargiya Basudev Library at Bakarapar under the Palasbari LAC in Kamrup district on Tuesday.",
+        "The centre has been established through the initiative of six final-year students of the College of Horticulture and Agricultural Sciences, Nalbari, under Assam Agricultural University.",
+        "It was formally inaugurated by Rukun Rabha, President of the Sayan-Rani Development Block.",
+        "Addressing the gathering as a distinguished guest, Dr Samiran Pathak, scientist at the Horticultural Research Centre, Kahikuchi, said that the information centre should serve as a bridge between farmers and agricultural scientists, enabling farmers to seek scientific assistance in resolving complex problems related to agriculture.",
+        "The centre has been established through the efforts of six students of Assam Agricultural University - Nayanjyoti Kalita, Tadab Tana, Jinjit Pegu, Achik Iqbal, Abdul Aziz Majumdar, and Prabaljyoti Barman."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "AZARA: An Agricultural Technology Information Centre was inaugurated at the premises of the Swargiya Basudev Library at Bakarapar under the Palasbari LAC in Kamrup district on Tuesday.",
+          "The centre has been established through the initiative of six final-year students of the College of Horticulture and Agricultural Sciences, Nalbari, under Assam Agricultural University."
+        ],
+        "body": [
+          "It was formally inaugurated by Rukun Rabha, President of the Sayan-Rani Development Block.",
+          "Addressing the gathering as a distinguished guest, Dr Samiran Pathak, scientist at the Horticultural Research Centre, Kahikuchi, said that the information centre should serve as a bridge between farmers and agricultural scientists, enabling farmers to seek scientific assistance in resolving complex problems related to agriculture.",
+          "The centre has been established through the efforts of six students of Assam Agricultural University - Nayanjyoti Kalita, Tadab Tana, Jinjit Pegu, Achik Iqbal, Abdul Aziz Majumdar, and Prabaljyoti Barman."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bakarapar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "AZARA: An Agricultural Technology Information Centre was inaugurated at the premises of the Swargiya Basudev Library at Bakarapar under the Palasbari LAC in Kamrup district on Tuesday.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "76f05bbe8d9c4e66b9a8964f:article",
+            "composed": false
+          },
+          {
+            "text": "The centre has been established through the initiative of six final-year students of the College of Horticulture and Agricultural Sciences, Nalbari, under Assam Agricultural University.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "76f05bbe8d9c4e66b9a8964f:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/agricultural-information-centre-launched-under-palasbari-lac-in-kamrup-district"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "405184ef37c07a22f652320a",
@@ -130,7 +227,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -247,7 +344,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 50.4, stack 32.8, score 50.4 -> HIGH"
@@ -370,7 +467,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -493,7 +590,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
