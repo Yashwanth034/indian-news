@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T13:32:48.213327+00:00",
-  "count": 5,
+  "generated_at": "2026-10-02T13:41:51.797950+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "75e2e14a9e48e047ebbaa513",
@@ -47,7 +47,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -161,7 +161,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (delhi)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -239,6 +239,101 @@
       "enrichment": "article"
     },
     {
+      "event_id": "49c119fd5633eae019de3042",
+      "story_id": "49c119fd5633eae019de3042",
+      "headline": "India clinch first women's hockey gold since 1982 at Asiad; seal LA28 Olympics spot",
+      "title": "India clinch first women's hockey gold since 1982 at Asiad; seal LA28 Olympics spot",
+      "summary": "It was the women's hockey team's first medal at the continental event since winning their only gold in 1982. India ended a 44-year wait with the win over defending champions China and also secured direct qualification for the 2028 Los Angeles Olympics.",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/lalremsiamis-wonder-strike-hands-indian-womens-hockey-1-0-win-over-china-gold-after-44-years-at-asian-games-olympics-quota-sealed/articleshow/134639505.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 67.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-02T12:30:31+00:00",
+      "published_at": "2026-10-02T12:30:31+00:00",
+      "effective_at": "2026-10-02T12:30:31+00:00",
+      "independent_source_groups": 3,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 3 independent sources",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
+        "event term: 'olympics' in title weight 40",
+        "event term: 'olympics' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (1.2h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "It was the women's hockey team's first medal at the continental event since winning their only gold in 1982.",
+          "India ended a 44-year wait with the win over defending champions China and also secured direct qualification for the 2028 Los Angeles Olympics."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India ended a 44-year wait with the win over defending champions China and also secured direct qualification for the 2028 Los Angeles Olympics.",
+            "source": "Times of India",
+            "item_id": "49c119fd5633eae019de3042",
+            "composed": false
+          },
+          {
+            "text": "It was the women's hockey team's first medal at the continental event since winning their only gold in 1982.",
+            "source": "Times of India",
+            "item_id": "49c119fd5633eae019de3042",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/lalremsiamis-wonder-strike-hands-indian-womens-hockey-1-0-win-over-china-gold-after-44-years-at-asian-games-olympics-quota-sealed/articleshow/134639505.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "c5a11ca22e090b0675e59ee8",
       "story_id": "c5a11ca22e090b0675e59ee8",
       "headline": "RBI MPC may hike repo rate next week: Experts share the equity-debt strategy investors should consider",
@@ -283,7 +378,7 @@
         "event term: 'repo rate' in title weight 42",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -362,7 +457,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -482,7 +577,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'steps down' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 29.2, score 40 -> HIGH"
