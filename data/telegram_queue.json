@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T14:51:57.457400+00:00",
-  "count": 6,
+  "generated_at": "2026-10-03T15:02:23.764796+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "0ac387818cc280d58efda88d",
@@ -50,7 +50,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (karnataka)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -175,7 +175,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -285,7 +285,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -366,7 +366,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (punjab)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 42, score 42 -> HIGH"
@@ -475,7 +475,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 30.4, score 42 -> HIGH"
@@ -593,7 +593,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 24, score 40 -> HIGH"
@@ -665,6 +665,114 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "ec2f25b80276f766a7359103",
+      "story_id": "ec2f25b80276f766a7359103",
+      "headline": "Pakistan's 'civilian governments' serve at Army's mercy: India at UN",
+      "title": "Pakistan's 'civilian governments' serve at Army's mercy: India at UN",
+      "summary": "India has slammed Pakistan at the UN, strongly rejecting its remarks about Jammu and Kashmir, telling the world organisation that the \"so-called\" civilian governments in Islamabad \"serve at the mercy\" of their Army and rarely complete their terms. India exercised its Right of Reply in response to remarks by Pakistan at the UN General Assembly Third Committee meeting Friday, where the Pakistani delegate raised the issue of Jammu and Kashmir. India \"categorically\" rejected those remarks, saying the Union Territories of Jammu & Kashmir and Ladakh were, are and will always remain \"integral and inalienable\" parts of India. \"We all know that the so-called civilian governments in Pakistan serve at the mercy of their Army and rarely complete their terms,\" First Secretary at the Permanent Mission of India to the UN Bhavika Mangalanandan said as she delivered India's Right of Reply. Referring to Pakistani leader Imran Khan, she said a \"former Prime Minister continues to remain in jail, even",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/pakistan-s-civilian-governments-serve-at-army-s-mercy-india-at-un-126100300817_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 38.8,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-03T14:45:46+00:00",
+      "published_at": "2026-10-03T14:45:46+00:00",
+      "effective_at": "2026-10-03T14:45:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.3h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 0, stack 38.8, score 38.8 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India has slammed Pakistan at the UN, strongly rejecting its remarks about Jammu and Kashmir, telling the world organisation that the \"so-called\" civilian governments in Islamabad \"serve at the mercy\" of their Army and rarely complete their terms.",
+          "India exercised its Right of Reply in response to remarks by Pakistan at the UN General Assembly Third Committee meeting Friday, where the Pakistani delegate raised the issue of Jammu and Kashmir."
+        ],
+        "body": [
+          "India \"categorically\" rejected those remarks, saying the Union Territories of Jammu & Kashmir and Ladakh were, are and will always remain \"integral and inalienable\" parts of India.",
+          "\"We all know that the so-called civilian governments in Pakistan serve at the mercy of their Army and rarely complete their terms,\" First Secretary at the Permanent Mission of India to the UN Bhavika Mangalanandan said as she delivered India's Right of Reply."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Islamabad"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Referring to Pakistani leader Imran Khan, she said a \"former Prime Minister continues to remain in jail, even."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "India has slammed Pakistan at the UN, strongly rejecting its remarks about Jammu and Kashmir, telling the world organisation that the \"so-called\" civilian governments in Islamabad \"serve at the mercy\" of their Army and rarely complete their terms.",
+            "source": "Business Standard",
+            "item_id": "ec2f25b80276f766a7359103",
+            "composed": false
+          },
+          {
+            "text": "India exercised its Right of Reply in response to remarks by Pakistan at the UN General Assembly Third Committee meeting Friday, where the Pakistani delegate raised the issue of Jammu and Kashmir.",
+            "source": "Business Standard",
+            "item_id": "ec2f25b80276f766a7359103",
+            "composed": false
+          },
+          {
+            "text": "\"We all know that the so-called civilian governments in Pakistan serve at the mercy of their Army and rarely complete their terms,\" First Secretary at the Permanent Mission of India to the UN Bhavika Mangalanandan said as she delivered India's Right of Reply.",
+            "source": "Business Standard",
+            "item_id": "ec2f25b80276f766a7359103",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/external-affairs-defence-security/news/pakistan-s-civilian-governments-serve-at-army-s-mercy-india-at-un-126100300817_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     }
   ]
 }
