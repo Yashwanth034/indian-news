@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T09:51:54.170220+00:00",
-  "count": 9,
+  "generated_at": "2026-10-03T10:02:19.322174+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "e50b0ea4def0d75167098c10",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (bihar)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -118,6 +118,103 @@
       "enrichment": "article"
     },
     {
+      "event_id": "a1ed27a59308119c5e226147",
+      "story_id": "a1ed27a59308119c5e226147",
+      "headline": "Sanctions, tariffs sometimes weaponised as policy tools: PK Mishra",
+      "title": "Sanctions, tariffs sometimes weaponised as policy tools: PK Mishra",
+      "summary": "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised. The top government functionary also said that wars disrupt energy and food markets while shipping routes and geographical choke points become sources of economic vulnerability. Addressing the Kautilya Economic Conclave on the subject 'A World Priced for Risk', he said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely. India's response, therefore, has combined several layers of protection. \"For energy security, the disruption around the Strait of Hormuz has been a particularly clear reminder of how geography can translate into economic risk,\" he said. Without mentioning any country, the top official said export restrictions, sanctions and tariffs become instruments of economic policy, sometimes they are even ...",
+      "url": "https://www.business-standard.com/economy/news/sanctions-tariffs-sometimes-weaponised-as-policy-tools-pk-mishra-126100300326_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "international-affairs",
+        "national-politics",
+        "government-policy",
+        "transport-infrastructure",
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-03T07:50:03+00:00",
+      "published_at": "2026-10-03T07:50:03+00:00",
+      "effective_at": "2026-10-03T07:50:03+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'sanctions' in title weight 40",
+        "event term: 'tariffs' in title weight 40",
+        "event term: 'sanctions' in summary weight 24",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (2.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised.",
+          "The top government functionary also said that wars disrupt energy and food markets while shipping routes and geographical choke points become sources of economic vulnerability."
+        ],
+        "body": [
+          "Addressing the Kautilya Economic Conclave on the subject 'A World Priced for Risk', he said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely.",
+          "India's response, therefore, has combined several layers of protection.",
+          "\"For energy security, the disruption around the Strait of Hormuz has been a particularly clear reminder of how geography can translate into economic risk,\" he said.",
+          "Without mentioning any country, the top official said export restrictions, sanctions and tariffs become instruments of economic policy, sometimes they are even...",
+          "P K Mishra said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised.",
+            "source": "Business Standard",
+            "item_id": "a1ed27a59308119c5e226147",
+            "composed": false
+          },
+          {
+            "text": "P K Mishra said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "bbbb36819ad224c64055ae70",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [
+          "The Hindu BusinessLine"
+        ],
+        "url": "https://www.business-standard.com/economy/news/sanctions-tariffs-sometimes-weaponised-as-policy-tools-pk-mishra-126100300326_1.html"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "6498ae01aeb544394d4b7f71",
       "story_id": "6498ae01aeb544394d4b7f71",
       "headline": "After Sept, bond yields to peak in Oct too? Experts decode future of Indian bond market; RBI's next move holds key",
@@ -160,7 +257,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -243,7 +340,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -356,7 +453,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (karnataka)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -389,100 +486,6 @@
         "source": "The Hans India",
         "corroborating": [],
         "url": "https://www.thehansindia.com/news/cities/bengaluru/aicc-chief-kharge-urges-pm-modi-to-depute-separate-central-team-to-assess-drought-in-kalyana-karnataka-1128353"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "a1ed27a59308119c5e226147",
-      "story_id": "a1ed27a59308119c5e226147",
-      "headline": "Sanctions, tariffs sometimes weaponised as policy tools: PK Mishra",
-      "title": "Sanctions, tariffs sometimes weaponised as policy tools: PK Mishra",
-      "summary": "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised. The top government functionary also said that wars disrupt energy and food markets while shipping routes and geographical choke points become sources of economic vulnerability. Addressing the Kautilya Economic Conclave on the subject 'A World Priced for Risk', he said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely. India's response, therefore, has combined several layers of protection. \"For energy security, the disruption around the Strait of Hormuz has been a particularly clear reminder of how geography can translate into economic risk,\" he said. Without mentioning any country, the top official said export restrictions, sanctions and tariffs become instruments of economic policy, sometimes they are even ...",
-      "url": "https://www.business-standard.com/economy/news/sanctions-tariffs-sometimes-weaponised-as-policy-tools-pk-mishra-126100300326_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "international-affairs",
-        "national-politics",
-        "government-policy",
-        "transport-infrastructure",
-        "energy-environment"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-03T07:50:03+00:00",
-      "published_at": "2026-10-03T07:50:03+00:00",
-      "effective_at": "2026-10-03T07:50:03+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in title weight 40",
-        "event term: 'tariffs' in title weight 40",
-        "event term: 'sanctions' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised.",
-          "The top government functionary also said that wars disrupt energy and food markets while shipping routes and geographical choke points become sources of economic vulnerability."
-        ],
-        "body": [
-          "Addressing the Kautilya Economic Conclave on the subject 'A World Priced for Risk', he said India is a major energy importer, and any prolonged disruption to an important maritime route can affect the economy adversely.",
-          "India's response, therefore, has combined several layers of protection.",
-          "\"For energy security, the disruption around the Strait of Hormuz has been a particularly clear reminder of how geography can translate into economic risk,\" he said.",
-          "Without mentioning any country, the top official said export restrictions, sanctions and tariffs become instruments of economic policy, sometimes they are even..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Principal Secretary to the prime minister, P K Mishra, on Saturday said export restrictions, sanctions and tariffs become instruments of economic policy and they are sometimes even weaponised.",
-            "source": "Business Standard",
-            "item_id": "a1ed27a59308119c5e226147",
-            "composed": false
-          },
-          {
-            "text": "India's response, therefore, has combined several layers of protection.",
-            "source": "Business Standard",
-            "item_id": "a1ed27a59308119c5e226147",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/economy/news/sanctions-tariffs-sometimes-weaponised-as-policy-tools-pk-mishra-126100300326_1.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -535,7 +538,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -641,114 +644,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "987d61c530efb6ee9927ad4c",
-      "story_id": "987d61c530efb6ee9927ad4c",
-      "headline": "Sebi to soon issue framework on CAS; receives over 3,500 comments",
-      "title": "Sebi to soon issue framework on CAS; receives over 3,500 comments",
-      "summary": "Market regulator Sebi will soon issue a framework on proposed changes to the Closing Auction Session (CAS) mechanism after receiving more than 3,500 comments on its consultation paper, its Chairman Tuhin Kanta Pandey said on Saturday. The Securities and Exchange Board of India (Sebi) had sought public comments on its proposal to review certain aspects of the CAS, market timings and the settlement methodology for derivative contracts. The deadline for submitting comments is October 3. Asked when the final framework or circular on CAS can be expected, Pandey said the regulator would quickly examine the responses and move ahead with the process. \"Today is the last date, and we will actually quickly look at all these comments and go ahead, because I think our proposals are quite clear,\" Pandey said at an event organised by CPAI (Commodity & Capital Market Participants Association of India). The regulator would not require much time to compile and analyse the responses as the proposals",
-      "url": "https://www.business-standard.com/markets/news/sebi-to-soon-issue-framework-on-cas-mechanism-after-receiving-3-5k-comments-126100300348_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 43.6,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-03T08:31:29+00:00",
-      "published_at": "2026-10-03T08:31:29+00:00",
-      "effective_at": "2026-10-03T08:31:29+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        },
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'final' in summary weight 6",
-        "event term: 'market regulator' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 24, stack 43.6, score 43.6 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Market regulator Sebi will soon issue a framework on proposed changes to the Closing Auction Session (CAS) mechanism after receiving more than 3,500 comments on its consultation paper, its Chairman Tuhin Kanta Pandey said on Saturday.",
-          "The Securities and Exchange Board of India (Sebi) had sought public comments on its proposal to review certain aspects of the CAS, market timings and the settlement methodology for derivative contracts."
-        ],
-        "body": [
-          "The deadline for submitting comments is October 3.",
-          "Asked when the final framework or circular on CAS can be expected, Pandey said the regulator would quickly examine the responses and move ahead with the process.",
-          "\"Today is the last date, and we will actually quickly look at all these comments and go ahead, because I think our proposals are quite clear,\" Pandey said at an event organised by CPAI (Commodity & Capital Market Participants Association of India).",
-          "The regulator would not require much time to compile and analyse the responses as the proposals."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Market regulator Sebi will soon issue a framework on proposed changes to the Closing Auction Session (CAS) mechanism after receiving more than 3,500 comments on its consultation paper, its Chairman Tuhin Kanta Pandey said on Saturday.",
-            "source": "Business Standard",
-            "item_id": "987d61c530efb6ee9927ad4c",
-            "composed": false
-          },
-          {
-            "text": "The deadline for submitting comments is October 3.",
-            "source": "Business Standard",
-            "item_id": "987d61c530efb6ee9927ad4c",
-            "composed": false
-          },
-          {
-            "text": "\"Today is the last date, and we will actually quickly look at all these comments and go ahead, because I think our proposals are quite clear,\" Pandey said at an event organised by CPAI (Commodity & Capital Market Participants Association of India).",
-            "source": "Business Standard",
-            "item_id": "987d61c530efb6ee9927ad4c",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/markets/news/sebi-to-soon-issue-framework-on-cas-mechanism-after-receiving-3-5k-comments-126100300348_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "0f08e9f0158d79221f44e53d",
       "story_id": "0f08e9f0158d79221f44e53d",
       "headline": "Pargat Singh vows to strengthen Cong in Punjab as state chief, serve people",
@@ -792,7 +687,7 @@
         "event term: 'olympics' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (punjab)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 39.6, score 39.6 -> HIGH"
@@ -896,7 +791,7 @@
         "event term: 'match' in summary weight 4.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 38.8, score 38.8 -> HIGH"
