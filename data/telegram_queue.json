@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T05:21:57.585762+00:00",
+  "generated_at": "2026-10-05T05:31:57.707235+00:00",
   "count": 7,
   "stories": [
     {
@@ -52,7 +52,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 84, stack 45, score 84 -> IMMEDIATE"
@@ -148,7 +148,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -265,7 +265,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (bihar)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -364,7 +364,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -459,7 +459,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -508,23 +508,23 @@
     {
       "event_id": "f5cef7debe2289a29a892b89",
       "story_id": "f5cef7debe2289a29a892b89",
-      "headline": "RBI may end rate-cut cycle with first hike since February 2023",
-      "title": "RBI may end rate-cut cycle with first hike since February 2023",
-      "summary": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon. This marks the end of the rate-cutting phase that began in February 2025. Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening. Experts anticipate resilient growth will provide the RBI room to act despite external pressures. The focus will remain on managing liquidity and aligning rates with policy measures.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms",
-      "source": "Times of India",
+      "headline": "RBI begins policy meeting as inflation pressures strengthen case for rate hike",
+      "title": "RBI begins policy meeting as inflation pressures strengthen case for rate hike",
+      "summary": "The RBI’s three-day policy meeting began on Monday, with a decision on the current 5.25 per cent repo rate due on Wednesday",
+      "url": "https://www.nationalheraldindia.com/business/rbi-begins-policy-meeting-as-inflation-pressures-strengthen-case-for-rate-hike",
+      "source": "National Herald",
       "primary_source": false,
       "tier": 2,
       "category": "economy-finance",
       "secondary_categories": [],
       "confidence": "high",
-      "score": 100.0,
+      "score": 75.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-10-04T10:09:11+00:00",
-      "published_at": "2026-10-04T23:49:18+00:00",
-      "effective_at": "2026-10-04T23:49:18+00:00",
+      "published_at": "2026-10-05T04:55:59+00:00",
+      "effective_at": "2026-10-05T04:55:59.376000+00:00",
       "independent_source_groups": 2,
       "source_groups": {
         "pti": {
@@ -534,10 +534,10 @@
           ],
           "count": 1
         },
-        "indiatimes": {
+        "national-herald": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "national-herald"
           ],
           "count": 1
         }
@@ -550,59 +550,90 @@
         "major: category importance 1.2 >= 1.2",
         "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "source: tier 2 (national-herald) +2",
         "source: event has 2 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'inflation' in title weight 36",
         "event term: 'repo rate' in summary weight 25.2",
-        "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (19.2h ago) +4",
+        "recency: fresh (19.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 25.2, stack 45, score 45 -> HIGH"
+        "dominant event 36, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "The Reserve Bank of India’s (RBI) Monetary Policy Committee began its three-day meeting on Monday amid mounting expectations of an interest rate increase, as rising inflation, higher oil prices and a weakening rupee complicate the policy outlook.",
+        "The committee will announce its decision on Wednesday, 7 October.",
+        "The benchmark repo rate currently stands at 5.25 per cent, with markets watching for what could be the first increase since February 2023.",
+        "Bank of America has brought forward its forecast for a 25-basis-point hike from December to October.",
+        "It said higher energy costs, food inflation and price pressures spreading across the economy could prompt the RBI to begin withdrawing monetary support at this meeting.",
+        "SBI Research also sees the risks increasingly favouring a quarter-percentage-point increase.",
+        "Its report cited broadening inflation, deteriorating global conditions, changes in liquidity and renewed repricing of risk in financial markets as reasons for acting early.",
+        "The report argued that a pre-emptive response would be prudent given geopolitical tensions and the threat of further increases in crude prices.",
+        "Retail inflation rose to 4.82 per cent in August from 4.45 per cent in July.",
+        "Crude oil trading above $100 a barrel, rupee weakness and higher global bond yields have added to the pressures facing policymakers.",
+        "The outlook for food prices presents a further concern.",
+        "Strong El Niño conditions and the prospect of below-normal rainfall in October could affect rabi crop output, potentially adding to inflation."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
-          "This marks the end of the rate-cutting phase that began in February 2025."
+          "The Reserve Bank of India’s (RBI) Monetary Policy Committee began its three-day meeting on Monday amid mounting expectations of an interest rate increase, as rising inflation, higher oil prices and a weakening rupee complicate the policy outlook.",
+          "The committee will announce its decision on Wednesday, 7 October."
         ],
         "body": [
-          "Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening.",
-          "Experts anticipate resilient growth will provide the RBI room to act despite external pressures.",
-          "The focus will remain on managing liquidity and aligning rates with policy measures."
+          "The benchmark repo rate currently stands at 5.25 per cent, with markets watching for what could be the first increase since February 2023.",
+          "Bank of America has brought forward its forecast for a 25-basis-point hike from December to October.",
+          "It said higher energy costs, food inflation and price pressures spreading across the economy could prompt the RBI to begin withdrawing monetary support at this meeting.",
+          "SBI Research also sees the risks increasingly favouring a quarter-percentage-point increase.",
+          "Its report cited broadening inflation, deteriorating global conditions, changes in liquidity and renewed repricing of risk in financial markets as reasons for acting early.",
+          "The report argued that a pre-emptive response would be prudent given geopolitical tensions and the threat of further increases in crude prices.",
+          "Retail inflation rose to 4.82 per cent in August from 4.45 per cent in July.",
+          "Crude oil trading above $100 a barrel, rupee weakness and higher global bond yields have added to the pressures facing policymakers."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "February"
+            "text": "August"
           }
         ],
         "sentences": [
           {
-            "text": "This marks the end of the rate-cutting phase that began in February 2025.",
-            "source": "Times of India",
-            "item_id": "f5cef7debe2289a29a892b89",
+            "text": "Retail inflation rose to 4.82 per cent in August from 4.45 per cent in July.",
+            "source": "National Herald",
+            "item_id": "f5cef7debe2289a29a892b89:article",
             "composed": false
           },
           {
-            "text": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
-            "source": "Times of India",
-            "item_id": "f5cef7debe2289a29a892b89",
+            "text": "Bank of America has brought forward its forecast for a 25-basis-point hike from December to October.",
+            "source": "National Herald",
+            "item_id": "f5cef7debe2289a29a892b89:article",
+            "composed": false
+          },
+          {
+            "text": "The benchmark repo rate currently stands at 5.25 per cent, with markets watching for what could be the first increase since February 2023.",
+            "source": "National Herald",
+            "item_id": "f5cef7debe2289a29a892b89:article",
+            "composed": false
+          },
+          {
+            "text": "The committee will announce its decision on Wednesday, 7 October.",
+            "source": "National Herald",
+            "item_id": "f5cef7debe2289a29a892b89:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
+        "source": "National Herald",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms"
+        "url": "https://www.nationalheraldindia.com/business/rbi-begins-policy-meeting-as-inflation-pressures-strengthen-case-for-rate-hike"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "1b06c2f57aef5bf0ded440eb",
@@ -651,7 +682,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (telangana)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
