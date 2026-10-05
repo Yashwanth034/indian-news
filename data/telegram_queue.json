@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T01:32:08.672655+00:00",
-  "count": 6,
+  "generated_at": "2026-10-05T01:41:52.243363+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "da5c9689f011aa6d21ffbe0f",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (tripura)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -105,6 +105,97 @@
       "enrichment": "article"
     },
     {
+      "event_id": "fbaef55e643ed74961961a98",
+      "story_id": "fbaef55e643ed74961961a98",
+      "headline": "Brazil election: Lula, Flavio Bolsonaro head to runoff after tight first-round vote",
+      "title": "Brazil election: Lula, Flavio Bolsonaro head to runoff after tight first-round vote",
+      "summary": "Brazilian President Luiz Inácio Lula da Silva and Senator Flavio Bolsonaro will face each other in a runoff election. Neither candidate obtained the majority required during the first round of voting. The runoff election is scheduled for October 25, 2026, with major issues such as corruption and cost of living impacting the campaign. Both candidates are expected to appeal to voters from eliminated candidates.",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-election-lula-flavio-bolsonaro-head-to-runoff-after-tight-first-round-vote/articleshow/134683419.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-05T01:11:38+00:00",
+      "published_at": "2026-10-05T01:11:38+00:00",
+      "effective_at": "2026-10-05T01:11:38+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Brazilian President Luiz Inácio Lula da Silva and Senator Flavio Bolsonaro will face each other in a runoff election.",
+          "Neither candidate obtained the majority required during the first round of voting."
+        ],
+        "body": [
+          "The runoff election is scheduled for October 25, 2026, with major issues such as corruption and cost of living impacting the campaign."
+        ],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Both candidates are expected to appeal to voters from eliminated candidates."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The runoff election is scheduled for October 25, 2026, with major issues such as corruption and cost of living impacting the campaign.",
+            "source": "Times of India",
+            "item_id": "fbaef55e643ed74961961a98",
+            "composed": false
+          },
+          {
+            "text": "Brazilian President Luiz Inácio Lula da Silva and Senator Flavio Bolsonaro will face each other in a runoff election.",
+            "source": "Times of India",
+            "item_id": "fbaef55e643ed74961961a98",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-election-lula-flavio-bolsonaro-head-to-runoff-after-tight-first-round-vote/articleshow/134683419.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "ac48d1c035b7f5f75bfa788b",
       "story_id": "ac48d1c035b7f5f75bfa788b",
       "headline": "Building resilience not a one-time exercise, must keep at it: FM",
@@ -156,7 +247,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -283,7 +374,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -433,7 +524,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (6.4h ago) +4",
+        "recency: fresh (6.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -519,7 +610,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "geo: state",
         "dominant event 44, stack 15, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -638,7 +729,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 43.2, score 43.2 -> HIGH"
