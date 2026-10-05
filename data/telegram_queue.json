@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T04:02:36.832396+00:00",
-  "count": 6,
+  "generated_at": "2026-10-05T04:12:12.555531+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "d34492322537a46508fda234",
@@ -52,7 +52,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 84, stack 45, score 84 -> IMMEDIATE"
@@ -148,7 +148,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -258,7 +258,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (tripura)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -362,7 +362,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -403,6 +403,102 @@
         "source": "Times of India",
         "corroborating": [],
         "url": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-election-lula-flavio-bolsonaro-head-to-runoff-after-tight-first-round-vote/articleshow/134683419.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "1b06c2f57aef5bf0ded440eb",
+      "story_id": "1b06c2f57aef5bf0ded440eb",
+      "headline": "CEC executing 'G2's illegal orders' makes him liability for country: Cong",
+      "title": "CEC executing 'G2's illegal orders' makes him liability for country: Cong",
+      "summary": "The Congress on Monday said Chief Election Commissioner Gyanesh Kumar must quit right away and claimed that his ability to \"execute G2's illegal orders\" has now made him a \"liability for the country\". Congress general secretary in-charge communications Jairam Ramesh's attack on the CEC came a day after Supreme Court judge Justice Ujjal Bhuyan remarked that any process that \"disenfranchises\" millions of Indian citizens is \"intrinsically arbitrary\" and a \"negation\" of the constitutional order. \"No amount of whataboutery can justify it,\" Bhuyan added. Sharing a post carrying the video clip of Bhuyan's remarks, Ramesh said on X, \"Here is the bold Justice Ujjal Bhuyan speaking yesterday in NALSAR University in Hyderabad, where he exposed the CEC lock, stock and barrel. If he has any sense of shame, Gyanesh Kumar must quit right away.\" \"His (Kumar's) ability to execute G2's illegal orders have now made him a liability for the country,\" Ramesh said. Ramesh often uses the term 'G2' to tak",
+      "url": "https://www.business-standard.com/politics/cec-executing-g2-s-illegal-orders-makes-him-liability-for-country-cong-126100500085_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics",
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 61.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-05T03:54:53+00:00",
+      "published_at": "2026-10-05T03:54:53+00:00",
+      "effective_at": "2026-10-05T03:54:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: state scope (telangana)",
+        "recency: breaking (0.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 34.8, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "local",
+      "state": "telangana",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Congress on Monday said Chief Election Commissioner Gyanesh Kumar must quit right away and claimed that his ability to \"execute G2's illegal orders\" has now made him a \"liability for the country\".",
+          "Congress general secretary in-charge communications Jairam Ramesh's attack on the CEC came a day after Supreme Court judge Justice Ujjal Bhuyan remarked that any process that \"disenfranchises\" millions of Indian citizens is \"intrinsically arbitrary\" and a \"negation\" of the constitutional order."
+        ],
+        "body": [
+          "\"No amount of whataboutery can justify it,\" Bhuyan added.",
+          "Sharing a post carrying the video clip of Bhuyan's remarks, Ramesh said on X, \"Here is the bold Justice Ujjal Bhuyan speaking yesterday in NALSAR University in Hyderabad, where he exposed the CEC lock, stock and barrel.",
+          "If he has any sense of shame, Gyanesh Kumar must quit right away.\" \"His (Kumar's) ability to execute G2's illegal orders have now made him a liability for the country,\" Ramesh said.",
+          "Ramesh often uses the term 'G2' to tak."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "NALSAR University"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Sharing a post carrying the video clip of Bhuyan's remarks, Ramesh said on X, \"Here is the bold Justice Ujjal Bhuyan speaking yesterday in NALSAR University in Hyderabad, where he exposed the CEC lock, stock and barrel.",
+            "source": "Business Standard",
+            "item_id": "1b06c2f57aef5bf0ded440eb",
+            "composed": false
+          },
+          {
+            "text": "The Congress on Monday said Chief Election Commissioner Gyanesh Kumar must quit right away and claimed that his ability to \"execute G2's illegal orders\" has now made him a \"liability for the country\".",
+            "source": "Business Standard",
+            "item_id": "1b06c2f57aef5bf0ded440eb",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/politics/cec-executing-g2-s-illegal-orders-makes-him-liability-for-country-cong-126100500085_1.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -450,7 +546,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -536,7 +632,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "geo: state",
         "dominant event 44, stack 16, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
