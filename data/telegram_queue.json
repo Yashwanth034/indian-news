@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T01:41:52.243363+00:00",
-  "count": 7,
+  "generated_at": "2026-10-05T01:51:54.793271+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "da5c9689f011aa6d21ffbe0f",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (tripura)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -149,7 +149,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -247,7 +247,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -321,6 +321,96 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "dac0a33fa3df4478423bb7a2",
+      "story_id": "dac0a33fa3df4478423bb7a2",
+      "headline": "RBI may end rate-cut cycle with first hike since February 2023",
+      "title": "RBI may end rate-cut cycle with first hike since February 2023",
+      "summary": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon. This marks the end of the rate-cutting phase that began in February 2025. Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening. Experts anticipate resilient growth will provide the RBI room to act despite external pressures. The focus will remain on managing liquidity and aligning rates with policy measures.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-04T23:49:18+00:00",
+      "published_at": "2026-10-04T23:49:18+00:00",
+      "effective_at": "2026-10-04T23:49:18+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'repo rate' in summary weight 25.2",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (2.0h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 25.2, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
+          "This marks the end of the rate-cutting phase that began in February 2025."
+        ],
+        "body": [
+          "Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening.",
+          "Experts anticipate resilient growth will provide the RBI room to act despite external pressures.",
+          "The focus will remain on managing liquidity and aligning rates with policy measures."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "February"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "This marks the end of the rate-cutting phase that began in February 2025.",
+            "source": "Times of India",
+            "item_id": "dac0a33fa3df4478423bb7a2",
+            "composed": false
+          },
+          {
+            "text": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
+            "source": "Times of India",
+            "item_id": "dac0a33fa3df4478423bb7a2",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "734cf22655d731da21eaf06e",
       "story_id": "734cf22655d731da21eaf06e",
       "headline": "Who Is Protecting Kashmir’s Ecology?",
@@ -374,7 +464,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -481,98 +571,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "6449b72f587a900ac5e1be79",
-      "story_id": "6449b72f587a900ac5e1be79",
-      "headline": "RBI may end rate-cut cycle with first hike since February 2023",
-      "title": "RBI may end rate-cut cycle with first hike since February 2023",
-      "summary": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon. This marks the end of the rate-cutting phase that began in February 2025. Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening. Experts anticipate resilient growth will provide the RBI room to act despite external pressures. The focus will remain on managing liquidity and aligning rates with policy measures.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms",
-      "source": "Times of India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "economy-finance",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-04T19:09:20+00:00",
-      "published_at": "2026-10-04T23:49:18+00:00",
-      "effective_at": "2026-10-04T23:49:18+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times",
-            "times-of-india"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'repo rate' in summary weight 25.2",
-        "event term: 'inflation' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (6.5h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 25.2, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
-          "This marks the end of the rate-cutting phase that began in February 2025."
-        ],
-        "body": [
-          "Economists predict inflation will exceed the RBI’s forecasts, necessitating tightening.",
-          "Experts anticipate resilient growth will provide the RBI room to act despite external pressures.",
-          "The focus will remain on managing liquidity and aligning rates with policy measures."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "February"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "This marks the end of the rate-cutting phase that began in February 2025.",
-            "source": "Times of India",
-            "item_id": "6449b72f587a900ac5e1be79",
-            "composed": false
-          },
-          {
-            "text": "Bankers expect the Reserve Bank of India to raise the repo rate by 25 basis points soon.",
-            "source": "Times of India",
-            "item_id": "6449b72f587a900ac5e1be79",
-            "composed": false
-          }
-        ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-may-end-rate-cut-cycle-with-first-hike-since-february-2023/articleshow/134683147.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "e09dd7129b3fa57976804a13",
       "story_id": "e09dd7129b3fa57976804a13",
       "headline": "Assam Cabinet approves 12% quota for ex-Agniveers in constable posts",
@@ -610,7 +608,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "geo: state",
         "dominant event 44, stack 15, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -729,7 +727,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 43.2, score 43.2 -> HIGH"
@@ -813,6 +811,147 @@
         "source": "Forbes India",
         "corroborating": [],
         "url": "https://www.forbesindia.com/article/news/tighter-financial-conditions-could-spill-over-to-banks-warns-sanjay-malhotra/2999026/1"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "19e68e31ca190240630c2f9a",
+      "story_id": "19e68e31ca190240630c2f9a",
+      "headline": "UAE shared FlyDubai flight details with Israel",
+      "title": "UAE shared FlyDubai flight details with Israel",
+      "summary": "Tel Aviv, Israel: Authorities in the United Arab Emirates shared with Israel a list of passengers and crew ahead of the FlyDubai flight on which a pilot attempted to seize control of the Israel-bound aircraft and crash it, regional officials said Sunday, raising new questions over how the attacker evaded detection.Israeli Prime Minister Benjamin Netanyahu later told the head of the National Security Council to appoint an examiner to review \"all security aspects regarding foreign civil aviation to Israel.\"With the investigation into the FlyDubai incident underway, preliminary details have highlighted several major security lapses. Officials already have said the Omani co-pilot had been barred from flying by his own country because of concerns about his extremist views. It also remains unclear how a citizen of Oman, an Arab country that has no diplomatic relations with Israel, was allowed to fly a planeload of Israelis to Tel Aviv.The UAE, which is leading the investigation, said the co-pilot attacked the flight's captain with the cockpit's crash ax and tried to take control of the plummeting plane in a \"terrorist attack\" Wednesday. His actions nearly crashed the flight with 182 people on board before the Indian captain managed to open the cockpit door, allowing passengers and others to rush in and subdue the attacker.Israel did not raise concerns about passengers and crewThe regional officials said Emirati authorities had shared information about the passengers and crew, including their nationalities. Israel hadn't raised red flags on any passenger or member of the crew, said the officials, who spoke on condition of anonymity because they were not authorized to speak to reporters about the probe.The Shin Bet, Israel's domestic security agency, said the Transportation Ministry is responsible for vetting passenger lists from foreign flights. Transportation Minister Miri Regev on X said the security agencies are responsible for flight security and that her ministry wasn't given a list of passengers or any warnings.Sharing the list is standard aviation procedure. But the head of aviation security at the Transportation Ministry, Dvir Rubenstien, told Army Radio that the ministry relies on local security checks and does not have the tools or the ability to run checks on each passenger on every flight.Netanyahu said Thursday that Israel has long-standing agreements with foreign carriers to keep pilots from flying into the country if they are citizens of nations that don't maintain diplomatic relations with Israel.Australian police said Sunday that counterterrorism investigators were looking into the attacker's possible connections to Australia, where media have reported he went on a student visa to study at university about a decade ago. The Royal Melbourne Institute of Technology said Monday he was enrolled at the school for a time but did not successfully complete an engineering qualification.The passengers who halted the attack and helped regain control of the aircraft have been hailed as heroes in Israel.Questions being raised about security failuresBut as the initial euphoria of the rescue has subsided, officials have begun to raise difficult questions and trade accusations about the security blunders that could have led to a major disaster.Ahead of the elections at the end of the month, some opposition candidates have seized on the security failures to highlight what they perceive as negligence on the part of Netanyahu and his supporters. Transportation Minister Regev is a member of Netanyahu's Likud party and a staunch supporter.\"This is exactly what system collapse looks like,\" Yair Golan, head of the opposition Democrats party, wrote on X. \"A transportation minister who completely abandons our skies, and a prime minister who abandons national security.\"It also remains unclear how FlyDubai, a low-cost Emirati airline that operates flights between Israel and the UAE, had failed to identify the Omani pilot as a security risk.Philip Baum, a visiting professor of aviation security at Coventry University in England who wrote a book about aircraft hijackings and bombings, said background check systems differ from country to country and there are limits on what types of information can be shared.\"In terms of aviation security itself, obviously we want to have as robust background checks as possible. But there are huge limitations on doing background checks in any case, especially in cross-border checks,\" he said.",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities/articleshow/134683568.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "defence-security",
+        "education",
+        "transport-infrastructure",
+        "crime-public-safety",
+        "business-industry",
+        "international-affairs",
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 96.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-05T01:31:28+00:00",
+      "published_at": "2026-10-05T01:31:28+00:00",
+      "effective_at": "2026-10-05T01:31:28+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'National Security'",
+        "major: significance event 'disaster'",
+        "major: significance event 'national security'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'national security' in summary weight 42",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 42, stack 30.4, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Tel Aviv, Israel: Authorities in the United Arab Emirates shared with Israel a list of passengers and crew ahead of the FlyDubai flight on which a pilot attempted to seize control of the Israel-bound aircraft and crash it, regional officials said Sunday, raising new questions over how the attacker evaded detection.",
+          "Israeli Prime Minister Benjamin Netanyahu later told the head of the National Security Council to appoint an examiner to review \"all security aspects regarding foreign civil aviation to Israel.\" With the investigation into the FlyDubai incident underway, preliminary details have highlighted several major security lapses."
+        ],
+        "body": [
+          "Officials already have said the Omani co-pilot had been barred from flying by his own country because of concerns about his extremist views.",
+          "It also remains unclear how a citizen of Oman, an Arab country that has no diplomatic relations with Israel, was allowed to fly a planeload of Israelis to Tel Aviv.",
+          "The UAE, which is leading the investigation, said the co-pilot attacked the flight's captain with the cockpit's crash ax and tried to take control of the plummeting plane in a \"terrorist attack\" Wednesday.",
+          "His actions nearly crashed the flight with 182 people on board before the Indian captain managed to open the cockpit door, allowing passengers and others to rush in and subdue the attacker.",
+          "Israel did not raise concerns about passengers and crew.",
+          "The regional officials said Emirati authorities had shared information about the passengers and crew, including their nationalities.",
+          "Israel hadn't raised red flags on any passenger or member of the crew, said the officials, who spoke on condition of anonymity because they were not authorized to speak to reporters about the probe.",
+          "The Shin Bet, Israel's domestic security agency, said the Transportation Ministry is responsible for vetting passenger lists from foreign flights.",
+          "Transportation Minister Miri Regev on X said the security agencies are responsible for flight security and that her ministry wasn't given a list of passengers or any warnings.",
+          "Sharing the list is standard aviation procedure.",
+          "But the head of aviation security at the Transportation Ministry, Dvir Rubenstien, told Army Radio that the ministry relies on local security checks and does not have the tools or the ability to run checks on each passenger on every flight.",
+          "Netanyahu said Thursday that Israel has long-standing agreements with foreign carriers to keep pilots from flying into the country if they are citizens of nations that don't maintain diplomatic relations with Israel.",
+          "Australian police said Sunday that counterterrorism investigators were looking into the attacker's possible connections to Australia, where media have reported he went on a student visa to study at university about a decade ago.",
+          "The Royal Melbourne Institute of Technology said Monday he was enrolled at the school for a time but did not successfully complete an engineering qualification.",
+          "The passengers who halted the attack and helped regain control of the aircraft have been hailed as heroes in Israel.",
+          "Questions being raised about security failures.",
+          "But as the initial euphoria of the rescue has subsided, officials have begun to raise difficult questions and trade accusations about the security blunders that could have led to a major disaster.",
+          "Ahead of the elections at the end of the month, some opposition candidates have seized on the security failures to highlight what they perceive as negligence on the part of Netanyahu and his supporters.",
+          "Transportation Minister Regev is a member of Netanyahu's Likud party and a staunch supporter.\" This is exactly what system collapse looks like,\" Yair Golan, head of the opposition Democrats party, wrote on X. \"A transportation minister who completely abandons our skies, and a prime minister who abandons national security.\" It also remains unclear how FlyDubai, a low-cost Emirati airline that operates flights between Israel and the UAE, had failed to identify the Omani pilot as a security risk.",
+          "Philip Baum, a visiting professor of aviation security at Coventry University in England who wrote a book about aircraft hijackings and bombings, said background check systems differ from country to country and there are limits on what types of information can be shared.\" In terms of aviation security itself, obviously we want to have as robust background checks as possible.",
+          "But there are huge limitations on doing background checks in any case, especially in cross-border checks,\" he said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Israel"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "182 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "His actions nearly crashed the flight with 182 people on board before the Indian captain managed to open the cockpit door, allowing passengers and others to rush in and subdue the attacker.",
+            "source": "The Economic Times",
+            "item_id": "19e68e31ca190240630c2f9a",
+            "composed": false
+          },
+          {
+            "text": "Philip Baum, a visiting professor of aviation security at Coventry University in England who wrote a book about aircraft hijackings and bombings, said background check systems differ from country to country and there are limits on what types of information can be shared.\"",
+            "source": "The Economic Times",
+            "item_id": "19e68e31ca190240630c2f9a",
+            "composed": false
+          },
+          {
+            "text": "Netanyahu said Thursday that Israel has long-standing agreements with foreign carriers to keep pilots from flying into the country if they are citizens of nations that don't maintain diplomatic relations with Israel.",
+            "source": "The Economic Times",
+            "item_id": "19e68e31ca190240630c2f9a",
+            "composed": false
+          },
+          {
+            "text": "Australian police said Sunday that counterterrorism investigators were looking into the attacker's possible connections to Australia, where media have reported he went on a student visa to study at university about a decade ago.",
+            "source": "The Economic Times",
+            "item_id": "19e68e31ca190240630c2f9a",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities/articleshow/134683568.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
