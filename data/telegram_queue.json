@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T13:41:53.699929+00:00",
-  "count": 16,
+  "generated_at": "2026-10-05T13:51:45.438368+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "6ab7c42cd9c598b11f2b189f",
@@ -48,7 +48,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (assam)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44.4, score 64 -> URGENT"
@@ -173,7 +173,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -223,31 +223,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8424a3b937c05f2017f29150",
-      "story_id": "8424a3b937c05f2017f29150",
-      "headline": "SI suspended for pointing pistol at flood victims during distribution of relief materials in Bihar’s Saran",
-      "title": "SI suspended for pointing pistol at flood victims during distribution of relief materials in Bihar’s Saran",
-      "summary": "The State government has also suspended seven engineers and initiated departmental proceedings against another official for alleged negligence in handling the floods after heavy rainfall in Nepal’s catchment areas raised water levels in Gandak river",
-      "url": "https://www.thehindu.com/news/national/bihar/si-suspended-for-pointing-pistol-at-flood-victim-during-distribution-of-relief-materials-in-bihars-saran/article71545906.ece",
-      "source": "The Hindu",
+      "event_id": "61abd347246e2a90ecb1cc73",
+      "story_id": "61abd347246e2a90ecb1cc73",
+      "headline": "‘SC scheduled, then cancelled meet’: One Nation, One Election JPC chief amid controversy",
+      "title": "‘SC scheduled, then cancelled meet’: One Nation, One Election JPC chief amid controversy",
+      "summary": "PP Chaudhary provided clarification about the cancelled meeting set between the parliamentary panel and Supreme Court judges. He stated that the Supreme Court had initially scheduled the meeting for October 6 and later cancelled it. Chaudhary emphasized that previous interactions between parliamentary committees and the judiciary are not without precedent. Former Union minister Kapil Sibal criticized the meeting's constitutionality, arguing it undermined the separation of powers.",
+      "url": "https://timesofindia.indiatimes.com/india/sc-itself-scheduled-then-cancelled-meeting-one-nation-one-election-jpc-chief-pp-chaudhary-amid-controversy/articleshow/134704937.cms",
+      "source": "Times of India",
       "primary_source": false,
       "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
       "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
+      "score": 60.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-05T10:58:17+00:00",
-      "published_at": "2026-10-05T10:58:17+00:00",
-      "effective_at": "2026-10-05T10:58:17+00:00",
+      "event_time": "2026-10-05T12:20:56+00:00",
+      "published_at": "2026-10-05T12:20:56+00:00",
+      "effective_at": "2026-10-05T12:20:56+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "times-of-india"
           ],
           "count": 1
         }
@@ -256,83 +258,55 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'flood'",
-        "major: significance event 'floods'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (times-of-india) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "event term: 'floods' in summary weight 38.4",
-        "scale: state scope (bihar)",
-        "recency: breaking (2.7h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "event term: 'election' in title weight 58",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "bihar",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
-      "article_sentences": [
-        "A Sub-Inspector-rank police official in Saran district of Bihar has been suspended for pointing a gun at flood victims during the distribution of relief materials.",
-        "The video of the Station House Officer (SHO) of Maker police station Sangram Kumar Singh pointing a gun and showing footwear to the flood victims went viral on social media.",
-        "The incident happened on Sunday (October 4, 2026) afternoon near Reva Ghat.",
-        "Late at night, around 11 p.m., Saran Senior Superintendent of Police (SSP) Roshan Kumar issued the suspension order.",
-        "“A video is circulating on various social media platforms showing Sub-Inspector Sangram Kumar Singh, Station House Officer (SHO) of Maker, pointing his pistol at the public during the distribution of flood relief materials; prima facie, this conduct reflects gross negligence in the discharge of his duties, indiscipline, and arbitrary behaviour,” Mr. Roshan said in the press statement.",
-        "“For the negligence displayed, Sub-Inspector Sangram Kumar Singh, SHO of Maker Police Station, is hereby suspended with immediate effect and placed on subsistence allowance.",
-        "During suspension, he will be designated at headquarters.",
-        "Subsistence allowance will be payable subject to his attendance,” the SSP added.",
-        "In the video, the SI is seen standing on top of a pickup truck loaded with rations and arguing with flood-affected villagers lined up for relief material.",
-        "Some villagers had stepped out of line to take the rations when the SI first flashed his footwear and then pulled out his gun, aiming it at the flood victims.",
-        "The Opposition Rashtriya Janata Dal (RJD) pulled up the State government over the incident by posting a message on X along with the video of the SI, asserting that those in power are “treating common people like insects”.",
-        "“Shoe flashed at flood victims, then a pistol whipped out with swagger."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "A Sub-Inspector-rank police official in Saran district of Bihar has been suspended for pointing a gun at flood victims during the distribution of relief materials.",
-          "The video of the Station House Officer (SHO) of Maker police station Sangram Kumar Singh pointing a gun and showing footwear to the flood victims went viral on social media."
+          "PP Chaudhary provided clarification about the cancelled meeting set between the parliamentary panel and Supreme Court judges.",
+          "He stated that the Supreme Court had initially scheduled the meeting for October 6 and later cancelled it."
         ],
         "body": [
-          "The incident happened on Sunday (October 4, 2026) afternoon near Reva Ghat.",
-          "Late at night, around 11 p.m., Saran Senior Superintendent of Police (SSP) Roshan Kumar issued the suspension order.",
-          "“A video is circulating on various social media platforms showing Sub-Inspector Sangram Kumar Singh, Station House Officer (SHO) of Maker, pointing his pistol at the public during the distribution of flood relief materials; prima facie, this conduct reflects gross negligence in the discharge of his duties, indiscipline, and arbitrary behaviour,” Mr. Roshan said in the press statement.",
-          "“For the negligence displayed, Sub-Inspector Sangram Kumar Singh, SHO of Maker Police Station, is hereby suspended with immediate effect and placed on subsistence allowance.",
-          "During suspension, he will be designated at headquarters.",
-          "Subsistence allowance will be payable subject to his attendance,” the SSP added.",
-          "In the video, the SI is seen standing on top of a pickup truck loaded with rations and arguing with flood-affected villagers lined up for relief material.",
-          "Some villagers had stepped out of line to take the rations when the SI first flashed his footwear and then pulled out his gun, aiming it at the flood victims."
+          "Chaudhary emphasized that previous interactions between parliamentary committees and the judiciary are not without precedent.",
+          "Former Union minister Kapil Sibal criticized the meeting's constitutionality, arguing it undermined the separation of powers."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Saran district"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "A Sub-Inspector-rank police official in Saran district of Bihar has been suspended for pointing a gun at flood victims during the distribution of relief materials.",
-            "source": "The Hindu",
-            "item_id": "8424a3b937c05f2017f29150:article",
+            "text": "He stated that the Supreme Court had initially scheduled the meeting for October 6 and later cancelled it.",
+            "source": "Times of India",
+            "item_id": "61abd347246e2a90ecb1cc73",
             "composed": false
           },
           {
-            "text": "Late at night, around 11 p.m., Saran Senior Superintendent of Police (SSP) Roshan Kumar issued the suspension order.",
-            "source": "The Hindu",
-            "item_id": "8424a3b937c05f2017f29150:article",
+            "text": "PP Chaudhary provided clarification about the cancelled meeting set between the parliamentary panel and Supreme Court judges.",
+            "source": "Times of India",
+            "item_id": "61abd347246e2a90ecb1cc73",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Times of India",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/bihar/si-suspended-for-pointing-pistol-at-flood-victim-during-distribution-of-relief-materials-in-bihars-saran/article71545906.ece"
+        "url": "https://timesofindia.indiatimes.com/india/sc-itself-scheduled-then-cancelled-meeting-one-nation-one-election-jpc-chief-pp-chaudhary-amid-controversy/articleshow/134704937.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "5c9d8937ab03eef8916ee1a1",
@@ -377,7 +351,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -511,7 +485,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -622,7 +596,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -630,7 +604,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "New Delhi: The Central government on Monday notified the appointment of three High Court Chief Justices as judges of the Supreme Court, paving the way for their elevation to the top court.",
@@ -663,7 +637,7 @@
         "url": "https://kalingatv.com/nation/centre-notifies-appointment-of-three-high-court-chief-justices-as-supreme-court-judges"
       },
       "group_size": 3,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -715,7 +689,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -853,7 +827,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -977,7 +951,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1085,7 +1059,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1170,7 +1144,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 22.8, stack 45, score 45 -> HIGH"
@@ -1257,7 +1231,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 44.4, score 44.4 -> HIGH"
@@ -1304,6 +1278,114 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "0b0d244de26ab0b17492b8f4",
+      "story_id": "0b0d244de26ab0b17492b8f4",
+      "headline": "Supreme Court Quashes Rape Case Over Alleged False Promise Of Marriage After Three-Year Consensual Relationship",
+      "title": "Supreme Court Quashes Rape Case Over Alleged False Promise Of Marriage After Three-Year Consensual Relationship",
+      "summary": "",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-quashes-criminal-case-alleged-false-promise-marriage-consensual-relationship-553197",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-05T13:47:06+00:00",
+      "published_at": "2026-10-05T13:47:06+00:00",
+      "effective_at": "2026-10-05T13:47:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has recently quashed criminal proceedings against a man accused of sexually exploiting a woman under the pretext of marriage, holding that a three-year consensual relationship could not be said to be based on coerced consent or misrepresentation.",
+        "A bench of Justice JB Pardiwala and Justice K Vinod Chandran allowed the appeal against the Chhattisgarh government and the complainant, observing that “a consensual relationship spreading over three years has eventually ended with a criminal case lodged against the appellant.”",
+        "In 2025, the complainant registered an FIR against the appellant alleging that he (accused/appellant) refused to marry her after exploiting her sexually under the pretext of marriage.",
+        "Subsequently, a chargesheet was filed in the case pursuant to which the accused filed a Special Leave Petition (SLP) before the Supreme Court.",
+        "The Supreme Court reiterated Deepak Gulati v State of Haryana, which held that there must be adequate evidence that, “at the initial stage itself, the accused had no intention whatsoever, of keeping his promise to marry the victim.” It also reiterated that a failure to keep a promise about an uncertain future date “does not always amount to misconception of fact”, and that Section 90 of the Indian Penal Code, 1860 (IPC, now Section 28 of the Bharatiya Nyaya Sanhita, 2023/BNS) cannot be used to fasten criminal liability “unless the court is assured of the fact that from the very beginning, the accused had never really intended to marry her.”",
+        "Noting that the complainant is an engineering graduate who had been studying for competitive examinations and had met the appellant at an academy where both were enrolled, the bench noted that the parties fell in love and their family members also talked to each other.",
+        "The appellant used to visit her house, where she lived with her mother and brother.",
+        "The physical relationship began when nobody was at home and it continued for about three years.",
+        "With regards to the allegation that the appellant came frequently when complainant's mother was away, the Court observed that “obviously, the information that the mother has left, was passed on by the 2nd respondent (complainant) herself, since we cannot presume that the appellant had mounted a constant surveillance of the 2nd respondent's house for this purpose.”",
+        "The Court also noted that the relationship continued for three years unabated before the parties separated.",
+        "Later, a marriage proposal mooted by both families also fell through, after which the complaint was filed.",
+        "“Immediately, we have to observe that the undertaking would have been on the threat of criminal prosecution; which even otherwise is unenforceable."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has recently quashed criminal proceedings against a man accused of sexually exploiting a woman under the pretext of marriage, holding that a three-year consensual relationship could not be said to be based on coerced consent or misrepresentation.",
+          "A bench of Justice JB Pardiwala and Justice K Vinod Chandran allowed the appeal against the Chhattisgarh government and the complainant, observing that “a consensual relationship spreading over three years has eventually ended with a criminal case lodged against the appellant.” In 2025, the complainant registered an FIR against the appellant alleging that he (accused/appellant) refused to marry her after exploiting her sexually under the pretext of marriage."
+        ],
+        "body": [
+          "Subsequently, a chargesheet was filed in the case pursuant to which the accused filed a Special Leave Petition (SLP) before the Supreme Court.",
+          "The Supreme Court reiterated Deepak Gulati v State of Haryana, which held that there must be adequate evidence that, “at the initial stage itself, the accused had no intention whatsoever, of keeping his promise to marry the victim.” It also reiterated that a failure to keep a promise about an uncertain future date “does not always amount to misconception of fact”, and that Section 90 of the Indian Penal Code, 1860 (IPC, now Section 28 of the Bharatiya Nyaya Sanhita, 2023/BNS) cannot be used to fasten criminal liability “unless the court is assured of the fact that from the very beginning, the accused had never really intended to marry her.” Noting that the complainant is an engineering graduate who had been studying for competitive examinations and had met the appellant at an academy where both were enrolled, the bench noted that the parties fell in love and their family members also talked to each other.",
+          "The appellant used to visit her house, where she lived with her mother and brother.",
+          "The physical relationship began when nobody was at home and it continued for about three years.",
+          "With regards to the allegation that the appellant came frequently when complainant's mother was away, the Court observed that “obviously, the information that the mother has left, was passed on by the 2nd respondent (complainant) herself, since we cannot presume that the appellant had mounted a constant surveillance of the 2nd respondent's house for this purpose.” The Court also noted that the relationship continued for three years unabated before the parties separated.",
+          "Later, a marriage proposal mooted by both families also fell through, after which the complaint was filed.",
+          "“Immediately, we have to observe that the undertaking would have been on the threat of criminal prosecution; which even otherwise is unenforceable."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "It also reiterated that a failure to keep a promise about an uncertain future date “does not always amount to misconception of fact”, and that Section 90 of the Indian Penal Code, 1860 (IPC, now Section 28 of the Bharatiya Nyaya Sanhita, 2023/BNS) cannot be used to fasten criminal liability “unless the court is assured of the fact that from the very beginning, the accused had never really intended to marry her.”",
+            "source": "LiveLaw",
+            "item_id": "0b0d244de26ab0b17492b8f4:article",
+            "composed": false
+          },
+          {
+            "text": "In 2025, the complainant registered an FIR against the appellant alleging that he (accused/appellant) refused to marry her after exploiting her sexually under the pretext of marriage.",
+            "source": "LiveLaw",
+            "item_id": "0b0d244de26ab0b17492b8f4:article",
+            "composed": false
+          },
+          {
+            "text": "With regards to the allegation that the appellant came frequently when complainant's mother was away, the Court observed that “obviously, the information that the mother has left, was passed on by the 2nd respondent (complainant) herself, since we cannot presume that the appellant had mounted a constant surveillance of the 2nd respondent's house for this purpose.”",
+            "source": "LiveLaw",
+            "item_id": "0b0d244de26ab0b17492b8f4:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-quashes-criminal-case-alleged-false-promise-marriage-consensual-relationship-553197"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "b2a1d9920c656528c937f41e",
       "story_id": "b2a1d9920c656528c937f41e",
       "headline": "Supreme Court Issues Notice On PIL To Fill Vacancies In State Human Rights Commissions",
@@ -1345,7 +1427,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1454,7 +1536,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1571,7 +1653,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1679,7 +1761,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'repo rate' in title weight 42",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 23.6, score 42 -> HIGH"
