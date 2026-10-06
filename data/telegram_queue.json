@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T09:51:45.472059+00:00",
-  "count": 13,
+  "generated_at": "2026-10-06T10:02:16.077407+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "932c3c2ad379afcebc62b495",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 19, score 82 -> IMMEDIATE"
@@ -138,7 +138,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -246,7 +246,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -331,40 +331,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "3f010a49aa3cabba30cdf7df",
-      "story_id": "3f010a49aa3cabba30cdf7df",
-      "headline": "‘Addition means modification’: Chidambaram attacks CEC citing CJI’s Form 6 clarification",
-      "title": "‘Addition means modification’: Chidambaram attacks CEC citing CJI’s Form 6 clarification",
-      "summary": "Congress leader P. Chidambaram has criticised Chief Election Commissioner Gyanesh Kumar over the Special Intensive Revision (SIR) exercise, citing the Chief Justice of India’s clarification that the Supreme Court did not approve any modification to Form 6.",
-      "url": "https://www.thehansindia.com/news/cities/new-delhi/addition-means-modification-chidambaram-attacks-cec-citing-cjis-form-6-clarification-1129492",
-      "source": "The Hans India",
+      "event_id": "7e1787583de32a0074566537",
+      "story_id": "7e1787583de32a0074566537",
+      "headline": "Supreme Court stay lifts Tata Chemicals off day’s low",
+      "title": "Supreme Court stay lifts Tata Chemicals off day’s low",
+      "summary": "Tata Chemicals informed BSE and NSE that the Supreme Court has restrained the Government of Gujarat and others from taking any coercive action against the company in an ongoing land-rights case",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/supreme-court-stay-lifts-tata-chemicals-off-days-low/article71550859.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
-      "tier": 2,
+      "tier": 3,
       "category": "courts-law",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "high",
+      "secondary_categories": [],
+      "confidence": "medium",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-06T07:14:07+00:00",
-      "published_at": "2026-10-06T07:14:07+00:00",
-      "effective_at": "2026-10-06T07:14:07+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-10-06T09:53:32+00:00",
+      "published_at": "2026-10-06T09:53:32+00:00",
+      "effective_at": "2026-10-06T09:53:32+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "ians": {
-          "kind": "wire",
+        "thehindu": {
+          "kind": "independent",
           "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        },
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir"
+            "businessline"
           ],
           "count": 1
         }
@@ -373,289 +364,116 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'election' in summary weight 34.8",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "gujarat",
       "national_significance": true,
       "article_sentences": [
-        "Congress leader P. Chidambaram has criticised Chief Election Commissioner Gyanesh Kumar over the Special Intensive Revision (SIR) exercise, citing the Chief Justice of India’s clarification that the Supreme Court did not approve any modification to Form 6.",
-        "New Delhi: Senior Congress leader P. Chidambaram on Tuesday said Chief Justice of India Surya Kant had clearly stated that the Supreme Court had not approved any modification to Form 6, used for inclusion of names in electoral rolls.",
-        "His remarks came as the INDIA bloc MPs, holding Tricolours and banners reading ‘Save Democracy’, were staging a protest march from Parliament to the Election Commission of India (ECI) headquarters in the national capital, demanding the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar.",
-        "The protest also comes a day after CJI Surya Kant clarified that the Supreme Court had not approved any modified version of Form 6 for inclusion of names in electoral rolls during the Special Intensive Revision (SIR) exercise.",
-        "The clarification was made while hearing a petition seeking the prosecution of CEC Kumar.",
-        "Speaking to reporters, Chidambaram said, “The BJP cannot read Hindi or English.",
-        "The CJI clearly denied approving any modifications to Form 6.",
-        "He said that once, and that is being broadcast several times,” Chidambaram told reporters.",
-        "Chidambaram said the CJI’s statement had been made in open court and questioned how the BJP could deny it.",
-        "“He said this is an open court...",
-        "How can the BJP blatantly deny this?",
-        "The CJI clearly said that we do not approve Form 6."
+        "Shares of Tata Chemicals Limited are trading near flat on Tuesday after touching an intraday high of ₹624.75, aided by a Supreme Court order that emerged last trading session.",
+        "The stock was at ₹617.20 at 15.05, down a marginal 0.03 per cent from its previous close of ₹617.40, having opened higher at ₹620.",
+        "Total traded value stood at ₹37.41 crore on a volume of 6.04 lakh shares, with the stock part of the Nifty Smallcap 100 index.",
+        "Sell-side pressure remains dominant, with 70.52 per cent of pending orders on the sell side against 29.48 per cent on the buy side.",
+        "Deliverable quantity stands at 49.29 per cent of traded volume, suggesting a mix of positional and intraday interest.",
+        "Annualised volatility is elevated at 45.47 per cent.",
+        "Tata Chemicals informed BSE and NSE that the Supreme Court, vide its order dated October 5, 2026, has restrained the Government of Gujarat and others from taking any coercive action against the company in an ongoing land-rights case.",
+        "The court has also issued a notice to the state government seeking its response.",
+        "The dispute pertains to Writ Petition No. 26530, filed by the company before the Gujarat High Court, concerning its pre-existing rights over land at Mithapur, Gujarat, on which legacy open wastewater channels ran into the sea.",
+        "Tata Chemicals had first informed the exchanges about the High Court proceedings on May 26, 2026.",
+        "The stock remains under significant pressure on a longer horizon — down 33.44 per cent over one year and 17.89 per cent year-to-date, against the Nifty 500’s -4.45 per cent and -7.41 per cent respectively.",
+        "Its 52-week high was ₹944.50 hit in October 2025."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "Congress leader P. Chidambaram has criticised Chief Election Commissioner Gyanesh Kumar over the Special Intensive Revision (SIR) exercise, citing the Chief Justice of India’s clarification that the Supreme Court did not approve any modification to Form 6.",
-          "New Delhi: Senior Congress leader P. Chidambaram on Tuesday said Chief Justice of India Surya Kant had clearly stated that the Supreme Court had not approved any modification to Form 6, used for inclusion of names in electoral rolls."
+          "Shares of Tata Chemicals Limited are trading near flat on Tuesday after touching an intraday high of ₹624.75, aided by a Supreme Court order that emerged last trading session.",
+          "The stock was at ₹617.20 at 15.05, down a marginal 0.03 per cent from its previous close of ₹617.40, having opened higher at ₹620."
         ],
         "body": [
-          "His remarks came as the INDIA bloc MPs, holding Tricolours and banners reading ‘Save Democracy’, were staging a protest march from Parliament to the Election Commission of India (ECI) headquarters in the national capital, demanding the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar.",
-          "The protest also comes a day after CJI Surya Kant clarified that the Supreme Court had not approved any modified version of Form 6 for inclusion of names in electoral rolls during the Special Intensive Revision (SIR) exercise.",
-          "The clarification was made while hearing a petition seeking the prosecution of CEC Kumar.",
-          "Speaking to reporters, Chidambaram said, “The BJP cannot read Hindi or English.",
-          "The CJI clearly denied approving any modifications to Form 6.",
-          "He said that once, and that is being broadcast several times,” Chidambaram told reporters.",
-          "Chidambaram said the CJI’s statement had been made in open court and questioned how the BJP could deny it.",
-          "“He said this is an open court..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "His remarks came as the INDIA bloc MPs, holding Tricolours and banners reading ‘Save Democracy’, were staging a protest march from Parliament to the Election Commission of India (ECI) headquarters in the national capital, demanding the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar.",
-            "source": "The Hans India",
-            "item_id": "3f010a49aa3cabba30cdf7df:article",
-            "composed": false
-          },
-          {
-            "text": "New Delhi: Senior Congress leader P. Chidambaram on Tuesday said Chief Justice of India Surya Kant had clearly stated that the Supreme Court had not approved any modification to Form 6, used for inclusion of names in electoral rolls.",
-            "source": "The Hans India",
-            "item_id": "3f010a49aa3cabba30cdf7df:article",
-            "composed": false
-          },
-          {
-            "text": "Congress leader P. Chidambaram has criticised Chief Election Commissioner Gyanesh Kumar over the Special Intensive Revision (SIR) exercise, citing the Chief Justice of India’s clarification that the Supreme Court did not approve any modification to Form 6.",
-            "source": "The Hans India",
-            "item_id": "3f010a49aa3cabba30cdf7df:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/news/cities/new-delhi/addition-means-modification-chidambaram-attacks-cec-citing-cjis-form-6-clarification-1129492"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "8e2cf50e1bafeee171d256d4",
-      "story_id": "8e2cf50e1bafeee171d256d4",
-      "headline": "INDIA bloc MPs begin march to EC demanding CEC's resignation; security tightened",
-      "title": "INDIA bloc MPs begin march to EC demanding CEC's resignation; security tightened",
-      "summary": "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls. Leaders of Opposition in the Lok Sabha Rahul Gandhi was among the leaders taking part in the march. The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters. Security personnel were stationed in the area much before the MPs began arriving. Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter. Congress MP Imran Masood accused Kumar of eroding public trust in the Election Commission. \"Across the country, the institution that Gyanesh Kumar headed was an institution the entire country trusted, an institution the entire country took pride in and felt proud of. Questions were never raised over its impartiality. One person has broken that trust,\" he told PTI Videos. \"And an entire nexus is working together. We will question Gyanesh Kumar, and the BJP chief ministers will start giving the answers,\" he alleged. CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls. \"On September 26, there was a press statement by the Commission and it was stated that the entire process related to Form 6 has been ratified by the Supreme Court. Whereas it has been proven that it is an entirely misleading statement,\" he alleged. Calling the CEC a \"Cheating Election Commissioner\", the CPI leader said opposition parties had been agitating against the provisions since 2025 and would intensify their movement. Shiv Sena (UBT) MP Sanjay Raut questioned the scale of security deployment ahead of the march, saying the MPs intended to proceed peacefully. \"We are MPs. We are members of Parliament. We are also citizens of this country. Why is there a need to deploy such a large force to stop us? We will walk and go. We are unarmed,\" he said. Raut claimed that Border Security Force and CISF personnel had been deployed and security outside ministers' residences increased. Accusing Kumar of misleading the public over the Supreme Court's position on Form 6, he said the CEC had \"no moral right\" to continue in office. The Supreme Court on Monday said it had not approved any modified version of Form 6 and would examine the Election Commission's records to ascertain whether changes had been made and who had authorised them. The observations were made while hearing a petition challenging alleged unilateral decisions by Kumar. In its September 26 statement, the Commission had said the declaration attached to Form 6 for SIR had been upheld by the Supreme Court, while forms prescribed under the Registration of Electors Rules, 1960, would be used outside the SIR period. The march comes amid an opposition campaign over alleged irregularities in the SIR exercise and reports of differences within the three-member Commission. The poll body has rejected suggestions of a split and maintained that decisions relating to SIR were taken unanimously.",
-      "url": "https://www.greaterkashmir.com/national/india-bloc-mps-begin-march-to-ec-demanding-cecs-resignation-security-tightened-12628064",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [
-        "courts-law",
-        "defence-security"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-06T06:15:53+00:00",
-      "published_at": "2026-10-06T06:15:53+00:00",
-      "effective_at": "2026-10-06T06:15:53+00:00",
-      "independent_source_groups": 6,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard",
-            "deccan-chronicle",
-            "greater-kashmir"
-          ],
-          "count": 5
-        },
-        "ani": {
-          "kind": "wire",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        },
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 2
-        },
-        "kalinga-tv": {
-          "kind": "independent",
-          "source_ids": [
-            "kalinga-tv"
-          ],
-          "count": 1
-        },
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 2
-        },
-        "ndtv": {
-          "kind": "independent",
-          "source_ids": [
-            "ndtv"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 6 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 12 copies, primary source counted once",
-        "corroboration: 6 independent source groups -> high confidence",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: state scope (delhi)",
-        "recency: fresh (3.6h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls.",
-          "Leaders of Opposition in the Lok Sabha Rahul Gandhi was among the leaders taking part in the march."
-        ],
-        "body": [
-          "The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters.",
-          "Security personnel were stationed in the area much before the MPs began arriving.",
-          "Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter.",
-          "Congress MP Imran Masood accused Kumar of eroding public trust in the Election Commission.",
-          "\"Across the country, the institution that Gyanesh Kumar headed was an institution the entire country trusted, an institution the entire country took pride in and felt proud of.",
-          "Questions were never raised over its impartiality.",
-          "One person has broken that trust,\" he told PTI Videos.",
-          "\"And an entire nexus is working together.",
-          "We will question Gyanesh Kumar, and the BJP chief ministers will start giving the answers,\" he alleged.",
-          "CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls.",
-          "\"On September 26, there was a press statement by the Commission and it was stated that the entire process related to Form 6 has been ratified by the Supreme Court.",
-          "Whereas it has been proven that it is an entirely misleading statement,\" he alleged.",
-          "Calling the CEC a \"Cheating Election Commissioner\", the CPI leader said opposition parties had been agitating against the provisions since 2025 and would intensify their movement.",
-          "Shiv Sena (UBT) MP Sanjay Raut questioned the scale of security deployment ahead of the march, saying the MPs intended to proceed peacefully.",
-          "\"We are MPs.",
-          "We are members of Parliament.",
-          "We are also citizens of this country.",
-          "Why is there a need to deploy such a large force to stop us?",
-          "We will walk and go.",
-          "We are unarmed,\" he said.",
-          "Raut claimed that Border Security Force and CISF personnel had been deployed and security outside ministers' residences increased.",
-          "Accusing Kumar of misleading the public over the Supreme Court's position on Form 6, he said the CEC had \"no moral right\" to continue in office.",
-          "The Supreme Court on Monday said it had not approved any modified version of Form 6 and would examine the Election Commission's records to ascertain whether changes had been made and who had authorised them.",
-          "The observations were made while hearing a petition challenging alleged unilateral decisions by Kumar.",
-          "In its September 26 statement, the Commission had said the declaration attached to Form 6 for SIR had been upheld by the Supreme Court, while forms prescribed under the Registration of Electors Rules, 1960, would be used outside the SIR period.",
-          "The march comes amid an opposition campaign over alleged irregularities in the SIR exercise and reports of differences within the three-member Commission.",
-          "The poll body has rejected suggestions of a split and maintained that decisions relating to SIR were taken unanimously."
+          "Total traded value stood at ₹37.41 crore on a volume of 6.04 lakh shares, with the stock part of the Nifty Smallcap 100 index.",
+          "Sell-side pressure remains dominant, with 70.52 per cent of pending orders on the sell side against 29.48 per cent on the buy side.",
+          "Deliverable quantity stands at 49.29 per cent of traded volume, suggesting a mix of positional and intraday interest.",
+          "Annualised volatility is elevated at 45.47 per cent.",
+          "Tata Chemicals informed BSE and NSE that the Supreme Court, vide its order dated October 5, 2026, has restrained the Government of Gujarat and others from taking any coercive action against the company in an ongoing land-rights case.",
+          "The court has also issued a notice to the state government seeking its response.",
+          "The dispute pertains to Writ Petition No. 26530, filed by the company before the Gujarat High Court, concerning its pre-existing rights over land at Mithapur, Gujarat, on which legacy open wastewater channels ran into the sea.",
+          "Tata Chemicals had first informed the exchanges about the High Court proceedings on May 26, 2026."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Parliament"
+            "text": "Mithapur"
           }
         ],
         "sentences": [
           {
-            "text": "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls.",
-            "source": "Greater Kashmir",
-            "item_id": "8e2cf50e1bafeee171d256d4",
+            "text": "Tata Chemicals informed BSE and NSE that the Supreme Court, vide its order dated October 5, 2026, has restrained the Government of Gujarat and others from taking any coercive action against the company in an ongoing land-rights case.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "7e1787583de32a0074566537:article",
             "composed": false
           },
           {
-            "text": "The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters.",
-            "source": "Greater Kashmir",
-            "item_id": "8e2cf50e1bafeee171d256d4",
+            "text": "Tata Chemicals had first informed the exchanges about the High Court proceedings on May 26, 2026.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "7e1787583de32a0074566537:article",
             "composed": false
           },
           {
-            "text": "Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter.",
-            "source": "Greater Kashmir",
-            "item_id": "8e2cf50e1bafeee171d256d4",
+            "text": "Shares of Tata Chemicals Limited are trading near flat on Tuesday after touching an intraday high of ₹624.75, aided by a Supreme Court order that emerged last trading session.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "7e1787583de32a0074566537:article",
             "composed": false
           },
           {
-            "text": "CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls.",
-            "source": "Greater Kashmir",
-            "item_id": "8e2cf50e1bafeee171d256d4",
+            "text": "The dispute pertains to Writ Petition No. 26530, filed by the company before the Gujarat High Court, concerning its pre-existing rights over land at Mithapur, Gujarat, on which legacy open wastewater channels ran into the sea.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "7e1787583de32a0074566537:article",
             "composed": false
           }
         ],
-        "source": "Greater Kashmir",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.greaterkashmir.com/national/india-bloc-mps-begin-march-to-ec-demanding-cecs-resignation-security-tightened-12628064"
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/supreme-court-stay-lifts-tata-chemicals-off-days-low/article71550859.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
-      "event_id": "f39596e3d35c8ab52edbfdb4",
-      "story_id": "f39596e3d35c8ab52edbfdb4",
-      "headline": "Harmanpreet Kaur steps down from India women's team captaincy",
-      "title": "Harmanpreet Kaur steps down from India women's team captaincy",
-      "summary": "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\" Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months. Chaired by BCCI secretary Devajit Saikia, the meeting was attended by Harmanpreet, vice-captain Smriti Mandhana and head coach Amol Muzumdar. The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023. \"Today, I step down as captain of the Indian Women's Cricket Team across all formats,\" she posted on her instagram account. \"This is not an easy decision. It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Harmanpreet said in a lengthy statement. \"Now, I'm ready to play for the love of the game again. Captaincy ends. The journey continues,\" she added. Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\" \"Because I genuinely believe my team is in a good place,\" she said.",
-      "url": "https://www.greaterkashmir.com/sports/harmanpreet-kaur-steps-down-from-india-womens-team-captaincy-12627958",
-      "source": "Greater Kashmir",
+      "event_id": "6e46717b41b3ffec479137aa",
+      "story_id": "6e46717b41b3ffec479137aa",
+      "headline": "Harmanpreet Kaur steps down as India captain, ends leadership stint",
+      "title": "Harmanpreet Kaur steps down as India captain, ends leadership stint",
+      "summary": "New Delhi, Oct 6 : Indian women’s ODI World Cup winning skipper Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj. “Today, I step down as captain of the Indian Women’s Cricket Team across all formats. This is not an easy decision. It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Kaur wrote on Instagram. \"I have given everything I had to this team and to Indian women’s cricket — my blood, my sweat, my time, and many times, a part of my own game and personal ambitions. There were moments when I had to put my individual performance, my own growth, and what I wanted for myself aside, because I believed the team had to come first. “As a captain, I have had to make difficult decisions. Decisions that were not always understood, not always easy, and sometimes came at a personal cost. But every decision I made was with one intention - to make this TEAM better and to give other players the opportunity to grow, believe in themselves and become the best versions of themselves,” she added. She etched her name in history books by becoming the first female skipper to lead the Indian team to a maiden senior ICC World Cup title by defeating South Africa on home soil. “I have seen it all. I have seen the lowest moments, the heartbreak, the criticism, the doubts and the days when nothing seemed to go our way. And I have also experienced the highest highs - the victories, the celebrations, the pride of representing our country, and the moments that made every sacrifice worth it,” Kaur wrote. Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026. “I leave the captaincy today with a heart full of emotions , but also with PEACE. Because I genuinely believe my team is in a good place. A team with talent, character, belief and a future that I am incredibly excited to watch and be a part of. I feel I have done my duty. I gave this team everything I had. I carried the responsibility with pride, and I will always be grateful for the privilege of leading Indian women’s cricket. Now, it is time for me to turn the page. “Captaincy may end today, but my love for Indian cricket never will. Thank you to every teammate, coach, support staff, management , BCCI , family members every single fan who stood by me through the highs and lows. Blood. Sweat. Sarifice. Pride. I gave it all. Now, I’m ready to play for the love of the game again. Captaincy ends. The journey continues,” she concluded. Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022. She also commanded the team to a historic Test match win against Australia in 2023 and a breakthrough T20I series victory against England in 2025. She also surpassed leading men's captains like MS Dhoni and Rohit Sharma to become the first cricketer to captain a side in 150+ T20I matches. Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year. --IANS",
+      "url": "https://assamtribune.com/sports/harmanpreet-kaur-steps-down-as-india-captain-ends-leadership-stint-1619477",
+      "source": "The Assam Tribune",
       "primary_source": false,
       "tier": 2,
       "category": "sports",
       "secondary_categories": [],
-      "confidence": "high",
-      "score": 70.4,
+      "confidence": "medium",
+      "score": 63.2,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-06T05:51:00+00:00",
-      "published_at": "2026-10-06T05:51:00+00:00",
-      "effective_at": "2026-10-06T05:51:00+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-10-06T07:21:23+00:00",
+      "published_at": "2026-10-06T07:21:23+00:00",
+      "effective_at": "2026-10-06T07:21:23+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        },
         "ians": {
           "kind": "wire",
           "source_ids": [
@@ -668,76 +486,104 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "category: sports (importance 0.6, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'steps down' in title weight 40",
         "event term: 'world cup' in summary weight 25.2",
+        "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: breaking (2.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "delhi",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\" Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months.",
-          "Chaired by BCCI secretary Devajit Saikia, the meeting was attended by Harmanpreet, vice-captain Smriti Mandhana and head coach Amol Muzumdar."
+          "New Delhi, Oct 6: Indian women’s ODI World Cup winning skipper.",
+          "Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj."
         ],
         "body": [
-          "The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023.",
-          "\"Today, I step down as captain of the Indian Women's Cricket Team across all formats,\" she posted on her instagram account.",
-          "\"This is not an easy decision.",
-          "It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Harmanpreet said in a lengthy statement.",
-          "\"Now, I'm ready to play for the love of the game again.",
+          "“Today, I step down as captain of the Indian Women’s Cricket Team across all formats.",
+          "This is not an easy decision.",
+          "It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Kaur wrote on Instagram.",
+          "\"I have given everything I had to this team and to Indian women’s cricket — my blood, my sweat, my time, and many times, a part of my own game and personal ambitions.",
+          "There were moments when I had to put my individual performance, my own growth, and what I wanted for myself aside, because I believed the team had to come first.",
+          "“As a captain, I have had to make difficult decisions.",
+          "Decisions that were not always understood, not always easy, and sometimes came at a personal cost.",
+          "But every decision.",
+          "I made was with one intention - to make this TEAM better and to give other players the opportunity to grow, believe in themselves and become the best versions of themselves,” she added.",
+          "She etched her name in history books by becoming the first female skipper to lead the Indian team to a maiden senior ICC World Cup title by defeating South Africa on home soil.",
+          "“I have seen it all.",
+          "I have seen the lowest moments, the heartbreak, the criticism, the doubts and the days when nothing seemed to go our way.",
+          "And I have also experienced the highest highs - the victories, the celebrations, the pride of representing our country, and the moments that made every sacrifice worth it,” Kaur wrote.",
+          "Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026.",
+          "“I leave the captaincy today with a heart full of emotions, but also with PEACE.",
+          "Because I genuinely believe my team is in a good place.",
+          "A team with talent, character, belief and a future that I am incredibly excited to watch and be a part of.",
+          "I feel.",
+          "I have done my duty.",
+          "I gave this team everything.",
+          "I had.",
+          "I carried the responsibility with pride, and I will always be grateful for the privilege of leading Indian women’s cricket.",
+          "Now, it is time for me to turn the page.",
+          "“Captaincy may end today, but my love for Indian cricket never will.",
+          "Thank you to every teammate, coach, support staff, management, BCCI, family members every single fan who stood by me through the highs and lows.",
+          "Blood.",
+          "Sweat.",
+          "Sarifice.",
+          "Pride.",
+          "I gave it all.",
+          "Now, I’m ready to play for the love of the game again.",
           "Captaincy ends.",
-          "The journey continues,\" she added.",
-          "Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\" \"Because I genuinely believe my team is in a good place,\" she said."
+          "The journey continues,” she concluded.",
+          "Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022.",
+          "She also commanded the team to a historic Test match win against Australia in 2023 and a breakthrough T20I series victory against England in 2025.",
+          "She also surpassed leading men's captains like MS Dhoni and Rohit Sharma to become the first cricketer to captain a side in 150+ T20I matches.",
+          "Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year.",
+          "--IANS."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Guwahati"
+            "text": "Hangzhou"
           }
         ],
         "sentences": [
           {
-            "text": "Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\"",
-            "source": "Greater Kashmir",
-            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "text": "Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026.",
+            "source": "The Assam Tribune",
+            "item_id": "6e46717b41b3ffec479137aa",
             "composed": false
           },
           {
-            "text": "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\"",
-            "source": "Greater Kashmir",
-            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "text": "Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year.",
+            "source": "The Assam Tribune",
+            "item_id": "6e46717b41b3ffec479137aa",
             "composed": false
           },
           {
-            "text": "The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023.",
-            "source": "Greater Kashmir",
-            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "text": "Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj.",
+            "source": "The Assam Tribune",
+            "item_id": "6e46717b41b3ffec479137aa",
             "composed": false
           },
           {
-            "text": "Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months.",
-            "source": "Greater Kashmir",
-            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "text": "Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022.",
+            "source": "The Assam Tribune",
+            "item_id": "6e46717b41b3ffec479137aa",
             "composed": false
           }
         ],
-        "source": "Greater Kashmir",
+        "source": "The Assam Tribune",
         "corroborating": [],
-        "url": "https://www.greaterkashmir.com/sports/harmanpreet-kaur-steps-down-from-india-womens-team-captaincy-12627958"
+        "url": "https://assamtribune.com/sports/harmanpreet-kaur-steps-down-as-india-captain-ends-leadership-stint-1619477"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -785,7 +631,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -901,7 +747,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1011,7 +857,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1115,7 +961,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1230,7 +1076,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1333,7 +1179,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
@@ -1442,7 +1288,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 30.4, score 42 -> HIGH"
