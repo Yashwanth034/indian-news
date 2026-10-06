@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T08:42:04.805234+00:00",
-  "count": 12,
+  "generated_at": "2026-10-06T08:52:03.588941+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "932c3c2ad379afcebc62b495",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -87,6 +87,114 @@
         "source": "The Sentinel (Assam)",
         "corroborating": [],
         "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/magnitude-45-earthquake-strikes-assams-nagaon"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "d76986e90be9ab0b632fff95",
+      "story_id": "d76986e90be9ab0b632fff95",
+      "headline": "Supreme Court refuses to entertain PIL on recurring Assam floods",
+      "title": "Supreme Court refuses to entertain PIL on recurring Assam floods",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-refuses-to-entertain-pil-on-recurring-assam-floods",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T04:07:30+00:00",
+      "published_at": "2026-10-06T04:07:30+00:00",
+      "effective_at": "2026-10-06T04:07:30.181000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'floods'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in title weight 64",
+        "event term: 'supreme court' in title weight 44",
+        "scale: state scope (assam)",
+        "recency: fresh (4.7h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 39.4, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi, Oct 5: The Supreme Court on Monday refused to entertain a public interest litigation (PIL) seeking directions to ensure effective measures to prevent recurring floods, riverbank erosion and drainage-related problems in Assam and the Brahmaputra Valley.",
+        "A Bench headed by Chief Justice of India (CJI) Surya Kant, while declining to entertain the plea filed by advocate Ujjawal Gaur, directed the registry to forward a copy of the petition to all the respondent authorities, asking them to look into the issues raised and take appropriate remedial measures.",
+        "Appearing in person, Gaur submitted that the administrative lapses highlighted in the petition were amenable to judicial scrutiny and urged the apex court to issue notice to the authorities.",
+        "However, the CJI-led Bench observed that the various suggestions and deficiencies highlighted by the petitioner ought to draw the attention of the concerned authorities, but the issue was \"not essentially legal\" in nature.",
+        "Declining to entertain the PIL, the top court directed its registry to forward the petition to all the respondents, who would look into its contents and take appropriate remedial measures.",
+        "The plea had sought judicial intervention to ensure effective implementation of the statutory framework governing flood and erosion management and had proposed, among other measures, a high-level expert mechanism to examine the recurring problems.",
+        "The petitioner had contended that the recurring devastation caused by floods could not be treated as wholly inevitable when statutory frameworks and specialised institutions had been created for flood control, bank erosion and drainage management.",
+        "The plea referred to the Brahmaputra Board Act, 1980, the Assam Embankment and Drainage Act, 1953 and the River Boards Act, 1956, arguing that these laws contemplated scientific investigation, integrated river-basin planning and implementation of measures relating to floods, erosion and drainage.",
+        "It relied on successive reports of the Comptroller and Auditor General of India (CAG) which, according to the petitioner, had recorded deficiencies in flood-control planning, execution and maintenance, drainage management, floodplain management and monitoring of projects."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 5: The Supreme Court on Monday refused to entertain a public interest litigation (PIL) seeking directions to ensure effective measures to prevent recurring floods, riverbank erosion and drainage-related problems in Assam and the Brahmaputra Valley.",
+          "A Bench headed by Chief Justice of India (CJI) Surya Kant, while declining to entertain the plea filed by advocate Ujjawal Gaur, directed the registry to forward a copy of the petition to all the respondent authorities, asking them to look into the issues raised and take appropriate remedial measures."
+        ],
+        "body": [
+          "Appearing in person, Gaur submitted that the administrative lapses highlighted in the petition were amenable to judicial scrutiny and urged the apex court to issue notice to the authorities.",
+          "However, the CJI-led Bench observed that the various suggestions and deficiencies highlighted by the petitioner ought to draw the attention of the concerned authorities, but the issue was \"not essentially legal\" in nature.",
+          "Declining to entertain the PIL, the top court directed its registry to forward the petition to all the respondents, who would look into its contents and take appropriate remedial measures.",
+          "The plea had sought judicial intervention to ensure effective implementation of the statutory framework governing flood and erosion management and had proposed, among other measures, a high-level expert mechanism to examine the recurring problems.",
+          "The petitioner had contended that the recurring devastation caused by floods could not be treated as wholly inevitable when statutory frameworks and specialised institutions had been created for flood control, bank erosion and drainage management.",
+          "The plea referred to the Brahmaputra Board Act, 1980, the Assam Embankment and Drainage Act, 1953 and the River Boards Act, 1956, arguing that these laws contemplated scientific investigation, integrated river-basin planning and implementation of measures relating to floods, erosion and drainage.",
+          "It relied on successive reports of the Comptroller and Auditor General of India (CAG) which, according to the petitioner, had recorded deficiencies in flood-control planning, execution and maintenance, drainage management, floodplain management and monitoring of projects."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Assam"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Delhi, Oct 5: The Supreme Court on Monday refused to entertain a public interest litigation (PIL) seeking directions to ensure effective measures to prevent recurring floods, riverbank erosion and drainage-related problems in Assam and the Brahmaputra Valley.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "d76986e90be9ab0b632fff95:article",
+            "composed": false
+          },
+          {
+            "text": "The plea referred to the Brahmaputra Board Act, 1980, the Assam Embankment and Drainage Act, 1953 and the River Boards Act, 1956, arguing that these laws contemplated scientific investigation, integrated river-basin planning and implementation of measures relating to floods, erosion and drainage.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "d76986e90be9ab0b632fff95:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-refuses-to-entertain-pil-on-recurring-assam-floods"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -138,7 +246,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -289,7 +397,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -424,7 +532,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -534,7 +642,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -654,7 +762,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
@@ -739,7 +847,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -849,7 +957,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -953,7 +1061,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1068,7 +1176,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1130,6 +1238,343 @@
       "enrichment": "article"
     },
     {
+      "event_id": "1702c571893b0f79867ea186",
+      "story_id": "1702c571893b0f79867ea186",
+      "headline": "Supreme Court Denies Approval of Modified Form 6, Seeks Clarification on Changes",
+      "title": "Supreme Court Denies Approval of Modified Form 6, Seeks Clarification on Changes",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-denies-approval-of-modified-form-6-seeks-clarification-on-changes",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T03:41:14+00:00",
+      "published_at": "2026-10-06T03:41:14+00:00",
+      "effective_at": "2026-10-06T03:41:14.845000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (5.2h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 21.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi: The Supreme Court on Monday made it clear that it had not approved any modified version of Form 6, used for enrolling new voters in electoral rolls during the Special Intensive Revision (SIR).",
+        "Chief Justice of India (CJI) Surya Kant made the observation while hearing a plea seeking suspension and prosecution of Chief Election Commissioner Gyanesh Kumar.",
+        "\"Any modified Form 6 has not been approved by us.",
+        "Let's be clear.",
+        "When the record is produced, we would like to see who has modified,\" Kant observed during the hearing.",
+        "Earlier, in a press statement issued on September 26 after a key meeting, the Election Commission had said, \"The declaration attached to Form 6 for SIR has been upheld by the Hon'ble Supreme Court.",
+        "For non-SIR period, the Forms applicable as per Rules (the Registration of Electors Rules 1960) will be used.\"",
+        "A key grievance concerns the alteration of Form 6 during SIR of electoral rolls.",
+        "Commissioner Joshi had allegedly objected that the form could not be changed to require SIR-linked disclosures without an amendment to the Registration of Electors Rules, 1960, an objection subsequently endorsed by Sandhu."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi: The Supreme Court on Monday made it clear that it had not approved any modified version of Form 6, used for enrolling new voters in electoral rolls during the Special Intensive Revision (SIR).",
+          "Chief Justice of India (CJI) Surya Kant made the observation while hearing a plea seeking suspension and prosecution of Chief Election Commissioner Gyanesh Kumar."
+        ],
+        "body": [
+          "\"Any modified Form 6 has not been approved by us.",
+          "Let's be clear.",
+          "When the record is produced, we would like to see who has modified,\" Kant observed during the hearing.",
+          "Earlier, in a press statement issued on September 26 after a key meeting, the Election Commission had said, \"The declaration attached to Form 6 for SIR has been upheld by the Hon'ble Supreme Court.",
+          "For non-SIR period, the Forms applicable as per Rules (the Registration of Electors Rules 1960) will be used.\" A key grievance concerns the alteration of Form 6 during SIR of electoral rolls.",
+          "Commissioner Joshi had allegedly objected that the form could not be changed to require SIR-linked disclosures without an amendment to the Registration of Electors Rules, 1960, an objection subsequently endorsed by Sandhu."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Earlier, in a press statement issued on September 26 after a key meeting, the Election Commission had said, \"The declaration attached to Form 6 for SIR has been upheld by the Hon'ble Supreme Court.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1702c571893b0f79867ea186:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: The Supreme Court on Monday made it clear that it had not approved any modified version of Form 6, used for enrolling new voters in electoral rolls during the Special Intensive Revision (SIR).",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1702c571893b0f79867ea186:article",
+            "composed": false
+          },
+          {
+            "text": "For non-SIR period, the Forms applicable as per Rules (the Registration of Electors Rules 1960) will be used.\"",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1702c571893b0f79867ea186:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-denies-approval-of-modified-form-6-seeks-clarification-on-changes"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "1cd85511748c9992682600e9",
+      "story_id": "1cd85511748c9992682600e9",
+      "headline": "Supreme Court Declines Interim Suspension of CEC, Seeks Responses from Centre and ECI",
+      "title": "Supreme Court Declines Interim Suspension of CEC, Seeks Responses from Centre and ECI",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-declines-interim-suspension-of-cec-seeks-responses-from-centre-and-eci",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T03:38:05+00:00",
+      "published_at": "2026-10-06T03:38:05+00:00",
+      "effective_at": "2026-10-06T03:38:05.646000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (5.2h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 21.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi: The Supreme Court on Monday refused to pass an ex-parte interim order seeking suspension of Chief Election Commissioner (CEC) Gyanesh Kumar over allegations that key decisions relating to the Special Intensive Revision (SIR) of electoral rolls were taken unilaterally, saying the Election Commission and others must first be heard.",
+        "A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana also issued notices to the Centre, Election Commission of India (ECI), CEC Gyanesh Kumar, Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, Deputy Election Commissioner Maneesh Garg and DG (IT) Seema Khanna.",
+        "\"Let's first have authenticated information on that.",
+        "We can always annul any decision…,\" observed the bench.",
+        "The petition relied on a report claiming that 14 crucial SIR-related decisions were taken in the name of the ECI despite objections recorded by the two other Election Commissioners.",
+        "Senior advocate Vikas Singh, appearing for one of the petitioners, Rakesh Kumar Singh, sought immediate suspension of the CEC, contending that the alleged unilateral decisions posed a serious threat to electoral democracy.",
+        "Referring to Section 18 of the Chief Election Commissioner and Other Election Commissioners Act, Singh submitted that ECI decisions were required to be unanimous or, failing that, taken by majority.",
+        "As Singh sought suspension of the CEC, the bench questioned the feasibility of suspending the CEC, observing that it could stall the functioning of the poll panel.",
+        "\"Who will conduct the elections?\" the bench asked.",
+        "Singh responded that the other two.",
+        "Election Commissioners could discharge the functions.",
+        "The bench said it would have to first examine the allegations after receiving responses from the respondents."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi: The Supreme Court on Monday refused to pass an ex-parte interim order seeking suspension of Chief Election Commissioner (CEC) Gyanesh Kumar over allegations that key decisions relating to the Special Intensive Revision (SIR) of electoral rolls were taken unilaterally, saying the Election Commission and others must first be heard.",
+          "A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana also issued notices to the Centre, Election Commission of India (ECI), CEC Gyanesh Kumar, Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, Deputy Election Commissioner Maneesh Garg and DG (IT) Seema Khanna."
+        ],
+        "body": [
+          "\"Let's first have authenticated information on that.",
+          "We can always annul any decision…,\" observed the bench.",
+          "The petition relied on a report claiming that 14 crucial SIR-related decisions were taken in the name of the ECI despite objections recorded by the two other Election Commissioners.",
+          "Senior advocate Vikas Singh, appearing for one of the petitioners, Rakesh Kumar Singh, sought immediate suspension of the CEC, contending that the alleged unilateral decisions posed a serious threat to electoral democracy.",
+          "Referring to Section 18 of the Chief Election Commissioner and Other Election Commissioners Act, Singh submitted that ECI decisions were required to be unanimous or, failing that, taken by majority.",
+          "As Singh sought suspension of the CEC, the bench questioned the feasibility of suspending the CEC, observing that it could stall the functioning of the poll panel.",
+          "\"Who will conduct the elections?\" the bench asked.",
+          "Singh responded that the other two."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "New Delhi: The Supreme Court on Monday refused to pass an ex-parte interim order seeking suspension of Chief Election Commissioner (CEC) Gyanesh Kumar over allegations that key decisions relating to the Special Intensive Revision (SIR) of electoral rolls were taken unilaterally, saying the Election Commission and others must first be heard.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1cd85511748c9992682600e9:article",
+            "composed": false
+          },
+          {
+            "text": "Senior advocate Vikas Singh, appearing for one of the petitioners, Rakesh Kumar Singh, sought immediate suspension of the CEC, contending that the alleged unilateral decisions posed a serious threat to electoral democracy.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1cd85511748c9992682600e9:article",
+            "composed": false
+          },
+          {
+            "text": "The petition relied on a report claiming that 14 crucial SIR-related decisions were taken in the name of the ECI despite objections recorded by the two other Election Commissioners.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1cd85511748c9992682600e9:article",
+            "composed": false
+          },
+          {
+            "text": "Referring to Section 18 of the Chief Election Commissioner and Other Election Commissioners Act, Singh submitted that ECI decisions were required to be unanimous or, failing that, taken by majority.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "1cd85511748c9992682600e9:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-declines-interim-suspension-of-cec-seeks-responses-from-centre-and-eci"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "92539dee3f94c8c48d39cf37",
+      "story_id": "92539dee3f94c8c48d39cf37",
+      "headline": "Supreme Court Denies Bail to Shyamkanu Mahanta in Zubeen Garg Death Case",
+      "title": "Supreme Court Denies Bail to Shyamkanu Mahanta in Zubeen Garg Death Case",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-denies-bail-to-shyamkanu-mahanta-in-zubeen-garg-death-case",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T03:34:27+00:00",
+      "published_at": "2026-10-06T03:34:27+00:00",
+      "effective_at": "2026-10-06T03:34:27.852000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (5.3h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 21.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Guwahati: In a major setback, Shyamkanu Mahanta, one of the accused in the Zubeen Garg death case and currently lodged at Baksa District Jail, didn't get relief from the Supreme Court (SC) on Monday.",
+        "The apex court refused to issue a ruling on his bail plea and instead fixed November 4 as the next date for hearing.",
+        "Speaking to the media, Assam's advocate general Devajit Lon Saikia said this was the third hearing of Mahanta's bail plea.",
+        "He also mentioned that out of the 10 witnesses from Singapore in the case, the fast track court had examined the testimonies of eight.",
+        "He said the SC had been informed that testimonies of the remaining two witnesses from Singapore would be completed by October 12.",
+        "According to him, the SC fixed November 4 as the next date for hearing of Mahanta's bail plea \"after hearing our argument\".",
+        "He said the apex court had also been informed that trial was continuing in the fast track court on a day-to-day basis.",
+        "Noting that there were total 394 witnesses, Saikia was of the opinion that the testimony of all might not be required, \"but we will examine some for material witness\".",
+        "Meanwhile, commenting on the status of the Zubeen's death case in the fast track court, special public prosecutor.",
+        "Ziaul Kamar said trial proceedings were continuing in a speedy manner.",
+        "He revealed that 122 prosecution witnesses had been examined so far, including nine non-resident Indians (NRIs) in the past 70-80 working days.",
+        "Altogether 86 FIRs were filed at various police stations across the state following the sudden and mysterious death of Assam's cultural icon Zubeen Garg in Singapore in September last year."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Guwahati: In a major setback, Shyamkanu Mahanta, one of the accused in the Zubeen Garg death case and currently lodged at Baksa District Jail, didn't get relief from the Supreme Court (SC) on Monday.",
+          "The apex court refused to issue a ruling on his bail plea and instead fixed November 4 as the next date for hearing."
+        ],
+        "body": [
+          "Speaking to the media, Assam's advocate general Devajit Lon Saikia said this was the third hearing of Mahanta's bail plea.",
+          "He also mentioned that out of the 10 witnesses from Singapore in the case, the fast track court had examined the testimonies of eight.",
+          "He said the SC had been informed that testimonies of the remaining two witnesses from Singapore would be completed by October 12.",
+          "According to him, the SC fixed November 4 as the next date for hearing of Mahanta's bail plea \"after hearing our argument\".",
+          "He said the apex court had also been informed that trial was continuing in the fast track court on a day-to-day basis.",
+          "Noting that there were total 394 witnesses, Saikia was of the opinion that the testimony of all might not be required, \"but we will examine some for material witness\".",
+          "Meanwhile, commenting on the status of the Zubeen's death case in the fast track court, special public prosecutor.",
+          "Ziaul Kamar said trial proceedings were continuing in a speedy manner."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Baksa District Jail"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "He said the SC had been informed that testimonies of the remaining two witnesses from Singapore would be completed by October 12.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "92539dee3f94c8c48d39cf37:article",
+            "composed": false
+          },
+          {
+            "text": "Guwahati: In a major setback, Shyamkanu Mahanta, one of the accused in the Zubeen Garg death case and currently lodged at Baksa District Jail, didn't get relief from the Supreme Court (SC) on Monday.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "92539dee3f94c8c48d39cf37:article",
+            "composed": false
+          },
+          {
+            "text": "According to him, the SC fixed November 4 as the next date for hearing of Mahanta's bail plea \"after hearing our argument\".",
+            "source": "The Sentinel (Assam)",
+            "item_id": "92539dee3f94c8c48d39cf37:article",
+            "composed": false
+          },
+          {
+            "text": "He also mentioned that out of the 10 witnesses from Singapore in the case, the fast track court had examined the testimonies of eight.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "92539dee3f94c8c48d39cf37:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-denies-bail-to-shyamkanu-mahanta-in-zubeen-garg-death-case"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "afdadd7958c04b9fe4d7bc57",
       "story_id": "afdadd7958c04b9fe4d7bc57",
       "headline": "India’s blind women cricketers still wait for house sites and jobs a year after their World Cup win",
@@ -1171,7 +1616,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
@@ -1193,7 +1638,7 @@
         "Her parents, Timmappa and Chittemma, encouraged her to practise cricket in Bengaluru although they had many fears about her partial vision.",
         "She has been consistently playing well and won special recognition when she scored 92 runs off 45 balls against Australia in a World Cup match."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Deepika T.C. captained India to victory in the first Women’s T20 World Cup for the Blind in November 2025.",
@@ -1235,7 +1680,7 @@
         "url": "https://www.thehindu.com/news/national/andhra-pradesh/indias-blind-women-cricketers-still-wait-for-house-sites-and-jobs-a-year-after-their-world-cup-win/article71550286.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1280,7 +1725,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 30.4, score 42 -> HIGH"
@@ -1302,7 +1747,7 @@
         "He said that judgeship had given him “a great sense of satisfaction” by providing him with an opportunity to mitigate the sufferings of litigants and fulfil the constitutional promise of justice to citizens.",
         "Recalling his early days as an advocate in Lucknow, Justice Upadhyaya said he had begun his legal career under the guidance of his father and other senior members of the Lucknow Bar."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Chief Justice Devendra Kumar Upadhyaya on Tuesday bid farewell to the Delhi High Court on his elevation to the Supreme Court of India, saying that throughout his judicial career, he had tried to “bind law, justice, and compassion together.” A function was organized by the Delhi High Court today in order to bid farewell to CJ Upadhyaya, which was attended by all the judges as well as Central and Delhi Government counsels as well as lawyers.",
@@ -1356,7 +1801,7 @@
         "url": "https://www.livelaw.in/high-court/delhi-high-court/tried-to-softly-bend-law-towards-justice-chief-justice-devendra-kumar-upadhyaya-bids-farewell-to-delhi-high-court-553330"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     }
   ]
