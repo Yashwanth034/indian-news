@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T10:02:16.077407+00:00",
-  "count": 12,
+  "generated_at": "2026-10-06T10:11:50.966129+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "932c3c2ad379afcebc62b495",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 19, score 82 -> IMMEDIATE"
@@ -90,6 +90,128 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "fc8505cb04a7d805ffb3e195",
+      "story_id": "fc8505cb04a7d805ffb3e195",
+      "headline": "Indian opposition MPs detained in protest against election chief",
+      "title": "Indian opposition MPs detained in protest against election chief",
+      "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News India",
+      "primary_source": false,
+      "tier": 4,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T10:05:22+00:00",
+      "published_at": "2026-10-06T10:05:22+00:00",
+      "effective_at": "2026-10-06T10:05:22+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "bbc-india": {
+          "kind": "independent",
+          "source_ids": [
+            "bbc-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 4 (bbc-india) +0",
+        "source: international (bbc-india) +4",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 28.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Police in Delhi detained several opposition lawmakers as they tried to march demanding the chief election commissioner resign over a controversial voter roll revision.",
+        "Main opposition leader Rahul Gandhi, his sister Priyanka and other MPs were forced into a police bus.",
+        "Released shortly after, they resumed their march and began a sit-in near Election Commission headquarters.",
+        "It is the latest escalation in a growing row over a nationwide revision of voter rolls.",
+        "Opposition parties accuse Chief Election Commissioner Gyanesh Kumar of overseeing a process that could benefit Prime Minister Narendra Modi's Bharatiya Janata Party (BJP), an allegation both the BJP and Election Commission have rejected.",
+        "\"Some of the MPs tried to take some other roads to the Election Commission building.",
+        "We have officers stationed at multiple points, from where the protesters were picked up in buses and taken to different police stations,\" Additional Deputy Commissioner of Police Manjeet Sheoran told the BBC.",
+        "The police did not disclose how many lawmakers had been detained.",
+        "The opposition said 237 MPs from a range of parties participated in the march.",
+        "Tuesday's protest came just four days after the Cockroach Janta Party (CJP), a Gen Z-backed online satirical movement, organised demonstrations in Mumbai and Delhi, also demanding the CEC's resignation.",
+        "The group has described those demonstrations as the beginning of a nationwide campaign and has called for another round of protests on 10 October.",
+        "At the centre of the controversy is the Election Commission's Special Intensive Revision (SIR) of electoral rolls."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Police in Delhi detained several opposition lawmakers as they tried to march demanding the chief election commissioner resign over a controversial voter roll revision.",
+          "Main opposition leader Rahul Gandhi, his sister Priyanka and other MPs were forced into a police bus."
+        ],
+        "body": [
+          "Released shortly after, they resumed their march and began a sit-in near Election Commission headquarters.",
+          "It is the latest escalation in a growing row over a nationwide revision of voter rolls.",
+          "Opposition parties accuse Chief Election Commissioner Gyanesh Kumar of overseeing a process that could benefit Prime Minister Narendra Modi's Bharatiya Janata Party (BJP), an allegation both the BJP and Election Commission have rejected.",
+          "\"Some of the MPs tried to take some other roads to the Election Commission building.",
+          "We have officers stationed at multiple points, from where the protesters were picked up in buses and taken to different police stations,\" Additional Deputy Commissioner of Police Manjeet Sheoran told the BBC.",
+          "The police did not disclose how many lawmakers had been detained.",
+          "The opposition said 237 MPs from a range of parties participated in the march.",
+          "Tuesday's protest came just four days after the Cockroach Janta Party (CJP), a Gen Z-backed online satirical movement, organised demonstrations in Mumbai and Delhi, also demanding the CEC's resignation."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Released shortly after, they resumed their march and began a sit-in near Election Commission headquarters.",
+            "source": "BBC News India",
+            "item_id": "fc8505cb04a7d805ffb3e195:article",
+            "composed": false
+          },
+          {
+            "text": "Tuesday's protest came just four days after the Cockroach Janta Party (CJP), a Gen Z-backed online satirical movement, organised demonstrations in Mumbai and Delhi, also demanding the CEC's resignation.",
+            "source": "BBC News India",
+            "item_id": "fc8505cb04a7d805ffb3e195:article",
+            "composed": false
+          },
+          {
+            "text": "The opposition said 237 MPs from a range of parties participated in the march.",
+            "source": "BBC News India",
+            "item_id": "fc8505cb04a7d805ffb3e195:article",
+            "composed": false
+          },
+          {
+            "text": "Police in Delhi detained several opposition lawmakers as they tried to march demanding the chief election commissioner resign over a controversial voter roll revision.",
+            "source": "BBC News India",
+            "item_id": "fc8505cb04a7d805ffb3e195:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC News India",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -138,7 +260,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -246,7 +368,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -254,7 +376,7 @@
       "geo_scope": "state",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The United Nations (UN) has become gridlocked and ineffective on the biggest issues of the day, said Foreign Minister S Jaishankar on Monday, arguing that the world needs the body and should reform it rather than work around it.",
@@ -327,6 +449,444 @@
         "url": "https://www.forbesindia.com/article/news/un-is-irrelevant-but-must-be-fixed-not-bypassed-says-jaishankar/2999074/1"
       },
       "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "8e2cf50e1bafeee171d256d4",
+      "story_id": "8e2cf50e1bafeee171d256d4",
+      "headline": "INDIA bloc MPs begin march to EC demanding CEC's resignation; security tightened",
+      "title": "INDIA bloc MPs begin march to EC demanding CEC's resignation; security tightened",
+      "summary": "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls. Leaders of Opposition in the Lok Sabha Rahul Gandhi was among the leaders taking part in the march. The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters. Security personnel were stationed in the area much before the MPs began arriving. Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter. Congress MP Imran Masood accused Kumar of eroding public trust in the Election Commission. \"Across the country, the institution that Gyanesh Kumar headed was an institution the entire country trusted, an institution the entire country took pride in and felt proud of. Questions were never raised over its impartiality. One person has broken that trust,\" he told PTI Videos. \"And an entire nexus is working together. We will question Gyanesh Kumar, and the BJP chief ministers will start giving the answers,\" he alleged. CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls. \"On September 26, there was a press statement by the Commission and it was stated that the entire process related to Form 6 has been ratified by the Supreme Court. Whereas it has been proven that it is an entirely misleading statement,\" he alleged. Calling the CEC a \"Cheating Election Commissioner\", the CPI leader said opposition parties had been agitating against the provisions since 2025 and would intensify their movement. Shiv Sena (UBT) MP Sanjay Raut questioned the scale of security deployment ahead of the march, saying the MPs intended to proceed peacefully. \"We are MPs. We are members of Parliament. We are also citizens of this country. Why is there a need to deploy such a large force to stop us? We will walk and go. We are unarmed,\" he said. Raut claimed that Border Security Force and CISF personnel had been deployed and security outside ministers' residences increased. Accusing Kumar of misleading the public over the Supreme Court's position on Form 6, he said the CEC had \"no moral right\" to continue in office. The Supreme Court on Monday said it had not approved any modified version of Form 6 and would examine the Election Commission's records to ascertain whether changes had been made and who had authorised them. The observations were made while hearing a petition challenging alleged unilateral decisions by Kumar. In its September 26 statement, the Commission had said the declaration attached to Form 6 for SIR had been upheld by the Supreme Court, while forms prescribed under the Registration of Electors Rules, 1960, would be used outside the SIR period. The march comes amid an opposition campaign over alleged irregularities in the SIR exercise and reports of differences within the three-member Commission. The poll body has rejected suggestions of a split and maintained that decisions relating to SIR were taken unanimously.",
+      "url": "https://www.greaterkashmir.com/national/india-bloc-mps-begin-march-to-ec-demanding-cecs-resignation-security-tightened-12628064",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law",
+        "defence-security"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T06:15:53+00:00",
+      "published_at": "2026-10-06T06:15:53+00:00",
+      "effective_at": "2026-10-06T06:15:53+00:00",
+      "independent_source_groups": 6,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "deccan-chronicle",
+            "greater-kashmir"
+          ],
+          "count": 5
+        },
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        },
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 3
+        },
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 2
+        },
+        "ndtv": {
+          "kind": "independent",
+          "source_ids": [
+            "ndtv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 6 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 13 copies, primary source counted once",
+        "corroboration: 6 independent source groups -> high confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: state scope (delhi)",
+        "recency: fresh (3.9h ago) +4",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 34.8, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls.",
+          "Leaders of Opposition in the Lok Sabha Rahul Gandhi was among the leaders taking part in the march."
+        ],
+        "body": [
+          "The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters.",
+          "Security personnel were stationed in the area much before the MPs began arriving.",
+          "Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter.",
+          "Congress MP Imran Masood accused Kumar of eroding public trust in the Election Commission.",
+          "\"Across the country, the institution that Gyanesh Kumar headed was an institution the entire country trusted, an institution the entire country took pride in and felt proud of.",
+          "Questions were never raised over its impartiality.",
+          "One person has broken that trust,\" he told PTI Videos.",
+          "\"And an entire nexus is working together.",
+          "We will question Gyanesh Kumar, and the BJP chief ministers will start giving the answers,\" he alleged.",
+          "CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls.",
+          "\"On September 26, there was a press statement by the Commission and it was stated that the entire process related to Form 6 has been ratified by the Supreme Court.",
+          "Whereas it has been proven that it is an entirely misleading statement,\" he alleged.",
+          "Calling the CEC a \"Cheating Election Commissioner\", the CPI leader said opposition parties had been agitating against the provisions since 2025 and would intensify their movement.",
+          "Shiv Sena (UBT) MP Sanjay Raut questioned the scale of security deployment ahead of the march, saying the MPs intended to proceed peacefully.",
+          "\"We are MPs.",
+          "We are members of Parliament.",
+          "We are also citizens of this country.",
+          "Why is there a need to deploy such a large force to stop us?",
+          "We will walk and go.",
+          "We are unarmed,\" he said.",
+          "Raut claimed that Border Security Force and CISF personnel had been deployed and security outside ministers' residences increased.",
+          "Accusing Kumar of misleading the public over the Supreme Court's position on Form 6, he said the CEC had \"no moral right\" to continue in office.",
+          "The Supreme Court on Monday said it had not approved any modified version of Form 6 and would examine the Election Commission's records to ascertain whether changes had been made and who had authorised them.",
+          "The observations were made while hearing a petition challenging alleged unilateral decisions by Kumar.",
+          "In its September 26 statement, the Commission had said the declaration attached to Form 6 for SIR had been upheld by the Supreme Court, while forms prescribed under the Registration of Electors Rules, 1960, would be used outside the SIR period.",
+          "The march comes amid an opposition campaign over alleged irregularities in the SIR exercise and reports of differences within the three-member Commission.",
+          "The poll body has rejected suggestions of a split and maintained that decisions relating to SIR were taken unanimously."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Parliament"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Delhi, Oct 06: MPs of the INDIA bloc began a march from Parliament towards the Election Commission headquarters on Tuesday to demand Chief Election Commissioner Gyanesh Kumar's resignation amid allegations of irregularities in the revision of electoral rolls.",
+            "source": "Greater Kashmir",
+            "item_id": "8e2cf50e1bafeee171d256d4",
+            "composed": false
+          },
+          {
+            "text": "The march began amid heavy security deployment and barricading in and around Parliament and the Election Commission headquarters.",
+            "source": "Greater Kashmir",
+            "item_id": "8e2cf50e1bafeee171d256d4",
+            "composed": false
+          },
+          {
+            "text": "Ahead of the march, opposition MPs questioned the security arrangements and stepped up their demand for Kumar's resignation, citing the Supreme Court's observations on changes to Form 6, the statutory application for enrolment as a voter.",
+            "source": "Greater Kashmir",
+            "item_id": "8e2cf50e1bafeee171d256d4",
+            "composed": false
+          },
+          {
+            "text": "CPI MP P Sandosh Kumar said the Supreme Court's observations on Monday had strengthened the opposition's objections to the additional declaration attached to Form 6 during the Special Intensive Revision (SIR) of electoral rolls.",
+            "source": "Greater Kashmir",
+            "item_id": "8e2cf50e1bafeee171d256d4",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/national/india-bloc-mps-begin-march-to-ec-demanding-cecs-resignation-security-tightened-12628064"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "f39596e3d35c8ab52edbfdb4",
+      "story_id": "f39596e3d35c8ab52edbfdb4",
+      "headline": "Harmanpreet Kaur steps down from India women's team captaincy",
+      "title": "Harmanpreet Kaur steps down from India women's team captaincy",
+      "summary": "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\" Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months. Chaired by BCCI secretary Devajit Saikia, the meeting was attended by Harmanpreet, vice-captain Smriti Mandhana and head coach Amol Muzumdar. The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023. \"Today, I step down as captain of the Indian Women's Cricket Team across all formats,\" she posted on her instagram account. \"This is not an easy decision. It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Harmanpreet said in a lengthy statement. \"Now, I'm ready to play for the love of the game again. Captaincy ends. The journey continues,\" she added. Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\" \"Because I genuinely believe my team is in a good place,\" she said.",
+      "url": "https://www.greaterkashmir.com/sports/harmanpreet-kaur-steps-down-from-india-womens-team-captaincy-12627958",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 70.4,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T05:51:00+00:00",
+      "published_at": "2026-10-06T05:51:00+00:00",
+      "effective_at": "2026-10-06T05:51:00+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'steps down' in title weight 40",
+        "event term: 'world cup' in summary weight 25.2",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: fresh (4.3h ago) +4",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\" Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months.",
+          "Chaired by BCCI secretary Devajit Saikia, the meeting was attended by Harmanpreet, vice-captain Smriti Mandhana and head coach Amol Muzumdar."
+        ],
+        "body": [
+          "The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023.",
+          "\"Today, I step down as captain of the Indian Women's Cricket Team across all formats,\" she posted on her instagram account.",
+          "\"This is not an easy decision.",
+          "It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Harmanpreet said in a lengthy statement.",
+          "\"Now, I'm ready to play for the love of the game again.",
+          "Captaincy ends.",
+          "The journey continues,\" she added.",
+          "Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\" \"Because I genuinely believe my team is in a good place,\" she said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Guwahati"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Harmanpreet, under whom India won its maiden ODI World Cup in November last year and recently picked up a second successive Asian Games gold in the T20 format, said she is leaving the captaincy \"with a heart full of emotions, but also with peace.\"",
+            "source": "Greater Kashmir",
+            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Oct 06: Indian women's cricket team's long-serving captain Harmanpreet Kaur on Tuesday stepped down from her position in all three formats, saying that she has done her duty as leader and is now \"ready to play for the love of the game again.\"",
+            "source": "Greater Kashmir",
+            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "composed": false
+          },
+          {
+            "text": "The 37-year-old led the Indian T20 side for a decade, taking over the position in 2016, and was elevated to ODI captaincy in 2022 before becoming the all-format leader in 2023.",
+            "source": "Greater Kashmir",
+            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "composed": false
+          },
+          {
+            "text": "Harmanpreet's announcement came after a BCCI review meeting in Guwahati to evaluate the team's trajectory in the past few months.",
+            "source": "Greater Kashmir",
+            "item_id": "f39596e3d35c8ab52edbfdb4",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/sports/harmanpreet-kaur-steps-down-from-india-womens-team-captaincy-12627958"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "1f9728004c5cbbf9539042d2",
+      "story_id": "1f9728004c5cbbf9539042d2",
+      "headline": "Omar Abdullah welcomes SC scrutiny of voter deletions, rules out UCC in J&K",
+      "title": "Omar Abdullah welcomes SC scrutiny of voter deletions, rules out UCC in J&K",
+      "summary": "Srinagar, Oct 06: Jammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory. Speaking to reporters, Abdullah said the INDIA bloc had finalised a calendar of programmes during a recent meeting in Delhi, with the campaign beginning with a march by its Members of Parliament to the Election Commission. “Today’s programme was a march to the Election Commission, and this campaign will continue,” he said. Abdullah said the media had begun highlighting concerns over voter deletions, an issue he claimed had repeatedly been raised by the opposition. “It is a good thing that questions are now being raised in the Supreme Court as well,” he said, referring to the court seeking responses from the Election Commission and the Government of India on the deletion of names from electoral rolls and the basis for those deletions. “We will have to wait and see to what extent the matter can be rectified through the courts,” he added. ‘ We will not implement UCC here’ On the Uniform Civil Code, Abdullah categorically ruled out its implementation in Jammu and Kashmir and questioned the BJP’s approach of pursuing the measure through individual states. “We will not implement the Uniform Civil Code here,” he said, adding that several other state governments had also opposed its implementation. Abdullah argued that a law intended to be uniform should be debated and considered at the national level rather than introduced separately by individual states. “If they have the courage, let them bring a law in Parliament and debate it there. Let us see whether it gets passed,” he said. Claiming that the BJP did not have the numbers to secure the passage of such legislation in Parliament, Abdullah alleged that the party was pursuing the measure incrementally through states where it was in power. “That is why the BJP is implementing it gradually, state by state, which is wrong,” he said. “If we look at democracy in its true sense, this issue should be debated at the Centre and not separately in different states,” he added. Questions action against Rohingya refugeesJammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory Abdullah also questioned the action being taken against Rohingya refugees living in Jammu and Kashmir, saying they had been given shelter after fleeing their country. “Those who have come from Bangladesh without permission are a separate matter. But the Rohingya, who are being unnecessarily targeted, are a different case,” he said. He said the refugees had been allowed to stay until conditions in their country improved. “When they were driven out of their own country, we gave them shelter and some space to stay here until conditions in their country improved,” Abdullah said. “Taking action against them suddenly now seems strange to me,” he added. The chief minister, however, said the matter was beyond the control of his government, as the action was being taken by the Government of India with police assistance. “The police are not under our control either. It would be better to put these questions to those who exercise command over the police,” he said. Mobile connectivity, underground ducts On the administration’s recent decisions concerning mobile connectivity and underground utility ducts, Abdullah said the government intended to improve access in areas that remain without mobile signals and reduce repeated digging of roads. “At a time when we are talking about artificial intelligence, there are still areas in Jammu and Kashmir where mobile phone connectivity is unavailable,” he said. He said the Cabinet had decided to allot land to BSNL in areas without mobile signals to facilitate the installation of mobile towers. Explaining the decision on underground ducts, Abdullah said roads were frequently dug up by different departments to lay water pipelines, electricity infrastructure and telecommunications cables. “One department after another keeps digging up the roads,” he said. He said installing ducts during road construction would allow departments to use the same infrastructure instead of repeatedly excavating roads. “That was the purpose of the decision. Now it needs to be implemented,” he said. Asked how satisfied he was with his government’s performance as it approached two years in office, Abdullah said it was too early to assess its record. “Let two years be completed first. After that, we will tell you what we have done and what we have not done,” he said. Abdullah also declined to comment on reported remarks by former chief minister Farooq Abdullah concerning Jawaharlal Nehru, saying he had not heard the statement and did not know the context in which it was made. “I cannot comment on what was said or the context in which it was said, because I am hearing this from you for the first time,” he said.",
+      "url": "https://www.greaterkashmir.com/kashmir/omar-abdullah-welcomes-sc-scrutiny-of-voter-deletions-rules-out-ucc-in-jk-12629092",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law",
+        "transport-infrastructure",
+        "technology-digital",
+        "energy-environment",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T10:05:55+00:00",
+      "published_at": "2026-10-06T10:05:55+00:00",
+      "effective_at": "2026-10-06T10:05:55+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "routine_official: 'calendar of' in summary (penalty 7.5, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "major override dropped penalties: routine_official",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 34.8, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Srinagar, Oct 06: Jammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory.",
+          "Speaking to reporters, Abdullah said the INDIA bloc had finalised a calendar of programmes during a recent meeting in Delhi, with the campaign beginning with a march by its Members of Parliament to the Election Commission."
+        ],
+        "body": [
+          "“Today’s programme was a march to the Election Commission, and this campaign will continue,” he said.",
+          "Abdullah said the media had begun highlighting concerns over voter deletions, an issue he claimed had repeatedly been raised by the opposition.",
+          "“It is a good thing that questions are now being raised in the Supreme Court as well,” he said, referring to the court seeking responses from the Election Commission and the Government of India on the deletion of names from electoral rolls and the basis for those deletions.",
+          "“We will have to wait and see to what extent the matter can be rectified through the courts,” he added.",
+          "‘ We will not implement UCC here’ On the Uniform Civil Code, Abdullah categorically ruled out its implementation in Jammu and Kashmir and questioned the BJP’s approach of pursuing the measure through individual states.",
+          "“We will not implement the Uniform Civil Code here,” he said, adding that several other state governments had also opposed its implementation.",
+          "Abdullah argued that a law intended to be uniform should be debated and considered at the national level rather than introduced separately by individual states.",
+          "“If they have the courage, let them bring a law in Parliament and debate it there.",
+          "Let us see whether it gets passed,” he said.",
+          "Claiming that the BJP did not have the numbers to secure the passage of such legislation in Parliament, Abdullah alleged that the party was pursuing the measure incrementally through states where it was in power.",
+          "“That is why the BJP is implementing it gradually, state by state, which is wrong,” he said.",
+          "“If we look at democracy in its true sense, this issue should be debated at the Centre and not separately in different states,” he added.",
+          "Questions action against Rohingya refugeesJammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory Abdullah also questioned the action being taken against Rohingya refugees living in Jammu and Kashmir, saying they had been given shelter after fleeing their country.",
+          "“Those who have come from Bangladesh without permission are a separate matter.",
+          "But the Rohingya, who are being unnecessarily targeted, are a different case,” he said.",
+          "He said the refugees had been allowed to stay until conditions in their country improved.",
+          "“When they were driven out of their own country, we gave them shelter and some space to stay here until conditions in their country improved,” Abdullah said.",
+          "“Taking action against them suddenly now seems strange to me,” he added.",
+          "The chief minister, however, said the matter was beyond the control of his government, as the action was being taken by the Government of India with police assistance.",
+          "“The police are not under our control either.",
+          "It would be better to put these questions to those who exercise command over the police,” he said.",
+          "Mobile connectivity, underground ducts.",
+          "On the administration’s recent decisions concerning mobile connectivity and underground utility ducts, Abdullah said the government intended to improve access in areas that remain without mobile signals and reduce repeated digging of roads.",
+          "“At a time when we are talking about artificial intelligence, there are still areas in Jammu and Kashmir where mobile phone connectivity is unavailable,” he said.",
+          "He said the Cabinet had decided to allot land to BSNL in areas without mobile signals to facilitate the installation of mobile towers.",
+          "Explaining the decision on underground ducts, Abdullah said roads were frequently dug up by different departments to lay water pipelines, electricity infrastructure and telecommunications cables.",
+          "“One department after another keeps digging up the roads,” he said.",
+          "He said installing ducts during road construction would allow departments to use the same infrastructure instead of repeatedly excavating roads.",
+          "“That was the purpose of the decision.",
+          "Now it needs to be implemented,” he said.",
+          "Asked how satisfied he was with his government’s performance as it approached two years in office, Abdullah said it was too early to assess its record.",
+          "“Let two years be completed first.",
+          "After that, we will tell you what we have done and what we have not done,” he said.",
+          "Abdullah also declined to comment on reported remarks by former chief minister Farooq Abdullah concerning Jawaharlal Nehru, saying he had not heard the statement and did not know the context in which it was made.",
+          "“I cannot comment on what was said or the context in which it was said, because I am hearing this from you for the first time,” he said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Questions action against Rohingya refugeesJammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory Abdullah also questioned the action being taken against Rohingya refugees living in Jammu and Kashmir, saying they had been given shelter after fleeing their country.",
+            "source": "Greater Kashmir",
+            "item_id": "1f9728004c5cbbf9539042d2",
+            "composed": false
+          },
+          {
+            "text": "Speaking to reporters, Abdullah said the INDIA bloc had finalised a calendar of programmes during a recent meeting in Delhi, with the campaign beginning with a march by its Members of Parliament to the Election Commission.",
+            "source": "Greater Kashmir",
+            "item_id": "1f9728004c5cbbf9539042d2",
+            "composed": false
+          },
+          {
+            "text": "Srinagar, Oct 06: Jammu and Kashmir Chief Minister Omar Abdullah on Tuesday welcomed the Supreme Court’s intervention in the issue of voter deletions, said the INDIA bloc’s campaign against the Election Commission would continue and ruled out implementing the Uniform Civil Code (UCC) in the Union Territory.",
+            "source": "Greater Kashmir",
+            "item_id": "1f9728004c5cbbf9539042d2",
+            "composed": false
+          },
+          {
+            "text": "Claiming that the BJP did not have the numbers to secure the passage of such legislation in Parliament, Abdullah alleged that the party was pursuing the measure incrementally through states where it was in power.",
+            "source": "Greater Kashmir",
+            "item_id": "1f9728004c5cbbf9539042d2",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/kashmir/omar-abdullah-welcomes-sc-scrutiny-of-voter-deletions-rules-out-ucc-in-jk-12629092"
+      },
+      "group_size": 1,
       "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
@@ -373,7 +933,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -395,7 +955,7 @@
         "The stock remains under significant pressure on a longer horizon — down 33.44 per cent over one year and 17.89 per cent year-to-date, against the Nifty 500’s -4.45 per cent and -7.41 per cent respectively.",
         "Its 52-week high was ₹944.50 hit in October 2025."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Shares of Tata Chemicals Limited are trading near flat on Tuesday after touching an intraday high of ₹624.75, aided by a Supreme Court order that emerged last trading session.",
@@ -449,35 +1009,37 @@
         "url": "https://www.thehindubusinessline.com/markets/stock-markets/supreme-court-stay-lifts-tata-chemicals-off-days-low/article71550859.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
-      "event_id": "6e46717b41b3ffec479137aa",
-      "story_id": "6e46717b41b3ffec479137aa",
-      "headline": "Harmanpreet Kaur steps down as India captain, ends leadership stint",
-      "title": "Harmanpreet Kaur steps down as India captain, ends leadership stint",
-      "summary": "New Delhi, Oct 6 : Indian women’s ODI World Cup winning skipper Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj. “Today, I step down as captain of the Indian Women’s Cricket Team across all formats. This is not an easy decision. It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Kaur wrote on Instagram. \"I have given everything I had to this team and to Indian women’s cricket — my blood, my sweat, my time, and many times, a part of my own game and personal ambitions. There were moments when I had to put my individual performance, my own growth, and what I wanted for myself aside, because I believed the team had to come first. “As a captain, I have had to make difficult decisions. Decisions that were not always understood, not always easy, and sometimes came at a personal cost. But every decision I made was with one intention - to make this TEAM better and to give other players the opportunity to grow, believe in themselves and become the best versions of themselves,” she added. She etched her name in history books by becoming the first female skipper to lead the Indian team to a maiden senior ICC World Cup title by defeating South Africa on home soil. “I have seen it all. I have seen the lowest moments, the heartbreak, the criticism, the doubts and the days when nothing seemed to go our way. And I have also experienced the highest highs - the victories, the celebrations, the pride of representing our country, and the moments that made every sacrifice worth it,” Kaur wrote. Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026. “I leave the captaincy today with a heart full of emotions , but also with PEACE. Because I genuinely believe my team is in a good place. A team with talent, character, belief and a future that I am incredibly excited to watch and be a part of. I feel I have done my duty. I gave this team everything I had. I carried the responsibility with pride, and I will always be grateful for the privilege of leading Indian women’s cricket. Now, it is time for me to turn the page. “Captaincy may end today, but my love for Indian cricket never will. Thank you to every teammate, coach, support staff, management , BCCI , family members every single fan who stood by me through the highs and lows. Blood. Sweat. Sarifice. Pride. I gave it all. Now, I’m ready to play for the love of the game again. Captaincy ends. The journey continues,” she concluded. Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022. She also commanded the team to a historic Test match win against Australia in 2023 and a breakthrough T20I series victory against England in 2025. She also surpassed leading men's captains like MS Dhoni and Rohit Sharma to become the first cricketer to captain a side in 150+ T20I matches. Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year. --IANS",
-      "url": "https://assamtribune.com/sports/harmanpreet-kaur-steps-down-as-india-captain-ends-leadership-stint-1619477",
-      "source": "The Assam Tribune",
+      "event_id": "5fe78aa41da9933f4ed985e7",
+      "story_id": "5fe78aa41da9933f4ed985e7",
+      "headline": "SC normalised contempt of court acts over last decade: Mehbooba",
+      "title": "SC normalised contempt of court acts over last decade: Mehbooba",
+      "summary": "Srinagar, Oct 06: Peoples Democratic Party president Mehbooba Mufti on Monday said the judiciary makes \"lofty observations\" during case proceedings but often delivers judgments that are at odds with those remarks. Commenting on Chief Justice of India Surya Kant's observation that the Supreme Court has not approved the Election Commission's modified Form 6 for the Special Intensive Revision (SIR) of electoral rolls, Mehbooba said the judiciary has repeatedly normalised acts that amount to contempt of court over the past decade. \"So what? Over the last ten years, the judiciary has repeatedly normalised acts that amount to contempt of court and simply moved on. Lofty observations are made in court, but when the time comes to deliver a judgement, the outcome is often entirely at odds with those very remarks,\" the former Jammu and Kashmir chief minister said in an X post.",
+      "url": "https://www.greaterkashmir.com/kashmir/sc-normalised-contempt-of-court-acts-over-last-decade-mehbooba-12628460",
+      "source": "Greater Kashmir",
       "primary_source": false,
       "tier": 2,
-      "category": "sports",
-      "secondary_categories": [],
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
       "confidence": "medium",
-      "score": 63.2,
-      "priority_score": 45.0,
+      "score": 100.0,
+      "priority_score": 44.4,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-06T07:21:23+00:00",
-      "published_at": "2026-10-06T07:21:23+00:00",
-      "effective_at": "2026-10-06T07:21:23+00:00",
+      "event_time": "2026-10-06T07:35:50+00:00",
+      "published_at": "2026-10-06T07:35:50+00:00",
+      "effective_at": "2026-10-06T07:35:50+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "ians": {
+        "pti": {
           "kind": "wire",
           "source_ids": [
-            "assam-tribune"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -486,104 +1048,54 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "category: sports (importance 0.6, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'steps down' in title weight 40",
-        "event term: 'world cup' in summary weight 25.2",
-        "event term: 'match' in summary weight 4.8",
-        "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
-        "category: sports (importance 0.6) +0",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (2.6h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
       ],
-      "geo_scope": "national",
-      "state": "delhi",
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "New Delhi, Oct 6: Indian women’s ODI World Cup winning skipper.",
-          "Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj."
+          "Srinagar, Oct 06: Peoples Democratic Party president Mehbooba Mufti on Monday said the judiciary makes \"lofty observations\" during case proceedings but often delivers judgments that are at odds with those remarks.",
+          "Commenting on Chief Justice of India Surya Kant's observation that the Supreme Court has not approved the Election Commission's modified Form 6 for the Special Intensive Revision (SIR) of electoral rolls, Mehbooba said the judiciary has repeatedly normalised acts that amount to contempt of court over the past decade."
         ],
         "body": [
-          "“Today, I step down as captain of the Indian Women’s Cricket Team across all formats.",
-          "This is not an easy decision.",
-          "It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life,\" Kaur wrote on Instagram.",
-          "\"I have given everything I had to this team and to Indian women’s cricket — my blood, my sweat, my time, and many times, a part of my own game and personal ambitions.",
-          "There were moments when I had to put my individual performance, my own growth, and what I wanted for myself aside, because I believed the team had to come first.",
-          "“As a captain, I have had to make difficult decisions.",
-          "Decisions that were not always understood, not always easy, and sometimes came at a personal cost.",
-          "But every decision.",
-          "I made was with one intention - to make this TEAM better and to give other players the opportunity to grow, believe in themselves and become the best versions of themselves,” she added.",
-          "She etched her name in history books by becoming the first female skipper to lead the Indian team to a maiden senior ICC World Cup title by defeating South Africa on home soil.",
-          "“I have seen it all.",
-          "I have seen the lowest moments, the heartbreak, the criticism, the doubts and the days when nothing seemed to go our way.",
-          "And I have also experienced the highest highs - the victories, the celebrations, the pride of representing our country, and the moments that made every sacrifice worth it,” Kaur wrote.",
-          "Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026.",
-          "“I leave the captaincy today with a heart full of emotions, but also with PEACE.",
-          "Because I genuinely believe my team is in a good place.",
-          "A team with talent, character, belief and a future that I am incredibly excited to watch and be a part of.",
-          "I feel.",
-          "I have done my duty.",
-          "I gave this team everything.",
-          "I had.",
-          "I carried the responsibility with pride, and I will always be grateful for the privilege of leading Indian women’s cricket.",
-          "Now, it is time for me to turn the page.",
-          "“Captaincy may end today, but my love for Indian cricket never will.",
-          "Thank you to every teammate, coach, support staff, management, BCCI, family members every single fan who stood by me through the highs and lows.",
-          "Blood.",
-          "Sweat.",
-          "Sarifice.",
-          "Pride.",
-          "I gave it all.",
-          "Now, I’m ready to play for the love of the game again.",
-          "Captaincy ends.",
-          "The journey continues,” she concluded.",
-          "Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022.",
-          "She also commanded the team to a historic Test match win against Australia in 2023 and a breakthrough T20I series victory against England in 2025.",
-          "She also surpassed leading men's captains like MS Dhoni and Rohit Sharma to become the first cricketer to captain a side in 150+ T20I matches.",
-          "Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year.",
-          "--IANS."
+          "\"So what?",
+          "Over the last ten years, the judiciary has repeatedly normalised acts that amount to contempt of court and simply moved on.",
+          "Lofty observations are made in court, but when the time comes to deliver a judgement, the outcome is often entirely at odds with those very remarks,\" the former Jammu and Kashmir chief minister said in an X post."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Hangzhou"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Harman also led the side to a record four Asia Cup titles as captain in 2012, 2016, 2022, 2026 and also guided the team to consecutive gold medals at the Asian Games, finishing on top of the podium in Hangzhou 2022 and Aichi-Nagoya 2026.",
-            "source": "The Assam Tribune",
-            "item_id": "6e46717b41b3ffec479137aa",
+            "text": "Srinagar, Oct 06: Peoples Democratic Party president Mehbooba Mufti on Monday said the judiciary makes \"lofty observations\" during case proceedings but often delivers judgments that are at odds with those remarks.",
+            "source": "Greater Kashmir",
+            "item_id": "5fe78aa41da9933f4ed985e7",
             "composed": false
           },
           {
-            "text": "Under her leadership, the team defeated England by 270 runs in the first-ever women's Test match played at Lord's Cricket Ground earlier this year.",
-            "source": "The Assam Tribune",
-            "item_id": "6e46717b41b3ffec479137aa",
-            "composed": false
-          },
-          {
-            "text": "Harmanpreet Kaur has stepped down from captaincy across all formats after serving as the full-time T20I captain since 2018 and as the ODI captain since 2022, having taken over the reins from the legendary Mithali Raj.",
-            "source": "The Assam Tribune",
-            "item_id": "6e46717b41b3ffec479137aa",
-            "composed": false
-          },
-          {
-            "text": "Harman’s other major notable achievements as captain include leading India to their first bilateral Women's ODI series win on English soil since 1999, when the team clinched a historic win in 2022.",
-            "source": "The Assam Tribune",
-            "item_id": "6e46717b41b3ffec479137aa",
+            "text": "Commenting on Chief Justice of India Surya Kant's observation that the Supreme Court has not approved the Election Commission's modified Form 6 for the Special Intensive Revision (SIR) of electoral rolls, Mehbooba said the judiciary has repeatedly normalised acts that amount to contempt of court over the past decade.",
+            "source": "Greater Kashmir",
+            "item_id": "5fe78aa41da9933f4ed985e7",
             "composed": false
           }
         ],
-        "source": "The Assam Tribune",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://assamtribune.com/sports/harmanpreet-kaur-steps-down-as-india-captain-ends-leadership-stint-1619477"
+        "url": "https://www.greaterkashmir.com/kashmir/sc-normalised-contempt-of-court-acts-over-last-decade-mehbooba-12628460"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -606,9 +1118,9 @@
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-06T09:51:02+00:00",
-      "published_at": "2026-10-06T09:51:02+00:00",
-      "effective_at": "2026-10-06T09:51:02+00:00",
+      "event_time": "2026-10-06T10:04:50+00:00",
+      "published_at": "2026-10-06T10:04:50+00:00",
+      "effective_at": "2026-10-06T10:04:50+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "live-law": {
@@ -631,7 +1143,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -747,7 +1259,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -857,7 +1369,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -961,7 +1473,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1076,7 +1588,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1179,7 +1691,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 24, score 42 -> HIGH"
@@ -1288,7 +1800,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 30.4, score 42 -> HIGH"
