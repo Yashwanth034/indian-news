@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T16:51:51.359365+00:00",
-  "count": 16,
+  "generated_at": "2026-10-06T17:02:21.683425+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "abe90a5bc4161a3b91647584",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -165,7 +165,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -287,10 +287,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 24.4, score 58 -> HIGH"
+        "dominant event 58, stack 20.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "tamil nadu",
@@ -361,6 +361,90 @@
       "enrichment": "article"
     },
     {
+      "event_id": "ab0cfa702c8c80738561bd44",
+      "story_id": "ab0cfa702c8c80738561bd44",
+      "headline": "Air Marshal Ashutosh Dixit Appointed as the 29th Chief of the Indian Air Force, Succeeding A.P. Singh",
+      "title": "Air Marshal Ashutosh Dixit Appointed as the 29th Chief of the Indian Air Force, Succeeding A.P. Singh",
+      "summary": "The Central government on Tuesday cleared the appointment of Air Marshal Ashutosh Dixit as the next Chief of the Air Staff. Ashutosh Dixit will take charge as the nation’s 29th Indian... Read more",
+      "url": "https://defence.in/threads/air-marshal-ashutosh-dixit-appointed-as-the-29th-chief-of-the-indian-air-force-succeeding-a-p-singh.18833",
+      "source": "Defence News India",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T16:52:06+00:00",
+      "published_at": "2026-10-06T16:52:06+00:00",
+      "effective_at": "2026-10-06T16:52:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "defence-news-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "filler: 'Read more' in summary (penalty 9, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "major override dropped penalties: filler",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (defence-news-india) +1",
+        "source: specialist (defence-news-india) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'appointed as' in title weight 40",
+        "event term: 'appointed' in title weight 36",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Central government on Tuesday cleared the appointment of Air Marshal Ashutosh Dixit as the next Chief of the Air Staff.",
+          "Ashutosh Dixit will take charge as the nation’s 29th Indian..."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Central government on Tuesday cleared the appointment of Air Marshal Ashutosh Dixit as the next Chief of the Air Staff.",
+            "source": "Defence News India",
+            "item_id": "ab0cfa702c8c80738561bd44",
+            "composed": false
+          },
+          {
+            "text": "Ashutosh Dixit will take charge as the nation’s 29th Indian...",
+            "source": "Defence News India",
+            "item_id": "ab0cfa702c8c80738561bd44",
+            "composed": false
+          }
+        ],
+        "source": "Defence News India",
+        "corroborating": [],
+        "url": "https://defence.in/threads/air-marshal-ashutosh-dixit-appointed-as-the-29th-chief-of-the-indian-air-force-succeeding-a-p-singh.18833"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "a1db01426675edd65344f58d",
       "story_id": "a1db01426675edd65344f58d",
       "headline": "Supreme Court Reserves Judgment On Pleas Against Delhi HC Verdict Diluting Mandatory Attendance Requirement For Law Students",
@@ -406,7 +490,7 @@
         "event term: 'verdict' in title weight 22",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -533,7 +617,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -647,7 +731,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (7 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -745,7 +829,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -854,7 +938,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -934,141 +1018,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "cb26b31ef2e20226195e981f",
-      "story_id": "cb26b31ef2e20226195e981f",
-      "headline": "Cabinet approves proposal to set up Integrated Transport and Logistics Authority",
-      "title": "Cabinet approves proposal to set up Integrated Transport and Logistics Authority",
-      "summary": "New Delhi, Oct 6: The Union Cabinet, chaired by Prime Minister Narendra Modi, today approved the setting up of a Special Purpose Vehicle (SPV), namely, Integrated Transport & Logistics Authority (ITLA) to strengthen research, planning, appraisal, monitoring and impact assessment within the broad domains of Transportation and Logistics. The approval seeks to address the long-standing challenges arising from fragmented planning and implementation across multiple transport-related Ministries and agencies. By fostering greater coordination and multi-modal integration, ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India. ITLA will have following key roles and responsibilities: National Apex Institution: ITLA will function as the apex body for integrated transport and logistics planning, research, project appraisal and monitoring, policy support and data analytics. Long-Term National Transport Master Plan: ITLA will prepare a comprehensive National Transport Master Plan with a planning horizon of ten years or more, covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics. Integrated Planning Framework: ITLA will evaluate short-term sectoral plans (5 years or so) and annual plans of transport Ministries to ensure consistency and alignment with the National Transport Master Plan and promote multi-modal infrastructure development. Technical Appraisal of Major Projects: ITLA will undertake technical appraisal of infrastructure projects of Government of India, costing Rs.500 crore or more. Financial appraisal will continue to be carried out through the existing financial appraisal mechanisms. Monitoring and Impact Assessment: ITLA will monitor implementation of transport & infrastructure projects above Rs.500 crore and provide a coordinated mechanism for issue resolution and will undertake post-implementation impact assessment of these projects. National Transport Data Repository (NTDR): ITLA will build a unified transport data repository by obtaining relevant transport and logistics datasets from multiple sources, including GSTN e-way bill, FASTag, Vahan, GPS-based systems, urban traffic management systems and other relevant databases and carry out data analytics (e.g. Freight Flow/O-D analytics) for planning, monitoring and impact assessment. Advise and assist for review and updation of National Logistics Policy (2022) Capacity building, training, and skilling in the logistics sector. Promote Research & Innovations in transport and logistics sectors. Establishment of the ITLA will play a pivotal role in realizing India’s Vision 2047 by strengthening multimodal connectivity, improving infrastructure efficiency, reducing logistics costs, and enhancing India’s global logistics competitiveness. The ITLA will build institutional capacity for research, planning, big data integration, project monitoring, and evaluation, while supporting capacity building and adoption of international best practices.",
-      "url": "https://www.greaterkashmir.com/national/cabinet-approves-proposal-to-set-up-integrated-transport-and-logistics-authority-12629335",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [
-        "national-politics",
-        "government-policy"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-06T10:53:29+00:00",
-      "published_at": "2026-10-06T10:53:29+00:00",
-      "effective_at": "2026-10-06T10:53:29+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "yourstory": {
-          "kind": "independent",
-          "source_ids": [
-            "yourstory"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (delhi)",
-        "recency: fresh (6.0h ago) +4",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national significance (local/state event)",
-        "dominant event 44, stack 21.2, score 44 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Oct 6: The Union Cabinet, chaired by Prime Minister Narendra Modi, today approved the setting up of a Special Purpose Vehicle (SPV), namely, Integrated Transport & Logistics Authority (ITLA) to strengthen research, planning, appraisal, monitoring and impact assessment within the broad domains of Transportation and Logistics.",
-          "The approval seeks to address the long-standing challenges arising from fragmented planning and implementation across multiple transport-related Ministries and agencies."
-        ],
-        "body": [
-          "ITLA will have following key roles and responsibilities: National Apex Institution: ITLA will function as the apex body for integrated transport and logistics planning, research, project appraisal and monitoring, policy support and data analytics.",
-          "Long-Term National Transport Master Plan: ITLA will prepare a comprehensive National Transport Master Plan with a planning horizon of ten years or more, covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics.",
-          "Integrated Planning Framework: ITLA will evaluate short-term sectoral plans (5 years or so) and annual plans of transport Ministries to ensure consistency and alignment with the National Transport Master Plan and promote multi-modal infrastructure development.",
-          "Technical Appraisal of Major Projects: ITLA will undertake technical appraisal of infrastructure projects of Government of India, costing Rs.500 crore or more.",
-          "Financial appraisal will continue to be carried out through the existing financial appraisal mechanisms.",
-          "Monitoring and Impact Assessment: ITLA will monitor implementation of transport & infrastructure projects above Rs.500 crore and provide a coordinated mechanism for issue resolution and will undertake post-implementation impact assessment of these projects.",
-          "National Transport Data Repository (NTDR): ITLA will build a unified transport data repository by obtaining relevant transport and logistics datasets from multiple sources, including GSTN e-way bill, FASTag, Vahan, GPS-based systems, urban traffic management systems and other relevant databases and carry out data analytics (e.g. Freight Flow/O-D analytics) for planning, monitoring and impact assessment.",
-          "Advise and assist for review and updation of National Logistics Policy (2022) Capacity building, training, and skilling in the logistics sector.",
-          "Promote Research & Innovations in transport and logistics sectors.",
-          "Establishment of the ITLA will play a pivotal role in realizing India’s Vision 2047 by strengthening multimodal connectivity, improving infrastructure efficiency, reducing logistics costs, and enhancing India’s global logistics competitiveness.",
-          "The ITLA will build institutional capacity for research, planning, big data integration, project monitoring, and evaluation, while supporting capacity building and adoption of international best practices.",
-          "Seeks to address long-standing challenges; strengthen research, planning, appraisal, monitoring."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "By fostering greater coordination and multi-modal integration, ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "New Delhi, Oct 6: The Union Cabinet, chaired by Prime Minister Narendra Modi, today approved the setting up of a Special Purpose Vehicle (SPV), namely, Integrated Transport & Logistics Authority (ITLA) to strengthen research, planning, appraisal, monitoring and impact assessment within the broad domains of Transportation and Logistics.",
-            "source": "Greater Kashmir",
-            "item_id": "cb26b31ef2e20226195e981f",
-            "composed": false
-          },
-          {
-            "text": "By fostering greater coordination and multi-modal integration, ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India.",
-            "source": "Greater Kashmir",
-            "item_id": "cb26b31ef2e20226195e981f",
-            "composed": false
-          },
-          {
-            "text": "Integrated Planning Framework: ITLA will evaluate short-term sectoral plans (5 years or so) and annual plans of transport Ministries to ensure consistency and alignment with the National Transport Master Plan and promote multi-modal infrastructure development.",
-            "source": "Greater Kashmir",
-            "item_id": "cb26b31ef2e20226195e981f",
-            "composed": false
-          },
-          {
-            "text": "Monitoring and Impact Assessment: ITLA will monitor implementation of transport & infrastructure projects above Rs.500 crore and provide a coordinated mechanism for issue resolution and will undertake post-implementation impact assessment of these projects.",
-            "source": "Greater Kashmir",
-            "item_id": "cb26b31ef2e20226195e981f",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [
-          "The Hindu BusinessLine"
-        ],
-        "url": "https://www.greaterkashmir.com/national/cabinet-approves-proposal-to-set-up-integrated-transport-and-logistics-authority-12629335"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "5437d4777fc1ea455a056b14",
       "story_id": "5437d4777fc1ea455a056b14",
       "headline": "Cabinet approves five commissionerates for Bengaluru; former officers express concern",
@@ -1109,7 +1058,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (karnataka)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: state",
         "dominant event 44, stack 18.4, score 44 -> HIGH"
@@ -1131,7 +1080,7 @@
         "“The existing system has a clear chain of command.",
         "The new arrangement could make these established positions less significant and create confusion at different levels,” the former officer said."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Karnataka Cabinet on Tuesday approved the reorganisation of the Bengaluru police commissionerate into five commissionerates, with a Chief.",
@@ -1167,7 +1116,128 @@
         "url": "https://www.thehindu.com/news/national/karnataka/cabinet-approves-five-commissionerates-for-bengaluru-former-officers-express-concern/article71551919.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "c9ead2f2d63b715dbb79fb1b",
+      "story_id": "c9ead2f2d63b715dbb79fb1b",
+      "headline": "Cabinet approves Integrated Transport & Logistics Authority for greater efficiency",
+      "title": "Cabinet approves Integrated Transport & Logistics Authority for greater efficiency",
+      "summary": "Seeks to address long-standing challenges; strengthen research, planning, appraisal, monitoring",
+      "url": "https://www.thehindubusinessline.com/economy/cabinet-approves-integrated-transport-logistics-authority-for-greater-efficiency/article71551771.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "transport-infrastructure",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T15:01:09+00:00",
+      "published_at": "2026-10-06T15:01:09+00:00",
+      "effective_at": "2026-10-06T15:01:09+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (2.0h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national",
+        "dominant event 44, stack 29.2, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": false,
+      "article_sentences": [
+        "The Union Cabinet on Tuesday approved the setting up of a special purpose vehicle (SPV) — Integrated Transport & Logistics Authority (ITLA) - to strengthen research, planning, appraisal, monitoring and impact assessment of transportation and logistics.",
+        "“The approval seeks to address the long-standing challenges arising from fragmented planning and implementation across multiple transport-related Ministries and agencies,” per a statement issued by the government.",
+        "A long-term transport plan covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics, will be prepared by the ITLA, Union Minister Ashwini Vaishnaw said at a media briefing following the Cabinet meeting.",
+        "The ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India by fostering greater coordination and multi-modal integration.",
+        "“ITLA will prepare a comprehensive National Transport Master Plan with a planning horizon of ten years or more, covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics,” the statement highlighted.",
+        "It will evaluate short-term sectoral plans (five years or so) and annual plans of transport Ministries to ensure consistency and alignment with the National Transport Master Plan and promote multi-modal infrastructure development.",
+        "It will undertake technical appraisal of infrastructure projects of government, costing ₹500 crore or more, while financial appraisal will continue to be carried out through the existing financial appraisal mechanisms.",
+        "ITLA will also build a National Transport Data Repository, integrating datasets including GSTN e-way bills, FASTag, Vahan, GPS and urban traffic systems for freight-flow and origin-destination analytics.",
+        "It will advise on the review and updation of the National Logistics Policy, support capacity building, training and skilling, and promote research and innovation in transport and logistics.",
+        "The institution is expected to strengthen multimodal connectivity, improve infrastructure efficiency, reduce logistics costs and enhance India’s global logistics competitiveness as part of Vision 2047."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Union Cabinet on Tuesday approved the setting up of a special purpose vehicle (SPV) — Integrated Transport & Logistics Authority (ITLA) - to strengthen research, planning, appraisal, monitoring and impact assessment of transportation and logistics.",
+          "“The approval seeks to address the long-standing challenges arising from fragmented planning and implementation across multiple transport-related Ministries and agencies,” per a statement issued by the government."
+        ],
+        "body": [
+          "A long-term transport plan covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics, will be prepared by the ITLA, Union Minister Ashwini Vaishnaw said at a media briefing following the Cabinet meeting.",
+          "“ITLA will prepare a comprehensive National Transport Master Plan with a planning horizon of ten years or more, covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics,” the statement highlighted.",
+          "It will evaluate short-term sectoral plans (five years or so) and annual plans of transport Ministries to ensure consistency and alignment with the National Transport Master Plan and promote multi-modal infrastructure development.",
+          "It will undertake technical appraisal of infrastructure projects of government, costing ₹500 crore or more, while financial appraisal will continue to be carried out through the existing financial appraisal mechanisms.",
+          "ITLA will also build a National Transport Data Repository, integrating datasets including GSTN e-way bills, FASTag, Vahan, GPS and urban traffic systems for freight-flow and origin-destination analytics.",
+          "It will advise on the review and updation of the National Logistics Policy, support capacity building, training and skilling, and promote research and innovation in transport and logistics.",
+          "The institution is expected to strengthen multimodal connectivity, improve infrastructure efficiency, reduce logistics costs and enhance India’s global logistics competitiveness as part of Vision 2047."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India by fostering greater coordination and multi-modal integration."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Union Cabinet on Tuesday approved the setting up of a special purpose vehicle (SPV) — Integrated Transport & Logistics Authority (ITLA) - to strengthen research, planning, appraisal, monitoring and impact assessment of transportation and logistics.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9ead2f2d63b715dbb79fb1b:article",
+            "composed": false
+          },
+          {
+            "text": "The ITLA is expected to enhance the efficiency, sustainability and effectiveness of transport infrastructure development in India by fostering greater coordination and multi-modal integration.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9ead2f2d63b715dbb79fb1b:article",
+            "composed": false
+          },
+          {
+            "text": "The institution is expected to strengthen multimodal connectivity, improve infrastructure efficiency, reduce logistics costs and enhance India’s global logistics competitiveness as part of Vision 2047.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9ead2f2d63b715dbb79fb1b:article",
+            "composed": false
+          },
+          {
+            "text": "It will undertake technical appraisal of infrastructure projects of government, costing ₹500 crore or more, while financial appraisal will continue to be carried out through the existing financial appraisal mechanisms.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9ead2f2d63b715dbb79fb1b:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/cabinet-approves-integrated-transport-logistics-authority-for-greater-efficiency/article71551771.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1212,7 +1282,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1350,7 +1420,7 @@
         "scale: national scope",
         "scale: multi-state (2 states)",
         "scale: 1 people-affected figures",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 33.2, score 42 -> HIGH"
@@ -1504,7 +1574,7 @@
         "corroboration: 4 independent source groups -> high confidence",
         "event term: 'repo rate' in title weight 42",
         "scale: national scope",
-        "recency: fresh (10.4h ago) +4",
+        "recency: fresh (10.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 29.6, score 42 -> HIGH"
@@ -1625,7 +1695,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -1705,7 +1775,7 @@
         "event term: 'world cup' in title weight 42",
         "event term: 'match' in title weight 8",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 36, score 42 -> HIGH"
@@ -1813,7 +1883,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'monetary policy' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
