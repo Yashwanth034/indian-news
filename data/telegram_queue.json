@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T14:52:14.130687+00:00",
-  "count": 20,
+  "generated_at": "2026-10-06T15:02:17.566368+00:00",
+  "count": 21,
   "stories": [
     {
       "event_id": "138d0ec9166f1dd2008346c2",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -154,7 +154,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -270,7 +270,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -396,7 +396,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 44.4, score 49.2 -> HIGH"
@@ -481,6 +481,113 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "3c05b61b5d76e40f0a990aee",
+      "story_id": "3c05b61b5d76e40f0a990aee",
+      "headline": "India, Qatar among seven bidders as race to host 2036 Olympics takes shape",
+      "title": "India, Qatar among seven bidders as race to host 2036 Olympics takes shape",
+      "summary": "India has been confirmed as a bidder for the 2036 Olympics along with six other nations. The International Olympic Committee is set to select the host in a vote scheduled for 2029. India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games. Other bidders include Qatar, South Korea, and Germany among others striving for the prestigious event.",
+      "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/india-qatar-among-seven-bidders-as-race-to-host-2036-olympics-takes-shape/articleshow/134738663.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 86.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T11:27:44+00:00",
+      "published_at": "2026-10-06T11:27:44+00:00",
+      "effective_at": "2026-10-06T11:27:44+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        },
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: marker 'confirmed'",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'olympics' in title weight 40",
+        "event term: 'olympics' in summary weight 24",
+        "scale: national scope",
+        "recency: fresh (3.6h ago) +4",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "gujarat",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India has been confirmed as a bidder for the 2036 Olympics along with six other nations.",
+          "The International Olympic Committee is set to select the host in a vote scheduled for 2029."
+        ],
+        "body": [
+          "India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games.",
+          "Other bidders include Qatar, South Korea, and Germany among others striving for the prestigious event.",
+          "Preferred hosts will be named in ‌2028 ⁠and a final decision expected in mid-2029, the IOC said in a statement."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ahmedabad"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "India has been confirmed as a bidder for the 2036 Olympics along with six other nations.",
+            "source": "Times of India",
+            "item_id": "3c05b61b5d76e40f0a990aee",
+            "composed": false
+          },
+          {
+            "text": "India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games.",
+            "source": "Times of India",
+            "item_id": "3c05b61b5d76e40f0a990aee",
+            "composed": false
+          },
+          {
+            "text": "The International Olympic Committee is set to select the host in a vote scheduled for 2029.",
+            "source": "Times of India",
+            "item_id": "3c05b61b5d76e40f0a990aee",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
+        "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/india-qatar-among-seven-bidders-as-race-to-host-2036-olympics-takes-shape/articleshow/134738663.cms"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "d053a6c7fdbb5e1b517745b1",
       "story_id": "d053a6c7fdbb5e1b517745b1",
       "headline": "Cabinet approves Rs 10,000 crore SME Growth Fund to create future champions",
@@ -542,7 +649,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'union budget' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -678,7 +785,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -823,7 +930,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (7 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -867,119 +974,6 @@
         "url": "https://india.mongabay.com/2026/10/india-needs-a-just-adaptation-agenda-commentary"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "9a23dfabffb58bcbd0cf24a2",
-      "story_id": "9a23dfabffb58bcbd0cf24a2",
-      "headline": "Supreme Court gets three new judges, strength goes up to 37",
-      "title": "Supreme Court gets three new judges, strength goes up to 37",
-      "summary": "Chief Justice of India Surya Kant administers the oath of office to Justices Sunita Agarwal, Devendra Kumar Upadhyay and Aparesh Kumar Singh at the Supreme Court",
-      "url": "https://www.thehindu.com/news/national/cji-surya-kant-administers-oath-to-three-new-judges-judges-count-now-37-in-supreme-court/article71551291.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-06T13:45:18+00:00",
-      "published_at": "2026-10-06T13:45:18+00:00",
-      "effective_at": "2026-10-06T13:45:18+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
-        "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Chief Justice of India Surya Kant administers the oath of office to Justices Sunita Agarwal, Devendra Kumar Upadhyay and Aparesh Kumar Singh at the Supreme Court.",
-          "New Delhi, Oct 6: Chief Justice of India (CJI) Surya Kant on Tuesday administered the oath of office to three new judges of the Supreme Court -- Justices Sunita Agarwal, Devendra Kumar Upadhyaya, and Aparesh Kumar Singh."
-        ],
-        "body": [
-          "The swearing-in ceremony, which was live-streamed, was held at 3.30 p.m., marking a departure from the usual practice of administering the oath to newly appointed Supreme Court judges in the morning.",
-          "Newly appointed Supreme Court judges usually take the oath of office at 10.30 a.m., coinciding with the time when the top court assembles on working days to conduct hearings.",
-          "The three Chief Justices of the High Courts took the oath as judges of the apex court after the Centre cleared their elevation on the recommendation of the Supreme Court Collegium this week.",
-          "\"The Supreme Court Collegium in its meeting held on 28th September, 2026 has recommended elevation of the following Chief Justices of the High Courts as Judges in the Supreme Court,\" the Collegium had said in a statement uploaded on the apex court's official website.",
-          "Acting swiftly on the Collegium's recommendation, the Centre on Monday approved the elevation of Justices Agarwal, Upadhyaya, and Singh.",
-          "In a post on X, Union Minister for Law and Justice Arjun Ram Meghwal announced that the President, after consultation with CJI Surya Kant, had appointed the three Chief Justices as judges of the apex court.",
-          "Justice Agarwal, born on April 30, 1966, was appointed as a judge of the Allahabad High Court on November 21, 2011.",
-          "She became the Chief Justice of the Gujarat High Court on July 23, 2023.",
-          "Justice Upadhyaya, born on June 16, 1965, was appointed as a puisne Judge of the Allahabad High Court on November 21, 2011 and became a permanent Judge on August 6, 2013.",
-          "He became the Senior Judge of the Lucknow Bench of the Allahabad High Court on March 28, 2023.",
-          "He was appointed Chief Justice of the Bombay High Court and took the oath on July 29, 2023, before being transferred as Chief Justice of the Delhi High Court, where he took the oath on January 21, 2025.",
-          "Justice Singh, born on July 7, 1965, was appointed as an Additional Judge of the Jharkhand High Court on January 24, 2012 and was confirmed as a Permanent Judge on January 16, 2014.",
-          "He served as Acting Chief Justice of the Jharkhand High Court from December 20, 2022, to February 19, 2023.",
-          "He took the oath as Chief Justice of the Tripura High Court on April 17, 2023, and was subsequently transferred as Chief Justice of the Telangana High Court, where he took the oath on July 19, 2025.",
-          "The appointments will further strengthen the Supreme Court's judicial strength following the Centre's decision earlier this year to increase the sanctioned strength to 37, excluding the CJI.",
-          "--IANS."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "He served as Acting Chief Justice of the Jharkhand High Court from December 20, 2022, to February 19, 2023.",
-            "source": "The Assam Tribune",
-            "item_id": "d8edc1adc4f0dcec7036dfa2",
-            "composed": false
-          },
-          {
-            "text": "\"The Supreme Court Collegium in its meeting held on 28th September, 2026 has recommended elevation of the following Chief Justices of the High Courts as Judges in the Supreme Court,\" the Collegium had said in a statement uploaded on the apex court's official website.",
-            "source": "The Assam Tribune",
-            "item_id": "d8edc1adc4f0dcec7036dfa2",
-            "composed": false
-          },
-          {
-            "text": "Justice Agarwal, born on April 30, 1966, was appointed as a judge of the Allahabad High Court on November 21, 2011.",
-            "source": "The Assam Tribune",
-            "item_id": "d8edc1adc4f0dcec7036dfa2",
-            "composed": false
-          },
-          {
-            "text": "She became the Chief Justice of the Gujarat High Court on July 23, 2023.",
-            "source": "The Assam Tribune",
-            "item_id": "d8edc1adc4f0dcec7036dfa2",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [
-          "The Assam Tribune"
-        ],
-        "url": "https://www.thehindu.com/news/national/cji-surya-kant-administers-oath-to-three-new-judges-judges-count-now-37-in-supreme-court/article71551291.ece"
-      },
-      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1034,7 +1028,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1143,7 +1137,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1223,6 +1217,120 @@
       "enrichment": "article"
     },
     {
+      "event_id": "d8edc1adc4f0dcec7036dfa2",
+      "story_id": "d8edc1adc4f0dcec7036dfa2",
+      "headline": "Supreme Court gets three new judges as CJI Surya Kant administers oath",
+      "title": "Supreme Court gets three new judges as CJI Surya Kant administers oath",
+      "summary": "New Delhi, Oct 6 : Chief Justice of India (CJI) Surya Kant on Tuesday administered the oath of office to three new judges of the Supreme Court -- Justices Sunita Agarwal, Devendra Kumar Upadhyaya, and Aparesh Kumar Singh. The swearing-in ceremony, which was live-streamed, was held at 3.30 p.m., marking a departure from the usual practice of administering the oath to newly appointed Supreme Court judges in the morning. Newly appointed Supreme Court judges usually take the oath of office at 10.30 a.m., coinciding with the time when the top court assembles on working days to conduct hearings. The three Chief Justices of the High Courts took the oath as judges of the apex court after the Centre cleared their elevation on the recommendation of the Supreme Court Collegium this week. \"The Supreme Court Collegium in its meeting held on 28th September, 2026 has recommended elevation of the following Chief Justices of the High Courts as Judges in the Supreme Court,\" the Collegium had said in a statement uploaded on the apex court's official website. Acting swiftly on the Collegium's recommendation, the Centre on Monday approved the elevation of Justices Agarwal, Upadhyaya, and Singh. In a post on X, Union Minister for Law and Justice Arjun Ram Meghwal announced that the President, after consultation with CJI Surya Kant, had appointed the three Chief Justices as judges of the apex court. Justice Agarwal, born on April 30, 1966, was appointed as a judge of the Allahabad High Court on November 21, 2011. She became the Chief Justice of the Gujarat High Court on July 23, 2023. Justice Upadhyaya, born on June 16, 1965, was appointed as a puisne Judge of the Allahabad High Court on November 21, 2011 and became a permanent Judge on August 6, 2013. He became the Senior Judge of the Lucknow Bench of the Allahabad High Court on March 28, 2023. He was appointed Chief Justice of the Bombay High Court and took the oath on July 29, 2023, before being transferred as Chief Justice of the Delhi High Court, where he took the oath on January 21, 2025. Justice Singh, born on July 7, 1965, was appointed as an Additional Judge of the Jharkhand High Court on January 24, 2012 and was confirmed as a Permanent Judge on January 16, 2014. He served as Acting Chief Justice of the Jharkhand High Court from December 20, 2022, to February 19, 2023. He took the oath as Chief Justice of the Tripura High Court on April 17, 2023, and was subsequently transferred as Chief Justice of the Telangana High Court, where he took the oath on July 19, 2025. The appointments will further strengthen the Supreme Court's judicial strength following the Centre's decision earlier this year to increase the sanctioned strength to 37, excluding the CJI. --IANS",
+      "url": "https://assamtribune.com/national/supreme-court-gets-three-new-judges-as-cji-surya-kant-administers-oath-1619503",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T10:42:40+00:00",
+      "published_at": "2026-10-06T10:42:40+00:00",
+      "effective_at": "2026-10-06T10:42:40+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: marker 'confirmed'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'appointed as' in summary weight 24",
+        "event term: 'appointed' in summary weight 21.6",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "scale: multi-state (6 states)",
+        "recency: fresh (4.3h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 6: Chief Justice of India (CJI) Surya Kant on Tuesday administered the oath of office to three new judges of the Supreme Court -- Justices Sunita Agarwal, Devendra Kumar Upadhyaya, and Aparesh Kumar Singh.",
+          "The swearing-in ceremony, which was live-streamed, was held at 3.30 p.m., marking a departure from the usual practice of administering the oath to newly appointed Supreme Court judges in the morning."
+        ],
+        "body": [
+          "Newly appointed Supreme Court judges usually take the oath of office at 10.30 a.m., coinciding with the time when the top court assembles on working days to conduct hearings.",
+          "The three Chief Justices of the High Courts took the oath as judges of the apex court after the Centre cleared their elevation on the recommendation of the Supreme Court Collegium this week.",
+          "\"The Supreme Court Collegium in its meeting held on 28th September, 2026 has recommended elevation of the following Chief Justices of the High Courts as Judges in the Supreme Court,\" the Collegium had said in a statement uploaded on the apex court's official website.",
+          "Acting swiftly on the Collegium's recommendation, the Centre on Monday approved the elevation of Justices Agarwal, Upadhyaya, and Singh.",
+          "In a post on X, Union Minister for Law and Justice Arjun Ram Meghwal announced that the President, after consultation with CJI Surya Kant, had appointed the three Chief Justices as judges of the apex court.",
+          "Justice Agarwal, born on April 30, 1966, was appointed as a judge of the Allahabad High Court on November 21, 2011.",
+          "She became the Chief Justice of the Gujarat High Court on July 23, 2023.",
+          "Justice Upadhyaya, born on June 16, 1965, was appointed as a puisne Judge of the Allahabad High Court on November 21, 2011 and became a permanent Judge on August 6, 2013.",
+          "He became the Senior Judge of the Lucknow Bench of the Allahabad High Court on March 28, 2023.",
+          "He was appointed Chief Justice of the Bombay High Court and took the oath on July 29, 2023, before being transferred as Chief Justice of the Delhi High Court, where he took the oath on January 21, 2025.",
+          "Justice Singh, born on July 7, 1965, was appointed as an Additional Judge of the Jharkhand High Court on January 24, 2012 and was confirmed as a Permanent Judge on January 16, 2014.",
+          "He served as Acting Chief Justice of the Jharkhand High Court from December 20, 2022, to February 19, 2023.",
+          "He took the oath as Chief Justice of the Tripura High Court on April 17, 2023, and was subsequently transferred as Chief Justice of the Telangana High Court, where he took the oath on July 19, 2025.",
+          "The appointments will further strengthen the Supreme Court's judicial strength following the Centre's decision earlier this year to increase the sanctioned strength to 37, excluding the CJI.",
+          "--IANS."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "He served as Acting Chief Justice of the Jharkhand High Court from December 20, 2022, to February 19, 2023.",
+            "source": "The Assam Tribune",
+            "item_id": "d8edc1adc4f0dcec7036dfa2",
+            "composed": false
+          },
+          {
+            "text": "\"The Supreme Court Collegium in its meeting held on 28th September, 2026 has recommended elevation of the following Chief Justices of the High Courts as Judges in the Supreme Court,\" the Collegium had said in a statement uploaded on the apex court's official website.",
+            "source": "The Assam Tribune",
+            "item_id": "d8edc1adc4f0dcec7036dfa2",
+            "composed": false
+          },
+          {
+            "text": "Justice Agarwal, born on April 30, 1966, was appointed as a judge of the Allahabad High Court on November 21, 2011.",
+            "source": "The Assam Tribune",
+            "item_id": "d8edc1adc4f0dcec7036dfa2",
+            "composed": false
+          },
+          {
+            "text": "She became the Chief Justice of the Gujarat High Court on July 23, 2023.",
+            "source": "The Assam Tribune",
+            "item_id": "d8edc1adc4f0dcec7036dfa2",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/national/supreme-court-gets-three-new-judges-as-cji-surya-kant-administers-oath-1619503"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "7e1787583de32a0074566537",
       "story_id": "7e1787583de32a0074566537",
       "headline": "Supreme Court stay lifts Tata Chemicals off day’s low",
@@ -1265,7 +1373,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1395,7 +1503,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (delhi)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 15.2, score 44 -> HIGH"
@@ -1513,7 +1621,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1587,31 +1695,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "3c05b61b5d76e40f0a990aee",
-      "story_id": "3c05b61b5d76e40f0a990aee",
-      "headline": "India, Qatar among seven bidders as race to host 2036 Olympics takes shape",
-      "title": "India, Qatar among seven bidders as race to host 2036 Olympics takes shape",
-      "summary": "India has been confirmed as a bidder for the 2036 Olympics along with six other nations. The International Olympic Committee is set to select the host in a vote scheduled for 2029. India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games. Other bidders include Qatar, South Korea, and Germany among others striving for the prestigious event.",
-      "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/india-qatar-among-seven-bidders-as-race-to-host-2036-olympics-takes-shape/articleshow/134738663.cms",
-      "source": "Times of India",
+      "event_id": "04ec3623eda461e9fba02a7d",
+      "story_id": "04ec3623eda461e9fba02a7d",
+      "headline": "Supreme Court Gets 3 Women Judges With Justice Sunita Agarwal's Elevation",
+      "title": "Supreme Court Gets 3 Women Judges With Justice Sunita Agarwal's Elevation",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-gets-3-women-judges-with-justice-sunita-agarwals-elevation-553364",
+      "source": "LiveLaw",
       "primary_source": false,
-      "tier": 2,
-      "category": "sports",
+      "tier": 3,
+      "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 86.2,
+      "score": 60.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-06T11:27:44+00:00",
-      "published_at": "2026-10-06T11:27:44+00:00",
-      "effective_at": "2026-10-06T11:27:44+00:00",
+      "event_time": "2026-10-06T10:42:06+00:00",
+      "published_at": "2026-10-06T10:42:06+00:00",
+      "effective_at": "2026-10-06T10:42:06+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "live-law": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "live-law"
           ],
           "count": 1
         }
@@ -1620,69 +1728,84 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: marker 'confirmed'",
-        "category: sports (importance 0.6, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'olympics' in title weight 40",
-        "event term: 'olympics' in summary weight 24",
+        "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
-        "category: sports (importance 0.6) +0",
+        "recency: fresh (4.3h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 40, stack 44, score 44 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "gujarat",
+      "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "With the appointment of Justice Sunita Agarwal, former Chief Justice of the Gujarat High Court, the Supreme Court now has three sitting women judges.",
+        "The highest number of women judges the Supreme Court had at a time was 4, when Justices Indira Banerjee, Hima Kohli, BV Nagarathna and Bela Trivedi were present simultaneously from August 2021 till Justice Banerjee's retirement in September 2022.",
+        "Justice Hima Kohli retired in September 2024 followed by Justice Bela M. Trivedi in May 2025.",
+        "After Justice Trivedi retired in May 2025, Justice Nagarathna was the sole woman judge until the elevation of Justice Mohana a year later.",
+        "Notably, this is the second appointment of a woman judge by the Chief Justice of India Surya Kant-led Collegium after Justice Mohana.",
+        "With the present additions, the Supreme Court's working strength stands at 37 judges, with one vacancy against the sanctioned strength of 38 judges, which will be reduced to one more with the upcoming retirement of Justice Satish Chandra Sharma in November.",
+        "It may be noted that the sanctioned strength was increased from 34 to 38 judges recently."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "India has been confirmed as a bidder for the 2036 Olympics along with six other nations.",
-          "The International Olympic Committee is set to select the host in a vote scheduled for 2029."
+          "With the appointment of Justice Sunita Agarwal, former Chief Justice of the Gujarat High Court, the Supreme Court now has three sitting women judges.",
+          "The highest number of women judges the Supreme Court had at a time was 4, when Justices Indira Banerjee, Hima Kohli, BV Nagarathna and Bela Trivedi were present simultaneously from August 2021 till Justice Banerjee's retirement in September 2022."
         ],
         "body": [
-          "India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games.",
-          "Other bidders include Qatar, South Korea, and Germany among others striving for the prestigious event.",
-          "Preferred hosts will be named in ‌2028 ⁠and a final decision expected in mid-2029, the IOC said in a statement."
+          "Justice Hima Kohli retired in September 2024 followed by Justice Bela M. Trivedi in May 2025.",
+          "After Justice Trivedi retired in May 2025, Justice Nagarathna was the sole woman judge until the elevation of Justice Mohana a year later.",
+          "Notably, this is the second appointment of a woman judge by the Chief Justice of India Surya Kant-led Collegium after Justice Mohana.",
+          "With the present additions, the Supreme Court's working strength stands at 37 judges, with one vacancy against the sanctioned strength of 38 judges, which will be reduced to one more with the upcoming retirement of Justice Satish Chandra Sharma in November.",
+          "It may be noted that the sanctioned strength was increased from 34 to 38 judges recently."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ahmedabad"
+            "text": "September"
           }
         ],
         "sentences": [
           {
-            "text": "India has been confirmed as a bidder for the 2036 Olympics along with six other nations.",
-            "source": "Times of India",
-            "item_id": "3c05b61b5d76e40f0a990aee",
+            "text": "The highest number of women judges the Supreme Court had at a time was 4, when Justices Indira Banerjee, Hima Kohli, BV Nagarathna and Bela Trivedi were present simultaneously from August 2021 till Justice Banerjee's retirement in September 2022.",
+            "source": "LiveLaw",
+            "item_id": "04ec3623eda461e9fba02a7d:article",
             "composed": false
           },
           {
-            "text": "India's proposal centers around Ahmedabad, which aims to leverage its experience hosting events like the Commonwealth Games.",
-            "source": "Times of India",
-            "item_id": "3c05b61b5d76e40f0a990aee",
+            "text": "Justice Hima Kohli retired in September 2024 followed by Justice Bela M. Trivedi in May 2025.",
+            "source": "LiveLaw",
+            "item_id": "04ec3623eda461e9fba02a7d:article",
             "composed": false
           },
           {
-            "text": "The International Olympic Committee is set to select the host in a vote scheduled for 2029.",
-            "source": "Times of India",
-            "item_id": "3c05b61b5d76e40f0a990aee",
+            "text": "With the present additions, the Supreme Court's working strength stands at 37 judges, with one vacancy against the sanctioned strength of 38 judges, which will be reduced to one more with the upcoming retirement of Justice Satish Chandra Sharma in November.",
+            "source": "LiveLaw",
+            "item_id": "04ec3623eda461e9fba02a7d:article",
+            "composed": false
+          },
+          {
+            "text": "After Justice Trivedi retired in May 2025, Justice Nagarathna was the sole woman judge until the elevation of Justice Mohana a year later.",
+            "source": "LiveLaw",
+            "item_id": "04ec3623eda461e9fba02a7d:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
-        "corroborating": [
-          "Deccan Chronicle"
-        ],
-        "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/india-qatar-among-seven-bidders-as-race-to-host-2036-olympics-takes-shape/articleshow/134738663.cms"
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-gets-3-women-judges-with-justice-sunita-agarwals-elevation-553364"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "e0a5e187447988c32f276bdb",
@@ -1726,7 +1849,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1855,7 +1978,7 @@
         "scale: national scope",
         "scale: multi-state (2 states)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 31.2, score 42 -> HIGH"
@@ -1990,7 +2113,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -2108,7 +2231,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'monetary policy' in title weight 40",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -2227,7 +2350,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
@@ -2346,7 +2469,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 39.4, score 39.4 -> HIGH"
