@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T02:41:59.055423+00:00",
+  "generated_at": "2026-10-07T02:52:07.558084+00:00",
   "count": 7,
   "stories": [
     {
@@ -58,7 +58,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (assam)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 39.4, score 58 -> HIGH"
@@ -304,7 +304,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 20.4, score 49.2 -> HIGH"
@@ -414,7 +414,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -554,7 +554,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -617,6 +617,91 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "1ee803917675772249a456a8",
+      "story_id": "1ee803917675772249a456a8",
+      "headline": "Supreme Court revives grower's claim after police destroyed $37K legal hemp",
+      "title": "Supreme Court revives grower's claim after police destroyed $37K legal hemp",
+      "summary": "In 2021, Georgia police aircraft allegedly destroyed $37,000 worth of legally grown hemp during a drug-suppression operation. Six years later, the Georgia Supreme Court revived the grower’s compensation claim, overturning a 60-year-old precedent that broadly shielded government agencies from property-damage claims when acting under police powers. The ruling allows the lawsuit to proceed, though damages have not yet been awarded.",
+      "url": "https://timesofindia.indiatimes.com/world/us/in-2021-georgia-police-aircraft-destroyed-37000-worth-of-legal-hemp-six-years-later-supreme-court-revives-growers-claim-overturning-60-year-old-precedent/articleshow/134750270.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety",
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-06T22:02:27+00:00",
+      "published_at": "2026-10-06T22:02:27+00:00",
+      "effective_at": "2026-10-06T22:02:27+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: fresh (4.8h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "In 2021, Georgia police aircraft allegedly destroyed $37,000 worth of legally grown hemp during a drug-suppression operation.",
+          "Six years later, the Georgia Supreme Court revived the grower’s compensation claim, overturning a 60-year-old precedent that broadly shielded government agencies from property-damage claims when acting under police powers."
+        ],
+        "body": [
+          "The ruling allows the lawsuit to proceed, though damages have not yet been awarded."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "In 2021, Georgia police aircraft allegedly destroyed $37,000 worth of legally grown hemp during a drug-suppression operation.",
+            "source": "Times of India",
+            "item_id": "1ee803917675772249a456a8",
+            "composed": false
+          },
+          {
+            "text": "Six years later, the Georgia Supreme Court revived the grower’s compensation claim, overturning a 60-year-old precedent that broadly shielded government agencies from property-damage claims when acting under police powers.",
+            "source": "Times of India",
+            "item_id": "1ee803917675772249a456a8",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/world/us/in-2021-georgia-police-aircraft-destroyed-37000-worth-of-legal-hemp-six-years-later-supreme-court-revives-growers-claim-overturning-60-year-old-precedent/articleshow/134750270.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "3e36e1122cb067c6d327181f",
       "story_id": "3e36e1122cb067c6d327181f",
       "headline": "Cabinet celebrates Modi’s 25-year head of Govt run",
@@ -672,7 +757,7 @@
         "scale: national scope",
         "scale: multi-state (2 states)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 31.2, score 42 -> HIGH"
@@ -818,7 +903,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 34.8, stack 40.8, score 40.8 -> HIGH"
@@ -918,126 +1003,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "eb6fe107143c41ab06b21c10",
-      "story_id": "eb6fe107143c41ab06b21c10",
-      "headline": "India among 7 bidders to host 2036 Olympics",
-      "title": "India among 7 bidders to host 2036 Olympics",
-      "summary": "New Delhi’s bid plan centres around Ahmedabad city",
-      "url": "https://www.thehansindia.com/sports/india-among-7-bidders-to-host-2036-olympics-1129769",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "sports",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 81.4,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-06T23:10:51+00:00",
-      "published_at": "2026-10-06T23:10:51+00:00",
-      "effective_at": "2026-10-06T23:10:51+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: sports (importance 0.6, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'olympics' in title weight 40",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
-        "category: sports (importance 0.6) +0",
-        "geo: national",
-        "dominant event 40, stack 26, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Lausanne: The ambitions of India to host the 2036 Olympics were confirmed on Tuesday by the IOC among seven bidders in the race.",
-        "India and Qatar have long been seen as favoured candidates in a hosting contest the IOC aims to decide in 2029 by a contested vote of its 100-plus members.",
-        "The members include Nita Ambani from India's richest family, and the Emir of Qatar, Sheikh Tamim bin Hamad Al Thani.",
-        "The International Olympic Committee said South Africa, South Korea, Germany, Hungary and Turkey also are in talks about a future hosting option with the 2040 edition and even 2044 also in view.",
-        "“But wherever the Games take place, one thing must never change: Athletes have to be at the heart of everything we do,” said IOC President Kirsty Coventry, a two-time swimming gold medallist.",
-        "The IOC set an October 31 deadline for other national Olympic bodies to join the 2036 contest.",
-        "It also published a 30-page document on Tuesday to guide bidders.",
-        "India’s bid plan centers on the city of Ahmedabad, which will host the multi-sport Commonwealth Games in 2030 and has the world’s largest cricket stadium which is named after Prime Minister Narendra Modi.",
-        "Qatar has hosted world championships in most top-tier Olympic sports, including soccer’s 2022 World Cup.",
-        "Its bid could yet expand from Doha to send some events to Gulf neighbours.",
-        "A Qatar-hosted Olympics should require the Summer Games to move from the July-August slot it has occupied at each edition from 2004 in Athens through 2032 in Brisbane.",
-        "A South Korean bid would be anchored in Seoul, which hosted the 1988 Summer Games, and spread across the country."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Lausanne: The ambitions of India to host the 2036 Olympics were confirmed on Tuesday by the IOC among seven bidders in the race.",
-          "India and Qatar have long been seen as favoured candidates in a hosting contest the IOC aims to decide in 2029 by a contested vote of its 100-plus members."
-        ],
-        "body": [
-          "The members include Nita Ambani from India's richest family, and the Emir of Qatar, Sheikh Tamim bin Hamad Al Thani.",
-          "The International Olympic Committee said South Africa, South Korea, Germany, Hungary and Turkey also are in talks about a future hosting option with the 2040 edition and even 2044 also in view.",
-          "“But wherever the Games take place, one thing must never change: Athletes have to be at the heart of everything we do,” said IOC President Kirsty Coventry, a two-time swimming gold medallist.",
-          "The IOC set an October 31 deadline for other national Olympic bodies to join the 2036 contest.",
-          "It also published a 30-page document on Tuesday to guide bidders.",
-          "India’s bid plan centers on the city of Ahmedabad, which will host the multi-sport Commonwealth Games in 2030 and has the world’s largest cricket stadium which is named after Prime Minister Narendra Modi.",
-          "Qatar has hosted world championships in most top-tier Olympic sports, including soccer’s 2022 World Cup.",
-          "Its bid could yet expand from Doha to send some events to Gulf neighbours."
-        ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "31 dead"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The IOC set an October 31 deadline for other national Olympic bodies to join the 2036 contest.",
-            "source": "The Hans India",
-            "item_id": "eb6fe107143c41ab06b21c10:article",
-            "composed": false
-          },
-          {
-            "text": "The International Olympic Committee said South Africa, South Korea, Germany, Hungary and Turkey also are in talks about a future hosting option with the 2040 edition and even 2044 also in view.",
-            "source": "The Hans India",
-            "item_id": "eb6fe107143c41ab06b21c10:article",
-            "composed": false
-          },
-          {
-            "text": "Lausanne: The ambitions of India to host the 2036 Olympics were confirmed on Tuesday by the IOC among seven bidders in the race.",
-            "source": "The Hans India",
-            "item_id": "eb6fe107143c41ab06b21c10:article",
-            "composed": false
-          },
-          {
-            "text": "It also published a 30-page document on Tuesday to guide bidders.",
-            "source": "The Hans India",
-            "item_id": "eb6fe107143c41ab06b21c10:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/sports/india-among-7-bidders-to-host-2036-olympics-1129769"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     }
   ]
 }
