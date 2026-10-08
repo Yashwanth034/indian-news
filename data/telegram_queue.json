@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T17:21:33.933030+00:00",
-  "count": 8,
+  "generated_at": "2026-10-08T17:32:01.367655+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "6665db482be982a3555495ff",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (gujarat)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -126,7 +126,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -207,7 +207,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 21.2, score 49.2 -> HIGH"
@@ -326,7 +326,7 @@
         "event term: 'drought' in summary weight 21.6",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: state scope (karnataka)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 43.2, score 49.2 -> HIGH"
@@ -465,20 +465,27 @@
         "crime-public-safety",
         "government-policy"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
-      "priority_score": 44.4,
+      "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-10-08T14:27:46+00:00",
       "published_at": "2026-10-08T14:27:46+00:00",
       "effective_at": "2026-10-08T14:27:46+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
           ],
           "count": 1
         }
@@ -487,19 +494,21 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'judgment' in summary weight 10.8",
         "scale: state scope (delhi)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
+        "dominant event 26.4, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "delhi",
@@ -630,7 +639,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
@@ -731,7 +740,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'verdict' in summary weight 13.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 39.6, score 44 -> HIGH"
@@ -840,7 +849,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: state",
         "dominant event 40, stack 20, score 40 -> HIGH"
@@ -873,6 +882,139 @@
         "source": "Sportstar",
         "corroborating": [],
         "url": "https://sportstar.thehindu.com/other-sports/tamil-nadu-cm-joseph-vijay-announcement-dream-olympics-2036-scheme-athletes-recognition-asian-games-medallists/article71559877.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "daec9ebf7d5577112794d4c4",
+      "story_id": "daec9ebf7d5577112794d4c4",
+      "headline": "Elon Musk again stirs the Starlink India pot",
+      "title": "Elon Musk again stirs the Starlink India pot",
+      "summary": "Elon Musk on Thursday questioned why Starlink is yet to receive a licence to operate in India, saying the satellite internet company has spent five years complying with the country’s laws and government requirements.“Starlink is licensed in over 165 countries and has spent five years complying with every single law and requirement of the government of India, so why still no license?” Musk said in a post on X.Also read: Musk pitches Starlink for India's no-internet, no-network areas a day after 'oligarchs' charge&mdash; elonmusk (@elonmusk) The remarks come a day after the SpaceX founder accused unnamed “oligarchs” of blocking Starlink’s entry into India to protect their business interests.Unfortunately, we are being blocked by certain oligarchs in order to maintain their monopolistic chokehold on the Indian people,” Musk had said on Wednesday. “You can guess who they are … This is a crime against the people of India!”Starlink awaits final approvalsStarlink has secured a satellite communication permit and authorisation from India’s space regulator, but is still awaiting a security clearance from the government before it can begin commercial services.The company is not alone in waiting for the final approvals. Bharti Group-backed Eutelsat OneWeb and Jio Satellite also have the required satcom permit and space-sector authorisation but are awaiting security clearance. The companies also need spectrum to launch commercial services, with the government expected to take a decision on spectrum pricing.At the India Mobile Congress on Wednesday, SpaceX vice president for Starlink business operations Lauren Dreyer said the company had built 20 gateway sites and hundreds of antennas in India and had adapted its operations to meet Indian security and regulatory requirements, including keeping Indian user data within the country.“We built our Starlink operations specifically for India in recognition of Indian security requirements and other regulations, establishing controls of every layer for India, and keeping Indian user data within India,” Dreyer said.She said Starlink had spent five years working with Indian regulators, industry and telecom operators to prepare for its entry into the Indian market.Also read: Elon Musk says Starlink's entry in India 'blocked' by oligarchs, alleges 'monopolistic chokehold'Musk presses India on Starlink entryDreyer said Starlink’s management was in regular contact with authorities to resolve outstanding issues and that the company was ready to begin operations once approvals were completed.“Hopefully, next time I address the Congress, the government’s good work will have been complete and Starlink will be authorised and ready and reporting on stories here,” she said. “We’re ready to work with the government, ready to work with operators, ready to work with industry to this end.”Starlink has also signed letters of intent with the state governments of Maharashtra and Meghalaya to explore connectivity for remote communities and public institutions.In March 2025, Starlink signed agreements with Bharti Airtel and Reliance Jio covering network equipment distribution, business connectivity and rural connectivity.Dreyer said the company was seeking to work with Indian telecom operators and state governments as it prepared for a commercial launch.",
+      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/elon-musk-asks-why-starlink-still-lacks-india-licence-after-five-years-of-compliance/articleshow/134793306.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "technology-digital",
+        "business-industry",
+        "science-space",
+        "agriculture-rural",
+        "crime-public-safety"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 38.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-08T14:25:39+00:00",
+      "published_at": "2026-10-08T14:25:39+00:00",
+      "effective_at": "2026-10-08T14:25:39+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        },
+        "forbes-india": {
+          "kind": "independent",
+          "source_ids": [
+            "forbes-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'final' in summary weight 6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: fresh (3.1h ago) +4",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 6, stack 38.4, score 38.4 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Elon Musk on Thursday questioned why Starlink is yet to receive a licence to operate in India, saying the satellite internet company has spent five years complying with the country’s laws and government requirements.",
+          "“Starlink is licensed in over 165 countries and has spent five years complying with every single law and requirement of the government of India, so why still no license?” Musk said in a post on X.Also read: Musk pitches Starlink for India's no-internet, no-network areas a day after 'oligarchs' charge— elonmusk (@elonmusk) The remarks come a day after the SpaceX founder accused unnamed “oligarchs” of blocking Starlink’s entry into India to protect their business interests."
+        ],
+        "body": [
+          "Unfortunately, we are being blocked by certain oligarchs in order to maintain their monopolistic chokehold on the Indian people,” Musk had said on Wednesday.",
+          "“You can guess who they are… This is a crime against the people of India!” Starlink awaits final approvalsStarlink has secured a satellite communication permit and authorisation from India’s space regulator, but is still awaiting a security clearance from the government before it can begin commercial services.",
+          "The company is not alone in waiting for the final approvals.",
+          "Bharti Group-backed Eutelsat OneWeb and Jio Satellite also have the required satcom permit and space-sector authorisation but are awaiting security clearance.",
+          "At the India Mobile Congress on Wednesday, SpaceX vice president for Starlink business operations Lauren Dreyer said the company had built 20 gateway sites and hundreds of antennas in India and had adapted its operations to meet Indian security and regulatory requirements, including keeping Indian user data within the country.",
+          "“We built our Starlink operations specifically for India in recognition of Indian security requirements and other regulations, establishing controls of every layer for India, and keeping Indian user data within India,” Dreyer said.",
+          "She said Starlink had spent five years working with Indian regulators, industry and telecom operators to prepare for its entry into the Indian market.",
+          "Also read: Elon Musk says Starlink's entry in India 'blocked' by oligarchs, alleges 'monopolistic chokehold'Musk presses India on Starlink entryDreyer said Starlink’s management was in regular contact with authorities to resolve outstanding issues and that the company was ready to begin operations once approvals were completed.",
+          "“Hopefully, next time.",
+          "I address the Congress, the government’s good work will have been complete and Starlink will be authorised and ready and reporting on stories here,” she said.",
+          "“We’re ready to work with the government, ready to work with operators, ready to work with industry to this end.” Starlink has also signed letters of intent with the state governments of Maharashtra and Meghalaya to explore connectivity for remote communities and public institutions.",
+          "In March 2025, Starlink signed agreements with Bharti Airtel and Reliance Jio covering network equipment distribution, business connectivity and rural connectivity.",
+          "Dreyer said the company was seeking to work with Indian telecom operators and state governments as it prepared for a commercial launch."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The companies also need spectrum to launch commercial services, with the government expected to take a decision on spectrum pricing."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "At the India Mobile Congress on Wednesday, SpaceX vice president for Starlink business operations Lauren Dreyer said the company had built 20 gateway sites and hundreds of antennas in India and had adapted its operations to meet Indian security and regulatory requirements, including keeping Indian user data within the country.",
+            "source": "The Economic Times",
+            "item_id": "daec9ebf7d5577112794d4c4",
+            "composed": false
+          },
+          {
+            "text": "Elon Musk on Thursday questioned why Starlink is yet to receive a licence to operate in India, saying the satellite internet company has spent five years complying with the country’s laws and government requirements.",
+            "source": "The Economic Times",
+            "item_id": "daec9ebf7d5577112794d4c4",
+            "composed": false
+          },
+          {
+            "text": "In March 2025, Starlink signed agreements with Bharti Airtel and Reliance Jio covering network equipment distribution, business connectivity and rural connectivity.",
+            "source": "The Economic Times",
+            "item_id": "daec9ebf7d5577112794d4c4",
+            "composed": false
+          },
+          {
+            "text": "Starlink awaits final approvalsStarlink has secured a satellite communication permit and authorisation from India’s space regulator, but is still awaiting a security clearance from the government before it can begin commercial services.",
+            "source": "The Economic Times",
+            "item_id": "daec9ebf7d5577112794d4c4",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/elon-musk-asks-why-starlink-still-lacks-india-licence-after-five-years-of-compliance/articleshow/134793306.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
