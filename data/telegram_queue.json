@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:11:46.331886+00:00",
+  "generated_at": "2026-10-09T08:21:42.969173+00:00",
   "count": 17,
   "stories": [
     {
@@ -42,7 +42,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 82, stack 41.2, score 82 -> IMMEDIATE"
@@ -158,7 +158,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -269,7 +269,7 @@
         "event term: 'election results' in title weight 64",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -395,7 +395,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -417,7 +417,7 @@
         "People aware of the developments said the TMC had reached out to the BRS to garner support for Kumar's resignation.",
         "The BRS's public statement signals agreement on this issue, even though the two parties have distinct political interests and operate in different states."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Bharat Rashtra Samithi has demanded Chief Election Commissioner Gyanesh Kumar's resignation, adding to the Opposition's campaign over alleged irregularities in the Special Intensive Revision of electoral rolls.",
@@ -465,8 +465,93 @@
         "url": "https://english.mathrubhumi.com/news/india/brs-backs-gyanesh-kumars-removal-opposition-campaign-rqj6yv28"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "19e975c564ba9b194c13c964",
+      "story_id": "19e975c564ba9b194c13c964",
+      "headline": "Supreme Court gives nod for local body elections in AP",
+      "title": "Supreme Court gives nod for local body elections in AP",
+      "summary": "The Supreme Court clears the way for Andhra Pradesh local body elections, directing authorities to use the revised electoral roll if the SIR process is complete, or the existing voter list otherwise.",
+      "url": "https://www.thehansindia.com/andhra-pradesh/supreme-court-gives-nod-for-local-body-elections-in-ap-1130614",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 82.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-09T08:12:30+00:00",
+      "published_at": "2026-10-09T08:12:30+00:00",
+      "effective_at": "2026-10-09T08:12:30+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'gives nod' in title weight 40",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court clears the way for Andhra Pradesh local body elections, directing authorities to use the revised electoral roll if the SIR process is complete, or the existing voter list otherwise.",
+          "'SIR cannot be a ground to delay the polls', the Court said."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "'SIR cannot be a ground to delay the polls', the Court said.",
+            "source": "LiveLaw",
+            "item_id": "3504296123e93dd837299c95",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court clears the way for Andhra Pradesh local body elections, directing authorities to use the revised electoral roll if the SIR process is complete, or the existing voter list otherwise.",
+            "source": "The Hans India",
+            "item_id": "19e975c564ba9b194c13c964",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "LiveLaw"
+        ],
+        "url": "https://www.thehansindia.com/andhra-pradesh/supreme-court-gives-nod-for-local-body-elections-in-ap-1130614"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "6a6cc9d5ce82e982643681dc",
@@ -516,7 +601,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -524,7 +609,7 @@
       "geo_scope": "state",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court on Friday rejected a plea seeking a direction to the Centre, the Delhi government and police to ensure an independent and fair probe into the Cockroach Janta Party-led protest at Jantar Mantar in July.",
@@ -565,7 +650,7 @@
         "url": "https://www.business-standard.com/india-news/sc-rejects-plea-seeking-independent-probe-into-cjp-s-july-protest-126100900488_1.html"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -611,7 +696,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -727,7 +812,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -834,7 +919,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -933,7 +1018,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "geo: state",
         "dominant event 44, stack 15, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1053,7 +1138,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1133,129 +1218,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "3504296123e93dd837299c95",
-      "story_id": "3504296123e93dd837299c95",
-      "headline": "Andhra Pradesh Local Body Elections | Conduct Polls As Per Old Rolls If SIR Not Complete Before Notification: Supreme Court",
-      "title": "Andhra Pradesh Local Body Elections | Conduct Polls As Per Old Rolls If SIR Not Complete Before Notification: Supreme Court",
-      "summary": "'SIR cannot be a ground to delay the polls', the Court said.",
-      "url": "https://www.livelaw.in/top-stories/andhra-pradesh-local-body-elections-conduct-polls-as-per-old-rolls-if-sir-not-complete-before-notification-supreme-court-553872",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "medium",
-      "score": 72.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-09T07:26:10+00:00",
-      "published_at": "2026-10-09T07:26:10+00:00",
-      "effective_at": "2026-10-09T07:26:10+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Friday clarified that the ongoing Special Intensive Revision (SIR) of electoral rolls cannot be a ground to delay local body elections in Andhra Pradesh, and that the polls should be conducted using the existing electoral rolls if the revised SIR rolls are not published before the election notification.",
-        "A bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V Mohana passed the clarification while hearing a challenge to the Andhra Pradesh High Court's October 1 order directing the State Election Commission (SEC) and the State Government to expeditiously commence the process of holding elections to rural and urban local bodies, preferably within six weeks.",
-        "The bench noted that the Election Commission of India (ECI) had proposed to publish the final SIR electoral rolls on October 16, 2026, while the SEC had not yet notified the local body elections.",
-        "The Court clarified that the revised SIR electoral rolls would be used for the elections if the revision exercise was completed before the election notification.",
-        "However, if the final SIR rolls were not published before the notification, the elections would be conducted using the existing electoral rolls in accordance with the applicable State laws.",
-        "Senior Advocate C Aryama Sundaram, appearing for the petitioner, argued that the High Court's direction to commence the election process within six weeks, based on the electoral rolls as of January 1, 2026, could not be sustained if the SIR exercise was completed in the meantime.",
-        "He submitted that the ECI had indicated that the revision process in Andhra Pradesh was in its final phase and that the final rolls would be published shortly.",
-        "During the hearing, Sundaram submitted that approximately 44 lakh voters had been removed from the rolls on the ground that they did not exist, while new voters had also been added.",
-        "He said the ECI had indicated that the exercise would be completed by October 16.",
-        "The bench asked the SEC on whether it disputed that the revised electoral rolls would apply if the elections were notified after the publication of the final SIR list.",
-        "Senior Advocate K Parameshwar, for the SEC, submitted that elections had not yet been notified and that the electoral rolls in force would continue to apply until a fresh list was published by the ECI.",
-        "The bench examined the relevant provisions of the Andhra Pradesh Panchayat Raj Act, 1994, and the Andhra Pradesh Municipalities Act, 1995, which govern the preparation of electoral rolls for local body elections."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Friday clarified that the ongoing Special Intensive Revision (SIR) of electoral rolls cannot be a ground to delay local body elections in Andhra Pradesh, and that the polls should be conducted using the existing electoral rolls if the revised SIR rolls are not published before the election notification.",
-          "A bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V Mohana passed the clarification while hearing a challenge to the Andhra Pradesh High Court's October 1 order directing the State Election Commission (SEC) and the State Government to expeditiously commence the process of holding elections to rural and urban local bodies, preferably within six weeks."
-        ],
-        "body": [
-          "The bench noted that the Election Commission of India (ECI) had proposed to publish the final SIR electoral rolls on October 16, 2026, while the SEC had not yet notified the local body elections.",
-          "The Court clarified that the revised SIR electoral rolls would be used for the elections if the revision exercise was completed before the election notification.",
-          "However, if the final SIR rolls were not published before the notification, the elections would be conducted using the existing electoral rolls in accordance with the applicable State laws.",
-          "Senior Advocate C Aryama Sundaram, appearing for the petitioner, argued that the High Court's direction to commence the election process within six weeks, based on the electoral rolls as of January 1, 2026, could not be sustained if the SIR exercise was completed in the meantime.",
-          "He submitted that the ECI had indicated that the revision process in Andhra Pradesh was in its final phase and that the final rolls would be published shortly.",
-          "During the hearing, Sundaram submitted that approximately 44 lakh voters had been removed from the rolls on the ground that they did not exist, while new voters had also been added.",
-          "He said the ECI had indicated that the exercise would be completed by October 16.",
-          "The bench asked the SEC on whether it disputed that the revised electoral rolls would apply if the elections were notified after the publication of the final SIR list."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The bench noted that the Election Commission of India (ECI) had proposed to publish the final SIR electoral rolls on October 16, 2026, while the SEC had not yet notified the local body elections.",
-            "source": "LiveLaw",
-            "item_id": "3504296123e93dd837299c95:article",
-            "composed": false
-          },
-          {
-            "text": "Senior Advocate C Aryama Sundaram, appearing for the petitioner, argued that the High Court's direction to commence the election process within six weeks, based on the electoral rolls as of January 1, 2026, could not be sustained if the SIR exercise was completed in the meantime.",
-            "source": "LiveLaw",
-            "item_id": "3504296123e93dd837299c95:article",
-            "composed": false
-          },
-          {
-            "text": "He said the ECI had indicated that the exercise would be completed by October 16.",
-            "source": "LiveLaw",
-            "item_id": "3504296123e93dd837299c95:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Friday clarified that the ongoing Special Intensive Revision (SIR) of electoral rolls cannot be a ground to delay local body elections in Andhra Pradesh, and that the polls should be conducted using the existing electoral rolls if the revised SIR rolls are not published before the election notification.",
-            "source": "LiveLaw",
-            "item_id": "3504296123e93dd837299c95:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/andhra-pradesh-local-body-elections-conduct-polls-as-per-old-rolls-if-sir-not-complete-before-notification-supreme-court-553872"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "46f39f0772a6a8edf3de4389",
       "story_id": "46f39f0772a6a8edf3de4389",
       "headline": "Supreme Court rejects plea seeking free hand for Delhi Police to deal with protesters",
@@ -1298,7 +1260,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1397,7 +1359,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1502,7 +1464,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1608,7 +1570,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -1722,7 +1684,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -1847,7 +1809,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 0, stack 38.8, score 38.8 -> HIGH"
