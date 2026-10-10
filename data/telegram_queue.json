@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:51:41.687176+00:00",
+  "generated_at": "2026-10-10T16:02:29.053431+00:00",
   "count": 9,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -137,7 +137,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -159,7 +159,7 @@
         "Condemning the language used by the BJP president, Mr. Gehlot alleged he could not have made such remarks without instructions from Union Home Minister Amit Shah.",
         "\"When the president of the ruling party uses language as if he were a Minister or the Home Minister, it means he has received instructions from the government on what to say at the press conference,\" Mr. Gehlot alleged."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Former Rajasthan Chief Minister Ashok Gehlot on Saturday (October 10, 2026) accused the BJP of trying to discredit the opposition for raising questions over the Election Commission.",
@@ -195,37 +195,38 @@
         "url": "https://www.thehindu.com/news/national/bjp-discrediting-opposition-for-raising-questions-over-election-commission-ashok-gehlot/article71569089.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
-      "event_id": "04d2cb010be71bb4e3286a98",
-      "story_id": "04d2cb010be71bb4e3286a98",
-      "headline": "Supreme Court to hear contempt plea over Delhi Metro shutdown during CJP protest",
-      "title": "Supreme Court to hear contempt plea over Delhi Metro shutdown during CJP protest",
-      "summary": "Supreme Court to hear contempt plea over Delhi Metro shutdown during CJP protest",
-      "url": "https://www.indiatoday.in/india/story/delhi-metro-shutdown-supreme-court-hears-contempt-plea-over-cjp-protest-curbs-ptag-3014428-2026-10-10",
-      "source": "India Today",
+      "event_id": "43d91594b943b94049099fa7",
+      "story_id": "43d91594b943b94049099fa7",
+      "headline": "Centre appoints Prakash Rajpurohit as Deputy Election Commissioner",
+      "title": "Centre appoints Prakash Rajpurohit as Deputy Election Commissioner",
+      "summary": "Senior bureaucrat Prakash Rajpurohit has been appointed as Deputy Election Commissioner as part of a major bureaucratic reshuffle effected by the Centre on Saturday. Rajpurohit, a 2010 batch IAS officer of Rajasthan cadre, has been appointed to the post for a tenure up to April 8, 2030, in place of Sanjay Kumar, according to a Personnel Ministry order. Vivek Khare, a 1996 batch Indian Telecom Service officer, will be Joint Secretary, National Testing Agency (NTA), it said. The Appointments Committee of the Cabinet (ACC) has approved appointments of 27 civil servants at joint secretary and equivalent levels. Ravi Shankar, Chittaranjan Dash, P Manoj Kumar and Abhishek Bhagotia have been appointed as joint secretaries in the Ministry of Home Affairs. Mohammed Y Safirulla K and Ritu Sharma will be joint secretaries in the Department of Health and Family Welfare. Varnali Deka, a 2009 batch IAS officer of Assam-Meghalaya cadre, has been appointed as Joint Secretary, National Health ...",
+      "url": "https://www.business-standard.com/india-news/centre-appoints-prakash-rajpurohit-as-deputy-election-commissioner-126101000751_1.html",
+      "source": "Business Standard",
       "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
+      "tier": 3,
+      "category": "national-politics",
       "secondary_categories": [
-        "transport-infrastructure"
+        "government-policy",
+        "technology-digital"
       ],
       "confidence": "medium",
       "score": 100.0,
-      "priority_score": 45.0,
+      "priority_score": 58.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-10T15:36:38+00:00",
-      "published_at": "2026-10-10T15:36:38+00:00",
-      "effective_at": "2026-10-10T15:36:38+00:00",
+      "event_time": "2026-10-10T15:40:15+00:00",
+      "published_at": "2026-10-10T15:40:15+00:00",
+      "effective_at": "2026-10-10T15:40:15+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
+        "pti": {
+          "kind": "wire",
           "source_ids": [
-            "india-today"
+            "business-standard"
           ],
           "count": 1
         }
@@ -235,14 +236,108 @@
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'appointed as' in summary weight 24",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "scale: multi-state (3 states)",
+        "recency: breaking (0.4h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Senior bureaucrat Prakash Rajpurohit has been appointed as Deputy Election Commissioner as part of a major bureaucratic reshuffle effected by the Centre on Saturday.",
+          "Rajpurohit, a 2010 batch IAS officer of Rajasthan cadre, has been appointed to the post for a tenure up to April 8, 2030, in place of Sanjay Kumar, according to a Personnel Ministry order."
+        ],
+        "body": [
+          "Vivek Khare, a 1996 batch Indian Telecom Service officer, will be Joint Secretary, National Testing Agency (NTA), it said.",
+          "The Appointments Committee of the Cabinet (ACC) has approved appointments of 27 civil servants at joint secretary and equivalent levels.",
+          "Ravi Shankar, Chittaranjan Dash, P Manoj Kumar and Abhishek Bhagotia have been appointed as joint secretaries in the Ministry of Home Affairs.",
+          "Mohammed Y Safirulla K and Ritu Sharma will be joint secretaries in the Department of Health and Family Welfare.",
+          "Varnali Deka, a 2009 batch IAS officer of Assam-Meghalaya cadre, has been appointed as Joint Secretary, National Health..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Senior bureaucrat Prakash Rajpurohit has been appointed as Deputy Election Commissioner as part of a major bureaucratic reshuffle effected by the Centre on Saturday.",
+            "source": "Business Standard",
+            "item_id": "43d91594b943b94049099fa7",
+            "composed": false
+          },
+          {
+            "text": "The Appointments Committee of the Cabinet (ACC) has approved appointments of 27 civil servants at joint secretary and equivalent levels.",
+            "source": "Business Standard",
+            "item_id": "43d91594b943b94049099fa7",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/centre-appoints-prakash-rajpurohit-as-deputy-election-commissioner-126101000751_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "4a0c3679d9e7a0fd217cb1a8",
+      "story_id": "4a0c3679d9e7a0fd217cb1a8",
+      "headline": "Supreme Court Bar bodies seek details, safety of lawyers detained during protest",
+      "title": "Supreme Court Bar bodies seek details, safety of lawyers detained during protest",
+      "summary": "The Supreme Court Bar Association and Supreme Court Advocates-on-Record Association sought Chief Justice Surya Kant’s intervention over lawyers’ detention during a Delhi protest. SCBA president Pradeep Kumar Rai later said the lawyers had reportedly been released following the CJI’s intervention",
+      "url": "https://telanganatoday.com/supreme-court-bar-bodies-seek-details-safety-of-lawyers-detained-during-protest",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-10T10:41:43+00:00",
+      "published_at": "2026-10-10T10:41:43+00:00",
+      "effective_at": "2026-10-10T10:41:43+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "rumour: 'reportedly' in summary (penalty 3, active)",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 97.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -253,40 +348,34 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Supreme Court special hearing tomorrow on pleas over Delhi protest curbs, detentions.",
-          "In the petition, advocate Shailendra Mani Tripathi argued that the shutdown violated the Supreme Court’s October 9 order, which barred blanket bans that cause hardship to ordinary commuters."
+          "The Supreme Court Bar Association and Supreme Court Advocates-on-Record Association sought Chief Justice Surya Kant’s intervention over lawyers’ detention during a Delhi protest.",
+          "SCBA president Pradeep Kumar Rai later said the lawyers had reportedly been released following the CJI’s intervention."
         ],
         "body": [
-          "A contempt petition before the Supreme Court alleges Delhi authorities violated an October 9 order against completely suspending Metro services ahead of a proposed protest.",
-          "The petitioner claims station gates remained shut and services were curtailed despite the court’s directions.",
-          "The Supreme Court Bar Association and Supreme Court Advocates-on-Record Association sought Chief Justice Surya Kant’s intervention over lawyers’ detention during a Delhi protest.",
-          "SCBA president Pradeep Kumar Rai later said the lawyers had reportedly been released following the CJI’s intervention.",
           "The Supreme Court will hear the matter in a special Sunday sitting tomorrow."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "A contempt petition before the Supreme Court alleges Delhi authorities violated an October 9 order against completely suspending Metro services ahead of a proposed protest.",
-            "source": "Telangana Today",
-            "item_id": "cf007c4d7e0db8a9ce2689d3",
-            "composed": false
-          },
-          {
             "text": "The Supreme Court will hear the matter in a special Sunday sitting tomorrow.",
             "source": "LiveLaw",
             "item_id": "4087d847ac8c4750a7e944f8",
             "composed": false
+          },
+          {
+            "text": "The Supreme Court Bar Association and Supreme Court Advocates-on-Record Association sought Chief Justice Surya Kant’s intervention over lawyers’ detention during a Delhi protest.",
+            "source": "Telangana Today",
+            "item_id": "4a0c3679d9e7a0fd217cb1a8",
+            "composed": false
           }
         ],
-        "source": "India Today",
+        "source": "Telangana Today",
         "corroborating": [
-          "The Hindu",
-          "Telangana Today",
           "LiveLaw"
         ],
-        "url": "https://www.indiatoday.in/india/story/delhi-metro-shutdown-supreme-court-hears-contempt-plea-over-cjp-protest-curbs-ptag-3014428-2026-10-10"
+        "url": "https://telanganatoday.com/supreme-court-bar-bodies-seek-details-safety-of-lawyers-detained-during-protest"
       },
-      "group_size": 7,
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -336,7 +425,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -426,7 +515,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -476,106 +565,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "6eb80e9567c6a193c1f0453a",
-      "story_id": "6eb80e9567c6a193c1f0453a",
-      "headline": "\"Today’s Delhi is chilling reminder of Kashmir\": Mehbooba Compares Delhi Restrictions to Post-Article 370 Kashmir Lockdown",
-      "title": "\"Today’s Delhi is chilling reminder of Kashmir\": Mehbooba Compares Delhi Restrictions to Post-Article 370 Kashmir Lockdown",
-      "summary": "Srinagar, Oct 10 : PDP president Mehbooba Mufti has drawn parallels between the restrictions in Delhi and the situation in Kashmir following the abrogation of Article 370 in August 2019, alleging that protests were being suppressed and public dissent could later be denied. In a post on X, Mehbooba Mufti wrote, \"Today’s Delhi is a chilling reminder of Kashmir after the unconstitutional abrogation of Article 370. People were locked in their homes, the internet was shut down, and an entire region was placed under siege. The BJP then brazenly claimed that nobody had protested.\" \"Today, with Delhi under siege, trains halted and roads to Jantar Mantar sealed, they may repeat the same lie, claiming that nobody protested against Gyanesh Kumar. First crush the protest, then deny it ever happened. This is how enforced silence is passed off as consent.\" the post reads.",
-      "url": "https://risingkashmir.com/breaking/mehboobamuftidelhirestrictionsarticle370-12663312",
-      "source": "Rising Kashmir",
-      "primary_source": false,
-      "tier": 3,
-      "category": null,
-      "secondary_categories": [
-        "transport-infrastructure",
-        "national-politics",
-        "technology-digital"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-10T09:59:14+00:00",
-      "published_at": "2026-10-10T09:59:14+00:00",
-      "effective_at": "2026-10-10T09:59:14+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "rising-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (rising-kashmir) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'lockdown' in title weight 42",
-        "event term: 'unconstitutional' in summary weight 24",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (5.9h ago) +4",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Srinagar, Oct 10: PDP president Mehbooba Mufti has drawn parallels between the restrictions in Delhi and the situation in Kashmir following the abrogation of Article 370 in August 2019, alleging that protests were being suppressed and public dissent could later be denied.",
-          "In a post on X, Mehbooba Mufti wrote, \"Today’s Delhi is a chilling reminder of Kashmir after the unconstitutional abrogation of Article 370."
-        ],
-        "body": [
-          "People were locked in their homes, the internet was shut down, and an entire region was placed under siege.",
-          "The BJP then brazenly claimed that nobody had protested.\" \"Today, with Delhi under siege, trains halted and roads to Jantar Mantar sealed, they may repeat the same lie, claiming that nobody protested against Gyanesh Kumar.",
-          "First crush the protest, then deny it ever happened.",
-          "This is how enforced silence is passed off as consent.\" the post reads."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Delhi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Srinagar, Oct 10: PDP president Mehbooba Mufti has drawn parallels between the restrictions in Delhi and the situation in Kashmir following the abrogation of Article 370 in August 2019, alleging that protests were being suppressed and public dissent could later be denied.",
-            "source": "Rising Kashmir",
-            "item_id": "6eb80e9567c6a193c1f0453a",
-            "composed": false
-          },
-          {
-            "text": "In a post on X, Mehbooba Mufti wrote, \"Today’s Delhi is a chilling reminder of Kashmir after the unconstitutional abrogation of Article 370.",
-            "source": "Rising Kashmir",
-            "item_id": "6eb80e9567c6a193c1f0453a",
-            "composed": false
-          },
-          {
-            "text": "\"Today, with Delhi under siege, trains halted and roads to Jantar Mantar sealed, they may repeat the same lie, claiming that nobody protested against Gyanesh Kumar.",
-            "source": "Rising Kashmir",
-            "item_id": "6eb80e9567c6a193c1f0453a",
-            "composed": false
-          }
-        ],
-        "source": "Rising Kashmir",
-        "corroborating": [],
-        "url": "https://risingkashmir.com/breaking/mehboobamuftidelhirestrictionsarticle370-12663312"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "38a2cef67ab151c832c18c8b",
       "story_id": "38a2cef67ab151c832c18c8b",
       "headline": "ED Moves Supreme Court Against Delhi HC Order Quashing Money Laundering Case Against NewsClick & Prabir Purkayastha",
@@ -617,7 +606,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -723,7 +712,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (haryana)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: state",
         "dominant event 44, stack 17.2, score 44 -> HIGH"
@@ -840,7 +829,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 18.8, score 42 -> HIGH"
