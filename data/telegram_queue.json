@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T12:41:45.660840+00:00",
-  "count": 5,
+  "generated_at": "2026-10-10T12:52:04.318023+00:00",
+  "count": 4,
   "stories": [
     {
       "event_id": "d895feacb65cfb3df65e7db6",
@@ -19,7 +19,7 @@
         "defence-security",
         "technology-digital"
       ],
-      "confidence": "medium",
+      "confidence": "low",
       "score": 100.0,
       "priority_score": 49.2,
       "priority_level": "HIGH",
@@ -34,10 +34,10 @@
           "source_ids": [
             "greater-kashmir"
           ],
-          "count": 1
+          "count": 2
         }
       },
-      "is_wire_echo": false,
+      "is_wire_echo": true,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
@@ -47,12 +47,13 @@
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
         "event term: 'war' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -129,111 +130,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "307776ae3293d03e7693b0c0",
-      "story_id": "307776ae3293d03e7693b0c0",
-      "headline": "Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays",
-      "title": "Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays",
-      "summary": "Tata Motors Ltd said it has increased the takeover offer price for Italian truck maker Iveco Group NV by 0.30 euro per share to 14.40 euro per share, citing delay in authorisation process. In 2025, Tata Motors announced plans to acquire Iveco, excluding its defence business, for 3.8 billion euro (nearly Rs 38,240 crore) through TML CV Holdings Pte Ltd. The commercial vehicle major earlier offered 14.10 euro per share, valuing the transaction at 3.82 billion euro. Tata Motors started an all-cash voluntary tender offer for all outstanding common shares of Iveco in September. The acceptance period runs from September 7 to October 26, 2026, with Iveco Group shareholders scheduled to vote on related resolutions at an extraordinary general meeting on October 16. Iveco Group's board of directors unanimously supported the deal and has recommended that shareholders tender their shares and vote in favour of the earlier offer. While noting that the previous offer price already represented fu",
-      "url": "https://www.business-standard.com/industry/auto/tata-motors-raises-iveco-takeover-offer-to-14-4-euro-per-share-amid-delays-126101000233_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "business-industry",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 90.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-10T06:43:40+00:00",
-      "published_at": "2026-10-10T06:43:40+00:00",
-      "effective_at": "2026-10-10T06:43:40+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: business-industry (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'takeover' in title weight 42",
-        "event term: 'takeover' in summary weight 25.2",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: business-industry (importance 1) +1.2",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Tata Motors Ltd said it has increased the takeover offer price for Italian truck maker Iveco Group NV by 0.30 euro per share to 14.40 euro per share, citing delay in authorisation process.",
-          "In 2025, Tata Motors announced plans to acquire Iveco, excluding its defence business, for 3.8 billion euro (nearly Rs 38,240 crore) through TML CV Holdings Pte Ltd."
-        ],
-        "body": [
-          "Tata Motors started an all-cash voluntary tender offer for all outstanding common shares of Iveco in September.",
-          "The acceptance period runs from September 7 to October 26, 2026, with Iveco Group shareholders scheduled to vote on related resolutions at an extraordinary general meeting on October 16.",
-          "Iveco Group's board of directors unanimously supported the deal and has recommended that shareholders tender their shares and vote in favour of the earlier offer.",
-          "While noting that the previous offer price already represented fu."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "September"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The acceptance period runs from September 7 to October 26, 2026, with Iveco Group shareholders scheduled to vote on related resolutions at an extraordinary general meeting on October 16.",
-            "source": "Business Standard",
-            "item_id": "307776ae3293d03e7693b0c0",
-            "composed": false
-          },
-          {
-            "text": "Tata Motors started an all-cash voluntary tender offer for all outstanding common shares of Iveco in September.",
-            "source": "Business Standard",
-            "item_id": "307776ae3293d03e7693b0c0",
-            "composed": false
-          },
-          {
-            "text": "Tata Motors Ltd said it has increased the takeover offer price for Italian truck maker Iveco Group NV by 0.30 euro per share to 14.40 euro per share, citing delay in authorisation process.",
-            "source": "Business Standard",
-            "item_id": "307776ae3293d03e7693b0c0",
-            "composed": false
-          },
-          {
-            "text": "In 2025, Tata Motors announced plans to acquire Iveco, excluding its defence business, for 3.8 billion euro (nearly Rs 38,240 crore) through TML CV Holdings Pte Ltd.",
-            "source": "Business Standard",
-            "item_id": "307776ae3293d03e7693b0c0",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/industry/auto/tata-motors-raises-iveco-takeover-offer-to-14-4-euro-per-share-amid-delays-126101000233_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "b3a055b2092cd1a35a3eb771",
       "story_id": "b3a055b2092cd1a35a3eb771",
       "headline": "Enforced silence: Mehbooba attacks BJP over curbs amid CJP stir in Delhi, compares with Kashmir",
@@ -282,7 +178,7 @@
         "event term: 'unconstitutional' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (7.5h ago) +4",
+        "recency: fresh (7.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -392,7 +288,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
@@ -485,7 +381,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
