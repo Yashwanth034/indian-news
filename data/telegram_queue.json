@@ -1,7 +1,98 @@
 {
-  "generated_at": "2026-10-10T15:21:50.698460+00:00",
-  "count": 9,
+  "generated_at": "2026-10-10T15:32:21.136703+00:00",
+  "count": 10,
   "stories": [
+    {
+      "event_id": "eacc5750c7cb001cfeeee558",
+      "story_id": "eacc5750c7cb001cfeeee558",
+      "headline": "Earthquake of magnitude 4.2 hits Uttarakhand's Uttarkashi",
+      "title": "Earthquake of magnitude 4.2 hits Uttarakhand's Uttarkashi",
+      "summary": "A 4.2-magnitude earthquake struck Uttarkashi, Uttarakhand, on Saturday night, with its epicentre around 2 km northwest of the district headquarters and a focal depth of 11 km.",
+      "url": "https://timesofindia.indiatimes.com/city/dehradun/4-2-magnitude-earthquake-hits-uttarkashi-epicentre-near-district-headquarters/articleshow/134856854.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 82.0,
+      "priority_level": "IMMEDIATE",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-10T15:24:45+00:00",
+      "published_at": "2026-10-10T15:24:45+00:00",
+      "effective_at": "2026-10-10T15:24:45+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Earthquake'",
+        "major: significance event 'earthquake'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'earthquake' in title weight 82",
+        "event term: 'earthquake' in summary weight 49.2",
+        "scale: state scope (uttarakhand)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 82, stack 45, score 82 -> IMMEDIATE"
+      ],
+      "geo_scope": "state",
+      "state": "uttarakhand",
+      "national_significance": true,
+      "article_sentences": [
+        "measuring 4.2 on the Richter scale.",
+        "The epicentre was reported to be approximately two kilometres northwest of the Uttarkashi district headquarters.",
+        "According to recorded data, the earthquake struck at 8:07:30 pm, with a focal depth of 11 kilometres below the surface."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "measuring 4.2 on the Richter scale.",
+          "The epicentre was reported to be approximately two kilometres northwest of the Uttarkashi district headquarters."
+        ],
+        "body": [
+          "According to recorded data, the earthquake struck at 8:07:30 pm, with a focal depth of 11 kilometres below the surface.",
+          "A 4.2-magnitude earthquake struck Uttarkashi, Uttarakhand, on Saturday night, with its epicentre around 2 km northwest of the district headquarters and a focal depth of 11 km."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "According to recorded data, the earthquake struck at 8:07:30 pm, with a focal depth of 11 kilometres below the surface.",
+            "source": "Times of India",
+            "item_id": "eacc5750c7cb001cfeeee558:article",
+            "composed": false
+          },
+          {
+            "text": "A 4.2-magnitude earthquake struck Uttarkashi, Uttarakhand, on Saturday night, with its epicentre around 2 km northwest of the district headquarters and a focal depth of 11 km.",
+            "source": "Times of India",
+            "item_id": "eacc5750c7cb001cfeeee558",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/city/dehradun/4-2-magnitude-earthquake-hits-uttarkashi-epicentre-near-district-headquarters/articleshow/134856854.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
     {
       "event_id": "594a69972fca288218ca6bf0",
       "story_id": "594a69972fca288218ca6bf0",
@@ -47,7 +138,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -169,7 +260,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -272,7 +363,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -361,7 +452,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -451,7 +542,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -545,7 +636,7 @@
         "event term: 'unconstitutional' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -642,7 +733,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -748,7 +839,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (haryana)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: state",
         "dominant event 44, stack 17.2, score 44 -> HIGH"
@@ -865,7 +956,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 18.8, score 42 -> HIGH"
