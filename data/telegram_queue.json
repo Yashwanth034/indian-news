@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T12:02:24.618287+00:00",
-  "count": 5,
+  "generated_at": "2026-10-11T12:12:06.116134+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "340256770683484a7b0924c1",
@@ -62,7 +62,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -187,7 +187,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -280,19 +280,12 @@
       "event_time": "2026-10-11T07:39:38+00:00",
       "published_at": "2026-10-11T07:39:38+00:00",
       "effective_at": "2026-10-11T07:39:38+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
           ],
           "count": 1
         },
@@ -308,19 +301,19 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -392,6 +385,113 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "d0b9101cfec1b72fb31f4a4b",
+      "story_id": "d0b9101cfec1b72fb31f4a4b",
+      "headline": "Delhi CJP Protest News Live Updates: \"There Is Right To Protest But Should Be Within Police Act,\" Says Supreme Court",
+      "title": "Delhi CJP Protest News Live Updates: \"There Is Right To Protest But Should Be Within Police Act,\" Says Supreme Court",
+      "summary": "Jantar Mantar Delhi CJP Protest Live Updates: The police have not granted permission for the protest",
+      "url": "https://www.ndtv.com/india-news/delhi-cjp-protest-live-updates-jantar-mantar-2-0-gyanesh-kumar-metro-stations-road-closure-traffic-advisory-trains-cancelled-delhi-police-election-com-12164478",
+      "source": "NDTV",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-11T09:35:38+00:00",
+      "published_at": "2026-10-11T09:35:38+00:00",
+      "effective_at": "2026-10-11T09:35:38+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ndtv": {
+          "kind": "independent",
+          "source_ids": [
+            "ndtv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (ndtv) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (2.6h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "Lawyers, journalists and other professionals should not be impeded from carrying out their professional duties, the Supreme Court categorically said today during the CEC protest matter.",
+        "After allegations were levelled that Delhi.",
+        "Police prevented lawyers and journalists from carrying out their professional duties, a bench of Justice Joymalya Bagchi and Justice V Mohana impressed upon Solicitor General Tushar Mehta that these professionals must not be obstructed from carrying out their professional duties.",
+        "In the order, the Court recorded the SG's assurance (on instructions) that lawyers, journalists and other professionals will not be impeded in discharge of professional duties.",
+        "It further directed that free movement of people shall be permitted across the city subject to traffic regulations.",
+        "During the hearing, the senior counsels/counsels for petitioners, particularly Senior Advocates KK Venugopal, Kapil Sibal, Gopal Sankaranarayanan, Menaka Guruswamy and Sanjay Hegde, and SCAORA President Devratt Yadav pressed the issues pertaining to lawyers and journalists.",
+        "As per their contentions, certain lawyers were prevented from assisting their clients during the October 10 protest and even beaten up at a police station.",
+        "Senior Advocate Shadan Farasat also mentioned to the court how even he was brutalized during the protest.",
+        "He urged that the situation was only a step short of the capital looking like a police state.",
+        "Sr Advocate Hegde also submitted that SG Tushar Mehta, as leader of the Bar, must ensure that all lawyers can access their clients and provide them assistance.",
+        "He alleged that lawyers were beaten in police stations yesterday and threatened with FIRs.",
+        "The bench ultimately passed the above order, as an interim measure, until the authorities come back with their response on Tuesday."
+      ],
+      "enrichment_source": "LiveLaw",
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Jantar Mantar Delhi CJP Protest Live Updates: The police have not granted permission for the protest.",
+          "Lawyers, journalists and other professionals should not be impeded from carrying out their professional duties, the Supreme Court categorically said today during the CEC protest matter."
+        ],
+        "body": [
+          "After allegations were levelled that Delhi.",
+          "Police prevented lawyers and journalists from carrying out their professional duties, a bench of Justice Joymalya Bagchi and Justice V Mohana impressed upon Solicitor General Tushar Mehta that these professionals must not be obstructed from carrying out their professional duties.",
+          "In the order, the Court recorded the SG's assurance (on instructions) that lawyers, journalists and other professionals will not be impeded in discharge of professional duties.",
+          "It further directed that free movement of people shall be permitted across the city subject to traffic regulations.",
+          "During the hearing, the senior counsels/counsels for petitioners, particularly Senior Advocates KK Venugopal, Kapil Sibal, Gopal Sankaranarayanan, Menaka Guruswamy and Sanjay Hegde, and SCAORA President Devratt Yadav pressed the issues pertaining to lawyers and journalists.",
+          "As per their contentions, certain lawyers were prevented from assisting their clients during the October 10 protest and even beaten up at a police station.",
+          "Senior Advocate Shadan Farasat also mentioned to the court how even he was brutalized during the protest.",
+          "He urged that the situation was only a step short of the capital looking like a police state."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "As per their contentions, certain lawyers were prevented from assisting their clients during the October 10 protest and even beaten up at a police station.",
+            "source": "LiveLaw",
+            "item_id": "d0b9101cfec1b72fb31f4a4b:article",
+            "composed": false
+          },
+          {
+            "text": "Lawyers, journalists and other professionals should not be impeded from carrying out their professional duties, the Supreme Court categorically said today during the CEC protest matter.",
+            "source": "LiveLaw",
+            "item_id": "d0b9101cfec1b72fb31f4a4b:article",
+            "composed": false
+          }
+        ],
+        "source": "NDTV",
+        "corroborating": [
+          "LiveLaw"
+        ],
+        "url": "https://www.ndtv.com/india-news/delhi-cjp-protest-live-updates-jantar-mantar-2-0-gyanesh-kumar-metro-stations-road-closure-traffic-advisory-trains-cancelled-delhi-police-election-com-12164478"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "8066d0bc0ede64ea872a6f4c",
       "story_id": "8066d0bc0ede64ea872a6f4c",
       "headline": "Supreme Court Acquits Man In POCSO Case Over Victim's Failure To Identify Him In Court, Unexplained Delay In FIR",
@@ -433,7 +533,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -548,7 +648,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
