@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T06:21:45.399076+00:00",
-  "count": 12,
+  "generated_at": "2026-10-12T06:32:14.476025+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "841765d0d74f46923d70401a",
@@ -49,7 +49,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -166,7 +166,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 40.4, score 50.4 -> HIGH"
@@ -301,7 +301,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 39.2, score 49.2 -> HIGH"
@@ -432,7 +432,7 @@
           "source_ids": [
             "the-hindu"
           ],
-          "count": 1
+          "count": 2
         },
         "ani": {
           "kind": "wire",
@@ -453,14 +453,14 @@
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 3 copies, primary source counted once",
+        "source: event has 4 copies, primary source counted once",
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -574,7 +574,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -582,7 +582,7 @@
       "geo_scope": "national",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Opposition INDIA bloc seeks to submit a memorandum to Chief Justice of India Surya Kant over alleged ‘vote chori’ (theft), but the CJI has declined to meet the Congress leader.",
@@ -611,8 +611,119 @@
         "url": "https://www.thehindu.com/news/national/march-to-supreme-court-india-bloc-rahul-gandhi-cji-delhi-traffic-curbs-metro/article71573779.ece"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "c2749a998936b529de3b264f",
+      "story_id": "c2749a998936b529de3b264f",
+      "headline": "Delhi on high alert as opposition plans Supreme Court march against CEC",
+      "title": "Delhi on high alert as opposition plans Supreme Court march against CEC",
+      "summary": "Delhi on high alert as opposition plans Supreme Court march against CEC",
+      "url": "https://www.indiatoday.in/india/story/delhi-protest-supreme-court-march-security-cec-gyanesh-kumar-ptag-3015261-2026-10-12",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T05:12:49+00:00",
+      "published_at": "2026-10-12T05:12:49+00:00",
+      "effective_at": "2026-10-12T05:12:49+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "Delhi remained under heavy security as the opposition prepared to march to the Supreme Court against Chief Election Commissioner Gyanesh Kumar.",
+        "The mobilisation followed weekend detentions and underscored a widening row over alleged electoral irregularities.",
+        "Delhi remained on high alert for the third consecutive day on Monday, with more than 30,000 police and paramilitary personnel deployed across the capital ahead of an opposition march to the Supreme Court.",
+        "The protest is aimed at stepping up the agitation against Chief Election Commissioner Gyanesh Kumar.",
+        "The security build-up came after protests over the weekend, during which thousands of people, including Cockroach Janta Party leaders and former chief ministers, were detained by police.",
+        "Opposition parties had announced on October 11 that they would march to the Supreme Court on Monday to demand an end to \"vote chori\" and the resignation of the chief election commissioner.",
+        "Delhi Police said security had been tightened at the city's borders, railway stations, bus terminals and other sensitive locations to prevent unauthorised gatherings and maintain law and order.",
+        "Police also stepped up vehicle checks at the borders and intensified verification drives at hotels, guest houses, lodges and dharamshalas.",
+        "Entry and exit gates at six Delhi Metro stations were to remain closed till 4 pm because of the protest.",
+        "More than 120 companies of the Central Armed.",
+        "Police Forces are assisting Delhi.",
+        "Police in handling the situation."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Delhi remained under heavy security as the opposition prepared to march to the Supreme Court against Chief Election Commissioner Gyanesh Kumar.",
+          "The mobilisation followed weekend detentions and underscored a widening row over alleged electoral irregularities."
+        ],
+        "body": [
+          "Delhi remained on high alert for the third consecutive day on Monday, with more than 30,000 police and paramilitary personnel deployed across the capital ahead of an opposition march to the Supreme Court.",
+          "The protest is aimed at stepping up the agitation against Chief Election Commissioner Gyanesh Kumar.",
+          "The security build-up came after protests over the weekend, during which thousands of people, including Cockroach Janta Party leaders and former chief ministers, were detained by police.",
+          "Opposition parties had announced on October 11 that they would march to the Supreme Court on Monday to demand an end to \"vote chori\" and the resignation of the chief election commissioner.",
+          "Delhi.",
+          "Police said security had been tightened at the city's borders, railway stations, bus terminals and other sensitive locations to prevent unauthorised gatherings and maintain law and order.",
+          "Police also stepped up vehicle checks at the borders and intensified verification drives at hotels, guest houses, lodges and dharamshalas.",
+          "Entry and exit gates at six Delhi Metro stations were to remain closed till 4 pm because of the protest."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Opposition parties had announced on October 11 that they would march to the Supreme Court on Monday to demand an end to \"vote chori\" and the resignation of the chief election commissioner.",
+            "source": "India Today",
+            "item_id": "c2749a998936b529de3b264f:article",
+            "composed": false
+          },
+          {
+            "text": "Delhi remained on high alert for the third consecutive day on Monday, with more than 30,000 police and paramilitary personnel deployed across the capital ahead of an opposition march to the Supreme Court.",
+            "source": "India Today",
+            "item_id": "c2749a998936b529de3b264f:article",
+            "composed": false
+          },
+          {
+            "text": "Entry and exit gates at six Delhi Metro stations were to remain closed till 4 pm because of the protest.",
+            "source": "India Today",
+            "item_id": "c2749a998936b529de3b264f:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/delhi-protest-supreme-court-march-security-cec-gyanesh-kumar-ptag-3015261-2026-10-12"
+      },
+      "group_size": 3,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "82fd5b011a8823d5bc60dc76",
@@ -657,7 +768,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -771,7 +882,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -909,7 +1020,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1061,7 +1172,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1160,9 +1271,9 @@
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-12T06:16:12+00:00",
-      "published_at": "2026-10-12T06:16:12+00:00",
-      "effective_at": "2026-10-12T06:16:12+00:00",
+      "event_time": "2026-10-12T06:22:53+00:00",
+      "published_at": "2026-10-12T06:22:53+00:00",
+      "effective_at": "2026-10-12T06:22:53+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -1186,7 +1297,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1266,6 +1377,118 @@
       "enrichment": "article"
     },
     {
+      "event_id": "d822e1d1b4958365474e7fea",
+      "story_id": "d822e1d1b4958365474e7fea",
+      "headline": "IMD: Heavy rain in Kerala, TN, Mahe, Puducherry from weekend ahead of n-e monsoon",
+      "title": "IMD: Heavy rain in Kerala, TN, Mahe, Puducherry from weekend ahead of n-e monsoon",
+      "summary": "Western disturbance sets up wet spell over North India even as crucial low-pressure area is predicted to form over south-east Bay of Bengal tomorrow to help north-easterly flows entrench",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-kerala-tn-mahe-puducherry-from-weekend-ahead-of-n-e-monsoon/article71573875.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 40.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T06:27:43+00:00",
+      "published_at": "2026-10-12T06:27:43+00:00",
+      "effective_at": "2026-10-12T06:27:43+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 0, stack 40, score 40 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "An incoming weather system from the Gulf of Thailand in the form of a circulation, having crossed the Strait of Malacca, has entered the south Andaman Sea and is poised to descend to lower levels of the atmosphere to stage for a fresh low-pressure area over south-east Bay of Bengal on Tuesday.",
+        "The development assumes significance as the South Peninsula prepares for the onset of the north-east monsoon, with the Bay system likely emerging as a potential engine of the seasonal transition.",
+        "India Meteorological Department (IMD) said conditions are becoming favourable for further withdrawal of south-west monsoon from more parts of East India and northern peninsula and many parts of North-East India, during next two days.",
+        "The retreat of the four-month-long monsoon would progressively clear the way for the north-east monsoon, often described as the monsoon in reverse, to take hold over the southern peninsula.",
+        "With the advancing monsoon retreat is backed up by a western disturbance in the north, and a fresh Bay disturbance takes shape in the south-east, this week is set to feature two distinct but concurrent weather narratives: the closing stages of south-west monsoon and gradual preparation for the north-east monsoon over South Peninsula, against a wider backdrop of rain and thunderstorm activity.",
+        "The next 48 hours will be crucial in determining how quickly this transition gathers momentum.",
+        "An upper-air cyclonic circulation over the Gulf of Mannar and adjoining coastal Tamil Nadu and South Kerala persists, even as winds over the South Peninsula begin to turn easterly to north-easterly from their predominantly south-westerly orientation.",
+        "For the north-east monsoon to establish itself, these winds must deepen through the atmosphere, strengthen and become more firmly aligned with the seasonal flow.",
+        "The developing Bay system and the changing wind regime together point to a potentially unsettled opening phase for north-east monsoon, with rain, thunderstorms and gusty winds expected across parts of the South Peninsula over the coming days.",
+        "The IMD has forecast isolated to scattered rainfall over Coastal Andhra Pradesh and Yanam, Coastal Karnataka, Rayalaseema, Tamil Nadu, Puducherry and Karaikal for seven days.",
+        "Kerala and Mahe may receive such rainfall for three days, and Lakshadweep for four days.",
+        "North Interior Karnataka is likely to experience isolated to scattered rain for three days from Friday, and South Interior Karnataka for two days from Wednesday."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "An incoming weather system from the Gulf of Thailand in the form of a circulation, having crossed the Strait of Malacca, has entered the south Andaman Sea and is poised to descend to lower levels of the atmosphere to stage for a fresh low-pressure area over south-east Bay of Bengal on Tuesday.",
+          "The development assumes significance as the South Peninsula prepares for the onset of the north-east monsoon, with the Bay system likely emerging as a potential engine of the seasonal transition."
+        ],
+        "body": [
+          "India Meteorological Department (IMD) said conditions are becoming favourable for further withdrawal of south-west monsoon from more parts of East India and northern peninsula and many parts of North-East India, during next two days.",
+          "The retreat of the four-month-long monsoon would progressively clear the way for the north-east monsoon, often described as the monsoon in reverse, to take hold over the southern peninsula.",
+          "With the advancing monsoon retreat is backed up by a western disturbance in the north, and a fresh Bay disturbance takes shape in the south-east, this week is set to feature two distinct but concurrent weather narratives: the closing stages of south-west monsoon and gradual preparation for the north-east monsoon over South Peninsula, against a wider backdrop of rain and thunderstorm activity.",
+          "The next 48 hours will be crucial in determining how quickly this transition gathers momentum.",
+          "An upper-air cyclonic circulation over the Gulf of Mannar and adjoining coastal Tamil Nadu and South Kerala persists, even as winds over the South Peninsula begin to turn easterly to north-easterly from their predominantly south-westerly orientation.",
+          "For the north-east monsoon to establish itself, these winds must deepen through the atmosphere, strengthen and become more firmly aligned with the seasonal flow.",
+          "The developing Bay system and the changing wind regime together point to a potentially unsettled opening phase for north-east monsoon, with rain, thunderstorms and gusty winds expected across parts of the South Peninsula over the coming days.",
+          "The IMD has forecast isolated to scattered rainfall over Coastal Andhra Pradesh and Yanam, Coastal Karnataka, Rayalaseema, Tamil Nadu, Puducherry and Karaikal for seven days."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The development assumes significance as the South Peninsula prepares for the onset of the north-east monsoon, with the Bay system likely emerging as a potential engine of the seasonal transition.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "d822e1d1b4958365474e7fea:article",
+            "composed": false
+          },
+          {
+            "text": "India Meteorological Department (IMD) said conditions are becoming favourable for further withdrawal of south-west monsoon from more parts of East India and northern peninsula and many parts of North-East India, during next two days.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "d822e1d1b4958365474e7fea:article",
+            "composed": false
+          },
+          {
+            "text": "The next 48 hours will be crucial in determining how quickly this transition gathers momentum.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "d822e1d1b4958365474e7fea:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-kerala-tn-mahe-puducherry-from-weekend-ahead-of-n-e-monsoon/article71573875.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "6141494a7899a2f3ab870cbf",
       "story_id": "6141494a7899a2f3ab870cbf",
       "headline": "Manipur: 7 banned groups call shutdown on October 15 over 1949 merger with India",
@@ -1305,7 +1528,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'merger' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
@@ -1426,7 +1649,7 @@
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "geo: national",
         "dominant event 8, stack 38.8, score 38.8 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
