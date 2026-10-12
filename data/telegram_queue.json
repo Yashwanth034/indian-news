@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T11:12:05.133413+00:00",
-  "count": 19,
+  "generated_at": "2026-10-12T11:22:09.883241+00:00",
+  "count": 21,
   "stories": [
     {
       "event_id": "2f193e29884d6cee0e34baa7",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -155,7 +155,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -278,7 +278,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -390,7 +390,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (delhi)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 18.4, score 58 -> HIGH"
@@ -500,7 +500,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 22, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -558,6 +558,132 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "7c3055b6e086893d5c211d55",
+      "story_id": "7c3055b6e086893d5c211d55",
+      "headline": "No option but to meet Chief Justice of India: Karnataka CM Shivakumar",
+      "title": "No option but to meet Chief Justice of India: Karnataka CM Shivakumar",
+      "summary": "Responding to a question from the media during his Chennai visit, Shivakumar said the Chief Justice of India should listen to the voice of the people and that the Prime Minister should have called the opposition leaders to understand their concerns when the Election Commission failed to respond to their representations.",
+      "url": "https://www.thehansindia.com/news/cities/bengaluru/no-option-but-to-meet-chief-justice-of-india-karnataka-cm-shivakumar-1131701",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 46.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T06:31:43+00:00",
+      "published_at": "2026-10-12T10:05:08+00:00",
+      "effective_at": "2026-10-12T10:05:08+00:00",
+      "independent_source_groups": 3,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        },
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 2
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 3 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
+        "event term: 'chief justice' in title weight 42",
+        "event term: 'chief justice of india' in title weight 46",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: fresh (4.8h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 46, stack 45, score 46 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "karnataka",
+      "national_significance": true,
+      "article_sentences": [
+        "Responding to a question from the media during his Chennai visit, Shivakumar said the Chief Justice of India should listen to the voice of the people and that the Prime Minister should have called the opposition leaders to understand their concerns when the Election Commission failed to respond to their representations.",
+        "Chennai/Bengaluru: Karnataka Chief Minister D.K. Shivakumar on Monday said there was no option but to meet the Chief Justice of India to protect democracy and citizens' voting rights, asserting that all possible avenues must be explored when the Election Commission fails to respond.",
+        "\"When the Election Commission does not respond despite meeting it, the Prime Minister should have called us and asked what the problem was.",
+        "In such a situation, there is no option but to meet the Chief Justice,\" he said.",
+        "Asked about the Chief Justice of India denying an appointment to the INDIA bloc leaders, Shivakumar said those in public life should use every available opportunity to safeguard democracy and the voting rights of all citizens.",
+        "\"In public life, we make use of all opportunities to try to protect the country's democracy and the voting rights of all its citizens,\" he said.",
+        "Emphasising the importance of the right to vote, Shivakumar said it was fundamental to people's lives and that opposition leaders were acting as the voice of the people.",
+        "\"The right to vote is our right to life.",
+        "It is our life.",
+        "Opposition leaders are functioning as the voice of the people of the country.",
+        "Anything can happen in a democracy,\" he said.",
+        "Around 200 Congress MLAs, MLCs and party leaders, including CM Shivakumar, from Karnataka have reached New Delhi to participate in a protest march to the Supreme Court on Monday, demanding the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in electoral rolls and the removal of eligible voters from voter lists across the country."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Responding to a question from the media during his Chennai visit, Shivakumar said the Chief Justice of India should listen to the voice of the people and that the Prime Minister should have called the opposition leaders to understand their concerns when the Election Commission failed to respond to their representations.",
+          "Chennai/Bengaluru: Karnataka Chief Minister D.K. Shivakumar on Monday said there was no option but to meet the Chief Justice of India to protect democracy and citizens' voting rights, asserting that all possible avenues must be explored when the Election Commission fails to respond."
+        ],
+        "body": [
+          "\"When the Election Commission does not respond despite meeting it, the Prime Minister should have called us and asked what the problem was.",
+          "In such a situation, there is no option but to meet the Chief Justice,\" he said.",
+          "Asked about the Chief Justice of India denying an appointment to the INDIA bloc leaders, Shivakumar said those in public life should use every available opportunity to safeguard democracy and the voting rights of all citizens.",
+          "\"In public life, we make use of all opportunities to try to protect the country's democracy and the voting rights of all its citizens,\" he said.",
+          "Emphasising the importance of the right to vote, Shivakumar said it was fundamental to people's lives and that opposition leaders were acting as the voice of the people.",
+          "\"The right to vote is our right to life.",
+          "It is our life.",
+          "Opposition leaders are functioning as the voice of the people of the country."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Chennai/Bengaluru: Karnataka Chief Minister D.K. Shivakumar on Monday said there was no option but to meet the Chief Justice of India to protect democracy and citizens' voting rights, asserting that all possible avenues must be explored when the Election Commission fails to respond.",
+            "source": "The Hans India",
+            "item_id": "7c3055b6e086893d5c211d55:article",
+            "composed": false
+          },
+          {
+            "text": "Responding to a question from the media during his Chennai visit, Shivakumar said the Chief Justice of India should listen to the voice of the people and that the Prime Minister should have called the opposition leaders to understand their concerns when the Election Commission failed to respond to their representations.",
+            "source": "The Hans India",
+            "item_id": "7c3055b6e086893d5c211d55:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/bengaluru/no-option-but-to-meet-chief-justice-of-india-karnataka-cm-shivakumar-1131701"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "9cbbe30cc6ff41bd611eb0bc",
@@ -621,7 +747,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (bihar)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -689,6 +815,236 @@
       "enrichment": "article"
     },
     {
+      "event_id": "9a3c893c5b71fb259c9a96c0",
+      "story_id": "9a3c893c5b71fb259c9a96c0",
+      "headline": "India's retail inflation rises to 5.54% in September; food inflation hits 7.74%",
+      "title": "India's retail inflation rises to 5.54% in September; food inflation hits 7.74%",
+      "summary": "Among individual items, onions recorded the steepest price increase, with inflation surging to 108.09% in September from 48.78% in August",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 55.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T11:03:18+00:00",
+      "published_at": "2026-10-12T11:03:18+00:00",
+      "effective_at": "2026-10-12T11:03:18+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'inflation' in title weight 36",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The latest Consumer Price Index (CPI) figures, calculated using the revised 2024 base year, showed that inflation remained higher in rural areas than in cities.",
+        "Rural inflation increased to 6.08% in September from 5.24% in August, while urban inflation rose to 4.88% from 4.31%.",
+        "Food inflation in rural India stood at 8.06%, compared with 7.18% in urban areas.",
+        "Among individual items, onions recorded the steepest price increase, with inflation surging to 108.09% in September from 48.78% in August.",
+        "Silver jewellery recorded inflation of 87.80%, followed by ginger at 62.85%, garlic at 54.62% and lemons at 36.41%.",
+        "However, some vegetables continued to provide relief to consumers.",
+        "Potato prices declined 11.50% year-on-year, while tomato prices fell 8.62%.",
+        "Prices of lady's finger declined 4.48%, and coconut prices were down 3.99%.",
+        "Motor cars and jeeps also recorded a 4.51% decline in prices compared with September last year.",
+        "Beyond food, inflation in restaurants and accommodation services stood at 9.36% in September.",
+        "The broader personal care, social protection and miscellaneous goods and services category recorded inflation of 13.75%.",
+        "Transport inflation stood at 5.01%, while clothing and footwear inflation was 3.93%."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The latest Consumer Price Index (CPI) figures, calculated using the revised 2024 base year, showed that inflation remained higher in rural areas than in cities.",
+          "Rural inflation increased to 6.08% in September from 5.24% in August, while urban inflation rose to 4.88% from 4.31%."
+        ],
+        "body": [
+          "Silver jewellery recorded inflation of 87.80%, followed by ginger at 62.85%, garlic at 54.62% and lemons at 36.41%.",
+          "However, some vegetables continued to provide relief to consumers.",
+          "Potato prices declined 11.50% year-on-year, while tomato prices fell 8.62%.",
+          "Motor cars and jeeps also recorded a 4.51% decline in prices compared with September last year.",
+          "Transport inflation stood at 5.01%, while clothing and footwear inflation was 3.93%."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "September"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Rural inflation increased to 6.08% in September from 5.24% in August, while urban inflation rose to 4.88% from 4.31%.",
+            "source": "Business Today",
+            "item_id": "9a3c893c5b71fb259c9a96c0:article",
+            "composed": false
+          },
+          {
+            "text": "Motor cars and jeeps also recorded a 4.51% decline in prices compared with September last year.",
+            "source": "Business Today",
+            "item_id": "9a3c893c5b71fb259c9a96c0:article",
+            "composed": false
+          },
+          {
+            "text": "The latest Consumer Price Index (CPI) figures, calculated using the revised 2024 base year, showed that inflation remained higher in rural areas than in cities.",
+            "source": "Business Today",
+            "item_id": "9a3c893c5b71fb259c9a96c0:article",
+            "composed": false
+          },
+          {
+            "text": "Silver jewellery recorded inflation of 87.80%, followed by ginger at 62.85%, garlic at 54.62% and lemons at 36.41%.",
+            "source": "Business Today",
+            "item_id": "9a3c893c5b71fb259c9a96c0:article",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "d60ff720fa4a67f772fb221e",
+      "story_id": "d60ff720fa4a67f772fb221e",
+      "headline": "Supreme Court orders SIT probe into lawyers' assault complaint",
+      "title": "Supreme Court orders SIT probe into lawyers' assault complaint",
+      "summary": "Supreme Court orders SIT probe into lawyers' assault complaint",
+      "url": "https://www.indiatoday.in/india/story/supreme-court-orders-sit-probe-into-lawyers-assault-complaint-at-bci-protest-ptag-3015575-2026-10-12",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T10:58:42+00:00",
+      "published_at": "2026-10-12T10:58:42+00:00",
+      "effective_at": "2026-10-12T10:58:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has ordered an SIT probe into lawyers' assault allegations linked to a Bar Council protest.",
+        "The direction overrides earlier hesitation and requires findings to be placed before a magistrate.",
+        "The Supreme Court on Monday directed the Delhi.",
+        "Police Commissioner to ensure an investigation into a complaint filed by a group of lawyers who alleged they were assaulted during a protest demanding the resignation of Bar Council of India chairman Manan Kumar Mishra.",
+        "A bench led by Chief Justice Surya Kant said a special investigation team headed by a senior police officer must be formed to probe the complaint.",
+        "The court said the police must submit a report to the jurisdictional magistrate after completing the investigation.",
+        "The order came while the court was hearing a plea against a September 21 Delhi High Court judgment that had dismissed a petition seeking a CBI or independent agency probe into the alleged assault.",
+        "According to the petitioners, the alleged assault took place inside and outside the BCI premises on the intervening night of August 20 and 21.",
+        "Appearing for them, advocate.",
+        "Prashant Bhushan told the Supreme Court that the High Court had said no cognisable offence was made out.",
+        "He said the petitioners had filed a complaint with the station house officer of IP Estate.",
+        "Police Station on August 22, but no FIR had been registered so far."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has ordered an SIT probe into lawyers' assault allegations linked to a Bar Council protest.",
+          "The direction overrides earlier hesitation and requires findings to be placed before a magistrate."
+        ],
+        "body": [
+          "The Supreme Court on Monday directed the Delhi.",
+          "Police Commissioner to ensure an investigation into a complaint filed by a group of lawyers who alleged they were assaulted during a protest demanding the resignation of Bar Council of India chairman Manan Kumar Mishra.",
+          "A bench led by Chief Justice Surya Kant said a special investigation team headed by a senior police officer must be formed to probe the complaint.",
+          "The court said the police must submit a report to the jurisdictional magistrate after completing the investigation.",
+          "The order came while the court was hearing a plea against a September 21 Delhi High Court judgment that had dismissed a petition seeking a CBI or independent agency probe into the alleged assault.",
+          "According to the petitioners, the alleged assault took place inside and outside the BCI premises on the intervening night of August 20 and 21.",
+          "Appearing for them, advocate.",
+          "Prashant Bhushan told the Supreme Court that the High Court had said no cognisable offence was made out."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "According to the petitioners, the alleged assault took place inside and outside the BCI premises on the intervening night of August 20 and 21.",
+            "source": "India Today",
+            "item_id": "d60ff720fa4a67f772fb221e:article",
+            "composed": false
+          },
+          {
+            "text": "The order came while the court was hearing a plea against a September 21 Delhi High Court judgment that had dismissed a petition seeking a CBI or independent agency probe into the alleged assault.",
+            "source": "India Today",
+            "item_id": "d60ff720fa4a67f772fb221e:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Monday directed the Delhi.",
+            "source": "India Today",
+            "item_id": "d60ff720fa4a67f772fb221e:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/supreme-court-orders-sit-probe-into-lawyers-assault-complaint-at-bci-protest-ptag-3015575-2026-10-12"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "1c50f34191fcd514b2a79a40",
       "story_id": "1c50f34191fcd514b2a79a40",
       "headline": "Put Your GDP Growth Next to Ours! | Piyush Goyal on Why India Will Double Its Economy Every 8 Years",
@@ -734,7 +1090,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -781,109 +1137,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "879b133b90840559411040a9",
-      "story_id": "879b133b90840559411040a9",
-      "headline": "Supreme Court Refuses To Stay CBI FIR Against Punjab CM's OSD, Bars Coercive Action",
-      "title": "Supreme Court Refuses To Stay CBI FIR Against Punjab CM's OSD, Bars Coercive Action",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-refuses-to-stay-cbi-fir-against-punjab-cms-osd-bars-coercive-action-554223",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 97.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-12T06:48:27+00:00",
-      "published_at": "2026-10-12T06:48:27+00:00",
-      "effective_at": "2026-10-12T06:48:27+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "punjab",
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
-        "A bench of Justice MM Sundresh and Justice Prasanna B Varale issued notice on the petition filed by the Punjab government challenging the High Court's direction to register an FIR in the matter.",
-        "However, the Court refused to stay the FIR and directed that no coercive steps be taken in the case.",
-        "Senior Advocate Vikas Singh appeared for the State.",
-        "Senior Advocate Dama Seshadri Naidu appeared on behalf of the respondent (PIL petitioner in the High Court).",
-        "The matter was placed before this bench after Justice Sheel Nagu (who was sitting along with Justice Dipankar Datta) recused.",
-        "The CBI FIR concerns alleged corruption and influence-peddling involving Punjab Chief Minister Bhagwant Mann's Office on Special Duty (OSD), Rajbir Singh Ghuman, and five other named accused.",
-        "The case relates to alleged bribes paid to influence government transfers and postings, tenders, policy decisions, licensing and land-related matters.",
-        "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
-        "A High Court bench comprising Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor had on Monday directed the CBI to register a criminal case into allegations concerning Rajbir Singh Ghuman, Officer on Special Duty (OSD) to Chief Minister Bhagwant Singh Mann.",
-        "It further directed the State of Punjab and the Punjab.",
-        "Police to provide the CBI with all assistance to conduct a fair investigation."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
-          "A bench of Justice MM Sundresh and Justice Prasanna B Varale issued notice on the petition filed by the Punjab government challenging the High Court's direction to register an FIR in the matter."
-        ],
-        "body": [
-          "However, the Court refused to stay the FIR and directed that no coercive steps be taken in the case.",
-          "Senior Advocate Vikas Singh appeared for the State.",
-          "Senior Advocate Dama Seshadri Naidu appeared on behalf of the respondent (PIL petitioner in the High Court).",
-          "The matter was placed before this bench after Justice Sheel Nagu (who was sitting along with Justice Dipankar Datta) recused.",
-          "The CBI FIR concerns alleged corruption and influence-peddling involving Punjab Chief Minister Bhagwant Mann's Office on Special Duty (OSD), Rajbir Singh Ghuman, and five other named accused.",
-          "The case relates to alleged bribes paid to influence government transfers and postings, tenders, policy decisions, licensing and land-related matters.",
-          "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
-          "A High Court bench comprising Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor had on Monday directed the CBI to register a criminal case into allegations concerning Rajbir Singh Ghuman, Officer on Special Duty (OSD) to Chief Minister Bhagwant Singh Mann."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
-            "source": "LiveLaw",
-            "item_id": "879b133b90840559411040a9:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
-            "source": "LiveLaw",
-            "item_id": "879b133b90840559411040a9:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-refuses-to-stay-cbi-fir-against-punjab-cms-osd-bars-coercive-action-554223"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "1ed8fd21035308610216ac1c",
       "story_id": "1ed8fd21035308610216ac1c",
       "headline": "Calcutta HC Chief Justice asks district judges to install metal detectors at court entrances",
@@ -925,7 +1178,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1036,7 +1289,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1139,7 +1392,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1246,7 +1499,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1386,7 +1639,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1506,7 +1759,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "event term: 'supreme court judgment' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1617,7 +1870,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1679,35 +1932,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "9e9c9e7ec3cf4c33c6289f49",
-      "story_id": "9e9c9e7ec3cf4c33c6289f49",
-      "headline": "Entry, exit of six Delhi metro stations closed on Oct 12 as Opposition plans march to Supreme Court",
-      "title": "Entry, exit of six Delhi metro stations closed on Oct 12 as Opposition plans march to Supreme Court",
-      "summary": "Patel Chowk, Janpath, Rajiv Chowk, Mandi House, Central Secretariat and Barakhamba Road metro stations will be closed from 6 a.m. to 4 p.m.",
-      "url": "https://www.thehindu.com/news/cities/Delhi/entry-exit-of-six-delhi-metro-stations-closed-on-oct-12-as-opposition-plans-march-to-supreme-court/article71572908.ece",
-      "source": "The Hindu - Delhi",
+      "event_id": "879b133b90840559411040a9",
+      "story_id": "879b133b90840559411040a9",
+      "headline": "Supreme Court Refuses To Stay CBI FIR Against Punjab CM's OSD, Bars Coercive Action",
+      "title": "Supreme Court Refuses To Stay CBI FIR Against Punjab CM's OSD, Bars Coercive Action",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-refuses-to-stay-cbi-fir-against-punjab-cms-osd-bars-coercive-action-554223",
+      "source": "LiveLaw",
       "primary_source": false,
-      "tier": 2,
+      "tier": 3,
       "category": "courts-law",
-      "secondary_categories": [
-        "transport-infrastructure",
-        "national-politics",
-        "agriculture-rural"
-      ],
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 57.0,
+      "score": 97.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-12T06:43:53+00:00",
-      "published_at": "2026-10-12T06:43:53+00:00",
-      "effective_at": "2026-10-12T06:43:53+00:00",
+      "event_time": "2026-10-12T06:48:27+00:00",
+      "published_at": "2026-10-12T06:48:27+00:00",
+      "effective_at": "2026-10-12T06:48:27+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "live-law": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu-delhi"
+            "live-law"
           ],
           "count": 1
         }
@@ -1719,159 +1968,196 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu-delhi) +2",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "delhi",
+      "state": "punjab",
       "national_significance": true,
       "article_sentences": [
-        "Entry and exit at six metro stations will remain closed from 6 a.m. to 4 p.m. on Monday (October 12, 2026) ahead of the Opposition’s Supreme Court march, the Delhi Metro Rail Corporation (DMRC) said in a post on X.",
-        "The six metro stations where entry and exit will remain closed are: Patel Chowk, Janpath, Rajiv Chowk, Mandi House, Central Secretariat and Barakhamba Road, the DMRC said.",
-        "“The situation will be reviewed by the security agencies and necessary updates will be shared accordingly.",
-        "However, interchange facility will remain available at all the concerned metro stations,” it further said.",
-        "The opposition parties would march to the Supreme Court on Monday, with Congress’ Rahul Gandhi and Mallikarjun Kharge seeking a meeting with Chief Justice of India (CJI) Surya Kant to raise the issue of alleged “vote chori”.",
-        "The Chief Justice, however, declined to meet Lok Sabha Leader of Opposition Rahul Gandhi over “vote chori” allegations, saying similar matters are sub judice in the Supreme Court, sources said."
+        "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
+        "A bench of Justice MM Sundresh and Justice Prasanna B Varale issued notice on the petition filed by the Punjab government challenging the High Court's direction to register an FIR in the matter.",
+        "However, the Court refused to stay the FIR and directed that no coercive steps be taken in the case.",
+        "Senior Advocate Vikas Singh appeared for the State.",
+        "Senior Advocate Dama Seshadri Naidu appeared on behalf of the respondent (PIL petitioner in the High Court).",
+        "The matter was placed before this bench after Justice Sheel Nagu (who was sitting along with Justice Dipankar Datta) recused.",
+        "The CBI FIR concerns alleged corruption and influence-peddling involving Punjab Chief Minister Bhagwant Mann's Office on Special Duty (OSD), Rajbir Singh Ghuman, and five other named accused.",
+        "The case relates to alleged bribes paid to influence government transfers and postings, tenders, policy decisions, licensing and land-related matters.",
+        "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
+        "A High Court bench comprising Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor had on Monday directed the CBI to register a criminal case into allegations concerning Rajbir Singh Ghuman, Officer on Special Duty (OSD) to Chief Minister Bhagwant Singh Mann.",
+        "It further directed the State of Punjab and the Punjab.",
+        "Police to provide the CBI with all assistance to conduct a fair investigation."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Entry and exit at six metro stations will remain closed from 6 a.m. to 4 p.m. on Monday (October 12, 2026) ahead of the Opposition’s Supreme Court march, the Delhi Metro Rail Corporation (DMRC) said in a post on X. The six metro stations where entry and exit will remain closed are: Patel Chowk, Janpath, Rajiv Chowk, Mandi House, Central Secretariat and Barakhamba Road, the DMRC said.",
-          "“The situation will be reviewed by the security agencies and necessary updates will be shared accordingly."
+          "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
+          "A bench of Justice MM Sundresh and Justice Prasanna B Varale issued notice on the petition filed by the Punjab government challenging the High Court's direction to register an FIR in the matter."
         ],
         "body": [
-          "However, interchange facility will remain available at all the concerned metro stations,” it further said.",
-          "The opposition parties would march to the Supreme Court on Monday, with Congress’ Rahul Gandhi and Mallikarjun Kharge seeking a meeting with Chief Justice of India (CJI) Surya Kant to raise the issue of alleged “vote chori”.",
-          "The Chief Justice, however, declined to meet Lok Sabha Leader of Opposition Rahul Gandhi over “vote chori” allegations, saying similar matters are sub judice in the Supreme Court, sources said.",
-          "Patel Chowk, Janpath, Rajiv Chowk, Mandi House, Central Secretariat and Barakhamba Road metro stations will be closed from 6 a.m. to 4 p.m."
+          "However, the Court refused to stay the FIR and directed that no coercive steps be taken in the case.",
+          "Senior Advocate Vikas Singh appeared for the State.",
+          "Senior Advocate Dama Seshadri Naidu appeared on behalf of the respondent (PIL petitioner in the High Court).",
+          "The matter was placed before this bench after Justice Sheel Nagu (who was sitting along with Justice Dipankar Datta) recused.",
+          "The CBI FIR concerns alleged corruption and influence-peddling involving Punjab Chief Minister Bhagwant Mann's Office on Special Duty (OSD), Rajbir Singh Ghuman, and five other named accused.",
+          "The case relates to alleged bribes paid to influence government transfers and postings, tenders, policy decisions, licensing and land-related matters.",
+          "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
+          "A High Court bench comprising Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor had on Monday directed the CBI to register a criminal case into allegations concerning Rajbir Singh Ghuman, Officer on Special Duty (OSD) to Chief Minister Bhagwant Singh Mann."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The opposition parties would march to the Supreme Court on Monday, with Congress’ Rahul Gandhi and Mallikarjun Kharge seeking a meeting with Chief Justice of India (CJI) Surya Kant to raise the issue of alleged “vote chori”.",
-            "source": "The Hindu - Delhi",
-            "item_id": "9e9c9e7ec3cf4c33c6289f49:article",
+            "text": "The CBI registered the FIR on October 5, 2026, following a direction from the Punjab and Haryana High Court.",
+            "source": "LiveLaw",
+            "item_id": "879b133b90840559411040a9:article",
             "composed": false
           },
           {
-            "text": "Patel Chowk, Janpath, Rajiv Chowk, Mandi House, Central Secretariat and Barakhamba Road metro stations will be closed from 6 a.m. to 4 p.m.",
-            "source": "The Hindu - Delhi",
-            "item_id": "9e9c9e7ec3cf4c33c6289f49",
+            "text": "The Supreme Court on Monday ordered that no coercive steps be taken in the CBI FIR registered in connection with corruption allegations linked to the Officer on Special Duty (OSD) to the Punjab Chief Minister Bhagwant Mann.",
+            "source": "LiveLaw",
+            "item_id": "879b133b90840559411040a9:article",
             "composed": false
           }
         ],
-        "source": "The Hindu - Delhi",
+        "source": "LiveLaw",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/Delhi/entry-exit-of-six-delhi-metro-stations-closed-on-oct-12-as-opposition-plans-march-to-supreme-court/article71572908.ece"
+        "url": "https://www.livelaw.in/top-stories/supreme-court-refuses-to-stay-cbi-fir-against-punjab-cms-osd-bars-coercive-action-554223"
       },
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
-      "event_id": "7ae3d265a82204124516c6e9",
-      "story_id": "7ae3d265a82204124516c6e9",
-      "headline": "SC to hear pleas on hardships faced by lawyers amid Delhi protests",
-      "title": "SC to hear pleas on hardships faced by lawyers amid Delhi protests",
-      "summary": "The Supreme Court agreed to hear on Tuesday petitions, including one filed by the Supreme Court Bar Association (SCBA), raising concerns over difficulties faced by lawyers amid ongoing protests in the national capital. Taking note of the submissions, Chief Justice of India Surya Kant said, \"Democratic activities must take place smoothly, but there should be no obstruction to the functioning of the Supreme Court or movement of lawyers, court staff and litigants\". A bench comprising CJI Kant and Justices Joymalya Bagchi and V Mohana took note of the submissions made by senior advocate and SCBA president Pradeep Rai, who highlighted various issues, including the restrictions on internet services, amid the protests. The bench agreed to take up the matter on Tuesday. The protests in Delhi are being held to demand the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar. The SCBA had on Saturday condemned the reported use of \"excessive force\" against lawyers, who were on their",
-      "url": "https://www.business-standard.com/india-news/sc-to-hear-pleas-on-hardships-faced-by-lawyers-amid-delhi-protests-126101200256_1.html",
-      "source": "Business Standard",
+      "event_id": "ed8ded534da41bc2aecca778",
+      "story_id": "ed8ded534da41bc2aecca778",
+      "headline": "N-E monsoon in sight as IMD predicts heavy rain for TN, Kerala, Karnataka, Coastal AP",
+      "title": "N-E monsoon in sight as IMD predicts heavy rain for TN, Kerala, Karnataka, Coastal AP",
+      "summary": "Super El Nino raises stakes for 2026 north-east monsoon even as scientists note seasonal rainfall during El Nino years since 1976 have trended to be higher than during 1950-1976 period",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-kerala-tn-mahe-puducherry-from-weekend-ahead-of-n-e-monsoon/article71573875.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
       "tier": 3,
-      "category": "courts-law",
+      "category": "weather-disasters",
       "secondary_categories": [
-        "national-politics",
-        "technology-digital"
+        "agriculture-rural",
+        "science-space"
       ],
-      "confidence": "low",
-      "score": 100.0,
-      "priority_score": 42.4,
+      "confidence": "medium",
+      "score": 69.0,
+      "priority_score": 40.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-12T07:03:56+00:00",
-      "published_at": "2026-10-12T07:03:56+00:00",
-      "effective_at": "2026-10-12T07:03:56+00:00",
+      "event_time": "2026-10-12T11:11:22+00:00",
+      "published_at": "2026-10-12T11:11:22+00:00",
+      "effective_at": "2026-10-12T11:11:22+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
+        "thehindu": {
+          "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "businessline"
           ],
-          "count": 4
+          "count": 1
         }
       },
-      "is_wire_echo": true,
+      "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
-        "scale: state scope (delhi)",
-        "recency: fresh (4.1h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 34.8, stack 42.4, score 42.4 -> HIGH"
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 0, stack 40, score 40 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "delhi",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "Conditions are turning favourable for the south-west monsoon to retreat from remaining parts of the country and the north-east monsoon to set in over the South Peninsula in the next 2-3 days.",
+        "Rainfall is expected to gather pace towards the weekend and around October 15 (Thursday), setting the stage for the seasonal transition.",
+        "With the onset of the north-east monsoon, the South Peninsula is likely to see a prolonged wet spell over the next 5–6 days.",
+        "India Meteorological Department (IMD) said.",
+        "Isolated heavy rainfall is expected over Kerala and Mahe, Coastal and South Interior Karnataka, Tamil Nadu, Puducherry and Karaikal, and Coastal Andhra Pradesh.",
+        "The performance of the 2026 north-east monsoon will be closely watched against the backdrop of a potentially dominant super El Niño in the equatorial and eastern Pacific, touted as the strongest since 1950.",
+        "Historical studies suggest that north-east monsoon rainfall during El Niño years after 1976 was, on average, considerably higher than during the 1950–1976 period.",
+        "Scientists have pointed to changes in atmospheric circulation during El Niño that can strengthen easterly flows, transport more moisture towards the subcontinent and enhance rainfall over the South Peninsula.",
+        "Whether this historical relationship translates into a more generous north-east monsoon in 2026 remains to be seen.",
+        "For now, the retreating south-west monsoon, the emerging Bay of Bengal low-pressure area, and the prospect of intensifying rainfall across the South Peninsula make the next few days a critical watch period.",
+        "The IMD sees isolated heavy rainfall for Tamil Nadu, Puducherry and Karaikal, Kerala and Mahe, and South Interior Karnataka for four days from Thursday.",
+        "Coastal Karnataka is likely to receive heavy rain on Saturday and Sunday, while North Interior Karnataka faces rain for three days from Friday."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court agreed to hear on Tuesday petitions, including one filed by the Supreme Court Bar Association (SCBA), raising concerns over difficulties faced by lawyers amid ongoing protests in the national capital.",
-          "Taking note of the submissions, Chief Justice of India Surya Kant said, \"Democratic activities must take place smoothly, but there should be no obstruction to the functioning of the Supreme Court or movement of lawyers, court staff and litigants\"."
+          "Conditions are turning favourable for the south-west monsoon to retreat from remaining parts of the country and the north-east monsoon to set in over the South Peninsula in the next 2-3 days.",
+          "Rainfall is expected to gather pace towards the weekend and around October 15 (Thursday), setting the stage for the seasonal transition."
         ],
         "body": [
-          "A bench comprising CJI Kant and Justices Joymalya Bagchi and V Mohana took note of the submissions made by senior advocate and SCBA president Pradeep Rai, who highlighted various issues, including the restrictions on internet services, amid the protests.",
-          "The bench agreed to take up the matter on Tuesday.",
-          "The protests in Delhi are being held to demand the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar.",
-          "The SCBA had on Saturday condemned the reported use of \"excessive force\" against lawyers, who were on their."
+          "With the onset of the north-east monsoon, the South Peninsula is likely to see a prolonged wet spell over the next 5–6 days.",
+          "India Meteorological Department (IMD) said.",
+          "Isolated heavy rainfall is expected over Kerala and Mahe, Coastal and South Interior Karnataka, Tamil Nadu, Puducherry and Karaikal, and Coastal Andhra Pradesh.",
+          "The performance of the 2026 north-east monsoon will be closely watched against the backdrop of a potentially dominant super El Niño in the equatorial and eastern Pacific, touted as the strongest since 1950.",
+          "Historical studies suggest that north-east monsoon rainfall during El Niño years after 1976 was, on average, considerably higher than during the 1950–1976 period.",
+          "Scientists have pointed to changes in atmospheric circulation during El Niño that can strengthen easterly flows, transport more moisture towards the subcontinent and enhance rainfall over the South Peninsula.",
+          "Whether this historical relationship translates into a more generous north-east monsoon in 2026 remains to be seen.",
+          "For now, the retreating south-west monsoon, the emerging Bay of Bengal low-pressure area, and the prospect of intensifying rainfall across the South Peninsula make the next few days a critical watch period."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Delhi"
+            "text": "October"
           }
         ],
         "sentences": [
           {
-            "text": "The Supreme Court agreed to hear on Tuesday petitions, including one filed by the Supreme Court Bar Association (SCBA), raising concerns over difficulties faced by lawyers amid ongoing protests in the national capital.",
-            "source": "Business Standard",
-            "item_id": "7ae3d265a82204124516c6e9",
+            "text": "Rainfall is expected to gather pace towards the weekend and around October 15 (Thursday), setting the stage for the seasonal transition.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "ed8ded534da41bc2aecca778:article",
             "composed": false
           },
           {
-            "text": "The protests in Delhi are being held to demand the resignation of Chief Election Commissioner (CEC) Gyanesh Kumar.",
-            "source": "Business Standard",
-            "item_id": "7ae3d265a82204124516c6e9",
+            "text": "Conditions are turning favourable for the south-west monsoon to retreat from remaining parts of the country and the north-east monsoon to set in over the South Peninsula in the next 2-3 days.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "ed8ded534da41bc2aecca778:article",
+            "composed": false
+          },
+          {
+            "text": "With the onset of the north-east monsoon, the South Peninsula is likely to see a prolonged wet spell over the next 5–6 days.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "ed8ded534da41bc2aecca778:article",
+            "composed": false
+          },
+          {
+            "text": "The performance of the 2026 north-east monsoon will be closely watched against the backdrop of a potentially dominant super El Niño in the equatorial and eastern Pacific, touted as the strongest since 1950.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "ed8ded534da41bc2aecca778:article",
             "composed": false
           }
         ],
-        "source": "Business Standard",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/sc-to-hear-pleas-on-hardships-faced-by-lawyers-amid-delhi-protests-126101200256_1.html"
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-kerala-tn-mahe-puducherry-from-weekend-ahead-of-n-e-monsoon/article71573875.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "6141494a7899a2f3ab870cbf",
@@ -1913,7 +2199,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'merger' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 21.2, score 40 -> HIGH"
@@ -2042,7 +2328,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 38.2, score 38.4 -> HIGH"
