@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T14:32:40.333215+00:00",
-  "count": 14,
+  "generated_at": "2026-10-12T14:42:13.717275+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "c55237a3436963ddcdfe1d61",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -149,7 +149,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (bihar)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -276,7 +276,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -361,7 +361,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (assam)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -427,6 +427,100 @@
       "enrichment": "article"
     },
     {
+      "event_id": "54736a6fe6c3e89ab5ea32db",
+      "story_id": "54736a6fe6c3e89ab5ea32db",
+      "headline": "Top Lashkar commander among 4 terrorists killed in LoC mine blast in J&K",
+      "title": "Top Lashkar commander among 4 terrorists killed in LoC mine blast in J&K",
+      "summary": "Top Lashkar commander among 4 terrorists killed in LoC mine blast in J&K",
+      "url": "https://www.indiatoday.in/india/story/top-lashkar-commander-among-4-terrorists-killed-in-mine-blast-while-trying-to-infiltrate-along-loc-in-jk-3015822-2026-10-12",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 62.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T14:36:27+00:00",
+      "published_at": "2026-10-12T14:36:27+00:00",
+      "effective_at": "2026-10-12T14:36:27+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'loc' in title weight 62",
+        "event term: 'loc' in summary weight 37.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 62, stack 45, score 62 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Four terrorists, including top Lashkar-e-Taiba commander Mohammad Faizan, were killed in a mine blast while attempting to infiltrate across the Line of Control (LoC) in Jammu and Kashmir’s Krishna Ghati sector.",
+        "The incident took place near Nangi Tekri, where mines planted as part of the anti-infiltration grid exploded, killing all four infiltrators on the spot.",
+        "The other three terrorists were identified as Wakas, Ishtiaq and Asim."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Four terrorists, including top Lashkar-e-Taiba commander Mohammad Faizan, were killed in a mine blast while attempting to infiltrate across the Line of Control (LoC) in Jammu and Kashmir’s Krishna Ghati sector.",
+          "The incident took place near Nangi Tekri, where mines planted as part of the anti-infiltration grid exploded, killing all four infiltrators on the spot."
+        ],
+        "body": [
+          "The other three terrorists were identified as Wakas, Ishtiaq and Asim."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jammu"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Four terrorists, including top Lashkar-e-Taiba commander Mohammad Faizan, were killed in a mine blast while attempting to infiltrate across the Line of Control (LoC) in Jammu and Kashmir’s Krishna Ghati sector.",
+            "source": "India Today",
+            "item_id": "54736a6fe6c3e89ab5ea32db:article",
+            "composed": false
+          },
+          {
+            "text": "The incident took place near Nangi Tekri, where mines planted as part of the anti-infiltration grid exploded, killing all four infiltrators on the spot.",
+            "source": "India Today",
+            "item_id": "54736a6fe6c3e89ab5ea32db:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/top-lashkar-commander-among-4-terrorists-killed-in-mine-blast-while-trying-to-infiltrate-along-loc-in-jk-3015822-2026-10-12"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "ede7fbef6d533a7d5e263f1e",
       "story_id": "ede7fbef6d533a7d5e263f1e",
       "headline": "'Rahul Gandhi vs Election Commission': Supreme Court Hearing Likely Tomorrow",
@@ -469,7 +563,7 @@
           "source_ids": [
             "india-today"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -482,12 +576,12 @@
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (ndtv) +2",
-        "source: event has 3 copies, primary source counted once",
+        "source: event has 4 copies, primary source counted once",
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: very old (147.5h) -2",
+        "recency: very old (147.7h) -2",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -568,7 +662,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -696,7 +790,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -823,7 +917,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 18, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -883,40 +977,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9cbbe30cc6ff41bd611eb0bc",
-      "story_id": "9cbbe30cc6ff41bd611eb0bc",
-      "headline": "EC-SIR row: SC says it hasn't adjudicated on validity of new Form 6, will examine it",
-      "title": "EC-SIR row: SC says it hasn't adjudicated on validity of new Form 6, will examine it",
-      "summary": "The Supreme Court addressed the controversy surrounding the new Form 6 used for voter registration. It clarified that it had not approved changes to the declaration regarding electoral rolls. The court's remarks arose during a hearing on the functioning of the Election Commission of India. Concerns were raised over the legality of the changes introduced in Form 6. The Supreme Court will further examine this issue in October.",
-      "url": "https://timesofindia.indiatimes.com/india/dont-pick-up-words-like-this-sc-says-neither-approved-nor-disapproved-new-form-6-to-examine-its-validity/articleshow/134888705.cms",
-      "source": "Times of India",
+      "event_id": "60c53dcb7edee0b15c897e0f",
+      "story_id": "60c53dcb7edee0b15c897e0f",
+      "headline": "Supreme Court hears plea on feral dogs threatening wildlife habitats",
+      "title": "Supreme Court hears plea on feral dogs threatening wildlife habitats",
+      "summary": "Supreme Court hears plea on feral dogs threatening wildlife habitats",
+      "url": "https://www.indiatoday.in/india/story/supreme-court-feral-dogs-wildlife-habitats-management-guidelines-plea-ptag-3015826-2026-10-12",
+      "source": "India Today",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
       "secondary_categories": [
-        "national-politics"
+        "energy-environment"
       ],
-      "confidence": "high",
-      "score": 69.0,
+      "confidence": "medium",
+      "score": 75.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-12T07:57:16+00:00",
-      "published_at": "2026-10-12T09:51:44+00:00",
-      "effective_at": "2026-10-12T09:51:44+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-10-12T14:40:58+00:00",
+      "published_at": "2026-10-12T14:40:58+00:00",
+      "effective_at": "2026-10-12T14:40:58+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "indiatimes": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "india-today"
           ],
           "count": 1
         }
@@ -925,70 +1012,92 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'election' in summary weight 34.8",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (6.6h ago) +4",
+        "recency: breaking (0.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "The Supreme Court has sought responses on a plea for fixed-time guidelines to manage dogs in protected areas.",
+        "The petition says delayed action is leaving endangered wildlife exposed to repeated attacks.",
+        "The Supreme Court on Monday agreed to hear a plea seeking directions to the Centre to frame guidelines within a fixed timeline for the management of feral, free-ranging and domestic dogs in wildlife and protected areas.",
+        "A bench of Justices Vikram Nath and Aparesh Kumar Singh issued notices to the Centre, the National Board for Wildlife and the Animal Welfare Board of India.",
+        "The petition, filed by the Bombay Natural History Society and others, said free-ranging and feral dogs pose a grave threat to native wildlife in India, including Schedule.",
+        "I species such as the snow leopard, chinkara, leopard cat, great Indian bustard and olive ridley turtle.",
+        "Senior advocate Arvind Datar, appearing for the petitioners, told the court there have been attacks on endangered species such as snow leopards in Ladakh and Arunachal Pradesh and great Indian bustards in Rajasthan.",
+        "The matter has been posted for hearing on November 17.",
+        "The plea, filed through advocate Madhusmita Bora, has sought a direction to the respondents to frame and submit appropriate guidelines before the court within a stipulated timeline.",
+        "It has also sought the identification of feral, free-ranging and domestic dogs entering wildlife habitats and protected forests through regular monitoring and geo-tagging.",
+        "The petition has further asked for Rules 11 and 3(ii) of Schedule II of the Animal Birth Control Rules, 2023, to be declared unconstitutional, and for the relevant provisions to be read down so that they do not apply to protected zones, on the ground that they violate Articles 14 and 21 of the Constitution.",
+        "The petitioners said they had earlier moved the court on the issue, and that plea was disposed of on April 2, 2025 after Attorney General R Venkataramani assured the court that appropriate guidelines would be formulated in consultation with all stakeholders."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court addressed the controversy surrounding the new Form 6 used for voter registration.",
-          "It clarified that it had not approved changes to the declaration regarding electoral rolls."
+          "The Supreme Court has sought responses on a plea for fixed-time guidelines to manage dogs in protected areas.",
+          "The petition says delayed action is leaving endangered wildlife exposed to repeated attacks."
         ],
         "body": [
-          "The court's remarks arose during a hearing on the functioning of the Election Commission of India.",
-          "Concerns were raised over the legality of the changes introduced in Form 6.",
-          "The Supreme Court will further examine this issue in October."
+          "The Supreme Court on Monday agreed to hear a plea seeking directions to the Centre to frame guidelines within a fixed timeline for the management of feral, free-ranging and domestic dogs in wildlife and protected areas.",
+          "A bench of Justices Vikram Nath and Aparesh Kumar Singh issued notices to the Centre, the National Board for Wildlife and the Animal Welfare Board of India.",
+          "The petition, filed by the Bombay Natural History Society and others, said free-ranging and feral dogs pose a grave threat to native wildlife in India, including Schedule.",
+          "I species such as the snow leopard, chinkara, leopard cat, great Indian bustard and olive ridley turtle.",
+          "Senior advocate Arvind Datar, appearing for the petitioners, told the court there have been attacks on endangered species such as snow leopards in Ladakh and Arunachal Pradesh and great Indian bustards in Rajasthan.",
+          "The matter has been posted for hearing on November 17.",
+          "The plea, filed through advocate Madhusmita Bora, has sought a direction to the respondents to frame and submit appropriate guidelines before the court within a stipulated timeline.",
+          "It has also sought the identification of feral, free-ranging and domestic dogs entering wildlife habitats and protected forests through regular monitoring and geo-tagging."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Form"
+            "text": "India"
           }
         ],
         "sentences": [
           {
-            "text": "The Supreme Court will further examine this issue in October.",
-            "source": "Times of India",
-            "item_id": "9cbbe30cc6ff41bd611eb0bc",
+            "text": "Senior advocate Arvind Datar, appearing for the petitioners, told the court there have been attacks on endangered species such as snow leopards in Ladakh and Arunachal Pradesh and great Indian bustards in Rajasthan.",
+            "source": "India Today",
+            "item_id": "60c53dcb7edee0b15c897e0f:article",
             "composed": false
           },
           {
-            "text": "Concerns were raised over the legality of the changes introduced in Form 6.",
-            "source": "Times of India",
-            "item_id": "9cbbe30cc6ff41bd611eb0bc",
+            "text": "The petition, filed by the Bombay Natural History Society and others, said free-ranging and feral dogs pose a grave threat to native wildlife in India, including Schedule.",
+            "source": "India Today",
+            "item_id": "60c53dcb7edee0b15c897e0f:article",
             "composed": false
           },
           {
-            "text": "The Supreme Court addressed the controversy surrounding the new Form 6 used for voter registration.",
-            "source": "Times of India",
-            "item_id": "9cbbe30cc6ff41bd611eb0bc",
+            "text": "The matter has been posted for hearing on November 17.",
+            "source": "India Today",
+            "item_id": "60c53dcb7edee0b15c897e0f:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Monday agreed to hear a plea seeking directions to the Centre to frame guidelines within a fixed timeline for the management of feral, free-ranging and domestic dogs in wildlife and protected areas.",
+            "source": "India Today",
+            "item_id": "60c53dcb7edee0b15c897e0f:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
+        "source": "India Today",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/india/dont-pick-up-words-like-this-sc-says-neither-approved-nor-disapproved-new-form-6-to-examine-its-validity/articleshow/134888705.cms"
+        "url": "https://www.indiatoday.in/india/story/supreme-court-feral-dogs-wildlife-habitats-management-guidelines-plea-ptag-3015826-2026-10-12"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "c932beab8bcb4019a9d4d3ce",
@@ -1031,7 +1140,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1145,7 +1254,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1233,7 +1342,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1255,7 +1364,7 @@
         "\"The judicial process must be allowed to function independently, without pressure or interference,\" it added.",
         "The SCAORA resolution was signed by its Honorary Secretary, Yugandhara Pawar Jha."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court Bar Association (SCBA) and the Supreme Court Advocates-on-Record Association (SCAORA) have condemned statements circulated on social media seeking the resignation of Chief Justice of India (CJI) Surya Kant, stating that such remarks belittle the institution of the judiciary and amount to an attempt to interfere with the administration of justice.",
@@ -1291,7 +1400,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-bar-association-condemns-calls-for-cji-surya-kants-resignation-554318"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1339,7 +1448,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1450,7 +1559,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1513,6 +1622,126 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-persons-with-disabilities-maintenance-of-airport-infrastructure-civil-aviation-braille-signage-right-to-accessibility-554303"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "868ec06a33ee3d614d834b00",
+      "story_id": "868ec06a33ee3d614d834b00",
+      "headline": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
+      "title": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
+      "summary": "A four-page court order passed on October 9 records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the government to look for a ‘spacious, open’ alternative site in Delhi",
+      "url": "https://www.thehindu.com/news/national/govt-move-to-de-notify-jantar-mantar-follows-sc-suggestion-that-protest-sites-need-more-space/article71574374.ece",
+      "source": "The Hindu - Delhi",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 73.2,
+      "priority_score": 40.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-12T11:17:21+00:00",
+      "published_at": "2026-10-12T11:17:21+00:00",
+      "effective_at": "2026-10-12T11:17:21+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-delhi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-delhi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: state scope (delhi)",
+        "recency: fresh (3.4h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 27.6, stack 40.4, score 40.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "Exactly three days before the Delhi.",
+        "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital.",
+        "On October 9, both the court and the government had reasoned that central Delhi was too cramped for protests.",
+        "It denied protesters basic amenities.",
+        "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+        "The Chief Justice of India remarked that central Delhi did not have any washroom, medical and drinking water facilities.",
+        "The four-page order passed on October 9 actually records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the Union government to look for a “spacious, open” alternative site.",
+        "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+        "At the time of hearing, the protest was expected to happen at Jantar Mantar, the designated site for voicing dissent in the national capital.",
+        "The order said all the parties, including the petitioners, were in favour of finding an alternative protest site in Delhi.",
+        "“During the course of hearing, it was suggested, and counsel for the parties were ad idem (of the same mind), that it is high time basic amenities were provided to those engaged in peaceful and lawful protest.",
+        "To that end, suitable alternative sites capable of housing such infrastructure need to be identified and designated."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Exactly three days before the Delhi.",
+          "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital."
+        ],
+        "body": [
+          "On October 9, both the court and the government had reasoned that central Delhi was too cramped for protests.",
+          "It denied protesters basic amenities.",
+          "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+          "The Chief Justice of India remarked that central Delhi did not have any washroom, medical and drinking water facilities.",
+          "The four-page order passed on October 9 actually records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the Union government to look for a “spacious, open” alternative site.",
+          "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+          "The order said all the parties, including the petitioners, were in favour of finding an alternative protest site in Delhi."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jantar Mantar"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "At the time of hearing, the protest was expected to happen at Jantar Mantar, the designated site for voicing dissent in the national capital."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          },
+          {
+            "text": "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          },
+          {
+            "text": "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Delhi",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/govt-move-to-de-notify-jantar-mantar-follows-sc-suggestion-that-protest-sites-need-more-space/article71574374.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
