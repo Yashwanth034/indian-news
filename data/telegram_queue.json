@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T02:32:29.691727+00:00",
-  "count": 10,
+  "generated_at": "2026-10-13T02:42:10.992048+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "d0da02a1b978a9cd54b336e2",
@@ -48,7 +48,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -56,7 +56,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Panama City [Panama], October 13 (ANI): An earthquake of magnitude 6.1 struck Panama in the early hours of Tuesday, according to the National Centre for Seismology (NCS).",
@@ -112,7 +112,7 @@
         "url": "https://kalingatv.com/world/magnitude-6-1-earthquake-strikes-panama"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -161,7 +161,7 @@
         "event term: 'war' in title weight 82",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 31.4, score 82 -> IMMEDIATE"
@@ -274,7 +274,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -349,8 +349,112 @@
         "corroborating": [],
         "url": "https://www.indiatoday.in/india/story/jantar-mantar-shifted-pv-narasimha-rao-government-mahendra-singh-tikait-babri-masjid-bjp-itspc-3015631-2026-10-13"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "edd87c9fca19c2c228fc404f",
+      "story_id": "edd87c9fca19c2c228fc404f",
+      "headline": "Raijor Dal Protests in Dispur Over Flood Compensation, Tensions Rise as Police Detain Demonstrators",
+      "title": "Raijor Dal Protests in Dispur Over Flood Compensation, Tensions Rise as Police Detain Demonstrators",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/cities/guwahati-city/raijor-dal-protests-in-dispur-over-flood-compensation-tensions-rise-as-police-detain-demonstrators",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-13T02:14:00+00:00",
+      "published_at": "2026-10-13T02:14:00+00:00",
+      "effective_at": "2026-10-13T02:14:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "GUWAHATI: Raijor Dal staged a strong protest in Dispur on Monday, demanding immediate compensation for flood-affected families in Upper Assam.",
+        "The protesters held demonstrations in front of Janata Bhawan and the ministers' residential quarters, pressing the state government to provide relief to those who suffered losses due to floods.",
+        "Police intervened to stop the protest, leading to tense scenes at the spot.",
+        "Protesters were allegedly pushed and forcibly taken into police vehicles before being detained.",
+        "The situation became heated as demonstrators objected to the police action.",
+        "Meanwhile, Raijor Dal MLA Akhil Gogoi addressed a press conference, criticising Chief Minister Dr. Himanta Biswa Sarma over the government's response to the compensation demand.",
+        "Gogoi alleged that the Chief Minister's arrogance had not diminished and claimed that neither the Chief Minister nor the Chief Secretary had approached him to discuss the matter."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "GUWAHATI: Raijor Dal staged a strong protest in Dispur on Monday, demanding immediate compensation for flood-affected families in Upper Assam.",
+          "The protesters held demonstrations in front of Janata Bhawan and the ministers' residential quarters, pressing the state government to provide relief to those who suffered losses due to floods."
+        ],
+        "body": [
+          "Police intervened to stop the protest, leading to tense scenes at the spot.",
+          "Protesters were allegedly pushed and forcibly taken into police vehicles before being detained.",
+          "The situation became heated as demonstrators objected to the police action.",
+          "Meanwhile, Raijor Dal MLA Akhil Gogoi addressed a press conference, criticising Chief Minister Dr. Himanta Biswa Sarma over the government's response to the compensation demand.",
+          "Gogoi alleged that the Chief Minister's arrogance had not diminished and claimed that neither the Chief Minister nor the Chief Secretary had approached him to discuss the matter."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Dispur"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "GUWAHATI: Raijor Dal staged a strong protest in Dispur on Monday, demanding immediate compensation for flood-affected families in Upper Assam.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "edd87c9fca19c2c228fc404f:article",
+            "composed": false
+          },
+          {
+            "text": "The protesters held demonstrations in front of Janata Bhawan and the ministers' residential quarters, pressing the state government to provide relief to those who suffered losses due to floods.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "edd87c9fca19c2c228fc404f:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/cities/guwahati-city/raijor-dal-protests-in-dispur-over-flood-compensation-tensions-rise-as-police-detain-demonstrators"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -397,7 +501,7 @@
         "event term: 'election' in title weight 58",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -532,7 +636,7 @@
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.9h ago) +4",
+        "recency: fresh (6.1h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 34.4, score 49.2 -> HIGH"
@@ -645,7 +749,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'tariff' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 43.2, score 49.2 -> HIGH"
@@ -818,7 +922,7 @@
         "event term: 'cloudburst' in summary weight 28.8",
         "scale: state scope (jammu and kashmir)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -955,7 +1059,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (7 states)",
-        "recency: fresh (10.2h ago) +4",
+        "recency: fresh (10.4h ago) +4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1045,7 +1149,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 44.4, score 44.4 -> HIGH"
@@ -1151,6 +1255,114 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "940720fae6923a6ed3596085",
+      "story_id": "940720fae6923a6ed3596085",
+      "headline": "Supreme Court Clarifies It Neither Approved nor Rejected ECI’s Revised Form 6",
+      "title": "Supreme Court Clarifies It Neither Approved nor Rejected ECI’s Revised Form 6",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-clarifies-it-neither-approved-nor-rejected-ecis-revised-form-6",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-13T02:31:34+00:00",
+      "published_at": "2026-10-13T02:31:34+00:00",
+      "effective_at": "2026-10-13T02:31:34.186000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 25.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi: The Supreme Court on Monday clarified that it had not adjudicated on the Election Commission of India's (ECI) modified Form 6 declaration for new voter registration, observing that the revised form was not before it when it decided the Bihar Special Intensive Revision (SIR) of electoral rolls case.",
+        "A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana made the clarification while hearing a fresh petition raising concerns over the functioning of Chief Election Commissioner (CEC) Gyanesh Kumar and the changes to Form 6, which requires applicants seeking registration as new voters to disclose whether they or their parents were mapped in the previous SIR.",
+        "During the hearing, counsel for the petitioner submitted that the Supreme Court had clarified on October 5 that the modified Form 6 had not been approved by it, while the ECI had claimed that the revised declaration had received the top court's approval.",
+        "Responding to the submission, Justice Bagchi said the Supreme Court had not adjudicated on the new Form 6, adding that the revised form was not in existence when the judgment in the Bihar SIR case was delivered.",
+        "\"There is no adjudication on the new Form 6,\" he observed, clarifying that the apex court's earlier oral remarks could not be construed as either approving or disapproving the modified declaration.",
+        "CJI Surya Kant cautioned against selectively interpreting the top court's observations for media reports, saying: \"Please don't pick words for news items.\"",
+        "The clarification comes amid a political row over the modified Form 6 declaration, with questions being raised about the circumstances in which the changes were introduced and whether they were implemented despite objections from two Election Commissioners.",
+        "The controversy intensified after the ECI issued a press release on September 26 suggesting that the Supreme Court had upheld the revised declaration in its May 2026 judgment concerning the Bihar SIR exercise.",
+        "However, the modified declaration was introduced after the judgment, and the Supreme Court had no occasion to examine its contents while deciding the Bihar SIR matter.",
+        "Under the revised declaration, applicants seeking registration as new voters are required to state whether they or their parents were included in the previous SIR.",
+        "The earlier version of Form 6 used during the SIR exercise in other states did not contain this requirement.",
+        "The changes have also triggered allegations concerning the decision-making process within the ECI, with objections reportedly raised by two election commissioners on the ground that the declaration could not be modified without an amendment to the Registration of Electors Rules, 1960, by the Central government."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi: The Supreme Court on Monday clarified that it had not adjudicated on the Election Commission of India's (ECI) modified Form 6 declaration for new voter registration, observing that the revised form was not before it when it decided the Bihar Special Intensive Revision (SIR) of electoral rolls case.",
+          "A bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana made the clarification while hearing a fresh petition raising concerns over the functioning of Chief Election Commissioner (CEC) Gyanesh Kumar and the changes to Form 6, which requires applicants seeking registration as new voters to disclose whether they or their parents were mapped in the previous SIR."
+        ],
+        "body": [
+          "During the hearing, counsel for the petitioner submitted that the Supreme Court had clarified on October 5 that the modified Form 6 had not been approved by it, while the ECI had claimed that the revised declaration had received the top court's approval.",
+          "Responding to the submission, Justice Bagchi said the Supreme Court had not adjudicated on the new Form 6, adding that the revised form was not in existence when the judgment in the Bihar SIR case was delivered.",
+          "\"There is no adjudication on the new Form 6,\" he observed, clarifying that the apex court's earlier oral remarks could not be construed as either approving or disapproving the modified declaration.",
+          "CJI Surya Kant cautioned against selectively interpreting the top court's observations for media reports, saying: \"Please don't pick words for news items.\" The clarification comes amid a political row over the modified Form 6 declaration, with questions being raised about the circumstances in which the changes were introduced and whether they were implemented despite objections from two Election Commissioners.",
+          "The controversy intensified after the ECI issued a press release on September 26 suggesting that the Supreme Court had upheld the revised declaration in its May 2026 judgment concerning the Bihar SIR exercise.",
+          "However, the modified declaration was introduced after the judgment, and the Supreme Court had no occasion to examine its contents while deciding the Bihar SIR matter.",
+          "Under the revised declaration, applicants seeking registration as new voters are required to state whether they or their parents were included in the previous SIR.",
+          "The earlier version of Form 6 used during the SIR exercise in other states did not contain this requirement."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "During the hearing, counsel for the petitioner submitted that the Supreme Court had clarified on October 5 that the modified Form 6 had not been approved by it, while the ECI had claimed that the revised declaration had received the top court's approval.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "940720fae6923a6ed3596085:article",
+            "composed": false
+          },
+          {
+            "text": "The controversy intensified after the ECI issued a press release on September 26 suggesting that the Supreme Court had upheld the revised declaration in its May 2026 judgment concerning the Bihar SIR exercise.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "940720fae6923a6ed3596085:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: The Supreme Court on Monday clarified that it had not adjudicated on the Election Commission of India's (ECI) modified Form 6 declaration for new voter registration, observing that the revised form was not before it when it decided the Bihar Special Intensive Revision (SIR) of electoral rolls case.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "940720fae6923a6ed3596085:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-clarifies-it-neither-approved-nor-rejected-ecis-revised-form-6"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "7754b566096338e6b5d5d184",
       "story_id": "7754b566096338e6b5d5d184",
       "headline": "Common Cause of “Vote Chori”: Opposition and Gen Z Protests Rattle Government as Supreme Court Steps In",
@@ -1201,7 +1413,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 43.4, score 44 -> HIGH"
@@ -1314,9 +1526,129 @@
         ],
         "url": "https://risingkashmir.com/viewpoint/common-cause-of-vote-chori-opposition-and-gen-z-protests-rattle-government-as-supreme-court-steps-in-12670420"
       },
-      "group_size": 4,
+      "group_size": 3,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "687e3ae7d9852ab005d539c5",
+      "story_id": "687e3ae7d9852ab005d539c5",
+      "headline": "Rahul Gandhi, INDIA Bloc Leaders Move Supreme Court Over SIR Irregularities",
+      "title": "Rahul Gandhi, INDIA Bloc Leaders Move Supreme Court Over SIR Irregularities",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/rahul-gandhi-india-bloc-leaders-move-supreme-court-over-sir-irregularities",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-13T02:17:36+00:00",
+      "published_at": "2026-10-13T02:17:36+00:00",
+      "effective_at": "2026-10-13T02:17:36.450000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 25.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi and 10 other INDIA bloc leaders have moved the Supreme Court, challenging the Election Commission of India's (ECI) Special Intensive Revision (SIR) of electoral rolls, alleging large-scale voter deletions and irregularities in the exercise.",
+        "The writ petition filed on Monday names the ECI and Chief Election Commissioner (CEC) Gyanesh Kumar among the respondents.",
+        "According to the case status reflected on the apex court's website, the petition was filed under diary number 64196/2026 and is currently pending.",
+        "It lists Rahul Gandhi, Congress president Mallikarjun Kharge, Trinamool Congress leader Saugata Roy, Samajwadi Party chief Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Shiv Sena (UBT) leader Sanjay Raut, CPI(M) leader MA Baby, CPI leader D. Raja, Jharkhand Mukti Morcha leader Mahua Majhi, NCP (SP) leader Supriya Sule and Indian Union Muslim League leader ET Mohammed Basheer as petitioners.",
+        "The respondents include the ECI, CEC Gyanesh Kumar, and election commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+        "The development comes amid an escalating confrontation between the opposition and the poll body over the SIR exercise, with INDIA bloc leaders alleging that the revision process threatens electoral fairness and could result in the exclusion of eligible voters from electoral rolls.",
+        "Earlier on Monday, Rahul said Chief Justice of India (CJI) Surya Kant had advised opposition leaders to approach the Supreme Court through a formal petition after they sought an appointment to raise their concerns over the SIR exercise.",
+        "Addressing a press conference at the Congress headquarters in New Delhi, Gandhi said he and Kharge had written to the CJI expressing concern over electoral fairness and \"attack on democracy\".",
+        "He announced that INDIA bloc leaders would jointly approach the apex court to initiate legal proceedings and appealed to citizens to join their campaign in support of the Constitution and democracy.",
+        "The opposition leaders had also begun a protest march towards the Supreme Court, demanding the resignation of CEC Gyanesh Kumar over alleged irregularities in the electoral process.",
+        "Meanwhile, the BJP launched a sharp attack on the INDIA bloc, accusing it of turning the SIR controversy into a political spectacle.",
+        "BJP national spokesperson Guru Prakash Paswan, speaking to IANS, dismissed the opposition's allegations and said the Supreme Court had already ruled on the constitutional validity of the SIR exercise."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi and 10 other INDIA bloc leaders have moved the Supreme Court, challenging the Election Commission of India's (ECI) Special Intensive Revision (SIR) of electoral rolls, alleging large-scale voter deletions and irregularities in the exercise.",
+          "The writ petition filed on Monday names the ECI and Chief Election Commissioner (CEC) Gyanesh Kumar among the respondents."
+        ],
+        "body": [
+          "According to the case status reflected on the apex court's website, the petition was filed under diary number 64196/2026 and is currently pending.",
+          "It lists Rahul Gandhi, Congress president Mallikarjun Kharge, Trinamool Congress leader Saugata Roy, Samajwadi Party chief Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Shiv Sena (UBT) leader Sanjay Raut, CPI(M) leader MA Baby, CPI leader D. Raja, Jharkhand Mukti Morcha leader Mahua Majhi, NCP (SP) leader Supriya Sule and Indian Union Muslim League leader ET Mohammed Basheer as petitioners.",
+          "The respondents include the ECI, CEC Gyanesh Kumar, and election commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+          "The development comes amid an escalating confrontation between the opposition and the poll body over the SIR exercise, with INDIA bloc leaders alleging that the revision process threatens electoral fairness and could result in the exclusion of eligible voters from electoral rolls.",
+          "Earlier on Monday, Rahul said Chief Justice of India (CJI) Surya Kant had advised opposition leaders to approach the Supreme Court through a formal petition after they sought an appointment to raise their concerns over the SIR exercise.",
+          "Addressing a press conference at the Congress headquarters in New Delhi, Gandhi said he and Kharge had written to the CJI expressing concern over electoral fairness and \"attack on democracy\".",
+          "He announced that INDIA bloc leaders would jointly approach the apex court to initiate legal proceedings and appealed to citizens to join their campaign in support of the Constitution and democracy.",
+          "The opposition leaders had also begun a protest march towards the Supreme Court, demanding the resignation of CEC Gyanesh Kumar over alleged irregularities in the electoral process."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Lok Sabha Rahul"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi and 10 other INDIA bloc leaders have moved the Supreme Court, challenging the Election Commission of India's (ECI) Special Intensive Revision (SIR) of electoral rolls, alleging large-scale voter deletions and irregularities in the exercise.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "687e3ae7d9852ab005d539c5:article",
+            "composed": false
+          },
+          {
+            "text": "Earlier on Monday, Rahul said Chief Justice of India (CJI) Surya Kant had advised opposition leaders to approach the Supreme Court through a formal petition after they sought an appointment to raise their concerns over the SIR exercise.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "687e3ae7d9852ab005d539c5:article",
+            "composed": false
+          },
+          {
+            "text": "Addressing a press conference at the Congress headquarters in New Delhi, Gandhi said he and Kharge had written to the CJI expressing concern over electoral fairness and \"attack on democracy\".",
+            "source": "The Sentinel (Assam)",
+            "item_id": "687e3ae7d9852ab005d539c5:article",
+            "composed": false
+          },
+          {
+            "text": "The opposition leaders had also begun a protest march towards the Supreme Court, demanding the resignation of CEC Gyanesh Kumar over alleged irregularities in the electoral process.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "687e3ae7d9852ab005d539c5:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/rahul-gandhi-india-bloc-leaders-move-supreme-court-over-sir-irregularities"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     }
   ]
 }
