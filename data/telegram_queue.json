@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T13:32:33.261196+00:00",
-  "count": 15,
+  "generated_at": "2026-10-13T13:42:16.394040+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "170a91c929368faeabe512c7",
@@ -47,10 +47,10 @@
         "event term: 'floods' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (kerala)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 45, score 64 -> URGENT"
+        "dominant event 64, stack 43, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "kerala",
@@ -164,7 +164,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 62, stack 30.4, score 62 -> URGENT"
@@ -267,7 +267,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -389,7 +389,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: state scope (goa)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 24.4, score 49.2 -> HIGH"
@@ -508,7 +508,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -576,6 +576,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "0a6d82f65cb024c52e3ef945",
+      "story_id": "0a6d82f65cb024c52e3ef945",
+      "headline": "EC-SIR issue: Rahul Gandhi's plea not listed for hearing in Supreme Court as defects yet to be cured",
+      "title": "EC-SIR issue: Rahul Gandhi's plea not listed for hearing in Supreme Court as defects yet to be cured",
+      "summary": "As per the Supreme Court's website, the apex court registry had flagged 14 defects, including lack of a clear copy of the ID card of Congress president and Leader of Opposition in Rajya Sabha Mallikarjun Kharge, a co-petitioner in the case",
+      "url": "https://www.thehindu.com/news/national/ec-sir-issue-rahul-gandhis-plea-not-listed-for-hearing-in-supreme-court-as-defects-yet-to-be-cured/article71579699.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 87.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-13T13:35:34+00:00",
+      "published_at": "2026-10-13T13:35:34+00:00",
+      "effective_at": "2026-10-13T13:35:34+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The petition filed by Congress leader Rahul Gandhi and 10 prominent opposition leaders following a massive march on October 12 was not listed for hearing in the Supreme Court on Tuesday (October 13) as defects pointed out by the registry are yet to be cured.",
+        "As per the Supreme Court's website, the apex court registry had flagged 14 defects, including lack of a clear copy of the ID card of Congress president and Leader of Opposition in Rajya Sabha Mallikarjun Kharge, a co-petitioner in the case.",
+        "The registry had also pointed out certain illegible or missing pages in the petition.",
+        "Chief Justice of India Surya Kant, in his response to Mr. Gandhi's request for a meeting to submit a memorandum on issues concerning the Chief Election Commissioner and the Election Commission of India (ECI), the alleged arbitrary arrest of several students, closure of Metro stations and cancellation of trains, had assured early hearing of the plea, if filed, on the judicial side.",
+        "On Tuesday (October 13), a bench headed by the CJI assured the petitioners that their matters would be listed for hearing if the defects are cured.",
+        "\"We will list all these matters.",
+        "Make sure that the defects are cured,\" the CJI told senior advocate Gopal Sankaranarayanan, who mentioned the matter on behalf of a journalist.",
+        "Besides Mr. Gandhi and Kharge, TMC MP Saugata Roy, Samajwadi Party chief Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Nationalist Congress Party (Sharad Pawar) leader Supriya Sule, Shiv Sena-UBT leader Sanjay Raut, Communist Party of India's D. Raja, Jharkhand Mukti Morcha MP Mahua Majhi, CPI(M) general secretary M.A. Baby and Indian Union Muslim League leader E.T. Mohammed Basheer are co-petitioners in the plea filed by the Congress leader.",
+        "The plea has alleged large-scale voter deletions and irregularities in the Special Intensive Revision (SIR) of electoral rolls.",
+        "It has sought the constitution of an independent committee, headed by a retired apex court judge and assisted by technical experts and other citizens of eminence, to conduct a time-bound, independent audit of deletions and modifications made during the SIR.",
+        "It has also sought a direction to ensure that no elector is deleted from the electoral rolls without notice and a reasonable opportunity of hearing in accordance with the law, and also to ensure that eligible persons in Punjab and other states going to polls are permitted to seek inclusion in the electoral rolls until the last date permitted by law.",
+        "\"Issue an interim direction suspending the ongoing Special Intensive Revision of electoral rolls across the states, pending consideration and adjudication of the issues raised in the present petition, in the interests of protecting the rights of eligible electors and preserving the integrity of the electoral process,\" the plea said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The petition filed by Congress leader Rahul Gandhi and 10 prominent opposition leaders following a massive march on October 12 was not listed for hearing in the Supreme Court on Tuesday (October 13) as defects pointed out by the registry are yet to be cured.",
+          "As per the Supreme Court's website, the apex court registry had flagged 14 defects, including lack of a clear copy of the ID card of Congress president and Leader of Opposition in Rajya Sabha Mallikarjun Kharge, a co-petitioner in the case."
+        ],
+        "body": [
+          "The registry had also pointed out certain illegible or missing pages in the petition.",
+          "Chief Justice of India Surya Kant, in his response to Mr. Gandhi's request for a meeting to submit a memorandum on issues concerning the Chief Election Commissioner and the Election Commission of India (ECI), the alleged arbitrary arrest of several students, closure of Metro stations and cancellation of trains, had assured early hearing of the plea, if filed, on the judicial side.",
+          "On Tuesday (October 13), a bench headed by the CJI assured the petitioners that their matters would be listed for hearing if the defects are cured.",
+          "\"We will list all these matters.",
+          "Make sure that the defects are cured,\" the CJI told senior advocate Gopal Sankaranarayanan, who mentioned the matter on behalf of a journalist.",
+          "Besides Mr. Gandhi and Kharge, TMC MP Saugata Roy, Samajwadi Party chief Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Nationalist Congress Party (Sharad Pawar) leader Supriya Sule, Shiv Sena-UBT leader Sanjay Raut, Communist Party of India's D. Raja, Jharkhand Mukti Morcha MP Mahua Majhi, CPI(M) general secretary M.A. Baby and Indian Union Muslim League leader E.T. Mohammed Basheer are co-petitioners in the plea filed by the Congress leader.",
+          "The plea has alleged large-scale voter deletions and irregularities in the Special Intensive Revision (SIR) of electoral rolls.",
+          "It has sought the constitution of an independent committee, headed by a retired apex court judge and assisted by technical experts and other citizens of eminence, to conduct a time-bound, independent audit of deletions and modifications made during the SIR."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rajya Sabha Mallikarjun"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The petition filed by Congress leader Rahul Gandhi and 10 prominent opposition leaders following a massive march on October 12 was not listed for hearing in the Supreme Court on Tuesday (October 13) as defects pointed out by the registry are yet to be cured.",
+            "source": "The Hindu",
+            "item_id": "0a6d82f65cb024c52e3ef945:article",
+            "composed": false
+          },
+          {
+            "text": "As per the Supreme Court's website, the apex court registry had flagged 14 defects, including lack of a clear copy of the ID card of Congress president and Leader of Opposition in Rajya Sabha Mallikarjun Kharge, a co-petitioner in the case.",
+            "source": "The Hindu",
+            "item_id": "0a6d82f65cb024c52e3ef945:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/ec-sir-issue-rahul-gandhis-plea-not-listed-for-hearing-in-supreme-court-as-defects-yet-to-be-cured/article71579699.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "fa477441945b9226f0cb68f1",
       "story_id": "fa477441945b9226f0cb68f1",
       "headline": "Supreme Court’s rescue act: A case of too little, too late",
@@ -618,7 +729,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -626,7 +737,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court must do more than remind the state of fundamental rights; it must ensure they cannot be extinguished by executive fiat.",
@@ -653,7 +764,7 @@
         "url": "https://frontline.thehindu.com/the-nation/judicial-independence-protest-rights/article71579230.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -709,7 +820,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "scale: state scope (delhi)",
         "scale: 1 people-affected figures",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -717,7 +828,7 @@
       "geo_scope": "state",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Eli Lilly has a “follow-the-sun” model for its research and development wing, which gets 20 to 25 cents of every dollar from its sales revenue.",
@@ -883,7 +994,7 @@
         "url": "https://www.forbesindia.com/article/news/deep-dive/how-the-weight-loss-market-is-prompting-pharma-biggies-to-look-at-india-afresh/2999387/1"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -928,7 +1039,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1030,7 +1141,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1092,6 +1203,121 @@
       "enrichment": "article"
     },
     {
+      "event_id": "d970169d9df44a67d8d86eeb",
+      "story_id": "d970169d9df44a67d8d86eeb",
+      "headline": "Delhi HC lists PIL on Jantar Mantar protests, seeks Supreme Court plea copy",
+      "title": "Delhi HC lists PIL on Jantar Mantar protests, seeks Supreme Court plea copy",
+      "summary": "Delhi HC lists PIL on Jantar Mantar protests, seeks Supreme Court plea copy",
+      "url": "https://www.indiatoday.in/india/story/delhi-high-court-jantar-mantar-protest-plea-supreme-court-petition-copy-ptag-3016481-2026-10-13",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-13T11:48:50+00:00",
+      "published_at": "2026-10-13T11:48:50+00:00",
+      "effective_at": "2026-10-13T11:48:50+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.9h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Delhi High Court will hear on October 16 a plea seeking peaceful protests at Jantar Mantar.",
+        "The bench asked for the related Supreme Court petition to avoid passing conflicting orders.",
+        "The Delhi High Court on Tuesday listed for hearing on October 16 a public interest litigation seeking directions to allow peaceful protests at Jantar Mantar and to declare the right to peaceful protest as part of free speech.",
+        "The court asked the petitioner to place on record a copy of a similar plea pending before the Supreme Court.",
+        "A bench of Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma said it did not want to pass an order that could conflict with proceedings in the top court.",
+        "Additional Solicitor General Chetan Sharma told the court that the Supreme Court has deferred hearing on protest-related petitions till October 15.",
+        "\"We want to have a copy of the Supreme Court petition.",
+        "We don't want to pass contradictory orders,\" the bench said.",
+        "The plea, filed by Anshikha Tripathi, said there was a \"grave concern\" over the number of people who were house arrested.",
+        "It sought directions to the state to allow peaceful protests in and around Jantar Mantar, earmark different places for agitations, order an SIT probe into the alleged atrocities on peaceful protesters, and examine the issue of house arrests.",
+        "The petition also challenged the prohibitory orders, the internet shutdown in central Delhi, and what it called the continued unnecessary and disproportionate closure of metro stations and railway restrictions.",
+        "It said the State's duty to maintain public order must be carried out in line with the democratic value of peaceful dissent and the constitutional bar on arbitrary restrictions on fundamental rights."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Delhi High Court will hear on October 16 a plea seeking peaceful protests at Jantar Mantar.",
+          "The bench asked for the related Supreme Court petition to avoid passing conflicting orders."
+        ],
+        "body": [
+          "The Delhi High Court on Tuesday listed for hearing on October 16 a public interest litigation seeking directions to allow peaceful protests at Jantar Mantar and to declare the right to peaceful protest as part of free speech.",
+          "The court asked the petitioner to place on record a copy of a similar plea pending before the Supreme Court.",
+          "A bench of Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma said it did not want to pass an order that could conflict with proceedings in the top court.",
+          "Additional Solicitor General Chetan Sharma told the court that the Supreme Court has deferred hearing on protest-related petitions till October 15.",
+          "\"We want to have a copy of the Supreme Court petition.",
+          "We don't want to pass contradictory orders,\" the bench said.",
+          "The plea, filed by Anshikha Tripathi, said there was a \"grave concern\" over the number of people who were house arrested.",
+          "It sought directions to the state to allow peaceful protests in and around Jantar Mantar, earmark different places for agitations, order an SIT probe into the alleged atrocities on peaceful protesters, and examine the issue of house arrests."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jantar Mantar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Delhi High Court will hear on October 16 a plea seeking peaceful protests at Jantar Mantar.",
+            "source": "India Today",
+            "item_id": "d970169d9df44a67d8d86eeb:article",
+            "composed": false
+          },
+          {
+            "text": "The Delhi High Court on Tuesday listed for hearing on October 16 a public interest litigation seeking directions to allow peaceful protests at Jantar Mantar and to declare the right to peaceful protest as part of free speech.",
+            "source": "India Today",
+            "item_id": "d970169d9df44a67d8d86eeb:article",
+            "composed": false
+          },
+          {
+            "text": "Additional Solicitor General Chetan Sharma told the court that the Supreme Court has deferred hearing on protest-related petitions till October 15.",
+            "source": "India Today",
+            "item_id": "d970169d9df44a67d8d86eeb:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/delhi-high-court-jantar-mantar-protest-plea-supreme-court-petition-copy-ptag-3016481-2026-10-13"
+      },
+      "group_size": 3,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2ff68148e316225c2643db91",
       "story_id": "2ff68148e316225c2643db91",
       "headline": "Supreme Court gives three more months to CBI to complete probe in custodial death case",
@@ -1132,7 +1358,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1253,7 +1479,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1369,7 +1595,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1498,7 +1724,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
@@ -1608,7 +1834,7 @@
         "event term: 'loc' in summary weight 37.2",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (maharashtra)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 37.2, stack 40.4, score 40.4 -> HIGH"
@@ -1721,7 +1947,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
