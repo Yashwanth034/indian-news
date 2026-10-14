@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T11:12:05.401336+00:00",
-  "count": 16,
+  "generated_at": "2026-10-14T11:22:06.602646+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "0ffe2aa3074032b63ab093bd",
@@ -46,7 +46,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -169,7 +169,7 @@
         "event term: 'lockdown' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -310,7 +310,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'unconstitutional' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: fresh (15.5h ago) +4",
+        "recency: fresh (15.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -432,6 +432,90 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "442eab2a51962410ceb3bcf1",
+      "story_id": "442eab2a51962410ceb3bcf1",
+      "headline": "India’s treasury bill yields hit four-year high premium over repo rate amid rate hike bets",
+      "title": "India’s treasury bill yields hit four-year high premium over repo rate amid rate hike bets",
+      "summary": "India’s short-term government borrowing costs have surged to their highest levels in 18 months, with treasury bill yields widening their premium over the repo rate to a four-year high. The spike reflects rising expectations of further RBI rate hikes amid persistent inflation risks and hawkish policy signals.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-treasury-bill-yields-hit-four-year-high-premium-over-repo-rate-amid-rate-hike-bets-561583-2026-10-14",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "government-policy"
+      ],
+      "confidence": "medium",
+      "score": 82.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-14T10:43:29+00:00",
+      "published_at": "2026-10-14T10:43:29+00:00",
+      "effective_at": "2026-10-14T10:43:29+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'repo rate' in title weight 42",
+        "event term: 'repo rate' in summary weight 25.2",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (0.6h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India’s short-term government borrowing costs have surged to their highest levels in 18 months, with treasury bill yields widening their premium over the repo rate to a four-year high.",
+          "The spike reflects rising expectations of further RBI rate hikes amid persistent inflation risks and hawkish policy signals."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India’s short-term government borrowing costs have surged to their highest levels in 18 months, with treasury bill yields widening their premium over the repo rate to a four-year high.",
+            "source": "Business Today",
+            "item_id": "442eab2a51962410ceb3bcf1",
+            "composed": false
+          },
+          {
+            "text": "The spike reflects rising expectations of further RBI rate hikes amid persistent inflation risks and hawkish policy signals.",
+            "source": "Business Today",
+            "item_id": "442eab2a51962410ceb3bcf1",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/latest/economy/story/indias-treasury-bill-yields-hit-four-year-high-premium-over-repo-rate-amid-rate-hike-bets-561583-2026-10-14"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "ced4dcf8dfabb8416f2310ea",
       "story_id": "ced4dcf8dfabb8416f2310ea",
       "headline": "Supreme Court declines Asaram's bail plea, sets appeal after surrender",
@@ -473,7 +557,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -596,7 +680,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -715,7 +799,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -820,7 +904,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -913,7 +997,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (kerala)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 44.4, score 44.4 -> HIGH"
@@ -956,6 +1040,113 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "1a0665c37e0855c8875f11a2",
+      "story_id": "1a0665c37e0855c8875f11a2",
+      "headline": "Cabinet approves 78 days’ bonus for 11.4 lakh railway employees",
+      "title": "Cabinet approves 78 days’ bonus for 11.4 lakh railway employees",
+      "summary": "The annual payout recognises staff contributions as the national transporter reports record freight loading and passenger traffic during 2025-26",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/cabinet-approves-78-days-bonus-for-114-lakh-railway-employees/article71583439.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": null,
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-14T11:18:34+00:00",
+      "published_at": "2026-10-14T11:18:34+00:00",
+      "effective_at": "2026-10-14T11:18:34+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "geo: national",
+        "dominant event 44, stack 28, score 44 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Union Cabinet has approved the payment of Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to Rs 2009.61 crore, in recognition of their excellent performance, the government said on Wednesday.",
+        "Payment of PLB to eligible railway employees is made each year before the Durga Puja/Dusshera holidays.",
+        "“This year also, PLB amount equivalent to 78 days' wages is being paid to about 11.40 lakh non-gazetted Railway employees.",
+        "The payment of PLB acts as an incentive to motivate the railway employees for working towards improvement in the performance of the Railways,” the government said.",
+        "It added, “The maximum amount payable per eligible railway employee is Rs 17,951 for 78 days.”",
+        "The above amount will be paid to various categories of Railway staff like track maintainers, loco pilots, train managers (Guards), station masters, supervisors, technicians, technician helpers, pointsmen, ministerial staff and other Group 'C staff.",
+        "“The performance of Railways in the year 2025-26 was very good.",
+        "Railways loaded a record cargo of 1670 million tonnes and carried nearly 7.41 billion Passengers,” the government said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Union Cabinet has approved the payment of Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to Rs 2009.61 crore, in recognition of their excellent performance, the government said on Wednesday.",
+          "Payment of PLB to eligible railway employees is made each year before the Durga Puja/Dusshera holidays."
+        ],
+        "body": [
+          "“This year also, PLB amount equivalent to 78 days' wages is being paid to about 11.40 lakh non-gazetted Railway employees.",
+          "The payment of PLB acts as an incentive to motivate the railway employees for working towards improvement in the performance of the Railways,” the government said.",
+          "It added, “The maximum amount payable per eligible railway employee is Rs 17,951 for 78 days.” The above amount will be paid to various categories of Railway staff like track maintainers, loco pilots, train managers (Guards), station masters, supervisors, technicians, technician helpers, pointsmen, ministerial staff and other Group 'C staff.",
+          "“The performance of Railways in the year 2025-26 was very good.",
+          "Railways loaded a record cargo of 1670 million tonnes and carried nearly 7.41 billion Passengers,” the government said.",
+          "The annual payout recognises staff contributions as the national transporter reports record freight loading and passenger traffic during 2025-26."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Union Cabinet has approved the payment of Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to Rs 2009.61 crore, in recognition of their excellent performance, the government said on Wednesday.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a0665c37e0855c8875f11a2:article",
+            "composed": false
+          },
+          {
+            "text": "It added, “The maximum amount payable per eligible railway employee is Rs 17,951 for 78 days.”",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a0665c37e0855c8875f11a2:article",
+            "composed": false
+          },
+          {
+            "text": "“This year also, PLB amount equivalent to 78 days' wages is being paid to about 11.40 lakh non-gazetted Railway employees.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a0665c37e0855c8875f11a2:article",
+            "composed": false
+          },
+          {
+            "text": "“The performance of Railways in the year 2025-26 was very good.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a0665c37e0855c8875f11a2:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/logistics/cabinet-approves-78-days-bonus-for-114-lakh-railway-employees/article71583439.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "6b2d2579ce81e6cd8fcccb81",
       "story_id": "6b2d2579ce81e6cd8fcccb81",
       "headline": "Supreme Court stays Rahul Gandhi defamation trial over PM Modi remarks",
@@ -996,7 +1187,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -1116,7 +1307,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1216,7 +1407,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1298,7 +1489,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1418,7 +1609,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1539,7 +1730,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1668,7 +1859,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'epidemic' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 20.4, score 42 -> HIGH"
@@ -1781,7 +1972,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
