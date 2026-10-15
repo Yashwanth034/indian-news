@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T20:12:55.079769+00:00",
-  "count": 14,
+  "generated_at": "2026-10-15T20:22:06.524985+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "6943fdaa39f210ce9a5520c5",
@@ -47,7 +47,7 @@
         "event term: 'earthquake' in title weight 82",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 40, score 82 -> IMMEDIATE"
@@ -173,10 +173,10 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (odisha)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 43.4, score 64 -> URGENT"
+        "dominant event 64, stack 39.4, score 64 -> URGENT"
       ],
       "geo_scope": "local",
       "state": "odisha",
@@ -223,95 +223,6 @@
         "url": "https://kalingatv.com/odisha/congress-blocks-nh-near-utkal-university-over-delay-in-student-union-election-results"
       },
       "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "1d39068eed0e1409786652e0",
-      "story_id": "1d39068eed0e1409786652e0",
-      "headline": "Election Commission Orders Special Summary Revision Of Voter Rolls In 17 States, UTs",
-      "title": "Election Commission Orders Special Summary Revision Of Voter Rolls In 17 States, UTs",
-      "summary": "The exercise aims to enrol new and eligible voters, including those left out during the Special Intensive Revision (SIR). The EC has also introduced safeguards to prevent wrongful deletion of names from electoral rolls.",
-      "url": "https://www.thehansindia.com/news/national/election-commission-orders-special-summary-revision-of-voter-rolls-in-17-states-uts-1132733",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 58.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-15T15:21:38+00:00",
-      "published_at": "2026-10-15T15:21:38+00:00",
-      "effective_at": "2026-10-15T15:21:38+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        },
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'election' in title weight 58",
-        "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 58, stack 28.4, score 58 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The exercise aims to enrol new and eligible voters, including those left out during the Special Intensive Revision (SIR).",
-          "The EC has also introduced safeguards to prevent wrongful deletion of names from electoral rolls."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The exercise aims to enrol new and eligible voters, including those left out during the Special Intensive Revision (SIR).",
-            "source": "The Hans India",
-            "item_id": "1d39068eed0e1409786652e0",
-            "composed": false
-          },
-          {
-            "text": "The EC has also introduced safeguards to prevent wrongful deletion of names from electoral rolls.",
-            "source": "The Hans India",
-            "item_id": "1d39068eed0e1409786652e0",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/news/national/election-commission-orders-special-summary-revision-of-voter-rolls-in-17-states-uts-1132733"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -371,7 +282,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -500,7 +411,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -599,6 +510,212 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "2e0879f67362ca51c453dd15",
+      "story_id": "2e0879f67362ca51c453dd15",
+      "headline": "Wetlands: Kashmir’s Vanishing Life Support",
+      "title": "Wetlands: Kashmir’s Vanishing Life Support",
+      "summary": "Wetlands are often the first casualties of a society in a hurry. They occupy land that appears vacant, hold water where construction demands foundations, and resist the neat divisions imposed by maps, roads and property boundaries. To an impatient eye, a wetland is an obstacle waiting to be removed. To nature, however, it is a living system—part sponge, part nursery, part filter and part shelter. For Kashmir, wetlands are not ornamental landscapes. They are among the Valley’s most important safeguards against floods, pollution, water scarcity and ecological collapse. Yet the story of Kashmir’s wetlands is increasingly one of disappearance. Lakes, marshes, marshland pockets and floodplains are being narrowed by encroachment, clogged by waste, fragmented by roads and weakened by unplanned construction. The loss is rarely dramatic enough to make headlines every day. A patch of reeds is cut, a channel is filled, a bank is raised, a settlement expands by a few metres. But these small acts accumulate. Over time, the wetland retreats, its natural functions diminish, and the community discovers that what looked like empty land was in fact protecting it. The Valley’s wetlands have always been woven into its geography and culture. They support migratory birds, sustain aquatic life, recharge groundwater and provide livelihoods to communities dependent on fishing, farming, fodder and traditional water-based activities. They also absorb excess water during heavy rainfall and snowmelt. When wetlands are healthy, they slow the movement of water and reduce pressure on rivers and drainage systems. When they are filled or obstructed, water has nowhere to go except into roads, homes, fields and markets. Kashmir’s experience with floods has repeatedly demonstrated this truth. The devastation caused by flooding cannot be attributed only to extreme weather. It is also a consequence of weakening the natural systems that once moderated such events. Floodplains have been treated as real estate. Drainage channels have been narrowed or blocked. Wetland edges have been converted into built-up areas. The result is a landscape that has lost much of its capacity to absorb shock. Climate change makes this neglect even more dangerous. Rainfall patterns are becoming less predictable, and intense precipitation can overwhelm conventional drainage in a matter of hours. In such circumstances, wetlands function as protective infrastructure. Unlike concrete drains and engineered channels, they do not require constant reconstruction to perform their basic role. They store water, release it gradually and support ecological processes at the same time. Destroying them in the name of development is therefore not development at all. It is the transfer of future costs to ordinary people. The damage is not limited to flooding. Pollution has turned several water bodies into repositories of sewage, plastic, construction debris and agricultural runoff. Untreated wastewater brings nutrients that encourage excessive growth of weeds and algae, reducing oxygen in the water and threatening fish and other organisms. Solid waste chokes channels and alters the movement of water. Invasive plant species spread rapidly where natural ecosystems have been disturbed. A wetland may continue to exist on official records, but its ecological character can be lost long before the land itself disappears. This is where the weakness of official protection becomes visible. Kashmir does not lack laws, departments or committees concerned with the environment. What is often missing is sustained enforcement and a clear chain of accountability. Wetland protection is treated as a project rather than a permanent public responsibility. Campaigns are launched after a crisis, maps are prepared and plans are announced, but routine violations continue. Encroachments become politically difficult to remove once they acquire electricity connections, roads and administrative recognition. The problem is also one of institutional fragmentation. A wetland may involve departments responsible for revenue, irrigation, housing, municipalities, forests, tourism and disaster management. When responsibility is divided among many offices, accountability can disappear between them. Each agency may control one aspect of the problem, while no agency takes full responsibility for the wetland as a living system. The result is predictable: permissions are granted in isolation, enforcement is delayed, and ecological damage is discovered only after it becomes difficult to reverse. There is an urgent need to change the language used to describe wetlands. They are not wastelands. The term itself has encouraged neglect by suggesting that such areas are unproductive, unhealthy or available for conversion. A wetland produces clean water, flood protection, biodiversity, climate resilience and livelihoods. These benefits may not appear in a conventional revenue calculation, but they are economically real. The cost of losing a wetland is paid through flood damage, declining water quality, public health risks, reduced agricultural productivity and the loss of tourism and livelihood opportunities. Protection must begin with accurate demarcation. Every wetland and its buffer zone should be surveyed using updated satellite imagery, ground verification and publicly accessible maps. Boundaries should not remain confined to departmental files. Communities living around wetlands have a right to know where the protected areas begin and end, what activities are permitted and whom to approach when violations occur. Public mapping would also make it harder for land records to be quietly altered or for gradual encroachment to remain invisible. But demarcation alone will not save the wetlands. Sewage treatment must be treated as a basic requirement, not an optional urban improvement. Local bodies need the capacity to prevent solid waste from entering water bodies, while industries and commercial establishments must face consequences for discharging untreated waste. Restoration should focus on reviving natural channels, removing blockages, controlling invasive species and improving water circulation. Cosmetic beautification—lighting, paving and concrete embankments—cannot substitute for ecological restoration. The communities connected to wetlands must be part of this effort. Fisherfolk, farmers, boat operators, residents and local conservation groups possess knowledge that cannot be replaced by office plans. Their participation can help monitor changes, identify illegal dumping and ensure that restoration does not destroy traditional livelihoods. Conservation that excludes local people is unlikely to endure. At the same time, community involvement must not become an excuse for the state to withdraw. The government must provide scientific support, enforcement and funding. Tourism too must be reconsidered. Kashmir’s water bodies are often promoted as destinations while the ecological pressures generated by tourism are ignored. Unregulated boating, plastic waste, construction along shorelines and inadequate sanitation can destroy the very landscapes visitors come to see. Sustainable tourism should mean carrying-capacity assessments, strict waste management, limits on construction and benefits for local communities. A wetland should not be treated as a stage set for tourism but as a fragile ecosystem whose survival makes tourism possible. Education has an important role in changing public attitudes. Children should learn that a marsh is not useless land and that a lake is not merely a scenic backdrop. Schools, colleges and civil society groups can organise wetland walks, bird counts, water-quality monitoring and restoration activities. Such initiatives will not replace government action, but they can build the public pressure needed to sustain it. People defend what they understand and value. The administration must also recognise that wetland protection is a matter of public safety. It belongs in disaster management plans, urban planning, water policy and climate adaptation strategies. Every new road, housing colony, commercial complex or tourism project should be assessed for its impact on drainage, floodplains and wetland systems. Development permissions that ignore hydrology are invitations to future disaster. Kashmir’s wetlands are disappearing not because their importance is unknown, but because their value is repeatedly subordinated to short-term interests. The challenge, therefore, is not merely to produce another report or announce another clean-up drive. It is to establish a culture of accountability in which illegal filling, dumping and construction carry consequences, and in which public authorities are judged by the condition of the ecosystems entrusted to them. A wetland does not demand much from society. It asks to remain connected to its water, free from sewage and waste, protected from encroachment and allowed to perform the functions nature gave it. In return, it moderates floods, supports life, cleans water and preserves the character of the Valley. If Kashmir continues to treat wetlands as disposable spaces, it will eventually pay for their loss in flooded homes, polluted water and diminished resilience. The choice is still before us. We can regard wetlands as vacant land to be occupied, or recognise them as natural infrastructure to be protected. The first path promises quick gains for a few. The second offers safety and survival for all. Kashmir cannot afford to choose wrongly. (The Author is a lecturer in HED and a columnist)",
+      "url": "https://risingkashmir.com/opinion/wetlands-kashmirs-vanishing-life-support-12680349",
+      "source": "Rising Kashmir",
+      "primary_source": false,
+      "tier": 3,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "weather-disasters",
+        "education",
+        "transport-infrastructure",
+        "agriculture-rural",
+        "science-space",
+        "crime-public-safety",
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 90.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T20:20:37+00:00",
+      "published_at": "2026-10-15T20:20:37+00:00",
+      "effective_at": "2026-10-15T20:20:37+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "rising-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "major: significance event 'disaster'",
+        "major: significance event 'flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'floods'",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (rising-kashmir) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 38.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Wetlands are often the first casualties of a society in a hurry.",
+          "They occupy land that appears vacant, hold water where construction demands foundations, and resist the neat divisions imposed by maps, roads and property boundaries."
+        ],
+        "body": [
+          "To an impatient eye, a wetland is an obstacle waiting to be removed.",
+          "To nature, however, it is a living system—part sponge, part nursery, part filter and part shelter.",
+          "For Kashmir, wetlands are not ornamental landscapes.",
+          "They are among the Valley’s most important safeguards against floods, pollution, water scarcity and ecological collapse.",
+          "Yet the story of Kashmir’s wetlands is increasingly one of disappearance.",
+          "Lakes, marshes, marshland pockets and floodplains are being narrowed by encroachment, clogged by waste, fragmented by roads and weakened by unplanned construction.",
+          "The loss is rarely dramatic enough to make headlines every day.",
+          "A patch of reeds is cut, a channel is filled, a bank is raised, a settlement expands by a few metres.",
+          "But these small acts accumulate.",
+          "Over time, the wetland retreats, its natural functions diminish, and the community discovers that what looked like empty land was in fact protecting it.",
+          "The Valley’s wetlands have always been woven into its geography and culture.",
+          "They support migratory birds, sustain aquatic life, recharge groundwater and provide livelihoods to communities dependent on fishing, farming, fodder and traditional water-based activities.",
+          "They also absorb excess water during heavy rainfall and snowmelt.",
+          "When wetlands are healthy, they slow the movement of water and reduce pressure on rivers and drainage systems.",
+          "When they are filled or obstructed, water has nowhere to go except into roads, homes, fields and markets.",
+          "Kashmir’s experience with floods has repeatedly demonstrated this truth.",
+          "The devastation caused by flooding cannot be attributed only to extreme weather.",
+          "It is also a consequence of weakening the natural systems that once moderated such events.",
+          "Floodplains have been treated as real estate.",
+          "Drainage channels have been narrowed or blocked.",
+          "Wetland edges have been converted into built-up areas.",
+          "The result is a landscape that has lost much of its capacity to absorb shock.",
+          "Climate change makes this neglect even more dangerous.",
+          "Rainfall patterns are becoming less predictable, and intense precipitation can overwhelm conventional drainage in a matter of hours.",
+          "In such circumstances, wetlands function as protective infrastructure.",
+          "Unlike concrete drains and engineered channels, they do not require constant reconstruction to perform their basic role.",
+          "They store water, release it gradually and support ecological processes at the same time.",
+          "Destroying them in the name of development is therefore not development at all.",
+          "It is the transfer of future costs to ordinary people.",
+          "The damage is not limited to flooding.",
+          "Pollution has turned several water bodies into repositories of sewage, plastic, construction debris and agricultural runoff.",
+          "Untreated wastewater brings nutrients that encourage excessive growth of weeds and algae, reducing oxygen in the water and threatening fish and other organisms.",
+          "Solid waste chokes channels and alters the movement of water.",
+          "Invasive plant species spread rapidly where natural ecosystems have been disturbed.",
+          "A wetland may continue to exist on official records, but its ecological character can be lost long before the land itself disappears.",
+          "This is where the weakness of official protection becomes visible.",
+          "Kashmir does not lack laws, departments or committees concerned with the environment.",
+          "What is often missing is sustained enforcement and a clear chain of accountability.",
+          "Wetland protection is treated as a project rather than a permanent public responsibility.",
+          "Campaigns are launched after a crisis, maps are prepared and plans are announced, but routine violations continue.",
+          "Encroachments become politically difficult to remove once they acquire electricity connections, roads and administrative recognition.",
+          "The problem is also one of institutional fragmentation.",
+          "A wetland may involve departments responsible for revenue, irrigation, housing, municipalities, forests, tourism and disaster management.",
+          "When responsibility is divided among many offices, accountability can disappear between them.",
+          "Each agency may control one aspect of the problem, while no agency takes full responsibility for the wetland as a living system.",
+          "The result is predictable: permissions are granted in isolation, enforcement is delayed, and ecological damage is discovered only after it becomes difficult to reverse.",
+          "There is an urgent need to change the language used to describe wetlands.",
+          "They are not wastelands.",
+          "The term itself has encouraged neglect by suggesting that such areas are unproductive, unhealthy or available for conversion.",
+          "A wetland produces clean water, flood protection, biodiversity, climate resilience and livelihoods.",
+          "These benefits may not appear in a conventional revenue calculation, but they are economically real.",
+          "The cost of losing a wetland is paid through flood damage, declining water quality, public health risks, reduced agricultural productivity and the loss of tourism and livelihood opportunities.",
+          "Protection must begin with accurate demarcation.",
+          "Every wetland and its buffer zone should be surveyed using updated satellite imagery, ground verification and publicly accessible maps.",
+          "Boundaries should not remain confined to departmental files.",
+          "Communities living around wetlands have a right to know where the protected areas begin and end, what activities are permitted and whom to approach when violations occur.",
+          "Public mapping would also make it harder for land records to be quietly altered or for gradual encroachment to remain invisible.",
+          "But demarcation alone will not save the wetlands.",
+          "Sewage treatment must be treated as a basic requirement, not an optional urban improvement.",
+          "Local bodies need the capacity to prevent solid waste from entering water bodies, while industries and commercial establishments must face consequences for discharging untreated waste.",
+          "Restoration should focus on reviving natural channels, removing blockages, controlling invasive species and improving water circulation.",
+          "Cosmetic beautification—lighting, paving and concrete embankments—cannot substitute for ecological restoration.",
+          "The communities connected to wetlands must be part of this effort.",
+          "Fisherfolk, farmers, boat operators, residents and local conservation groups possess knowledge that cannot be replaced by office plans.",
+          "Their participation can help monitor changes, identify illegal dumping and ensure that restoration does not destroy traditional livelihoods.",
+          "Conservation that excludes local people is unlikely to endure.",
+          "At the same time, community involvement must not become an excuse for the state to withdraw.",
+          "The government must provide scientific support, enforcement and funding.",
+          "Tourism too must be reconsidered.",
+          "Kashmir’s water bodies are often promoted as destinations while the ecological pressures generated by tourism are ignored.",
+          "Unregulated boating, plastic waste, construction along shorelines and inadequate sanitation can destroy the very landscapes visitors come to see.",
+          "Sustainable tourism should mean carrying-capacity assessments, strict waste management, limits on construction and benefits for local communities.",
+          "A wetland should not be treated as a stage set for tourism but as a fragile ecosystem whose survival makes tourism possible.",
+          "Education has an important role in changing public attitudes.",
+          "Children should learn that a marsh is not useless land and that a lake is not merely a scenic backdrop.",
+          "Schools, colleges and civil society groups can organise wetland walks, bird counts, water-quality monitoring and restoration activities.",
+          "Such initiatives will not replace government action, but they can build the public pressure needed to sustain it.",
+          "People defend what they understand and value.",
+          "The administration must also recognise that wetland protection is a matter of public safety.",
+          "It belongs in disaster management plans, urban planning, water policy and climate adaptation strategies.",
+          "Every new road, housing colony, commercial complex or tourism project should be assessed for its impact on drainage, floodplains and wetland systems.",
+          "Development permissions that ignore hydrology are invitations to future disaster.",
+          "Kashmir’s wetlands are disappearing not because their importance is unknown, but because their value is repeatedly subordinated to short-term interests.",
+          "The challenge, therefore, is not merely to produce another report or announce another clean-up drive.",
+          "It is to establish a culture of accountability in which illegal filling, dumping and construction carry consequences, and in which public authorities are judged by the condition of the ecosystems entrusted to them.",
+          "A wetland does not demand much from society.",
+          "It asks to remain connected to its water, free from sewage and waste, protected from encroachment and allowed to perform the functions nature gave it.",
+          "In return, it moderates floods, supports life, cleans water and preserves the character of the Valley.",
+          "The choice is still before us.",
+          "We can regard wetlands as vacant land to be occupied, or recognise them as natural infrastructure to be protected.",
+          "The first path promises quick gains for a few.",
+          "The second offers safety and survival for all.",
+          "Kashmir cannot afford to choose wrongly.",
+          "(The Author is a lecturer in HED and a columnist)."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "HED"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "If Kashmir continues to treat wetlands as disposable spaces, it will eventually pay for their loss in flooded homes, polluted water and diminished resilience."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "If Kashmir continues to treat wetlands as disposable spaces, it will eventually pay for their loss in flooded homes, polluted water and diminished resilience.",
+            "source": "Rising Kashmir",
+            "item_id": "2e0879f67362ca51c453dd15",
+            "composed": false
+          },
+          {
+            "text": "A wetland may continue to exist on official records, but its ecological character can be lost long before the land itself disappears.",
+            "source": "Rising Kashmir",
+            "item_id": "2e0879f67362ca51c453dd15",
+            "composed": false
+          }
+        ],
+        "source": "Rising Kashmir",
+        "corroborating": [],
+        "url": "https://risingkashmir.com/opinion/wetlands-kashmirs-vanishing-life-support-12680349"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "9e1759d5a7535714f739565c",
       "story_id": "9e1759d5a7535714f739565c",
       "headline": "NITI Aayog Bats for Green Power Tariff, Open Access Rules for Data Centers",
@@ -643,7 +760,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -726,7 +843,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -806,6 +923,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "787debd12d49443dbee1d21d",
+      "story_id": "787debd12d49443dbee1d21d",
+      "headline": "Delhi Protests: Supreme Court Directs Police To Produce Prohibitory Orders Under S. 163 BNSS, Preserve CCTV Footage",
+      "title": "Delhi Protests: Supreme Court Directs Police To Produce Prohibitory Orders Under S. 163 BNSS, Preserve CCTV Footage",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/delhi-protests-supreme-court-directs-police-to-produce-prohibitory-orders-under-s-163-bnss-preserve-cctv-footage-554828",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T20:16:55+00:00",
+      "published_at": "2026-10-15T20:16:55+00:00",
+      "effective_at": "2026-10-15T20:16:55+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court today directed the Delhi.",
+        "Police to place on record the prohibitory orders promulgated under Section 163 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 (erstwhile section 144 of CrPC) restricting public gatherings and demonstrations on various dates over the past two weeks in Delhi.",
+        "The Court also directed all law enforcement agencies to preserve CCTV footage and other digital material relating to the protests.",
+        "During the hearing, Senior Advocate Menaka Guruswamy pointed out that the affidavit filed by the Delhi.",
+        "Police Commissioner did not contain the Section 163 orders or disclose the number of persons detained during the protests against Chief Election Commissioner Gyanesh Kumar and the ECI's Special Intensive Revision.",
+        "Justice Joymalya Bagchi observed that the lawyers were “arguing against a ghost” because the complaint was that the Section 163 order had not been placed on record.",
+        "Senior Advocate Kapil Sibal submitted that none of the lawyers had seen the order.",
+        "Justice Bagchi then asked Solicitor General Tushar Mehta to place the promulgated order on record in the authorities' further affidavits.",
+        "Section 163 BNSS empowers an Executive Magistrate or other authorised magistrate to issue urgent preventive orders where immediate action is necessary to prevent danger, obstruction, injury or a disturbance of public tranquillity.",
+        "It is the successor provision to Section 144 of the Code of Criminal Procedure, 1973.",
+        "Prohibitory orders under Section 163 were imposed across the New Delhi district ahead of the proposed protest at Jantar Mantar against the Chief Election Commissioner on October 10.",
+        "The restrictions prohibited public gatherings or assemblies of five or more people, processions, demonstrations, picketing and dharnas without prior written permission."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court today directed the Delhi.",
+          "Police to place on record the prohibitory orders promulgated under Section 163 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 (erstwhile section 144 of CrPC) restricting public gatherings and demonstrations on various dates over the past two weeks in Delhi."
+        ],
+        "body": [
+          "The Court also directed all law enforcement agencies to preserve CCTV footage and other digital material relating to the protests.",
+          "During the hearing, Senior Advocate Menaka Guruswamy pointed out that the affidavit filed by the Delhi.",
+          "Police Commissioner did not contain the Section 163 orders or disclose the number of persons detained during the protests against Chief Election Commissioner Gyanesh Kumar and the ECI's Special Intensive Revision.",
+          "Justice Joymalya Bagchi observed that the lawyers were “arguing against a ghost” because the complaint was that the Section 163 order had not been placed on record.",
+          "Senior Advocate Kapil Sibal submitted that none of the lawyers had seen the order.",
+          "Justice Bagchi then asked Solicitor General Tushar Mehta to place the promulgated order on record in the authorities' further affidavits.",
+          "Section 163 BNSS empowers an Executive Magistrate or other authorised magistrate to issue urgent preventive orders where immediate action is necessary to prevent danger, obstruction, injury or a disturbance of public tranquillity.",
+          "It is the successor provision to Section 144 of the Code of Criminal Procedure, 1973."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police to place on record the prohibitory orders promulgated under Section 163 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 (erstwhile section 144 of CrPC) restricting public gatherings and demonstrations on various dates over the past two weeks in Delhi.",
+            "source": "LiveLaw",
+            "item_id": "787debd12d49443dbee1d21d:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court today directed the Delhi.",
+            "source": "LiveLaw",
+            "item_id": "787debd12d49443dbee1d21d:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/delhi-protests-supreme-court-directs-police-to-produce-prohibitory-orders-under-s-163-bnss-preserve-cctv-footage-554828"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "c9ead2f2d63b715dbb79fb1b",
       "story_id": "c9ead2f2d63b715dbb79fb1b",
       "headline": "Cabinet approves Integrated Transport & Logistics Authority for greater efficiency",
@@ -845,7 +1073,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 44, stack 29.2, score 44 -> HIGH"
@@ -969,7 +1197,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1057,7 +1285,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1162,7 +1390,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1269,7 +1497,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "geo: national",
         "dominant event 40, stack 24, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1385,7 +1613,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 0, stack 38.8, score 38.8 -> HIGH"
@@ -1493,7 +1721,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
