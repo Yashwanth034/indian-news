@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T11:02:37.336629+00:00",
-  "count": 22,
+  "generated_at": "2026-10-15T11:12:13.366761+00:00",
+  "count": 25,
   "stories": [
     {
       "event_id": "7287c88ed14b92a549da6e11",
@@ -52,7 +52,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (delhi)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 22.8, score 84 -> IMMEDIATE"
@@ -130,6 +130,217 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "8ad2eae04774515be5d392f4",
+      "story_id": "8ad2eae04774515be5d392f4",
+      "headline": "Holding on through another flood",
+      "title": "Holding on through another flood",
+      "summary": "Bihar’s Himalayan rivers bring recurring floods, while weak embankment management and faltering India-Nepal cooperation leave families exposed. As some districts drown and others go thirsty, relief offers brief respite, not a lasting solution.",
+      "url": "https://frontline.thehindu.com/the-nation/bihar-floods-gandak-river-embankment-crisis/article71547280.ece",
+      "source": "Frontline (The Hindu group)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 64.2,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T10:59:06+00:00",
+      "published_at": "2026-10-15T10:59:06+00:00",
+      "effective_at": "2026-10-15T10:59:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "frontline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'flood'",
+        "major: significance event 'floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (frontline) +1",
+        "source: specialist (frontline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: state scope (bihar)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Bihar’s Himalayan rivers bring recurring floods, while weak embankment management and faltering India-Nepal cooperation leave families exposed.",
+          "As some districts drown and others go thirsty, relief offers brief respite, not a lasting solution."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Bihar’s Himalayan rivers bring recurring floods, while weak embankment management and faltering India-Nepal cooperation leave families exposed.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "8ad2eae04774515be5d392f4",
+            "composed": false
+          },
+          {
+            "text": "As some districts drown and others go thirsty, relief offers brief respite, not a lasting solution.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "8ad2eae04774515be5d392f4",
+            "composed": false
+          }
+        ],
+        "source": "Frontline (The Hindu group)",
+        "corroborating": [],
+        "url": "https://frontline.thehindu.com/the-nation/bihar-floods-gandak-river-embankment-crisis/article71547280.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "40a8ad992456b28d5222cde9",
+      "story_id": "40a8ad992456b28d5222cde9",
+      "headline": "When Election Commission was rocked by internal disputes | Explained",
+      "title": "When Election Commission was rocked by internal disputes | Explained",
+      "summary": "A major controversy erupted when T.N. Seshan went to court challenging the appointment of two Election Commissioners; N. Gopalaswami’s suo motu recommendation to the President for the removal of Navin Chawla was another shocking episode",
+      "url": "https://www.thehindu.com/news/national/when-election-commission-was-rocked-by-internal-disputes-explained/article71539602.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T11:02:15+00:00",
+      "published_at": "2026-10-15T11:02:15+00:00",
+      "effective_at": "2026-10-15T11:02:15+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "clickbait: 'shocking' in summary (penalty 12.5, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "major override dropped penalties: clickbait",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The story so far: From Sukumar Sen's tenure, during which the first general election in India was held in 1951-52, to October 16, 1986, the Election Commission had only one member: the Chief Election Commissioner.",
+        "In S.S. Dhanoa.",
+        "Union of India (1991), the Supreme Court stressed that under Article 342(2) of the Constitution, the President could fix and appoint as many Election Commissioners as he may, from time to time, determine, though it was desirable to have a multi-member commission.",
+        "In October 1989, when the Rajiv Gandhi government was in power, the President notified the appointment of Mr. Dhanoa and V.S. Seigell as Election Commissioners to complete the team with Chief Election Commissioner R.V.S. Peri Sastry.",
+        "The premise was the increased workload in conducting the elections after the minimum voting age was lowered from 21 to 18, but political observers then saw it as a move by the government to hem Mr. Sastry in.",
+        "The multi-member arrangement was short-lived as the President revoked his 1989 notification after the new V.P. Singh government took over and was not in favour of the appointments made by the previous government.",
+        "Mr. Dhanoa went to court, which said it was the President’s discretion to determine the number of Election Commissioners.",
+        "In the current situation, when two Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, have objected to the style of functioning of Chief Election Commissioner Gyanesh Kumar, here is a look at the episodic disputes on the panel that have broken out in public.",
+        "On October 1, 1993, the President appointed M.S. Gill and G.V.G. Krishnamurthy as Election Commissioners.",
+        "Ever since, the commission has been a three-member body.",
+        "The President promulgated an Ordinance, later enacted as the Chief Election Commissioner and Election Commissioners (Condition of Service) Amendment Act, with retrospective effect from October 1, 1993.",
+        "The Act explicitly granted coordinate powers to the Election Commissioners, solving a grey area in the Constitution."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The story so far: From Sukumar Sen's tenure, during which the first general election in India was held in 1951-52, to October 16, 1986, the Election Commission had only one member: the Chief Election Commissioner.",
+          "In S.S. Dhanoa."
+        ],
+        "body": [
+          "Union of India (1991), the Supreme Court stressed that under Article 342(2) of the Constitution, the President could fix and appoint as many Election Commissioners as he may, from time to time, determine, though it was desirable to have a multi-member commission.",
+          "In October 1989, when the Rajiv Gandhi government was in power, the President notified the appointment of Mr. Dhanoa and V.S. Seigell as Election Commissioners to complete the team with Chief Election Commissioner R.V.S. Peri Sastry.",
+          "The premise was the increased workload in conducting the elections after the minimum voting age was lowered from 21 to 18, but political observers then saw it as a move by the government to hem Mr. Sastry in.",
+          "The multi-member arrangement was short-lived as the President revoked his 1989 notification after the new V.P. Singh government took over and was not in favour of the appointments made by the previous government.",
+          "Mr. Dhanoa went to court, which said it was the President’s discretion to determine the number of Election Commissioners.",
+          "In the current situation, when two Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, have objected to the style of functioning of Chief Election Commissioner Gyanesh Kumar, here is a look at the episodic disputes on the panel that have broken out in public.",
+          "On October 1, 1993, the President appointed M.S. Gill and G.V.G. Krishnamurthy as Election Commissioners.",
+          "Ever since, the commission has been a three-member body."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The story so far: From Sukumar Sen's tenure, during which the first general election in India was held in 1951-52, to October 16, 1986, the Election Commission had only one member: the Chief Election Commissioner.",
+            "source": "The Hindu",
+            "item_id": "40a8ad992456b28d5222cde9:article",
+            "composed": false
+          },
+          {
+            "text": "Union of India (1991), the Supreme Court stressed that under Article 342(2) of the Constitution, the President could fix and appoint as many Election Commissioners as he may, from time to time, determine, though it was desirable to have a multi-member commission.",
+            "source": "The Hindu",
+            "item_id": "40a8ad992456b28d5222cde9:article",
+            "composed": false
+          },
+          {
+            "text": "On October 1, 1993, the President appointed M.S. Gill and G.V.G. Krishnamurthy as Election Commissioners.",
+            "source": "The Hindu",
+            "item_id": "40a8ad992456b28d5222cde9:article",
+            "composed": false
+          },
+          {
+            "text": "In October 1989, when the Rajiv Gandhi government was in power, the President notified the appointment of Mr. Dhanoa and V.S. Seigell as Election Commissioners to complete the team with Chief Election Commissioner R.V.S. Peri Sastry.",
+            "source": "The Hindu",
+            "item_id": "40a8ad992456b28d5222cde9:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/when-election-commission-was-rocked-by-internal-disputes-explained/article71539602.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "a2c5cce18eb71bc28fa209b7",
       "story_id": "a2c5cce18eb71bc28fa209b7",
       "headline": "U.S. Ambassador Sergio Gor Reveals: Will Trump Impose 100% Tariffs on India Over Russian Oil?",
@@ -176,7 +387,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -275,7 +486,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 22.4, score 49.2 -> HIGH"
@@ -414,7 +625,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -525,7 +736,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -640,7 +851,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -726,7 +937,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -840,7 +1051,7 @@
         "event term: 'cabinet nod' in title weight 40",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -960,7 +1171,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1070,7 +1281,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 36.4, score 44 -> HIGH"
@@ -1109,6 +1320,246 @@
       "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "d0bf38802f230a0ebd3f7080",
+      "story_id": "d0bf38802f230a0ebd3f7080",
+      "headline": "Supreme Court Criticises Allahabad High Court For Casually Granting Probation To Convicts In Brutal Attack Case",
+      "title": "Supreme Court Criticises Allahabad High Court For Casually Granting Probation To Convicts In Brutal Attack Case",
+      "summary": "'Nature of offence' and 'character of offender' must guide probation, the Court stated",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-criticises-allahabad-high-court-for-casually-granting-probation-to-convicts-in-brutal-attack-case-554803",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T11:10:35+00:00",
+      "published_at": "2026-10-15T11:10:35+00:00",
+      "effective_at": "2026-10-15T11:10:35+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has criticised the manner in which the Allahabad High Court has dealt with a case while granting probation to two men convicted for a brutal attack that left a victim with grievous injuries.",
+        "The Court said that the accused were released on probation in ignorance of the adverse report submitted by the probation officer against them.",
+        "“The High Court, despite the overwhelming adverse report on the 'character of the offenders' and giving short shrift to the 'nature of the offence', released the accused on good conduct.",
+        "There was nothing commending the Court to so release the accused, since the conduct, over the years, of the accused was anything other than 'good'.”, observed a bench of Justice J.B. Pardiwala and Justice K. Vinod Chandran, adding that despite the brutality of the attack and the serious injuries suffered by the victim, “the accused have gone scot-free without suffering a single day of imprisonment…”.",
+        "The case arose from a 2003 incident in which the two accused allegedly attacked the victim with a cutting weapon and a firearm following a dispute involving neighbouring shops.",
+        "The victim suffered cut injuries and gunshot wounds and continues to experience debilitating consequences of the assault.",
+        "The trial court convicted the accused under Section 308 of the Indian Penal Code and sentenced them to five years' rigorous imprisonment with a fine of ₹20,000 each.",
+        "The High Court upheld the conviction but extended the benefit of Section 4 of the Probation of Offenders Act, 1958 (“PoO Act”), directing the accused to execute personal bonds of ₹20,000 each and maintain peace and good behaviour for one year.",
+        "The High Court relied on the passage of approximately 22 years since the incident and the absence of previous convictions.",
+        "Aggrieved by the High Court's order, the informant (brother of the victim) moved to the Supreme Court.",
+        "The bench noted that the victim had suffered cut injuries and gunshot wounds.",
+        "It observed that the injuries, on a plain reading, fell within the definition of grievous hurt under Section 320 IPC and that the offence ought to have been charged under Section 307 IPC rather than Section 308 IPC."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has criticised the manner in which the Allahabad High Court has dealt with a case while granting probation to two men convicted for a brutal attack that left a victim with grievous injuries.",
+          "The Court said that the accused were released on probation in ignorance of the adverse report submitted by the probation officer against them."
+        ],
+        "body": [
+          "“The High Court, despite the overwhelming adverse report on the 'character of the offenders' and giving short shrift to the 'nature of the offence', released the accused on good conduct.",
+          "There was nothing commending the Court to so release the accused, since the conduct, over the years, of the accused was anything other than 'good'.”, observed a bench of Justice J.B. Pardiwala and Justice K. Vinod Chandran, adding that despite the brutality of the attack and the serious injuries suffered by the victim, “the accused have gone scot-free without suffering a single day of imprisonment…”.",
+          "The case arose from a 2003 incident in which the two accused allegedly attacked the victim with a cutting weapon and a firearm following a dispute involving neighbouring shops.",
+          "The trial court convicted the accused under Section 308 of the Indian Penal Code and sentenced them to five years' rigorous imprisonment with a fine of ₹20,000 each.",
+          "The High Court upheld the conviction but extended the benefit of Section 4 of the Probation of Offenders Act, 1958 (“PoO Act”), directing the accused to execute personal bonds of ₹20,000 each and maintain peace and good behaviour for one year.",
+          "The High Court relied on the passage of approximately 22 years since the incident and the absence of previous convictions.",
+          "Aggrieved by the High Court's order, the informant (brother of the victim) moved to the Supreme Court."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The victim suffered cut injuries and gunshot wounds and continues to experience debilitating consequences of the assault."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The trial court convicted the accused under Section 308 of the Indian Penal Code and sentenced them to five years' rigorous imprisonment with a fine of ₹20,000 each.",
+            "source": "LiveLaw",
+            "item_id": "d0bf38802f230a0ebd3f7080:article",
+            "composed": false
+          },
+          {
+            "text": "The High Court upheld the conviction but extended the benefit of Section 4 of the Probation of Offenders Act, 1958 (“PoO Act”), directing the accused to execute personal bonds of ₹20,000 each and maintain peace and good behaviour for one year.",
+            "source": "LiveLaw",
+            "item_id": "d0bf38802f230a0ebd3f7080:article",
+            "composed": false
+          },
+          {
+            "text": "The High Court relied on the passage of approximately 22 years since the incident and the absence of previous convictions.",
+            "source": "LiveLaw",
+            "item_id": "d0bf38802f230a0ebd3f7080:article",
+            "composed": false
+          },
+          {
+            "text": "The case arose from a 2003 incident in which the two accused allegedly attacked the victim with a cutting weapon and a firearm following a dispute involving neighbouring shops.",
+            "source": "LiveLaw",
+            "item_id": "d0bf38802f230a0ebd3f7080:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-criticises-allahabad-high-court-for-casually-granting-probation-to-convicts-in-brutal-attack-case-554803"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "b6bd1f04feeb28c4283679b2",
+      "story_id": "b6bd1f04feeb28c4283679b2",
+      "headline": "Supreme Court Quashes Rajasthan High Court's Disciplinary Proceedings Against Judge Over Bail Order",
+      "title": "Supreme Court Quashes Rajasthan High Court's Disciplinary Proceedings Against Judge Over Bail Order",
+      "summary": "",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-quashes-rajasthan-high-courts-disciplinary-proceedings-against-judge-over-bail-order-554858",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-15T11:09:39+00:00",
+      "published_at": "2026-10-15T11:09:39+00:00",
+      "effective_at": "2026-10-15T11:09:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "rajasthan",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has quashed disciplinary proceedings initiated against a Rajasthan judicial officer(since retired) for granting bail to two accused persons despite their earlier bail applications having been rejected by the High Court, observing that counselling or a warning would have sufficed in the peculiar facts of the case.",
+        "A bench of Justice B.V. Nagarathna, Justice R. Mahadevan and Justice Devendra Kumar Upadhyaya directed the Rajasthan Government and the High Court to recompute the officer's pay under the revised pay scale and release his terminal benefits, including pension and arrears, within three months, subject to there being no other legal impediment.",
+        "The case concerned Mukesh Tyagi, who was serving as a Special Judge under the POCSO Act at Dholpur when he granted bail to two accused persons in May 2019.",
+        "The Rajasthan High Court subsequently cancelled the bail, observing that no change in circumstances had occurred after the accused persons' earlier bail applications were rejected.",
+        "Following the High Court's direction to place its order before the Chief Justice, disciplinary proceedings were initiated against the petitioner-judicial officer under Rule 16 of the Rajasthan Civil Services (Classification, Control and Appeal) Rules, 1958, alleging gross judicial impropriety and indiscipline, following which the petitioner moved the Supreme Court.",
+        "The Supreme Court declined to interfere with the High Court's observations but separately held that the disciplinary inquiry was unwarranted in the circumstances.",
+        "“…in the facts and circumstances of this case, the initiation of an inquiry was not at all required.",
+        "Possibly the entry of the remarks of the learned Single Judge in the Annual Confidential Report (ACR) would have sufficed.",
+        "We have also stated, the petitioner/judicial officer could have been counseled and warned to be more careful in future and to give sufficient weightage to the orders of the High Court particularly when the same were passed earlier in the same case by the High Court.",
+        "In the circumstance, we find that the Memorandum dated 25.10.2024 at Annexure P-6, the statement of charges under Rule 16 of the Rules, the allegation of charge etc. were not warranted for in the instant case.”, the Court held.",
+        "The Court also noted that the petitioner's Annual Confidential Reports were positive and that he had retired on March 31, 2026, while his revised pay and terminal benefits remained unreleased.",
+        "Accordingly, the Court quashed the disciplinary memorandum dated October 25, 2024, and the related charges."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has quashed disciplinary proceedings initiated against a Rajasthan judicial officer(since retired) for granting bail to two accused persons despite their earlier bail applications having been rejected by the High Court, observing that counselling or a warning would have sufficed in the peculiar facts of the case.",
+          "A bench of Justice B.V. Nagarathna, Justice R. Mahadevan and Justice Devendra Kumar Upadhyaya directed the Rajasthan Government and the High Court to recompute the officer's pay under the revised pay scale and release his terminal benefits, including pension and arrears, within three months, subject to there being no other legal impediment."
+        ],
+        "body": [
+          "The case concerned Mukesh Tyagi, who was serving as a Special Judge under the POCSO Act at Dholpur when he granted bail to two accused persons in May 2019.",
+          "The Rajasthan High Court subsequently cancelled the bail, observing that no change in circumstances had occurred after the accused persons' earlier bail applications were rejected.",
+          "Following the High Court's direction to place its order before the Chief Justice, disciplinary proceedings were initiated against the petitioner-judicial officer under Rule 16 of the Rajasthan Civil Services (Classification, Control and Appeal) Rules, 1958, alleging gross judicial impropriety and indiscipline, following which the petitioner moved the Supreme Court.",
+          "The Supreme Court declined to interfere with the High Court's observations but separately held that the disciplinary inquiry was unwarranted in the circumstances.",
+          "“…in the facts and circumstances of this case, the initiation of an inquiry was not at all required.",
+          "Possibly the entry of the remarks of the learned Single Judge in the Annual Confidential Report (ACR) would have sufficed.",
+          "We have also stated, the petitioner/judicial officer could have been counseled and warned to be more careful in future and to give sufficient weightage to the orders of the High Court particularly when the same were passed earlier in the same case by the High Court.",
+          "In the circumstance, we find that the Memorandum dated 25.10.2024 at Annexure P-6, the statement of charges under Rule 16 of the Rules, the allegation of charge etc. were not warranted for in the instant case.”, the Court held."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Dholpur"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The case concerned Mukesh Tyagi, who was serving as a Special Judge under the POCSO Act at Dholpur when he granted bail to two accused persons in May 2019.",
+            "source": "LiveLaw",
+            "item_id": "b6bd1f04feeb28c4283679b2:article",
+            "composed": false
+          },
+          {
+            "text": "In the circumstance, we find that the Memorandum dated 25.10.2024 at Annexure P-6, the statement of charges under Rule 16 of the Rules, the allegation of charge etc. were not warranted for in the instant case.”, the Court held.",
+            "source": "LiveLaw",
+            "item_id": "b6bd1f04feeb28c4283679b2:article",
+            "composed": false
+          },
+          {
+            "text": "Following the High Court's direction to place its order before the Chief Justice, disciplinary proceedings were initiated against the petitioner-judicial officer under Rule 16 of the Rajasthan Civil Services (Classification, Control and Appeal) Rules, 1958, alleging gross judicial impropriety and indiscipline, following which the petitioner moved the Supreme Court.",
+            "source": "LiveLaw",
+            "item_id": "b6bd1f04feeb28c4283679b2:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-quashes-rajasthan-high-courts-disciplinary-proceedings-against-judge-over-bail-order-554858"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "6f6292618f7c3b6ac37bd908",
@@ -1154,7 +1605,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1256,7 +1707,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1365,7 +1816,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1485,7 +1936,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1606,7 +2057,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1709,7 +2160,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1818,7 +2269,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 19.2, score 42 -> HIGH"
@@ -1970,7 +2421,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
@@ -2039,110 +2490,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "a5cac01cfa1266be7f43b681",
-      "story_id": "a5cac01cfa1266be7f43b681",
-      "headline": "IMD declares arrival of north-east monsoon over South Peninsula",
-      "title": "IMD declares arrival of north-east monsoon over South Peninsula",
-      "summary": "Heavy rainfall has occurred at a few places over Tamil Nadu, Puducherry and Karaikal and moderate rainfall over many places over this met subdivision as well as south Coastal Andhra Pradesh",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-declares-arrival-of-north-east-monsoon-over-south-peninsula/article71586984.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-15T09:47:35+00:00",
-      "published_at": "2026-10-15T09:47:35+00:00",
-      "effective_at": "2026-10-15T09:47:35+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: breaking (1.3h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 0, stack 40, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The India Meteorological Department has declared that the north-east monsoon has established over Tamil Nadu, Puducherry and Karaikal, Coastal Andhra Pradesh, Rayalaseema, South Interior Karnataka, and Kerala and Mahe with effect from today (October 15, Thursday).",
-        "Seasonal rainfall has begun over these notified areas even as the IMD announced that the preceding south-west monsoon (June to September) has withdrawn from the entire country as on date.",
-        "The four-month season has ended in a deficit for the South Peninsula.",
-        "On Thursday, a facilitating upper-air cyclonic circulation lay over south Coastal Tamil Nadu and in the lower levels of the atmosphere to bring in the north-east monsoon.",
-        "Easterly to north-easterly winds have set in over southern peninsular India as well as south, central and adjoining north-west Bay of Bengal along a trough adjacent to the east coast, to satisfy required parameters for declaring the arrival of the season.",
-        "Fairly widespread rainfall occurred over Tamil Nadu, Puducherry and Karaikal, and adjoining areas of South Coastal Andhra Pradesh and south Rayalaseema since Wednesday.",
-        "Heavy rainfall occurred over a few places over Tamil Nadu, Puducherry and Karaikal and moderate rainfall over many places over Tamil Nadu, Puducherry and Karaikal as well as south Coastal Andhra Pradesh during the same period."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The India Meteorological Department has declared that the north-east monsoon has established over Tamil Nadu, Puducherry and Karaikal, Coastal Andhra Pradesh, Rayalaseema, South Interior Karnataka, and Kerala and Mahe with effect from today (October 15, Thursday).",
-          "Seasonal rainfall has begun over these notified areas even as the IMD announced that the preceding south-west monsoon (June to September) has withdrawn from the entire country as on date."
-        ],
-        "body": [
-          "The four-month season has ended in a deficit for the South Peninsula.",
-          "On Thursday, a facilitating upper-air cyclonic circulation lay over south Coastal Tamil Nadu and in the lower levels of the atmosphere to bring in the north-east monsoon.",
-          "Easterly to north-easterly winds have set in over southern peninsular India as well as south, central and adjoining north-west Bay of Bengal along a trough adjacent to the east coast, to satisfy required parameters for declaring the arrival of the season.",
-          "Fairly widespread rainfall occurred over Tamil Nadu, Puducherry and Karaikal, and adjoining areas of South Coastal Andhra Pradesh and south Rayalaseema since Wednesday.",
-          "Heavy rainfall occurred over a few places over Tamil Nadu, Puducherry and Karaikal and moderate rainfall over many places over Tamil Nadu, Puducherry and Karaikal as well as south Coastal Andhra Pradesh during the same period."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The India Meteorological Department has declared that the north-east monsoon has established over Tamil Nadu, Puducherry and Karaikal, Coastal Andhra Pradesh, Rayalaseema, South Interior Karnataka, and Kerala and Mahe with effect from today (October 15, Thursday).",
-            "source": "The Hindu BusinessLine",
-            "item_id": "a5cac01cfa1266be7f43b681:article",
-            "composed": false
-          },
-          {
-            "text": "Seasonal rainfall has begun over these notified areas even as the IMD announced that the preceding south-west monsoon (June to September) has withdrawn from the entire country as on date.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "a5cac01cfa1266be7f43b681:article",
-            "composed": false
-          },
-          {
-            "text": "Fairly widespread rainfall occurred over Tamil Nadu, Puducherry and Karaikal, and adjoining areas of South Coastal Andhra Pradesh and south Rayalaseema since Wednesday.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "a5cac01cfa1266be7f43b681:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-declares-arrival-of-north-east-monsoon-over-south-peninsula/article71586984.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "3492faad173c17b330dea86d",
       "story_id": "3492faad173c17b330dea86d",
       "headline": "Daily weather tracker: Heavy rain, hailstorm alerts for Delhi, Punjab and Haryana as Northeast monsoon approaches South India",
@@ -2187,7 +2534,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -2313,7 +2660,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 25.2, stack 39.8, score 39.8 -> HIGH"
@@ -2437,7 +2784,7 @@
         "event term: 'match' in summary weight 4.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 38.8, score 38.8 -> HIGH"
@@ -2456,7 +2803,7 @@
         "The men’s hockey final will be live streamed on the SonyLIV app and website in India.",
         "SonyLIV’s official Asian Games page is carrying live coverage of the Aichi-Nagoya Games."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "India will take on Malaysia in the men’s hockey gold-medal match at the Asian Games 2026 in Aichi-Nagoya on Saturday, October 3.",
@@ -2510,7 +2857,7 @@
         "url": "https://sportstar.thehindu.com/asian-games/india-vs-malaysia-asian-games-2026-hockey-final-live-streaming-telecast/article71539565.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     }
   ]
