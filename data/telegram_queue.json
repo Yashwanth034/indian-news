@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T04:22:07.138923+00:00",
-  "count": 5,
+  "generated_at": "2026-10-16T04:32:41.545675+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "035c0d92c39bd61949700251",
@@ -9,7 +9,7 @@
       "title": "Flood fears rise with flyover plan at Puthukkad in Keralam",
       "summary": "Residents seek pillar-supported structure citing drainage disruption and growing vulnerability to waterlogging",
       "url": "https://www.thehindu.com/news/national/kerala/keralams-puthukkads-flood-fears-rise-with-flyover-plan/article71543261.ece",
-      "source": "The Hindu",
+      "source": "The Hindu - Kerala",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
@@ -27,7 +27,7 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "the-hindu-kerala"
           ],
           "count": 1
         }
@@ -41,11 +41,11 @@
         "major: significance event 'Flood'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (the-hindu-kerala) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -93,26 +93,140 @@
         "sentences": [
           {
             "text": "The proposed Puthukkad flyover on National Highway (NH) 544 in Keralam’s Thrissur has triggered serious environmental and flood-related concerns, with residents warning that the proposed 1.38-km earth-filled approach could turn the highway into a massive barrier to the natural flow of rainwater and aggravate flooding in the low-lying town and adjacent panchayats.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "035c0d92c39bd61949700251:article",
             "composed": false
           },
           {
             "text": "K. K. Aneesh Kumar of the Kerala Sasthra Sahithya Parishad (KSSP) has pointed to the flooding in Puthukkad during the 2018 and 2019 deluges and instances of waterlogging reported during heavy rain in subsequent years.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "035c0d92c39bd61949700251:article",
             "composed": false
           },
           {
             "text": "According to the project proposal, only about 70 metres at the Puthukkad Signal Junction would remain open at ground level, while nearly 1,380 metres would be built on an earth-filled embankment, points out the Samithi.",
-            "source": "The Hindu",
+            "source": "The Hindu - Kerala",
             "item_id": "035c0d92c39bd61949700251:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Kerala",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/kerala/keralams-puthukkads-flood-fears-rise-with-flyover-plan/article71543261.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "9343640332c701887f881311",
+      "story_id": "9343640332c701887f881311",
+      "headline": "Gyanesh Kumar undermined Election Commission’s independence: Sachin Pilot",
+      "title": "Gyanesh Kumar undermined Election Commission’s independence: Sachin Pilot",
+      "summary": "Congress leader Sachin Pilot alleged the SIR is being used to selectively delete voters, as he also criticised the Rajasthan government’s drought response and the AAP government in Punjab",
+      "url": "https://www.thehindu.com/news/national/gyanesh-kumar-undermined-election-commissions-independence-sachin-pilot/article71543417.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T04:08:27+00:00",
+      "published_at": "2026-10-16T04:08:27+00:00",
+      "effective_at": "2026-10-16T04:08:27+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'drought'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.4h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Congress leader Sachin Pilot on Sunday (October 4, 2026) accused Chief Election Commissioner (CEC) Gyanesh Kumar of undermining the independence of the Election Commission, alleging that the Special Intensive Revision (SIR) of electoral rolls was being used to selectively delete voters.",
+        "Talking to reporters in Jaipur, Mr. Pilot alleged that Mr. Kumar had sidelined the other two Election Commissioners while taking decisions related to the electoral roll revision, and demanded action against him.",
+        "“India and the country function according to law.",
+        "The Election Commission has three members, and decisions are taken either unanimously or by a majority.",
+        "But Gyanesh Kumar sidelined the other two Election Commissioners and started the entire process on his own,” he alleged.",
+        "Mr. Pilot claimed that powers normally exercised by Electoral Registration.",
+        "Officers (EROs) at the local level were being centralised, and alleged that names of voters were being added or deleted from Delhi.",
+        "He claimed about 13 crore names had been removed from electoral rolls across the country, and alleged that voters were being selectively targeted in States including Haryana, Bihar and West Bengal.",
+        "“First there was demonetisation, and now they are doing ‘votebandi’.",
+        "Voting is the biggest democratic right of a citizen.",
+        "If that right is taken away, what could be more serious than this?” Mr. Pilot said.",
+        "He alleged that public confidence in the Election Commission as an impartial constitutional institution had been eroded, and demanded action against the CEC."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Congress leader Sachin Pilot on Sunday (October 4, 2026) accused Chief Election Commissioner (CEC) Gyanesh Kumar of undermining the independence of the Election Commission, alleging that the Special Intensive Revision (SIR) of electoral rolls was being used to selectively delete voters.",
+          "Talking to reporters in Jaipur, Mr. Pilot alleged that Mr. Kumar had sidelined the other two Election Commissioners while taking decisions related to the electoral roll revision, and demanded action against him."
+        ],
+        "body": [
+          "“India and the country function according to law.",
+          "The Election Commission has three members, and decisions are taken either unanimously or by a majority.",
+          "But Gyanesh Kumar sidelined the other two Election Commissioners and started the entire process on his own,” he alleged.",
+          "Mr. Pilot claimed that powers normally exercised by Electoral Registration.",
+          "Officers (EROs) at the local level were being centralised, and alleged that names of voters were being added or deleted from Delhi.",
+          "He claimed about 13 crore names had been removed from electoral rolls across the country, and alleged that voters were being selectively targeted in States including Haryana, Bihar and West Bengal.",
+          "“First there was demonetisation, and now they are doing ‘votebandi’.",
+          "Voting is the biggest democratic right of a citizen."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jaipur"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Congress leader Sachin Pilot on Sunday (October 4, 2026) accused Chief Election Commissioner (CEC) Gyanesh Kumar of undermining the independence of the Election Commission, alleging that the Special Intensive Revision (SIR) of electoral rolls was being used to selectively delete voters.",
+            "source": "The Hindu",
+            "item_id": "9343640332c701887f881311:article",
+            "composed": false
+          },
+          {
+            "text": "Talking to reporters in Jaipur, Mr. Pilot alleged that Mr. Kumar had sidelined the other two Election Commissioners while taking decisions related to the electoral roll revision, and demanded action against him.",
+            "source": "The Hindu",
+            "item_id": "9343640332c701887f881311:article",
             "composed": false
           }
         ],
         "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/kerala/keralams-puthukkads-flood-fears-rise-with-flyover-plan/article71543261.ece"
+        "url": "https://www.thehindu.com/news/national/gyanesh-kumar-undermined-election-commissions-independence-sachin-pilot/article71543417.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -164,7 +278,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -263,7 +377,7 @@
         "event term: 'unconstitutional' in title weight 40",
         "event term: 'verdict' in title weight 22",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -384,7 +498,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -505,7 +619,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
