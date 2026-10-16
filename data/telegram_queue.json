@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:33:15.912752+00:00",
+  "generated_at": "2026-10-16T11:42:08.494510+00:00",
   "count": 19,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -146,7 +146,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -245,7 +245,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -338,10 +338,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 58, stack 26.4, score 58 -> HIGH"
+        "dominant event 58, stack 22.4, score 58 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -426,7 +426,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (15.7h ago) +4",
+        "recency: fresh (15.8h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -509,40 +509,38 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8e971b30bf567d7cca2a23a3",
-      "story_id": "8e971b30bf567d7cca2a23a3",
-      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
-      "source": "Mint - Markets",
+      "event_id": "cb8ef513f7ba88ebf53ae91c",
+      "story_id": "cb8ef513f7ba88ebf53ae91c",
+      "headline": "Supreme Court stays Twisha Sharma death trial, considers Delhi transfer",
+      "title": "Supreme Court stays Twisha Sharma death trial, considers Delhi transfer",
+      "summary": "Supreme Court stays Twisha Sharma death trial, considers Delhi transfer",
+      "url": "https://www.indiatoday.in/india/story/twisha-sharma-death-case-supreme-court-stays-bhopal-trial-delhi-transfer-ptag-3018941-2026-10-16",
+      "source": "India Today",
       "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "courts-law"
-      ],
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
       "confidence": "high",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T08:14:03+00:00",
-      "published_at": "2026-10-16T08:14:03+00:00",
-      "effective_at": "2026-10-16T08:14:03+00:00",
+      "event_time": "2026-10-16T10:11:20+00:00",
+      "published_at": "2026-10-16T11:38:23+00:00",
+      "effective_at": "2026-10-16T11:38:23+00:00",
       "independent_source_groups": 2,
       "source_groups": {
-        "ht-media": {
+        "live-law": {
           "kind": "independent",
           "source_ids": [
-            "mint"
+            "live-law"
           ],
           "count": 1
         },
-        "thehindu": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "businessline"
+            "india-today"
           ],
           "count": 1
         }
@@ -552,53 +550,93 @@
       "reasons": [
         "major: geo national significance",
         "major: corroborated by 2 independent sources",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (mint) +1",
-        "source: specialist (mint) +5",
+        "source: tier 2 (india-today) +2",
         "source: event has 2 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
+        "recency: breaking (1.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 27.6, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "delhi",
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "The Supreme Court today stayed the ongoing trial before a Bhopal sessions court in the unnatural death case of Twisha Sharma.",
+        "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi.",
+        "Advocate Abhijeet Sinha appeared Twisha's father Navnidhi Sharma.",
+        "He has sought the transfer due to an apprehension that the case would not receive a fair trial in Madhya Pradesh because Giribala Singh, one of the accused, is a former judge and is influential in the state.",
+        "He sought the transfer of the trial to Delhi, submitting that he is settled in Delhi-NCR.",
+        "The case is currently pending before a District and Additional Sessions Judge in Bhopal.",
+        "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
+        "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
+        "The CBI subsequently took over the probe.",
+        "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025.",
+        "Her husband, Samarth Singh, a lawyer, and mother-in-law, Giribala Singh, a retired district judge, are facing prosecution in the case.",
+        "The initial FIR was registered under Sections 80(2) (dowry death), 85 (cruelty by husband or his relatives) and 3(5) (common intention) of the Bharatiya Nyaya Sanhita (BNS), along with Sections 3 and 4 of the Dowry Prohibition Act, which deal with giving or taking dowry and demanding dowry, respectively."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
+          "The Supreme Court today stayed the ongoing trial before a Bhopal sessions court in the unnatural death case of Twisha Sharma.",
+          "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "Advocate Abhijeet Sinha appeared Twisha's father Navnidhi Sharma.",
+          "He has sought the transfer due to an apprehension that the case would not receive a fair trial in Madhya Pradesh because Giribala Singh, one of the accused, is a former judge and is influential in the state.",
+          "He sought the transfer of the trial to Delhi, submitting that he is settled in Delhi-NCR.",
+          "The case is currently pending before a District and Additional Sessions Judge in Bhopal.",
+          "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
+          "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
+          "The CBI subsequently took over the probe.",
+          "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Madhya Pradesh"
+          }
+        ],
         "sentences": [
           {
-            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
+            "text": "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025.",
+            "source": "India Today",
+            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
             "composed": false
           },
           {
-            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
+            "text": "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
+            "source": "India Today",
+            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
+            "composed": false
+          },
+          {
+            "text": "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
+            "source": "India Today",
+            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
+            "composed": false
+          },
+          {
+            "text": "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi.",
+            "source": "India Today",
+            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
             "composed": false
           }
         ],
-        "source": "Mint - Markets",
+        "source": "India Today",
         "corroborating": [],
-        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
+        "url": "https://www.indiatoday.in/india/story/twisha-sharma-death-case-supreme-court-stays-bhopal-trial-delhi-transfer-ptag-3018941-2026-10-16"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "13ae58af188bda61aaa2bf19",
@@ -626,7 +664,7 @@
       "event_time": "2026-10-16T05:53:46+00:00",
       "published_at": "2026-10-16T05:53:46+00:00",
       "effective_at": "2026-10-16T05:53:46+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -641,31 +679,24 @@
             "assam-tribune"
           ],
           "count": 1
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -781,7 +812,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -849,6 +880,93 @@
       "enrichment": "article"
     },
     {
+      "event_id": "8cb358658b60021493e34005",
+      "story_id": "8cb358658b60021493e34005",
+      "headline": "Will India’s GDP Numbers Change? MOSPI Secretary Explains Base-Year Revision",
+      "title": "Will India’s GDP Numbers Change? MOSPI Secretary Explains Base-Year Revision",
+      "summary": "Will India’s GDP numbers change with the next base-year revision? At the Pathways to Viksit Bharat Conclave, MoSPI Secretary Saurabh Garg explained why India periodically updates its GDP measurement framework to reflect structural changes in the economy. He highlighted how the expanding digital economy, new products and services, and data sources such as GST, e-Vahan and the Public Financial Management System can improve estimates of economic activity. Garg noted that revisions can push estimated GDP higher or lower, depending on improved data coverage and methodology. India is also working to strengthen validation mechanisms and align national accounting with the international System of National Accounts. The discussion included areas being examined for possible incorporation by 2029 - 30. What could this mean for India’s growth numbers?",
+      "url": "https://www.businesstoday.in/bt-tv/short-video/will-indias-gdp-numbers-change-mospi-secretary-explains-base-year-revision-562105-2026-10-16",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 56.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:28:35+00:00",
+      "published_at": "2026-10-16T11:28:35+00:00",
+      "effective_at": "2026-10-16T11:28:35+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'gdp' in title weight 38",
+        "event term: 'gdp' in summary weight 22.8",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 38, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Will India’s GDP numbers change with the next base-year revision?",
+          "At the Pathways to Viksit Bharat Conclave, MoSPI Secretary Saurabh Garg explained why India periodically updates its GDP measurement framework to reflect structural changes in the economy."
+        ],
+        "body": [
+          "He highlighted how the expanding digital economy, new products and services, and data sources such as GST, e-Vahan and the Public Financial Management System can improve estimates of economic activity.",
+          "Garg noted that revisions can push estimated GDP higher or lower, depending on improved data coverage and methodology.",
+          "India is also working to strengthen validation mechanisms and align national accounting with the international System of National Accounts.",
+          "The discussion included areas being examined for possible incorporation by 2029 - 30.",
+          "What could this mean for India’s growth numbers?"
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The discussion included areas being examined for possible incorporation by 2029 - 30.",
+            "source": "Business Today",
+            "item_id": "8cb358658b60021493e34005",
+            "composed": false
+          },
+          {
+            "text": "Garg noted that revisions can push estimated GDP higher or lower, depending on improved data coverage and methodology.",
+            "source": "Business Today",
+            "item_id": "8cb358658b60021493e34005",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/bt-tv/short-video/will-indias-gdp-numbers-change-mospi-secretary-explains-base-year-revision-562105-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8e2e07b362cd5d58e94588bc",
       "story_id": "8e2e07b362cd5d58e94588bc",
       "headline": "Supreme Court asks Mahua Moitra to give one-day notice for Nadia visits",
@@ -890,7 +1008,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -912,7 +1030,7 @@
         "“We would like this to be ironed out.",
         "There should not be any inconvenience to anyone,” the bench said."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court directed Mahua Moitra to notify Nadia officials before district visits.",
@@ -960,8 +1078,95 @@
         "url": "https://www.indiatoday.in/india/story/mahua-moitra-nadia-visits-supreme-court-one-day-notice-ptag-3018917-2026-10-16"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "03c3a8c0c14f226d82eacefa",
+      "story_id": "03c3a8c0c14f226d82eacefa",
+      "headline": "India Airfare Rules Finalised: Supreme Court Sets November 16 Deadline",
+      "title": "India Airfare Rules Finalised: Supreme Court Sets November 16 Deadline",
+      "summary": "The Centre has told the Supreme Court that rules to regulate airfares have been finalised and received administrative approval. The government says the rules will be published within two weeks, with the court directing it to place the published rules before it at the next hearing on November 16. The development comes amid concerns over sharp airfare spikes and unexpected fluctuations that affect air travellers. The plea before the court seeks measures to curb sudden fare increases and also calls for an independent aviation regulator. Aneesha Mathur brings you the latest details on the proposed rules and what they could mean for flyers.",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/india-airfare-rules-finalised-supreme-court-sets-november-16-deadline-562121-2026-10-16",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:19:25+00:00",
+      "published_at": "2026-10-16T11:19:25+00:00",
+      "effective_at": "2026-10-16T11:19:25+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Centre has told the Supreme Court that rules to regulate airfares have been finalised and received administrative approval.",
+          "The government says the rules will be published within two weeks, with the court directing it to place the published rules before it at the next hearing on November 16."
+        ],
+        "body": [
+          "The development comes amid concerns over sharp airfare spikes and unexpected fluctuations that affect air travellers.",
+          "The plea before the court seeks measures to curb sudden fare increases and also calls for an independent aviation regulator.",
+          "Aneesha Mathur brings you the latest details on the proposed rules and what they could mean for flyers."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The government says the rules will be published within two weeks, with the court directing it to place the published rules before it at the next hearing on November 16.",
+            "source": "Business Today",
+            "item_id": "03c3a8c0c14f226d82eacefa",
+            "composed": false
+          },
+          {
+            "text": "The Centre has told the Supreme Court that rules to regulate airfares have been finalised and received administrative approval.",
+            "source": "Business Today",
+            "item_id": "03c3a8c0c14f226d82eacefa",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/india-airfare-rules-finalised-supreme-court-sets-november-16-deadline-562121-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     },
     {
       "event_id": "d7a70b46d244ebb1cc665d85",
@@ -1010,7 +1215,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1096,7 +1301,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1164,90 +1369,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "ec64e52617155beba6db8447",
-      "story_id": "ec64e52617155beba6db8447",
-      "headline": "Centre to publish aviation rules within two weeks, tells Supreme Court",
-      "title": "Centre to publish aviation rules within two weeks, tells Supreme Court",
-      "summary": "Centre to publish aviation rules within two weeks, tells Supreme Court",
-      "url": "https://www.indiatoday.in/india/story/india-aviation-rules-publication-supreme-court-airfare-regulation-ptag-3018872-2026-10-16",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T10:36:25+00:00",
-      "published_at": "2026-10-16T10:36:25+00:00",
-      "effective_at": "2026-10-16T10:36:25+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
-          "He assured the apex court that the new regulations would be officially published within two weeks."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
-            "source": "Business Today",
-            "item_id": "e95240b4f6d2197b07df5947",
-            "composed": false
-          },
-          {
-            "text": "He assured the apex court that the new regulations would be officially published within two weeks.",
-            "source": "Business Today",
-            "item_id": "e95240b4f6d2197b07df5947",
-            "composed": false
-          }
-        ],
-        "source": "India Today",
-        "corroborating": [
-          "Business Today"
-        ],
-        "url": "https://www.indiatoday.in/india/story/india-aviation-rules-publication-supreme-court-airfare-regulation-ptag-3018872-2026-10-16"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "46ef810994f81945c19377b8",
       "story_id": "46ef810994f81945c19377b8",
       "headline": "Supreme Court seeks Centre’s reply on social media age limits for children",
@@ -1294,7 +1415,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1358,35 +1479,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "b546a88ea0620dd1f0f5c495",
-      "story_id": "b546a88ea0620dd1f0f5c495",
-      "headline": "India GDP to grow 7.1-7.3% in FY27 on private investment revival: Deloitte",
-      "title": "India GDP to grow 7.1-7.3% in FY27 on private investment revival: Deloitte",
-      "summary": "The Indian economy is expected to grow by 7.1-7.3 per cent in the current fiscal, with a sustained revival in private investment providing an additional source of demand, Deloitte India said on Friday. However, geopolitical tensions, volatile energy prices and trade disruptions pose risks to the growth outlook, it added. Deloitte India Economist Rumki Majumdar said over the past decade, India's growth has rested on resilient household spending and sustained investment push in public infrastructure. Businesses now have better connectivity, healthier balance sheets, and higher capacity utilisation, which strengthens the case for expansion. \"The question is whether these conditions will encourage private investment to play a larger role in boosting growth in the coming years. Recent indicators offer grounds for optimism. Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" Majumdar said. Deloitte Economic Outlook",
-      "url": "https://www.business-standard.com/economy/news/india-gdp-to-grow-7-1-7-3-in-fy27-on-private-investment-revival-deloitte-126101600332_1.html",
-      "source": "Business Standard",
+      "event_id": "5c168a6edcdab658e6f49825",
+      "story_id": "5c168a6edcdab658e6f49825",
+      "headline": "India's GDP likely to grow 7.1-7.3 pc in FY27 on private investment revival",
+      "title": "India's GDP likely to grow 7.1-7.3 pc in FY27 on private investment revival",
+      "summary": "Deloitte India projects 7.1–7.3% GDP growth for India in FY27, driven by a revival in private investment, strong domestic demand and rising capital expenditure across key sectors.",
+      "url": "https://www.thehansindia.com/business/indias-gdp-likely-to-grow-71-73-pc-in-fy27-on-private-investment-revival-1132973",
+      "source": "The Hans India",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "economy-finance",
-      "secondary_categories": [
-        "business-industry",
-        "transport-infrastructure",
-        "energy-environment"
-      ],
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 91.0,
-      "priority_score": 38.0,
+      "score": 67.0,
+      "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T05:41:22+00:00",
-      "published_at": "2026-10-16T05:41:22+00:00",
-      "effective_at": "2026-10-16T05:41:22+00:00",
+      "event_time": "2026-10-16T08:18:07+00:00",
+      "published_at": "2026-10-16T08:18:07+00:00",
+      "effective_at": "2026-10-16T08:18:07+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
+        "ians": {
           "kind": "wire",
           "source_ids": [
-            "business-standard"
+            "hans-india"
           ],
           "count": 1
         }
@@ -1398,33 +1515,49 @@
         "major: category importance 1.2 >= 1.2",
         "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
+        "source: tier 2 (hans-india) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
+        "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 38, stack 27.6, score 38 -> HIGH"
+        "dominant event 38, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "The consulting firm expects GDP growth to moderate to 6.6-7.0% in FY28, while cautioning that geopolitical tensions, fluctuations in energy prices and disruptions to global trade could weigh on the country's economic prospects.",
+        "Deloitte said improving corporate balance sheets, higher capacity utilisation and better infrastructure connectivity have created favourable conditions for businesses to increase capital expenditure, potentially adding another driver to India's economic growth.",
+        "Private investment, in particular, is emerging as an important factor in sustaining economic momentum after years in which household consumption and government-led infrastructure spending accounted for much of the expansion.",
+        "\"The question is whether these conditions will encourage private investment to play a larger role in boosting growth in the coming years.",
+        "Recent indicators offer grounds for optimism.",
+        "Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" said Deloitte India economist Rumki Majumdar.",
+        "The report highlighted the potential for investment in sectors such as semiconductors, electronics, defence manufacturing, clean energy and artificial intelligence infrastructure to accelerate private capital expenditure.",
+        "These industries require substantial initial investments and could contribute to expanding India's productive capacity over the longer term.",
+        "Deloitte's growth forecast is broadly aligned with estimates from other major institutions.",
+        "The Reserve Bank of India (RBI) and the Organisation for Economic Co-operation and Development (OECD) have projected GDP growth of 7.1% for FY27, while the International Monetary Fund (IMF), Asian Development Bank (ADB), S&P Global Ratings and Moody's expect growth of 7%.",
+        "The report, however, noted that a durable recovery in private investment would be essential to strengthening domestic demand and supporting future economic expansion, particularly amid uncertainties surrounding global trade and energy markets.",
+        "\"India has improved many of the business conditions needed to expand."
+      ],
+      "enrichment_source": "The Economic Times",
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Indian economy is expected to grow by 7.1-7.3 per cent in the current fiscal, with a sustained revival in private investment providing an additional source of demand, Deloitte India said on Friday.",
-          "However, geopolitical tensions, volatile energy prices and trade disruptions pose risks to the growth outlook, it added."
+          "Deloitte India projects 7.1–7.3% GDP growth for India in FY27, driven by a revival in private investment, strong domestic demand and rising capital expenditure across key sectors.",
+          "The consulting firm expects GDP growth to moderate to 6.6-7.0% in FY28, while cautioning that geopolitical tensions, fluctuations in energy prices and disruptions to global trade could weigh on the country's economic prospects."
         ],
         "body": [
-          "Deloitte India Economist Rumki Majumdar said over the past decade, India's growth has rested on resilient household spending and sustained investment push in public infrastructure.",
-          "Businesses now have better connectivity, healthier balance sheets, and higher capacity utilisation, which strengthens the case for expansion.",
+          "Deloitte said improving corporate balance sheets, higher capacity utilisation and better infrastructure connectivity have created favourable conditions for businesses to increase capital expenditure, potentially adding another driver to India's economic growth.",
+          "Private investment, in particular, is emerging as an important factor in sustaining economic momentum after years in which household consumption and government-led infrastructure spending accounted for much of the expansion.",
           "\"The question is whether these conditions will encourage private investment to play a larger role in boosting growth in the coming years.",
           "Recent indicators offer grounds for optimism.",
-          "Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" Majumdar said.",
-          "Deloitte Economic Outlook.",
-          "Deloitte India projects 7.1–7.3% GDP growth for India in FY27, driven by a revival in private investment, strong domestic demand and rising capital expenditure across key sectors."
+          "Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" said Deloitte India economist Rumki Majumdar.",
+          "The report highlighted the potential for investment in sectors such as semiconductors, electronics, defence manufacturing, clean energy and artificial intelligence infrastructure to accelerate private capital expenditure.",
+          "These industries require substantial initial investments and could contribute to expanding India's productive capacity over the longer term.",
+          "Deloitte's growth forecast is broadly aligned with estimates from other major institutions."
         ],
         "bullets": [
           {
@@ -1435,9 +1568,15 @@
         ],
         "sentences": [
           {
-            "text": "The Indian economy is expected to grow by 7.1-7.3 per cent in the current fiscal, with a sustained revival in private investment providing an additional source of demand, Deloitte India said on Friday.",
-            "source": "Business Standard",
-            "item_id": "b546a88ea0620dd1f0f5c495",
+            "text": "The consulting firm expects GDP growth to moderate to 6.6-7.0% in FY28, while cautioning that geopolitical tensions, fluctuations in energy prices and disruptions to global trade could weigh on the country's economic prospects.",
+            "source": "The Economic Times",
+            "item_id": "5c168a6edcdab658e6f49825:article",
+            "composed": false
+          },
+          {
+            "text": "Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" said Deloitte India economist Rumki Majumdar.",
+            "source": "The Economic Times",
+            "item_id": "5c168a6edcdab658e6f49825:article",
             "composed": false
           },
           {
@@ -1445,21 +1584,98 @@
             "source": "The Hans India",
             "item_id": "5c168a6edcdab658e6f49825",
             "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "The Economic Times"
+        ],
+        "url": "https://www.thehansindia.com/business/indias-gdp-likely-to-grow-71-73-pc-in-fy27-on-private-investment-revival-1132973"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "8e971b30bf567d7cca2a23a3",
+      "story_id": "8e971b30bf567d7cca2a23a3",
+      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
+      "source": "Mint - Markets",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T08:14:03+00:00",
+      "published_at": "2026-10-16T08:14:03+00:00",
+      "effective_at": "2026-10-16T08:14:03+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ht-media": {
+          "kind": "independent",
+          "source_ids": [
+            "mint"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (mint) +1",
+        "source: specialist (mint) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'supreme court ruling' in summary weight 27.6",
+        "scale: national scope",
+        "recency: fresh (3.5h ago) +4",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 27.6, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
+            "composed": false
           },
           {
-            "text": "Gross fixed capital formation grew by 11.9 per cent in the first quarter of FY 2026-27, its fastest expansion in four years,\" Majumdar said.",
-            "source": "Business Standard",
-            "item_id": "b546a88ea0620dd1f0f5c495",
+            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
             "composed": false
           }
         ],
-        "source": "Business Standard",
-        "corroborating": [
-          "The Hans India"
-        ],
-        "url": "https://www.business-standard.com/economy/news/india-gdp-to-grow-7-1-7-3-in-fy27-on-private-investment-revival-deloitte-126101600332_1.html"
+        "source": "Mint - Markets",
+        "corroborating": [],
+        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
       },
-      "group_size": 3,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1509,7 +1725,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1551,31 +1767,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7349391165b6467819acfb10",
-      "story_id": "7349391165b6467819acfb10",
-      "headline": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
-      "title": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
-      "summary": "\"Courts have never lagged behind in protecting rights. If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995",
-      "source": "LiveLaw",
+      "event_id": "e95240b4f6d2197b07df5947",
+      "story_id": "e95240b4f6d2197b07df5947",
+      "headline": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
+      "title": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
+      "summary": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted. He assured the apex court that the new regulations would be officially published within two weeks.",
+      "url": "https://www.businesstoday.in/india/story/sky-high-airfares-govt-to-publish-new-rules-within-2-weeks-centre-tells-supreme-court-562034-2026-10-16",
+      "source": "Business Today",
       "primary_source": false,
       "tier": 3,
       "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 62.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T07:17:50+00:00",
-      "published_at": "2026-10-16T07:17:50+00:00",
-      "effective_at": "2026-10-16T07:17:50+00:00",
+      "event_time": "2026-10-16T07:07:45+00:00",
+      "published_at": "2026-10-16T07:07:45+00:00",
+      "effective_at": "2026-10-16T07:07:45+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "live-law": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "live-law"
+            "business-today"
           ],
           "count": 1
         }
@@ -1587,12 +1803,12 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1603,159 +1819,32 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "\"Courts have never lagged behind in protecting rights.",
-          "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said."
+          "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
+          "He assured the apex court that the new regulations would be officially published within two weeks."
         ],
-        "body": [
-          "The bench will consider their explanations before deciding the next steps in proceedings initiated over remarks allegedly undermining judicial authority.",
-          "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
-            "source": "LiveLaw",
-            "item_id": "7349391165b6467819acfb10",
+            "text": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
+            "source": "Business Today",
+            "item_id": "e95240b4f6d2197b07df5947",
             "composed": false
           },
           {
-            "text": "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”.",
-            "source": "Deccan Chronicle",
-            "item_id": "c6a47629d4f96fe61d6238b0",
+            "text": "He assured the apex court that the new regulations would be officially published within two weeks.",
+            "source": "Business Today",
+            "item_id": "e95240b4f6d2197b07df5947",
             "composed": false
           }
         ],
-        "source": "LiveLaw",
-        "corroborating": [
-          "The Hindu BusinessLine",
-          "Deccan Chronicle"
-        ],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995"
-      },
-      "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "cb8ef513f7ba88ebf53ae91c",
-      "story_id": "cb8ef513f7ba88ebf53ae91c",
-      "headline": "Twisha Sharma Death | Supreme Court Stays Trial, Issues Notice On Father's Plea To Transfer Case To Delhi",
-      "title": "Twisha Sharma Death | Supreme Court Stays Trial, Issues Notice On Father's Plea To Transfer Case To Delhi",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/twisha-sharma-death-supreme-court-stays-trial-issues-notice-on-fathers-plea-to-transfer-case-to-delhi-555031",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T10:11:20+00:00",
-      "published_at": "2026-10-16T10:11:20+00:00",
-      "effective_at": "2026-10-16T10:11:20+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court today stayed the ongoing trial before a Bhopal sessions court in the unnatural death case of Twisha Sharma.",
-        "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi.",
-        "Advocate Abhijeet Sinha appeared Twisha's father Navnidhi Sharma.",
-        "He has sought the transfer due to an apprehension that the case would not receive a fair trial in Madhya Pradesh because Giribala Singh, one of the accused, is a former judge and is influential in the state.",
-        "He sought the transfer of the trial to Delhi, submitting that he is settled in Delhi-NCR.",
-        "The case is currently pending before a District and Additional Sessions Judge in Bhopal.",
-        "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
-        "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
-        "The CBI subsequently took over the probe.",
-        "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025.",
-        "Her husband, Samarth Singh, a lawyer, and mother-in-law, Giribala Singh, a retired district judge, are facing prosecution in the case.",
-        "The initial FIR was registered under Sections 80(2) (dowry death), 85 (cruelty by husband or his relatives) and 3(5) (common intention) of the Bharatiya Nyaya Sanhita (BNS), along with Sections 3 and 4 of the Dowry Prohibition Act, which deal with giving or taking dowry and demanding dowry, respectively."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court today stayed the ongoing trial before a Bhopal sessions court in the unnatural death case of Twisha Sharma.",
-          "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi."
-        ],
-        "body": [
-          "Advocate Abhijeet Sinha appeared Twisha's father Navnidhi Sharma.",
-          "He has sought the transfer due to an apprehension that the case would not receive a fair trial in Madhya Pradesh because Giribala Singh, one of the accused, is a former judge and is influential in the state.",
-          "He sought the transfer of the trial to Delhi, submitting that he is settled in Delhi-NCR.",
-          "The case is currently pending before a District and Additional Sessions Judge in Bhopal.",
-          "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
-          "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
-          "The CBI subsequently took over the probe.",
-          "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Madhya Pradesh"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Twisha, a 33-year-old woman, was discovered dead at her matrimonial home in Bhopal on May 12, 2026, around five months after her marriage to Samarth Singh on December 9, 2025.",
-            "source": "LiveLaw",
-            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court had earlier taken suo motu cognisance of Twisha Sharma's death in May this year amid concerns raised over the fairness of the investigation.",
-            "source": "LiveLaw",
-            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
-            "composed": false
-          },
-          {
-            "text": "The trial had reached the stage of arguments on framing of charges as on October 10 before the Supreme Court stayed the proceedings today.",
-            "source": "LiveLaw",
-            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
-            "composed": false
-          },
-          {
-            "text": "A bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice to the Central Bureau of Investigation (CBI), her husband Samarth Singh and mother-in-law Giribala Singh on a plea by her father seeking transfer of the proceedings from Madhya Pradesh to Delhi.",
-            "source": "LiveLaw",
-            "item_id": "cb8ef513f7ba88ebf53ae91c:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
+        "source": "Business Today",
         "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/twisha-sharma-death-supreme-court-stays-trial-issues-notice-on-fathers-plea-to-transfer-case-to-delhi-555031"
+        "url": "https://www.businesstoday.in/india/story/sky-high-airfares-govt-to-publish-new-rules-within-2-weeks-centre-tells-supreme-court-562034-2026-10-16"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "b3ce49c2656408ecc671cd8c",
@@ -1799,7 +1888,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1861,124 +1950,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/cjp-tiranga-protest-if-ndmc-order-is-disproportionate-well-act-supreme-court-on-traders-plea-against-delhi-central-park-shutdown-554971"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "21916ad74b26ca24da1f1680",
-      "story_id": "21916ad74b26ca24da1f1680",
-      "headline": "India received 15% below normal monsoon rainfall this year: IMD",
-      "title": "India received 15% below normal monsoon rainfall this year: IMD",
-      "summary": "Goa receives 196.68 cm rainfall, which is the highest in the country, while Punjab reports 28 cm, the lowest",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T11:00:33+00:00",
-      "published_at": "2026-10-16T11:00:33+00:00",
-      "effective_at": "2026-10-16T11:00:33+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 0, stack 40, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
-        "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
-        "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
-        "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
-        "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
-        "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
-        "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
-        "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
-        "The north-west India too received 6 per cent below normal rains like Central India.",
-        "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
-        "The east and north-east region was 27 per cent deficient as Arunachal Pradesh (-45 per cent), Assam (-29 per cent), Bihar (-32 per cent) and Meghalaya (-61 per cent) had less rainfall.",
-        "But, West Bengal has reported 2 per cent deficit and Jharkhand 6 per cent deficit rainfall between June 4 and October 15."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
-          "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15."
-        ],
-        "body": [
-          "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
-          "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
-          "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
-          "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
-          "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
-          "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
-          "The north-west India too received 6 per cent below normal rains like Central India.",
-          "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "21916ad74b26ca24da1f1680:article",
-            "composed": false
-          },
-          {
-            "text": "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "21916ad74b26ca24da1f1680:article",
-            "composed": false
-          },
-          {
-            "text": "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "21916ad74b26ca24da1f1680:article",
-            "composed": false
-          },
-          {
-            "text": "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "21916ad74b26ca24da1f1680:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
