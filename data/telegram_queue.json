@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:42:05.801490+00:00",
+  "generated_at": "2026-10-16T12:52:07.899113+00:00",
   "count": 15,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -137,7 +137,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -225,7 +225,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (16.8h ago) +4",
+        "recency: fresh (17.0h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -365,7 +365,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -611,7 +611,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -691,33 +691,125 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c5ab5c12231f9a087c735b50",
-      "story_id": "c5ab5c12231f9a087c735b50",
-      "headline": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
-      "title": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
-      "summary": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
-      "url": "https://www.indiatoday.in/india/story/supreme-court-allows-pfi-founder-e-abubacker-delhi-hospital-treatment-ptag-3018928-2026-10-16",
-      "source": "India Today",
+      "event_id": "8e971b30bf567d7cca2a23a3",
+      "story_id": "8e971b30bf567d7cca2a23a3",
+      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
+      "source": "Mint - Markets",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T08:14:03+00:00",
+      "published_at": "2026-10-16T08:14:03+00:00",
+      "effective_at": "2026-10-16T08:14:03+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "ht-media": {
+          "kind": "independent",
+          "source_ids": [
+            "mint"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (mint) +1",
+        "source: specialist (mint) +5",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'supreme court ruling' in summary weight 27.6",
+        "scale: national scope",
+        "recency: fresh (4.6h ago) +4",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 27.6, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
+            "composed": false
+          },
+          {
+            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
+            "composed": false
+          }
+        ],
+        "source": "Mint - Markets",
+        "corroborating": [],
+        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "9c4a71533f3aaffba6fcebdd",
+      "story_id": "9c4a71533f3aaffba6fcebdd",
+      "headline": "Supreme Court to hear plea over pregnant journalist's allegation against Rahul Gandhi on Oct 26",
+      "title": "Supreme Court to hear plea over pregnant journalist's allegation against Rahul Gandhi on Oct 26",
+      "summary": "The Supreme Court on Friday agreed to hear, on October 26, an application concerning a pregnant journalist's allegation that Leader of the Opposition in the Lok Sabha Rahul Gandhi pushed and pulled her during the Opposition INDIA bloc leaders’ march to the apex court premises over the Special Intensive Revision (SIR) of electoral rolls.",
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/supreme-court-to-hear-plea-over-pregnant-journalists-allegation-against-rahul-gandhi-on-oct-26-1132999",
+      "source": "The Hans India",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
       "secondary_categories": [
-        "health"
+        "national-politics"
       ],
       "confidence": "medium",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T11:30:30+00:00",
-      "published_at": "2026-10-16T11:30:30+00:00",
-      "effective_at": "2026-10-16T11:30:30+00:00",
+      "event_time": "2026-10-16T12:00:26+00:00",
+      "published_at": "2026-10-16T12:00:26+00:00",
+      "effective_at": "2026-10-16T12:00:26+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
+        "ians": {
+          "kind": "wire",
           "source_ids": [
-            "india-today"
+            "hans-india"
           ],
           "count": 1
         }
@@ -729,73 +821,73 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
+        "source: tier 2 (hans-india) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "delhi",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The Supreme Court allowed jailed PFI founder E Abubacker to receive treatment at a Delhi hospital.",
-        "The order balances medical needs with strict security, access and cost conditions.",
-        "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
-        "The court imposed several conditions, including that Abubacker bear the cost of his treatment and the police escort.",
-        "It also allowed one family member to accompany him.",
-        "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
-        "The bench asked the hospital to submit a report on the further treatment required and the possible duration of his stay.",
-        "\"The petitioner shall also pay requisite charges for escort.",
-        "We make it clear the attendant should not carry objectionable items.",
-        "We request the hospital to file a report on further course of treatment required along with possible period of stay.",
-        "Cost of hospital shall be borne by the petitioner,\" the bench said.",
-        "Justice Sundresh orally observed that the court could not be insensitive to such matters, adding that as a judge, \"you have to mix it with some sympathy\"."
+        "The Supreme Court on Friday agreed to hear, on October 26, an application concerning a pregnant journalist's allegation that Leader of the Opposition in the Lok Sabha Rahul Gandhi pushed and pulled her during the Opposition INDIA bloc leaders’ march to the apex court premises over the Special Intensive Revision (SIR) of electoral rolls.",
+        "New Delhi: The Supreme Court on Friday agreed to hear, on October 26, an application concerning a pregnant journalist's allegation that Leader of the Opposition in the Lok Sabha Rahul Gandhi pushed and pulled her during the Opposition INDIA bloc leaders’ march to the apex court premises over the Special Intensive Revision (SIR) of electoral rolls.",
+        "The application was mentioned before Chief Justice of India (CJI) Surya Kant by senior advocate Gaurav Bhatia, who sought a date for hearing the application and clarification on whether notice had been issued in the connected matters.",
+        "Responding to Bhatia’s query, the CJI-led Bench clarified that notice had already been issued in all the matters mentioned before it on Thursday and said the application would be listed on October 26.",
+        "The journalist, Richa Parashar, who works with news website Oneindia, alleged that Gandhi grabbed her hand and pulled her aggressively while she was covering the march, following which she was pushed by his security personnel and fell to the ground.",
+        "She was subsequently hospitalised.",
+        "Parashar, who is three months pregnant, alleged that the incident took place amid the commotion during the Opposition leaders’ protest on the Supreme Court premises.",
+        "The Congress has denied the allegations, describing them as politically motivated, while party leaders and supporters have circulated videos of the incident, questioning whether the visuals establish that Gandhi pushed the journalist.",
+        "The development comes a day after the Supreme Court issued notice on a separate plea seeking safeguards against political demonstrations in and around court premises in the backdrop of the October 12 protest march.",
+        "A Bench of CJI Surya Kant and Justice Joymalya Bagchi, while issuing notice on the plea, directed the preservation of CCTV footage and other digital evidence relating to the incident.",
+        "During Thursday’s proceedings, Bhatia had submitted that it was unacceptable for the Supreme Court to have to deal with a political procession, prompting the CJI-led Bench to observe that “nobody can browbeat” the apex court.",
+        "The Opposition march was undertaken by INDIA bloc leaders, including Rahul Gandhi, after the CJI declined a request from him and Congress President Mallikarjun Kharge to meet him and submit a memorandum on the SIR exercise."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Supreme Court allowed jailed PFI founder E Abubacker to receive treatment at a Delhi hospital.",
-          "The order balances medical needs with strict security, access and cost conditions."
+          "The Supreme Court on Friday agreed to hear, on October 26, an application concerning a pregnant journalist's allegation that Leader of the Opposition in the Lok Sabha Rahul Gandhi pushed and pulled her during the Opposition INDIA bloc leaders’ march to the apex court premises over the Special Intensive Revision (SIR) of electoral rolls.",
+          "The application was mentioned before Chief Justice of India (CJI) Surya Kant by senior advocate Gaurav Bhatia, who sought a date for hearing the application and clarification on whether notice had been issued in the connected matters."
         ],
         "body": [
-          "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
-          "The court imposed several conditions, including that Abubacker bear the cost of his treatment and the police escort.",
-          "It also allowed one family member to accompany him.",
-          "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
-          "The bench asked the hospital to submit a report on the further treatment required and the possible duration of his stay.",
-          "\"The petitioner shall also pay requisite charges for escort.",
-          "We make it clear the attendant should not carry objectionable items.",
-          "We request the hospital to file a report on further course of treatment required along with possible period of stay."
+          "Responding to Bhatia’s query, the CJI-led Bench clarified that notice had already been issued in all the matters mentioned before it on Thursday and said the application would be listed on October 26.",
+          "The journalist, Richa Parashar, who works with news website Oneindia, alleged that Gandhi grabbed her hand and pulled her aggressively while she was covering the march, following which she was pushed by his security personnel and fell to the ground.",
+          "She was subsequently hospitalised.",
+          "Parashar, who is three months pregnant, alleged that the incident took place amid the commotion during the Opposition leaders’ protest on the Supreme Court premises.",
+          "The Congress has denied the allegations, describing them as politically motivated, while party leaders and supporters have circulated videos of the incident, questioning whether the visuals establish that Gandhi pushed the journalist.",
+          "The development comes a day after the Supreme Court issued notice on a separate plea seeking safeguards against political demonstrations in and around court premises in the backdrop of the October 12 protest march.",
+          "A Bench of CJI Surya Kant and Justice Joymalya Bagchi, while issuing notice on the plea, directed the preservation of CCTV footage and other digital evidence relating to the incident.",
+          "During Thursday’s proceedings, Bhatia had submitted that it was unacceptable for the Supreme Court to have to deal with a political procession, prompting the CJI-led Bench to observe that “nobody can browbeat” the apex court."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Max Super Speciality"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
-            "source": "India Today",
-            "item_id": "c5ab5c12231f9a087c735b50:article",
+            "text": "The Supreme Court on Friday agreed to hear, on October 26, an application concerning a pregnant journalist's allegation that Leader of the Opposition in the Lok Sabha Rahul Gandhi pushed and pulled her during the Opposition INDIA bloc leaders’ march to the apex court premises over the Special Intensive Revision (SIR) of electoral rolls.",
+            "source": "The Hans India",
+            "item_id": "9c4a71533f3aaffba6fcebdd:article",
             "composed": false
           },
           {
-            "text": "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
-            "source": "India Today",
-            "item_id": "c5ab5c12231f9a087c735b50:article",
+            "text": "Responding to Bhatia’s query, the CJI-led Bench clarified that notice had already been issued in all the matters mentioned before it on Thursday and said the application would be listed on October 26.",
+            "source": "The Hans India",
+            "item_id": "9c4a71533f3aaffba6fcebdd:article",
+            "composed": false
+          },
+          {
+            "text": "The development comes a day after the Supreme Court issued notice on a separate plea seeking safeguards against political demonstrations in and around court premises in the backdrop of the October 12 protest march.",
+            "source": "The Hans India",
+            "item_id": "9c4a71533f3aaffba6fcebdd:article",
             "composed": false
           }
         ],
-        "source": "India Today",
+        "source": "The Hans India",
         "corroborating": [],
-        "url": "https://www.indiatoday.in/india/story/supreme-court-allows-pfi-founder-e-abubacker-delhi-hospital-treatment-ptag-3018928-2026-10-16"
+        "url": "https://www.thehansindia.com/news/cities/new-delhi/supreme-court-to-hear-plea-over-pregnant-journalists-allegation-against-rahul-gandhi-on-oct-26-1132999"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -844,7 +936,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -933,7 +1025,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1022,7 +1114,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1113,7 +1205,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1177,89 +1269,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8e971b30bf567d7cca2a23a3",
-      "story_id": "8e971b30bf567d7cca2a23a3",
-      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
-      "source": "Mint - Markets",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "courts-law"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T08:14:03+00:00",
-      "published_at": "2026-10-16T08:14:03+00:00",
-      "effective_at": "2026-10-16T08:14:03+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ht-media": {
-          "kind": "independent",
-          "source_ids": [
-            "mint"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (mint) +1",
-        "source: specialist (mint) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'supreme court ruling' in summary weight 27.6",
-        "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 27.6, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
-            "composed": false
-          },
-          {
-            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
-            "composed": false
-          }
-        ],
-        "source": "Mint - Markets",
-        "corroborating": [],
-        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "88974f62954c90760f724af3",
       "story_id": "88974f62954c90760f724af3",
       "headline": "SC seeks Centre, NCPCR's response on social media risks to children",
@@ -1305,7 +1314,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1345,6 +1354,127 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "b9cfe3ae66cd8dc795649995",
+      "story_id": "b9cfe3ae66cd8dc795649995",
+      "headline": "Supreme Court Grants Bail To Former RG Kar College Principal Sandip Ghosh In CBI Case",
+      "title": "Supreme Court Grants Bail To Former RG Kar College Principal Sandip Ghosh In CBI Case",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-grants-bail-to-former-rg-kar-college-principal-sandip-ghosh-in-cbi-case-555086",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T12:47:28+00:00",
+      "published_at": "2026-10-16T12:47:28+00:00",
+      "effective_at": "2026-10-16T12:47:28+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on October 15 granted bail to Sandip Ghosh, former RG Kar Medical College Hospital at Kolkata, who was chargesheeted in a Central Bureau of Investigation (CBI) case involving alleged financial irregularities at the college and manipulation of merit scores to accommodate undeserving candidates.",
+        "A bench of Justices MM Sundresh and Justice Prasanna B Varale allowed Ghosh's appeal against the Calcutta High Court's February 23, 2026 order rejecting his bail application.",
+        "The Court took note of the period of incarceration undergone by Ghosh and the progress of the trial, observing that he had been in custody for more than two years and that only seven out of 147 witnesses had been examined so far.",
+        "\"In such view of the matter, considering the period of incarceration and also the stage of the trial, we are inclined to set aside the impugned order passed by the High Court and allow this appeal,\" the Court said.",
+        "The Supreme Court accordingly set aside the High Court's order and granted Ghosh bail on such terms and conditions as may be imposed by the concerned trial court.",
+        "Ghosh was chargesheeted in Special Case No. 1 of 2025, arising out of a CBI case registered on August 24, 2024, by the agency's Anti-Corruption Branch in Kolkata.",
+        "The case involves allegations of criminal conspiracy, criminal breach of trust, cheating, forgery and use of forged documents under Sections 120B, 409, 420, 468 and 471 of the Indian Penal Code, along with offences under the Prevention of Corruption Act.",
+        "The allegations against Ghosh relate to two aspects: financial irregularities at the college where he was the Principal, and the alleged accommodation of undeserving candidates through manipulation of merit scores.",
+        "Ghosh had approached the Supreme Court after the Special CBI Court rejected his bail applications on January 7, 2025, followed by the Calcutta High Court's dismissal of his plea on February 23, 2026.",
+        "Senior Advocate Siddharth Aggarwal appeared for Ghosh, while Additional Solicitor General Suryaprakash V.Raju appeared for the CBI."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on October 15 granted bail to Sandip Ghosh, former RG Kar Medical College Hospital at Kolkata, who was chargesheeted in a Central Bureau of Investigation (CBI) case involving alleged financial irregularities at the college and manipulation of merit scores to accommodate undeserving candidates.",
+          "A bench of Justices MM Sundresh and Justice Prasanna B Varale allowed Ghosh's appeal against the Calcutta High Court's February 23, 2026 order rejecting his bail application."
+        ],
+        "body": [
+          "The Court took note of the period of incarceration undergone by Ghosh and the progress of the trial, observing that he had been in custody for more than two years and that only seven out of 147 witnesses had been examined so far.",
+          "\"In such view of the matter, considering the period of incarceration and also the stage of the trial, we are inclined to set aside the impugned order passed by the High Court and allow this appeal,\" the Court said.",
+          "The Supreme Court accordingly set aside the High Court's order and granted Ghosh bail on such terms and conditions as may be imposed by the concerned trial court.",
+          "Ghosh was chargesheeted in Special Case No. 1 of 2025, arising out of a CBI case registered on August 24, 2024, by the agency's Anti-Corruption Branch in Kolkata.",
+          "The case involves allegations of criminal conspiracy, criminal breach of trust, cheating, forgery and use of forged documents under Sections 120B, 409, 420, 468 and 471 of the Indian Penal Code, along with offences under the Prevention of Corruption Act.",
+          "The allegations against Ghosh relate to two aspects: financial irregularities at the college where he was the Principal, and the alleged accommodation of undeserving candidates through manipulation of merit scores.",
+          "Ghosh had approached the Supreme Court after the Special CBI Court rejected his bail applications on January 7, 2025, followed by the Calcutta High Court's dismissal of his plea on February 23, 2026.",
+          "Senior Advocate Siddharth Aggarwal appeared for Ghosh, while Additional Solicitor General Suryaprakash V.Raju appeared for the CBI."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kolkata"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Ghosh was chargesheeted in Special Case No. 1 of 2025, arising out of a CBI case registered on August 24, 2024, by the agency's Anti-Corruption Branch in Kolkata.",
+            "source": "LiveLaw",
+            "item_id": "b9cfe3ae66cd8dc795649995:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on October 15 granted bail to Sandip Ghosh, former RG Kar Medical College Hospital at Kolkata, who was chargesheeted in a Central Bureau of Investigation (CBI) case involving alleged financial irregularities at the college and manipulation of merit scores to accommodate undeserving candidates.",
+            "source": "LiveLaw",
+            "item_id": "b9cfe3ae66cd8dc795649995:article",
+            "composed": false
+          },
+          {
+            "text": "A bench of Justices MM Sundresh and Justice Prasanna B Varale allowed Ghosh's appeal against the Calcutta High Court's February 23, 2026 order rejecting his bail application.",
+            "source": "LiveLaw",
+            "item_id": "b9cfe3ae66cd8dc795649995:article",
+            "composed": false
+          },
+          {
+            "text": "Ghosh had approached the Supreme Court after the Special CBI Court rejected his bail applications on January 7, 2025, followed by the Calcutta High Court's dismissal of his plea on February 23, 2026.",
+            "source": "LiveLaw",
+            "item_id": "b9cfe3ae66cd8dc795649995:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-grants-bail-to-former-rg-kar-college-principal-sandip-ghosh-in-cbi-case-555086"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "ecfddb397b59fb0f055885a1",
@@ -1388,7 +1518,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1410,7 +1540,7 @@
         "Amicus Agarwal submitted that on April 28, 2025, a bench comprising Justice Abhay S Oka and Justice Ujjal Bhuyan had stated the Union Government had notified Section 164A(scheme for interim relief to claimants) of the Motor Vehicles Act on April 1, 2022 but such an important provision is yet to be notified for more than 3 years.",
         "It remarked that the failure needs to be deprecated and directed them to notify it within 4 months."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court today (October 16) again reiterated its concern over the absence of a pedestrian crossing at the Delhi High Court and orally warned that, if no action is taken at the next hearing, the judges will have to come and stage a dharna (protest) near it until it's done.",
@@ -1458,109 +1588,6 @@
         "url": "https://www.livelaw.in/top-stories/if-no-concrete-steps-taken-we-will-sit-on-dharna-supreme-court-to-centre-on-lack-of-pedestrian-crossing-near-delhi-hc-555080"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "57145d819653eb53fff8e118",
-      "story_id": "57145d819653eb53fff8e118",
-      "headline": "Cabinet approves ₹2,010 cr bonus for over 11 lakh railway employees",
-      "title": "Cabinet approves ₹2,010 cr bonus for over 11 lakh railway employees",
-      "summary": "The payment of PLB, which is disbursed each year before the Durga Puja/Dusshera holidays, acts as an incentive to motivate the railway employees",
-      "url": "https://www.thehindubusinessline.com/economy/cabinet-approves-2010-cr-bonus-for-over-11-lakh-railway-employees/article71583806.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": null,
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T12:01:31+00:00",
-      "published_at": "2026-10-16T12:01:31+00:00",
-      "effective_at": "2026-10-16T12:01:31+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
-        "geo: national",
-        "dominant event 44, stack 28, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": false,
-      "article_sentences": [
-        "Ahead of Dussehra and Deepavali festivals, the Union Cabinet on Wednesday approved Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to ₹2009.61 crore.",
-        "The payment of PLB, which is disbursed each year before the Durga Puja/Dusshera holidays, acts as an incentive to motivate the railway employees for working towards improvement in the performance of the Railways, the government said.",
-        "“The maximum amount payable per eligible railway employee is ₹17,951 for 78 days,” it added.",
-        "The bonus will be paid to various categories of Railway staff like track maintainers, loco pilots, train managers (Guards), station masters, supervisors, technicians, technician helpers, pointsmen, ministerial staff and other Group C staff.",
-        "“The performance of Railways in the year 2025-26 was very good.",
-        "Railways loaded a record cargo of 1670 million tonnes and carried nearly 7.41 billion Passengers,” it said."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Ahead of Dussehra and Deepavali festivals, the Union Cabinet on Wednesday approved Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to ₹2009.61 crore.",
-          "The payment of PLB, which is disbursed each year before the Durga Puja/Dusshera holidays, acts as an incentive to motivate the railway employees for working towards improvement in the performance of the Railways, the government said."
-        ],
-        "body": [
-          "“The maximum amount payable per eligible railway employee is ₹17,951 for 78 days,” it added.",
-          "The bonus will be paid to various categories of Railway staff like track maintainers, loco pilots, train managers (Guards), station masters, supervisors, technicians, technician helpers, pointsmen, ministerial staff and other Group C staff.",
-          "“The performance of Railways in the year 2025-26 was very good.",
-          "Railways loaded a record cargo of 1670 million tonnes and carried nearly 7.41 billion Passengers,” it said.",
-          "The payment of PLB, which is disbursed each year before the Durga Puja/Dusshera holidays, acts as an incentive to motivate the railway employees."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Ahead of Dussehra and Deepavali festivals, the Union Cabinet on Wednesday approved Productivity Linked Bonus of 78 days for 11,40,770 railway employees, amounting to ₹2009.61 crore.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "57145d819653eb53fff8e118:article",
-            "composed": false
-          },
-          {
-            "text": "“The performance of Railways in the year 2025-26 was very good.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "57145d819653eb53fff8e118:article",
-            "composed": false
-          },
-          {
-            "text": "Railways loaded a record cargo of 1670 million tonnes and carried nearly 7.41 billion Passengers,” it said.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "57145d819653eb53fff8e118:article",
-            "composed": false
-          },
-          {
-            "text": "“The maximum amount payable per eligible railway employee is ₹17,951 for 78 days,” it added.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "57145d819653eb53fff8e118:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/cabinet-approves-2010-cr-bonus-for-over-11-lakh-railway-employees/article71583806.ece"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -1606,7 +1633,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
