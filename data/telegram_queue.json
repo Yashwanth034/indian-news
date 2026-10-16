@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T10:32:30.674500+00:00",
-  "count": 17,
+  "generated_at": "2026-10-16T10:42:05.282591+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "6d7bcfec69b4e6d890af8bd5",
@@ -53,7 +53,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -152,10 +152,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 23, score 64 -> URGENT"
+        "dominant event 64, stack 19, score 64 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "assam",
@@ -245,7 +245,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -333,7 +333,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (14.6h ago) +4",
+        "recency: fresh (14.8h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -480,7 +480,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -553,6 +553,90 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "ec64e52617155beba6db8447",
+      "story_id": "ec64e52617155beba6db8447",
+      "headline": "Centre to publish aviation rules within two weeks, tells Supreme Court",
+      "title": "Centre to publish aviation rules within two weeks, tells Supreme Court",
+      "summary": "Centre to publish aviation rules within two weeks, tells Supreme Court",
+      "url": "https://www.indiatoday.in/india/story/india-aviation-rules-publication-supreme-court-airfare-regulation-ptag-3018872-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T10:36:25+00:00",
+      "published_at": "2026-10-16T10:36:25+00:00",
+      "effective_at": "2026-10-16T10:36:25+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
+          "He assured the apex court that the new regulations would be officially published within two weeks."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
+            "source": "Business Today",
+            "item_id": "e95240b4f6d2197b07df5947",
+            "composed": false
+          },
+          {
+            "text": "He assured the apex court that the new regulations would be officially published within two weeks.",
+            "source": "Business Today",
+            "item_id": "e95240b4f6d2197b07df5947",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [
+          "Business Today"
+        ],
+        "url": "https://www.indiatoday.in/india/story/india-aviation-rules-publication-supreme-court-airfare-regulation-ptag-3018872-2026-10-16"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "0a242164287cb1d716b3a776",
       "story_id": "0a242164287cb1d716b3a776",
       "headline": "Justice P. Sam Koshy appointed as Acting Chief Justice of Telangana High Court",
@@ -595,7 +679,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -701,7 +785,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -809,7 +893,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -922,7 +1006,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
@@ -1027,7 +1111,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1111,7 +1195,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1194,7 +1278,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1305,7 +1389,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'fuel price' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1426,7 +1510,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1506,86 +1590,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "e95240b4f6d2197b07df5947",
-      "story_id": "e95240b4f6d2197b07df5947",
-      "headline": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
-      "title": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
-      "summary": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted. He assured the apex court that the new regulations would be officially published within two weeks.",
-      "url": "https://www.businesstoday.in/india/story/sky-high-airfares-govt-to-publish-new-rules-within-2-weeks-centre-tells-supreme-court-562034-2026-10-16",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 62.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T07:07:45+00:00",
-      "published_at": "2026-10-16T07:07:45+00:00",
-      "effective_at": "2026-10-16T07:07:45+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
-          "He assured the apex court that the new regulations would be officially published within two weeks."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted.",
-            "source": "Business Today",
-            "item_id": "e95240b4f6d2197b07df5947",
-            "composed": false
-          },
-          {
-            "text": "He assured the apex court that the new regulations would be officially published within two weeks.",
-            "source": "Business Today",
-            "item_id": "e95240b4f6d2197b07df5947",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [],
-        "url": "https://www.businesstoday.in/india/story/sky-high-airfares-govt-to-publish-new-rules-within-2-weeks-centre-tells-supreme-court-562034-2026-10-16"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "b3ce49c2656408ecc671cd8c",
       "story_id": "b3ce49c2656408ecc671cd8c",
       "headline": "CJP Tiranga Protest | 'If NDMC Order Is Disproportionate, We'll Act' : Supreme Court On Traders' Plea Against Delhi Central Park Shutdown",
@@ -1627,7 +1631,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1735,7 +1739,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1801,6 +1805,250 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "e5f1ab12b703fdafd3c8ee22",
+      "story_id": "e5f1ab12b703fdafd3c8ee22",
+      "headline": "IMD: Heavy rain in Keralam, South Karnataka, TN, Puducherry for 4 days from Thursday",
+      "title": "IMD: Heavy rain in Keralam, South Karnataka, TN, Puducherry for 4 days from Thursday",
+      "summary": "Watch for low-pressure system over south-east Bay of Bengal withdrawn after parent circulation disappears, but South Peninsula is entering a consequential wet phase in seasonal calendar",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-keralam-south-karnataka-tn-puducherry-for-4-days-from-thursday/article71578098.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 40.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T10:30:38+00:00",
+      "published_at": "2026-10-16T10:30:38+00:00",
+      "effective_at": "2026-10-16T10:30:38+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 0, stack 40, score 40 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The north-east monsoon could set in over the South Peninsula within next two days, even as the India Meteorological Department (IMD) appeared on Monday to have dropped its watch for Tuesday for a low-pressure area that the south-east Bay of Bengal was thought to come up with.",
+        "The trigger for the emerging wet spell may instead be a trough linking cyclonic circulations over the south-west and central Bay off Sri Lanka coast with the parent circulation over the south Andaman Sea.",
+        "This circulation has merged into this trough, which could help channel the easterlies and usher in the north-east monsoon.",
+        "The 2026 season is set to open with a six-day wet spell from Wednesday/Thursday, with isolated heavy rainfall forecast over several parts of the South Peninsula.",
+        "Tamil Nadu, Puducherry and Karaikal are likely to bear the brunt of the initial spell, followed by Kerala and Mahe from Thursday, an IMD said on Monday.",
+        "The rain belt is expected to extend across coastal Andhra Pradesh, Yanam and South Interior Karnataka for four days from Thursday; Coastal Karnataka, North Interior Karnataka and Rayalaseema for three days from Friday; and Telangana on Saturday.",
+        "Isolated to scattered, and at times fairly widespread to widespread overlapping rainfall is forecast at many places across these regions during these days, with pockets of heavy rain.",
+        "Historical performance of the north-east monsoon shows the meteorological subdivision of Tamil Nadu, Puducherry and Karaikal received its highest seasonal rainfall in 2015 (floods) and 2021.",
+        "The absolute lowest point was 2016 (-62 per cent).",
+        "It remains the only subdivision in India where rainfall during north-east (October to December) monsoon rainfall exceeds that during the south-west monsoon (June to September).",
+        "For Kerala and Mahe, 2011-2025 has delivered a highly volatile season marked by excesses and severe deficits in 2016 and 2023.",
+        "The subdivision logged exceptionally high excess in 2021 and 2023 (+27 per cent) that contrasted heavily with dry spells during strong El Niño interludes where its interior catchments have routinely failed."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The north-east monsoon could set in over the South Peninsula within next two days, even as the India Meteorological Department (IMD) appeared on Monday to have dropped its watch for Tuesday for a low-pressure area that the south-east Bay of Bengal was thought to come up with.",
+          "The trigger for the emerging wet spell may instead be a trough linking cyclonic circulations over the south-west and central Bay off Sri Lanka coast with the parent circulation over the south Andaman Sea."
+        ],
+        "body": [
+          "This circulation has merged into this trough, which could help channel the easterlies and usher in the north-east monsoon.",
+          "The 2026 season is set to open with a six-day wet spell from Wednesday/Thursday, with isolated heavy rainfall forecast over several parts of the South Peninsula.",
+          "Tamil Nadu, Puducherry and Karaikal are likely to bear the brunt of the initial spell, followed by Kerala and Mahe from Thursday, an IMD said on Monday.",
+          "Isolated to scattered, and at times fairly widespread to widespread overlapping rainfall is forecast at many places across these regions during these days, with pockets of heavy rain.",
+          "Historical performance of the north-east monsoon shows the meteorological subdivision of Tamil Nadu, Puducherry and Karaikal received its highest seasonal rainfall in 2015 (floods) and 2021.",
+          "The absolute lowest point was 2016 (-62 per cent).",
+          "It remains the only subdivision in India where rainfall during north-east (October to December) monsoon rainfall exceeds that during the south-west monsoon (June to September)."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The rain belt is expected to extend across coastal Andhra Pradesh, Yanam and South Interior Karnataka for four days from Thursday; Coastal Karnataka, North Interior Karnataka and Rayalaseema for three days from Friday; and Telangana on Saturday."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The rain belt is expected to extend across coastal Andhra Pradesh, Yanam and South Interior Karnataka for four days from Thursday; Coastal Karnataka, North Interior Karnataka and Rayalaseema for three days from Friday; and Telangana on Saturday.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "e5f1ab12b703fdafd3c8ee22:article",
+            "composed": false
+          },
+          {
+            "text": "The 2026 season is set to open with a six-day wet spell from Wednesday/Thursday, with isolated heavy rainfall forecast over several parts of the South Peninsula.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "e5f1ab12b703fdafd3c8ee22:article",
+            "composed": false
+          },
+          {
+            "text": "Tamil Nadu, Puducherry and Karaikal are likely to bear the brunt of the initial spell, followed by Kerala and Mahe from Thursday, an IMD said on Monday.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "e5f1ab12b703fdafd3c8ee22:article",
+            "composed": false
+          },
+          {
+            "text": "It remains the only subdivision in India where rainfall during north-east (October to December) monsoon rainfall exceeds that during the south-west monsoon (June to September).",
+            "source": "The Hindu BusinessLine",
+            "item_id": "e5f1ab12b703fdafd3c8ee22:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-heavy-rain-in-keralam-south-karnataka-tn-puducherry-for-4-days-from-thursday/article71578098.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "21916ad74b26ca24da1f1680",
+      "story_id": "21916ad74b26ca24da1f1680",
+      "headline": "India received 15% below normal monsoon rainfall this year: IMD",
+      "title": "India received 15% below normal monsoon rainfall this year: IMD",
+      "summary": "Goa receives 196.68 cm rainfall, which is the highest in the country, while Punjab reports 28 cm, the lowest",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 40.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T10:29:09+00:00",
+      "published_at": "2026-10-16T10:29:09+00:00",
+      "effective_at": "2026-10-16T10:29:09+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 0, stack 40, score 40 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+        "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
+        "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
+        "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
+        "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
+        "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+        "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
+        "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
+        "The north-west India too received 6 per cent below normal rains like Central India.",
+        "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
+        "The east and north-east region was 27 per cent deficient as Arunachal Pradesh (-45 per cent), Assam (-29 per cent), Bihar (-32 per cent) and Meghalaya (-61 per cent) had less rainfall.",
+        "But, West Bengal has reported 2 per cent deficit and Jharkhand 6 per cent deficit rainfall between June 4 and October 15."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+          "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15."
+        ],
+        "body": [
+          "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
+          "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
+          "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
+          "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+          "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
+          "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
+          "The north-west India too received 6 per cent below normal rains like Central India.",
+          "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
+            "composed": false
+          },
+          {
+            "text": "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
+            "composed": false
+          },
+          {
+            "text": "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
+            "composed": false
+          },
+          {
+            "text": "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     }
   ]
