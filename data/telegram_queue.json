@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:22:22.637400+00:00",
-  "count": 17,
+  "generated_at": "2026-10-16T11:33:15.912752+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "979b09c354744847da18a785",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -146,7 +146,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -245,7 +245,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -338,7 +338,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -426,7 +426,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (15.5h ago) +4",
+        "recency: fresh (15.7h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -562,7 +562,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -665,7 +665,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -738,6 +738,232 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "c5ab5c12231f9a087c735b50",
+      "story_id": "c5ab5c12231f9a087c735b50",
+      "headline": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
+      "title": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
+      "summary": "Supreme Court allows PFI founder E Abubacker treatment at Delhi hospital",
+      "url": "https://www.indiatoday.in/india/story/supreme-court-allows-pfi-founder-e-abubacker-delhi-hospital-treatment-ptag-3018928-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:30:30+00:00",
+      "published_at": "2026-10-16T11:30:30+00:00",
+      "effective_at": "2026-10-16T11:30:30+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court allowed jailed PFI founder E Abubacker to receive treatment at a Delhi hospital.",
+        "The order balances medical needs with strict security, access and cost conditions.",
+        "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
+        "The court imposed several conditions, including that Abubacker bear the cost of his treatment and the police escort.",
+        "It also allowed one family member to accompany him.",
+        "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
+        "The bench asked the hospital to submit a report on the further treatment required and the possible duration of his stay.",
+        "\"The petitioner shall also pay requisite charges for escort.",
+        "We make it clear the attendant should not carry objectionable items.",
+        "We request the hospital to file a report on further course of treatment required along with possible period of stay.",
+        "Cost of hospital shall be borne by the petitioner,\" the bench said.",
+        "Justice Sundresh orally observed that the court could not be insensitive to such matters, adding that as a judge, \"you have to mix it with some sympathy\"."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court allowed jailed PFI founder E Abubacker to receive treatment at a Delhi hospital.",
+          "The order balances medical needs with strict security, access and cost conditions."
+        ],
+        "body": [
+          "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
+          "The court imposed several conditions, including that Abubacker bear the cost of his treatment and the police escort.",
+          "It also allowed one family member to accompany him.",
+          "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
+          "The bench asked the hospital to submit a report on the further treatment required and the possible duration of his stay.",
+          "\"The petitioner shall also pay requisite charges for escort.",
+          "We make it clear the attendant should not carry objectionable items.",
+          "We request the hospital to file a report on further course of treatment required along with possible period of stay."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Max Super Speciality"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A bench of Justices MM Sundresh and PB Varale directed that Abubacker be treated at Max Super Speciality Hospital in Saket.",
+            "source": "India Today",
+            "item_id": "c5ab5c12231f9a087c735b50:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Friday allowed Popular Front of India founding chairman E Abubacker, who was arrested in a case under the Unlawful Activities (Prevention) Act, to undergo treatment at a Delhi hospital, news agency Press Trust of India reported.",
+            "source": "India Today",
+            "item_id": "c5ab5c12231f9a087c735b50:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/supreme-court-allows-pfi-founder-e-abubacker-delhi-hospital-treatment-ptag-3018928-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "8e2e07b362cd5d58e94588bc",
+      "story_id": "8e2e07b362cd5d58e94588bc",
+      "headline": "Supreme Court asks Mahua Moitra to give one-day notice for Nadia visits",
+      "title": "Supreme Court asks Mahua Moitra to give one-day notice for Nadia visits",
+      "summary": "Supreme Court asks Mahua Moitra to give one-day notice for Nadia visits",
+      "url": "https://www.indiatoday.in/india/story/mahua-moitra-nadia-visits-supreme-court-one-day-notice-ptag-3018917-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:24:24+00:00",
+      "published_at": "2026-10-16T11:24:24+00:00",
+      "effective_at": "2026-10-16T11:24:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court directed Mahua Moitra to notify Nadia officials before district visits.",
+        "The arrangement seeks to resolve protocol disputes while leaving project grievances to authorities.",
+        "The Supreme Court on Friday directed Trinamool Congress MP Mahua Moitra to inform the Nadia district administration a day before visiting the district so that necessary arrangements, including accommodation according to protocol, can be made, news agency Press Trust of India reported.",
+        "The court issued the direction while hearing Moitra's plea against a September 1 circular that required MPs and MLAs to give the district administration at least three to four days' notice before a proposed visit.",
+        "“These are not the issues which should come to the court.",
+        "What is required is a small SOP (standard operating procedure),” a bench of Chief Justice Surya Kant and Justice Joymalya Bagchi observed.",
+        "Moitra, the MP from West Bengal's Krishnanagar constituency, alleged in her plea that Nadia district administration officials had evicted her from a Circuit House in August despite a room being allotted to her at the state-owned property.",
+        "Solicitor General Tushar Mehta, appearing for the West Bengal government, told the bench that no officer had asked Moitra to vacate the premises and that all courtesies had been extended to her, according to PTI.",
+        "Senior advocate Gopal Sankaranarayanan, representing Moitra, said the September 1 circular was targeted at her.",
+        "He also said that, according to protocol, an MP ranks higher than the chief secretary.",
+        "“We would like this to be ironed out.",
+        "There should not be any inconvenience to anyone,” the bench said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court directed Mahua Moitra to notify Nadia officials before district visits.",
+          "The arrangement seeks to resolve protocol disputes while leaving project grievances to authorities."
+        ],
+        "body": [
+          "The Supreme Court on Friday directed Trinamool Congress MP Mahua Moitra to inform the Nadia district administration a day before visiting the district so that necessary arrangements, including accommodation according to protocol, can be made, news agency Press Trust of India reported.",
+          "The court issued the direction while hearing Moitra's plea against a September 1 circular that required MPs and MLAs to give the district administration at least three to four days' notice before a proposed visit.",
+          "“These are not the issues which should come to the court.",
+          "What is required is a small SOP (standard operating procedure),” a bench of Chief Justice Surya Kant and Justice Joymalya Bagchi observed.",
+          "Moitra, the MP from West Bengal's Krishnanagar constituency, alleged in her plea that Nadia district administration officials had evicted her from a Circuit House in August despite a room being allotted to her at the state-owned property.",
+          "Solicitor General Tushar Mehta, appearing for the West Bengal government, told the bench that no officer had asked Moitra to vacate the premises and that all courtesies had been extended to her, according to PTI.",
+          "Senior advocate Gopal Sankaranarayanan, representing Moitra, said the September 1 circular was targeted at her.",
+          "He also said that, according to protocol, an MP ranks higher than the chief secretary."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "August"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Moitra, the MP from West Bengal's Krishnanagar constituency, alleged in her plea that Nadia district administration officials had evicted her from a Circuit House in August despite a room being allotted to her at the state-owned property.",
+            "source": "India Today",
+            "item_id": "8e2e07b362cd5d58e94588bc:article",
+            "composed": false
+          },
+          {
+            "text": "The court issued the direction while hearing Moitra's plea against a September 1 circular that required MPs and MLAs to give the district administration at least three to four days' notice before a proposed visit.",
+            "source": "India Today",
+            "item_id": "8e2e07b362cd5d58e94588bc:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Friday directed Trinamool Congress MP Mahua Moitra to inform the Nadia district administration a day before visiting the district so that necessary arrangements, including accommodation according to protocol, can be made, news agency Press Trust of India reported.",
+            "source": "India Today",
+            "item_id": "8e2e07b362cd5d58e94588bc:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/mahua-moitra-nadia-visits-supreme-court-one-day-notice-ptag-3018917-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "d7a70b46d244ebb1cc665d85",
       "story_id": "d7a70b46d244ebb1cc665d85",
       "headline": "Telangana farmers seek drought relief on lines of Maharashtra",
@@ -784,7 +1010,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -792,7 +1018,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Farmers in Adilabad’s border villages have urged the Telangana government to announce festival relief similar to Maharashtra’s Rs 5,000 assistance for farmers in drought-hit areas.",
@@ -825,7 +1051,7 @@
         "url": "https://telanganatoday.com/telangana-farmers-seek-drought-relief-on-lines-of-maharashtra"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -870,7 +1096,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -892,7 +1118,7 @@
         "Advocate Jai Anant Dehadrai, appearing for the Delhi Kirana Committee and the Delhi Iron and Hardware Merchant Association, sought a hearing during the day.",
         "He said the proposed protest and the restrictions that followed would obstruct trade worth Rs 200 crore a day."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court declined an urgent challenge to NDMC's Central Park closure order.",
@@ -934,7 +1160,7 @@
         "url": "https://www.indiatoday.in/india/story/supreme-court-connaught-place-traders-compensation-central-park-closure-ptag-3018899-2026-10-16"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -981,7 +1207,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1068,7 +1294,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1177,7 +1403,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
@@ -1283,7 +1509,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1325,31 +1551,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7408ce0b414182e87faec86c",
-      "story_id": "7408ce0b414182e87faec86c",
-      "headline": "CMRL-Exalogic case: Pinarayi Vijayan moves Supreme Court against Kerala HC order",
-      "title": "CMRL-Exalogic case: Pinarayi Vijayan moves Supreme Court against Kerala HC order",
-      "summary": "Former Kerala Chief Minister Pinarayi Vijayan petitioned the Supreme Court challenging a High Court order directing an FIR against him, his daughter, and son-in-law over alleged illegal payments involving CMRL and Exalogic Solutions.",
-      "url": "https://www.onmanorama.com/kerala/top-news/2026/10/16/cmrl-exalogic-case-pinarayi-vijayan-moves-supreme-court-against-kerala-hc-order.html",
-      "source": "Onmanorama",
+      "event_id": "7349391165b6467819acfb10",
+      "story_id": "7349391165b6467819acfb10",
+      "headline": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "title": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "summary": "\"Courts have never lagged behind in protecting rights. If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995",
+      "source": "LiveLaw",
       "primary_source": false,
       "tier": 3,
       "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
+      "score": 92.0,
+      "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T07:03:39+00:00",
-      "published_at": "2026-10-16T07:03:39+00:00",
-      "effective_at": "2026-10-16T07:03:39+00:00",
+      "event_time": "2026-10-16T07:17:50+00:00",
+      "published_at": "2026-10-16T07:17:50+00:00",
+      "effective_at": "2026-10-16T07:17:50+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "onmanorama": {
+        "live-law": {
           "kind": "independent",
           "source_ids": [
-            "onmanorama"
+            "live-law"
           ],
           "count": 1
         }
@@ -1361,77 +1587,54 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (onmanorama) +1",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "kerala",
+      "state": null,
       "national_significance": true,
-      "article_sentences": [
-        "Former Kerala Chief Minister Pinarayi Vijayan has approached the Supreme Court challenging the Kerala High Court's direction to register an FIR against him in the CMRL-Exalogic case, based on information provided by the Enforcement Directorate (ED) to the state police.",
-        "Senior advocate Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
-        "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
-        "When Luthra pressed for an urgent hearing, the CJI said he could consider listing it before a special bench during the vacation, subject to the availability of judges.",
-        "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
-        "He also challenged the procedure adopted by the High Court, contending that a single judge had issued the direction in a writ petition resembling a public interest litigation despite not having the roster for PIL matters.",
-        "He further argued that the direction was issued without hearing the accused and that a division bench had refused to entertain their appeal.",
-        "Senior advocate N Hariharan also mentioned petitions filed by co-accused Veena T, Vijayan's daughter, and Mohammed Riyas, his son-in-law.",
-        "A single bench of the Kerala High Court had directed the Vigilance and Anti-Corruption Bureau (VACB) to register an FIR under the Prevention of Corruption Act against Vijayan, Veena and Riyas.",
-        "The order came on a writ petition filed by K M Shajahan.",
-        "The High Court had rejected the state's decision to order a preliminary inquiry into the allegations.",
-        "It held that a preliminary inquiry was not warranted after the ED furnished information under Section 66(2) of the Prevention of Money Laundering Act (PMLA)."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Former Kerala Chief Minister Pinarayi Vijayan has approached the Supreme Court challenging the Kerala High Court's direction to register an FIR against him in the CMRL-Exalogic case, based on information provided by the Enforcement Directorate (ED) to the state police.",
-          "Senior advocate."
+          "\"Courts have never lagged behind in protecting rights.",
+          "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said."
         ],
         "body": [
-          "Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
-          "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
-          "When Luthra pressed for an urgent hearing, the CJI said he could consider listing it before a special bench during the vacation, subject to the availability of judges.",
-          "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
-          "He also challenged the procedure adopted by the High Court, contending that a single judge had issued the direction in a writ petition resembling a public interest litigation despite not having the roster for PIL matters.",
-          "He further argued that the direction was issued without hearing the accused and that a division bench had refused to entertain their appeal.",
-          "Senior advocate N Hariharan also mentioned petitions filed by co-accused Veena T, Vijayan's daughter, and Mohammed Riyas, his son-in-law.",
-          "A single bench of the Kerala High Court had directed the Vigilance and Anti-Corruption Bureau (VACB) to register an FIR under the Prevention of Corruption Act against Vijayan, Veena and Riyas."
+          "The bench will consider their explanations before deciding the next steps in proceedings initiated over remarks allegedly undermining judicial authority.",
+          "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
-            "source": "Onmanorama",
-            "item_id": "7408ce0b414182e87faec86c:article",
+            "text": "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+            "source": "LiveLaw",
+            "item_id": "7349391165b6467819acfb10",
             "composed": false
           },
           {
-            "text": "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
-            "source": "Onmanorama",
-            "item_id": "7408ce0b414182e87faec86c:article",
-            "composed": false
-          },
-          {
-            "text": "Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
-            "source": "Onmanorama",
-            "item_id": "7408ce0b414182e87faec86c:article",
+            "text": "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”.",
+            "source": "Deccan Chronicle",
+            "item_id": "c6a47629d4f96fe61d6238b0",
             "composed": false
           }
         ],
-        "source": "Onmanorama",
-        "corroborating": [],
-        "url": "https://www.onmanorama.com/kerala/top-news/2026/10/16/cmrl-exalogic-case-pinarayi-vijayan-moves-supreme-court-against-kerala-hc-order.html"
+        "source": "LiveLaw",
+        "corroborating": [
+          "The Hindu BusinessLine",
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995"
       },
-      "group_size": 2,
+      "group_size": 3,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "cb8ef513f7ba88ebf53ae91c",
@@ -1475,7 +1678,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1596,7 +1799,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1708,7 +1911,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
