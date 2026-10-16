@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T09:42:17.388704+00:00",
-  "count": 15,
+  "generated_at": "2026-10-16T09:52:05.188694+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "6d7bcfec69b4e6d890af8bd5",
@@ -53,7 +53,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -158,7 +158,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'final' in summary weight 6",
         "scale: state scope (odisha)",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -250,7 +250,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -343,7 +343,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -376,6 +376,98 @@
         "source": "The Hans India",
         "corroborating": [],
         "url": "https://www.thehansindia.com/news/national/election-commission-announces-two-key-changes-amid-opposition-protests-over-voter-roll-revision-1132977"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "8e971b30bf567d7cca2a23a3",
+      "story_id": "8e971b30bf567d7cca2a23a3",
+      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
+      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
+      "source": "Mint - Markets",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T08:14:03+00:00",
+      "published_at": "2026-10-16T08:14:03+00:00",
+      "effective_at": "2026-10-16T08:14:03+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "ht-media": {
+          "kind": "independent",
+          "source_ids": [
+            "mint"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (mint) +1",
+        "source: specialist (mint) +5",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'supreme court ruling' in summary weight 27.6",
+        "scale: national scope",
+        "recency: breaking (1.6h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 27.6, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
+            "composed": false
+          },
+          {
+            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
+            "source": "Mint - Markets",
+            "item_id": "8e971b30bf567d7cca2a23a3",
+            "composed": false
+          }
+        ],
+        "source": "Mint - Markets",
+        "corroborating": [],
+        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -446,7 +538,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -519,6 +611,225 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "46ef810994f81945c19377b8",
+      "story_id": "46ef810994f81945c19377b8",
+      "headline": "Supreme Court seeks Centre’s reply on social media age limits for children",
+      "title": "Supreme Court seeks Centre’s reply on social media age limits for children",
+      "summary": "New Delhi, Oct 16 : The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation. A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue. The apex court has listed the matter for further hearing on December 3. The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use. The plea contends that social media platforms generally prescribe a self-declared minimum age of 13 years, which does not correspond to the protection accorded to children under Indian law. It refers to the Digital Personal Data Protection Act, 2023, which recognises every person below 18 years of age as a child and provides for enhanced safeguards, including verifiable parental consent and restrictions on tracking, behavioural monitoring and targeted advertising. “The present framework remains fragmented, incomplete and inadequately operationalised,” the petition stated, arguing that there is no uniform and enforceable child-safety regime governing age verification, prevention of underage access, parental involvement and platform accountability. The petitioners have claimed that children are increasingly exposed to cyberbullying, harassment, harmful online content and unwanted contact from strangers through social media. They have also raised concerns over sleep deprivation, diminished concentration, anxiety, low self-esteem and declining academic engagement associated with prolonged social media use. The plea further stated that parents have expressed concerns over their children's excessive phone use, late-night exposure, online interactions and the risk of bullying, grooming and exploitation, while finding it difficult to supervise or restrict access to such platforms. The petition has sought directions to the Centre and the authorities concerned to formulate and notify a dedicated regulatory framework providing for reliable, proportionate and privacy-preserving age verification, graded and age-appropriate access, restrictions on harmful content and mandatory privacy settings for accounts belonging to children. It has also sought safeguards against grooming, sexual solicitation, cyberbullying, harassment and the circulation of intimate or private images, including effective reporting mechanisms, prompt removal of harmful material and preservation of evidence in accordance with law. In the alternative, the petitioners have sought directions to prescribe and enforce restrictions on children's creation and use of social media platforms if other safeguards are found insufficient to address the risks. --IANS",
+      "url": "https://assamtribune.com/national/supreme-court-seeks-centres-reply-on-social-media-age-limits-for-children-1620411",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "technology-digital",
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T09:46:31+00:00",
+      "published_at": "2026-10-16T09:46:31+00:00",
+      "effective_at": "2026-10-16T09:46:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 16: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
+          "A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue."
+        ],
+        "body": [
+          "The apex court has listed the matter for further hearing on December 3.",
+          "The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use.",
+          "The plea contends that social media platforms generally prescribe a self-declared minimum age of 13 years, which does not correspond to the protection accorded to children under Indian law.",
+          "It refers to the Digital Personal Data Protection Act, 2023, which recognises every person below 18 years of age as a child and provides for enhanced safeguards, including verifiable parental consent and restrictions on tracking, behavioural monitoring and targeted advertising.",
+          "“The present framework remains fragmented, incomplete and inadequately operationalised,” the petition stated, arguing that there is no uniform and enforceable child-safety regime governing age verification, prevention of underage access, parental involvement and platform accountability.",
+          "The petitioners have claimed that children are increasingly exposed to cyberbullying, harassment, harmful online content and unwanted contact from strangers through social media.",
+          "They have also raised concerns over sleep deprivation, diminished concentration, anxiety, low self-esteem and declining academic engagement associated with prolonged social media use.",
+          "The plea further stated that parents have expressed concerns over their children's excessive phone use, late-night exposure, online interactions and the risk of bullying, grooming and exploitation, while finding it difficult to supervise or restrict access to such platforms.",
+          "The petition has sought directions to the Centre and the authorities concerned to formulate and notify a dedicated regulatory framework providing for reliable, proportionate and privacy-preserving age verification, graded and age-appropriate access, restrictions on harmful content and mandatory privacy settings for accounts belonging to children.",
+          "It has also sought safeguards against grooming, sexual solicitation, cyberbullying, harassment and the circulation of intimate or private images, including effective reporting mechanisms, prompt removal of harmful material and preservation of evidence in accordance with law.",
+          "In the alternative, the petitioners have sought directions to prescribe and enforce restrictions on children's creation and use of social media platforms if other safeguards are found insufficient to address the risks.",
+          "--IANS."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "New Delhi, Oct 16: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
+            "source": "The Assam Tribune",
+            "item_id": "46ef810994f81945c19377b8",
+            "composed": false
+          },
+          {
+            "text": "The apex court has listed the matter for further hearing on December 3.",
+            "source": "The Assam Tribune",
+            "item_id": "46ef810994f81945c19377b8",
+            "composed": false
+          },
+          {
+            "text": "It refers to the Digital Personal Data Protection Act, 2023, which recognises every person below 18 years of age as a child and provides for enhanced safeguards, including verifiable parental consent and restrictions on tracking, behavioural monitoring and targeted advertising.",
+            "source": "The Assam Tribune",
+            "item_id": "46ef810994f81945c19377b8",
+            "composed": false
+          },
+          {
+            "text": "The plea contends that social media platforms generally prescribe a self-declared minimum age of 13 years, which does not correspond to the protection accorded to children under Indian law.",
+            "source": "The Assam Tribune",
+            "item_id": "46ef810994f81945c19377b8",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/national/supreme-court-seeks-centres-reply-on-social-media-age-limits-for-children-1620411"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "80100e464012524f4a8ddf0f",
+      "story_id": "80100e464012524f4a8ddf0f",
+      "headline": "Supreme Court Agrees To Hear Application Alleging Rahul Gandhi Pushed Pregnant Journalist During October 12 March",
+      "title": "Supreme Court Agrees To Hear Application Alleging Rahul Gandhi Pushed Pregnant Journalist During October 12 March",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-application-alleging-rahul-gandhi-pushed-pregnant-journalist-during-october-12-march-554975",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 80.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T06:16:58+00:00",
+      "published_at": "2026-10-16T06:16:58+00:00",
+      "effective_at": "2026-10-16T06:16:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (3.6h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+        "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi.",
+        "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
+        "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+        "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
+        "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+        "I have a report.",
+        "What am I urging?",
+        "Cognizance of this news be also taken.",
+        "Lady journalist because she is reporting against him...selective outrage, nothing else.",
+        "Why should cognizance not be taken of Rahul Gandhi pushing her?\" Bhatia submitted yesterday.",
+        "\"Not taking suo motu of an oral submission."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+          "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi."
+        ],
+        "body": [
+          "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
+          "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+          "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
+          "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+          "I have a report.",
+          "What am I urging?",
+          "Cognizance of this news be also taken.",
+          "Lady journalist because she is reporting against him...selective outrage, nothing else."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+            "source": "LiveLaw",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          },
+          {
+            "text": "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+            "source": "LiveLaw",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          },
+          {
+            "text": "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+            "source": "LiveLaw",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-application-alleging-rahul-gandhi-pushed-pregnant-journalist-during-october-12-march-554975"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "0e6a85931ece0b96d369de3c",
       "story_id": "0e6a85931ece0b96d369de3c",
       "headline": "Flame of hope flickers: Congress after Supreme Court rejects Centre’s plea on Nicobar petitions in Calcutta High Court",
@@ -564,7 +875,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -687,7 +998,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -802,7 +1113,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
@@ -863,89 +1174,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8e971b30bf567d7cca2a23a3",
-      "story_id": "8e971b30bf567d7cca2a23a3",
-      "headline": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "title": "Q2 Preview: ICICI, Axis, YES, HDFC Bank - 4 banking stocks to declare results 2026 on Oct 17 - Expectations by experts",
-      "summary": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17. Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-      "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html",
-      "source": "Mint - Markets",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "courts-law"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T08:14:03+00:00",
-      "published_at": "2026-10-16T08:14:03+00:00",
-      "effective_at": "2026-10-16T08:14:03+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ht-media": {
-          "kind": "independent",
-          "source_ids": [
-            "mint"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (mint) +1",
-        "source: specialist (mint) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'supreme court ruling' in summary weight 27.6",
-        "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 27.6, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-          "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "As HDFC Bank, ICICI Bank, Axis Bank and Yes Bank prepare to report quarterly results tomorrow, October 17.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
-            "composed": false
-          },
-          {
-            "text": "Investors will assess deposit mix, loan quality and guidance, alongside HDFC Bank’s management change and the Supreme Court ruling affecting Yes Bank’s AT-1 bonds.",
-            "source": "Mint - Markets",
-            "item_id": "8e971b30bf567d7cca2a23a3",
-            "composed": false
-          }
-        ],
-        "source": "Mint - Markets",
-        "corroborating": [],
-        "url": "https://www.livemint.com/market/stock-market-news/q2-preview-icici-axis-yes-hdfc-bank-4-banking-stocks-to-declare-results-2026-on-oct-17-expectations-by-experts-11792137099601.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "88974f62954c90760f724af3",
       "story_id": "88974f62954c90760f724af3",
       "headline": "SC seeks Centre, NCPCR's response on social media risks to children",
@@ -991,7 +1219,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1029,6 +1257,90 @@
         "url": "https://www.business-standard.com/india-news/sc-seeks-centre-ncpcr-s-response-on-social-media-risks-to-children-126101600487_1.html"
       },
       "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "7349391165b6467819acfb10",
+      "story_id": "7349391165b6467819acfb10",
+      "headline": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "title": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "summary": "\"Courts have never lagged behind in protecting rights. If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T07:17:50+00:00",
+      "published_at": "2026-10-16T07:17:50+00:00",
+      "effective_at": "2026-10-16T07:17:50+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (2.6h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "\"Courts have never lagged behind in protecting rights.",
+          "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said."
+        ],
+        "body": [
+          "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+            "source": "LiveLaw",
+            "item_id": "7349391165b6467819acfb10",
+            "composed": false
+          },
+          {
+            "text": "Hearing a contempt plea filed by the Supreme Court Bar Association, the apex court expressed concern over remarks targeting the Chief Justice of India, calling attacks on the institution “deeply unfortunate”.",
+            "source": "Deccan Chronicle",
+            "item_id": "c6a47629d4f96fe61d6238b0",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995"
+      },
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1074,7 +1386,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1185,7 +1497,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'fuel price' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1306,7 +1618,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1386,7 +1698,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1494,7 +1806,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1557,6 +1869,123 @@
         "source": "The Hindu - Delhi",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/cities/Delhi/supreme-court-asks-high-court-to-consider-plea-against-centres-decision-to-take-over-delhi-gymkhana-club/article71546164.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "fa3707dedf8fbf95796a5eda",
+      "story_id": "fa3707dedf8fbf95796a5eda",
+      "headline": "Railways to offer insurance on counter tickets from Oct 27: What passengers will get",
+      "title": "Railways to offer insurance on counter tickets from Oct 27: What passengers will get",
+      "summary": "The directive was issued by a bench of Justices Ahsanuddin Amanullah and R Mahadevan on October 6 while hearing proceedings related to railway safety following the June 2023 Odisha train accident",
+      "url": "https://www.businesstoday.in/india/story/railways-to-offer-insurance-on-counter-tickets-from-oct-27-what-passengers-will-get-562101-2026-10-16",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "transport-infrastructure",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 82.2,
+      "priority_score": 38.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T09:33:18+00:00",
+      "published_at": "2026-10-16T09:33:18+00:00",
+      "effective_at": "2026-10-16T09:33:18+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'train accident'",
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'train accident' in summary weight 38.4",
+        "scale: state scope (odisha)",
+        "recency: breaking (0.3h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 38.4, stack 23.2, score 38.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "article_sentences": [
+        "What did the Supreme Court say?",
+        "The directive was issued by a bench of Justices Ahsanuddin Amanullah and R Mahadevan on October 6 while hearing proceedings related to railway safety following the June 2023 Odisha train accident.",
+        "The court expressed concern over the lack of progress in extending insurance coverage to offline ticket holders, despite earlier assurances from the authorities.",
+        "It directed the Railway Board to implement the measure within two weeks, setting October 27 as the deadline.",
+        "The bench also warned that the Railway Board would be directly responsible if the order was not implemented as directed.",
+        "How much Insurance cover can passengers get?",
+        "Under the existing optional railway travel insurance scheme for online bookings, passengers can receive coverage of up to Rs 10 lakh in cases of death or permanent total disability, subject to the policy's terms and conditions.",
+        "The existing online insurance premium is 45 paise per passenger, including taxes.",
+        "However, the detailed arrangements for counter-booked tickets, including the applicable premium, documentation requirements and claims procedure, are yet to be clarified.",
+        "Passengers should check official Railway announcements for the final implementation details.",
+        "Why is the new rule important?",
+        "The change is particularly significant for passengers who depend on physical reservation counters, including those who may have limited access to digital services."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "What did the Supreme Court say?",
+          "The directive was issued by a bench of Justices Ahsanuddin Amanullah and R Mahadevan on October 6 while hearing proceedings related to railway safety following the June 2023 Odisha train accident."
+        ],
+        "body": [
+          "The court expressed concern over the lack of progress in extending insurance coverage to offline ticket holders, despite earlier assurances from the authorities.",
+          "It directed the Railway Board to implement the measure within two weeks, setting October 27 as the deadline.",
+          "The bench also warned that the Railway Board would be directly responsible if the order was not implemented as directed.",
+          "How much Insurance cover can passengers get?",
+          "Under the existing optional railway travel insurance scheme for online bookings, passengers can receive coverage of up to Rs 10 lakh in cases of death or permanent total disability, subject to the policy's terms and conditions.",
+          "The existing online insurance premium is 45 paise per passenger, including taxes.",
+          "However, the detailed arrangements for counter-booked tickets, including the applicable premium, documentation requirements and claims procedure, are yet to be clarified.",
+          "Passengers should check official Railway announcements for the final implementation details."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The directive was issued by a bench of Justices Ahsanuddin Amanullah and R Mahadevan on October 6 while hearing proceedings related to railway safety following the June 2023 Odisha train accident.",
+            "source": "Business Today",
+            "item_id": "fa3707dedf8fbf95796a5eda:article",
+            "composed": false
+          },
+          {
+            "text": "It directed the Railway Board to implement the measure within two weeks, setting October 27 as the deadline.",
+            "source": "Business Today",
+            "item_id": "fa3707dedf8fbf95796a5eda:article",
+            "composed": false
+          },
+          {
+            "text": "Under the existing optional railway travel insurance scheme for online bookings, passengers can receive coverage of up to Rs 10 lakh in cases of death or permanent total disability, subject to the policy's terms and conditions.",
+            "source": "Business Today",
+            "item_id": "fa3707dedf8fbf95796a5eda:article",
+            "composed": false
+          },
+          {
+            "text": "The existing online insurance premium is 45 paise per passenger, including taxes.",
+            "source": "Business Today",
+            "item_id": "fa3707dedf8fbf95796a5eda:article",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/india/story/railways-to-offer-insurance-on-counter-tickets-from-oct-27-what-passengers-will-get-562101-2026-10-16"
       },
       "group_size": 1,
       "label": "📰 NEWS",
