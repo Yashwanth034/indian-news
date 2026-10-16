@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T07:42:43.519777+00:00",
-  "count": 21,
+  "generated_at": "2026-10-16T07:52:14.081113+00:00",
+  "count": 24,
   "stories": [
     {
       "event_id": "6d7bcfec69b4e6d890af8bd5",
@@ -53,7 +53,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -111,6 +111,102 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "8b92eadb0954aab84476a252",
+      "story_id": "8b92eadb0954aab84476a252",
+      "headline": "Assam: KVK Jorhat Distributes Vegetable Seeds to Support Flood-Affected Farmers",
+      "title": "Assam: KVK Jorhat Distributes Vegetable Seeds to Support Flood-Affected Farmers",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-kvk-jorhat-distributes-vegetable-seeds-to-support-flood-affected-farmers",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T07:39:50+00:00",
+      "published_at": "2026-10-16T07:39:50+00:00",
+      "effective_at": "2026-10-16T07:39:50.571000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "JORHAT: Krishi Vigyan Kendra (KVK), Jorhat, in association with Namdhari Sikh Sangat, the AAU-Disaster Response Cell and AICRP on Fruits, AAU, Jorhat, organised a ceremonial vegetable seed distribution programme at Ghurachora Habigaon on Wednesday to support flood-affected farmers in resuming agricultural activities during the current rabi season.",
+        "A total of 120 farmers participated in the programme.",
+        "The programme was graced by Dr Manoranjan Neog, Director of Extension Education, Assam Agricultural University (AAU), who urged farmers to take up vegetable cultivation and other rabi crops on a large scale to compensate for the agricultural losses caused by the recent floods."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "JORHAT: Krishi Vigyan Kendra (KVK), Jorhat, in association with Namdhari Sikh Sangat, the AAU-Disaster Response Cell and AICRP on Fruits, AAU, Jorhat, organised a ceremonial vegetable seed distribution programme at Ghurachora Habigaon on Wednesday to support flood-affected farmers in resuming agricultural activities during the current rabi season.",
+          "A total of 120 farmers participated in the programme."
+        ],
+        "body": [
+          "The programme was graced by Dr Manoranjan Neog, Director of Extension Education, Assam Agricultural University (AAU), who urged farmers to take up vegetable cultivation and other rabi crops on a large scale to compensate for the agricultural losses caused by the recent floods."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ghurachora Habigaon"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "JORHAT: Krishi Vigyan Kendra (KVK), Jorhat, in association with Namdhari Sikh Sangat, the AAU-Disaster Response Cell and AICRP on Fruits, AAU, Jorhat, organised a ceremonial vegetable seed distribution programme at Ghurachora Habigaon on Wednesday to support flood-affected farmers in resuming agricultural activities during the current rabi season.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "8b92eadb0954aab84476a252:article",
+            "composed": false
+          },
+          {
+            "text": "A total of 120 farmers participated in the programme.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "8b92eadb0954aab84476a252:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-kvk-jorhat-distributes-vegetable-seeds-to-support-flood-affected-farmers"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "8424a3b937c05f2017f29150",
       "story_id": "8424a3b937c05f2017f29150",
       "headline": "SI suspended for pointing pistol at flood victims during distribution of relief materials in Bihar’s Saran",
@@ -155,7 +251,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (bihar)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -265,7 +361,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -375,7 +471,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -449,6 +545,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "38ed0b3124d4d31304d2f430",
+      "story_id": "38ed0b3124d4d31304d2f430",
+      "headline": "Under Opposition fire, Election Commission's 2 big moves in 24 hours",
+      "title": "Under Opposition fire, Election Commission's 2 big moves in 24 hours",
+      "summary": "Under Opposition fire, Election Commission's 2 big moves in 24 hours",
+      "url": "https://www.indiatoday.in/india/story/election-commission-voter-list-revision-readable-pdf-cjp-rahul-gandhi-protests-3018682-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T07:12:16+00:00",
+      "published_at": "2026-10-16T07:12:16+00:00",
+      "effective_at": "2026-10-16T07:12:16+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.7h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Election Commission has announced a Special Summary Revision (SSR) of electoral rolls in 17 states to enrol new voters.",
+        "Secondly, for the first time, the ECI has promised to give political parties soft copies of the electoral rolls.",
+        "The twin moves come amid escalating protests.",
+        "Amid massive protests over its Special Intensive Revision (SIR) exercise, the Election Commission seems to have changed course on two issues that have long put it at odds with the opposition.",
+        "Over the past 24 hours, the beleaguered poll body announced a Special Summary Revision (SSR) of electoral rolls in 17 states and UTs to enrol new voters.",
+        "Secondly, the ECI, in a first, has promised to give political parties readable PDF copies of the final electoral rolls - reversing its own long-standing stand.",
+        "Both the issues have been raised repeatedly by the opposition, especially the Congress, in recent years.",
+        "The second announcement has drawn the maximum attention as the ECI itself opposed releasing machine-readable voter lists, citing privacy concerns after the Congress approached the Supreme Court in 2018.",
+        "The timing is significant.",
+        "The protests against the poll body, especially Chief Election Commissioner (CEC) Gyanesh Kumar, by the Cockroach Janta Party and the opposition have only grown louder over alleged SIR irregularities.",
+        "The nationwide purging of electoral rolls has resulted in the exclusion of over 13 crore voters and a whole lot of chaos.",
+        "WHAT IS SPECIAL SUMMARY REVISION (SSR)?"
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Election Commission has announced a Special Summary Revision (SSR) of electoral rolls in 17 states to enrol new voters.",
+          "Secondly, for the first time, the ECI has promised to give political parties soft copies of the electoral rolls."
+        ],
+        "body": [
+          "The twin moves come amid escalating protests.",
+          "Amid massive protests over its Special Intensive Revision (SIR) exercise, the Election Commission seems to have changed course on two issues that have long put it at odds with the opposition.",
+          "Over the past 24 hours, the beleaguered poll body announced a Special Summary Revision (SSR) of electoral rolls in 17 states and UTs to enrol new voters.",
+          "Secondly, the ECI, in a first, has promised to give political parties readable PDF copies of the final electoral rolls - reversing its own long-standing stand.",
+          "Both the issues have been raised repeatedly by the opposition, especially the Congress, in recent years.",
+          "The second announcement has drawn the maximum attention as the ECI itself opposed releasing machine-readable voter lists, citing privacy concerns after the Congress approached the Supreme Court in 2018.",
+          "The timing is significant.",
+          "The protests against the poll body, especially Chief Election Commissioner (CEC) Gyanesh Kumar, by the Cockroach Janta Party and the opposition have only grown louder over alleged SIR irregularities."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Election Commission has announced a Special Summary Revision (SSR) of electoral rolls in 17 states to enrol new voters.",
+            "source": "India Today",
+            "item_id": "38ed0b3124d4d31304d2f430:article",
+            "composed": false
+          },
+          {
+            "text": "Over the past 24 hours, the beleaguered poll body announced a Special Summary Revision (SSR) of electoral rolls in 17 states and UTs to enrol new voters.",
+            "source": "India Today",
+            "item_id": "38ed0b3124d4d31304d2f430:article",
+            "composed": false
+          },
+          {
+            "text": "The second announcement has drawn the maximum attention as the ECI itself opposed releasing machine-readable voter lists, citing privacy concerns after the Congress approached the Supreme Court in 2018.",
+            "source": "India Today",
+            "item_id": "38ed0b3124d4d31304d2f430:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/election-commission-voter-list-revision-readable-pdf-cjp-rahul-gandhi-protests-3018682-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "16a9210715154f6a3ad291f0",
       "story_id": "16a9210715154f6a3ad291f0",
       "headline": "Madras High Court begins hearing Tamil Nadu CM Vijay’s plea to reject election petitions",
@@ -492,7 +699,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -610,7 +817,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (odisha)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -684,6 +891,124 @@
       "enrichment": "article"
     },
     {
+      "event_id": "80100e464012524f4a8ddf0f",
+      "story_id": "80100e464012524f4a8ddf0f",
+      "headline": "Supreme Court to hear plea alleging Rahul Gandhi pushed pregnant journalist",
+      "title": "Supreme Court to hear plea alleging Rahul Gandhi pushed pregnant journalist",
+      "summary": "Supreme Court to hear plea alleging Rahul Gandhi pushed pregnant journalist",
+      "url": "https://www.indiatoday.in/india/story/rahul-gandhi-supreme-court-pregnant-journalist-push-allegation-hearing-ptag-3018725-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T06:16:58+00:00",
+      "published_at": "2026-10-16T07:46:23+00:00",
+      "effective_at": "2026-10-16T07:46:23+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        },
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (1.6h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+        "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi.",
+        "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
+        "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+        "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
+        "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+        "I have a report.",
+        "What am I urging?",
+        "Cognizance of this news be also taken.",
+        "Lady journalist because she is reporting against him...selective outrage, nothing else.",
+        "Why should cognizance not be taken of Rahul Gandhi pushing her?\" Bhatia submitted yesterday.",
+        "\"Not taking suo motu of an oral submission."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+          "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi."
+        ],
+        "body": [
+          "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
+          "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+          "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
+          "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+          "I have a report.",
+          "What am I urging?",
+          "Cognizance of this news be also taken.",
+          "Lady journalist because she is reporting against him...selective outrage, nothing else."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
+            "source": "India Today",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          },
+          {
+            "text": "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
+            "source": "India Today",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          },
+          {
+            "text": "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
+            "source": "India Today",
+            "item_id": "80100e464012524f4a8ddf0f:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/rahul-gandhi-supreme-court-pregnant-journalist-push-allegation-hearing-ptag-3018725-2026-10-16"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "13ae58af188bda61aaa2bf19",
       "story_id": "13ae58af188bda61aaa2bf19",
       "headline": "Congress, allies seeking Bangladesh-like regime change: Rajnath",
@@ -741,7 +1066,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -814,12 +1139,12 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "facd9686a2b9342879907b05",
-      "story_id": "facd9686a2b9342879907b05",
-      "headline": "Pinarayi Vijayan moves Supreme Court against FIR order in CMRL bribery case",
-      "title": "Pinarayi Vijayan moves Supreme Court against FIR order in CMRL bribery case",
-      "summary": "Pinarayi Vijayan moves Supreme Court against FIR order in CMRL bribery case",
-      "url": "https://www.indiatoday.in/india/story/cmrl-bribery-case-pinarayi-vijayan-supreme-court-fir-order-ptag-3018604-2026-10-16",
+      "event_id": "8d2c52c6be19e6a04fbf4166",
+      "story_id": "8d2c52c6be19e6a04fbf4166",
+      "headline": "Supreme Court seeks Centre's response on child social media safeguards",
+      "title": "Supreme Court seeks Centre's response on child social media safeguards",
+      "summary": "Supreme Court seeks Centre's response on child social media safeguards",
+      "url": "https://www.indiatoday.in/india/story/child-social-media-safety-supreme-court-age-restrictions-ptag-3018726-2026-10-16",
       "source": "India Today",
       "primary_source": false,
       "tier": 2,
@@ -830,9 +1155,9 @@
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T06:04:27+00:00",
-      "published_at": "2026-10-16T06:04:27+00:00",
-      "effective_at": "2026-10-16T06:04:27+00:00",
+      "event_time": "2026-10-16T07:48:23+00:00",
+      "published_at": "2026-10-16T07:48:23+00:00",
+      "effective_at": "2026-10-16T07:48:23+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "indiatoday": {
@@ -855,7 +1180,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -864,67 +1189,250 @@
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The challenge tests whether corruption suspects can claim a hearing before FIR registration.",
-        "Former Kerala chief minister Pinarayi Vijayan on Friday moved the Supreme Court against a Kerala High Court order directing the registration of a first information report (FIR) in the alleged CMRL bribery case, news agency Press Trust of India reported.",
-        "Vijayan has also sought protection from coercive action.",
-        "The Supreme Court said it would hear the matter after reopening on October 26 following the Dussehra break.",
-        "According to PTI, senior advocate Sidharth Luthra, appearing for Vijayan, sought an urgent hearing before a bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi.",
-        "He told the bench that an FIR had been registered in the case and requested protection for Vijayan.",
-        "The Chief Justice said the matter would be heard when the court reopens.",
-        "He also said a bench could be constituted during the holidays next week, subject to the availability of judges.",
-        "The Kerala High Court had on Thursday dismissed applications filed by Vijayan, his daughter Veena T and her husband P. A Mohamed Riyas seeking permission to appeal against an October 9 order by a single judge directing the registration of an FIR against them.",
-        "A division bench rejected the applications, holding that “an accused in a corruption case has no legal right to be heard before registering the FIR”.",
-        "It said the related appeals were also dismissed as a consequence.",
-        "Vijayan, Veena and Riyas had argued in their appeals that the single judge did not hear them before issuing the direction to register the FIR."
+        "The Supreme Court sought responses from the Centre and child rights commission on regulating children's social media use.",
+        "The case could shape national rules on age verification, parental consent and platform accountability.",
+        "The Supreme Court on Friday sought responses from the Centre and the National Commission for Protection of Child Rights on a public interest litigation seeking a comprehensive and enforceable national framework to protect children from risks linked to social media platforms, news agency Press Trust of India reported.",
+        "The petition, filed by Indore-based Emerald Heights International School and its director of academics, Siddharth Singh Girnar, has called for mandatory age verification, age-appropriate access, verifiable parental consent and stronger safeguards against cyberbullying, sexual exploitation, harmful content and excessive use of social media platforms.",
+        "A bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi issued notices to the ministries of women and child development and law and justice, as well as the National Commission for Protection of Child Rights, according to PTI.",
+        "The bench tagged the plea, filed through Vaibhav Choudhary, with a pending petition and listed the matter for hearing on December 7.",
+        "The petition sought an appropriate order declaring that the respondents' continuing failure to effectively protect children from foreseeable risks such as grooming, sexual exploitation, cyberbullying, exposure to age-inappropriate and harmful content, behavioural profiling, features that encourage compulsive use and other harms linked to commercial social media platforms was arbitrary, unreasonable and in violation of Articles 14, 15(3), 21 and 21A of the Constitution.",
+        "It also asked the court to direct the Centre to frame, notify and implement a dedicated, comprehensive and enforceable regulatory framework to protect children from harms arising from their access to and use of social media platforms.",
+        "According to PTI, the plea said: \"Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate.\"",
+        "It further sought directions to the Centre to \"frame and enforce appropriate age-based restrictions on the creation, maintenance and use of accounts by children on designated social-media platforms\".",
+        "The school referred to instances of underage children operating social media accounts, being contacted by strangers, facing cyberbullying and harassment, and suffering from sleep deprivation and reduced concentration after prolonged mobile phone use.",
+        "The petition also cited concerns raised by parents about children's excessive screen time, anxiety over online popularity, body-image issues, social withdrawal and declining interest in studies and outdoor activities."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The challenge tests whether corruption suspects can claim a hearing before FIR registration.",
-          "Former Kerala chief minister Pinarayi Vijayan on Friday moved the Supreme Court against a Kerala High Court order directing the registration of a first information report (FIR) in the alleged CMRL bribery case, news agency Press Trust of India reported."
+          "The Supreme Court sought responses from the Centre and child rights commission on regulating children's social media use.",
+          "The case could shape national rules on age verification, parental consent and platform accountability."
         ],
         "body": [
-          "Vijayan has also sought protection from coercive action.",
-          "The Supreme Court said it would hear the matter after reopening on October 26 following the Dussehra break.",
-          "According to PTI, senior advocate Sidharth Luthra, appearing for Vijayan, sought an urgent hearing before a bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi.",
-          "He told the bench that an FIR had been registered in the case and requested protection for Vijayan.",
-          "The Chief Justice said the matter would be heard when the court reopens.",
-          "He also said a bench could be constituted during the holidays next week, subject to the availability of judges.",
-          "The Kerala High Court had on Thursday dismissed applications filed by Vijayan, his daughter Veena T and her husband P. A Mohamed Riyas seeking permission to appeal against an October 9 order by a single judge directing the registration of an FIR against them.",
-          "A division bench rejected the applications, holding that “an accused in a corruption case has no legal right to be heard before registering the FIR”."
+          "The Supreme Court on Friday sought responses from the Centre and the National Commission for Protection of Child Rights on a public interest litigation seeking a comprehensive and enforceable national framework to protect children from risks linked to social media platforms, news agency Press Trust of India reported.",
+          "The petition, filed by Indore-based Emerald Heights International School and its director of academics, Siddharth Singh Girnar, has called for mandatory age verification, age-appropriate access, verifiable parental consent and stronger safeguards against cyberbullying, sexual exploitation, harmful content and excessive use of social media platforms.",
+          "A bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi issued notices to the ministries of women and child development and law and justice, as well as the National Commission for Protection of Child Rights, according to PTI.",
+          "The bench tagged the plea, filed through Vaibhav Choudhary, with a pending petition and listed the matter for hearing on December 7.",
+          "The petition sought an appropriate order declaring that the respondents' continuing failure to effectively protect children from foreseeable risks such as grooming, sexual exploitation, cyberbullying, exposure to age-inappropriate and harmful content, behavioural profiling, features that encourage compulsive use and other harms linked to commercial social media platforms was arbitrary, unreasonable and in violation of Articles 14, 15(3), 21 and 21A of the Constitution.",
+          "It also asked the court to direct the Centre to frame, notify and implement a dedicated, comprehensive and enforceable regulatory framework to protect children from harms arising from their access to and use of social media platforms.",
+          "According to PTI, the plea said: \"Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate.\" It further sought directions to the Centre to \"frame and enforce appropriate age-based restrictions on the creation, maintenance and use of accounts by children on designated social-media platforms\".",
+          "The school referred to instances of underage children operating social media accounts, being contacted by strangers, facing cyberbullying and harassment, and suffering from sleep deprivation and reduced concentration after prolonged mobile phone use."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Supreme Court said it would hear the matter after reopening on October 26 following the Dussehra break.",
+            "text": "The petition sought an appropriate order declaring that the respondents' continuing failure to effectively protect children from foreseeable risks such as grooming, sexual exploitation, cyberbullying, exposure to age-inappropriate and harmful content, behavioural profiling, features that encourage compulsive use and other harms linked to commercial social media platforms was arbitrary, unreasonable and in violation of Articles 14, 15(3), 21 and 21A of the Constitution.",
             "source": "India Today",
-            "item_id": "facd9686a2b9342879907b05:article",
+            "item_id": "8d2c52c6be19e6a04fbf4166:article",
             "composed": false
           },
           {
-            "text": "The Kerala High Court had on Thursday dismissed applications filed by Vijayan, his daughter Veena T and her husband P. A Mohamed Riyas seeking permission to appeal against an October 9 order by a single judge directing the registration of an FIR against them.",
+            "text": "The Supreme Court on Friday sought responses from the Centre and the National Commission for Protection of Child Rights on a public interest litigation seeking a comprehensive and enforceable national framework to protect children from risks linked to social media platforms, news agency Press Trust of India reported.",
             "source": "India Today",
-            "item_id": "facd9686a2b9342879907b05:article",
+            "item_id": "8d2c52c6be19e6a04fbf4166:article",
             "composed": false
           },
           {
-            "text": "Former Kerala chief minister Pinarayi Vijayan on Friday moved the Supreme Court against a Kerala High Court order directing the registration of a first information report (FIR) in the alleged CMRL bribery case, news agency Press Trust of India reported.",
+            "text": "According to PTI, the plea said: \"Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate.\"",
             "source": "India Today",
-            "item_id": "facd9686a2b9342879907b05:article",
-            "composed": false
-          },
-          {
-            "text": "He also said a bench could be constituted during the holidays next week, subject to the availability of judges.",
-            "source": "India Today",
-            "item_id": "facd9686a2b9342879907b05:article",
+            "item_id": "8d2c52c6be19e6a04fbf4166:article",
             "composed": false
           }
         ],
         "source": "India Today",
         "corroborating": [],
-        "url": "https://www.indiatoday.in/india/story/cmrl-bribery-case-pinarayi-vijayan-supreme-court-fir-order-ptag-3018604-2026-10-16"
+        "url": "https://www.indiatoday.in/india/story/child-social-media-safety-supreme-court-age-restrictions-ptag-3018726-2026-10-16"
       },
-      "group_size": 3,
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "7349391165b6467819acfb10",
+      "story_id": "7349391165b6467819acfb10",
+      "headline": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "title": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
+      "summary": "\"Courts have never lagged behind in protecting rights. If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T07:17:50+00:00",
+      "published_at": "2026-10-16T07:17:50+00:00",
+      "effective_at": "2026-10-16T07:17:50+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.6h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "\"Courts have never lagged behind in protecting rights.",
+          "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
+            "source": "LiveLaw",
+            "item_id": "7349391165b6467819acfb10",
+            "composed": false
+          },
+          {
+            "text": "\"Courts have never lagged behind in protecting rights.",
+            "source": "LiveLaw",
+            "item_id": "7349391165b6467819acfb10",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "7408ce0b414182e87faec86c",
+      "story_id": "7408ce0b414182e87faec86c",
+      "headline": "CMRL-Exalogic case: Pinarayi Vijayan moves Supreme Court against Kerala HC order",
+      "title": "CMRL-Exalogic case: Pinarayi Vijayan moves Supreme Court against Kerala HC order",
+      "summary": "Former Kerala Chief Minister Pinarayi Vijayan petitioned the Supreme Court challenging a High Court order directing an FIR against him, his daughter, and son-in-law over alleged illegal payments involving CMRL and Exalogic Solutions.",
+      "url": "https://www.onmanorama.com/kerala/top-news/2026/10/16/cmrl-exalogic-case-pinarayi-vijayan-moves-supreme-court-against-kerala-hc-order.html",
+      "source": "Onmanorama",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T07:03:39+00:00",
+      "published_at": "2026-10-16T07:03:39+00:00",
+      "effective_at": "2026-10-16T07:03:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "onmanorama": {
+          "kind": "independent",
+          "source_ids": [
+            "onmanorama"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (onmanorama) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.8h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "kerala",
+      "national_significance": true,
+      "article_sentences": [
+        "Former Kerala Chief Minister Pinarayi Vijayan has approached the Supreme Court challenging the Kerala High Court's direction to register an FIR against him in the CMRL-Exalogic case, based on information provided by the Enforcement Directorate (ED) to the state police.",
+        "Senior advocate Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
+        "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
+        "When Luthra pressed for an urgent hearing, the CJI said he could consider listing it before a special bench during the vacation, subject to the availability of judges.",
+        "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
+        "He also challenged the procedure adopted by the High Court, contending that a single judge had issued the direction in a writ petition resembling a public interest litigation despite not having the roster for PIL matters.",
+        "He further argued that the direction was issued without hearing the accused and that a division bench had refused to entertain their appeal.",
+        "Senior advocate N Hariharan also mentioned petitions filed by co-accused Veena T, Vijayan's daughter, and Mohammed Riyas, his son-in-law.",
+        "A single bench of the Kerala High Court had directed the Vigilance and Anti-Corruption Bureau (VACB) to register an FIR under the Prevention of Corruption Act against Vijayan, Veena and Riyas.",
+        "The order came on a writ petition filed by K M Shajahan.",
+        "The High Court had rejected the state's decision to order a preliminary inquiry into the allegations.",
+        "It held that a preliminary inquiry was not warranted after the ED furnished information under Section 66(2) of the Prevention of Money Laundering Act (PMLA)."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Former Kerala Chief Minister Pinarayi Vijayan has approached the Supreme Court challenging the Kerala High Court's direction to register an FIR against him in the CMRL-Exalogic case, based on information provided by the Enforcement Directorate (ED) to the state police.",
+          "Senior advocate."
+        ],
+        "body": [
+          "Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
+          "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
+          "When Luthra pressed for an urgent hearing, the CJI said he could consider listing it before a special bench during the vacation, subject to the availability of judges.",
+          "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
+          "He also challenged the procedure adopted by the High Court, contending that a single judge had issued the direction in a writ petition resembling a public interest litigation despite not having the roster for PIL matters.",
+          "He further argued that the direction was issued without hearing the accused and that a division bench had refused to entertain their appeal.",
+          "Senior advocate N Hariharan also mentioned petitions filed by co-accused Veena T, Vijayan's daughter, and Mohammed Riyas, his son-in-law.",
+          "A single bench of the Kerala High Court had directed the Vigilance and Anti-Corruption Bureau (VACB) to register an FIR under the Prevention of Corruption Act against Vijayan, Veena and Riyas."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Chief Justice said the matter could be listed on October 26 or 27, after the court reopens following the Dussehra break.",
+            "source": "Onmanorama",
+            "item_id": "7408ce0b414182e87faec86c:article",
+            "composed": false
+          },
+          {
+            "text": "Luthra argued that Vijayan, 82, faced the threat of being taken into custody following the registration of the FIR.",
+            "source": "Onmanorama",
+            "item_id": "7408ce0b414182e87faec86c:article",
+            "composed": false
+          },
+          {
+            "text": "Siddharth Luthra mentioned the matter before Chief Justice of India Surya Kant on Friday, seeking an urgent hearing, citing the registration of an FIR and the possibility of coercive action against the CPM leader.",
+            "source": "Onmanorama",
+            "item_id": "7408ce0b414182e87faec86c:article",
+            "composed": false
+          }
+        ],
+        "source": "Onmanorama",
+        "corroborating": [],
+        "url": "https://www.onmanorama.com/kerala/top-news/2026/10/16/cmrl-exalogic-case-pinarayi-vijayan-moves-supreme-court-against-kerala-hc-order.html"
+      },
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -970,7 +1478,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1081,7 +1589,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1209,7 +1717,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'fuel price' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1334,7 +1842,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1359,32 +1867,7 @@
           "“No contempt today.",
           "We are only issuing notice.",
           "Let us see what the response is, and then we will take it forward,” the CJI said, according to Bar & Bench.",
-          "The plea also named Congress president Mallikarjun Kharge, Trinamool Congress MP Mahua Moitra and Samajwadi Party chief Akhilesh Yadav among the respondents.",
-          "New Delhi, Oct 15: The Supreme Court on Thursday issued notice to the Election Commission of India (ECI) and Chief Election Commissioner (CEC) Gyanesh Kumar on a petition filed by Leader of Opposition Rahul Gandhi and other INDIA bloc leaders challenging alleged large-scale voter deletions and irregularities in the ongoing Special Intensive Revision (SIR) of electoral rolls.",
-          "According to Bar & Bench, a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi sought responses from the poll panel and the CEC and tagged the pleas with petitions already pending before the court challenging the validity of SIR in various states.",
-          "“We are issuing notice and tagging it with the matters already pending.",
-          "Somebody will accept notice on behalf of the Election Commission of India.",
-          "Otherwise, serve them,” the bench said.",
-          "The court also indicated that it would seek an explanation from one of the petitioners regarding his conduct at the next hearing, without specifying the person concerned.",
-          "“Issue notice.",
-          "But one objection, before that.",
-          "We would like to ask one of the petitioners about his conduct on the next date of hearing.",
-          "Issuing notice does not mean that we are condemning anything.",
-          "We are issuing notice.",
-          "But about one of the petitioners, we will definitely entertain the issue.",
-          "The notice on behalf of one of the petitioners will be entertained on a provisional basis, subject to his explaining his conduct,” the bench observed.",
-          "The petition has been filed by Rahul Gandhi along with several opposition leaders, including Congress president Mallikarjun Kharge, Trinamool Congress leader Saugata Roy, Samajwadi Party chief Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Shiv Sena (UBT) leader Sanjay Raut, CPI(M) leader MA Baby and CPI leader D Raja.",
-          "Other petitioners include Mahua Majhi of the Jharkhand Mukti Morcha, Supriya Sule of the Nationalist Congress Party (Sharadchandra Pawar faction) and Mohammed Basheer of the Indian Union Muslim League.",
-          "The petition challenges alleged large-scale deletions of voters and irregularities in the SIR process and seeks judicial intervention in the exercise.",
-          "Rahul Gandhi and other INDIA bloc leaders had marched to the Supreme Court on October 12 before filing the plea.",
-          "The development comes amid protests in Delhi against the SIR exercise, with demonstrators also demanding the resignation of CEC Gyanesh Kumar.",
-          "The protests followed an Indian Express report alleging that Kumar had taken several decisions relating to the revision exercise unilaterally despite objections from two Election Commissioners.",
-          "The allegations have added to opposition concerns over the conduct of the electoral roll revision.",
-          "Several protesters were detained by Delhi.",
-          "Police over the weekend after prohibitory orders were imposed under Section 163 of the Bharatiya Nagarik Suraksha Sanhita (BNSS).",
-          "The detentions have also led to petitions before the Supreme Court, including allegations that lawyers and journalists were prevented from performing their professional duties.",
-          "The Supreme Court’s notice seeks responses from the poll panel on the issues raised.",
-          "By tagging the fresh petitions with matters already pending on SIR, the court has brought the latest challenge into the existing proceedings on the electoral roll revision exercise."
+          "The plea also named Congress president Mallikarjun Kharge, Trinamool Congress MP Mahua Moitra and Samajwadi Party chief Akhilesh Yadav among the respondents."
         ],
         "bullets": [
           {
@@ -1401,18 +1884,6 @@
             "composed": false
           },
           {
-            "text": "New Delhi, Oct 15: The Supreme Court on Thursday issued notice to the Election Commission of India (ECI) and Chief Election Commissioner (CEC) Gyanesh Kumar on a petition filed by Leader of Opposition Rahul Gandhi and other INDIA bloc leaders challenging alleged large-scale voter deletions and irregularities in the ongoing Special Intensive Revision (SIR) of electoral rolls.",
-            "source": "Greater Kashmir",
-            "item_id": "5818fc6538225b27aa20a09f",
-            "composed": false
-          },
-          {
-            "text": "The development comes amid protests in Delhi against the SIR exercise, with demonstrators also demanding the resignation of CEC Gyanesh Kumar.",
-            "source": "Greater Kashmir",
-            "item_id": "5818fc6538225b27aa20a09f",
-            "composed": false
-          },
-          {
             "text": "We know what statements they are making outside and what they are saying in Court.",
             "source": "Greater Kashmir",
             "item_id": "dded5b192305e3d7470db30a",
@@ -1423,36 +1894,39 @@
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/national/sc-issues-notice-to-congress-rahul-gandhi-over-march-to-court-posts-against-cji-12680535"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
-      "event_id": "7349391165b6467819acfb10",
-      "story_id": "7349391165b6467819acfb10",
-      "headline": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
-      "title": "Supreme Court Issues Contempt Notice To Nikhil Wagle & Sanjay Raut Over Remarks Against CJI",
-      "summary": "\"Courts have never lagged behind in protecting rights. If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995",
-      "source": "LiveLaw",
+      "event_id": "018613ea900c784bf79fe41b",
+      "story_id": "018613ea900c784bf79fe41b",
+      "headline": "Supreme Court asks why drug margin caps cannot cover all medicines",
+      "title": "Supreme Court asks why drug margin caps cannot cover all medicines",
+      "summary": "The court cited steep markups on medical products as the Centre outlined existing price-control rules and defended its approach to medicine pricing",
+      "url": "https://www.thehindubusinessline.com/news/supreme-court-asks-why-drug-margin-caps-cannot-cover-all-medicines/article71575465.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
       "tier": 3,
       "category": "courts-law",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "health",
+        "crime-public-safety"
+      ],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 75.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T07:17:50+00:00",
-      "published_at": "2026-10-16T07:17:50+00:00",
-      "effective_at": "2026-10-16T07:17:50+00:00",
+      "event_time": "2026-10-16T07:45:19+00:00",
+      "published_at": "2026-10-16T07:45:19+00:00",
+      "effective_at": "2026-10-16T07:45:19+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "live-law": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "live-law"
+            "businessline"
           ],
           "count": 1
         }
@@ -1464,12 +1938,12 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1477,41 +1951,70 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "The Supreme Court on Monday said the Centre’s response on capping the trade margin of anti-cancer drugs at 30 per cent of the maximum retail price (MRP) is “hardly anything to be happy about” and questioned why the government cannot cap trade margins of other medicines.",
+        "The Centre, which has earlier come under severe criticism from the top court for steep markup of cancer drugs by hospitals, said that the government has taken an important decision to cap the trade margin on anti-cancer drugs at 30 per cent of the MRP, which is expected to result in annual savings of approximately Rs 2,500 crore to patients.",
+        "A bench of Justices Vikram Nath and Sandeep Mehta said that the Centre’s response was insufficient and flagged that a single saline drip was sold in market for Rs 270 while its actual cost was Rs 11.",
+        "“There is hardly anything to be happy about.",
+        "There is actually nothing for the benefit of the patients,” the bench observed as Solicitor General Tushar Mehta and Additional Solicitor General Aishwarya Bhati, appearing for the Centre, tried to explain the regime in place.",
+        "Mehta said that the government has taken an important step to cap the trade margin on anti-cancer drugs at 30 per cent of the MRP, which would result in savings of approximately Rs 2,500 crore to patients.",
+        "Justice Nath told the solicitor general that the court fails to understand that if the government can cap the price of anti-cancer drugs, then why can it not bring all the medicines under this regime.",
+        "“We understand that there are transportation costs, raw material cost, R&D cost and all other ancillary costs, but all these are included in the MRP.",
+        "What is the logic behind allowing them to sell 400 times the actual cost?",
+        "How can you allow this?” the bench observed.",
+        "Bhati said that the cost of medicines in India was the lowest in the world and that is the reason a lot of people come to the country for treatment.",
+        "Justice Mehta said that the cost of an India-made cardiac stent is around Rs 5,000 but it is sold by hospitals for more than Rs 25,000 and similarly, the cost of common antibiotic Azithromycin is sold at over Rs 70 while its actual cost is around Rs 28."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "\"Courts have never lagged behind in protecting rights.",
-          "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said."
+          "The Supreme Court on Monday said the Centre’s response on capping the trade margin of anti-cancer drugs at 30 per cent of the maximum retail price (MRP) is “hardly anything to be happy about” and questioned why the government cannot cap trade margins of other medicines.",
+          "The Centre, which has earlier come under severe criticism from the top court for steep markup of cancer drugs by hospitals, said that the government has taken an important decision to cap the trade margin on anti-cancer drugs at 30 per cent of the MRP, which is expected to result in annual savings of approximately Rs 2,500 crore to patients."
         ],
-        "body": [],
+        "body": [
+          "A bench of Justices Vikram Nath and Sandeep Mehta said that the Centre’s response was insufficient and flagged that a single saline drip was sold in market for Rs 270 while its actual cost was Rs 11.",
+          "“There is hardly anything to be happy about.",
+          "There is actually nothing for the benefit of the patients,” the bench observed as Solicitor General Tushar Mehta and Additional Solicitor General Aishwarya Bhati, appearing for the Centre, tried to explain the regime in place.",
+          "Mehta said that the government has taken an important step to cap the trade margin on anti-cancer drugs at 30 per cent of the MRP, which would result in savings of approximately Rs 2,500 crore to patients.",
+          "Justice Nath told the solicitor general that the court fails to understand that if the government can cap the price of anti-cancer drugs, then why can it not bring all the medicines under this regime.",
+          "“We understand that there are transportation costs, raw material cost, R&D cost and all other ancillary costs, but all these are included in the MRP.",
+          "What is the logic behind allowing them to sell 400 times the actual cost?",
+          "How can you allow this?” the bench observed."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "If you still keep condemning, it's very unfortunate,\" CJI Surya Kant said.",
-            "source": "LiveLaw",
-            "item_id": "7349391165b6467819acfb10",
+            "text": "Mehta said that the government has taken an important step to cap the trade margin on anti-cancer drugs at 30 per cent of the MRP, which would result in savings of approximately Rs 2,500 crore to patients.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "018613ea900c784bf79fe41b:article",
             "composed": false
           },
           {
-            "text": "\"Courts have never lagged behind in protecting rights.",
-            "source": "LiveLaw",
-            "item_id": "7349391165b6467819acfb10",
+            "text": "The Supreme Court on Monday said the Centre’s response on capping the trade margin of anti-cancer drugs at 30 per cent of the maximum retail price (MRP) is “hardly anything to be happy about” and questioned why the government cannot cap trade margins of other medicines.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "018613ea900c784bf79fe41b:article",
+            "composed": false
+          },
+          {
+            "text": "What is the logic behind allowing them to sell 400 times the actual cost?",
+            "source": "The Hindu BusinessLine",
+            "item_id": "018613ea900c784bf79fe41b:article",
             "composed": false
           }
         ],
-        "source": "LiveLaw",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-scba-contempt-plea-nikhil-wagle-sanjay-raut-remarks-on-cji-surya-kant-appointment-declined-to-rahul-gandhi-554995"
+        "url": "https://www.thehindubusinessline.com/news/supreme-court-asks-why-drug-margin-caps-cannot-cover-all-medicines/article71575465.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "e95240b4f6d2197b07df5947",
       "story_id": "e95240b4f6d2197b07df5947",
-      "headline": "Sky high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
-      "title": "Sky high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
+      "headline": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
+      "title": "Sky-high airfares: Govt to publish new rules within 2 weeks, Centre tells Supreme Court",
       "summary": "Appearing for the Union of India, Solicitor General Tushar Mehta informed a three-judge bench that administrative approval for the rules has been granted. He assured the apex court that the new regulations would be officially published within two weeks.",
       "url": "https://www.businesstoday.in/india/story/sky-high-airfares-govt-to-publish-new-rules-within-2-weeks-centre-tells-supreme-court-562034-2026-10-16",
       "source": "Business Today",
@@ -1549,7 +2052,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1586,220 +2089,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "1a286abcb4cbb871d92bc111",
-      "story_id": "1a286abcb4cbb871d92bc111",
-      "headline": "Supreme Court urged to list contempt plea urgently over alleged release of GM rice",
-      "title": "Supreme Court urged to list contempt plea urgently over alleged release of GM rice",
-      "summary": "Lawyer Prashant Bhushan informed the SC bench that approval for cultivating herbicide-tolerant GM basmati rice has been granted, and the contempt plea should be heard soon.",
-      "url": "https://www.thehindubusinessline.com/news/national/supreme-court-urged-to-list-contempt-plea-urgently-over-alleged-release-of-gm-rice/article71574345.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T06:34:35+00:00",
-      "published_at": "2026-10-16T06:34:35+00:00",
-      "effective_at": "2026-10-16T06:34:35+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court was on Monday urged to urgently list contempt petitions alleging violation of its 2024 judgment on genetically modified (GM) crops, amid concerns over the alleged approval for the cultivation of herbicide-tolerant GM basmati rice.",
-        "A bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana was told by lawyer Prashant Bhushan that now, the approval for cultivation of herbicide-tolerant GM basmati rice has been given and hence the contempt plea be heard as early as possible.",
-        "The lawyer referred to the 2024 judgment delivered by a bench of Justices B V Nagarathna and Sanjay Karol, which had a split verdict on one issue that was referred to a larger bench.",
-        "He said the contempt petitions arose from the common judgment and were unrelated to the reference concerning GM mustard, which was listed before a special three-judge bench.",
-        "\"The contempt petitions are not related to the reference.",
-        "They arise out of the common judgment of the court.",
-        "They can be listed before the regular contempt bench,\" Bhushan submitted.",
-        "He said the contempt petition, filed in 2025, had not been taken up despite being mentioned earlier.",
-        "According to him, the special bench hearing the GM mustard reference had declined to hear the contempt petitions.",
-        "\"They have now given the go-ahead to plant genetically modified basmati rice, which is a herbicide-tolerant variety.",
-        "It will destroy our basmati.",
-        "It will contaminate and cause havoc,\" Bhushan said, urging the court to list the matter at the earliest."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court was on Monday urged to urgently list contempt petitions alleging violation of its 2024 judgment on genetically modified (GM) crops, amid concerns over the alleged approval for the cultivation of herbicide-tolerant GM basmati rice.",
-          "A bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana was told by lawyer Prashant Bhushan that now, the approval for cultivation of herbicide-tolerant GM basmati rice has been given and hence the contempt plea be heard as early as possible."
-        ],
-        "body": [
-          "The lawyer referred to the 2024 judgment delivered by a bench of Justices B V Nagarathna and Sanjay Karol, which had a split verdict on one issue that was referred to a larger bench.",
-          "He said the contempt petitions arose from the common judgment and were unrelated to the reference concerning GM mustard, which was listed before a special three-judge bench.",
-          "\"The contempt petitions are not related to the reference.",
-          "They arise out of the common judgment of the court.",
-          "They can be listed before the regular contempt bench,\" Bhushan submitted.",
-          "He said the contempt petition, filed in 2025, had not been taken up despite being mentioned earlier.",
-          "According to him, the special bench hearing the GM mustard reference had declined to hear the contempt petitions.",
-          "\"They have now given the go-ahead to plant genetically modified basmati rice, which is a herbicide-tolerant variety."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court was on Monday urged to urgently list contempt petitions alleging violation of its 2024 judgment on genetically modified (GM) crops, amid concerns over the alleged approval for the cultivation of herbicide-tolerant GM basmati rice.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "1a286abcb4cbb871d92bc111:article",
-            "composed": false
-          },
-          {
-            "text": "He said the contempt petition, filed in 2025, had not been taken up despite being mentioned earlier.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "1a286abcb4cbb871d92bc111:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/news/national/supreme-court-urged-to-list-contempt-plea-urgently-over-alleged-release-of-gm-rice/article71574345.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "80100e464012524f4a8ddf0f",
-      "story_id": "80100e464012524f4a8ddf0f",
-      "headline": "Supreme Court Agrees To Hear Application Alleging Rahul Gandhi Pushed Pregnant Journalist During October 12 March",
-      "title": "Supreme Court Agrees To Hear Application Alleging Rahul Gandhi Pushed Pregnant Journalist During October 12 March",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-application-alleging-rahul-gandhi-pushed-pregnant-journalist-during-october-12-march-554975",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T06:16:58+00:00",
-      "published_at": "2026-10-16T06:16:58+00:00",
-      "effective_at": "2026-10-16T06:16:58+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
-        "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi.",
-        "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
-        "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
-        "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
-        "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
-        "I have a report.",
-        "What am I urging?",
-        "Cognizance of this news be also taken.",
-        "Lady journalist because she is reporting against him...selective outrage, nothing else.",
-        "Why should cognizance not be taken of Rahul Gandhi pushing her?\" Bhatia submitted yesterday.",
-        "\"Not taking suo motu of an oral submission."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
-          "Senior Advocate Gaurav Bhatia mentioned the application before a bench comprising Chief Justice of India Surya Kant and Justice Joymalya Bagchi."
-        ],
-        "body": [
-          "He said that the application has been filed in the petition filed by advocate Digant Mishra, which seeks directions against political demonstrations within Court premises.",
-          "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
-          "However, the bench said that it cannot take note of an oral submission, and said that an application has to be filed.",
-          "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
-          "I have a report.",
-          "What am I urging?",
-          "Cognizance of this news be also taken.",
-          "Lady journalist because she is reporting against him...selective outrage, nothing else."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court on Friday (October 16) agreed to hear an application alleging that Leader of Opposition Rahul Gandhi pushed a woman journalist, who was three months pregnant, inside the Court premises on October 12 march when he and other opposition leaders marched to the Supreme Court to file a petition against the Election Commission of India.",
-            "source": "LiveLaw",
-            "item_id": "80100e464012524f4a8ddf0f:article",
-            "composed": false
-          },
-          {
-            "text": "Yesterday, during the hearing of the Delhi protest matters, Bhatia had referred to the alleged incident.",
-            "source": "LiveLaw",
-            "item_id": "80100e464012524f4a8ddf0f:article",
-            "composed": false
-          },
-          {
-            "text": "\"Lady journalist pushed by LoP Rahul Gandhi, she was 2 months pregnant.",
-            "source": "LiveLaw",
-            "item_id": "80100e464012524f4a8ddf0f:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-agrees-to-hear-application-alleging-rahul-gandhi-pushed-pregnant-journalist-during-october-12-march-554975"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "ef742e4174c86d51c7d9503c",
@@ -1843,7 +2132,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1963,7 +2252,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2072,7 +2361,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -2176,7 +2465,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -2295,7 +2584,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 31.6, score 38 -> HIGH"
