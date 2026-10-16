@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T09:32:39.373453+00:00",
-  "count": 14,
+  "generated_at": "2026-10-16T09:42:17.388704+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "6d7bcfec69b4e6d890af8bd5",
@@ -53,7 +53,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -108,6 +108,104 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "4b9e943f2c3e813a8c9410fc",
+      "story_id": "4b9e943f2c3e813a8c9410fc",
+      "headline": "72-Hour Final Deadline Set for Pending Odisha Flood Compensation",
+      "title": "72-Hour Final Deadline Set for Pending Odisha Flood Compensation",
+      "summary": "Bhubaneswar: District administrations across Odisha have been given a three-day deadline to clear all remaining compensation payments to flood-affected residents, following a high-level review at Rajiv Bhawan. Chaired by Revenue and Disaster Management Minister Suresh Pujari, the meeting evaluated final damage assessments across nearly 28 affected districts. Balasore, Bhadrak, and Jajpur sustained the heaviest impact. […] The post 72-Hour Final Deadline Set for Pending Odisha Flood Compensation appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/odisha/72-hour-final-deadline-set-for-pending-odisha-flood-compensation",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T09:40:03+00:00",
+      "published_at": "2026-10-16T09:40:03+00:00",
+      "effective_at": "2026-10-16T09:40:03+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'Disaster'",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "event term: 'final' in title weight 10",
+        "event term: 'flood' in summary weight 38.4",
+        "event term: 'final' in summary weight 6",
+        "scale: state scope (odisha)",
+        "recency: breaking (0.0h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Bhubaneswar: District administrations across Odisha have been given a three-day deadline to clear all remaining compensation payments to flood-affected residents, following a high-level review at Rajiv Bhawan.",
+          "Chaired by Revenue and Disaster Management Minister Suresh Pujari, the meeting evaluated final damage assessments across nearly 28 affected districts."
+        ],
+        "body": [
+          "Balasore, Bhadrak, and Jajpur sustained the heaviest impact.",
+          "[…] The post 72-Hour Final Deadline Set for Pending Odisha Flood Compensation appeared first on KalingaTV."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Odisha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Bhubaneswar: District administrations across Odisha have been given a three-day deadline to clear all remaining compensation payments to flood-affected residents, following a high-level review at Rajiv Bhawan.",
+            "source": "Kalinga TV",
+            "item_id": "4b9e943f2c3e813a8c9410fc",
+            "composed": false
+          },
+          {
+            "text": "Chaired by Revenue and Disaster Management Minister Suresh Pujari, the meeting evaluated final damage assessments across nearly 28 affected districts.",
+            "source": "Kalinga TV",
+            "item_id": "4b9e943f2c3e813a8c9410fc",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [],
+        "url": "https://kalingatv.com/odisha/72-hour-final-deadline-set-for-pending-odisha-flood-compensation"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8b92eadb0954aab84476a252",
       "story_id": "8b92eadb0954aab84476a252",
       "headline": "Assam: KVK Jorhat Distributes Vegetable Seeds to Support Flood-Affected Farmers",
@@ -152,7 +250,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -245,7 +343,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -348,7 +446,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -466,7 +564,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -589,7 +687,7 @@
         "event term: 'merger' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -704,7 +802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
@@ -809,7 +907,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -893,7 +991,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -976,7 +1074,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1087,7 +1185,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'fuel price' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1208,7 +1306,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1288,7 +1386,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1396,7 +1494,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
