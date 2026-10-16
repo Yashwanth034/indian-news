@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:02:49.460542+00:00",
-  "count": 17,
+  "generated_at": "2026-10-16T11:12:26.731010+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "979b09c354744847da18a785",
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -146,7 +146,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -196,7 +196,7 @@
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/world/earthquake-of-69-magnitude-hits-near-ozernovskiy-in-russia-12681160"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -245,7 +245,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -338,7 +338,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -426,7 +426,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (15.2h ago) +4",
+        "recency: fresh (15.3h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -573,7 +573,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -646,6 +646,206 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "d7a70b46d244ebb1cc665d85",
+      "story_id": "d7a70b46d244ebb1cc665d85",
+      "headline": "Telangana farmers seek drought relief on lines of Maharashtra",
+      "title": "Telangana farmers seek drought relief on lines of Maharashtra",
+      "summary": "Farmers in Adilabad’s border villages have urged the Telangana government to announce festival relief similar to Maharashtra’s Rs 5,000 assistance for farmers in drought-hit areas. The demand comes amid deficient rainfall, crop losses, mounting debts and growing agrarian distress.",
+      "url": "https://telanganatoday.com/telangana-farmers-seek-drought-relief-on-lines-of-maharashtra",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "agriculture-rural",
+      "secondary_categories": [
+        "weather-disasters",
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 88.4,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:11:22+00:00",
+      "published_at": "2026-10-16T11:11:22+00:00",
+      "effective_at": "2026-10-16T11:11:22+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "telangana-today": {
+          "kind": "independent",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: agriculture-rural (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'drought' in title weight 36",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.0h ago) +8",
+        "category: agriculture-rural (importance 1) +1.2",
+        "geo: national",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Farmers in Adilabad’s border villages have urged the Telangana government to announce festival relief similar to Maharashtra’s Rs 5,000 assistance for farmers in drought-hit areas.",
+          "The demand comes amid deficient rainfall, crop losses, mounting debts and growing agrarian distress."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Adilabad’s"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Farmers in Adilabad’s border villages have urged the Telangana government to announce festival relief similar to Maharashtra’s Rs 5,000 assistance for farmers in drought-hit areas.",
+            "source": "Telangana Today",
+            "item_id": "d7a70b46d244ebb1cc665d85",
+            "composed": false
+          },
+          {
+            "text": "The demand comes amid deficient rainfall, crop losses, mounting debts and growing agrarian distress.",
+            "source": "Telangana Today",
+            "item_id": "d7a70b46d244ebb1cc665d85",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [],
+        "url": "https://telanganatoday.com/telangana-farmers-seek-drought-relief-on-lines-of-maharashtra"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "184c4cce1b45689711a2a8f0",
+      "story_id": "184c4cce1b45689711a2a8f0",
+      "headline": "Supreme Court may compensate Connaught Place traders over Central Park closure",
+      "title": "Supreme Court may compensate Connaught Place traders over Central Park closure",
+      "summary": "Supreme Court may compensate Connaught Place traders over Central Park closure",
+      "url": "https://www.indiatoday.in/india/story/supreme-court-connaught-place-traders-compensation-central-park-closure-ptag-3018899-2026-10-16",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-16T11:08:33+00:00",
+      "published_at": "2026-10-16T11:08:33+00:00",
+      "effective_at": "2026-10-16T11:08:33+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court declined an urgent challenge to NDMC's Central Park closure order.",
+        "It signalled compensation if the restriction unlawfully causes traders business losses.",
+        "The Supreme Court on Friday assured traders that it would consider compensation for their losses if the New Delhi Municipal Council's order closing Central Park at Connaught Place for a proposed protest by the Cockroach Janta Party was found to be disproportionate, news agency Press Trust of India reported.",
+        "A bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi gave the assurance while declining an urgent hearing on a petition challenging the order.",
+        "The court indicated that the matter could be listed on October 26 or 27.",
+        "Declining to hear the plea immediately, the bench said, \"We hope better sense will prevail on everyone.",
+        "Small shopkeepers earn their livelihood during these days.",
+        "We know the hardship and difficulty entire families will face.\"",
+        "\"If there is a loss of business, and we hold that it is unlawful to your clients, we will exercise our powers under constitutional tort jurisdiction.",
+        "Let's cross that bridge when it comes,\" Justice Bagchi said, according to PTI.",
+        "Advocate Jai Anant Dehadrai, appearing for the Delhi Kirana Committee and the Delhi Iron and Hardware Merchant Association, sought a hearing during the day.",
+        "He said the proposed protest and the restrictions that followed would obstruct trade worth Rs 200 crore a day."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court declined an urgent challenge to NDMC's Central Park closure order.",
+          "It signalled compensation if the restriction unlawfully causes traders business losses."
+        ],
+        "body": [
+          "The Supreme Court on Friday assured traders that it would consider compensation for their losses if the New Delhi Municipal Council's order closing Central Park at Connaught Place for a proposed protest by the Cockroach Janta Party was found to be disproportionate, news agency Press Trust of India reported.",
+          "A bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi gave the assurance while declining an urgent hearing on a petition challenging the order.",
+          "The court indicated that the matter could be listed on October 26 or 27.",
+          "Declining to hear the plea immediately, the bench said, \"We hope better sense will prevail on everyone.",
+          "Small shopkeepers earn their livelihood during these days.",
+          "We know the hardship and difficulty entire families will face.\" \"If there is a loss of business, and we hold that it is unlawful to your clients, we will exercise our powers under constitutional tort jurisdiction.",
+          "Let's cross that bridge when it comes,\" Justice Bagchi said, according to PTI.",
+          "Advocate Jai Anant Dehadrai, appearing for the Delhi Kirana Committee and the Delhi Iron and Hardware Merchant Association, sought a hearing during the day."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Connaught Place"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday assured traders that it would consider compensation for their losses if the New Delhi Municipal Council's order closing Central Park at Connaught Place for a proposed protest by the Cockroach Janta Party was found to be disproportionate, news agency Press Trust of India reported.",
+            "source": "India Today",
+            "item_id": "184c4cce1b45689711a2a8f0:article",
+            "composed": false
+          },
+          {
+            "text": "The court indicated that the matter could be listed on October 26 or 27.",
+            "source": "India Today",
+            "item_id": "184c4cce1b45689711a2a8f0:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/supreme-court-connaught-place-traders-compensation-central-park-closure-ptag-3018899-2026-10-16"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "ec64e52617155beba6db8447",
       "story_id": "ec64e52617155beba6db8447",
       "headline": "Centre to publish aviation rules within two weeks, tells Supreme Court",
@@ -689,7 +889,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -728,108 +928,6 @@
       "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "0a242164287cb1d716b3a776",
-      "story_id": "0a242164287cb1d716b3a776",
-      "headline": "Justice P. Sam Koshy appointed as Acting Chief Justice of Telangana High Court",
-      "title": "Justice P. Sam Koshy appointed as Acting Chief Justice of Telangana High Court",
-      "summary": "",
-      "url": "https://www.thehindu.com/news/national/telangana/justice-p-sam-koshy-appointed-as-acting-chief-justice-of-telangana-high-court/article71548527.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-16T10:26:51+00:00",
-      "published_at": "2026-10-16T10:26:51+00:00",
-      "effective_at": "2026-10-16T10:26:51+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'appointed as' in title weight 40",
-        "event term: 'appointed' in title weight 36",
-        "event term: 'chief justice' in title weight 42",
-        "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 42, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "telangana",
-      "national_significance": true,
-      "article_sentences": [
-        "Justice Puthichira Sam Koshy of the Telangana High Court has been appointed as Acting Chief Justice of the HC with Chief Justice Aparesh Kumar Singh relinquishing the office following his elevation as judge of the Supreme Court.",
-        "In a notification issued on Monday, the Union government said the President of India appointed Justice Sam Koshy as the Acting CJ.",
-        "On September 28, the Supreme Collegium recommended elevation of Telangana HC CJ Aparesh Kumar Singh as judge of the Supreme Court.",
-        "On Monday, the Ministry of Law and Justice notified the appointment of Justice Aparesh Kumar as judge of the SC.",
-        "Justice Aparesh Kumar Singh did not hold the bench on Monday at Telangana HC.",
-        "The traditional Full Court farewell meeting was not convened at the HC for him.",
-        "As the Centre notified his appointment as SC judge, the CJ left for Delhi on Monday."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Justice Puthichira Sam Koshy of the Telangana High Court has been appointed as Acting Chief Justice of the HC with Chief Justice Aparesh Kumar Singh relinquishing the office following his elevation as judge of the Supreme Court.",
-          "In a notification issued on Monday, the Union government said the President of India appointed Justice Sam Koshy as the Acting CJ."
-        ],
-        "body": [
-          "On September 28, the Supreme Collegium recommended elevation of Telangana HC CJ Aparesh Kumar Singh as judge of the Supreme Court.",
-          "On Monday, the Ministry of Law and Justice notified the appointment of Justice Aparesh Kumar as judge of the SC.",
-          "Justice Aparesh Kumar Singh did not hold the bench on Monday at Telangana HC.",
-          "The traditional Full Court farewell meeting was not convened at the HC for him.",
-          "As the Centre notified his appointment as SC judge, the CJ left for Delhi on Monday."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Telangana HC"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Justice Aparesh Kumar Singh did not hold the bench on Monday at Telangana HC.",
-            "source": "The Hindu",
-            "item_id": "0a242164287cb1d716b3a776:article",
-            "composed": false
-          },
-          {
-            "text": "On September 28, the Supreme Collegium recommended elevation of Telangana HC CJ Aparesh Kumar Singh as judge of the Supreme Court.",
-            "source": "The Hindu",
-            "item_id": "0a242164287cb1d716b3a776:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/telangana/justice-p-sam-koshy-appointed-as-acting-chief-justice-of-telangana-high-court/article71548527.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "46ef810994f81945c19377b8",
@@ -878,7 +976,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -987,7 +1085,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
@@ -1092,7 +1190,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1176,7 +1274,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1259,7 +1357,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1370,7 +1468,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'fuel price' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1491,7 +1589,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1612,7 +1710,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1680,31 +1778,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f249db57973503fcd4bc3cbe",
-      "story_id": "f249db57973503fcd4bc3cbe",
-      "headline": "Supreme Court asks High Court to consider plea against Centre’s decision to take over Delhi Gymkhana Club",
-      "title": "Supreme Court asks High Court to consider plea against Centre’s decision to take over Delhi Gymkhana Club",
-      "summary": "The Court permitted 11 club members to move the Delhi High Court, after the High Court had earlier refused their plea on the ground that only the club could challenge the Centre’s decision",
-      "url": "https://www.thehindu.com/news/cities/Delhi/supreme-court-asks-high-court-to-consider-plea-against-centres-decision-to-take-over-delhi-gymkhana-club/article71546164.ece",
-      "source": "The Hindu - Delhi",
+      "event_id": "21916ad74b26ca24da1f1680",
+      "story_id": "21916ad74b26ca24da1f1680",
+      "headline": "India received 15% below normal monsoon rainfall this year: IMD",
+      "title": "India received 15% below normal monsoon rainfall this year: IMD",
+      "summary": "Goa receives 196.68 cm rainfall, which is the highest in the country, while Punjab reports 28 cm, the lowest",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
       "confidence": "medium",
       "score": 100.0,
-      "priority_score": 44.0,
+      "priority_score": 40.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-16T05:12:06+00:00",
-      "published_at": "2026-10-16T05:12:06+00:00",
-      "effective_at": "2026-10-16T05:12:06+00:00",
+      "event_time": "2026-10-16T11:00:33+00:00",
+      "published_at": "2026-10-16T11:00:33+00:00",
+      "effective_at": "2026-10-16T11:00:33+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu-delhi"
+            "businessline"
           ],
           "count": 1
         }
@@ -1713,79 +1813,86 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu-delhi) +2",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
+        "dominant event 0, stack 40, score 40 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "delhi",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The Supreme Court on Monday (October 5, 2026) asked the Delhi High Court to consider a plea by 11 members of the Delhi Gymkhana Club, who had challenged the Centre's decision to take over the club's 27.3-acre premises and the subsequent eviction proceedings.",
-        "A Bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana was told by senior advocate Vikas Singh, appearing for the members, that the Delhi High Court had refused to entertain their plea on the ground that only the club could challenge the Centre's decision.",
-        "Mr. Singh said the High Court had asked the members to get a clarification from the Supreme Court that they could also move the plea there.",
-        "The Court permitted them to move the High Court, subject to objections that may be raised by the other side regarding maintainability and other legal oppositions.",
-        "Mr. Singh, appearing for the 11 members, had earlier told the Bench that a Central government-nominated committee was presently managing the club, and that it could not fight a legal battle with the government.",
-        "On September 3, 2026, the Centre, in a separate case, told the Delhi High Court that it would not take any coercive action until September 16, 2026, against the club in relation to its eviction from the premises on Safdarjung Road.",
-        "The High Court was hearing pleas by club member Vijay Khurana and others, seeking a stay on the June 29, 2026, show-cause notice for eviction issued to the club's management by an estate officer of the Land and Development Office (L&DO).",
-        "Vipin Aggarwal and ten other club members, in their petition filed through lawyer Nitin Saluja, sought the quashing of the resumption notification issued by the L&DO on May 22, 2026, and the show-cause notice issued by the estate officer on June 29, 2026."
+        "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+        "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
+        "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
+        "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
+        "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
+        "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+        "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
+        "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
+        "The north-west India too received 6 per cent below normal rains like Central India.",
+        "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
+        "The east and north-east region was 27 per cent deficient as Arunachal Pradesh (-45 per cent), Assam (-29 per cent), Bihar (-32 per cent) and Meghalaya (-61 per cent) had less rainfall.",
+        "But, West Bengal has reported 2 per cent deficit and Jharkhand 6 per cent deficit rainfall between June 4 and October 15."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court on Monday (October 5, 2026) asked the Delhi High Court to consider a plea by 11 members of the Delhi Gymkhana Club, who had challenged the Centre's decision to take over the club's 27.3-acre premises and the subsequent eviction proceedings.",
-          "A Bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana was told by senior advocate Vikas Singh, appearing for the members, that the Delhi High Court had refused to entertain their plea on the ground that only the club could challenge the Centre's decision."
+          "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+          "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15."
         ],
         "body": [
-          "Mr. Singh said the High Court had asked the members to get a clarification from the Supreme Court that they could also move the plea there.",
-          "The Court permitted them to move the High Court, subject to objections that may be raised by the other side regarding maintainability and other legal oppositions.",
-          "Mr. Singh, appearing for the 11 members, had earlier told the Bench that a Central government-nominated committee was presently managing the club, and that it could not fight a legal battle with the government.",
-          "On September 3, 2026, the Centre, in a separate case, told the Delhi High Court that it would not take any coercive action until September 16, 2026, against the club in relation to its eviction from the premises on Safdarjung Road.",
-          "The High Court was hearing pleas by club member Vijay Khurana and others, seeking a stay on the June 29, 2026, show-cause notice for eviction issued to the club's management by an estate officer of the Land and Development Office (L&DO).",
-          "Vipin Aggarwal and ten other club members, in their petition filed through lawyer Nitin Saluja, sought the quashing of the resumption notification issued by the L&DO on May 22, 2026, and the show-cause notice issued by the estate officer on June 29, 2026.",
-          "The Court permitted 11 club members to move the Delhi High Court, after the High Court had earlier refused their plea on the ground that only the club could challenge the Centre’s decision."
+          "During this period, except Andaman and Nicobar islands which reported 1 per cent surplus rainfall, all the meteorological sub-divisions in the south peninsula region were deficient with a shortfall between 23 per cent and 46 per cent.",
+          "As the north-east monsoon has now set in, these sub-divisions look forward to getting some rains to help the crops in winter season, particularly in non-irrigated areas.",
+          "In Central India where monsoon rainfall was 6 per cent below normal, except Maharashtra and Goa, which were deficient, all other states had either normal or excess rainfall.",
+          "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+          "On the other hand, Odisha received 23 per cent surplus rains, whereas Chhattisgarh 2 per cent shortfall.",
+          "Madhya Pradesh had 7 per cent deficit and Gujarat 12 per cent below normal.",
+          "The north-west India too received 6 per cent below normal rains like Central India.",
+          "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Supreme Court on Monday (October 5, 2026) asked the Delhi High Court to consider a plea by 11 members of the Delhi Gymkhana Club, who had challenged the Centre's decision to take over the club's 27.3-acre premises and the subsequent eviction proceedings.",
-            "source": "The Hindu - Delhi",
-            "item_id": "f249db57973503fcd4bc3cbe:article",
+            "text": "India received 76.86 cm rainfall between June 4 and October 15 when the south-west monsoon was active over the country, which is 15 per cent below its long period average of 90.63 cm, according to India Meteorological Department (IMD) data.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
             "composed": false
           },
           {
-            "text": "On September 3, 2026, the Centre, in a separate case, told the Delhi High Court that it would not take any coercive action until September 16, 2026, against the club in relation to its eviction from the premises on Safdarjung Road.",
-            "source": "The Hindu - Delhi",
-            "item_id": "f249db57973503fcd4bc3cbe:article",
+            "text": "The south-west monsoon, after its onset over Keralam on June 4, withdrew from the entire country on October 15.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
             "composed": false
           },
           {
-            "text": "The High Court was hearing pleas by club member Vijay Khurana and others, seeking a stay on the June 29, 2026, show-cause notice for eviction issued to the club's management by an estate officer of the Land and Development Office (L&DO).",
-            "source": "The Hindu - Delhi",
-            "item_id": "f249db57973503fcd4bc3cbe:article",
+            "text": "Among the major agricultural states in this region, Punjab (-37 per cent), Haryana (-21 per cent) and Rajasthan (-24 per cent) reported deficient rainfall while Uttar Pradesh (+6 per cent) had normal precipitation.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
             "composed": false
           },
           {
-            "text": "Vipin Aggarwal and ten other club members, in their petition filed through lawyer Nitin Saluja, sought the quashing of the resumption notification issued by the L&DO on May 22, 2026, and the show-cause notice issued by the estate officer on June 29, 2026.",
-            "source": "The Hindu - Delhi",
-            "item_id": "f249db57973503fcd4bc3cbe:article",
+            "text": "Maharashtra has reported 23 per cent deficit and Goa 36 per cent.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "21916ad74b26ca24da1f1680:article",
             "composed": false
           }
         ],
-        "source": "The Hindu - Delhi",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/Delhi/supreme-court-asks-high-court-to-consider-plea-against-centres-decision-to-take-over-delhi-gymkhana-club/article71546164.ece"
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/india-received-15-below-normal-monsoon-rainfall-this-year-imd/article71591942.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     }
   ]
