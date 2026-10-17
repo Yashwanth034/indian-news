@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T19:12:36.259038+00:00",
-  "count": 9,
+  "generated_at": "2026-10-17T19:22:28.491148+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "1fcb260de4aa16582f87ce7f",
@@ -49,7 +49,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -145,7 +145,7 @@
       "tier": 2,
       "category": "national-politics",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "low",
       "score": 100.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
@@ -161,9 +161,16 @@
             "hans-india"
           ],
           "count": 1
+        },
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
         }
       },
-      "is_wire_echo": false,
+      "is_wire_echo": true,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
@@ -173,14 +180,15 @@
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (ians) -> no independent boost",
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (punjab)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 40.4, score 58 -> HIGH"
+        "dominant event 58, stack 38.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "punjab",
@@ -300,7 +308,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -414,7 +422,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -436,7 +444,7 @@
         "However, it appears that such assurances have remained largely on paper and that no substantial change has taken place on the ground,” the court noted.",
         "In a scathing order, the bench said even the budgetary provisions for the targeted areas relating to the safety of the common man and the prevention of untoward incidents had not been fully utilised."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court has issued a mandatory directive that tickets sold across counters at every railway station nationwide must include travel insurance coverage identical to online bookings.",
@@ -478,7 +486,7 @@
         "url": "https://www.thehindu.com/news/national/supreme-court-mandates-insurance-on-offline-railway-tickets-from-october-27/article71584895.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -525,7 +533,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -629,7 +637,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -746,7 +754,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 32.4, score 44 -> HIGH"
@@ -856,7 +864,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -936,6 +944,137 @@
       "enrichment": "article"
     },
     {
+      "event_id": "deadc303fe5b260f45cccf71",
+      "story_id": "deadc303fe5b260f45cccf71",
+      "headline": "IMD to expand radar network, strengthen existing ones",
+      "title": "IMD to expand radar network, strengthen existing ones",
+      "summary": "Chennai radar was indigenously renovated in 2022, and its functioning is being closely monitored as it would help in cyclone detection",
+      "url": "https://www.thehindu.com/news/cities/chennai/imd-to-expand-radar-network-strengthen-existing-ones/article71584370.ece",
+      "source": "The Hindu - Chennai",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T19:12:39+00:00",
+      "published_at": "2026-10-17T19:12:39+00:00",
+      "effective_at": "2026-10-17T19:12:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-chennai"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-chennai) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (tamil nadu)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 43.2, stack 24, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "local",
+      "state": "tamil nadu",
+      "national_significance": true,
+      "article_sentences": [
+        "The India Meteorological Department (IMD) is looking to strengthen its existing radar network alongside installing new radars to improve weather observations and track monsoons.",
+        "With the onset of Northeast monsoon on Thursday, the IMD’s Regional Meteorological Centre is maintaining the nearly 24-year-old Chennai’s-band doppler weather radar in working condition.",
+        "It is likely to be replaced with a new S-band radar by 2027.",
+        "Installed as India’s first doppler weather radar in 2002, Chennai’s radar on Rajaji Salai continues to monitor weather up to 400 km.",
+        "Officials of the RMC said orders have been placed to replace various radars, including Chennai, Karaikal, Kolkata and Machilipatnam about six months ago.",
+        "The supplier is awaiting a component from abroad before assembling the new equipment.",
+        "In 2022, Chennai radar was indigenously renovated and its functioning is being closely monitored as it would help in cyclone detection.",
+        "Four new S-Band and X-band radars would be installed at Kanniyakumari, Tiruchi, Yercaud and Ramanathapuram under the Mission Mausam.",
+        "Radars are being installed across the country in coordination with the respective State governments.",
+        "X band radars, which have a weather surveillance range of up to 180 km, would provide accurate observations of extreme weather events, said Sivananda Damodara Pai, Head, RMC.",
+        "Mrutyunjay Mohapatra, IMD Director General, said besides the existing weather radars in places like Sriharikota, Pallikaranai, Karaikal and Chennai Rajaji Salai, new radars would cover more areas for weather observations.",
+        "Radars being maintained in the neighbouring States also help in Tamil Nadu’s weather surveillance."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The India Meteorological Department (IMD) is looking to strengthen its existing radar network alongside installing new radars to improve weather observations and track monsoons.",
+          "With the onset of Northeast monsoon on Thursday, the IMD’s Regional Meteorological Centre is maintaining the nearly 24-year-old Chennai’s-band doppler weather radar in working condition."
+        ],
+        "body": [
+          "It is likely to be replaced with a new S-band radar by 2027.",
+          "Officials of the RMC said orders have been placed to replace various radars, including Chennai, Karaikal, Kolkata and Machilipatnam about six months ago.",
+          "The supplier is awaiting a component from abroad before assembling the new equipment.",
+          "In 2022, Chennai radar was indigenously renovated and its functioning is being closely monitored as it would help in cyclone detection.",
+          "Four new S-Band and X-band radars would be installed at Kanniyakumari, Tiruchi, Yercaud and Ramanathapuram under the Mission Mausam.",
+          "Radars are being installed across the country in coordination with the respective State governments.",
+          "X band radars, which have a weather surveillance range of up to 180 km, would provide accurate observations of extreme weather events, said Sivananda Damodara Pai, Head, RMC."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kanniyakumari"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Installed as India’s first doppler weather radar in 2002, Chennai’s radar on Rajaji Salai continues to monitor weather up to 400 km."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "With the onset of Northeast monsoon on Thursday, the IMD’s Regional Meteorological Centre is maintaining the nearly 24-year-old Chennai’s-band doppler weather radar in working condition.",
+            "source": "The Hindu - Chennai",
+            "item_id": "deadc303fe5b260f45cccf71:article",
+            "composed": false
+          },
+          {
+            "text": "Installed as India’s first doppler weather radar in 2002, Chennai’s radar on Rajaji Salai continues to monitor weather up to 400 km.",
+            "source": "The Hindu - Chennai",
+            "item_id": "deadc303fe5b260f45cccf71:article",
+            "composed": false
+          },
+          {
+            "text": "Four new S-Band and X-band radars would be installed at Kanniyakumari, Tiruchi, Yercaud and Ramanathapuram under the Mission Mausam.",
+            "source": "The Hindu - Chennai",
+            "item_id": "deadc303fe5b260f45cccf71:article",
+            "composed": false
+          },
+          {
+            "text": "X band radars, which have a weather surveillance range of up to 180 km, would provide accurate observations of extreme weather events, said Sivananda Damodara Pai, Head, RMC.",
+            "source": "The Hindu - Chennai",
+            "item_id": "deadc303fe5b260f45cccf71:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Chennai",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/chennai/imd-to-expand-radar-network-strengthen-existing-ones/article71584370.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "868ec06a33ee3d614d834b00",
       "story_id": "868ec06a33ee3d614d834b00",
       "headline": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
@@ -978,7 +1117,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 40.4, score 40.4 -> HIGH"
