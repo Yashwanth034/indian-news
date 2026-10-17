@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T11:41:58.591839+00:00",
-  "count": 14,
+  "generated_at": "2026-10-17T11:51:48.844172+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "780654a78334e11278cae6b4",
@@ -49,7 +49,7 @@
         "event term: 'pandemic' in title weight 82",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -143,7 +143,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -255,9 +255,9 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "geo: national",
-        "dominant event 49.2, stack 28, score 49.2 -> HIGH",
+        "dominant event 49.2, stack 24, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
       ],
       "geo_scope": "national",
@@ -338,7 +338,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -465,7 +465,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -589,7 +589,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -676,7 +676,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -800,7 +800,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -872,6 +872,406 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "fe56d59d3e1749a0b3dc79db",
+      "story_id": "fe56d59d3e1749a0b3dc79db",
+      "headline": "Rahul urges citizens to join INDIA bloc march to Supreme Court ‘as Indians’, irrespective of party affiliations",
+      "title": "Rahul urges citizens to join INDIA bloc march to Supreme Court ‘as Indians’, irrespective of party affiliations",
+      "summary": "Congress chief accuses PM and HM of “imposing an undeclared emergency”; party leader K.C. Venugopal is coordinating with INDIA bloc parties regarding Monday’s march though the plan is not public yet",
+      "url": "https://www.thehindu.com/news/national/india-bloc-to-hold-protest-march-in-delhi-on-october-12-submit-memorandum-to-cji/article71570717.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 77.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T11:44:52+00:00",
+      "published_at": "2026-10-17T11:44:52+00:00",
+      "effective_at": "2026-10-17T11:44:52+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "A day ahead of the Opposition’s planned march to the Supreme Court on Monday, Congress leader Rahul Gandhi appealed to all citizens to join in “as citizens”, irrespective of their affiliations.",
+        "The Opposition alliance plans to submit a memorandum to Chief Justice of India (CJI) Surya Kant on the issue of alleged vote chori (theft).",
+        "Mr. Gandhi, in a video statement, said they would ask the CJI to halt the special intensive revision (SIR) of electoral rolls, sack Chief Election Commissioner Gyanesh Kumar, and remove electronic voting machines (EVMs) from the electoral process.",
+        "“Every single person who believes in democracy, who wants to stand for democracy, please come with us.",
+        "[It] doesn’t matter what your affiliation is, as long as you are affiliated to the Constitution of India and you want to protect it,” he said.",
+        "In a post on X, Mr. Gandhi said the march to the Supreme Court would be by Indians united beyond parties, gender, caste, community and State.",
+        "Referring to Saturday’s protests, called by several youth organisations, including the Cockroach Janata Party (CJP), the Opposition leader said the nation’s youth had come out in Delhi to protest peacefully but were “beaten”, both by “BJP goons and the police”.",
+        "“This is not the India we want,” Mr. Gandhi said, adding, “Come with us and there is nothing to fear.",
+        "These cowards can do nothing to us.”",
+        "Earlier, party president Mallikarjun Kharge told reporters in Bengaluru that Prime Minister Narendra Modi and the Home Minister had imposed an “undeclared emergency”.",
+        "Opposition leaders had requested an appointment with the CJI between 4 p.m. and 5 p.m on Monday, he said..",
+        "“With folded hands, we will apprise [the CJI] of the situation."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A day ahead of the Opposition’s planned march to the Supreme Court on Monday, Congress leader Rahul Gandhi appealed to all citizens to join in “as citizens”, irrespective of their affiliations.",
+          "The Opposition alliance plans to submit a memorandum to Chief Justice of India (CJI) Surya Kant on the issue of alleged vote chori (theft)."
+        ],
+        "body": [
+          "Mr. Gandhi, in a video statement, said they would ask the CJI to halt the special intensive revision (SIR) of electoral rolls, sack Chief Election Commissioner Gyanesh Kumar, and remove electronic voting machines (EVMs) from the electoral process.",
+          "“Every single person who believes in democracy, who wants to stand for democracy, please come with us.",
+          "[It] doesn’t matter what your affiliation is, as long as you are affiliated to the Constitution of India and you want to protect it,” he said.",
+          "In a post on X, Mr. Gandhi said the march to the Supreme Court would be by Indians united beyond parties, gender, caste, community and State.",
+          "Referring to Saturday’s protests, called by several youth organisations, including the Cockroach Janata Party (CJP), the Opposition leader said the nation’s youth had come out in Delhi to protest peacefully but were “beaten”, both by “BJP goons and the police”.",
+          "“This is not the India we want,” Mr. Gandhi said, adding, “Come with us and there is nothing to fear.",
+          "These cowards can do nothing to us.” Earlier, party president Mallikarjun Kharge told reporters in Bengaluru that Prime Minister Narendra Modi and the Home Minister had imposed an “undeclared emergency”.",
+          "Opposition leaders had requested an appointment with the CJI between 4 p.m. and 5 p.m on Monday, he said.."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Opposition leaders had requested an appointment with the CJI between 4 p.m. and 5 p.m on Monday, he said..",
+            "source": "The Hindu",
+            "item_id": "fe56d59d3e1749a0b3dc79db:article",
+            "composed": false
+          },
+          {
+            "text": "Referring to Saturday’s protests, called by several youth organisations, including the Cockroach Janata Party (CJP), the Opposition leader said the nation’s youth had come out in Delhi to protest peacefully but were “beaten”, both by “BJP goons and the police”.",
+            "source": "The Hindu",
+            "item_id": "fe56d59d3e1749a0b3dc79db:article",
+            "composed": false
+          },
+          {
+            "text": "A day ahead of the Opposition’s planned march to the Supreme Court on Monday, Congress leader Rahul Gandhi appealed to all citizens to join in “as citizens”, irrespective of their affiliations.",
+            "source": "The Hindu",
+            "item_id": "fe56d59d3e1749a0b3dc79db:article",
+            "composed": false
+          },
+          {
+            "text": "Earlier, party president Mallikarjun Kharge told reporters in Bengaluru that Prime Minister Narendra Modi and the Home Minister had imposed an “undeclared emergency”.",
+            "source": "The Hindu",
+            "item_id": "fe56d59d3e1749a0b3dc79db:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/india-bloc-to-hold-protest-march-in-delhi-on-october-12-submit-memorandum-to-cji/article71570717.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "30dcb3d290bf44e446bf1f10",
+      "story_id": "30dcb3d290bf44e446bf1f10",
+      "headline": "Supreme Court bars illegal detention as lawyers cite Emergency",
+      "title": "Supreme Court bars illegal detention as lawyers cite Emergency",
+      "summary": "Court seeks affidavits on Metro curbs and alleged violations of its October 9 order",
+      "url": "https://www.thehindu.com/news/national/sc-mandates-free-movement-no-illegal-detentions-subject-to-public-order/article71571202.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T11:37:01+00:00",
+      "published_at": "2026-10-17T11:37:01+00:00",
+      "effective_at": "2026-10-17T11:37:01+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "A day after mass detentions and a “curfew-like” clampdown on civil rights, which senior lawyers compared to the 1975 Emergency, the Supreme Court convened what it called an “extraordinary, exceptional” Sunday hearing to direct the Union government and the Delhi.",
+        "Police to stop illegal detentions and allow free and smooth movement of people and traffic, as well as the operations of Metro and rail services, but “subject to law and public order”.",
+        "A Special Bench of Justices Joymalya Bagchi and V. Mohana issued notice to Union Home Secretary Govind Mohan, Delhi.",
+        "Police Commissioner Anurag Kumar and Delhi Metro Rail Corporation (DMRC) chairperson D. Thara on a petition filed by advocate Shailendra Mani Tripathi seeking contempt action against them for allegedly violating an October 9 order which barred any “outright prohibition on the movement of Metro trains” and public transport on October 10.",
+        "The court ordered the police to forthwith review the imposition of barricades on public roads, ensure that Internet connectivity was not disturbed, and lift prohibitory orders issued under Section 163 BNSS in and around the Supreme Court and other courts of law in the capital to facilitate litigants’ access lawyers and justice.",
+        "The court did not explicitly comment on the legality of the prohibitory orders.",
+        "Justice Bagchi, dictating the order, observed there would be no detentions except by law outside the four-km prohibitory zone in central Delhi, which includes Jantar Mantar, the designated site for protests.",
+        "The court said people should be allowed to assemble peacefully outside the restricted zone.",
+        "All people, including journalists and lawyers, must be allowed to perform their professional duties, the court directed.",
+        "The court’s repeated emphasis on the “subject to law and order” rider signalled a deliberate balancing act of upholding constitutional protections against illegal detention and securing rights to free movement, access to courts and Internet connectivity, while preserving the State’s power to enforce reasonable restrictions to maintain public order.",
+        "The morning began with the Bench changing courtrooms at the last moment, before 10.30 a.m., due to overcrowding.",
+        "The video-conferencing link was not operational due to a “glitch” and was later found to be chock-a-block with viewers."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A day after mass detentions and a “curfew-like” clampdown on civil rights, which senior lawyers compared to the 1975 Emergency, the Supreme Court convened what it called an “extraordinary, exceptional” Sunday hearing to direct the Union government and the Delhi.",
+          "Police to stop illegal detentions and allow free and smooth movement of people and traffic, as well as the operations of Metro and rail services, but “subject to law and public order”."
+        ],
+        "body": [
+          "A Special Bench of Justices Joymalya Bagchi and V. Mohana issued notice to Union Home Secretary Govind Mohan, Delhi.",
+          "Police Commissioner Anurag Kumar and Delhi Metro Rail Corporation (DMRC) chairperson D. Thara on a petition filed by advocate Shailendra Mani Tripathi seeking contempt action against them for allegedly violating an October 9 order which barred any “outright prohibition on the movement of Metro trains” and public transport on October 10.",
+          "The court ordered the police to forthwith review the imposition of barricades on public roads, ensure that Internet connectivity was not disturbed, and lift prohibitory orders issued under Section 163 BNSS in and around the Supreme Court and other courts of law in the capital to facilitate litigants’ access lawyers and justice.",
+          "The court did not explicitly comment on the legality of the prohibitory orders.",
+          "Justice Bagchi, dictating the order, observed there would be no detentions except by law outside the four-km prohibitory zone in central Delhi, which includes Jantar Mantar, the designated site for protests.",
+          "The court said people should be allowed to assemble peacefully outside the restricted zone.",
+          "All people, including journalists and lawyers, must be allowed to perform their professional duties, the court directed.",
+          "The court’s repeated emphasis on the “subject to law and order” rider signalled a deliberate balancing act of upholding constitutional protections against illegal detention and securing rights to free movement, access to courts and Internet connectivity, while preserving the State’s power to enforce reasonable restrictions to maintain public order."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A day after mass detentions and a “curfew-like” clampdown on civil rights, which senior lawyers compared to the 1975 Emergency, the Supreme Court convened what it called an “extraordinary, exceptional” Sunday hearing to direct the Union government and the Delhi.",
+            "source": "The Hindu",
+            "item_id": "30dcb3d290bf44e446bf1f10:article",
+            "composed": false
+          },
+          {
+            "text": "The court ordered the police to forthwith review the imposition of barricades on public roads, ensure that Internet connectivity was not disturbed, and lift prohibitory orders issued under Section 163 BNSS in and around the Supreme Court and other courts of law in the capital to facilitate litigants’ access lawyers and justice.",
+            "source": "The Hindu",
+            "item_id": "30dcb3d290bf44e446bf1f10:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/sc-mandates-free-movement-no-illegal-detentions-subject-to-public-order/article71571202.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "9e8291f3011ba96032218556",
+      "story_id": "9e8291f3011ba96032218556",
+      "headline": "Supreme Court issues notice to Sanjay Raut, Nikhil Wagle over remarks against CJI",
+      "title": "Supreme Court issues notice to Sanjay Raut, Nikhil Wagle over remarks against CJI",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-issues-notice-to-sanjay-raut-nikhil-wagle-over-remarks-against-cji",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 80.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T10:48:53+00:00",
+      "published_at": "2026-10-17T10:48:53+00:00",
+      "effective_at": "2026-10-17T10:48:53.277000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (1.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 25.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
+        "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them.",
+        "However, at this stage, the apex court exempted them from personal appearance."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
+          "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them."
+        ],
+        "body": [
+          "However, at this stage, the apex court exempted them from personal appearance."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9e8291f3011ba96032218556:article",
+            "composed": false
+          },
+          {
+            "text": "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "9e8291f3011ba96032218556:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-issues-notice-to-sanjay-raut-nikhil-wagle-over-remarks-against-cji"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "4fb575097a9dae59bd741480",
+      "story_id": "4fb575097a9dae59bd741480",
+      "headline": "Supreme Court Seeks Centre's Response on Regulating Children's Social Media Access",
+      "title": "Supreme Court Seeks Centre's Response on Regulating Children's Social Media Access",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-seeks-centres-response-on-regulating-childrens-social-media-access",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T10:44:23+00:00",
+      "published_at": "2026-10-17T10:44:23+00:00",
+      "effective_at": "2026-10-17T10:44:23.489000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 25.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
+        "A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue.",
+        "The apex court has listed the matter for further hearing on December 3.",
+        "The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
+          "A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue."
+        ],
+        "body": [
+          "The apex court has listed the matter for further hearing on December 3.",
+          "The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The apex court has listed the matter for further hearing on December 3.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "4fb575097a9dae59bd741480:article",
+            "composed": false
+          },
+          {
+            "text": "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "4fb575097a9dae59bd741480:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-seeks-centres-response-on-regulating-childrens-social-media-access"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "b581c52498d927d80fd52142",
       "story_id": "b581c52498d927d80fd52142",
       "headline": "Supreme Court Issues Notice On Plea Challenging Allahabad HC Order Banning Hookah Bars In Restaurants",
@@ -913,7 +1313,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1029,7 +1429,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1122,7 +1522,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1236,7 +1636,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 34.8, stack 44, score 44 -> HIGH"
@@ -1354,7 +1754,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
@@ -1362,7 +1762,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31.",
@@ -1395,35 +1795,37 @@
         "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-deputy-md-kaizad-bharucha-announces-decision-to-quit-ahead-of-anup-bagchis-takeover-as-ceo/articleshow/135013132.cms"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
-      "event_id": "5af6eae9c2c9107606c25dfa",
-      "story_id": "5af6eae9c2c9107606c25dfa",
-      "headline": "India's Tariff Clock Is Now Running And WTO Can't Stop It",
-      "title": "India's Tariff Clock Is Now Running And WTO Can't Stop It",
+      "event_id": "b2b0a5463546d48f650a9520",
+      "story_id": "b2b0a5463546d48f650a9520",
+      "headline": "Non-Tariff Barriers Biggest Hurdle in India-China Trade: Nirmala Sitharaman",
+      "title": "Non-Tariff Barriers Biggest Hurdle in India-China Trade: Nirmala Sitharaman",
       "summary": "",
-      "url": "https://www.livelaw.in/lawschool/articles/india-tariff-clock-running-wto-cant-stop-it-555140",
-      "source": "LiveLaw",
+      "url": "https://www.sentinelassam.com/more-news/international/non-tariff-barriers-biggest-hurdle-in-india-china-trade-nirmala-sitharaman",
+      "source": "The Sentinel (Assam)",
       "primary_source": false,
       "tier": 3,
       "category": "economy-finance",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "international-affairs"
+      ],
       "confidence": "medium",
-      "score": 55.0,
+      "score": 85.0,
       "priority_score": 40.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-17T05:45:55+00:00",
-      "published_at": "2026-10-17T05:45:55+00:00",
-      "effective_at": "2026-10-17T05:45:55+00:00",
+      "event_time": "2026-10-17T11:16:18+00:00",
+      "published_at": "2026-10-17T11:16:18+00:00",
+      "effective_at": "2026-10-17T11:16:18.102000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "live-law": {
+        "sentinel-assam": {
           "kind": "independent",
           "source_ids": [
-            "live-law"
+            "sentinel-assam"
           ],
           "count": 1
         }
@@ -1435,85 +1837,83 @@
         "major: category importance 1.2 >= 1.2",
         "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
+        "source: tier 3 (sentinel-assam) +1",
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
+        "recency: breaking (0.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 40, stack 27.6, score 40 -> HIGH"
+        "dominant event 40, stack 26.6, score 40 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "U.S President Donald Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 into law on September 18, 2026, after it cleared the House of Representatives 262-159 and the Senate 86-11.",
-        "Section 113 of the Act gives the President 30 days from signing a deadline falling around mid-October, to fix a tariff of up to 100% on the top five buyers of Russian oil or natural gas.",
-        "There is a narrow exemption: countries importing less than 15% of their natural gas from Russia, and taking \"significant\" steps to cut that share further, can escape the duty.",
-        "India and China remain the world's two largest buyers of Russian crude.",
-        "New Delhi has consistently framed these purchases as a matter of energy security, not as financing for Russia's war in Ukraine.",
-        "The Graham Act does not ask why India buys.",
-        "It only asks whether India buys, and how much.",
-        "That distinction is the real story here, and it is why this moment deserves more than routine trade-news coverage.",
-        "This is not simply another round of tariff friction between two trading partners.",
-        "It is a legal instrument specifically engineered to operate outside the normal channels of trade law and bilateral diplomacy alike.",
-        "The Graham sanctions-tariff regime exposes a structural blind spot in WTO law that has sat unaddressed since 2019: a member facing tariffs framed as \"national security\" measures has almost no enforceable recourse, because the WTO's own security exception was written to be self-judging, and the one body capable of testing that judgment the “ Appellate Body ” has been non-functional for seven years.",
-        "India is not losing this argument because its position lacks merit."
+        "Bangkok: Non-tariff barriers remain the single biggest obstacle in trade ties between India and China, Union Minister for Finance and Corporate Affairs Nirmala Sitharaman said on Friday, pointing out that an expanding trade imbalance continues to weigh heavily against the country despite years of bilateral engagement.",
+        "The Minister made these observations during an interactive session with Michael Kugelman of the Atlantic Council on 'India's economic edge', held on the sidelines of the World Bank-IMF Annual Meetings in Bangkok, Thailand.",
+        "Addressing the trade friction with Beijing, Sitharaman said that, \"So non-tariff barriers are the biggest hurdle in the trade between India and China.",
+        "That is one, and second, if the approach globally that you see today, where imbalance is huge, countries impose tariffs and say, 'no, we cannot sustain this imbalance, either you correct it or else we are going to be very punitive on you', that approach we have never taken.\" Sitharaman mentioned that with China, the trade balance is against India' and it is growing exponentially.",
+        "She noted that Indian products face persistent roadblocks across key sectors despite proven global competitiveness.",
+        "\"We are global leaders in generic drugs, bovine meat, vegetables and perishables and very many such goods which have huge potential in China.",
+        "I would think a decade has gone by, consistently putting up a case for market access for Indian products.",
+        "But non-tariff barriers have been very strong and China uses non-tariff barriers unhesitatingly, whether it is in the name of phytosanitary measures or any other, for which due investigations can happen, for which due both sides sitting and talking can happen, but no progress is made,\" the Minister said."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "U.S President Donald Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 into law on September 18, 2026, after it cleared the House of Representatives 262-159 and the Senate 86-11.",
-          "Section 113 of the Act gives the President 30 days from signing a deadline falling around mid-October, to fix a tariff of up to 100% on the top five buyers of Russian oil or natural gas."
+          "Bangkok: Non-tariff barriers remain the single biggest obstacle in trade ties between India and China, Union Minister for Finance and Corporate Affairs Nirmala Sitharaman said on Friday, pointing out that an expanding trade imbalance continues to weigh heavily against the country despite years of bilateral engagement.",
+          "The Minister made these observations during an interactive session with Michael Kugelman of the Atlantic Council on 'India's economic edge', held on the sidelines of the World Bank-IMF Annual Meetings in Bangkok, Thailand."
         ],
         "body": [
-          "There is a narrow exemption: countries importing less than 15% of their natural gas from Russia, and taking \"significant\" steps to cut that share further, can escape the duty.",
-          "India and China remain the world's two largest buyers of Russian crude.",
-          "New Delhi has consistently framed these purchases as a matter of energy security, not as financing for Russia's war in Ukraine.",
-          "The Graham Act does not ask why India buys.",
-          "It only asks whether India buys, and how much.",
-          "That distinction is the real story here, and it is why this moment deserves more than routine trade-news coverage.",
-          "This is not simply another round of tariff friction between two trading partners.",
-          "It is a legal instrument specifically engineered to operate outside the normal channels of trade law and bilateral diplomacy alike."
+          "Addressing the trade friction with Beijing, Sitharaman said that, \"So non-tariff barriers are the biggest hurdle in the trade between India and China.",
+          "That is one, and second, if the approach globally that you see today, where imbalance is huge, countries impose tariffs and say, 'no, we cannot sustain this imbalance, either you correct it or else we are going to be very punitive on you', that approach we have never taken.\" Sitharaman mentioned that with China, the trade balance is against India' and it is growing exponentially.",
+          "She noted that Indian products face persistent roadblocks across key sectors despite proven global competitiveness.",
+          "\"We are global leaders in generic drugs, bovine meat, vegetables and perishables and very many such goods which have huge potential in China.",
+          "I would think a decade has gone by, consistently putting up a case for market access for Indian products.",
+          "But non-tariff barriers have been very strong and China uses non-tariff barriers unhesitatingly, whether it is in the name of phytosanitary measures or any other, for which due investigations can happen, for which due both sides sitting and talking can happen, but no progress is made,\" the Minister said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ukraine"
+            "text": "Bangkok"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
           }
         ],
         "sentences": [
           {
-            "text": "U.S President Donald Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 into law on September 18, 2026, after it cleared the House of Representatives 262-159 and the Senate 86-11.",
-            "source": "LiveLaw",
-            "item_id": "5af6eae9c2c9107606c25dfa:article",
+            "text": "Bangkok: Non-tariff barriers remain the single biggest obstacle in trade ties between India and China, Union Minister for Finance and Corporate Affairs Nirmala Sitharaman said on Friday, pointing out that an expanding trade imbalance continues to weigh heavily against the country despite years of bilateral engagement.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "b2b0a5463546d48f650a9520:article",
             "composed": false
           },
           {
-            "text": "Section 113 of the Act gives the President 30 days from signing a deadline falling around mid-October, to fix a tariff of up to 100% on the top five buyers of Russian oil or natural gas.",
-            "source": "LiveLaw",
-            "item_id": "5af6eae9c2c9107606c25dfa:article",
+            "text": "The Minister made these observations during an interactive session with Michael Kugelman of the Atlantic Council on 'India's economic edge', held on the sidelines of the World Bank-IMF Annual Meetings in Bangkok, Thailand.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "b2b0a5463546d48f650a9520:article",
             "composed": false
           },
           {
-            "text": "There is a narrow exemption: countries importing less than 15% of their natural gas from Russia, and taking \"significant\" steps to cut that share further, can escape the duty.",
-            "source": "LiveLaw",
-            "item_id": "5af6eae9c2c9107606c25dfa:article",
+            "text": "\"We are global leaders in generic drugs, bovine meat, vegetables and perishables and very many such goods which have huge potential in China.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "b2b0a5463546d48f650a9520:article",
             "composed": false
           },
           {
-            "text": "New Delhi has consistently framed these purchases as a matter of energy security, not as financing for Russia's war in Ukraine.",
-            "source": "LiveLaw",
-            "item_id": "5af6eae9c2c9107606c25dfa:article",
+            "text": "That is one, and second, if the approach globally that you see today, where imbalance is huge, countries impose tariffs and say, 'no, we cannot sustain this imbalance, either you correct it or else we are going to be very punitive on you', that approach we have never taken.\"",
+            "source": "The Sentinel (Assam)",
+            "item_id": "b2b0a5463546d48f650a9520:article",
             "composed": false
           }
         ],
-        "source": "LiveLaw",
+        "source": "The Sentinel (Assam)",
         "corroborating": [],
-        "url": "https://www.livelaw.in/lawschool/articles/india-tariff-clock-running-wto-cant-stop-it-555140"
+        "url": "https://www.sentinelassam.com/more-news/international/non-tariff-barriers-biggest-hurdle-in-india-china-trade-nirmala-sitharaman"
       },
       "group_size": 1,
       "label": "📰 NEWS",
