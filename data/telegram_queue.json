@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T15:42:04.797666+00:00",
-  "count": 10,
+  "generated_at": "2026-10-17T15:52:00.702211+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "1fcb260de4aa16582f87ce7f",
@@ -49,7 +49,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -177,7 +177,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (punjab)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -301,7 +301,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -413,7 +413,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -525,7 +525,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -642,7 +642,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -757,7 +757,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'appointed' in title weight 36",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -831,6 +831,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "868ec06a33ee3d614d834b00",
+      "story_id": "868ec06a33ee3d614d834b00",
+      "headline": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
+      "title": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
+      "summary": "A four-page court order passed on October 9 records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the government to look for a ‘spacious, open’ alternative site in Delhi",
+      "url": "https://www.thehindu.com/news/national/govt-move-to-de-notify-jantar-mantar-follows-sc-suggestion-that-protest-sites-need-more-space/article71574374.ece",
+      "source": "The Hindu - Delhi",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 73.2,
+      "priority_score": 44.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T14:22:58+00:00",
+      "published_at": "2026-10-17T14:22:58+00:00",
+      "effective_at": "2026-10-17T14:22:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-delhi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-delhi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
+        "scale: state scope (delhi)",
+        "recency: breaking (1.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "Exactly three days before the Delhi.",
+        "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital.",
+        "On October 9, both the court and the government had reasoned that central Delhi was too cramped for protests.",
+        "It denied protesters basic amenities.",
+        "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+        "The Chief Justice of India remarked that central Delhi did not have any washroom, medical and drinking water facilities.",
+        "The four-page order passed on October 9 actually records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the Union government to look for a “spacious, open” alternative site.",
+        "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+        "At the time of hearing, the protest was expected to happen at Jantar Mantar, the designated site for voicing dissent in the national capital.",
+        "The order said all the parties, including the petitioners, were in favour of finding an alternative protest site in Delhi.",
+        "“During the course of hearing, it was suggested, and counsel for the parties were ad idem (of the same mind), that it is high time basic amenities were provided to those engaged in peaceful and lawful protest.",
+        "To that end, suitable alternative sites capable of housing such infrastructure need to be identified and designated."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Exactly three days before the Delhi.",
+          "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital."
+        ],
+        "body": [
+          "On October 9, both the court and the government had reasoned that central Delhi was too cramped for protests.",
+          "It denied protesters basic amenities.",
+          "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+          "The Chief Justice of India remarked that central Delhi did not have any washroom, medical and drinking water facilities.",
+          "The four-page order passed on October 9 actually records the Supreme Court Bench headed by Chief Justice of India Surya Kant urging the Union government to look for a “spacious, open” alternative site.",
+          "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+          "The order said all the parties, including the petitioners, were in favour of finding an alternative protest site in Delhi."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jantar Mantar"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "At the time of hearing, the protest was expected to happen at Jantar Mantar, the designated site for voicing dissent in the national capital."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police de-notified central Delhi’s Jantar Mantar as a designated protest site on Monday (October 12, 2026), the Supreme Court and the Union government were on the same page about finding an alternative site to “peacefully and lawfully” express dissent in the national capital.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          },
+          {
+            "text": "The order was passed during the October 9 hearing on petitions challenging the government’s move to restrict access into and within the national capital, aimed at halting the October 10 youth protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          },
+          {
+            "text": "Observations and remarks were also exchanged about how inconvenient protests in and around Jantar Mantar were to ordinary commuters in Delhi.",
+            "source": "The Hindu - Delhi",
+            "item_id": "868ec06a33ee3d614d834b00:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Delhi",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/govt-move-to-de-notify-jantar-mantar-follows-sc-suggestion-that-protest-sites-need-more-space/article71574374.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "c0de51ce4077b7f19dda8f89",
       "story_id": "c0de51ce4077b7f19dda8f89",
       "headline": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
@@ -872,7 +992,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 21.2, score 42 -> HIGH"
@@ -961,7 +1081,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 40.4, score 40.4 -> HIGH"
@@ -1074,7 +1194,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
