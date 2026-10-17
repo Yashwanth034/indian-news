@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T04:32:17.480214+00:00",
-  "count": 9,
+  "generated_at": "2026-10-17T04:42:08.373991+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "7d65d3074c7b3fa02eb87904",
@@ -47,7 +47,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (himachal pradesh)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -135,7 +135,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -259,7 +259,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 32.8, score 49.2 -> HIGH"
@@ -350,7 +350,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'building collapse' in title weight 46",
         "scale: state scope (delhi)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 46, stack 17.2, score 46 -> HIGH"
@@ -424,13 +424,136 @@
       "enrichment": "article"
     },
     {
+      "event_id": "3c2165bc1e6c7fef117042bf",
+      "story_id": "3c2165bc1e6c7fef117042bf",
+      "headline": "Supreme Court asks for medical report of Kerala’s tallest captive elephant, pulls up State government",
+      "title": "Supreme Court asks for medical report of Kerala’s tallest captive elephant, pulls up State government",
+      "summary": "The elephant, Uttoly Raman, has been at the centre of an ownership dispute; the Supreme Court had put the animal under the State government’s custody in June",
+      "url": "https://www.thehindu.com/news/national/kerala/supreme-court-asks-for-medical-report-of-keralas-tallest-captive-elephant-pulls-up-state-government/article71563991.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T04:19:58+00:00",
+      "published_at": "2026-10-17T04:19:58+00:00",
+      "effective_at": "2026-10-17T04:19:58+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "kerala",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Friday (October 9, 2026) pulled up the Keralam government for its failure to inform the court of the measures taken to protect Uttoly Raman, the State’s tallest captive elephant, after the tusker’s custody was handed over to the government in June.",
+        "The court directed the authorities to place the latest medical examination report of the elephant, which has been at the centre of a long-running ownership dispute, before it on October 12.",
+        "A Bench of Justices Dipankar Datta and Sheel Nagu asked why these details had not been disclosed in the State’s affidavit and why the court had been kept in the dark about the steps taken to ensure the animal’s welfare.",
+        "The State’s counsel informed the Bench that there had been a delay in taking custody of the elephant from its caretaker, Krishnankutty, due to the Assembly elections in Kerala.",
+        "Expressing serious reservations over the submission, Justice Datta remarked, “It is a wonderful argument to make.",
+        "So, the Supreme Court order is not to be complied with all these months because there were elections?”",
+        "The Bench also sought to know when the transfer of custody had eventually taken place and why the fact had not been mentioned in the State’s affidavit.",
+        "The court further directed the State to ensure that the former caretaker, who has been accused of “commercially exploiting” the elephant, is not allowed to touch the animal.",
+        "The court had earlier pulled up the caretaker over his treatment of the elephant.",
+        "“The only love and affection you have for the elephant is for the love of money.",
+        "You have commercially exploited the elephant,” the Bench had told Mr. Krishnankutty, who was found guilty of contempt in June for violating an undertaking that the animal would not be used for commercial or temple activities.",
+        "The Bench then turned to the elephant’s present condition, seeking details of the medical care provided to it since the June order."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Friday (October 9, 2026) pulled up the Keralam government for its failure to inform the court of the measures taken to protect Uttoly Raman, the State’s tallest captive elephant, after the tusker’s custody was handed over to the government in June.",
+          "The court directed the authorities to place the latest medical examination report of the elephant, which has been at the centre of a long-running ownership dispute, before it on October 12."
+        ],
+        "body": [
+          "A Bench of Justices Dipankar Datta and Sheel Nagu asked why these details had not been disclosed in the State’s affidavit and why the court had been kept in the dark about the steps taken to ensure the animal’s welfare.",
+          "The State’s counsel informed the Bench that there had been a delay in taking custody of the elephant from its caretaker, Krishnankutty, due to the Assembly elections in Kerala.",
+          "Expressing serious reservations over the submission, Justice Datta remarked, “It is a wonderful argument to make.",
+          "So, the Supreme Court order is not to be complied with all these months because there were elections?” The Bench also sought to know when the transfer of custody had eventually taken place and why the fact had not been mentioned in the State’s affidavit.",
+          "The court further directed the State to ensure that the former caretaker, who has been accused of “commercially exploiting” the elephant, is not allowed to touch the animal.",
+          "The court had earlier pulled up the caretaker over his treatment of the elephant.",
+          "“The only love and affection you have for the elephant is for the love of money.",
+          "You have commercially exploited the elephant,” the Bench had told Mr. Krishnankutty, who was found guilty of contempt in June for violating an undertaking that the animal would not be used for commercial or temple activities."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "June"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday (October 9, 2026) pulled up the Keralam government for its failure to inform the court of the measures taken to protect Uttoly Raman, the State’s tallest captive elephant, after the tusker’s custody was handed over to the government in June.",
+            "source": "The Hindu",
+            "item_id": "3c2165bc1e6c7fef117042bf:article",
+            "composed": false
+          },
+          {
+            "text": "You have commercially exploited the elephant,” the Bench had told Mr. Krishnankutty, who was found guilty of contempt in June for violating an undertaking that the animal would not be used for commercial or temple activities.",
+            "source": "The Hindu",
+            "item_id": "3c2165bc1e6c7fef117042bf:article",
+            "composed": false
+          },
+          {
+            "text": "The court directed the authorities to place the latest medical examination report of the elephant, which has been at the centre of a long-running ownership dispute, before it on October 12.",
+            "source": "The Hindu",
+            "item_id": "3c2165bc1e6c7fef117042bf:article",
+            "composed": false
+          },
+          {
+            "text": "The State’s counsel informed the Bench that there had been a delay in taking custody of the elephant from its caretaker, Krishnankutty, due to the Assembly elections in Kerala.",
+            "source": "The Hindu",
+            "item_id": "3c2165bc1e6c7fef117042bf:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/kerala/supreme-court-asks-for-medical-report-of-keralas-tallest-captive-elephant-pulls-up-state-government/article71563991.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2db8cb8303395c2d460b95e2",
       "story_id": "2db8cb8303395c2d460b95e2",
       "headline": "Telangana CM Revanth to review El Nino impact, drought conditions on October 12",
       "title": "Telangana CM Revanth to review El Nino impact, drought conditions on October 12",
       "summary": "The action plan prepared by Telangana Cabinet sub-committee on drought mitigation, along with relief measures likely to be examined",
       "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-to-review-el-nino-impact-drought-conditions-on-october-12/article71563702.ece",
-      "source": "The Hindu",
+      "source": "The Hindu - Telangana",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
@@ -448,10 +571,9 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu",
             "the-hindu-telangana"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -464,13 +586,12 @@
         "major: significance event 'drought'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: tier 2 (the-hindu-telangana) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (telangana)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -516,30 +637,30 @@
         "sentences": [
           {
             "text": "Chief Minister A. Revanth Reddy will hold a special meeting with Ministers on October 12 to review the impact of El Nino and the prevailing rainfall deficit in Telangana, with a focus on relief measures for farmers and steps to address emerging water and power requirements.",
-            "source": "The Hindu",
+            "source": "The Hindu - Telangana",
             "item_id": "2db8cb8303395c2d460b95e2:article",
             "composed": false
           },
           {
             "text": "The meeting on Tuesday is likely to examine the action plan prepared by the Cabinet sub-committee on drought mitigation, along with relief measures that need to be taken up in rainfall-deficient areas.",
-            "source": "The Hindu",
+            "source": "The Hindu - Telangana",
             "item_id": "2db8cb8303395c2d460b95e2:article",
             "composed": false
           },
           {
             "text": "Telangana has recorded 17% less rainfall than normal, with drought-like conditions prevailing in nearly 235 mandals, according to official estimates cited by the government.",
-            "source": "The Hindu",
+            "source": "The Hindu - Telangana",
             "item_id": "2db8cb8303395c2d460b95e2:article",
             "composed": false
           },
           {
             "text": "20,000 crore to help the State tackle the impact of the deficient rainfall.",
-            "source": "The Hindu",
+            "source": "The Hindu - Telangana",
             "item_id": "2db8cb8303395c2d460b95e2:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "The Hindu - Telangana",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-to-review-el-nino-impact-drought-conditions-on-october-12/article71563702.ece"
       },
@@ -605,7 +726,7 @@
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -692,6 +813,126 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7fad2d21a3a406ad2bcbe794",
+      "story_id": "7fad2d21a3a406ad2bcbe794",
+      "headline": "Supreme Court directs Udayasthamana pooja to be held as per Guruvayur temple practices",
+      "title": "Supreme Court directs Udayasthamana pooja to be held as per Guruvayur temple practices",
+      "summary": "A Bench headed by Justice Aravind Kumar said the interim order prioritises the faith and sentiments of worshippers over management hurdles",
+      "url": "https://www.thehindu.com/news/national/ekadasi-udayasthamana-pooja-supreme-court-directs-guruvayoor-temple-to-follow-traditional-practice/article71558814.ece",
+      "source": "The Hindu - Kerala",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T00:44:31+00:00",
+      "published_at": "2026-10-17T00:44:31+00:00",
+      "effective_at": "2026-10-17T00:44:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-kerala"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-kerala) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (4.0h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 22.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
+        "A Bench headed by Justice Aravind Kumar said the faith and sentiments of worshippers must be given precedence over management hurdles.",
+        "The petitioners led by P.C. Hary and members of traditional managing families, represented by senior advocate Guru Krishnakumar, had challenged decisions by the Guruvayur devaswom managing committee to alter or reschedule the Udayasthamana Pooja on Vrishchikam Ekadasi.",
+        "The management, represented by senior advocates C.A. Sundaram, V. Giri and advocate Rohini Musa, had argued that the performance of the rituals during Ekadasi was faced by logistical challenges posed by the massive influx of devotees on that particular day.",
+        "“I have myself stood for seven hours,” Justice Kumar said, indicating it was part of the devotional expression.",
+        "The court said it would list the main appeal in December for final hearing.",
+        "The petitioners had moved the apex court after the Kerala High Court had dismissed their pleas for a direction to the temple devaswom to ensure the conduct of the Udayasthamana pooja on Vrishchikam Ekadasi.",
+        "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
+        "Mr. Hary had argued that the pooja was a sacred and integral part of the temple’s ritualistic tradition.",
+        "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice.",
+        "Such arbitrary decisions by the respondents strike at the very root of the traditional practices of the temple, which have been observed for several centuries.",
+        "The Udayasthamana pooja on Vrishchikam Ekadasi is not merely symbolic but a series of nearly 15-18 poojas that are conducted from sunrise to sunset,” the petitioners had submitted."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
+          "A Bench headed by Justice Aravind Kumar said the faith and sentiments of worshippers must be given precedence over management hurdles."
+        ],
+        "body": [
+          "The petitioners led by P.C. Hary and members of traditional managing families, represented by senior advocate Guru Krishnakumar, had challenged decisions by the Guruvayur devaswom managing committee to alter or reschedule the Udayasthamana Pooja on Vrishchikam Ekadasi.",
+          "The management, represented by senior advocates C.A. Sundaram, V. Giri and advocate Rohini Musa, had argued that the performance of the rituals during Ekadasi was faced by logistical challenges posed by the massive influx of devotees on that particular day.",
+          "“I have myself stood for seven hours,” Justice Kumar said, indicating it was part of the devotional expression.",
+          "The court said it would list the main appeal in December for final hearing.",
+          "The petitioners had moved the apex court after the Kerala High Court had dismissed their pleas for a direction to the temple devaswom to ensure the conduct of the Udayasthamana pooja on Vrishchikam Ekadasi.",
+          "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
+          "Mr. Hary had argued that the pooja was a sacred and integral part of the temple’s ritualistic tradition.",
+          "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kerala"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
+            "source": "The Hindu - Kerala",
+            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "composed": false
+          },
+          {
+            "text": "The court said it would list the main appeal in December for final hearing.",
+            "source": "The Hindu - Kerala",
+            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "composed": false
+          },
+          {
+            "text": "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice.",
+            "source": "The Hindu - Kerala",
+            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "composed": false
+          },
+          {
+            "text": "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
+            "source": "The Hindu - Kerala",
+            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Kerala",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/ekadasi-udayasthamana-pooja-supreme-court-directs-guruvayoor-temple-to-follow-traditional-practice/article71558814.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "00bc11824e30a44f609ebbb2",
       "story_id": "00bc11824e30a44f609ebbb2",
       "headline": "India-Canada Relations: Overcoming a sharp dip",
@@ -714,7 +955,7 @@
       ],
       "confidence": "medium",
       "score": 100.0,
-      "priority_score": 45.0,
+      "priority_score": 42.8,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-10-17T01:32:34+00:00",
@@ -744,10 +985,10 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
-        "dominant event 42, stack 45, score 45 -> HIGH"
+        "dominant event 42, stack 42.8, score 42.8 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "delhi",
@@ -845,31 +1086,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7fad2d21a3a406ad2bcbe794",
-      "story_id": "7fad2d21a3a406ad2bcbe794",
-      "headline": "Supreme Court directs Udayasthamana pooja to be held as per Guruvayur temple practices",
-      "title": "Supreme Court directs Udayasthamana pooja to be held as per Guruvayur temple practices",
-      "summary": "A Bench headed by Justice Aravind Kumar said the interim order prioritises the faith and sentiments of worshippers over management hurdles",
-      "url": "https://www.thehindu.com/news/national/ekadasi-udayasthamana-pooja-supreme-court-directs-guruvayoor-temple-to-follow-traditional-practice/article71558814.ece",
-      "source": "The Hindu - Kerala",
+      "event_id": "f7b7b379fe3c1cbb7f61e962",
+      "story_id": "f7b7b379fe3c1cbb7f61e962",
+      "headline": "Delhi Capitals' big IPL 2027 shake-up continues, Lanka legend joins Ganguly's team",
+      "title": "Delhi Capitals' big IPL 2027 shake-up continues, Lanka legend joins Ganguly's team",
+      "summary": "In an exciting development for cricket fans, Chaminda Vaas will take on the role of fast bowling coach for Delhi Capitals in the 2027 IPL season. His extensive coaching background, including tenures with Sri Lanka and Ireland, adds depth to a coaching team that also features legends Sourav Ganguly and Yuvraj Singh. The franchise is proactively enhancing its squad, highlighted by Rishabh Pant's notable return from Lucknow Super Giants.",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/delhi-capitals-big-ipl-2027-shake-up-continues-sri-lanka-legend-joins-sourav-gangulys-team/articleshow/135007365.cms",
+      "source": "Times of India",
       "primary_source": false,
       "tier": 2,
-      "category": "courts-law",
+      "category": "sports",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
+      "score": 93.4,
+      "priority_score": 38.4,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-17T00:44:31+00:00",
-      "published_at": "2026-10-17T00:44:31+00:00",
-      "effective_at": "2026-10-17T00:44:31+00:00",
+      "event_time": "2026-10-17T04:37:43+00:00",
+      "published_at": "2026-10-17T04:37:43+00:00",
+      "effective_at": "2026-10-17T04:37:43+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu-kerala"
+            "times-of-india"
           ],
           "count": 1
         }
@@ -878,91 +1119,53 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "category: sports (importance 0.6, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu-kerala) +2",
+        "source: tier 2 (times-of-india) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
+        "event term: 'ipl' in title weight 14",
+        "event term: 'ipl' in summary weight 8.4",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: sports (importance 0.6) +0",
         "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
+        "dominant event 14, stack 38.4, score 38.4 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "delhi",
       "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
-        "A Bench headed by Justice Aravind Kumar said the faith and sentiments of worshippers must be given precedence over management hurdles.",
-        "The petitioners led by P.C. Hary and members of traditional managing families, represented by senior advocate Guru Krishnakumar, had challenged decisions by the Guruvayur devaswom managing committee to alter or reschedule the Udayasthamana Pooja on Vrishchikam Ekadasi.",
-        "The management, represented by senior advocates C.A. Sundaram, V. Giri and advocate Rohini Musa, had argued that the performance of the rituals during Ekadasi was faced by logistical challenges posed by the massive influx of devotees on that particular day.",
-        "“I have myself stood for seven hours,” Justice Kumar said, indicating it was part of the devotional expression.",
-        "The court said it would list the main appeal in December for final hearing.",
-        "The petitioners had moved the apex court after the Kerala High Court had dismissed their pleas for a direction to the temple devaswom to ensure the conduct of the Udayasthamana pooja on Vrishchikam Ekadasi.",
-        "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
-        "Mr. Hary had argued that the pooja was a sacred and integral part of the temple’s ritualistic tradition.",
-        "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice.",
-        "Such arbitrary decisions by the respondents strike at the very root of the traditional practices of the temple, which have been observed for several centuries.",
-        "The Udayasthamana pooja on Vrishchikam Ekadasi is not merely symbolic but a series of nearly 15-18 poojas that are conducted from sunrise to sunset,” the petitioners had submitted."
-      ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
-          "A Bench headed by Justice Aravind Kumar said the faith and sentiments of worshippers must be given precedence over management hurdles."
+          "In an exciting development for cricket fans, Chaminda Vaas will take on the role of fast bowling coach for Delhi Capitals in the 2027 IPL season.",
+          "His extensive coaching background, including tenures with Sri Lanka and Ireland, adds depth to a coaching team that also features legends Sourav Ganguly and Yuvraj Singh."
         ],
         "body": [
-          "The petitioners led by P.C. Hary and members of traditional managing families, represented by senior advocate Guru Krishnakumar, had challenged decisions by the Guruvayur devaswom managing committee to alter or reschedule the Udayasthamana Pooja on Vrishchikam Ekadasi.",
-          "The management, represented by senior advocates C.A. Sundaram, V. Giri and advocate Rohini Musa, had argued that the performance of the rituals during Ekadasi was faced by logistical challenges posed by the massive influx of devotees on that particular day.",
-          "“I have myself stood for seven hours,” Justice Kumar said, indicating it was part of the devotional expression.",
-          "The court said it would list the main appeal in December for final hearing.",
-          "The petitioners had moved the apex court after the Kerala High Court had dismissed their pleas for a direction to the temple devaswom to ensure the conduct of the Udayasthamana pooja on Vrishchikam Ekadasi.",
-          "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
-          "Mr. Hary had argued that the pooja was a sacred and integral part of the temple’s ritualistic tradition.",
-          "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice."
+          "The franchise is proactively enhancing its squad, highlighted by Rishabh Pant's notable return from Lucknow Super Giants."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kerala"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The Supreme Court on Thursday (October 8, 2026) passed an interim order that the Udayasthamana pooja must be held in accordance with the age-old practices of the famed Guruvayur Sri Krishna Temple in Kerala.",
-            "source": "The Hindu - Kerala",
-            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "text": "The franchise is proactively enhancing its squad, highlighted by Rishabh Pant's notable return from Lucknow Super Giants.",
+            "source": "Times of India",
+            "item_id": "f7b7b379fe3c1cbb7f61e962",
             "composed": false
           },
           {
-            "text": "The court said it would list the main appeal in December for final hearing.",
-            "source": "The Hindu - Kerala",
-            "item_id": "7fad2d21a3a406ad2bcbe794:article",
-            "composed": false
-          },
-          {
-            "text": "“Until 2023, the Udayasthamana pooja was invariably performed on Vrishchikam Ekadasi day, and it is only during the last two years, 2024 and 2025, that the respondents have attempted to alter this well-established religious practice.",
-            "source": "The Hindu - Kerala",
-            "item_id": "7fad2d21a3a406ad2bcbe794:article",
-            "composed": false
-          },
-          {
-            "text": "In October last year, the apex court had passed a similar order allowing the conduct of the pooja on the Ekadasi day which fell in the month of November.",
-            "source": "The Hindu - Kerala",
-            "item_id": "7fad2d21a3a406ad2bcbe794:article",
+            "text": "In an exciting development for cricket fans, Chaminda Vaas will take on the role of fast bowling coach for Delhi Capitals in the 2027 IPL season.",
+            "source": "Times of India",
+            "item_id": "f7b7b379fe3c1cbb7f61e962",
             "composed": false
           }
         ],
-        "source": "The Hindu - Kerala",
+        "source": "Times of India",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/ekadasi-udayasthamana-pooja-supreme-court-directs-guruvayoor-temple-to-follow-traditional-practice/article71558814.ece"
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/news/delhi-capitals-big-ipl-2027-shake-up-continues-sri-lanka-legend-joins-sourav-gangulys-team/articleshow/135007365.cms"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "9b37a103d3d3dd3158aee688",
@@ -1013,7 +1216,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 27.2, score 38.4 -> HIGH"
