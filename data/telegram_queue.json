@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T11:32:34.381725+00:00",
-  "count": 16,
+  "generated_at": "2026-10-17T11:41:58.591839+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "780654a78334e11278cae6b4",
@@ -49,7 +49,7 @@
         "event term: 'pandemic' in title weight 82",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -107,7 +107,7 @@
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "low",
+      "confidence": "medium",
       "score": 100.0,
       "priority_score": 82.0,
       "priority_level": "IMMEDIATE",
@@ -120,13 +120,12 @@
         "pti": {
           "kind": "wire",
           "source_ids": [
-            "deccan-chronicle",
             "greater-kashmir"
           ],
-          "count": 2
+          "count": 1
         }
       },
-      "is_wire_echo": true,
+      "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
@@ -140,12 +139,11 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -257,7 +255,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "geo: national",
         "dominant event 49.2, stack 28, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -340,7 +338,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -467,7 +465,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -591,7 +589,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -678,7 +676,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -802,7 +800,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -874,180 +872,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9e8291f3011ba96032218556",
-      "story_id": "9e8291f3011ba96032218556",
-      "headline": "Supreme Court issues notice to Sanjay Raut, Nikhil Wagle over remarks against CJI",
-      "title": "Supreme Court issues notice to Sanjay Raut, Nikhil Wagle over remarks against CJI",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-issues-notice-to-sanjay-raut-nikhil-wagle-over-remarks-against-cji",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-17T10:48:53+00:00",
-      "published_at": "2026-10-17T10:48:53+00:00",
-      "effective_at": "2026-10-17T10:48:53.277000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 25.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
-        "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them.",
-        "However, at this stage, the apex court exempted them from personal appearance."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
-          "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them."
-        ],
-        "body": [
-          "However, at this stage, the apex court exempted them from personal appearance."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "NEW DELHI: The Supreme Court on Friday issued notice to Shiv Sena (UBT) Rajya Sabha member Sanjay Raut and senior journalist Nikhil Wagle on a criminal contempt petition filed by the Supreme Court Bar Association (SCBA) over their alleged remarks against the Chief Justice of India (CJI).",
-            "source": "The Sentinel (Assam)",
-            "item_id": "9e8291f3011ba96032218556:article",
-            "composed": false
-          },
-          {
-            "text": "A Bench of CJI Surya Kant and Justice Joymalya Bagchi directed Raut and Wagle to show cause why contempt proceedings should not be initiated against them.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "9e8291f3011ba96032218556:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-issues-notice-to-sanjay-raut-nikhil-wagle-over-remarks-against-cji"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "4fb575097a9dae59bd741480",
-      "story_id": "4fb575097a9dae59bd741480",
-      "headline": "Supreme Court Seeks Centre's Response on Regulating Children's Social Media Access",
-      "title": "Supreme Court Seeks Centre's Response on Regulating Children's Social Media Access",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-seeks-centres-response-on-regulating-childrens-social-media-access",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 85.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-17T10:44:23+00:00",
-      "published_at": "2026-10-17T10:44:23+00:00",
-      "effective_at": "2026-10-17T10:44:23.489000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 25.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
-        "A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue.",
-        "The apex court has listed the matter for further hearing on December 3.",
-        "The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
-          "A Bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi issued notice on the petition filed by The Emerald Heights International School and its Director (Academics), Siddharth Singh Girnar, and tagged it with a pending petition raising a similar issue."
-        ],
-        "body": [
-          "The apex court has listed the matter for further hearing on December 3.",
-          "The petition, filed against the Union of India, the Ministry of Women and Child Development, the Ministry of Law and Justice, and the National Commission for Protection of Child Rights, raises concerns over unrestricted access to commercial social media platforms by children and the alleged inadequacy of the existing legal and regulatory framework to address the risks posed by their use."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The apex court has listed the matter for further hearing on December 3.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4fb575097a9dae59bd741480:article",
-            "composed": false
-          },
-          {
-            "text": "NEW DELHI: The Supreme Court on Friday issued notice to the Centre on a plea seeking a comprehensive and enforceable regulatory framework to protect children from the risks associated with social media platforms, including age-based restrictions on access and safeguards against online exploitation.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4fb575097a9dae59bd741480:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/more-news/national-news/supreme-court-seeks-centres-response-on-regulating-childrens-social-media-access"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "b581c52498d927d80fd52142",
       "story_id": "b581c52498d927d80fd52142",
       "headline": "Supreme Court Issues Notice On Plea Challenging Allahabad HC Order Banning Hookah Bars In Restaurants",
@@ -1089,7 +913,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1205,7 +1029,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 21.4, score 44 -> HIGH"
@@ -1298,7 +1122,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1412,7 +1236,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 34.8, stack 44, score 44 -> HIGH"
@@ -1489,6 +1313,92 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "c0de51ce4077b7f19dda8f89",
+      "story_id": "c0de51ce4077b7f19dda8f89",
+      "headline": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
+      "title": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
+      "summary": "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31. This move precedes Anup Bagchi's appointment as the new Managing Director and CEO. In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit. Bharucha's resignation awaits approval from the Reserve Bank of India, as it has been accepted by the board.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-deputy-md-kaizad-bharucha-announces-decision-to-quit-ahead-of-anup-bagchis-takeover-as-ceo/articleshow/135013132.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "business-industry",
+      "secondary_categories": [
+        "economy-finance"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T11:28:12+00:00",
+      "published_at": "2026-10-17T11:28:12+00:00",
+      "effective_at": "2026-10-17T11:28:12+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: business-industry (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'takeover' in title weight 42",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: business-industry (importance 1) +1.2",
+        "geo: national",
+        "dominant event 42, stack 25.2, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31.",
+          "This move precedes Anup Bagchi's appointment as the new Managing Director and CEO."
+        ],
+        "body": [
+          "In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit.",
+          "Bharucha's resignation awaits approval from the Reserve Bank of India, as it has been accepted by the board.",
+          "The leadership change comes as the country’s largest private sector lender prepares for Anup Bagchi to assume charge later this month."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31.",
+            "source": "Times of India",
+            "item_id": "c0de51ce4077b7f19dda8f89",
+            "composed": false
+          },
+          {
+            "text": "In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit.",
+            "source": "Times of India",
+            "item_id": "c0de51ce4077b7f19dda8f89",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [
+          "The Hindu BusinessLine"
+        ],
+        "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-deputy-md-kaizad-bharucha-announces-decision-to-quit-ahead-of-anup-bagchis-takeover-as-ceo/articleshow/135013132.cms"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5af6eae9c2c9107606c25dfa",
       "story_id": "5af6eae9c2c9107606c25dfa",
       "headline": "India's Tariff Clock Is Now Running And WTO Can't Stop It",
@@ -1530,7 +1440,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -1608,106 +1518,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
-    },
-    {
-      "event_id": "93841f008a87956d69dc2406",
-      "story_id": "93841f008a87956d69dc2406",
-      "headline": "IDBI Bank sale to Fairfax: FinMin cites 2003 law, Delhi HC judgment",
-      "title": "IDBI Bank sale to Fairfax: FinMin cites 2003 law, Delhi HC judgment",
-      "summary": "The finance ministry on Saturday said the legislative history of the IDBI (Repeal) Act, 2003, a Delhi High Court judgement and successive Union Budget speeches reflect the evolution of its policy towards the strategic disinvestment of IDBI Bank. The Cabinet earlier this week approved strategic disinvestment of IDBI Bank by selling 60.72 per cent stake to Canada's Fairfax Financial Holdings for about Rs 53,000 crore (USD 5.5 billion). The deal is the largest foreign investment in India's financial sector so far and a major milestone in the country's banking privatisation drive. In a clarification on the legislative developments regarding reduction in government holding in IDBI Bank, the ministry said the Delhi High Court on December 17, 2018, held that the IDBI (Repeal) Act, 2003, contained no prohibition against reducing the government's stake in IDBI Bank Ltd. It may be recalled that during the Union Budget, 2003, discussions and the parliamentary debate on the IDBI (Repeal) Act, .",
-      "url": "https://www.business-standard.com/industry/banking/idbi-bank-sale-to-fairfax-finmin-cites-2003-law-delhi-hc-judgment-126101700233_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "economy-finance",
-        "government-policy"
-      ],
-      "confidence": "medium",
-      "score": 78.2,
-      "priority_score": 38.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-17T05:36:58+00:00",
-      "published_at": "2026-10-17T05:36:58+00:00",
-      "effective_at": "2026-10-17T05:36:58+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'judgment' in title weight 18",
-        "event term: 'union budget' in summary weight 26.4",
-        "scale: state scope (delhi)",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 26.4, stack 38.4, score 38.4 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The finance ministry on Saturday said the legislative history of the IDBI (Repeal) Act, 2003, a Delhi High Court judgement and successive Union Budget speeches reflect the evolution of its policy towards the strategic disinvestment of IDBI Bank.",
-          "The Cabinet earlier this week approved strategic disinvestment of IDBI Bank by selling 60.72 per cent stake to Canada's Fairfax Financial Holdings for about Rs 53,000 crore (USD 5.5 billion)."
-        ],
-        "body": [
-          "The deal is the largest foreign investment in India's financial sector so far and a major milestone in the country's banking privatisation drive.",
-          "In a clarification on the legislative developments regarding reduction in government holding in IDBI Bank, the ministry said the Delhi High Court on December 17, 2018, held that the IDBI (Repeal) Act, 2003, contained no prohibition against reducing the government's stake in IDBI Bank Ltd.",
-          "It may be recalled that during the Union Budget, 2003, discussions and the parliamentary debate on the IDBI (Repeal) Act,."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India's"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In a clarification on the legislative developments regarding reduction in government holding in IDBI Bank, the ministry said the Delhi High Court on December 17, 2018, held that the IDBI (Repeal) Act, 2003, contained no prohibition against reducing the government's stake in IDBI Bank Ltd.",
-            "source": "Business Standard",
-            "item_id": "93841f008a87956d69dc2406",
-            "composed": false
-          },
-          {
-            "text": "The finance ministry on Saturday said the legislative history of the IDBI (Repeal) Act, 2003, a Delhi High Court judgement and successive Union Budget speeches reflect the evolution of its policy towards the strategic disinvestment of IDBI Bank.",
-            "source": "Business Standard",
-            "item_id": "93841f008a87956d69dc2406",
-            "composed": false
-          },
-          {
-            "text": "The Cabinet earlier this week approved strategic disinvestment of IDBI Bank by selling 60.72 per cent stake to Canada's Fairfax Financial Holdings for about Rs 53,000 crore (USD 5.5 billion).",
-            "source": "Business Standard",
-            "item_id": "93841f008a87956d69dc2406",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/industry/banking/idbi-bank-sale-to-fairfax-finmin-cites-2003-law-delhi-hc-judgment-126101700233_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
     }
   ]
 }
