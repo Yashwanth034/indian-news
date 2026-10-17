@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T15:52:00.702211+00:00",
-  "count": 11,
+  "generated_at": "2026-10-17T16:02:40.638215+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "1fcb260de4aa16582f87ce7f",
@@ -49,7 +49,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -177,7 +177,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (punjab)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -301,7 +301,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -413,7 +413,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -525,7 +525,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -642,7 +642,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -757,7 +757,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'appointed' in title weight 36",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -873,7 +873,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -951,6 +951,128 @@
       "enrichment": "article"
     },
     {
+      "event_id": "feaf447e68835890aebf2d16",
+      "story_id": "feaf447e68835890aebf2d16",
+      "headline": "Supreme Court stays defamation proceedings against Rahul Gandhi over 2018 remarks against PM Modi",
+      "title": "Supreme Court stays defamation proceedings against Rahul Gandhi over 2018 remarks against PM Modi",
+      "summary": "The Opposition leader had challenged a Mumbai magistrate’s order to initiate proceedings against him on a complaint that his remarks had ‘hurt the sentiments of PM Modi’s supporters’",
+      "url": "https://www.thehindu.com/news/national/supreme-court-defamation-case-proceedings-rahul-gandhi-pm-modi/article71578167.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-17T15:47:15+00:00",
+      "published_at": "2026-10-17T15:47:15+00:00",
+      "effective_at": "2026-10-17T15:47:15+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "maharashtra",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Tuesday (October 13, 2026) stayed criminal defamation proceedings against the Leader of the Opposition in the Lok Sabha, Rahul Gandhi, over his alleged 2018 remarks calling Prime Minister Narendra Modi “commander-in-chief” over the Rafale fighter jet deal.",
+        "A Bench of Justices Vikram Nath and Aparesh Kumar Singh passed the interim order on a petition filed by Mr. Gandhi challenging the Bombay High Court’s September 8 decision refusing to quash the proceedings.",
+        "“In the meantime, further proceedings before the trial court shall remain stayed,” the court ordered.",
+        "Senior advocate Abhishek Manu Singhvi, appearing for Mr. Gandhi, sought a stay on the ground that the proceedings were not maintainable.",
+        "The Bench also issued notice to the Maharashtra government and the complainant, Bharatiya Janata Party (BJP) member Mahesh Shrishrimal, and posted the matter for hearing after four weeks.",
+        "The complaint arose from two sets of remarks allegedly made by Mr. Gandhi in September 2018.",
+        "Mr. Shrishrimal objected to his use of the phrase “Hindustan ka chowkidar chor hai” at a rally in Rajasthan on September 20, 2018, and to a subsequent social media post in which he allegedly described the Prime Minister as “Commander in Thief”.",
+        "Mr. Shrishrimal alleged that the remarks imputed theft not only to Mr. Modi but also to members of the BJP and others associated with him, and sought Mr. Gandhi’s prosecution for criminal defamation under Section 500 of the Indian Penal Code.",
+        "Proceedings were initiated by a Mumbai Magistrate Court in 2019.",
+        "Mr. Gandhi subsequently moved the Bombay High Court in November 2021, denying the allegations and seeking quashing of the proceedings.",
+        "Justice N.R. Borkar of the High Court rejected Mr. Gandhi’s contention that the BJP was not an identifiable body for the purpose of the defamation complaint.",
+        "“On a prima facie reading of the defamatory statement, inter alia, it describes the Prime Minister, who is also the prominent face of the said political party, as having engaged in the acts of theft, while being the Commander of Thieves."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Tuesday (October 13, 2026) stayed criminal defamation proceedings against the Leader of the Opposition in the Lok Sabha, Rahul Gandhi, over his alleged 2018 remarks calling Prime Minister Narendra Modi “commander-in-chief” over the Rafale fighter jet deal.",
+          "A Bench of Justices Vikram Nath and Aparesh Kumar Singh passed the interim order on a petition filed by Mr. Gandhi challenging the Bombay High Court’s September 8 decision refusing to quash the proceedings."
+        ],
+        "body": [
+          "“In the meantime, further proceedings before the trial court shall remain stayed,” the court ordered.",
+          "Senior advocate Abhishek Manu Singhvi, appearing for Mr. Gandhi, sought a stay on the ground that the proceedings were not maintainable.",
+          "The Bench also issued notice to the Maharashtra government and the complainant, Bharatiya Janata Party (BJP) member Mahesh Shrishrimal, and posted the matter for hearing after four weeks.",
+          "The complaint arose from two sets of remarks allegedly made by Mr. Gandhi in September 2018.",
+          "Mr. Shrishrimal objected to his use of the phrase “Hindustan ka chowkidar chor hai” at a rally in Rajasthan on September 20, 2018, and to a subsequent social media post in which he allegedly described the Prime Minister as “Commander in Thief”.",
+          "Mr. Shrishrimal alleged that the remarks imputed theft not only to Mr. Modi but also to members of the BJP and others associated with him, and sought Mr. Gandhi’s prosecution for criminal defamation under Section 500 of the Indian Penal Code.",
+          "Proceedings were initiated by a Mumbai Magistrate Court in 2019.",
+          "Mr. Gandhi subsequently moved the Bombay High Court in November 2021, denying the allegations and seeking quashing of the proceedings."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "September"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Mr. Shrishrimal objected to his use of the phrase “Hindustan ka chowkidar chor hai” at a rally in Rajasthan on September 20, 2018, and to a subsequent social media post in which he allegedly described the Prime Minister as “Commander in Thief”.",
+            "source": "The Hindu",
+            "item_id": "feaf447e68835890aebf2d16:article",
+            "composed": false
+          },
+          {
+            "text": "The complaint arose from two sets of remarks allegedly made by Mr. Gandhi in September 2018.",
+            "source": "The Hindu",
+            "item_id": "feaf447e68835890aebf2d16:article",
+            "composed": false
+          },
+          {
+            "text": "Mr. Gandhi subsequently moved the Bombay High Court in November 2021, denying the allegations and seeking quashing of the proceedings.",
+            "source": "The Hindu",
+            "item_id": "feaf447e68835890aebf2d16:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Tuesday (October 13, 2026) stayed criminal defamation proceedings against the Leader of the Opposition in the Lok Sabha, Rahul Gandhi, over his alleged 2018 remarks calling Prime Minister Narendra Modi “commander-in-chief” over the Rafale fighter jet deal.",
+            "source": "The Hindu",
+            "item_id": "feaf447e68835890aebf2d16:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-defamation-case-proceedings-rahul-gandhi-pm-modi/article71578167.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "c0de51ce4077b7f19dda8f89",
       "story_id": "c0de51ce4077b7f19dda8f89",
       "headline": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
@@ -992,7 +1114,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 21.2, score 42 -> HIGH"
@@ -1081,7 +1203,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 40.4, score 40.4 -> HIGH"
@@ -1194,7 +1316,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
