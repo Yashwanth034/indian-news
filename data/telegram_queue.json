@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:51:56.029080+00:00",
+  "generated_at": "2026-10-17T17:02:25.838324+00:00",
   "count": 8,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -177,7 +177,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (punjab)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -301,7 +301,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -412,7 +412,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -529,7 +529,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -627,10 +627,9 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu",
             "the-hindu-delhi"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -641,12 +640,11 @@
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu-delhi) +2",
-        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "event term: 'appointed' in title weight 36",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -762,7 +760,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -840,33 +838,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c0de51ce4077b7f19dda8f89",
-      "story_id": "c0de51ce4077b7f19dda8f89",
-      "headline": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
-      "title": "HDFC deputy MD Kaizad Bharucha announces exit ahead of Anup Bagchi's takeover as CEO",
-      "summary": "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31. This move precedes Anup Bagchi's appointment as the new Managing Director and CEO. In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit. Bharucha's resignation awaits approval from the Reserve Bank of India, as it has been accepted by the board.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-deputy-md-kaizad-bharucha-announces-decision-to-quit-ahead-of-anup-bagchis-takeover-as-ceo/articleshow/135013132.cms",
-      "source": "Times of India",
+      "event_id": "27f2c40d36d174e6ad8865c8",
+      "story_id": "27f2c40d36d174e6ad8865c8",
+      "headline": "HDFC Bank Deputy MD Kaizad Bharucha quits ahead of Anup Bagchi’s takeover",
+      "title": "HDFC Bank Deputy MD Kaizad Bharucha quits ahead of Anup Bagchi’s takeover",
+      "summary": "The leadership change comes as the country’s largest private sector lender prepares for Anup Bagchi to assume charge later this month.",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/hdfc-bank-deputy-md-kaizad-bharucha-quits-ahead-of-anup-bagchis-takeover/article71596198.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
-      "tier": 2,
+      "tier": 3,
       "category": "business-industry",
-      "secondary_categories": [
-        "economy-finance"
-      ],
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 100.0,
+      "score": 60.0,
       "priority_score": 42.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-17T11:28:12+00:00",
-      "published_at": "2026-10-17T11:28:12+00:00",
-      "effective_at": "2026-10-17T11:28:12+00:00",
+      "event_time": "2026-10-17T11:27:12+00:00",
+      "published_at": "2026-10-17T11:27:12+00:00",
+      "effective_at": "2026-10-17T11:27:12+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "businessline"
           ],
           "count": 1
         }
@@ -874,56 +870,68 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "major: geo national significance",
         "category: business-industry (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
-        "dominant event 42, stack 21.2, score 42 -> HIGH"
+        "dominant event 42, stack 25.2, score 42 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
-      "national_significance": true,
+      "national_significance": false,
+      "article_sentences": [
+        "HDFC Bank's Deputy Managing Director Kaizad Bharucha has quit, the country's largest private sector lender announced on Saturday.",
+        "Bharucha, who has been with the bank since 1995, \"requested cessation\" from service from December 31, the bank informed exchanges.",
+        "The HDFC Bank board accepted Bharucha's request to be forwarded to the RBI for approval, it added.",
+        "The decision to quit comes days before rival ICICI Group veteran Anup Bagchi takes over as Managing Director and Chief Executive of HDFC Bank on October 27.",
+        "He was reportedly in the race to be elevated as the MD and CEO."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31.",
-          "This move precedes Anup Bagchi's appointment as the new Managing Director and CEO."
+          "HDFC Bank's Deputy Managing Director Kaizad Bharucha has quit, the country's largest private sector lender announced on Saturday.",
+          "Bharucha, who has been with the bank since 1995, \"requested cessation\" from service from December 31, the bank informed exchanges."
         ],
         "body": [
-          "In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit.",
-          "Bharucha's resignation awaits approval from the Reserve Bank of India, as it has been accepted by the board.",
+          "The HDFC Bank board accepted Bharucha's request to be forwarded to the RBI for approval, it added.",
+          "The decision to quit comes days before rival ICICI Group veteran Anup Bagchi takes over as Managing Director and Chief Executive of HDFC Bank on October 27.",
+          "He was reportedly in the race to be elevated as the MD and CEO.",
           "The leadership change comes as the country’s largest private sector lender prepares for Anup Bagchi to assume charge later this month."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "HDFC Bank's Deputy Managing Director, Kaizad Bharucha, has announced his resignation, effective December 31.",
-            "source": "Times of India",
-            "item_id": "c0de51ce4077b7f19dda8f89",
+            "text": "Bharucha, who has been with the bank since 1995, \"requested cessation\" from service from December 31, the bank informed exchanges.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "27f2c40d36d174e6ad8865c8:article",
             "composed": false
           },
           {
-            "text": "In the latest reports, HDFC Bank has demonstrated remarkable profitability shifts this July to September, reflecting improved asset quality and a surge in net profit.",
-            "source": "Times of India",
-            "item_id": "c0de51ce4077b7f19dda8f89",
+            "text": "The decision to quit comes days before rival ICICI Group veteran Anup Bagchi takes over as Managing Director and Chief Executive of HDFC Bank on October 27.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "27f2c40d36d174e6ad8865c8:article",
+            "composed": false
+          },
+          {
+            "text": "HDFC Bank's Deputy Managing Director Kaizad Bharucha has quit, the country's largest private sector lender announced on Saturday.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "27f2c40d36d174e6ad8865c8:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
-        "corroborating": [
-          "The Hindu BusinessLine"
-        ],
-        "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-deputy-md-kaizad-bharucha-announces-decision-to-quit-ahead-of-anup-bagchis-takeover-as-ceo/articleshow/135013132.cms"
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/money-and-banking/hdfc-bank-deputy-md-kaizad-bharucha-quits-ahead-of-anup-bagchis-takeover/article71596198.ece"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     }
   ]
 }
