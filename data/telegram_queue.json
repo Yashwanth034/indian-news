@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:32:20.971689+00:00",
+  "generated_at": "2026-10-18T14:42:00.406172+00:00",
   "count": 9,
   "stories": [
     {
@@ -14,7 +14,7 @@
       "tier": 2,
       "category": "national-politics",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 65.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
@@ -22,12 +22,19 @@
       "event_time": "2026-10-18T11:29:15+00:00",
       "published_at": "2026-10-18T11:29:15+00:00",
       "effective_at": "2026-10-18T11:29:15.048000+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "the-news-minute": {
           "kind": "independent",
           "source_ids": [
             "the-news-minute"
+          ],
+          "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
           ],
           "count": 1
         }
@@ -36,18 +43,20 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-news-minute) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 58, stack 22.4, score 58 -> HIGH"
+        "dominant event 58, stack 28.4, score 58 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -171,7 +180,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -294,7 +303,7 @@
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -407,7 +416,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -533,7 +542,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -647,7 +656,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -765,7 +774,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -898,7 +907,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 6, stack 40, score 40 -> HIGH"
@@ -1010,7 +1019,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
