@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T09:32:26.925161+00:00",
-  "count": 8,
+  "generated_at": "2026-10-18T09:42:07.595335+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "1fb530a7c354dc112fed4863",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (madhya pradesh)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE"
@@ -153,7 +153,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: state scope (rajasthan)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 70, stack 24.4, score 70 -> URGENT"
@@ -264,7 +264,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 27.6, score 49.2 -> HIGH"
@@ -384,7 +384,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -495,7 +495,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -611,7 +611,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -727,7 +727,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -832,7 +832,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -903,6 +903,121 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "1169708302a00cd4c92a116d",
+      "story_id": "1169708302a00cd4c92a116d",
+      "headline": "India's GDP per capita catching up with richer nations, growth worth celebrating: Korean economist",
+      "title": "India's GDP per capita catching up with richer nations, growth worth celebrating: Korean economist",
+      "summary": "The economist pointed to India's rising per capita income and a sharp decline in poverty to argue that the country's economic transformation over the past three decades, particularly the last 10 years, deserves greater attention",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-gdp-per-capita-catching-up-with-richer-nations-growth-worth-celebrating-korean-economist-562301-2026-10-18",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 38.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-18T09:30:16+00:00",
+      "published_at": "2026-10-18T09:30:16+00:00",
+      "effective_at": "2026-10-18T09:30:16+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'gdp' in title weight 38",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 38, stack 31.6, score 38 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Kim, Head of the India and South Asia Team at the Korea Institute for International Economic Policy (KIEP), said on Sunday that his earlier assessment of India's medium-term growth prospects had attracted comments suggesting that India remained poor.",
+        "\"A more useful question is whether living standards are rising rapidly and whether India is CATCHING UP,\" he wrote in a detailed post on X.",
+        "According to the figures shared by Kim, India's GDP per capita stood at $2,702 in 2025, or $11,784 when adjusted for purchasing power parity (PPP).",
+        "For historical comparisons, he used GDP per capita at constant 2021 PPP prices, which stood at $10,039 in 2025.",
+        "Kim noted that India was classified as a low-income country by the World Bank until 2007.",
+        "In 1990, India's GDP per capita was only 15% higher than the average for low-income countries.",
+        "By 2025, it had risen to more than four times that average.",
+        "The improvement was also visible when India was compared with middle-income economies, a group that includes fast-growing countries such as China and Vietnam.",
+        "India's GDP per capita reached 64% of the middle-income country average in 2025, with much of the catch-up taking place over the past decade.",
+        "Kim said India's progress against high-income economies had been more gradual but consistent.",
+        "In 1990, India's GDP per capita was just 6% of the high-income country average.",
+        "By 2025, that share had increased to 17%."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Kim, Head of the India and South Asia Team at the Korea Institute for International Economic Policy (KIEP), said on Sunday that his earlier assessment of India's medium-term growth prospects had attracted comments suggesting that India remained poor.",
+          "\"A more useful question is whether living standards are rising rapidly and whether India is CATCHING UP,\" he wrote in a detailed post on X. According to the figures shared by Kim, India's GDP per capita stood at $2,702 in 2025, or $11,784 when adjusted for purchasing power parity (PPP)."
+        ],
+        "body": [
+          "For historical comparisons, he used GDP per capita at constant 2021 PPP prices, which stood at $10,039 in 2025.",
+          "Kim noted that India was classified as a low-income country by the World Bank until 2007.",
+          "In 1990, India's GDP per capita was only 15% higher than the average for low-income countries.",
+          "By 2025, it had risen to more than four times that average.",
+          "The improvement was also visible when India was compared with middle-income economies, a group that includes fast-growing countries such as China and Vietnam.",
+          "Kim said India's progress against high-income economies had been more gradual but consistent.",
+          "By 2025, that share had increased to 17%.",
+          "The economist pointed to India's rising per capita income and a sharp decline in poverty to argue that the country's economic transformation over the past three decades, particularly the last 10 years, deserves greater attention."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "\"A more useful question is whether living standards are rising rapidly and whether India is CATCHING UP,\" he wrote in a detailed post on X. According to the figures shared by Kim, India's GDP per capita stood at $2,702 in 2025, or $11,784 when adjusted for purchasing power parity (PPP).",
+            "source": "Business Today",
+            "item_id": "1169708302a00cd4c92a116d:article",
+            "composed": false
+          },
+          {
+            "text": "For historical comparisons, he used GDP per capita at constant 2021 PPP prices, which stood at $10,039 in 2025.",
+            "source": "Business Today",
+            "item_id": "1169708302a00cd4c92a116d:article",
+            "composed": false
+          },
+          {
+            "text": "Kim noted that India was classified as a low-income country by the World Bank until 2007.",
+            "source": "Business Today",
+            "item_id": "1169708302a00cd4c92a116d:article",
+            "composed": false
+          },
+          {
+            "text": "In 1990, India's GDP per capita was only 15% higher than the average for low-income countries.",
+            "source": "Business Today",
+            "item_id": "1169708302a00cd4c92a116d:article",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/latest/economy/story/indias-gdp-per-capita-catching-up-with-richer-nations-growth-worth-celebrating-korean-economist-562301-2026-10-18"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     }
   ]
