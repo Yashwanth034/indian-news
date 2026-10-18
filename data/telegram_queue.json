@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T03:12:09.792216+00:00",
-  "count": 6,
+  "generated_at": "2026-10-18T03:21:55.970422+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "c85e5766f649be2bf2dc7e83",
@@ -67,7 +67,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -257,7 +257,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -388,6 +388,98 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "da057651e5d75de4a74b24e5",
+      "story_id": "da057651e5d75de4a74b24e5",
+      "headline": "'Important ally and partner': Rubio leaves for India amid Trump’s Russian oil tariff threat",
+      "title": "'Important ally and partner': Rubio leaves for India amid Trump’s Russian oil tariff threat",
+      "summary": "Marco Rubio's visit to India aims to bolster energy collaboration and strategic partnerships. Following a halt on tariffs pertaining to Russian oil imports, he seeks to engage with External Affairs Minister S. Jaishankar in Mumbai to explore investment prospects. Notably, he will also tour Reliance Industries in Jamnagar and take part in a ministerial meeting in Uzbekistan centered around strategic alliances.",
+      "url": "https://timesofindia.indiatimes.com/india/important-ally-and-partner-rubio-leaves-for-india-amid-trumps-russian-oil-tariff-threat/articleshow/135023223.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "energy-environment",
+        "business-industry",
+        "international-affairs"
+      ],
+      "confidence": "medium",
+      "score": 78.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-18T03:15:07+00:00",
+      "published_at": "2026-10-18T03:15:07+00:00",
+      "effective_at": "2026-10-18T03:15:07+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'tariff' in title weight 40",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "maharashtra",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Marco Rubio's visit to India aims to bolster energy collaboration and strategic partnerships.",
+          "Following a halt on tariffs pertaining to Russian oil imports, he seeks to engage with External Affairs Minister S. Jaishankar in Mumbai to explore investment prospects."
+        ],
+        "body": [
+          "Notably, he will also tour Reliance Industries in Jamnagar and take part in a ministerial meeting in Uzbekistan centered around strategic alliances."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Mumbai"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Notably, he will also tour Reliance Industries in Jamnagar and take part in a ministerial meeting in Uzbekistan centered around strategic alliances.",
+            "source": "Times of India",
+            "item_id": "da057651e5d75de4a74b24e5",
+            "composed": false
+          },
+          {
+            "text": "Following a halt on tariffs pertaining to Russian oil imports, he seeks to engage with External Affairs Minister S. Jaishankar in Mumbai to explore investment prospects.",
+            "source": "Times of India",
+            "item_id": "da057651e5d75de4a74b24e5",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/important-ally-and-partner-rubio-leaves-for-india-amid-trumps-russian-oil-tariff-threat/articleshow/135023223.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5ac72c134d3619a9bfec8b14",
       "story_id": "5ac72c134d3619a9bfec8b14",
       "headline": "'India an important ally': Rubio explains why Trump paused sanctions on Russia oil buyers",
@@ -430,7 +522,7 @@
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -438,7 +530,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The US government has opted to lift specific sanctions concerning the import of Russian oil and gas.",
@@ -491,7 +583,7 @@
         "url": "https://timesofindia.indiatimes.com/business/india-business/india-an-important-ally-us-state-secy-rubio-explains-why-trump-paused-sanctions-on-russia-oil-buyers/articleshow/135022973.cms"
       },
       "group_size": 5,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -545,7 +637,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -668,7 +760,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -690,7 +782,7 @@
         "They do it deliberately.",
         "They believe it brings pressure on My Lords,” Mr. Mehta said."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Chief Justice of India Surya Kant said on Friday (October 16, 2026) that people who had come to the Supreme Court for relief, later turned around to “condemn, criticise” the institution.",
@@ -726,7 +818,7 @@
         "url": "https://www.thehindu.com/news/national/supreme-court-issues-notices-to-mp-sanjay-raut-journalist-nikhil-wagle-over-remarks-targeting-cji-judiciary/article71591651.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -767,7 +859,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "geo: national",
         "dominant event 40, stack 20, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
