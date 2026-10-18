@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:02:34.132864+00:00",
+  "generated_at": "2026-10-18T03:12:09.792216+00:00",
   "count": 6,
   "stories": [
     {
@@ -67,7 +67,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -257,7 +257,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -388,79 +388,72 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "15509890a9cfdaa004106d75",
-      "story_id": "15509890a9cfdaa004106d75",
-      "headline": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
-      "title": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
-      "summary": "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
-      "url": "https://www.thehansindia.com/news/international/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-1133472",
-      "source": "The Hans India",
+      "event_id": "5ac72c134d3619a9bfec8b14",
+      "story_id": "5ac72c134d3619a9bfec8b14",
+      "headline": "'India an important ally': Rubio explains why Trump paused sanctions on Russia oil buyers",
+      "title": "'India an important ally': Rubio explains why Trump paused sanctions on Russia oil buyers",
+      "summary": "The US government has opted to lift specific sanctions concerning the import of Russian oil and gas. This includes a review period of 60 days to evaluate the economic effects on key importers such as India and China. Senator Marco Rubio highlighted India's persistent dependency on Russian energy sources despite attempts to explore alternatives.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-an-important-ally-us-state-secy-rubio-explains-why-trump-paused-sanctions-on-russia-oil-buyers/articleshow/135022973.cms",
+      "source": "Times of India",
       "primary_source": false,
       "tier": 2,
-      "category": "economy-finance",
+      "category": "energy-environment",
       "secondary_categories": [
-        "international-affairs",
-        "energy-environment"
+        "international-affairs"
       ],
-      "confidence": "low",
-      "score": 66.0,
+      "confidence": "medium",
+      "score": 98.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-18T01:51:35+00:00",
-      "published_at": "2026-10-18T01:51:35+00:00",
-      "effective_at": "2026-10-18T01:51:35+00:00",
+      "event_time": "2026-10-18T02:59:53+00:00",
+      "published_at": "2026-10-18T02:59:53+00:00",
+      "effective_at": "2026-10-18T02:59:53+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        },
-        "telangana-today": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "telangana-today"
+            "times-of-india"
           ],
           "count": 1
         }
       },
-      "is_wire_echo": true,
+      "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
+        "category: energy-environment (importance 1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "event term: 'sanctions' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
+        "recency: breaking (0.2h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
-          "Relief for India’s oil imports."
+          "The US government has opted to lift specific sanctions concerning the import of Russian oil and gas.",
+          "This includes a review period of 60 days to evaluate the economic effects on key importers such as India and China."
         ],
         "body": [
+          "Senator Marco Rubio highlighted India's persistent dependency on Russian energy sources despite attempts to explore alternatives.",
+          "Russia is making an ambitious push to sell its fifth-generation stealth fighter, the Su-57E, to the Indian Air Force...",
+          "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
           "US President Donald Trump wants to take a 60-day period to analyse what imposing sanctions on Russia and tariffs on other countries would mean for the global economy, Secretary of State Marco Rubio said here.",
           "Rubio was responding to questions on Saturday evening ahead of his departure for a week-long tour of Uzbekistan and India.",
           "\"I think the president wants to take the 60-day period of time to sort of analyse what imposing both sanctions and tariffs will mean to the global economy, and even to the US economy,\" Rubio said in response to a question on the waivers granted by Trump under the Sanctioning Russia and Iran Act or the Graham Act.",
           "On Friday, Trump waived key provisions of the Graham Act that authorised punitive tariffs on countries purchasing Russian oil, offering relief to India.",
-          "The executive order signed by Trump on Friday states that the waivers shall remain in effect until such time as the President or the Secretary of State, in consultation with the Secretary of the."
+          "The executive order signed by Trump on Friday states that the waivers shall remain in effect until such time as the President or the Secretary of State, in consultation with the Secretary of the.",
+          "Relief for India’s oil imports."
         ],
         "bullets": [],
         "sentences": [
@@ -477,20 +470,28 @@
             "composed": false
           },
           {
-            "text": "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
-            "source": "The Hans India",
-            "item_id": "15509890a9cfdaa004106d75",
+            "text": "This includes a review period of 60 days to evaluate the economic effects on key importers such as India and China.",
+            "source": "Times of India",
+            "item_id": "5ac72c134d3619a9bfec8b14",
+            "composed": false
+          },
+          {
+            "text": "Russia is making an ambitious push to sell its fifth-generation stealth fighter, the Su-57E, to the Indian Air Force...",
+            "source": "Defence News India",
+            "item_id": "257d58c7075c06778d7d52a2",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "Times of India",
         "corroborating": [
+          "Defence News India",
+          "The Hans India",
           "Business Standard"
         ],
-        "url": "https://www.thehansindia.com/news/international/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-1133472"
+        "url": "https://timesofindia.indiatimes.com/business/india-business/india-an-important-ally-us-state-secy-rubio-explains-why-trump-paused-sanctions-on-russia-oil-buyers/articleshow/135022973.cms"
       },
-      "group_size": 3,
-      "label": "📰 NEWS",
+      "group_size": 5,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -544,7 +545,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -627,25 +628,25 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "4bdecac330eb6f36dd12186b",
-      "story_id": "4bdecac330eb6f36dd12186b",
-      "headline": "Supreme Court seeks replies from Centre, NCPCR on PIL for framework to protect children from social media risks",
-      "title": "Supreme Court seeks replies from Centre, NCPCR on PIL for framework to protect children from social media risks",
-      "summary": "The plea called for mandatory age verification, age-appropriate access, verifiable parental consent and stronger safeguards against cyberbullying, sexual exploitation, harmful content and excessive platform use.",
-      "url": "https://www.thehindu.com/news/national/supreme-court-seeks-replies-from-centre-ncpcr-on-pil-for-framework-to-protect-children-from-social-media-risks/article71591871.ece",
+      "event_id": "969db29491c3c2b67d56f97a",
+      "story_id": "969db29491c3c2b67d56f97a",
+      "headline": "Supreme Court issues notices to MP Sanjay Raut, journalist Nikhil Wagle over remarks targeting CJI, judiciary",
+      "title": "Supreme Court issues notices to MP Sanjay Raut, journalist Nikhil Wagle over remarks targeting CJI, judiciary",
+      "summary": "Oral observation made while issuing notice in a contempt petition against MP Sanjay Raut and journalist Nikhil Wagle",
+      "url": "https://www.thehindu.com/news/national/supreme-court-issues-notices-to-mp-sanjay-raut-journalist-nikhil-wagle-over-remarks-targeting-cji-judiciary/article71591651.ece",
       "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 85.0,
+      "score": 80.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-18T01:06:36+00:00",
-      "published_at": "2026-10-18T01:06:36+00:00",
-      "effective_at": "2026-10-18T01:06:36+00:00",
+      "event_time": "2026-10-18T02:58:27+00:00",
+      "published_at": "2026-10-18T02:58:27+00:00",
+      "effective_at": "2026-10-18T02:58:27+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -667,7 +668,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -676,62 +677,56 @@
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The Supreme Court on Friday (October 16, 2026) sought replies from the Centre and the National Commission for Protection of Child Rights on a PIL filed by an Indore-based school seeking a comprehensive and enforceable national framework to protect children from the alleged risks associated with social media platforms.",
-        "A Bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi took note of the plea filed by Emerald Heights International School and its director of academics, Siddharth Singh Girnar, and issued notices to the ministries of women and child development and law and justice, and the National Commission for Protection of Child Rights (NCPCR).",
-        "The Bench tagged the plea, filed by Vaibhav Choudhary, with a pending petition and listed it for hearing on December 7.",
-        "“Issue an appropriate writ, order or direction declaring that the continuing failure of the respondents to provide effective protection to children against foreseeable risks of grooming, sexual exploitation, cyber-bullying, exposure to age-inappropriate and harmful content, behavioural profiling, compulsive-use design and other harms associated with commercial social media platforms is arbitrary, unreasonable and violative of Articles 14, 15(3), 21 and 21A of the Constitution,” the plea said.",
-        "It called for mandatory age verification, age-appropriate access, verifiable parental consent and stronger safeguards against cyberbullying, sexual exploitation, harmful content and excessive platform use.",
-        "The plea also sought a direction to the Centre to frame, notify and operationalise a dedicated, comprehensive and enforceable regulatory framework for the protection of children from harms arising from their access to and use of social media platforms.",
-        "“Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate,” the plea said.",
-        "It also sought a direction to the Centre to “frame and enforce appropriate age-based restrictions on the creation, maintenance and use of accounts by children on designated social-media platforms”.",
-        "The petitioner school referred to instances of underage children operating social media accounts, being contacted by strangers, facing cyber-bullying and harassment, and experiencing sleep deprivation and reduced concentration following prolonged use of mobile phones.",
-        "The plea also cited concerns raised by parents over children's excessive screen time, anxiety about online popularity, body-image issues, social withdrawal and declining interest in studies and outdoor activities.",
-        "Schools and parents cannot tackle the problem independently because the risks are linked not only to the content available online but also to the design and operation of platforms that encourage prolonged engagement, it said.",
-        "Children are particularly vulnerable to grooming, sexual exploitation, blackmail, impersonation, circulation of private images and exposure to violent, sexually explicit or self-harm-related material, the plea said."
+        "Chief Justice of India Surya Kant said on Friday (October 16, 2026) that people who had come to the Supreme Court for relief, later turned around to “condemn, criticise” the institution.",
+        "The oral observation came during the hearing of a contempt petition filed by the Supreme Court Bar Association (SCBA), represented by senior advocate Pradeep Rai, against senior journalist Nikhil Wagle and Shiv Sena (UBT) Rajya Sabha MP Sanjay Raut over their public remarks against the Chief Justice of India.",
+        "Attorney-General R. Venkataramani had consented to the SCBA's request to initiate contempt proceedings in the apex court.",
+        "“We had first thought to ignore it.",
+        "But there are others who get instigated by all this and do things which are inappropriate.",
+        "This completely disreputes this institution,” Mr. Rai submitted before a Bench of Chief Justice Kant and Justice Joymalya Bagchi.",
+        "Chief Justice Kant initially said people who make public comments against the judiciary don't know they are being trapped.",
+        "Solicitor General Tushar Mehta, who was present in the courtroom, said such disparaging comments were made “deliberately”.",
+        "“They know.",
+        "They understand.",
+        "They do it deliberately.",
+        "They believe it brings pressure on My Lords,” Mr. Mehta said."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court on Friday (October 16, 2026) sought replies from the Centre and the National Commission for Protection of Child Rights on a PIL filed by an Indore-based school seeking a comprehensive and enforceable national framework to protect children from the alleged risks associated with social media platforms.",
-          "A Bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi took note of the plea filed by Emerald Heights International School and its director of academics, Siddharth Singh Girnar, and issued notices to the ministries of women and child development and law and justice, and the National Commission for Protection of Child Rights (NCPCR)."
+          "Chief Justice of India Surya Kant said on Friday (October 16, 2026) that people who had come to the Supreme Court for relief, later turned around to “condemn, criticise” the institution.",
+          "The oral observation came during the hearing of a contempt petition filed by the Supreme Court Bar Association (SCBA), represented by senior advocate Pradeep Rai, against senior journalist Nikhil Wagle and Shiv Sena (UBT) Rajya Sabha MP Sanjay Raut over their public remarks against the Chief Justice of India."
         ],
         "body": [
-          "The Bench tagged the plea, filed by Vaibhav Choudhary, with a pending petition and listed it for hearing on December 7.",
-          "“Issue an appropriate writ, order or direction declaring that the continuing failure of the respondents to provide effective protection to children against foreseeable risks of grooming, sexual exploitation, cyber-bullying, exposure to age-inappropriate and harmful content, behavioural profiling, compulsive-use design and other harms associated with commercial social media platforms is arbitrary, unreasonable and violative of Articles 14, 15(3), 21 and 21A of the Constitution,” the plea said.",
-          "It called for mandatory age verification, age-appropriate access, verifiable parental consent and stronger safeguards against cyberbullying, sexual exploitation, harmful content and excessive platform use.",
-          "The plea also sought a direction to the Centre to frame, notify and operationalise a dedicated, comprehensive and enforceable regulatory framework for the protection of children from harms arising from their access to and use of social media platforms.",
-          "“Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate,” the plea said.",
-          "It also sought a direction to the Centre to “frame and enforce appropriate age-based restrictions on the creation, maintenance and use of accounts by children on designated social-media platforms”.",
-          "The petitioner school referred to instances of underage children operating social media accounts, being contacted by strangers, facing cyber-bullying and harassment, and experiencing sleep deprivation and reduced concentration following prolonged use of mobile phones.",
-          "The plea also cited concerns raised by parents over children's excessive screen time, anxiety about online popularity, body-image issues, social withdrawal and declining interest in studies and outdoor activities."
+          "Attorney-General R. Venkataramani had consented to the SCBA's request to initiate contempt proceedings in the apex court.",
+          "“We had first thought to ignore it.",
+          "But there are others who get instigated by all this and do things which are inappropriate.",
+          "This completely disreputes this institution,” Mr. Rai submitted before a Bench of Chief Justice Kant and Justice Joymalya Bagchi.",
+          "Chief Justice Kant initially said people who make public comments against the judiciary don't know they are being trapped.",
+          "Solicitor General Tushar Mehta, who was present in the courtroom, said such disparaging comments were made “deliberately”.",
+          "“They know.",
+          "They understand."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Supreme Court on Friday (October 16, 2026) sought replies from the Centre and the National Commission for Protection of Child Rights on a PIL filed by an Indore-based school seeking a comprehensive and enforceable national framework to protect children from the alleged risks associated with social media platforms.",
+            "text": "Chief Justice of India Surya Kant said on Friday (October 16, 2026) that people who had come to the Supreme Court for relief, later turned around to “condemn, criticise” the institution.",
             "source": "The Hindu",
-            "item_id": "4bdecac330eb6f36dd12186b:article",
+            "item_id": "969db29491c3c2b67d56f97a:article",
             "composed": false
           },
           {
-            "text": "“Issue an appropriate writ, order or direction declaring that the continuing failure of the respondents to provide effective protection to children against foreseeable risks of grooming, sexual exploitation, cyber-bullying, exposure to age-inappropriate and harmful content, behavioural profiling, compulsive-use design and other harms associated with commercial social media platforms is arbitrary, unreasonable and violative of Articles 14, 15(3), 21 and 21A of the Constitution,” the plea said.",
+            "text": "Chief Justice Kant initially said people who make public comments against the judiciary don't know they are being trapped.",
             "source": "The Hindu",
-            "item_id": "4bdecac330eb6f36dd12186b:article",
-            "composed": false
-          },
-          {
-            "text": "“Issue a writ of mandamus directing the Centre to prohibit the use of social media platforms by children below such age as may be prescribed, and to regulate the use of such platforms by children above the said age, in such manner as may be found appropriate,” the plea said.",
-            "source": "The Hindu",
-            "item_id": "4bdecac330eb6f36dd12186b:article",
+            "item_id": "969db29491c3c2b67d56f97a:article",
             "composed": false
           }
         ],
         "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/supreme-court-seeks-replies-from-centre-ncpcr-on-pil-for-framework-to-protect-children-from-social-media-risks/article71591871.ece"
+        "url": "https://www.thehindu.com/news/national/supreme-court-issues-notices-to-mp-sanjay-raut-journalist-nikhil-wagle-over-remarks-targeting-cji-judiciary/article71591651.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -772,7 +767,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "geo: national",
         "dominant event 40, stack 20, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
