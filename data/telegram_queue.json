@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T02:32:39.003890+00:00",
-  "count": 6,
+  "generated_at": "2026-10-18T02:42:05.024724+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "c85e5766f649be2bf2dc7e83",
@@ -67,7 +67,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -257,7 +257,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -388,6 +388,104 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "15509890a9cfdaa004106d75",
+      "story_id": "15509890a9cfdaa004106d75",
+      "headline": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
+      "title": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
+      "summary": "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
+      "url": "https://www.thehansindia.com/news/international/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-1133472",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "international-affairs",
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 66.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-18T01:51:35+00:00",
+      "published_at": "2026-10-18T01:51:35+00:00",
+      "effective_at": "2026-10-18T01:51:35+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'sanctions' in title weight 40",
+        "event term: 'sanctions' in summary weight 24",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.8h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
+          "Relief for India’s oil imports."
+        ],
+        "body": [
+          "US President Donald Trump wants to take a 60-day period to analyse what imposing sanctions on Russia and tariffs on other countries would mean for the global economy, Secretary of State Marco Rubio said here.",
+          "Rubio was responding to questions on Saturday evening ahead of his departure for a week-long tour of Uzbekistan and India.",
+          "\"I think the president wants to take the 60-day period of time to sort of analyse what imposing both sanctions and tariffs will mean to the global economy, and even to the US economy,\" Rubio said in response to a question on the waivers granted by Trump under the Sanctioning Russia and Iran Act or the Graham Act.",
+          "On Friday, Trump waived key provisions of the Graham Act that authorised punitive tariffs on countries purchasing Russian oil, offering relief to India.",
+          "The executive order signed by Trump on Friday states that the waivers shall remain in effect until such time as the President or the Secretary of State, in consultation with the Secretary of the."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Rubio was responding to questions on Saturday evening ahead of his departure for a week-long tour of Uzbekistan and India.",
+            "source": "Business Standard",
+            "item_id": "3ac65dccdfaa84329f12c449",
+            "composed": false
+          },
+          {
+            "text": "On Friday, Trump waived key provisions of the Graham Act that authorised punitive tariffs on countries purchasing Russian oil, offering relief to India.",
+            "source": "Business Standard",
+            "item_id": "3ac65dccdfaa84329f12c449",
+            "composed": false
+          },
+          {
+            "text": "US President Donald Trump plans a 60-day review of Russia sanctions and tariffs, with Secretary of State Marco Rubio highlighting India's energy needs and strategic partnership.",
+            "source": "The Hans India",
+            "item_id": "15509890a9cfdaa004106d75",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "Business Standard"
+        ],
+        "url": "https://www.thehansindia.com/news/international/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-1133472"
+      },
+      "group_size": 3,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "b0d43a85ad1005fa9355fe70",
       "story_id": "b0d43a85ad1005fa9355fe70",
       "headline": "CS Ladakh highlights infrastructure achievements, progress on constitutional safeguards for Ladakh",
@@ -438,7 +536,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -561,7 +659,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -666,7 +764,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "geo: national",
         "dominant event 40, stack 20, score 40 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -788,7 +886,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 38.2, score 38.2 -> HIGH"
