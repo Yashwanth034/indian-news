@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T20:02:33.813320+00:00",
-  "count": 3,
+  "generated_at": "2026-10-19T20:11:52.229164+00:00",
+  "count": 4,
   "stories": [
     {
       "event_id": "a3133b713c1407c7af0a7e13",
@@ -57,7 +57,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'gdp' in summary weight 22.8",
         "scale: state scope (gujarat)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 42, score 49.2 -> HIGH"
@@ -239,7 +239,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (maharashtra)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -302,33 +302,36 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "193d7169b57b7fa2a5caf2db",
-      "story_id": "193d7169b57b7fa2a5caf2db",
-      "headline": "India-New Zealand FTA: Comm Min notifies tariff rate quota for apples, kiwifruit, Manuka honey",
-      "title": "India-New Zealand FTA: Comm Min notifies tariff rate quota for apples, kiwifruit, Manuka honey",
-      "summary": "India is allowing specified quantities of these products to enter at concessional import duty rates under the pact",
-      "url": "https://www.thehindubusinessline.com/economy/india-new-zealand-fta-comm-min-notifies-tariff-rate-quota-for-apples-kiwifruit-manuka-honey/article71602822.ece",
-      "source": "The Hindu BusinessLine",
+      "event_id": "8906eb7783b044cb0a7d7d32",
+      "story_id": "8906eb7783b044cb0a7d7d32",
+      "headline": "JKERA told to explore new funding sources",
+      "title": "JKERA told to explore new funding sources",
+      "summary": "Srinagar, Oct 19: Secretary, Planning, Development and Monitoring Department, Dr Owais Ahmad, on Monday directed the J&K Economic Reconstruction Agency (JKERA) to prepare a sustainable, Union Territory-wide infrastructure roadmap with a pipeline of innovative, fund-ready projects and proactively explore funding through Central schemes and other agencies to accelerate development across Jammu and Kashmir. Chairing a meeting to review the agency’s overall functioning, Dr Owais stressed the need to identify viable projects and mobilise additional resources to strengthen infrastructure development across key sectors in the Union Territory. Chief Executive Officer JKERA Akriti Sagar informed that since its creation in 2004 the J&KERA has played a pivotal role in up gradation of basic infrastructure in the Union Territory of J&K. She apprised that the agency has successfully implemented three major Externally Aided Projects (EAPs) across Jammu and Kashmir. These included the Multisector Project for Infrastructure Rehabilitation in J&K (MPIR) and the Jammu and Kashmir Urban Sector Development Investment Programme (JKUSDIP), both funded by the Asian Development Bank, besides the World Bank-funded Jhelum Tawi Flood Recovery Project (JTFRP). She added that major areas of intervention by J&KERA included basic infrastructure and critical infrastructure in health, education, livelihood and strengthening of disaster management. These included construction of state-of-the-art infrastructure in urban transportation - flyovers and grade separators, mega storm water drainage projects, construction of rural roads and bridges, buildings in health, higher education and school education sectors, livelihood initiatives, disaster management and urban reforms like water metering and capacity building of urban local bodies. The Secretary was apprised that JKERA pioneered advanced technologies including seismic-proof structures, rigid concrete pavements, BaLA-designed schools, certified Green buildings, pneumatic tube systems, arch bridges, gaseous chlorination, trenchless drainage and restoration using devar stone and dhajji-dewari designs. Under the World Bank-funded JTFRP, the agency has completed 225 sub-projects covering major roads, bridges, health and education infrastructure, oxygen plants in remote areas, medical equipment, ambulances, modern fire tenders, rescue gear and IT systems for disaster management including DSS, IOFS and disaster risk database besides flood mitigation studies for Jhelum and Tawi basins.",
+      "url": "https://risingkashmir.com/jammu-and-kashmir/jkera-told-to-explore-new-funding-sources-12690766",
+      "source": "Rising Kashmir",
       "primary_source": false,
       "tier": 3,
-      "category": "economy-finance",
+      "category": "transport-infrastructure",
       "secondary_categories": [
-        "international-affairs"
+        "education",
+        "weather-disasters",
+        "health",
+        "agriculture-rural"
       ],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.0,
+      "score": 59.4,
+      "priority_score": 38.4,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-19T14:03:38+00:00",
-      "published_at": "2026-10-19T14:03:38+00:00",
-      "effective_at": "2026-10-19T14:03:38+00:00",
+      "event_time": "2026-10-19T20:05:47+00:00",
+      "published_at": "2026-10-19T20:05:47+00:00",
+      "effective_at": "2026-10-19T20:05:47+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "rising-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "businessline"
+            "rising-kashmir"
           ],
           "count": 1
         }
@@ -337,86 +340,206 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
+        "major: significance event 'Flood'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'disaster'",
+        "major: significance event 'flood'",
+        "category: transport-infrastructure (importance 1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
+        "source: tier 3 (rising-kashmir) +1",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'tariff' in title weight 40",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 40, stack 27.6, score 40 -> HIGH"
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.1h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 38.4, stack 18.2, score 38.4 -> HIGH"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
       "national_significance": true,
-      "article_sentences": [
-        "With the India-New Zealand free trade agreement set to be effective on October 20, the Commerce Ministry on Monday laid out a procedure to allocate concessional duty-based quotas for imports of apples, kiwifruit, and Manuka honey from the island nation.",
-        "Under the pact, India is providing Tariff Rate Quotas (TRQs) in a calibrated manner for apples, kiwifruit, Manuka Honey and Albumins, along with Minimum Import Price (MIP) provisions and other safeguard measures.",
-        "This approach ensures calibrated imports while protecting the domestic farmers' interests.",
-        "\"The procedure for allocation of TRQ under the India- New Zealand Free Trade Agreement is notified,\" the Directorate General of Foreign Trade (DGFT) said in a public notice.",
-        "India is allowing specified quantities of these products to enter at concessional import duty rates under the pact.",
-        "According to the notice, these provisions will take effect on October 20, 2026.",
-        "For apples, there will be no quota in the first year.",
-        "The quota will be 35,000 tonnes in the second year, rising to 37,500 tonnes in the third, 40,000 tonnes in the fourth and 42,500 tonnes in the fifth.",
-        "From the sixth year onwards, it will be 45,000 tonnes a year.",
-        "These imports will attract a 25 per cent duty, provided their cost, insurance and freight (CIF) value is at least USD 1.25 per kg.",
-        "The annual import window will run from April 1 to August 31.",
-        "At present, India has a 50 per cent import duty on apples."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "With the India-New Zealand free trade agreement set to be effective on October 20, the Commerce Ministry on Monday laid out a procedure to allocate concessional duty-based quotas for imports of apples, kiwifruit, and Manuka honey from the island nation.",
-          "Under the pact, India is providing Tariff Rate Quotas (TRQs) in a calibrated manner for apples, kiwifruit, Manuka Honey and Albumins, along with Minimum Import Price (MIP) provisions and other safeguard measures."
+          "Srinagar, Oct 19: Secretary, Planning, Development and Monitoring Department, Dr Owais Ahmad, on Monday directed the J&K Economic Reconstruction Agency (JKERA) to prepare a sustainable, Union Territory-wide infrastructure roadmap with a pipeline of innovative, fund-ready projects and proactively explore funding through Central schemes and other agencies to accelerate development across Jammu and Kashmir.",
+          "Chairing a meeting to review the agency’s overall functioning, Dr Owais stressed the need to identify viable projects and mobilise additional resources to strengthen infrastructure development across key sectors in the Union Territory."
         ],
         "body": [
-          "This approach ensures calibrated imports while protecting the domestic farmers' interests.",
-          "\"The procedure for allocation of TRQ under the India- New Zealand Free Trade Agreement is notified,\" the Directorate General of Foreign Trade (DGFT) said in a public notice.",
-          "India is allowing specified quantities of these products to enter at concessional import duty rates under the pact.",
-          "According to the notice, these provisions will take effect on October 20, 2026.",
-          "For apples, there will be no quota in the first year.",
-          "The quota will be 35,000 tonnes in the second year, rising to 37,500 tonnes in the third, 40,000 tonnes in the fourth and 42,500 tonnes in the fifth.",
-          "From the sixth year onwards, it will be 45,000 tonnes a year.",
-          "These imports will attract a 25 per cent duty, provided their cost, insurance and freight (CIF) value is at least USD 1.25 per kg."
+          "Chief Executive Officer JKERA Akriti Sagar informed that since its creation in 2004 the J&KERA has played a pivotal role in up gradation of basic infrastructure in the Union Territory of J&K. She apprised that the agency has successfully implemented three major Externally Aided Projects (EAPs) across Jammu and Kashmir.",
+          "These included the Multisector Project for Infrastructure Rehabilitation in J&K (MPIR) and the Jammu and Kashmir Urban Sector Development Investment Programme (JKUSDIP), both funded by the Asian Development Bank, besides the World Bank-funded Jhelum Tawi Flood Recovery Project (JTFRP).",
+          "She added that major areas of intervention by J&KERA included basic infrastructure and critical infrastructure in health, education, livelihood and strengthening of disaster management.",
+          "These included construction of state-of-the-art infrastructure in urban transportation - flyovers and grade separators, mega storm water drainage projects, construction of rural roads and bridges, buildings in health, higher education and school education sectors, livelihood initiatives, disaster management and urban reforms like water metering and capacity building of urban local bodies.",
+          "The Secretary was apprised that JKERA pioneered advanced technologies including seismic-proof structures, rigid concrete pavements, BaLA-designed schools, certified Green buildings, pneumatic tube systems, arch bridges, gaseous chlorination, trenchless drainage and restoration using devar stone and dhajji-dewari designs.",
+          "Under the World Bank-funded JTFRP, the agency has completed 225 sub-projects covering major roads, bridges, health and education infrastructure, oxygen plants in remote areas, medical equipment, ambulances, modern fire tenders, rescue gear and IT systems for disaster management including DSS, IOFS and disaster risk database besides flood mitigation studies for Jhelum and Tawi basins."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jammu"
+          }
+        ],
         "sentences": [
           {
-            "text": "According to the notice, these provisions will take effect on October 20, 2026.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "193d7169b57b7fa2a5caf2db:article",
+            "text": "Srinagar, Oct 19: Secretary, Planning, Development and Monitoring Department, Dr Owais Ahmad, on Monday directed the J&K Economic Reconstruction Agency (JKERA) to prepare a sustainable, Union Territory-wide infrastructure roadmap with a pipeline of innovative, fund-ready projects and proactively explore funding through Central schemes and other agencies to accelerate development across Jammu and Kashmir.",
+            "source": "Rising Kashmir",
+            "item_id": "8906eb7783b044cb0a7d7d32",
             "composed": false
           },
           {
-            "text": "With the India-New Zealand free trade agreement set to be effective on October 20, the Commerce Ministry on Monday laid out a procedure to allocate concessional duty-based quotas for imports of apples, kiwifruit, and Manuka honey from the island nation.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "193d7169b57b7fa2a5caf2db:article",
+            "text": "Chief Executive Officer JKERA Akriti Sagar informed that since its creation in 2004 the J&KERA has played a pivotal role in up gradation of basic infrastructure in the Union Territory of J&K. She apprised that the agency has successfully implemented three major Externally Aided Projects (EAPs) across Jammu and Kashmir.",
+            "source": "Rising Kashmir",
+            "item_id": "8906eb7783b044cb0a7d7d32",
             "composed": false
           },
           {
-            "text": "These imports will attract a 25 per cent duty, provided their cost, insurance and freight (CIF) value is at least USD 1.25 per kg.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "193d7169b57b7fa2a5caf2db:article",
+            "text": "Under the World Bank-funded JTFRP, the agency has completed 225 sub-projects covering major roads, bridges, health and education infrastructure, oxygen plants in remote areas, medical equipment, ambulances, modern fire tenders, rescue gear and IT systems for disaster management including DSS, IOFS and disaster risk database besides flood mitigation studies for Jhelum and Tawi basins.",
+            "source": "Rising Kashmir",
+            "item_id": "8906eb7783b044cb0a7d7d32",
             "composed": false
           },
           {
-            "text": "The quota will be 35,000 tonnes in the second year, rising to 37,500 tonnes in the third, 40,000 tonnes in the fourth and 42,500 tonnes in the fifth.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "193d7169b57b7fa2a5caf2db:article",
+            "text": "These included the Multisector Project for Infrastructure Rehabilitation in J&K (MPIR) and the Jammu and Kashmir Urban Sector Development Investment Programme (JKUSDIP), both funded by the Asian Development Bank, besides the World Bank-funded Jhelum Tawi Flood Recovery Project (JTFRP).",
+            "source": "Rising Kashmir",
+            "item_id": "8906eb7783b044cb0a7d7d32",
             "composed": false
           }
         ],
-        "source": "The Hindu BusinessLine",
+        "source": "Rising Kashmir",
         "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/india-new-zealand-fta-comm-min-notifies-tariff-rate-quota-for-apples-kiwifruit-manuka-honey/article71602822.ece"
+        "url": "https://risingkashmir.com/jammu-and-kashmir/jkera-told-to-explore-new-funding-sources-12690766"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "7d07badb5899026d580f1863",
+      "story_id": "7d07badb5899026d580f1863",
+      "headline": "Mohra hydel capacity reduced amid water shortage",
+      "title": "Mohra hydel capacity reduced amid water shortage",
+      "summary": "Srinagar, Oct 19: The Jammu and Kashmir government has reduced the capacity of the 125-year-old Mohra Hydroelectric Power Project in north Kashmir’s Uri area from 9 megawatts (MW) to 6 MW due to limited water availability, even as the restoration plan for the historic project has been finalised. Rahul Yadav, Managing Director of the Jammu and Kashmir State Power Development Corporation (JKSPDC), told Rising Kashmir that the Detailed Project Report (DPR) prepared by IIT Roorkee was ready and the corporation was awaiting approval from higher authorities to initiate the tendering process. “The capacity has been reduced because of the limited water available to us. Currently, the water of the Jhelum is being utilised by NHPC’s ongoing Uri-I stage-II project, while we will be using water from Boniyar nallah for the Mohra power project,” Yadav said. He said the heritage project would be restored under the Public-Private Partnership (PPP) model. “The final DPR for its restoration has been prepared by IIT Roorkee. We are awaiting government approval so that the tendering process can begin,” he said. The latest development marks a significant step towards reviving one of Kashmir’s oldest hydropower installations, which has remained defunct since the devastating floods of 1992. The government has renewed efforts to renovate, modernise and upgrade the project, with the JKSPDC Board of Directors earlier deciding to engage a transaction adviser to take the restoration process forward. In May this year, a team from IIT Roorkee visited the project site in Uri following suggestions for changes to its design. The updated DPR was intended to establish the technical requirements, estimated costs and implementation framework for the restoration. The project had earlier been considered under the Prime Minister’s Development Package for small hydropower development. In a reply to the Assembly in March 2025, the government had said IIT Roorkee, following a feasibility assessment conducted through the Ministry of New and Renewable Energy (MNRE), had recommended a 10.5 MW project for central financial assistance. The estimated project cost was Rs 135.02 crore at 2022 price levels, while the proposal for financial assistance was under appraisal with the Centre, the government had informed the House. Commissioned in 1905, the Mohra Hydroelectric Project played a pioneering role in bringing electricity to Srinagar when hydropower generation was still in its early stages in the region. One of its distinctive engineering features was an approximately 11-kilometre-long wooden flume that carried water from the upper reaches to the powerhouse to drive its turbines. The water-conductor system reflected the engineering challenges of the mountainous terrain and also served local irrigation needs. The project initially had an installed capacity of around 4 MW, which was subsequently enhanced. A 9 MW powerhouse was commissioned in 1962, while the project’s capacity was later reported at 10.5 MW. However, the devastating floods of 1992 severely damaged its infrastructure, eventually bringing power generation to a halt. For residents of Uri, the proposed restoration carries significance beyond electricity generation. The revival could help preserve a landmark of Kashmir’s industrial and technological history while opening up opportunities for heritage tourism and local employment.",
+      "url": "https://risingkashmir.com/jammu-and-kashmir/mohra-hydel-capacity-reduced-amid-water-shortage-12690765",
+      "source": "Rising Kashmir",
+      "primary_source": false,
+      "tier": 3,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "weather-disasters",
+        "national-politics",
+        "education",
+        "jobs-employment",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 95.4,
+      "priority_score": 38.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-19T20:02:31+00:00",
+      "published_at": "2026-10-19T20:02:31+00:00",
+      "effective_at": "2026-10-19T20:02:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "rising-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'floods'",
+        "major: significance event 'floods'",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (rising-kashmir) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'floods' in summary weight 38.4",
+        "event term: 'final' in summary weight 6",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.2h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 38.4, stack 24.2, score 38.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Srinagar, Oct 19: The Jammu and Kashmir government has reduced the capacity of the 125-year-old Mohra Hydroelectric Power Project in north Kashmir’s Uri area from 9 megawatts (MW) to 6 MW due to limited water availability, even as the restoration plan for the historic project has been finalised.",
+          "Rahul Yadav, Managing Director of the Jammu and Kashmir State Power Development Corporation (JKSPDC), told Rising Kashmir that the Detailed Project Report (DPR) prepared by IIT Roorkee was ready and the corporation was awaiting approval from higher authorities to initiate the tendering process."
+        ],
+        "body": [
+          "“The capacity has been reduced because of the limited water available to us.",
+          "Currently, the water of the Jhelum is being utilised by NHPC’s ongoing Uri-I stage-II project, while we will be using water from Boniyar nallah for the Mohra power project,” Yadav said.",
+          "He said the heritage project would be restored under the Public-Private Partnership (PPP) model.",
+          "“The final DPR for its restoration has been prepared by IIT Roorkee.",
+          "We are awaiting government approval so that the tendering process can begin,” he said.",
+          "The latest development marks a significant step towards reviving one of Kashmir’s oldest hydropower installations, which has remained defunct since the devastating floods of 1992.",
+          "The government has renewed efforts to renovate, modernise and upgrade the project, with the JKSPDC Board of Directors earlier deciding to engage a transaction adviser to take the restoration process forward.",
+          "In May this year, a team from IIT Roorkee visited the project site in Uri following suggestions for changes to its design.",
+          "The updated DPR was intended to establish the technical requirements, estimated costs and implementation framework for the restoration.",
+          "The project had earlier been considered under the Prime Minister’s Development Package for small hydropower development.",
+          "In a reply to the Assembly in March 2025, the government had said IIT Roorkee, following a feasibility assessment conducted through the Ministry of New and Renewable Energy (MNRE), had recommended a 10.5 MW project for central financial assistance.",
+          "The estimated project cost was Rs 135.02 crore at 2022 price levels, while the proposal for financial assistance was under appraisal with the Centre, the government had informed the House.",
+          "Commissioned in 1905, the Mohra Hydroelectric Project played a pioneering role in bringing electricity to Srinagar when hydropower generation was still in its early stages in the region.",
+          "One of its distinctive engineering features was an approximately 11-kilometre-long wooden flume that carried water from the upper reaches to the powerhouse to drive its turbines.",
+          "The water-conductor system reflected the engineering challenges of the mountainous terrain and also served local irrigation needs.",
+          "The project initially had an installed capacity of around 4 MW, which was subsequently enhanced.",
+          "A 9 MW powerhouse was commissioned in 1962, while the project’s capacity was later reported at 10.5 MW.",
+          "However, the devastating floods of 1992 severely damaged its infrastructure, eventually bringing power generation to a halt.",
+          "For residents of Uri, the proposed restoration carries significance beyond electricity generation.",
+          "The revival could help preserve a landmark of Kashmir’s industrial and technological history while opening up opportunities for heritage tourism and local employment."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Uri"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Srinagar, Oct 19: The Jammu and Kashmir government has reduced the capacity of the 125-year-old Mohra Hydroelectric Power Project in north Kashmir’s Uri area from 9 megawatts (MW) to 6 MW due to limited water availability, even as the restoration plan for the historic project has been finalised.",
+            "source": "Rising Kashmir",
+            "item_id": "7d07badb5899026d580f1863",
+            "composed": false
+          },
+          {
+            "text": "The estimated project cost was Rs 135.02 crore at 2022 price levels, while the proposal for financial assistance was under appraisal with the Centre, the government had informed the House.",
+            "source": "Rising Kashmir",
+            "item_id": "7d07badb5899026d580f1863",
+            "composed": false
+          },
+          {
+            "text": "Currently, the water of the Jhelum is being utilised by NHPC’s ongoing Uri-I stage-II project, while we will be using water from Boniyar nallah for the Mohra power project,” Yadav said.",
+            "source": "Rising Kashmir",
+            "item_id": "7d07badb5899026d580f1863",
+            "composed": false
+          },
+          {
+            "text": "A 9 MW powerhouse was commissioned in 1962, while the project’s capacity was later reported at 10.5 MW.",
+            "source": "Rising Kashmir",
+            "item_id": "7d07badb5899026d580f1863",
+            "composed": false
+          }
+        ],
+        "source": "Rising Kashmir",
+        "corroborating": [],
+        "url": "https://risingkashmir.com/jammu-and-kashmir/mohra-hydel-capacity-reduced-amid-water-shortage-12690765"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     }
   ]
 }
