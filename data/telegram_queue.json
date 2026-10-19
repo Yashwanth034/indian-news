@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T10:32:27.422768+00:00",
-  "count": 10,
+  "generated_at": "2026-10-19T10:42:03.149343+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "1664bea9d09cf4cd4eb8658c",
@@ -53,7 +53,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -177,7 +177,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: state scope (karnataka)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 70, stack 24.4, score 70 -> URGENT"
@@ -301,7 +301,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -427,7 +427,7 @@
         "event term: 'final' in title weight 10",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 36.4, score 49.2 -> HIGH"
@@ -495,6 +495,220 @@
       "enrichment": "article"
     },
     {
+      "event_id": "34a4064380a074bd7ec4f651",
+      "story_id": "34a4064380a074bd7ec4f651",
+      "headline": "Peaceful protest is a right, but protesters' credentials matter: Bombay HC",
+      "title": "Peaceful protest is a right, but protesters' credentials matter: Bombay HC",
+      "summary": "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action. A bench of Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna directed the Maharashtra government to respond to petitions alleging the illegal detention of individuals by the police during recent anti-Chief Election Commissioner (CEC) protests in the city. The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi. The plea had sought a direction to the police not to detain any person taking part in such peaceful protests. Advocate Gayatri Singh on Monday submitted an application filed by four persons who were detained by the police last week after participating in a peaceful",
+      "url": "https://www.business-standard.com/india-news/peaceful-protest-is-a-right-but-protesters-credentials-matter-bombay-hc-126101900460_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics",
+        "crime-public-safety"
+      ],
+      "confidence": "high",
+      "score": 80.4,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-19T08:30:00+00:00",
+      "published_at": "2026-10-19T08:30:00+00:00",
+      "effective_at": "2026-10-19T08:30:00+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        },
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (2.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 34.8, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action.",
+          "A bench of Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna directed the Maharashtra government to respond to petitions alleging the illegal detention of individuals by the police during recent anti-Chief Election Commissioner (CEC) protests in the city."
+        ],
+        "body": [
+          "The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi.",
+          "The plea had sought a direction to the police not to detain any person taking part in such peaceful protests.",
+          "Advocate Gayatri Singh on Monday submitted an application filed by four persons who were detained by the police last week after participating in a peaceful."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action.",
+            "source": "Business Standard",
+            "item_id": "34a4064380a074bd7ec4f651",
+            "composed": false
+          },
+          {
+            "text": "The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi.",
+            "source": "Business Standard",
+            "item_id": "34a4064380a074bd7ec4f651",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/peaceful-protest-is-a-right-but-protesters-credentials-matter-bombay-hc-126101900460_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "6ff6bb1b3b13a58aeb25ea78",
+      "story_id": "6ff6bb1b3b13a58aeb25ea78",
+      "headline": "Supreme Court says no prior approval needed to probe public servant's bribe demand",
+      "title": "Supreme Court says no prior approval needed to probe public servant's bribe demand",
+      "summary": "Supreme Court says no prior approval needed to probe public servant's bribe demand",
+      "url": "https://www.indiatoday.in/india/story/supreme-court-bribe-probe-no-prior-approval-section-17a-ptag-3020737-2026-10-19",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-19T10:40:29+00:00",
+      "published_at": "2026-10-19T10:40:29+00:00",
+      "effective_at": "2026-10-19T10:40:29+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court dismissed Rajasthan constable Tejaram's appeal against a corruption charge.",
+        "The ruling limits Section 17A protection to decisions or recommendations made during official duties.",
+        "Prior approval is not required to investigate an alleged bribe demand by a public servant under the Prevention of Corruption Act because such an act is not connected with the discharge of official duties, the Supreme Court has ruled, according to news agency Press Trust of India.",
+        "A bench of Justices S V N Bhatti and N V Anjaria made the observation while dismissing Rajasthan police constable Tejaram's appeal against the framing of a corruption charge.",
+        "The judgment was delivered on October 16.",
+        "Writing the judgment for the bench, Justice Anjaria upheld the Rajasthan High Court's refusal to interfere with a trial court order framing a charge against Tejaram under Section 7 of the Prevention of Corruption Act.",
+        "Section 7 of the Act, as amended in 2018, provides punishment for public servants who accept, obtain or attempt to obtain an undue advantage to improperly or dishonestly perform a public duty.",
+        "The Supreme Court rejected Tejaram's argument that the investigating agency had failed to obtain prior approval under Section 17A of the Act.",
+        "The provision requires prior approval for an inquiry or investigation into certain offences linked to decisions or recommendations made by public servants while performing their official functions.",
+        "Citing earlier judgments, the court said offences such as misappropriation, falsification of accounts, cheating, criminal breach of trust and receiving bribes were outside the scope of Section 17A.",
+        "According to PTI, the judgment said: \"An unequivocal position of law emanates from the...",
+        "decisions about the scope and extent of applicability of section 17A of the PC Act which contemplates taking a prior approval before investigation or inquiry against a public servant.\""
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court dismissed Rajasthan constable Tejaram's appeal against a corruption charge.",
+          "The ruling limits Section 17A protection to decisions or recommendations made during official duties."
+        ],
+        "body": [
+          "Prior approval is not required to investigate an alleged bribe demand by a public servant under the Prevention of Corruption Act because such an act is not connected with the discharge of official duties, the Supreme Court has ruled, according to news agency Press Trust of India.",
+          "A bench of Justices S V N Bhatti and N V Anjaria made the observation while dismissing Rajasthan police constable Tejaram's appeal against the framing of a corruption charge.",
+          "The judgment was delivered on October 16.",
+          "Writing the judgment for the bench, Justice Anjaria upheld the Rajasthan High Court's refusal to interfere with a trial court order framing a charge against Tejaram under Section 7 of the Prevention of Corruption Act.",
+          "Section 7 of the Act, as amended in 2018, provides punishment for public servants who accept, obtain or attempt to obtain an undue advantage to improperly or dishonestly perform a public duty.",
+          "The Supreme Court rejected Tejaram's argument that the investigating agency had failed to obtain prior approval under Section 17A of the Act.",
+          "The provision requires prior approval for an inquiry or investigation into certain offences linked to decisions or recommendations made by public servants while performing their official functions.",
+          "Citing earlier judgments, the court said offences such as misappropriation, falsification of accounts, cheating, criminal breach of trust and receiving bribes were outside the scope of Section 17A. According to PTI, the judgment said: \"An unequivocal position of law emanates from the..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The judgment was delivered on October 16.",
+            "source": "India Today",
+            "item_id": "6ff6bb1b3b13a58aeb25ea78:article",
+            "composed": false
+          },
+          {
+            "text": "Section 7 of the Act, as amended in 2018, provides punishment for public servants who accept, obtain or attempt to obtain an undue advantage to improperly or dishonestly perform a public duty.",
+            "source": "India Today",
+            "item_id": "6ff6bb1b3b13a58aeb25ea78:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court rejected Tejaram's argument that the investigating agency had failed to obtain prior approval under Section 17A of the Act.",
+            "source": "India Today",
+            "item_id": "6ff6bb1b3b13a58aeb25ea78:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/supreme-court-bribe-probe-no-prior-approval-section-17a-ptag-3020737-2026-10-19"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "684adb2bdf36b8b9b4afc99e",
       "story_id": "684adb2bdf36b8b9b4afc99e",
       "headline": "COVER STORY: India's Solar Opportunities & The Challenges Ahead",
@@ -549,7 +763,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -786,7 +1000,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -907,7 +1121,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -990,102 +1204,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "34a4064380a074bd7ec4f651",
-      "story_id": "34a4064380a074bd7ec4f651",
-      "headline": "Peaceful protest is a right, but protesters' credentials matter: Bombay HC",
-      "title": "Peaceful protest is a right, but protesters' credentials matter: Bombay HC",
-      "summary": "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action. A bench of Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna directed the Maharashtra government to respond to petitions alleging the illegal detention of individuals by the police during recent anti-Chief Election Commissioner (CEC) protests in the city. The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi. The plea had sought a direction to the police not to detain any person taking part in such peaceful protests. Advocate Gayatri Singh on Monday submitted an application filed by four persons who were detained by the police last week after participating in a peaceful",
-      "url": "https://www.business-standard.com/india-news/peaceful-protest-is-a-right-but-protesters-credentials-matter-bombay-hc-126101900460_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 80.4,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-19T08:30:00+00:00",
-      "published_at": "2026-10-19T08:30:00+00:00",
-      "effective_at": "2026-10-19T08:30:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'chief justice' in summary weight 25.2",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (2.0h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action.",
-          "A bench of Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna directed the Maharashtra government to respond to petitions alleging the illegal detention of individuals by the police during recent anti-Chief Election Commissioner (CEC) protests in the city."
-        ],
-        "body": [
-          "The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi.",
-          "The plea had sought a direction to the police not to detain any person taking part in such peaceful protests.",
-          "Advocate Gayatri Singh on Monday submitted an application filed by four persons who were detained by the police last week after participating in a peaceful."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Delhi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Bombay High Court on Monday observed that while peaceful demonstration is a fundamental right, factors like a protestor's credentials and public inconvenience must be weighed before issuing blanket orders restricting police action.",
-            "source": "Business Standard",
-            "item_id": "34a4064380a074bd7ec4f651",
-            "composed": false
-          },
-          {
-            "text": "The court was hearing a public interest litigation filed by advocate Savar Devre against alleged police brutality and detention of persons who are taking out peaceful demonstrations in solidarity with the protests in Delhi.",
-            "source": "Business Standard",
-            "item_id": "34a4064380a074bd7ec4f651",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/peaceful-protest-is-a-right-but-protesters-credentials-matter-bombay-hc-126101900460_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "25fd4a5306eaeaa11e10d1fc",
       "story_id": "25fd4a5306eaeaa11e10d1fc",
       "headline": "Jio Platforms’ relative valuation reasonable with headroom left on phone tariffs",
@@ -1128,7 +1246,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -1252,7 +1370,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 23.2, score 38.4 -> HIGH"
