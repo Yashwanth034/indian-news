@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T11:51:43.261630+00:00",
-  "count": 7,
+  "generated_at": "2026-10-20T12:02:12.831754+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "faa5f22147c919ee1ddddd1f",
@@ -47,7 +47,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -133,7 +133,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -233,7 +233,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -350,7 +350,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (18.6h ago) +4",
+        "recency: fresh (18.8h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 45, score 50.4 -> HIGH"
@@ -487,7 +487,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (west bengal)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -578,7 +578,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -699,7 +699,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -765,6 +765,117 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/why-teaching-post-vacancies-notified-separately-for-males-females-supreme-court-asks-delhi-govt-on-transgender-candidates-plea-555376"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "76e176051bee874b1f95764d",
+      "story_id": "76e176051bee874b1f95764d",
+      "headline": "IMD update: Isolated very heavy rain for TN, Puducherry for two more days",
+      "title": "IMD update: Isolated very heavy rain for TN, Puducherry for two more days",
+      "summary": "India Meteorological Department’s numerical projections indicate possibility of rapid intensification of the Bay system into a tropical cyclone, although it has yet to take an official call on this",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-isolated-very-heavy-rain-returns-to-parts-of-tamil-nadu-puducherry/article71603309.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-20T11:46:31+00:00",
+      "published_at": "2026-10-20T11:46:31+00:00",
+      "effective_at": "2026-10-20T11:46:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (puducherry)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 43.2, stack 28, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "puducherry",
+      "national_significance": true,
+      "article_sentences": [
+        "Isolated very heavy rainfall is forecast over Tamil Nadu, Puducherry and Karaikal on Wednesday and Thursday, as the India Meteorological Department (IMD) watches the possible formation of two low-pressure areas at opposite ends of the Bay of Bengal, one of which could likely intensify into a tropical cyclone.",
+        "The first low is expected to form over the south-west Bay and adjoining Tamil Nadu coast on Wednesday, as a cyclonic circulation descends to lower atmospheric levels.",
+        "The European Centre for Medium-Range Weather Forecasts (ECMWF) had earlier suggested the system could instead form over the south-east Arabian Sea.",
+        "The second system is expected to emerge from an incoming circulation over the Gulf of Thailand and adjoining parts of Thailand and Myanmar.",
+        "Moving into the north Andaman Sea by Wednesday, it is forecast to travel west-north-west and form a low over the south-east and adjoining east-central Bay by Friday.",
+        "It could then turn north-westwards towards the Andhra Pradesh coast and intensify further.",
+        "IMD’s numerical projections indicate possibility of its rapid intensification over the warm waters into a tropical cyclone, although it has yet to take an official call.",
+        "Global model forecasts, including those of the ECMWF, broadly support this scenario, against the backdrop of an active north-east monsoon, a passing helpful Madden-Julian Oscillation (MJO) wave over Indian Ocean and a developing positive Indian Ocean Dipole (IOD) phase.",
+        "The evolving systems are already influencing regional weather.",
+        "On Tuesday evening, an elongated trough of low pressure extended from the circulation over south-west Bay and adjoining Tamil Nadu coast towards north coastal Andhra Pradesh.",
+        "Its southern flanks overlapped the leading edge of an easterly wave advancing from the Andaman Sea, within which the incoming disturbance from the Gulf of Thailand is expected to be embedded.",
+        "The IMD has issued a fishermen’s warning for the Andaman Sea for three days from Friday, coinciding with the anticipated intensification phase of the system embedded in the easterly wave."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Isolated very heavy rainfall is forecast over Tamil Nadu, Puducherry and Karaikal on Wednesday and Thursday, as the India Meteorological Department (IMD) watches the possible formation of two low-pressure areas at opposite ends of the Bay of Bengal, one of which could likely intensify into a tropical cyclone.",
+          "The first low is expected to form over the south-west Bay and adjoining Tamil Nadu coast on Wednesday, as a cyclonic circulation descends to lower atmospheric levels."
+        ],
+        "body": [
+          "The European Centre for Medium-Range Weather Forecasts (ECMWF) had earlier suggested the system could instead form over the south-east Arabian Sea.",
+          "The second system is expected to emerge from an incoming circulation over the Gulf of Thailand and adjoining parts of Thailand and Myanmar.",
+          "Moving into the north Andaman Sea by Wednesday, it is forecast to travel west-north-west and form a low over the south-east and adjoining east-central Bay by Friday.",
+          "It could then turn north-westwards towards the Andhra Pradesh coast and intensify further.",
+          "IMD’s numerical projections indicate possibility of its rapid intensification over the warm waters into a tropical cyclone, although it has yet to take an official call.",
+          "Global model forecasts, including those of the ECMWF, broadly support this scenario, against the backdrop of an active north-east monsoon, a passing helpful Madden-Julian Oscillation (MJO) wave over Indian Ocean and a developing positive Indian Ocean Dipole (IOD) phase.",
+          "The evolving systems are already influencing regional weather.",
+          "On Tuesday evening, an elongated trough of low pressure extended from the circulation over south-west Bay and adjoining Tamil Nadu coast towards north coastal Andhra Pradesh."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Isolated very heavy rainfall is forecast over Tamil Nadu, Puducherry and Karaikal on Wednesday and Thursday, as the India Meteorological Department (IMD) watches the possible formation of two low-pressure areas at opposite ends of the Bay of Bengal, one of which could likely intensify into a tropical cyclone.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "76e176051bee874b1f95764d:article",
+            "composed": false
+          },
+          {
+            "text": "The first low is expected to form over the south-west Bay and adjoining Tamil Nadu coast on Wednesday, as a cyclonic circulation descends to lower atmospheric levels.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "76e176051bee874b1f95764d:article",
+            "composed": false
+          },
+          {
+            "text": "On Tuesday evening, an elongated trough of low pressure extended from the circulation over south-west Bay and adjoining Tamil Nadu coast towards north coastal Andhra Pradesh.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "76e176051bee874b1f95764d:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-isolated-very-heavy-rain-returns-to-parts-of-tamil-nadu-puducherry/article71603309.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
