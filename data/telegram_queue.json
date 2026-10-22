@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T09:03:10.873872+00:00",
-  "count": 16,
+  "generated_at": "2026-10-22T09:12:13.837686+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "b49e54db30ec0ec370f1e32f",
@@ -50,7 +50,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -148,7 +148,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -303,7 +303,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -387,6 +387,87 @@
       "enrichment": "article"
     },
     {
+      "event_id": "3ac2d8623e0317c7c207388d",
+      "story_id": "3ac2d8623e0317c7c207388d",
+      "headline": "Tamil Nadu braces for heavy rain as Bay system may develop into cyclone",
+      "title": "Tamil Nadu braces for heavy rain as Bay system may develop into cyclone",
+      "summary": "Chennai Meteorological Centre director Durai said conditions were favourable for a low-pressure area to form over the southeast and adjoining east-central Bay of Bengal. It was expected to strengthen and move west-southwestwards, with the possibility of developing into a cyclonic storm.",
+      "url": "https://www.thehansindia.com/news/cities/chennai/tamil-nadu-braces-for-heavy-rain-as-bay-system-may-develop-into-cyclone-1134583",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-22T09:03:42+00:00",
+      "published_at": "2026-10-22T09:03:42+00:00",
+      "effective_at": "2026-10-22T09:03:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (tamil nadu)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "tamil nadu",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Chennai Meteorological Centre director Durai said conditions were favourable for a low-pressure area to form over the southeast and adjoining east-central Bay of Bengal.",
+          "It was expected to strengthen and move west-southwestwards, with the possibility of developing into a cyclonic storm."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Chennai Meteorological Centre director Durai said conditions were favourable for a low-pressure area to form over the southeast and adjoining east-central Bay of Bengal.",
+            "source": "The Hans India",
+            "item_id": "3ac2d8623e0317c7c207388d",
+            "composed": false
+          },
+          {
+            "text": "It was expected to strengthen and move west-southwestwards, with the possibility of developing into a cyclonic storm.",
+            "source": "The Hans India",
+            "item_id": "3ac2d8623e0317c7c207388d",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/chennai/tamil-nadu-braces-for-heavy-rain-as-bay-system-may-develop-into-cyclone-1134583"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "79e9b5d1edbfdbfdfeb2ccf3",
       "story_id": "79e9b5d1edbfdbfdfeb2ccf3",
       "headline": "Udhayanidhi says election petition against him was filed in Madras High Court after 45-day mark",
@@ -432,7 +513,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -550,7 +631,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -681,7 +762,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (kerala)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 44.4, score 49.2 -> HIGH"
@@ -793,7 +874,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -910,7 +991,7 @@
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -1032,7 +1113,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1040,7 +1121,7 @@
       "geo_scope": "national",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "US Secretary of State Marco Rubio says India and the United States are very close to reaching a trade agreement, with only a few issues left to be negotiated.",
@@ -1079,7 +1160,7 @@
         "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/will-us-give-india-a-tariff-advantage-marco-rubio-responds-in-exclusive-india-today-interview-563032-2026-10-22"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1129,7 +1210,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1246,7 +1327,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1356,7 +1437,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1439,7 +1520,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1513,165 +1594,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "07394a07451ec9c4086d301a",
-      "story_id": "07394a07451ec9c4086d301a",
-      "headline": "Global tech breach spree hits key infrastructure",
-      "title": "Global tech breach spree hits key infrastructure",
-      "summary": "A series of cybersecurity incidents involving digital certificate infrastructure, critical software vulnerabilities and compromised technology platforms has put companies and government agencies on alert, with artificial intelligence playing a role in both discovering security flaws and accelerating cyberattacks. The developments include a government probe into a security incident at eMudhra, critical vulnerabilities in PHP that prompted websites to go offline, and supply-chain attacks affecting software packages and cloud platforms.Here's a look at what all happened in the last 24 hours:eMudhra security incidentThe Ministry of Electronics and Information Technology (MeitY) constituted a special team after a security incident occured involving eMudhra's global digital certificate infrastructure after private keys associated with eight intermediate certificates were found to be vulnerable.The incident raised concerns that attackers could potentially use the keys to create fraudulent certificates and impersonate legitimate websites. However, MeitY said the impact on Indian websites and applications was very limited and short-lived, and clarified that eMudhra's domestic Digital Signature Certificate and eSign services remained unaffected.The issue came to light on October 17 after a researcher alerted Google and other technology companies. Google and Mozilla subsequently blocked the affected certificates.eMudhra co-founder Kaushik Srinivasan told PTI that weak keys had been generated by eight of the company's 40 certifying authorities but had never been put to commercial use. He said no customer certificates had been issued using the affected keys and that the company's infrastructure had not been compromised.The company said it was investigating the cause of the error. The incident affected its global TLS certificate business, which Srinivasan said accounted for around 1% of revenue, but could carry reputational risks.Following the disclosure, eMudhra shares fell nearly 20% to a 52-week low of Rs 346 on the NSE on Thursday.Also read: What eMudhra security incident means for anyone who shops, banks or pays onlineCritical PHP vulnerabilities prompt global website shutdownsGovernment websites and other online services were temporarily taken offline after the discovery of two critical vulnerabilities in PHP, a widely used programming language that powers websites and web applications.The FBI and the National Security Agency warned that the flaws could allow attackers to execute code remotely, potentially compromising sensitive data and networks. The FBI's cyber division advised operators to take websites offline if they could not immediately install security updates.The PHP Foundation released fixes and instructions for updating systems. Websites and services in the Netherlands, Finland, France and Denmark were among those affected by precautionary shutdowns or maintenance.The vulnerabilities were discovered with the help of artificial intelligence, according to cybersecurity companies Calif and Wiz. OpenAI said it had led a coalition of researchers and security providers working on the vulnerabilities over the preceding two months, with PHP's maintainers leading the fixes and release.The disclosure also raised concerns about attackers using AI to exploit the flaws. Reuters reported that Amazon detected an attempt to exploit the vulnerabilities against one of its decoy systems on October 17, before public disclosure. The company said further attempts followed on Wednesday.LiteLLM Python package compromised in supply-chain attackThe LiteLLM Python package was compromised in a software supply-chain attack that delivered a credential stealer and a backdoor, according to reports from cybersecurity firms SafeDep, Socket, StepSecurity and Upwind.The incident affected version 1.107.0, distributed through the Python Package Index (PyPI) and Docker images. The package was quarantined on PyPI, and the malicious Docker images were removed.Oliver Jensen, director of security at LiteLLM, said the malicious release appeared to have been published through three engineers' GitHub accounts using stolen GitHub CLI OAuth tokens. The tokens involved were revoked, and the company removed all but one unaffected user from its GitHub organisation as a temporary measure.Upwind Research said its analysis found that the malicious payload was injected into the package's build environment before the wheels were created. The package contained files capable of executing code automatically when Python starts, retrieving attacker-controlled payloads and maintaining persistent access to affected environments.LiteLLM said its investigation into the original attack vector was ongoing.Railway warns of possible exposure of customer credentialsCloud platform Railway disclosed on Wednesday that an unauthorised third party might have accessed encrypted customer environment variables and, in some cases, obtained their decrypted contents.Environment variables can contain sensitive information such as API keys and database and registry credentials. Railway said the incident might be part of a series of attacks targeting platform companies to compromise AI inference providers.The company advised users to rotate their environment variables, API keys and private registry credentials, and review service logs for unusual activity. It paused all deployments while investigating the incident and said it would contact customers directly as it confirmed which accounts had been affected.Microsoft links AI-assisted attacks to China-aligned hacking groupMicrosoft released a statement saying the China-state-aligned hacking group Storm-0940 had used an AI-driven penetration-testing framework called ARTEX to automate attacks against hundreds of organisations globally.The activity, which Microsoft said began as early as September 2026, targeted organisations across sectors including financial services, government, manufacturing, energy and technology.Microsoft said several attacks had resulted in the group gaining privileged access to organisations' cloud infrastructure, with some cases taking less than three hours from initial targeting to privileged access.The company also linked Storm-0940 to the recently disclosed ConnectWise supply-chain compromise. ConnectWise said it had contained affected application connections and was restoring services in controlled phases, while cautioning that unauthorised access might already have been established in individual customer environments.Microsoft said the activity demonstrated how AI could accelerate reconnaissance and other offensive security operations. It cautioned that the presence of an affected application or successful authentication did not necessarily mean customer data had been accessed or exfiltrated.Also read: India's big-money investors face a new wild cardSBI reports suspected exposure of 3,897 customer recordsThe cybersecurity developments come alongside a separate disclosure by the State Bank of India (SBI) of the suspected exposure of customer information on the dark web.In a regulatory filing, SBI said a preliminary analysis of around 3.75 lakh records available on the dark web had identified 3,897 customer records containing personally identifiable information.The exposed information reportedly included names, dates of birth, registered mobile numbers, email addresses, residential addresses and other identifiers associated with customer and loan records.SBI said it had received alerts about the matter from its threat intelligence service provider on October 16. The supplied information does not establish a connection between this incident and the other cybersecurity cases.CERT-In flags risks from unauthorised AI agentsLast week, CERT-In issued a critical advisory warning that autonomous AI agents had accessed live systems and confidential data belonging to Indian organisations without authorisation.In its advisory, 'AI Agents as Attack Vectors', the cybersecurity watchdog described incidents in which AI models and agents undergoing research and evaluation exceeded the authorised scope of their tasks and reached live systems belonging to Indian organisations.The agents accessed business records containing personal data and confidential information using credentials and connection settings left exposed in application configurations, public code repositories and overly permissive cloud service roles, the agency said.",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/from-emudhra-to-php-breach-spree-hits-tech-infrastructure-ai-emerges-as-threat-multiplier-microsoft-technology-artificial-intelligence-cybersecurity/articleshow/135112380.cms",
-      "source": "The Economic Times",
-      "primary_source": false,
-      "tier": 3,
-      "category": "technology-digital",
-      "secondary_categories": [
-        "transport-infrastructure",
-        "business-industry",
-        "defence-security",
-        "energy-environment",
-        "national-politics",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 42.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-22T08:17:16+00:00",
-      "published_at": "2026-10-22T08:17:16+00:00",
-      "effective_at": "2026-10-22T08:17:16+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "rumour: 'reportedly' in summary (penalty 3, overridden)",
-        "major: geo national significance",
-        "major: significance event 'National Security'",
-        "major: marker 'confirmed'",
-        "category: technology-digital (importance 1, urgent=False)",
-        "major override dropped penalties: rumour",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'national security' in summary weight 42",
-        "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
-        "category: technology-digital (importance 1) +1.2",
-        "geo: national",
-        "dominant event 42, stack 29.2, score 42 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "A series of cybersecurity incidents involving digital certificate infrastructure, critical software vulnerabilities and compromised technology platforms has put companies and government agencies on alert, with artificial intelligence playing a role in both discovering security flaws and accelerating cyberattacks.",
-          "The developments include a government probe into a security incident at eMudhra, critical vulnerabilities in PHP that prompted websites to go offline, and supply-chain attacks affecting software packages and cloud platforms."
-        ],
-        "body": [
-          "Here's a look at what all happened in the last 24 hours:eMudhra security incident.",
-          "The Ministry of Electronics and Information Technology (MeitY) constituted a special team after a security incident occured involving eMudhra's global digital certificate infrastructure after private keys associated with eight intermediate certificates were found to be vulnerable.",
-          "The incident raised concerns that attackers could potentially use the keys to create fraudulent certificates and impersonate legitimate websites.",
-          "However, MeitY said the impact on Indian websites and applications was very limited and short-lived, and clarified that eMudhra's domestic Digital Signature Certificate and eSign services remained unaffected.",
-          "The issue came to light on October 17 after a researcher alerted Google and other technology companies.",
-          "Google and Mozilla subsequently blocked the affected certificates.eMudhra co-founder Kaushik Srinivasan told PTI that weak keys had been generated by eight of the company's 40 certifying authorities but had never been put to commercial use.",
-          "He said no customer certificates had been issued using the affected keys and that the company's infrastructure had not been compromised.",
-          "The company said it was investigating the cause of the error.",
-          "The incident affected its global TLS certificate business, which Srinivasan said accounted for around 1% of revenue, but could carry reputational risks.",
-          "Following the disclosure, eMudhra shares fell nearly 20% to a 52-week low of Rs 346 on the NSE on Thursday.",
-          "Also read: What eMudhra security incident means for anyone who shops, banks or pays onlineCritical PHP vulnerabilities prompt global website shutdownsGovernment websites and other online services were temporarily taken offline after the discovery of two critical vulnerabilities in PHP, a widely used programming language that powers websites and web applications.",
-          "The FBI and the National Security Agency warned that the flaws could allow attackers to execute code remotely, potentially compromising sensitive data and networks.",
-          "The FBI's cyber division advised operators to take websites offline if they could not immediately install security updates.",
-          "The PHP Foundation released fixes and instructions for updating systems.",
-          "Websites and services in the Netherlands, Finland, France and Denmark were among those affected by precautionary shutdowns or maintenance.",
-          "The vulnerabilities were discovered with the help of artificial intelligence, according to cybersecurity companies Calif and Wiz.",
-          "OpenAI said it had led a coalition of researchers and security providers working on the vulnerabilities over the preceding two months, with PHP's maintainers leading the fixes and release.",
-          "The disclosure also raised concerns about attackers using AI to exploit the flaws.",
-          "Reuters reported that Amazon detected an attempt to exploit the vulnerabilities against one of its decoy systems on October 17, before public disclosure.",
-          "The company said further attempts followed on Wednesday.",
-          "LiteLLM Python package compromised in supply-chain attack.",
-          "The LiteLLM Python package was compromised in a software supply-chain attack that delivered a credential stealer and a backdoor, according to reports from cybersecurity firms SafeDep, Socket, StepSecurity and Upwind.",
-          "The incident affected version 1.107.0, distributed through the Python Package Index (PyPI) and Docker images.",
-          "The package was quarantined on PyPI, and the malicious Docker images were removed.",
-          "Oliver Jensen, director of security at LiteLLM, said the malicious release appeared to have been published through three engineers' GitHub accounts using stolen GitHub CLI OAuth tokens.",
-          "The tokens involved were revoked, and the company removed all but one unaffected user from its GitHub organisation as a temporary measure.",
-          "Upwind Research said its analysis found that the malicious payload was injected into the package's build environment before the wheels were created.",
-          "The package contained files capable of executing code automatically when Python starts, retrieving attacker-controlled payloads and maintaining persistent access to affected environments.",
-          "LiteLLM said its investigation into the original attack vector was ongoing.",
-          "Railway warns of possible exposure of customer credentialsCloud platform Railway disclosed on Wednesday that an unauthorised third party might have accessed encrypted customer environment variables and, in some cases, obtained their decrypted contents.",
-          "Environment variables can contain sensitive information such as API keys and database and registry credentials.",
-          "Railway said the incident might be part of a series of attacks targeting platform companies to compromise AI inference providers.",
-          "The company advised users to rotate their environment variables, API keys and private registry credentials, and review service logs for unusual activity.",
-          "It paused all deployments while investigating the incident and said it would contact customers directly as it confirmed which accounts had been affected.",
-          "Microsoft links AI-assisted attacks to China-aligned hacking groupMicrosoft released a statement saying the China-state-aligned hacking group Storm-0940 had used an AI-driven penetration-testing framework called ARTEX to automate attacks against hundreds of organisations globally.",
-          "The activity, which Microsoft said began as early as September 2026, targeted organisations across sectors including financial services, government, manufacturing, energy and technology.",
-          "Microsoft said several attacks had resulted in the group gaining privileged access to organisations' cloud infrastructure, with some cases taking less than three hours from initial targeting to privileged access.",
-          "The company also linked Storm-0940 to the recently disclosed ConnectWise supply-chain compromise.",
-          "ConnectWise said it had contained affected application connections and was restoring services in controlled phases, while cautioning that unauthorised access might already have been established in individual customer environments.",
-          "Microsoft said the activity demonstrated how AI could accelerate reconnaissance and other offensive security operations.",
-          "It cautioned that the presence of an affected application or successful authentication did not necessarily mean customer data had been accessed or exfiltrated.",
-          "Also read: India's big-money investors face a new wild cardSBI reports suspected exposure of 3,897 customer records.",
-          "The cybersecurity developments come alongside a separate disclosure by the State Bank of India (SBI) of the suspected exposure of customer information on the dark web.",
-          "In a regulatory filing, SBI said a preliminary analysis of around 3.75 lakh records available on the dark web had identified 3,897 customer records containing personally identifiable information.",
-          "The exposed information reportedly included names, dates of birth, registered mobile numbers, email addresses, residential addresses and other identifiers associated with customer and loan records.",
-          "SBI said it had received alerts about the matter from its threat intelligence service provider on October 16.",
-          "The supplied information does not establish a connection between this incident and the other cybersecurity cases.",
-          "CERT-In flags risks from unauthorised AI agentsLast week, CERT-In issued a critical advisory warning that autonomous AI agents had accessed live systems and confidential data belonging to Indian organisations without authorisation.",
-          "In its advisory, 'AI Agents as Attack Vectors', the cybersecurity watchdog described incidents in which AI models and agents undergoing research and evaluation exceeded the authorised scope of their tasks and reached live systems belonging to Indian organisations.",
-          "The agents accessed business records containing personal data and confidential information using credentials and connection settings left exposed in application configurations, public code repositories and overly permissive cloud service roles, the agency said."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "PHP"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "SBI said it had received alerts about the matter from its threat intelligence service provider on October 16.",
-            "source": "The Economic Times",
-            "item_id": "07394a07451ec9c4086d301a",
-            "composed": false
-          },
-          {
-            "text": "Following the disclosure, eMudhra shares fell nearly 20% to a 52-week low of Rs 346 on the NSE on Thursday.",
-            "source": "The Economic Times",
-            "item_id": "07394a07451ec9c4086d301a",
-            "composed": false
-          },
-          {
-            "text": "Reuters reported that Amazon detected an attempt to exploit the vulnerabilities against one of its decoy systems on October 17, before public disclosure.",
-            "source": "The Economic Times",
-            "item_id": "07394a07451ec9c4086d301a",
-            "composed": false
-          },
-          {
-            "text": "Railway warns of possible exposure of customer credentialsCloud platform Railway disclosed on Wednesday that an unauthorised third party might have accessed encrypted customer environment variables and, in some cases, obtained their decrypted contents.",
-            "source": "The Economic Times",
-            "item_id": "07394a07451ec9c4086d301a",
-            "composed": false
-          }
-        ],
-        "source": "The Economic Times",
-        "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/from-emudhra-to-php-breach-spree-hits-tech-infrastructure-ai-emerges-as-threat-multiplier-microsoft-technology-artificial-intelligence-cybersecurity/articleshow/135112380.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "833142e47da1f4cc1ba77656",
       "story_id": "833142e47da1f4cc1ba77656",
       "headline": "INDIA bloc leaders to hold virtual meeting, roadmap for 'vote chori' protests on agenda",
@@ -1716,7 +1638,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
@@ -1762,93 +1684,6 @@
         "source": "Greater Kashmir",
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/national/india-bloc-leaders-to-hold-virtual-meeting-roadmap-for-vote-chori-protests-on-agenda-12716224"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "763144987e8d29916f102804",
-      "story_id": "763144987e8d29916f102804",
-      "headline": "Daily weather tracker: IMD warns of very heavy rain in Kerala, Tamil Nadu; western disturbance set to affect Northwest India from October 24",
-      "title": "Daily weather tracker: IMD warns of very heavy rain in Kerala, Tamil Nadu; western disturbance set to affect Northwest India from October 24",
-      "summary": "IMD warns of heavy to very heavy rainfall in Kerala, Tamil Nadu, and nearby regions as a new low-pressure system develops over the Bay of Bengal. Thunderstorms, lightning, and strong winds are forecast, with fishermen advised to avoid affected waters.",
-      "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-imd-warns-of-very-heavy-rain-in-kerala-tamil-nadu-as-new-weather-system-developsweather-alerts",
-      "source": "Down To Earth",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-22T06:08:08+00:00",
-      "published_at": "2026-10-22T06:08:08+00:00",
-      "effective_at": "2026-10-22T06:11:17.620000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "downtoearth": {
-          "kind": "independent",
-          "source_ids": [
-            "downtoearth"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (downtoearth) +1",
-        "source: specialist (downtoearth) +5",
-        "corroboration: single independent source -> medium confidence",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (2.9h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 0, stack 40, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "IMD warns of heavy to very heavy rainfall in Kerala, Tamil Nadu, and nearby regions as a new low-pressure system develops over the Bay of Bengal.",
-          "Thunderstorms, lightning, and strong winds are forecast, with fishermen advised to avoid affected waters."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kerala"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "IMD warns of heavy to very heavy rainfall in Kerala, Tamil Nadu, and nearby regions as a new low-pressure system develops over the Bay of Bengal.",
-            "source": "Down To Earth",
-            "item_id": "763144987e8d29916f102804",
-            "composed": false
-          },
-          {
-            "text": "Thunderstorms, lightning, and strong winds are forecast, with fishermen advised to avoid affected waters.",
-            "source": "Down To Earth",
-            "item_id": "763144987e8d29916f102804",
-            "composed": false
-          }
-        ],
-        "source": "Down To Earth",
-        "corroborating": [],
-        "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-imd-warns-of-very-heavy-rain-in-kerala-tamil-nadu-as-new-weather-system-developsweather-alerts"
       },
       "group_size": 1,
       "label": "📰 NEWS",
