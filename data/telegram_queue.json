@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T09:12:13.837686+00:00",
-  "count": 15,
+  "generated_at": "2026-10-22T09:22:08.928871+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "b49e54db30ec0ec370f1e32f",
@@ -50,7 +50,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -148,7 +148,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -303,7 +303,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -429,7 +429,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -437,7 +437,7 @@
       "geo_scope": "state",
       "state": "tamil nadu",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Chennai Meteorological Centre director Durai said conditions were favourable for a low-pressure area to form over the southeast and adjoining east-central Bay of Bengal.",
@@ -464,7 +464,7 @@
         "url": "https://www.thehansindia.com/news/cities/chennai/tamil-nadu-braces-for-heavy-rain-as-bay-system-may-develop-into-cyclone-1134583"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -513,7 +513,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -631,7 +631,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -762,7 +762,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (kerala)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 44.4, score 49.2 -> HIGH"
@@ -874,7 +874,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -961,7 +961,7 @@
       "secondary_categories": [
         "business-industry"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
@@ -969,12 +969,19 @@
       "event_time": "2026-10-22T07:44:35+00:00",
       "published_at": "2026-10-22T07:44:35+00:00",
       "effective_at": "2026-10-22T07:44:35+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "ians": {
           "kind": "wire",
           "source_ids": [
             "assam-tribune"
+          ],
+          "count": 1
+        },
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
           ],
           "count": 1
         }
@@ -983,15 +990,17 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.2 >= 1.2",
         "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'repo rate' in summary weight 25.2",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -1066,6 +1075,116 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "5a930c53ed244bd516550fdf",
+      "story_id": "5a930c53ed244bd516550fdf",
+      "headline": "Should India be concerned about Pakistan's new Badr defence deal?",
+      "title": "Should India be concerned about Pakistan's new Badr defence deal?",
+      "summary": "Should India be concerned about Pakistan's new Badr defence deal?",
+      "url": "https://www.indiatoday.in/india/story/pakistan-badr-defence-deal-india-concern-indonesia-brahmos-missile-3022632-2026-10-22",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-22T09:17:13+00:00",
+      "published_at": "2026-10-22T09:17:13+00:00",
+      "effective_at": "2026-10-22T09:17:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'defence deal' in title weight 44",
+        "event term: 'defence deal' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Pakistan has signed an MoU with Turkiye, Qatar and Indonesia to deepen cooperation in defence production, months after the Mecca pact.",
+        "Will it impact India, considering its existing defence agreements with Indonesia?",
+        "Another Islamic defence axis may be taking shape, with Pakistan signing an MoU with Turkiye, Qatar and Indonesia to deepen cooperation in defence production and bolster military capabilities.",
+        "Signed in Doha with little fanfare, the Badr agreement, unlike the Mecca pact, is not a promise to fight together, but a plan to build defence capabilities together.",
+        "For India, it raises two concerns: Pakistan's efforts to diversify its sources of weapons and military technology, and Indonesia's participation, coming months after signing a deal with New Delhi for BrahMos missiles.",
+        "While details of the memorandum are scant, it mostly focuses on joint defence manufacturing, technology sharing, military training and research and development among the four countries.",
+        "Essentially, it mostly concerns industrial cooperation rather than a mutual defence pledge.",
+        "Turkiye, in fact, already has military manufacturing ties with Qatar, Pakistan and Indonesia separately.",
+        "What the Badr MoU does is closely integrate the supply chains of the countries.",
+        "Each country brings its own set of resources and skills.",
+        "While Turkiye boasts one of the world's most advanced defence sectors, Pakistan and Indonesia offer manufacturing capacity and labour.",
+        "Qatar, on the other hand, brings investment and demand."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Pakistan has signed an MoU with Turkiye, Qatar and Indonesia to deepen cooperation in defence production, months after the Mecca pact.",
+          "Will it impact India, considering its existing defence agreements with Indonesia?"
+        ],
+        "body": [
+          "Another Islamic defence axis may be taking shape, with Pakistan signing an MoU with Turkiye, Qatar and Indonesia to deepen cooperation in defence production and bolster military capabilities.",
+          "Signed in Doha with little fanfare, the Badr agreement, unlike the Mecca pact, is not a promise to fight together, but a plan to build defence capabilities together.",
+          "For India, it raises two concerns: Pakistan's efforts to diversify its sources of weapons and military technology, and Indonesia's participation, coming months after signing a deal with New Delhi for BrahMos missiles.",
+          "While details of the memorandum are scant, it mostly focuses on joint defence manufacturing, technology sharing, military training and research and development among the four countries.",
+          "Essentially, it mostly concerns industrial cooperation rather than a mutual defence pledge.",
+          "Turkiye, in fact, already has military manufacturing ties with Qatar, Pakistan and Indonesia separately.",
+          "What the Badr MoU does is closely integrate the supply chains of the countries.",
+          "Each country brings its own set of resources and skills."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Doha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Another Islamic defence axis may be taking shape, with Pakistan signing an MoU with Turkiye, Qatar and Indonesia to deepen cooperation in defence production and bolster military capabilities.",
+            "source": "India Today",
+            "item_id": "5a930c53ed244bd516550fdf:article",
+            "composed": false
+          },
+          {
+            "text": "Signed in Doha with little fanfare, the Badr agreement, unlike the Mecca pact, is not a promise to fight together, but a plan to build defence capabilities together.",
+            "source": "India Today",
+            "item_id": "5a930c53ed244bd516550fdf:article",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [],
+        "url": "https://www.indiatoday.in/india/story/pakistan-badr-defence-deal-india-concern-indonesia-brahmos-missile-3022632-2026-10-22"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "3dbe4b5f02ddf6ba1010cfa3",
       "story_id": "3dbe4b5f02ddf6ba1010cfa3",
       "headline": "Will U.S. Give India A Tariff Advantage? Marco Rubio Responds In Exclusive India Today Interview",
@@ -1113,7 +1232,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1210,7 +1329,7 @@
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1327,7 +1446,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1395,93 +1514,12 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "292271e49e69ad687bf91869",
-      "story_id": "292271e49e69ad687bf91869",
-      "headline": "IMF's Krishna Srinivasan says India should prioritise inflation as crude oil price risks rise",
-      "title": "IMF's Krishna Srinivasan says India should prioritise inflation as crude oil price risks rise",
-      "summary": "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India. Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment.",
-      "url": "https://www.cnbctv18.com/economy/imf-krishna-srinivasan-crude-oil-price-risks-weigh-asia-india-should-stay-focused-inflation-rupee-geopolitical-tensions-energy-monetary-policy-20016819.htm",
-      "source": "CNBC-TV18",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 56.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-22T07:10:43+00:00",
-      "published_at": "2026-10-22T07:10:43+00:00",
-      "effective_at": "2026-10-22T07:10:43+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "network18": {
-          "kind": "independent",
-          "source_ids": [
-            "cnbc-tv18"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (cnbc-tv18) +1",
-        "source: specialist (cnbc-tv18) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'inflation' in title weight 36",
-        "event term: 'inflation' in summary weight 21.6",
-        "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 36, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India.",
-          "Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India.",
-            "source": "CNBC-TV18",
-            "item_id": "292271e49e69ad687bf91869",
-            "composed": false
-          },
-          {
-            "text": "Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment.",
-            "source": "CNBC-TV18",
-            "item_id": "292271e49e69ad687bf91869",
-            "composed": false
-          }
-        ],
-        "source": "CNBC-TV18",
-        "corroborating": [],
-        "url": "https://www.cnbctv18.com/economy/imf-krishna-srinivasan-crude-oil-price-risks-weigh-asia-india-should-stay-focused-inflation-rupee-geopolitical-tensions-energy-monetary-policy-20016819.htm"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "314146c15e89f32b4262cb39",
       "story_id": "314146c15e89f32b4262cb39",
       "headline": "Supreme Court order halts Andhra Pradesh urban local body elections",
       "title": "Supreme Court order halts Andhra Pradesh urban local body elections",
       "summary": "Supreme Court order halts Andhra Pradesh urban local body elections",
-      "url": "https://www.indiatoday.in/india/story/andhra-pradesh-civic-polls-halted-100-urban-bodies-supreme-court-ptag-3022546-2026-10-22",
+      "url": "https://www.indiatoday.in/india/story/andhra-pradesh-civic-polls-halted-supreme-court-order-ptag-3022564-2026-10-22",
       "source": "India Today",
       "primary_source": false,
       "tier": 2,
@@ -1494,9 +1532,9 @@
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-22T06:54:23+00:00",
-      "published_at": "2026-10-22T06:54:23+00:00",
-      "effective_at": "2026-10-22T06:54:23+00:00",
+      "event_time": "2026-10-22T07:28:22+00:00",
+      "published_at": "2026-10-22T07:28:22+00:00",
+      "effective_at": "2026-10-22T07:28:22+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "indiatoday": {
@@ -1504,7 +1542,7 @@
           "source_ids": [
             "india-today"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -1515,12 +1553,11 @@
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (india-today) +2",
-        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1587,11 +1624,92 @@
         ],
         "source": "India Today",
         "corroborating": [],
-        "url": "https://www.indiatoday.in/india/story/andhra-pradesh-civic-polls-halted-100-urban-bodies-supreme-court-ptag-3022546-2026-10-22"
+        "url": "https://www.indiatoday.in/india/story/andhra-pradesh-civic-polls-halted-supreme-court-order-ptag-3022564-2026-10-22"
       },
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "292271e49e69ad687bf91869",
+      "story_id": "292271e49e69ad687bf91869",
+      "headline": "IMF's Krishna Srinivasan says India should prioritise inflation as crude oil price risks rise",
+      "title": "IMF's Krishna Srinivasan says India should prioritise inflation as crude oil price risks rise",
+      "summary": "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India. Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment.",
+      "url": "https://www.cnbctv18.com/economy/imf-krishna-srinivasan-crude-oil-price-risks-weigh-asia-india-should-stay-focused-inflation-rupee-geopolitical-tensions-energy-monetary-policy-20016819.htm",
+      "source": "CNBC-TV18",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 56.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-22T07:10:43+00:00",
+      "published_at": "2026-10-22T07:10:43+00:00",
+      "effective_at": "2026-10-22T07:10:43+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "network18": {
+          "kind": "independent",
+          "source_ids": [
+            "cnbc-tv18"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (cnbc-tv18) +1",
+        "source: specialist (cnbc-tv18) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'inflation' in title weight 36",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (2.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India.",
+          "Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The IMF has warned that prolonged high crude oil prices remain a downside risk for Asia and India.",
+            "source": "CNBC-TV18",
+            "item_id": "292271e49e69ad687bf91869",
+            "composed": false
+          },
+          {
+            "text": "Krishna Srinivasan said India's central bank should focus on inflation rather than the rupee, while calling for reforms to attract stronger foreign direct investment.",
+            "source": "CNBC-TV18",
+            "item_id": "292271e49e69ad687bf91869",
+            "composed": false
+          }
+        ],
+        "source": "CNBC-TV18",
+        "corroborating": [],
+        "url": "https://www.cnbctv18.com/economy/imf-krishna-srinivasan-crude-oil-price-risks-weigh-asia-india-should-stay-focused-inflation-rupee-geopolitical-tensions-energy-monetary-policy-20016819.htm"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     },
     {
       "event_id": "833142e47da1f4cc1ba77656",
@@ -1638,7 +1756,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (delhi)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
