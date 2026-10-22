@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T16:41:50.082128+00:00",
-  "count": 5,
+  "generated_at": "2026-10-22T16:51:45.341769+00:00",
+  "count": 4,
   "stories": [
     {
       "event_id": "76c3e4dff6c7a9cb106a8ab8",
@@ -49,7 +49,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -88,37 +88,34 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "171c8161590fdfe78d08ca6c",
-      "story_id": "171c8161590fdfe78d08ca6c",
-      "headline": "HP High Court Refuses To Reject Suit Challenging Cooperative Society Election, Says Defence Cannot Be Considered Under Order VII Rule 11 CPC",
-      "title": "HP High Court Refuses To Reject Suit Challenging Cooperative Society Election, Says Defence Cannot Be Considered Under Order VII Rule 11 CPC",
-      "summary": "",
-      "url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-refuses-reject-suit-challenging-cooperative-society-election-555591",
-      "source": "LiveLaw",
+      "event_id": "7c33f3860b88526764817bf1",
+      "story_id": "7c33f3860b88526764817bf1",
+      "headline": "Incumbent president Swami Sathchidananda loses election at Sivagiri Sree Narayana Dharma Sanghom Trust in Keralam",
+      "title": "Incumbent president Swami Sathchidananda loses election at Sivagiri Sree Narayana Dharma Sanghom Trust in Keralam",
+      "summary": "However, the existing panel led by him secured a majority in the election, giving the outgoing administration an advantage in determining the trust’s future leadership",
+      "url": "https://www.thehindu.com/news/national/kerala/incumbent-president-swamisathchidananda-loses-election-at-sivagiri-sree-narayana-dharma-sanghom-trust-in-keralam/article71612868.ece",
+      "source": "The Hindu",
       "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics",
-        "defence-security",
-        "agriculture-rural"
-      ],
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 70.0,
+      "score": 60.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-22T10:45:38+00:00",
-      "published_at": "2026-10-22T10:45:38+00:00",
-      "effective_at": "2026-10-22T10:45:38+00:00",
+      "event_time": "2026-10-22T16:43:03+00:00",
+      "published_at": "2026-10-22T16:43:03+00:00",
+      "effective_at": "2026-10-22T16:43:03+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "live-law": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "live-law"
+            "the-hindu",
+            "the-hindu-kerala"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -126,90 +123,89 @@
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 58, stack 26.4, score 58 -> HIGH"
+        "dominant event 58, stack 45, score 58 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The Himachal Pradesh High Court has reiterated that while deciding an application for rejection of a plaint under Order VII Rule 11 of the Code of Civil Procedure, 1908, courts must confine their examination to the averments in the plaint and the documents accompanying it, without considering the defence raised by the defendants.",
-        "Dismissing a petition challenging the rejection of such an application in a dispute overthe election of a cooperative society's managing committee, the Court held that the trial court had rightly refused to reject the plaint at this stage.",
-        "The case arose from a dispute over the August 25, 2023 election of the managing committee of the Katohar Khurd Cooperative Agriculture Service Society in Una, Himachal Pradesh.",
-        "The plaintiffs alleged that their nomination forms had been illegally rejected and that the election process was conducted in violation of the prescribed rules.",
-        "They sought to declare the election null and void and requested the appointment of an administrator until fresh elections were held.",
-        "The defendants sought rejection of the plaint under Order VII Rule 11 CPC, arguing that the suit was barred under Sections 72 and 76 of the Himachal Pradesh Cooperative Societies Act, 1968.",
-        "After the trial court dismissed their application, the defendants approached the High Court under Article 227 of the Constitution.",
-        "The High Court observed that an application under Order VII Rule 11 CPC must be decided solely on the basis of the plaint and accompanying documents, without considering the defendants' defence.",
-        "It held that the plaintiffs' contention regarding the delay in adjudication of the election dispute under Section 72 of the Himachal Pradesh Cooperative Societies Act, 1968, had been rightly considered by the trial court.",
-        "The Court further noted that a plaint cannot be partially rejected when multiple reliefs are sought and the suit cannot be rejected in its entirety.",
-        "Finding no grounds to interfere with the trial court's order under Article 227 of the Constitution, the High Court dismissed the petition, clarifying that its observations would not affect the merits of the underlying suit."
+        "Swami Sathchidananda, the incumbent president of the Sree Narayana Dharma Sanghom Trust at Sivagiri Madhom, suffered defeat in the elections to the trust’s governing body for the 2026-31 term.",
+        "However, the existing panel led by him secured a majority in the election, giving the outgoing administration an advantage in determining the trust’s future leadership.",
+        "The elections for the 11-member governing board was held, with retired District Judge K. Viswanathan Nair as the returning officer.",
+        "As many as 55 of the 56 members eligible to vote participated in the process.",
+        "Swami Sathchidananda received only 17 votes.",
+        "Nonetheless, six members of the existing governing body were re-elected.",
+        "Those re-elected include the incumbent general secretary Swami Shubhangananda (29 votes), Swami Rithambarananda (24), Swami Yogananda Theerthar (24), Swami Anapekshananda (26), Swami Dharmachaithanya (26), and Swami Nithyaswaroopananda (26).",
+        "Swami Ambikananda (31), Swami Guruprakasam (28), Swami Vishuddhananda (28), Swami Sharadananda (26) and Swami Sandranandapuri (24) are the other elected members.",
+        "The newly elected board will decide who succeeds Swami Sathchidananda as the president of the trust, along with the other office-bearers."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Himachal Pradesh High Court has reiterated that while deciding an application for rejection of a plaint under Order VII Rule 11 of the Code of Civil Procedure, 1908, courts must confine their examination to the averments in the plaint and the documents accompanying it, without considering the defence raised by the defendants.",
-          "Dismissing a petition challenging the rejection of such an application in a dispute overthe election of a cooperative society's managing committee, the Court held that the trial court had rightly refused to reject the plaint at this stage."
+          "Swami Sathchidananda, the incumbent president of the Sree Narayana Dharma Sanghom Trust at Sivagiri Madhom, suffered defeat in the elections to the trust’s governing body for the 2026-31 term.",
+          "However, the existing panel led by him secured a majority in the election, giving the outgoing administration an advantage in determining the trust’s future leadership."
         ],
         "body": [
-          "The case arose from a dispute over the August 25, 2023 election of the managing committee of the Katohar Khurd Cooperative Agriculture Service Society in Una, Himachal Pradesh.",
-          "The plaintiffs alleged that their nomination forms had been illegally rejected and that the election process was conducted in violation of the prescribed rules.",
-          "They sought to declare the election null and void and requested the appointment of an administrator until fresh elections were held.",
-          "The defendants sought rejection of the plaint under Order VII Rule 11 CPC, arguing that the suit was barred under Sections 72 and 76 of the Himachal Pradesh Cooperative Societies Act, 1968.",
-          "After the trial court dismissed their application, the defendants approached the High Court under Article 227 of the Constitution.",
-          "The High Court observed that an application under Order VII Rule 11 CPC must be decided solely on the basis of the plaint and accompanying documents, without considering the defendants' defence.",
-          "It held that the plaintiffs' contention regarding the delay in adjudication of the election dispute under Section 72 of the Himachal Pradesh Cooperative Societies Act, 1968, had been rightly considered by the trial court.",
-          "The Court further noted that a plaint cannot be partially rejected when multiple reliefs are sought and the suit cannot be rejected in its entirety."
+          "The elections for the 11-member governing board was held, with retired District Judge K. Viswanathan Nair as the returning officer.",
+          "As many as 55 of the 56 members eligible to vote participated in the process.",
+          "Swami Sathchidananda received only 17 votes.",
+          "Nonetheless, six members of the existing governing body were re-elected.",
+          "Those re-elected include the incumbent general secretary Swami Shubhangananda (29 votes), Swami Rithambarananda (24), Swami Yogananda Theerthar (24), Swami Anapekshananda (26), Swami Dharmachaithanya (26), and Swami Nithyaswaroopananda (26).",
+          "Swami Ambikananda (31), Swami Guruprakasam (28), Swami Vishuddhananda (28), Swami Sharadananda (26) and Swami Sandranandapuri (24) are the other elected members.",
+          "The newly elected board will decide who succeeds Swami Sathchidananda as the president of the trust, along with the other office-bearers."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Una"
+            "text": "Sivagiri Madhom"
           }
         ],
         "sentences": [
           {
-            "text": "The case arose from a dispute over the August 25, 2023 election of the managing committee of the Katohar Khurd Cooperative Agriculture Service Society in Una, Himachal Pradesh.",
-            "source": "LiveLaw",
-            "item_id": "171c8161590fdfe78d08ca6c:article",
+            "text": "Swami Sathchidananda, the incumbent president of the Sree Narayana Dharma Sanghom Trust at Sivagiri Madhom, suffered defeat in the elections to the trust’s governing body for the 2026-31 term.",
+            "source": "The Hindu",
+            "item_id": "7c33f3860b88526764817bf1:article",
             "composed": false
           },
           {
-            "text": "The Himachal Pradesh High Court has reiterated that while deciding an application for rejection of a plaint under Order VII Rule 11 of the Code of Civil Procedure, 1908, courts must confine their examination to the averments in the plaint and the documents accompanying it, without considering the defence raised by the defendants.",
-            "source": "LiveLaw",
-            "item_id": "171c8161590fdfe78d08ca6c:article",
+            "text": "Those re-elected include the incumbent general secretary Swami Shubhangananda (29 votes), Swami Rithambarananda (24), Swami Yogananda Theerthar (24), Swami Anapekshananda (26), Swami Dharmachaithanya (26), and Swami Nithyaswaroopananda (26).",
+            "source": "The Hindu",
+            "item_id": "7c33f3860b88526764817bf1:article",
             "composed": false
           },
           {
-            "text": "The defendants sought rejection of the plaint under Order VII Rule 11 CPC, arguing that the suit was barred under Sections 72 and 76 of the Himachal Pradesh Cooperative Societies Act, 1968.",
-            "source": "LiveLaw",
-            "item_id": "171c8161590fdfe78d08ca6c:article",
+            "text": "Swami Ambikananda (31), Swami Guruprakasam (28), Swami Vishuddhananda (28), Swami Sharadananda (26) and Swami Sandranandapuri (24) are the other elected members.",
+            "source": "The Hindu",
+            "item_id": "7c33f3860b88526764817bf1:article",
             "composed": false
           },
           {
-            "text": "It held that the plaintiffs' contention regarding the delay in adjudication of the election dispute under Section 72 of the Himachal Pradesh Cooperative Societies Act, 1968, had been rightly considered by the trial court.",
-            "source": "LiveLaw",
-            "item_id": "171c8161590fdfe78d08ca6c:article",
+            "text": "The elections for the 11-member governing board was held, with retired District Judge K. Viswanathan Nair as the returning officer.",
+            "source": "The Hindu",
+            "item_id": "7c33f3860b88526764817bf1:article",
             "composed": false
           }
         ],
-        "source": "LiveLaw",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-refuses-reject-suit-challenging-cooperative-society-election-555591"
+        "url": "https://www.thehindu.com/news/national/kerala/incumbent-president-swamisathchidananda-loses-election-at-sivagiri-sree-narayana-dharma-sanghom-trust-in-keralam/article71612868.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -266,7 +262,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (gujarat)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 21.6, score 49.2 -> HIGH"
@@ -432,7 +428,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 32.4, score 42 -> HIGH"
@@ -511,127 +507,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "9adfd530d9d20ae689e3896b",
-      "story_id": "9adfd530d9d20ae689e3896b",
-      "headline": "Delhi High Court Reserves Verdict On Neha Bora's Plea Against Peace Bond Notice Amid Anti-CEC Protests, Judgment Tomorrow",
-      "title": "Delhi High Court Reserves Verdict On Neha Bora's Plea Against Peace Bond Notice Amid Anti-CEC Protests, Judgment Tomorrow",
-      "summary": "",
-      "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-neha-boras-plea-against-notice-for-peace-bond-amid-anti-cec-protests-555630",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 67.0,
-      "priority_score": 40.4,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-22T13:42:54+00:00",
-      "published_at": "2026-10-22T13:42:54+00:00",
-      "effective_at": "2026-10-22T13:42:54+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'verdict' in title weight 22",
-        "event term: 'judgment' in title weight 18",
-        "scale: state scope (delhi)",
-        "recency: breaking (3.0h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: state",
-        "dominant event 22, stack 40.4, score 40.4 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": false,
-      "article_sentences": [
-        "The Delhi High Court on Thursday (October 22) reserved its verdict on a plea by National President of All India Students Association (AISA) Neha Bora challenging a notice to execute a personal bond of ₹10,000 with one surety to maintain peace during an inquiry, following her participation in 'Lehra Do Tiranga' protest on October 16.",
-        "After hearing the parties for over 2.5 hours, Justice Subramonium Prasad reserved its verdict and said that orders will be pronounced on Friday at 6pm.",
-        "Bora has challenged an October 17 notice issued by a Special Executive Magistrate under Sections 126 (Magistrate may show cause an individual why peace bond may not be executed if he receives information that a person is likely commit a breach of the peace) and 130(when the Magistrate acting under section 126, section 127, section 128 or section 129, deems it necessary to require any person to show cause under he shall make an order in writing mentioning certain particulars) BNSS, read with Section 135(3) BNSS.",
-        "Under Section 135(3) Magistrate can, for reasons to be recorded in writing, direct the person in respect of whom the order under section 130 has been made to execute a bond or bail bond, for keeping the peace or maintaining good behaviour until the conclusion of the inquiry and may detain him in custody until such bond or bail bond is executed or, in default of execution, until the inquiry is concluded.",
-        "The proviso states where no proceedings are taken against a person under sections 127, 128, or 129 then such person shall not be directed to execute a bond or bail bond for maintaining good behaviour.",
-        "Section 135(1) empowers magistrate to inquire into the truth of the information upon which action has been taken against a person who appears, based on show cause notice under Section 130.",
-        "Senior advocate Gopal Sankaranarayanan appearing for Bora said that the petitioner, a leader of AISA, had made a protest call on October 16 which was peaceful and she had never called for any violence.",
-        "He said that when Bora went to Mandi house on the evening of October 16, she was detained 10-15 mins later.",
-        "On that date she has not guilty of any offence, including that of breaching peace, he said.",
-        "He said that Bora's detention was completely illegal and that she was not involved in a separate protest call given by another organization, i.e., CJP protest to unfurl National Flag at Connaught Place Central Park.",
-        "He said that after Bora was detained she was not allowed to reach out immediately to her family or lawyers.",
-        "He said that Section 163 BNSS (Power of Executive Magistrate to issue order in urgent cases of nuisance or apprehended danger) was not invoked in the area from where Bora was detained, however loudspeakers on the location announced that Section 163 was applicable."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Delhi High Court on Thursday (October 22) reserved its verdict on a plea by National President of All India Students Association (AISA) Neha Bora challenging a notice to execute a personal bond of ₹10,000 with one surety to maintain peace during an inquiry, following her participation in 'Lehra Do Tiranga' protest on October 16.",
-          "After hearing the parties for over 2.5 hours, Justice Subramonium Prasad reserved its verdict and said that orders will be pronounced on Friday at 6pm."
-        ],
-        "body": [
-          "Bora has challenged an October 17 notice issued by a Special Executive Magistrate under Sections 126 (Magistrate may show cause an individual why peace bond may not be executed if he receives information that a person is likely commit a breach of the peace) and 130(when the Magistrate acting under section 126, section 127, section 128 or section 129, deems it necessary to require any person to show cause under he shall make an order in writing mentioning certain particulars) BNSS, read with Section 135(3) BNSS.",
-          "Under Section 135(3) Magistrate can, for reasons to be recorded in writing, direct the person in respect of whom the order under section 130 has been made to execute a bond or bail bond, for keeping the peace or maintaining good behaviour until the conclusion of the inquiry and may detain him in custody until such bond or bail bond is executed or, in default of execution, until the inquiry is concluded.",
-          "The proviso states where no proceedings are taken against a person under sections 127, 128, or 129 then such person shall not be directed to execute a bond or bail bond for maintaining good behaviour.",
-          "Section 135(1) empowers magistrate to inquire into the truth of the information upon which action has been taken against a person who appears, based on show cause notice under Section 130.",
-          "Senior advocate Gopal Sankaranarayanan appearing for Bora said that the petitioner, a leader of AISA, had made a protest call on October 16 which was peaceful and she had never called for any violence.",
-          "He said that when Bora went to Mandi house on the evening of October 16, she was detained 10-15 mins later.",
-          "On that date she has not guilty of any offence, including that of breaching peace, he said.",
-          "He said that Bora's detention was completely illegal and that she was not involved in a separate protest call given by another organization, i.e., CJP protest to unfurl National Flag at Connaught Place Central Park."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Connaught Place Central"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "He said that when Bora went to Mandi house on the evening of October 16, she was detained 10-15 mins later.",
-            "source": "LiveLaw",
-            "item_id": "9adfd530d9d20ae689e3896b:article",
-            "composed": false
-          },
-          {
-            "text": "The Delhi High Court on Thursday (October 22) reserved its verdict on a plea by National President of All India Students Association (AISA) Neha Bora challenging a notice to execute a personal bond of ₹10,000 with one surety to maintain peace during an inquiry, following her participation in 'Lehra Do Tiranga' protest on October 16.",
-            "source": "LiveLaw",
-            "item_id": "9adfd530d9d20ae689e3896b:article",
-            "composed": false
-          },
-          {
-            "text": "After hearing the parties for over 2.5 hours, Justice Subramonium Prasad reserved its verdict and said that orders will be pronounced on Friday at 6pm.",
-            "source": "LiveLaw",
-            "item_id": "9adfd530d9d20ae689e3896b:article",
-            "composed": false
-          },
-          {
-            "text": "Bora has challenged an October 17 notice issued by a Special Executive Magistrate under Sections 126 (Magistrate may show cause an individual why peace bond may not be executed if he receives information that a person is likely commit a breach of the peace) and 130(when the Magistrate acting under section 126, section 127, section 128 or section 129, deems it necessary to require any person to show cause under he shall make an order in writing mentioning certain particulars) BNSS, read with Section 135(3) BNSS.",
-            "source": "LiveLaw",
-            "item_id": "9adfd530d9d20ae689e3896b:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-neha-boras-plea-against-notice-for-peace-bond-amid-anti-cec-protests-555630"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     }
   ]
 }
