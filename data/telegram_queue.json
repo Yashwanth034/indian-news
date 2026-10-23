@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T05:11:46.248593+00:00",
-  "count": 6,
+  "generated_at": "2026-10-23T05:21:45.675352+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "5be0f884a81dcc63f61c8c59",
@@ -51,7 +51,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -179,7 +179,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -304,7 +304,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -366,6 +366,94 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e2efe60ff591d80019d7a3d2",
+      "story_id": "e2efe60ff591d80019d7a3d2",
+      "headline": "Israel Defence Forces Chief of Staff says, “no need to strike Iran before election”",
+      "title": "Israel Defence Forces Chief of Staff says, “no need to strike Iran before election”",
+      "summary": "Jerusalem: Israel Defence Forces Chief of Staff Lt. Gen. Eyal Zamir has said he does not currently see an operational need to strike Iran before next week’s Knesset election, Times of Israel citing Channel 13 reported. Israel goes to the election on October 27. “We do not see any indications of a need to strike […] The post Israel Defence Forces Chief of Staff says, “no need to strike Iran before election” appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/world/israel-defence-forces-chief-of-staff-says-no-need-to-strike-iran-before-election",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-23T05:19:06+00:00",
+      "published_at": "2026-10-23T05:19:06+00:00",
+      "effective_at": "2026-10-23T05:19:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Jerusalem: Israel Defence Forces Chief of Staff Lt. Gen. Eyal Zamir has said he does not currently see an operational need to strike Iran before next week’s Knesset election, Times of Israel citing Channel 13 reported.",
+          "Israel goes to the election on October 27."
+        ],
+        "body": [
+          "“We do not see any indications of a need to strike […] The post Israel Defence Forces Chief of Staff says, “no need to strike Iran before election” appeared first on KalingaTV."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Jerusalem: Israel Defence Forces Chief of Staff Lt. Gen. Eyal Zamir has said he does not currently see an operational need to strike Iran before next week’s Knesset election, Times of Israel citing Channel 13 reported.",
+            "source": "Kalinga TV",
+            "item_id": "e2efe60ff591d80019d7a3d2",
+            "composed": false
+          },
+          {
+            "text": "Israel goes to the election on October 27.",
+            "source": "Kalinga TV",
+            "item_id": "e2efe60ff591d80019d7a3d2",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [],
+        "url": "https://kalingatv.com/world/israel-defence-forces-chief-of-staff-says-no-need-to-strike-iran-before-election"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "684cbd67f485e9863a47a3e6",
       "story_id": "684cbd67f485e9863a47a3e6",
       "headline": "Cabinet Secretariat took no action on 2 Election Commissioners’ complaints against EC officer: RTI",
@@ -407,7 +495,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -554,7 +642,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -706,7 +794,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: jobs-employment (importance 0.9) +0",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
