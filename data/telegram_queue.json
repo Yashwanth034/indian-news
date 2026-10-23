@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:21:48.557728+00:00",
-  "count": 8,
+  "generated_at": "2026-10-23T10:32:13.466948+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "ab83f6717edefb1352739b9f",
@@ -51,7 +51,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -138,7 +138,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -249,7 +249,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -359,7 +359,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -444,7 +444,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -547,7 +547,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -629,6 +629,92 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "5c5c9448b84842dd463c5246",
+      "story_id": "5c5c9448b84842dd463c5246",
+      "headline": "Offensive Reach, Defensive Depth: Inside India’s Multi-Tier Push for Indigenous Military Superiority",
+      "title": "Offensive Reach, Defensive Depth: Inside India’s Multi-Tier Push for Indigenous Military Superiority",
+      "summary": "India is orchestrating a monumental overhaul of its national security infrastructure. Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous... Read more",
+      "url": "https://defence.in/threads/offensive-reach-defensive-depth-inside-indias-multi-tier-push-for-indigenous-military-superiority.18933",
+      "source": "Defence News India",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 62.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-23T10:21:00+00:00",
+      "published_at": "2026-10-23T10:21:00+00:00",
+      "effective_at": "2026-10-23T10:21:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "defence-news-india": {
+          "kind": "independent",
+          "source_ids": [
+            "defence-news-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "filler: 'Read more' in summary (penalty 9, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'national security'",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "major override dropped penalties: filler",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (defence-news-india) +1",
+        "source: specialist (defence-news-india) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'national security' in summary weight 42",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 42, stack 32.8, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "India is orchestrating a monumental overhaul of its national security infrastructure.",
+          "Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous..."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "India is orchestrating a monumental overhaul of its national security infrastructure.",
+            "source": "Defence News India",
+            "item_id": "5c5c9448b84842dd463c5246",
+            "composed": false
+          },
+          {
+            "text": "Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous...",
+            "source": "Defence News India",
+            "item_id": "5c5c9448b84842dd463c5246",
+            "composed": false
+          }
+        ],
+        "source": "Defence News India",
+        "corroborating": [],
+        "url": "https://defence.in/threads/offensive-reach-defensive-depth-inside-indias-multi-tier-push-for-indigenous-military-superiority.18933"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "ebd3d8c3be12f537c1244574",
       "story_id": "ebd3d8c3be12f537c1244574",
       "headline": "UDF-led Keralam govt sanctions Vigilance probe against CPI(M) leader P.P. Divya over alleged tender irregularities",
@@ -671,7 +757,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -781,7 +867,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (kerala)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 23, score 38.4 -> HIGH"
