@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T16:12:20.201938+00:00",
-  "count": 12,
+  "generated_at": "2026-10-23T16:32:38.369076+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "89609ec1cc8cc63b41d9b677",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -163,7 +163,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: state scope (karnataka)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 70, stack 18.8, score 70 -> URGENT"
@@ -267,7 +267,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -379,7 +379,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (rajasthan)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 24.4, score 58 -> HIGH"
@@ -509,7 +509,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -662,7 +662,7 @@
         "event term: 'acquires' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -858,7 +858,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -981,7 +981,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1085,7 +1085,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1122,6 +1122,109 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "791f266bd29cef9fdf85ac73",
+      "story_id": "791f266bd29cef9fdf85ac73",
+      "headline": "Supreme Court holds voters can prosecute candidates for concealing information",
+      "title": "Supreme Court holds voters can prosecute candidates for concealing information",
+      "summary": "The judgment by a Bench of Justices Dipankar Datta and Sheel Nagu said the law does not insist that only public servants or competent authorities were eligible to lodge complaints against electoral candidates",
+      "url": "https://www.thehindu.com/news/national/supreme-court-holds-voters-can-prosecute-candidates-for-concealing-information/article71616952.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-23T16:24:24+00:00",
+      "published_at": "2026-10-23T16:24:24+00:00",
+      "effective_at": "2026-10-23T16:24:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'judgment' in summary weight 10.8",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 37.2, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has held in a judgment that ordinary private citizens can file criminal complaints against candidates for giving false information or concealing information while filing their nomination papers for an election.",
+        "The judgment by a Bench of Justices Dipankar Datta and Sheel Nagu said the law does not insist that only public servants or competent authorities were eligible to lodge complaints against electoral candidates.",
+        "The court’s judgment empowers the vigilant citizen-voter with the locus standi to directly act against dishonesty in electoral politics, and ensure transparency in polls right from the stage of filing nominations.",
+        "Candidates have to file personal affidavits along with their nominations.",
+        "Senior advocate Sanjay Nuli, who appeared in the case, pointed out that these affidavits were part of legislative efforts to maintain the purity of elections and a healthy democracy.",
+        "Voters must be educated and well-informed about the contesting candidates, including the latter’s assets, educational qualifications and criminal antecedents.",
+        "Concealing personal information or filing false details to hoodwink the voters was a non-cognisable and bailable offence under Section 125-A of the Representation of the People Act, 1951.",
+        "The Section provides that a guilty party would be liable to face imprisonment for six months, fine or both.",
+        "Justice Datta interpreted that the rigour of Section 195 of the Code of Criminal Procedure (CrPC), that only a complaint lodged by a public servant must be taken cognisance of by a court of law, did not affect Section 125-A of the 1951 Act.",
+        "“If indeed it were the intention of the legislature that cognisance of any offence relating to the furnishing of false information by a candidate in an affidavit with intent of being elected in an election could only be taken if the complainant were a public servant, the same could have been provided by an amendment of Section 195 CrPC,” the court noted.",
+        "Section 125-A was inserted into the 1951 Act in August 2002.",
+        "Although the legislature was presumably aware of Section 125-A when it amended Section 195 in April 2006, it did not stipulate that the restrictions of Section 195 should apply to Section 125-A."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has held in a judgment that ordinary private citizens can file criminal complaints against candidates for giving false information or concealing information while filing their nomination papers for an election.",
+          "The judgment by a Bench of Justices Dipankar Datta and Sheel Nagu said the law does not insist that only public servants or competent authorities were eligible to lodge complaints against electoral candidates."
+        ],
+        "body": [
+          "The court’s judgment empowers the vigilant citizen-voter with the locus standi to directly act against dishonesty in electoral politics, and ensure transparency in polls right from the stage of filing nominations.",
+          "Candidates have to file personal affidavits along with their nominations.",
+          "Senior advocate Sanjay Nuli, who appeared in the case, pointed out that these affidavits were part of legislative efforts to maintain the purity of elections and a healthy democracy.",
+          "Voters must be educated and well-informed about the contesting candidates, including the latter’s assets, educational qualifications and criminal antecedents.",
+          "Concealing personal information or filing false details to hoodwink the voters was a non-cognisable and bailable offence under Section 125-A of the Representation of the People Act, 1951.",
+          "The Section provides that a guilty party would be liable to face imprisonment for six months, fine or both.",
+          "Justice Datta interpreted that the rigour of Section 195 of the Code of Criminal Procedure (CrPC), that only a complaint lodged by a public servant must be taken cognisance of by a court of law, did not affect Section 125-A of the 1951 Act.",
+          "“If indeed it were the intention of the legislature that cognisance of any offence relating to the furnishing of false information by a candidate in an affidavit with intent of being elected in an election could only be taken if the complainant were a public servant, the same could have been provided by an amendment of Section 195 CrPC,” the court noted."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Concealing personal information or filing false details to hoodwink the voters was a non-cognisable and bailable offence under Section 125-A of the Representation of the People Act, 1951.",
+            "source": "The Hindu",
+            "item_id": "791f266bd29cef9fdf85ac73:article",
+            "composed": false
+          },
+          {
+            "text": "Justice Datta interpreted that the rigour of Section 195 of the Code of Criminal Procedure (CrPC), that only a complaint lodged by a public servant must be taken cognisance of by a court of law, did not affect Section 125-A of the 1951 Act.",
+            "source": "The Hindu",
+            "item_id": "791f266bd29cef9fdf85ac73:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-holds-voters-can-prosecute-candidates-for-concealing-information/article71616952.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "ae6429e2fe7cea9c7dc73d85",
@@ -1171,7 +1274,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
@@ -1236,33 +1339,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "5c5c9448b84842dd463c5246",
-      "story_id": "5c5c9448b84842dd463c5246",
-      "headline": "Offensive Reach, Defensive Depth: Inside India’s Multi-Tier Push for Indigenous Military Superiority",
-      "title": "Offensive Reach, Defensive Depth: Inside India’s Multi-Tier Push for Indigenous Military Superiority",
-      "summary": "India is orchestrating a monumental overhaul of its national security infrastructure. Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous... Read more",
-      "url": "https://defence.in/threads/offensive-reach-defensive-depth-inside-indias-multi-tier-push-for-indigenous-military-superiority.18933",
-      "source": "Defence News India",
+      "event_id": "7816d5ea8240fa7343e94843",
+      "story_id": "7816d5ea8240fa7343e94843",
+      "headline": "Delhi BJP questions AAP on CM Mann’s goods on which he was forced to pay customs duty, fine",
+      "title": "Delhi BJP questions AAP on CM Mann’s goods on which he was forced to pay customs duty, fine",
+      "summary": "“People of the country and Punjab want Arvind Kejriwal to explain why Bhagwant Mann violated customs rules and what taxable goods he was allegedly trying to evade tax on,” said Malhotra.",
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/delhi-bjp-questions-aap-on-cm-manns-goods-on-which-he-was-forced-to-pay-customs-duty-fine-1135072",
+      "source": "The Hans India",
       "primary_source": false,
-      "tier": 3,
-      "category": "defence-security",
+      "tier": 2,
+      "category": "economy-finance",
       "secondary_categories": [
-        "transport-infrastructure"
+        "national-politics"
       ],
       "confidence": "medium",
-      "score": 62.0,
-      "priority_score": 42.0,
+      "score": 86.2,
+      "priority_score": 40.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-23T10:21:00+00:00",
-      "published_at": "2026-10-23T10:21:00+00:00",
-      "effective_at": "2026-10-23T10:21:00+00:00",
+      "event_time": "2026-10-23T16:25:11+00:00",
+      "published_at": "2026-10-23T16:25:11+00:00",
+      "effective_at": "2026-10-23T16:25:11+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "defence-news-india": {
-          "kind": "independent",
+        "ians": {
+          "kind": "wire",
           "source_ids": [
-            "defence-news-india"
+            "hans-india"
           ],
           "count": 1
         }
@@ -1270,56 +1373,81 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "filler: 'Read more' in summary (penalty 9, overridden)",
         "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'national security'",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "major override dropped penalties: filler",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (defence-news-india) +1",
-        "source: specialist (defence-news-india) +5",
+        "source: tier 2 (hans-india) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'national security' in summary weight 42",
+        "event term: 'customs duty' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: defence-security (importance 1.3) +4.8",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 42, stack 28.8, score 42 -> HIGH"
+        "dominant event 40, stack 33.6, score 40 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": null,
+      "state": "delhi",
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "“People of the country and Punjab want Arvind Kejriwal to explain why Bhagwant Mann violated customs rules and what taxable goods he was allegedly trying to evade tax on,” said Malhotra.",
+        "New Delhi: Delhi BJP President Harsh Malhotra on Friday criticised Punjab Chief Minister Bhagwant Mann’s failed bid to evade customs duty while returning to the country after a foreign visit and asked Arvind Kejriwal to share details of the goods for which the former was penalised by the customs.",
+        "The Delhi BJP President said Mann was often in the news for allegedly setting several records by entering Parliament and the Assembly after consuming alcohol, but now he has become the first Chief Minister in the country to be fined Rs 50,000 under the Customs Act, 1962.",
+        "The Delhi BJP President drew the attention of Aam Aadmi Party Convenor Arvind Kejriwal to reports according to which Mann, while returning from a foreign trip, allegedly attempted to pass through the green channel despite carrying luxury taxable goods, in violation of customs rules.",
+        "However, alert customs officials stopped him, inspected his baggage, and subsequently imposed a fine of Rs 50,000 on several items, Malhotra said, quoting reports.",
+        "The Delhi BJP President said that it is beyond comprehension what message Mann wanted to convey to ordinary citizens by allegedly making an unruly attempt to pass through the green channel despite carrying taxable goods.",
+        "In another development, Delhi BJP spokesperson Praveen Shankar Kapoor hit out at the AAP for attempts to allege a scam in the “poor quality of paper” in textbooks distributed in government schools.",
+        "Kapoor said Delhi witnessed a textbook crisis for Classes 6 to 12 throughout the 11 years of AAP government’s rule.",
+        "Moreover, as soon as the Kejriwal government came to power in the Municipal Corporation in 2022, it created a shortage of textbooks there as well.",
+        "The Delhi BJP spokesperson said that records bear witness to the fact that, during Kejriwal’s 11-year rule, cases concerning the failure to provide textbooks reached the courts almost every year, and the Education Department was reprimanded on numerous occasions.",
+        "Kapoor said it was laughable that Delhi AAP convenor Saurabh Bharadwaj, a former minister in a government under whose tenure there was a textbook crisis in almost every academic session, was now raising questions about the poor quality of textbook paper.",
+        "It appears that Bharadwaj considers himself an expert capable of judging the quality of paper as well, said Kapoor."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "India is orchestrating a monumental overhaul of its national security infrastructure.",
-          "Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous..."
+          "“People of the country and Punjab want Arvind Kejriwal to explain why Bhagwant Mann violated customs rules and what taxable goods he was allegedly trying to evade tax on,” said Malhotra.",
+          "New Delhi: Delhi BJP President Harsh Malhotra on Friday criticised Punjab Chief Minister Bhagwant Mann’s failed bid to evade customs duty while returning to the country after a foreign visit and asked Arvind Kejriwal to share details of the goods for which the former was penalised by the customs."
         ],
-        "body": [],
+        "body": [
+          "The Delhi BJP President said Mann was often in the news for allegedly setting several records by entering Parliament and the Assembly after consuming alcohol, but now he has become the first Chief Minister in the country to be fined Rs 50,000 under the Customs Act, 1962.",
+          "The Delhi BJP President drew the attention of Aam Aadmi Party Convenor Arvind Kejriwal to reports according to which Mann, while returning from a foreign trip, allegedly attempted to pass through the green channel despite carrying luxury taxable goods, in violation of customs rules.",
+          "However, alert customs officials stopped him, inspected his baggage, and subsequently imposed a fine of Rs 50,000 on several items, Malhotra said, quoting reports.",
+          "The Delhi BJP President said that it is beyond comprehension what message Mann wanted to convey to ordinary citizens by allegedly making an unruly attempt to pass through the green channel despite carrying taxable goods.",
+          "In another development, Delhi BJP spokesperson Praveen Shankar Kapoor hit out at the AAP for attempts to allege a scam in the “poor quality of paper” in textbooks distributed in government schools.",
+          "Kapoor said Delhi witnessed a textbook crisis for Classes 6 to 12 throughout the 11 years of AAP government’s rule.",
+          "Moreover, as soon as the Kejriwal government came to power in the Municipal Corporation in 2022, it created a shortage of textbooks there as well.",
+          "The Delhi BJP spokesperson said that records bear witness to the fact that, during Kejriwal’s 11-year rule, cases concerning the failure to provide textbooks reached the courts almost every year, and the Education Department was reprimanded on numerous occasions."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "India is orchestrating a monumental overhaul of its national security infrastructure.",
-            "source": "Defence News India",
-            "item_id": "5c5c9448b84842dd463c5246",
+            "text": "The Delhi BJP President said Mann was often in the news for allegedly setting several records by entering Parliament and the Assembly after consuming alcohol, but now he has become the first Chief Minister in the country to be fined Rs 50,000 under the Customs Act, 1962.",
+            "source": "The Hans India",
+            "item_id": "7816d5ea8240fa7343e94843:article",
             "composed": false
           },
           {
-            "text": "Driven by the vision of self-reliance, the nation is rapidly advancing toward complete indigenous...",
-            "source": "Defence News India",
-            "item_id": "5c5c9448b84842dd463c5246",
+            "text": "Kapoor said Delhi witnessed a textbook crisis for Classes 6 to 12 throughout the 11 years of AAP government’s rule.",
+            "source": "The Hans India",
+            "item_id": "7816d5ea8240fa7343e94843:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: Delhi BJP President Harsh Malhotra on Friday criticised Punjab Chief Minister Bhagwant Mann’s failed bid to evade customs duty while returning to the country after a foreign visit and asked Arvind Kejriwal to share details of the goods for which the former was penalised by the customs.",
+            "source": "The Hans India",
+            "item_id": "7816d5ea8240fa7343e94843:article",
             "composed": false
           }
         ],
-        "source": "Defence News India",
+        "source": "The Hans India",
         "corroborating": [],
-        "url": "https://defence.in/threads/offensive-reach-defensive-depth-inside-indias-multi-tier-push-for-indigenous-military-superiority.18933"
+        "url": "https://www.thehansindia.com/news/cities/new-delhi/delhi-bjp-questions-aap-on-cm-manns-goods-on-which-he-was-forced-to-pay-customs-duty-fine-1135072"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "dfc39f6e466eccd5bf5de8c5",
@@ -1364,7 +1492,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 21.6, stack 38.4, score 38.4 -> HIGH"
