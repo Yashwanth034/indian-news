@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T08:02:14.458697+00:00",
-  "count": 7,
+  "generated_at": "2026-10-24T08:11:44.545011+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "ea75954bc65e40bb3e7d633d",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -171,7 +171,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 42, score 72 -> URGENT"
@@ -284,7 +284,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -368,6 +368,87 @@
       "enrichment": "article"
     },
     {
+      "event_id": "cb9a05b0e4c7482d6d4707af",
+      "story_id": "cb9a05b0e4c7482d6d4707af",
+      "headline": "The Election Commission’s decade of declining credibility",
+      "title": "The Election Commission’s decade of declining credibility",
+      "summary": "The ECI’s decisions began to be tracked and critiqued by the opposition from 2017 onwards. Since then, the censure has only grown louder, with each exposé reducing the credibility of this once-venerated institution.",
+      "url": "https://frontline.thehindu.com/the-nation/election-commission-india-independence-gyanesh-kumar-controversy/article71604203.ece",
+      "source": "Frontline (The Hindu group)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 90.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-24T07:06:32+00:00",
+      "published_at": "2026-10-24T07:06:32+00:00",
+      "effective_at": "2026-10-24T07:06:32+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "frontline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (frontline) +1",
+        "source: specialist (frontline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (1.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 30.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The ECI’s decisions began to be tracked and critiqued by the opposition from 2017 onwards.",
+          "Since then, the censure has only grown louder, with each exposé reducing the credibility of this once-venerated institution."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The ECI’s decisions began to be tracked and critiqued by the opposition from 2017 onwards.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "cb9a05b0e4c7482d6d4707af",
+            "composed": false
+          },
+          {
+            "text": "Since then, the censure has only grown louder, with each exposé reducing the credibility of this once-venerated institution.",
+            "source": "Frontline (The Hindu group)",
+            "item_id": "cb9a05b0e4c7482d6d4707af",
+            "composed": false
+          }
+        ],
+        "source": "Frontline (The Hindu group)",
+        "corroborating": [],
+        "url": "https://frontline.thehindu.com/the-nation/election-commission-india-independence-gyanesh-kumar-controversy/article71604203.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "15c3a43353067e1320cebc8e",
       "story_id": "15c3a43353067e1320cebc8e",
       "headline": "Cabinet Sub-Committee seeks to draw up department-wise plan to tackle El Nino induced drought conditions",
@@ -416,7 +497,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -529,7 +610,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 43.2, score 43.2 -> HIGH"
@@ -639,7 +720,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 25.2, stack 40.8, score 40.8 -> HIGH"
@@ -763,7 +844,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 0, stack 38.4, score 38.4 -> HIGH"
