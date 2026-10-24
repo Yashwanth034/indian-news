@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T06:21:44.820618+00:00",
-  "count": 9,
+  "generated_at": "2026-10-24T06:32:09.539952+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "ea75954bc65e40bb3e7d633d",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -241,7 +241,7 @@
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
@@ -249,12 +249,19 @@
       "event_time": "2026-10-24T05:59:22+00:00",
       "published_at": "2026-10-24T05:59:22+00:00",
       "effective_at": "2026-10-24T05:59:22+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "ians": {
           "kind": "wire",
           "source_ids": [
             "assam-tribune"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
           ],
           "count": 1
         }
@@ -263,20 +270,22 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 36, score 72 -> URGENT"
+        "dominant event 72, stack 42, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -383,7 +392,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -508,7 +517,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -592,123 +601,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "63be682a667586ebce465944",
-      "story_id": "63be682a667586ebce465944",
-      "headline": "Beyond the LAC: India’s Strategic Contest With China in the Himalayas",
-      "title": "Beyond the LAC: India’s Strategic Contest With China in the Himalayas",
-      "summary": "From Doklam to Galwan: The Changing Rules of Border Competition Post-Doklam and Galwan clashes, it was very clear that the Line of Actual Control was no longer merely a disputed… The post Beyond the LAC: India’s Strategic Contest With China in the Himalayas appeared first on India Narrative .",
-      "url": "https://www.indianarrative.com/opinion/beyond-the-lac-indias-strategic-contest-with-china-in-the-himalayas",
-      "source": "India Narrative",
-      "primary_source": false,
-      "tier": 3,
-      "category": "defence-security",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 62.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-24T00:31:00+00:00",
-      "published_at": "2026-10-24T00:31:00+00:00",
-      "effective_at": "2026-10-24T00:31:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "india-narrative": {
-          "kind": "independent",
-          "source_ids": [
-            "india-narrative"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (india-narrative) +1",
-        "source: specialist (india-narrative) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'lac' in title weight 62",
-        "event term: 'lac' in summary weight 37.2",
-        "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national",
-        "dominant event 62, stack 45, score 62 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Post-Doklam and Galwan clashes, it was very clear that the Line of Actual Control was no longer merely a disputed frontier marked by competing maps and patrols, but now it’s a permanent contest of infrastructure, surveillance, military readiness, diplomacy, and national resilience.",
-        "From Doklam to Galwan, India has learned that the central challenge from China is not always a dramatic assault across the Himalayas, but it’s the gradual alteration of facts on the ground, which is often below the threshold of open war.",
-        "The latest phase of India-China engagement offers cautious reasons for optimism.",
-        "We know that at the 25th round of Special Representatives talks held in Beijing on 25 August 2026, India and China had agreed on an eight-point consensus covering border management, military communication, boundary negotiations, trans-border rivers, trade and pilgrimage.",
-        "Yet the agreement is best understood only as a mechanism for managing rivalry and not as proof that the rivalry has ended.",
-        "The Doklam confrontation in 2017 had clearly demonstrated that a local dispute in the Bhutan-China-India trijunction could acquire wider consequences because of its proximity to the Siliguri Corridor, which is the narrow land link connecting India’s North-Eastern states with the rest of the country.",
-        "Thus, India’s decision to physically block the Chinese road construction through Bhutan reflected a clear strategic calculation and a strong stand.",
-        "Doklam had clearly exposed the changing character of Chinese border strategy.",
-        "Infrastructure was not simply a civilian development tool.",
-        "Roads, tracks, communications networks, and permanent settlements are clearly aimed at improving the PLA’s ability to reinforce contested areas rapidly and sustain itself, dominating the local tactical environment.",
-        "Then the crisis in Eastern Ladakh in 2020 made this lesson far more urgent.",
-        "The Galwan Valley clash in which soldiers from both sides were killed actually destroyed the assumption that earlier confidence-building arrangements alone could preserve peace."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Post-Doklam and Galwan clashes, it was very clear that the Line of Actual Control was no longer merely a disputed frontier marked by competing maps and patrols, but now it’s a permanent contest of infrastructure, surveillance, military readiness, diplomacy, and national resilience.",
-          "From Doklam to Galwan, India has learned that the central challenge from China is not always a dramatic assault across the Himalayas, but it’s the gradual alteration of facts on the ground, which is often below the threshold of open war."
-        ],
-        "body": [
-          "The latest phase of India-China engagement offers cautious reasons for optimism.",
-          "We know that at the 25th round of Special Representatives talks held in Beijing on 25 August 2026, India and China had agreed on an eight-point consensus covering border management, military communication, boundary negotiations, trans-border rivers, trade and pilgrimage.",
-          "Yet the agreement is best understood only as a mechanism for managing rivalry and not as proof that the rivalry has ended.",
-          "The Doklam confrontation in 2017 had clearly demonstrated that a local dispute in the Bhutan-China-India trijunction could acquire wider consequences because of its proximity to the Siliguri Corridor, which is the narrow land link connecting India’s North-Eastern states with the rest of the country.",
-          "Thus, India’s decision to physically block the Chinese road construction through Bhutan reflected a clear strategic calculation and a strong stand.",
-          "Doklam had clearly exposed the changing character of Chinese border strategy.",
-          "Infrastructure was not simply a civilian development tool.",
-          "Roads, tracks, communications networks, and permanent settlements are clearly aimed at improving the PLA’s ability to reinforce contested areas rapidly and sustain itself, dominating the local tactical environment."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Beijing"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "We know that at the 25th round of Special Representatives talks held in Beijing on 25 August 2026, India and China had agreed on an eight-point consensus covering border management, military communication, boundary negotiations, trans-border rivers, trade and pilgrimage.",
-            "source": "India Narrative",
-            "item_id": "63be682a667586ebce465944:article",
-            "composed": false
-          },
-          {
-            "text": "From Doklam to Galwan, India has learned that the central challenge from China is not always a dramatic assault across the Himalayas, but it’s the gradual alteration of facts on the ground, which is often below the threshold of open war.",
-            "source": "India Narrative",
-            "item_id": "63be682a667586ebce465944:article",
-            "composed": false
-          },
-          {
-            "text": "The Doklam confrontation in 2017 had clearly demonstrated that a local dispute in the Bhutan-China-India trijunction could acquire wider consequences because of its proximity to the Siliguri Corridor, which is the narrow land link connecting India’s North-Eastern states with the rest of the country.",
-            "source": "India Narrative",
-            "item_id": "63be682a667586ebce465944:article",
-            "composed": false
-          }
-        ],
-        "source": "India Narrative",
-        "corroborating": [],
-        "url": "https://www.indianarrative.com/opinion/beyond-the-lac-indias-strategic-contest-with-china-in-the-himalayas"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "bb5bab4e59fcf1212fa090dc",
       "story_id": "bb5bab4e59fcf1212fa090dc",
       "headline": "Centre claims external conspiracy whenever it is in crisis: Dr Farooq Abdullah",
@@ -751,7 +643,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -873,7 +765,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -967,134 +859,6 @@
         "source": "Greater Kashmir",
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/opinion/an-unusual-visit-12744184"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "a90bfa214189d3b6baee20e7",
-      "story_id": "a90bfa214189d3b6baee20e7",
-      "headline": "Can accused get certified copies of General Security Force Court proceedings?",
-      "title": "Can accused get certified copies of General Security Force Court proceedings?",
-      "summary": "Srinagar, Oct 23: Upholding the constitutional validity of Rule 129 of the Border Security Force (BSF) Rules, 1969, the High Court of J&K and Ladakh has ruled that an accused tried by a Security Force Court is disentitled to certified copies of trial proceedings before confirmation of the finding and sentence, provided the statutory right to inspect the proceedings and other safeguards are available. Allowing an appeal by Ministry of Home Affairs, Inspector General Border Security Force, Director General BSF, General Security Force Court at Pantha-chowk, Srinagar and others, a division bench comprising Chief Justice DrPushpendra Singh Bhati and Justice M A Chowdhary set aside a Single Judge's decision dated April 28, 2022. In its judgment the single judge bench had declared Rule 129 unconstitutional for violating the right to a fair trial under Article 21 of the Constitution. In the decision reserved on September 24 and pronounced on October 22, the division bench held that the provision, when read harmoniously with the BSF Act and the Rules, regulates the timing of access to copies rather than denying an accused access to the trial record altogether. The case stemmed from killing of ahead Constable ChanderBhan at a BSF campus in Bandipora on November 27, 2017. A General Security Force Court (GSFC) tried Rovinder Singh, a BSF constable for the murder and for leaving his picket allegedly without orders from superior officers. The court found him guilty and awarded life imprisonment and dismissal from service, subject to statutory confirmation. During the trial, Singh sought certified copies of the challan, related documents and statements of prosecution witnesses. His request was declined under Rule 129, which provides for obtaining copies after confirmation of the finding and sentence. Singh called in question the restriction in his plea before the single bench with the contention that the denial of copies impaired his ability to prepare an effective defence. The bench accepted his plea, struck down Rule 129 and directed the GSFC to resume proceedings from the stage of conclusion of prosecution evidence, providing him with the relevant copies. Overturning the single judge’s decision, the division bench in keeping with a related supreme court’s decision underscored that the right to inspect court-martial proceedings at reasonable times could satisfy the requirements of natural justice and that an accused could not insist upon daily copies of the proceedings. The bench pointed out that Section 87 of the BSF Act makes the Indian Evidence Act applicable to Security Force Court proceedings subject to the provisions of the special legislation. It held that Rule 129 operates within this statutory framework and does not extinguish the accused's right to inspect the record. Moreover, the bench underscored that Article 21 guarantees a fair opportunity to defend oneself but does not invariably require that the opportunity take the form of possession of certified copies at every stage of a trial. Referring to Article 33 of the Constitution, the court noted that Parliament has the power to restrict or modify the application of fundamental rights to members of the armed forces and forces charged with maintaining public order to ensure the proper discharge of their duties and maintenance of discipline. The BSF Act provides for inspection of proceedings, representation and assistance during trial, review, confirmation of findings and sentences, and further statutory remedies against adverse decisions, it said. The court held Rule 129 could not be considered in isolation from these safeguards and that the distinction between proceedings awaiting confirmation and those already confirmed had a rational basis within the special statutory framework governing Security Force Courts. It said that no material had been placed before it to demonstrate that Singh had actually been prevented from inspecting the proceedings, cross-examining a material witness or raising a specific defence because of the denial of copies. Furthermore, the court noted that the “existence of a possibility that a copy may assist a defence is not sufficient to invalidate a rule which forms part of a special statutory procedure”. The court declared Rule 129 constitutionally valid and held that non-supply of certified copies before confirmation of the finding and sentence does not, by itself, violate the right to a fair trial under Article 21, while allowing the appeal assailing the single bench’s decision. The bench clarified that its judgment would have no bearing on the final adjudication of Singh's guilt or punishment and directed the competent authorities to proceed in accordance with the BSF Act and Rules. Advocate Hakim Aman Ali, Central Government counsel appeared for Border Security Force as appellants",
-      "url": "https://www.greaterkashmir.com/jammu-kashmir/can-accused-get-certified-copies-of-general-security-force-court-proceedings-12744158",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "defence-security",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-24T01:09:09+00:00",
-      "published_at": "2026-10-24T01:09:09+00:00",
-      "effective_at": "2026-10-24T01:09:09+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: marker 'confirmed'",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'unconstitutional' in summary weight 24",
-        "event term: 'judgment' in summary weight 10.8",
-        "event term: 'final' in summary weight 6",
-        "event term: 'chief justice' in summary weight 25.2",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (5.2h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 26.4, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Srinagar, Oct 23: Upholding the constitutional validity of Rule 129 of the Border Security Force (BSF) Rules, 1969, the High Court of J&K and Ladakh has ruled that an accused tried by a Security Force Court is disentitled to certified copies of trial proceedings before confirmation of the finding and sentence, provided the statutory right to inspect the proceedings and other safeguards are available.",
-          "Allowing an appeal by Ministry of Home Affairs, Inspector General Border Security Force, Director General BSF, General Security Force Court at Pantha-chowk, Srinagar and others, a division bench comprising Chief Justice DrPushpendra Singh Bhati and Justice M. A Chowdhary set aside a Single Judge's decision dated April 28, 2022."
-        ],
-        "body": [
-          "In its judgment the single judge bench had declared Rule 129 unconstitutional for violating the right to a fair trial under Article 21 of the Constitution.",
-          "In the decision reserved on September 24 and pronounced on October 22, the division bench held that the provision, when read harmoniously with the BSF Act and the Rules, regulates the timing of access to copies rather than denying an accused access to the trial record altogether.",
-          "The case stemmed from killing of ahead Constable ChanderBhan at a BSF campus in Bandipora on November 27, 2017.",
-          "A General Security Force Court (GSFC) tried Rovinder Singh, a BSF constable for the murder and for leaving his picket allegedly without orders from superior officers.",
-          "The court found him guilty and awarded life imprisonment and dismissal from service, subject to statutory confirmation.",
-          "During the trial, Singh sought certified copies of the challan, related documents and statements of prosecution witnesses.",
-          "His request was declined under Rule 129, which provides for obtaining copies after confirmation of the finding and sentence.",
-          "Singh called in question the restriction in his plea before the single bench with the contention that the denial of copies impaired his ability to prepare an effective defence.",
-          "The bench accepted his plea, struck down Rule 129 and directed the GSFC to resume proceedings from the stage of conclusion of prosecution evidence, providing him with the relevant copies.",
-          "Overturning the single judge’s decision, the division bench in keeping with a related supreme court’s decision underscored that the right to inspect court-martial proceedings at reasonable times could satisfy the requirements of natural justice and that an accused could not insist upon daily copies of the proceedings.",
-          "The bench pointed out that Section 87 of the BSF Act makes the Indian Evidence Act applicable to Security Force Court proceedings subject to the provisions of the special legislation.",
-          "It held that Rule 129 operates within this statutory framework and does not extinguish the accused's right to inspect the record.",
-          "Moreover, the bench underscored that Article 21 guarantees a fair opportunity to defend oneself but does not invariably require that the opportunity take the form of possession of certified copies at every stage of a trial.",
-          "Referring to Article 33 of the Constitution, the court noted that Parliament has the power to restrict or modify the application of fundamental rights to members of the armed forces and forces charged with maintaining public order to ensure the proper discharge of their duties and maintenance of discipline.",
-          "The BSF Act provides for inspection of proceedings, representation and assistance during trial, review, confirmation of findings and sentences, and further statutory remedies against adverse decisions, it said.",
-          "The court held Rule 129 could not be considered in isolation from these safeguards and that the distinction between proceedings awaiting confirmation and those already confirmed had a rational basis within the special statutory framework governing Security Force Courts.",
-          "It said that no material had been placed before it to demonstrate that Singh had actually been prevented from inspecting the proceedings, cross-examining a material witness or raising a specific defence because of the denial of copies.",
-          "Furthermore, the court noted that the “existence of a possibility that a copy may assist a defence is not sufficient to invalidate a rule which forms part of a special statutory procedure”.",
-          "The court declared Rule 129 constitutionally valid and held that non-supply of certified copies before confirmation of the finding and sentence does not, by itself, violate the right to a fair trial under Article 21, while allowing the appeal assailing the single bench’s decision.",
-          "The bench clarified that its judgment would have no bearing on the final adjudication of Singh's guilt or punishment and directed the competent authorities to proceed in accordance with the BSF Act and Rules.",
-          "Advocate Hakim Aman Ali, Central Government counsel appeared for Border Security Force as appellants."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Pantha-chowk"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Allowing an appeal by Ministry of Home Affairs, Inspector General Border Security Force, Director General BSF, General Security Force Court at Pantha-chowk, Srinagar and others, a division bench comprising Chief Justice DrPushpendra Singh Bhati and Justice M. A Chowdhary set aside a Single Judge's decision dated April 28, 2022.",
-            "source": "Greater Kashmir",
-            "item_id": "a90bfa214189d3b6baee20e7",
-            "composed": false
-          },
-          {
-            "text": "In the decision reserved on September 24 and pronounced on October 22, the division bench held that the provision, when read harmoniously with the BSF Act and the Rules, regulates the timing of access to copies rather than denying an accused access to the trial record altogether.",
-            "source": "Greater Kashmir",
-            "item_id": "a90bfa214189d3b6baee20e7",
-            "composed": false
-          },
-          {
-            "text": "The court declared Rule 129 constitutionally valid and held that non-supply of certified copies before confirmation of the finding and sentence does not, by itself, violate the right to a fair trial under Article 21, while allowing the appeal assailing the single bench’s decision.",
-            "source": "Greater Kashmir",
-            "item_id": "a90bfa214189d3b6baee20e7",
-            "composed": false
-          },
-          {
-            "text": "Srinagar, Oct 23: Upholding the constitutional validity of Rule 129 of the Border Security Force (BSF) Rules, 1969, the High Court of J&K and Ladakh has ruled that an accused tried by a Security Force Court is disentitled to certified copies of trial proceedings before confirmation of the finding and sentence, provided the statutory right to inspect the proceedings and other safeguards are available.",
-            "source": "Greater Kashmir",
-            "item_id": "a90bfa214189d3b6baee20e7",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/jammu-kashmir/can-accused-get-certified-copies-of-general-security-force-court-proceedings-12744158"
       },
       "group_size": 1,
       "label": "📰 NEWS",
