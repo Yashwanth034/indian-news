@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T06:32:09.539952+00:00",
-  "count": 7,
+  "generated_at": "2026-10-24T06:41:47.532473+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "ea75954bc65e40bb3e7d633d",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -282,7 +282,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 42, score 72 -> URGENT"
@@ -365,9 +365,9 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-24T04:58:18+00:00",
-      "published_at": "2026-10-24T04:58:18+00:00",
-      "effective_at": "2026-10-24T04:58:18+00:00",
+      "event_time": "2026-10-24T06:16:04+00:00",
+      "published_at": "2026-10-24T06:16:04+00:00",
+      "effective_at": "2026-10-24T06:16:04+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -392,7 +392,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -517,7 +517,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -643,7 +643,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -765,7 +765,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -863,6 +863,120 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "15c3a43353067e1320cebc8e",
+      "story_id": "15c3a43353067e1320cebc8e",
+      "headline": "Cabinet Sub-Committee seeks to draw up department-wise plan to tackle El Nino induced drought conditions",
+      "title": "Cabinet Sub-Committee seeks to draw up department-wise plan to tackle El Nino induced drought conditions",
+      "summary": "358 mandals provisionally identified as drought-affected based on rainfall, crop coverage",
+      "url": "https://www.thehindu.com/news/national/telangana/cabinet-sub-committee-seeks-to-draw-up-department-wise-plan-to-tackle-el-nino-induced-drought-conditions/article71617434.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-24T06:09:34+00:00",
+      "published_at": "2026-10-24T06:09:34+00:00",
+      "effective_at": "2026-10-24T06:09:34+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'drought' in title weight 36",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 36, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Cabinet Sub-Committee on Drought and El Nino conditions chaired by Deputy Chief Minister M. Bhatti Vikramarka on Friday resolved to prepare a comprehensive and department-wise action plan to tackle the drought caused by El Nino conditions.",
+        "The plans will focus on safeguarding supply of water for drinking and irrigation and ensuring uninterrupted electricity, agricultural support and rural employment so that people do not face hardships in the coming days.",
+        "The first meeting of the Cabinet Sub-Committee, constituted to review the drought and El Nino situation in the State and recommend appropriate measures to the government, was held here on Friday (October 23).",
+        "The meeting primarily discussed the impact of El Nino and drought in various parts of the State, water availability, relief measures for farmers and future action plans.",
+        "Sub-Committee members and Ministers N. Uttam Kumar Reddy, Ponguleti Srinivas Reddy, D. Seethakka, Tummala Nageswara Rao and Vakiti Srihari along with Chief Secretary Sanjay Jaju and secretaries of the concerned departments attended the meeting.",
+        "Mr. Vikramarka asked the officials to scientifically assess drought conditions and examine the mandals eligible for declaration as drought-affected areas under the prescribed guidelines.",
+        "He stressed that the government’s priority was to minimise the impact of drought and ensure timely delivery of necessary assistance to people through coordinated efforts.",
+        "He instructed officials to assess not only areas already experiencing severe drought but also mandals where the drought impact exceeds 20%.",
+        "An advance assessment of the likely impact of drought on various sectors would help the government provide timely assistance to those in need, he said.",
+        "He suggested that every department identify the challenges and prepare a clear action plan to address them.",
+        "He asked the officials to anticipate challenges in the power sector arising from El Nino conditions and take measures in advance.",
+        "Mr. Uttam Kumar Reddy asked the District Collectors to conduct weekly review meetings with the officials concerned to monitor the measures being implemented to address the drought conditions."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Cabinet Sub-Committee on Drought and El Nino conditions chaired by Deputy Chief Minister M. Bhatti Vikramarka on Friday resolved to prepare a comprehensive and department-wise action plan to tackle the drought caused by El Nino conditions.",
+          "The plans will focus on safeguarding supply of water for drinking and irrigation and ensuring uninterrupted electricity, agricultural support and rural employment so that people do not face hardships in the coming days."
+        ],
+        "body": [
+          "The first meeting of the Cabinet Sub-Committee, constituted to review the drought and El Nino situation in the State and recommend appropriate measures to the government, was held here on Friday (October 23).",
+          "The meeting primarily discussed the impact of El Nino and drought in various parts of the State, water availability, relief measures for farmers and future action plans.",
+          "Sub-Committee members and Ministers N. Uttam Kumar Reddy, Ponguleti Srinivas Reddy, D. Seethakka, Tummala Nageswara Rao and Vakiti Srihari along with Chief Secretary Sanjay Jaju and secretaries of the concerned departments attended the meeting.",
+          "Mr. Vikramarka asked the officials to scientifically assess drought conditions and examine the mandals eligible for declaration as drought-affected areas under the prescribed guidelines.",
+          "He stressed that the government’s priority was to minimise the impact of drought and ensure timely delivery of necessary assistance to people through coordinated efforts.",
+          "He instructed officials to assess not only areas already experiencing severe drought but also mandals where the drought impact exceeds 20%.",
+          "An advance assessment of the likely impact of drought on various sectors would help the government provide timely assistance to those in need, he said.",
+          "He suggested that every department identify the challenges and prepare a clear action plan to address them."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The first meeting of the Cabinet Sub-Committee, constituted to review the drought and El Nino situation in the State and recommend appropriate measures to the government, was held here on Friday (October 23).",
+            "source": "The Hindu",
+            "item_id": "15c3a43353067e1320cebc8e:article",
+            "composed": false
+          },
+          {
+            "text": "The Cabinet Sub-Committee on Drought and El Nino conditions chaired by Deputy Chief Minister M. Bhatti Vikramarka on Friday resolved to prepare a comprehensive and department-wise action plan to tackle the drought caused by El Nino conditions.",
+            "source": "The Hindu",
+            "item_id": "15c3a43353067e1320cebc8e:article",
+            "composed": false
+          },
+          {
+            "text": "He instructed officials to assess not only areas already experiencing severe drought but also mandals where the drought impact exceeds 20%.",
+            "source": "The Hindu",
+            "item_id": "15c3a43353067e1320cebc8e:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/telangana/cabinet-sub-committee-seeks-to-draw-up-department-wise-plan-to-tackle-el-nino-induced-drought-conditions/article71617434.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     }
   ]
 }
