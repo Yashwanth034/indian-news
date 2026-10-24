@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:02:21.653577+00:00",
+  "generated_at": "2026-10-24T22:12:25.445118+00:00",
   "count": 3,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -130,7 +130,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -203,33 +203,34 @@
       "enrichment": "article"
     },
     {
-      "event_id": "d3ee0eb8bd9e96ea09cd1494",
-      "story_id": "d3ee0eb8bd9e96ea09cd1494",
-      "headline": "Schools to be closed, response team on alert as Odisha steps up cyclone preparedness",
-      "title": "Schools to be closed, response team on alert as Odisha steps up cyclone preparedness",
-      "summary": "The weather system over Bay of Bengal is likely to intensify into a deep depression on Sunday and into a cyclonic storm by Monday morning and is expected to make landfall on October 28",
-      "url": "https://www.thehindu.com/news/national/bay-of-bengal-cyclonic-storm-landfall-on-october-28-weather-odisha-and-andhra-pradesh/article71619250.ece",
-      "source": "The Hindu",
+      "event_id": "97c607bc53c2305b1d850430",
+      "story_id": "97c607bc53c2305b1d850430",
+      "headline": "No EC nod needed for voter to sue candidate over false information: Supreme Court",
+      "title": "No EC nod needed for voter to sue candidate over false information: Supreme Court",
+      "summary": "A bench of Justices Dipankar Datta and Sheel Nagu quashed the Karnataka HC order which had held that “right given to the voter is only to file an election petition, and not to register a private complaint of crime which is the duty of the Election Commission, if it wants to do so”.",
+      "url": "https://timesofindia.indiatimes.com/india/no-ec-nod-needed-for-voter-to-sue-candidate-over-false-information-supreme-court/articleshow/135177591.cms",
+      "source": "Times of India",
       "primary_source": false,
       "tier": 2,
-      "category": "weather-disasters",
+      "category": "courts-law",
       "secondary_categories": [
-        "education"
+        "national-politics",
+        "crime-public-safety"
       ],
       "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
+      "score": 74.2,
+      "priority_score": 44.4,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-24T16:07:32+00:00",
-      "published_at": "2026-10-24T16:07:32+00:00",
-      "effective_at": "2026-10-24T16:07:32+00:00",
+      "event_time": "2026-10-24T20:03:20+00:00",
+      "published_at": "2026-10-24T20:03:20+00:00",
+      "effective_at": "2026-10-24T20:03:20+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "times-of-india"
           ],
           "count": 1
         }
@@ -238,93 +239,90 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (times-of-india) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (odisha)",
-        "recency: fresh (5.9h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'election' in summary weight 34.8",
+        "scale: state scope (karnataka)",
+        "recency: breaking (2.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 20, score 72 -> URGENT"
+        "dominant event 44, stack 44.4, score 44.4 -> HIGH"
       ],
       "geo_scope": "state",
-      "state": "odisha",
+      "state": "karnataka",
       "national_significance": true,
       "article_sentences": [
-        "With a well-marked low-pressure area over the Bay of Bengal likely to intensify into a deep depression on Sunday (October 25, 2026) before possibly developing into a cyclone, the Odisha government on Saturday (October 24, 2026) stepped up preparedness as part of its efforts to ensure zero casualties with disaster response teams on high alert.",
-        "Educational institutions in five Odisha districts will be closed on October 28 and 29 while fishermen along the Andhra Pradesh and Odisha coast have been warned not to venture into the sea as per standard advisory.",
-        "The well-marked low pressure area over east-central and adjoining southeast Bay of Bengal has persisted and is most likely to intensify into a depression on Saturday (October 24), a special bulleting of the India Meteorological Department (IMD) said.",
-        "“Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on October 25 and into a cyclonic storm over the west-central Bay of Bengal by October 26 morning.",
-        "Moving west-northwestwards, it would continue to intensify further and reach over west-central Bay of Bengal near Andhra Pradesh coast around morning of October 28,” the bulletin said.",
-        "Experts at the IMD, Amaravati, said the winds could further intensify into a severe cyclonic storm, the first of the year.",
-        "Wind speeds are expected to reach 62–88 km per hour in a cyclonic storm and 89–117 km per hour in a severe cyclonic storm.",
-        "Reviewing preparedness over the cyclone alert, Odisha Chief Minister Mohan Charan Majhi said, “we have prior experience in managing floods and cyclones.",
-        "Cyclones Dana and Montha were successfully managed.",
-        "Along with this, several flood situations have also been successfully handled.",
-        "The State government is fully prepared to achieve zero casualty this time too.” Revenue and Disaster Management Minister Suresh Pujari and Chief Secretary Anu Garg along with other top officials attended the meeting.",
-        "Southern Odisha districts are expected to be impacted with heavy rain under influence of the cyclone as per disaster management authorities."
+        "The Supreme Court said that Section 125-A was inserted in the RoP Act in 2002.",
+        "NEW DELHI: A voter can now not only cast a vote in an election but can also drag an election candidate to court and initiate criminal proceedings for lying and furnishing a false declaration as Supreme Court has ruled that a complaint filed by a private person alleging an offence under Section 125-A of Representation of People Act (filing false affidavit) is maintainable and the Election Commission’s nod was not needed.",
+        "Explaining the interplay between Section 125-A of Representation of People Act and Section 195(1) of the CrPC which says that no court shall take cognisance of any offences punishable under sections 172 to 188, including the offence of furnishing false information to a public servant, the top court held that Section 125A of RoP Act does not come within the ambit of Section 195 of CrPC and a court can take cognisance of a private complaint.",
+        "The court’s ruling will further empower the electorate against candidates who lied in their affidavits.",
+        "A bench of Justices Dipankar Datta and Sheel Nagu quashed the Karnataka HC order which had held that “right given to the voter is only to file an election petition, and not to register a private complaint of crime which is the duty of the Election Commission, if it wants to do so”.",
+        "SC said that Section 125-A was inserted in the RoP Act in 2002, while Section 195 of CrPC was amended in 2006, and that the omission of the legislature to include Section 125-A of the RoP Act in Section 195 of CrPC was deliberate and no court would be barred from taking cognisance of an alleged offence under Section 125-A of the RoP Act, even on the complaint lodged by a private person.",
+        "“Should we read into Section 195 of CrPC a prohibition in respect of Section 125-A of the RoP Act also, apart from those expressly included?",
+        "If indeed it were the intention of the legislature that cognisance of any offence relating to furnishing of false information by a candidate in an affidavit with intent of being elected in an election (referred to in Section 125-A of the RoP Act) could only be taken if the complainant were a public servant, the same could have been provided by an amendment of Section 195, CrPC since Section 125-A of the RoP Act is of fairly recent origin.” SC also refused to give credence to the EC’s press note that it can take cognisance of such complaints and refer such matters to the relevant investigating authorities on a case-to-case basis.",
+        "“...",
+        "Even though the ECI is supreme in its own sphere and has, indeed, issued guidelines/press notes based on its understanding of the statutory provisions, interpretation of statutes is primarily the task of the courts and such guidelines/press notes do not bind us,” the court said.",
+        "It said that Karnataka HC erred in holding that a private complaint cannot be filed for an offence under Section 125A of RoP Act which is punishable up to six months of jail term.",
+        "The HC had interpreted the provision solely upon reading the letter issued by the Election Commission of India on the issue which was rejected by the apex court."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "With a well-marked low-pressure area over the Bay of Bengal likely to intensify into a deep depression on Sunday (October 25, 2026) before possibly developing into a cyclone, the Odisha government on Saturday (October 24, 2026) stepped up preparedness as part of its efforts to ensure zero casualties with disaster response teams on high alert.",
-          "Educational institutions in five Odisha districts will be closed on October 28 and 29 while fishermen along the Andhra Pradesh and Odisha coast have been warned not to venture into the sea as per standard advisory."
+          "The Supreme Court said that Section 125-A was inserted in the RoP Act in 2002.",
+          "NEW DELHI: A voter can now not only cast a vote in an election but can also drag an election candidate to court and initiate criminal proceedings for lying and furnishing a false declaration as Supreme Court has ruled that a complaint filed by a private person alleging an offence under Section 125-A of Representation of People Act (filing false affidavit) is maintainable and the Election Commission’s nod was not needed."
         ],
         "body": [
-          "The well-marked low pressure area over east-central and adjoining southeast Bay of Bengal has persisted and is most likely to intensify into a depression on Saturday (October 24), a special bulleting of the India Meteorological Department (IMD) said.",
-          "“Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on October 25 and into a cyclonic storm over the west-central Bay of Bengal by October 26 morning.",
-          "Moving west-northwestwards, it would continue to intensify further and reach over west-central Bay of Bengal near Andhra Pradesh coast around morning of October 28,” the bulletin said.",
-          "Experts at the IMD, Amaravati, said the winds could further intensify into a severe cyclonic storm, the first of the year.",
-          "Reviewing preparedness over the cyclone alert, Odisha Chief Minister Mohan Charan Majhi said, “we have prior experience in managing floods and cyclones.",
-          "Cyclones Dana and Montha were successfully managed.",
-          "Along with this, several flood situations have also been successfully handled."
+          "Explaining the interplay between Section 125-A of Representation of People Act and Section 195(1) of the CrPC which says that no court shall take cognisance of any offences punishable under sections 172 to 188, including the offence of furnishing false information to a public servant, the top court held that Section 125A of RoP Act does not come within the ambit of Section 195 of CrPC and a court can take cognisance of a private complaint.",
+          "The court’s ruling will further empower the electorate against candidates who lied in their affidavits.",
+          "A bench of Justices Dipankar Datta and Sheel Nagu quashed the Karnataka HC order which had held that “right given to the voter is only to file an election petition, and not to register a private complaint of crime which is the duty of the Election Commission, if it wants to do so”.",
+          "SC said that Section 125-A was inserted in the RoP Act in 2002, while Section 195 of CrPC was amended in 2006, and that the omission of the legislature to include Section 125-A of the RoP Act in Section 195 of CrPC was deliberate and no court would be barred from taking cognisance of an alleged offence under Section 125-A of the RoP Act, even on the complaint lodged by a private person.",
+          "“Should we read into Section 195 of CrPC a prohibition in respect of Section 125-A of the RoP Act also, apart from those expressly included?",
+          "If indeed it were the intention of the legislature that cognisance of any offence relating to furnishing of false information by a candidate in an affidavit with intent of being elected in an election (referred to in Section 125-A of the RoP Act) could only be taken if the complainant were a public servant, the same could have been provided by an amendment of Section 195, CrPC since Section 125-A of the RoP Act is of fairly recent origin.” SC also refused to give credence to the EC’s press note that it can take cognisance of such complaints and refer such matters to the relevant investigating authorities on a case-to-case basis.",
+          "“...",
+          "Even though the ECI is supreme in its own sphere and has, indeed, issued guidelines/press notes based on its understanding of the statutory provisions, interpretation of statutes is primarily the task of the courts and such guidelines/press notes do not bind us,” the court said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Andhra Pradesh coast"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Wind speeds are expected to reach 62–88 km per hour in a cyclonic storm and 89–117 km per hour in a severe cyclonic storm."
+            "text": "Section"
           }
         ],
         "sentences": [
           {
-            "text": "With a well-marked low-pressure area over the Bay of Bengal likely to intensify into a deep depression on Sunday (October 25, 2026) before possibly developing into a cyclone, the Odisha government on Saturday (October 24, 2026) stepped up preparedness as part of its efforts to ensure zero casualties with disaster response teams on high alert.",
-            "source": "The Hindu",
-            "item_id": "d3ee0eb8bd9e96ea09cd1494:article",
+            "text": "SC said that Section 125-A was inserted in the RoP Act in 2002, while Section 195 of CrPC was amended in 2006, and that the omission of the legislature to include Section 125-A of the RoP Act in Section 195 of CrPC was deliberate and no court would be barred from taking cognisance of an alleged offence under Section 125-A of the RoP Act, even on the complaint lodged by a private person.",
+            "source": "Times of India",
+            "item_id": "97c607bc53c2305b1d850430:article",
             "composed": false
           },
           {
-            "text": "Educational institutions in five Odisha districts will be closed on October 28 and 29 while fishermen along the Andhra Pradesh and Odisha coast have been warned not to venture into the sea as per standard advisory.",
-            "source": "The Hindu",
-            "item_id": "d3ee0eb8bd9e96ea09cd1494:article",
+            "text": "If indeed it were the intention of the legislature that cognisance of any offence relating to furnishing of false information by a candidate in an affidavit with intent of being elected in an election (referred to in Section 125-A of the RoP Act) could only be taken if the complainant were a public servant, the same could have been provided by an amendment of Section 195, CrPC since Section 125-A of the RoP Act is of fairly recent origin.”",
+            "source": "Times of India",
+            "item_id": "97c607bc53c2305b1d850430:article",
             "composed": false
           },
           {
-            "text": "“Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on October 25 and into a cyclonic storm over the west-central Bay of Bengal by October 26 morning.",
-            "source": "The Hindu",
-            "item_id": "d3ee0eb8bd9e96ea09cd1494:article",
+            "text": "The Supreme Court said that Section 125-A was inserted in the RoP Act in 2002.",
+            "source": "Times of India",
+            "item_id": "97c607bc53c2305b1d850430:article",
             "composed": false
           },
           {
-            "text": "Wind speeds are expected to reach 62–88 km per hour in a cyclonic storm and 89–117 km per hour in a severe cyclonic storm.",
-            "source": "The Hindu",
-            "item_id": "d3ee0eb8bd9e96ea09cd1494:article",
+            "text": "Explaining the interplay between Section 125-A of Representation of People Act and Section 195(1) of the CrPC which says that no court shall take cognisance of any offences punishable under sections 172 to 188, including the offence of furnishing false information to a public servant, the top court held that Section 125A of RoP Act does not come within the ambit of Section 195 of CrPC and a court can take cognisance of a private complaint.",
+            "source": "Times of India",
+            "item_id": "97c607bc53c2305b1d850430:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Times of India",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/bay-of-bengal-cyclonic-storm-landfall-on-october-28-weather-odisha-and-andhra-pradesh/article71619250.ece"
+        "url": "https://timesofindia.indiatimes.com/india/no-ec-nod-needed-for-voter-to-sue-candidate-over-false-information-supreme-court/articleshow/135177591.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
