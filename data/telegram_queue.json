@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T04:21:38.456058+00:00",
-  "count": 9,
+  "generated_at": "2026-10-24T04:31:54.560384+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "ea75954bc65e40bb3e7d633d",
@@ -52,7 +52,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -162,7 +162,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -230,6 +230,131 @@
       "enrichment": "article"
     },
     {
+      "event_id": "ad6b00ed4d6da3f21691f197",
+      "story_id": "ad6b00ed4d6da3f21691f197",
+      "headline": "Cyclone brewing as low pressure area forms in east-central, Southeast Bay of Bengal | Live",
+      "title": "Cyclone brewing as low pressure area forms in east-central, Southeast Bay of Bengal | Live",
+      "summary": "Andhra Pradesh State Disaster Management Authority (APSDMA) lists Konaseema, West Godavari, Krishna, Guntur, Bapatla, Prakasam and the Rayalaseema districts for rain",
+      "url": "https://www.thehindu.com/news/national/bay-of-bengal-weather-update-cyclone-alert-latest-weather-news-live-updates-october-24-2026/article71619022.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-24T04:24:56+00:00",
+      "published_at": "2026-10-24T04:24:56+00:00",
+      "effective_at": "2026-10-24T04:24:56+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Disaster'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "School students back to home after the district administration declared a holiday due to rain in Vellore.",
+        "The weather system over the Bay of Bengal is likely to intensify into a cyclone and cross the southern Odisha–northern Andhra Pradesh coast by October 28.",
+        "According to the India Meteorological Department’s (IMD) Bhubaneswar Met Centre, a low-pressure area over east-central and adjoining southeast Bay of Bengal persisted over the same region at 8.30 a.m. on Friday (October 23, 2026).",
+        "The IMD predicted moderate to heavy rainfall across Tamil Nadu and Puducherry until October 26.",
+        "General moderate rainfall is expected over the next two days in Chennai and its neighbourhood, with potential for heavy downpour on Saturday (October 24, 2026) and Sunday (October 25, 2026).",
+        "Heavy rains lashed Tiruchi and other delta districts on Friday evening.",
+        "The heavy rain, accompanied by lightning and thunder, slowed down traffic during the evening peak hours.",
+        "Traffic snarls were reported in several parts of the city.",
+        "According to the India Meteorological Department’s (IMD) Bhubaneswar Met Centre, a low-pressure area over east-central and adjoining southeast Bay of Bengal persisted over the same region at 8.30 a.m. on Friday.",
+        "Low-pressure near Bay of Bengal expected to become a cyclonic storm by Oct 26, prompting Odisha coastal precautions."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "School students back to home after the district administration declared a holiday due to rain in Vellore.",
+          "The weather system over the Bay of Bengal is likely to intensify into a cyclone and cross the southern Odisha–northern Andhra Pradesh coast by October 28."
+        ],
+        "body": [
+          "According to the India Meteorological Department’s (IMD) Bhubaneswar Met Centre, a low-pressure area over east-central and adjoining southeast Bay of Bengal persisted over the same region at 8.30 a.m. on Friday (October 23, 2026).",
+          "The IMD predicted moderate to heavy rainfall across Tamil Nadu and Puducherry until October 26.",
+          "Heavy rains lashed Tiruchi and other delta districts on Friday evening.",
+          "The heavy rain, accompanied by lightning and thunder, slowed down traffic during the evening peak hours.",
+          "Traffic snarls were reported in several parts of the city.",
+          "Low-pressure near Bay of Bengal expected to become a cyclonic storm by Oct 26, prompting Odisha coastal precautions.",
+          "Andhra Pradesh State Disaster Management Authority (APSDMA) lists Konaseema, West Godavari, Krishna, Guntur, Bapatla, Prakasam and the Rayalaseema districts for rain."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Vellore"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "General moderate rainfall is expected over the next two days in Chennai and its neighbourhood, with potential for heavy downpour on Saturday (October 24, 2026) and Sunday (October 25, 2026)."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "According to the India Meteorological Department’s (IMD) Bhubaneswar Met Centre, a low-pressure area over east-central and adjoining southeast Bay of Bengal persisted over the same region at 8.30 a.m. on Friday (October 23, 2026).",
+            "source": "The Hindu",
+            "item_id": "ad6b00ed4d6da3f21691f197:article",
+            "composed": false
+          },
+          {
+            "text": "The weather system over the Bay of Bengal is likely to intensify into a cyclone and cross the southern Odisha–northern Andhra Pradesh coast by October 28.",
+            "source": "The Hindu",
+            "item_id": "ad6b00ed4d6da3f21691f197:article",
+            "composed": false
+          },
+          {
+            "text": "Low-pressure near Bay of Bengal expected to become a cyclonic storm by Oct 26, prompting Odisha coastal precautions.",
+            "source": "The Hindu",
+            "item_id": "ad6b00ed4d6da3f21691f197:article",
+            "composed": false
+          },
+          {
+            "text": "School students back to home after the district administration declared a holiday due to rain in Vellore.",
+            "source": "The Hindu",
+            "item_id": "ad6b00ed4d6da3f21691f197:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/bay-of-bengal-weather-update-cyclone-alert-latest-weather-news-live-updates-october-24-2026/article71619022.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "7642b57a6866fa7c7dbc7915",
       "story_id": "7642b57a6866fa7c7dbc7915",
       "headline": "Cyclone Arnab may approach Odisha coast; Kerala puts 10 districts under orange alert",
@@ -273,7 +398,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 36, score 72 -> URGENT"
@@ -402,7 +527,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -495,7 +620,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -611,7 +736,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -733,7 +858,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -855,7 +980,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1004,7 +1129,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
