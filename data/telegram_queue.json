@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:02:11.937341+00:00",
+  "generated_at": "2026-10-25T08:11:36.561733+00:00",
   "count": 7,
   "stories": [
     {
@@ -57,7 +57,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 42, score 72 -> URGENT"
@@ -183,7 +183,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -311,7 +311,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -443,7 +443,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -544,7 +544,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 42.8, score 50.4 -> HIGH"
@@ -641,33 +641,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "4d2e50c167920fdda69bb686",
-      "story_id": "4d2e50c167920fdda69bb686",
-      "headline": "Ohio Supreme Court lets village keep $3.6 billion data center on hold",
-      "title": "Ohio Supreme Court lets village keep $3.6 billion data center on hold",
-      "summary": "The Supreme Court of Ohio ruled against Bristolville 25 Developer's $3.6 billion data centre project in Lordstown. This decision follows the village council's imposition of a moratorium on data centre developments. Local officials suspended the project's review fearing its impact on the community. Opponents of the project raised concerns during council meetings, emphasizing the need for further regulations.",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/in-2025-a-developer-proposed-a-3-6-billion-data-center-across-133-acres-in-ohio-and-filed-plans-before-a-local-ban-on-october-20-the-state-supreme-court-ruled-the-village-could-keep-the-project-on-hold/articleshow/135185516.cms",
-      "source": "Times of India",
+      "event_id": "dee349c061d91f39b2ea6cfe",
+      "story_id": "dee349c061d91f39b2ea6cfe",
+      "headline": "Congress cites former Supreme Court judge’s memoir; questions independence of judiciary under Modi government",
+      "title": "Congress cites former Supreme Court judge’s memoir; questions independence of judiciary under Modi government",
+      "summary": "Jairam Ramesh shared a media report which quoted the pre-publication manuscript of Justice Kaul’s memoir ‘Without Fear of Favour’ as stating that former Chief Justice of India Justice D.Y. Chandrachud was “too deferential to the Government” when it came to appointments",
+      "url": "https://www.thehindu.com/news/national/congress-cites-former-supreme-court-judges-memoir-questions-independence-of-judiciary-under-modi-government/article71622822.ece",
+      "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
       "secondary_categories": [
-        "technology-digital"
+        "national-politics"
       ],
       "confidence": "medium",
-      "score": 55.0,
+      "score": 64.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-25T06:56:59+00:00",
-      "published_at": "2026-10-25T06:56:59+00:00",
-      "effective_at": "2026-10-25T06:56:59+00:00",
+      "event_time": "2026-10-25T08:04:37+00:00",
+      "published_at": "2026-10-25T08:04:37+00:00",
+      "effective_at": "2026-10-25T08:04:37+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -679,12 +679,13 @@
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -692,44 +693,64 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "Citing former Supreme Court judge Justice Sanjay Kishan Kaul's yet-to-be-released memoir, the Congress on Sunday (October 25, 2026) flagged \"serious questions\" regarding the independence of the judiciary under the Modi government and asserted that the institution tasked with upholding the Constitution must remain free from the pressures of those in power.",
+        "Congress general secretary in-charge communications Jairam Ramesh shared a media report which quoted the pre-publication manuscript of Justice Kaul's memoir 'Without Fear of Favour' as stating that former Chief Justice of India Justice D.Y. Chandrachud was \"too deferential to the Government\" when it came to appointments.",
+        "In his post in Hindi on X, Mr. Ramesh said, \"A book by former Supreme Court judge Justice Sanjay Kishan Kaul has raised serious questions regarding the independence of the judiciary during the tenure of the Modi government.\"",
+        "Justice Kaul highlights several concerning incidents — government interference in the appointment of judges, attempts to secure government approval prior to Collegium meetings, and the government's absurd questioning regarding the caste of a judge belonging to a minority community, Mr. Ramesh said.",
+        "Matters that many were previously hesitant to discuss openly have now been documented by Justice Kaul with measured, deliberate language, Mr. Ramesh said.",
+        "\"Strikingly, a former Chief Justice of India (CJI) has not denied that discussions with the government take place prior to judicial appointments.",
+        "When former CJI Justice Chandrachud acknowledges that the government engages with the CJI and plays a role in the appointment process, the concerns surrounding judicial independence become even more profound,\" Mr. Ramesh said.",
+        "Equally grave is Justice Kaul's revelation that, after a Bench he presided over raised the possibility of reconsidering certain aspects of a court ruling in a PMLA (Prevention of Money Laundering Act) case, the matter was reassigned to a different bench without any consultation with him, he said.",
+        "\"This points to the extent of the government's day-to-day interference in the functioning of the Supreme Court,\" Mr. Ramesh said.",
+        "\"When there is pressure to obtain government approval for judicial appointments, and when benches hearing sensitive cases are altered, one must ask — in the interest of safeguarding democracy — if this does not constitute pressure on the judiciary and an erosion of its independence, then what does?\" the Congress leader said.",
+        "\"The institution tasked with upholding the Constitution must remain free from the pressures of those in power.",
+        "In a democracy, the independence of the judiciary is not merely an option; it is an absolute necessity,\" Mr. Ramesh asserted."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Supreme Court of Ohio ruled against Bristolville 25 Developer's $3.6 billion data centre project in Lordstown.",
-          "This decision follows the village council's imposition of a moratorium on data centre developments."
+          "Citing former Supreme Court judge Justice Sanjay Kishan Kaul's yet-to-be-released memoir, the Congress on Sunday (October 25, 2026) flagged \"serious questions\" regarding the independence of the judiciary under the Modi government and asserted that the institution tasked with upholding the Constitution must remain free from the pressures of those in power.",
+          "Congress general secretary in-charge communications Jairam Ramesh shared a media report which quoted the pre-publication manuscript of Justice Kaul's memoir 'Without Fear of Favour' as stating that former Chief Justice of India Justice D.Y. Chandrachud was \"too deferential to the Government\" when it came to appointments."
         ],
         "body": [
-          "Local officials suspended the project's review fearing its impact on the community.",
-          "Opponents of the project raised concerns during council meetings, emphasizing the need for further regulations."
+          "In his post in Hindi on X, Mr. Ramesh said, \"A book by former Supreme Court judge Justice Sanjay Kishan Kaul has raised serious questions regarding the independence of the judiciary during the tenure of the Modi government.\" Justice Kaul highlights several concerning incidents — government interference in the appointment of judges, attempts to secure government approval prior to Collegium meetings, and the government's absurd questioning regarding the caste of a judge belonging to a minority community, Mr. Ramesh said.",
+          "Matters that many were previously hesitant to discuss openly have now been documented by Justice Kaul with measured, deliberate language, Mr. Ramesh said.",
+          "\"Strikingly, a former Chief Justice of India (CJI) has not denied that discussions with the government take place prior to judicial appointments.",
+          "When former CJI Justice Chandrachud acknowledges that the government engages with the CJI and plays a role in the appointment process, the concerns surrounding judicial independence become even more profound,\" Mr. Ramesh said.",
+          "Equally grave is Justice Kaul's revelation that, after a Bench he presided over raised the possibility of reconsidering certain aspects of a court ruling in a PMLA (Prevention of Money Laundering Act) case, the matter was reassigned to a different bench without any consultation with him, he said.",
+          "\"This points to the extent of the government's day-to-day interference in the functioning of the Supreme Court,\" Mr. Ramesh said.",
+          "\"When there is pressure to obtain government approval for judicial appointments, and when benches hearing sensitive cases are altered, one must ask — in the interest of safeguarding democracy — if this does not constitute pressure on the judiciary and an erosion of its independence, then what does?\" the Congress leader said.",
+          "\"The institution tasked with upholding the Constitution must remain free from the pressures of those in power."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Lordstown"
+            "text": "Hindi"
           }
         ],
         "sentences": [
           {
-            "text": "The Supreme Court of Ohio ruled against Bristolville 25 Developer's $3.6 billion data centre project in Lordstown.",
-            "source": "Times of India",
-            "item_id": "4d2e50c167920fdda69bb686",
+            "text": "Citing former Supreme Court judge Justice Sanjay Kishan Kaul's yet-to-be-released memoir, the Congress on Sunday (October 25, 2026) flagged \"serious questions\" regarding the independence of the judiciary under the Modi government and asserted that the institution tasked with upholding the Constitution must remain free from the pressures of those in power.",
+            "source": "The Hindu",
+            "item_id": "dee349c061d91f39b2ea6cfe:article",
             "composed": false
           },
           {
-            "text": "This decision follows the village council's imposition of a moratorium on data centre developments.",
-            "source": "Times of India",
-            "item_id": "4d2e50c167920fdda69bb686",
+            "text": "In his post in Hindi on X, Mr. Ramesh said, \"A book by former Supreme Court judge Justice Sanjay Kishan Kaul has raised serious questions regarding the independence of the judiciary during the tenure of the Modi government.\"",
+            "source": "The Hindu",
+            "item_id": "dee349c061d91f39b2ea6cfe:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/in-2025-a-developer-proposed-a-3-6-billion-data-center-across-133-acres-in-ohio-and-filed-plans-before-a-local-ban-on-october-20-the-state-supreme-court-ruled-the-village-could-keep-the-project-on-hold/articleshow/135185516.cms"
+        "url": "https://www.thehindu.com/news/national/congress-cites-former-supreme-court-judges-memoir-questions-independence-of-judiciary-under-modi-government/article71622822.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "094e83743dda31ec6097560c",
@@ -776,7 +797,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'heatwave' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 40, stack 34, score 40 -> HIGH"
