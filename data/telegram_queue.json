@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T03:32:16.231163+00:00",
-  "count": 9,
+  "generated_at": "2026-10-26T03:42:04.368038+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "93f9f92ac942dfd1dcccdb40",
@@ -59,7 +59,7 @@
         "event term: 'ballistic missile' in summary weight 27.6",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -67,7 +67,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Jerusalem, Oct 26: As concerns rise about a return to an all-out Iran war ahead of crucial elections in the United States and Israel, Iran said messages are still being passed to the US and Tehran remains open to diplomacy.",
@@ -167,7 +167,7 @@
         "url": "https://www.greaterkashmir.com/world/iran-says-messages-are-still-being-passed-to-us-amid-war-concerns-and-other-mideast-news-12751691"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -217,7 +217,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -290,7 +290,7 @@
       "event_time": "2026-10-25T11:40:30+00:00",
       "published_at": "2026-10-26T01:16:58+00:00",
       "effective_at": "2026-10-26T01:16:58+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "thehindu": {
           "kind": "independent",
@@ -305,24 +305,31 @@
             "hans-india"
           ],
           "count": 1
+        },
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (hans-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (15.9h ago) +4",
+        "recency: fresh (16.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -402,6 +409,128 @@
       "enrichment": "article"
     },
     {
+      "event_id": "84321255bda5baafb5fa8326",
+      "story_id": "84321255bda5baafb5fa8326",
+      "headline": "Cyclone Arnab likely to intensify today; heavy rain forecast in TN, Andhra",
+      "title": "Cyclone Arnab likely to intensify today; heavy rain forecast in TN, Andhra",
+      "summary": "Conditions could therefore vary considerably within individual districts, with brief downpours and sudden gusts affecting some areas more sharply than others.",
+      "url": "https://www.thehansindia.com/news/cities/chennai/cyclone-arnab-likely-to-intensify-today-heavy-rain-forecast-in-tn-andhra-1135883",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 80.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-26T03:36:01+00:00",
+      "published_at": "2026-10-26T03:36:01+00:00",
+      "effective_at": "2026-10-26T03:36:01+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 30, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Conditions could therefore vary considerably within individual districts, with brief downpours and sudden gusts affecting some areas more sharply than others.",
+        "Chennai: A deep depression over the Bay of Bengal is expected to strengthen into Cyclone Arnab on Monday before intensifying further as it moves towards the Andhra Pradesh coast, while several Tamil Nadu districts face heavy rain, thunderstorms and gusty winds.",
+        "The India Meteorological Department said the system, which developed over the east-central and adjoining southeast Bay of Bengal, had intensified into a deep depression on Sunday.",
+        "Further strengthening into a cyclonic storm was forecast for Monday.",
+        "The developing storm is expected to move towards the Andhra Pradesh coast and could strengthen into a very severe cyclonic storm before making landfall.",
+        "Forecasts indicate a possible crossing between Bapatla and Visakhapatnam by the forenoon of October 28, although its movement and intensity remain subject to subsequent weather bulletins.",
+        "The system will be named Arnab once it reaches cyclonic storm intensity.",
+        "The name was proposed by Bangladesh under the regional naming arrangement for tropical cyclones over the northern Indian Ocean.",
+        "Meanwhile, the weather department has forecast heavy rain at isolated places in Pudukkottai, Sivaganga and Ramanathapuram districts in Tamil Nadu.",
+        "Thunderstorms and lightning are also likely, accompanied by winds reaching speeds of 40-50 kmph.",
+        "Similar conditions have been forecast at isolated places in Kanyakumari, Tirunelveli, Thoothukudi, Tenkasi, Virudhunagar and Madurai districts.",
+        "Theni, Dindigul, Karur and Tiruchirappalli are also among the districts where heavy rain, lightning and strong winds are expected."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Conditions could therefore vary considerably within individual districts, with brief downpours and sudden gusts affecting some areas more sharply than others.",
+          "Chennai: A deep depression over the Bay of Bengal is expected to strengthen into Cyclone Arnab on Monday before intensifying further as it moves towards the Andhra Pradesh coast, while several Tamil Nadu districts face heavy rain, thunderstorms and gusty winds."
+        ],
+        "body": [
+          "The India Meteorological Department said the system, which developed over the east-central and adjoining southeast Bay of Bengal, had intensified into a deep depression on Sunday.",
+          "Further strengthening into a cyclonic storm was forecast for Monday.",
+          "The developing storm is expected to move towards the Andhra Pradesh coast and could strengthen into a very severe cyclonic storm before making landfall.",
+          "Forecasts indicate a possible crossing between Bapatla and Visakhapatnam by the forenoon of October 28, although its movement and intensity remain subject to subsequent weather bulletins.",
+          "The system will be named Arnab once it reaches cyclonic storm intensity.",
+          "The name was proposed by Bangladesh under the regional naming arrangement for tropical cyclones over the northern Indian Ocean.",
+          "Meanwhile, the weather department has forecast heavy rain at isolated places in Pudukkottai, Sivaganga and Ramanathapuram districts in Tamil Nadu.",
+          "Thunderstorms and lightning are also likely, accompanied by winds reaching speeds of 40-50 kmph."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Pudukkottai"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Meanwhile, the weather department has forecast heavy rain at isolated places in Pudukkottai, Sivaganga and Ramanathapuram districts in Tamil Nadu.",
+            "source": "The Hans India",
+            "item_id": "84321255bda5baafb5fa8326:article",
+            "composed": false
+          },
+          {
+            "text": "The India Meteorological Department said the system, which developed over the east-central and adjoining southeast Bay of Bengal, had intensified into a deep depression on Sunday.",
+            "source": "The Hans India",
+            "item_id": "84321255bda5baafb5fa8326:article",
+            "composed": false
+          },
+          {
+            "text": "Forecasts indicate a possible crossing between Bapatla and Visakhapatnam by the forenoon of October 28, although its movement and intensity remain subject to subsequent weather bulletins.",
+            "source": "The Hans India",
+            "item_id": "84321255bda5baafb5fa8326:article",
+            "composed": false
+          },
+          {
+            "text": "Chennai: A deep depression over the Bay of Bengal is expected to strengthen into Cyclone Arnab on Monday before intensifying further as it moves towards the Andhra Pradesh coast, while several Tamil Nadu districts face heavy rain, thunderstorms and gusty winds.",
+            "source": "The Hans India",
+            "item_id": "84321255bda5baafb5fa8326:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/chennai/cyclone-arnab-likely-to-intensify-today-heavy-rain-forecast-in-tn-andhra-1135883"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "4dee7dd35618817cecc0a1ef",
       "story_id": "4dee7dd35618817cecc0a1ef",
       "headline": "Bay of Bengal cyclone alert: Will heavy rain hit Kolkata from October 27? Check IMD forecast",
@@ -444,7 +573,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -570,7 +699,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -690,7 +819,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -772,7 +901,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'ballistic missile' in title weight 46",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 46, stack 28.8, score 46 -> HIGH"
@@ -887,7 +1016,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (7 states)",
-        "recency: fresh (5.9h ago) +4",
+        "recency: fresh (6.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1047,7 +1176,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 20.4, score 38.4 -> HIGH"
