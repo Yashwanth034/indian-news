@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T18:51:56.620569+00:00",
-  "count": 11,
+  "generated_at": "2026-10-26T19:02:26.297330+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "ed0fe9e602d1023d293ee3b3",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -169,7 +169,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -285,7 +285,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -345,6 +345,90 @@
       "enrichment": "article"
     },
     {
+      "event_id": "485b7bdd013b53f469aacad0",
+      "story_id": "485b7bdd013b53f469aacad0",
+      "headline": "Cyclone Arnab may turn very severe, remnants could bring intense rainfall to northern India and Nepal",
+      "title": "Cyclone Arnab may turn very severe, remnants could bring intense rainfall to northern India and Nepal",
+      "summary": "Cyclone Arnab, forming over the Bay of Bengal, is expected to intensify into a very severe storm before hitting Andhra Pradesh on October 28. Its remnants may interact with a western disturbance, bringing intense rainfall to northern India and Nepal.",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-may-turn-very-severe-remnants-could-bring-intense-rainfall-to-northern-india-and-nepal",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-26T14:35:46+00:00",
+      "published_at": "2026-10-26T14:35:46+00:00",
+      "effective_at": "2026-10-26T14:35:46.646000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: fresh (4.4h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab, forming over the Bay of Bengal, is expected to intensify into a very severe storm before hitting Andhra Pradesh on October 28.",
+          "Its remnants may interact with a western disturbance, bringing intense rainfall to northern India and Nepal."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Cyclone Arnab, forming over the Bay of Bengal, is expected to intensify into a very severe storm before hitting Andhra Pradesh on October 28.",
+            "source": "Down To Earth",
+            "item_id": "485b7bdd013b53f469aacad0",
+            "composed": false
+          },
+          {
+            "text": "Its remnants may interact with a western disturbance, bringing intense rainfall to northern India and Nepal.",
+            "source": "Down To Earth",
+            "item_id": "485b7bdd013b53f469aacad0",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [],
+        "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-may-turn-very-severe-remnants-could-bring-intense-rainfall-to-northern-india-and-nepal"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "115c3508105bae2b87772157",
       "story_id": "115c3508105bae2b87772157",
       "headline": "UN Loss and Damage Fund provisionally approves $21.6 million for flood-hit Nepal",
@@ -392,7 +476,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -476,7 +560,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -587,7 +671,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (karnataka)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -705,7 +789,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'acquisition' in title weight 42",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -814,7 +898,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -910,7 +994,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 28.4, score 44 -> HIGH"
@@ -1032,7 +1116,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 32.4, score 44 -> HIGH"
@@ -1139,7 +1223,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 29.2, score 42 -> HIGH"
@@ -1156,7 +1240,7 @@
         "Sign into Unlock benefits!",
         "Looks like you are already logged in from more than 5 devices!"
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "India's Tata Motors takeover bid for Italian truck maker Iveco has cleared the 80 per cent acceptance threshold, reaching 87.8 per cent on the last day of the offer, an Italian stock market filing showed on Monday.",
@@ -1190,7 +1274,7 @@
         "url": "https://www.thehindubusinessline.com/companies/tata-motors-iveco-takeover-bid-clears-80-pc-acceptance-threshold/article71628654.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     }
   ]
