@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T06:02:45.533766+00:00",
-  "count": 19,
+  "generated_at": "2026-10-27T06:12:00.943492+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "ae9cd804df57a669407b5b46",
@@ -48,7 +48,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -110,6 +110,120 @@
       "enrichment": "article"
     },
     {
+      "event_id": "5198bf08624d2b0c9705d6a8",
+      "story_id": "5198bf08624d2b0c9705d6a8",
+      "headline": "Cyclone Arnab Intensifies: Severe Storm Headed for Andhra Coast",
+      "title": "Cyclone Arnab Intensifies: Severe Storm Headed for Andhra Coast",
+      "summary": "Cyclone Arnab was centred approximately 300 km from Visakhapatnam, 360 km from Kakinada, 460 km from Machilipatnam and 530 km from Bapatla",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-intensifies-severe-storm-headed-for-andhra-coast-1999185",
+      "source": "Deccan Chronicle",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T04:05:28+00:00",
+      "published_at": "2026-10-27T04:15:31+00:00",
+      "effective_at": "2026-10-27T04:15:31+00:00",
+      "independent_source_groups": 3,
+      "source_groups": {
+        "ani": {
+          "kind": "wire",
+          "source_ids": [
+            "deccan-chronicle",
+            "economic-times"
+          ],
+          "count": 3
+        },
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        },
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 3 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (deccan-chronicle) +2",
+        "source: event has 6 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (2.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab was centred approximately 300 km from Visakhapatnam, 360 km from Kakinada, 460 km from Machilipatnam and 530 km from Bapatla.",
+          "Malkangiri: The Malkangiri district administration has been put on high alert amid fears of a possible cyclone impact."
+        ],
+        "body": [
+          "The storm is likely to move towards Chhattisgarh through Motu, a border area of Malkangiri district in Odisha.",
+          "According to reports, Kalimela and Podia blocks are feared to be the worst affected areas in the district.",
+          "As […] The post Cyclone Alert in Malkangiri: Storm May Move Towards Chhattisgarh via Motu, Kalimela and Podia at Maximum Risk appeared first on KalingaTV.",
+          "The India Meteorological Department (IMD) said Arnab had intensified into a severe cyclonic storm and was likely to become a very severe cyclonic storm over the next 12 hours."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Odisha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The storm is likely to move towards Chhattisgarh through Motu, a border area of Malkangiri district in Odisha.",
+            "source": "Kalinga TV",
+            "item_id": "c8efda880e9c637e44d70bde",
+            "composed": false
+          },
+          {
+            "text": "The India Meteorological Department (IMD) said Arnab had intensified into a severe cyclonic storm and was likely to become a very severe cyclonic storm over the next 12 hours.",
+            "source": "Business Today",
+            "item_id": "32aceeb2e781fc5a2462bb9a",
+            "composed": false
+          }
+        ],
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "Kalinga TV",
+          "Business Today"
+        ],
+        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-intensifies-severe-storm-headed-for-andhra-coast-1999185"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5bd6d2c769bc24e77fcf1c29",
       "story_id": "5bd6d2c769bc24e77fcf1c29",
       "headline": "Cyclone Arnab: Flash floods alert issued in parts of AP",
@@ -160,7 +274,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -238,226 +352,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "c8efda880e9c637e44d70bde",
-      "story_id": "c8efda880e9c637e44d70bde",
-      "headline": "Cyclone Alert in Malkangiri: Storm May Move Towards Chhattisgarh via Motu, Kalimela and Podia at Maximum Risk",
-      "title": "Cyclone Alert in Malkangiri: Storm May Move Towards Chhattisgarh via Motu, Kalimela and Podia at Maximum Risk",
-      "summary": "Malkangiri: The Malkangiri district administration has been put on high alert amid fears of a possible cyclone impact. The storm is likely to move towards Chhattisgarh through Motu, a border area of Malkangiri district in Odisha. According to reports, Kalimela and Podia blocks are feared to be the worst affected areas in the district. As […] The post Cyclone Alert in Malkangiri: Storm May Move Towards Chhattisgarh via Motu, Kalimela and Podia at Maximum Risk appeared first on KalingaTV .",
-      "url": "https://kalingatv.com/odisha/cyclone-alert-in-malkangiri-storm-may-move-towards-chhattisgarh-via-motu-kalimela-and-podia-at-maximum-risk",
-      "source": "Kalinga TV",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "defence-security"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T04:47:43+00:00",
-      "published_at": "2026-10-27T04:47:43+00:00",
-      "effective_at": "2026-10-27T04:47:43+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "kalinga-tv": {
-          "kind": "independent",
-          "source_ids": [
-            "kalinga-tv"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (kalinga-tv) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (1.3h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": "chhattisgarh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Malkangiri: The Malkangiri district administration has been put on high alert amid fears of a possible cyclone impact.",
-          "The storm is likely to move towards Chhattisgarh through Motu, a border area of Malkangiri district in Odisha."
-        ],
-        "body": [
-          "According to reports, Kalimela and Podia blocks are feared to be the worst affected areas in the district."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Odisha"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The storm is likely to move towards Chhattisgarh through Motu, a border area of Malkangiri district in Odisha.",
-            "source": "Kalinga TV",
-            "item_id": "c8efda880e9c637e44d70bde",
-            "composed": false
-          },
-          {
-            "text": "According to reports, Kalimela and Podia blocks are feared to be the worst affected areas in the district.",
-            "source": "Kalinga TV",
-            "item_id": "c8efda880e9c637e44d70bde",
-            "composed": false
-          }
-        ],
-        "source": "Kalinga TV",
-        "corroborating": [],
-        "url": "https://kalingatv.com/odisha/cyclone-alert-in-malkangiri-storm-may-move-towards-chhattisgarh-via-motu-kalimela-and-podia-at-maximum-risk"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "25b6083b732eef20412b4814",
-      "story_id": "25b6083b732eef20412b4814",
-      "headline": "Red alert in Odisha, Andhra as very severe Cyclone Arnab nears, rescue teams readied",
-      "title": "Red alert in Odisha, Andhra as very severe Cyclone Arnab nears, rescue teams readied",
-      "summary": "Red alert in Odisha, Andhra as very severe Cyclone Arnab nears, rescue teams readied",
-      "url": "https://www.indiatoday.in/india/story/cyclone-arnab-very-severe-storm-bay-of-bengal-andhra-pradesh-odisha-evacuations-train-cancellations-bengal-rainfall-landfall-on-october-28-3025715-2026-10-27",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 79.2,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T02:37:42+00:00",
-      "published_at": "2026-10-27T02:37:42+00:00",
-      "effective_at": "2026-10-27T02:37:42+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (odisha)",
-        "recency: fresh (3.4h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 44, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "article_sentences": [
-        "Cyclone Arnab has intensified into a very severe cyclonic storm over the west-central Bay of Bengal and is expected to cross the Andhra Pradesh coast near Yanam on Wednesday, October 28, with winds reaching 125 kmph and gusts of up to 140 kmph.",
-        "As Cyclone Arnab gathered strength over the Bay of Bengal, intensifying into a very severe cyclonic storm on Tuesday morning, authorities along the eastern coast moved into preparedness mode ahead of its expected landfall near Puducherry’s Yanam by the forenoon of October 28.",
-        "With sustained winds of 115-125 kmph and gusts of up to 140 kmph forecast, Andhra Pradesh and Odisha are stepping up evacuations, closing educational institutions in vulnerable areas and mobilising rescue teams to protect residents and limit damage.",
-        "The storm, which was centred over the west-central Bay of Bengal at 2.30 am on Tuesday, moved west-northwestwards at 25 kmph over the preceding six hours.",
-        "The India Meteorological Department (IMD) said it was likely to continue moving in that direction until Tuesday evening before turning northwestwards and crossing the Andhra Pradesh and Yanam coasts.",
-        "The National Crisis Management Committee, chaired by Cabinet Secretary TV Somanathan, reviewed preparedness measures, while Indian Railways cancelled 53 trains as a precaution ahead of the landfall.",
-        "Andhra Pradesh Chief Minister N Chandrababu Naidu has reviewed Andhra Pradesh’s preparations for the cyclone, directing officials to issue timely warnings and take steps to minimise damage.",
-        "Schools in affected areas have been closed, beaches shut and traffic on coastal roads is set to be suspended from Tuesday afternoon.",
-        "Authorities are also preparing to shift 4,711 pregnant women from vulnerable areas to health centres and hospitals, while officials said all fishermen who had ventured into the sea had returned safely.",
-        "To strengthen relief and emergency operations, the state government has released Rs 27 crore to 20 districts.",
-        "Seven districts (Bapatla, Krishna, Konaseema, East Godavari, West Godavari, Kakinada and Anakapalli) have received Rs 2 crore each, while the remaining 13 have been allocated Rs 1 crore each.",
-        "15 NDRF teams have been deployed at vulnerable locations, including Kakinada, Konaseema, Rajahmundry, Eluru and Machilipatnam, with two teams stationed at Yanam."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclone Arnab has intensified into a very severe cyclonic storm over the west-central Bay of Bengal and is expected to cross the Andhra Pradesh coast near Yanam on Wednesday, October 28, with winds reaching 125 kmph and gusts of up to 140 kmph.",
-          "As Cyclone Arnab gathered strength over the Bay of Bengal, intensifying into a very severe cyclonic storm on Tuesday morning, authorities along the eastern coast moved into preparedness mode ahead of its expected landfall near Puducherry’s Yanam by the forenoon of October 28."
-        ],
-        "body": [
-          "With sustained winds of 115-125 kmph and gusts of up to 140 kmph forecast, Andhra Pradesh and Odisha are stepping up evacuations, closing educational institutions in vulnerable areas and mobilising rescue teams to protect residents and limit damage.",
-          "The India Meteorological Department (IMD) said it was likely to continue moving in that direction until Tuesday evening before turning northwestwards and crossing the Andhra Pradesh and Yanam coasts.",
-          "The National Crisis Management Committee, chaired by Cabinet Secretary TV Somanathan, reviewed preparedness measures, while Indian Railways cancelled 53 trains as a precaution ahead of the landfall.",
-          "Andhra Pradesh Chief Minister N Chandrababu Naidu has reviewed Andhra Pradesh’s preparations for the cyclone, directing officials to issue timely warnings and take steps to minimise damage.",
-          "Schools in affected areas have been closed, beaches shut and traffic on coastal roads is set to be suspended from Tuesday afternoon.",
-          "Authorities are also preparing to shift 4,711 pregnant women from vulnerable areas to health centres and hospitals, while officials said all fishermen who had ventured into the sea had returned safely.",
-          "To strengthen relief and emergency operations, the state government has released Rs 27 crore to 20 districts.",
-          "Seven districts (Bapatla, Krishna, Konaseema, East Godavari, West Godavari, Kakinada and Anakapalli) have received Rs 2 crore each, while the remaining 13 have been allocated Rs 1 crore each."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Yanam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Cyclone Arnab has intensified into a very severe cyclonic storm over the west-central Bay of Bengal and is expected to cross the Andhra Pradesh coast near Yanam on Wednesday, October 28, with winds reaching 125 kmph and gusts of up to 140 kmph.",
-            "source": "India Today",
-            "item_id": "25b6083b732eef20412b4814:article",
-            "composed": false
-          },
-          {
-            "text": "As Cyclone Arnab gathered strength over the Bay of Bengal, intensifying into a very severe cyclonic storm on Tuesday morning, authorities along the eastern coast moved into preparedness mode ahead of its expected landfall near Puducherry’s Yanam by the forenoon of October 28.",
-            "source": "India Today",
-            "item_id": "25b6083b732eef20412b4814:article",
-            "composed": false
-          },
-          {
-            "text": "Schools in affected areas have been closed, beaches shut and traffic on coastal roads is set to be suspended from Tuesday afternoon.",
-            "source": "India Today",
-            "item_id": "25b6083b732eef20412b4814:article",
-            "composed": false
-          },
-          {
-            "text": "With sustained winds of 115-125 kmph and gusts of up to 140 kmph forecast, Andhra Pradesh and Odisha are stepping up evacuations, closing educational institutions in vulnerable areas and mobilising rescue teams to protect residents and limit damage.",
-            "source": "India Today",
-            "item_id": "25b6083b732eef20412b4814:article",
-            "composed": false
-          }
-        ],
-        "source": "India Today",
-        "corroborating": [],
-        "url": "https://www.indiatoday.in/india/story/cyclone-arnab-very-severe-storm-bay-of-bengal-andhra-pradesh-odisha-evacuations-train-cancellations-bengal-rainfall-landfall-on-october-28-3025715-2026-10-27"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "a5fabccc4b7ade903d0f51e3",
       "story_id": "a5fabccc4b7ade903d0f51e3",
       "headline": "Cyclone Arnab intensifies: Kolkata may see rain later this week",
@@ -500,7 +394,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -626,7 +520,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -731,7 +625,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -848,7 +742,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -972,7 +866,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1070,7 +964,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 58, stack 24.8, score 58 -> HIGH"
@@ -1175,7 +1069,7 @@
       "event_time": "2026-10-26T15:56:06+00:00",
       "published_at": "2026-10-27T02:54:04+00:00",
       "effective_at": "2026-10-27T02:54:04+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 2,
       "source_groups": {
         "business-standard": {
           "kind": "independent",
@@ -1190,31 +1084,24 @@
             "telangana-today"
           ],
           "count": 1
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (telangana-today) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (14.1h ago) +4",
+        "recency: fresh (14.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1293,7 +1180,7 @@
         "event term: 'takes charge' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1388,7 +1275,7 @@
         "event term: 'takeover' in title weight 42",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1510,7 +1397,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1618,7 +1505,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1726,7 +1613,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1820,7 +1707,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1916,7 +1803,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 35.2, score 42 -> HIGH"
@@ -2047,7 +1934,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 26.4, score 42 -> HIGH"
