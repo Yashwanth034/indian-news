@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T08:41:50.810831+00:00",
-  "count": 18,
+  "generated_at": "2026-10-27T08:52:15.484298+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "3661eaab6d9eb205ffbd5241",
@@ -44,7 +44,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (telangana)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 24, score 82 -> IMMEDIATE"
@@ -228,6 +228,97 @@
       "enrichment": "article"
     },
     {
+      "event_id": "b4a2d28233f749d222a5ce70",
+      "story_id": "b4a2d28233f749d222a5ce70",
+      "headline": "South Central Railway suspends train services due to Cyclone 'Arnab'",
+      "title": "South Central Railway suspends train services due to Cyclone 'Arnab'",
+      "summary": "South Central Railway cancels 12 trains as a precaution against Severe Cyclonic Storm Arnab, affecting services to coastal Andhra Pradesh and Odisha, with passengers advised to check updated train schedules.",
+      "url": "https://www.thehansindia.com/news/cities/hyderabad/south-central-railway-suspends-train-services-due-to-cyclone-arnab-1136350",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "transport-infrastructure",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 59.4,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T08:40:47+00:00",
+      "published_at": "2026-10-27T08:40:47+00:00",
+      "effective_at": "2026-10-27T08:40:47+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'Cyclone'",
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national",
+        "dominant event 72, stack 31.2, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "South Central Railway cancels 12 trains as a precaution against Severe Cyclonic Storm Arnab, affecting services to coastal Andhra Pradesh and Odisha, with passengers advised to check updated train schedules.",
+        "The South Central Railway (SCR) has canceled 12 trains as a precautionary measure considering the approaching Severe Cyclonic Storm 'Arnab' and ensuring passenger safety.",
+        "Apart from the above, train 12788 from Nagarsol to Narsapur has also been partially canceled.",
+        "Passengers traveling to coastal Andhra Pradesh and Odisha were advised to check their train timings through the help line numbers available."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "South Central Railway cancels 12 trains as a precaution against Severe Cyclonic Storm Arnab, affecting services to coastal Andhra Pradesh and Odisha, with passengers advised to check updated train schedules.",
+          "The South Central Railway (SCR) has canceled 12 trains as a precautionary measure considering the approaching Severe Cyclonic Storm 'Arnab' and ensuring passenger safety."
+        ],
+        "body": [
+          "Apart from the above, train 12788 from Nagarsol to Narsapur has also been partially canceled.",
+          "Passengers traveling to coastal Andhra Pradesh and Odisha were advised to check their train timings through the help line numbers available."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Apart from the above, train 12788 from Nagarsol to Narsapur has also been partially canceled.",
+            "source": "The Hans India",
+            "item_id": "b4a2d28233f749d222a5ce70:article",
+            "composed": false
+          },
+          {
+            "text": "South Central Railway cancels 12 trains as a precaution against Severe Cyclonic Storm Arnab, affecting services to coastal Andhra Pradesh and Odisha, with passengers advised to check updated train schedules.",
+            "source": "The Hans India",
+            "item_id": "b4a2d28233f749d222a5ce70:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/hyderabad/south-central-railway-suspends-train-services-due-to-cyclone-arnab-1136350"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "df82e457c3aa85ab426f66f1",
       "story_id": "df82e457c3aa85ab426f66f1",
       "headline": "Cyclone Arnab: 12 Trains Cancelled, 2 Short-Terminated in Odisha; Passengers Advised to Check Train Status",
@@ -276,7 +367,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -284,15 +375,14 @@
       "geo_scope": "state",
       "state": "odisha",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Bhubaneswar: In view of Cyclone Arnab, the Railways has cancelled 12 trains, while two services have been short-terminated as a precautionary measure to ensure passenger safety.",
           "The decision has been taken considering the possible impact of the cyclone on railway operations and the inconvenience that adverse weather conditions may cause to passengers."
         ],
         "body": [
-          "According to reports, […] The post Cyclone Arnab: 12 Trains Cancelled, 2 Short-Terminated in Odisha; Passengers Advised to Check Train Status appeared first on KalingaTV.",
-          "The SCR said that passengers planning to travel on these dates should check train running status through official Indian railways channels, helpline numbers, or station enquiry counters before commencing their journey."
+          "According to reports, […] The post Cyclone Arnab: 12 Trains Cancelled, 2 Short-Terminated in Odisha; Passengers Advised to Check Train Status appeared first on KalingaTV."
         ],
         "bullets": [
           {
@@ -316,136 +406,12 @@
           }
         ],
         "source": "Kalinga TV",
-        "corroborating": [
-          "Deccan Chronicle"
-        ],
+        "corroborating": [],
         "url": "https://kalingatv.com/odisha/cyclone-arnab-12-trains-cancelled-2-short-terminated-in-odisha-passengers-advised-to-check-train-status"
       },
-      "group_size": 2,
-      "label": "⚡ JUST IN",
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "210b687cc0e4d9d91ed7db29",
-      "story_id": "210b687cc0e4d9d91ed7db29",
-      "headline": "Cyclone ‘Arnab’ LIVE updates | IMD raises wind forecast to 150 kmph gusts; landfall near Yanam; 61 trains cancelled",
-      "title": "Cyclone ‘Arnab’ LIVE updates | IMD raises wind forecast to 150 kmph gusts; landfall near Yanam; 61 trains cancelled",
-      "summary": "Nearly 89,000 people on the Kakinada coast are being moved to relief camps ahead of Cyclone Arnab’s landfall on October 28",
-      "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T07:16:52+00:00",
-      "published_at": "2026-10-27T08:38:05+00:00",
-      "effective_at": "2026-10-27T08:38:05+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline",
-            "the-hindu"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "- October 27, 2026 13:33All beaches in Visakhapatnam closed; police patrol the shore.",
-        "All beaches in Visakhapatnam have been closed, and the police are patrolling to stop people from going into the water, Collector Abhishikth Kishore said on Tuesday.",
-        "Five trees that fell in the city were cleared quickly, and power cut at four places was restored soon after, he said after reviewing preparations with officials by teleconference.",
-        "- October 27, 2026 13:21Sea water floods coastal villages near Kakinada; roads to Uppada cut offRising sea waves have flooded coastal stretches of Uppada, Konapapet and Moolapet in Kakinada district on Tuesday, disrupting traffic on the roads that connect Uppada and nearby villages to Kakinada.",
-        "The waves have pushed towards houses near the shore, worrying residents of Uppada, Konapapet, Moolapet, Subbampet and the villages around them.",
-        "- October 27, 2026 13:12Rain picks up in Visakhapatnam city; some areas get over 35 mm by noonVisakhapatnam city had the heaviest rain in Andhra Pradesh by noon on Tuesday.",
-        "Tulasi Nagar Park recorded about 37 mm between 8.30 a.m. and noon, and the 16th.",
-        "Police Battalion campus about 36 mm, according to the Directorate of Economics and Statistics.",
-        "Most of that fell in the last hour.",
-        "- October 27, 2026 13:04South Central Railway cancels 11 more trains, including Hyderabad-Visakhapatnam servicesSouth.",
-        "Central Railway has cancelled 11 trains on Tuesday (October 27, 2026) and Wednesday because of Cyclone Arnab.",
-        "They include three services from Hyderabad, Secunderabad and Mahbubnagar to Visakhapatnam, trains from Lingampalli to Kakinada Town, Kakinada Port and Narasapur, and the Secunderabad-Howrah and Secunderabad-Bhubaneswar New trains."
-      ],
-      "public_label": "⚡ JUST IN",
-      "briefing": {
-        "opening": [
-          "- October 27, 2026 13:33All beaches in Visakhapatnam closed; police patrol the shore.",
-          "All beaches in Visakhapatnam have been closed, and the police are patrolling to stop people from going into the water, Collector Abhishikth Kishore said on Tuesday."
-        ],
-        "body": [
-          "Five trees that fell in the city were cleared quickly, and power cut at four places was restored soon after, he said after reviewing preparations with officials by teleconference.",
-          "- October 27, 2026 13:21Sea water floods coastal villages near Kakinada; roads to Uppada cut offRising sea waves have flooded coastal stretches of Uppada, Konapapet and Moolapet in Kakinada district on Tuesday, disrupting traffic on the roads that connect Uppada and nearby villages to Kakinada.",
-          "The waves have pushed towards houses near the shore, worrying residents of Uppada, Konapapet, Moolapet, Subbampet and the villages around them.",
-          "- October 27, 2026 13:12Rain picks up in Visakhapatnam city; some areas get over 35 mm by noonVisakhapatnam city had the heaviest rain in Andhra Pradesh by noon on Tuesday.",
-          "Tulasi Nagar Park recorded about 37 mm between 8.30 a.m. and noon, and the 16th.",
-          "Police Battalion campus about 36 mm, according to the Directorate of Economics and Statistics.",
-          "Most of that fell in the last hour.",
-          "- October 27, 2026 13:04South Central Railway cancels 11 more trains, including Hyderabad-Visakhapatnam servicesSouth."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Visakhapatnam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "- October 27, 2026 13:21Sea water floods coastal villages near Kakinada; roads to Uppada cut offRising sea waves have flooded coastal stretches of Uppada, Konapapet and Moolapet in Kakinada district on Tuesday, disrupting traffic on the roads that connect Uppada and nearby villages to Kakinada.",
-            "source": "The Hindu",
-            "item_id": "210b687cc0e4d9d91ed7db29:article",
-            "composed": false
-          },
-          {
-            "text": "- October 27, 2026 13:12Rain picks up in Visakhapatnam city; some areas get over 35 mm by noonVisakhapatnam city had the heaviest rain in Andhra Pradesh by noon on Tuesday.",
-            "source": "The Hindu",
-            "item_id": "210b687cc0e4d9d91ed7db29:article",
-            "composed": false
-          },
-          {
-            "text": "- October 27, 2026 13:04South Central Railway cancels 11 more trains, including Hyderabad-Visakhapatnam servicesSouth.",
-            "source": "The Hindu",
-            "item_id": "210b687cc0e4d9d91ed7db29:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece"
-      },
-      "group_size": 2,
-      "label": "⚡ JUST IN",
-      "enrichment": "article"
     },
     {
       "event_id": "776e7e1d20b2d81c64c9041f",
@@ -494,7 +460,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (telangana)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -612,7 +578,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -690,6 +656,108 @@
       "enrichment": "article"
     },
     {
+      "event_id": "83a2a8989676988715bb06fa",
+      "story_id": "83a2a8989676988715bb06fa",
+      "headline": "Assam: Rotary Club of Dibrugarh Provides Winter Relief to 380 Flood-Hit Families",
+      "title": "Assam: Rotary Club of Dibrugarh Provides Winter Relief to 380 Flood-Hit Families",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-rotary-club-of-dibrugarh-provides-winter-relief-to-380-flood-hit-families",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T04:17:37+00:00",
+      "published_at": "2026-10-27T04:17:37+00:00",
+      "effective_at": "2026-10-27T04:17:37.352000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: fresh (4.6h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 19, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "DIBRUGARH: The Rotary Club of Dibrugarh has reached out to 380 beneficiaries across four villages in Charaideo and Sivasagar districts under the first phase of its Winter Relief Distribution Programme, aimed at supporting families severely affected by floods in Upper Assam.",
+        "The relief materials were distributed in Chuladhara Sokial Gaon, Moran Gaon, and Borgaon in Charaideo district, and Duarah Gaon in Sivasagar district.",
+        "Essential items, including blankets, mosquito nets, bedsheets, sanitary pads, bags, and other necessities, were provided to help vulnerable families meet their basic needs and prepare for the winter season.",
+        "The relief initiative received generous support from the Rotary Club of Delhi Southend Next under Rotary International District 3011, highlighting the spirit of inter-club cooperation and humanitarian service."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "DIBRUGARH: The Rotary Club of Dibrugarh has reached out to 380 beneficiaries across four villages in Charaideo and Sivasagar districts under the first phase of its Winter Relief Distribution Programme, aimed at supporting families severely affected by floods in Upper Assam.",
+          "The relief materials were distributed in Chuladhara Sokial Gaon, Moran Gaon, and Borgaon in Charaideo district, and Duarah Gaon in Sivasagar district."
+        ],
+        "body": [
+          "Essential items, including blankets, mosquito nets, bedsheets, sanitary pads, bags, and other necessities, were provided to help vulnerable families meet their basic needs and prepare for the winter season.",
+          "The relief initiative received generous support from the Rotary Club of Delhi Southend Next under Rotary International District 3011, highlighting the spirit of inter-club cooperation and humanitarian service."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Charaideo"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "DIBRUGARH: The Rotary Club of Dibrugarh has reached out to 380 beneficiaries across four villages in Charaideo and Sivasagar districts under the first phase of its Winter Relief Distribution Programme, aimed at supporting families severely affected by floods in Upper Assam.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "83a2a8989676988715bb06fa:article",
+            "composed": false
+          },
+          {
+            "text": "The relief materials were distributed in Chuladhara Sokial Gaon, Moran Gaon, and Borgaon in Charaideo district, and Duarah Gaon in Sivasagar district.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "83a2a8989676988715bb06fa:article",
+            "composed": false
+          },
+          {
+            "text": "The relief initiative received generous support from the Rotary Club of Delhi Southend Next under Rotary International District 3011, highlighting the spirit of inter-club cooperation and humanitarian service.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "83a2a8989676988715bb06fa:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-rotary-club-of-dibrugarh-provides-winter-relief-to-380-flood-hit-families"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "b47fb5eb9751564adb2b5569",
       "story_id": "b47fb5eb9751564adb2b5569",
       "headline": "UP Election Body Apologises Over ‘Ram Didn’t Kill Any Minority’ Remark After Voter Slip Error",
@@ -733,7 +801,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -840,7 +908,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -914,33 +982,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "fa29c685e48102f0add8863b",
-      "story_id": "fa29c685e48102f0add8863b",
-      "headline": "SC gives 10 days to petitioners to reply to EC affidavit defending SIR",
-      "title": "SC gives 10 days to petitioners to reply to EC affidavit defending SIR",
-      "summary": "The Supreme Court on Tuesday granted 10 days to petitioners to file a reply to the Election Commission's affidavit defending the Special Intensive Revision (SIR) of electoral rolls, maintaining that the exercise was authorised by law and the relevant orders were approved unanimously by all three members of the poll panel. A bench comprising Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana also issued notices to the poll panel and others on a fresh plea filed by Rajya Sabha MP Dola Sen alleging that changes were made in Form 6 during Bihar SIR without the approval of the top court. Senior advocate and MP Maneka Guruswamy, appearing for Sen, said the poll panel wrongly claimed that the changes in Form 6 were approved by the top court. While issuing the notice, the CJI said that all the issues would be examined and asked senior advocate Vikas Singh, who represented the first petitioner, Rakesh Kumar Singh, to file a rejoinder in 10 days to the poll ...",
-      "url": "https://www.business-standard.com/india-news/sc-gives-10-days-to-petitioners-to-reply-to-ec-affidavit-defending-sir-126102700624_1.html",
-      "source": "Business Standard",
+      "event_id": "227b18436e41228d114e99ca",
+      "story_id": "227b18436e41228d114e99ca",
+      "headline": "China’s 60,000 MW Dam Near The Border: What It Means For India And The Brahmaputra",
+      "title": "China’s 60,000 MW Dam Near The Border: What It Means For India And The Brahmaputra",
+      "summary": "China’s massive hydropower project on the Yarlung Tsangpo in Tibet has sharpened India’s concerns over the future of the Brahmaputra. India’s proposed 11,200-megawatt Siang Upper Multipurpose Project in Arunachal Pradesh is being considered as a strategic response — but it has triggered fierce resistance from indigenous communities who fear displacement, ecological damage and risks to their ancestral lands. As protests intensify, we examine China’s megadam, India’s water-security concerns, the proposed project’s storage capacity, earthquake and environmental risks, and the demands of the Adi communities. Can India prepare for potential upstream threats while protecting local livelihoods and securing genuine public consent?",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/chinas-60000-mw-dam-near-the-border-what-it-means-for-india-and-the-brahmaputra-563876-2026-10-27",
+      "source": "Business Today",
       "primary_source": false,
       "tier": 3,
-      "category": "courts-law",
+      "category": "defence-security",
       "secondary_categories": [
-        "national-politics"
+        "weather-disasters"
       ],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
+      "score": 99.2,
+      "priority_score": 49.2,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-27T08:06:48+00:00",
-      "published_at": "2026-10-27T08:06:48+00:00",
-      "effective_at": "2026-10-27T08:06:48+00:00",
+      "event_time": "2026-10-27T08:14:20+00:00",
+      "published_at": "2026-10-27T08:14:20+00:00",
+      "effective_at": "2026-10-27T08:14:20+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
+        "indiatoday": {
+          "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "business-today"
           ],
           "count": 1
         }
@@ -949,60 +1017,58 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'earthquake'",
+        "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'chief justice' in summary weight 25.2",
-        "event term: 'chief justice of india' in summary weight 27.6",
-        "scale: state scope (bihar)",
+        "event term: 'earthquake' in summary weight 49.2",
+        "scale: state scope (arunachal pradesh)",
         "recency: breaking (0.6h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
+        "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
+        "dominant event 49.2, stack 26.8, score 49.2 -> HIGH"
       ],
       "geo_scope": "state",
-      "state": "bihar",
+      "state": "arunachal pradesh",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Supreme Court on Tuesday granted 10 days to petitioners to file a reply to the Election Commission's affidavit defending the Special Intensive Revision (SIR) of electoral rolls, maintaining that the exercise was authorised by law and the relevant orders were approved unanimously by all three members of the poll panel.",
-          "A bench comprising Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana also issued notices to the poll panel and others on a fresh plea filed by Rajya Sabha MP Dola Sen alleging that changes were made in Form 6 during Bihar SIR without the approval of the top court."
+          "China’s massive hydropower project on the Yarlung Tsangpo in Tibet has sharpened India’s concerns over the future of the Brahmaputra.",
+          "India’s proposed 11,200-megawatt Siang Upper Multipurpose Project in Arunachal Pradesh is being considered as a strategic response — but it has triggered fierce resistance from indigenous communities who fear displacement, ecological damage and risks to their ancestral lands."
         ],
         "body": [
-          "Senior advocate and MP Maneka Guruswamy, appearing for Sen, said the poll panel wrongly claimed that the changes in Form 6 were approved by the top court.",
-          "While issuing the notice, the CJI said that all the issues would be examined and asked senior advocate Vikas Singh, who represented the first petitioner, Rakesh Kumar Singh, to file a rejoinder in 10 days to the poll..."
+          "As protests intensify, we examine China’s megadam, India’s water-security concerns, the proposed project’s storage capacity, earthquake and environmental risks, and the demands of the Adi communities.",
+          "Can India prepare for potential upstream threats while protecting local livelihoods and securing genuine public consent?"
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Form"
+            "text": "Tibet"
           }
         ],
         "sentences": [
           {
-            "text": "The Supreme Court on Tuesday granted 10 days to petitioners to file a reply to the Election Commission's affidavit defending the Special Intensive Revision (SIR) of electoral rolls, maintaining that the exercise was authorised by law and the relevant orders were approved unanimously by all three members of the poll panel.",
-            "source": "Business Standard",
-            "item_id": "fa29c685e48102f0add8863b",
+            "text": "India’s proposed 11,200-megawatt Siang Upper Multipurpose Project in Arunachal Pradesh is being considered as a strategic response — but it has triggered fierce resistance from indigenous communities who fear displacement, ecological damage and risks to their ancestral lands.",
+            "source": "Business Today",
+            "item_id": "227b18436e41228d114e99ca",
             "composed": false
           },
           {
-            "text": "A bench comprising Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana also issued notices to the poll panel and others on a fresh plea filed by Rajya Sabha MP Dola Sen alleging that changes were made in Form 6 during Bihar SIR without the approval of the top court.",
-            "source": "Business Standard",
-            "item_id": "fa29c685e48102f0add8863b",
+            "text": "China’s massive hydropower project on the Yarlung Tsangpo in Tibet has sharpened India’s concerns over the future of the Brahmaputra.",
+            "source": "Business Today",
+            "item_id": "227b18436e41228d114e99ca",
             "composed": false
           }
         ],
-        "source": "Business Standard",
+        "source": "Business Today",
         "corroborating": [],
-        "url": "https://www.business-standard.com/india-news/sc-gives-10-days-to-petitioners-to-reply-to-ec-affidavit-defending-sir-126102700624_1.html"
+        "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/chinas-60000-mw-dam-near-the-border-what-it-means-for-india-and-the-brahmaputra-563876-2026-10-27"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1050,7 +1116,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1133,7 +1199,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1219,7 +1285,7 @@
         "event term: 'takeover' in title weight 42",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1339,7 +1405,7 @@
         "event term: 'takes charge' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1439,7 +1505,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1522,7 +1588,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1602,7 +1668,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1711,7 +1777,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1804,7 +1870,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
