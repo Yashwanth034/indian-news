@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:52:19.732217+00:00",
+  "generated_at": "2026-10-27T19:02:46.672715+00:00",
   "count": 22,
   "stories": [
     {
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 82, stack 25.2, score 82 -> IMMEDIATE"
@@ -125,7 +125,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -205,27 +205,109 @@
       "enrichment": "article"
     },
     {
-      "event_id": "9b10330c19c8b8535a3831cf",
-      "story_id": "9b10330c19c8b8535a3831cf",
-      "headline": "Cyclone ‘Arnab’: Flights, trains cancelled as rain batters A.P.; 30,000 boats brought ashore; southern Odisha on edge",
-      "title": "Cyclone ‘Arnab’: Flights, trains cancelled as rain batters A.P.; 30,000 boats brought ashore; southern Odisha on edge",
-      "summary": "Cyclone Arnab set to make landfall around dawn on Wednesday; A.P. cancels several flights, trains, brings 30,000 fishing boats ashore; Odisha shuts ghat roads, imposes transport curbs, and begins massive evacuation",
-      "url": "https://www.thehindu.com/news/national/cyclone-arnab-flights-trains-cancelled-as-rain-batters-ap-30000-boats-brought-ashore-southern-odisha-on-edge/article71632559.ece",
-      "source": "The Hindu",
+      "event_id": "9580f0fef88edfcf07424cd5",
+      "story_id": "9580f0fef88edfcf07424cd5",
+      "headline": "Cyclone Arnab Hits Air Services: 21 Flights from Vijayawada and Vizag Cancelled.",
+      "title": "Cyclone Arnab Hits Air Services: 21 Flights from Vijayawada and Vizag Cancelled.",
+      "summary": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
+      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-hits-air-services-21-flights-from-vijayawada-and-vizag-cancelled-1136458",
+      "source": "The Hans India",
       "primary_source": false,
       "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
+      "category": "weather-disasters",
+      "secondary_categories": [],
       "confidence": "medium",
       "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-27T18:26:08+00:00",
-      "published_at": "2026-10-27T18:26:08+00:00",
-      "effective_at": "2026-10-27T18:26:08+00:00",
+      "event_time": "2026-10-27T14:22:56+00:00",
+      "published_at": "2026-10-27T14:22:56+00:00",
+      "effective_at": "2026-10-27T14:22:56+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "scale: multi-state (3 states)",
+        "recency: fresh (4.7h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 32, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
+          "Flights to and from coastal Andhra Pradesh and southern Odisha are expected to be the most affected."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
+            "source": "The Hans India",
+            "item_id": "9580f0fef88edfcf07424cd5",
+            "composed": false
+          },
+          {
+            "text": "Flights to and from coastal Andhra Pradesh and southern Odisha are expected to be the most affected.",
+            "source": "NDTV",
+            "item_id": "5bffc53b42fb517ae2b37a1c",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "NDTV"
+        ],
+        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-hits-air-services-21-flights-from-vijayawada-and-vizag-cancelled-1136458"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "caec14c11ac22688dc298829",
+      "story_id": "caec14c11ac22688dc298829",
+      "headline": "Cyclone Arnab: heavy rain brings Vizag to standstill; civic agencies on high alert",
+      "title": "Cyclone Arnab: heavy rain brings Vizag to standstill; civic agencies on high alert",
+      "summary": "Fallen trees, waterlogged roads and power interruptions add to disruption; bus services cancelled while beaches remain closed; Visakhapatnam district receives 147.9 mm of rain between 8.30 a.m. and 9 p.m.",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-heavy-rain-brings-vizag-to-standstill-civic-agencies-on-high-alert/article71632812.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 87.2,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T18:46:50+00:00",
+      "published_at": "2026-10-27T18:46:50+00:00",
+      "effective_at": "2026-10-27T18:46:50+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -240,81 +322,86 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
         "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: transport-infrastructure (importance 1, urgent=False)",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (odisha)",
-        "recency: breaking (0.4h ago) +8",
-        "category: transport-infrastructure (importance 1) +1.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 43.2, score 72 -> URGENT"
+        "dominant event 72, stack 24, score 72 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "odisha",
+      "geo_scope": "local",
+      "state": "andhra pradesh",
       "national_significance": true,
+      "article_sentences": [
+        "A city that seldom slows down was brought to a near halt on Tuesday as Cyclone Arnab drove heavy rain and gusty winds across Visakhapatnam, leaving civic agencies racing to keep roads open and power on.",
+        "Schools and anganwadi centres remained closed, 102 bus services were cancelled, and beaches were shut, while residents were advised to stay indoors.",
+        "Fallen trees and power interruptions added to the disruption.",
+        "According to the Command Control Room, 206 trees came down within the Greater Visakhapatnam Municipal Corporation limits, and 55 had been cleared by 6 p.m. Of the 103 calls received, 42 related to fallen trees and 51 to power supply; 17 had been attended to.",
+        "Rainfall in the district averaged 147.9 mm between 8.30 a.m. and 9 p.m., the highest being 206.8 mm in Gopalapatnam, followed by Visakhapatnam (Rural) at 160.8 mm and Pendurthi at 155.2 mm.",
+        "District Collector M. Abhishikth Kishore said gusty winds of 40 kmph to 50 kmph had been recorded since morning, and speeds of up to 100 kmph were likely from 9 p.m.",
+        "By 6 p.m., 85 people had taken shelter in relief centres opened across the district, and 72 food packets had been distributed, the administration said.",
+        "Mr. Kishore said people in vulnerable coastal and hilly habitations had been moved as required.",
+        "A National Disaster Response Force team had been deployed, along with 63 earth movers, 30 tree-cutting teams, 50 generators and 75 rescue boats.",
+        "The Navy and the Coast Guard were coordinating support.",
+        "Mr. Kishore toured Mangamaripeta beach and inspected a relief centre at the Upper GVMC Primary School there, directing officials to ensure drinking water, food, toilets and power, with priority for the elderly, women, children and pregnant women.",
+        "At night, he inspected the command control room set up at the Collectorate with Joint Collector G. Vidyadhari and asked for hourly reports."
+      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Cyclone Arnab set to make landfall around dawn on Wednesday; A.P. cancels several flights, trains, brings 30,000 fishing boats ashore; Odisha shuts ghat roads, imposes transport curbs, and begins massive evacuation.",
-          "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m."
+          "A city that seldom slows down was brought to a near halt on Tuesday as Cyclone Arnab drove heavy rain and gusty winds across Visakhapatnam, leaving civic agencies racing to keep roads open and power on.",
+          "Schools and anganwadi centres remained closed, 102 bus services were cancelled, and beaches were shut, while residents were advised to stay indoors."
         ],
         "body": [
-          "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway.",
-          "Cyclone Arnab LIVE Updates: The Met Department observed that the outer spiral band has entered the land.",
-          "It is very likely to move nearly west-northwestwards during the next few hours."
+          "Fallen trees and power interruptions added to the disruption.",
+          "According to the Command Control Room, 206 trees came down within the Greater Visakhapatnam Municipal Corporation limits, and 55 had been cleared by 6 p.m. Of the 103 calls received, 42 related to fallen trees and 51 to power supply; 17 had been attended to.",
+          "Rainfall in the district averaged 147.9 mm between 8.30 a.m. and 9 p.m., the highest being 206.8 mm in Gopalapatnam, followed by Visakhapatnam (Rural) at 160.8 mm and Pendurthi at 155.2 mm.",
+          "District Collector M. Abhishikth Kishore said gusty winds of 40 kmph to 50 kmph had been recorded since morning, and speeds of up to 100 kmph were likely from 9 p.m. By 6 p.m., 85 people had taken shelter in relief centres opened across the district, and 72 food packets had been distributed, the administration said.",
+          "Mr. Kishore said people in vulnerable coastal and hilly habitations had been moved as required.",
+          "A National Disaster Response Force team had been deployed, along with 63 earth movers, 30 tree-cutting teams, 50 generators and 75 rescue boats.",
+          "The Navy and the Coast Guard were coordinating support.",
+          "Mr. Kishore toured Mangamaripeta beach and inspected a relief centre at the Upper GVMC Primary School there, directing officials to ensure drinking water, food, toilets and power, with priority for the elderly, women, children and pregnant women."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Mangalapalem"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
+            "text": "Visakhapatnam"
           },
           {
             "icon": "👥",
             "label": "Impact",
-            "text": "84,396 people"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa."
+            "text": "85 people"
           }
         ],
         "sentences": [
           {
-            "text": "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m.",
+            "text": "Rainfall in the district averaged 147.9 mm between 8.30 a.m. and 9 p.m., the highest being 206.8 mm in Gopalapatnam, followed by Visakhapatnam (Rural) at 160.8 mm and Pendurthi at 155.2 mm.",
             "source": "The Hindu",
-            "item_id": "80746ce4e470b0b9d6ad4837",
+            "item_id": "caec14c11ac22688dc298829:article",
             "composed": false
           },
           {
-            "text": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
-            "source": "The Hans India",
-            "item_id": "9580f0fef88edfcf07424cd5",
+            "text": "Schools and anganwadi centres remained closed, 102 bus services were cancelled, and beaches were shut, while residents were advised to stay indoors.",
+            "source": "The Hindu",
+            "item_id": "caec14c11ac22688dc298829:article",
             "composed": false
           }
         ],
         "source": "The Hindu",
-        "corroborating": [
-          "India Today",
-          "The Hans India",
-          "NDTV"
-        ],
-        "url": "https://www.thehindu.com/news/national/cyclone-arnab-flights-trains-cancelled-as-rain-batters-ap-30000-boats-brought-ashore-southern-odisha-on-edge/article71632559.ece"
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-heavy-rain-brings-vizag-to-standstill-civic-agencies-on-high-alert/article71632812.ece"
       },
-      "group_size": 6,
+      "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "rss"
+      "enrichment": "article"
     },
     {
       "event_id": "3f9afbb0b6abfe02c0fc0c76",
@@ -363,7 +450,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -477,7 +564,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -592,7 +679,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -675,7 +762,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -798,7 +885,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 34, score 72 -> URGENT"
@@ -913,7 +1000,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 41, score 72 -> URGENT"
@@ -997,7 +1084,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -1127,7 +1214,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1216,7 +1303,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1333,7 +1420,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1428,7 +1515,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 58, stack 20, score 58 -> HIGH"
@@ -1539,7 +1626,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1586,116 +1673,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "3719074ae9bf271ed46888fa",
-      "story_id": "3719074ae9bf271ed46888fa",
-      "headline": "Supreme Court Needs Proper Roster Ruling Out Manual Intervention Of CJI: Justice Oka",
-      "title": "Supreme Court Needs Proper Roster Ruling Out Manual Intervention Of CJI: Justice Oka",
-      "summary": "There is no proper roster in the Supreme Court if categories of cases can be assigned to multiple benches, the former judge says.",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-needs-proper-roster-ruling-out-manual-intervention-of-cji-justice-oka-556217",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 95.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T16:55:27+00:00",
-      "published_at": "2026-10-27T16:55:27+00:00",
-      "effective_at": "2026-10-27T16:55:27+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "There is no proper roster in the Supreme Court if categories of cases can be assigned to multiple benches, the former judge says.",
-        "Former Supreme Court Judge Justice Abhay S Oka has said that the Supreme Court needs to introduce a proper roster system that rules out the possibility of manual intervention by the Chief Justice of India in the allocation of cases to benches.",
-        "Speaking on the topic \"Accountability of Judges\" at a seminar organised by the Campaign for Judicial Accountability and Reforms in New Delhi, Justice Oka said that the absence of a proper roster in the Supreme Court raises questions about how cases are assigned to particular benches.",
-        "\"The object of the roster is to rule out the possibility of manual intervention in listing.",
-        "If there is a roster, the Chief Justice of the High Court or the Supreme Court will not have any right to manually intervene in the listing of any particular case,\" he said.",
-        "Pointing out that the Supreme Court's roster assigns certain categories of cases to multiple benches, he said that lawyers are often left unaware of which bench will hear their cases.",
-        "\"If you go to the Supreme Court, there is unfortunately no proper roster.",
-        "In the Supreme Court, you will find a caption, 'Judges' Roster'.",
-        "What does it contain?",
-        "Even the latest roster of October 26 only gives a subject-wise list.",
-        "There are categories numbered 301 to 306, and these categories are assigned to four different benches,\" he said.",
-        "For instance, a Special Leave Petition challenging a High Court order in an environmental matter could be assigned to any one of several benches, leaving the lawyer uncertain about which bench would hear the case."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "There is no proper roster in the Supreme Court if categories of cases can be assigned to multiple benches, the former judge says.",
-          "Former Supreme Court Judge Justice Abhay S Oka has said that the Supreme Court needs to introduce a proper roster system that rules out the possibility of manual intervention by the Chief Justice of India in the allocation of cases to benches."
-        ],
-        "body": [
-          "Speaking on the topic \"Accountability of Judges\" at a seminar organised by the Campaign for Judicial Accountability and Reforms in New Delhi, Justice Oka said that the absence of a proper roster in the Supreme Court raises questions about how cases are assigned to particular benches.",
-          "\"The object of the roster is to rule out the possibility of manual intervention in listing.",
-          "If there is a roster, the Chief Justice of the High Court or the Supreme Court will not have any right to manually intervene in the listing of any particular case,\" he said.",
-          "Pointing out that the Supreme Court's roster assigns certain categories of cases to multiple benches, he said that lawyers are often left unaware of which bench will hear their cases.",
-          "\"If you go to the Supreme Court, there is unfortunately no proper roster.",
-          "In the Supreme Court, you will find a caption, 'Judges' Roster'.",
-          "What does it contain?",
-          "Even the latest roster of October 26 only gives a subject-wise list."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "New Delhi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Even the latest roster of October 26 only gives a subject-wise list.",
-            "source": "LiveLaw",
-            "item_id": "3719074ae9bf271ed46888fa:article",
-            "composed": false
-          },
-          {
-            "text": "Speaking on the topic \"Accountability of Judges\" at a seminar organised by the Campaign for Judicial Accountability and Reforms in New Delhi, Justice Oka said that the absence of a proper roster in the Supreme Court raises questions about how cases are assigned to particular benches.",
-            "source": "LiveLaw",
-            "item_id": "3719074ae9bf271ed46888fa:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-needs-proper-roster-ruling-out-manual-intervention-of-cji-justice-oka-556217"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "c8af80be87ea811ad71371da",
@@ -1745,7 +1722,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1842,7 +1819,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1938,7 +1915,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2040,7 +2017,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -2160,7 +2137,7 @@
         "event term: 'takeover' in title weight 42",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 35.2, score 42 -> HIGH"
@@ -2242,7 +2219,7 @@
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 32.4, score 40 -> HIGH"
