@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:52:01.669228+00:00",
+  "generated_at": "2026-10-27T04:02:13.892856+00:00",
   "count": 11,
   "stories": [
     {
@@ -48,7 +48,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -152,7 +152,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -278,7 +278,7 @@
         "event term: 'lac' in title weight 62",
         "event term: 'lac' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -397,7 +397,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -514,7 +514,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -638,7 +638,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -736,7 +736,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 58, stack 28.8, score 58 -> HIGH"
@@ -872,7 +872,7 @@
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1027,7 +1027,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (11.9h ago) +4",
+        "recency: fresh (12.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1077,7 +1077,7 @@
       "tier": 3,
       "category": "business-industry",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 75.0,
       "priority_score": 42.0,
       "priority_level": "HIGH",
@@ -1085,7 +1085,7 @@
       "event_time": "2026-10-27T03:34:41+00:00",
       "published_at": "2026-10-27T03:34:41+00:00",
       "effective_at": "2026-10-27T03:34:41+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "indiatoday": {
           "kind": "independent",
@@ -1093,22 +1093,31 @@
             "business-today"
           ],
           "count": 1
+        },
+        "business-standard": {
+          "kind": "independent",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
+        "major: corroborated by 2 independent sources",
         "category: business-industry (importance 1, urgent=False)",
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (business-today) +1",
         "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'takeover' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
-        "dominant event 42, stack 29.2, score 42 -> HIGH"
+        "dominant event 42, stack 35.2, score 42 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -1234,7 +1243,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takes charge' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
