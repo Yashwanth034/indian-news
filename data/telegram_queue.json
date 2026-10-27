@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T17:52:17.030709+00:00",
-  "count": 17,
+  "generated_at": "2026-10-27T18:02:41.958655+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "f19e8e4a3db29410760947c5",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 82, stack 25.2, score 82 -> IMMEDIATE"
@@ -125,7 +125,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -251,7 +251,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -273,7 +273,7 @@
         "He asked people not to go out unless it was essential, and not to go to the beaches.",
         "- October 27, 2026 15:43Chennai airport cancels three IndiGo flights to Visakhapatnam, Vijayawada."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "- October 27, 2026 17:18Cyclone 140 km from Kakinada; gale-force winds up to 110 kmph by Tuesday evening in 10 districtsCyclone Arnab was about 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 p.m. on Tuesday, the IMD said.",
@@ -318,8 +318,8 @@
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece"
       },
-      "group_size": 2,
-      "label": "⚡ JUST IN",
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -372,7 +372,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -411,31 +411,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9580f0fef88edfcf07424cd5",
-      "story_id": "9580f0fef88edfcf07424cd5",
-      "headline": "Cyclone Arnab Hits Air Services: 21 Flights from Vijayawada and Vizag Cancelled.",
-      "title": "Cyclone Arnab Hits Air Services: 21 Flights from Vijayawada and Vizag Cancelled.",
-      "summary": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
-      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-hits-air-services-21-flights-from-vijayawada-and-vizag-cancelled-1136458",
-      "source": "The Hans India",
+      "event_id": "ddbca9d75e3bf5a03c0013e7",
+      "story_id": "ddbca9d75e3bf5a03c0013e7",
+      "headline": "Cyclone Arnab: 50 trains cancelled, thousands evacuated as Andhra, Odisha brace for impact",
+      "title": "Cyclone Arnab: 50 trains cancelled, thousands evacuated as Andhra, Odisha brace for impact",
+      "summary": "",
+      "url": "https://english.mathrubhumi.com/news/india/cyclone-arnab-50-trains-cancelled-thousands-evacuated-as-andhra-odisha-brace-for-impact-id0mq9xf",
+      "source": "Mathrubhumi English",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
       "confidence": "medium",
-      "score": 100.0,
+      "score": 92.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-27T14:22:56+00:00",
-      "published_at": "2026-10-27T14:22:56+00:00",
-      "effective_at": "2026-10-27T14:22:56+00:00",
+      "event_time": "2026-10-27T13:47:53+00:00",
+      "published_at": "2026-10-27T13:47:53+00:00",
+      "effective_at": "2026-10-27T13:47:53+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "hans-india": {
+        "mathrubhumi": {
           "kind": "independent",
           "source_ids": [
-            "hans-india"
+            "mathrubhumi"
           ],
           "count": 1
         }
@@ -449,43 +451,163 @@
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
+        "source: tier 2 (mathrubhumi) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: fresh (3.5h ago) +4",
+        "scale: state scope (odisha)",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 32, score 72 -> URGENT"
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 20, score 72 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": "andhra pradesh",
+      "geo_scope": "state",
+      "state": "odisha",
       "national_significance": true,
       "article_sentences": [
-        "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
-        "As the severe Cyclone Arnab landfall is expected on Wednesday, about 21 flights from Vijayawada and Visakhapatnam airports have been cancelled, according to airport officials.",
-        "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport.",
-        "Fly91 has cancelled flights, and Air India announced it cancelled its morning service to Delhi.",
-        "A total of 15 flights has been cancelled for Wednesday, the official said.",
-        "At Visakhapatnam airport, 16 flights were cancelled on Tuesday.",
-        "In its latest bulletin, the India Meteorological Department (IMD) said Cyclone Arnab was over the Bay of Bengal, about 170 km south-southeast of Visakhapatnam, at 11.30 am.",
-        "It was likely to move west-northwestward until evening before crossing the coast between Bapatla and Visakhapatnam, close to Yanam, by Wednesday forenoon.",
-        "The system was expected to make landfall with maximum sustained wind speeds of 125-135 kmph, gusting to 150 kmph, the IMD said.",
-        "Andhra Pradesh has been placed on high alert, with evacuations planned and precautionary measures underway to prevent loss of life and property, officials said.",
-        "A Journey of Three Decades Time passes faster than we realise.",
-        "What feels like a journey that began only yesterday has today grown into more than three decades of a meaningful and fulfilling life devoted to education, journalism, and the empowerment of young minds."
+        "Strong winds have begun sweeping through Visakhapatnam and Kakinada, while Srikakulam and other northern coastal districts are expected to receive heavy rainfall accompanied by powerful winds.",
+        "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday.",
+        "The approaching cyclone has already disrupted rail and air services, prompting the cancellation of at least 50 trains and two IndiGo flights.",
+        "Restrictions have also been imposed on several coastal roads as authorities race to minimise damage and prevent casualties.",
+        "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
+        "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
+        "Heavy rainfall and strong winds have already begun affecting parts of Andhra Pradesh and Odisha, while the cyclone's influence is also being felt in West Bengal and neighbouring Jharkhand.",
+        "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
+        "Authorities have placed 1,087 medical teams on standby and arranged 8,281 emergency hospital beds and 1,274 ambulances in areas expected to experience severe weather.",
+        "In a precautionary measure, 1,351 pregnant women have been shifted to hospitals to ensure access to medical assistance during the cyclone.",
+        "The administration has also stocked two months' worth of essential commodities at 14,686 ration shops to prevent shortages if transport and supply networks are disrupted.",
+        "Cyclone warnings are being sent continuously to the mobile phones of approximately 2.70 crore people across the state."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
-          "As the severe Cyclone Arnab landfall is expected on Wednesday, about 21 flights from Vijayawada and Visakhapatnam airports have been cancelled, according to airport officials."
+          "Strong winds have begun sweeping through Visakhapatnam and Kakinada, while Srikakulam and other northern coastal districts are expected to receive heavy rainfall accompanied by powerful winds.",
+          "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday."
         ],
         "body": [
-          "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport.",
-          "Fly91 has cancelled flights, and Air India announced it cancelled its morning service to Delhi.",
-          "A total of 15 flights has been cancelled for Wednesday, the official said.",
+          "The approaching cyclone has already disrupted rail and air services, prompting the cancellation of at least 50 trains and two IndiGo flights.",
+          "Restrictions have also been imposed on several coastal roads as authorities race to minimise damage and prevent casualties.",
+          "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
+          "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
+          "Heavy rainfall and strong winds have already begun affecting parts of Andhra Pradesh and Odisha, while the cyclone's influence is also being felt in West Bengal and neighbouring Jharkhand.",
+          "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
+          "Authorities have placed 1,087 medical teams on standby and arranged 8,281 emergency hospital beds and 1,274 ambulances in areas expected to experience severe weather.",
+          "In a precautionary measure, 1,351 pregnant women have been shifted to hospitals to ensure access to medical assistance during the cyclone."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Yanam"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
+            "source": "Mathrubhumi English",
+            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
+            "composed": false
+          },
+          {
+            "text": "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday.",
+            "source": "Mathrubhumi English",
+            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
+            "composed": false
+          },
+          {
+            "text": "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
+            "source": "Mathrubhumi English",
+            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
+            "composed": false
+          },
+          {
+            "text": "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
+            "source": "Mathrubhumi English",
+            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
+            "composed": false
+          }
+        ],
+        "source": "Mathrubhumi English",
+        "corroborating": [],
+        "url": "https://english.mathrubhumi.com/news/india/cyclone-arnab-50-trains-cancelled-thousands-evacuated-as-andhra-odisha-brace-for-impact-id0mq9xf"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "dde474c6167acaedb64da72d",
+      "story_id": "dde474c6167acaedb64da72d",
+      "headline": "Cyclone Arnab prompts cancellation of 21 flights",
+      "title": "Cyclone Arnab prompts cancellation of 21 flights",
+      "summary": "",
+      "url": "https://economictimes.indiatimes.com/news/india/cyclone-prompts-cancellation-of-21-flights-at-vijayawada-visakhapatnam-airports/articleshow/135240727.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 80.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T16:37:48+00:00",
+      "published_at": "2026-10-27T16:37:48+00:00",
+      "effective_at": "2026-10-27T16:37:48+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "recency: breaking (1.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 34, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Amaravati: At least 21 flights were cancelled at Vijayawada and Visakhapatnam airports on Tuesday as a very severe cyclonic storm approached the Andhra Pradesh coast, officials said.",
+        "At Vijayawada airport, five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, an airport official told PTI.",
+        "The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa, the official said.",
+        "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport, while Fly91 has also cancelled flights and Air India has cancelled its morning service to Delhi.",
+        "A total of 15 flights have been cancelled for Wednesday, the official said.",
+        "At Visakhapatnam airport, 16 flights were cancelled on Tuesday.",
+        "In its latest bulletin, the India Meteorological Department (IMD) said Cyclone Arnab was over the Bay of Bengal, about 170 km south-southeast of Visakhapatnam, at 11.30 am.",
+        "It was likely to move west-northwestward until evening before crossing the coast between Bapatla and Visakhapatnam, close to Yanam, by Wednesday forenoon.",
+        "The system was expected to make landfall with maximum sustained wind speeds of 125-135 kmph, gusting to 150 kmph, the IMD said.",
+        "Andhra Pradesh has been placed on high alert, with evacuations planned and precautionary measures underway to prevent loss of life and property, officials said."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Amaravati: At least 21 flights were cancelled at Vijayawada and Visakhapatnam airports on Tuesday as a very severe cyclonic storm approached the Andhra Pradesh coast, officials said.",
+          "At Vijayawada airport, five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, an airport official told PTI."
+        ],
+        "body": [
+          "The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa, the official said.",
+          "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport, while Fly91 has also cancelled flights and Air India has cancelled its morning service to Delhi.",
+          "A total of 15 flights have been cancelled for Wednesday, the official said.",
           "At Visakhapatnam airport, 16 flights were cancelled on Tuesday.",
           "In its latest bulletin, the India Meteorological Department (IMD) said Cyclone Arnab was over the Bay of Bengal, about 170 km south-southeast of Visakhapatnam, at 11.30 am.",
           "It was likely to move west-northwestward until evening before crossing the coast between Bapatla and Visakhapatnam, close to Yanam, by Wednesday forenoon.",
@@ -506,23 +628,23 @@
         ],
         "sentences": [
           {
-            "text": "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport.",
-            "source": "The Hans India",
-            "item_id": "9580f0fef88edfcf07424cd5:article",
+            "text": "For Wednesday, IndiGo has cancelled all its 12 flights at Vijayawada airport, while Fly91 has also cancelled flights and Air India has cancelled its morning service to Delhi.",
+            "source": "The Economic Times",
+            "item_id": "dde474c6167acaedb64da72d:article",
             "composed": false
           },
           {
-            "text": "Officials said that five flights were cancelled on Tuesday, including four operated by IndiGo and one by Air India Express, The cancellations affected services to destinations such as Chennai, Bengaluru, Visakhapatnam and Kadapa.",
-            "source": "The Hans India",
-            "item_id": "9580f0fef88edfcf07424cd5:article",
+            "text": "At Visakhapatnam airport, 16 flights were cancelled on Tuesday.",
+            "source": "The Economic Times",
+            "item_id": "dde474c6167acaedb64da72d:article",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "The Economic Times",
         "corroborating": [],
-        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-hits-air-services-21-flights-from-vijayawada-and-vizag-cancelled-1136458"
+        "url": "https://economictimes.indiatimes.com/news/india/cyclone-prompts-cancellation-of-21-flights-at-vijayawada-visakhapatnam-airports/articleshow/135240727.cms"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -571,7 +693,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 41, score 72 -> URGENT"
@@ -655,7 +777,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 34, score 72 -> URGENT"
@@ -785,7 +907,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -828,130 +950,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "ddbca9d75e3bf5a03c0013e7",
-      "story_id": "ddbca9d75e3bf5a03c0013e7",
-      "headline": "Cyclone Arnab: 50 trains cancelled, thousands evacuated as Andhra, Odisha brace for impact",
-      "title": "Cyclone Arnab: 50 trains cancelled, thousands evacuated as Andhra, Odisha brace for impact",
-      "summary": "",
-      "url": "https://english.mathrubhumi.com/news/india/cyclone-arnab-50-trains-cancelled-thousands-evacuated-as-andhra-odisha-brace-for-impact-id0mq9xf",
-      "source": "Mathrubhumi English",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T13:47:53+00:00",
-      "published_at": "2026-10-27T13:47:53+00:00",
-      "effective_at": "2026-10-27T13:47:53+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "mathrubhumi": {
-          "kind": "independent",
-          "source_ids": [
-            "mathrubhumi"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (mathrubhumi) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (odisha)",
-        "recency: fresh (4.1h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 20, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "article_sentences": [
-        "Strong winds have begun sweeping through Visakhapatnam and Kakinada, while Srikakulam and other northern coastal districts are expected to receive heavy rainfall accompanied by powerful winds.",
-        "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday.",
-        "The approaching cyclone has already disrupted rail and air services, prompting the cancellation of at least 50 trains and two IndiGo flights.",
-        "Restrictions have also been imposed on several coastal roads as authorities race to minimise damage and prevent casualties.",
-        "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
-        "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
-        "Heavy rainfall and strong winds have already begun affecting parts of Andhra Pradesh and Odisha, while the cyclone's influence is also being felt in West Bengal and neighbouring Jharkhand.",
-        "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
-        "Authorities have placed 1,087 medical teams on standby and arranged 8,281 emergency hospital beds and 1,274 ambulances in areas expected to experience severe weather.",
-        "In a precautionary measure, 1,351 pregnant women have been shifted to hospitals to ensure access to medical assistance during the cyclone.",
-        "The administration has also stocked two months' worth of essential commodities at 14,686 ration shops to prevent shortages if transport and supply networks are disrupted.",
-        "Cyclone warnings are being sent continuously to the mobile phones of approximately 2.70 crore people across the state."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Strong winds have begun sweeping through Visakhapatnam and Kakinada, while Srikakulam and other northern coastal districts are expected to receive heavy rainfall accompanied by powerful winds.",
-          "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday."
-        ],
-        "body": [
-          "The approaching cyclone has already disrupted rail and air services, prompting the cancellation of at least 50 trains and two IndiGo flights.",
-          "Restrictions have also been imposed on several coastal roads as authorities race to minimise damage and prevent casualties.",
-          "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
-          "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
-          "Heavy rainfall and strong winds have already begun affecting parts of Andhra Pradesh and Odisha, while the cyclone's influence is also being felt in West Bengal and neighbouring Jharkhand.",
-          "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
-          "Authorities have placed 1,087 medical teams on standby and arranged 8,281 emergency hospital beds and 1,274 ambulances in areas expected to experience severe weather.",
-          "In a precautionary measure, 1,351 pregnant women have been shifted to hospitals to ensure access to medical assistance during the cyclone."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Yanam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Moving at a speed of 18 kmph, the storm is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, by Wednesday forenoon.",
-            "source": "Mathrubhumi English",
-            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
-            "composed": false
-          },
-          {
-            "text": "Bhubaneswar/Amaravati: Andhra Pradesh and Odisha have stepped up emergency preparations as very severe cyclonic storm Arnab approaches the eastern coast, with nearly 4,000 relief shelters readied, thousands of residents being evacuated and disaster response teams placed on high alert ahead of its expected landfall on Wednesday.",
-            "source": "Mathrubhumi English",
-            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
-            "composed": false
-          },
-          {
-            "text": "According to the India Meteorological Department (IMD), the cyclone was located approximately 140 km southeast of Kakinada and 170 km south of Visakhapatnam at 2.30 pm on Tuesday.",
-            "source": "Mathrubhumi English",
-            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
-            "composed": false
-          },
-          {
-            "text": "The Andhra Pradesh government has established 2,131 cyclone shelters across 20 districts as part of extensive preparations to deal with the approaching storm.",
-            "source": "Mathrubhumi English",
-            "item_id": "ddbca9d75e3bf5a03c0013e7:article",
-            "composed": false
-          }
-        ],
-        "source": "Mathrubhumi English",
-        "corroborating": [],
-        "url": "https://english.mathrubhumi.com/news/india/cyclone-arnab-50-trains-cancelled-thousands-evacuated-as-andhra-odisha-brace-for-impact-id0mq9xf"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     },
     {
       "event_id": "627f03e9c750e389e5f88c52",
@@ -998,7 +996,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1072,130 +1070,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "fa29c685e48102f0add8863b",
-      "story_id": "fa29c685e48102f0add8863b",
-      "headline": "We know everything, will examine: Supreme Court on plea against Election Commission",
-      "title": "We know everything, will examine: Supreme Court on plea against Election Commission",
-      "summary": "We know everything, will examine: Supreme Court on plea against Election Commission",
-      "url": "https://www.indiatoday.in/india/law-news/story/supreme-court-sir-petitions-eci-gyanesh-kumar-17-november-hearing-election-commission-india-bloc-3026276-2026-10-27",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 58.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T08:06:48+00:00",
-      "published_at": "2026-10-27T14:32:45+00:00",
-      "effective_at": "2026-10-27T14:32:45+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'election' in title weight 58",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: fresh (9.8h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 58, stack 45, score 58 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court directed the ECI and Chief Election Commissioner Gyanesh Kumar to respond to the Opposition's plea as it posted the next hearing on November 17.",
-        "The Supreme Court on Tuesday said it was aware of all developments and would examine all aspects of the allegations against the Election Commission, as it heard a batch of petitions questioning the poll body's functioning and alleged irregularities in the Special Intensive Revision (SIR) of electoral rolls.",
-        "\"We know everything, we will examine,\" Chief Justice of India Surya Kant said when senior advocate Abhishek Manu Singhvi, appearing for Congress leader Rahul Gandhi and other INDIA bloc leaders, urged the court to direct the preservation of file notings and internal communications to establish whether key decisions were taken unanimously or unilaterally.",
-        "The bench, comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana, adjourned the hearing and granted the petitioners 10 days to file their rejoinder to the counter-affidavit submitted by the Election Commission on Monday.",
-        "The matter was tentatively listed for further hearing on November 17.",
-        "The petitions challenge the functioning of Chief Election Commissioner (CEC) Gyanesh Kumar and question whether the Commission's decisions, including those related to the SIR exercise, were taken in accordance with the constitutional and statutory framework governing the poll body.",
-        "During the hearing, Singhvi argued that the dispute centred on the decision-making process within the Election Commission, particularly whether the decisions concerning the electoral roll revision exercise had been taken after consultation among the commissioners.",
-        "\"This whole issue depends on the decision-making process, consultation, and whether the decision was unanimous or not unanimous.",
-        "Let file notings, etc be preserved,\" Singhvi told the bench.",
-        "Responding to the submission, CJI Surya Kant said the court was aware of the developments and would examine the issues raised before it.",
-        "The preservation of internal records is significant to the petitioners' case, as they have alleged that several crucial decisions concerning the SIR exercise were taken in the name of the Commission despite objections from the other two Election Commissioners.",
-        "The allegations have emerged against the backdrop of a report by The Indian Express, which claimed that at least 14 important decisions related to the SIR exercise were taken despite objections recorded by Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court directed the ECI and Chief Election Commissioner Gyanesh Kumar to respond to the Opposition's plea as it posted the next hearing on November 17.",
-          "The Supreme Court on Tuesday said it was aware of all developments and would examine all aspects of the allegations against the Election Commission, as it heard a batch of petitions questioning the poll body's functioning and alleged irregularities in the Special Intensive Revision (SIR) of electoral rolls."
-        ],
-        "body": [
-          "\"We know everything, we will examine,\" Chief Justice of India Surya Kant said when senior advocate Abhishek Manu Singhvi, appearing for Congress leader Rahul Gandhi and other INDIA bloc leaders, urged the court to direct the preservation of file notings and internal communications to establish whether key decisions were taken unanimously or unilaterally.",
-          "The bench, comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana, adjourned the hearing and granted the petitioners 10 days to file their rejoinder to the counter-affidavit submitted by the Election Commission on Monday.",
-          "The matter was tentatively listed for further hearing on November 17.",
-          "The petitions challenge the functioning of Chief Election Commissioner (CEC) Gyanesh Kumar and question whether the Commission's decisions, including those related to the SIR exercise, were taken in accordance with the constitutional and statutory framework governing the poll body.",
-          "During the hearing, Singhvi argued that the dispute centred on the decision-making process within the Election Commission, particularly whether the decisions concerning the electoral roll revision exercise had been taken after consultation among the commissioners.",
-          "\"This whole issue depends on the decision-making process, consultation, and whether the decision was unanimous or not unanimous.",
-          "Let file notings, etc be preserved,\" Singhvi told the bench.",
-          "Responding to the submission, CJI Surya Kant said the court was aware of the developments and would examine the issues raised before it."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court directed the ECI and Chief Election Commissioner Gyanesh Kumar to respond to the Opposition's plea as it posted the next hearing on November 17.",
-            "source": "India Today",
-            "item_id": "fa29c685e48102f0add8863b:article",
-            "composed": false
-          },
-          {
-            "text": "The bench, comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana, adjourned the hearing and granted the petitioners 10 days to file their rejoinder to the counter-affidavit submitted by the Election Commission on Monday.",
-            "source": "India Today",
-            "item_id": "fa29c685e48102f0add8863b:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Tuesday said it was aware of all developments and would examine all aspects of the allegations against the Election Commission, as it heard a batch of petitions questioning the poll body's functioning and alleged irregularities in the Special Intensive Revision (SIR) of electoral rolls.",
-            "source": "India Today",
-            "item_id": "fa29c685e48102f0add8863b:article",
-            "composed": false
-          }
-        ],
-        "source": "India Today",
-        "corroborating": [],
-        "url": "https://www.indiatoday.in/india/law-news/story/supreme-court-sir-petitions-eci-gyanesh-kumar-17-november-hearing-election-commission-india-bloc-3026276-2026-10-27"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "8047d487c2134f13b07bfa3c",
       "story_id": "8047d487c2134f13b07bfa3c",
       "headline": "Keralam Assembly: Academic Election Commission for Keralam campuses under consideration, says Education Minister",
@@ -1238,7 +1112,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 58, stack 20, score 58 -> HIGH"
@@ -1349,7 +1223,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1464,7 +1338,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1561,7 +1435,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1657,7 +1531,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1759,7 +1633,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
