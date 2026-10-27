@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T22:22:27.160927+00:00",
-  "count": 15,
+  "generated_at": "2026-10-27T22:32:48.590442+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "4cca3154faf3d6b01a2c0726",
@@ -42,7 +42,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "geo: national",
         "dominant event 82, stack 24, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -122,85 +122,119 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f19e8e4a3db29410760947c5",
-      "story_id": "f19e8e4a3db29410760947c5",
-      "headline": "India exported over $850m worth of arms to Europe since start of Ukraine-Russia war",
-      "title": "India exported over $850m worth of arms to Europe since start of Ukraine-Russia war",
-      "summary": "Amid the ongoing Russia-Ukraine conflict, India's defence sector is witnessing an impressive surge in ammunition exports to Europe. With military demands on the rise, India has emerged as a key supplier, achieving record export levels. This growth highlights not only India's manufacturing strengths but also its expanding international partnerships. European countries are eager to restock their military supplies, which bodes well for the future of India's defence industry.",
-      "url": "https://timesofindia.indiatimes.com/defence/news/india-exported-over-850m-worth-of-weapons-to-europe-since-start-of-ukraine-russia-war/articleshow/135240413.cms",
-      "source": "Times of India",
+      "event_id": "cd5f0d25b91e3b9f96eedcdc",
+      "story_id": "cd5f0d25b91e3b9f96eedcdc",
+      "headline": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
+      "title": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
+      "summary": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
+      "url": "https://www.indiatoday.in/india/video/cyclone-arnab-nears-landfall-in-andhra-pradesh-coastal-districts-on-alert-evacuations-underway-ytvd-3026524-2026-10-27",
+      "source": "India Today",
       "primary_source": false,
       "tier": 2,
-      "category": "business-industry",
-      "secondary_categories": [
-        "defence-security"
-      ],
+      "category": "weather-disasters",
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 94.0,
-      "priority_score": 82.0,
-      "priority_level": "IMMEDIATE",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-27T16:26:36+00:00",
-      "published_at": "2026-10-27T16:26:36+00:00",
-      "effective_at": "2026-10-27T16:26:36+00:00",
+      "event_time": "2026-10-27T18:15:03+00:00",
+      "published_at": "2026-10-27T18:15:03+00:00",
+      "effective_at": "2026-10-27T18:15:03+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "india-today"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "category: business-industry (importance 1, urgent=False)",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
+        "source: tier 2 (india-today) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'war' in title weight 82",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: business-industry (importance 1) +1.2",
-        "geo: national",
-        "dominant event 82, stack 21.2, score 82 -> IMMEDIATE"
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: fresh (4.3h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 44, score 72 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "andhra pradesh",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Amid the ongoing Russia-Ukraine conflict, India's defence sector is witnessing an impressive surge in ammunition exports to Europe.",
-          "With military demands on the rise, India has emerged as a key supplier, achieving record export levels."
+          "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m.",
+          "Cyclone Arnab LIVE Updates: The Met Department observed that the outer spiral band has entered the land."
         ],
         "body": [
-          "This growth highlights not only India's manufacturing strengths but also its expanding international partnerships.",
-          "European countries are eager to restock their military supplies, which bodes well for the future of India's defence industry."
+          "As Cyclone Arnab approaches the Andhra Pradesh coast, authorities have stepped up evacuations, cancelled train services and flights, and activated cyclone shelters across vulnerable districts.",
+          "The Hindu’s Sumit Bhattacharjee explains the storm’s expected landfall, the threat of heavy rain and strong winds, and how Andhra Pradesh has strengthened its disaster preparedness since Cyclone Hudhud.",
+          "Vishakhapatnam: Amalapuram in Andhra Pradesh is experiencing strong winds and heavy rain under the impact of Cyclone ‘Arnab’ ahead of its landfall.",
+          "Heavy winds are is blowing at high speed along with torrential rain in Amalapuram, Konaseema district of Andhra Pradesh.",
+          "Due to the impact of the cyclone, the situation of waterlogging in the region […] The post Watch: Amalapuram in Andhra Pradesh witness impact of Cyclone ‘Arnab’ ahead of landfall appeared first on KalingaTV."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Mangalapalem"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "84,396 people"
+          }
+        ],
         "sentences": [
           {
-            "text": "Amid the ongoing Russia-Ukraine conflict, India's defence sector is witnessing an impressive surge in ammunition exports to Europe.",
-            "source": "Times of India",
-            "item_id": "f19e8e4a3db29410760947c5",
+            "text": "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m.",
+            "source": "The Hindu",
+            "item_id": "80746ce4e470b0b9d6ad4837",
             "composed": false
           },
           {
-            "text": "With military demands on the rise, India has emerged as a key supplier, achieving record export levels.",
-            "source": "Times of India",
-            "item_id": "f19e8e4a3db29410760947c5",
+            "text": "The Hindu’s Sumit Bhattacharjee explains the storm’s expected landfall, the threat of heavy rain and strong winds, and how Andhra Pradesh has strengthened its disaster preparedness since Cyclone Hudhud.",
+            "source": "The Hindu",
+            "item_id": "c8a7d724358db9eb70a2e6ab",
+            "composed": false
+          },
+          {
+            "text": "Vishakhapatnam: Amalapuram in Andhra Pradesh is experiencing strong winds and heavy rain under the impact of Cyclone ‘Arnab’ ahead of its landfall.",
+            "source": "Kalinga TV",
+            "item_id": "8712d76485fd27183790d43c",
+            "composed": false
+          },
+          {
+            "text": "Heavy winds are is blowing at high speed along with torrential rain in Amalapuram, Konaseema district of Andhra Pradesh.",
+            "source": "Kalinga TV",
+            "item_id": "8712d76485fd27183790d43c",
             "composed": false
           }
         ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/defence/news/india-exported-over-850m-worth-of-weapons-to-europe-since-start-of-ukraine-russia-war/articleshow/135240413.cms"
+        "source": "India Today",
+        "corroborating": [
+          "The Hindu",
+          "NDTV",
+          "Kalinga TV"
+        ],
+        "url": "https://www.indiatoday.in/india/video/cyclone-arnab-nears-landfall-in-andhra-pradesh-coastal-districts-on-alert-evacuations-underway-ytvd-3026524-2026-10-27"
       },
-      "group_size": 1,
+      "group_size": 6,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -247,7 +281,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -321,123 +355,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "cd5f0d25b91e3b9f96eedcdc",
-      "story_id": "cd5f0d25b91e3b9f96eedcdc",
-      "headline": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
-      "title": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
-      "summary": "Cyclone Arnab Nears Landfall in Andhra Pradesh: Coastal Districts on Alert, Evacuations Underway",
-      "url": "https://www.indiatoday.in/india/video/cyclone-arnab-nears-landfall-in-andhra-pradesh-coastal-districts-on-alert-evacuations-underway-ytvd-3026524-2026-10-27",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T18:15:03+00:00",
-      "published_at": "2026-10-27T18:15:03+00:00",
-      "effective_at": "2026-10-27T18:15:03+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.1h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 44, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m.",
-          "Cyclone Arnab LIVE Updates: The Met Department observed that the outer spiral band has entered the land."
-        ],
-        "body": [
-          "As Cyclone Arnab approaches the Andhra Pradesh coast, authorities have stepped up evacuations, cancelled train services and flights, and activated cyclone shelters across vulnerable districts.",
-          "The Hindu’s Sumit Bhattacharjee explains the storm’s expected landfall, the threat of heavy rain and strong winds, and how Andhra Pradesh has strengthened its disaster preparedness since Cyclone Hudhud.",
-          "Vishakhapatnam: Amalapuram in Andhra Pradesh is experiencing strong winds and heavy rain under the impact of Cyclone ‘Arnab’ ahead of its landfall.",
-          "Heavy winds are is blowing at high speed along with torrential rain in Amalapuram, Konaseema district of Andhra Pradesh.",
-          "Due to the impact of the cyclone, the situation of waterlogging in the region […] The post Watch: Amalapuram in Andhra Pradesh witness impact of Cyclone ‘Arnab’ ahead of landfall appeared first on KalingaTV."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Mangalapalem"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "84,396 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Chief Minister N. Chandrababu Naidu says 290 cyclone shelters set up and 84,396 people evacuated to safer locations; 65-year-old man dies at Mangalapalem after coming in contact with snapped live electrical wires; landfall likely near Yanam-Kakinada region between 2 a.m. to 4 a.m.",
-            "source": "The Hindu",
-            "item_id": "80746ce4e470b0b9d6ad4837",
-            "composed": false
-          },
-          {
-            "text": "The Hindu’s Sumit Bhattacharjee explains the storm’s expected landfall, the threat of heavy rain and strong winds, and how Andhra Pradesh has strengthened its disaster preparedness since Cyclone Hudhud.",
-            "source": "The Hindu",
-            "item_id": "c8a7d724358db9eb70a2e6ab",
-            "composed": false
-          },
-          {
-            "text": "Vishakhapatnam: Amalapuram in Andhra Pradesh is experiencing strong winds and heavy rain under the impact of Cyclone ‘Arnab’ ahead of its landfall.",
-            "source": "Kalinga TV",
-            "item_id": "8712d76485fd27183790d43c",
-            "composed": false
-          },
-          {
-            "text": "Heavy winds are is blowing at high speed along with torrential rain in Amalapuram, Konaseema district of Andhra Pradesh.",
-            "source": "Kalinga TV",
-            "item_id": "8712d76485fd27183790d43c",
-            "composed": false
-          }
-        ],
-        "source": "India Today",
-        "corroborating": [
-          "The Hindu",
-          "NDTV",
-          "Kalinga TV"
-        ],
-        "url": "https://www.indiatoday.in/india/video/cyclone-arnab-nears-landfall-in-andhra-pradesh-coastal-districts-on-alert-evacuations-underway-ytvd-3026524-2026-10-27"
-      },
-      "group_size": 6,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "caec14c11ac22688dc298829",
       "story_id": "caec14c11ac22688dc298829",
       "headline": "Cyclone Arnab: heavy rain brings Vizag to standstill; civic agencies on high alert",
@@ -480,7 +397,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -595,7 +512,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -704,7 +621,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -816,7 +733,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -919,7 +836,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1017,7 +934,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1107,7 +1024,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1203,7 +1120,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 24, score 43.2 -> HIGH"
@@ -1315,7 +1232,7 @@
         "event term: 'takeover' in title weight 42",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 31.2, score 42 -> HIGH"
@@ -1397,7 +1314,7 @@
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 28.4, score 40 -> HIGH"
@@ -1483,7 +1400,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
