@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T09:42:26.225560+00:00",
-  "count": 16,
+  "generated_at": "2026-10-27T09:52:17.137659+00:00",
+  "count": 17,
   "stories": [
     {
       "event_id": "3661eaab6d9eb205ffbd5241",
@@ -44,7 +44,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,10 +160,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (telangana)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 82, stack 24, score 82 -> IMMEDIATE"
+        "dominant event 82, stack 20, score 82 -> IMMEDIATE"
       ],
       "geo_scope": "local",
       "state": "telangana",
@@ -280,7 +280,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 72, stack 37.2, score 72 -> URGENT"
@@ -325,6 +325,228 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "799b6da3d859efda85ed9eed",
+      "story_id": "799b6da3d859efda85ed9eed",
+      "headline": "Cyclone ‘Arnab’ LIVE updates | Storm 170 km from Visakhapatnam; landfall near Yanam; Nepal on high alert",
+      "title": "Cyclone ‘Arnab’ LIVE updates | Storm 170 km from Visakhapatnam; landfall near Yanam; Nepal on high alert",
+      "summary": "Rising sea waves flood coastal villages near Kakinada ahead of Cyclone Arnab’s landfall on October 28",
+      "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T09:45:34+00:00",
+      "published_at": "2026-10-27T09:45:34+00:00",
+      "effective_at": "2026-10-27T09:45:34+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'flood'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Rising sea waves flood coastal villages near Kakinada ahead of Cyclone Arnab’s landfall on October 28.",
+          "A massive disaster response effort is underway across coastal Andhra Pradesh as Severe Cyclonic Storm 'Arnab' accelerates across the west-central Bay of Bengal."
+        ],
+        "body": [
+          "The APSDMA has warned of heavy rainfall and strong winds in north coastal Andhra districts.",
+          "Kathmandu: Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA) on Tuesday called on the public, local governments and all concerned agencies to remain on high alert from October 29 to 31 as Cyclone Arnab strengthens in the Bay of Bengal.",
+          "The cyclone is forecast to bring moderate to heavy rainfall, thunderstorms, strong winds and […] The post Nepal issues high alert as Cyclone Arnab threatens heavy rain, winds, avalanches appeared first on KalingaTV."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kakinada"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Cyclone Arnab, currently a very severe cyclonic storm over the west-central Bay of Bengal, is expected to cross the Andhra Pradesh and Yanam coasts near Yanam by October 28."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kathmandu: Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA) on Tuesday called on the public, local governments and all concerned agencies to remain on high alert from October 29 to 31 as Cyclone Arnab strengthens in the Bay of Bengal.",
+            "source": "Kalinga TV",
+            "item_id": "8b4380bbf386af162859e70d",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab, currently a very severe cyclonic storm over the west-central Bay of Bengal, is expected to cross the Andhra Pradesh and Yanam coasts near Yanam by October 28.",
+            "source": "Telangana Today",
+            "item_id": "5198bf08624d2b0c9705d6a8",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [
+          "Deccan Chronicle",
+          "Telangana Today",
+          "Kalinga TV"
+        ],
+        "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece"
+      },
+      "group_size": 6,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "210b687cc0e4d9d91ed7db29",
+      "story_id": "210b687cc0e4d9d91ed7db29",
+      "headline": "IMD Update: Cyclone Arnab upgraded to 125-135 km/hr winds, 150 km/hr gusts at landfall",
+      "title": "IMD Update: Cyclone Arnab upgraded to 125-135 km/hr winds, 150 km/hr gusts at landfall",
+      "summary": "Arnab may move west-northwest till this evening, and later northtwest, to cross Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam, close to Yanam, as a very severe cyclone",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-arnab-may-trigger-peak-storm-surge-along-kakinada-yanam/article71629844.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-27T09:37:46+00:00",
+      "published_at": "2026-10-27T09:37:46+00:00",
+      "effective_at": "2026-10-27T09:37:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "- October 27, 2026 13:33All beaches in Visakhapatnam closed; police patrol the shore.",
+        "All beaches in Visakhapatnam have been closed, and the police are patrolling to stop people from going into the water, Collector Abhishikth Kishore said on Tuesday.",
+        "Five trees that fell in the city were cleared quickly, and power cut at four places was restored soon after, he said after reviewing preparations with officials by teleconference.",
+        "- October 27, 2026 13:21Sea water floods coastal villages near Kakinada; roads to Uppada cut offRising sea waves have flooded coastal stretches of Uppada, Konapapet and Moolapet in Kakinada district on Tuesday, disrupting traffic on the roads that connect Uppada and nearby villages to Kakinada.",
+        "The waves have pushed towards houses near the shore, worrying residents of Uppada, Konapapet, Moolapet, Subbampet and the villages around them.",
+        "- October 27, 2026 13:12Rain picks up in Visakhapatnam city; some areas get over 35 mm by noonVisakhapatnam city had the heaviest rain in Andhra Pradesh by noon on Tuesday.",
+        "Tulasi Nagar Park recorded about 37 mm between 8.30 a.m. and noon, and the 16th.",
+        "Police Battalion campus about 36 mm, according to the Directorate of Economics and Statistics.",
+        "Most of that fell in the last hour.",
+        "- October 27, 2026 13:04South Central Railway cancels 11 more trains, including Hyderabad-Visakhapatnam servicesSouth.",
+        "Central Railway has cancelled 11 trains on Tuesday (October 27, 2026) and Wednesday because of Cyclone Arnab.",
+        "They include three services from Hyderabad, Secunderabad and Mahbubnagar to Visakhapatnam, trains from Lingampalli to Kakinada Town, Kakinada Port and Narasapur, and the Secunderabad-Howrah and Secunderabad-Bhubaneswar New trains."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "- October 27, 2026 13:33All beaches in Visakhapatnam closed; police patrol the shore.",
+          "All beaches in Visakhapatnam have been closed, and the police are patrolling to stop people from going into the water, Collector Abhishikth Kishore said on Tuesday."
+        ],
+        "body": [
+          "Five trees that fell in the city were cleared quickly, and power cut at four places was restored soon after, he said after reviewing preparations with officials by teleconference.",
+          "- October 27, 2026 13:21Sea water floods coastal villages near Kakinada; roads to Uppada cut offRising sea waves have flooded coastal stretches of Uppada, Konapapet and Moolapet in Kakinada district on Tuesday, disrupting traffic on the roads that connect Uppada and nearby villages to Kakinada.",
+          "The waves have pushed towards houses near the shore, worrying residents of Uppada, Konapapet, Moolapet, Subbampet and the villages around them.",
+          "- October 27, 2026 13:12Rain picks up in Visakhapatnam city; some areas get over 35 mm by noonVisakhapatnam city had the heaviest rain in Andhra Pradesh by noon on Tuesday.",
+          "Tulasi Nagar Park recorded about 37 mm between 8.30 a.m. and noon, and the 16th.",
+          "Police Battalion campus about 36 mm, according to the Directorate of Economics and Statistics.",
+          "Most of that fell in the last hour.",
+          "- October 27, 2026 13:04South Central Railway cancels 11 more trains, including Hyderabad-Visakhapatnam servicesSouth."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Visakhapatnam"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Five trees that fell in the city were cleared quickly, and power cut at four places was restored soon after, he said after reviewing preparations with officials by teleconference.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "210b687cc0e4d9d91ed7db29:article",
+            "composed": false
+          },
+          {
+            "text": "Most of that fell in the last hour.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "210b687cc0e4d9d91ed7db29:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-arnab-may-trigger-peak-storm-surge-along-kakinada-yanam/article71629844.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -376,7 +598,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -469,7 +691,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (telangana)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -580,7 +802,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -687,7 +909,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (arunachal pradesh)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 26.8, score 49.2 -> HIGH"
@@ -776,7 +998,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -859,7 +1081,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -945,7 +1167,7 @@
         "event term: 'takeover' in title weight 42",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1065,7 +1287,7 @@
         "event term: 'takes charge' in title weight 40",
         "event term: 'merger' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1165,7 +1387,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1246,7 +1468,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1348,7 +1570,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1463,7 +1685,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1525,99 +1747,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/top-stories/supreme-court-october-12-ruckus-opposition-leaders-march-against-cec-eci-sir-pregnant-journalist-pushed-fir-sought-against-rahul-gandhi-556082"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "d808adf0bc6d8cdb9fff4083",
-      "story_id": "d808adf0bc6d8cdb9fff4083",
-      "headline": "Supreme Court Collegium Recommends Elevation Of 4 Judges As High Court Chief Justices",
-      "title": "Supreme Court Collegium Recommends Elevation Of 4 Judges As High Court Chief Justices",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-collegium-recommends-four-high-court-judges-for-appointment-as-chief-justices-556057",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-27T05:13:14+00:00",
-      "published_at": "2026-10-27T05:13:14+00:00",
-      "effective_at": "2026-10-27T05:13:14+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court Collegium has recommended the elevation of four High Court judges as Chief Justices of various High Courts.",
-        "As per the Collegium's statement issued today, Justice P Sam Koshy, currently serving at the Telangana High Court, has been recommended for appointment as Chief Justice of the Delhi High Court.",
-        "The Collegium has also recommended Justice Manash Ranjan Pathak of the Gujarat High Court for appointment as Chief Justice of the same High Court.",
-        "Further, Justice Tapabrata Chakraborty, currently serving at the Calcutta High Court, has been recommended for appointment as Chief Justice of the Telangana High Court.",
-        "Justice Sudhir Singh of the Patna High Court has been recommended for appointment as Chief Justice of the Uttarakhand High Court.",
-        "The recommendations were announced through a statement issued by the Supreme Court Collegium following its meeting on October 26."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court Collegium has recommended the elevation of four High Court judges as Chief Justices of various High Courts.",
-          "As per the Collegium's statement issued today, Justice P Sam Koshy, currently serving at the Telangana High Court, has been recommended for appointment as Chief Justice of the Delhi High Court."
-        ],
-        "body": [
-          "The Collegium has also recommended Justice Manash Ranjan Pathak of the Gujarat High Court for appointment as Chief Justice of the same High Court.",
-          "Further, Justice Tapabrata Chakraborty, currently serving at the Calcutta High Court, has been recommended for appointment as Chief Justice of the Telangana High Court.",
-          "Justice Sudhir Singh of the Patna High Court has been recommended for appointment as Chief Justice of the Uttarakhand High Court.",
-          "The recommendations were announced through a statement issued by the Supreme Court Collegium following its meeting on October 26."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The recommendations were announced through a statement issued by the Supreme Court Collegium following its meeting on October 26.",
-            "source": "LiveLaw",
-            "item_id": "d808adf0bc6d8cdb9fff4083:article",
-            "composed": false
-          },
-          {
-            "text": "As per the Collegium's statement issued today, Justice P Sam Koshy, currently serving at the Telangana High Court, has been recommended for appointment as Chief Justice of the Delhi High Court.",
-            "source": "LiveLaw",
-            "item_id": "d808adf0bc6d8cdb9fff4083:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-collegium-recommends-four-high-court-judges-for-appointment-as-chief-justices-556057"
       },
       "group_size": 1,
       "label": "📰 NEWS",
