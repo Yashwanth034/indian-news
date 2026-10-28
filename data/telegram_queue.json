@@ -1,33 +1,40 @@
 {
-  "generated_at": "2026-10-28T02:21:50.077604+00:00",
+  "generated_at": "2026-10-28T02:32:07.833370+00:00",
   "count": 3,
   "stories": [
     {
-      "event_id": "a61911b5c08d47dfef2ef277",
-      "story_id": "a61911b5c08d47dfef2ef277",
-      "headline": "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify",
-      "title": "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify",
-      "summary": "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify",
-      "url": "https://www.indiatoday.in/india/video/cyclone-landfall-underway-in-andhra-pradesh-heavy-rain-hits-coast-as-relief-measures-intensify-ytvd-3026576-2026-10-28",
+      "event_id": "4349dda7635070cf99d152a8",
+      "story_id": "4349dda7635070cf99d152a8",
+      "headline": "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert",
+      "title": "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert",
+      "summary": "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert",
+      "url": "https://www.indiatoday.in/india/video/severe-cyclone-landfall-likely-in-andhra-pradesh-odisha-and-tamil-nadu-on-alert-ytvd-3026561-2026-10-28",
       "source": "India Today",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T02:07:19+00:00",
-      "published_at": "2026-10-28T02:07:19+00:00",
-      "effective_at": "2026-10-28T02:07:19+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-10-28T01:12:03+00:00",
+      "published_at": "2026-10-28T01:12:03+00:00",
+      "effective_at": "2026-10-28T01:12:03+00:00",
+      "independent_source_groups": 2,
       "source_groups": {
         "indiatoday": {
           "kind": "independent",
           "source_ids": [
             "india-today"
+          ],
+          "count": 3
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
           ],
           "count": 1
         }
@@ -36,6 +43,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
@@ -43,32 +51,51 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (india-today) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.2h ago) +8",
+        "scale: national scope",
+        "scale: multi-state (3 states)",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
+        "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
       ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Cyclone Ornab Landfall Begins; Heavy Rains Lash Odisha Coast as Andhra Monitors Impact.",
-          "Cyclone Rages Along Andhra Coast, Landfall Near Kakinada; Odisha."
+          "Cyclone Threat in Andhra Pradesh: Landfall Process Begins, Coastal Areas on High Alert.",
+          "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify."
         ],
         "body": [
+          "Cyclone Ornab Landfall Begins; Heavy Rains Lash Odisha Coast as Andhra Monitors Impact.",
+          "Cyclone Rages Along Andhra Coast, Landfall Near Kakinada; Odisha.",
           "On Alert.",
           "Cyclone Arnab landfall continues along Andhra coast, 4 rescued from floodwaters.",
           "According to Jain, the cyclone's centre was located around 30 km from Narsapur, 55 km from Yanam, 70 km from Kakinada and 90 km from Machilipatnam.",
           "Cyclone Arnab LIVE Updates: The landfall point is specified between Bapatla and Visakhapatnam.",
+          "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
+          "At some places in the state, police rescued stranded people.",
+          "Chief Minister N Chandrababu Naidu reviewed the situation on Wednesday morning.",
+          "According to the IMD, the northern spiral band of the cyclone has further entered the land, while the storm's centre remains very close to the coastline.",
+          "\"The cyclone remains practically stationary along the Andhra Pradesh coast, and the landfall process is expected to continue for another 2-3 hours,\" the India Meteorological Department (IMD) said in an update at 5.30 am.",
           "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services."
         ],
         "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra Pradesh"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
           {
             "icon": "👥",
             "label": "Impact",
@@ -92,6 +119,12 @@
             "source": "Business Today",
             "item_id": "6b299f93464a5802b9227699",
             "composed": false
+          },
+          {
+            "text": "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
+            "source": "Business Standard",
+            "item_id": "61481e7d12219246a1a91381",
+            "composed": false
           }
         ],
         "source": "India Today",
@@ -99,12 +132,13 @@
           "The Hindu",
           "The Hans India",
           "NDTV",
+          "Business Standard",
           "Business Today"
         ],
-        "url": "https://www.indiatoday.in/india/video/cyclone-landfall-underway-in-andhra-pradesh-heavy-rain-hits-coast-as-relief-measures-intensify-ytvd-3026576-2026-10-28"
+        "url": "https://www.indiatoday.in/india/video/severe-cyclone-landfall-likely-in-andhra-pradesh-odisha-and-tamil-nadu-on-alert-ytvd-3026561-2026-10-28"
       },
-      "group_size": 8,
-      "label": "⚡ JUST IN",
+      "group_size": 11,
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -149,7 +183,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -209,29 +243,30 @@
       "enrichment": "article"
     },
     {
-      "event_id": "b1e5af2e5f68cf20d4f5049b",
-      "story_id": "b1e5af2e5f68cf20d4f5049b",
-      "headline": "Sebi may ease extra disclosure rules for foreign portfolio investors",
-      "title": "Sebi may ease extra disclosure rules for foreign portfolio investors",
-      "summary": "Mumbai: India's capital market regulator is taking a relook at the onerous extra disclosure rules for foreign portfolio investors (FPIs).The Securities and Exchange Board of India (Sebi) is expected to release a consultation paper for feedback on possible relaxation of the regulations that require FPIs above a certain asset size or having concentrated equity exposure to a company or a corporate group to share granular details of investors in the funds.135244667\"Sebi had sounded out some of the market participants and fund custodians. What we understand is that it wants to rationalise the rules so that the twin objective, to enhance transparency and prevent circumvention of regulations by FPIs without causing any collateral damage like driving a fund to sell shares to lower its holding, is met,\" a person familiar with the discussions told ET.Also Read: Govt seeks investor and expert views on LTCG and STT as it reviews capital market levies amid FPI exodusOne of the suggestions includes fixing a low threshold equity holding in a company below which an FPI would not have to give details of their investors even if the fund is focused on one or two firms or group.UBO DetailsAlso, it has been proposed that FPI with concentrated investments in professionally-run companies with no identifiable promoters and public sector undertakings should be exempted from additional disclosure requirements. The Sebi spokesperson did not comment on the matter.Under the additional disclosure regulations, which came in the wake of US firm Hindenburg Research's allegations against the Adani Group, an FPI is required to reveal the ultimate beneficial owners, down to the last natural persons, of all investors in the fund if it crosses either of the following thresholds: (1) if more than 50% of the India equity assets under management is in a company or a single corporate group; (2) if a fund's AUM in Indian equities is ₹50,000 crore or more. The disclosure rule also kicks in if multiple FPIs having common ownership or control together breach the limits.Also Read: Retail investors return to equities with Rs 10,572 crore buying in SeptemberA source said, \"While Sebi has till now exempted certain FPIs like sovereign funds, public retail funds, and university funds, but those who want to focus on a few stocks as per their strategy are caught in the detailed disclosure rule. Some rationalisation, particularly, deciding an FPI's maximum holding in a company under which the fund could be spared from additional disclosures.\"Among other things, the rules are aimed at preventing violation of minimum public shareholding regulation by restraining promoters or connected entities from using FPIs to mask concentrated holdings; sidestepping takeover norms; and blocking circumvention of Press Note 3 which requires government approval for investments from land-bordering countries.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-ease-extra-disclosure-rules-for-foreign-portfolio-investors/articleshow/135248660.cms",
+      "event_id": "6bdfef45d8f018b3ac110bf7",
+      "story_id": "6bdfef45d8f018b3ac110bf7",
+      "headline": "India jewellers hold off gold buying",
+      "title": "India jewellers hold off gold buying",
+      "summary": "Indian jewelers are holding back gold purchases ahead of their busiest demand season, betting that a recent drop in prices has further to run, according to the country’s biggest precious metals refiner. Large jewelry chains that typically account for the bulk of sales have yet to fully return to the market, said Samit Guha, chief executive officer and managing director of MMTC-PAMP India Pvt., a joint venture of state-owned MMTC Ltd. and Swiss refinery PAMP SA. Buying has instead been led by small- and mid-sized jewelers, some of which have placed repeat orders, he said. Gold fell below $4,000 an ounce last week for the first time since July, extending its decline to about 24% since the US-Iran war began in late February. Prices had surged past $5,400 to a record in January.Read more - India’s record bank cash surplus fades as RBI curbs rupee betsBigger jewelry makers typically step up purchases when prices start rising to lock in supplies before they become more expensive, while drawing down inventories when they expect further declines, Guha said.Demand in the world’s second-biggest gold consumer has remained subdued this year after the government more than doubled the import duty to 15% in May. Prime Minister Narendra Modi has also repeatedly urged Indians to curb purchases to contain a widening trade deficit. The South Asian nation imports nearly all the gold it consumes. The higher tariff has also pushed more buying into under-the-counter cash markets.“The increase in duty has impacted purchases for us,” Guha said.The caution contrasts with China, the world’s biggest gold consumer, where household demand has picked up recently as prices declined. India’s reluctance to buy adds to signs of weakness just as demand enters its strongest period, with purchases typically concentrated between October and December around Diwali, which falls on November 8 this year.Tighter import rules and weaker rural demand following El Niño-driven monsoon disruptions are expected to curb India’s gold imports, according to Citi Research. Shipments may total about 106 tons from October through December, roughly half the historical fourth-quarter average of 212 tons, it said.MMTC-PAMP’s gold sales are running below last year’s levels, with demand skewed toward smaller coins and bars, Guha said. September sales were roughly flat from a year earlier, while buying has picked up a little in October.“If gold rebounds, we will see buying,” he said.",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-jewellers-hold-off-gold-buying-betting-prices-will-drop/articleshow/135249545.cms",
       "source": "The Economic Times",
       "primary_source": false,
       "tier": 3,
       "category": "economy-finance",
       "secondary_categories": [
+        "agriculture-rural",
+        "national-politics",
         "business-industry",
-        "defence-security",
-        "education"
+        "weather-disasters"
       ],
       "confidence": "medium",
       "score": 100.0,
-      "priority_score": 45.0,
+      "priority_score": 49.2,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T00:00:00+00:00",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "effective_at": "2026-10-28T00:00:00+00:00",
+      "event_time": "2026-10-28T02:28:20+00:00",
+      "published_at": "2026-10-28T02:28:20+00:00",
+      "effective_at": "2026-10-28T02:28:20+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "indiatimes": {
@@ -245,67 +280,88 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
+        "filler: 'Read more' in summary (penalty 9, overridden)",
         "major: geo national significance",
         "major: category importance 1.2 >= 1.2",
         "category: economy-finance (importance 1.2, urgent=False)",
+        "major override dropped penalties: filler",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (economic-times) +1",
         "source: specialist (economic-times) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'market regulator' in summary weight 24",
-        "event term: 'takeover' in summary weight 25.2",
+        "event term: 'war' in summary weight 49.2",
+        "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (0.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 25.2, stack 45, score 45 -> HIGH"
+        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "maharashtra",
+      "state": null,
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "Mumbai: India's capital market regulator is taking a relook at the onerous extra disclosure rules for foreign portfolio investors (FPIs).",
-          "The Securities and Exchange Board of India (Sebi) is expected to release a consultation paper for feedback on possible relaxation of the regulations that require FPIs above a certain asset size or having concentrated equity exposure to a company or a corporate group to share granular details of investors in the funds.\" Sebi had sounded out some of the market participants and fund custodians."
+          "Indian jewelers are holding back gold purchases ahead of their busiest demand season, betting that a recent drop in prices has further to run, according to the country’s biggest precious metals refiner.",
+          "Large jewelry chains that typically account for the bulk of sales have yet to fully return to the market, said Samit Guha, chief executive officer and managing director of MMTC-PAMP India Pvt., a joint venture of state-owned MMTC Ltd."
         ],
         "body": [
-          "What we understand is that it wants to rationalise the rules so that the twin objective, to enhance transparency and prevent circumvention of regulations by FPIs without causing any collateral damage like driving a fund to sell shares to lower its holding, is met,\" a person familiar with the discussions told ET.",
-          "One of the suggestions includes fixing a low threshold equity holding in a company below which an FPI would not have to give details of their investors even if the fund is focused on one or two firms or group.",
-          "UBO Details.",
-          "Also, it has been proposed that FPI with concentrated investments in professionally-run companies with no identifiable promoters and public sector undertakings should be exempted from additional disclosure requirements.",
-          "The Sebi spokesperson did not comment on the matter.",
-          "Under the additional disclosure regulations, which came in the wake of US firm Hindenburg Research's allegations against the Adani Group, an FPI is required to reveal the ultimate beneficial owners, down to the last natural persons, of all investors in the fund if it crosses either of the following thresholds: (1) if more than 50% of the India equity assets under management is in a company or a single corporate group; (2) if a fund's AUM in Indian equities is ₹50,000 crore or more.",
-          "The disclosure rule also kicks in if multiple FPIs having common ownership or control together breach the limits.\" While Sebi has till now exempted certain FPIs like sovereign funds, public retail funds, and university funds, but those who want to focus on a few stocks as per their strategy are caught in the detailed disclosure rule.",
-          "Some rationalisation, particularly, deciding an FPI's maximum holding in a company under which the fund could be spared from additional disclosures.\" Among other things, the rules are aimed at preventing violation of minimum public shareholding regulation by restraining promoters or connected entities from using FPIs to mask concentrated holdings; sidestepping takeover norms; and blocking circumvention of Press Note 3 which requires government approval for investments from land-bordering countries."
+          "and Swiss refinery PAMP SA.",
+          "Buying has instead been led by small- and mid-sized jewelers, some of which have placed repeat orders, he said.",
+          "Gold fell below $4,000 an ounce last week for the first time since July, extending its decline to about 24% since the US-Iran war began in late February.",
+          "Prices had surged past $5,400 to a record in January.",
+          "Read more - India’s record bank cash surplus fades as RBI curbs rupee betsBigger jewelry makers typically step up purchases when prices start rising to lock in supplies before they become more expensive, while drawing down inventories when they expect further declines, Guha said.",
+          "Demand in the world’s second-biggest gold consumer has remained subdued this year after the government more than doubled the import duty to 15% in May.",
+          "Prime Minister Narendra Modi has also repeatedly urged Indians to curb purchases to contain a widening trade deficit.",
+          "The South Asian nation imports nearly all the gold it consumes.",
+          "The higher tariff has also pushed more buying into under-the-counter cash markets.",
+          "“The increase in duty has impacted purchases for us,” Guha said.",
+          "The caution contrasts with China, the world’s biggest gold consumer, where household demand has picked up recently as prices declined.",
+          "India’s reluctance to buy adds to signs of weakness just as demand enters its strongest period, with purchases typically concentrated between October and December around Diwali, which falls on November 8 this year.",
+          "Shipments may total about 106 tons from October through December, roughly half the historical fourth-quarter average of 212 tons, it said.",
+          "MMTC-PAMP’s gold sales are running below last year’s levels, with demand skewed toward smaller coins and bars, Guha said.",
+          "September sales were roughly flat from a year earlier, while buying has picked up a little in October.",
+          "“If gold rebounds, we will see buying,” he said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Indian"
+            "text": "January"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Tighter import rules and weaker rural demand following El Niño-driven monsoon disruptions are expected to curb India’s gold imports, according to Citi Research."
           }
         ],
         "sentences": [
           {
-            "text": "Under the additional disclosure regulations, which came in the wake of US firm Hindenburg Research's allegations against the Adani Group, an FPI is required to reveal the ultimate beneficial owners, down to the last natural persons, of all investors in the fund if it crosses either of the following thresholds: (1) if more than 50% of the India equity assets under management is in a company or a single corporate group; (2) if a fund's AUM in Indian equities is ₹50,000 crore or more.",
+            "text": "India’s reluctance to buy adds to signs of weakness just as demand enters its strongest period, with purchases typically concentrated between October and December around Diwali, which falls on November 8 this year.",
             "source": "The Economic Times",
-            "item_id": "b1e5af2e5f68cf20d4f5049b",
+            "item_id": "6bdfef45d8f018b3ac110bf7",
             "composed": false
           },
           {
-            "text": "Among other things, the rules are aimed at preventing violation of minimum public shareholding regulation by restraining promoters or connected entities from using FPIs to mask concentrated holdings; sidestepping takeover norms; and blocking circumvention of Press Note 3 which requires government approval for investments from land-bordering countries.",
+            "text": "Prices had surged past $5,400 to a record in January.",
             "source": "The Economic Times",
-            "item_id": "b1e5af2e5f68cf20d4f5049b",
+            "item_id": "6bdfef45d8f018b3ac110bf7",
+            "composed": false
+          },
+          {
+            "text": "Gold fell below $4,000 an ounce last week for the first time since July, extending its decline to about 24% since the US-Iran war began in late February.",
+            "source": "The Economic Times",
+            "item_id": "6bdfef45d8f018b3ac110bf7",
             "composed": false
           }
         ],
         "source": "The Economic Times",
         "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-ease-extra-disclosure-rules-for-foreign-portfolio-investors/articleshow/135248660.cms"
+        "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-jewellers-hold-off-gold-buying-betting-prices-will-drop/articleshow/135249545.cms"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     }
   ]
