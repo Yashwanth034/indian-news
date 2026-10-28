@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T04:42:24.593575+00:00",
-  "count": 9,
+  "generated_at": "2026-10-28T04:52:35.634918+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "758d413995826eda9b7f713e",
@@ -29,7 +29,7 @@
           "source_ids": [
             "kalinga-tv"
           ],
-          "count": 2
+          "count": 3
         },
         "hans-india": {
           "kind": "independent",
@@ -51,12 +51,12 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (hans-india) +2",
-        "source: event has 3 copies, primary source counted once",
+        "source: event has 4 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -104,7 +104,130 @@
         ],
         "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-nears-andhra-pradesh-coast-red-alert-issued-1136669"
       },
-      "group_size": 4,
+      "group_size": 5,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "7681bc293390ad31b68fc7ed",
+      "story_id": "7681bc293390ad31b68fc7ed",
+      "headline": "Cyclone Arnab crosses coast south of Yanam; landfall nearing completion, says IMD | LIVE",
+      "title": "Cyclone Arnab crosses coast south of Yanam; landfall nearing completion, says IMD | LIVE",
+      "summary": "Andhra's Anakapalli, Visakhapatnam, and Vizianagaram see 263 mm of rainfall in the 24 hours till 8 a.m.",
+      "url": "https://www.thehindu.com/news/national/cyclone-arnab-landfall-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-28-2026/article71634111.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T04:32:30+00:00",
+      "published_at": "2026-10-28T04:32:30+00:00",
+      "effective_at": "2026-10-28T04:32:30+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Andhra's Anakapalli, Visakhapatnam, and Vizianagaram see 263 mm of rainfall in the 24 hours till 8 a.m.",
+          "The northern spiral band of the cyclone has further entered the land, and the landfall process is expected to continue for the next three hours, IMD said."
+        ],
+        "body": [
+          "Cyclone Michaung Makes Landfall in Andhra Pradesh; Trees Uprooted, Services Hit.",
+          "Cyclone Threat in Andhra Pradesh: Landfall Process Begins, Coastal Areas on High Alert.",
+          "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify.",
+          "Cyclone Ornab Landfall Begins; Heavy Rains Lash Odisha Coast as Andhra Monitors Impact.",
+          "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert.",
+          "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
+          "At some places in the state, police rescued stranded people.",
+          "Chief Minister N Chandrababu Naidu reviewed the situation on Wednesday morning.",
+          "According to the IMD, the northern spiral band of the cyclone has further entered the land, while the storm's centre remains very close to the coastline.",
+          "\"The cyclone remains practically stationary along the Andhra Pradesh coast, and the landfall process is expected to continue for another 2-3 hours,\" the India Meteorological Department (IMD) said in an update at 5.30 am.",
+          "The very severe cyclonic storm was located over the west central Bay of Bengal close to the Andhra Pradesh coast, near latitude 16.4 degrees north and longitude 82.0 degrees east, about 30 km east of Narsapur, 45 km south-southw.",
+          "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services.",
+          "It is expected to complete landfall within the next hour.",
+          "Naidu asked whether there had been any casualties in affected areas."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra Pradesh"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 84,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services.",
+            "source": "Business Today",
+            "item_id": "6b299f93464a5802b9227699",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
+            "source": "Business Standard",
+            "item_id": "61481e7d12219246a1a91381",
+            "composed": false
+          },
+          {
+            "text": "\"The cyclone remains practically stationary along the Andhra Pradesh coast, and the landfall process is expected to continue for another 2-3 hours,\" the India Meteorological Department (IMD) said in an update at 5.30 am.",
+            "source": "Business Standard",
+            "item_id": "61481e7d12219246a1a91381",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [
+          "India Today",
+          "Business Standard",
+          "Business Today",
+          "The Hans India"
+        ],
+        "url": "https://www.thehindu.com/news/national/cyclone-arnab-landfall-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-28-2026/article71634111.ece"
+      },
+      "group_size": 11,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -153,7 +276,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 40, score 72 -> URGENT"
@@ -161,7 +284,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Follow Sportstar's live coverage of the Ranji Trophy 2026-27 Round 3 Day 3 on October 28.",
@@ -188,245 +311,8 @@
         "url": "https://sportstar.thehindu.com/cricket/domestic/ranji-trophy-live-score-today-round-3-day-3-updates/article71634213.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "7681bc293390ad31b68fc7ed",
-      "story_id": "7681bc293390ad31b68fc7ed",
-      "headline": "Cyclone Arnab crosses coast south of Yanam; landfall nearing completion, says IMD | LIVE",
-      "title": "Cyclone Arnab crosses coast south of Yanam; landfall nearing completion, says IMD | LIVE",
-      "summary": "Andhra's Anakapalli, Visakhapatnam, and Vizianagaram see 263 mm of rainfall in the 24 hours till 8 a.m.",
-      "url": "https://www.thehindu.com/news/national/cyclone-arnab-landfall-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-28-2026/article71634111.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T04:32:30+00:00",
-      "published_at": "2026-10-28T04:32:30+00:00",
-      "effective_at": "2026-10-28T04:32:30+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.2h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 24, score 72 -> URGENT"
-      ],
-      "geo_scope": "local",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "⚡ JUST IN",
-      "briefing": {
-        "opening": [
-          "Andhra's Anakapalli, Visakhapatnam, and Vizianagaram see 263 mm of rainfall in the 24 hours till 8 a.m.",
-          "The northern spiral band of the cyclone has further entered the land, and the landfall process is expected to continue for the next three hours, IMD said."
-        ],
-        "body": [
-          "Cyclone Michaung Makes Landfall in Andhra Pradesh; Trees Uprooted, Services Hit.",
-          "Cyclone Threat in Andhra Pradesh: Landfall Process Begins, Coastal Areas on High Alert.",
-          "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify.",
-          "Cyclone Ornab Landfall Begins; Heavy Rains Lash Odisha Coast as Andhra Monitors Impact.",
-          "Cyclone Arnab LIVE Updates: The landfall point is specified between Bapatla and Visakhapatnam.",
-          "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert.",
-          "Kakinada: The landfall process of Cyclone ‘Arnab’ is underway along the Andhra Pradesh coast, bringing torrential rainfall and destructive winds that have severely disrupted normal life in several coastal districts.",
-          "The cyclonic storm began crossing the coast at around 1.10 am on Wednesday (October 28), earlier than initially anticipated.",
-          "According to the India Meteorological Department […] The post Cyclone Arnab Landfall Underway in Andhra Pradesh, Winds May Reach 140 kmph; Heavy Rain Lashes Coastal Districts, Watch appeared first on KalingaTV.",
-          "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
-          "At some places in the state, police rescued stranded people.",
-          "Chief Minister N Chandrababu Naidu reviewed the situation on Wednesday morning.",
-          "According to the IMD, the northern spiral band of the cyclone has further entered the land, while the storm's centre remains very close to the coastline.",
-          "\"The cyclone remains practically stationary along the Andhra Pradesh coast, and the landfall process is expected to continue for another 2-3 hours,\" the India Meteorological Department (IMD) said in an update at 5.30 am.",
-          "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services.",
-          "Naidu asked whether there had been any casualties in affected areas."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "More than 84,000 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services.",
-            "source": "Business Today",
-            "item_id": "6b299f93464a5802b9227699",
-            "composed": false
-          },
-          {
-            "text": "The cyclonic storm began crossing the coast at around 1.10 am on Wednesday (October 28), earlier than initially anticipated.",
-            "source": "Kalinga TV",
-            "item_id": "f12e08f5d54552e02666f59e",
-            "composed": false
-          },
-          {
-            "text": "Cyclone Arnab remained \"practically stationary\" along the Andhra Pradesh coast early on Wednesday and the landfall process is expected to continue for the next 2-3 hours, the IMD said, as heavy rains lashed a number of districts in the southern state.",
-            "source": "Business Standard",
-            "item_id": "61481e7d12219246a1a91381",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [
-          "India Today",
-          "NDTV",
-          "Kalinga TV",
-          "Business Standard",
-          "Business Today",
-          "The Hans India"
-        ],
-        "url": "https://www.thehindu.com/news/national/cyclone-arnab-landfall-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-28-2026/article71634111.ece"
-      },
-      "group_size": 12,
-      "label": "⚡ JUST IN",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "1f898fd3d587c26687f54248",
-      "story_id": "1f898fd3d587c26687f54248",
-      "headline": "SP inspects Uppada coast amid cyclone alert",
-      "title": "SP inspects Uppada coast amid cyclone alert",
-      "summary": "The SP assessed the intensity of sea waves and the extent of coastal erosion and directed police officials to coordinate with the Revenue and Disaster Management departments to shift fishermen and other coastal residents to safer locations wherever necessary.",
-      "url": "https://www.thehansindia.com/news/cities/kakinada/sp-inspects-uppada-coast-amid-cyclone-alert-1136680",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "business-industry",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T00:00:06+00:00",
-      "published_at": "2026-10-28T00:00:06+00:00",
-      "effective_at": "2026-10-28T00:00:06+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'cyclone'",
-        "major: significance event 'Disaster'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 26, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The SP assessed the intensity of sea waves and the extent of coastal erosion and directed police officials to coordinate with the Revenue and Disaster Management departments to shift fishermen and other coastal residents to safer locations wherever necessary.",
-        "Kakinada: Kakinada district Superintendent of Police G Bindumadhav inspected the Uppada coastal area in U Kothapalli mandal on Tuesday in view of the severe Cyclone Arnab warning.",
-        "He said two SDRF and two NDRF teams had been deployed in Kakinada district for cyclone-related emergency duties.",
-        "He also reviewed the basic amenities provided at rehabilitation centres and the progress of precautionary and relief measures with the officials concerned.",
-        "He advised the public to contact the emergency helpline 112 or the police control room numbers 94949 33233 and 94906 19298 for assistance in emergencies.",
-        "SB DSP KVV Satyanarayana, Kakinada DSP NSVK Durga Rao, Pithapuram Circle Inspector GVV Satyanarayana and U Kothapalli Sub-Inspector G Venkatesh were among those who accompanied the SP during the inspection."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The SP assessed the intensity of sea waves and the extent of coastal erosion and directed police officials to coordinate with the Revenue and Disaster Management departments to shift fishermen and other coastal residents to safer locations wherever necessary.",
-          "Kakinada: Kakinada district Superintendent of Police G Bindumadhav inspected the Uppada coastal area in U Kothapalli mandal on Tuesday in view of the severe Cyclone Arnab warning."
-        ],
-        "body": [
-          "He said two SDRF and two NDRF teams had been deployed in Kakinada district for cyclone-related emergency duties.",
-          "He also reviewed the basic amenities provided at rehabilitation centres and the progress of precautionary and relief measures with the officials concerned.",
-          "He advised the public to contact the emergency helpline 112 or the police control room numbers 94949 33233 and 94906 19298 for assistance in emergencies.",
-          "SB DSP KVV Satyanarayana, Kakinada DSP NSVK Durga Rao, Pithapuram Circle Inspector GVV Satyanarayana and U Kothapalli Sub-Inspector G Venkatesh were among those who accompanied the SP during the inspection."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "U Kothapalli"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Kakinada: Kakinada district Superintendent of Police G Bindumadhav inspected the Uppada coastal area in U Kothapalli mandal on Tuesday in view of the severe Cyclone Arnab warning.",
-            "source": "The Hans India",
-            "item_id": "1f898fd3d587c26687f54248:article",
-            "composed": false
-          },
-          {
-            "text": "He said two SDRF and two NDRF teams had been deployed in Kakinada district for cyclone-related emergency duties.",
-            "source": "The Hans India",
-            "item_id": "1f898fd3d587c26687f54248:article",
-            "composed": false
-          },
-          {
-            "text": "He advised the public to contact the emergency helpline 112 or the police control room numbers 94949 33233 and 94906 19298 for assistance in emergencies.",
-            "source": "The Hans India",
-            "item_id": "1f898fd3d587c26687f54248:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/news/cities/kakinada/sp-inspects-uppada-coast-amid-cyclone-alert-1136680"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "2766bf0386aacb205f0d207f",
@@ -485,7 +371,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -624,7 +510,7 @@
         "event term: 'drone attack' in summary weight 26.4",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -771,7 +657,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -871,7 +757,7 @@
         "event term: 'heatwave' in title weight 40",
         "event term: 'heatwave' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1000,7 +886,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (19.4h ago) +4",
+        "recency: fresh (19.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 44, score 44 -> HIGH"
