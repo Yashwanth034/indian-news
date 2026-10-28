@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:02:38.757100+00:00",
+  "generated_at": "2026-10-28T07:12:05.141693+00:00",
   "count": 15,
   "stories": [
     {
@@ -48,7 +48,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 42.4, score 82 -> IMMEDIATE"
@@ -142,7 +142,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -262,7 +262,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -355,19 +355,12 @@
       "event_time": "2026-10-28T02:34:40+00:00",
       "published_at": "2026-10-28T02:34:40+00:00",
       "effective_at": "2026-10-28T02:34:40+00:00",
-      "independent_source_groups": 3,
+      "independent_source_groups": 4,
       "source_groups": {
         "ians": {
           "kind": "wire",
           "source_ids": [
             "telangana-today"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "sportstar"
           ],
           "count": 1
         },
@@ -377,24 +370,38 @@
             "deccan-chronicle"
           ],
           "count": 1
+        },
+        "ndtv": {
+          "kind": "independent",
+          "source_ids": [
+            "ndtv"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 4 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (telangana-today) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -409,7 +416,7 @@
           "The IMD warned of heavy rainfall across neighbouring States."
         ],
         "body": [
-          "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert.",
+          "High tidal waves hit the coast in Visakhapatnam ahead of Cyclone Arnab's landfall.",
           "The cyclone crossed the coast to the southwest of Yanam near latitude 16.45°N and longitude 81.90°E, about 20 km east-northeast of Narsapur, 40 km southwest of Yanam and 60 km southwest of Kakinada.",
           "The Meteorological Department said the cyclone’s centre could reach the coast near Yanam at about 11.30am.",
           "It may then move back out to sea before making full landfall at U. Kothapalli in Kakinada district.",
@@ -428,7 +435,7 @@
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Andhra Pradesh"
+            "text": "Visakhapatnam"
           },
           {
             "icon": "⚠️",
@@ -463,17 +470,109 @@
         ],
         "source": "Telangana Today",
         "corroborating": [
-          "India Today",
+          "NDTV",
           "Deccan Chronicle",
           "The Hans India",
+          "India Today",
           "The Hindu",
           "The Hindu BusinessLine"
         ],
         "url": "https://telanganatoday.com/cyclone-arnab-begins-landfall-along-andhra-pradesh-coast-with-winds-up-to-150-kmph"
       },
-      "group_size": 18,
+      "group_size": 19,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "4074868b82bcf6323edcd5db",
+      "story_id": "4074868b82bcf6323edcd5db",
+      "headline": "Cyclone Arnab brings noticeable chill to Telangana, drops temperatures by up to 2.5°C",
+      "title": "Cyclone Arnab brings noticeable chill to Telangana, drops temperatures by up to 2.5°C",
+      "summary": "",
+      "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-brings-noticeable-chill-to-telangana-drops-temperatures-by-up-to-25c/article71632522.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T07:00:55+00:00",
+      "published_at": "2026-10-28T07:00:55+00:00",
+      "effective_at": "2026-10-28T07:00:55+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu",
+            "the-hindu-telangana"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (telangana)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "telangana",
+      "national_significance": true,
+      "article_sentences": [
+        "Cyclonic storm Arnab brought relief from the heat in most parts of Telangana, with people experiencing a noticeable chill from late evening to early morning over the past few days.",
+        "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre.",
+        "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C.",
+        "The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclonic storm Arnab brought relief from the heat in most parts of Telangana, with people experiencing a noticeable chill from late evening to early morning over the past few days.",
+          "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre."
+        ],
+        "body": [
+          "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C. The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C. The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm.",
+            "source": "The Hindu",
+            "item_id": "4074868b82bcf6323edcd5db:article",
+            "composed": false
+          },
+          {
+            "text": "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre.",
+            "source": "The Hindu",
+            "item_id": "4074868b82bcf6323edcd5db:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-brings-noticeable-chill-to-telangana-drops-temperatures-by-up-to-25c/article71632522.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "49d40cf5c084bf2dfb17848d",
@@ -538,7 +637,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -680,7 +779,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -688,7 +787,7 @@
       "geo_scope": "local",
       "state": "maharashtra",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Follow Sportstar's live coverage of the Ranji Trophy 2026-27 Round 3 Day 3 on October 28.",
@@ -715,8 +814,120 @@
         "url": "https://sportstar.thehindu.com/cricket/domestic/ranji-trophy-live-score-today-round-3-day-3-updates/article71634213.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "33573fc5780922ae6780c2a4",
+      "story_id": "33573fc5780922ae6780c2a4",
+      "headline": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
+      "title": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
+      "summary": "The Chief Minister holds a teleconference with about 32,000 officials and field staff on Wednesday morning",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T06:55:19+00:00",
+      "published_at": "2026-10-28T06:55:19+00:00",
+      "effective_at": "2026-10-28T06:55:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 30, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+        "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
+        "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+        "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
+        "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
+        "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
+        "According to the information available at the time of the review, no loss of life had been reported.",
+        "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
+        "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
+        "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles.",
+        "Electricity supply disrupted in affected areas must be restored as soon as wind conditions subside and it is safe for restoration teams to resume work, he said.",
+        "The Chief Minister also asked officials to provide adequate food, drinking water and medical facilities at cyclone relief shelters."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+          "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience."
+        ],
+        "body": [
+          "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+          "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
+          "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
+          "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
+          "According to the information available at the time of the review, no loss of life had been reported.",
+          "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
+          "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
+          "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
+            "composed": false
+          },
+          {
+            "text": "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
+            "composed": false
+          },
+          {
+            "text": "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "70820f8245b635e3dd612338",
@@ -774,7 +985,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -900,7 +1111,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -974,209 +1185,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "4074868b82bcf6323edcd5db",
-      "story_id": "4074868b82bcf6323edcd5db",
-      "headline": "Cyclone Arnab brings noticeable chill to Telangana, drops temperatures by up to 2.5°C",
-      "title": "Cyclone Arnab brings noticeable chill to Telangana, drops temperatures by up to 2.5°C",
-      "summary": "",
-      "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-brings-noticeable-chill-to-telangana-drops-temperatures-by-up-to-25c/article71632522.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T06:18:48+00:00",
-      "published_at": "2026-10-28T06:18:48+00:00",
-      "effective_at": "2026-10-28T06:18:48+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu",
-            "the-hindu-telangana"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (telangana)",
-        "recency: breaking (0.7h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 24, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "telangana",
-      "national_significance": true,
-      "article_sentences": [
-        "Cyclonic storm Arnab brought relief from the heat in most parts of Telangana, with people experiencing a noticeable chill from late evening to early morning over the past few days.",
-        "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre.",
-        "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C.",
-        "The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclonic storm Arnab brought relief from the heat in most parts of Telangana, with people experiencing a noticeable chill from late evening to early morning over the past few days.",
-          "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre."
-        ],
-        "body": [
-          "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C. The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Hanumakonda recorded the steepest drop of 2.5°C, followed by Bhadrachalam at 2.2°C and Ramagundam at 1.6°C. Hyderabad observatory recorded a decrease of 0.8°C. The cooler conditions are likely to continue on Wednesday with all 33 districts forecast to experience the impact of the cyclonic storm.",
-            "source": "The Hindu",
-            "item_id": "4074868b82bcf6323edcd5db:article",
-            "composed": false
-          },
-          {
-            "text": "Temperatures across the State fell by 0.5C to 2.5C in the 24 hours ending Tuesday evening, according to the India Meteorological Department’s Hyderabad centre.",
-            "source": "The Hindu",
-            "item_id": "4074868b82bcf6323edcd5db:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-brings-noticeable-chill-to-telangana-drops-temperatures-by-up-to-25c/article71632522.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "33573fc5780922ae6780c2a4",
-      "story_id": "33573fc5780922ae6780c2a4",
-      "headline": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
-      "title": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
-      "summary": "The Chief Minister holds a teleconference with about 32,000 officials and field staff on Wednesday morning",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "energy-environment"
-      ],
-      "confidence": "medium",
-      "score": 92.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T06:11:11+00:00",
-      "published_at": "2026-10-28T06:11:11+00:00",
-      "effective_at": "2026-10-28T06:11:11+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 30, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
-        "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
-        "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
-        "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
-        "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
-        "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
-        "According to the information available at the time of the review, no loss of life had been reported.",
-        "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
-        "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
-        "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles.",
-        "Electricity supply disrupted in affected areas must be restored as soon as wind conditions subside and it is safe for restoration teams to resume work, he said.",
-        "The Chief Minister also asked officials to provide adequate food, drinking water and medical facilities at cyclone relief shelters."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
-          "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience."
-        ],
-        "body": [
-          "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
-          "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
-          "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
-          "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
-          "According to the information available at the time of the review, no loss of life had been reported.",
-          "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
-          "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
-          "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
-            "source": "The Hindu",
-            "item_id": "33573fc5780922ae6780c2a4:article",
-            "composed": false
-          },
-          {
-            "text": "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
-            "source": "The Hindu",
-            "item_id": "33573fc5780922ae6780c2a4:article",
-            "composed": false
-          },
-          {
-            "text": "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
-            "source": "The Hindu",
-            "item_id": "33573fc5780922ae6780c2a4:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "771c4417424c282ff41a8c7e",
       "story_id": "771c4417424c282ff41a8c7e",
       "headline": "Rain likely in Delhi-NCR till Nov 1 due to Cyclone Arnab; pollution levels turn poor",
@@ -1223,7 +1231,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1341,7 +1349,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1477,7 +1485,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 43, score 64 -> URGENT"
@@ -1614,7 +1622,7 @@
         "event term: 'exit poll' in summary weight 27.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1622,7 +1630,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Jerusalem, Oct 28: Israel's parliamentary election appeared to have produced no clear winner, with exit polls indicating that both Prime Minister Benjamin Netanyahu's bloc and the opposition alliance seeking to replace him had fallen short of the 61 seats required for a majority in the 120-member Knesset.",
@@ -1682,7 +1690,7 @@
         "url": "https://assamtribune.com/international/israel-election-exit-polls-point-to-no-clear-winner-or-majority-1621347"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1727,7 +1735,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (west bengal)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
