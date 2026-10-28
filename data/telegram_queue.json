@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T06:11:51.280408+00:00",
-  "count": 14,
+  "generated_at": "2026-10-28T06:22:08.519012+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "a2ebd7a84b6967d91c0c3f80",
@@ -48,7 +48,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -167,7 +167,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 42.4, score 82 -> IMMEDIATE"
@@ -261,7 +261,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -335,13 +335,13 @@
       "enrichment": "article"
     },
     {
-      "event_id": "bc464fee45148af231a69840",
-      "story_id": "bc464fee45148af231a69840",
-      "headline": "Cyclone Arnab makes landfall along Andhra coast with winds up to 135 kmph",
-      "title": "Cyclone Arnab makes landfall along Andhra coast with winds up to 135 kmph",
-      "summary": "According to Jain, the cyclone's centre was located around 30 km from Narsapur, 55 km from Yanam, 70 km from Kakinada and 90 km from Machilipatnam.",
-      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-makes-landfall-along-andhra-coast-with-winds-up-to-135-kmph-1136661",
-      "source": "The Hans India",
+      "event_id": "7b755ae4d2ee951c98412189",
+      "story_id": "7b755ae4d2ee951c98412189",
+      "headline": "Cyclone Arnab begins landfall along Andhra Pradesh coast with winds up to 150 kmph",
+      "title": "Cyclone Arnab begins landfall along Andhra Pradesh coast with winds up to 150 kmph",
+      "summary": "Very Severe Cyclonic Storm Arnab began its landfall process along the Andhra Pradesh and Yanam coasts early Wednesday, with winds reaching 135 kmph and gusts up to 150 kmph. The IMD warned of heavy rainfall across neighbouring States.",
+      "url": "https://telanganatoday.com/cyclone-arnab-begins-landfall-along-andhra-pradesh-coast-with-winds-up-to-150-kmph",
+      "source": "Telangana Today",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
@@ -351,29 +351,22 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T01:30:26+00:00",
-      "published_at": "2026-10-28T01:30:26+00:00",
-      "effective_at": "2026-10-28T01:30:26+00:00",
+      "event_time": "2026-10-28T02:34:40+00:00",
+      "published_at": "2026-10-28T02:34:40+00:00",
+      "effective_at": "2026-10-28T02:34:40+00:00",
       "independent_source_groups": 2,
       "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        },
-        "pti": {
+        "ians": {
           "kind": "wire",
           "source_ids": [
-            "business-standard"
+            "telangana-today"
           ],
           "count": 1
         },
-        "national-herald": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "national-herald"
+            "sportstar"
           ],
           "count": 1
         }
@@ -386,51 +379,49 @@
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
-        "major: significance event 'cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 3 copies, primary source counted once",
+        "source: tier 2 (telangana-today) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "scale: state scope (andhra pradesh)",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 26, score 72 -> URGENT"
       ],
-      "geo_scope": "national",
-      "state": null,
+      "geo_scope": "state",
+      "state": "andhra pradesh",
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "According to Jain, the cyclone's centre was located around 30 km from Narsapur, 55 km from Yanam, 70 km from Kakinada and 90 km from Machilipatnam.",
-          "The Andhra Pradesh State Disaster Management Authority has confirmed that the cyclone crossed the coast over the Konaseema region, accompanied by gale-force winds reaching speeds of 120 km/h."
+          "Very Severe Cyclonic Storm Arnab began its landfall process along the Andhra Pradesh and Yanam coasts early Wednesday, with winds reaching 135 kmph and gusts up to 150 kmph.",
+          "The IMD warned of heavy rainfall across neighbouring States."
         ],
         "body": [
+          "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert.",
+          "The cyclone crossed the coast to the southwest of Yanam near latitude 16.45°N and longitude 81.90°E, about 20 km east-northeast of Narsapur, 40 km southwest of Yanam and 60 km southwest of Kakinada.",
           "The Meteorological Department said the cyclone’s centre could reach the coast near Yanam at about 11.30am.",
           "It may then move back out to sea before making full landfall at U. Kothapalli in Kakinada district.",
-          "The storm is centred 20km from Narsapuram, with its eye over the Yanam coast.",
-          "Naidu asked whether there had been any casualties in affected areas.",
-          "Severe Cyclone Landfall Likely in Andhra Pradesh; Odisha and Tamil Nadu on Alert.",
           "Cyclone Michaung Makes Landfall in Andhra Pradesh; Trees Uprooted, Services Hit.",
           "Cyclone Threat in Andhra Pradesh: Landfall Process Begins, Coastal Areas on High Alert.",
           "Cyclone Landfall Underway In Andhra Pradesh, Heavy Rain Hits Coast As Relief Measures Intensify.",
-          "The northern spiral band of the cyclone has further entered the land, and the landfall process is expected to continue for the next three hours, IMD said.",
           "Cyclone Ornab Landfall Begins; Heavy Rains Lash Odisha Coast as Andhra Monitors Impact.",
           "Cyclone Rages Along Andhra Coast, Landfall Near Kakinada; Odisha.",
           "On Alert.",
           "More than 84,000 people were moved to shelters as authorities prioritised saving lives and maintaining emergency services.",
           "The landfall process of Severe Cyclone Arnab is expected to be completed within the next one to three hours, Vizag Meteorological Department Director P V N Murthy said.",
-          "No loss of life had been reported so far, although trees were uprooted in several places and power supply was disrupted."
+          "No loss of life had been reported so far, although trees were uprooted in several places and power supply was disrupted.",
+          "It is expected to complete landfall within the next hour.",
+          "Naidu asked whether there had been any casualties in affected areas."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Yanam"
+            "text": "Andhra Pradesh"
           },
           {
             "icon": "⚠️",
@@ -445,16 +436,10 @@
           {
             "icon": "➡️",
             "label": "Next",
-            "text": "It is expected to complete landfall within the next hour."
+            "text": "The northern spiral band of the cyclone has further entered the land, and the landfall process is expected to continue for the next three hours, IMD said."
           }
         ],
         "sentences": [
-          {
-            "text": "According to Jain, the cyclone's centre was located around 30 km from Narsapur, 55 km from Yanam, 70 km from Kakinada and 90 km from Machilipatnam.",
-            "source": "The Hans India",
-            "item_id": "bc464fee45148af231a69840",
-            "composed": false
-          },
           {
             "text": "It may then move back out to sea before making full landfall at U. Kothapalli in Kakinada district.",
             "source": "The Hans India",
@@ -468,24 +453,113 @@
             "composed": false
           },
           {
+            "text": "Very Severe Cyclonic Storm Arnab began its landfall process along the Andhra Pradesh and Yanam coasts early Wednesday, with winds reaching 135 kmph and gusts up to 150 kmph.",
+            "source": "Telangana Today",
+            "item_id": "7b755ae4d2ee951c98412189",
+            "composed": false
+          },
+          {
             "text": "The Meteorological Department said the cyclone’s centre could reach the coast near Yanam at about 11.30am.",
             "source": "The Hans India",
             "item_id": "bffbd5a36ca24c6c3f9709b1",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "Telangana Today",
         "corroborating": [
           "India Today",
+          "Deccan Chronicle",
+          "The Hans India",
           "The Hindu",
           "Business Today",
-          "Deccan Chronicle",
           "The Hindu BusinessLine"
         ],
-        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-arnab-makes-landfall-along-andhra-coast-with-winds-up-to-135-kmph-1136661"
+        "url": "https://telanganatoday.com/cyclone-arnab-begins-landfall-along-andhra-pradesh-coast-with-winds-up-to-150-kmph"
       },
-      "group_size": 18,
+      "group_size": 19,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "64455d4947e0b8342e81e4b3",
+      "story_id": "64455d4947e0b8342e81e4b3",
+      "headline": "Ranji Trophy LIVE score Today: Musheer Khan takes four wickets for Mumbai; Dhruv Shorey scores hundred for Vidarbha; Cyclone Arnab delays Andhra vs Chattisgarh; Round 3, Day 3 Updates",
+      "title": "Ranji Trophy LIVE score Today: Musheer Khan takes four wickets for Mumbai; Dhruv Shorey scores hundred for Vidarbha; Cyclone Arnab delays Andhra vs Chattisgarh; Round 3, Day 3 Updates",
+      "summary": "Follow Sportstar's live coverage of the Ranji Trophy 2026-27 Round 3 Day 3 on October 28. Get the latest scores, wickets, results and highlights from all the matches.",
+      "url": "https://sportstar.thehindu.com/cricket/domestic/ranji-trophy-live-score-today-round-3-day-3-updates/article71634213.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 77.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T06:18:28+00:00",
+      "published_at": "2026-10-28T06:18:28+00:00",
+      "effective_at": "2026-10-28T06:18:28+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (maharashtra)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 28, score 72 -> URGENT"
+      ],
+      "geo_scope": "local",
+      "state": "maharashtra",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Follow Sportstar's live coverage of the Ranji Trophy 2026-27 Round 3 Day 3 on October 28.",
+          "Get the latest scores, wickets, results and highlights from all the matches."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Follow Sportstar's live coverage of the Ranji Trophy 2026-27 Round 3 Day 3 on October 28.",
+            "source": "Sportstar",
+            "item_id": "64455d4947e0b8342e81e4b3",
+            "composed": false
+          },
+          {
+            "text": "Get the latest scores, wickets, results and highlights from all the matches.",
+            "source": "Sportstar",
+            "item_id": "64455d4947e0b8342e81e4b3",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/cricket/domestic/ranji-trophy-live-score-today-round-3-day-3-updates/article71634213.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -505,9 +579,9 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T06:05:38+00:00",
-      "published_at": "2026-10-28T06:05:38+00:00",
-      "effective_at": "2026-10-28T06:05:38+00:00",
+      "event_time": "2026-10-28T06:12:46+00:00",
+      "published_at": "2026-10-28T06:12:46+00:00",
+      "effective_at": "2026-10-28T06:12:46+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -531,7 +605,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -611,31 +685,193 @@
       "enrichment": "article"
     },
     {
-      "event_id": "856b2f408238402e98285de1",
-      "story_id": "856b2f408238402e98285de1",
-      "headline": "Cyclone Arnab: No Loss of Life Reported So Far, Says CM Naidu",
-      "title": "Cyclone Arnab: No Loss of Life Reported So Far, Says CM Naidu",
-      "summary": "AP CM N Chandrababu Naidu said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
-      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-no-loss-of-life-reported-so-far-says-cm-naidu-1999532",
-      "source": "Deccan Chronicle",
+      "event_id": "49d40cf5c084bf2dfb17848d",
+      "story_id": "49d40cf5c084bf2dfb17848d",
+      "headline": "Andhra reports no casualties after cyclone Arnab, says CM Naidu",
+      "title": "Andhra reports no casualties after cyclone Arnab, says CM Naidu",
+      "summary": "Amaravati, Oct 28 : Andhra Pradesh Chief Minister N Chandrababu Naidu on Wednesday said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties. Speaking during a teleconference with 32,000 personnel, including district collectors, the Chief Minister directed officials to minimise property damage and restore normalcy in cyclone-affected areas at the earliest. \"No loss of life has been reported so far due to Cyclone Arnab. The advance precautionary measures taken by the administrative machinery helped prevent casualties,\" said Naidu in an official press release. The CM instructed officials to clear roads blocked by fallen trees within two hours and ensure immediate removal of trees obstructing national highways. Also, he directed them to restore electricity supply in affected areas once strong winds subsided. Naidu stressed the need to provide adequate food, drinking water and medical facilities at cyclone shelters and asked officials to prevent water from entering agricultural fields, protect horticultural crops and take measures to prevent breaches in tanks and canals. The CM asked officials to prepare preliminary estimates of crop damage and keep National Disaster Response Force (NDRF) and State Disaster Response Force (SDRF) personnel on standby. Further, the officials were directed to make full use of the Manamitra system to address public grievances in cyclone-affected areas and ensure that complainants were informed about the action taken to resolve their issues. Meanwhile, Kakinada Superintendent of Police (SP) G Bindu Madhav said, \"Cyclone Arnab had significantly affected the district, uprooting a few hundred trees and fewer than 100 electric poles. However, no major damage has been reported and rainfall subsided after 1 am.\" Madhav said people were evacuated to relief camps as a precautionary measure and remained there due to the strong winds and roar of the storm between midnight and 1 am. The Uppada road, running along the coast, has been completely washed away, he said, adding that rainfall was relatively low in the district with gusty winds causing the main impact. Alluri Sitaramaraju district SP Amit Bardar said the Cyclone had limited impact on the district, as of 9 am, with trees and electric poles uprooted and some roads inundated. \"No loss of life or major damage to infrastructure, houses or livestock has been reported so far. We are monitoring the situation closely as water levels may rise due to continued rainfall,\" Bardar told PTI. An old bridge in Tadiguda village of Anantagiri mandal was washed away, isolating a hamlet, said the SP, adding that alternative arrangements were being made and restoration work was underway. The preliminary assessment indicated limited overall impact, though the situation would continue to be monitored as rainfall persisted, he added. Konaseema district SP Rahul Meena said gusty winds reaching up 130 kmph had uprooted trees and electric poles across the district during the Cyclone late on Tuesday night. No casualties or property damage had been reported. Fallen trees and electric poles had blocked roads and disrupted power supply, he said, adding that electricity connections were expected to be restored by within few hours, while major highways would be cleared within two to three hours. \"Konaseema is among the worst-affected districts, with winds reaching up to 130 kmph uprooting trees and electric poles, blocking roads and disrupting power supply,\" the SP told PTI. Clearance of interior roads could take until evening, he said, adding that wind speeds had reduced and the cyclone had moved towards Kakinada after weakening slightly. More than 10,000 people had been evacuated from low-lying areas and shifted to shelters, according to his preliminary information. Around 495 cyclone shelters and temporary relief centres had been set up. No village inundation had been reported and water accumulated due to the storm surge had drained, he said. Two NDRF teams and as many SDRF teams were deployed a day before the cyclone to conduct road clearance and rescue operations in response to emergency calls, he said. Additional Andhra Pradesh Special Police (APSP) platoons had also been deployed for clearance operations and other tasks, he said, adding that personnel from various departments were working continuously to restore normalcy by evening. PTI",
+      "url": "https://assamtribune.com/national/andhra-reports-no-casualties-after-cyclone-arnab-says-cm-naidu-1621327",
+      "source": "The Assam Tribune",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "transport-infrastructure",
+        "energy-environment",
+        "health",
+        "agriculture-rural",
+        "crime-public-safety"
+      ],
       "confidence": "medium",
-      "score": 95.0,
+      "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T06:02:03+00:00",
-      "published_at": "2026-10-28T06:02:03+00:00",
-      "effective_at": "2026-10-28T06:02:03+00:00",
+      "event_time": "2026-10-28T06:11:34+00:00",
+      "published_at": "2026-10-28T06:11:34+00:00",
+      "effective_at": "2026-10-28T06:11:34+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
-            "deccan-chronicle"
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "major: significance event 'Disaster'",
+        "major: significance event 'Disaster'",
+        "major: significance event 'cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "major: significance event 'cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Amaravati, Oct 28: Andhra Pradesh Chief Minister N Chandrababu Naidu on Wednesday said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
+          "Speaking during a teleconference with 32,000 personnel, including district collectors, the Chief Minister directed officials to minimise property damage and restore normalcy in cyclone-affected areas at the earliest."
+        ],
+        "body": [
+          "\"No loss of life has been reported so far due to Cyclone Arnab.",
+          "The advance precautionary measures taken by the administrative machinery helped prevent casualties,\" said Naidu in an official press release.",
+          "The CM instructed officials to clear roads blocked by fallen trees within two hours and ensure immediate removal of trees obstructing national highways.",
+          "Also, he directed them to restore electricity supply in affected areas once strong winds subsided.",
+          "Naidu stressed the need to provide adequate food, drinking water and medical facilities at cyclone shelters and asked officials to prevent water from entering agricultural fields, protect horticultural crops and take measures to prevent breaches in tanks and canals.",
+          "The CM asked officials to prepare preliminary estimates of crop damage and keep National Disaster Response Force (NDRF) and State Disaster Response Force (SDRF) personnel on standby.",
+          "Further, the officials were directed to make full use of the Manamitra system to address public grievances in cyclone-affected areas and ensure that complainants were informed about the action taken to resolve their issues.",
+          "Meanwhile, Kakinada Superintendent of Police (SP) G Bindu Madhav said, \"Cyclone Arnab had significantly affected the district, uprooting a few hundred trees and fewer than 100 electric poles.",
+          "However, no major damage has been reported and rainfall subsided after 1 am.\" Madhav said people were evacuated to relief camps as a precautionary measure and remained there due to the strong winds and roar of the storm between midnight and 1 am.",
+          "The Uppada road, running along the coast, has been completely washed away, he said, adding that rainfall was relatively low in the district with gusty winds causing the main impact.",
+          "Alluri Sitaramaraju district SP Amit Bardar said the Cyclone had limited impact on the district, as of 9 am, with trees and electric poles uprooted and some roads inundated.",
+          "\"No loss of life or major damage to infrastructure, houses or livestock has been reported so far.",
+          "We are monitoring the situation closely as water levels may rise due to continued rainfall,\" Bardar told PTI.",
+          "An old bridge in Tadiguda village of Anantagiri mandal was washed away, isolating a hamlet, said the SP, adding that alternative arrangements were being made and restoration work was underway.",
+          "The preliminary assessment indicated limited overall impact, though the situation would continue to be monitored as rainfall persisted, he added.",
+          "Konaseema district SP Rahul Meena said gusty winds reaching up 130 kmph had uprooted trees and electric poles across the district during the Cyclone late on Tuesday night.",
+          "No casualties or property damage had been reported.",
+          "\"Konaseema is among the worst-affected districts, with winds reaching up to 130 kmph uprooting trees and electric poles, blocking roads and disrupting power supply,\" the SP told PTI.",
+          "Clearance of interior roads could take until evening, he said, adding that wind speeds had reduced and the cyclone had moved towards Kakinada after weakening slightly.",
+          "More than 10,000 people had been evacuated from low-lying areas and shifted to shelters, according to his preliminary information.",
+          "Around 495 cyclone shelters and temporary relief centres had been set up.",
+          "No village inundation had been reported and water accumulated due to the storm surge had drained, he said.",
+          "Two NDRF teams and as many SDRF teams were deployed a day before the cyclone to conduct road clearance and rescue operations in response to emergency calls, he said.",
+          "Additional Andhra Pradesh Special.",
+          "Police (APSP) platoons had also been deployed for clearance operations and other tasks, he said, adding that personnel from various departments were working continuously to restore normalcy by evening.",
+          "AP CM N Chandrababu Naidu said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
+          "Naidu reviewed the condition of minor irrigation tanks and instructed collectors to take precautions to prevent tanks from overflowing and breaches in tanks and canals.",
+          "Preliminary assessment of crop damage to be prepared."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Tadiguda village"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 10,000 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Fallen trees and electric poles had blocked roads and disrupted power supply, he said, adding that electricity connections were expected to be restored by within few hours, while major highways would be cleared within two to three hours."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Amaravati, Oct 28: Andhra Pradesh Chief Minister N Chandrababu Naidu on Wednesday said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
+            "source": "The Assam Tribune",
+            "item_id": "49d40cf5c084bf2dfb17848d",
+            "composed": false
+          },
+          {
+            "text": "Konaseema district SP Rahul Meena said gusty winds reaching up 130 kmph had uprooted trees and electric poles across the district during the Cyclone late on Tuesday night.",
+            "source": "The Assam Tribune",
+            "item_id": "49d40cf5c084bf2dfb17848d",
+            "composed": false
+          },
+          {
+            "text": "Speaking during a teleconference with 32,000 personnel, including district collectors, the Chief Minister directed officials to minimise property damage and restore normalcy in cyclone-affected areas at the earliest.",
+            "source": "The Assam Tribune",
+            "item_id": "49d40cf5c084bf2dfb17848d",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [
+          "Deccan Chronicle",
+          "The Hindu BusinessLine"
+        ],
+        "url": "https://assamtribune.com/national/andhra-reports-no-casualties-after-cyclone-arnab-says-cm-naidu-1621327"
+      },
+      "group_size": 4,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "33573fc5780922ae6780c2a4",
+      "story_id": "33573fc5780922ae6780c2a4",
+      "headline": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
+      "title": "Cyclone Arnab: Clear fallen trees within two hours, restore power once winds ease, Naidu tells officials",
+      "summary": "The Chief Minister holds a teleconference with about 32,000 officials and field staff on Wednesday morning",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T06:11:11+00:00",
+      "published_at": "2026-10-28T06:11:11+00:00",
+      "effective_at": "2026-10-28T06:11:11+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
           ],
           "count": 1
         }
@@ -647,51 +883,194 @@
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (deccan-chronicle) +2",
+        "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
+        "dominant event 72, stack 30, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
+      "article_sentences": [
+        "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+        "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
+        "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+        "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
+        "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
+        "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
+        "According to the information available at the time of the review, no loss of life had been reported.",
+        "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
+        "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
+        "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles.",
+        "Electricity supply disrupted in affected areas must be restored as soon as wind conditions subside and it is safe for restoration teams to resume work, he said.",
+        "The Chief Minister also asked officials to provide adequate food, drinking water and medical facilities at cyclone relief shelters."
+      ],
       "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "AP CM N Chandrababu Naidu said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
-          "Naidu reviewed the condition of minor irrigation tanks and instructed collectors to take precautions to prevent tanks from overflowing and breaches in tanks and canals."
+          "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+          "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience."
         ],
-        "body": [],
+        "body": [
+          "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+          "During a separate review with senior officials, Mr. Naidu sought details of agricultural losses and directed the authorities to prepare preliminary estimates of crop damage.",
+          "He also instructed officials to apprise the Centre of the measures being undertaken by the State government to tackle the cyclone’s impact.",
+          "Appreciating officials and field-level personnel for working through the night, the Chief Minister urged them to maintain the same dedication until the situation returned to normal.",
+          "According to the information available at the time of the review, no loss of life had been reported.",
+          "He attributed the outcome to the advance precautions taken by the administration and said the preventive efforts must be sustained.",
+          "Mr. Naidu directed officials to restore essential services and clear road obstructions on a priority basis.",
+          "Fallen trees blocking roads must be removed and traffic restored within two hours and obstructions on national highways should be cleared immediately to ensure uninterrupted movement of vehicles."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "AP CM N Chandrababu Naidu said no loss of life has been reported so far following Cyclone Arnab, crediting advance precautionary measures taken by the administration for preventing casualties.",
-            "source": "Deccan Chronicle",
-            "item_id": "856b2f408238402e98285de1",
+            "text": "The Chief Minister held a statewide teleconference on Wednesday (October 28, 2026) morning with around 32,000 personnel, including district Collectors and field-level staff, to assess the cyclone’s impact and review the measures being taken to minimise public inconvenience.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
             "composed": false
           },
           {
-            "text": "Naidu reviewed the condition of minor irrigation tanks and instructed collectors to take precautions to prevent tanks from overflowing and breaches in tanks and canals.",
-            "source": "Deccan Chronicle",
-            "item_id": "779badd9fc8fca2dbb098766",
+            "text": "Andhra Pradesh Chief Minister N. Chandrababu Naidu has directed officials to accelerate relief and restoration operations in areas affected by Cyclone Arnab and said all departments must work in close coordination to restore normalcy at the earliest.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
+            "composed": false
+          },
+          {
+            "text": "He had reviewed the situation until 1.30 a.m. before convening the early-morning meeting.",
+            "source": "The Hindu",
+            "item_id": "33573fc5780922ae6780c2a4:article",
             "composed": false
           }
         ],
-        "source": "Deccan Chronicle",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-no-loss-of-life-reported-so-far-says-cm-naidu-1999532"
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-clear-fallen-trees-within-two-hours-restore-power-once-winds-ease-naidu-tells-officials/article71634450.ece"
       },
-      "group_size": 3,
+      "group_size": 1,
       "label": "⚡ JUST IN",
-      "enrichment": "rss"
+      "enrichment": "article"
+    },
+    {
+      "event_id": "e53433e90d98470224e07db5",
+      "story_id": "e53433e90d98470224e07db5",
+      "headline": "Cyclone Arnab: 609 Andhra schools turn into relief shelters",
+      "title": "Cyclone Arnab: 609 Andhra schools turn into relief shelters",
+      "summary": "Schools in 16 coastal districts are closed, and 17,054 NCC, NSS and Scouts volunteers have been mobilised",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-609-andhra-schools-turn-into-relief-shelters/article71634201.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "education",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 80.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T06:04:37+00:00",
+      "published_at": "2026-10-28T06:04:37+00:00",
+      "effective_at": "2026-10-28T06:04:37+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'Cyclone'",
+        "category: education (importance 0.9, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: education (importance 0.9) +0",
+        "geo: national",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Andhra Pradesh School Education Department has stepped up its preparedness to deal with Cyclone Arnab.",
+        "As many as 609 school campuses across the State have been activated as relief shelters and 150 schools have been identified as vulnerable to flooding or inundation.",
+        "Another 78 school buildings have been flagged for potential structural collapse, according to the department’s preparedness status report submitted to the Real Time Governance Society (RTGS) at 6 a.m. on Wednesday (October 28, 2026).",
+        "The department is monitoring 58,616 schools across 28 districts, covering 2,22,904 staff members and nearly 69.6 lakh students.",
+        "Holidays have been declared in 16 coastal districts as a precautionary measure and instructions have been issued to all District Educational.",
+        "Officers (DEOs) and Mandal Educational.",
+        "Officers (MEOs) to ensure the safety of students and staff.",
+        "Control rooms with designated nodal officers have been established in every DEO office to coordinate preparedness and emergency response round the clock.",
+        "School authorities have also been instructed to keep parents informed about school closures and the availability of relief shelters.",
+        "As part of infrastructure safety measures, the department has focused on 1,604 vulnerable schools and 544 weak structures.",
+        "Roofs, walls and other structural components of vulnerable buildings are being checked and unsafe buildings have been barricaded to prevent access.",
+        "The department had reported no damage to schools as of 6 a.m."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Andhra Pradesh School Education Department has stepped up its preparedness to deal with Cyclone Arnab.",
+          "As many as 609 school campuses across the State have been activated as relief shelters and 150 schools have been identified as vulnerable to flooding or inundation."
+        ],
+        "body": [
+          "Another 78 school buildings have been flagged for potential structural collapse, according to the department’s preparedness status report submitted to the Real Time Governance Society (RTGS) at 6 a.m. on Wednesday (October 28, 2026).",
+          "The department is monitoring 58,616 schools across 28 districts, covering 2,22,904 staff members and nearly 69.6 lakh students.",
+          "Holidays have been declared in 16 coastal districts as a precautionary measure and instructions have been issued to all District Educational.",
+          "Officers (DEOs) and Mandal Educational.",
+          "Officers (MEOs) to ensure the safety of students and staff.",
+          "Control rooms with designated nodal officers have been established in every DEO office to coordinate preparedness and emergency response round the clock.",
+          "School authorities have also been instructed to keep parents informed about school closures and the availability of relief shelters.",
+          "As part of infrastructure safety measures, the department has focused on 1,604 vulnerable schools and 544 weak structures."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Another 78 school buildings have been flagged for potential structural collapse, according to the department’s preparedness status report submitted to the Real Time Governance Society (RTGS) at 6 a.m. on Wednesday (October 28, 2026).",
+            "source": "The Hindu",
+            "item_id": "e53433e90d98470224e07db5:article",
+            "composed": false
+          },
+          {
+            "text": "As many as 609 school campuses across the State have been activated as relief shelters and 150 schools have been identified as vulnerable to flooding or inundation.",
+            "source": "The Hindu",
+            "item_id": "e53433e90d98470224e07db5:article",
+            "composed": false
+          },
+          {
+            "text": "The department is monitoring 58,616 schools across 28 districts, covering 2,22,904 staff members and nearly 69.6 lakh students.",
+            "source": "The Hindu",
+            "item_id": "e53433e90d98470224e07db5:article",
+            "composed": false
+          },
+          {
+            "text": "As part of infrastructure safety measures, the department has focused on 1,604 vulnerable schools and 544 weak structures.",
+            "source": "The Hindu",
+            "item_id": "e53433e90d98470224e07db5:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-609-andhra-schools-turn-into-relief-shelters/article71634201.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "771c4417424c282ff41a8c7e",
@@ -740,7 +1119,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -858,7 +1237,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -994,7 +1373,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1122,7 +1501,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (west bengal)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1253,7 +1632,7 @@
         "event term: 'drone attack' in summary weight 26.4",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1395,7 +1774,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1457,220 +1836,6 @@
         "source": "The Hindu",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/supreme-court-needs-transparent-roster-system-says-former-judge-oka/article71629926.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "15a4d5ad81263aa4dc42d28f",
-      "story_id": "15a4d5ad81263aa4dc42d28f",
-      "headline": "ICICI Securities sees telecom among Nifty's biggest sectors as tariff hike nears",
-      "title": "ICICI Securities sees telecom among Nifty's biggest sectors as tariff hike nears",
-      "summary": "Pankaj Pandey, Head of Retail Research at ICICI Securities, expects another 16-20% telecom tariff hike to improve 5G monetisation and cash flows, while limited competition could support long-term growth. The brokerage also highlighted Radico Khaitan's premiumisation strategy and Piramal Pharma's expanding CDMO business as key investment themes. Disclaimer: The views and tips expressed by investment experts on CNBCTV18.com are their own, not of the website or its management. CNBCTV18.com advises users to check with certified experts before taking any investment decisions.",
-      "url": "https://www.cnbctv18.com/videos/market/icici-securities-telecom-tariff-hike-radico-khaitan-piramal-pharma-pankaj-pandey-20020993.htm",
-      "source": "CNBC-TV18",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "technology-digital",
-        "business-industry",
-        "health"
-      ],
-      "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T03:54:11+00:00",
-      "published_at": "2026-10-28T03:54:11+00:00",
-      "effective_at": "2026-10-28T03:54:11+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "network18": {
-          "kind": "independent",
-          "source_ids": [
-            "cnbc-tv18"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (cnbc-tv18) +1",
-        "source: specialist (cnbc-tv18) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'tariff' in title weight 40",
-        "event term: 'tariff' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Pankaj Pandey, Head of Retail Research at ICICI Securities, expects another 16-20% telecom tariff hike to improve 5G monetisation and cash flows, while limited competition could support long-term growth.",
-          "The brokerage also highlighted Radico Khaitan's premiumisation strategy and Piramal Pharma's expanding CDMO business as key investment themes."
-        ],
-        "body": [
-          "Disclaimer: The views and tips expressed by investment experts on CNBCTV18.com are their own, not of the website or its management.",
-          "CNBCTV18.com advises users to check with certified experts before taking any investment decisions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "ICICI Securities"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Pankaj Pandey, Head of Retail Research at ICICI Securities, expects another 16-20% telecom tariff hike to improve 5G monetisation and cash flows, while limited competition could support long-term growth.",
-            "source": "CNBC-TV18",
-            "item_id": "15a4d5ad81263aa4dc42d28f",
-            "composed": false
-          },
-          {
-            "text": "The brokerage also highlighted Radico Khaitan's premiumisation strategy and Piramal Pharma's expanding CDMO business as key investment themes.",
-            "source": "CNBC-TV18",
-            "item_id": "15a4d5ad81263aa4dc42d28f",
-            "composed": false
-          },
-          {
-            "text": "CNBCTV18.com advises users to check with certified experts before taking any investment decisions.",
-            "source": "CNBC-TV18",
-            "item_id": "15a4d5ad81263aa4dc42d28f",
-            "composed": false
-          }
-        ],
-        "source": "CNBC-TV18",
-        "corroborating": [],
-        "url": "https://www.cnbctv18.com/videos/market/icici-securities-telecom-tariff-hike-radico-khaitan-piramal-pharma-pankaj-pandey-20020993.htm"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "380f1e82cb4c4cba52259045",
-      "story_id": "380f1e82cb4c4cba52259045",
-      "headline": "India among top countries with highest heatwave exposure for infants, older adults: Report",
-      "title": "India among top countries with highest heatwave exposure for infants, older adults: Report",
-      "summary": "Globally, total number of heatwave days decreased from 2024’s historical high of 15.3 billion person-days for older adults and 2.3 billion person-days for infants",
-      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 55.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T03:32:28+00:00",
-      "published_at": "2026-10-28T03:32:28+00:00",
-      "effective_at": "2026-10-28T03:32:28+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline",
-            "the-hindu"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'heatwave'",
-        "major: significance event 'heatwave'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'heatwave' in title weight 40",
-        "event term: 'heatwave' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "India ranked among the top countries with the highest heatwave exposure for both vulnerable age groups — infants and older adults — along with China, the U.S. and Russia, according to the tenth indicator report of the Lancet Countdown on Health and Climate Change.",
-        "Globally, total number of heatwave days decreased from 2024's historical high of 15.3 billion person-days for older adults and 2.3 billion person-days for infants.",
-        "The year 2025 was the second highest on record for heatwave exposure for both vulnerable groups combined as older adults were exposed to 10.8 billion person-days of heatwaves, while infants experienced 1.1 billion person-days, the report said.",
-        "Visual Story: How heat stressed are you?",
-        "When normalised by population size, older adults experienced on average 12.8 heatwave days per individual in 2025, while infants experienced on average 8.7 heatwave days per individual, it said.",
-        "Authors of the report, led by those at the U.K.'s University College London, said climate action is picking up around the world, but failing to keep pace with global warming, especially as health harms of climate change grew faster in the decade since the 2016 Paris Agreement, compared to the previous one.",
-        "A decade after the Paris Agreement, the report's authors are calling for climate change to be formally declared a global health emergency, for a new.",
-        "WHO instrument to enable a coordinated global response, and for governments to put health at the centre of every climate decision, from emissions targets to climate funding.",
-        "Priorities include urgent, fair cuts to greenhouse gas emissions, sustained investment in science, and climate finance for health delivered as grants rather than loans, so that countries can adapt without taking on more debt, they said.",
-        "\"A decade after the Paris Agreement, our findings are unambiguous: the health harms of climate change are growing faster than the world's response to them, and in many cases even accelerating,\" author Marina Romanello, executive director of the Lancet Countdown, professor at University College London, said.",
-        "Real progress has been made in clean energy, health system readiness, and health-protective regulation, all of which are already delivering health benefits to local communities, Ms. Romanello said.",
-        "\"However, progress has been too slow, too small, and isn't reaching those who need it most."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India ranked among the top countries with the highest heatwave exposure for both vulnerable age groups — infants and older adults — along with China, the U.S. and Russia, according to the tenth indicator report of the Lancet Countdown on Health and Climate Change.",
-          "Globally, total number of heatwave days decreased from 2024's historical high of 15.3 billion person-days for older adults and 2.3 billion person-days for infants."
-        ],
-        "body": [
-          "Visual Story: How heat stressed are you?",
-          "When normalised by population size, older adults experienced on average 12.8 heatwave days per individual in 2025, while infants experienced on average 8.7 heatwave days per individual, it said.",
-          "Authors of the report, led by those at the U.K.'s University College London, said climate action is picking up around the world, but failing to keep pace with global warming, especially as health harms of climate change grew faster in the decade since the 2016 Paris Agreement, compared to the previous one.",
-          "A decade after the Paris Agreement, the report's authors are calling for climate change to be formally declared a global health emergency, for a new.",
-          "WHO instrument to enable a coordinated global response, and for governments to put health at the centre of every climate decision, from emissions targets to climate funding.",
-          "Priorities include urgent, fair cuts to greenhouse gas emissions, sustained investment in science, and climate finance for health delivered as grants rather than loans, so that countries can adapt without taking on more debt, they said.",
-          "\"A decade after the Paris Agreement, our findings are unambiguous: the health harms of climate change are growing faster than the world's response to them, and in many cases even accelerating,\" author Marina Romanello, executive director of the Lancet Countdown, professor at University College London, said.",
-          "Real progress has been made in clean energy, health system readiness, and health-protective regulation, all of which are already delivering health benefits to local communities, Ms. Romanello said."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "University College London"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Authors of the report, led by those at the U.K.'s University College London, said climate action is picking up around the world, but failing to keep pace with global warming, especially as health harms of climate change grew faster in the decade since the 2016 Paris Agreement, compared to the previous one.",
-            "source": "The Hindu",
-            "item_id": "380f1e82cb4c4cba52259045:article",
-            "composed": false
-          },
-          {
-            "text": "Globally, total number of heatwave days decreased from 2024's historical high of 15.3 billion person-days for older adults and 2.3 billion person-days for infants.",
-            "source": "The Hindu",
-            "item_id": "380f1e82cb4c4cba52259045:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
