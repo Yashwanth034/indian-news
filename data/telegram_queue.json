@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T13:02:23.696603+00:00",
-  "count": 24,
+  "generated_at": "2026-10-28T13:11:57.205491+00:00",
+  "count": 25,
   "stories": [
     {
       "event_id": "b8da366f8a80b250d7acd856",
@@ -45,7 +45,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -67,7 +67,7 @@
         "When he was discharged from service in January 2013, the Release Medical Board assessed his disabilities as aggravated by military service at 70%, rounded off to 75% for life.",
         "He was granted disability pension comprising service and disability elements."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Court also asked the Union to clear the ambiguities in the pension rules.",
@@ -121,7 +121,7 @@
         "url": "https://www.livelaw.in/supreme-court/supreme-court-dismisses-centres-challenge-to-war-injury-pension-to-soldier-posted-in-kargil-556359"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -178,7 +178,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'flood' in title weight 64",
         "scale: state scope (odisha)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -282,7 +282,7 @@
       "event_time": "2026-10-28T09:50:00+00:00",
       "published_at": "2026-10-28T09:50:00+00:00",
       "effective_at": "2026-10-28T09:50:00.887000+00:00",
-      "independent_source_groups": 4,
+      "independent_source_groups": 3,
       "source_groups": {
         "national-herald": {
           "kind": "independent",
@@ -298,13 +298,6 @@
           ],
           "count": 1
         },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        },
         "thehindu": {
           "kind": "independent",
           "source_ids": [
@@ -317,18 +310,18 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 4 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (national-herald) +2",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: 4 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -399,6 +392,125 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "aa232ee76775faa8dbe33206",
+      "story_id": "aa232ee76775faa8dbe33206",
+      "headline": "Cyclone Arnab claims five lives in Andhra Pradesh; Naidu announces relief package",
+      "title": "Cyclone Arnab claims five lives in Andhra Pradesh; Naidu announces relief package",
+      "summary": "₹5 lakh ex gratia for each victim; aid announced for farmers, fishermen, households and businesses",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-claims-five-lives-in-andhra-pradesh-naidu-announces-relief-package/article71636008.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "technology-digital",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T13:07:40+00:00",
+      "published_at": "2026-10-28T13:07:40+00:00",
+      "effective_at": "2026-10-28T13:07:40+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "Cyclone Arnab claimed five lives in Andhra Pradesh, prompting Chief Minister N. Chandrababu Naidu to announce a comprehensive relief and compensation package for affected families, farmers, fishermen and businesses.",
+        "Expressing condolences to the bereaved families, he said the government had made extensive efforts to minimise casualties and property damage.",
+        "Addressing a press conference at the Secretariat on Wednesday, the Chief Minister identified the deceased as Amrapinni Devmud and Kolamuru Madhavi from the Visakhapatnam region, Chukkala Kishore from Bhimavaram, Bhagyalakshmi from Anakapalli and Kollu Venkayamma from Sakretipalli.",
+        "Mr. Devmud died after a tree fell on an electric wire, while Ms. Madhavi died after an electric pole fell on her.",
+        "Mr. Kishore was killed when a palm tree fell on him, and Ms. Bhagyalakshmi died of electrocution.",
+        "Ms. Venkayamma died when a wall collapsed on her while she was travelling in a passenger vehicle.",
+        "The families of each deceased person would receive an ex gratia payment of ₹5 lakh, Mr. Naidu said.",
+        "He urged people to remain cautious even after the cyclone crossed the coast.",
+        "Families whose houses were inundated would receive 25 kg of rice, while fishermen’s families and handloom households would get 50 kg.",
+        "Each affected family would also receive one kg each of red gram, onions, sugar and potatoes, besides one litre of palm oil.",
+        "Those staying in relief camps would receive ₹1,000 per person, subject to a ceiling of ₹3,000 per family.",
+        "Partially damaged houses would receive ₹10,000 in compensation."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab claimed five lives in Andhra Pradesh, prompting Chief Minister N. Chandrababu Naidu to announce a comprehensive relief and compensation package for affected families, farmers, fishermen and businesses.",
+          "Expressing condolences to the bereaved families, he said the government had made extensive efforts to minimise casualties and property damage."
+        ],
+        "body": [
+          "Addressing a press conference at the Secretariat on Wednesday, the Chief Minister identified the deceased as Amrapinni Devmud and Kolamuru Madhavi from the Visakhapatnam region, Chukkala Kishore from Bhimavaram, Bhagyalakshmi from Anakapalli and Kollu Venkayamma from Sakretipalli.",
+          "Mr. Devmud died after a tree fell on an electric wire, while Ms. Madhavi died after an electric pole fell on her.",
+          "Mr. Kishore was killed when a palm tree fell on him, and Ms. Bhagyalakshmi died of electrocution.",
+          "Ms. Venkayamma died when a wall collapsed on her while she was travelling in a passenger vehicle.",
+          "The families of each deceased person would receive an ex gratia payment of ₹5 lakh, Mr. Naidu said.",
+          "He urged people to remain cautious even after the cyclone crossed the coast.",
+          "Families whose houses were inundated would receive 25 kg of rice, while fishermen’s families and handloom households would get 50 kg.",
+          "Each affected family would also receive one kg each of red gram, onions, sugar and potatoes, besides one litre of palm oil."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra Pradesh"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Cyclone Arnab claimed five lives in Andhra Pradesh, prompting Chief Minister N. Chandrababu Naidu to announce a comprehensive relief and compensation package for affected families, farmers, fishermen and businesses.",
+            "source": "The Hindu",
+            "item_id": "aa232ee76775faa8dbe33206:article",
+            "composed": false
+          },
+          {
+            "text": "The families of each deceased person would receive an ex gratia payment of ₹5 lakh, Mr. Naidu said.",
+            "source": "The Hindu",
+            "item_id": "aa232ee76775faa8dbe33206:article",
+            "composed": false
+          },
+          {
+            "text": "Families whose houses were inundated would receive 25 kg of rice, while fishermen’s families and handloom households would get 50 kg.",
+            "source": "The Hindu",
+            "item_id": "aa232ee76775faa8dbe33206:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-claims-five-lives-in-andhra-pradesh-naidu-announces-relief-package/article71636008.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "8490d64df9c3e3f2f5d35afb",
       "story_id": "8490d64df9c3e3f2f5d35afb",
       "headline": "Cyclone Arnab: Andhra CM Naidu seeks Central aid to assess damage across state",
@@ -441,7 +553,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 72, stack 25.2, score 72 -> URGENT"
@@ -564,7 +676,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (chhattisgarh)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -684,7 +796,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -806,7 +918,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 25, score 72 -> URGENT"
@@ -922,7 +1034,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1009,7 +1121,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (west bengal)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -1137,7 +1249,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (telangana)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -1225,7 +1337,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'train accident' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 64, stack 29.2, score 64 -> URGENT"
@@ -1347,7 +1459,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -1466,7 +1578,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1581,7 +1693,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1589,7 +1701,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "In a stock market debut that reaffirmed investor enthusiasm for India’s digital economy, Jio Platforms was listed at Rs1,358 per share on the BSE on Wednesday, a gain of over 21 percent from its issue price of Rs1,119.",
@@ -1674,7 +1786,7 @@
         "url": "https://www.forbesindia.com/article/business/markets/red-hot-market-debut-jio-platforms-lists-at-21-premium/2999905/1"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1719,7 +1831,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1828,7 +1940,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "event term: 'takeover' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1968,7 +2080,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2102,7 +2214,7 @@
         "scale: national scope",
         "scale: multi-state (7 states)",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -2281,7 +2393,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -2407,7 +2519,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "geo: national",
         "dominant event 44, stack 44.6, score 44.6 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2533,7 +2645,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (kerala)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -2628,7 +2740,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 32.4, score 44 -> HIGH"
@@ -2696,6 +2808,115 @@
       "enrichment": "article"
     },
     {
+      "event_id": "8780d58fffce58c12891c5ff",
+      "story_id": "8780d58fffce58c12891c5ff",
+      "headline": "Supreme Court Asks Law Commission To Recommend Measures For Speedy Execution Of Arbitral Awards",
+      "title": "Supreme Court Asks Law Commission To Recommend Measures For Speedy Execution Of Arbitral Awards",
+      "summary": "A 24-year delay in the enforcement of an award forced the Court to make the intervention.",
+      "url": "https://www.livelaw.in/supreme-court/supreme-court-asks-law-commission-to-recommend-measures-for-speedy-execution-of-arbitral-awards-556365",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T13:09:24+00:00",
+      "published_at": "2026-10-28T13:09:24+00:00",
+      "effective_at": "2026-10-28T13:09:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.0h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "A 24-year delay in the enforcement of an award forced the Court to make the intervention.",
+        "The Supreme Court on Wednesday (October 28) requested the Law Commission of India to undertake a focused study of the statutory and procedural framework governing the enforcement and execution of arbitral awards and recommend measures to ensure their timely enforcement.",
+        "A bench of Justices Vikram Nath, Sandeep Mehta and Aparesh Kumar Singh said that the prolonged execution of arbitral awards undermines the very objective of arbitration as an effective alternative to conventional civil litigation.",
+        "The Court observed that even after an award is rendered and survives judicial challenge, the successful party may be forced to undergo another prolonged round of litigation to realise its benefits.",
+        "“The promise of arbitration remains unfulfilled if a party, having traversed the arbitral process, is compelled to embark upon another protracted course of litigation to secure the benefit of the award,” the Court observed.",
+        "The judgment was passed in an appeal arising from a dispute in an international commercial arbitration between Iraq-based Royal Construction Company Pvt.",
+        "and National Projects Construction Corporation concerning the enforcement of an arbitral award rendered in 2002.",
+        "More than 24 years after the award, the parties were still litigating over its enforcement.",
+        "The Court noted that the efficacy of the arbitration regime cannot be assessed merely by the speed with which an award is rendered or the limited grounds available to challenge it.",
+        "It must also be assessed by whether the successful party can realise the fruits of the award within a reasonable time.",
+        "It observed that Section 36 of the Arbitration and Conciliation Act, 1996 provides for the enforcement of arbitral awards in the same manner as decrees of courts, thereby relying on the ordinary execution machinery under the Code of Civil Procedure, 1908.",
+        "The Court identified several aspects warranting focused scrutiny, including the identification and disclosure of the award-debtor's assets, coordination between different modes of execution, disposal of repetitive or dilatory objections, and the time taken to conclude execution proceedings."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A 24-year delay in the enforcement of an award forced the Court to make the intervention.",
+          "The Supreme Court on Wednesday (October 28) requested the Law Commission of India to undertake a focused study of the statutory and procedural framework governing the enforcement and execution of arbitral awards and recommend measures to ensure their timely enforcement."
+        ],
+        "body": [
+          "A bench of Justices Vikram Nath, Sandeep Mehta and Aparesh Kumar Singh said that the prolonged execution of arbitral awards undermines the very objective of arbitration as an effective alternative to conventional civil litigation.",
+          "The Court observed that even after an award is rendered and survives judicial challenge, the successful party may be forced to undergo another prolonged round of litigation to realise its benefits.",
+          "“The promise of arbitration remains unfulfilled if a party, having traversed the arbitral process, is compelled to embark upon another protracted course of litigation to secure the benefit of the award,” the Court observed.",
+          "The judgment was passed in an appeal arising from a dispute in an international commercial arbitration between Iraq-based Royal Construction Company Pvt.",
+          "and National Projects Construction Corporation concerning the enforcement of an arbitral award rendered in 2002.",
+          "More than 24 years after the award, the parties were still litigating over its enforcement.",
+          "The Court noted that the efficacy of the arbitration regime cannot be assessed merely by the speed with which an award is rendered or the limited grounds available to challenge it.",
+          "It must also be assessed by whether the successful party can realise the fruits of the award within a reasonable time."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Wednesday (October 28) requested the Law Commission of India to undertake a focused study of the statutory and procedural framework governing the enforcement and execution of arbitral awards and recommend measures to ensure their timely enforcement.",
+            "source": "LiveLaw",
+            "item_id": "8780d58fffce58c12891c5ff:article",
+            "composed": false
+          },
+          {
+            "text": "The Court observed that even after an award is rendered and survives judicial challenge, the successful party may be forced to undergo another prolonged round of litigation to realise its benefits.",
+            "source": "LiveLaw",
+            "item_id": "8780d58fffce58c12891c5ff:article",
+            "composed": false
+          },
+          {
+            "text": "A 24-year delay in the enforcement of an award forced the Court to make the intervention.",
+            "source": "LiveLaw",
+            "item_id": "8780d58fffce58c12891c5ff:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/supreme-court/supreme-court-asks-law-commission-to-recommend-measures-for-speedy-execution-of-arbitral-awards-556365"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "a2542e2536a7034e1af96d05",
       "story_id": "a2542e2536a7034e1af96d05",
       "headline": "Supreme Court Upholds Bombay High Court Ruling Setting Aside ₹8,415 Crore YES Bank AT-1 Bond Write-Down",
@@ -2739,7 +2960,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2801,113 +3022,6 @@
         "source": "LiveLaw",
         "corroborating": [],
         "url": "https://www.livelaw.in/law-firms/litigation/supreme-court-upholds-bombay-high-court-ruling-setting-aside-8415-crore-yes-bank-at-1-bond-write-down-556351"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "dd29352e2b8fce332ee9358e",
-      "story_id": "dd29352e2b8fce332ee9358e",
-      "headline": "Delhi SIR: Supreme Court asks ECI to extend deadlines, simplify enrolment",
-      "title": "Delhi SIR: Supreme Court asks ECI to extend deadlines, simplify enrolment",
-      "summary": "While addressing the ECI in the Delhi SIR case, the top court clarified that it did not judicially review the ‘logical discrepancy’ in the Bihar SIR case",
-      "url": "https://www.thehindu.com/news/national/supreme-court-delhi-sir-enrolment-deadlines-form-6-case-updates/article71635381.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T11:48:30+00:00",
-      "published_at": "2026-10-28T11:48:30+00:00",
-      "effective_at": "2026-10-28T11:48:30+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (1.2h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 32.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Wednesday (October 28, 2026) asked the Election Commission of India (ECI) to extend deadlines for the SIR in Delhi, and to simplify the enrolment process.",
-        "The court also observed that Form 6 of special intensive revision of electoral rolls (SIR) is “cast in stone”, and that all forms, including 6, 7 and 8, cannot be changed.",
-        "The top court clarified that it did not judicially review the “logical discrepancy” in the Bihar SIR case.",
-        "“In West Bengal, the logical discrepancy was allowed to continue as an interim measure.",
-        "The constitutionality of the logical discrepancy has not been examined,” said the Bench comprising CJI Surya Kant, J. Joymalya Bagchi and J.V. Mohana during the hearing.",
-        "The top court also asked the ECI to “not go for any cut-off dates” for applying for re-inclusion and gave the ECI two weeks to make the necessary changes.",
-        "“There is no election now in the national capital,” the Bench added.",
-        "The Bench questioned why those who missed filling and submitting enumeration forms are asked to fill Form 6 for fresh voters, noting the difference between voters who are shifting from a constituency and those who are “temporarily moving out”.",
-        "The ECI said that exclusions don’t happen at the draft electoral roll stage and agreed to extend the deadline to submit claims, objections, and enrolment forms for the Delhi SIR.",
-        "The CJI urged the ECI to reach out to voters and keep submitting Forms 6 and 7, calling for the simplest remedy."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Wednesday (October 28, 2026) asked the Election Commission of India (ECI) to extend deadlines for the SIR in Delhi, and to simplify the enrolment process.",
-          "The court also observed that Form 6 of special intensive revision of electoral rolls (SIR) is “cast in stone”, and that all forms, including 6, 7 and 8, cannot be changed."
-        ],
-        "body": [
-          "The top court clarified that it did not judicially review the “logical discrepancy” in the Bihar SIR case.",
-          "“In West Bengal, the logical discrepancy was allowed to continue as an interim measure.",
-          "The constitutionality of the logical discrepancy has not been examined,” said the Bench comprising CJI Surya Kant, J. Joymalya Bagchi and J.V. Mohana during the hearing.",
-          "The top court also asked the ECI to “not go for any cut-off dates” for applying for re-inclusion and gave the ECI two weeks to make the necessary changes.",
-          "“There is no election now in the national capital,” the Bench added.",
-          "The Bench questioned why those who missed filling and submitting enumeration forms are asked to fill Form 6 for fresh voters, noting the difference between voters who are shifting from a constituency and those who are “temporarily moving out”.",
-          "The ECI said that exclusions don’t happen at the draft electoral roll stage and agreed to extend the deadline to submit claims, objections, and enrolment forms for the Delhi SIR.",
-          "The CJI urged the ECI to reach out to voters and keep submitting Forms 6 and 7, calling for the simplest remedy."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Delhi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Supreme Court on Wednesday (October 28, 2026) asked the Election Commission of India (ECI) to extend deadlines for the SIR in Delhi, and to simplify the enrolment process.",
-            "source": "The Hindu",
-            "item_id": "dd29352e2b8fce332ee9358e:article",
-            "composed": false
-          },
-          {
-            "text": "The court also observed that Form 6 of special intensive revision of electoral rolls (SIR) is “cast in stone”, and that all forms, including 6, 7 and 8, cannot be changed.",
-            "source": "The Hindu",
-            "item_id": "dd29352e2b8fce332ee9358e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/supreme-court-delhi-sir-enrolment-deadlines-form-6-case-updates/article71635381.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
