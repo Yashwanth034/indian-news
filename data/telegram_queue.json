@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T14:02:37.716283+00:00",
-  "count": 24,
+  "generated_at": "2026-10-28T14:12:01.540305+00:00",
+  "count": 25,
   "stories": [
     {
       "event_id": "b8da366f8a80b250d7acd856",
@@ -45,7 +45,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -125,6 +125,141 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e1ee591dfb96aeb8bd0505ed",
+      "story_id": "e1ee591dfb96aeb8bd0505ed",
+      "headline": "Cyclone Arnab kills 3 in Andhra Pradesh, 31 houses damaged",
+      "title": "Cyclone Arnab kills 3 in Andhra Pradesh, 31 houses damaged",
+      "summary": "#CycloneArnab has killed 3 people and damaged 31 houses in #AndhraPradesh. Around 57,000 people have been moved to relief camps, while 39 NDRF teams have been deployed across affected states",
+      "url": "https://www.nationalheraldindia.com/national/cyclone-arnab-kills-three-in-andhra-pradesh-damages-31-houses",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T09:50:00+00:00",
+      "published_at": "2026-10-28T09:50:00+00:00",
+      "effective_at": "2026-10-28T09:50:00.887000+00:00",
+      "independent_source_groups": 4,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        },
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        },
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 4 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: fresh (4.4h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 26, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "#CycloneArnab has killed 3 people and damaged 31 houses in #AndhraPradesh.",
+          "Around 57,000 people have been moved to relief camps, while 39 NDRF teams have been deployed across affected states."
+        ],
+        "body": [
+          "The storm now heads for Odisha, Chhattisgarh, Jharkhand and West Bengal, where heavy rain is forecast.",
+          "Cyclone Arnab LIVE Updates: The landfall point is specified between Bapatla and Visakhapatnam.",
+          "Cyclone Arnab weakened after landfall in Andhra Pradesh, downgrading from 'very severe' to 'severe.' Over 58,000 evacuated as heavy rainfall continues.",
+          "Relief efforts are underway, with damage assessments ongoing to minimise casualties and disruptions."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra Pradesh"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "3 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "#CycloneArnab has killed 3 people and damaged 31 houses in #AndhraPradesh.",
+            "source": "National Herald",
+            "item_id": "e1ee591dfb96aeb8bd0505ed",
+            "composed": false
+          },
+          {
+            "text": "Over 58,000 evacuated as heavy rainfall continues.",
+            "source": "Down To Earth",
+            "item_id": "262b67c694b28a01c8a2f60b",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab weakened after landfall in Andhra Pradesh, downgrading from 'very severe' to 'severe.'",
+            "source": "Down To Earth",
+            "item_id": "262b67c694b28a01c8a2f60b",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [
+          "The Hindu",
+          "NDTV",
+          "Down To Earth"
+        ],
+        "url": "https://www.nationalheraldindia.com/national/cyclone-arnab-kills-three-in-andhra-pradesh-damages-31-houses"
+      },
+      "group_size": 5,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "11aa6a7924918812c4cfe2da",
       "story_id": "11aa6a7924918812c4cfe2da",
       "headline": "Cyclone Arnab: Guntur district records 41 mm average rainfall; authorities stay alert",
@@ -167,7 +302,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -279,7 +414,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -353,110 +488,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "262b67c694b28a01c8a2f60b",
-      "story_id": "262b67c694b28a01c8a2f60b",
-      "headline": "Cyclone Arnab weakens after landfall in Andhra Pradesh; over 58,000 evacuated amid heavy rainfall",
-      "title": "Cyclone Arnab weakens after landfall in Andhra Pradesh; over 58,000 evacuated amid heavy rainfall",
-      "summary": "Cyclone Arnab weakened after landfall in Andhra Pradesh, downgrading from 'very severe' to 'severe.' Over 58,000 evacuated as heavy rainfall continues. Relief efforts are underway, with damage assessments ongoing to minimise casualties and disruptions.",
-      "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-weakens-after-landfall-in-andhra-pradesh-over-58000-evacuated-amid-heavy-rainfall",
-      "source": "Down To Earth",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T12:00:11+00:00",
-      "published_at": "2026-10-28T12:00:11+00:00",
-      "effective_at": "2026-10-28T12:00:11.660000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "downtoearth": {
-          "kind": "independent",
-          "source_ids": [
-            "downtoearth"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (downtoearth) +1",
-        "source: specialist (downtoearth) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.0h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclone Arnab weakened after landfall in Andhra Pradesh, downgrading from 'very severe' to 'severe.' Over 58,000 evacuated as heavy rainfall continues.",
-          "Relief efforts are underway, with damage assessments ongoing to minimise casualties and disruptions."
-        ],
-        "body": [
-          "Uttar Pradesh CM Yogi Adityanath directs officials to ensure public safety, prepare for emergencies and protect crops and livestock as Cyclone Arnab's impact brings warnings of rain and strong winds."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "Over 58,000 evacuated"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Uttar Pradesh CM Yogi Adityanath directs officials to ensure public safety, prepare for emergencies and protect crops and livestock as Cyclone Arnab's impact brings warnings of rain and strong winds.",
-            "source": "The Hans India",
-            "item_id": "bb19ed2ee68c394e24001f9f",
-            "composed": false
-          },
-          {
-            "text": "Relief efforts are underway, with damage assessments ongoing to minimise casualties and disruptions.",
-            "source": "Down To Earth",
-            "item_id": "262b67c694b28a01c8a2f60b",
-            "composed": false
-          }
-        ],
-        "source": "Down To Earth",
-        "corroborating": [
-          "The Hans India"
-        ],
-        "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-weakens-after-landfall-in-andhra-pradesh-over-58000-evacuated-amid-heavy-rainfall"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "a77987666bd4d25d1380ca9d",
       "story_id": "a77987666bd4d25d1380ca9d",
       "headline": "Cyclone Arnab: Coastal West Bengal districts likely to receive heavy rain",
@@ -500,7 +531,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -580,6 +611,109 @@
       "enrichment": "article"
     },
     {
+      "event_id": "84763236e8a57f3789a0a17e",
+      "story_id": "84763236e8a57f3789a0a17e",
+      "headline": "Cyclone Arnab batters southern Odisha, over 100,000 evacuated",
+      "title": "Cyclone Arnab batters southern Odisha, over 100,000 evacuated",
+      "summary": "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha. Over 100,000 people, including 2,200 pregnant women, were evacuated. Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties.",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T10:11:46+00:00",
+      "published_at": "2026-10-28T10:11:46+00:00",
+      "effective_at": "2026-10-28T10:11:46.382000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (odisha)",
+        "recency: fresh (4.0h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha.",
+          "Over 100,000 people, including 2,200 pregnant women, were evacuated."
+        ],
+        "body": [
+          "Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties.",
+          "Uttar Pradesh CM Yogi Adityanath directs officials to ensure public safety, prepare for emergencies and protect crops and livestock as Cyclone Arnab's impact brings warnings of rain and strong winds."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "Over 100,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Over 100,000 people, including 2,200 pregnant women, were evacuated.",
+            "source": "Down To Earth",
+            "item_id": "84763236e8a57f3789a0a17e",
+            "composed": false
+          },
+          {
+            "text": "Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties.",
+            "source": "Down To Earth",
+            "item_id": "84763236e8a57f3789a0a17e",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha.",
+            "source": "Down To Earth",
+            "item_id": "84763236e8a57f3789a0a17e",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [
+          "The Hans India"
+        ],
+        "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8490d64df9c3e3f2f5d35afb",
       "story_id": "8490d64df9c3e3f2f5d35afb",
       "headline": "Cyclone Arnab: Andhra CM Naidu seeks Central aid to assess damage across state",
@@ -622,7 +756,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 72, stack 21.2, score 72 -> URGENT"
@@ -702,106 +836,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "84763236e8a57f3789a0a17e",
-      "story_id": "84763236e8a57f3789a0a17e",
-      "headline": "Cyclone Arnab batters southern Odisha, over 100,000 evacuated",
-      "title": "Cyclone Arnab batters southern Odisha, over 100,000 evacuated",
-      "summary": "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha. Over 100,000 people, including 2,200 pregnant women, were evacuated. Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties.",
-      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
-      "source": "Down To Earth",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T10:11:46+00:00",
-      "published_at": "2026-10-28T10:11:46+00:00",
-      "effective_at": "2026-10-28T10:11:46.382000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "downtoearth": {
-          "kind": "independent",
-          "source_ids": [
-            "downtoearth"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (downtoearth) +1",
-        "source: specialist (downtoearth) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (odisha)",
-        "recency: fresh (3.8h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha.",
-          "Over 100,000 people, including 2,200 pregnant women, were evacuated."
-        ],
-        "body": [
-          "Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties."
-        ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "Over 100,000 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Over 100,000 people, including 2,200 pregnant women, were evacuated.",
-            "source": "Down To Earth",
-            "item_id": "84763236e8a57f3789a0a17e",
-            "composed": false
-          },
-          {
-            "text": "Authorities reported no deaths as of October 28, crediting early preparations for minimizing casualties.",
-            "source": "Down To Earth",
-            "item_id": "84763236e8a57f3789a0a17e",
-            "composed": false
-          },
-          {
-            "text": "Cyclone Arnab made landfall with winds up to 150 km/h, causing heavy rain, flooding, and crop damage in southern Odisha.",
-            "source": "Down To Earth",
-            "item_id": "84763236e8a57f3789a0a17e",
-            "composed": false
-          }
-        ],
-        "source": "Down To Earth",
-        "corroborating": [],
-        "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "2e7250ca2fc03232ddd8d587",
       "story_id": "2e7250ca2fc03232ddd8d587",
       "headline": "Ranji Trophy 2026-27: Cyclone Arnab plays spoilsport, washes out Andhra vs Chhattisgarh Day 3",
@@ -845,7 +879,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (chhattisgarh)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -965,7 +999,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -1089,7 +1123,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1176,7 +1210,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (west bengal)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -1324,7 +1358,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (17.6h ago) +4",
+        "recency: fresh (17.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1478,10 +1512,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'train accident' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
-        "dominant event 64, stack 29.2, score 64 -> URGENT"
+        "dominant event 64, stack 25.2, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -1600,10 +1634,10 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 44.4, score 58 -> HIGH"
+        "dominant event 58, stack 40.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "andhra pradesh",
@@ -1719,7 +1753,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1834,7 +1868,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1972,7 +2006,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2034,6 +2068,130 @@
       "enrichment": "article"
     },
     {
+      "event_id": "680eefffb911a3336e0ac80a",
+      "story_id": "680eefffb911a3336e0ac80a",
+      "headline": "Tuborg maker Carlsberg India moves closer to IPO, files updated DRHP for complete OFS issue",
+      "title": "Tuborg maker Carlsberg India moves closer to IPO, files updated DRHP for complete OFS issue",
+      "summary": "Danish brewing giant Carlsberg's Indian subsidiary has moved closer to its stock market debut after filing an updated draft prospectus with market regulator Sebi for an initial public offering (IPO) comprising 8.64 crore shares, joining a growing list of multinational companies seeking to unlock the value of their Indian businesses.The proposed offering will consist entirely of an offer for sale (OFS) of 86.42 million equity shares by existing shareholders, according to the updated draft red herring prospectus dated October 27.Since the issue is entirely an OFS, Carlsberg India will receive no proceeds from the share sale. The money raised will go to the selling shareholder.The company has yet to announce its IPO price band, subscription dates or the total amount it intends to raise.Carlsberg India had initially submitted its IPO documents through Sebi's confidential filing route in July 2026. The regulator cleared the pre-filing earlier this month, allowing the company to proceed with the public filing.According to earlier Bloomberg reports, the offering could raise as much as $700 million, with the company considering a launch as early as December, subject to market conditions.The company has appointed Kotak Mahindra Capital, Citigroup Global Markets India and JP Morgan India as book-running lead managers.Carlsberg India's planned listing comes amid growing interest from multinational companies in India's equity markets, where valuations have encouraged foreign parents to sell stakes in their local subsidiaries.South Korean automaker Hyundai Motor raised Rs 27,870 crore through its Indian subsidiary's IPO in October 2024, which was then the country's largest public offering. LG Electronics India followed with an Rs 11,607 crore IPO in October 2025, allowing its South Korean parent to monetise part of its investment in the Indian consumer electronics business.Both offerings were structured entirely as offers for sale. Carlsberg is now looking to follow a similar route, offering public market investors an opportunity to own shares in one of India's largest brewing companies.Also read | No. 2 on Day 1: How Jio Platforms broke India’s market cap hierarchy in debut tradeThe proposed issue also comes during a busy period for India's primary market. Jio Platforms made its stock market debut on Wednesday following its Rs 30,188 crore IPO, the largest in India's history. The offering was subscribed 22.19 times and attracted public bids worth Rs 4.9 lakh crore.About Carlsberg IndiaCarlsberg India is one of the country's leading brewing companies, competing with United Breweries, which markets the Kingfisher brand.The company entered India in 2007 and markets beer brands including Tuborg, Carlsberg Elephant and Kronenbourg 1664 Blanc.According to its updated prospectus, Carlsberg India operates seven company-owned breweries and works with nine third-party manufacturers across the country.The company reported a market share of 21.9% across 16 key states and union territories, reflecting its position in India's beer market.Its operations cover different beer categories, including mainstream, strong and premium offerings. Carlsberg India's listed peers include United Breweries, United Spirits, Radico Khaitan and Allied Blenders and Distillers.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own. These do not represent the views of The Economic Times)",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tuborg-maker-carlsberg-india-moves-closer-to-ipo-files-updated-drhp-for-complete-ofs-issue/articleshow/135265478.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "business-industry",
+      "secondary_categories": [
+        "economy-finance",
+        "technology-digital"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T12:27:57+00:00",
+      "published_at": "2026-10-28T12:27:57+00:00",
+      "effective_at": "2026-10-28T12:27:57+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: business-industry (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'market regulator' in summary weight 24",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (1.7h ago) +8",
+        "category: business-industry (importance 1) +1.2",
+        "geo: national",
+        "dominant event 24, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Danish brewing giant Carlsberg's Indian subsidiary has moved closer to its stock market debut after filing an updated draft prospectus with market regulator Sebi for an initial public offering (IPO) comprising 8.64 crore shares, joining a growing list of multinational companies seeking to unlock the value of their Indian businesses.",
+          "The proposed offering will consist entirely of an offer for sale (OFS) of 86.42 million equity shares by existing shareholders, according to the updated draft red herring prospectus dated October 27."
+        ],
+        "body": [
+          "Since the issue is entirely an OFS, Carlsberg India will receive no proceeds from the share sale.",
+          "The money raised will go to the selling shareholder.",
+          "The company has yet to announce its IPO price band, subscription dates or the total amount it intends to raise.",
+          "Carlsberg India had initially submitted its IPO documents through Sebi's confidential filing route in July 2026.",
+          "The regulator cleared the pre-filing earlier this month, allowing the company to proceed with the public filing.",
+          "The company has appointed Kotak Mahindra Capital, Citigroup Global Markets India and JP Morgan India as book-running lead managers.",
+          "Carlsberg India's planned listing comes amid growing interest from multinational companies in India's equity markets, where valuations have encouraged foreign parents to sell stakes in their local subsidiaries.",
+          "South Korean automaker Hyundai Motor raised Rs 27,870 crore through its Indian subsidiary's IPO in October 2024, which was then the country's largest public offering.",
+          "LG Electronics India followed with an Rs 11,607 crore IPO in October 2025, allowing its South Korean parent to monetise part of its investment in the Indian consumer electronics business.",
+          "Both offerings were structured entirely as offers for sale.",
+          "Carlsberg is now looking to follow a similar route, offering public market investors an opportunity to own shares in one of India's largest brewing companies.",
+          "Also read | No. 2 on Day 1: How Jio Platforms broke India’s market cap hierarchy in debut trade.",
+          "The proposed issue also comes during a busy period for India's primary market.",
+          "Jio Platforms made its stock market debut on Wednesday following its Rs 30,188 crore IPO, the largest in India's history.",
+          "The offering was subscribed 22.19 times and attracted public bids worth Rs 4.9 lakh crore.",
+          "About Carlsberg IndiaCarlsberg India is one of the country's leading brewing companies, competing with United Breweries, which markets the Kingfisher brand.",
+          "The company entered India in 2007 and markets beer brands including Tuborg, Carlsberg Elephant and Kronenbourg 1664 Blanc.",
+          "According to its updated prospectus, Carlsberg India operates seven company-owned breweries and works with nine third-party manufacturers across the country.",
+          "The company reported a market share of 21.9% across 16 key states and union territories, reflecting its position in India's beer market.",
+          "Its operations cover different beer categories, including mainstream, strong and premium offerings.",
+          "Carlsberg India's listed peers include United Breweries, United Spirits, Radico Khaitan and Allied Blenders and Distillers.(Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own.",
+          "These do not represent the views of The Economic Times)."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "July"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "South Korean automaker Hyundai Motor raised Rs 27,870 crore through its Indian subsidiary's IPO in October 2024, which was then the country's largest public offering.",
+            "source": "The Economic Times",
+            "item_id": "680eefffb911a3336e0ac80a",
+            "composed": false
+          },
+          {
+            "text": "LG Electronics India followed with an Rs 11,607 crore IPO in October 2025, allowing its South Korean parent to monetise part of its investment in the Indian consumer electronics business.",
+            "source": "The Economic Times",
+            "item_id": "680eefffb911a3336e0ac80a",
+            "composed": false
+          },
+          {
+            "text": "Carlsberg India had initially submitted its IPO documents through Sebi's confidential filing route in July 2026.",
+            "source": "The Economic Times",
+            "item_id": "680eefffb911a3336e0ac80a",
+            "composed": false
+          },
+          {
+            "text": "Jio Platforms made its stock market debut on Wednesday following its Rs 30,188 crore IPO, the largest in India's history.",
+            "source": "The Economic Times",
+            "item_id": "680eefffb911a3336e0ac80a",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tuborg-maker-carlsberg-india-moves-closer-to-ipo-files-updated-drhp-for-complete-ofs-issue/articleshow/135265478.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "956852e8df6b93549ec29cb7",
       "story_id": "956852e8df6b93549ec29cb7",
       "headline": "From JLR to Iveco, Tata Motors’ high-stakes acquisition strategy",
@@ -2081,7 +2239,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "event term: 'takeover' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -2225,7 +2383,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -2351,7 +2509,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "geo: national",
         "dominant event 44, stack 44.6, score 44.6 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2472,7 +2630,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 32.4, score 44 -> HIGH"
@@ -2579,7 +2737,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2690,7 +2848,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2799,7 +2957,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
