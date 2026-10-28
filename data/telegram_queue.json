@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:42:14.767184+00:00",
+  "generated_at": "2026-10-28T07:51:48.775381+00:00",
   "count": 18,
   "stories": [
     {
@@ -48,7 +48,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 42.4, score 82 -> IMMEDIATE"
@@ -142,7 +142,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -262,7 +262,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -401,7 +401,7 @@
         "corroboration: 4 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -478,6 +478,115 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "d38d2860658dcf3b3ad9bb87",
+      "story_id": "d38d2860658dcf3b3ad9bb87",
+      "headline": "Cyclone Arnab crosses Andhra coast; damages roads, electric poles",
+      "title": "Cyclone Arnab crosses Andhra coast; damages roads, electric poles",
+      "summary": "Cyclone Arnab crossed the Andhra Pradesh and Yanam coasts, uprooting trees and power poles, damaging roads and disrupting electricity. Two people died from electrocution, while over 10,000 residents were evacuated. Authorities launched relief and restoration operations across affected districts",
+      "url": "https://telanganatoday.com/cyclone-arnab-crosses-andhra-coast-damages-roads-electric-poles",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "energy-environment"
+      ],
+      "confidence": "low",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T07:20:18+00:00",
+      "published_at": "2026-10-28T07:20:18+00:00",
+      "effective_at": "2026-10-28T07:20:18+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "telangana-today"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab crossed the Andhra Pradesh and Yanam coasts, uprooting trees and power poles, damaging roads and disrupting electricity.",
+          "Two people died from electrocution, while over 10,000 residents were evacuated."
+        ],
+        "body": [
+          "Authorities launched relief and restoration operations across affected districts.",
+          "Cyclone Arnab crossed the Andhra coast early on Wednesday, leaving a trail of destruction with uprooted trees and electric poles and damaged roads.",
+          "The landfall process is complete with the weather system moving entirely over land; CM Naidu says no loss of life reported in Andhra.",
+          "In Visakhapatnam, waterlogging was reported on several roads and highways.",
+          "The sea remains very rough, while trees and electric poles have been uprooted in many places.",
+          "Very severe cyclonic storm Arnab crossed the Andhra Pradesh and Yanam coasts on Wednesday morning before weakening into a severe cyclonic storm."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "over 10,000 residents"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Two people died from electrocution, while over 10,000 residents were evacuated.",
+            "source": "Telangana Today",
+            "item_id": "d38d2860658dcf3b3ad9bb87",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab crossed the Andhra coast early on Wednesday, leaving a trail of destruction with uprooted trees and electric poles and damaged roads.",
+            "source": "Deccan Chronicle",
+            "item_id": "8f7e625bd78786064db74f65",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [
+          "Deccan Chronicle",
+          "The Hindu",
+          "The Hans India"
+        ],
+        "url": "https://telanganatoday.com/cyclone-arnab-crosses-andhra-coast-damages-roads-electric-poles"
+      },
+      "group_size": 5,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8da58d8ffe0fc275a273af56",
       "story_id": "8da58d8ffe0fc275a273af56",
       "headline": "Ranji Trophy LIVE score Today: Cyclone Arnab washes out Andhra vs Chattisgarh; Musheer Khan takes four wickets for Mumbai; Play halts for Lunch; Round 3, Day 3 Updates",
@@ -494,9 +603,9 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-28T07:31:44+00:00",
-      "published_at": "2026-10-28T07:31:44+00:00",
-      "effective_at": "2026-10-28T07:31:44+00:00",
+      "event_time": "2026-10-28T07:41:17+00:00",
+      "published_at": "2026-10-28T07:41:17+00:00",
+      "effective_at": "2026-10-28T07:41:17+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -560,109 +669,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "d38d2860658dcf3b3ad9bb87",
-      "story_id": "d38d2860658dcf3b3ad9bb87",
-      "headline": "Cyclone Arnab crosses Andhra coast; damages roads, electric poles",
-      "title": "Cyclone Arnab crosses Andhra coast; damages roads, electric poles",
-      "summary": "Cyclone Arnab crossed the Andhra Pradesh and Yanam coasts, uprooting trees and power poles, damaging roads and disrupting electricity. Two people died from electrocution, while over 10,000 residents were evacuated. Authorities launched relief and restoration operations across affected districts",
-      "url": "https://telanganatoday.com/cyclone-arnab-crosses-andhra-coast-damages-roads-electric-poles",
-      "source": "Telangana Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "energy-environment"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T07:20:18+00:00",
-      "published_at": "2026-10-28T07:20:18+00:00",
-      "effective_at": "2026-10-28T07:20:18+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "telangana-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (telangana-today) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.4h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclone Arnab crossed the Andhra Pradesh and Yanam coasts, uprooting trees and power poles, damaging roads and disrupting electricity.",
-          "Two people died from electrocution, while over 10,000 residents were evacuated."
-        ],
-        "body": [
-          "Authorities launched relief and restoration operations across affected districts.",
-          "The landfall process is complete with the weather system moving entirely over land; CM Naidu says no loss of life reported in Andhra.",
-          "Very severe cyclonic storm Arnab crossed the Andhra Pradesh and Yanam coasts on Wednesday morning before weakening into a severe cyclonic storm."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "over 10,000 residents"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Two people died from electrocution, while over 10,000 residents were evacuated.",
-            "source": "Telangana Today",
-            "item_id": "d38d2860658dcf3b3ad9bb87",
-            "composed": false
-          },
-          {
-            "text": "Very severe cyclonic storm Arnab crossed the Andhra Pradesh and Yanam coasts on Wednesday morning before weakening into a severe cyclonic storm.",
-            "source": "Deccan Chronicle",
-            "item_id": "2459c853cf011cf657fd5dbb",
-            "composed": false
-          }
-        ],
-        "source": "Telangana Today",
-        "corroborating": [
-          "The Hindu",
-          "Deccan Chronicle"
-        ],
-        "url": "https://telanganatoday.com/cyclone-arnab-crosses-andhra-coast-damages-roads-electric-poles"
-      },
-      "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "157cdac1ca11f2693dc8fee3",
       "story_id": "157cdac1ca11f2693dc8fee3",
       "headline": "Cyclone Arnab: Thoothukudi fishermen stay away from sea due to bad weather",
@@ -707,7 +713,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -824,7 +830,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -933,7 +939,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1076,7 +1082,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -1199,7 +1205,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1325,7 +1331,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -1445,7 +1451,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (delhi)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1563,7 +1569,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -1643,6 +1649,116 @@
       "enrichment": "article"
     },
     {
+      "event_id": "34e4a27a6aacf4f2c1f79ec8",
+      "story_id": "34e4a27a6aacf4f2c1f79ec8",
+      "headline": "Assam Launches Massive Green Recovery Drive: 2.4 Lakh Saplings Distributed to Flood-Hit Farmers",
+      "title": "Assam Launches Massive Green Recovery Drive: 2.4 Lakh Saplings Distributed to Flood-Hit Farmers",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-launches-massive-green-recovery-drive-24-lakh-saplings-distributed-to-flood-hit-farmers",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-28T07:07:12+00:00",
+      "published_at": "2026-10-28T07:07:12+00:00",
+      "effective_at": "2026-10-28T07:07:12.996000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'flood' in title weight 64",
+        "scale: state scope (assam)",
+        "recency: breaking (0.7h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 64, stack 23, score 64 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "assam",
+      "national_significance": true,
+      "article_sentences": [
+        "Sivasagar — In a major push toward climate resilience and economic rehabilitation, the Assam Government has distributed approximately 2.4 lakh high-yielding coconut and arecanut seedlings to flood-affected farmers.",
+        "The distribution drive, targeting the severely hit Sivasagar and Charaideo districts, aims to help over 50,000 farmers recover from devastating monsoon damages.",
+        "Handing over the saplings at a public event at the Boarding Playground, Agriculture and Irrigation Minister Pijush Hazarika detailed the state's vision to transform Assam into a horticultural powerhouse.",
+        "The initial phase delivered 80,000 coconut and 1.6 lakh arecanut plants to promote immediate crop diversification.",
+        "State-wide, the annual target stands at 2.84 lakh coconut and 8 lakh arecanut saplings.",
+        "Minister Hazarika announced that the government is aggressively working to double its active irrigation network, significantly reducing agrarian dependence on erratic rainfall.",
+        "Flanked by Water Resources Minister Susanta Borgohain and MLA Akhil Gogoi, Hazarika also assured farmers that adequate seeds and technical inputs are secured for the upcoming Rabi cropping season to guarantee sustainable rural livelihoods."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Sivasagar — In a major push toward climate resilience and economic rehabilitation, the Assam Government has distributed approximately 2.4 lakh high-yielding coconut and arecanut seedlings to flood-affected farmers.",
+          "The distribution drive, targeting the severely hit Sivasagar and Charaideo districts, aims to help over 50,000 farmers recover from devastating monsoon damages."
+        ],
+        "body": [
+          "Handing over the saplings at a public event at the Boarding Playground, Agriculture and Irrigation Minister Pijush Hazarika detailed the state's vision to transform Assam into a horticultural powerhouse.",
+          "The initial phase delivered 80,000 coconut and 1.6 lakh arecanut plants to promote immediate crop diversification.",
+          "State-wide, the annual target stands at 2.84 lakh coconut and 8 lakh arecanut saplings.",
+          "Minister Hazarika announced that the government is aggressively working to double its active irrigation network, significantly reducing agrarian dependence on erratic rainfall.",
+          "Flanked by Water Resources Minister Susanta Borgohain and MLA Akhil Gogoi, Hazarika also assured farmers that adequate seeds and technical inputs are secured for the upcoming Rabi cropping season to guarantee sustainable rural livelihoods."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Sivasagar — In a major push toward climate resilience and economic rehabilitation, the Assam Government has distributed approximately 2.4 lakh high-yielding coconut and arecanut seedlings to flood-affected farmers.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "34e4a27a6aacf4f2c1f79ec8:article",
+            "composed": false
+          },
+          {
+            "text": "The distribution drive, targeting the severely hit Sivasagar and Charaideo districts, aims to help over 50,000 farmers recover from devastating monsoon damages.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "34e4a27a6aacf4f2c1f79ec8:article",
+            "composed": false
+          },
+          {
+            "text": "The initial phase delivered 80,000 coconut and 1.6 lakh arecanut plants to promote immediate crop diversification.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "34e4a27a6aacf4f2c1f79ec8:article",
+            "composed": false
+          },
+          {
+            "text": "State-wide, the annual target stands at 2.84 lakh coconut and 8 lakh arecanut saplings.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "34e4a27a6aacf4f2c1f79ec8:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/assam-launches-massive-green-recovery-drive-24-lakh-saplings-distributed-to-flood-hit-farmers"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2766bf0386aacb205f0d207f",
       "story_id": "2766bf0386aacb205f0d207f",
       "headline": "Glacial Retreat—Part 2 : Five factors that make Kashmir's glacial lakes prone to outburst floods",
@@ -1699,7 +1815,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 43, score 64 -> URGENT"
@@ -1799,7 +1915,7 @@
       "secondary_categories": [
         "defence-security"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 99.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
@@ -1807,12 +1923,19 @@
       "event_time": "2026-10-28T06:50:30+00:00",
       "published_at": "2026-10-28T06:50:30+00:00",
       "effective_at": "2026-10-28T06:50:30+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "ians": {
           "kind": "wire",
           "source_ids": [
             "assam-tribune"
+          ],
+          "count": 1
+        },
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
           ],
           "count": 1
         }
@@ -1821,6 +1944,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'election'",
         "major: significance event 'election'",
@@ -1830,13 +1954,14 @@
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "event term: 'exit poll' in summary weight 27.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1949,7 +2074,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (west bengal)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -2026,159 +2151,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
-    },
-    {
-      "event_id": "4097ff16dfd32a02ba8f729f",
-      "story_id": "4097ff16dfd32a02ba8f729f",
-      "headline": "More than 100 people killed in Sudanese army drone attack on market, says Sudanese rights group",
-      "title": "More than 100 people killed in Sudanese army drone attack on market, says Sudanese rights group",
-      "summary": "Shendi, Oct 28: More than 100 people were killed in a Sudanese military drone strike on a busy market in Nyala, the capital city of the South Darfur province in southwestern Sudan, said Emergency Lawyers, a rights group tracking violence in the country, in a statement Tuesday. The strike, which it says happened Monday evening, also injured 113 people. The group said many of those killed and injured were women and children. The group blamed the Sudanese military for the strike on the market, condemning the attack. “This massacre transformed a civilian marketplace into a scene of mass killing and injury and is an assault that threatens the lives of residents and compounds their suffering amid the ongoing war,” the group said in a statement. It called for an independent investigation into the strike. Doctors Without Borders, which is also known as Médecins Sans Frontières, or MSF, said earlier that 36 bodies arrived at its hospital in Nyala and reported seeing 150 injured in its emergency room. Nyala, the capital of South Darfur province, is controlled by the paramilitary group Rapid Support Forces, which has been fighting with the Sudanese army since 2023. Drone warfare has been a staple of this war but in recent weeks, a massive escalation of drone strikes by both the RSF and the Sudanese army has killed hundreds. Both warring parties have increasingly launched explosive-laden drones that, in multiple cases, targeted civilian infrastructure, including hospitals, dams, schools, markets and displacement camps. Drone strikes have become the deadliest threat to civilians in this conflict, according to the UN. The conflict has created the world's largest humanitarian crisis, with about 34 million people — almost two out of every three Sudanese — needing assistance, according to the UN. Sudan's war started in April 2023 when tensions between the military and the RSF exploded into open fighting in the capital, Khartoum, and spread across the country. Previous strike leaves parts of Sudan without power Large parts of Sudan's capital were without electricity for more than 12 hours Tuesday after a drone strike on a major power substation, according to an electric company official. The attack left hospitals and bakeries dependent on generators and limited water supplies across Khartoum. The state-run Sudanese Electricity Distribution Company acknowledged “serious damage and technical faults” to the distribution network and several main stations and power lines but didn't explain the reason in a statement. It apologized to residents across Khartoum state for repeated and prolonged outages. A company official, speaking to The Associated Press on condition of anonymity because he was not authorized to speak to the media, said a drone attack hit the Al-Markhiyat transformer station in Omdurman, on the outskirts of Khartoum. He said it is the second to hit the station this year, blaming it on the country's paramilitary Rapid Support Forces. The RSF has been at war with the Sudanese military for more than three years. Sudan's war began in April 2023, when simmering tensions between the military and the RSF exploded into open fighting in Khartoum and spread across the country. Deadly drone attacks across Sudan have been carried out by the two rival forces. But those attacks have become rare in Khartoum since the Sudanese military took control of the capital in May 2025, after years of brutal fighting between the military and the RSF. The UN has expressed concern over the use of drones across Sudan, saying they have been killing civilians, including children, and are disrupting essential services. The official who spoke to AP said technical teams are still assessing the damage, describing the strike as major. He estimated that 60 per cent of the power supply in the capital could be affected, predicting that water stations will be most affected. A resident living near the Al-Markhiyat transformer station in Omdurman said he heard a drone shortly before the blast. “At around 4:30 in the morning, on my way to dawn prayers, I heard the sound of a drone very close by, and just moments later a huge explosion, and the power went out,” Abdel-Hafiz Abdel-Mutaal told AP. “I saw fire burning at the transformer station.” The city descended into darkness after sundown. Adel Ali, a resident of south Khartoum, said he was without power and water for 17 hours. “My main concern is how to preserve my insulin supply which needs a fridge,” Ali, a diabetes patient, said. “Life without electricity is totally paralyzed, and a bread crisis is emerging as many bakeries have shut down.” He said this would drive the price of bread even higher. The electricity company, in its statement, said power rationing would be longer than usual in all areas until repairs are finished. It did not say when that would be. Technical teams were working around the clock to restore power, it added. The conflict has killed at least 59,000 people, according to conflict monitor ACLED, though aid groups say the true toll is likely higher. Over 67 per cent of the country's population is dependent on aid, while 825,000 children face acute malnutrition. The Integrated Food Security Phase Classification, or IPC, a global food crisis monitor, warned last week that the “deteriorating humanitarian situation” across greater Darfur and Kordofan states is worsening, with food insecurity putting these areas at risk of famine. In a joint statement, over 30 countries, including the United States, United Kingdom and the European Commission, urged parties to the conflict in the country “to lift all impediments on humanitarian assistance.”",
-      "url": "https://www.greaterkashmir.com/world/more-than-100-people-killed-in-sudanese-army-drone-attack-on-market-says-sudanese-rights-group-12759747",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "defence-security",
-      "secondary_categories": [
-        "health",
-        "agriculture-rural",
-        "energy-environment",
-        "technology-digital",
-        "education",
-        "transport-infrastructure",
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T04:01:18+00:00",
-      "published_at": "2026-10-28T04:01:18+00:00",
-      "effective_at": "2026-10-28T04:01:18+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'drone attack' in title weight 44",
-        "event term: 'war' in summary weight 49.2",
-        "event term: 'drone attack' in summary weight 26.4",
-        "scale: national scope",
-        "scale: 1 people-affected figures",
-        "recency: fresh (3.7h ago) +4",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national",
-        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Shendi, Oct 28: More than 100 people were killed in a Sudanese military drone strike on a busy market in Nyala, the capital city of the South Darfur province in southwestern Sudan, said Emergency Lawyers, a rights group tracking violence in the country, in a statement Tuesday.",
-          "The strike, which it says happened Monday evening, also injured 113 people."
-        ],
-        "body": [
-          "The group said many of those killed and injured were women and children.",
-          "The group blamed the Sudanese military for the strike on the market, condemning the attack.",
-          "“This massacre transformed a civilian marketplace into a scene of mass killing and injury and is an assault that threatens the lives of residents and compounds their suffering amid the ongoing war,” the group said in a statement.",
-          "It called for an independent investigation into the strike.",
-          "Doctors.",
-          "Without Borders, which is also known as Médecins Sans Frontières, or MSF, said earlier that 36 bodies arrived at its hospital in Nyala and reported seeing 150 injured in its emergency room.",
-          "Nyala, the capital of South Darfur province, is controlled by the paramilitary group Rapid Support Forces, which has been fighting with the Sudanese army since 2023.",
-          "Drone warfare has been a staple of this war but in recent weeks, a massive escalation of drone strikes by both the RSF and the Sudanese army has killed hundreds.",
-          "Both warring parties have increasingly launched explosive-laden drones that, in multiple cases, targeted civilian infrastructure, including hospitals, dams, schools, markets and displacement camps.",
-          "Drone strikes have become the deadliest threat to civilians in this conflict, according to the UN.",
-          "The conflict has created the world's largest humanitarian crisis, with about 34 million people — almost two out of every three Sudanese — needing assistance, according to the UN.",
-          "Sudan's war started in April 2023 when tensions between the military and the RSF exploded into open fighting in the capital, Khartoum, and spread across the country.",
-          "Previous strike leaves parts of Sudan without power Large parts of Sudan's capital were without electricity for more than 12 hours Tuesday after a drone strike on a major power substation, according to an electric company official.",
-          "The attack left hospitals and bakeries dependent on generators and limited water supplies across Khartoum.",
-          "The state-run Sudanese Electricity Distribution Company acknowledged “serious damage and technical faults” to the distribution network and several main stations and power lines but didn't explain the reason in a statement.",
-          "It apologized to residents across Khartoum state for repeated and prolonged outages.",
-          "A company official, speaking to The Associated Press on condition of anonymity because he was not authorized to speak to the media, said a drone attack hit the Al-Markhiyat transformer station in Omdurman, on the outskirts of Khartoum.",
-          "He said it is the second to hit the station this year, blaming it on the country's paramilitary Rapid Support Forces.",
-          "The RSF has been at war with the Sudanese military for more than three years.",
-          "Sudan's war began in April 2023, when simmering tensions between the military and the RSF exploded into open fighting in Khartoum and spread across the country.",
-          "Deadly drone attacks across Sudan have been carried out by the two rival forces.",
-          "But those attacks have become rare in Khartoum since the Sudanese military took control of the capital in May 2025, after years of brutal fighting between the military and the RSF.",
-          "The UN has expressed concern over the use of drones across Sudan, saying they have been killing civilians, including children, and are disrupting essential services.",
-          "The official who spoke to AP said technical teams are still assessing the damage, describing the strike as major.",
-          "He estimated that 60 per cent of the power supply in the capital could be affected, predicting that water stations will be most affected.",
-          "A resident living near the Al-Markhiyat transformer station in Omdurman said he heard a drone shortly before the blast.",
-          "“At around 4:30 in the morning, on my way to dawn prayers, I heard the sound of a drone very close by, and just moments later a huge explosion, and the power went out,” Abdel-Hafiz Abdel-Mutaal told AP.",
-          "“I saw fire burning at the transformer station.” The city descended into darkness after sundown.",
-          "Adel Ali, a resident of south Khartoum, said he was without power and water for 17 hours.",
-          "“My main concern is how to preserve my insulin supply which needs a fridge,” Ali, a diabetes patient, said.",
-          "“Life without electricity is totally paralyzed, and a bread crisis is emerging as many bakeries have shut down.” He said this would drive the price of bread even higher.",
-          "The electricity company, in its statement, said power rationing would be longer than usual in all areas until repairs are finished.",
-          "It did not say when that would be.",
-          "Technical teams were working around the clock to restore power, it added.",
-          "The conflict has killed at least 59,000 people, according to conflict monitor ACLED, though aid groups say the true toll is likely higher.",
-          "Over 67 per cent of the country's population is dependent on aid, while 825,000 children face acute malnutrition.",
-          "The Integrated Food Security Phase Classification, or IPC, a global food crisis monitor, warned last week that the “deteriorating humanitarian situation” across greater Darfur and Kordofan states is worsening, with food insecurity putting these areas at risk of famine.",
-          "In a joint statement, over 30 countries, including the United States, United Kingdom and the European Commission, urged parties to the conflict in the country “to lift all impediments on humanitarian assistance.”"
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nyala"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "More than 100 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Shendi, Oct 28: More than 100 people were killed in a Sudanese military drone strike on a busy market in Nyala, the capital city of the South Darfur province in southwestern Sudan, said Emergency Lawyers, a rights group tracking violence in the country, in a statement Tuesday.",
-            "source": "Greater Kashmir",
-            "item_id": "4097ff16dfd32a02ba8f729f",
-            "composed": false
-          },
-          {
-            "text": "Without Borders, which is also known as Médecins Sans Frontières, or MSF, said earlier that 36 bodies arrived at its hospital in Nyala and reported seeing 150 injured in its emergency room.",
-            "source": "Greater Kashmir",
-            "item_id": "4097ff16dfd32a02ba8f729f",
-            "composed": false
-          },
-          {
-            "text": "The strike, which it says happened Monday evening, also injured 113 people.",
-            "source": "Greater Kashmir",
-            "item_id": "4097ff16dfd32a02ba8f729f",
-            "composed": false
-          },
-          {
-            "text": "Sudan's war began in April 2023, when simmering tensions between the military and the RSF exploded into open fighting in Khartoum and spread across the country.",
-            "source": "Greater Kashmir",
-            "item_id": "4097ff16dfd32a02ba8f729f",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/world/more-than-100-people-killed-in-sudanese-army-drone-attack-on-market-says-sudanese-rights-group-12759747"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
     }
   ]
 }
