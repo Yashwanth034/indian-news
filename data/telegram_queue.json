@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T06:51:30.570574+00:00",
-  "count": 19,
+  "generated_at": "2026-10-29T07:02:24.566542+00:00",
+  "count": 20,
   "stories": [
     {
       "event_id": "f283eb11f6393a290ad89c02",
@@ -51,7 +51,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -90,6 +90,91 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "c002126b1e2a4ea4a5c47ee9",
+      "story_id": "c002126b1e2a4ea4a5c47ee9",
+      "headline": "Daily weather tracker: Cyclone Arnab weakens, but heavy rain and hailstorms threaten several states",
+      "title": "Daily weather tracker: Cyclone Arnab weakens, but heavy rain and hailstorms threaten several states",
+      "summary": "Cyclone Arnab has weakened into a deep depression, but heavy rainfall, thunderstorms, and hailstorms continue to threaten eastern and central India. IMD warns of risks in states like Bihar, Odisha, and Chhattisgarh, urging residents to stay alert and take necessary precautions.",
+      "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-arnab-weakens-but-heavy-rain-and-hailstorms-threaten-several-states",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-29T06:50:01+00:00",
+      "published_at": "2026-10-29T06:50:01+00:00",
+      "effective_at": "2026-10-29T06:50:01.620000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "scale: multi-state (3 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab has weakened into a deep depression, but heavy rainfall, thunderstorms, and hailstorms continue to threaten eastern and central India.",
+          "IMD warns of risks in states like Bihar, Odisha, and Chhattisgarh, urging residents to stay alert and take necessary precautions."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "IMD warns of risks in states like Bihar, Odisha, and Chhattisgarh, urging residents to stay alert and take necessary precautions.",
+            "source": "Down To Earth",
+            "item_id": "c002126b1e2a4ea4a5c47ee9",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Arnab has weakened into a deep depression, but heavy rainfall, thunderstorms, and hailstorms continue to threaten eastern and central India.",
+            "source": "Down To Earth",
+            "item_id": "c002126b1e2a4ea4a5c47ee9",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [],
+        "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-arnab-weakens-but-heavy-rain-and-hailstorms-threaten-several-states"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -136,7 +221,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -256,7 +341,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -378,7 +463,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -487,7 +572,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -609,7 +694,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -689,7 +774,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -804,7 +889,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -923,7 +1008,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1032,7 +1117,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1126,7 +1211,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'regulatory action' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1261,7 +1346,7 @@
         "scale: national scope",
         "scale: multi-state (2 states)",
         "scale: 1 people-affected figures",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1426,7 +1511,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1595,7 +1680,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: national scope",
-        "recency: fresh (18.7h ago) +4",
+        "recency: fresh (18.9h ago) +4",
         "geo: national",
         "dominant event 44, stack 26, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1709,7 +1794,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1731,7 +1816,7 @@
         "However, the bench indicated that it would examine the issue in the larger institutional interest, particularly if the NCLT President raised concerns about the arrangement.",
         "\"We will not entertain this on behalf of employees who have personal interest in this."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "\"The entire power of appointment must be with the NCLT President only,\" the CJI said.",
@@ -1767,7 +1852,7 @@
         "url": "https://www.livelaw.in/top-stories/unfortunate-that-ministry-of-corporate-affairs-has-hijacked-nclt-staff-appointments-supreme-court-556422"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1811,7 +1896,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1932,7 +2017,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2040,7 +2125,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -2164,7 +2249,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 22.4, score 40 -> HIGH"
