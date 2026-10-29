@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:02:25.224432+00:00",
+  "generated_at": "2026-10-29T03:11:43.415022+00:00",
   "count": 8,
   "stories": [
     {
@@ -55,7 +55,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 42, score 72 -> URGENT"
@@ -169,7 +169,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 36, score 72 -> URGENT"
@@ -287,7 +287,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'cabinet approves' in summary weight 26.4",
         "scale: state scope (bihar)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -337,6 +337,91 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "9621fc4915b517379a8d7d1e",
+      "story_id": "9621fc4915b517379a8d7d1e",
+      "headline": "Netanyahu alleges Israeli election was ‘stolen’ by Arab-led parties",
+      "title": "Netanyahu alleges Israeli election was ‘stolen’ by Arab-led parties",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu has alleged that the election was \"stolen\" by Arab-led parties, claiming voter fraud, bribery, intimidation and the use of illegal software. The accusations came after Arab-led parties Ra'am and the Joint List were projected to win a combined 19 seats.",
+      "url": "https://telanganatoday.com/netanyahu-alleges-israeli-election-was-stolen-by-arab-led-parties",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "technology-digital",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 84.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-29T02:57:48+00:00",
+      "published_at": "2026-10-29T02:57:48+00:00",
+      "effective_at": "2026-10-29T02:57:48+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Israeli Prime Minister Benjamin Netanyahu has alleged that the election was \"stolen\" by Arab-led parties, claiming voter fraud, bribery, intimidation and the use of illegal software.",
+          "The accusations came after Arab-led parties Ra'am and the Joint List were projected to win a combined 19 seats."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The accusations came after Arab-led parties Ra'am and the Joint List were projected to win a combined 19 seats.",
+            "source": "Telangana Today",
+            "item_id": "9621fc4915b517379a8d7d1e",
+            "composed": false
+          },
+          {
+            "text": "Israeli Prime Minister Benjamin Netanyahu has alleged that the election was \"stolen\" by Arab-led parties, claiming voter fraud, bribery, intimidation and the use of illegal software.",
+            "source": "Telangana Today",
+            "item_id": "9621fc4915b517379a8d7d1e",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [],
+        "url": "https://telanganatoday.com/netanyahu-alleges-israeli-election-was-stolen-by-arab-led-parties"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -403,7 +488,7 @@
         "scale: national scope",
         "scale: multi-state (2 states)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -568,7 +653,7 @@
         "event term: 'verdict' in summary weight 13.2",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -690,222 +775,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "b1d808db3bc14c8941d7fcac",
-      "story_id": "b1d808db3bc14c8941d7fcac",
-      "headline": "Cooperative Federalism: The Constitutional Compact India Must Renew",
-      "title": "Cooperative Federalism: The Constitutional Compact India Must Renew",
-      "summary": "India’s federalism is not a contest over who commands and who complies. It is a constitutional compact designed to reconcile national unity with regional autonomy, common purpose with political diversity, and effective governance with democratic accountability. Its success depends not on the concentration of power in one centre, but on the capacity of the Union and the States to exercise their respective constitutional responsibilities in partnership. As India confronts increasingly complex economic, environmental, technological and geopolitical challenges, cooperative federalism has become more than a constitutional aspiration. It is an essential condition of democratic stability, institutional trust and effective government. The constitutional scholar Granville Austin captured this distinctive design in The Indian Constitution: Cornerstone of a Nation, describing India’s model as one of “cooperative federalism.” His insight remains relevant: India’s federal structure was shaped by the need to preserve national unity while accommodating an extraordinary diversity of languages, cultures, political traditions and regional aspirations. The constitutional challenge was never simply to distribute power, but to make that distribution work. The constitutional architecture of cooperation The Constitution does not expressly use the phrase “cooperative federalism,” but its institutional architecture reflects that philosophy. Article 1 describes India as a “Union of States.” Articles 245 and 246, read with the Seventh Schedule, distribute legislative powers between the Union and the States. Articles 256 and 257 address aspects of executive coordination, while Articles 268 to 293 govern financial relations. Article 263 provides for an Inter-State Council, and Article 280 establishes the Finance Commission. These provisions establish both the autonomy of constitutional authorities and the need for coordination. They do not envisage government as a collection of watertight compartments. The Constitution also gives the Union significant powers, reflecting the historical circumstances of Partition and the imperative of national integration. Yet this central strength must not be confused with an unrestricted authority to displace State autonomy. The constitutional framework requires a balance between national interests and the legitimate responsibilities of elected State governments. The Supreme Court’s decision in S.R. Bommai v. Union of India (1994) reinforced the constitutional significance of federalism, while the Court’s wider jurisprudence has emphasised that constitutional powers must be exercised within their prescribed limits. Federalism is therefore not merely an administrative arrangement. It is part of the constitutional structure through which democracy is organised, and power is held accountable. A strong Union requires strong States The false choice between a strong Union and strong States must be rejected. National unity is not weakened when States exercise legitimate autonomy; it is strengthened when regional aspirations find democratic expression within the constitutional framework. India’s federal experiment differs from federations formed through an agreement among previously sovereign political units. Its Constitution sought to preserve the unity of an exceptionally diverse country while assigning substantial responsibilities to different levels of government. That design requires flexibility, consultation and mutual respect. States are not administrative branches of the Union. They possess constitutionally defined powers and independent democratic mandates. Equally, State autonomy does not extinguish the Union’s responsibility for national security, macroeconomic stability and matters constitutionally entrusted to it. The objective must be constitutional partnership, not institutional rivalry. Political diversity must not become federal discrimination India’s democratic landscape is marked by different political parties governing at the Centre and across the States. This is neither an anomaly nor a constitutional inconvenience. It is a natural expression of electoral pluralism. The Constitution recognises governments formed through democratic processes, not governments entitled to cooperation only when their political affiliations coincide. A State government cannot be treated as an adversary merely because it belongs to the Opposition. Nor should legitimate access to national resources, institutional consultation or development opportunities depend on political alignment. The true test of cooperative federalism arises when governments disagree. Constitutional maturity lies in managing differences through dialogue, established institutions and law—not through confrontation, public recrimination or the politicisation of constitutional offices. Governments change; the federal compact must endure. Fiscal federalism: Autonomy requires resources The most consequential test of federalism is financial. States deliver many of the public services citizens experience directly, including healthcare, education, policing, agriculture, welfare and local infrastructure. Yet their ability to discharge these responsibilities depends substantially on the distribution of taxation powers, transfers and grants. A federation cannot function equitably if responsibilities are decentralised while financial discretion is disproportionately centralised. The Finance Commission is therefore a pivotal constitutional institution. Tax devolution and grants-in-aid must be guided by transparent principles that reconcile the needs of less-developed States, population-related responsibilities, fiscal discipline and developmental performance. States also require sufficient fiscal space to respond to local priorities and innovate in public policy. Predictable transfers, timely payments and meaningful consultation are essential to that autonomy. Fiscal federalism should not become a relationship between a permanent donor and a dependent recipient. It must recognise the States as partners in generating national prosperity and delivering constitutional promises. The GST Council: Cooperation without compulsory unanimity The Goods and Services Tax Council, established under Article 279A, offers an important institutional example. It brings the Union and the States into a common forum to deliberate on significant questions of indirect taxation and the functioning of the GST system. The experience has also exposed tensions over revenue compensation, fiscal autonomy, tax rates and the balance between uniformity and State flexibility. These disagreements do not necessarily indicate failure. Federal systems are designed to accommodate competing interests. The real test is whether institutional mechanisms permit disagreements to be negotiated fairly. The GST Council’s enduring lesson is that cooperation does not require unanimity on every question. It requires a genuine commitment to consultation, reasoned compromise and shared responsibility. Governors and the limits of constitutional discretion The office of the Governor presents another important test of federal balance. The Governor occupies a constitutional position within the parliamentary system, but the democratic legitimacy of State government ordinarily derives from its elected legislature and its majority in the Assembly. Questions concerning assent to Bills, government formation and the exercise of discretionary powers must be resolved through constitutional principles rather than partisan calculations. In State of Punjab v. Principal Secretary to the Governor of Punjab (2023), the Supreme Court underscored the importance of constitutional responsibility and the limits on gubernatorial inaction. The broader principle is that constitutional authorities must not frustrate the functioning of elected institutions through indefinite delay or an expansive interpretation of their discretion. The Governor is not an alternative political executive. The office must be exercised with restraint, neutrality and fidelity to the Constitution. Cooperative federalism requires every constitutional authority to respect the sphere of responsibility assigned to others. Cooperation for challenges that cross borders Competitive federalism has encouraged States to attract investment, improve infrastructure, generate employment and experiment with development strategies. Such competition can stimulate innovation and improve governance. But competition cannot substitute for cooperation where challenges transcend territorial boundaries. Air pollution moves across State borders. Rivers connect multiple jurisdictions. Migration, epidemics, energy security and transport infrastructure demand coordinated responses. Climate change, artificial intelligence and disaster management require shared standards, information and institutional capacity. India must therefore embrace competitive and cooperative federalism together: competition where it encourages better governance, and cooperation where common interests demand collective action. The COVID-19 pandemic demonstrated how closely national coordination and State-level implementation are connected. It also exposed the costs of inadequate consultation and uneven institutional capacity. The lesson extends to future public health emergencies, environmental crises and technological disruptions. Renewing the institutions of federal dialogue India already possesses institutions capable of strengthening this partnership, but their effectiveness depends on regular engagement and political will. The Inter-State Council under Article 263 should be used more consistently for structured discussion of Centre-State relations and inter-State disputes. The Finance Commission must retain its credibility as an impartial constitutional institution. The GST Council should remain a forum for meaningful negotiation, and NITI Aayog should facilitate substantive policy cooperation rather than merely communicate decisions already taken. Parliament, too, must give serious consideration to State perspectives when legislative proposals substantially affect their constitutional responsibilities. Consultation must occur early enough to influence policy. It cannot be reduced to a procedural formality after decisions have effectively been made. Constitutional morality and the road ahead Ultimately, cooperative federalism depends as much on constitutional morality as on institutional design. The Union must respect legitimate State autonomy; States must recognise legitimate national interests; Governors must act impartially; and elected governments must exercise their powers responsibly. Political parties must distinguish the interests of the Republic from the immediate advantages of partisan competition. The gravest threat to federalism is not disagreement. It is the erosion of institutional trust through the politicisation of constitutional powers. India’s federal compact must now be renewed through transparent fiscal arrangements, predictable intergovernmental cooperation, stronger consultation and scrupulous respect for constitutional boundaries. The question is not whether the Union or the States should prevail. It is whether both can discharge their responsibilities more effectively by working together. A confident India must be a confident Union of confident States. As Granville Austin’s understanding of cooperative federalism reminds us, national unity and regional autonomy need not be competing objectives. Properly balanced, they reinforce each other. Cooperative federalism is not a concession from the Union to the States. It is a constitutional obligation arising from the structure of the Republic. Renewing that compact is essential to India’s democratic credibility, developmental ambitions and constitutional future. (The Author is a Senior Advocate, Supreme Court of India, a public intellectual and a constitutional expert)",
-      "url": "https://risingkashmir.com/viewpoint/cooperative-federalism-the-constitutional-compact-india-must-renew-12762526",
-      "source": "Rising Kashmir",
-      "primary_source": false,
-      "tier": 3,
-      "category": "government-policy",
-      "secondary_categories": [
-        "courts-law",
-        "economy-finance",
-        "energy-environment",
-        "agriculture-rural",
-        "health",
-        "defence-security",
-        "technology-digital",
-        "national-politics",
-        "business-industry",
-        "transport-infrastructure",
-        "education",
-        "jobs-employment"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-28T21:04:37+00:00",
-      "published_at": "2026-10-28T21:04:37+00:00",
-      "effective_at": "2026-10-28T21:04:37+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "rising-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'national security'",
-        "major: significance event 'disaster'",
-        "major: significance event 'pandemic'",
-        "category: government-policy (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (rising-kashmir) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'pandemic' in summary weight 49.2",
-        "event term: 'national security' in summary weight 42",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: state scope (punjab)",
-        "recency: fresh (6.0h ago) +4",
-        "category: government-policy (importance 1) +1.2",
-        "geo: national significance (local/state event)",
-        "dominant event 49.2, stack 38.2, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "punjab",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India’s federalism is not a contest over who commands and who complies.",
-          "It is a constitutional compact designed to reconcile national unity with regional autonomy, common purpose with political diversity, and effective governance with democratic accountability."
-        ],
-        "body": [
-          "Its success depends not on the concentration of power in one centre, but on the capacity of the Union and the States to exercise their respective constitutional responsibilities in partnership.",
-          "As India confronts increasingly complex economic, environmental, technological and geopolitical challenges, cooperative federalism has become more than a constitutional aspiration.",
-          "It is an essential condition of democratic stability, institutional trust and effective government.",
-          "The constitutional scholar Granville Austin captured this distinctive design in The Indian Constitution: Cornerstone of a Nation, describing India’s model as one of “cooperative federalism.” His insight remains relevant: India’s federal structure was shaped by the need to preserve national unity while accommodating an extraordinary diversity of languages, cultures, political traditions and regional aspirations.",
-          "The constitutional challenge was never simply to distribute power, but to make that distribution work.",
-          "The constitutional architecture of cooperation.",
-          "The Constitution does not expressly use the phrase “cooperative federalism,” but its institutional architecture reflects that philosophy.",
-          "Article 1 describes India as a “Union of States.” Articles 245 and 246, read with the Seventh Schedule, distribute legislative powers between the Union and the States.",
-          "Articles 256 and 257 address aspects of executive coordination, while Articles 268 to 293 govern financial relations.",
-          "Article 263 provides for an Inter-State Council, and Article 280 establishes the Finance Commission.",
-          "These provisions establish both the autonomy of constitutional authorities and the need for coordination.",
-          "They do not envisage government as a collection of watertight compartments.",
-          "The Constitution also gives the Union significant powers, reflecting the historical circumstances of Partition and the imperative of national integration.",
-          "Yet this central strength must not be confused with an unrestricted authority to displace State autonomy.",
-          "The constitutional framework requires a balance between national interests and the legitimate responsibilities of elected State governments.",
-          "The Supreme Court’s decision in S.R. Bommai.",
-          "Union of India (1994) reinforced the constitutional significance of federalism, while the Court’s wider jurisprudence has emphasised that constitutional powers must be exercised within their prescribed limits.",
-          "Federalism is therefore not merely an administrative arrangement.",
-          "It is part of the constitutional structure through which democracy is organised, and power is held accountable.",
-          "A strong Union requires strong States.",
-          "The false choice between a strong Union and strong States must be rejected.",
-          "National unity is not weakened when States exercise legitimate autonomy; it is strengthened when regional aspirations find democratic expression within the constitutional framework.",
-          "India’s federal experiment differs from federations formed through an agreement among previously sovereign political units.",
-          "Its Constitution sought to preserve the unity of an exceptionally diverse country while assigning substantial responsibilities to different levels of government.",
-          "That design requires flexibility, consultation and mutual respect.",
-          "States are not administrative branches of the Union.",
-          "They possess constitutionally defined powers and independent democratic mandates.",
-          "Equally, State autonomy does not extinguish the Union’s responsibility for national security, macroeconomic stability and matters constitutionally entrusted to it.",
-          "The objective must be constitutional partnership, not institutional rivalry.",
-          "Political diversity must not become federal discrimination India’s democratic landscape is marked by different political parties governing at the Centre and across the States.",
-          "This is neither an anomaly nor a constitutional inconvenience.",
-          "It is a natural expression of electoral pluralism.",
-          "The Constitution recognises governments formed through democratic processes, not governments entitled to cooperation only when their political affiliations coincide.",
-          "A State government cannot be treated as an adversary merely because it belongs to the Opposition.",
-          "Nor should legitimate access to national resources, institutional consultation or development opportunities depend on political alignment.",
-          "The true test of cooperative federalism arises when governments disagree.",
-          "Constitutional maturity lies in managing differences through dialogue, established institutions and law—not through confrontation, public recrimination or the politicisation of constitutional offices.",
-          "Governments change; the federal compact must endure.",
-          "Fiscal federalism: Autonomy requires resources.",
-          "The most consequential test of federalism is financial.",
-          "States deliver many of the public services citizens experience directly, including healthcare, education, policing, agriculture, welfare and local infrastructure.",
-          "Yet their ability to discharge these responsibilities depends substantially on the distribution of taxation powers, transfers and grants.",
-          "A federation cannot function equitably if responsibilities are decentralised while financial discretion is disproportionately centralised.",
-          "The Finance Commission is therefore a pivotal constitutional institution.",
-          "Tax devolution and grants-in-aid must be guided by transparent principles that reconcile the needs of less-developed States, population-related responsibilities, fiscal discipline and developmental performance.",
-          "States also require sufficient fiscal space to respond to local priorities and innovate in public policy.",
-          "Predictable transfers, timely payments and meaningful consultation are essential to that autonomy.",
-          "Fiscal federalism should not become a relationship between a permanent donor and a dependent recipient.",
-          "It must recognise the States as partners in generating national prosperity and delivering constitutional promises.",
-          "The GST Council: Cooperation without compulsory unanimity.",
-          "The Goods and Services Tax Council, established under Article 279A, offers an important institutional example.",
-          "It brings the Union and the States into a common forum to deliberate on significant questions of indirect taxation and the functioning of the GST system.",
-          "The experience has also exposed tensions over revenue compensation, fiscal autonomy, tax rates and the balance between uniformity and State flexibility.",
-          "These disagreements do not necessarily indicate failure.",
-          "Federal systems are designed to accommodate competing interests.",
-          "The real test is whether institutional mechanisms permit disagreements to be negotiated fairly.",
-          "The GST Council’s enduring lesson is that cooperation does not require unanimity on every question.",
-          "It requires a genuine commitment to consultation, reasoned compromise and shared responsibility.",
-          "Governors and the limits of constitutional discretion.",
-          "The office of the Governor presents another important test of federal balance.",
-          "The Governor occupies a constitutional position within the parliamentary system, but the democratic legitimacy of State government ordinarily derives from its elected legislature and its majority in the Assembly.",
-          "Questions concerning assent to Bills, government formation and the exercise of discretionary powers must be resolved through constitutional principles rather than partisan calculations.",
-          "In State of Punjab.",
-          "Principal Secretary to the Governor of Punjab (2023), the Supreme Court underscored the importance of constitutional responsibility and the limits on gubernatorial inaction.",
-          "The broader principle is that constitutional authorities must not frustrate the functioning of elected institutions through indefinite delay or an expansive interpretation of their discretion.",
-          "The Governor is not an alternative political executive.",
-          "The office must be exercised with restraint, neutrality and fidelity to the Constitution.",
-          "Cooperative federalism requires every constitutional authority to respect the sphere of responsibility assigned to others.",
-          "Cooperation for challenges that cross borders Competitive federalism has encouraged States to attract investment, improve infrastructure, generate employment and experiment with development strategies.",
-          "Such competition can stimulate innovation and improve governance.",
-          "But competition cannot substitute for cooperation where challenges transcend territorial boundaries.",
-          "Air pollution moves across State borders.",
-          "Rivers connect multiple jurisdictions.",
-          "Migration, epidemics, energy security and transport infrastructure demand coordinated responses.",
-          "Climate change, artificial intelligence and disaster management require shared standards, information and institutional capacity.",
-          "India must therefore embrace competitive and cooperative federalism together: competition where it encourages better governance, and cooperation where common interests demand collective action.",
-          "The COVID-19 pandemic demonstrated how closely national coordination and State-level implementation are connected.",
-          "It also exposed the costs of inadequate consultation and uneven institutional capacity.",
-          "The lesson extends to future public health emergencies, environmental crises and technological disruptions.",
-          "Renewing the institutions of federal dialogue India already possesses institutions capable of strengthening this partnership, but their effectiveness depends on regular engagement and political will.",
-          "The Inter-State Council under Article 263 should be used more consistently for structured discussion of Centre-State relations and inter-State disputes.",
-          "The Finance Commission must retain its credibility as an impartial constitutional institution.",
-          "The GST Council should remain a forum for meaningful negotiation, and NITI Aayog should facilitate substantive policy cooperation rather than merely communicate decisions already taken.",
-          "Parliament, too, must give serious consideration to State perspectives when legislative proposals substantially affect their constitutional responsibilities.",
-          "Consultation must occur early enough to influence policy.",
-          "It cannot be reduced to a procedural formality after decisions have effectively been made.",
-          "Constitutional morality and the road ahead Ultimately, cooperative federalism depends as much on constitutional morality as on institutional design.",
-          "The Union must respect legitimate State autonomy; States must recognise legitimate national interests; Governors must act impartially; and elected governments must exercise their powers responsibly.",
-          "Political parties must distinguish the interests of the Republic from the immediate advantages of partisan competition.",
-          "The gravest threat to federalism is not disagreement.",
-          "It is the erosion of institutional trust through the politicisation of constitutional powers.",
-          "India’s federal compact must now be renewed through transparent fiscal arrangements, predictable intergovernmental cooperation, stronger consultation and scrupulous respect for constitutional boundaries.",
-          "The question is not whether the Union or the States should prevail.",
-          "It is whether both can discharge their responsibilities more effectively by working together.",
-          "A confident India must be a confident Union of confident States.",
-          "As Granville Austin’s understanding of cooperative federalism reminds us, national unity and regional autonomy need not be competing objectives.",
-          "Properly balanced, they reinforce each other.",
-          "Cooperative federalism is not a concession from the Union to the States.",
-          "It is a constitutional obligation arising from the structure of the Republic.",
-          "Renewing that compact is essential to India’s democratic credibility, developmental ambitions and constitutional future.",
-          "(The Author is a Senior Advocate, Supreme Court of India, a public intellectual and a constitutional expert)."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "S"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The constitutional scholar Granville Austin captured this distinctive design in The Indian Constitution: Cornerstone of a Nation, describing India’s model as one of “cooperative federalism.”",
-            "source": "Rising Kashmir",
-            "item_id": "b1d808db3bc14c8941d7fcac",
-            "composed": false
-          },
-          {
-            "text": "Articles 256 and 257 address aspects of executive coordination, while Articles 268 to 293 govern financial relations.",
-            "source": "Rising Kashmir",
-            "item_id": "b1d808db3bc14c8941d7fcac",
-            "composed": false
-          },
-          {
-            "text": "Air pollution moves across State borders.",
-            "source": "Rising Kashmir",
-            "item_id": "b1d808db3bc14c8941d7fcac",
-            "composed": false
-          },
-          {
-            "text": "Article 1 describes India as a “Union of States.”",
-            "source": "Rising Kashmir",
-            "item_id": "b1d808db3bc14c8941d7fcac",
-            "composed": false
-          }
-        ],
-        "source": "Rising Kashmir",
-        "corroborating": [],
-        "url": "https://risingkashmir.com/viewpoint/cooperative-federalism-the-constitutional-compact-india-must-renew-12762526"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "3a5685fd08c5e0a8918a076e",
       "story_id": "3a5685fd08c5e0a8918a076e",
       "headline": "Cabinet approves 3% hike in DA for Central Govt employees, pensioners",
@@ -962,7 +831,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (delhi)",
-        "recency: fresh (14.9h ago) +4",
+        "recency: fresh (15.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1062,7 +931,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
