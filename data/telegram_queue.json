@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T08:11:45.854389+00:00",
-  "count": 30,
+  "generated_at": "2026-10-29T08:21:56.527612+00:00",
+  "count": 28,
   "stories": [
     {
       "event_id": "f283eb11f6393a290ad89c02",
@@ -51,7 +51,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -90,6 +90,118 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "711abb51065d7ee6e27c1b13",
+      "story_id": "711abb51065d7ee6e27c1b13",
+      "headline": "Cyclone Arnab Impact: Ganjam Flood Situation Worsens, 120 People To Be Airlifted",
+      "title": "Cyclone Arnab Impact: Ganjam Flood Situation Worsens, 120 People To Be Airlifted",
+      "summary": "Ganjam: The flood situation in Ganjam district has turned critical, with thousands of people stranded as floodwaters inundate several areas. The government is planning to airlift 120 people trapped by the rising waters to safer locations, discussions with the Coast Guard has been reportedly completed. The rescue operation is expected to be carried out using […] The post Cyclone Arnab Impact: Ganjam Flood Situation Worsens, 120 People To Be Airlifted appeared first on KalingaTV .",
+      "url": "https://kalingatv.com/odisha/cyclone-arnab-impact-ganjam-flood-situation-worsens-120-people-to-be-airlifted",
+      "source": "Kalinga TV",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-29T08:17:53+00:00",
+      "published_at": "2026-10-29T08:17:53+00:00",
+      "effective_at": "2026-10-29T08:17:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "kalinga-tv": {
+          "kind": "independent",
+          "source_ids": [
+            "kalinga-tv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "rumour: 'reportedly' in summary (penalty 3, overridden)",
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Flood'",
+        "major: significance event 'flood'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Flood'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major override dropped penalties: rumour",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (kalinga-tv) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'flood' in title weight 64",
+        "event term: 'cyclone' in summary weight 43.2",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Ganjam: The flood situation in Ganjam district has turned critical, with thousands of people stranded as floodwaters inundate several areas.",
+          "The government is planning to airlift 120 people trapped by the rising waters to safer locations, discussions with the Coast Guard has been reportedly completed."
+        ],
+        "body": [
+          "A junior lineman dies after falling from an electric pole during repairs in Vizianagaram district."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ganjam district"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "120 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The rescue operation is expected to be carried out using […] The post Cyclone Arnab Impact: Ganjam Flood Situation Worsens, 120 People To Be Airlifted appeared first on KalingaTV."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The government is planning to airlift 120 people trapped by the rising waters to safer locations, discussions with the Coast Guard has been reportedly completed.",
+            "source": "Kalinga TV",
+            "item_id": "711abb51065d7ee6e27c1b13",
+            "composed": false
+          },
+          {
+            "text": "Ganjam: The flood situation in Ganjam district has turned critical, with thousands of people stranded as floodwaters inundate several areas.",
+            "source": "Kalinga TV",
+            "item_id": "711abb51065d7ee6e27c1b13",
+            "composed": false
+          }
+        ],
+        "source": "Kalinga TV",
+        "corroborating": [
+          "The Hindu"
+        ],
+        "url": "https://kalingatv.com/odisha/cyclone-arnab-impact-ganjam-flood-situation-worsens-120-people-to-be-airlifted"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -135,7 +247,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -256,7 +368,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 19.2, score 72 -> URGENT"
@@ -278,7 +390,7 @@
         "Train No. 68434 Gunupur-Cuttack Passenger, originally scheduled to depart at 2.45 a.m. on Thursday, was rescheduled to leave at 7 a.m.",
         "Several long-distance services running along the East Coast Railway mainline have also been rerouted via Vizianagaram, Titlagarh, Sambalpur and Jharsuguda, skipping halts such as Srikakulam Road, Palasa, Brahmapur, Khurda Road, Bhubaneswar and Cuttack."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Train operations in the Visakhapatnam Division were severely hit on Thursday (October 29, 2026) morning following heavy water inundation at Bridge No. 1052 (Up) between the Ichchapuram and Jhadupudi sections, triggered by an overflowing local rivulet.",
@@ -332,7 +444,7 @@
         "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-railway-bridge-near-andhras-ichchapuram-inundated-trains-cancelled-diverted/article71639000.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -378,7 +490,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (jharkhand)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -400,7 +512,7 @@
         "Light to moderate rainfall is expected during the first half of Friday [October 30, 2026] in the districts of the northwest and those adjacent to the north,\" Mr. Anand said.",
         "Several districts, including Ranchi, West Singhbhum, East Singhbhum and Simdega, ordered school closure on October 28 and 29 in view of the cyclone."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Rain intensified in parts of Jharkhand on Thursday (October 29, 2026), and the weather department has issued an alert for a downpour till next morning under the influence of \"very severe\" cyclonic storm Arnab that made landfall along the Andhra Pradesh coast on Wednesday (October 28, 2026).",
@@ -454,7 +566,7 @@
         "url": "https://www.thehindu.com/news/national/jharkhand/cyclone-arnab-triggers-heavy-rainfall-in-jharkhand-with-orange-and-yellow-alerts-issued-across-several-districts-and-school-closures-through-friday/article71639339.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -503,7 +615,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -577,129 +689,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "16f44bab6d7192713954076e",
-      "story_id": "16f44bab6d7192713954076e",
-      "headline": "Rivers in spate in north Andhra after Cyclone Arnab; flood water enters Ichchapuram",
-      "title": "Rivers in spate in north Andhra after Cyclone Arnab; flood water enters Ichchapuram",
-      "summary": "A junior lineman dies after falling from an electric pole during repairs in Vizianagaram district",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/rivers-in-spate-in-north-andhra-after-cyclone-arnab-flood-water-enters-ichchapuram/article71638931.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 70.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T07:52:45+00:00",
-      "published_at": "2026-10-29T07:52:45+00:00",
-      "effective_at": "2026-10-29T07:52:45+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'flood' in title weight 64",
-        "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Major rivers in the north Andhra districts of Srikakulam, Vizianagaram and Parvathipuram Manyam continued to receive heavy inflows from their catchment areas on Thursday (October 29, 2026), though the weather cleared after Cyclone Arnab crossed the coast on Wednesday.",
-        "The Bahuda river received 58,436 cusecs of water after flood water was released from the Baghalati dam in Odisha.",
-        "Flood water entered the border town of Ichchapuram and surrounding areas, but the situation is under control, Srikakulam Collector Swapnil Dinakar Pundkar said.",
-        "Following heavy inflows into the Vamsadhara, irrigation officials released 56,272 cusecs of water on Thursday.",
-        "Officials released 15,450 cusecs of water in the Nagavali river at the old bridge in Srikakulam after two days of continuous inflows.",
-        "A special control room has been set up at the Collector’s office (08942-240557) to monitor the flood situation in several parts of the district.",
-        "Several low-lying areas of Parvathipuram Manyam district were flooded after the Suvarnamukhi river swelled.",
-        "Vizianagaram district received an average of 187.13 mm of rain on October 28, against a normal of about 1.36 mm for the day, according to the Water Resources Department.",
-        "Srikakulam district got 131.33 mm and Parvathipuram Manyam 81.80 mm.",
-        "In each of the three districts, that one day brought more than three-quarters of all the rain recorded so far in October.",
-        "The Nagavali at Srikakulam stood at 10.16 metres at noon on Thursday and was still rising, just 1 cm below its warning level of 10.17 metres, the department’s data showed.",
-        "The danger level is 10.8 metres."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Major rivers in the north Andhra districts of Srikakulam, Vizianagaram and Parvathipuram Manyam continued to receive heavy inflows from their catchment areas on Thursday (October 29, 2026), though the weather cleared after Cyclone Arnab crossed the coast on Wednesday.",
-          "The Bahuda river received 58,436 cusecs of water after flood water was released from the Baghalati dam in Odisha."
-        ],
-        "body": [
-          "Flood water entered the border town of Ichchapuram and surrounding areas, but the situation is under control, Srikakulam Collector Swapnil Dinakar Pundkar said.",
-          "Following heavy inflows into the Vamsadhara, irrigation officials released 56,272 cusecs of water on Thursday.",
-          "Officials released 15,450 cusecs of water in the Nagavali river at the old bridge in Srikakulam after two days of continuous inflows.",
-          "A special control room has been set up at the Collector’s office (08942-240557) to monitor the flood situation in several parts of the district.",
-          "Several low-lying areas of Parvathipuram Manyam district were flooded after the Suvarnamukhi river swelled.",
-          "Vizianagaram district received an average of 187.13 mm of rain on October 28, against a normal of about 1.36 mm for the day, according to the Water Resources Department.",
-          "Srikakulam district got 131.33 mm and Parvathipuram Manyam 81.80 mm.",
-          "In each of the three districts, that one day brought more than three-quarters of all the rain recorded so far in October."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Odisha"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "under control"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Major rivers in the north Andhra districts of Srikakulam, Vizianagaram and Parvathipuram Manyam continued to receive heavy inflows from their catchment areas on Thursday (October 29, 2026), though the weather cleared after Cyclone Arnab crossed the coast on Wednesday.",
-            "source": "The Hindu",
-            "item_id": "16f44bab6d7192713954076e:article",
-            "composed": false
-          },
-          {
-            "text": "In each of the three districts, that one day brought more than three-quarters of all the rain recorded so far in October.",
-            "source": "The Hindu",
-            "item_id": "16f44bab6d7192713954076e:article",
-            "composed": false
-          },
-          {
-            "text": "The Bahuda river received 58,436 cusecs of water after flood water was released from the Baghalati dam in Odisha.",
-            "source": "The Hindu",
-            "item_id": "16f44bab6d7192713954076e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/rivers-in-spate-in-north-andhra-after-cyclone-arnab-flood-water-enters-ichchapuram/article71638931.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "3a82ef4e4679cd3807185503",
       "story_id": "3a82ef4e4679cd3807185503",
       "headline": "26 Bihar districts on alert as cyclone Arnab approaches",
@@ -751,7 +740,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -872,7 +861,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -985,7 +974,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1068,7 +1057,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -1194,7 +1183,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1274,115 +1263,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "11aa6a7924918812c4cfe2da",
-      "story_id": "11aa6a7924918812c4cfe2da",
-      "headline": "Cyclone Arnab: Guntur district records 41 mm average rainfall; authorities stay alert",
-      "title": "Cyclone Arnab: Guntur district records 41 mm average rainfall; authorities stay alert",
-      "summary": "",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-guntur-district-records-41-mm-average-rainfall-authorities-on-toes/article71634401.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T05:14:02+00:00",
-      "published_at": "2026-10-29T05:14:02+00:00",
-      "effective_at": "2026-10-29T05:14:02+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 30, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Guntur district recorded an average rainfall of 41 mm as on 9 a.m., Wednesday, with Duggirala mandal receiving the highest rainfall of 77.8 mm, followed by Tadepalle at 71.2 mm and Chebrole at 70 mm, amid the impact of cyclone Arnab.",
-        "According to the daily rainfall statistics, Mangalagiri and Kollipara received 66.6 mm each, Tenali 63.8 mm, Pedakakani 50.8 mm, Guntur East 38.4 mm, Guntur West 38.2 mm, Tadikonda 36 mm, Thullur 31.8 mm, Ponnur 24.5 mm, Kakumanu 21.6 mm, Medikonduru 18.6 mm, Vatticherukuru 17.4 mm, Pedanandipadu 16.2 mm, Prathipadu 15.6 mm and Phirangipuram 12.4 mm.",
-        "District Collector C.M. Saikanth Varma directed officials to remain at the field level and maintain heightened vigilance throughout Wednesday in view of the cyclone and continuing rainfall.",
-        "During a teleconference with officials, the Collector instructed them to inspect low-lying areas, assess the situation and ensure uninterrupted road connectivity, noting that strong winds were prevailing and stressing the need for prompt action to address emerging problems.",
-        "Stating that a tree that had fallen at Emani village in Duggirala mandal had been removed, Mr. Varma instructed Roads and Buildings and Panchayat Raj engineers to continuously monitor road conditions and take immediate remedial measures.",
-        "Water Resources Department engineers were directed to monitor water flows at Prakasam Barrage and other channels.",
-        "Schools and colleges in the district were declared closed for the day as a precautionary measure.",
-        "The Collector said Yanadi families had already been shifted to rehabilitation centres.",
-        "He instructed officials to provide quality food to the families and milk to children.",
-        "He directed all departments to submit regular situation reports and remain fully alert throughout the day.",
-        "He also cautioned people against venturing near streams, rivulets, tanks and rivers during the adverse weather conditions."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Guntur district recorded an average rainfall of 41 mm as on 9 a.m., Wednesday, with Duggirala mandal receiving the highest rainfall of 77.8 mm, followed by Tadepalle at 71.2 mm and Chebrole at 70 mm, amid the impact of cyclone Arnab.",
-          "According to the daily rainfall statistics, Mangalagiri and Kollipara received 66.6 mm each, Tenali 63.8 mm, Pedakakani 50.8 mm, Guntur East 38.4 mm, Guntur West 38.2 mm, Tadikonda 36 mm, Thullur 31.8 mm, Ponnur 24.5 mm, Kakumanu 21.6 mm, Medikonduru 18.6 mm, Vatticherukuru 17.4 mm, Pedanandipadu 16.2 mm, Prathipadu 15.6 mm and Phirangipuram 12.4 mm."
-        ],
-        "body": [
-          "District Collector C.M. Saikanth Varma directed officials to remain at the field level and maintain heightened vigilance throughout Wednesday in view of the cyclone and continuing rainfall.",
-          "During a teleconference with officials, the Collector instructed them to inspect low-lying areas, assess the situation and ensure uninterrupted road connectivity, noting that strong winds were prevailing and stressing the need for prompt action to address emerging problems.",
-          "Stating that a tree that had fallen at Emani village in Duggirala mandal had been removed, Mr. Varma instructed Roads and Buildings and Panchayat Raj engineers to continuously monitor road conditions and take immediate remedial measures.",
-          "Water Resources Department engineers were directed to monitor water flows at Prakasam Barrage and other channels.",
-          "Schools and colleges in the district were declared closed for the day as a precautionary measure.",
-          "The Collector said Yanadi families had already been shifted to rehabilitation centres.",
-          "He instructed officials to provide quality food to the families and milk to children.",
-          "He directed all departments to submit regular situation reports and remain fully alert throughout the day."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Emani village"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Guntur district recorded an average rainfall of 41 mm as on 9 a.m., Wednesday, with Duggirala mandal receiving the highest rainfall of 77.8 mm, followed by Tadepalle at 71.2 mm and Chebrole at 70 mm, amid the impact of cyclone Arnab.",
-            "source": "The Hindu",
-            "item_id": "11aa6a7924918812c4cfe2da:article",
-            "composed": false
-          },
-          {
-            "text": "According to the daily rainfall statistics, Mangalagiri and Kollipara received 66.6 mm each, Tenali 63.8 mm, Pedakakani 50.8 mm, Guntur East 38.4 mm, Guntur West 38.2 mm, Tadikonda 36 mm, Thullur 31.8 mm, Ponnur 24.5 mm, Kakumanu 21.6 mm, Medikonduru 18.6 mm, Vatticherukuru 17.4 mm, Pedanandipadu 16.2 mm, Prathipadu 15.6 mm and Phirangipuram 12.4 mm.",
-            "source": "The Hindu",
-            "item_id": "11aa6a7924918812c4cfe2da:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-guntur-district-records-41-mm-average-rainfall-authorities-on-toes/article71634401.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "e04049b22f3f5714f80be43f",
       "story_id": "e04049b22f3f5714f80be43f",
       "headline": "YSRCP slams Naidu over handling of Cyclone Arnab aftermath",
@@ -1427,7 +1307,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -1508,7 +1388,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -1628,7 +1508,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1751,7 +1631,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1854,7 +1734,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (maharashtra)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1979,7 +1859,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -2088,7 +1968,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -2182,7 +2062,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'regulatory action' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -2298,7 +2178,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
@@ -2395,7 +2275,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -2504,7 +2384,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2625,7 +2505,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2727,7 +2607,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2848,7 +2728,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2959,7 +2839,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (madhya pradesh)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 24, score 43.2 -> HIGH"
@@ -3075,7 +2955,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 31.6, score 40 -> HIGH"
@@ -3197,7 +3077,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -3275,120 +3155,6 @@
         "source": "The Hindu BusinessLine",
         "corroborating": [],
         "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-fresh-depression-alert-as-arnab-remnant-drenches-chhattisgarh-up-mp/article71639215.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "e4811401195e93f12b4dd324",
-      "story_id": "e4811401195e93f12b4dd324",
-      "headline": "India votes against US embargo on Cuba at UN, urges end to unilateral sanctions",
-      "title": "India votes against US embargo on Cuba at UN, urges end to unilateral sanctions",
-      "summary": "",
-      "url": "https://english.mathrubhumi.com/news/world/india-votes-against-us-cuba-embargo-un-sovereignty-concerns-u4lr8ilf",
-      "source": "Mathrubhumi English",
-      "primary_source": false,
-      "tier": 2,
-      "category": "international-affairs",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T02:18:54+00:00",
-      "published_at": "2026-10-29T02:18:54+00:00",
-      "effective_at": "2026-10-29T02:18:54+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "mathrubhumi": {
-          "kind": "independent",
-          "source_ids": [
-            "mathrubhumi"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: international-affairs (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (mathrubhumi) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in title weight 40",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: international-affairs (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 40, stack 22.4, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "India highlighted the severe humanitarian toll of the sanctions, including acute shortages of medicines and food, and called for dialogue, diplomacy, and the swift lifting of the embargo to support Cuba's development.",
-        "New York: India has reiterated its opposition to legislation that \"adversely affects the sovereignty\" of other states while backing a United Nations General Assembly resolution calling for an end to the long-running US economic embargo against Cuba.",
-        "Addressing the Assembly ahead of the ballot, Soumya Nair, a counsellor at India’s Permanent Mission to the UN, stated that New Delhi supports the global body's call urging member states to reject “laws and regulations with extraterritorial effects that adversely affect the sovereignty of other states and the progress and prosperity of their peoples”.",
-        "She stressed, “India reiterates the Assembly’s call to all states to refrain from promulgating and applying, and to repeal and invalidate such laws and measures in conformity with their obligations under the Charter of the United Nations and International Law”.",
-        "The resolution was adopted with 130 votes in favour, 17 against, and 25 abstentions.",
-        "The vote occurred following a tense confrontation on the Assembly floor on Tuesday, during which Cuban Foreign Minister Bruno Rodríguez Parrilla approached the lectern to challenge US Permanent Representative Mike Waltz mid-address.",
-        "In response to the disruption, Assembly President Khalilur Rahman briefly halted proceedings to restore order.",
-        "Diplomatic friction escalated further on Wednesday when the United States expelled Richard Tur de la Concepción, First Secretary at the Cuban mission, following allegations that he physically confronted an American diplomat during Tuesday's incident, according to Ambassador Waltz.",
-        "Asserting a strict posture, Waltz declared, “If you lay a hand on an American diplomat in this body, there will be consequences,” adding, “That so-called diplomat today will be put on a plane back to Havana.”",
-        "The initial altercation occurred while Waltz was speaking to the General Assembly regarding alleged corruption within Cuba’s ruling leadership.",
-        "Commenting on the event, Stéphane Dujarric, spokesperson for UN Secretary-General António Guterres, criticised the breach of protocol during a Wednesday news briefing, stating, “We expect every delegation to respect the decorum of the General Assembly’s hall and to respect the rules and procedures of the General Assembly.”",
-        "He added that UN Safety and Security officers were deployed in larger numbers and “did a great job in ensuring that the situation did not get out of hand”."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India highlighted the severe humanitarian toll of the sanctions, including acute shortages of medicines and food, and called for dialogue, diplomacy, and the swift lifting of the embargo to support Cuba's development.",
-          "New York: India has reiterated its opposition to legislation that \"adversely affects the sovereignty\" of other states while backing a United Nations General Assembly resolution calling for an end to the long-running US economic embargo against Cuba."
-        ],
-        "body": [
-          "Addressing the Assembly ahead of the ballot, Soumya Nair, a counsellor at India’s Permanent Mission to the UN, stated that New Delhi supports the global body's call urging member states to reject “laws and regulations with extraterritorial effects that adversely affect the sovereignty of other states and the progress and prosperity of their peoples”.",
-          "She stressed, “India reiterates the Assembly’s call to all states to refrain from promulgating and applying, and to repeal and invalidate such laws and measures in conformity with their obligations under the Charter of the United Nations and International Law”.",
-          "The resolution was adopted with 130 votes in favour, 17 against, and 25 abstentions.",
-          "The vote occurred following a tense confrontation on the Assembly floor on Tuesday, during which Cuban Foreign Minister Bruno Rodríguez Parrilla approached the lectern to challenge US Permanent Representative Mike Waltz mid-address.",
-          "In response to the disruption, Assembly President Khalilur Rahman briefly halted proceedings to restore order.",
-          "Diplomatic friction escalated further on Wednesday when the United States expelled Richard Tur de la Concepción, First Secretary at the Cuban mission, following allegations that he physically confronted an American diplomat during Tuesday's incident, according to Ambassador Waltz.",
-          "Asserting a strict posture, Waltz declared, “If you lay a hand on an American diplomat in this body, there will be consequences,” adding, “That so-called diplomat today will be put on a plane back to Havana.” The initial altercation occurred while Waltz was speaking to the General Assembly regarding alleged corruption within Cuba’s ruling leadership.",
-          "Commenting on the event, Stéphane Dujarric, spokesperson for UN Secretary-General António Guterres, criticised the breach of protocol during a Wednesday news briefing, stating, “We expect every delegation to respect the decorum of the General Assembly’s hall and to respect the rules and procedures of the General Assembly.” He added that UN Safety and Security officers were deployed in larger numbers and “did a great job in ensuring that the situation did not get out of hand”."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India’s Permanent Mission"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Addressing the Assembly ahead of the ballot, Soumya Nair, a counsellor at India’s Permanent Mission to the UN, stated that New Delhi supports the global body's call urging member states to reject “laws and regulations with extraterritorial effects that adversely affect the sovereignty of other states and the progress and prosperity of their peoples”.",
-            "source": "Mathrubhumi English",
-            "item_id": "e4811401195e93f12b4dd324:article",
-            "composed": false
-          },
-          {
-            "text": "Asserting a strict posture, Waltz declared, “If you lay a hand on an American diplomat in this body, there will be consequences,” adding, “That so-called diplomat today will be put on a plane back to Havana.”",
-            "source": "Mathrubhumi English",
-            "item_id": "e4811401195e93f12b4dd324:article",
-            "composed": false
-          },
-          {
-            "text": "The resolution was adopted with 130 votes in favour, 17 against, and 25 abstentions.",
-            "source": "Mathrubhumi English",
-            "item_id": "e4811401195e93f12b4dd324:article",
-            "composed": false
-          }
-        ],
-        "source": "Mathrubhumi English",
-        "corroborating": [],
-        "url": "https://english.mathrubhumi.com/news/world/india-votes-against-us-cuba-embargo-un-sovereignty-concerns-u4lr8ilf"
       },
       "group_size": 1,
       "label": "📰 NEWS",
