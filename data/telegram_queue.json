@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T13:51:41.706757+00:00",
-  "count": 20,
+  "generated_at": "2026-10-29T14:03:09.239555+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "156f74862c933e0429871404",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 30, score 82 -> IMMEDIATE"
@@ -116,6 +116,103 @@
       "enrichment": "article"
     },
     {
+      "event_id": "faf24d8a37be9c2541242de1",
+      "story_id": "faf24d8a37be9c2541242de1",
+      "headline": "Cyclone Arnab aftermath: Floods strand thousands in southern Odisha, disrupt rail services",
+      "title": "Cyclone Arnab aftermath: Floods strand thousands in southern Odisha, disrupt rail services",
+      "summary": "Cyclone Arnab's aftermath in southern Odisha leaves over 62,500 affected, with 29,000 evacuated and 2,328 stranded. Floods damage homes, crops, and infrastructure, disrupt rail services, and prompt rescue operations, including potential helicopter evacuations.",
+      "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-floods-strand-thousands-in-southern-odisha-disrupt-rail-services",
+      "source": "Down To Earth",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-29T13:39:52+00:00",
+      "published_at": "2026-10-29T13:39:52+00:00",
+      "effective_at": "2026-10-29T13:39:52.033000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Floods'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Floods'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (downtoearth) +1",
+        "source: specialist (downtoearth) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'floods' in title weight 64",
+        "event term: 'cyclone' in summary weight 43.2",
+        "event term: 'floods' in summary weight 38.4",
+        "scale: state scope (odisha)",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Arnab's aftermath in southern Odisha leaves over 62,500 affected, with 29,000 evacuated and 2,328 stranded.",
+          "Floods damage homes, crops, and infrastructure, disrupt rail services, and prompt rescue operations, including potential helicopter evacuations."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "29,000 evacuated"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Cyclone Arnab's aftermath in southern Odisha leaves over 62,500 affected, with 29,000 evacuated and 2,328 stranded.",
+            "source": "Down To Earth",
+            "item_id": "faf24d8a37be9c2541242de1",
+            "composed": false
+          },
+          {
+            "text": "Floods damage homes, crops, and infrastructure, disrupt rail services, and prompt rescue operations, including potential helicopter evacuations.",
+            "source": "Down To Earth",
+            "item_id": "faf24d8a37be9c2541242de1",
+            "composed": false
+          }
+        ],
+        "source": "Down To Earth",
+        "corroborating": [],
+        "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-floods-strand-thousands-in-southern-odisha-disrupt-rail-services"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "1cf0f1af3be874f2fbb3d592",
       "story_id": "1cf0f1af3be874f2fbb3d592",
       "headline": "Cyclone Arnab LIVE: New Bay system likely to head for Andhra coast; 300 villages marooned in Ganjam",
@@ -159,7 +256,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 36, score 72 -> URGENT"
@@ -233,362 +330,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "826b5609977fc9b729624792",
-      "story_id": "826b5609977fc9b729624792",
-      "headline": "Cyclone Arnab: Railway bridge near Andhra’s Ichchapuram inundated; trains cancelled, diverted",
-      "title": "Cyclone Arnab: Railway bridge near Andhra’s Ichchapuram inundated; trains cancelled, diverted",
-      "summary": "A special train will run between Visakhapatnam and Palasa for stranded passengers",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-railway-bridge-near-andhras-ichchapuram-inundated-trains-cancelled-diverted/article71639000.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 87.2,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T12:19:32+00:00",
-      "published_at": "2026-10-29T12:19:32+00:00",
-      "effective_at": "2026-10-29T12:19:32+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'Cyclone'",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.5h ago) +8",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 19.2, score 72 -> URGENT"
-      ],
-      "geo_scope": "local",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "article_sentences": [
-        "Train operations in the Visakhapatnam Division were severely hit on Thursday (October 29, 2026) morning following heavy water inundation at Bridge No. 1052 (Up) between the Ichchapuram and Jhadupudi sections, triggered by an overflowing local rivulet.",
-        "Railway authorities were forced to cancel, short-terminate and divert several passenger and express services after water levels crossed the danger mark.",
-        "According to South Coast Railway officials, multiple local and express operations scheduled for October 29 have been cancelled or altered.",
-        "Train No. 58531 Brahmapur-Visakhapatnam Passenger, Train No. 18525 Brahmapur-Visakhapatnam Express and Train No. 58532.",
-        "Visakhapatnam-Brahmapur Passenger have been cancelled.",
-        "To help stranded passengers, South Coast Railway has arranged to run a special train service between Visakhapatnam and Palasa.",
-        "Helpline desks have been set up at Vijayawada, Visakhapatnam and other major stations to give travellers the latest updates.",
-        "Train No. 68419 Bhubaneswar-Palasa Passenger leaving Bhubaneswar on Thursday has been short-terminated at Chatrapur, while Train No. 68420.",
-        "Palasa-Bhubaneswar Passenger will originate from Chatrapur instead of Palasa.",
-        "Train No. 18448 Jagdalpur-Bhubaneswar Express, which left Jagdalpur on October 28, has been short-terminated at Palasa.",
-        "Train No. 68434 Gunupur-Cuttack Passenger, originally scheduled to depart at 2.45 a.m. on Thursday, was rescheduled to leave at 7 a.m.",
-        "Several long-distance services running along the East Coast Railway mainline have also been rerouted via Vizianagaram, Titlagarh, Sambalpur and Jharsuguda, skipping halts such as Srikakulam Road, Palasa, Brahmapur, Khurda Road, Bhubaneswar and Cuttack."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Train operations in the Visakhapatnam Division were severely hit on Thursday (October 29, 2026) morning following heavy water inundation at Bridge No. 1052 (Up) between the Ichchapuram and Jhadupudi sections, triggered by an overflowing local rivulet.",
-          "Railway authorities were forced to cancel, short-terminate and divert several passenger and express services after water levels crossed the danger mark."
-        ],
-        "body": [
-          "According to South Coast Railway officials, multiple local and express operations scheduled for October 29 have been cancelled or altered.",
-          "Train No. 58531 Brahmapur-Visakhapatnam Passenger, Train No. 18525 Brahmapur-Visakhapatnam Express and Train No. 58532.",
-          "Visakhapatnam-Brahmapur Passenger have been cancelled.",
-          "To help stranded passengers, South Coast Railway has arranged to run a special train service between Visakhapatnam and Palasa.",
-          "Helpline desks have been set up at Vijayawada, Visakhapatnam and other major stations to give travellers the latest updates.",
-          "Train No. 68419 Bhubaneswar-Palasa Passenger leaving Bhubaneswar on Thursday has been short-terminated at Chatrapur, while Train No. 68420.",
-          "Palasa-Bhubaneswar Passenger will originate from Chatrapur instead of Palasa.",
-          "Train No. 18448 Jagdalpur-Bhubaneswar Express, which left Jagdalpur on October 28, has been short-terminated at Palasa."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bridge No"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Train operations in the Visakhapatnam Division were severely hit on Thursday (October 29, 2026) morning following heavy water inundation at Bridge No. 1052 (Up) between the Ichchapuram and Jhadupudi sections, triggered by an overflowing local rivulet.",
-            "source": "The Hindu",
-            "item_id": "826b5609977fc9b729624792:article",
-            "composed": false
-          },
-          {
-            "text": "Train No. 68419 Bhubaneswar-Palasa Passenger leaving Bhubaneswar on Thursday has been short-terminated at Chatrapur, while Train No. 68420.",
-            "source": "The Hindu",
-            "item_id": "826b5609977fc9b729624792:article",
-            "composed": false
-          },
-          {
-            "text": "Train No. 18448 Jagdalpur-Bhubaneswar Express, which left Jagdalpur on October 28, has been short-terminated at Palasa.",
-            "source": "The Hindu",
-            "item_id": "826b5609977fc9b729624792:article",
-            "composed": false
-          },
-          {
-            "text": "Train No. 58531 Brahmapur-Visakhapatnam Passenger, Train No. 18525 Brahmapur-Visakhapatnam Express and Train No. 58532.",
-            "source": "The Hindu",
-            "item_id": "826b5609977fc9b729624792:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-railway-bridge-near-andhras-ichchapuram-inundated-trains-cancelled-diverted/article71639000.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "705b0a9b5a89068d0d8b0d4a",
-      "story_id": "705b0a9b5a89068d0d8b0d4a",
-      "headline": "Cyclone Arnab: Coast Guard rescues 13 crew members from merchant ship off Andhra Pradesh’s Antarvedi",
-      "title": "Cyclone Arnab: Coast Guard rescues 13 crew members from merchant ship off Andhra Pradesh’s Antarvedi",
-      "summary": "The vessel was en route from Visakhapatnam to Singapore when it ran into trouble, Coast Guard says",
-      "url": "https://www.thehindubusinessline.com/news/coast-guard-rescues-13-crew-members-from-merchant-ship-off-andhra-pradeshs-antarvedi/article71639852.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "defence-security",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 99.2,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T09:57:32+00:00",
-      "published_at": "2026-10-29T09:57:32+00:00",
-      "effective_at": "2026-10-29T09:57:32+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.9h ago) +4",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 22.8, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "article_sentences": [
-        "The Indian Coast Guard has on Thursday rescued 13 crew members from a merchant ship stranded in the sea off Antarvedi, near the Andhra Pradesh coast, amid Arnab, a cyclone in the Bay of Bengal.",
-        "The vessel was en route from Visakhapatnam to Singapore when it ran into trouble, according to the Coast Guard.",
-        "Rescue operations have been intensified, with the Coast Guard deploying helicopters to evacuate the remaining crew members.",
-        "Thirteen people have been safely transferred to Indian Coast Guard ship Sujay, while seven others remain aboard the merchant vessel.",
-        "The rescue operation is continuing, according to a release.",
-        "THIS AD SUPPORTS OUR JOURNALISM.",
-        "FOR MINIMAL ADS.",
-        "SUBSCRIBE FOR MINIMAL ADS.",
-        "Sign into Unlock benefits!",
-        "Looks like you are already logged in from more than 5 devices!"
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Indian Coast Guard has on Thursday rescued 13 crew members from a merchant ship stranded in the sea off Antarvedi, near the Andhra Pradesh coast, amid Arnab, a cyclone in the Bay of Bengal.",
-          "The vessel was en route from Visakhapatnam to Singapore when it ran into trouble, according to the Coast Guard."
-        ],
-        "body": [
-          "Rescue operations have been intensified, with the Coast Guard deploying helicopters to evacuate the remaining crew members.",
-          "Thirteen people have been safely transferred to Indian Coast Guard ship Sujay, while seven others remain aboard the merchant vessel.",
-          "The rescue operation is continuing, according to a release.",
-          "THIS AD SUPPORTS OUR JOURNALISM.",
-          "FOR MINIMAL ADS.",
-          "SUBSCRIBE FOR MINIMAL ADS.",
-          "Sign into Unlock benefits!",
-          "Looks like you are already logged in from more than 5 devices!"
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Indian Coast Guard has on Thursday rescued 13 crew members from a merchant ship stranded in the sea off Antarvedi, near the Andhra Pradesh coast, amid Arnab, a cyclone in the Bay of Bengal.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "705b0a9b5a89068d0d8b0d4a:article",
-            "composed": false
-          },
-          {
-            "text": "Looks like you are already logged in from more than 5 devices!",
-            "source": "The Hindu BusinessLine",
-            "item_id": "705b0a9b5a89068d0d8b0d4a:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/news/coast-guard-rescues-13-crew-members-from-merchant-ship-off-andhra-pradeshs-antarvedi/article71639852.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "3a82ef4e4679cd3807185503",
-      "story_id": "3a82ef4e4679cd3807185503",
-      "headline": "26 Bihar districts on alert as cyclone Arnab approaches",
-      "title": "26 Bihar districts on alert as cyclone Arnab approaches",
-      "summary": "Patna, Oct 29 : The India Meteorological Department (IMD) has issued a high-priority weather warning for Bihar as Cyclone Arnab brings heavy rain, strong winds, and lightning across the region, with its severe impact expected to persist through October 31. In response to the intensifying system, the weather department has placed 26 districts—including Patna, Jehanabad, Begusarai, Gaya, Khagaria, Lakhisarai, Darbhanga, Madhubani, Saharsa, Samastipur, Supaul, Aurangabad, and both East and West Champaran—under 'Yellow' and 'Orange' alerts. Moderate to heavy rainfall, paired with wind gusts reaching up to 50 kmph, is anticipated throughout the affected zones. Following its landfall along the Andhra Pradesh coast, Cyclone Arnab has been moving in a north-westerly direction across the Indian subcontinent. While tracking inland, the system continues to cover a vast region, prompting heightened state-wide vigilance. Ground reports confirm significant devastation in Andhra Pradesh during its initial landfall, where six fatalities have been recorded alongside uprooted trees and extensive structural damage to homes and businesses. The effects of Cyclone Arnab are already visible in districts like Vaishali, where heavy overcast skies caused a mid-day darkness followed by intermittent rainfall and a sharp dip in temperatures on Thursday. Local farmers face immediate economic risk as the unseasonal rain and overcast conditions cause severe damage to standing paddy crops currently awaiting harvest. The persistent weather system is expected to drive daytime temperatures down further while keeping daily life severely disrupted. The Meteorological Department is closely monitoring the cyclone's trajectory and speed, urging citizens to exercise extreme caution and avoid unnecessary travel during lightning storms and high winds. According to the Meteorological Department, winds will blow at a speed of 50 kmph during this period. Furthermore, a warning has been issued for heavy rainfall accompanied by intense lightning. In light of the advance warning from the Meteorological Department, people are advised to move to safe locations during the adverse weather. If lightning occurs, do not seek shelter under poles or trees. Avoid going into open fields. Given the severity of the storm, the Disaster Management Department has also been placed on high alert. --IANS",
-      "url": "https://assamtribune.com/national/26-bihar-districts-on-alert-as-cyclone-arnab-approaches-1621464",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T07:51:52+00:00",
-      "published_at": "2026-10-29T07:51:52+00:00",
-      "effective_at": "2026-10-29T07:51:52+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'cyclone'",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'cyclone'",
-        "major: significance event 'Disaster'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (6.0h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": "bihar",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Patna, Oct 29: The India Meteorological Department (IMD) has issued a high-priority weather warning for Bihar as Cyclone Arnab brings heavy rain, strong winds, and lightning across the region, with its severe impact expected to persist through October 31.",
-          "In response to the intensifying system, the weather department has placed 26 districts—including Patna, Jehanabad, Begusarai, Gaya, Khagaria, Lakhisarai, Darbhanga, Madhubani, Saharsa, Samastipur, Supaul, Aurangabad, and both East and West Champaran—under 'Yellow' and 'Orange' alerts."
-        ],
-        "body": [
-          "Moderate to heavy rainfall, paired with wind gusts reaching up to 50 kmph, is anticipated throughout the affected zones.",
-          "Following its landfall along the Andhra Pradesh coast, Cyclone Arnab has been moving in a north-westerly direction across the Indian subcontinent.",
-          "While tracking inland, the system continues to cover a vast region, prompting heightened state-wide vigilance.",
-          "Ground reports confirm significant devastation in Andhra Pradesh during its initial landfall, where six fatalities have been recorded alongside uprooted trees and extensive structural damage to homes and businesses.",
-          "The effects of Cyclone Arnab are already visible in districts like Vaishali, where heavy overcast skies caused a mid-day darkness followed by intermittent rainfall and a sharp dip in temperatures on Thursday.",
-          "Local farmers face immediate economic risk as the unseasonal rain and overcast conditions cause severe damage to standing paddy crops currently awaiting harvest.",
-          "The persistent weather system is expected to drive daytime temperatures down further while keeping daily life severely disrupted.",
-          "The Meteorological Department is closely monitoring the cyclone's trajectory and speed, urging citizens to exercise extreme caution and avoid unnecessary travel during lightning storms and high winds.",
-          "According to the Meteorological Department, winds will blow at a speed of 50 kmph during this period.",
-          "Furthermore, a warning has been issued for heavy rainfall accompanied by intense lightning.",
-          "In light of the advance warning from the Meteorological Department, people are advised to move to safe locations during the adverse weather.",
-          "If lightning occurs, do not seek shelter under poles or trees.",
-          "Avoid going into open fields.",
-          "Given the severity of the storm, the Disaster Management Department has also been placed on high alert.",
-          "--IANS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Patna, Oct 29: The India Meteorological Department (IMD) has issued a high-priority weather warning for Bihar as Cyclone Arnab brings heavy rain, strong winds, and lightning across the region, with its severe impact expected to persist through October 31.",
-            "source": "The Assam Tribune",
-            "item_id": "3a82ef4e4679cd3807185503",
-            "composed": false
-          },
-          {
-            "text": "The effects of Cyclone Arnab are already visible in districts like Vaishali, where heavy overcast skies caused a mid-day darkness followed by intermittent rainfall and a sharp dip in temperatures on Thursday.",
-            "source": "The Assam Tribune",
-            "item_id": "3a82ef4e4679cd3807185503",
-            "composed": false
-          },
-          {
-            "text": "Moderate to heavy rainfall, paired with wind gusts reaching up to 50 kmph, is anticipated throughout the affected zones.",
-            "source": "The Assam Tribune",
-            "item_id": "3a82ef4e4679cd3807185503",
-            "composed": false
-          },
-          {
-            "text": "In response to the intensifying system, the weather department has placed 26 districts—including Patna, Jehanabad, Begusarai, Gaya, Khagaria, Lakhisarai, Darbhanga, Madhubani, Saharsa, Samastipur, Supaul, Aurangabad, and both East and West Champaran—under 'Yellow' and 'Orange' alerts.",
-            "source": "The Assam Tribune",
-            "item_id": "3a82ef4e4679cd3807185503",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/national/26-bihar-districts-on-alert-as-cyclone-arnab-approaches-1621464"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "bcffbebc862492d7016419b8",
       "story_id": "bcffbebc862492d7016419b8",
       "headline": "Jal Shakti Minister CR Patil reviews Ganga basin flood control initiatives",
@@ -634,7 +375,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -739,7 +480,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -867,7 +608,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -969,7 +710,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -1119,7 +860,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -1216,7 +957,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1312,7 +1053,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 44.4, score 44.4 -> HIGH"
@@ -1451,7 +1192,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1473,7 +1214,7 @@
         "Why don't [banks] stop messages asking for money?",
         "The moment a transaction comes, why can't it be withheld?\""
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "In the digital arrest matter, the Supreme Court today expressed that financial institutions must face strict liability in the event of a customer becoming victim to digital arrest/cyber fraud if the institution/its officials are found negligent in exercise of due diligence.",
@@ -1515,7 +1256,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-digital-arrest-cyber-fraud-banks-strict-liability-negligence-failure-in-due-diligence-collusion-556538"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1560,7 +1301,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1628,108 +1369,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "5ea5d72dfb41d83c99459d79",
-      "story_id": "5ea5d72dfb41d83c99459d79",
-      "headline": "Supreme Court refuses to order ‘full public disclosure’ of ultimate beneficiaries of AIFs, FPIs without ‘legal framework’",
-      "title": "Supreme Court refuses to order ‘full public disclosure’ of ultimate beneficiaries of AIFs, FPIs without ‘legal framework’",
-      "summary": "Rapid expansion of Alternative Investment Funds and Foreign Portfolio Investors raises serious concerns over transparency, the petition says; the court asks why an MP wants to file a public interest petition under Article 32 when she could raise the issue in the Parliament",
-      "url": "https://www.thehindu.com/news/national/supreme-court-refuses-to-order-full-public-disclosure-of-ultimate-beneficiaries-of-aifs-fpis-without-legal-framework/article71639833.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 87.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T12:37:02+00:00",
-      "published_at": "2026-10-29T12:37:02+00:00",
-      "effective_at": "2026-10-29T12:37:02+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Thursday (October 29, 2026) refused to direct the Securities and Exchange Board of India (SEBI) to mandate full public disclosure of the details of ultimate beneficial owners who own and profit from Alternative Investment Funds (AIFs) and Foreign Portfolio Investors (FPIs) operating within the Indian securities market.",
-        "A judicial order mandating full public disclosure of the individuals behind these AIFs and FPIs could be justified without the support of an existing “legal framework of Regulations”, the court said.",
-        "A three-judge Bench headed by Justice B.V. Nagarathna said it was ultimately for the Union government and the market regulator (SEBI) to put in a framework, based on which the court could issue a mandamus for “full public disclosure”.",
-        "The court asked the Centre and SEBI to consider the need for bringing out suitable transparency Regulations.",
-        "“SEBI is the regulator.",
-        "It has been granted certain powers.",
-        "The situation in the country and in the international economy keeps on evolving,” Justice D.K. Upadhyay said.",
-        "The court was hearing a writ petition filed by Member of Parliament Mahua Moitra, represented by advocates Prashant Bhushan and Cheryl D’Souza, who argued that the rapid expansion of AIFs and FPIs in financial markets had given rise to serious concerns over transparency.",
-        "Unlike mutual funds, which were subject to stringent public disclosure norms, AIFs and FPIs operate under opaque structures, raising risks of market manipulation, money laundering, and tax evasion, the petition said.",
-        "AIFs registered with SEBl had increased over 30 times from 42 in 2013 to 1,528 in 2025, Ms. Moitra said.",
-        "Their average Assets Under Management (AUM) had hiked by over 835 times from ₹1,437 crore in 2013 to almost ₹13 lakh crore by the end of 2024.",
-        "Mr. Bhushan submitted that the Assets Under Custody (AUC) of registered FPIs was over ₹74 lakh crore in 2025."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Thursday (October 29, 2026) refused to direct the Securities and Exchange Board of India (SEBI) to mandate full public disclosure of the details of ultimate beneficial owners who own and profit from Alternative Investment Funds (AIFs) and Foreign Portfolio Investors (FPIs) operating within the Indian securities market.",
-          "A judicial order mandating full public disclosure of the individuals behind these AIFs and FPIs could be justified without the support of an existing “legal framework of Regulations”, the court said."
-        ],
-        "body": [
-          "A three-judge Bench headed by Justice B.V. Nagarathna said it was ultimately for the Union government and the market regulator (SEBI) to put in a framework, based on which the court could issue a mandamus for “full public disclosure”.",
-          "The court asked the Centre and SEBI to consider the need for bringing out suitable transparency Regulations.",
-          "“SEBI is the regulator.",
-          "It has been granted certain powers.",
-          "The situation in the country and in the international economy keeps on evolving,” Justice D.K. Upadhyay said.",
-          "The court was hearing a writ petition filed by Member of Parliament Mahua Moitra, represented by advocates Prashant Bhushan and Cheryl D’Souza, who argued that the rapid expansion of AIFs and FPIs in financial markets had given rise to serious concerns over transparency.",
-          "Unlike mutual funds, which were subject to stringent public disclosure norms, AIFs and FPIs operate under opaque structures, raising risks of market manipulation, money laundering, and tax evasion, the petition said.",
-          "AIFs registered with SEBl had increased over 30 times from 42 in 2013 to 1,528 in 2025, Ms. Moitra said."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court on Thursday (October 29, 2026) refused to direct the Securities and Exchange Board of India (SEBI) to mandate full public disclosure of the details of ultimate beneficial owners who own and profit from Alternative Investment Funds (AIFs) and Foreign Portfolio Investors (FPIs) operating within the Indian securities market.",
-            "source": "The Hindu",
-            "item_id": "5ea5d72dfb41d83c99459d79:article",
-            "composed": false
-          },
-          {
-            "text": "AIFs registered with SEBl had increased over 30 times from 42 in 2013 to 1,528 in 2025, Ms. Moitra said.",
-            "source": "The Hindu",
-            "item_id": "5ea5d72dfb41d83c99459d79:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/supreme-court-refuses-to-order-full-public-disclosure-of-ultimate-beneficiaries-of-aifs-fpis-without-legal-framework/article71639833.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "d3609db195532c50a5d38f95",
       "story_id": "d3609db195532c50a5d38f95",
       "headline": "Tamil Nadu Cabinet clears incentives for eight new industrial projects worth ₹3,767 crore",
@@ -1772,7 +1411,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 22, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1886,7 +1525,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1948,6 +1587,114 @@
       "enrichment": "article"
     },
     {
+      "event_id": "4a44256400d1ed8434a0ffa9",
+      "story_id": "4a44256400d1ed8434a0ffa9",
+      "headline": "Gold steady at Rs 1.46 lakh/10 gm in Delhi; silver rises Rs 500/kg",
+      "title": "Gold steady at Rs 1.46 lakh/10 gm in Delhi; silver rises Rs 500/kg",
+      "summary": "New Delhi, Oct 29: Gold prices were steady at Rs 1.46 lakh per 10 grams in the national capital on Thursday as jewellers and retailers remained cautious about fresh purchases amid elevated rates. Silver prices, however, rose by Rs 500 to Rs 1,98,500 per kilogram, inclusive of all taxes, according to the All India Sarafa Association. The white metal closed unchanged at Rs 1.98 lakh per kg on Wednesday. Traders said gold prices remained steady as jewellers and retailers were cautious about fresh buying amid high prices. \"Domestic gold prices remained steady on Thursday, following range-bound movements in international markets amid mixed signals,\" said Saumil Gandhi, Senior Analyst of Commodities at HDFC Securities. A hawkish stance by the US Federal Reserve overshadowed support from a decline in US Treasury yields and crude oil prices, he said. In international markets, spot gold fell by USD 49.38, or 1.21 per cent, to USD 4,018.08 per ounce, while silver declined 3 per cent to USD 52.41 per ounce. \"Gold remained under pressure to hover around USD 4,024 per ounce on Thursday, as the Federal Reserve's hawkish outlook and persistent energy-driven inflation strengthen expectations of further monetary policy tightening,\" said Vedika Narvekar, Research Analyst- Commodities & Currencies, Anand Rathi Share and Stock Brokers Ltd. Firm crude oil prices, uncertainty around the Fed's policy path and equity-market liquidations are adding to volatility, although geopolitical risks and central-bank buying may offer support, she said.",
+      "url": "https://www.greaterkashmir.com/national/gold-steady-at-rs-146-lakh10-gm-in-delhi-silver-rises-rs-500kg-12765799",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 78.2,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-29T13:59:39+00:00",
+      "published_at": "2026-10-29T13:59:39+00:00",
+      "effective_at": "2026-10-29T13:59:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'monetary policy' in summary weight 24",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.1h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national significance (local/state event)",
+        "dominant event 24, stack 43.2, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 29: Gold prices were steady at Rs 1.46 lakh per 10 grams in the national capital on Thursday as jewellers and retailers remained cautious about fresh purchases amid elevated rates.",
+          "Silver prices, however, rose by Rs 500 to Rs 1,98,500 per kilogram, inclusive of all taxes, according to the All India Sarafa Association."
+        ],
+        "body": [
+          "The white metal closed unchanged at Rs 1.98 lakh per kg on Wednesday.",
+          "Traders said gold prices remained steady as jewellers and retailers were cautious about fresh buying amid high prices.",
+          "\"Domestic gold prices remained steady on Thursday, following range-bound movements in international markets amid mixed signals,\" said Saumil Gandhi, Senior Analyst of Commodities at HDFC Securities.",
+          "A hawkish stance by the US Federal Reserve overshadowed support from a decline in US Treasury yields and crude oil prices, he said.",
+          "In international markets, spot gold fell by USD 49.38, or 1.21 per cent, to USD 4,018.08 per ounce, while silver declined 3 per cent to USD 52.41 per ounce.",
+          "\"Gold remained under pressure to hover around USD 4,024 per ounce on Thursday, as the Federal Reserve's hawkish outlook and persistent energy-driven inflation strengthen expectations of further monetary policy tightening,\" said Vedika Narvekar, Research Analyst- Commodities & Currencies, Anand Rathi Share and Stock Brokers Ltd.",
+          "Firm crude oil prices, uncertainty around the Fed's policy path and equity-market liquidations are adding to volatility, although geopolitical risks and central-bank buying may offer support, she said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rs"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Delhi, Oct 29: Gold prices were steady at Rs 1.46 lakh per 10 grams in the national capital on Thursday as jewellers and retailers remained cautious about fresh purchases amid elevated rates.",
+            "source": "Greater Kashmir",
+            "item_id": "4a44256400d1ed8434a0ffa9",
+            "composed": false
+          },
+          {
+            "text": "The white metal closed unchanged at Rs 1.98 lakh per kg on Wednesday.",
+            "source": "Greater Kashmir",
+            "item_id": "4a44256400d1ed8434a0ffa9",
+            "composed": false
+          },
+          {
+            "text": "\"Gold remained under pressure to hover around USD 4,024 per ounce on Thursday, as the Federal Reserve's hawkish outlook and persistent energy-driven inflation strengthen expectations of further monetary policy tightening,\" said Vedika Narvekar, Research Analyst- Commodities & Currencies, Anand Rathi Share and Stock Brokers Ltd.",
+            "source": "Greater Kashmir",
+            "item_id": "4a44256400d1ed8434a0ffa9",
+            "composed": false
+          },
+          {
+            "text": "\"Domestic gold prices remained steady on Thursday, following range-bound movements in international markets amid mixed signals,\" said Saumil Gandhi, Senior Analyst of Commodities at HDFC Securities.",
+            "source": "Greater Kashmir",
+            "item_id": "4a44256400d1ed8434a0ffa9",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/national/gold-steady-at-rs-146-lakh10-gm-in-delhi-silver-rises-rs-500kg-12765799"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "27288dec3e2197e6c64bae67",
       "story_id": "27288dec3e2197e6c64bae67",
       "headline": "IMD update: Coastal AP, TN, Kerala brace for wet spell as new depression looms",
@@ -1991,7 +1738,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (kerala)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 28, score 43.2 -> HIGH"
@@ -2105,10 +1852,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
-        "dominant event 42, stack 28, score 42 -> HIGH"
+        "dominant event 42, stack 24, score 42 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -2214,7 +1961,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquires' in title weight 40",
         "scale: state scope (karnataka)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: state",
         "dominant event 40, stack 17.2, score 40 -> HIGH"
