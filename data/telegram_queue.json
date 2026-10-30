@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:21:46.386188+00:00",
+  "generated_at": "2026-10-30T00:32:13.735109+00:00",
   "count": 6,
   "stories": [
     {
@@ -46,7 +46,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -164,7 +164,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (assam)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 44, score 64 -> URGENT"
@@ -244,6 +244,88 @@
       "enrichment": "article"
     },
     {
+      "event_id": "b8ae6f507b0699fca5bbec45",
+      "story_id": "b8ae6f507b0699fca5bbec45",
+      "headline": "Cabinet approves Rs 8 per litre milk price hike from November 1",
+      "title": "Cabinet approves Rs 8 per litre milk price hike from November 1",
+      "summary": "The decision was taken at the Cabinet meeting held on Wednesday. According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs.",
+      "url": "https://www.thehansindia.com/news/cities/bengaluru/cabinet-approves-rs-8-per-litre-milk-price-hike-from-november-1-1137361",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": null,
+      "secondary_categories": [
+        "weather-disasters",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-30T00:25:13+00:00",
+      "published_at": "2026-10-30T00:25:13+00:00",
+      "effective_at": "2026-10-30T00:25:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'drought'",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "event term: 'drought' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The decision was taken at the Cabinet meeting held on Wednesday.",
+          "According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The decision was taken at the Cabinet meeting held on Wednesday.",
+            "source": "The Hans India",
+            "item_id": "b8ae6f507b0699fca5bbec45",
+            "composed": false
+          },
+          {
+            "text": "According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs.",
+            "source": "The Hans India",
+            "item_id": "b8ae6f507b0699fca5bbec45",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/bengaluru/cabinet-approves-rs-8-per-litre-milk-price-hike-from-november-1-1137361"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5527da11fb5c3fbf8259d5bf",
       "story_id": "5527da11fb5c3fbf8259d5bf",
       "headline": "Khelo India Sports Goods Manufacturing Scheme",
@@ -292,7 +374,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -485,7 +567,7 @@
         "event term: 'heatwave' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -625,96 +707,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "f31ebb8a50ad4f12e8df8b09",
-      "story_id": "f31ebb8a50ad4f12e8df8b09",
-      "headline": "Supreme Court Daily Round-Up : October 29, 2026",
-      "title": "Supreme Court Daily Round-Up : October 29, 2026",
-      "summary": "",
-      "url": "https://www.livelaw.in/supreme-court/supreme-court-daily-round-up-october-29-2026-556546",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-29T18:26:00+00:00",
-      "published_at": "2026-10-29T18:26:00+00:00",
-      "effective_at": "2026-10-29T18:26:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Links to the reports of October 29:Supreme Court's Requests To Courts Or Tribunals Must Be Treated As Directions: Supreme CourtJustice Sanjay Kumar Bars Advocates From Approaching Court.",
-        "Officers After Lawyer's Son Abuses Staff Over PhoneUnfortunate.",
-        "That Ministry Of Corporate Affairs Has Hijacked NCLT Staff Appointments: Supreme CourtImpress Upon Union To Provide Basic Amenities To NCLTs...",
-        "an affordable subscription scheme!!!"
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Links to the reports of October 29:Supreme Court's Requests To Courts Or Tribunals Must Be Treated As Directions: Supreme CourtJustice Sanjay Kumar Bars Advocates From Approaching Court.",
-          "Officers."
-        ],
-        "body": [
-          "After Lawyer's Son Abuses Staff Over PhoneUnfortunate.",
-          "That Ministry Of Corporate Affairs Has Hijacked NCLT Staff Appointments: Supreme CourtImpress Upon Union To Provide Basic Amenities To NCLTs...",
-          "an affordable subscription scheme!!!"
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Links to the reports of October 29:Supreme Court's Requests To Courts Or Tribunals Must Be Treated As Directions: Supreme CourtJustice Sanjay Kumar Bars Advocates From Approaching Court.",
-            "source": "LiveLaw",
-            "item_id": "f31ebb8a50ad4f12e8df8b09:article",
-            "composed": false
-          },
-          {
-            "text": "That Ministry Of Corporate Affairs Has Hijacked NCLT Staff Appointments: Supreme CourtImpress Upon Union To Provide Basic Amenities To NCLTs...",
-            "source": "LiveLaw",
-            "item_id": "f31ebb8a50ad4f12e8df8b09:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/supreme-court/supreme-court-daily-round-up-october-29-2026-556546"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "f550210986d6dbe566fbe644",
       "story_id": "f550210986d6dbe566fbe644",
       "headline": "Scenario of Livestock and Agriculture in Pre and Post- Independent India: Introspection",
@@ -771,7 +763,7 @@
         "event term: 'floods' in summary weight 38.4",
         "event term: 'contamination' in summary weight 24",
         "scale: state scope (gujarat)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 38.2, score 38.4 -> HIGH"
