@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T10:21:46.648105+00:00",
+  "generated_at": "2026-10-30T10:32:08.539978+00:00",
   "count": 26,
   "stories": [
     {
@@ -66,7 +66,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -160,7 +160,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -266,7 +266,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -394,7 +394,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 72, stack 31.2, score 72 -> URGENT"
@@ -525,7 +525,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -650,7 +650,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 40.4, score 72 -> URGENT"
@@ -721,33 +721,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "bf3978d436630f502392cf3a",
-      "story_id": "bf3978d436630f502392cf3a",
-      "headline": "Cyclone Arnab: Congress says Centre must lead coordinated relief efforts with State Govt., ensure assistance via PMCARES fund",
-      "title": "Cyclone Arnab: Congress says Centre must lead coordinated relief efforts with State Govt., ensure assistance via PMCARES fund",
-      "summary": "Rahul Gandhi urged the governments to ensure swift relief and rehabilitation for every affected family, while Mallikarjun Kharge urged party workers to extend all possible help to those in distress",
-      "url": "https://www.thehindu.com/news/national/amid-destruction-caused-by-cyclone-arnab-congress-urges-centralized-coordinated-relief-via-pmcares-with-state-led-rehab/article71643750.ece",
-      "source": "The Hindu",
+      "event_id": "90048a8f8f5430cce7c861f5",
+      "story_id": "90048a8f8f5430cce7c861f5",
+      "headline": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "summary": "",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+      "source": "The News Minute",
       "primary_source": false,
       "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
+      "category": "weather-disasters",
+      "secondary_categories": [],
       "confidence": "medium",
-      "score": 100.0,
+      "score": 80.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-10-30T06:50:09+00:00",
-      "published_at": "2026-10-30T06:50:09+00:00",
-      "effective_at": "2026-10-30T06:50:09+00:00",
+      "event_time": "2026-10-30T05:36:02+00:00",
+      "published_at": "2026-10-30T05:36:02+00:00",
+      "effective_at": "2026-10-30T05:36:02.642000+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "the-news-minute": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "the-news-minute"
           ],
           "count": 1
         }
@@ -756,76 +754,89 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
         "major: significance event 'Cyclone'",
-        "category: national-politics (importance 1.1, urgent=False)",
+        "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (the-news-minute) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
+        "recency: fresh (4.9h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 22.4, score 72 -> URGENT"
+        "dominant event 72, stack 26, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "In the wake of the devastation caused by Cyclone Arnab, the Congress on Friday (October 30, 2026) called on the Centre to lead coordinated relief and rehabilitation efforts with State Governments, ensuring timely assistance through the PMCARES fund to all the affected families.",
-        "Congress president Mallikarjun Kharge also urged party workers to extend all possible help to those in distress.",
-        "\"Deeply distressed by the loss of lives in Andhra Pradesh and the massive disruption to people's lives in Odisha caused by Cyclone Arnab.",
-        "My heartfelt condolences to the bereaved families,\" he said on X.",
-        "The Union Government must lead coordinated relief and rehabilitation efforts with State Governments, ensuring timely assistance through the PMCARES fund to all the affected families, Mr. Kharge said.",
-        "Congress general secretary Priyanka Gandhi Vadra also urged party workers to help out with relief efforts.",
-        "\"My thoughts are with the people of Andhra Pradesh facing the devastation caused by Cyclone Arnab and those in Odisha affected by heavy rainfall and flooding.",
-        "I pray for everyone's safety and urge Congress workers to extend every possible help to those affected and support relief and rescue efforts,\" she said.",
-        "On Thursday (October 29, 2026) night, Leader of Opposition in the Lok Sabha Rahul Gandhi had expressed deep concern over the devastation caused by Cyclone Arnab in Andhra Pradesh and the heavy rainfall and flooding in Odisha, and urged the governments to ensure swift relief and rehabilitation for every affected family.",
-        "In a post on X, Mr. Gandhi said, \"Deeply concerned by the devastation caused by Cyclone Arnab in Andhra Pradesh and the heavy rainfall and flooding in Odisha\".",
-        "\"My heartfelt condolences to the families who have lost their loved ones.",
-        "My thoughts are with everyone affected, those who have lost their homes, livelihoods and a sense of security,\" the former Congress chief said."
+        "Andhra Pradesh Chief Minister N Chandrababu Naidu visited cyclone-affected areas in the state in the aftermath of Cyclone Arnab, which made landfall along the state’s coast on October 28.",
+        "The Chief Minister said that at least seven people were killed in the cyclone.",
+        "A preliminary estimate puts the losses caused by the cyclone at Rs 4,600 crore, he said, adding that the figure could increase after a detailed assessment.",
+        "On October 29, CM Naidu carried out an aerial survey over cyclone-affected areas in the Dr BR Ambedkar Konaseema district.",
+        "He inspected the relief centres at Gachakayalapora village in Mummidivaram constituency and interacted with cyclone victims.",
+        "Addressing the media, the CM announced that Central teams would visit the state on October 30 to assess the cyclone damage.",
+        "He said that he spoke to Union Home Minister Amit Shah about the cyclone situation and the measures taken by the state government, and submitted a preliminary damage report to the Union government.",
+        "Naidu announced that a compensation of Rs 1,500 will be provided for each damaged coconut tree and each damaged oil palm tree.",
+        "Families returning from relief camps will be given 25 kg of rice, a packet of essential commodities and financial assistance for their immediate expenses.",
+        "Farmers will receive compensation if their yields decline due to the cyclone, he said.",
+        "Extensive crop damage has been reported in 16 districts, with West Godavari, Kakinada, East Godavari, Konaseema and Krishna districts being affected the most.",
+        "Dr BR Ambedkar Konaseema and West Godavari districts have been worst affected by the cyclone."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "In the wake of the devastation caused by Cyclone Arnab, the Congress on Friday (October 30, 2026) called on the Centre to lead coordinated relief and rehabilitation efforts with State Governments, ensuring timely assistance through the PMCARES fund to all the affected families.",
-          "Congress president Mallikarjun Kharge also urged party workers to extend all possible help to those in distress."
+          "Andhra Pradesh Chief Minister N Chandrababu Naidu visited cyclone-affected areas in the state in the aftermath of Cyclone Arnab, which made landfall along the state’s coast on October 28.",
+          "The Chief Minister said that at least seven people were killed in the cyclone."
         ],
         "body": [
-          "\"Deeply distressed by the loss of lives in Andhra Pradesh and the massive disruption to people's lives in Odisha caused by Cyclone Arnab.",
-          "My heartfelt condolences to the bereaved families,\" he said on X. The Union Government must lead coordinated relief and rehabilitation efforts with State Governments, ensuring timely assistance through the PMCARES fund to all the affected families, Mr. Kharge said.",
-          "Congress general secretary Priyanka Gandhi Vadra also urged party workers to help out with relief efforts.",
-          "\"My thoughts are with the people of Andhra Pradesh facing the devastation caused by Cyclone Arnab and those in Odisha affected by heavy rainfall and flooding.",
-          "I pray for everyone's safety and urge Congress workers to extend every possible help to those affected and support relief and rescue efforts,\" she said.",
-          "On Thursday (October 29, 2026) night, Leader of Opposition in the Lok Sabha Rahul Gandhi had expressed deep concern over the devastation caused by Cyclone Arnab in Andhra Pradesh and the heavy rainfall and flooding in Odisha, and urged the governments to ensure swift relief and rehabilitation for every affected family.",
-          "In a post on X, Mr. Gandhi said, \"Deeply concerned by the devastation caused by Cyclone Arnab in Andhra Pradesh and the heavy rainfall and flooding in Odisha\".",
-          "\"My heartfelt condolences to the families who have lost their loved ones."
+          "A preliminary estimate puts the losses caused by the cyclone at Rs 4,600 crore, he said, adding that the figure could increase after a detailed assessment.",
+          "On October 29, CM Naidu carried out an aerial survey over cyclone-affected areas in the Dr BR Ambedkar Konaseema district.",
+          "He inspected the relief centres at Gachakayalapora village in Mummidivaram constituency and interacted with cyclone victims.",
+          "Addressing the media, the CM announced that Central teams would visit the state on October 30 to assess the cyclone damage.",
+          "He said that he spoke to Union Home Minister Amit Shah about the cyclone situation and the measures taken by the state government, and submitted a preliminary damage report to the Union government.",
+          "Naidu announced that a compensation of Rs 1,500 will be provided for each damaged coconut tree and each damaged oil palm tree.",
+          "Families returning from relief camps will be given 25 kg of rice, a packet of essential commodities and financial assistance for their immediate expenses.",
+          "Farmers will receive compensation if their yields decline due to the cyclone, he said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Andhra Pradesh"
+            "text": "Rs"
           }
         ],
         "sentences": [
           {
-            "text": "On Thursday (October 29, 2026) night, Leader of Opposition in the Lok Sabha Rahul Gandhi had expressed deep concern over the devastation caused by Cyclone Arnab in Andhra Pradesh and the heavy rainfall and flooding in Odisha, and urged the governments to ensure swift relief and rehabilitation for every affected family.",
-            "source": "The Hindu",
-            "item_id": "bf3978d436630f502392cf3a:article",
+            "text": "Andhra Pradesh Chief Minister N Chandrababu Naidu visited cyclone-affected areas in the state in the aftermath of Cyclone Arnab, which made landfall along the state’s coast on October 28.",
+            "source": "The News Minute",
+            "item_id": "90048a8f8f5430cce7c861f5:article",
             "composed": false
           },
           {
-            "text": "In the wake of the devastation caused by Cyclone Arnab, the Congress on Friday (October 30, 2026) called on the Centre to lead coordinated relief and rehabilitation efforts with State Governments, ensuring timely assistance through the PMCARES fund to all the affected families.",
-            "source": "The Hindu",
-            "item_id": "bf3978d436630f502392cf3a:article",
+            "text": "On October 29, CM Naidu carried out an aerial survey over cyclone-affected areas in the Dr BR Ambedkar Konaseema district.",
+            "source": "The News Minute",
+            "item_id": "90048a8f8f5430cce7c861f5:article",
+            "composed": false
+          },
+          {
+            "text": "He inspected the relief centres at Gachakayalapora village in Mummidivaram constituency and interacted with cyclone victims.",
+            "source": "The News Minute",
+            "item_id": "90048a8f8f5430cce7c861f5:article",
+            "composed": false
+          },
+          {
+            "text": "Naidu announced that a compensation of Rs 1,500 will be provided for each damaged coconut tree and each damaged oil palm tree.",
+            "source": "The News Minute",
+            "item_id": "90048a8f8f5430cce7c861f5:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "The News Minute",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/amid-destruction-caused-by-cyclone-arnab-congress-urges-centralized-coordinated-relief-via-pmcares-with-state-led-rehab/article71643750.ece"
+        "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -879,7 +890,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1030,7 +1041,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'sworn in' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1142,7 +1153,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 40.4, score 58 -> HIGH"
@@ -1245,7 +1256,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1329,7 +1340,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'match' in summary weight 4.8",
         "scale: state scope (bihar)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1450,7 +1461,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -1543,9 +1554,9 @@
         "corroboration: wire echo (thehindu) -> no independent boost",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "geo: national",
-        "dominant event 49.2, stack 22, score 49.2 -> HIGH",
+        "dominant event 49.2, stack 18, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
       ],
       "geo_scope": "national",
@@ -1648,7 +1659,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'building collapse' in title weight 46",
         "scale: state scope (delhi)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 46, stack 17.2, score 46 -> HIGH"
@@ -1760,7 +1771,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1873,7 +1884,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1959,7 +1970,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -2076,7 +2087,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -2255,7 +2266,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2277,7 +2288,7 @@
         "However, the Division Bench reversed that decision.",
         "Before the Supreme Court, the parties' submissions primarily focused on the report submitted by Justice Dave and whether the ARC was entitled to receive any amount beyond the ₹250 crore already paid by Atibir Industries."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court has directed Atibir Industries Co.",
@@ -2313,7 +2324,7 @@
         "url": "https://www.livelaw.in/supreme-court/supreme-court-directs-atibir-industries-to-pay-375-crore-to-settle-sbi-loan-dispute-556651"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -2358,7 +2369,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2479,7 +2490,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2594,10 +2605,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -2705,7 +2716,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2808,7 +2819,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2925,7 +2936,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (kerala)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 24, score 43.2 -> HIGH"
