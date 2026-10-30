@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:41:33.514657+00:00",
+  "generated_at": "2026-10-30T05:51:51.082400+00:00",
   "count": 14,
   "stories": [
     {
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -67,7 +67,7 @@
         "Extensive crop damage has been reported in 16 districts, with West Godavari, Kakinada, East Godavari, Konaseema and Krishna districts being affected the most.",
         "Dr BR Ambedkar Konaseema and West Godavari districts have been worst affected by the cyclone."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Andhra Pradesh Chief Minister N Chandrababu Naidu visited cyclone-affected areas in the state in the aftermath of Cyclone Arnab, which made landfall along the state’s coast on October 28.",
@@ -121,7 +121,7 @@
         "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -172,7 +172,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -296,7 +296,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -419,7 +419,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -530,7 +530,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 32, score 72 -> URGENT"
@@ -658,10 +658,10 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (uttar pradesh)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 44.4, score 58 -> HIGH"
+        "dominant event 58, stack 40.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "uttar pradesh",
@@ -697,6 +697,93 @@
         "source": "The Hindu",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/uttar-pradesh/lessons-for-the-bjp-from-uttar-pradesh-mlc-election/article71640197.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "1a0550cb506f32ab90058b0d",
+      "story_id": "1a0550cb506f32ab90058b0d",
+      "headline": "Why is ISRO’s NVS-03 satellite launch crucial? | Explained",
+      "title": "Why is ISRO’s NVS-03 satellite launch crucial? | Explained",
+      "summary": "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access",
+      "url": "https://www.thehindu.com/sci-tech/science/why-is-isros-nvs-03-satellite-launch-crucial-explained/article71643798.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "science-space",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-30T05:44:47+00:00",
+      "published_at": "2026-10-30T05:44:47+00:00",
+      "effective_at": "2026-10-30T05:44:47+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu",
+            "the-hindu-science"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "rumour: 'reportedly' in summary (penalty 3, active)",
+        "major: geo national significance",
+        "category: science-space (importance 1, urgent=False)",
+        "score 97.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'war' in summary weight 49.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: science-space (importance 1) +1.2",
+        "geo: national",
+        "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The story so far: The Indian Space Research Organisation (ISRO) is scheduled to launch the NVS-03 satellite on October 30, in a mission that could help restore the functioning of India’s indigenous satellite navigation system, NavIC.",
+        "The launch comes at a time when the constellation has been weakened by repeated failures of onboard atomic clocks and the inability to place its previous replacement satellite, NVS-02, in its intended orbit."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The story so far: The Indian Space Research Organisation (ISRO) is scheduled to launch the NVS-03 satellite on October 30, in a mission that could help restore the functioning of India’s indigenous satellite navigation system, NavIC.",
+          "The launch comes at a time when the constellation has been weakened by repeated failures of onboard atomic clocks and the inability to place its previous replacement satellite, NVS-02, in its intended orbit."
+        ],
+        "body": [
+          "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The story so far: The Indian Space Research Organisation (ISRO) is scheduled to launch the NVS-03 satellite on October 30, in a mission that could help restore the functioning of India’s indigenous satellite navigation system, NavIC.",
+            "source": "The Hindu",
+            "item_id": "1a0550cb506f32ab90058b0d:article",
+            "composed": false
+          },
+          {
+            "text": "The launch comes at a time when the constellation has been weakened by repeated failures of onboard atomic clocks and the inability to place its previous replacement satellite, NVS-02, in its intended orbit.",
+            "source": "The Hindu",
+            "item_id": "1a0550cb506f32ab90058b0d:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/sci-tech/science/why-is-isros-nvs-03-satellite-launch-crucial-explained/article71643798.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -754,7 +841,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 41.6, score 49.2 -> HIGH"
@@ -885,7 +972,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (20.2h ago) +4",
+        "recency: fresh (20.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -1004,7 +1091,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1180,7 +1267,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "geo: national",
         "dominant event 44, stack 28, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1261,88 +1348,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "b8ae6f507b0699fca5bbec45",
-      "story_id": "b8ae6f507b0699fca5bbec45",
-      "headline": "Cabinet approves Rs 8 per litre milk price hike from November 1",
-      "title": "Cabinet approves Rs 8 per litre milk price hike from November 1",
-      "summary": "The decision was taken at the Cabinet meeting held on Wednesday. According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs.",
-      "url": "https://www.thehansindia.com/news/cities/bengaluru/cabinet-approves-rs-8-per-litre-milk-price-hike-from-november-1-1137361",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": null,
-      "secondary_categories": [
-        "weather-disasters",
-        "agriculture-rural"
-      ],
-      "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-30T00:25:13+00:00",
-      "published_at": "2026-10-30T00:25:13+00:00",
-      "effective_at": "2026-10-30T00:25:13+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'drought'",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "event term: 'drought' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
-        "geo: national",
-        "dominant event 44, stack 41.6, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The decision was taken at the Cabinet meeting held on Wednesday.",
-          "According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The decision was taken at the Cabinet meeting held on Wednesday.",
-            "source": "The Hans India",
-            "item_id": "b8ae6f507b0699fca5bbec45",
-            "composed": false
-          },
-          {
-            "text": "According to the government, the increase is intended to provide financial relief to dairy farmers amid drought conditions and rising production costs.",
-            "source": "The Hans India",
-            "item_id": "b8ae6f507b0699fca5bbec45",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/news/cities/bengaluru/cabinet-approves-rs-8-per-litre-milk-price-hike-from-november-1-1137361"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "6ab86e2d4efda935b07c0b17",
       "story_id": "6ab86e2d4efda935b07c0b17",
       "headline": "Telangana sends 2,000 staff, material to A.P. for power supply restoration work",
@@ -1385,7 +1390,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "geo: national",
         "dominant event 43.2, stack 30, score 43.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1500,7 +1505,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: state",
         "dominant event 42, stack 16, score 42 -> HIGH"
@@ -1581,7 +1586,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 25.2, score 40 -> HIGH"
