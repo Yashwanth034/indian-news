@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:02:20.631709+00:00",
+  "generated_at": "2026-10-30T08:11:51.790371+00:00",
   "count": 23,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -174,7 +174,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44.4, score 72 -> URGENT"
@@ -290,7 +290,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -380,7 +380,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -466,7 +466,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 72, stack 26.4, score 72 -> URGENT"
@@ -578,7 +578,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -700,7 +700,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -827,7 +827,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -907,6 +907,129 @@
       "enrichment": "article"
     },
     {
+      "event_id": "21bd56ef2a21070d43fa8274",
+      "story_id": "21bd56ef2a21070d43fa8274",
+      "headline": "Odisha evacuates over 59,000 as cyclone Arnab triggers widespread flooding",
+      "title": "Odisha evacuates over 59,000 as cyclone Arnab triggers widespread flooding",
+      "summary": "Odisha evacuated 59,028 people, including 3,001 pregnant women, as cyclone Arnab triggered flooding across nine districts",
+      "url": "https://www.nationalheraldindia.com/national/odisha-evacuates-over-59000-as-cyclone-arnab-triggers-widespread-flooding",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-30T03:52:46+00:00",
+      "published_at": "2026-10-30T03:52:46+00:00",
+      "effective_at": "2026-10-30T03:52:46.405000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (odisha)",
+        "recency: fresh (4.3h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 44, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "article_sentences": [
+        "Odisha deployed 313 disaster response teams and evacuated 59,028 people as flooding in the aftermath of cyclone Arnab inundated homes, isolated villages and disrupted transport across nine districts, officials said on Thursday.",
+        "Rescue operations were concentrated in Ganjam and Gajapati, where heavy rainfall left settlements cut off and made some areas inaccessible to boats.",
+        "Authorities began airlifting stranded residents, with an Indian Coast Guard helicopter completing its first rescue sortie on Thursday afternoon.",
+        "State disaster management minister Suresh Pujari said nine National Disaster Response Force teams, 60 Odisha Disaster Rapid Action Force teams and 244 Fire Services teams were engaged in rescue operations.",
+        "Those evacuated included 3,001 pregnant women and 11,882 residents of Ganjam.",
+        "Ganjam accounted for the largest deployment, with 45 ODRAF teams and seven NDRF teams, followed by Gajapati, where 12 ODRAF teams and one NDRF team were operational, Pujari said.",
+        "Malkangiri, Koraput, Rayagada, Nabarangpur, Kalahandi, Nuapada and Kandhamal were also affected.",
+        "Chief secretary Anu Garg said floods had hit around 300 villages in Ganjam, leaving 70 marooned.",
+        "The state coordinated with the Union Home Ministry to arrange aerial rescues after rising water prevented disaster response personnel from reaching some locations.",
+        "The government had begun an operation to airlift 2,328 people from the 70 cut-off villages, Garg said.",
+        "Special Relief Commissioner Rajesh P Patil said further helicopter sorties were following the initial evacuation flight.",
+        "In neighbouring Gajapati, heavy rain and flash floods affected 711 villages."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Odisha deployed 313 disaster response teams and evacuated 59,028 people as flooding in the aftermath of cyclone Arnab inundated homes, isolated villages and disrupted transport across nine districts, officials said on Thursday.",
+          "Rescue operations were concentrated in Ganjam and Gajapati, where heavy rainfall left settlements cut off and made some areas inaccessible to boats."
+        ],
+        "body": [
+          "Authorities began airlifting stranded residents, with an Indian Coast Guard helicopter completing its first rescue sortie on Thursday afternoon.",
+          "State disaster management minister Suresh Pujari said nine National Disaster Response Force teams, 60 Odisha Disaster Rapid Action Force teams and 244 Fire Services teams were engaged in rescue operations.",
+          "Those evacuated included 3,001 pregnant women and 11,882 residents of Ganjam.",
+          "Ganjam accounted for the largest deployment, with 45 ODRAF teams and seven NDRF teams, followed by Gajapati, where 12 ODRAF teams and one NDRF team were operational, Pujari said.",
+          "Malkangiri, Koraput, Rayagada, Nabarangpur, Kalahandi, Nuapada and Kandhamal were also affected.",
+          "Chief secretary Anu Garg said floods had hit around 300 villages in Ganjam, leaving 70 marooned.",
+          "The state coordinated with the Union Home Ministry to arrange aerial rescues after rising water prevented disaster response personnel from reaching some locations.",
+          "The government had begun an operation to airlift 2,328 people from the 70 cut-off villages, Garg said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ganjam"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "59,028 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Odisha deployed 313 disaster response teams and evacuated 59,028 people as flooding in the aftermath of cyclone Arnab inundated homes, isolated villages and disrupted transport across nine districts, officials said on Thursday.",
+            "source": "National Herald",
+            "item_id": "21bd56ef2a21070d43fa8274:article",
+            "composed": false
+          },
+          {
+            "text": "Those evacuated included 3,001 pregnant women and 11,882 residents of Ganjam.",
+            "source": "National Herald",
+            "item_id": "21bd56ef2a21070d43fa8274:article",
+            "composed": false
+          },
+          {
+            "text": "Chief secretary Anu Garg said floods had hit around 300 villages in Ganjam, leaving 70 marooned.",
+            "source": "National Herald",
+            "item_id": "21bd56ef2a21070d43fa8274:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/national/odisha-evacuates-over-59000-as-cyclone-arnab-triggers-widespread-flooding"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "76990b1659619b11cc254410",
       "story_id": "76990b1659619b11cc254410",
       "headline": "Netanyahu's Likud Bloc wins 53 seats in Israel election",
@@ -971,7 +1094,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'sworn in' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1086,7 +1209,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -1189,7 +1312,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -1270,7 +1393,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -1357,7 +1480,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1474,7 +1597,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1612,125 +1735,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "9d9cc14f7c9ed26c6df61741",
-      "story_id": "9d9cc14f7c9ed26c6df61741",
-      "headline": "Stop sermonising others; introspect why BJP lost Varanasi seats in MLC polls: Congress slams PM",
-      "title": "Stop sermonising others; introspect why BJP lost Varanasi seats in MLC polls: Congress slams PM",
-      "summary": "New Deli, Oct 29: The Congress on Thursday hit back at Prime Minister Narendra Modi over his taunt at the opposition party’s showing in the MLC elections, saying he must stop trolling and sermonising others and instead reflect on why the BJP lost both seats in his own parliamentary constituency of Varanasi. Congress general secretary in-charge communications Jairam Ramesh said that from Varanasi and Nagpur to Lucknow, Prayagraj, and Patna, the people have clearly passed a “no-confidence motion against” the PM’s policies. “The Prime Minister needs to introspect, but instead, he’s sermonising others! Before counting Congress’s seats, I wish he’d also reflect on why the BJP lost both seats in his own parliamentary constituency of Varanasi, and how Congress managed to defeat the BJP in RSS’s stronghold of Nagpur?” Ramesh said in his post in Hindi on X. “Modi, stop the trolling. Crores of families are reeling from back-breaking inflation, the youth are unemployed, and private investment has ground to a halt,” he said. Drop the arrogance and reflect on these issues, Ramesh said. “From Varanasi and Nagpur to Lucknow, Prayagraj, and Patna, the people have clearly passed a no-confidence motion against your policies,” the Congress leader said. The Congress on Wednesday had hit back at Prime Minister Modi over his taunt, saying that if the PM is so confident that EVMs have no bearing on election results, he should prove his confidence in the BJP’s electoral prowess through action, not rhetoric. The Congress said if the PM believes that EVMs have no bearing on the election results then he should commit to conducting all Lok Sabha and upcoming Vidhan Sabha elections by ballot paper, going forward. The opposition party’s assertion came after Prime Minister Modi taunted the Congress for its dismal show in the MLC elections despite the use of paper ballots, a key demand of opposition parties in their campaign against EVMs. The BJP and its NDA allies won 16 of the 28 seats in the legislative council elections held across four states as the Congress won one, while the Samajwadi Party emerged winner in five seats in Uttar Pradesh, including two in Varanasi.",
-      "url": "https://www.greaterkashmir.com/politics/stop-sermonising-others-introspect-why-bjp-lost-varanasi-seats-in-mlc-polls-congress-slams-pm-12766518",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [
-        "economy-finance"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-30T02:10:19+00:00",
-      "published_at": "2026-10-30T02:10:19+00:00",
-      "effective_at": "2026-10-30T02:10:19+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "gossip: 'trolling' in summary (penalty 17.5, overridden)",
-        "gossip: 'trolling' in summary (penalty 17.5, overridden)",
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'election'",
-        "major: significance event 'election'",
-        "major: marker 'breaking'",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "major override dropped penalties: gossip",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'inflation' in summary weight 21.6",
-        "event term: 'election results' in summary weight 38.4",
-        "event term: 'election' in summary weight 34.8",
-        "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: fresh (5.9h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 38.4, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "uttar pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Deli, Oct 29: The Congress on Thursday hit back at Prime Minister Narendra Modi over his taunt at the opposition party’s showing in the MLC elections, saying he must stop trolling and sermonising others and instead reflect on why the BJP lost both seats in his own parliamentary constituency of Varanasi.",
-          "Congress general secretary in-charge communications."
-        ],
-        "body": [
-          "Jairam Ramesh said that from Varanasi and Nagpur to Lucknow, Prayagraj, and Patna, the people have clearly passed a “no-confidence motion against” the PM’s policies.",
-          "“The Prime Minister needs to introspect, but instead, he’s sermonising others!",
-          "Before counting Congress’s seats, I wish he’d also reflect on why the BJP lost both seats in his own parliamentary constituency of Varanasi, and how Congress managed to defeat the BJP in RSS’s stronghold of Nagpur?” Ramesh said in his post in Hindi on X. “Modi, stop the trolling.",
-          "Crores of families are reeling from back-breaking inflation, the youth are unemployed, and private investment has ground to a halt,” he said.",
-          "Drop the arrogance and reflect on these issues, Ramesh said.",
-          "“From Varanasi and Nagpur to Lucknow, Prayagraj, and Patna, the people have clearly passed a no-confidence motion against your policies,” the Congress leader said.",
-          "The Congress on Wednesday had hit back at Prime Minister Modi over his taunt, saying that if the PM is so confident that EVMs have no bearing on election results, he should prove his confidence in the BJP’s electoral prowess through action, not rhetoric.",
-          "The Congress said if the PM believes that EVMs have no bearing on the election results then he should commit to conducting all Lok Sabha and upcoming Vidhan Sabha elections by ballot paper, going forward.",
-          "The opposition party’s assertion came after Prime Minister Modi taunted the Congress for its dismal show in the MLC elections despite the use of paper ballots, a key demand of opposition parties in their campaign against EVMs.",
-          "The BJP and its NDA allies won 16 of the 28 seats in the legislative council elections held across four states as the Congress won one, while the Samajwadi Party emerged winner in five seats in Uttar Pradesh, including two in Varanasi."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Prime Minister Narendra"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The BJP and its NDA allies won 16 of the 28 seats in the legislative council elections held across four states as the Congress won one, while the Samajwadi Party emerged winner in five seats in Uttar Pradesh, including two in Varanasi.",
-            "source": "Greater Kashmir",
-            "item_id": "9d9cc14f7c9ed26c6df61741",
-            "composed": false
-          },
-          {
-            "text": "New Deli, Oct 29: The Congress on Thursday hit back at Prime Minister Narendra Modi over his taunt at the opposition party’s showing in the MLC elections, saying he must stop trolling and sermonising others and instead reflect on why the BJP lost both seats in his own parliamentary constituency of Varanasi.",
-            "source": "Greater Kashmir",
-            "item_id": "9d9cc14f7c9ed26c6df61741",
-            "composed": false
-          },
-          {
-            "text": "The Congress on Wednesday had hit back at Prime Minister Modi over his taunt, saying that if the PM is so confident that EVMs have no bearing on election results, he should prove his confidence in the BJP’s electoral prowess through action, not rhetoric.",
-            "source": "Greater Kashmir",
-            "item_id": "9d9cc14f7c9ed26c6df61741",
-            "composed": false
-          },
-          {
-            "text": "Ramesh said in his post in Hindi on X. “Modi, stop the trolling.",
-            "source": "Greater Kashmir",
-            "item_id": "9d9cc14f7c9ed26c6df61741",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/politics/stop-sermonising-others-introspect-why-bjp-lost-varanasi-seats-in-mlc-polls-congress-slams-pm-12766518"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "091bb06eb6b5517cafd0255d",
       "story_id": "091bb06eb6b5517cafd0255d",
       "headline": "Supreme Court Asks MeitY To Ensure Action Against Unauthorised Uploading Of Court Hearing Clips",
@@ -1772,7 +1776,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1887,7 +1891,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1998,7 +2002,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2101,7 +2105,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2217,7 +2221,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2321,7 +2325,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (kerala)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 28, score 43.2 -> HIGH"
@@ -2431,7 +2435,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "geo: national",
         "dominant event 43.2, stack 30, score 43.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -2546,7 +2550,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: state scope (maharashtra)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: state",
         "dominant event 42, stack 12, score 42 -> HIGH"
