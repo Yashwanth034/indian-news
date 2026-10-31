@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T13:21:53.625820+00:00",
-  "count": 12,
+  "generated_at": "2026-10-31T13:32:06.295405+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "e7e5528dfa994c46358fcf02",
@@ -50,7 +50,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -150,7 +150,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -197,6 +197,122 @@
       "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "974c82129156ee0ca7781698",
+      "story_id": "974c82129156ee0ca7781698",
+      "headline": "AAP releases first list of 40 candidates for 2027 Punjab Assembly election",
+      "title": "AAP releases first list of 40 candidates for 2027 Punjab Assembly election",
+      "summary": "Chief Minister Bhagwant Mann will re-contest from the Dhuri Assembly constituency; Assembly Speaker Kultar Singh Sandhwan will contest from Kotkapura; Sanjeev Arora, currently in jail in an alleged money laundering case, is the party’s candidate from Ludhiana West",
+      "url": "https://www.thehindu.com/news/national/punjab/aap-announces-list-of-40-candidates-for-punjab-polls/article71648551.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 76.2,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-31T07:08:59+00:00",
+      "published_at": "2026-10-31T13:25:23+00:00",
+      "effective_at": "2026-10-31T13:25:23+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'election' in title weight 58",
+        "scale: state scope (punjab)",
+        "recency: fresh (6.4h ago) +4",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 58, stack 22.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "punjab",
+      "national_significance": true,
+      "article_sentences": [
+        "As per this list, Chief Minister Bhagwant Mann will contest from the Dhuri assembly seat.",
+        "This time, CM Bhagwant Mann is seeking re-election from Dhuri.",
+        "In 2022, he defeated Congress' Dalvir Singh Goldy by a margin of around 58,000 votes.",
+        "Jailed Punjab minister Sanjeev Arora has been fielded from the Ludhiana West seat.",
+        "S.No.",
+        "Assembly elections in the border state are expected to take place in February 2027 across 117 seats.",
+        "Business Today brings you the latest news, views and analysis from the world of finance, economy, markets, corporates, startups, tech, and the digital economy.",
+        "You can find everything from breaking news to deep dives to immersive essays and more on a variety of subjects across all formats - online, magazine, television, data visualisation, et al."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "As per this list, Chief Minister Bhagwant Mann will contest from the Dhuri assembly seat.",
+          "This time, CM Bhagwant Mann is seeking re-election from Dhuri."
+        ],
+        "body": [
+          "In 2022, he defeated Congress' Dalvir Singh Goldy by a margin of around 58,000 votes.",
+          "Jailed Punjab minister Sanjeev Arora has been fielded from the Ludhiana West seat.",
+          "Business Today brings you the latest news, views and analysis from the world of finance, economy, markets, corporates, startups, tech, and the digital economy.",
+          "You can find everything from breaking news to deep dives to immersive essays and more on a variety of subjects across all formats - online, magazine, television, data visualisation, et al.",
+          "Chief Minister Bhagwant Mann will re-contest from the Dhuri Assembly constituency; Assembly Speaker Kultar Singh Sandhwan will contest from Kotkapura; Sanjeev Arora, currently in jail in an alleged money laundering case, is the party’s candidate from Ludhiana West."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "February"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "S.No. Assembly elections in the border state are expected to take place in February 2027 across 117 seats."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "S.No. Assembly elections in the border state are expected to take place in February 2027 across 117 seats.",
+            "source": "The Hindu",
+            "item_id": "974c82129156ee0ca7781698:article",
+            "composed": false
+          },
+          {
+            "text": "This time, CM Bhagwant Mann is seeking re-election from Dhuri.",
+            "source": "The Hindu",
+            "item_id": "974c82129156ee0ca7781698:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/punjab/aap-announces-list-of-40-candidates-for-punjab-polls/article71648551.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "75af859741570cf53a3f1096",
@@ -249,7 +365,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 36.4, score 50.4 -> HIGH"
@@ -395,7 +511,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 18.8, score 49.2 -> HIGH"
@@ -449,129 +565,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "f05a2e794c8347d744810e2e",
-      "story_id": "f05a2e794c8347d744810e2e",
-      "headline": "Rupee seen as India's first line of defence against energy shocks: IMF",
-      "title": "Rupee seen as India's first line of defence against energy shocks: IMF",
-      "summary": "Washington, Oct 31 : The International Monetary Fund has said the rupee should be India’s “first line of defense” against the energy shock from the war in the Middle East, signalling a preference for exchange rate flexibility over heavy central bank intervention, even as it kept its 7 per cent growth forecast for the Indian economy. Responding to a question at her regular press briefing in Washington on Thursday about the Reserve Bank of India’s recent intervention to support the rupee, IMF Communications Director Julie Kozack said she was echoing the head of the Fund’s Asia and Pacific Department, Krishna Srinivasan. “Given the ongoing energy shocks that India is confronting, like all countries, our view is that the rupee should be the first line of defense in the face of these shocks,” Kozack said. “So, allowing the exchange rate to move freely to reflect the impact of these shocks is important to help the Indian economy adjust to these shocks,” she said. Kozack said the Fund’s advice would change if a weaker currency started to push up prices across the economy. “If significant rupee depreciation leads to broad-based increases in inflation, then our advice would be that monetary policy tightening could be considered to preserve price stability,” she said. She did not rule out intervention altogether. “And more generally, foreign exchange intervention can be appropriate when market conditions become disorderly,” Kozack said, adding that this would be consistent with the IMF’s Integrated Policy Framework. “But in the case of India, our view is that exchange rate flexibility remains the preferable policy response,” she said. On growth, Kozack described India as “really an engine of growth in the world economy.” “We do project growth in India at 7 percent both for FY 2026-2027 and FY 2027-2028,” she said, citing robust domestic demand and strong services activity. “So, India right now has quite a lot of growth momentum,” she added. She flagged the weather as the main downside risk. Worse-than-expected weather, “including because of an El Niño, could lower crop yields in India, and it could kind of weigh on activity, particularly in rural areas,” Kozack said, adding that it could also lead to higher food price inflation and hurt household purchasing power. “Right now those risks have not materialized,” she said. The Fund will next reassess its India projections in its January World Economic Outlook update. Kozack also said financial conditions for emerging economies remained broadly supportive despite higher bond yields. “Spreads in emerging and developing countries are still quite compressed,” she said, attributing it to years of work by those countries to strengthen their fundamentals. On the United States, she said the Federal Reserve under Chairman Kevin Warsh was “appropriately remaining data-dependent” after holding rates on Wednesday following a hike in September, and that headline US inflation remained above the Fed’s 2 per cent target, partly because of the energy price shock from the Middle East war. Asked about the US Treasury’s October 14 statement calling on the Fund to sharpen its work on global imbalances and debt sustainability, Kozack said the United States was the IMF’s largest shareholder and that “we do value the voice and engagement of the United States.” She referred questions on the meaning of the statement to the Treasury. --IANS",
-      "url": "https://assamtribune.com/business/rupee-seen-as-indias-first-line-of-defence-against-energy-shocks-imf-1621663",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "energy-environment",
-        "agriculture-rural",
-        "defence-security",
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-31T07:29:52+00:00",
-      "published_at": "2026-10-31T07:29:52+00:00",
-      "effective_at": "2026-10-31T07:29:52+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'war' in summary weight 49.2",
-        "event term: 'monetary policy' in summary weight 24",
-        "event term: 'inflation' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 49.2, stack 45, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Washington, Oct 31: The International Monetary Fund has said the rupee should be India’s “first line of defense” against the energy shock from the war in the Middle East, signalling a preference for exchange rate flexibility over heavy central bank intervention, even as it kept its 7 per cent growth forecast for the Indian economy.",
-          "Responding to a question at her regular press briefing in Washington on Thursday about the Reserve Bank of India’s recent intervention to support the rupee, IMF Communications Director Julie Kozack said she was echoing the head of the Fund’s Asia and Pacific Department, Krishna Srinivasan."
-        ],
-        "body": [
-          "“Given the ongoing energy shocks that India is confronting, like all countries, our view is that the rupee should be the first line of defense in the face of these shocks,” Kozack said.",
-          "“So, allowing the exchange rate to move freely to reflect the impact of these shocks is important to help the Indian economy adjust to these shocks,” she said.",
-          "Kozack said the Fund’s advice would change if a weaker currency started to push up prices across the economy.",
-          "“If significant rupee depreciation leads to broad-based increases in inflation, then our advice would be that monetary policy tightening could be considered to preserve price stability,” she said.",
-          "She did not rule out intervention altogether.",
-          "“And more generally, foreign exchange intervention can be appropriate when market conditions become disorderly,” Kozack said, adding that this would be consistent with the IMF’s Integrated Policy Framework.",
-          "“But in the case of India, our view is that exchange rate flexibility remains the preferable policy response,” she said.",
-          "On growth, Kozack described India as “really an engine of growth in the world economy.” “We do project growth in India at 7 percent both for FY 2026-2027 and FY 2027-2028,” she said, citing robust domestic demand and strong services activity.",
-          "“So, India right now has quite a lot of growth momentum,” she added.",
-          "She flagged the weather as the main downside risk.",
-          "Worse-than-expected weather, “including because of an El Niño, could lower crop yields in India, and it could kind of weigh on activity, particularly in rural areas,” Kozack said, adding that it could also lead to higher food price inflation and hurt household purchasing power.",
-          "“Right now those risks have not materialized,” she said.",
-          "The Fund will next reassess its India projections in its January World Economic Outlook update.",
-          "Kozack also said financial conditions for emerging economies remained broadly supportive despite higher bond yields.",
-          "“Spreads in emerging and developing countries are still quite compressed,” she said, attributing it to years of work by those countries to strengthen their fundamentals.",
-          "On the United States, she said the Federal Reserve under Chairman Kevin Warsh was “appropriately remaining data-dependent” after holding rates on Wednesday following a hike in September, and that headline US inflation remained above the Fed’s 2 per cent target, partly because of the energy price shock from the Middle East war.",
-          "Asked about the US Treasury’s October 14 statement calling on the Fund to sharpen its work on global imbalances and debt sustainability, Kozack said the United States was the IMF’s largest shareholder and that “we do value the voice and engagement of the United States.” She referred questions on the meaning of the statement to the Treasury.",
-          "--IANS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Washington"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "On the United States, she said the Federal Reserve under Chairman Kevin Warsh was “appropriately remaining data-dependent” after holding rates on Wednesday following a hike in September, and that headline US inflation remained above the Fed’s 2 per cent target, partly because of the energy price shock from the Middle East war.",
-            "source": "The Assam Tribune",
-            "item_id": "f05a2e794c8347d744810e2e",
-            "composed": false
-          },
-          {
-            "text": "“We do project growth in India at 7 percent both for FY 2026-2027 and FY 2027-2028,” she said, citing robust domestic demand and strong services activity.",
-            "source": "The Assam Tribune",
-            "item_id": "f05a2e794c8347d744810e2e",
-            "composed": false
-          },
-          {
-            "text": "Responding to a question at her regular press briefing in Washington on Thursday about the Reserve Bank of India’s recent intervention to support the rupee, IMF Communications Director Julie Kozack said she was echoing the head of the Fund’s Asia and Pacific Department, Krishna Srinivasan.",
-            "source": "The Assam Tribune",
-            "item_id": "f05a2e794c8347d744810e2e",
-            "composed": false
-          },
-          {
-            "text": "Asked about the US Treasury’s October 14 statement calling on the Fund to sharpen its work on global imbalances and debt sustainability, Kozack said the United States was the IMF’s largest shareholder and that “we do value the voice and engagement of the United States.”",
-            "source": "The Assam Tribune",
-            "item_id": "f05a2e794c8347d744810e2e",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/business/rupee-seen-as-indias-first-line-of-defence-against-energy-shocks-imf-1621663"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "9928ffd16296cc65a2fb3c01",
       "story_id": "9928ffd16296cc65a2fb3c01",
       "headline": "Chief Justice of India Surya Kant to inaugurate the platinum jubilee celebrations of Kerala High Court",
@@ -615,7 +608,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice of india' in title weight 46",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -706,7 +699,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "geo: national",
         "dominant event 46, stack 36, score 46 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -813,7 +806,7 @@
         "event term: 'customs duty' in title weight 40",
         "event term: 'customs duty' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -917,7 +910,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (odisha)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 45, score 45 -> HIGH"
@@ -1027,7 +1020,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takes charge' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 40, stack 28.8, score 40 -> HIGH"
@@ -1149,7 +1142,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'market regulator' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 31.6, score 40 -> HIGH"
@@ -1223,118 +1216,6 @@
         "source": "YourStory",
         "corroborating": [],
         "url": "https://yourstory.com/2026/10/sebi-chairman-says-market-regulator-keeping-eye-on-tata-group-developments"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "1bba74d6e16cc0f450394262",
-      "story_id": "1bba74d6e16cc0f450394262",
-      "headline": "Karnataka bandh called by sugarcane farmers hits Belagavi, but neighbouring districts unaffected",
-      "title": "Karnataka bandh called by sugarcane farmers hits Belagavi, but neighbouring districts unaffected",
-      "summary": "Farmers blocked roads at several locations across the district as part of the protest, Chief Minister D.K. Shivakumar appeals to abide by understanding reached at the meeting on October 26",
-      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-bandh-called-by-sugarcane-farmers-hits-belagavi-but-neighbouring-districts-unaffected/article71648463.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "agriculture-rural",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 59.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-10-31T09:46:47+00:00",
-      "published_at": "2026-10-31T09:46:47+00:00",
-      "effective_at": "2026-10-31T09:46:47+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "category: agriculture-rural (importance 1, urgent=False)",
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'bandh' in title weight 40",
-        "scale: state scope (karnataka)",
-        "recency: fresh (3.6h ago) +4",
-        "category: agriculture-rural (importance 1) +1.2",
-        "geo: state",
-        "dominant event 40, stack 13.2, score 40 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "karnataka",
-      "national_significance": false,
-      "article_sentences": [
-        "Normal activities came to a halt in several towns and hobli centres in Belagavi district on October 31 in response to the Karnataka bandh called by sugarcane growers who are demanding a price of ₹5,500 per tonne.",
-        "Protesting farmers briefly prevented buses from leaving the Central Bus Stand in Belagavi.",
-        "A scuffle broke out between the protesters and the police when the latter attempted to stop them.",
-        "The farmers later gathered in front of the Tourist Bungalow and raised slogans against the Union and State governments, reiterating their demand for a higher price for sugarcane.",
-        "Several shops were reportedly closed during the protest.",
-        "Commercial activity remained largely suspended in Hukkeri, Raibag, Mudalagi, Athani, Nipani, and Chikkodi taluk headquarters, besides several hobli centres.",
-        "Farmers blocked roads at several locations across the district as part of the protest.",
-        "Among other people, devotees were inconvenienced by the closure of routes leading to temples.",
-        "In Dharwad, Bagalkot, Vijayapura, Haveri, and Gadag districts, the protests were largely symbolic.",
-        "Chief Minister D.K. Shivakumar appealed to sugarcane farmers protesting over prices to abide by the understanding reached at the meeting on October 26.",
-        "Appealing for calm and patience, Mr. Shivakumar said that sugar factories cannot afford higher procurement prices without a revision in sugar price by the Union Government.",
-        "He said that he has reached out to the Prime Minister’s Office for an early decision."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Normal activities came to a halt in several towns and hobli centres in Belagavi district on October 31 in response to the Karnataka bandh called by sugarcane growers who are demanding a price of ₹5,500 per tonne.",
-          "Protesting farmers briefly prevented buses from leaving the Central Bus Stand in Belagavi."
-        ],
-        "body": [
-          "A scuffle broke out between the protesters and the police when the latter attempted to stop them.",
-          "The farmers later gathered in front of the Tourist Bungalow and raised slogans against the Union and State governments, reiterating their demand for a higher price for sugarcane.",
-          "Several shops were reportedly closed during the protest.",
-          "Commercial activity remained largely suspended in Hukkeri, Raibag, Mudalagi, Athani, Nipani, and Chikkodi taluk headquarters, besides several hobli centres.",
-          "Farmers blocked roads at several locations across the district as part of the protest.",
-          "Among other people, devotees were inconvenienced by the closure of routes leading to temples.",
-          "In Dharwad, Bagalkot, Vijayapura, Haveri, and Gadag districts, the protests were largely symbolic.",
-          "Chief Minister D.K. Shivakumar appealed to sugarcane farmers protesting over prices to abide by the understanding reached at the meeting on October 26."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Belagavi district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Normal activities came to a halt in several towns and hobli centres in Belagavi district on October 31 in response to the Karnataka bandh called by sugarcane growers who are demanding a price of ₹5,500 per tonne.",
-            "source": "The Hindu",
-            "item_id": "1bba74d6e16cc0f450394262:article",
-            "composed": false
-          },
-          {
-            "text": "Chief Minister D.K. Shivakumar appealed to sugarcane farmers protesting over prices to abide by the understanding reached at the meeting on October 26.",
-            "source": "The Hindu",
-            "item_id": "1bba74d6e16cc0f450394262:article",
-            "composed": false
-          },
-          {
-            "text": "Protesting farmers briefly prevented buses from leaving the Central Bus Stand in Belagavi.",
-            "source": "The Hindu",
-            "item_id": "1bba74d6e16cc0f450394262:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-bandh-called-by-sugarcane-farmers-hits-belagavi-but-neighbouring-districts-unaffected/article71648463.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
