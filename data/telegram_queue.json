@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T13:32:06.295405+00:00",
-  "count": 11,
+  "generated_at": "2026-10-31T13:41:48.002990+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "e7e5528dfa994c46358fcf02",
@@ -50,7 +50,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -150,7 +150,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -249,7 +249,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: fresh (6.4h ago) +4",
+        "recency: fresh (6.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -267,7 +267,7 @@
         "Business Today brings you the latest news, views and analysis from the world of finance, economy, markets, corporates, startups, tech, and the digital economy.",
         "You can find everything from breaking news to deep dives to immersive essays and more on a variety of subjects across all formats - online, magazine, television, data visualisation, et al."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "As per this list, Chief Minister Bhagwant Mann will contest from the Dhuri assembly seat.",
@@ -309,6 +309,127 @@
         "source": "The Hindu",
         "corroborating": [],
         "url": "https://www.thehindu.com/news/national/punjab/aap-announces-list-of-40-candidates-for-punjab-polls/article71648551.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "b0873ac494e1931c3caf2f51",
+      "story_id": "b0873ac494e1931c3caf2f51",
+      "headline": "Rahul Gandhi claims the 2024 Lok Sabha election was ‘illegal’ over voter deletions | LIVE",
+      "title": "Rahul Gandhi claims the 2024 Lok Sabha election was ‘illegal’ over voter deletions | LIVE",
+      "summary": "INDIA Bloc says everyone united in protests, 'public impeachment' of CEC Gyanesh Kumar today",
+      "url": "https://www.thehindu.com/news/national/india-bloc-public-impeachment-cec-gyanesh-kumar-sir-protest-chalo-dilli-march-rahul-gandhi-live-updates-october-31-2026/article71648094.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-31T13:32:07+00:00",
+      "published_at": "2026-10-31T13:32:07+00:00",
+      "effective_at": "2026-10-31T13:32:07+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 26.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "- October 31, 2026 19:10Mahua Moitra alleges 71% of deleted voters in Bengal are MuslimSpeaking at the INDIA bloc’s symbolic public impeachment programme against CEC Gyanesh Kumar in Delhi, TMC MP Mahua Moitra accused the Modi government and the Election Commission of undermining voting rights, claiming that 71% of deleted voters in West Bengal were Muslims and 51% were women.",
+        "- October 31, 2026 19:01Rahul Gandhi claims 2024 Lok Sabha election was ‘illegal’Speaking at the INDIA bloc’s public impeachment programme against CEC Gyanesh Kumar, Lok Sabha LoP Rahul Gandhi alleged that the deletion of 13.3 crore voter names had undermined the legitimacy of the 2024 Lok Sabha election.",
+        "He claimed the number of deleted voters far exceeded the 3% vote margin between the Opposition and the BJP-led alliance.",
+        "- October 31, 2026 18:44Mamata Banerjee arrives in Delhiormer West Bengal Chief Minister Mamata Banerjee arrived in the national capital to attend the INDIA bloc rally scheduled for November 1 at Delhi’s Ramlila Maidan.",
+        "- October 31, 2026 18:09Mallikarjun Kharge lists six charges against Gyanesh KumarCongress president Mallikarjun Kharge outlined six allegations against Chief Election Commissioner Gyanesh Kumar in the INDIA bloc’s public impeachment resolution, accusing him of facilitating alleged vote theft, deleting 13.2 crore voter names, changing Form 6 and acting at the behest of Prime Minister Narendra Modi and Amit Shah.",
+        "- October 31, 2026 17:46Saugata Roy says INDIA bloc followed due process to submit impeachment noticepeaking at the INDIA bloc’s symbolic impeachment programme against Chief Election Commissioner Gyanesh Kumar in Delhi, TMC MP Saugata Roy said the Opposition had followed legal procedure to submit an impeachment notice but was not allowed to raise the issue in Parliament.",
+        "He also cited concerns over voter names being deleted from electoral rolls.",
+        "- October 31, 2026 17:20Tejashwi Yadav accuses CEC Gyanesh Kumar of ‘vote theft’ at BJP’s behestRJD leader and Bihar Leader of Opposition Tejashwi Yadav accused Chief Election Commissioner Gyanesh Kumar of orchestrating alleged vote theft at the behest of Prime Minister Narendra Modi and Amit Shah.",
+        "He vowed to unite against what he described as an attempt to undermine democracy.",
+        "- October 31, 2026 17:20Sambit Patra defends Form 6, says ‘only Indians shall vote’BJP MP Sambit Patra defended the voter registration process amid the SIR row, asserting that only Indian citizens should vote and urging those whose names are missing from electoral rolls to submit Form 6.",
+        "He said a declaration form had been added, but Form 6 itself remained unchanged.",
+        "- October 31, 2026 17:10Sambit Patra accuses Congress of mocking Parliament, defends SIR processBJP MP Sambit Patra criticised the Congress’s symbolic ‘mock Parliament’ protest, alleging that the first instance of vote theft took place under Jawaharlal Nehru."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "- October 31, 2026 19:10Mahua Moitra alleges 71% of deleted voters in Bengal are MuslimSpeaking at the INDIA bloc’s symbolic public impeachment programme against CEC Gyanesh Kumar in Delhi, TMC MP Mahua Moitra accused the Modi government and the Election Commission of undermining voting rights, claiming that 71% of deleted voters in West Bengal were Muslims and 51% were women.",
+          "- October 31, 2026 19:01Rahul Gandhi claims 2024 Lok Sabha election was ‘illegal’Speaking at the INDIA bloc’s public impeachment programme against CEC Gyanesh Kumar, Lok Sabha LoP Rahul Gandhi alleged that the deletion of 13.3 crore voter names had undermined the legitimacy of the 2024 Lok Sabha election."
+        ],
+        "body": [
+          "- October 31, 2026 18:44Mamata Banerjee arrives in Delhiormer West Bengal Chief Minister Mamata Banerjee arrived in the national capital to attend the INDIA bloc rally scheduled for November 1 at Delhi’s Ramlila Maidan.",
+          "- October 31, 2026 18:09Mallikarjun Kharge lists six charges against Gyanesh KumarCongress president Mallikarjun Kharge outlined six allegations against Chief Election Commissioner Gyanesh Kumar in the INDIA bloc’s public impeachment resolution, accusing him of facilitating alleged vote theft, deleting 13.2 crore voter names, changing Form 6 and acting at the behest of Prime Minister Narendra Modi and Amit Shah.",
+          "- October 31, 2026 17:46Saugata Roy says INDIA bloc followed due process to submit impeachment noticepeaking at the INDIA bloc’s symbolic impeachment programme against Chief Election Commissioner Gyanesh Kumar in Delhi, TMC MP Saugata Roy said the Opposition had followed legal procedure to submit an impeachment notice but was not allowed to raise the issue in Parliament.",
+          "He also cited concerns over voter names being deleted from electoral rolls.",
+          "- October 31, 2026 17:20Tejashwi Yadav accuses CEC Gyanesh Kumar of ‘vote theft’ at BJP’s behestRJD leader and Bihar Leader of Opposition Tejashwi Yadav accused Chief Election Commissioner Gyanesh Kumar of orchestrating alleged vote theft at the behest of Prime Minister Narendra Modi and Amit Shah.",
+          "He vowed to unite against what he described as an attempt to undermine democracy.",
+          "- October 31, 2026 17:20Sambit Patra defends Form 6, says ‘only Indians shall vote’BJP MP Sambit Patra defended the voter registration process amid the SIR row, asserting that only Indian citizens should vote and urging those whose names are missing from electoral rolls to submit Form 6.",
+          "He said a declaration form had been added, but Form 6 itself remained unchanged."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bengal"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "- October 31, 2026 19:10Mahua Moitra alleges 71% of deleted voters in Bengal are MuslimSpeaking at the INDIA bloc’s symbolic public impeachment programme against CEC Gyanesh Kumar in Delhi, TMC MP Mahua Moitra accused the Modi government and the Election Commission of undermining voting rights, claiming that 71% of deleted voters in West Bengal were Muslims and 51% were women.",
+            "source": "The Hindu",
+            "item_id": "b0873ac494e1931c3caf2f51:article",
+            "composed": false
+          },
+          {
+            "text": "- October 31, 2026 17:46Saugata Roy says INDIA bloc followed due process to submit impeachment noticepeaking at the INDIA bloc’s symbolic impeachment programme against Chief Election Commissioner Gyanesh Kumar in Delhi, TMC MP Saugata Roy said the Opposition had followed legal procedure to submit an impeachment notice but was not allowed to raise the issue in Parliament.",
+            "source": "The Hindu",
+            "item_id": "b0873ac494e1931c3caf2f51:article",
+            "composed": false
+          },
+          {
+            "text": "- October 31, 2026 17:20Tejashwi Yadav accuses CEC Gyanesh Kumar of ‘vote theft’ at BJP’s behestRJD leader and Bihar Leader of Opposition Tejashwi Yadav accused Chief Election Commissioner Gyanesh Kumar of orchestrating alleged vote theft at the behest of Prime Minister Narendra Modi and Amit Shah.",
+            "source": "The Hindu",
+            "item_id": "b0873ac494e1931c3caf2f51:article",
+            "composed": false
+          },
+          {
+            "text": "- October 31, 2026 17:20Sambit Patra defends Form 6, says ‘only Indians shall vote’BJP MP Sambit Patra defended the voter registration process amid the SIR row, asserting that only Indian citizens should vote and urging those whose names are missing from electoral rolls to submit Form 6.",
+            "source": "The Hindu",
+            "item_id": "b0873ac494e1931c3caf2f51:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/india-bloc-public-impeachment-cec-gyanesh-kumar-sir-protest-chalo-dilli-march-rahul-gandhi-live-updates-october-31-2026/article71648094.ece"
       },
       "group_size": 1,
       "label": "⚡ JUST IN",
@@ -365,7 +486,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 36.4, score 50.4 -> HIGH"
@@ -511,7 +632,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 18.8, score 49.2 -> HIGH"
@@ -608,7 +729,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice of india' in title weight 46",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -699,7 +820,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "geo: national",
         "dominant event 46, stack 36, score 46 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -806,7 +927,7 @@
         "event term: 'customs duty' in title weight 40",
         "event term: 'customs duty' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -910,7 +1031,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (odisha)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 43.2, stack 45, score 45 -> HIGH"
@@ -1020,7 +1141,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'takes charge' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 40, stack 28.8, score 40 -> HIGH"
@@ -1142,7 +1263,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'market regulator' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 31.6, score 40 -> HIGH"
