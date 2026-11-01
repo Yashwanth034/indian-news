@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T01:51:35.197230+00:00",
-  "count": 7,
+  "generated_at": "2026-11-01T02:02:28.398881+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "513515c58d750749171737ec",
@@ -47,7 +47,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -163,7 +163,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 28.4, score 58 -> HIGH"
@@ -255,9 +255,10 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "the-hindu",
+            "the-hindu-delhi"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -270,11 +271,12 @@
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -348,6 +350,123 @@
       "enrichment": "article"
     },
     {
+      "event_id": "9253c14bbacae8090802b9e2",
+      "story_id": "9253c14bbacae8090802b9e2",
+      "headline": "Pahalgam attack chief investigator among recipients of Home Minister’s Medal",
+      "title": "Pahalgam attack chief investigator among recipients of Home Minister’s Medal",
+      "summary": "New Delhi, Oct 31: NIA officer Sandeep Chaudhary, who was Chief Investigating Officer in the Pahalgam terror attack case, has been awarded the Union Home Minister's Medal for Excellence in Investigation (Kendriya Grihmantri Dakshata Padak) for 2026. The Ministry of Home Affairs announced the awards on Saturday. Chaudhary has been awarded in the investigation category. He is now posted as Deputy Inspector General in NIA. Chaudhary, a 2012-batch IPS officer of the AGMUT cadre, led the investigation into the April 22, 2025 attack at Baisaran meadow in Pahalgam in which 26 people were killed. NIA took over the case soon after the attack. Hafiz Saeed and Sajid Jatt of Lashkar-e-Toiba were among the accused chargesheeted. Before joining NIA, Chaudhary served as SSP in Shopian, Anantnag, and Srinagar, where he led several counter-insurgency operations. Earlier, Chaudhary's operation led to the arrest of Hizb-ul-Mujahideen commander Syed Naveed Mushtaq alias Naveed Babu along with Deputy Superintendent of Police (DSP) Davinder Singh in 2021. He has received gallantry medals nine times for his role in anti-terror operations in Jammu and Kashmir. He has also received Commendation Discs from the Chief of Army Staff, GOC-in-C Northern Command, the Western Air Command of the IAF, and the Directors General of CRPF, J&K Police, BPR&D, and NIA.",
+      "url": "https://www.greaterkashmir.com/national/pahalgam-attack-chief-investigator-among-recipients-of-home-ministers-medal-12772409",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 50.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-01T01:20:42+00:00",
+      "published_at": "2026-11-01T01:20:42+00:00",
+      "effective_at": "2026-11-01T01:20:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'terror attack'",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'terror attack' in summary weight 50.4",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.7h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 50.4, stack 34.8, score 50.4 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Oct 31: NIA officer Sandeep Chaudhary, who was Chief Investigating Officer in the Pahalgam terror attack case, has been awarded the Union Home Minister's Medal for Excellence in Investigation (Kendriya Grihmantri Dakshata Padak) for 2026.",
+          "The Ministry of Home Affairs announced the awards on Saturday."
+        ],
+        "body": [
+          "Chaudhary has been awarded in the investigation category.",
+          "He is now posted as Deputy Inspector General in NIA.",
+          "Chaudhary, a 2012-batch IPS officer of the AGMUT cadre, led the investigation into the April 22, 2025 attack at Baisaran meadow in Pahalgam in which 26 people were killed.",
+          "NIA took over the case soon after the attack.",
+          "Hafiz Saeed and Sajid Jatt of Lashkar-e-Toiba were among the accused chargesheeted.",
+          "Before joining NIA, Chaudhary served as SSP in Shopian, Anantnag, and Srinagar, where he led several counter-insurgency operations.",
+          "Earlier, Chaudhary's operation led to the arrest of Hizb-ul-Mujahideen commander Syed Naveed Mushtaq alias Naveed Babu along with Deputy Superintendent of Police (DSP) Davinder Singh in 2021.",
+          "He has received gallantry medals nine times for his role in anti-terror operations in Jammu and Kashmir.",
+          "He has also received Commendation Discs from the Chief of Army Staff, GOC-in-C Northern Command, the Western Air Command of the IAF, and the Directors General of CRPF, J&K. Police, BPR&D, and NIA."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Investigation"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "26 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Chaudhary, a 2012-batch IPS officer of the AGMUT cadre, led the investigation into the April 22, 2025 attack at Baisaran meadow in Pahalgam in which 26 people were killed.",
+            "source": "Greater Kashmir",
+            "item_id": "9253c14bbacae8090802b9e2",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Oct 31: NIA officer Sandeep Chaudhary, who was Chief Investigating Officer in the Pahalgam terror attack case, has been awarded the Union Home Minister's Medal for Excellence in Investigation (Kendriya Grihmantri Dakshata Padak) for 2026.",
+            "source": "Greater Kashmir",
+            "item_id": "9253c14bbacae8090802b9e2",
+            "composed": false
+          },
+          {
+            "text": "The Ministry of Home Affairs announced the awards on Saturday.",
+            "source": "Greater Kashmir",
+            "item_id": "9253c14bbacae8090802b9e2",
+            "composed": false
+          },
+          {
+            "text": "He has received gallantry medals nine times for his role in anti-terror operations in Jammu and Kashmir.",
+            "source": "Greater Kashmir",
+            "item_id": "9253c14bbacae8090802b9e2",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/national/pahalgam-attack-chief-investigator-among-recipients-of-home-ministers-medal-12772409"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "8c042e9f855a1d59d31522ff",
       "story_id": "8c042e9f855a1d59d31522ff",
       "headline": "When terror devoured its own",
@@ -394,7 +513,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 22.8, score 49.2 -> HIGH"
@@ -601,7 +720,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 42, score 49.2 -> HIGH"
@@ -801,7 +920,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 44.6, score 44.6 -> HIGH"
@@ -882,6 +1001,372 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "66be7009d1a4a1d34d462b67",
+      "story_id": "66be7009d1a4a1d34d462b67",
+      "headline": "National Conference offers Srinagar-Budgam seat to 3 senior leaders to quell dissent",
+      "title": "National Conference offers Srinagar-Budgam seat to 3 senior leaders to quell dissent",
+      "summary": "Srinagar, Oct 31: The ruling National Conference (NC) has offered the Srinagar-Budgam parliamentary constituency to at least three senior party leaders in an attempt to contain growing dissent following the recent cabinet reshuffle and the impending resignation of incumbent Member of Parliament Aga Syed Ruhullah. According to sources, the party high command has held out the prospect of the parliamentary seat to Jammu and Kashmir Legislative Assembly Speaker Abdul Rahim Rather, six-time legislator Mubarak Gul, and MLA Pampore and former parliamentarian Justice (Retired) Hasnain Masoodi. The move is being seen as part of the party leadership’s efforts to accommodate disgruntled senior leaders and prevent further escalation of internal differences ahead of the likely vacancy in the Srinagar-Budgam Lok Sabha constituency. Confirming that several senior leaders had been approached, Yawar Masoodi, son of MLA Pampore Hasnain Masoodi, told Greater Kashmir that the party leadership was offering the same seat to multiple leaders. “Besides Rather Sahab, they have also offered the seat to (Hasnain) Masoodi Sahab as well as Mubarik Gul Sahab,” he said. The development comes amid uncertainty over the party’s organisational arrangements and mounting discontent among sections of its legislators following the expansion of Chief Minister Omar Abdullah’s Council of Ministers on October 27. Six-time MLA from Eidgah Mubarak Gul, who was appointed NC General Secretary after the cabinet reshuffle but just three days later removed, said he would disclose details about developments within the party at a press conference scheduled for November 4. Speaking to Greater Kashmir , Gul said he was currently trying to pacify his supporters, who had been organising protests over his exclusion from the government. “Right now I am pacifying my workers as they have been organising Kafan rallies and Mashaal rallies in the constituency,” he said. The reported offer of the Srinagar-Budgam parliamentary seat to multiple senior leaders comes a day after Greater Kashmir reported the party leadership’s consideration of Rather as a possible candidate for the constituency. Rather, a seven-time legislator from Charar-e-Sharief in central Kashmir’s Budgam district, currently serves as Speaker of the Jammu and Kashmir Legislative Assembly. He was elected to the post in November 2024. Any decision to field Rather for the parliamentary constituency would require him to relinquish his current position of Speaker Legislative Assembly. However, according to sources, Rather has informed the NC high command that it should instead field his daughter, Dr Shagufta Rather from the Srinagar-Budgam constituency. The party is also reportedly considering senior MLA Gurez Nazir Ahmad Khan (Gurezi) for the Assembly Speaker’s post, although Khan told Greater Kashmir that he had not been informed about any such proposal. The developments are unfolding against the backdrop of the announced resignation of Aga Syed Ruhullah from both the NC and his Lok Sabha membership on November 3. Ruhullah’s office has confirmed that the Srinagar MP intends to resign from the party and Parliament on that date, citing differences with the party leadership over electoral commitments, including restoration of Article 370, protection of constitutional rights and the release of prisoners. His departure would create a vacancy in the Srinagar-Budgam parliamentary constituency, setting the stage for a possible by-election. The parliamentary seat has consequently emerged as a potential point of discussion within the party as its leadership faces pressure from several senior legislators who were left out of the recent cabinet expansion. On October 27, four legislators were inducted into Chief Minister Omar Abdullah’s Council of Ministers. However, more than a dozen NC MLAs were conspicuous by their absence from the swearing-in ceremony, with reports attributing their absence to dissatisfaction over ministerial appointments and regional representation. Senior NC leaders subsequently reached out to some of the disgruntled legislators, including Gurezi, amid reports of resentment over their exclusion from the expanded cabinet. On Friday, a group of 17 NC legislators and independent MLA from Thanamandi also held a meeting at the Srinagar residence of MLA Lolab Qaiser Jamsheed Lone to discuss developments within the party. Separately, 18 NC legislators on Saturday submitted a memorandum to CM Omar seeking a series of corrective measures, including cabinet restructuring, ministerial accountability, changes in the Chief Minister’s advisory mechanism, greater consultation with elected representatives, and organisational reforms. The legislators also sought the constitution of a high-level committee to monitor implementation of the party’s election manifesto and called for renewed political mobilisation for restoration of J&K’s statehood and protection of its constitutional identity. The reported distribution of the Srinagar-Budgam parliamentary seat among several prospective candidates adds another dimension to the party’s efforts to manage internal differences. While Rather’s name had earlier emerged as a possible choice for the constituency, the reported approaches to Gul and Masoodi suggest that the party leadership is also considering other senior leaders for the seat.",
+      "url": "https://www.greaterkashmir.com/politics/national-conference-offers-srinagar-budgam-seat-to-3-senior-leaders-to-quell-dissent-12772435",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-10-31T21:43:37+00:00",
+      "published_at": "2026-11-01T01:48:27+00:00",
+      "effective_at": "2026-11-01T01:48:27+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "rising-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "rising-kashmir"
+          ],
+          "count": 3
+        },
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 3
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "rumour: 'reportedly' in summary (penalty 3, overridden)",
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "major: significance event 'election'",
+        "major: marker 'confirmed'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "major override dropped penalties: rumour",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 6 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: state scope (jammu and kashmir)",
+        "recency: fresh (4.3h ago) +4",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 34.8, stack 44, score 44 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Srinagar, Oct 31: The ruling National Conference (NC) has offered the Srinagar-Budgam parliamentary constituency to at least three senior party leaders in an attempt to contain growing dissent following the recent cabinet reshuffle and the impending resignation of incumbent Member of Parliament Aga Syed Ruhullah.",
+          "According to sources, the party high command has held out the prospect of the parliamentary seat to Jammu and Kashmir Legislative Assembly Speaker Abdul Rahim Rather, six-time legislator Mubarak Gul, and MLA Pampore and former parliamentarian Justice (Retired) Hasnain Masoodi."
+        ],
+        "body": [
+          "The move is being seen as part of the party leadership’s efforts to accommodate disgruntled senior leaders and prevent further escalation of internal differences ahead of the likely vacancy in the Srinagar-Budgam Lok Sabha constituency.",
+          "Confirming that several senior leaders had been approached, Yawar Masoodi, son of MLA Pampore Hasnain Masoodi, told Greater Kashmir that the party leadership was offering the same seat to multiple leaders.",
+          "“Besides Rather Sahab, they have also offered the seat to (Hasnain) Masoodi Sahab as well as Mubarik Gul Sahab,” he said.",
+          "The development comes amid uncertainty over the party’s organisational arrangements and mounting discontent among sections of its legislators following the expansion of Chief Minister Omar Abdullah’s Council of Ministers on October 27.",
+          "Six-time MLA from Eidgah Mubarak Gul, who was appointed NC General Secretary after the cabinet reshuffle but just three days later removed, said he would disclose details about developments within the party at a press conference scheduled for November 4.",
+          "Speaking to Greater Kashmir, Gul said he was currently trying to pacify his supporters, who had been organising protests over his exclusion from the government.",
+          "“Right now I am pacifying my workers as they have been organising Kafan rallies and Mashaal rallies in the constituency,” he said.",
+          "The reported offer of the Srinagar-Budgam parliamentary seat to multiple senior leaders comes a day after Greater Kashmir reported the party leadership’s consideration of Rather as a possible candidate for the constituency.",
+          "Rather, a seven-time legislator from Charar-e-Sharief in central Kashmir’s Budgam district, currently serves as Speaker of the Jammu and Kashmir Legislative Assembly.",
+          "He was elected to the post in November 2024.",
+          "Any decision to field Rather for the parliamentary constituency would require him to relinquish his current position of Speaker Legislative Assembly.",
+          "However, according to sources, Rather has informed the NC high command that it should instead field his daughter, Dr Shagufta Rather from the Srinagar-Budgam constituency.",
+          "The party is also reportedly considering senior MLA Gurez Nazir Ahmad Khan (Gurezi) for the Assembly Speaker’s post, although Khan told Greater Kashmir that he had not been informed about any such proposal.",
+          "The developments are unfolding against the backdrop of the announced resignation of Aga Syed Ruhullah from both the NC and his Lok Sabha membership on November 3.",
+          "Ruhullah’s office has confirmed that the Srinagar MP intends to resign from the party and Parliament on that date, citing differences with the party leadership over electoral commitments, including restoration of Article 370, protection of constitutional rights and the release of prisoners.",
+          "His departure would create a vacancy in the Srinagar-Budgam parliamentary constituency, setting the stage for a possible by-election.",
+          "The parliamentary seat has consequently emerged as a potential point of discussion within the party as its leadership faces pressure from several senior legislators who were left out of the recent cabinet expansion.",
+          "On October 27, four legislators were inducted into Chief Minister Omar Abdullah’s Council of Ministers.",
+          "However, more than a dozen NC MLAs were conspicuous by their absence from the swearing-in ceremony, with reports attributing their absence to dissatisfaction over ministerial appointments and regional representation.",
+          "Senior NC leaders subsequently reached out to some of the disgruntled legislators, including Gurezi, amid reports of resentment over their exclusion from the expanded cabinet.",
+          "On Friday, a group of 17 NC legislators and independent MLA from Thanamandi also held a meeting at the Srinagar residence of MLA Lolab Qaiser Jamsheed Lone to discuss developments within the party.",
+          "Separately, 18 NC legislators on Saturday submitted a memorandum to CM Omar seeking a series of corrective measures, including cabinet restructuring, ministerial accountability, changes in the Chief Minister’s advisory mechanism, greater consultation with elected representatives, and organisational reforms.",
+          "The legislators also sought the constitution of a high-level committee to monitor implementation of the party’s election manifesto and called for renewed political mobilisation for restoration of J&K’s statehood and protection of its constitutional identity.",
+          "The reported distribution of the Srinagar-Budgam parliamentary seat among several prospective candidates adds another dimension to the party’s efforts to manage internal differences.",
+          "While Rather’s name had earlier emerged as a possible choice for the constituency, the reported approaches to Gul and Masoodi suggest that the party leadership is also considering other senior leaders for the seat."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "November"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Six-time MLA from Eidgah Mubarak Gul, who was appointed NC General Secretary after the cabinet reshuffle but just three days later removed, said he would disclose details about developments within the party at a press conference scheduled for November 4.",
+            "source": "Greater Kashmir",
+            "item_id": "66be7009d1a4a1d34d462b67",
+            "composed": false
+          },
+          {
+            "text": "On Friday, a group of 17 NC legislators and independent MLA from Thanamandi also held a meeting at the Srinagar residence of MLA Lolab Qaiser Jamsheed Lone to discuss developments within the party.",
+            "source": "Greater Kashmir",
+            "item_id": "66be7009d1a4a1d34d462b67",
+            "composed": false
+          },
+          {
+            "text": "He was elected to the post in November 2024.",
+            "source": "Greater Kashmir",
+            "item_id": "66be7009d1a4a1d34d462b67",
+            "composed": false
+          },
+          {
+            "text": "The developments are unfolding against the backdrop of the announced resignation of Aga Syed Ruhullah from both the NC and his Lok Sabha membership on November 3.",
+            "source": "Greater Kashmir",
+            "item_id": "66be7009d1a4a1d34d462b67",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/politics/national-conference-offers-srinagar-budgam-seat-to-3-senior-leaders-to-quell-dissent-12772435"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "165195a21d2cf17227724222",
+      "story_id": "165195a21d2cf17227724222",
+      "headline": "From Land to the Tiller to the Loss of Political Voice",
+      "title": "From Land to the Tiller to the Loss of Political Voice",
+      "summary": "There are moments in the life of a society when the present becomes so overwhelming that it begins to obscure the lessons of its own past. Political uncertainty, administrative helplessness and collective disillusionment can leave a people questioning not merely where they are headed, but whether they have lost sight of what they once stood for. At such moments, history is more than a record of yesterday. It becomes a compass for tomorrow. Jammu and Kashmir finds itself at precisely such a juncture. The prevailing political atmosphere is marked by an unsettling contradiction. Administratively, the elected dispensation appears constrained, frequently unable or unwilling to assert even the limited authority available to it. Politically, however, where it could still exercise its voice, articulate dissent and hold the Union Government accountable, it has too often retreated into a silence that increasingly resembles political surrender. This is accompanied by a tacit willingness to dilute its political position, lower the pitch of its dissent and project an image of weakness and helplessness. One is compelled to ask: what has this political accommodation achieved? Has it brought relief to young people languishing in distant jails? Has it secured greater dignity, employment or institutional safeguards for the people? Has it advanced the restoration of statehood or strengthened the democratic character of governance? If compromise is to be defended as political pragmatism, it must produce something tangible. Otherwise, it risks becoming an end in itself, leaving the public with neither political assertion nor administrative dividends. To appreciate the depth of this moment, it is worth revisiting the political journey that shaped modern Jammu and Kashmir. When the Jammu and Kashmir Constituent Assembly convened in 1951, it was not merely another legislative institution. It was entrusted with the formidable task of defining the political, constitutional and socio-economic future of a society emerging from feudal structures and historical inequalities. Its debates were about far more than the mechanics of governance. They concerned the dignity of the individual, the redistribution of opportunity, access to education and the relationship between political power and public welfare. The Assembly brought together individuals of remarkable intellectual and political distinction, among them Sheikh Mohammad Abdullah, Mirza Mohammad Afzal Beg, D.P. Dhar, Girdhari Lal Dogra and Ghulam Ahmad Mir of Sallar, my grandfather. They belonged to a generation that, whatever their differences, understood politics as an instrument of social transformation. Their politics was rooted in the conviction that public authority carried an obligation to improve the lives of ordinary citizens. My grandfather occupied a particularly interesting place in that generation. Educated at Punjab University, Lahore, Ghulam Ahmad Mir combined intellectual refinement with an intimate understanding of rural society. His academic grounding enabled him to engage with legislative questions and agrarian economics, but his sensibilities remained firmly rooted in the villages of Dachinpara and the Lidder Valley. His social position made his political choices even more consequential. He was himself a Zaildar of Sallar, an institution historically associated with exploitation, feudal privilege, authority and extraction. Yet his legacy, as remembered by generations in the area, was markedly different. He belonged to a different mould. Rather than treating influence as an instrument of personal enrichment, he sought to employ it for education, social uplift and community welfare. He was remembered not simply as a man of standing, but as someone who believed that privilege carried responsibilities. His civic and spiritual convictions were reflected in institutions that continue to form part of Pahalgam's collective memory. The historic Jamia Masjid of Pahalgam, whose foundation was laid in 1932, stands in striking alignment with the local Gurdwara and Temple. This shared spatial arrangement has endured as a visible expression of the area's tradition of communal coexistence, rather than being merely an architectural coincidence. His contributions to the expansion and service, or Khidmah, of the sacred Khiram Dargah Hazratbal were another manifestation of his spiritual commitment. He left his home and spent five long years staying there. But his vision extended beyond religious and civic institutions. It reached the fields, the orchards and, above all, the minds of the people. Dachinpara and its adjoining areas were traditionally dependent on dry almond cultivation, an agricultural model increasingly vulnerable to climatic and geographical limitations. With considerable foresight, he encouraged the introduction of apple cultivation, helping initiate an agricultural transition that would eventually reshape the economic landscape of the region. His interest in the environment was equally evident in his afforestation efforts across otherwise barren mountain slopes. His home, Darul Khair in Sallar, too, became a centre of social interaction, intellectual exchange and hospitality. Long before Pahalgam evolved into the commercial tourist destination it is today, travellers, scholars and ordinary people from different walks of life found a welcome there. It was an expression of hospitality that was not measured by commercial returns, but by the dignity extended to a guest. Yet perhaps the most consequential expression of his convictions was his engagement with the politics of land, education and social emancipation. The historical proceedings of the Constituent Assembly offer an important window into this aspect of his public life. As a Zaildar with substantial landed interests, he had every conventional incentive to defend the privileges of his class when the Assembly debated radical agrarian reforms. Instead, he supported the principle of Land to the Tiller and the abolition of large landed estates. The significance of this position cannot be understood without recalling the conditions of the Kashmiri peasantry. For generations, cultivators had worked land they did not own, with the fruits of their labour disproportionately accruing to landlords. The agrarian reforms represented a fundamental challenge to this inherited inequality. Alongside Sheikh Abdullah and other proponents of the reforms, my grandfather supported the transfer of ownership to the actual tiller, without imposing an oppressive compensation burden that could have defeated the very purpose of emancipation. In doing so, he was willing to see his own landed interests subordinated to a larger social transformation. His understanding of emancipation, however, did not end with land redistribution. He recognised that ownership could liberate the peasant economically, but education was essential to liberate the next generation intellectually. He therefore invested personal resources in the education of young people from Dachinpara, facilitating opportunities for promising students to pursue studies outside the region, including at institutions such as Khalsa College, Amritsar. The educational vision reflected in the Assembly's early constitutional framework was equally remarkable. The commitment to free education demonstrated an understanding that social equality could not be achieved through economic redistribution alone. Long before the Indian Constitution's 86th Amendment formally inserted Article 21A, the foundational constitutional thinking in Jammu and Kashmir had recognised education as central to the state's obligations. This was the political imagination of that generation: land for the tiller, education for the child, dignity for the individual and responsibility for those entrusted with public authority. Seven decades later, the landscape has changed dramatically. The events of August 5, 2019, the abrogation of Articles 370 and 35A, and the subsequent reorganisation of the erstwhile state into two Union Territories fundamentally altered Jammu and Kashmir's constitutional and political arrangement. The loss of statehood and the transfer of significant governing powers to the Union have left elected institutions functioning within a considerably diminished framework. The Supreme Court's judgment may have brought the constitutional litigation to a conclusion, and its authority as the guardian of the Constitution commands respect. But a judicial conclusion does not necessarily settle the political anxieties of an entire society. A people's attachment to their identity, democratic agency and political aspirations cannot simply be extinguished by the closure of a courtroom proceeding. The subsequent Assembly elections witnessed substantial public participation. That participation was not necessarily an endorsement of the prevailing constitutional arrangement or an expression of complete satisfaction with the political choices available. For many, it was an assertion of democratic agency, an attempt to reclaim political space and a rejection of the idea that Jammu and Kashmir could be governed indefinitely without an elected government accountable to its people. Yet, following the elections, an uncomfortable political quietude has settled over much of the public discourse. The conversation has increasingly narrowed to potholes, erratic electricity schedules, dry taps, dysfunctional schools and the familiar catalogue of administrative grievances. These issues are undeniably important. They affect everyday life and demand urgent attention. But they cannot become the entire vocabulary of politics in a place whose constitutional and political circumstances remain so profoundly unsettled. The elected leadership appears caught between two competing realities: the responsibility to administer an institutionally weakened Union Territory and the obligation to articulate the larger political aspirations that brought it to power. This raises a fundamental question: is Jammu and Kashmir suffering from political disenfranchisement, administrative failure, or both? The uncomfortable answer is that these conditions reinforce one another. When meaningful legislative and executive authority is diminished, accountability becomes fragmented. Decisions travel through layers of bureaucracy, responsibilities become blurred and elected representatives find themselves explaining outcomes over which they may exercise limited control. Governance risks becoming an exercise in managing files rather than resolving people's problems. At the same time, when citizens are compelled to devote their energies to basic necessities, their capacity to engage with larger questions of constitutional rights, democratic representation and political accountability inevitably suffers. The daily struggle for electricity, water, employment and functioning public institutions gradually displaces the more fundamental debate about the structure of power itself. This is perhaps the most dangerous consequence of the present arrangement: the gradual normalisation of diminished political expectations. But the responsibility for this situation cannot be placed entirely at the door of constitutional circumstances. Political leadership must also be judged by how it responds to constraints. An elected government cannot use its limited mandate as a permanent explanation for its silences, just as it cannot invoke constitutional grievances to excuse failures in everyday administration. Political assertion and administrative competence are not competing responsibilities. They are complementary obligations. It is here that the contrast with the generation of 1951 becomes particularly instructive. Those leaders did not ask the peasant to choose between the title deed to his land and his political voice. They understood that the two were inseparable. They challenged feudal privilege while constructing institutions of governance. They pursued agrarian reform while expanding educational opportunities. They understood that political dignity without economic empowerment was incomplete, just as material progress without democratic agency could never constitute genuine emancipation. Today, unfortunately, much of our political discourse has descended into transactional calculations, personality contests and relentless character assassination. Public life is increasingly consumed by arguments over individuals rather than ideas, positions rather than principles and political survival rather than public purpose. The people of Jammu and Kashmir deserve better. They deserve a leadership capable of articulating their constitutional aspirations without ambiguity, defending their democratic rights without hesitation and delivering administrative results without excuses. They deserve political representatives who understand that dissent is not disloyalty, that accommodation is not an achievement in itself and that holding public office is a responsibility rather than a privilege. Remembering Mir-e-Sallar and his contemporaries is not an exercise in nostalgia, nor is it an attempt to romanticise an earlier political era. Their generation had its own contradictions, limitations and difficult choices. But it left behind an important standard by which public life can still be judged: the willingness to place collective interest above personal advantage. For me, this inheritance is both personal and political. The history of my grandfather is not merely a family memory. It is a reminder of what public responsibility once demanded from those who occupied position of influence. A man who could have defended his interests chose to support their redistribution. A man of social standing invested in the education of those who had little access to opportunity. A man rooted in his own community understood the importance of coexistence beyond it. That is the kind of political courage our times urgently require. The most meaningful tribute to the founding generation would not be to celebrate their photographs, repeat their speeches or invoke their names at public gatherings. It would be to recover the principles that informed their public lives: integrity, intellectual courage, social responsibility and an unwavering commitment to the dignity of ordinary people. History does not offer a ready-made solution to the crises of the present. But it does remind us that political limitations need not become limitations of political imagination. Jammu and Kashmir must not surrender to the belief that administrative survival requires political silence, or that constitutional aspirations can be postponed indefinitely in the name of pragmatic governance. Neither should political rhetoric become an alibi for administrative incompetence. A society cannot live indefinitely on memories, but it can draw strength from them. The covenant of 1951 was, at its heart, a promise that power must serve the people, that dignity must accompany development and that political institutions must remain answerable to those in whose name they function. Perhaps the most urgent task before our present generation is not to invent a new political vocabulary, but to rediscover the courage to honour that old promise. For a people who once fought to reclaim their land, their education and their dignity, the greatest tragedy would be to become reconciled to the loss of their political voice. The author is an Advocate and Columnist on Politics and Governance.",
+      "url": "https://www.greaterkashmir.com/opinion/from-land-to-the-tiller-to-the-loss-of-political-voice-12772438",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "education",
+        "government-policy",
+        "national-politics",
+        "jobs-employment",
+        "energy-environment",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 93.6,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-01T01:53:06+00:00",
+      "published_at": "2026-11-01T01:53:06+00:00",
+      "effective_at": "2026-11-01T01:53:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'judgment' in summary weight 10.8",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 26.4, stack 43.2, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "There are moments in the life of a society when the present becomes so overwhelming that it begins to obscure the lessons of its own past.",
+          "Political uncertainty, administrative helplessness and collective disillusionment can leave a people questioning not merely where they are headed, but whether they have lost sight of what they once stood for."
+        ],
+        "body": [
+          "At such moments, history is more than a record of yesterday.",
+          "It becomes a compass for tomorrow.",
+          "Jammu and Kashmir finds itself at precisely such a juncture.",
+          "The prevailing political atmosphere is marked by an unsettling contradiction.",
+          "Administratively, the elected dispensation appears constrained, frequently unable or unwilling to assert even the limited authority available to it.",
+          "Politically, however, where it could still exercise its voice, articulate dissent and hold the Union Government accountable, it has too often retreated into a silence that increasingly resembles political surrender.",
+          "This is accompanied by a tacit willingness to dilute its political position, lower the pitch of its dissent and project an image of weakness and helplessness.",
+          "One is compelled to ask: what has this political accommodation achieved?",
+          "Has it brought relief to young people languishing in distant jails?",
+          "Has it secured greater dignity, employment or institutional safeguards for the people?",
+          "Has it advanced the restoration of statehood or strengthened the democratic character of governance?",
+          "If compromise is to be defended as political pragmatism, it must produce something tangible.",
+          "Otherwise, it risks becoming an end in itself, leaving the public with neither political assertion nor administrative dividends.",
+          "To appreciate the depth of this moment, it is worth revisiting the political journey that shaped modern Jammu and Kashmir.",
+          "When the Jammu and Kashmir Constituent Assembly convened in 1951, it was not merely another legislative institution.",
+          "It was entrusted with the formidable task of defining the political, constitutional and socio-economic future of a society emerging from feudal structures and historical inequalities.",
+          "Its debates were about far more than the mechanics of governance.",
+          "They concerned the dignity of the individual, the redistribution of opportunity, access to education and the relationship between political power and public welfare.",
+          "The Assembly brought together individuals of remarkable intellectual and political distinction, among them Sheikh Mohammad Abdullah, Mirza Mohammad Afzal Beg, D.P. Dhar, Girdhari Lal Dogra and Ghulam Ahmad Mir of Sallar, my grandfather.",
+          "They belonged to a generation that, whatever their differences, understood politics as an instrument of social transformation.",
+          "Their politics was rooted in the conviction that public authority carried an obligation to improve the lives of ordinary citizens.",
+          "My grandfather occupied a particularly interesting place in that generation.",
+          "Educated at Punjab University, Lahore, Ghulam Ahmad Mir combined intellectual refinement with an intimate understanding of rural society.",
+          "His academic grounding enabled him to engage with legislative questions and agrarian economics, but his sensibilities remained firmly rooted in the villages of Dachinpara and the Lidder Valley.",
+          "His social position made his political choices even more consequential.",
+          "He was himself a Zaildar of Sallar, an institution historically associated with exploitation, feudal privilege, authority and extraction.",
+          "Yet his legacy, as remembered by generations in the area, was markedly different.",
+          "He belonged to a different mould.",
+          "Rather than treating influence as an instrument of personal enrichment, he sought to employ it for education, social uplift and community welfare.",
+          "He was remembered not simply as a man of standing, but as someone who believed that privilege carried responsibilities.",
+          "His civic and spiritual convictions were reflected in institutions that continue to form part of Pahalgam's collective memory.",
+          "The historic Jamia Masjid of Pahalgam, whose foundation was laid in 1932, stands in striking alignment with the local Gurdwara and Temple.",
+          "This shared spatial arrangement has endured as a visible expression of the area's tradition of communal coexistence, rather than being merely an architectural coincidence.",
+          "His contributions to the expansion and service, or Khidmah, of the sacred Khiram Dargah Hazratbal were another manifestation of his spiritual commitment.",
+          "He left his home and spent five long years staying there.",
+          "But his vision extended beyond religious and civic institutions.",
+          "It reached the fields, the orchards and, above all, the minds of the people.",
+          "Dachinpara and its adjoining areas were traditionally dependent on dry almond cultivation, an agricultural model increasingly vulnerable to climatic and geographical limitations.",
+          "With considerable foresight, he encouraged the introduction of apple cultivation, helping initiate an agricultural transition that would eventually reshape the economic landscape of the region.",
+          "His interest in the environment was equally evident in his afforestation efforts across otherwise barren mountain slopes.",
+          "His home, Darul Khair in Sallar, too, became a centre of social interaction, intellectual exchange and hospitality.",
+          "Long before Pahalgam evolved into the commercial tourist destination it is today, travellers, scholars and ordinary people from different walks of life found a welcome there.",
+          "It was an expression of hospitality that was not measured by commercial returns, but by the dignity extended to a guest.",
+          "Yet perhaps the most consequential expression of his convictions was his engagement with the politics of land, education and social emancipation.",
+          "The historical proceedings of the Constituent Assembly offer an important window into this aspect of his public life.",
+          "As a Zaildar with substantial landed interests, he had every conventional incentive to defend the privileges of his class when the Assembly debated radical agrarian reforms.",
+          "Instead, he supported the principle of Land to the Tiller and the abolition of large landed estates.",
+          "The significance of this position cannot be understood without recalling the conditions of the Kashmiri peasantry.",
+          "For generations, cultivators had worked land they did not own, with the fruits of their labour disproportionately accruing to landlords.",
+          "The agrarian reforms represented a fundamental challenge to this inherited inequality.",
+          "Alongside Sheikh Abdullah and other proponents of the reforms, my grandfather supported the transfer of ownership to the actual tiller, without imposing an oppressive compensation burden that could have defeated the very purpose of emancipation.",
+          "In doing so, he was willing to see his own landed interests subordinated to a larger social transformation.",
+          "His understanding of emancipation, however, did not end with land redistribution.",
+          "He recognised that ownership could liberate the peasant economically, but education was essential to liberate the next generation intellectually.",
+          "He therefore invested personal resources in the education of young people from Dachinpara, facilitating opportunities for promising students to pursue studies outside the region, including at institutions such as Khalsa College, Amritsar.",
+          "The educational vision reflected in the Assembly's early constitutional framework was equally remarkable.",
+          "The commitment to free education demonstrated an understanding that social equality could not be achieved through economic redistribution alone.",
+          "Long before the Indian Constitution's 86th Amendment formally inserted Article 21A, the foundational constitutional thinking in Jammu and Kashmir had recognised education as central to the state's obligations.",
+          "This was the political imagination of that generation: land for the tiller, education for the child, dignity for the individual and responsibility for those entrusted with public authority.",
+          "Seven decades later, the landscape has changed dramatically.",
+          "The events of August 5, 2019, the abrogation of Articles 370 and 35A, and the subsequent reorganisation of the erstwhile state into two Union Territories fundamentally altered Jammu and Kashmir's constitutional and political arrangement.",
+          "The loss of statehood and the transfer of significant governing powers to the Union have left elected institutions functioning within a considerably diminished framework.",
+          "The Supreme Court's judgment may have brought the constitutional litigation to a conclusion, and its authority as the guardian of the Constitution commands respect.",
+          "But a judicial conclusion does not necessarily settle the political anxieties of an entire society.",
+          "A people's attachment to their identity, democratic agency and political aspirations cannot simply be extinguished by the closure of a courtroom proceeding.",
+          "The subsequent Assembly elections witnessed substantial public participation.",
+          "That participation was not necessarily an endorsement of the prevailing constitutional arrangement or an expression of complete satisfaction with the political choices available.",
+          "For many, it was an assertion of democratic agency, an attempt to reclaim political space and a rejection of the idea that Jammu and Kashmir could be governed indefinitely without an elected government accountable to its people.",
+          "Yet, following the elections, an uncomfortable political quietude has settled over much of the public discourse.",
+          "The conversation has increasingly narrowed to potholes, erratic electricity schedules, dry taps, dysfunctional schools and the familiar catalogue of administrative grievances.",
+          "These issues are undeniably important.",
+          "They affect everyday life and demand urgent attention.",
+          "But they cannot become the entire vocabulary of politics in a place whose constitutional and political circumstances remain so profoundly unsettled.",
+          "The elected leadership appears caught between two competing realities: the responsibility to administer an institutionally weakened Union Territory and the obligation to articulate the larger political aspirations that brought it to power.",
+          "This raises a fundamental question: is Jammu and Kashmir suffering from political disenfranchisement, administrative failure, or both?",
+          "The uncomfortable answer is that these conditions reinforce one another.",
+          "When meaningful legislative and executive authority is diminished, accountability becomes fragmented.",
+          "Decisions travel through layers of bureaucracy, responsibilities become blurred and elected representatives find themselves explaining outcomes over which they may exercise limited control.",
+          "Governance risks becoming an exercise in managing files rather than resolving people's problems.",
+          "At the same time, when citizens are compelled to devote their energies to basic necessities, their capacity to engage with larger questions of constitutional rights, democratic representation and political accountability inevitably suffers.",
+          "The daily struggle for electricity, water, employment and functioning public institutions gradually displaces the more fundamental debate about the structure of power itself.",
+          "This is perhaps the most dangerous consequence of the present arrangement: the gradual normalisation of diminished political expectations.",
+          "But the responsibility for this situation cannot be placed entirely at the door of constitutional circumstances.",
+          "Political leadership must also be judged by how it responds to constraints.",
+          "An elected government cannot use its limited mandate as a permanent explanation for its silences, just as it cannot invoke constitutional grievances to excuse failures in everyday administration.",
+          "Political assertion and administrative competence are not competing responsibilities.",
+          "They are complementary obligations.",
+          "It is here that the contrast with the generation of 1951 becomes particularly instructive.",
+          "Those leaders did not ask the peasant to choose between the title deed to his land and his political voice.",
+          "They understood that the two were inseparable.",
+          "They challenged feudal privilege while constructing institutions of governance.",
+          "They pursued agrarian reform while expanding educational opportunities.",
+          "They understood that political dignity without economic empowerment was incomplete, just as material progress without democratic agency could never constitute genuine emancipation.",
+          "Today, unfortunately, much of our political discourse has descended into transactional calculations, personality contests and relentless character assassination.",
+          "Public life is increasingly consumed by arguments over individuals rather than ideas, positions rather than principles and political survival rather than public purpose.",
+          "The people of Jammu and Kashmir deserve better.",
+          "They deserve a leadership capable of articulating their constitutional aspirations without ambiguity, defending their democratic rights without hesitation and delivering administrative results without excuses.",
+          "They deserve political representatives who understand that dissent is not disloyalty, that accommodation is not an achievement in itself and that holding public office is a responsibility rather than a privilege.",
+          "Remembering Mir-e-Sallar and his contemporaries is not an exercise in nostalgia, nor is it an attempt to romanticise an earlier political era.",
+          "Their generation had its own contradictions, limitations and difficult choices.",
+          "But it left behind an important standard by which public life can still be judged: the willingness to place collective interest above personal advantage.",
+          "For me, this inheritance is both personal and political.",
+          "The history of my grandfather is not merely a family memory.",
+          "It is a reminder of what public responsibility once demanded from those who occupied position of influence.",
+          "A man who could have defended his interests chose to support their redistribution.",
+          "A man of social standing invested in the education of those who had little access to opportunity.",
+          "A man rooted in his own community understood the importance of coexistence beyond it.",
+          "That is the kind of political courage our times urgently require.",
+          "The most meaningful tribute to the founding generation would not be to celebrate their photographs, repeat their speeches or invoke their names at public gatherings.",
+          "It would be to recover the principles that informed their public lives: integrity, intellectual courage, social responsibility and an unwavering commitment to the dignity of ordinary people.",
+          "History does not offer a ready-made solution to the crises of the present.",
+          "But it does remind us that political limitations need not become limitations of political imagination.",
+          "Jammu and Kashmir must not surrender to the belief that administrative survival requires political silence, or that constitutional aspirations can be postponed indefinitely in the name of pragmatic governance.",
+          "Neither should political rhetoric become an alibi for administrative incompetence.",
+          "A society cannot live indefinitely on memories, but it can draw strength from them.",
+          "The covenant of 1951 was, at its heart, a promise that power must serve the people, that dignity must accompany development and that political institutions must remain answerable to those in whose name they function.",
+          "Perhaps the most urgent task before our present generation is not to invent a new political vocabulary, but to rediscover the courage to honour that old promise.",
+          "For a people who once fought to reclaim their land, their education and their dignity, the greatest tragedy would be to become reconciled to the loss of their political voice.",
+          "The author is an Advocate and Columnist on Politics and Governance."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Punjab University"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The events of August 5, 2019, the abrogation of Articles 370 and 35A, and the subsequent reorganisation of the erstwhile state into two Union Territories fundamentally altered Jammu and Kashmir's constitutional and political arrangement.",
+            "source": "Greater Kashmir",
+            "item_id": "165195a21d2cf17227724222",
+            "composed": false
+          },
+          {
+            "text": "Long before Pahalgam evolved into the commercial tourist destination it is today, travellers, scholars and ordinary people from different walks of life found a welcome there.",
+            "source": "Greater Kashmir",
+            "item_id": "165195a21d2cf17227724222",
+            "composed": false
+          },
+          {
+            "text": "At such moments, history is more than a record of yesterday.",
+            "source": "Greater Kashmir",
+            "item_id": "165195a21d2cf17227724222",
+            "composed": false
+          },
+          {
+            "text": "It becomes a compass for tomorrow.",
+            "source": "Greater Kashmir",
+            "item_id": "165195a21d2cf17227724222",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/opinion/from-land-to-the-tiller-to-the-loss-of-political-voice-12772438"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "51355e522fe6fea5c3c0b704",
       "story_id": "51355e522fe6fea5c3c0b704",
       "headline": "Cybercrime, drugs among J&K’s biggest challenges: IGP Kashmir",
@@ -930,7 +1415,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 31.4, score 42 -> HIGH"
