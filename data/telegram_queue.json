@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:21:50.744994+00:00",
+  "generated_at": "2026-11-02T12:32:23.460373+00:00",
   "count": 19,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -166,7 +166,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 34, score 72 -> URGENT"
@@ -289,7 +289,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -370,7 +370,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -488,7 +488,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -600,7 +600,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -642,6 +642,97 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "57e4a7006b9fee9934000f30",
+      "story_id": "57e4a7006b9fee9934000f30",
+      "headline": "No successful infiltration across LoC in 2026 as J&K sees sharp decline in terror violence",
+      "title": "No successful infiltration across LoC in 2026 as J&K sees sharp decline in terror violence",
+      "summary": "Terror-related violence in Jammu & Kashmir has declined to its lowest levels in decades, indicating improved stability. Data shows that just two security personnel fatalities occurred during the current year, reflecting a significant reduction. Recruitment of locals into terrorist groups has also sharply decreased, with no new recruits reported in 2026. Furthermore, the law-and-order situation has improved, with no incidents of civil unrest this year.",
+      "url": "https://timesofindia.indiatimes.com/defence/news/no-successful-infiltration-across-loc-in-2026-as-jk-sees-sharp-decline-in-terror-violence/articleshow/135461652.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [
+        "jobs-employment"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 62.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-02T12:20:17+00:00",
+      "published_at": "2026-11-02T12:20:17+00:00",
+      "effective_at": "2026-11-02T12:20:17+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'loc' in title weight 62",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 62, stack 28.8, score 62 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Terror-related violence in Jammu & Kashmir has declined to its lowest levels in decades, indicating improved stability.",
+          "Data shows that just two security personnel fatalities occurred during the current year, reflecting a significant reduction."
+        ],
+        "body": [
+          "Recruitment of locals into terrorist groups has also sharply decreased, with no new recruits reported in 2026.",
+          "Furthermore, the law-and-order situation has improved, with no incidents of civil unrest this year."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jammu"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Terror-related violence in Jammu & Kashmir has declined to its lowest levels in decades, indicating improved stability.",
+            "source": "Times of India",
+            "item_id": "57e4a7006b9fee9934000f30",
+            "composed": false
+          },
+          {
+            "text": "Recruitment of locals into terrorist groups has also sharply decreased, with no new recruits reported in 2026.",
+            "source": "Times of India",
+            "item_id": "57e4a7006b9fee9934000f30",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/defence/news/no-successful-infiltration-across-loc-in-2026-as-jk-sees-sharp-decline-in-terror-violence/articleshow/135461652.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -704,7 +795,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (7.0h ago) +4",
+        "recency: fresh (7.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -719,6 +810,7 @@
           "Supreme Court extends the permission to Green Crackers for 2 days in Delhi-NCR with a complete ban from November 9."
         ],
         "body": [
+          "Delhi Air Touches Very Poor; Supreme Court Allows Green Crackers For Diwali.",
           "The Supreme Court has permitted the sale of certified green crackers in Delhi-NCR from November 2 to 6 and their bursting during specified hours on November 7 and 8.",
           "A complete ban will return from November 9.",
           "The Supreme Court has allowed certified green cracker sales in Delhi-NCR from November 2–6, with bursting restricted to specified hours on 7 and 8 November.",
@@ -755,6 +847,7 @@
         ],
         "source": "The Hans India",
         "corroborating": [
+          "India Today",
           "Telangana Today",
           "National Herald",
           "Business Standard",
@@ -763,7 +856,7 @@
         ],
         "url": "https://www.thehansindia.com/news/national/supreme-court-allows-green-crackers-in-delhi-ncr-on-diwali-sets-two-hour-time-slots-1138538"
       },
-      "group_size": 7,
+      "group_size": 8,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -810,7 +903,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -906,7 +999,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -991,7 +1084,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1103,7 +1196,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1206,7 +1299,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1321,7 +1414,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1395,159 +1488,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "dbaf098fa98eb27379759b35",
-      "story_id": "dbaf098fa98eb27379759b35",
-      "headline": "Cold grips Delhi as air quality slips to very poor levels",
-      "title": "Cold grips Delhi as air quality slips to very poor levels",
-      "summary": "New Delhi, Nov 2 : Delhi-NCR residents experienced a wintry chill on Monday morning, with winter gradually setting in across the region. Meanwhile, the air quality fell to the 'very poor’ category, with the overall Air Quality Index (AQI) recorded at 310 after a few days' respite because of the rain last week. Several monitoring stations across the national Capital and its surrounding areas reported 'poor' to 'very poor' air quality. The AQI stood at 313 in Burari, 258 in Badarpur, 213 in Chhawla, 237 in Jharoda Kalan, 273 in Vasundhara Enclave, 256 in Karala and 310 in Uttam Nagar. Other areas also recorded high pollution levels, including Ghoga at 274, Nangloi at 319, NIH Narela at 353, Mandir Marg at 340, Aya Nagar at 288, CRRI Mathura Road at 334 and Pusa at 340. Sirifort recorded an AQI of 354, while Chandni Chowk stood at 361 and Burari Crossing at 354. The AQI was also recorded at 319 in JNU, 382 in Alipur, 359 at North Campus, Delhi University, 322 at Talkatora Garden and 357 at Dwarka Sector-8. As northern India begins to experience the onset of winter, the country is witnessing a sharp contrast in weather conditions. While northern states are enjoying pleasant weather and cooler temperatures, southern and eastern regions are preparing for heavy rainfall amid the approach of Cyclone Murasu towards the Andhra Pradesh coast. According to the India Meteorological Department (IMD), Delhi is expected to witness a bright day, with temperatures ranging between 17 degrees Celsius and 29 degrees Celsius. No rainfall warning has been issued for the national Capital. Punjab and Haryana are also expected to remain largely dry, providing residents with some respite from unpredictable weather conditions. Meanwhile, the Bay of Bengal is witnessing increased weather activity, with Cyclone Murasu expected to intensify before approaching the Andhra Pradesh coast. Winter conditions are also tightening their grip on Himalayan destinations, including Spiti, Ladakh and Kedarnath. To tackle rising pollution during the winter months, the Delhi government has begun enforcing fixed-term restrictions under its Winter Action Plan from November 1. The measures will remain in force for varying periods until February 28. A complete ban on construction and demolition activities, except for specified exemptions, will be imposed from December 10 to January 20. The plan aims to curb vehicular emissions, control dust and reduce road traffic during the peak winter season. The government has also staggered office timings to ease traffic congestion. Delhi government offices will function from 10 a.m. to 6:30 p.m., while Municipal Corporation of Delhi offices will operate from 8:30 a.m. to 5 p.m. until February 28. Parking charges at authorised municipal sites will also be doubled to discourage the use of private vehicles. On the first day of the Winter Action Plan, authorities imposed penalties and environmental compensation totalling Rs 68.4 lakh. Enforcement teams checked nearly 15,000 vehicles, turned back 1,539 at border points and issued 566 challans for violations of Pollution Under Control Certificate norms. According to official data available till 5 p.m. on Sunday, penalties included Rs 56.6 lakh for PUCC violations, Rs 2 lakh for breaches of vehicle entry restrictions and Rs 9.8 lakh as environmental compensation for violations of dust-control norms at construction and demolition sites. --IANS",
-      "url": "https://assamtribune.com/national/cold-grips-delhi-as-air-quality-slips-to-very-poor-levels-1621822",
-      "source": "The Assam Tribune",
-      "primary_source": false,
-      "tier": 2,
-      "category": "energy-environment",
-      "secondary_categories": [
-        "weather-disasters",
-        "transport-infrastructure",
-        "defence-security",
-        "education"
-      ],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 43.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-02T02:14:58+00:00",
-      "published_at": "2026-11-02T06:24:19+00:00",
-      "effective_at": "2026-11-02T06:24:19+00:00",
-      "independent_source_groups": 3,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "ians": {
-          "kind": "wire",
-          "source_ids": [
-            "assam-tribune"
-          ],
-          "count": 1
-        },
-        "ani": {
-          "kind": "wire",
-          "source_ids": [
-            "rising-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 3 independent sources",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: energy-environment (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (assam-tribune) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "scale: multi-state (5 states)",
-        "recency: fresh (10.1h ago) +4",
-        "category: energy-environment (importance 1) +1.2",
-        "geo: national",
-        "dominant event 43.2, stack 33.2, score 43.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Nov 2: Delhi-NCR residents experienced a wintry chill on Monday morning, with winter gradually setting in across the region.",
-          "Meanwhile, the air quality fell to the 'very poor’ category, with the overall Air Quality Index (AQI) recorded at 310 after a few days' respite because of the rain last week."
-        ],
-        "body": [
-          "Several monitoring stations across the national Capital and its surrounding areas reported 'poor' to 'very poor' air quality.",
-          "The AQI stood at 313 in Burari, 258 in Badarpur, 213 in Chhawla, 237 in Jharoda Kalan, 273 in Vasundhara Enclave, 256 in Karala and 310 in Uttam Nagar.",
-          "Other areas also recorded high pollution levels, including Ghoga at 274, Nangloi at 319, NIH Narela at 353, Mandir Marg at 340, Aya Nagar at 288, CRRI Mathura Road at 334 and Pusa at 340.",
-          "Sirifort recorded an AQI of 354, while Chandni Chowk stood at 361 and Burari Crossing at 354.",
-          "The AQI was also recorded at 319 in JNU, 382 in Alipur, 359 at North Campus, Delhi University, 322 at Talkatora Garden and 357 at Dwarka Sector-8.",
-          "As northern India begins to experience the onset of winter, the country is witnessing a sharp contrast in weather conditions.",
-          "While northern states are enjoying pleasant weather and cooler temperatures, southern and eastern regions are preparing for heavy rainfall amid the approach of Cyclone Murasu towards the Andhra Pradesh coast.",
-          "No rainfall warning has been issued for the national Capital.",
-          "Punjab and Haryana are also expected to remain largely dry, providing residents with some respite from unpredictable weather conditions.",
-          "Meanwhile, the Bay of Bengal is witnessing increased weather activity, with Cyclone Murasu expected to intensify before approaching the Andhra Pradesh coast.",
-          "Winter conditions are also tightening their grip on Himalayan destinations, including Spiti, Ladakh and Kedarnath.",
-          "To tackle rising pollution during the winter months, the Delhi government has begun enforcing fixed-term restrictions under its Winter Action Plan from November 1.",
-          "The measures will remain in force for varying periods until February 28.",
-          "A complete ban on construction and demolition activities, except for specified exemptions, will be imposed from December 10 to January 20.",
-          "The plan aims to curb vehicular emissions, control dust and reduce road traffic during the peak winter season.",
-          "The government has also staggered office timings to ease traffic congestion.",
-          "Delhi government offices will function from 10 a.m. to 6:30 p.m., while Municipal Corporation of Delhi offices will operate from 8:30 a.m. to 5 p.m. until February 28.",
-          "Parking charges at authorised municipal sites will also be doubled to discourage the use of private vehicles.",
-          "On the first day of the Winter Action Plan, authorities imposed penalties and environmental compensation totalling Rs 68.4 lakh.",
-          "Enforcement teams checked nearly 15,000 vehicles, turned back 1,539 at border points and issued 566 challans for violations of Pollution Under Control Certificate norms.",
-          "According to official data available till 5 p.m. on Sunday, penalties included Rs 56.6 lakh for PUCC violations, Rs 2 lakh for breaches of vehicle entry restrictions and Rs 9.8 lakh as environmental compensation for violations of dust-control norms at construction and demolition sites.",
-          "--IANS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Burari"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "under control"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "According to the India Meteorological Department (IMD), Delhi is expected to witness a bright day, with temperatures ranging between 17 degrees Celsius and 29 degrees Celsius."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The AQI was also recorded at 319 in JNU, 382 in Alipur, 359 at North Campus, Delhi University, 322 at Talkatora Garden and 357 at Dwarka Sector-8.",
-            "source": "The Assam Tribune",
-            "item_id": "dbaf098fa98eb27379759b35",
-            "composed": false
-          },
-          {
-            "text": "A complete ban on construction and demolition activities, except for specified exemptions, will be imposed from December 10 to January 20.",
-            "source": "The Assam Tribune",
-            "item_id": "dbaf098fa98eb27379759b35",
-            "composed": false
-          },
-          {
-            "text": "Delhi government offices will function from 10 a.m. to 6:30 p.m., while Municipal Corporation of Delhi offices will operate from 8:30 a.m. to 5 p.m. until February 28.",
-            "source": "The Assam Tribune",
-            "item_id": "dbaf098fa98eb27379759b35",
-            "composed": false
-          },
-          {
-            "text": "To tackle rising pollution during the winter months, the Delhi government has begun enforcing fixed-term restrictions under its Winter Action Plan from November 1.",
-            "source": "The Assam Tribune",
-            "item_id": "dbaf098fa98eb27379759b35",
-            "composed": false
-          }
-        ],
-        "source": "The Assam Tribune",
-        "corroborating": [],
-        "url": "https://assamtribune.com/national/cold-grips-delhi-as-air-quality-slips-to-very-poor-levels-1621822"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "11586b723c4c1abf4a31d24c",
       "story_id": "11586b723c4c1abf4a31d24c",
       "headline": "Six Indian tourists safely rescued From snow-hit Nepal's Dolpa",
@@ -1594,7 +1534,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 43.2, stack 26, score 43.2 -> HIGH"
@@ -1711,7 +1651,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
@@ -1719,7 +1659,7 @@
       "geo_scope": "state",
       "state": "delhi",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "New Delhi, Nov 2: National Security Adviser Ajit Doval held talks with Vietnam’s Deputy Prime Minister and Defence Minister, General Phan Van Giang, in Hanoi, reviewing bilateral defence cooperation and agreeing to strengthen engagement in the sector.",
@@ -1767,7 +1707,7 @@
         "url": "https://www.greaterkashmir.com/national/nsa-ajit-doval-holds-talks-with-vietnams-deputy-pm-general-phan-van-giang-in-hanoi-12776655"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -1816,7 +1756,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 0, stack 38.8, score 38.8 -> HIGH"
@@ -1916,7 +1856,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (6 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 38.4, score 38.4 -> HIGH"
@@ -2045,7 +1985,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "event term: 'supreme court judgment' in summary weight 27.6",
         "scale: state scope (gujarat)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 38, score 38 -> HIGH"
