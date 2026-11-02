@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T08:11:36.077735+00:00",
-  "count": 19,
+  "generated_at": "2026-11-02T08:21:48.810774+00:00",
+  "count": 20,
   "stories": [
     {
       "event_id": "ac33dc0998c8a2c8f9124d83",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 30.4, score 82 -> IMMEDIATE"
@@ -96,38 +96,40 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "f2a012413d86bed01160d868",
-      "story_id": "f2a012413d86bed01160d868",
-      "headline": "Cyclone Murasu: Chennai, Vijayawada flights hit; Andhra on alert ahead of landfall",
-      "title": "Cyclone Murasu: Chennai, Vijayawada flights hit; Andhra on alert ahead of landfall",
-      "summary": "Severe cyclonic storm Murasu has intensified over the Bay of Bengal and will impact Chennai soon. It is projected to make landfall on the south Andhra Pradesh coast around midnight or early Tuesday morning. Wind speeds are expected to reach 100-110 kmph with gusts up to 120 kmph during the storm. Heavy rain has already started in Chennai and surrounding districts, leading to significant rainfall amounts.",
-      "url": "https://timesofindia.indiatimes.com/city/amaravati/chennai-vijayawada-hit-by-flight-cancellations-as-cyclone-murasu-approaches-andhra-pradesh-on-high-alert-ahead-of-midnight-landfall/articleshow/135449723.cms",
-      "source": "Times of India",
+      "event_id": "39d5d128febc90cd48bb9d7f",
+      "story_id": "39d5d128febc90cd48bb9d7f",
+      "headline": "Cyclone Murasu: Chennai Schools Closed Today; Telangana, Andhra Pradesh, Odisha On Alert",
+      "title": "Cyclone Murasu: Chennai Schools Closed Today; Telangana, Andhra Pradesh, Odisha On Alert",
+      "summary": "Fishermen advised to avoid sea and residents urged to follow safety instructions and emergency helplines.",
+      "url": "https://www.ndtv.com/education/cyclone-murasu-chennai-schools-closed-today-telangana-andhra-pradesh-odisha-on-alert-12269987",
+      "source": "NDTV",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "education"
+      ],
       "confidence": "high",
       "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-02T03:40:36+00:00",
-      "published_at": "2026-11-02T07:25:54+00:00",
-      "effective_at": "2026-11-02T07:25:54+00:00",
+      "event_time": "2026-11-02T05:22:31+00:00",
+      "published_at": "2026-11-02T06:58:13+00:00",
+      "effective_at": "2026-11-02T06:58:13+00:00",
       "independent_source_groups": 2,
       "source_groups": {
-        "business-standard": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "businessline"
           ],
-          "count": 1
+          "count": 2
         },
-        "indiatimes": {
+        "ndtv": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "ndtv"
           ],
           "count": 1
         }
@@ -142,16 +144,16 @@
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: tier 2 (ndtv) +2",
+        "source: event has 3 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (4.5h ago) +4",
+        "scale: multi-state (4 states)",
+        "recency: breaking (3.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 38, score 72 -> URGENT"
+        "dominant event 72, stack 42, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -159,12 +161,14 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Severe cyclonic storm Murasu has intensified over the Bay of Bengal and will impact Chennai soon.",
-          "It is projected to make landfall on the south Andhra Pradesh coast around midnight or early Tuesday morning."
+          "Fishermen advised to avoid sea and residents urged to follow safety instructions and emergency helplines.",
+          "Severe cyclonic storm Murasu has intensified over the Bay of Bengal and will impact Chennai soon."
         ],
         "body": [
+          "It is projected to make landfall on the south Andhra Pradesh coast around midnight or early Tuesday morning.",
           "Heavy rain has already started in Chennai and surrounding districts, leading to significant rainfall amounts.",
-          "The severe cyclonic storm Murasu is expected to cross the south Andhra coast near Ongole tonight."
+          "Rayagada: In view of the severe cyclonic storm Murasu, the Rayagada district administration has announced the closure of all schools across the district on November 3 and 4, 2026, as a precautionary measure to ensure the safety of students and staff.",
+          "According to an official order issued by the District Education Office, Rayagada, on November […] The post Schools in Rayagada to Remain Closed on November 3 and 4 for Cyclone Murasu appeared first on KalingaTV."
         ],
         "bullets": [
           {
@@ -180,6 +184,12 @@
         ],
         "sentences": [
           {
+            "text": "Rayagada: In view of the severe cyclonic storm Murasu, the Rayagada district administration has announced the closure of all schools across the district on November 3 and 4, 2026, as a precautionary measure to ensure the safety of students and staff.",
+            "source": "Kalinga TV",
+            "item_id": "c5b0de695ceff7ceeed04556",
+            "composed": false
+          },
+          {
             "text": "It is projected to make landfall on the south Andhra Pradesh coast around midnight or early Tuesday morning.",
             "source": "Times of India",
             "item_id": "f2a012413d86bed01160d868",
@@ -190,19 +200,14 @@
             "source": "Times of India",
             "item_id": "f2a012413d86bed01160d868",
             "composed": false
-          },
-          {
-            "text": "Wind speeds are expected to reach 100-110 kmph with gusts up to 120 kmph during the storm.",
-            "source": "Times of India",
-            "item_id": "f2a012413d86bed01160d868",
-            "composed": false
           }
         ],
-        "source": "Times of India",
+        "source": "NDTV",
         "corroborating": [
-          "The Hindu"
+          "Times of India",
+          "Kalinga TV"
         ],
-        "url": "https://timesofindia.indiatimes.com/city/amaravati/chennai-vijayawada-hit-by-flight-cancellations-as-cyclone-murasu-approaches-andhra-pradesh-on-high-alert-ahead-of-midnight-landfall/articleshow/135449723.cms"
+        "url": "https://www.ndtv.com/education/cyclone-murasu-chennai-schools-closed-today-telangana-andhra-pradesh-odisha-on-alert-12269987"
       },
       "group_size": 3,
       "label": "📰 NEWS",
@@ -252,7 +257,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -378,7 +383,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -483,7 +488,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -557,137 +562,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "39d5d128febc90cd48bb9d7f",
-      "story_id": "39d5d128febc90cd48bb9d7f",
-      "headline": "Cyclone Murasu skirts Chennai, heads to south Andhra Pradesh as ports stay warned",
-      "title": "Cyclone Murasu skirts Chennai, heads to south Andhra Pradesh as ports stay warned",
-      "summary": "Having come closest to Chennai coast at about 200 km over the seas, Murasu appeared to have skirted the city and was now heading towards its likely landfall zone along the South Andhra coast.",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-murasu-skirts-chennai-heads-to-south-ap-as-ports-stay-warned/article71655371.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-02T05:22:31+00:00",
-      "published_at": "2026-11-02T05:22:31+00:00",
-      "effective_at": "2026-11-02T05:22:31+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (2.8h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 40, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "Severe cycloneMurasu sent its outer rain bands to Chennai while skirting the coast, and is racing towards South Coastal Andhra Pradesh, with landfall expected between Nellore and Narsapur, close to Ongole, around midnight on Monday or in the early hours of Tuesday (by 4 am).",
-        "Ports along the south Andhra Pradesh coast are on high alert as the storm threatens to unleash damaging winds, storm surges and high waves.",
-        "India Meteorological Department (IMD) said Murasu intensified into a severe cyclonic storm and lay over the west-central and adjoining south-west Bay of Bengal at 5.30 am on Monday.",
-        "Its centre was located about 200 km east-northeast of Chennai; 210 km east-southeast of Nellore; 270 km south-southeast of Machilipatnam; 220 km east-southeast of Kavali; and 260 km southeast of Ongole.",
-        "Having come closest to the Chennai coast at about 200 km, the cyclone appeared to have skirted the city and was now heading towards its likely landfall zone along the South Andhra coast.",
-        "The IMD expects it to cross the coast as a severe cyclone, packing sustained wind speeds of 100-110 km/hr and gusts of up to 120 km/hr.",
-        "The approaching cyclone has triggered a stepped-up alert across the coastal port infrastructure.",
-        "Great Danger Signal Number 10, indicating an exceptionally severe threat, has been hoisted at Nizampatnam and Vadarevu ports, while Machilipatnam has been placed under Great Danger Signal Number 9.",
-        "Krishnapatnam port is under Great Danger Signal Number 8.",
-        "Visakhapatnam, Bheemunipatnam, Gangavaram, Kakinada and Kalingapatnam ports have hoisted Local Cautionary Signal Number 3.",
-        "Bapatla, along with Krishna and Prakasam district on the south Andhra Pradesh coast, is expected to bear the brunt of the storm surge.",
-        "The IMD has warned that a surge of about 3.2-5 feet above the astronomical tide could inundate low-lying coastal areas of South Andhra Pradesh around the time of landfall."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Severe cycloneMurasu sent its outer rain bands to Chennai while skirting the coast, and is racing towards South Coastal Andhra Pradesh, with landfall expected between Nellore and Narsapur, close to Ongole, around midnight on Monday or in the early hours of Tuesday (by 4 am).",
-          "Ports along the south Andhra Pradesh coast are on high alert as the storm threatens to unleash damaging winds, storm surges and high waves."
-        ],
-        "body": [
-          "India Meteorological Department (IMD) said Murasu intensified into a severe cyclonic storm and lay over the west-central and adjoining south-west Bay of Bengal at 5.30 am on Monday.",
-          "Its centre was located about 200 km east-northeast of Chennai; 210 km east-southeast of Nellore; 270 km south-southeast of Machilipatnam; 220 km east-southeast of Kavali; and 260 km southeast of Ongole.",
-          "Having come closest to the Chennai coast at about 200 km, the cyclone appeared to have skirted the city and was now heading towards its likely landfall zone along the South Andhra coast.",
-          "The approaching cyclone has triggered a stepped-up alert across the coastal port infrastructure.",
-          "Great Danger Signal Number 10, indicating an exceptionally severe threat, has been hoisted at Nizampatnam and Vadarevu ports, while Machilipatnam has been placed under Great Danger Signal Number 9.",
-          "Krishnapatnam port is under Great Danger Signal Number 8.",
-          "Visakhapatnam, Bheemunipatnam, Gangavaram, Kakinada and Kalingapatnam ports have hoisted Local Cautionary Signal Number 3."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nizampatnam"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Bapatla, along with Krishna and Prakasam district on the south Andhra Pradesh coast, is expected to bear the brunt of the storm surge."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Great Danger Signal Number 10, indicating an exceptionally severe threat, has been hoisted at Nizampatnam and Vadarevu ports, while Machilipatnam has been placed under Great Danger Signal Number 9.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "39d5d128febc90cd48bb9d7f:article",
-            "composed": false
-          },
-          {
-            "text": "Severe cycloneMurasu sent its outer rain bands to Chennai while skirting the coast, and is racing towards South Coastal Andhra Pradesh, with landfall expected between Nellore and Narsapur, close to Ongole, around midnight on Monday or in the early hours of Tuesday (by 4 am).",
-            "source": "The Hindu BusinessLine",
-            "item_id": "39d5d128febc90cd48bb9d7f:article",
-            "composed": false
-          },
-          {
-            "text": "India Meteorological Department (IMD) said Murasu intensified into a severe cyclonic storm and lay over the west-central and adjoining south-west Bay of Bengal at 5.30 am on Monday.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "39d5d128febc90cd48bb9d7f:article",
-            "composed": false
-          },
-          {
-            "text": "Its centre was located about 200 km east-northeast of Chennai; 210 km east-southeast of Nellore; 270 km south-southeast of Machilipatnam; 220 km east-southeast of Kavali; and 260 km southeast of Ongole.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "39d5d128febc90cd48bb9d7f:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-murasu-skirts-chennai-heads-to-south-ap-as-ports-stay-warned/article71655371.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "8082ea88c3d8608e1c7233b1",
       "story_id": "8082ea88c3d8608e1c7233b1",
       "headline": "Odisha CM announces special package for families affected by Cyclone Arnab",
@@ -736,7 +610,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -854,7 +728,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -976,7 +850,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -992,7 +866,8 @@
         ],
         "body": [
           "\"We dedicate it to the citizens of J-K, and we'll try our best to make this session more and more beneficial for the rights of common citizens,\" Justice Bhati said.",
-          "The main wing of the high court and several associated offices at Srinagar closed on October 31 after office hours and reopened in Jammu as part of the bi-annual darbar move, a practice under which the government shifts its offices between Jammu and Srinagar every six months."
+          "The main wing of the high court and several associated offices at Srinagar closed on October 31 after office hours and reopened in Jammu as part of the bi-annual darbar move, a practice under which the government shifts its offices between Jammu and Srinagar every six months.",
+          "The post HC Shifts to Jammu; Chief Justice Vows to Prioritise Public Convenience appeared first on Kashmir Observer."
         ],
         "bullets": [
           {
@@ -1022,10 +897,12 @@
           }
         ],
         "source": "Greater Kashmir",
-        "corroborating": [],
+        "corroborating": [
+          "Kashmir Observer"
+        ],
         "url": "https://www.greaterkashmir.com/jammu-kashmir/will-strive-to-make-session-more-beneficial-for-people-chief-justice-as-hc-shifts-to-jammu-12775443"
       },
-      "group_size": 1,
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1074,7 +951,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1191,7 +1068,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1213,7 +1090,7 @@
         "It was also argued that the Swift car allegedly used for transporting the meat was not owned by the appellant.",
         "Finding that the appellant's continued incarceration was not warranted, the Court noted that the alleged meat had been recovered from an open plot near his house, the charge-sheet had been filed and the trial had already commenced."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Observing that having a mere criminal antecedent would not be definitive proof of guilt, the Supreme Court recently granted bail to a man who had five similar criminal antecedents and was accused of procuring 23 kg of cow meat and storing it in an open plot for retail sale purposes.",
@@ -1249,7 +1126,120 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-grants-bail-to-man-accused-of-storing-cow-meat-556882"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "5ddfa2ab66d153f049547467",
+      "story_id": "5ddfa2ab66d153f049547467",
+      "headline": "Supreme Court issues notice to Tamil Nadu government on bail plea of accused in Palani math land fraud case",
+      "title": "Supreme Court issues notice to Tamil Nadu government on bail plea of accused in Palani math land fraud case",
+      "summary": "K. Vellathurai is challenging the Madras High Court’s dismissal of his bail plea, while the State has filed an intervention plea",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/sc-issues-notice-to-tn-on-bail-plea-of-accused-in-palani-math-land-fraud-case/article71655771.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-02T07:53:00+00:00",
+      "published_at": "2026-11-02T07:53:00+00:00",
+      "effective_at": "2026-11-02T07:53:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "tamil nadu",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Monday (November 2, 2026) issued notice to the State of Tamil Nadu on a petition filed by K. Vellathurai, one of the accused in a case pertaining to the fraudulent registration of Palani math land, challenging the dismissal of his bail plea by the Madurai Bench of the Madras High Court on August 31, 2026.",
+        "A Bench headed by Justice B.V. Nagarathna also issued notice to Mr. Vellathurai on an intervention plea filed by the State.",
+        "On September 25, 2026, the Supreme Court had deferred Mr. Vellathurai’s plea for bail on the ground that the investigation was ongoing.",
+        "The court had said at the time that the pendency of the special leave petition would “not come in the way of the State continuing the investigation”.",
+        "In August 2026, the High Court dismissed the bail petitions filed by four accused in the case: suspended Sub-Registrar Justin Manikandan Subramanian; D. Murugadass, who sold the land; and Mr. Vellathurai and D. Sethupathi, the land buyers.",
+        "In July 2026, the Crime Branch-Criminal Investigation Department (CB-CID) arrested Mr. Murugadass, Mr. Vellathurai, Mr. Sethupathi and S. Anwardeen, who reportedly facilitated the deal.",
+        "Subsequently, in August 2026, the CB-CID arrested Justin Manikandan Subramanian and Jeyaprakash, a document writer.",
+        "The case concerns the alleged illegal sale of 1.40 acres of land belonging to Dhandapani Swamy Math in Palani.",
+        "Mr. Vellathurai had claimed that he was a bona fide purchaser who had no reason whatsoever to enter into such a land transaction to enrich himself."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Monday (November 2, 2026) issued notice to the State of Tamil Nadu on a petition filed by K. Vellathurai, one of the accused in a case pertaining to the fraudulent registration of Palani math land, challenging the dismissal of his bail plea by the Madurai Bench of the Madras High Court on August 31, 2026.",
+          "A Bench headed by Justice B.V. Nagarathna also issued notice to Mr. Vellathurai on an intervention plea filed by the State."
+        ],
+        "body": [
+          "On September 25, 2026, the Supreme Court had deferred Mr. Vellathurai’s plea for bail on the ground that the investigation was ongoing.",
+          "The court had said at the time that the pendency of the special leave petition would “not come in the way of the State continuing the investigation”.",
+          "In August 2026, the High Court dismissed the bail petitions filed by four accused in the case: suspended Sub-Registrar Justin Manikandan Subramanian; D. Murugadass, who sold the land; and Mr. Vellathurai and D. Sethupathi, the land buyers.",
+          "In July 2026, the Crime Branch-Criminal Investigation Department (CB-CID) arrested Mr. Murugadass, Mr. Vellathurai, Mr. Sethupathi and S. Anwardeen, who reportedly facilitated the deal.",
+          "Subsequently, in August 2026, the CB-CID arrested Justin Manikandan Subramanian and Jeyaprakash, a document writer.",
+          "The case concerns the alleged illegal sale of 1.40 acres of land belonging to Dhandapani Swamy Math in Palani.",
+          "Mr. Vellathurai had claimed that he was a bona fide purchaser who had no reason whatsoever to enter into such a land transaction to enrich himself.",
+          "K. Vellathurai is challenging the Madras High Court’s dismissal of his bail plea, while the State has filed an intervention plea."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "August"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Monday (November 2, 2026) issued notice to the State of Tamil Nadu on a petition filed by K. Vellathurai, one of the accused in a case pertaining to the fraudulent registration of Palani math land, challenging the dismissal of his bail plea by the Madurai Bench of the Madras High Court on August 31, 2026.",
+            "source": "The Hindu",
+            "item_id": "5ddfa2ab66d153f049547467:article",
+            "composed": false
+          },
+          {
+            "text": "On September 25, 2026, the Supreme Court had deferred Mr. Vellathurai’s plea for bail on the ground that the investigation was ongoing.",
+            "source": "The Hindu",
+            "item_id": "5ddfa2ab66d153f049547467:article",
+            "composed": false
+          },
+          {
+            "text": "The case concerns the alleged illegal sale of 1.40 acres of land belonging to Dhandapani Swamy Math in Palani.",
+            "source": "The Hindu",
+            "item_id": "5ddfa2ab66d153f049547467:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/sc-issues-notice-to-tn-on-bail-plea-of-accused-in-palani-math-land-fraud-case/article71655771.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1294,7 +1284,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1412,7 +1402,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1526,7 +1516,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1663,7 +1653,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (5.9h ago) +4",
+        "recency: fresh (6.1h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 43.2, stack 33.2, score 43.2 -> HIGH"
@@ -1799,7 +1789,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 43.2, stack 30, score 43.2 -> HIGH"
@@ -1872,6 +1862,160 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "96d3f3654a8dd6b3292e4255",
+      "story_id": "96d3f3654a8dd6b3292e4255",
+      "headline": "Gujarat orders schools with 100+ students to hire counsellors",
+      "title": "Gujarat orders schools with 100+ students to hire counsellors",
+      "summary": "Gandhinagar, Nov 2: All secondary and higher secondary schools in Gujarat will have to set up dedicated teams to monitor students' mental health and prevent suicides under new regulations introduced by the state government, with schools having 100 or more students required to appoint at least one qualified counsellor. The provisions, which will apply to students of Classes 9 to 12 in schools affiliated with the Gujarat Secondary and Higher Secondary Education Board (GSHSEB), seek to address growing concerns over academic pressure, examination-related anxiety, social media use, family expectations and other factors affecting students' mental well-being. The Education Department has introduced Regulation 16(A) in the Gujarat Secondary and Higher Secondary Education Regulations, 1974, and incorporated detailed provisions in Appendix 8 covering mental health, student welfare and suicide prevention. \"The decision was taken under the guidance of Chief Minister Bhupendra Patel, Education Minister Pradyuman Vaja and Minister of State for Education, Rivaba Jadeja,\" officials said. It follows a Supreme Court judgment laying down 15 binding guidelines and four directives on students' mental health and suicide prevention in educational institutions. The Union Ministry of Law and Justice had instructed states to implement the directions. The state has also adopted the UMMEED guidelines developed by the National Council of Educational Research and Training (NCERT) as a reference framework. UMMEED stands for Understand, Motivate, Manage, Empathise, Empower and Develop. Under the new regulations, every school offering Classes 9 to 12 must constitute a School Wellness Team (SWT) at the beginning of each academic year. The team will be responsible for identifying students experiencing mental distress, responding to suicide risks and ensuring timely access to support. Its functioning will be reviewed annually. The school principal will lead the team, while the school counsellor or a designated teacher will serve as its coordinator. It will also include one teacher each from the secondary and higher secondary sections, a School Management Committee representative, a non-teaching staff member and two student peer leaders, known as 'Mano-Mitra', with one each from Classes 9-10 and 11-12. The Mano-Mitra initiative will establish a peer-support system within schools. These student representatives will provide initial emotional support to classmates, guide those requiring help towards appropriate assistance and encourage supportive relationships among students. Schools with 100 or more students must appoint at least one qualified counsellor, psychologist or social worker trained in child and adolescent mental health. Institutions with fewer than 100 students will have to establish formal referral arrangements with external mental health professionals, nearby Community Health Centres and Primary Health Centres, the District Mental Health Programme and Tele-MANAS services. Special mentoring arrangements will also be required during critical transition periods, including board examinations, result announcements and students moving from Class 8 to 9 and Class 10 to 11. Dedicated mentors or counsellors must be assigned to small groups during these periods. The regulations prohibit schools from segregating students inside or outside classrooms on the basis of academic performance, examination results or marks. Students must not be publicly humiliated, compared with their peers or stigmatised over their academic performance. Schools will also be barred from practices that could create anxiety, fear, an inferiority complex or emotional insecurity. Instead, institutions will have to promote an environment based on equality, dignity, encouragement and cooperation. They must regularly organise co-curricular and extracurricular activities such as yoga, meditation, art, music, gardening, dance and sports. Initiatives including Khel Mahakumbh, Finishing School, Saptadhara, Pariksha Pe Charcha, NSS, NCC, Scouts and Guides, and community service have also been included as activities to support students' well-being. Schools must ensure that students can approach counsellors or designated mentor teachers confidentially and without fear to discuss their concerns and emotional difficulties. Help boxes or suggestion boxes must also be made available. Official child helpline numbers and SWT contact details must be displayed prominently on school websites, notice boards, in classrooms, hostels and counselling rooms. The framework makes mental health training mandatory for all teaching and non-teaching staff at least twice a year. The training, to be conducted by certified mental health professionals, will cover psychological first aid, identification of warning signs, responses to self-harm and referral procedures. Any indication of self-harm, suicidal thoughts, severe mental distress or other risky behaviour must be treated seriously and addressed immediately. In the event of a suicide attempt or self-harm incident, the student must not be left alone, and appropriate medical or emergency assistance must be arranged without delay. The regulations also require strict confidentiality of students' mental health information, counselling records and other sensitive personal details. Such information may be shared only with authorised persons directly involved in the student's safety, treatment, counselling or welfare. In the event of a suicide, schools must arrange psychological, emotional and social support for other students, teachers, staff members and affected family members through a postvention process. Communication about the incident must remain factual and responsible. Only the principal or an authorised officer may interact with the media, and details about the method, location, photographs or other sensitive personal information must not be disclosed. Schools will also have to establish confidential and accessible grievance redressal mechanisms to address sexual harassment, ragging, bullying, cyberbullying and discrimination based on caste, class, gender, religion, language, socio-economic status or disability. Complaints must be investigated in a timely and impartial manner. The regulations provide for institutional accountability where a school fails to take timely and appropriate action despite being aware, or reasonably expected to be aware, of a risk situation, and that failure is found to have significantly contributed to serious harm, self-harm or a suicide involving a student. Disciplinary or legal action may be initiated against the school or responsible officials under applicable laws and regulations. To reduce academic and career-related pressure, schools will also be required to provide regular career guidance and information about different educational, vocational, skill-based and entrepreneurship opportunities. A District-Level Monitoring Committee, led by the District Magistrate or District Collector, will oversee the implementation of the regulations. It will review compliance across educational institutions, coordinate guidance, monitor complaints and serious incidents, and recommend corrective measures. All schools will be required to comply with the committee's directives. --IANS",
+      "url": "https://assamtribune.com/health-and-fitness/gujarat-orders-schools-with-100-students-to-hire-counsellors-1621841",
+      "source": "The Assam Tribune",
+      "primary_source": false,
+      "tier": 2,
+      "category": "education",
+      "secondary_categories": [
+        "courts-law",
+        "government-policy",
+        "health",
+        "sports",
+        "technology-digital",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-02T08:15:47+00:00",
+      "published_at": "2026-11-02T08:15:47+00:00",
+      "effective_at": "2026-11-02T08:15:47+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: education (importance 0.9, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'judgment' in summary weight 10.8",
+        "event term: 'supreme court judgment' in summary weight 27.6",
+        "scale: state scope (gujarat)",
+        "recency: breaking (0.1h ago) +8",
+        "category: education (importance 0.9) +0",
+        "geo: national significance (local/state event)",
+        "dominant event 27.6, stack 42, score 42 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "gujarat",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Gandhinagar, Nov 2: All secondary and higher secondary schools in Gujarat will have to set up dedicated teams to monitor students' mental health and prevent suicides under new regulations introduced by the state government, with schools having 100 or more students required to appoint at least one qualified counsellor.",
+          "The provisions, which will apply to students of Classes 9 to 12 in schools affiliated with the Gujarat Secondary and Higher Secondary Education Board (GSHSEB), seek to address growing concerns over academic pressure, examination-related anxiety, social media use, family expectations and other factors affecting students' mental well-being."
+        ],
+        "body": [
+          "The Education Department has introduced Regulation 16(A) in the Gujarat Secondary and Higher Secondary Education Regulations, 1974, and incorporated detailed provisions in Appendix 8 covering mental health, student welfare and suicide prevention.",
+          "It follows a Supreme Court judgment laying down 15 binding guidelines and four directives on students' mental health and suicide prevention in educational institutions.",
+          "The Union Ministry of Law and Justice had instructed states to implement the directions.",
+          "The state has also adopted the UMMEED guidelines developed by the National Council of Educational Research and Training (NCERT) as a reference framework.",
+          "UMMEED stands for Understand, Motivate, Manage, Empathise, Empower and Develop.",
+          "Under the new regulations, every school offering Classes 9 to 12 must constitute a School Wellness Team (SWT) at the beginning of each academic year.",
+          "The team will be responsible for identifying students experiencing mental distress, responding to suicide risks and ensuring timely access to support.",
+          "Its functioning will be reviewed annually.",
+          "The school principal will lead the team, while the school counsellor or a designated teacher will serve as its coordinator.",
+          "It will also include one teacher each from the secondary and higher secondary sections, a School Management Committee representative, a non-teaching staff member and two student peer leaders, known as 'Mano-Mitra', with one each from Classes 9-10 and 11-12.",
+          "The Mano-Mitra initiative will establish a peer-support system within schools.",
+          "These student representatives will provide initial emotional support to classmates, guide those requiring help towards appropriate assistance and encourage supportive relationships among students.",
+          "Schools with 100 or more students must appoint at least one qualified counsellor, psychologist or social worker trained in child and adolescent mental health.",
+          "Institutions with fewer than 100 students will have to establish formal referral arrangements with external mental health professionals, nearby Community Health Centres and Primary Health Centres, the District Mental Health Programme and Tele-MANAS services.",
+          "Special mentoring arrangements will also be required during critical transition periods, including board examinations, result announcements and students moving from Class 8 to 9 and Class 10 to 11.",
+          "Dedicated mentors or counsellors must be assigned to small groups during these periods.",
+          "The regulations prohibit schools from segregating students inside or outside classrooms on the basis of academic performance, examination results or marks.",
+          "Students must not be publicly humiliated, compared with their peers or stigmatised over their academic performance.",
+          "Schools will also be barred from practices that could create anxiety, fear, an inferiority complex or emotional insecurity.",
+          "Instead, institutions will have to promote an environment based on equality, dignity, encouragement and cooperation.",
+          "They must regularly organise co-curricular and extracurricular activities such as yoga, meditation, art, music, gardening, dance and sports.",
+          "Initiatives including Khel Mahakumbh, Finishing School, Saptadhara, Pariksha Pe Charcha, NSS, NCC, Scouts and Guides, and community service have also been included as activities to support students' well-being.",
+          "Schools must ensure that students can approach counsellors or designated mentor teachers confidentially and without fear to discuss their concerns and emotional difficulties.",
+          "Help boxes or suggestion boxes must also be made available.",
+          "Official child helpline numbers and SWT contact details must be displayed prominently on school websites, notice boards, in classrooms, hostels and counselling rooms.",
+          "The framework makes mental health training mandatory for all teaching and non-teaching staff at least twice a year.",
+          "The training, to be conducted by certified mental health professionals, will cover psychological first aid, identification of warning signs, responses to self-harm and referral procedures.",
+          "Any indication of self-harm, suicidal thoughts, severe mental distress or other risky behaviour must be treated seriously and addressed immediately.",
+          "In the event of a suicide attempt or self-harm incident, the student must not be left alone, and appropriate medical or emergency assistance must be arranged without delay.",
+          "The regulations also require strict confidentiality of students' mental health information, counselling records and other sensitive personal details.",
+          "Such information may be shared only with authorised persons directly involved in the student's safety, treatment, counselling or welfare.",
+          "In the event of a suicide, schools must arrange psychological, emotional and social support for other students, teachers, staff members and affected family members through a postvention process.",
+          "Communication about the incident must remain factual and responsible.",
+          "Only the principal or an authorised officer may interact with the media, and details about the method, location, photographs or other sensitive personal information must not be disclosed.",
+          "Schools will also have to establish confidential and accessible grievance redressal mechanisms to address sexual harassment, ragging, bullying, cyberbullying and discrimination based on caste, class, gender, religion, language, socio-economic status or disability.",
+          "Complaints must be investigated in a timely and impartial manner.",
+          "The regulations provide for institutional accountability where a school fails to take timely and appropriate action despite being aware, or reasonably expected to be aware, of a risk situation, and that failure is found to have significantly contributed to serious harm, self-harm or a suicide involving a student.",
+          "Disciplinary or legal action may be initiated against the school or responsible officials under applicable laws and regulations.",
+          "To reduce academic and career-related pressure, schools will also be required to provide regular career guidance and information about different educational, vocational, skill-based and entrepreneurship opportunities.",
+          "A District-Level Monitoring Committee, led by the District Magistrate or District Collector, will oversee the implementation of the regulations.",
+          "It will review compliance across educational institutions, coordinate guidance, monitor complaints and serious incidents, and recommend corrective measures.",
+          "All schools will be required to comply with the committee's directives.",
+          "--IANS."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gujarat"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "\"The decision was taken under the guidance of Chief Minister Bhupendra Patel, Education Minister Pradyuman Vaja and Minister of State for Education, Rivaba Jadeja,\" officials said."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Gandhinagar, Nov 2: All secondary and higher secondary schools in Gujarat will have to set up dedicated teams to monitor students' mental health and prevent suicides under new regulations introduced by the state government, with schools having 100 or more students required to appoint at least one qualified counsellor.",
+            "source": "The Assam Tribune",
+            "item_id": "96d3f3654a8dd6b3292e4255",
+            "composed": false
+          },
+          {
+            "text": "The Education Department has introduced Regulation 16(A) in the Gujarat Secondary and Higher Secondary Education Regulations, 1974, and incorporated detailed provisions in Appendix 8 covering mental health, student welfare and suicide prevention.",
+            "source": "The Assam Tribune",
+            "item_id": "96d3f3654a8dd6b3292e4255",
+            "composed": false
+          },
+          {
+            "text": "It will also include one teacher each from the secondary and higher secondary sections, a School Management Committee representative, a non-teaching staff member and two student peer leaders, known as 'Mano-Mitra', with one each from Classes 9-10 and 11-12.",
+            "source": "The Assam Tribune",
+            "item_id": "96d3f3654a8dd6b3292e4255",
+            "composed": false
+          },
+          {
+            "text": "Special mentoring arrangements will also be required during critical transition periods, including board examinations, result announcements and students moving from Class 8 to 9 and Class 10 to 11.",
+            "source": "The Assam Tribune",
+            "item_id": "96d3f3654a8dd6b3292e4255",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [],
+        "url": "https://assamtribune.com/health-and-fitness/gujarat-orders-schools-with-100-students-to-hire-counsellors-1621841"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "dbc53c03d3f49bdd401f627e",
       "story_id": "dbc53c03d3f49bdd401f627e",
       "headline": "Karnataka issues final land acquisition notification for Greater Bengaluru township",
@@ -1911,7 +2055,7 @@
         "event term: 'final' in title weight 10",
         "event term: 'acquisition' in title weight 42",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: state",
         "dominant event 42, stack 27.2, score 42 -> HIGH"
@@ -2041,7 +2185,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 25.2, stack 41.2, score 41.2 -> HIGH"
@@ -2160,7 +2304,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 21.6, stack 38.4, score 38.4 -> HIGH"
