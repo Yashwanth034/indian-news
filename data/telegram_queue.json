@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:02:39.870072+00:00",
+  "generated_at": "2026-11-02T10:11:50.523207+00:00",
   "count": 19,
   "stories": [
     {
@@ -51,7 +51,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -147,7 +147,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -235,7 +235,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -361,7 +361,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -468,7 +468,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (odisha)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -592,7 +592,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -702,7 +702,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -803,7 +803,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -879,6 +879,91 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "bd716f97efa0a5f0099e721c",
+      "story_id": "bd716f97efa0a5f0099e721c",
+      "headline": "Supreme Court Overturns Rajasthan SEC's Voter Awareness Campaign Ban",
+      "title": "Supreme Court Overturns Rajasthan SEC's Voter Awareness Campaign Ban",
+      "summary": "They challenged denial of the nod by the SEC to undertake voters' awareness campaigns during the local bodies polls in the state by imposing prohibitory orders under section 163 of the BNSS (the Bharatiya Nagarik Suraksha Sanhita) in poll-bound areas.",
+      "url": "https://www.deccanchronicle.com/nation/supreme-court-overturns-rajasthan-secs-voter-awareness-campaign-ban-2001073",
+      "source": "Deccan Chronicle",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-02T10:05:06+00:00",
+      "published_at": "2026-11-02T10:05:06+00:00",
+      "effective_at": "2026-11-02T10:05:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "deccan-chronicle"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (deccan-chronicle) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "rajasthan",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "They challenged denial of the nod by the SEC to undertake voters' awareness campaigns during the local bodies polls in the state by imposing prohibitory orders under section 163 of the BNSS (the Bharatiya Nagarik Suraksha Sanhita) in poll-bound areas.",
+          "SEC can't monopolize voter awareness."
+        ],
+        "body": [
+          "Even if it's conducting such programme itself, it cannot stand in the way of another authority conducting it: J Bagchi."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "They challenged denial of the nod by the SEC to undertake voters' awareness campaigns during the local bodies polls in the state by imposing prohibitory orders under section 163 of the BNSS (the Bharatiya Nagarik Suraksha Sanhita) in poll-bound areas.",
+            "source": "Deccan Chronicle",
+            "item_id": "bd716f97efa0a5f0099e721c",
+            "composed": false
+          },
+          {
+            "text": "SEC can't monopolize voter awareness.",
+            "source": "LiveLaw",
+            "item_id": "d8a3f1693fef6e5fdcafe141",
+            "composed": false
+          }
+        ],
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "LiveLaw"
+        ],
+        "url": "https://www.deccanchronicle.com/nation/supreme-court-overturns-rajasthan-secs-voter-awareness-campaign-ban-2001073"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "5ddfa2ab66d153f049547467",
       "story_id": "5ddfa2ab66d153f049547467",
       "headline": "Supreme Court issues notice to Tamil Nadu government on bail plea of accused in Palani math land fraud case",
@@ -921,7 +1006,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -992,88 +1077,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "d8a3f1693fef6e5fdcafe141",
-      "story_id": "d8a3f1693fef6e5fdcafe141",
-      "headline": "Supreme Court Directs Rajasthan SEC To Reconsider Activists' Plea To Conduct Voter Awareness Campaign Ahead Of Local Polls",
-      "title": "Supreme Court Directs Rajasthan SEC To Reconsider Activists' Plea To Conduct Voter Awareness Campaign Ahead Of Local Polls",
-      "summary": "SEC can't monopolize voter awareness. Even if it's conducting such programme itself, it cannot stand in the way of another authority conducting it: J Bagchi.",
-      "url": "https://www.livelaw.in/top-stories/supreme-court-section-144-section-crpc-163-bnss-order-rajasthan-election-commission-to-reconsider-permission-for-voter-awareness-campaign-556898",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "medium",
-      "score": 72.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-02T09:18:15+00:00",
-      "published_at": "2026-11-02T09:18:15+00:00",
-      "effective_at": "2026-11-02T09:18:15+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "rajasthan",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "SEC can't monopolize voter awareness.",
-          "Even if it's conducting such programme itself, it cannot stand in the way of another authority conducting it: J Bagchi."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Even if it's conducting such programme itself, it cannot stand in the way of another authority conducting it: J Bagchi.",
-            "source": "LiveLaw",
-            "item_id": "d8a3f1693fef6e5fdcafe141",
-            "composed": false
-          },
-          {
-            "text": "SEC can't monopolize voter awareness.",
-            "source": "LiveLaw",
-            "item_id": "d8a3f1693fef6e5fdcafe141",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/supreme-court-section-144-section-crpc-163-bnss-order-rajasthan-election-commission-to-reconsider-permission-for-voter-awareness-campaign-556898"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "e47dcfbb33fcd82fe4a12451",
       "story_id": "e47dcfbb33fcd82fe4a12451",
       "headline": "Supreme Court Grants Bail To Man Accused Of Storing Cow Meat",
@@ -1115,7 +1118,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1218,7 +1221,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1336,7 +1339,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1450,7 +1453,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1587,7 +1590,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (7.8h ago) +4",
+        "recency: fresh (7.9h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 43.2, stack 33.2, score 43.2 -> HIGH"
@@ -1723,7 +1726,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 43.2, stack 30, score 43.2 -> HIGH"
@@ -1844,7 +1847,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "event term: 'supreme court judgment' in summary weight 27.6",
         "scale: state scope (gujarat)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 42, score 42 -> HIGH"
@@ -1989,7 +1992,7 @@
         "event term: 'final' in title weight 10",
         "event term: 'acquisition' in title weight 42",
         "scale: state scope (karnataka)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: state",
         "dominant event 42, stack 23.2, score 42 -> HIGH"
@@ -2113,7 +2116,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
