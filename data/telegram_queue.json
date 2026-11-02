@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T08:21:48.810774+00:00",
-  "count": 20,
+  "generated_at": "2026-11-02T08:32:07.232130+00:00",
+  "count": 19,
   "stories": [
     {
       "event_id": "ac33dc0998c8a2c8f9124d83",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 30.4, score 82 -> IMMEDIATE"
@@ -150,10 +150,10 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 42, score 72 -> URGENT"
+        "dominant event 72, stack 38, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -257,7 +257,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -383,7 +383,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -444,6 +444,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "8082ea88c3d8608e1c7233b1",
+      "story_id": "8082ea88c3d8608e1c7233b1",
+      "headline": "Odisha CM announces special package for families affected by Cyclone Arnab",
+      "title": "Odisha CM announces special package for families affected by Cyclone Arnab",
+      "summary": "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-02T06:33:13+00:00",
+      "published_at": "2026-11-02T06:33:13+00:00",
+      "effective_at": "2026-11-02T06:33:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'flood'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "event term: 'flood' in summary weight 38.4",
+        "scale: state scope (odisha)",
+        "recency: breaking (2.0h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "article_sentences": [
+        "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
+        "With another cyclonic storm expected to hit the coasts of Andhra Pradesh, the Chief Minister said the relief package will be reviewed again upon assessing damage after the weather system passes.",
+        "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall.",
+        "“Thousands of acres of crops and several houses have been damaged,” he told reporters and pointed out that assessment of damage was underway while the primary task was relief distribution and restoration.",
+        "\"I am hopeful that normalcy will return in affected areas in the next one or two days as the administration is taking all necessary measures,\" he said.",
+        "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
+        "Small and marginal farmers, who sustained crop loss of 33% and above, will receive an agricultural input subsidy of ₹8,500 per hectare of land in rain-fed and non-irrigated areas, while ₹17,000 per hectare of land will be provided for areas under assured irrigation, he said.",
+        "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
+        "\"The government will provide ₹18,000 to each affected farmer to remove sand and silt from the fields.",
+        "The State will also provide 1.75 lakh mini kits to farmers for free,\" he added.",
+        "Under the housing sector, he said assistance of ₹1.20 lakh will be given for fully damaged houses in the plains, ₹1.30 lakh in hilly areas, while ₹6,500 and ₹4,000 will be given for partially damaged pucca and kutcha houses, respectively.",
+        "CM Majhi said his government has decided to provide compensation of ₹10,000 for affected small shops, street vendors and kiosks and ₹25,000 for affected big shops and commercial establishments."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
+          "With another cyclonic storm expected to hit the coasts of Andhra Pradesh, the Chief Minister said the relief package will be reviewed again upon assessing damage after the weather system passes."
+        ],
+        "body": [
+          "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall.",
+          "“Thousands of acres of crops and several houses have been damaged,” he told reporters and pointed out that assessment of damage was underway while the primary task was relief distribution and restoration.",
+          "\"I am hopeful that normalcy will return in affected areas in the next one or two days as the administration is taking all necessary measures,\" he said.",
+          "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
+          "Small and marginal farmers, who sustained crop loss of 33% and above, will receive an agricultural input subsidy of ₹8,500 per hectare of land in rain-fed and non-irrigated areas, while ₹17,000 per hectare of land will be provided for areas under assured irrigation, he said.",
+          "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
+          "\"The government will provide ₹18,000 to each affected farmer to remove sand and silt from the fields.",
+          "The State will also provide 1.75 lakh mini kits to farmers for free,\" he added."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
+            "source": "The Hindu",
+            "item_id": "8082ea88c3d8608e1c7233b1:article",
+            "composed": false
+          },
+          {
+            "text": "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
+            "source": "The Hindu",
+            "item_id": "8082ea88c3d8608e1c7233b1:article",
+            "composed": false
+          },
+          {
+            "text": "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
+            "source": "The Hindu",
+            "item_id": "8082ea88c3d8608e1c7233b1:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "28260b60cc09099998991afa",
       "story_id": "28260b60cc09099998991afa",
       "headline": "What does Murasu mean? The story behind the cyclone heading towards Andhra",
@@ -488,7 +608,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -562,128 +682,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "8082ea88c3d8608e1c7233b1",
-      "story_id": "8082ea88c3d8608e1c7233b1",
-      "headline": "Odisha CM announces special package for families affected by Cyclone Arnab",
-      "title": "Odisha CM announces special package for families affected by Cyclone Arnab",
-      "summary": "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall",
-      "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-02T04:15:40+00:00",
-      "published_at": "2026-11-02T06:33:13+00:00",
-      "effective_at": "2026-11-02T06:33:13+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline",
-            "the-hindu"
-          ],
-          "count": 2
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'flood'",
-        "major: significance event 'cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: state scope (odisha)",
-        "recency: fresh (4.1h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 44, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "article_sentences": [
-        "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
-        "With another cyclonic storm expected to hit the coasts of Andhra Pradesh, the Chief Minister said the relief package will be reviewed again upon assessing damage after the weather system passes.",
-        "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall.",
-        "“Thousands of acres of crops and several houses have been damaged,” he told reporters and pointed out that assessment of damage was underway while the primary task was relief distribution and restoration.",
-        "\"I am hopeful that normalcy will return in affected areas in the next one or two days as the administration is taking all necessary measures,\" he said.",
-        "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
-        "Small and marginal farmers, who sustained crop loss of 33% and above, will receive an agricultural input subsidy of ₹8,500 per hectare of land in rain-fed and non-irrigated areas, while ₹17,000 per hectare of land will be provided for areas under assured irrigation, he said.",
-        "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
-        "\"The government will provide ₹18,000 to each affected farmer to remove sand and silt from the fields.",
-        "The State will also provide 1.75 lakh mini kits to farmers for free,\" he added.",
-        "Under the housing sector, he said assistance of ₹1.20 lakh will be given for fully damaged houses in the plains, ₹1.30 lakh in hilly areas, while ₹6,500 and ₹4,000 will be given for partially damaged pucca and kutcha houses, respectively.",
-        "CM Majhi said his government has decided to provide compensation of ₹10,000 for affected small shops, street vendors and kiosks and ₹25,000 for affected big shops and commercial establishments."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
-          "With another cyclonic storm expected to hit the coasts of Andhra Pradesh, the Chief Minister said the relief package will be reviewed again upon assessing damage after the weather system passes."
-        ],
-        "body": [
-          "After reviewing the prevailing flood situation in the State in the evening, CM Majhi said people in several districts, especially Ganjam, Gajapati and Kandhamal, were affected by cyclone Arnab and its aftermath of heavy rainfall.",
-          "“Thousands of acres of crops and several houses have been damaged,” he told reporters and pointed out that assessment of damage was underway while the primary task was relief distribution and restoration.",
-          "\"I am hopeful that normalcy will return in affected areas in the next one or two days as the administration is taking all necessary measures,\" he said.",
-          "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
-          "Small and marginal farmers, who sustained crop loss of 33% and above, will receive an agricultural input subsidy of ₹8,500 per hectare of land in rain-fed and non-irrigated areas, while ₹17,000 per hectare of land will be provided for areas under assured irrigation, he said.",
-          "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
-          "\"The government will provide ₹18,000 to each affected farmer to remove sand and silt from the fields.",
-          "The State will also provide 1.75 lakh mini kits to farmers for free,\" he added."
-        ],
-        "bullets": [
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Odisha Chief Minister Mohan Charan Majhi on Sunday (October 2, 2026) announced a special package of 50kg of rice and ₹2,500 for every family affected by the recent rain and flood in the southern districts, besides damages for losses to crops and property due to Cyclone Arnab.",
-            "source": "The Hindu",
-            "item_id": "8082ea88c3d8608e1c7233b1:article",
-            "composed": false
-          },
-          {
-            "text": "The Chief Minister announced that all affected families will get 50kg of rice and ₹2,500 in cash.",
-            "source": "The Hindu",
-            "item_id": "8082ea88c3d8608e1c7233b1:article",
-            "composed": false
-          },
-          {
-            "text": "Similarly, assistance for perennial crops like mango and cashew will be ₹22,500 per hectare, the Chief Minister said, adding that a minimum agricultural input subsidy of ₹2500 will be given to any affected farmer for perennial crops and ₹1000 for non-irrigated areas.",
-            "source": "The Hindu",
-            "item_id": "8082ea88c3d8608e1c7233b1:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "98564ec0a75e313a0295e144",
       "story_id": "98564ec0a75e313a0295e144",
       "headline": "Cyclone Murasu: Northeast monsoon rainfall in Chennai and neighbouring areas",
@@ -728,7 +726,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -850,7 +848,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -951,7 +949,7 @@
         "event term: 'defence procurement' in summary weight 26.4",
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1068,7 +1066,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1172,7 +1170,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1284,7 +1282,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1402,7 +1400,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1516,7 +1514,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1653,7 +1651,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: fresh (6.1h ago) +4",
+        "recency: fresh (6.3h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 43.2, stack 33.2, score 43.2 -> HIGH"
@@ -1789,7 +1787,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 43.2, stack 30, score 43.2 -> HIGH"
@@ -1910,7 +1908,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "event term: 'supreme court judgment' in summary weight 27.6",
         "scale: state scope (gujarat)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 42, score 42 -> HIGH"
@@ -1918,7 +1916,7 @@
       "geo_scope": "state",
       "state": "gujarat",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Gandhinagar, Nov 2: All secondary and higher secondary schools in Gujarat will have to set up dedicated teams to monitor students' mental health and prevent suicides under new regulations introduced by the state government, with schools having 100 or more students required to appoint at least one qualified counsellor.",
@@ -2012,7 +2010,7 @@
         "url": "https://assamtribune.com/health-and-fitness/gujarat-orders-schools-with-100-students-to-hire-counsellors-1621841"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -2055,7 +2053,7 @@
         "event term: 'final' in title weight 10",
         "event term: 'acquisition' in title weight 42",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: state",
         "dominant event 42, stack 27.2, score 42 -> HIGH"
@@ -2135,119 +2133,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "23eacbf69387361c28cead02",
-      "story_id": "23eacbf69387361c28cead02",
-      "headline": "HDFC Capital, DivyaSree set up ₹1,500 cr fund to build housing projects",
-      "title": "HDFC Capital, DivyaSree set up ₹1,500 cr fund to build housing projects",
-      "summary": "HDFC Capital has partnered with realty firm DivyaSree Developers to set up a Rs 1,500 crore platform for building residential projects. In a statement on Monday, Bengaluru-based DivyaSree Developers said it has partnered with HDFC Capital Advisors Ltd to \"establish an Rs 1,500 crore residential platform in India.\" The partnership will provide DivyaSree growth capital to support the acquisition and development of residential projects over the next three to four years with the potential revenue of Rs 6,750 crore. The projects would be developed in Bengaluru, Hyderabad and Chennai. Vipul Roongta, Managing Director and CEO, HDFC Capital, said, \"India's residential real estate sector continues to offer strong opportunities for institutionally backed development, supported by sustained demand for high-quality housing across urban markets.\" DivyaSree Developers has a strong track record in real estate development, deep market understanding and a commitment to quality execution, he ...",
-      "url": "https://www.business-standard.com/industry/news/hdfc-capital-divyasree-set-up-1-500-cr-fund-to-build-housing-projects-126110200292_1.html",
-      "source": "Business Standard",
-      "primary_source": false,
-      "tier": 3,
-      "category": "business-industry",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 100.0,
-      "priority_score": 41.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-02T05:28:25+00:00",
-      "published_at": "2026-11-02T05:28:25+00:00",
-      "effective_at": "2026-11-02T05:28:25+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "category: business-industry (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-standard) +1",
-        "source: specialist (business-standard) +5",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'acquisition' in summary weight 25.2",
-        "scale: national scope",
-        "scale: multi-state (3 states)",
-        "recency: breaking (2.9h ago) +8",
-        "category: business-industry (importance 1) +1.2",
-        "geo: national",
-        "dominant event 25.2, stack 41.2, score 41.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "HDFC Capital has partnered with realty firm DivyaSree Developers to set up a Rs 1,500 crore platform for building residential projects.",
-          "In a statement on Monday, Bengaluru-based DivyaSree Developers said it has partnered with HDFC Capital Advisors Ltd to \"establish an Rs 1,500 crore residential platform in India.\" The partnership will provide DivyaSree growth capital to support the acquisition and development of residential projects over the next three to four years with the potential revenue of Rs 6,750 crore."
-        ],
-        "body": [
-          "The projects would be developed in Bengaluru, Hyderabad and Chennai."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Vipul Roongta, Managing Director and CEO, HDFC Capital, said, \"India's residential real estate sector continues to offer strong opportunities for institutionally backed development, supported by sustained demand for high-quality housing across urban markets.\" DivyaSree Developers has a strong track record in real estate development, deep market understanding and a commitment to quality execution, he..."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In a statement on Monday, Bengaluru-based DivyaSree Developers said it has partnered with HDFC Capital Advisors Ltd to \"establish an Rs 1,500 crore residential platform in India.\"",
-            "source": "Business Standard",
-            "item_id": "23eacbf69387361c28cead02",
-            "composed": false
-          },
-          {
-            "text": "The projects would be developed in Bengaluru, Hyderabad and Chennai.",
-            "source": "Business Standard",
-            "item_id": "23eacbf69387361c28cead02",
-            "composed": false
-          },
-          {
-            "text": "The partnership will provide DivyaSree growth capital to support the acquisition and development of residential projects over the next three to four years with the potential revenue of Rs 6,750 crore.",
-            "source": "Business Standard",
-            "item_id": "23eacbf69387361c28cead02",
-            "composed": false
-          }
-        ],
-        "source": "Business Standard",
-        "corroborating": [],
-        "url": "https://www.business-standard.com/industry/news/hdfc-capital-divyasree-set-up-1-500-cr-fund-to-build-housing-projects-126110200292_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "3eb09adbaae91025e61b90b9",
       "story_id": "3eb09adbaae91025e61b90b9",
       "headline": "Third AAP MLA resigns in two days as Kunwar Vijay Pratap quits",
@@ -2304,7 +2189,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 21.6, stack 38.4, score 38.4 -> HIGH"
