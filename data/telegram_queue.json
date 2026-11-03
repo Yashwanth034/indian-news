@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T05:02:30.444302+00:00",
-  "count": 24,
+  "generated_at": "2026-11-03T05:11:48.362946+00:00",
+  "count": 23,
   "stories": [
     {
       "event_id": "94671c18d6e7a4fdfcc261de",
@@ -57,7 +57,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE"
@@ -245,24 +245,26 @@
     {
       "event_id": "8304fe005b447e841b66f64c",
       "story_id": "8304fe005b447e841b66f64c",
-      "headline": "HM Shah speaks to Andhra CM on Cyclone ‘Murasu’ impact, assures all help",
-      "title": "HM Shah speaks to Andhra CM on Cyclone ‘Murasu’ impact, assures all help",
-      "summary": "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
-      "url": "https://www.thehansindia.com/news/cities/amaravati/hm-shah-speaks-to-andhra-cm-on-cyclone-murasu-impact-assures-all-help-1138777",
-      "source": "The Hans India",
+      "headline": "Karnataka to deploy 500 trained workers to restore power in cyclone-hit Andhra Pradesh",
+      "title": "Karnataka to deploy 500 trained workers to restore power in cyclone-hit Andhra Pradesh",
+      "summary": "",
+      "url": "https://www.thenewsminute.com/karnataka/karnataka-to-deploy-500-trained-workers-to-restore-power-in-cyclone-hit-andhra-pradesh",
+      "source": "The News Minute",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
       "confidence": "high",
-      "score": 72.0,
+      "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
       "event_time": "2026-11-03T02:01:43+00:00",
-      "published_at": "2026-11-03T04:35:00+00:00",
-      "effective_at": "2026-11-03T04:35:00+00:00",
-      "independent_source_groups": 3,
+      "published_at": "2026-11-03T04:29:46+00:00",
+      "effective_at": "2026-11-03T04:29:46.481000+00:00",
+      "independent_source_groups": 4,
       "source_groups": {
         "indiatimes": {
           "kind": "independent",
@@ -271,15 +273,22 @@
           ],
           "count": 1
         },
-        "pti": {
-          "kind": "wire",
+        "the-news-minute": {
+          "kind": "independent",
           "source_ids": [
-            "business-standard"
+            "the-news-minute"
           ],
           "count": 1
         },
         "ians": {
           "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        },
+        "hans-india": {
+          "kind": "independent",
           "source_ids": [
             "hans-india"
           ],
@@ -290,21 +299,22 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 3 independent sources",
+        "major: corroborated by 4 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 3 independent source groups -> high confidence",
+        "source: tier 2 (the-news-minute) +2",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "scale: multi-state (2 states)",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 32, score 72 -> URGENT"
+        "dominant event 72, stack 38, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -342,59 +352,54 @@
         "bullets": [],
         "sentences": [
           {
-            "text": "The Union Home Minister said in a post on ‘X’ that NDRF and SDRF teams are already on the ground, helping those affected.",
-            "source": "The Hans India",
+            "text": "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
+            "source": "The News Minute",
             "item_id": "8304fe005b447e841b66f64c:article",
             "composed": false
           },
           {
-            "text": "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
-            "source": "The Hans India",
+            "text": "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
+            "source": "The News Minute",
             "item_id": "8304fe005b447e841b66f64c:article",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "The News Minute",
         "corroborating": [],
-        "url": "https://www.thehansindia.com/news/cities/amaravati/hm-shah-speaks-to-andhra-cm-on-cyclone-murasu-impact-assures-all-help-1138777"
+        "url": "https://www.thenewsminute.com/karnataka/karnataka-to-deploy-500-trained-workers-to-restore-power-in-cyclone-hit-andhra-pradesh"
       },
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
-      "event_id": "f76cc6f761c4b74602893182",
-      "story_id": "f76cc6f761c4b74602893182",
-      "headline": "500 power personnel, equipment rushed to cyclone-hit AP",
-      "title": "500 power personnel, equipment rushed to cyclone-hit AP",
-      "summary": "The timely assistance reflects Karnataka’s commitment to supporting Andhra Pradesh under the ‘Neighbour First’ principle",
-      "url": "https://www.thehansindia.com/news/cities/bengaluru/500-power-personnel-equipment-rushed-to-cyclone-hit-ap-1138762",
+      "event_id": "9d6195ee842dafb4304d53c8",
+      "story_id": "9d6195ee842dafb4304d53c8",
+      "headline": "Cyclone Murasu leaves Bapatla Town waterlogged",
+      "title": "Cyclone Murasu leaves Bapatla Town waterlogged",
+      "summary": "Cyclone Murasu brings heavy rains and strong winds to Bapatla, causing severe waterlogging, power disruptions, stranded trains and coastal high waves. NDRF teams are clearing fallen trees as authorities monitor the situation.",
+      "url": "https://www.thehansindia.com/news/cities/guntur/cyclone-murasu-leaves-bapatla-town-waterlogged-1138790",
       "source": "The Hans India",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 59.4,
+      "secondary_categories": [
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-03T00:30:52+00:00",
-      "published_at": "2026-11-03T00:30:52+00:00",
-      "effective_at": "2026-11-03T00:30:52+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-11-03T05:10:42+00:00",
+      "published_at": "2026-11-03T05:10:42+00:00",
+      "effective_at": "2026-11-03T05:10:42+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
         "hans-india": {
           "kind": "independent",
           "source_ids": [
             "hans-india"
-          ],
-          "count": 1
-        },
-        "the-news-minute": {
-          "kind": "independent",
-          "source_ids": [
-            "the-news-minute"
           ],
           "count": 1
         }
@@ -403,94 +408,182 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (hans-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: breaking (0.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 38, score 72 -> URGENT"
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Murasu brings heavy rains and strong winds to Bapatla, causing severe waterlogging, power disruptions, stranded trains and coastal high waves.",
+          "NDRF teams are clearing fallen trees as authorities monitor the situation."
+        ],
+        "body": [
+          "The adverse weather conditions have disrupted transportation, making it difficult for counting personnel and election agents to reach the counting centres."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Cyclone Murasu brings heavy rains and strong winds to Bapatla, causing severe waterlogging, power disruptions, stranded trains and coastal high waves.",
+            "source": "The Hans India",
+            "item_id": "9d6195ee842dafb4304d53c8",
+            "composed": false
+          },
+          {
+            "text": "NDRF teams are clearing fallen trees as authorities monitor the situation.",
+            "source": "The Hans India",
+            "item_id": "9d6195ee842dafb4304d53c8",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.thehansindia.com/news/cities/guntur/cyclone-murasu-leaves-bapatla-town-waterlogged-1138790"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "69165bd607384c9ca25df58f",
+      "story_id": "69165bd607384c9ca25df58f",
+      "headline": "Cyclone Murasu LIVE updates: Cyclone wreaks havoc in coastal A.P.; no power disruptions reported so far",
+      "title": "Cyclone Murasu LIVE updates: Cyclone wreaks havoc in coastal A.P.; no power disruptions reported so far",
+      "summary": "A.P. CM Chandrababu Naidu directed officials to ensure that people in cyclone-affected areas did not venture onto roads and to take all necessary precautions to prevent loss of life and minimise property damage",
+      "url": "https://www.thehindu.com/news/national/cyclone-murasu-landfall-live-updates-november-3-2026-rain-andhra-pradesh-telangana-odisha-weather/article71659195.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 95.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T05:04:54+00:00",
+      "published_at": "2026-11-03T05:04:54+00:00",
+      "effective_at": "2026-11-03T05:04:54+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "Bengaluru: The Karnataka government, led by Chief Minister DK Shivakumar, has extended assistance to cyclone-hit Andhra Pradesh to restore electricity supply infrastructure damaged by Cyclone Arnab.",
-        "Responding to a request from the Andhra Pradesh government for manpower and equipment required to restore power infrastructure, Karnataka has mobilised resources under the supervision of Energy Minister K J George as part of inter-State cooperation and solidarity.",
-        "Chief Minister DK Shivakumar spoke to Andhra Pradesh Chief Minister N Chandrababu Naidu over the phone and assured him of Karnataka’s full support during the crisis.",
-        "“Karnataka stands firmly with the people of Andhra Pradesh during this difficult time.",
-        "Electricity is an essential service, and its immediate restoration is critical for the welfare of people affected by the disaster,” Shivakumar said.",
-        "Energy Minister KJ George said Karnataka teams would work closely with Andhra Pradesh officials through effective field-level coordination and the use of advanced equipment to restore power supply at the earliest.500 personnel and specialised equipment deployed Karnataka is sending 500 skilled power workers, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines to undertake electricity distribution infrastructure restoration works in cyclone-affected areas.",
-        "The teams were mobilised on an emergency basis and departed for Andhra Pradesh on Monday afternoon, reaching the State around midnight.",
-        "For effective deployment and coordination, each electricity supply company (ESCOM) has appointed a single point of contact (SPOC) to coordinate with the respective authorities in Andhra Pradesh.",
-        "The 500 power workers have been divided into teams of 10, with each team led by a Junior Engineer (JE) or Assistant Engineer (AE).",
-        "An Executive Engineer (EE) from each Operations and Maintenance (O&M) circle has also been assigned to oversee and coordinate the teams deployed.",
-        "The timely assistance reflects Karnataka’s commitment to supporting Andhra Pradesh under the ‘Neighbour First’ principle during natural disasters and helping restore essential electricity services to people affected by the cyclone."
+        "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
+        "Residents in cyclone-hit regions can report emergencies and civic disruptions—such as power outages, uprooted trees, collapsed walls, waterlogging, and other distress situations—by sending a message to the dedicated WhatsApp number 9552300009.",
+        "The facility is designed to establish direct communication between citizens and administration, enabling prompt on-ground intervention and effective coordination during disaster management operations.",
+        "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
+        "- November 03, 2026 07:08Alert sounded for those staying on hillocks and on Krishna river bund in VijayawadaNTR.",
+        "Police Commissioner S. V. Rajasekhar Babu cautioned the people staying on hillocks and on Krishna river bund in Vijayawada amid heavy rainfall triggered by Cyclone Murasu.",
+        "He asked the residents staying in low-lying areas to shift to safer locations.",
+        "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
+        "- November 03, 2026 06:53Several thatched houses collapse, residents stranded in Ongole's Samatha Nagar.",
+        "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu.",
+        "The district administration has initiated rescue operations to evacuate those stranded.",
+        "Meanwhile, several houses were inundated in Beeramgunta village of Kothapatnam mandal in Prakasam district."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "Bengaluru: The Karnataka government, led by Chief Minister DK Shivakumar, has extended assistance to cyclone-hit Andhra Pradesh to restore electricity supply infrastructure damaged by Cyclone Arnab.",
-          "Responding to a request from the Andhra Pradesh government for manpower and equipment required to restore power infrastructure, Karnataka has mobilised resources under the supervision of Energy Minister K J George as part of inter-State cooperation and solidarity."
+          "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
+          "Residents in cyclone-hit regions can report emergencies and civic disruptions—such as power outages, uprooted trees, collapsed walls, waterlogging, and other distress situations—by sending a message to the dedicated WhatsApp number 9552300009."
         ],
         "body": [
-          "Chief Minister DK Shivakumar spoke to Andhra Pradesh Chief Minister N Chandrababu Naidu over the phone and assured him of Karnataka’s full support during the crisis.",
-          "“Karnataka stands firmly with the people of Andhra Pradesh during this difficult time.",
-          "Electricity is an essential service, and its immediate restoration is critical for the welfare of people affected by the disaster,” Shivakumar said.",
-          "Energy Minister KJ George said Karnataka teams would work closely with Andhra Pradesh officials through effective field-level coordination and the use of advanced equipment to restore power supply at the earliest.500 personnel and specialised equipment deployed Karnataka is sending 500 skilled power workers, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines to undertake electricity distribution infrastructure restoration works in cyclone-affected areas.",
-          "The teams were mobilised on an emergency basis and departed for Andhra Pradesh on Monday afternoon, reaching the State around midnight.",
-          "For effective deployment and coordination, each electricity supply company (ESCOM) has appointed a single point of contact (SPOC) to coordinate with the respective authorities in Andhra Pradesh.",
-          "The 500 power workers have been divided into teams of 10, with each team led by a Junior Engineer (JE) or Assistant Engineer (AE).",
-          "An Executive Engineer (EE) from each Operations and Maintenance (O&M) circle has also been assigned to oversee and coordinate the teams deployed."
+          "The facility is designed to establish direct communication between citizens and administration, enabling prompt on-ground intervention and effective coordination during disaster management operations.",
+          "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
+          "- November 03, 2026 07:08Alert sounded for those staying on hillocks and on Krishna river bund in VijayawadaNTR.",
+          "Police Commissioner S. V. Rajasekhar Babu cautioned the people staying on hillocks and on Krishna river bund in Vijayawada amid heavy rainfall triggered by Cyclone Murasu.",
+          "He asked the residents staying in low-lying areas to shift to safer locations.",
+          "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
+          "- November 03, 2026 06:53Several thatched houses collapse, residents stranded in Ongole's Samatha Nagar.",
+          "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Andhra Pradesh"
+            "text": "OngoleAs"
           }
         ],
         "sentences": [
           {
-            "text": "Energy Minister KJ George said Karnataka teams would work closely with Andhra Pradesh officials through effective field-level coordination and the use of advanced equipment to restore power supply at the earliest.500 personnel and specialised equipment deployed Karnataka is sending 500 skilled power workers, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines to undertake electricity distribution infrastructure restoration works in cyclone-affected areas.",
-            "source": "The Hans India",
-            "item_id": "f76cc6f761c4b74602893182:article",
+            "text": "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
+            "source": "The Hindu",
+            "item_id": "69165bd607384c9ca25df58f:article",
             "composed": false
           },
           {
-            "text": "The 500 power workers have been divided into teams of 10, with each team led by a Junior Engineer (JE) or Assistant Engineer (AE).",
-            "source": "The Hans India",
-            "item_id": "f76cc6f761c4b74602893182:article",
+            "text": "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
+            "source": "The Hindu",
+            "item_id": "69165bd607384c9ca25df58f:article",
             "composed": false
           },
           {
-            "text": "The teams were mobilised on an emergency basis and departed for Andhra Pradesh on Monday afternoon, reaching the State around midnight.",
-            "source": "The Hans India",
-            "item_id": "f76cc6f761c4b74602893182:article",
+            "text": "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu.",
+            "source": "The Hindu",
+            "item_id": "69165bd607384c9ca25df58f:article",
             "composed": false
           },
           {
-            "text": "For effective deployment and coordination, each electricity supply company (ESCOM) has appointed a single point of contact (SPOC) to coordinate with the respective authorities in Andhra Pradesh.",
-            "source": "The Hans India",
-            "item_id": "f76cc6f761c4b74602893182:article",
+            "text": "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
+            "source": "The Hindu",
+            "item_id": "69165bd607384c9ca25df58f:article",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.thehansindia.com/news/cities/bengaluru/500-power-personnel-equipment-rushed-to-cyclone-hit-ap-1138762"
+        "url": "https://www.thehindu.com/news/national/cyclone-murasu-landfall-live-updates-november-3-2026-rain-andhra-pradesh-telangana-odisha-weather/article71659195.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -540,7 +633,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -548,7 +641,7 @@
       "geo_scope": "state",
       "state": "andhra pradesh",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
@@ -556,10 +649,6 @@
         ],
         "body": [
           "Cyclone Murasu Hits Andhra: Coastal Belt Flooded, Trees Uprooted, NDRF Deployed.",
-          "Vijayawada: Andhra Pradesh Meteorological Department Director K Nagaratna on Tuesday noted that Cyclone Murasu crossed the southern coastline between 03:30 AM and 05:30 AM.",
-          "The system moved north-northwestwards at a speed of 8 kmph over the preceding six hours.",
-          "She also advised the fishermen not to venture into the sea until November 4.",
-          "“This severe […] The post Cyclone Murasu hits Andhra coast; fishermen advised to stay shorebound until Nov 4 appeared first on KalingaTV.",
           "Cyclone Murasu brings strong winds and heavy rainfall to Andhra Pradesh, triggering red alerts in six districts, disrupting flights and transport, and prompting school closures.",
           "Cyclone Murasu makes landfall, Andhra on alert as storm unleashes 120 kmph winds.",
           "The weather department estimated gale winds of 100-110 kmph, gusting to 120 kmph, along and off the coast during landfall.",
@@ -579,150 +668,29 @@
         ],
         "sentences": [
           {
-            "text": "Vijayawada: Andhra Pradesh Meteorological Department Director K Nagaratna on Tuesday noted that Cyclone Murasu crossed the southern coastline between 03:30 AM and 05:30 AM.",
-            "source": "Kalinga TV",
-            "item_id": "c5e589e54827ee9f7eb88670",
-            "composed": false
-          },
-          {
             "text": "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
             "source": "The Hans India",
             "item_id": "15999fb6c47a495ba4316328",
             "composed": false
           },
           {
-            "text": "She also advised the fishermen not to venture into the sea until November 4.",
-            "source": "Kalinga TV",
-            "item_id": "c5e589e54827ee9f7eb88670",
+            "text": "The weather department estimated gale winds of 100-110 kmph, gusting to 120 kmph, along and off the coast during landfall.",
+            "source": "Deccan Chronicle",
+            "item_id": "0c9e30c3657396080c482c0e",
             "composed": false
           }
         ],
         "source": "The Hans India",
         "corroborating": [
           "India Today",
-          "Kalinga TV",
           "Business Standard",
           "Deccan Chronicle"
         ],
         "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-murasu-makes-landfall-near-kothapatnam-cm-chandrababu-reviews-situation-with-district-collectors-1138782"
       },
-      "group_size": 8,
-      "label": "⚡ JUST IN",
+      "group_size": 7,
+      "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "011878fc7786e9d87b9fff5e",
-      "story_id": "011878fc7786e9d87b9fff5e",
-      "headline": "Cyclone Murasu: Heavy Rainfall Recorded Across Andhra Pradesh – Naguluppalapadu Tops List with 198.01 mm",
-      "title": "Cyclone Murasu: Heavy Rainfall Recorded Across Andhra Pradesh – Naguluppalapadu Tops List with 198.01 mm",
-      "summary": "Cyclone Murasu brings heavy rainfall across Andhra Pradesh, with Naguluppalapadu in Prakasam district recording the highest rainfall of 198.01 mm, followed by Kothapatnam.",
-      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-murasu-heavy-rainfall-recorded-across-andhra-pradesh-naguluppalapadu-tops-list-with-19801-mm-1138781",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-03T04:49:20+00:00",
-      "published_at": "2026-11-03T04:49:20+00:00",
-      "effective_at": "2026-11-03T04:49:20+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.2h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "article_sentences": [
-        "Cyclone Murasu brings heavy rainfall across Andhra Pradesh, with Naguluppalapadu in Prakasam district recording the highest rainfall of 198.01 mm, followed by Kothapatnam.",
-        "Amaravati: Heavy rainfall was recorded across several parts of Andhra Pradesh due to Cyclone Murasu, according to the latest update released by the Real Time Governance Society (RTGS) and the Andhra Pradesh State Disaster Management Authority (APSDMA).",
-        "Between 8:30 AM on November 2 and 6:00 AM on November 3, Naguluppalapadu in Prakasam district recorded the highest rainfall of 198.01 mm, followed by Kothapatnam with 182.25 mm.",
-        "Other areas that witnessed significant rainfall include Bapatla (128.53 mm), Chirala (124.10 mm), Trovagunta (116.93 mm) and Ongole Urban (106.97 mm).",
-        "The other locations that recorded heavy rainfall are Chilakapalem (104.50 mm), Santhanuthalapadu (98.70 mm), Mogalthur in West Godavari district (96 mm) and Malikipuram in Konaseema district (93.70 mm).",
-        "The rainfall figures were shared as part of the latest Cyclone Murasu situation update by Prakhar Jain, Managing Director of APSDMA and CEO of RTGS."
-      ],
-      "public_label": "⚡ JUST IN",
-      "briefing": {
-        "opening": [
-          "Cyclone Murasu brings heavy rainfall across Andhra Pradesh, with Naguluppalapadu in Prakasam district recording the highest rainfall of 198.01 mm, followed by Kothapatnam.",
-          "Amaravati: Heavy rainfall was recorded across several parts of Andhra Pradesh due to Cyclone Murasu, according to the latest update released by the Real Time Governance Society (RTGS) and the Andhra Pradesh State Disaster Management Authority (APSDMA)."
-        ],
-        "body": [
-          "Between 8:30 AM on November 2 and 6:00 AM on November 3, Naguluppalapadu in Prakasam district recorded the highest rainfall of 198.01 mm, followed by Kothapatnam with 182.25 mm.",
-          "Other areas that witnessed significant rainfall include Bapatla (128.53 mm), Chirala (124.10 mm), Trovagunta (116.93 mm) and Ongole Urban (106.97 mm).",
-          "The other locations that recorded heavy rainfall are Chilakapalem (104.50 mm), Santhanuthalapadu (98.70 mm), Mogalthur in West Godavari district (96 mm) and Malikipuram in Konaseema district (93.70 mm).",
-          "The rainfall figures were shared as part of the latest Cyclone Murasu situation update by Prakhar Jain, Managing Director of APSDMA and CEO of RTGS."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Between 8:30 AM on November 2 and 6:00 AM on November 3, Naguluppalapadu in Prakasam district recorded the highest rainfall of 198.01 mm, followed by Kothapatnam with 182.25 mm.",
-            "source": "The Hans India",
-            "item_id": "011878fc7786e9d87b9fff5e:article",
-            "composed": false
-          },
-          {
-            "text": "The other locations that recorded heavy rainfall are Chilakapalem (104.50 mm), Santhanuthalapadu (98.70 mm), Mogalthur in West Godavari district (96 mm) and Malikipuram in Konaseema district (93.70 mm).",
-            "source": "The Hans India",
-            "item_id": "011878fc7786e9d87b9fff5e:article",
-            "composed": false
-          },
-          {
-            "text": "Cyclone Murasu brings heavy rainfall across Andhra Pradesh, with Naguluppalapadu in Prakasam district recording the highest rainfall of 198.01 mm, followed by Kothapatnam.",
-            "source": "The Hans India",
-            "item_id": "011878fc7786e9d87b9fff5e:article",
-            "composed": false
-          },
-          {
-            "text": "Other areas that witnessed significant rainfall include Bapatla (128.53 mm), Chirala (124.10 mm), Trovagunta (116.93 mm) and Ongole Urban (106.97 mm).",
-            "source": "The Hans India",
-            "item_id": "011878fc7786e9d87b9fff5e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-murasu-heavy-rainfall-recorded-across-andhra-pradesh-naguluppalapadu-tops-list-with-19801-mm-1138781"
-      },
-      "group_size": 1,
-      "label": "⚡ JUST IN",
-      "enrichment": "article"
     },
     {
       "event_id": "13886a79f139469a0ecad43c",
@@ -771,7 +739,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -849,131 +817,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "69165bd607384c9ca25df58f",
-      "story_id": "69165bd607384c9ca25df58f",
-      "headline": "Cyclone Murasu LIVE updates: Cyclone wreaks havoc in coastal A.P.; no power disruptions reported so far",
-      "title": "Cyclone Murasu LIVE updates: Cyclone wreaks havoc in coastal A.P.; no power disruptions reported so far",
-      "summary": "A.P. CM Chandrababu Naidu directed officials to ensure that people in cyclone-affected areas did not venture onto roads and to take all necessary precautions to prevent loss of life and minimise property damage",
-      "url": "https://www.thehindu.com/news/national/cyclone-murasu-landfall-live-updates-november-3-2026-rain-andhra-pradesh-telangana-odisha-weather/article71659195.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 95.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-03T04:34:26+00:00",
-      "published_at": "2026-11-03T04:34:26+00:00",
-      "effective_at": "2026-11-03T04:34:26+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
-        "Residents in cyclone-hit regions can report emergencies and civic disruptions—such as power outages, uprooted trees, collapsed walls, waterlogging, and other distress situations—by sending a message to the dedicated WhatsApp number 9552300009.",
-        "The facility is designed to establish direct communication between citizens and administration, enabling prompt on-ground intervention and effective coordination during disaster management operations.",
-        "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
-        "- November 03, 2026 07:08Alert sounded for those staying on hillocks and on Krishna river bund in VijayawadaNTR.",
-        "Police Commissioner S. V. Rajasekhar Babu cautioned the people staying on hillocks and on Krishna river bund in Vijayawada amid heavy rainfall triggered by Cyclone Murasu.",
-        "He asked the residents staying in low-lying areas to shift to safer locations.",
-        "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
-        "- November 03, 2026 06:53Several thatched houses collapse, residents stranded in Ongole's Samatha Nagar.",
-        "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu.",
-        "The district administration has initiated rescue operations to evacuate those stranded.",
-        "Meanwhile, several houses were inundated in Beeramgunta village of Kothapatnam mandal in Prakasam district."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
-          "Residents in cyclone-hit regions can report emergencies and civic disruptions—such as power outages, uprooted trees, collapsed walls, waterlogging, and other distress situations—by sending a message to the dedicated WhatsApp number 9552300009."
-        ],
-        "body": [
-          "The facility is designed to establish direct communication between citizens and administration, enabling prompt on-ground intervention and effective coordination during disaster management operations.",
-          "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
-          "- November 03, 2026 07:08Alert sounded for those staying on hillocks and on Krishna river bund in VijayawadaNTR.",
-          "Police Commissioner S. V. Rajasekhar Babu cautioned the people staying on hillocks and on Krishna river bund in Vijayawada amid heavy rainfall triggered by Cyclone Murasu.",
-          "He asked the residents staying in low-lying areas to shift to safer locations.",
-          "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
-          "- November 03, 2026 06:53Several thatched houses collapse, residents stranded in Ongole's Samatha Nagar.",
-          "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "OngoleAs"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "- November 03, 2026 07:21Watch | Heavy rain, gale winds lash Kothapatnam Beach area near OngoleAs the cyclone ‘Murasu’ landfall process continues, heavy rainfall accompanied by extremely strong gale winds is lashing the Kothapatnam Beach area near Ongole, with strong winds witnessed along the coastline.",
-            "source": "The Hindu",
-            "item_id": "69165bd607384c9ca25df58f:article",
-            "composed": false
-          },
-          {
-            "text": "- November 03, 2026 07:07Holiday declared for all schools, colleges in Eluru districtEluru District Collector K. Vetri Selvi declared holiday for all schools, colleges and Anganwadi Centres on Tuesday (November 3, 2026), in the district as incessant rains are occurring and flash floods warning was issued cue to Cyclone Murasu.",
-            "source": "The Hindu",
-            "item_id": "69165bd607384c9ca25df58f:article",
-            "composed": false
-          },
-          {
-            "text": "Several thatched houses collapsed and residents were stranded at Samatha Nagar in Ongole, Prakasam district, following heavy rains and strong winds triggered by Cyclone Murasu.",
-            "source": "The Hindu",
-            "item_id": "69165bd607384c9ca25df58f:article",
-            "composed": false
-          },
-          {
-            "text": "In an effort to provide swift assistance to citizens affected by Cyclone Murasu, the Andhra Pradesh government’s Real Time Governance Society (RTGS) has rolled out a dedicated grievance reporting mechanism through its ‘Mana Mitra’ WhatsApp Governance platform, an official release said on Monday.",
-            "source": "The Hindu",
-            "item_id": "69165bd607384c9ca25df58f:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/cyclone-murasu-landfall-live-updates-november-3-2026-rain-andhra-pradesh-telangana-odisha-weather/article71659195.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "a13512d789b6e8cf54b218d2",
       "story_id": "a13512d789b6e8cf54b218d2",
       "headline": "Karnataka's Support During Cyclone Murasu Will Never Be Forgotten: AP CM Naidu",
@@ -1018,7 +861,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1107,7 +950,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (kerala)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -1231,7 +1074,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -1342,7 +1185,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -1464,7 +1307,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 15.2, score 72 -> URGENT"
@@ -1587,7 +1430,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1676,7 +1519,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -1810,7 +1653,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 29.2, score 49.2 -> HIGH"
@@ -1932,7 +1775,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -2062,7 +1905,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -2182,7 +2025,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2288,7 +2131,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 28.8, stack 45, score 45 -> HIGH"
@@ -2558,7 +2401,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2580,7 +2423,7 @@
         "At the relevant time, the officer was Commissioner of Police, Greater Chennai.",
         "The High Court observed that he was habitual in passing such detention orders."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "An officer holding a senior position in the police administration is expected to appreciate the significance of the duties entrusted to him, the Court said.",
@@ -2628,7 +2471,7 @@
         "url": "https://www.livelaw.in/supreme-court/supreme-court-censures-tn-ips-officer-a-arun-over-detention-order-expunges-madras-high-courts-adverse-remarks-on-him-556980"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -2673,7 +2516,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2797,7 +2640,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 16.4, score 42 -> HIGH"
@@ -2972,7 +2815,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 38, score 38 -> HIGH"
