@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T06:51:52.598231+00:00",
-  "count": 25,
+  "generated_at": "2026-11-03T07:02:24.543050+00:00",
+  "count": 26,
   "stories": [
     {
       "event_id": "94671c18d6e7a4fdfcc261de",
@@ -57,7 +57,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE"
@@ -312,7 +312,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 38, score 72 -> URGENT"
@@ -374,6 +374,108 @@
       "enrichment": "article"
     },
     {
+      "event_id": "a632b7f34506a9f4aaf6807f",
+      "story_id": "a632b7f34506a9f4aaf6807f",
+      "headline": "Cyclone Murasu Hits Andhra Pradesh; CM Chandrababu Naidu Reviews Post-Landfall Measures",
+      "title": "Cyclone Murasu Hits Andhra Pradesh; CM Chandrababu Naidu Reviews Post-Landfall Measures",
+      "summary": "Cyclone Murasu Hits Andhra Pradesh; CM Chandrababu Naidu Reviews Post-Landfall Measures",
+      "url": "https://www.indiatoday.in/india/video/cyclone-murasu-hits-andhra-pradesh-cm-chandrababu-naidu-reviews-post-landfall-measures-ytvd-3031229-2026-11-03",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T06:53:02+00:00",
+      "published_at": "2026-11-03T06:53:02+00:00",
+      "effective_at": "2026-11-03T06:53:02+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Murasu Hits Andhra: Coastal Belt Flooded, Trees Uprooted, NDRF Deployed.",
+          "The Cyclone is expected to subside into a deep depression by Tuesday (November 3, 2026) midnight with wind speeds reaching up to 75 kmph."
+        ],
+        "body": [
+          "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
+          "CM Chandrababu Naidu reviewed the situation with district collectors and directed officials to ensure public safety and minimise damage.",
+          "Cyclone Murasu brings strong winds and heavy rainfall to Andhra Pradesh, triggering red alerts in six districts, disrupting flights and transport, and prompting school closures.",
+          "People in authorities all over Andhra Pradesh have been put on a high alert as heavy rains are likely to hit the state.",
+          "The cyclone’s core has moved entirely over land, while its outer bands are expected to cross the coastline shortly.",
+          "The weather department estimated gale winds of 100-110 kmph, gusting to 120 kmph, along and off the coast during landfall.",
+          "Similar wind speeds are likely to prevail until morning."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kothapatnam"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
+            "source": "The Hans India",
+            "item_id": "15999fb6c47a495ba4316328",
+            "composed": false
+          },
+          {
+            "text": "The weather department estimated gale winds of 100-110 kmph, gusting to 120 kmph, along and off the coast during landfall.",
+            "source": "Deccan Chronicle",
+            "item_id": "0c9e30c3657396080c482c0e",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [
+          "The Hindu",
+          "The Hans India",
+          "Business Standard",
+          "Deccan Chronicle"
+        ],
+        "url": "https://www.indiatoday.in/india/video/cyclone-murasu-hits-andhra-pradesh-cm-chandrababu-naidu-reviews-post-landfall-measures-ytvd-3031229-2026-11-03"
+      },
+      "group_size": 9,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "d55b6e5439a76c5ec64088f2",
       "story_id": "d55b6e5439a76c5ec64088f2",
       "headline": "Cyclone Murasu: A.P. CM calls for efforts to prevent loss of lives",
@@ -418,7 +520,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -534,7 +636,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -574,97 +676,6 @@
         "url": "https://www.thehansindia.com/news/cities/guntur/cyclone-murasu-leaves-bapatla-town-waterlogged-1138790"
       },
       "group_size": 3,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "15999fb6c47a495ba4316328",
-      "story_id": "15999fb6c47a495ba4316328",
-      "headline": "Cyclone Murasu Makes Landfall Near Kothapatnam; CM Chandrababu Reviews Situation with District Collectors",
-      "title": "Cyclone Murasu Makes Landfall Near Kothapatnam; CM Chandrababu Reviews Situation with District Collectors",
-      "summary": "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh. CM Chandrababu Naidu reviewed the situation with district collectors and directed officials to ensure public safety and minimise damage.",
-      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-murasu-makes-landfall-near-kothapatnam-cm-chandrababu-reviews-situation-with-district-collectors-1138782",
-      "source": "The Hans India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "crime-public-safety"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-03T04:53:00+00:00",
-      "published_at": "2026-11-03T04:53:00+00:00",
-      "effective_at": "2026-11-03T04:53:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "hans-india": {
-          "kind": "independent",
-          "source_ids": [
-            "hans-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.0h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
-          "CM Chandrababu Naidu reviewed the situation with district collectors and directed officials to ensure public safety and minimise damage."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kothapatnam"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Cyclone Murasu made landfall near Kothapatnam in Andhra Pradesh.",
-            "source": "The Hans India",
-            "item_id": "15999fb6c47a495ba4316328",
-            "composed": false
-          },
-          {
-            "text": "CM Chandrababu Naidu reviewed the situation with district collectors and directed officials to ensure public safety and minimise damage.",
-            "source": "The Hans India",
-            "item_id": "15999fb6c47a495ba4316328",
-            "composed": false
-          }
-        ],
-        "source": "The Hans India",
-        "corroborating": [],
-        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-murasu-makes-landfall-near-kothapatnam-cm-chandrababu-reviews-situation-with-district-collectors-1138782"
-      },
-      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -715,7 +726,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -837,7 +848,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -926,10 +937,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (kerala)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 24, score 72 -> URGENT"
+        "dominant event 72, stack 20, score 72 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "kerala",
@@ -1006,6 +1017,119 @@
       "enrichment": "article"
     },
     {
+      "event_id": "2506e74feb6cd7a4f2f11d31",
+      "story_id": "2506e74feb6cd7a4f2f11d31",
+      "headline": "Cyclone Murasu crosses Andhra coast near Ongole with winds up to 120 kmph, heavy rain likely",
+      "title": "Cyclone Murasu crosses Andhra coast near Ongole with winds up to 120 kmph, heavy rain likely",
+      "summary": "At the time of the advisory, the cyclone was centred approximately 20 km from Ongole, 60 km from Bapatla, 70 km from Kavali, 110 km from Nellore and 130 km from Machilipatnam.",
+      "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-murasu-crosses-andhra-coast-near-ongole-with-winds-up-to-120-kmph-heavy-rain-likely-1138767",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 95.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T03:15:11+00:00",
+      "published_at": "2026-11-03T03:15:11+00:00",
+      "effective_at": "2026-11-03T03:15:11+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "recency: fresh (3.8h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "At the time of the advisory, the cyclone was centred approximately 20 km from Ongole, 60 km from Bapatla, 70 km from Kavali, 110 km from Nellore and 130 km from Machilipatnam.",
+        "Amaravati: Cyclone Murasu crossed the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole, during the early hours of Tuesday, bringing strong winds of 100-110 kmph, gusting up to 120 kmph, the India Meteorological Department (IMD) said.",
+        "In a post on X, the IMD said: “The Severe Cyclonic Storm MURASU moved north-northwestwards and crossed the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole (near Latitude 15.53°N and Longitude 80.22°E) during 0330 to 0530 hours IST of today, with wind speed of 100-110 kmph gusting to 120 kmph.”",
+        "According to the November 3 update issued by the Real Time Governance Society (RTGS) and Andhra Pradesh State Disaster Management Authority (APSDMA), the cyclone was moving at a speed of 9 kmph during the preceding six hours.",
+        "The state disaster management authorities said the cyclone was likely to make landfall near Ongole, while the landfall process was expected to take another two hours to complete, according to the update.",
+        "Strong winds ranging from 100 to 120 kmph were expected during the landfall process, while several districts were likely to receive heavy rainfall following the cyclone's crossing of the coast.",
+        "Providing details of the expected rainfall, Prakhar Jain, Managing Director of the State Disaster Management Authority (SDMA) and CEO of RTGS, said isolated heavy rainfall was likely in West Godavari, Eluru, Krishna, NTR and Guntur districts.",
+        "Similar weather conditions were also expected in Bapatla, Palnadu, Markapuram, Prakasam and Nellore districts.",
+        "The authorities have advised people to remain extremely alert and vigilant in view of the severe weather conditions.",
+        "Residents in the affected districts have been urged to take the warnings seriously, as strong winds and heavy rainfall could continue to affect several parts of the state during and after the cyclone's passage."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "At the time of the advisory, the cyclone was centred approximately 20 km from Ongole, 60 km from Bapatla, 70 km from Kavali, 110 km from Nellore and 130 km from Machilipatnam.",
+          "The state disaster management authorities said the cyclone was likely to make landfall near Ongole, while the landfall process was expected to take another two hours to complete, according to the update."
+        ],
+        "body": [
+          "Strong winds ranging from 100 to 120 kmph were expected during the landfall process, while several districts were likely to receive heavy rainfall following the cyclone's crossing of the coast.",
+          "Providing details of the expected rainfall, Prakhar Jain, Managing Director of the State Disaster Management Authority (SDMA) and CEO of RTGS, said isolated heavy rainfall was likely in West Godavari, Eluru, Krishna, NTR and Guntur districts.",
+          "Similar weather conditions were also expected in Bapatla, Palnadu, Markapuram, Prakasam and Nellore districts.",
+          "The authorities have advised people to remain extremely alert and vigilant in view of the severe weather conditions.",
+          "Residents in the affected districts have been urged to take the warnings seriously, as strong winds and heavy rainfall could continue to affect several parts of the state during and after the cyclone's passage."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ongole"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "At the time of the advisory, the cyclone was centred approximately 20 km from Ongole, 60 km from Bapatla, 70 km from Kavali, 110 km from Nellore and 130 km from Machilipatnam.",
+            "source": "The Hans India",
+            "item_id": "2506e74feb6cd7a4f2f11d31:article",
+            "composed": false
+          },
+          {
+            "text": "Providing details of the expected rainfall, Prakhar Jain, Managing Director of the State Disaster Management Authority (SDMA) and CEO of RTGS, said isolated heavy rainfall was likely in West Godavari, Eluru, Krishna, NTR and Guntur districts.",
+            "source": "The Hans India",
+            "item_id": "2506e74feb6cd7a4f2f11d31:article",
+            "composed": false
+          },
+          {
+            "text": "Strong winds ranging from 100 to 120 kmph were expected during the landfall process, while several districts were likely to receive heavy rainfall following the cyclone's crossing of the coast.",
+            "source": "The Hans India",
+            "item_id": "2506e74feb6cd7a4f2f11d31:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-murasu-crosses-andhra-coast-near-ongole-with-winds-up-to-120-kmph-heavy-rain-likely-1138767"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "04312dd8307b4adc2a31b5f0",
       "story_id": "04312dd8307b4adc2a31b5f0",
       "headline": "Cyclone Murasu brings deluge to parched Prakasam district",
@@ -1048,7 +1172,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -1172,7 +1296,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1261,7 +1385,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -1407,7 +1531,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -1528,7 +1652,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
@@ -1662,7 +1786,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -1784,7 +1908,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1914,7 +2038,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -2034,7 +2158,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2140,7 +2264,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 28.8, stack 45, score 45 -> HIGH"
@@ -2408,7 +2532,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2531,7 +2655,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2646,7 +2770,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2760,7 +2884,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 28, score 42 -> HIGH"
@@ -2882,7 +3006,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -3003,7 +3127,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 16.4, score 42 -> HIGH"
