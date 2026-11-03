@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T07:11:50.245383+00:00",
-  "count": 25,
+  "generated_at": "2026-11-03T07:21:49.800612+00:00",
+  "count": 27,
   "stories": [
     {
       "event_id": "94671c18d6e7a4fdfcc261de",
@@ -57,7 +57,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE"
@@ -243,8 +243,8 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8304fe005b447e841b66f64c",
-      "story_id": "8304fe005b447e841b66f64c",
+      "event_id": "531754ed4be37c885d10ce5d",
+      "story_id": "531754ed4be37c885d10ce5d",
       "headline": "Karnataka to deploy 500 trained workers to restore power in cyclone-hit Andhra Pradesh",
       "title": "Karnataka to deploy 500 trained workers to restore power in cyclone-hit Andhra Pradesh",
       "summary": "",
@@ -261,18 +261,11 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-03T02:01:43+00:00",
+      "event_time": "2026-11-03T04:29:46+00:00",
       "published_at": "2026-11-03T04:29:46+00:00",
       "effective_at": "2026-11-03T04:29:46.481000+00:00",
-      "independent_source_groups": 4,
+      "independent_source_groups": 2,
       "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        },
         "the-news-minute": {
           "kind": "independent",
           "source_ids": [
@@ -280,13 +273,136 @@
           ],
           "count": 1
         },
-        "ians": {
+        "pti": {
           "kind": "wire",
           "source_ids": [
-            "assam-tribune",
-            "hans-india"
+            "deccan-chronicle"
           ],
-          "count": 2
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-news-minute) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (2.9h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 42, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Karnataka will deploy 500 trained power utility workers and specialised equipment to Andhra Pradesh to help restore electricity infrastructure damaged by Cyclone Arnab, Chief Minister D K Shivakumar said on Monday, November 2.",
+        "The deployment follows a request from the Andhra Pradesh government for manpower and equipment to carry out restoration work in cyclone-affected areas, where over 15,000 electricity poles have been uprooted.",
+        "Shivakumar said he had spoken to Andhra Pradesh Chief Minister N Chandrababu Naidu and assured him of Karnataka’s full support.",
+        "The Energy Department is coordinating the assistance under the supervision of Energy Minister K J George.",
+        "The state has mobilised 500 trained linemen, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines.",
+        "The teams left for Andhra Pradesh on Monday afternoon and are expected to reach the State by midnight.",
+        "The linemen have been divided into teams of 10, each led by a junior or assistant engineer.",
+        "An executive engineer from every operations and maintenance circle has also been assigned to supervise and coordinate the restoration work.",
+        "All electricity supply companies (ESCOMs) have appointed nodal officers to coordinate with the Andhra Pradesh authorities.",
+        "Drivers and operators are accompanying the specialised vehicles and machinery to ensure their effective deployment at restoration sites.",
+        "The Karnataka government will also provide contingency funds to meet the travel, accommodation and other emergency expenses of the deployed personnel.",
+        "Shivakumar said Karnataka would continue to assess the situation over the next two days, particularly in view of the approaching Cyclone Murasu, and extend all possible assistance to the neighbouring State."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Karnataka will deploy 500 trained power utility workers and specialised equipment to Andhra Pradesh to help restore electricity infrastructure damaged by Cyclone Arnab, Chief Minister D K Shivakumar said on Monday, November 2.",
+          "The deployment follows a request from the Andhra Pradesh government for manpower and equipment to carry out restoration work in cyclone-affected areas, where over 15,000 electricity poles have been uprooted."
+        ],
+        "body": [
+          "Shivakumar said he had spoken to Andhra Pradesh Chief Minister N Chandrababu Naidu and assured him of Karnataka’s full support.",
+          "The Energy Department is coordinating the assistance under the supervision of Energy Minister K J George.",
+          "The state has mobilised 500 trained linemen, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines.",
+          "The linemen have been divided into teams of 10, each led by a junior or assistant engineer.",
+          "An executive engineer from every operations and maintenance circle has also been assigned to supervise and coordinate the restoration work.",
+          "All electricity supply companies (ESCOMs) have appointed nodal officers to coordinate with the Andhra Pradesh authorities.",
+          "Drivers and operators are accompanying the specialised vehicles and machinery to ensure their effective deployment at restoration sites."
+        ],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The teams left for Andhra Pradesh on Monday afternoon and are expected to reach the State by midnight."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Karnataka will deploy 500 trained power utility workers and specialised equipment to Andhra Pradesh to help restore electricity infrastructure damaged by Cyclone Arnab, Chief Minister D K Shivakumar said on Monday, November 2.",
+            "source": "The News Minute",
+            "item_id": "531754ed4be37c885d10ce5d:article",
+            "composed": false
+          },
+          {
+            "text": "The deployment follows a request from the Andhra Pradesh government for manpower and equipment to carry out restoration work in cyclone-affected areas, where over 15,000 electricity poles have been uprooted.",
+            "source": "The News Minute",
+            "item_id": "531754ed4be37c885d10ce5d:article",
+            "composed": false
+          },
+          {
+            "text": "The state has mobilised 500 trained linemen, 15 Palfinger trucks equipped with cranes and earth augers, and 25 tractor-mounted drilling machines.",
+            "source": "The News Minute",
+            "item_id": "531754ed4be37c885d10ce5d:article",
+            "composed": false
+          },
+          {
+            "text": "The linemen have been divided into teams of 10, each led by a junior or assistant engineer.",
+            "source": "The News Minute",
+            "item_id": "531754ed4be37c885d10ce5d:article",
+            "composed": false
+          }
+        ],
+        "source": "The News Minute",
+        "corroborating": [],
+        "url": "https://www.thenewsminute.com/karnataka/karnataka-to-deploy-500-trained-workers-to-restore-power-in-cyclone-hit-andhra-pradesh"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "1a7dab4b20b41f0abbe81306",
+      "story_id": "1a7dab4b20b41f0abbe81306",
+      "headline": "Cyclone Murasu: Union Home Minister Amit Shah Calls AP CM Naidu",
+      "title": "Cyclone Murasu: Union Home Minister Amit Shah Calls AP CM Naidu",
+      "summary": "The Chief Minister thanked the Union Home Minister for sending a central team to assess the damage.",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-murasu-union-home-minister-amit-shah-calls-ap-cm-naidu-2001279",
+      "source": "Deccan Chronicle",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T04:00:30+00:00",
+      "published_at": "2026-11-03T04:00:30+00:00",
+      "effective_at": "2026-11-03T04:00:30+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "deccan-chronicle": {
+          "kind": "independent",
+          "source_ids": [
+            "deccan-chronicle"
+          ],
+          "count": 1
         },
         "hans-india": {
           "kind": "independent",
@@ -300,45 +416,30 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 4 independent sources",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
-        "major: significance event 'cyclone'",
+        "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-news-minute) +2",
-        "source: event has 5 copies, primary source counted once",
-        "corroboration: 4 independent source groups -> high confidence",
+        "source: tier 2 (deccan-chronicle) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 38, score 72 -> URGENT"
+        "dominant event 72, stack 32, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "article_sentences": [
-        "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
-        "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
-        "HM Shah assured him of every possible assistance from the Centre.",
-        "The Union Home Minister said in a post on ‘X’ that NDRF and SDRF teams are already on the ground, helping those affected.",
-        "He stated that the Government of India stands with the people with an unwavering resolve.",
-        "The Home Minister inquired about the impact of Cyclone ‘Murasu’.",
-        "“I assured him that the Central Government will provide all kinds of assistance and support.",
-        "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
-        "The Government of India stands with the people of Andhra Pradesh with a firm resolve to face any kind of situation,” he said.",
-        "Earlier, Chandrababu Naidu briefed Amit Shah on the situation following Cyclone ‘Arnab’ and the subsequent arrival of Cyclone ‘Murasu’.",
-        "The Chief Minister explained the crop losses and damage to property reported in various districts.",
-        "He thanked the Union Minister for sending a central team to assess the damage caused by cyclone ‘Arnab’."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
-          "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday."
+          "The Chief Minister thanked the Union Home Minister for sending a central team to assess the damage.",
+          "Amaravati, Nov 3: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday."
         ],
         "body": [
           "HM Shah assured him of every possible assistance from the Centre.",
@@ -348,30 +449,49 @@
           "“I assured him that the Central Government will provide all kinds of assistance and support.",
           "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
           "The Government of India stands with the people of Andhra Pradesh with a firm resolve to face any kind of situation,” he said.",
-          "Earlier, Chandrababu Naidu briefed Amit Shah on the situation following Cyclone ‘Arnab’ and the subsequent arrival of Cyclone ‘Murasu’."
+          "Earlier, Chandrababu Naidu briefed Amit Shah on the situation following Cyclone ‘Arnab’ and the subsequent arrival of Cyclone ‘Murasu’.",
+          "The Chief Minister explained the crop losses and damage to property reported in various districts.",
+          "He thanked the Union Minister for sending a central team to assess the damage caused by cyclone ‘Arnab’.",
+          "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
+          "Meanwhile, CM Naidu has thanked Karnataka Chief Minister D.K. Shivakumar and the people of Karnataka for standing with Andhra Pradesh during Cyclone Murasu.",
+          "The Andhra Pradesh CM posted on ‘X’ that their timely support in our hour of need will never be forgotten.\" CM Shivakumar had earlier posted about the help being extended to Andhra Pradesh.",
+          "“Our teams are on their way to Andhra Pradesh to support relief and restoration efforts in the cyclone-affected areas.",
+          "Karnataka stands with the people of Andhra Pradesh, and we will extend every possible support during this difficult time,” the Karnataka Chief Minister said.",
+          "Shivakumar had posted earlier that he spoke to Chandrababu Naidu and assured him of Karnataka’s full support as Andhra Pradesh grapples with the devastation caused by Cyclone Arnab.",
+          "“With over 15,000 electricity poles uprooted by Arnab, the restoration of power infrastructure is critical, and Andhra Pradesh has sought Karnataka’s assistance in this effort.",
+          "Our Energy Department is coordinating the assistance, with Energy Minister Shri K.J. George closely monitoring the situation.” He revealed that Karnataka is deploying 500 skilled men, along with the necessary equipment, to expedite restoration works and facilitate the early restoration of electricity supply in the cyclone-affected areas.",
+          "--IANS."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
-            "source": "The News Minute",
-            "item_id": "8304fe005b447e841b66f64c:article",
+            "text": "He revealed that Karnataka is deploying 500 skilled men, along with the necessary equipment, to expedite restoration works and facilitate the early restoration of electricity supply in the cyclone-affected areas.",
+            "source": "The Assam Tribune",
+            "item_id": "286eb9d2272079b34745ef8d",
             "composed": false
           },
           {
-            "text": "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
-            "source": "The News Minute",
-            "item_id": "8304fe005b447e841b66f64c:article",
+            "text": "Amaravati, Nov 3: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
+            "source": "The Assam Tribune",
+            "item_id": "286eb9d2272079b34745ef8d",
+            "composed": false
+          },
+          {
+            "text": "“With over 15,000 electricity poles uprooted by Arnab, the restoration of power infrastructure is critical, and Andhra Pradesh has sought Karnataka’s assistance in this effort.",
+            "source": "The Assam Tribune",
+            "item_id": "286eb9d2272079b34745ef8d",
             "composed": false
           }
         ],
-        "source": "The News Minute",
-        "corroborating": [],
-        "url": "https://www.thenewsminute.com/karnataka/karnataka-to-deploy-500-trained-workers-to-restore-power-in-cyclone-hit-andhra-pradesh"
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "The Assam Tribune"
+        ],
+        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-murasu-union-home-minister-amit-shah-calls-ap-cm-naidu-2001279"
       },
-      "group_size": 1,
+      "group_size": 2,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "d55b6e5439a76c5ec64088f2",
@@ -418,7 +538,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -534,7 +654,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -624,7 +744,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -715,7 +835,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -793,6 +913,110 @@
       "enrichment": "article"
     },
     {
+      "event_id": "83d971a86a0cc5e20175c7ea",
+      "story_id": "83d971a86a0cc5e20175c7ea",
+      "headline": "HM Shah speaks to Andhra CM on Cyclone ‘Murasu’ impact, assures all help",
+      "title": "HM Shah speaks to Andhra CM on Cyclone ‘Murasu’ impact, assures all help",
+      "summary": "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
+      "url": "https://www.thehansindia.com/news/cities/amaravati/hm-shah-speaks-to-andhra-cm-on-cyclone-murasu-impact-assures-all-help-1138777",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T04:35:00+00:00",
+      "published_at": "2026-11-03T04:35:00+00:00",
+      "effective_at": "2026-11-03T04:35:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: national scope",
+        "recency: breaking (2.8h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 30, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
+        "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
+        "HM Shah assured him of every possible assistance from the Centre.",
+        "The Union Home Minister said in a post on ‘X’ that NDRF and SDRF teams are already on the ground, helping those affected.",
+        "He stated that the Government of India stands with the people with an unwavering resolve.",
+        "The Home Minister inquired about the impact of Cyclone ‘Murasu’.",
+        "“I assured him that the Central Government will provide all kinds of assistance and support.",
+        "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
+        "The Government of India stands with the people of Andhra Pradesh with a firm resolve to face any kind of situation,” he said.",
+        "Earlier, Chandrababu Naidu briefed Amit Shah on the situation following Cyclone ‘Arnab’ and the subsequent arrival of Cyclone ‘Murasu’.",
+        "The Chief Minister explained the crop losses and damage to property reported in various districts.",
+        "He thanked the Union Minister for sending a central team to assess the damage caused by cyclone ‘Arnab’."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Chief Minister sought adequate assistance from the Centre to help the state recover from the impact of the successive cyclones.",
+          "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday."
+        ],
+        "body": [
+          "HM Shah assured him of every possible assistance from the Centre.",
+          "The Union Home Minister said in a post on ‘X’ that NDRF and SDRF teams are already on the ground, helping those affected.",
+          "He stated that the Government of India stands with the people with an unwavering resolve.",
+          "The Home Minister inquired about the impact of Cyclone ‘Murasu’.",
+          "“I assured him that the Central Government will provide all kinds of assistance and support.",
+          "Already, NDRF and SDRF teams are on the ground, undertaking relief measures and standing as a support for the people in the cyclone-affected areas.",
+          "The Government of India stands with the people of Andhra Pradesh with a firm resolve to face any kind of situation,” he said.",
+          "Earlier, Chandrababu Naidu briefed Amit Shah on the situation following Cyclone ‘Arnab’ and the subsequent arrival of Cyclone ‘Murasu’."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Union Home Minister said in a post on ‘X’ that NDRF and SDRF teams are already on the ground, helping those affected.",
+            "source": "The Hans India",
+            "item_id": "83d971a86a0cc5e20175c7ea:article",
+            "composed": false
+          },
+          {
+            "text": "Amaravati: Union Home Minister Amit Shah spoke to Andhra Pradesh Chief Minister N. Chandrababu Naidu over the phone about the impact of Cyclone ‘Murasu’ which crossed the Andhra Pradesh coast early Tuesday.",
+            "source": "The Hans India",
+            "item_id": "83d971a86a0cc5e20175c7ea:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/amaravati/hm-shah-speaks-to-andhra-cm-on-cyclone-murasu-impact-assures-all-help-1138777"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "a13512d789b6e8cf54b218d2",
       "story_id": "a13512d789b6e8cf54b218d2",
       "headline": "Karnataka's Support During Cyclone Murasu Will Never Be Forgotten: AP CM Naidu",
@@ -837,10 +1061,10 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 45, score 72 -> URGENT"
+        "dominant event 72, stack 44, score 72 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "karnataka",
@@ -926,7 +1150,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (kerala)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -1048,7 +1272,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -1172,7 +1396,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1261,7 +1485,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -1355,6 +1579,132 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "915ed69e9214cc2184d8e953",
+      "story_id": "915ed69e9214cc2184d8e953",
+      "headline": "'Govt, private sectors must come forward to make Delhi a medical hub’: CM Gupta",
+      "title": "'Govt, private sectors must come forward to make Delhi a medical hub’: CM Gupta",
+      "summary": "Recalling the hospital's contribution during the COVID-19 pandemic, the Chief Minister said its doctors, employees and management continued to discharge their responsibilities during the difficult period.",
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/govt-private-sectors-must-come-forward-to-make-delhi-a-medical-hub-cm-gupta-1138832",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "health",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 59.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T07:17:39+00:00",
+      "published_at": "2026-11-03T07:17:39+00:00",
+      "effective_at": "2026-11-03T07:17:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'pandemic'",
+        "category: health (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'pandemic' in summary weight 49.2",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.1h ago) +8",
+        "category: health (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 20.4, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "Recalling the hospital's contribution during the COVID-19 pandemic, the Chief Minister said its doctors, employees and management continued to discharge their responsibilities during the difficult period.",
+        "New Delhi: Delhi Chief Minister, Rekha Gupta, on Tuesday said that both the government and private sectors would have to work together to transform the national Capital into a medical hub, while stressing the need to strengthen healthcare infrastructure and ensure quality treatment facilities for everyone.",
+        "The Chief Minister was speaking after inaugurating an IVF centre at a private hospital in Delhi.",
+        "She said the government was working towards ensuring that anyone coming to the national Capital could access proper medical treatment and healthcare facilities.",
+        "\"If we truly want to make Delhi a medical hub, both the government and private sectors will have to come forward.",
+        "According to WHO parameters, at least five medical beds should be available for every 1,000 people.",
+        "Our country is still behind this benchmark, and I believe Delhi currently has around two beds per 1,000 people,\" Gupta said.",
+        "She emphasised that achieving the target of five beds per 1,000 people would require coordinated efforts from both sectors.",
+        "\"To make it reach up to five beds, both sectors are required to work together.",
+        "If anybody comes to Delhi, they must get proper treatment and health facilities.",
+        "This is the Prime Minister's dream, and the Delhi government is working in that direction,\" she added.",
+        "Praising the contribution of the private hospital to healthcare services in the national Capital, Gupta said the institution had served lakhs of people and saved countless lives over the years."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Recalling the hospital's contribution during the COVID-19 pandemic, the Chief Minister said its doctors, employees and management continued to discharge their responsibilities during the difficult period.",
+          "New Delhi: Delhi Chief Minister, Rekha Gupta, on Tuesday said that both the government and private sectors would have to work together to transform the national Capital into a medical hub, while stressing the need to strengthen healthcare infrastructure and ensure quality treatment facilities for everyone."
+        ],
+        "body": [
+          "The Chief Minister was speaking after inaugurating an IVF centre at a private hospital in Delhi.",
+          "She said the government was working towards ensuring that anyone coming to the national Capital could access proper medical treatment and healthcare facilities.",
+          "\"If we truly want to make Delhi a medical hub, both the government and private sectors will have to come forward.",
+          "According to WHO parameters, at least five medical beds should be available for every 1,000 people.",
+          "Our country is still behind this benchmark, and I believe Delhi currently has around two beds per 1,000 people,\" Gupta said.",
+          "She emphasised that achieving the target of five beds per 1,000 people would require coordinated efforts from both sectors.",
+          "\"To make it reach up to five beds, both sectors are required to work together.",
+          "If anybody comes to Delhi, they must get proper treatment and health facilities."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "1,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Our country is still behind this benchmark, and I believe Delhi currently has around two beds per 1,000 people,\" Gupta said.",
+            "source": "The Hans India",
+            "item_id": "915ed69e9214cc2184d8e953:article",
+            "composed": false
+          },
+          {
+            "text": "New Delhi: Delhi Chief Minister, Rekha Gupta, on Tuesday said that both the government and private sectors would have to work together to transform the national Capital into a medical hub, while stressing the need to strengthen healthcare infrastructure and ensure quality treatment facilities for everyone.",
+            "source": "The Hans India",
+            "item_id": "915ed69e9214cc2184d8e953:article",
+            "composed": false
+          },
+          {
+            "text": "The Chief Minister was speaking after inaugurating an IVF centre at a private hospital in Delhi.",
+            "source": "The Hans India",
+            "item_id": "915ed69e9214cc2184d8e953:article",
+            "composed": false
+          },
+          {
+            "text": "Recalling the hospital's contribution during the COVID-19 pandemic, the Chief Minister said its doctors, employees and management continued to discharge their responsibilities during the difficult period.",
+            "source": "The Hans India",
+            "item_id": "915ed69e9214cc2184d8e953:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/cities/new-delhi/govt-private-sectors-must-come-forward-to-make-delhi-a-medical-hub-cm-gupta-1138832"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "131afc580448aa101c4fbd2b",
       "story_id": "131afc580448aa101c4fbd2b",
       "headline": "India, Israel vote against UNGA draft on regional conventional arms control",
@@ -1407,7 +1757,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -1528,7 +1878,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
@@ -1662,7 +2012,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -1784,7 +2134,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1914,7 +2264,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -2034,7 +2384,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2140,7 +2490,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 28.8, stack 45, score 45 -> HIGH"
@@ -2408,7 +2758,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2531,7 +2881,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2646,7 +2996,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2760,7 +3110,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'world cup' in title weight 42",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 28, score 42 -> HIGH"
@@ -2882,7 +3232,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -2947,183 +3297,6 @@
         "source": "Greater Kashmir",
         "corroborating": [],
         "url": "https://www.greaterkashmir.com/world/nsa-doval-holds-talks-with-vietnamese-ministers-discusses-ways-to-boost-security-cooperation-12778481"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "64285fb825566b6f77d3f785",
-      "story_id": "64285fb825566b6f77d3f785",
-      "headline": "When political opportunism compromises national interest",
-      "title": "When political opportunism compromises national interest",
-      "summary": "There are moments in national politics when political differences must give way to larger national responsibilities. The controversy surrounding the Special Intensive Revision (SIR) of electoral rolls is one such moment. Unfortunately, the INDIA alliance appears more interested in converting an administrative exercise into a political confrontation than in examining the larger implications of electoral integrity for India's security and sovereignty. The issue is not merely about the correction of voter lists. It concerns who is entitled to participate in India's electoral democracy, whether foreign nationals can manipulate identity systems, and whether political opposition should come at the cost of strengthening institutions that protect the country. The opposition's campaign against SIR raises an uncomfortable question: why is an exercise intended to establish the authenticity of electoral registrations being portrayed as an attack on democracy? More importantly, who benefits when public confidence in India's electoral institutions is systematically weakened? POLITICAL NARRATIVES AND THE INTERESTS OF HOSTILE FORCES India's adversaries have long attempted to exploit domestic political disagreements to advance their propaganda. Pakistan, in particular, has repeatedly used political controversies in India to question the legitimacy of its democratic institutions and project an exaggerated picture of instability. Every political party has the right to criticise the government and demand accountability from constitutional institutions. But political leaders also have a responsibility to ensure that their allegations are supported by evidence and do not become convenient material for hostile propaganda. The INDIA alliance may have its political reasons for opposing SIR, but it cannot ignore the consequences of its campaign. When allegations of electoral manipulation are repeatedly projected as established facts without the necessary adjudication, they risk strengthening narratives propagated by forces that have consistently sought to discredit India. There is no established evidence of coordination between the INDIA alliance and anti-India forces. Nevertheless, the political consequences of weakening public confidence in democratic institutions deserve serious consideration. National interest cannot be subordinated to the compulsions of opposition politics. J&K: A SECURITY CHALLENGE THAT CANNOT BE IGNORED The SIR debate has a particularly important dimension in Jammu and Kashmir. The Union Territory has faced decades of cross-border terrorism, infiltration and attempts to disturb its social and demographic stability. In this environment, the presence of undocumented foreign nationals is not simply a matter of population management. It has implications for internal security and the integrity of government records. The settlement of Rohingya and Bangladeshi nationals in Jammu, Samba, Kathua and other areas has repeatedly raised questions about the effectiveness of immigration monitoring and the verification of identity documents. The concern becomes more serious when such settlements are reported in proximity to sensitive border areas. Security agencies must establish the identity and legal status of these individuals, investigate the circumstances of their entry and determine whether any organised network has facilitated their settlement. The issue must not be approached through religious or ethnic generalisations. Rohingyas and Bangladeshis cannot collectively be branded as security threats. Individual responsibility must be established through evidence. However, illegal immigration, forged documentation and unlawful activities cannot be overlooked merely because the issue is politically sensitive. WHEN FOREIGN NATIONALS ENTER THE IDENTITY SYSTEM One of the most serious concerns is the reported procurement of Indian identity documents by foreign nationals. Aadhaar cards, ration cards and other administrative documents do not confer Indian citizenship. Yet their alleged misuse can create opportunities for foreign nationals to establish a misleading identity and potentially enter databases for which citizenship is a necessary qualification. The episode involving a Pakistani national deported from Jammu and Kashmir in 2025 is instructive. He reportedly claimed that he had obtained Indian identity documents and voted during his stay in Uri. The local administration ordered an investigation and an FIR was registered to examine the allegations. This incident must be investigated on its merits. It does not establish widespread illegal voting by foreign nationals, but it demonstrates the seriousness of the vulnerability. If a foreign national can allegedly enter an electoral database through fraudulent documentation, the failure is not merely administrative. It is a matter of national security. The authorities must identify the individuals who facilitated such registrations, investigate any involvement of officials or intermediaries and establish whether similar cases exist elsewhere. No political consideration should protect anyone found responsible. WHY IS THE OPPOSITION UNCOMFORTABLE WITH THIS QUESTION? The INDIA alliance must clarify its position on the larger issue. Does it support strict verification of citizenship and electoral eligibility? Does it support action against fraudulent registrations? Does it believe that foreign nationals should never be permitted to influence India's electoral process? These are not ideological questions. They are basic requirements of a sovereign democratic state. The opposition cannot selectively invoke the rights of voters while avoiding the question of whether those registered are legally entitled to vote. Equally, the government cannot use national security as a justification for arbitrary exclusion. Both genuine voter protection and the prevention of fraudulent registrations must be pursued together. Jammu and Kashmir deserves particular attention because of its geographical and security circumstances. Border districts cannot be allowed to become vulnerable to networks engaged in illegal immigration, identity fraud or other unlawful activities. The administration must undertake a comprehensive exercise to verify suspicious documents, investigate possible electoral registrations by non-citizens and identify the networks responsible for any established violations. NATIONAL SECURITY MUST RISE ABOVE POLITICAL CALCULATIONS India's democratic institutions cannot function effectively in an atmosphere where every reform is presented as a conspiracy and every administrative correction is portrayed as political victimisation. The INDIA alliance should distinguish between legitimate criticism and a campaign that risks eroding public confidence in the country's institutions. If there are genuine cases of wrongful deletion, they must be addressed. If there are fraudulent entries, they must be investigated. Neither issue should become a political shield for the other. For Jammu and Kashmir, the challenge is even more consequential. The region has paid an enormous price for terrorism and cross-border interference. It cannot afford complacency in identifying foreign nationals or allowing fraudulent documents to circulate within official systems. The country needs a coordinated response involving security agencies, police, civil administration and electoral authorities. Those responsible for facilitating illegal entry or fraudulent documentation must face legal consequences, irrespective of their political connections or influence. Ultimately, the controversy should remind every political party that national sovereignty and democratic integrity are inseparable. A genuine Indian citizen's vote must be protected, while a foreign national must never be permitted to acquire electoral rights through deception. The INDIA alliance may continue to challenge the government's decisions, but it must also answer for the wider implications of its political narrative. Opposition is an essential feature of democracy; undermining confidence in the country's institutions without substantiated evidence is a different matter. India's electoral democracy must remain exclusively in the hands of its eligible citizens. No political alliance, administrative failure or hostile external interest should be allowed to compromise that principle. Altaf Thakur, Spokesperson BJP J&K.",
-      "url": "https://www.greaterkashmir.com/opinion/when-political-opportunism-compromises-national-interest-12777970",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "national-politics",
-      "secondary_categories": [
-        "defence-security",
-        "crime-public-safety",
-        "courts-law",
-        "economy-finance"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 42.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-03T01:51:33+00:00",
-      "published_at": "2026-11-03T01:51:33+00:00",
-      "effective_at": "2026-11-03T01:51:33+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "rumour: 'reportedly' in summary (penalty 3, overridden)",
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'national security'",
-        "major: significance event 'national security'",
-        "major: significance event 'NATIONAL SECURITY'",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "major override dropped penalties: rumour",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'national security' in summary weight 42",
-        "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.3h ago) +4",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 42, stack 16.4, score 42 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "jammu and kashmir",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "There are moments in national politics when political differences must give way to larger national responsibilities.",
-          "The controversy surrounding the Special Intensive Revision (SIR) of electoral rolls is one such moment."
-        ],
-        "body": [
-          "Unfortunately, the INDIA alliance appears more interested in converting an administrative exercise into a political confrontation than in examining the larger implications of electoral integrity for India's security and sovereignty.",
-          "The issue is not merely about the correction of voter lists.",
-          "It concerns who is entitled to participate in India's electoral democracy, whether foreign nationals can manipulate identity systems, and whether political opposition should come at the cost of strengthening institutions that protect the country.",
-          "The opposition's campaign against SIR raises an uncomfortable question: why is an exercise intended to establish the authenticity of electoral registrations being portrayed as an attack on democracy?",
-          "More importantly, who benefits when public confidence in India's electoral institutions is systematically weakened?",
-          "POLITICAL NARRATIVES AND THE INTERESTS OF HOSTILE FORCES India's adversaries have long attempted to exploit domestic political disagreements to advance their propaganda.",
-          "Pakistan, in particular, has repeatedly used political controversies in India to question the legitimacy of its democratic institutions and project an exaggerated picture of instability.",
-          "Every political party has the right to criticise the government and demand accountability from constitutional institutions.",
-          "But political leaders also have a responsibility to ensure that their allegations are supported by evidence and do not become convenient material for hostile propaganda.",
-          "The INDIA alliance may have its political reasons for opposing SIR, but it cannot ignore the consequences of its campaign.",
-          "When allegations of electoral manipulation are repeatedly projected as established facts without the necessary adjudication, they risk strengthening narratives propagated by forces that have consistently sought to discredit India.",
-          "There is no established evidence of coordination between the INDIA alliance and anti-India forces.",
-          "Nevertheless, the political consequences of weakening public confidence in democratic institutions deserve serious consideration.",
-          "National interest cannot be subordinated to the compulsions of opposition politics.",
-          "J&K: A SECURITY CHALLENGE.",
-          "THAT CANNOT BE IGNORED The SIR debate has a particularly important dimension in Jammu and Kashmir.",
-          "The Union Territory has faced decades of cross-border terrorism, infiltration and attempts to disturb its social and demographic stability.",
-          "In this environment, the presence of undocumented foreign nationals is not simply a matter of population management.",
-          "It has implications for internal security and the integrity of government records.",
-          "The settlement of Rohingya and Bangladeshi nationals in Jammu, Samba, Kathua and other areas has repeatedly raised questions about the effectiveness of immigration monitoring and the verification of identity documents.",
-          "The concern becomes more serious when such settlements are reported in proximity to sensitive border areas.",
-          "Security agencies must establish the identity and legal status of these individuals, investigate the circumstances of their entry and determine whether any organised network has facilitated their settlement.",
-          "The issue must not be approached through religious or ethnic generalisations.",
-          "Rohingyas and Bangladeshis cannot collectively be branded as security threats.",
-          "Individual responsibility must be established through evidence.",
-          "However, illegal immigration, forged documentation and unlawful activities cannot be overlooked merely because the issue is politically sensitive.",
-          "WHEN FOREIGN NATIONALS ENTER.",
-          "THE IDENTITY SYSTEM One of the most serious concerns is the reported procurement of Indian identity documents by foreign nationals.",
-          "Aadhaar cards, ration cards and other administrative documents do not confer Indian citizenship.",
-          "Yet their alleged misuse can create opportunities for foreign nationals to establish a misleading identity and potentially enter databases for which citizenship is a necessary qualification.",
-          "The episode involving a Pakistani national deported from Jammu and Kashmir in 2025 is instructive.",
-          "He reportedly claimed that he had obtained Indian identity documents and voted during his stay in Uri.",
-          "The local administration ordered an investigation and an FIR was registered to examine the allegations.",
-          "This incident must be investigated on its merits.",
-          "It does not establish widespread illegal voting by foreign nationals, but it demonstrates the seriousness of the vulnerability.",
-          "If a foreign national can allegedly enter an electoral database through fraudulent documentation, the failure is not merely administrative.",
-          "It is a matter of national security.",
-          "The authorities must identify the individuals who facilitated such registrations, investigate any involvement of officials or intermediaries and establish whether similar cases exist elsewhere.",
-          "No political consideration should protect anyone found responsible.",
-          "WHY IS THE OPPOSITION UNCOMFORTABLE WITH THIS QUESTION?",
-          "The INDIA alliance must clarify its position on the larger issue.",
-          "Does it support strict verification of citizenship and electoral eligibility?",
-          "Does it support action against fraudulent registrations?",
-          "Does it believe that foreign nationals should never be permitted to influence India's electoral process?",
-          "These are not ideological questions.",
-          "They are basic requirements of a sovereign democratic state.",
-          "The opposition cannot selectively invoke the rights of voters while avoiding the question of whether those registered are legally entitled to vote.",
-          "Equally, the government cannot use national security as a justification for arbitrary exclusion.",
-          "Both genuine voter protection and the prevention of fraudulent registrations must be pursued together.",
-          "Jammu and Kashmir deserves particular attention because of its geographical and security circumstances.",
-          "Border districts cannot be allowed to become vulnerable to networks engaged in illegal immigration, identity fraud or other unlawful activities.",
-          "The administration must undertake a comprehensive exercise to verify suspicious documents, investigate possible electoral registrations by non-citizens and identify the networks responsible for any established violations.",
-          "NATIONAL SECURITY MUST RISE ABOVE POLITICAL CALCULATIONS India's democratic institutions cannot function effectively in an atmosphere where every reform is presented as a conspiracy and every administrative correction is portrayed as political victimisation.",
-          "The INDIA alliance should distinguish between legitimate criticism and a campaign that risks eroding public confidence in the country's institutions.",
-          "If there are genuine cases of wrongful deletion, they must be addressed.",
-          "If there are fraudulent entries, they must be investigated.",
-          "Neither issue should become a political shield for the other.",
-          "For Jammu and Kashmir, the challenge is even more consequential.",
-          "The region has paid an enormous price for terrorism and cross-border interference.",
-          "It cannot afford complacency in identifying foreign nationals or allowing fraudulent documents to circulate within official systems.",
-          "The country needs a coordinated response involving security agencies, police, civil administration and electoral authorities.",
-          "Those responsible for facilitating illegal entry or fraudulent documentation must face legal consequences, irrespective of their political connections or influence.",
-          "Ultimately, the controversy should remind every political party that national sovereignty and democratic integrity are inseparable.",
-          "A genuine Indian citizen's vote must be protected, while a foreign national must never be permitted to acquire electoral rights through deception.",
-          "The INDIA alliance may continue to challenge the government's decisions, but it must also answer for the wider implications of its political narrative.",
-          "Opposition is an essential feature of democracy; undermining confidence in the country's institutions without substantiated evidence is a different matter.",
-          "India's electoral democracy must remain exclusively in the hands of its eligible citizens.",
-          "No political alliance, administrative failure or hostile external interest should be allowed to compromise that principle.",
-          "Altaf Thakur, Spokesperson BJP J&K."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India's"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The episode involving a Pakistani national deported from Jammu and Kashmir in 2025 is instructive.",
-            "source": "Greater Kashmir",
-            "item_id": "64285fb825566b6f77d3f785",
-            "composed": false
-          },
-          {
-            "text": "He reportedly claimed that he had obtained Indian identity documents and voted during his stay in Uri.",
-            "source": "Greater Kashmir",
-            "item_id": "64285fb825566b6f77d3f785",
-            "composed": false
-          },
-          {
-            "text": "Pakistan, in particular, has repeatedly used political controversies in India to question the legitimacy of its democratic institutions and project an exaggerated picture of instability.",
-            "source": "Greater Kashmir",
-            "item_id": "64285fb825566b6f77d3f785",
-            "composed": false
-          },
-          {
-            "text": "The INDIA alliance may have its political reasons for opposing SIR, but it cannot ignore the consequences of its campaign.",
-            "source": "Greater Kashmir",
-            "item_id": "64285fb825566b6f77d3f785",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/opinion/when-political-opportunism-compromises-national-interest-12777970"
       },
       "group_size": 1,
       "label": "📰 NEWS",
