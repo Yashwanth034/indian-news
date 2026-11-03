@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T05:52:05.227112+00:00",
-  "count": 23,
+  "generated_at": "2026-11-03T06:02:22.966432+00:00",
+  "count": 26,
   "stories": [
     {
-      "event_id": "e62b45dae99da935cc242f34",
-      "story_id": "e62b45dae99da935cc242f34",
+      "event_id": "94671c18d6e7a4fdfcc261de",
+      "story_id": "94671c18d6e7a4fdfcc261de",
       "headline": "Moderate earthquake hits J&K's Kishtwar",
       "title": "Moderate earthquake hits J&K's Kishtwar",
       "summary": "Srinagar, Nov 03: An earthquake measuring 3.1 on the Richter scale struck Kishtwar district of Jammu and Kashmir at 10:56 pm on Monday. According to National Center for Seismology (NCS) , the earthquake occurred at a shallow depth of 5 kilometres, with its epicentre located at latitude 33.292° North and longitude 75.893° East in Kishtwar district. Further details regarding any possible damage or casualties are awaited.",
@@ -14,16 +14,23 @@
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 89.4,
       "priority_score": 82.0,
       "priority_level": "IMMEDIATE",
       "max_delay_minutes": null,
-      "event_time": "2026-11-03T02:55:52+00:00",
+      "event_time": "2026-11-03T02:31:00+00:00",
       "published_at": "2026-11-03T02:55:52+00:00",
       "effective_at": "2026-11-03T02:55:52+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "kashmir-observer"
+          ],
+          "count": 1
+        },
         "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
@@ -36,6 +43,7 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'earthquake'",
@@ -44,11 +52,12 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -74,13 +83,13 @@
           {
             "text": "Srinagar, Nov 03: An earthquake measuring 3.1 on the Richter scale struck Kishtwar district of Jammu and Kashmir at 10:56 pm on Monday.",
             "source": "Greater Kashmir",
-            "item_id": "e62b45dae99da935cc242f34",
+            "item_id": "94671c18d6e7a4fdfcc261de",
             "composed": false
           },
           {
             "text": "According to National Center for Seismology (NCS), the earthquake occurred at a shallow depth of 5 kilometres, with its epicentre located at latitude 33.292° North and longitude 75.893° East in Kishtwar district.",
             "source": "Greater Kashmir",
-            "item_id": "e62b45dae99da935cc242f34",
+            "item_id": "94671c18d6e7a4fdfcc261de",
             "composed": false
           }
         ],
@@ -151,7 +160,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE"
@@ -302,7 +311,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 38, score 72 -> URGENT"
@@ -364,6 +373,120 @@
       "enrichment": "article"
     },
     {
+      "event_id": "d55b6e5439a76c5ec64088f2",
+      "story_id": "d55b6e5439a76c5ec64088f2",
+      "headline": "Cyclone Murasu: A.P. CM calls for efforts to prevent loss of lives",
+      "title": "Cyclone Murasu: A.P. CM calls for efforts to prevent loss of lives",
+      "summary": "In a teleconference with senior officials in the State administration, and District Collectors, Mr. Naidu advised the people to follow government advisories till the cyclone withers away",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-ap-cm-calls-for-efforts-to-prevent-loss-of-lives/article71659542.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 95.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T05:53:32+00:00",
+      "published_at": "2026-11-03T05:53:32+00:00",
+      "effective_at": "2026-11-03T05:53:32+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Keeping a tab of the cyclone Murasu, Chief Minister N. Chandrababu Naidu instructed the officials to do all that is possible to prevent loss of lives, and to focus on drinking water and power supply and road connectivity.",
+        "In a teleconference with senior officials in the State administration, and District Collectors, Mr. Naidu advised the people to follow government advisories till the cyclone withers away.",
+        "Officials told the CM that the cyclone made landfall near Ongole, where it uprooted several trees, and there was widespread waterlogging in agricultural fields in Nellore district.",
+        "They further apprised the CM that power supply was disrupted at many places in Palnadu, Markapur and Guntur districts, and restoration works were in progress.",
+        "Mr. Naidu said the cyclone effect was likely to subside fully by November 3 night and that the next four to five hours were crucial as more rains were expected in Bapatla, Guntur, Prakasam, Palnadu, Krishna, NTR, Eluru and West Godavari districts.",
+        "He ordered that restoration works be taken up on a war - footing in Prakasam and Bapatla districts which were badly affected, while encouraging the efforts being made to mitigate the cyclone impact."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Keeping a tab of the cyclone Murasu, Chief Minister N. Chandrababu Naidu instructed the officials to do all that is possible to prevent loss of lives, and to focus on drinking water and power supply and road connectivity.",
+          "In a teleconference with senior officials in the State administration, and District Collectors, Mr. Naidu advised the people to follow government advisories till the cyclone withers away."
+        ],
+        "body": [
+          "Officials told the CM that the cyclone made landfall near Ongole, where it uprooted several trees, and there was widespread waterlogging in agricultural fields in Nellore district.",
+          "They further apprised the CM that power supply was disrupted at many places in Palnadu, Markapur and Guntur districts, and restoration works were in progress.",
+          "Mr. Naidu said the cyclone effect was likely to subside fully by November 3 night and that the next four to five hours were crucial as more rains were expected in Bapatla, Guntur, Prakasam, Palnadu, Krishna, NTR, Eluru and West Godavari districts.",
+          "He ordered that restoration works be taken up on a war - footing in Prakasam and Bapatla districts which were badly affected, while encouraging the efforts being made to mitigate the cyclone impact."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ongole"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Officials told the CM that the cyclone made landfall near Ongole, where it uprooted several trees, and there was widespread waterlogging in agricultural fields in Nellore district.",
+            "source": "The Hindu",
+            "item_id": "d55b6e5439a76c5ec64088f2:article",
+            "composed": false
+          },
+          {
+            "text": "Mr. Naidu said the cyclone effect was likely to subside fully by November 3 night and that the next four to five hours were crucial as more rains were expected in Bapatla, Guntur, Prakasam, Palnadu, Krishna, NTR, Eluru and West Godavari districts.",
+            "source": "The Hindu",
+            "item_id": "d55b6e5439a76c5ec64088f2:article",
+            "composed": false
+          },
+          {
+            "text": "He ordered that restoration works be taken up on a war - footing in Prakasam and Bapatla districts which were badly affected, while encouraging the efforts being made to mitigate the cyclone impact.",
+            "source": "The Hindu",
+            "item_id": "d55b6e5439a76c5ec64088f2:article",
+            "composed": false
+          },
+          {
+            "text": "They further apprised the CM that power supply was disrupted at many places in Palnadu, Markapur and Guntur districts, and restoration works were in progress.",
+            "source": "The Hindu",
+            "item_id": "d55b6e5439a76c5ec64088f2:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-ap-cm-calls-for-efforts-to-prevent-loss-of-lives/article71659542.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "9d6195ee842dafb4304d53c8",
       "story_id": "9d6195ee842dafb4304d53c8",
       "headline": "Cyclone Murasu leaves Bapatla Town waterlogged",
@@ -410,7 +533,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -500,7 +623,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -591,7 +714,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -713,7 +836,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (karnataka)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -802,7 +925,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (kerala)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -924,10 +1047,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 30, score 72 -> URGENT"
+        "dominant event 72, stack 26, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -1048,7 +1171,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -1137,7 +1260,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 20, score 64 -> URGENT"
@@ -1282,7 +1405,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 28.8, score 49.2 -> HIGH"
@@ -1403,7 +1526,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
@@ -1537,7 +1660,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 25.2, score 49.2 -> HIGH"
@@ -1659,7 +1782,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -1789,7 +1912,7 @@
         "event term: 'gdp' in title weight 38",
         "event term: 'gdp' in summary weight 22.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -1909,7 +2032,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -2015,7 +2138,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 28.8, stack 45, score 45 -> HIGH"
@@ -2283,7 +2406,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2406,7 +2529,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2521,7 +2644,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2595,6 +2718,239 @@
       "enrichment": "article"
     },
     {
+      "event_id": "3724c5ada1f802fa1a19ee29",
+      "story_id": "3724c5ada1f802fa1a19ee29",
+      "headline": "India vs Pakistan in Men’s ODI World Cup 2027 attract nearly 84 lakh ticket applications",
+      "title": "India vs Pakistan in Men’s ODI World Cup 2027 attract nearly 84 lakh ticket applications",
+      "summary": "India and Pakistan will face off on October 10 at Johannesburg’s Wanderers stadium in South Africa — a venue that has a capacity of just 34,000 spectators.",
+      "url": "https://sportstar.thehindu.com/cricket/india-vs-pakistan-odi-world-cup-2027-men-84-lakh-ticket-requests-ind-v-pak-men-wc-south-africa/article71659595.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "sports",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T05:58:42+00:00",
+      "published_at": "2026-11-03T05:58:42+00:00",
+      "effective_at": "2026-11-03T05:58:42+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: sports (importance 0.6, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'world cup' in title weight 42",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: sports (importance 0.6) +0",
+        "geo: national",
+        "dominant event 42, stack 28, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The India vs Pakistan match in the Men’s ODI World Cup 2027 has attracted nearly 84 lakh ticket applications, the organisers said on Monday.",
+        "The ODI World Cup returns to Africa after 23 years and will be co-hosted by South Africa, Zimbabwe and Namibia.",
+        "India and Pakistan will face off on October 10 at Johannesburg’s Wanderers stadium, which has a capacity of just 34,000 spectators.",
+        "The same venue will host the final on November 21 – a match that trails close behind with almost eight million ticket requests.",
+        "The fixture between India and Pakistan has been one of the most highly anticipated matches in the cricket calendar and the most lucrative financially.",
+        "However, India has dominated the fixture, winning in their last nine meetings.",
+        "Nearly three million fans from 193 countries have applied for tickets in the ballot window, which remains open until November 21.",
+        "More than 120 million total ticket requests have been received for the 14-team showcase that runs October 2 to November 21."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The India vs Pakistan match in the Men’s ODI World Cup 2027 has attracted nearly 84 lakh ticket applications, the organisers said on Monday.",
+          "The ODI World Cup returns to Africa after 23 years and will be co-hosted by South Africa, Zimbabwe and Namibia."
+        ],
+        "body": [
+          "India and Pakistan will face off on October 10 at Johannesburg’s Wanderers stadium, which has a capacity of just 34,000 spectators.",
+          "The same venue will host the final on November 21 – a match that trails close behind with almost eight million ticket requests.",
+          "The fixture between India and Pakistan has been one of the most highly anticipated matches in the cricket calendar and the most lucrative financially.",
+          "However, India has dominated the fixture, winning in their last nine meetings.",
+          "Nearly three million fans from 193 countries have applied for tickets in the ballot window, which remains open until November 21.",
+          "More than 120 million total ticket requests have been received for the 14-team showcase that runs October 2 to November 21.",
+          "India and Pakistan will face off on October 10 at Johannesburg’s Wanderers stadium in South Africa — a venue that has a capacity of just 34,000 spectators."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Johannesburg’s Wanderers"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "India and Pakistan will face off on October 10 at Johannesburg’s Wanderers stadium, which has a capacity of just 34,000 spectators.",
+            "source": "Sportstar",
+            "item_id": "3724c5ada1f802fa1a19ee29:article",
+            "composed": false
+          },
+          {
+            "text": "The India vs Pakistan match in the Men’s ODI World Cup 2027 has attracted nearly 84 lakh ticket applications, the organisers said on Monday.",
+            "source": "Sportstar",
+            "item_id": "3724c5ada1f802fa1a19ee29:article",
+            "composed": false
+          },
+          {
+            "text": "More than 120 million total ticket requests have been received for the 14-team showcase that runs October 2 to November 21.",
+            "source": "Sportstar",
+            "item_id": "3724c5ada1f802fa1a19ee29:article",
+            "composed": false
+          },
+          {
+            "text": "Nearly three million fans from 193 countries have applied for tickets in the ballot window, which remains open until November 21.",
+            "source": "Sportstar",
+            "item_id": "3724c5ada1f802fa1a19ee29:article",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/cricket/india-vs-pakistan-odi-world-cup-2027-men-84-lakh-ticket-requests-ind-v-pak-men-wc-south-africa/article71659595.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "933d9bc528434a74504333e5",
+      "story_id": "933d9bc528434a74504333e5",
+      "headline": "NSA Doval holds talks with Vietnamese ministers, discusses ways to boost security cooperation",
+      "title": "NSA Doval holds talks with Vietnamese ministers, discusses ways to boost security cooperation",
+      "summary": "Hanoi, Nov 03: National Security Adviser Ajit Doval on Monday held separate high-level talks with Vietnam's ministers of public security and foreign affairs on strengthening bilateral cooperation in security and other areas and agreed to further enhance the existing \"multifaceted\" ties. Doval held delegation-level talks with Minister of Public Security General Luong Tam Quang on ongoing cooperation in the security domain, reflecting the \"deep and mutually trusted civilisational partnership between India and Vietnam,\" the Indian Embassy in Hanoi said in a post on X. \"Both sides discussed ongoing cooperation in the security domain and agreed to further enhance the existing multifaceted ties. They also exchanged views on regional and global developments,\" the post said. Separately, Doval also met Vietnam's Foreign Affairs Minister Le Hoai Trung, during which the two sides discussed ways to commemorate the 55th anniversary of the establishment of diplomatic ties between the two countries. \"2027 marks the 55th anniversary of establishment of diplomatic relations between India and Viet Nam. Both sides discussed ways to commemorate this historic milestone in the spirit of India-Vietnam Enhanced Comprehensive Strategic Partnership,\" the Indian embassy said in a post. Earlier, Doval met Vietnam's Deputy Prime Minister and Minister of National Defence General Phan Van Giang and reviewed ongoing bilateral defence cooperation and agreed to further deepen engagement in the sector. \"National Security Advisor of India Ajit Doval met today with General Phan Van Giang, Member of the Politburo of the Central Committee of the Communist Party of Vietnam, Deputy Prime Minister and Minister of National Defence of Vietnam,\" the embassy said. \"Both sides reviewed the status of ongoing bilateral defence cooperation and agreed to continue further strengthening activities in this field,\" it said. Doval also visited the historic Quan Su Pagoda in Hanoi on Monday. \"He was received by Most Venerable Thich Thanh Nhieu, Standing Vice President and the Chief Abbot of the Pagoda, and Most Venerable Thich Duc Thien, Vice President and Secretary General of the National Viet Nam Buddhist Sangha (VBS),\" the Indian embassy said, highlighting Buddhism as a \"civilisational bridge\" between the people of India and Vietnam. Doval arrived in Vietnam on Sunday on an official visit. His visit is in line with the India-Vietnam Enhanced Comprehensive Strategic Partnership. During Vietnamese President To Lam's visit to India in May, India and Vietnam elevated their ties to an enhanced comprehensive strategic partnership and set a USD 25 billion annual trade target by 2030. Security cooperation remains a key pillar of this upgraded partnership.",
+      "url": "https://www.greaterkashmir.com/world/nsa-doval-holds-talks-with-vietnamese-ministers-discusses-ways-to-boost-security-cooperation-12778481",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [
+        "national-politics",
+        "international-affairs",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 90.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-03T05:55:30+00:00",
+      "published_at": "2026-11-03T05:55:30+00:00",
+      "effective_at": "2026-11-03T05:55:30+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'National Security'",
+        "major: significance event 'National Security'",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'national security' in summary weight 42",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 42, stack 28.8, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Hanoi, Nov 03: National Security Adviser Ajit Doval on Monday held separate high-level talks with Vietnam's ministers of public security and foreign affairs on strengthening bilateral cooperation in security and other areas and agreed to further enhance the existing \"multifaceted\" ties.",
+          "Doval held delegation-level talks with Minister of Public Security General Luong Tam Quang on ongoing cooperation in the security domain, reflecting the \"deep and mutually trusted civilisational partnership between India and Vietnam,\" the Indian Embassy in Hanoi said in a post on X. \"Both sides discussed ongoing cooperation in the security domain and agreed to further enhance the existing multifaceted ties."
+        ],
+        "body": [
+          "They also exchanged views on regional and global developments,\" the post said.",
+          "Separately, Doval also met Vietnam's Foreign Affairs Minister Le Hoai Trung, during which the two sides discussed ways to commemorate the 55th anniversary of the establishment of diplomatic ties between the two countries.",
+          "\"2027 marks the 55th anniversary of establishment of diplomatic relations between India and Viet Nam.",
+          "Both sides discussed ways to commemorate this historic milestone in the spirit of India-Vietnam Enhanced Comprehensive Strategic Partnership,\" the Indian embassy said in a post.",
+          "Earlier, Doval met Vietnam's Deputy Prime Minister and Minister of National Defence General Phan Van Giang and reviewed ongoing bilateral defence cooperation and agreed to further deepen engagement in the sector.",
+          "\"National Security Advisor of India Ajit Doval met today with General Phan Van Giang, Member of the Politburo of the Central Committee of the Communist Party of Vietnam, Deputy Prime Minister and Minister of National Defence of Vietnam,\" the embassy said.",
+          "\"Both sides reviewed the status of ongoing bilateral defence cooperation and agreed to continue further strengthening activities in this field,\" it said.",
+          "Doval also visited the historic Quan Su Pagoda in Hanoi on Monday.",
+          "\"He was received by Most Venerable Thich Thanh Nhieu, Standing Vice President and the Chief Abbot of the Pagoda, and Most Venerable Thich Duc Thien, Vice President and Secretary General of the National Viet Nam Buddhist Sangha (VBS),\" the Indian embassy said, highlighting Buddhism as a \"civilisational bridge\" between the people of India and Vietnam.",
+          "Doval arrived in Vietnam on Sunday on an official visit.",
+          "His visit is in line with the India-Vietnam Enhanced Comprehensive Strategic Partnership.",
+          "During Vietnamese President To Lam's visit to India in May, India and Vietnam elevated their ties to an enhanced comprehensive strategic partnership and set a USD 25 billion annual trade target by 2030.",
+          "Security cooperation remains a key pillar of this upgraded partnership."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hanoi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "During Vietnamese President To Lam's visit to India in May, India and Vietnam elevated their ties to an enhanced comprehensive strategic partnership and set a USD 25 billion annual trade target by 2030.",
+            "source": "Greater Kashmir",
+            "item_id": "933d9bc528434a74504333e5",
+            "composed": false
+          },
+          {
+            "text": "Doval also visited the historic Quan Su Pagoda in Hanoi on Monday.",
+            "source": "Greater Kashmir",
+            "item_id": "933d9bc528434a74504333e5",
+            "composed": false
+          },
+          {
+            "text": "Doval arrived in Vietnam on Sunday on an official visit.",
+            "source": "Greater Kashmir",
+            "item_id": "933d9bc528434a74504333e5",
+            "composed": false
+          },
+          {
+            "text": "Hanoi, Nov 03: National Security Adviser Ajit Doval on Monday held separate high-level talks with Vietnam's ministers of public security and foreign affairs on strengthening bilateral cooperation in security and other areas and agreed to further enhance the existing \"multifaceted\" ties.",
+            "source": "Greater Kashmir",
+            "item_id": "933d9bc528434a74504333e5",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/world/nsa-doval-holds-talks-with-vietnamese-ministers-discusses-ways-to-boost-security-cooperation-12778481"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "64285fb825566b6f77d3f785",
       "story_id": "64285fb825566b6f77d3f785",
       "headline": "When political opportunism compromises national interest",
@@ -2645,7 +3001,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 16.4, score 42 -> HIGH"
@@ -2820,7 +3176,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 38, score 38 -> HIGH"
