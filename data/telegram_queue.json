@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:32:44.840869+00:00",
+  "generated_at": "2026-11-04T18:41:49.154129+00:00",
   "count": 19,
   "stories": [
     {
@@ -52,7 +52,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -143,7 +143,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 18, score 72 -> URGENT"
@@ -248,7 +248,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -335,7 +335,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -445,7 +445,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -563,7 +563,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 58, stack 31.6, score 58 -> HIGH"
@@ -637,40 +637,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "22bc0746e1fcadc8b32703a2",
-      "story_id": "22bc0746e1fcadc8b32703a2",
-      "headline": "SC may ask who decided to conduct the SIR in Bihar, when and why? The answer",
-      "title": "SC may ask who decided to conduct the SIR in Bihar, when and why? The answer",
-      "summary": "The question remains unanswered, even the counter affidavit filed by the Election Commission in the Supreme Court",
-      "url": "https://www.nationalheraldindia.com/politics/sir-electoral-roll-revision-who-ordered-how-many-foreigners-detected",
-      "source": "National Herald",
+      "event_id": "fadaa53ebb3e8736dc28791e",
+      "story_id": "fadaa53ebb3e8736dc28791e",
+      "headline": "SC seeks Centre, EC response on law giving blanket, lifelong immunity to CEC, Election Commissioners",
+      "title": "SC seeks Centre, EC response on law giving blanket, lifelong immunity to CEC, Election Commissioners",
+      "summary": "The court listed the petitions on December 18",
+      "url": "https://www.thehindubusinessline.com/news/sc-seeks-centre-ec-response-on-law-giving-blanket-lifelong-immunity-to-cec-election-commissioners/article71666384.ece",
+      "source": "The Hindu BusinessLine",
       "primary_source": false,
-      "tier": 2,
+      "tier": 3,
       "category": "courts-law",
       "secondary_categories": [
         "national-politics"
       ],
-      "confidence": "high",
-      "score": 69.0,
-      "priority_score": 45.0,
+      "confidence": "medium",
+      "score": 70.0,
+      "priority_score": 58.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-04T08:33:01+00:00",
-      "published_at": "2026-11-04T15:10:36+00:00",
-      "effective_at": "2026-11-04T15:10:36.586000+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-11-04T14:28:44+00:00",
+      "published_at": "2026-11-04T14:28:44+00:00",
+      "effective_at": "2026-11-04T14:28:44+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "national-herald": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "national-herald"
+            "businessline"
           ],
           "count": 1
         }
@@ -679,85 +672,83 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'election' in summary weight 34.8",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: state scope (bihar)",
-        "recency: fresh (10.0h ago) +4",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
-        "geo: national significance (local/state event)",
-        "dominant event 34.8, stack 45, score 45 -> HIGH"
+        "geo: national",
+        "dominant event 58, stack 26.4, score 58 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "bihar",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
-        "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
-        "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered.",
-        "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
-        "While the first 25 pages of the affidavit are said to deal with constitutional provisions, the Election Commission's mandate and the authority it wields, the remaining 225 pages reportedly comprise copies of supporting documents annexed to it.",
-        "Yet the all-important file noting ordering the SIR, bearing the signatures of all three election commissioners, is reportedly missing.",
-        "The question was raised, it is worth recalling, by transparency activist Anjali Bhardwaj in an RTI application.",
-        "The ECI's response was that the decision had not been taken by the Commission and, therefore, there were no files or minutes of meetings to share.",
-        "Media reports did claim that the ECI had commissioned a survey which found a large number of 'foreign' nationals on Bihar's electoral rolls.",
-        "The Commission, however, has not shared the survey report with anyone.",
-        "It is not in the public domain, and details of the survey, its methodology and the agency that conducted it remain unknown.",
-        "The question of who ordered the SIR has assumed renewed significance because the Supreme Court is scheduled to hear arguments later this month and consider the contents of the affidavits and the counter-affidavit submitted by the ECI.",
-        "Petitioners are hoping that the Supreme Court will unravel the mystery and direct the ECI to produce the minutes of deliberations, a copy of the alleged survey report and the official file noting bearing the signatures of all three election commissioners."
+        "The Supreme Court on Wednesday sought a response from the Union government on petitions challenging the constitutionality of a specific provision in the Chief Election Commissioner-Election Commissioners’ appointment law which grants them blanket, lifelong immunity from any legal action or criminal prosecution, not only during the official tenure but even after retirement.",
+        "A Bench headed by Chief Justice of India Surya Kant issued notice to both the Centre and the Election Commission of India on petitions filed by RJD MP Manoj Jha, represented by Tanya Srivastava and advocate Arun Kumar Agrawal, represented by advocate Neha Rathi, challenging Section 16 of The Chief Election Commissioner And Other Election Commissioners (Appointment, Conditions Of Service And Term Of Office) Act, 2023.",
+        "The court listed the petitions on December 18.",
+        "The petitions said the Section was unconstitutional, went beyond the ambit of powers given to the Election Commission of India (EC) and, significantly, violated the Basic Structure of the Constitution.",
+        "“Section 16 of the Act bars jurisdiction of Constitutional courts and interferes with the power of judicial review, held to be a part of the Basic Structure of Constitution,” the petitions submitted.",
+        "Rathi submitted that a plain reading of the provision showed a bar on any court to entertain or continue any civil or criminal proceedings against “any person who is or was a Chief Election Commissioner or an Election Commissioner for any act, thing or word, committed, done or spoken by him when, or in the course of acting or purporting to act in the discharge of his official duty or function”.",
+        "“A bare perusal of the text [of Section 16] discloses the width of the protection granted in so far as it bars all kinds of prosecution including corruption, forgery and other serious offences.",
+        "It provides for lifelong immunity and covers acts that may be outside lawful authority,” Agrawal’s plea contended.",
+        "Section 16 further barred proceedings instituted under defamation law, contempt law and other civil or criminal liabilities for lifetime without distinguishing between mala fide and bona fide acts, all under guise of preventing frivolous complaints against the CEC.",
+        "“The object to ensure independence by taking such sweeping measures fails the test of proportionality.",
+        "That every person has a right to a remedy and to a fair investigation, and access to justice is a facet of Articles 14 and 21,” the petitioners highlighted.",
+        "They said that until the enactment of the 2023 Act, the Parliament had not granted any blanket immunity to Election Commissioners."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
-          "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered."
+          "The Supreme Court on Wednesday sought a response from the Union government on petitions challenging the constitutionality of a specific provision in the Chief Election Commissioner-Election Commissioners’ appointment law which grants them blanket, lifelong immunity from any legal action or criminal prosecution, not only during the official tenure but even after retirement.",
+          "A Bench headed by Chief Justice of India Surya Kant issued notice to both the Centre and the Election Commission of India on petitions filed by RJD MP Manoj Jha, represented by Tanya Srivastava and advocate Arun Kumar Agrawal, represented by advocate Neha Rathi, challenging Section 16 of The Chief Election Commissioner And Other Election Commissioners (Appointment, Conditions Of Service And Term Of Office) Act, 2023."
         ],
         "body": [
-          "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
-          "While the first 25 pages of the affidavit are said to deal with constitutional provisions, the Election Commission's mandate and the authority it wields, the remaining 225 pages reportedly comprise copies of supporting documents annexed to it.",
-          "Yet the all-important file noting ordering the SIR, bearing the signatures of all three election commissioners, is reportedly missing.",
-          "The question was raised, it is worth recalling, by transparency activist Anjali Bhardwaj in an RTI application.",
-          "The ECI's response was that the decision had not been taken by the Commission and, therefore, there were no files or minutes of meetings to share.",
-          "Media reports did claim that the ECI had commissioned a survey which found a large number of 'foreign' nationals on Bihar's electoral rolls.",
-          "The Commission, however, has not shared the survey report with anyone.",
-          "It is not in the public domain, and details of the survey, its methodology and the agency that conducted it remain unknown."
+          "The court listed the petitions on December 18.",
+          "The petitions said the Section was unconstitutional, went beyond the ambit of powers given to the Election Commission of India (EC) and, significantly, violated the Basic Structure of the Constitution.",
+          "“Section 16 of the Act bars jurisdiction of Constitutional courts and interferes with the power of judicial review, held to be a part of the Basic Structure of Constitution,” the petitions submitted.",
+          "Rathi submitted that a plain reading of the provision showed a bar on any court to entertain or continue any civil or criminal proceedings against “any person who is or was a Chief Election Commissioner or an Election Commissioner for any act, thing or word, committed, done or spoken by him when, or in the course of acting or purporting to act in the discharge of his official duty or function”.",
+          "“A bare perusal of the text [of Section 16] discloses the width of the protection granted in so far as it bars all kinds of prosecution including corruption, forgery and other serious offences.",
+          "It provides for lifelong immunity and covers acts that may be outside lawful authority,” Agrawal’s plea contended.",
+          "Section 16 further barred proceedings instituted under defamation law, contempt law and other civil or criminal liabilities for lifetime without distinguishing between mala fide and bona fide acts, all under guise of preventing frivolous complaints against the CEC.",
+          "“The object to ensure independence by taking such sweeping measures fails the test of proportionality."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "June"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered.",
-            "source": "National Herald",
-            "item_id": "22bc0746e1fcadc8b32703a2:article",
+            "text": "The court listed the petitions on December 18.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fadaa53ebb3e8736dc28791e:article",
             "composed": false
           },
           {
-            "text": "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
-            "source": "National Herald",
-            "item_id": "22bc0746e1fcadc8b32703a2:article",
+            "text": "A Bench headed by Chief Justice of India Surya Kant issued notice to both the Centre and the Election Commission of India on petitions filed by RJD MP Manoj Jha, represented by Tanya Srivastava and advocate Arun Kumar Agrawal, represented by advocate Neha Rathi, challenging Section 16 of The Chief Election Commissioner And Other Election Commissioners (Appointment, Conditions Of Service And Term Of Office) Act, 2023.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fadaa53ebb3e8736dc28791e:article",
             "composed": false
           },
           {
-            "text": "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
-            "source": "National Herald",
-            "item_id": "22bc0746e1fcadc8b32703a2:article",
+            "text": "The Supreme Court on Wednesday sought a response from the Union government on petitions challenging the constitutionality of a specific provision in the Chief Election Commissioner-Election Commissioners’ appointment law which grants them blanket, lifelong immunity from any legal action or criminal prosecution, not only during the official tenure but even after retirement.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fadaa53ebb3e8736dc28791e:article",
+            "composed": false
+          },
+          {
+            "text": "It provides for lifelong immunity and covers acts that may be outside lawful authority,” Agrawal’s plea contended.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "fadaa53ebb3e8736dc28791e:article",
             "composed": false
           }
         ],
-        "source": "National Herald",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/politics/sir-electoral-roll-revision-who-ordered-how-many-foreigners-detected"
+        "url": "https://www.thehindubusinessline.com/news/sc-seeks-centre-ec-response-on-law-giving-blanket-lifelong-immunity-to-cec-election-commissioners/article71666384.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -805,7 +796,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -924,7 +915,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1036,7 +1027,7 @@
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1162,7 +1153,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'appointed' in title weight 36",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1271,7 +1262,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1287,7 +1278,7 @@
         "More Than 2 Children Have Lost Relevance Due To India's Falling Fertility Rate: Supreme CourtDelhi SIR...",
         "an affordable subscription scheme!!!"
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Links to the reports of NovemberSuspended Sanskrit University Students Move Supreme Court.",
@@ -1326,7 +1317,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-4-2026-557375"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1371,7 +1362,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1483,7 +1474,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "geo: national",
         "dominant event 44, stack 24, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1608,7 +1599,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1733,7 +1724,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1801,123 +1792,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "d86c4db2ee79fee7687cb463",
-      "story_id": "d86c4db2ee79fee7687cb463",
-      "headline": "'Encroachments Removed' : BMC Tells Supreme Court After Order Halting Mumbai Municipal Commissioner's Salary",
-      "title": "'Encroachments Removed' : BMC Tells Supreme Court After Order Halting Mumbai Municipal Commissioner's Salary",
-      "summary": "",
-      "url": "https://www.livelaw.in/top-stories/encroachments-removed-bmc-tells-supreme-court-after-order-halting-mumbai-municipal-commissioners-salary-557336",
-      "source": "LiveLaw",
-      "primary_source": false,
-      "tier": 3,
-      "category": "courts-law",
-      "secondary_categories": [
-        "jobs-employment"
-      ],
-      "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-04T12:33:38+00:00",
-      "published_at": "2026-11-04T12:33:38+00:00",
-      "effective_at": "2026-11-04T12:33:38+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "live-law": {
-          "kind": "independent",
-          "source_ids": [
-            "live-law"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (live-law) +1",
-        "source: specialist (live-law) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "maharashtra",
-      "national_significance": true,
-      "article_sentences": [
-        "The Brihanmumbai Municipal Corporation (BMC) informed the Supreme Court on Wednesday that all encroachments on land earmarked for a BEST bus stand in Borivali, Mumbai have been removed, a day after the Court restrained the civic body and the Maharashtra government from releasing Municipal Commissioner Ashwini Bhide's salary over non-compliance with its directions.",
-        "Senior Advocate RP Bhatt for BMC mentioned the matter before a bench of Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V Mohana and submitted that the structures have been demolished.",
-        "“They have implemented and all structures have been erased now,” Bhatt submitted.",
-        "The CJI thanked Bhatt, remarking, “Thank you.",
-        "Without your intervention it could not have occurred!”",
-        "Bhatt also apologised to the bench for having defended the BMC's conduct during Tuesday's hearing, when the Court issued a contempt notice to the Municipal Commissioner for prima facie wilful disobedience of its earlier directions.",
-        "“Personally I really owe an apology.",
-        "I was defending them but now they have realised that this was wrong, my lords.",
-        "I personally owe an apology to your lordships.",
-        "I will file an affidavit of compliance in the course of today or tomorrow,” Bhatt said.",
-        "The Court had on Tuesday rejected the BMC's application seeking additional time to pass eviction orders against occupants of the encroached land, imposed costs of Rs 5 lakh on the civic body and restrained the release of the Commissioner's salary until compliance with its directions.",
-        "During Tuesday's hearing, the Supreme Court strongly criticised the BMC for repeatedly failing to comply with its time-bound directions issued on November 13, 2025 and July 28, 2026, for removal of encroachments from the land."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Brihanmumbai Municipal Corporation (BMC) informed the Supreme Court on Wednesday that all encroachments on land earmarked for a BEST bus stand in Borivali, Mumbai have been removed, a day after the Court restrained the civic body and the Maharashtra government from releasing Municipal Commissioner Ashwini Bhide's salary over non-compliance with its directions.",
-          "Senior Advocate RP Bhatt for BMC mentioned the matter before a bench of Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V Mohana and submitted that the structures have been demolished."
-        ],
-        "body": [
-          "“They have implemented and all structures have been erased now,” Bhatt submitted.",
-          "The CJI thanked Bhatt, remarking, “Thank you.",
-          "Without your intervention it could not have occurred!” Bhatt also apologised to the bench for having defended the BMC's conduct during Tuesday's hearing, when the Court issued a contempt notice to the Municipal Commissioner for prima facie wilful disobedience of its earlier directions.",
-          "“Personally I really owe an apology.",
-          "I was defending them but now they have realised that this was wrong, my lords.",
-          "I personally owe an apology to your lordships.",
-          "I will file an affidavit of compliance in the course of today or tomorrow,” Bhatt said.",
-          "The Court had on Tuesday rejected the BMC's application seeking additional time to pass eviction orders against occupants of the encroached land, imposed costs of Rs 5 lakh on the civic body and restrained the release of the Commissioner's salary until compliance with its directions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Borivali"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Brihanmumbai Municipal Corporation (BMC) informed the Supreme Court on Wednesday that all encroachments on land earmarked for a BEST bus stand in Borivali, Mumbai have been removed, a day after the Court restrained the civic body and the Maharashtra government from releasing Municipal Commissioner Ashwini Bhide's salary over non-compliance with its directions.",
-            "source": "LiveLaw",
-            "item_id": "d86c4db2ee79fee7687cb463:article",
-            "composed": false
-          },
-          {
-            "text": "The Court had on Tuesday rejected the BMC's application seeking additional time to pass eviction orders against occupants of the encroached land, imposed costs of Rs 5 lakh on the civic body and restrained the release of the Commissioner's salary until compliance with its directions.",
-            "source": "LiveLaw",
-            "item_id": "d86c4db2ee79fee7687cb463:article",
-            "composed": false
-          },
-          {
-            "text": "I will file an affidavit of compliance in the course of today or tomorrow,” Bhatt said.",
-            "source": "LiveLaw",
-            "item_id": "d86c4db2ee79fee7687cb463:article",
-            "composed": false
-          }
-        ],
-        "source": "LiveLaw",
-        "corroborating": [],
-        "url": "https://www.livelaw.in/top-stories/encroachments-removed-bmc-tells-supreme-court-after-order-halting-mumbai-municipal-commissioners-salary-557336"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "307acc367701daa2c2e6971d",
       "story_id": "307acc367701daa2c2e6971d",
       "headline": "Iran exempts ships from India and 3 other nations from transit restrictions in Strait of Hormuz",
@@ -1972,7 +1846,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 27.2, score 42 -> HIGH"
@@ -2042,6 +1916,124 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "1fbd94118460fbbe06e5ed37",
+      "story_id": "1fbd94118460fbbe06e5ed37",
+      "headline": "SC may ask who decided to conduct the SIR in Bihar, when and why? The answer",
+      "title": "SC may ask who decided to conduct the SIR in Bihar, when and why? The answer",
+      "summary": "The question remains unanswered, even the counter affidavit filed by the Election Commission in the Supreme Court",
+      "url": "https://www.nationalheraldindia.com/politics/sir-electoral-roll-revision-who-ordered-how-many-foreigners-detected",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 69.0,
+      "priority_score": 40.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-04T15:10:36+00:00",
+      "published_at": "2026-11-04T15:10:36+00:00",
+      "effective_at": "2026-11-04T15:10:36.586000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in summary weight 34.8",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: state scope (bihar)",
+        "recency: fresh (3.5h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": true,
+      "article_sentences": [
+        "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
+        "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered.",
+        "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
+        "While the first 25 pages of the affidavit are said to deal with constitutional provisions, the Election Commission's mandate and the authority it wields, the remaining 225 pages reportedly comprise copies of supporting documents annexed to it.",
+        "Yet the all-important file noting ordering the SIR, bearing the signatures of all three election commissioners, is reportedly missing.",
+        "The question was raised, it is worth recalling, by transparency activist Anjali Bhardwaj in an RTI application.",
+        "The ECI's response was that the decision had not been taken by the Commission and, therefore, there were no files or minutes of meetings to share.",
+        "Media reports did claim that the ECI had commissioned a survey which found a large number of 'foreign' nationals on Bihar's electoral rolls.",
+        "The Commission, however, has not shared the survey report with anyone.",
+        "It is not in the public domain, and details of the survey, its methodology and the agency that conducted it remain unknown.",
+        "The question of who ordered the SIR has assumed renewed significance because the Supreme Court is scheduled to hear arguments later this month and consider the contents of the affidavits and the counter-affidavit submitted by the ECI.",
+        "Petitioners are hoping that the Supreme Court will unravel the mystery and direct the ECI to produce the minutes of deliberations, a copy of the alleged survey report and the official file noting bearing the signatures of all three election commissioners."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
+          "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered."
+        ],
+        "body": [
+          "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
+          "While the first 25 pages of the affidavit are said to deal with constitutional provisions, the Election Commission's mandate and the authority it wields, the remaining 225 pages reportedly comprise copies of supporting documents annexed to it.",
+          "Yet the all-important file noting ordering the SIR, bearing the signatures of all three election commissioners, is reportedly missing.",
+          "The question was raised, it is worth recalling, by transparency activist Anjali Bhardwaj in an RTI application.",
+          "The ECI's response was that the decision had not been taken by the Commission and, therefore, there were no files or minutes of meetings to share.",
+          "Media reports did claim that the ECI had commissioned a survey which found a large number of 'foreign' nationals on Bihar's electoral rolls.",
+          "The Commission, however, has not shared the survey report with anyone.",
+          "It is not in the public domain, and details of the survey, its methodology and the agency that conducted it remain unknown."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "June"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "While the Election Commission of India announced the exercise without prior warning on 24 June 2025 and launched it in Bihar at just 24 hours' notice, beginning the very next day, the question remains unanswered.",
+            "source": "National Herald",
+            "item_id": "1fbd94118460fbbe06e5ed37:article",
+            "composed": false
+          },
+          {
+            "text": "Who took the decision in June 2025 to conduct a special intensive revision (SIR) of the electoral rolls?",
+            "source": "National Herald",
+            "item_id": "1fbd94118460fbbe06e5ed37:article",
+            "composed": false
+          },
+          {
+            "text": "Not even the 250-page counter-affidavit filed by the Election Commission of India (ECI) in the Supreme Court in response to petitions challenging the exercise provides an answer.",
+            "source": "National Herald",
+            "item_id": "1fbd94118460fbbe06e5ed37:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/politics/sir-electoral-roll-revision-who-ordered-how-many-foreigners-detected"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "c502a05359c7c2465efeeb1f",
       "story_id": "c502a05359c7c2465efeeb1f",
       "headline": "Div Com Kashmir reviews progress of Jhelum Water Transport Project",
@@ -2085,7 +2077,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 18, score 38.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
