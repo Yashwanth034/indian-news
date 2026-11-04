@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T02:51:44.772818+00:00",
-  "count": 11,
+  "generated_at": "2026-11-04T03:02:27.560480+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "2f01a38c448276fe09d8e874",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -180,7 +180,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'exit poll' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -288,7 +288,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -348,6 +348,96 @@
       "enrichment": "article"
     },
     {
+      "event_id": "6ada09308d79d9301e63b0ae",
+      "story_id": "6ada09308d79d9301e63b0ae",
+      "headline": "Indian-origin Aruna Miller wins re-election as Maryland lieutenant governor",
+      "title": "Indian-origin Aruna Miller wins re-election as Maryland lieutenant governor",
+      "summary": "In a significant electoral event, Aruna Miller was re-elected as Maryland's lieutenant governor in the 2026 midterm elections, partnering with Governor Wes Moore. She successfully outmaneuvered Republican Rob Krop, enhancing Indian-American representation in government. Miller campaigned vigorously on vital issues such as federal immigration and economic policies, calling for voter engagement to challenge the Trump administration’s actions, while also pledging to advocate for immigrant community initiatives in Maryland.",
+      "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/indian-origin-aruna-miller-wins-re-election-as-maryland-lieutenant-governor/articleshow/135519260.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [
+        "courts-law"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-04T02:44:08+00:00",
+      "published_at": "2026-11-04T02:44:08+00:00",
+      "effective_at": "2026-11-04T02:44:08+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 26.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "In a significant electoral event, Aruna Miller was re-elected as Maryland's lieutenant governor in the 2026 midterm elections, partnering with Governor Wes Moore.",
+          "She successfully outmaneuvered Republican Rob Krop, enhancing Indian-American representation in government."
+        ],
+        "body": [
+          "Miller campaigned vigorously on vital issues such as federal immigration and economic policies, calling for voter engagement to challenge the Trump administration’s actions, while also pledging to advocate for immigrant community initiatives in Maryland."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Maryland"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Miller campaigned vigorously on vital issues such as federal immigration and economic policies, calling for voter engagement to challenge the Trump administration’s actions, while also pledging to advocate for immigrant community initiatives in Maryland.",
+            "source": "Times of India",
+            "item_id": "6ada09308d79d9301e63b0ae",
+            "composed": false
+          },
+          {
+            "text": "In a significant electoral event, Aruna Miller was re-elected as Maryland's lieutenant governor in the 2026 midterm elections, partnering with Governor Wes Moore.",
+            "source": "Times of India",
+            "item_id": "6ada09308d79d9301e63b0ae",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/indian-origin-aruna-miller-wins-re-election-as-maryland-lieutenant-governor/articleshow/135519260.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "f738c11554f52b94f95ed936",
       "story_id": "f738c11554f52b94f95ed936",
       "headline": "Gold, silver rebound: US election impact, India's demand and buying trends explained",
@@ -393,7 +483,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'monetary policy' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -517,7 +607,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -638,7 +728,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (assam)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -737,7 +827,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -859,7 +949,7 @@
         "scale: national scope",
         "scale: multi-state (4 states)",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1021,7 +1111,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: state scope (maharashtra)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1130,7 +1220,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1248,7 +1338,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
