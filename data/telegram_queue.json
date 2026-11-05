@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T02:12:05.655865+00:00",
-  "count": 6,
+  "generated_at": "2026-11-05T02:21:48.271058+00:00",
+  "count": 7,
   "stories": [
     {
       "event_id": "5a2f1b2c555cd8931ef1bd8d",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -170,7 +170,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -275,7 +275,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -487,7 +487,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -594,7 +594,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -662,29 +662,48 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f6d9d41fadf3c7b0b944dff2",
-      "story_id": "f6d9d41fadf3c7b0b944dff2",
-      "headline": "US sanctions Indian couple, 9 firms over alleged Iran oil trade fraud",
-      "title": "US sanctions Indian couple, 9 firms over alleged Iran oil trade fraud",
+      "event_id": "2326b497b5a92289f72b8d2a",
+      "story_id": "2326b497b5a92289f72b8d2a",
+      "headline": "Cabinet nod for Rs 2,814 cr plan to support critical mineral processing",
+      "title": "Cabinet nod for Rs 2,814 cr plan to support critical mineral processing",
       "summary": "",
-      "url": "https://timesofindia.indiatimes.com/world/us/vast-criminal-network-us-sanctions-indian-couple-firms-over-maritime-fraud-aiding-irans-oil-trade/articleshow/135551108.cms",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/cab-nod-for-rs-2814-cr-plan-to-support-critical-mineral-processing/articleshow/135553957.cms",
       "source": "Times of India",
       "primary_source": false,
       "tier": 2,
-      "category": "crime-public-safety",
-      "secondary_categories": [
-        "international-affairs"
-      ],
-      "confidence": "medium",
-      "score": 65.0,
+      "category": null,
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 60.0,
       "priority_score": 40.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-04T20:18:54+00:00",
-      "published_at": "2026-11-04T20:18:54+00:00",
-      "effective_at": "2026-11-04T20:18:54+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-11-04T12:49:37+00:00",
+      "published_at": "2026-11-04T22:28:55+00:00",
+      "effective_at": "2026-11-04T22:28:55+00:00",
+      "independent_source_groups": 4,
       "source_groups": {
+        "yourstory": {
+          "kind": "independent",
+          "source_ids": [
+            "yourstory"
+          ],
+          "count": 1
+        },
+        "business-standard": {
+          "kind": "independent",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        },
+        "inc42": {
+          "kind": "independent",
+          "source_ids": [
+            "inc42"
+          ],
+          "count": 1
+        },
         "indiatimes": {
           "kind": "independent",
           "source_ids": [
@@ -696,79 +715,193 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: urgent category",
-        "category: crime-public-safety (importance 1.1, urgent=True)",
+        "major: corroborated by 4 independent sources",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (times-of-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'sanctions' in title weight 40",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 4 independent source groups -> high confidence",
+        "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: crime-public-safety (importance 1.1) +2.4",
+        "recency: fresh (13.5h ago) +4",
         "geo: national",
-        "dominant event 40, stack 22.4, score 40 -> HIGH"
+        "dominant event 40, stack 26, score 40 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
       ],
       "geo_scope": "national",
       "state": null,
-      "national_significance": true,
+      "national_significance": false,
       "article_sentences": [
-        "The United States on Wednesday imposed sanctions on an India-based businessman, his wife and several Indian companies for allegedly helping Iran evade international restrictions on its oil trade through a network involved in maritime fraud.",
-        "The US Treasury Department identified Suniel Kumar Sharma and his wife, Jaspreet Preeti Shahid, as the alleged operators of a \"vast criminal network\" that provided false flags and fraudulent maritime certifications to vessels transporting Iranian petroleum.",
-        "The network allegedly helped sanctioned ships, including those operating on behalf of Iran's military and its proxies, continue their operations.",
-        "The sanctions were announced under the Trump administration's \"Operation Economic Outcast\", which aims to cut off Iran's ability to generate revenue through oil exports and other economic activities.",
-        "The US Treasury also named Indian nationals Ashwani Kumar Dhiman and Ishwinder Singh, who it said served as directors of businesses associated with Sharma's network, along with nine India-based entities linked to the network.",
-        "In a post on X, the US Treasury said Sharma and Shahid had supported Iran's shadow fleet through a web of maritime fraud.",
-        "It alleged that their operations provided false flags and certifications to sanctioned vessels involved in transporting Iranian petroleum, including ships working for Iran's military and its proxies.",
-        "According to the US Treasury, Sharma and Shahid operated the network from Chandigarh and allegedly established fraudulent maritime registries by impersonating the authorities of several countries.",
-        "AFP reported that the couple's operations involved creating websites that falsely claimed to provide ship registration, flagging, seafarer training and vessel classification services on behalf of different countries without their authorisation.",
-        "The alleged operations date back to 2014, when the couple reportedly attempted to impersonate the maritime flagging authority of the Caribbean nation of Dominica.",
-        "In 2023, Sharma established Singapore-based Eswatini Maritime Affairs and International Ship Registry PTE Ltd.",
-        "Despite being publicly disowned by Eswatini authorities, the organisation allegedly continued providing registration services to vessels transporting Iranian oil."
+        "NEW DELHI: Cabinet Wednesday approved a Rs 2,814 crore scheme to boost domestic processing of lithium and nickel, reducing dependence on imports of critical minerals.",
+        "PM Narendra Modi said India cannot afford to depend on other countries for processing such materials.",
+        "The scheme would encourage domestic investment and secure future supplies, he wrote on X.",
+        "Union ministry of mines said processing of critical minerals was concentrated in a few global locations.",
+        "The scheme aims to develop domestic processing capabilities, promote value addition and reduce import dependence by supporting processing facilities.",
+        "It targets processing lithium and nickel ores or intermediary products into high-purity compounds.",
+        "Cobalt is expected to be recovered as a by-product of nickel production.",
+        "To be implemented until FY31, the scheme will provide a capital subsidy of 30% of eligible investment for four plants: two lithium processing plants with minimum capacity of 30,000 tonnes each and two nickel plants with minimum capacity of 50,000 tonnes each.",
+        "The support will be capped at Rs 500 crore per lithium beneficiary and Rs 900 crore per nickel beneficiary.",
+        "Viksit Bharat Initiative for Statistical Transformation, analytics and research (VISTAR) scheme the scheme with an outlay of Rs 4,371 crore will be spread over five years from 2026-27 to 2030-31."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The United States on Wednesday imposed sanctions on an India-based businessman, his wife and several Indian companies for allegedly helping Iran evade international restrictions on its oil trade through a network involved in maritime fraud.",
-          "The US Treasury Department identified Suniel Kumar Sharma and his wife, Jaspreet Preeti Shahid, as the alleged operators of a \"vast criminal network\" that provided false flags and fraudulent maritime certifications to vessels transporting Iranian petroleum."
+          "NEW DELHI: Cabinet Wednesday approved a Rs 2,814 crore scheme to boost domestic processing of lithium and nickel, reducing dependence on imports of critical minerals.",
+          "PM Narendra Modi said India cannot afford to depend on other countries for processing such materials."
         ],
         "body": [
-          "The network allegedly helped sanctioned ships, including those operating on behalf of Iran's military and its proxies, continue their operations.",
-          "The sanctions were announced under the Trump administration's \"Operation Economic Outcast\", which aims to cut off Iran's ability to generate revenue through oil exports and other economic activities.",
-          "The US Treasury also named Indian nationals Ashwani Kumar Dhiman and Ishwinder Singh, who it said served as directors of businesses associated with Sharma's network, along with nine India-based entities linked to the network.",
-          "In a post on X, the US Treasury said Sharma and Shahid had supported Iran's shadow fleet through a web of maritime fraud.",
-          "It alleged that their operations provided false flags and certifications to sanctioned vessels involved in transporting Iranian petroleum, including ships working for Iran's military and its proxies.",
-          "According to the US Treasury, Sharma and Shahid operated the network from Chandigarh and allegedly established fraudulent maritime registries by impersonating the authorities of several countries.",
-          "AFP reported that the couple's operations involved creating websites that falsely claimed to provide ship registration, flagging, seafarer training and vessel classification services on behalf of different countries without their authorisation.",
-          "The alleged operations date back to 2014, when the couple reportedly attempted to impersonate the maritime flagging authority of the Caribbean nation of Dominica."
+          "The scheme would encourage domestic investment and secure future supplies, he wrote on X. Union ministry of mines said processing of critical minerals was concentrated in a few global locations.",
+          "The scheme aims to develop domestic processing capabilities, promote value addition and reduce import dependence by supporting processing facilities.",
+          "It targets processing lithium and nickel ores or intermediary products into high-purity compounds.",
+          "To be implemented until FY31, the scheme will provide a capital subsidy of 30% of eligible investment for four plants: two lithium processing plants with minimum capacity of 30,000 tonnes each and two nickel plants with minimum capacity of 50,000 tonnes each.",
+          "The support will be capped at Rs 500 crore per lithium beneficiary and Rs 900 crore per nickel beneficiary.",
+          "Viksit Bharat Initiative for Statistical Transformation, analytics and research (VISTAR) scheme the scheme with an outlay of Rs 4,371 crore will be spread over five years from 2026-27 to 2030-31."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Rs"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Cobalt is expected to be recovered as a by-product of nickel production."
+          }
+        ],
         "sentences": [
           {
-            "text": "The United States on Wednesday imposed sanctions on an India-based businessman, his wife and several Indian companies for allegedly helping Iran evade international restrictions on its oil trade through a network involved in maritime fraud.",
+            "text": "The support will be capped at Rs 500 crore per lithium beneficiary and Rs 900 crore per nickel beneficiary.",
             "source": "Times of India",
-            "item_id": "f6d9d41fadf3c7b0b944dff2:article",
+            "item_id": "2326b497b5a92289f72b8d2a:article",
             "composed": false
           },
           {
-            "text": "According to the US Treasury, Sharma and Shahid operated the network from Chandigarh and allegedly established fraudulent maritime registries by impersonating the authorities of several countries.",
+            "text": "NEW DELHI: Cabinet Wednesday approved a Rs 2,814 crore scheme to boost domestic processing of lithium and nickel, reducing dependence on imports of critical minerals.",
             "source": "Times of India",
-            "item_id": "f6d9d41fadf3c7b0b944dff2:article",
+            "item_id": "2326b497b5a92289f72b8d2a:article",
             "composed": false
           },
           {
-            "text": "The alleged operations date back to 2014, when the couple reportedly attempted to impersonate the maritime flagging authority of the Caribbean nation of Dominica.",
+            "text": "Viksit Bharat Initiative for Statistical Transformation, analytics and research (VISTAR) scheme the scheme with an outlay of Rs 4,371 crore will be spread over five years from 2026-27 to 2030-31.",
             "source": "Times of India",
-            "item_id": "f6d9d41fadf3c7b0b944dff2:article",
+            "item_id": "2326b497b5a92289f72b8d2a:article",
+            "composed": false
+          },
+          {
+            "text": "To be implemented until FY31, the scheme will provide a capital subsidy of 30% of eligible investment for four plants: two lithium processing plants with minimum capacity of 30,000 tonnes each and two nickel plants with minimum capacity of 50,000 tonnes each.",
+            "source": "Times of India",
+            "item_id": "2326b497b5a92289f72b8d2a:article",
             "composed": false
           }
         ],
         "source": "Times of India",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/world/us/vast-criminal-network-us-sanctions-indian-couple-firms-over-maritime-fraud-aiding-irans-oil-trade/articleshow/135551108.cms"
+        "url": "https://timesofindia.indiatimes.com/business/india-business/cab-nod-for-rs-2814-cr-plan-to-support-critical-mineral-processing/articleshow/135553957.cms"
       },
-      "group_size": 3,
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "8110c9faebc21d27efccfbcb",
+      "story_id": "8110c9faebc21d27efccfbcb",
+      "headline": "US sanctions India-based couple, companies",
+      "title": "US sanctions India-based couple, companies",
+      "summary": "",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "international-affairs",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 65.0,
+      "priority_score": 40.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-05T01:41:13+00:00",
+      "published_at": "2026-11-05T01:41:13+00:00",
+      "effective_at": "2026-11-05T01:41:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: international-affairs (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'sanctions' in title weight 40",
+        "scale: national scope",
+        "recency: breaking (0.7h ago) +8",
+        "category: international-affairs (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 40, stack 30.4, score 40 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Washington: The United States has imposed sanctions on an India-based couple and several associated companies over their alleged involvement in facilitating Iran's shadow fleet through fraudulent maritime registrations and certifications, accusing them of helping sanctioned vessels transport Iranian petroleum and evade international restrictions.",
+        "Announcing the action on Wednesday (local time), US Treasury Secretary Scott Bessent warned that Washington would take action against individuals and entities continuing to support the Iranian regime.",
+        "\"As we have said many times, under Operation Economic Outcast, you are either with us or against us.",
+        "We know where you are, and we will sanction those who continue supporting the Iranian regime, whether by land, sea, or air,\" Bessent said in a post on X.",
+        "In a press release, the US Department of the Treasury identified the targeted individuals as India-based Suniel Kumar Sharma and his spouse, Jaspreet Preeti Shahid.",
+        "It alleged that the couple operated a network providing false flags and maritime certifications to sanctioned vessels transporting Iranian petroleum, including ships operating on behalf of Iran's military and its proxies.",
+        "According to the department, Sharma and Shahid allegedly established fraudulent maritime registries and classification societies by creating websites that purported to offer services on behalf of countries that had not authorised them.",
+        "The Treasury said their activities dated back to at least 2014, when they allegedly attempted to impersonate the maritime flagging authority of the Caribbean nation of Dominica.",
+        "It further alleged that their network provided registration services to vessels transporting Iranian petroleum, enabling them to circumvent international restrictions.",
+        "Several India-based companies associated with the couple have also been designated, including Oceaniek Technologies India and Aryavart Ship Management Private Limited.",
+        "Other entities named include Precept Trends Private Limited, Polynesia Maritime Private Limited, Alexarya Finserv Private Limited, Alexarya Media and Entertainment Private Limited, Viharaboating Private Limited and Aryavart Maritime and Educational Trust.",
+        "The Treasury said the sanctions were imposed under Executive Order 13902, which targets key sectors of the Iranian economy, including petroleum, petrochemicals and aviation."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Washington: The United States has imposed sanctions on an India-based couple and several associated companies over their alleged involvement in facilitating Iran's shadow fleet through fraudulent maritime registrations and certifications, accusing them of helping sanctioned vessels transport Iranian petroleum and evade international restrictions.",
+          "Announcing the action on Wednesday (local time), US Treasury Secretary Scott Bessent warned that Washington would take action against individuals and entities continuing to support the Iranian regime."
+        ],
+        "body": [
+          "\"As we have said many times, under Operation Economic Outcast, you are either with us or against us.",
+          "We know where you are, and we will sanction those who continue supporting the Iranian regime, whether by land, sea, or air,\" Bessent said in a post on X. In a press release, the US Department of the Treasury identified the targeted individuals as India-based Suniel Kumar Sharma and his spouse, Jaspreet Preeti Shahid.",
+          "It alleged that the couple operated a network providing false flags and maritime certifications to sanctioned vessels transporting Iranian petroleum, including ships operating on behalf of Iran's military and its proxies.",
+          "According to the department, Sharma and Shahid allegedly established fraudulent maritime registries and classification societies by creating websites that purported to offer services on behalf of countries that had not authorised them.",
+          "The Treasury said their activities dated back to at least 2014, when they allegedly attempted to impersonate the maritime flagging authority of the Caribbean nation of Dominica.",
+          "It further alleged that their network provided registration services to vessels transporting Iranian petroleum, enabling them to circumvent international restrictions.",
+          "Several India-based companies associated with the couple have also been designated, including Oceaniek Technologies India and Aryavart Ship Management Private Limited.",
+          "Other entities named include Precept Trends Private Limited, Polynesia Maritime Private Limited, Alexarya Finserv Private Limited, Alexarya Media and Entertainment Private Limited, Viharaboating Private Limited and Aryavart Maritime and Educational Trust."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Announcing the action on Wednesday (local time), US Treasury Secretary Scott Bessent warned that Washington would take action against individuals and entities continuing to support the Iranian regime.",
+            "source": "The Economic Times",
+            "item_id": "8110c9faebc21d27efccfbcb:article",
+            "composed": false
+          },
+          {
+            "text": "Washington: The United States has imposed sanctions on an India-based couple and several associated companies over their alleged involvement in facilitating Iran's shadow fleet through fraudulent maritime registrations and certifications, accusing them of helping sanctioned vessels transport Iranian petroleum and evade international restrictions.",
+            "source": "The Economic Times",
+            "item_id": "8110c9faebc21d27efccfbcb:article",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms"
+      },
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "article"
     }
