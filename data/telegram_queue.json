@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T04:02:12.339488+00:00",
-  "count": 13,
+  "generated_at": "2026-11-05T04:11:54.515709+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "c7d67f5be766066076628a5b",
@@ -53,7 +53,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'takeover' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -61,7 +61,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Iranian leaders hailed the US midterm election outcome as a rejection of President Donald Trump’s war stance, while warning Washington against ignoring voters’ message.",
@@ -94,7 +94,7 @@
         "url": "https://telanganatoday.com/iran-hails-us-midterm-election-results-as-rejection-of-trumps-war-policy"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -139,7 +139,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -236,7 +236,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -298,31 +298,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "b9cbd38072b5aba7e492b9ca",
-      "story_id": "b9cbd38072b5aba7e492b9ca",
-      "headline": "Cyclone Murasu: Polls postponed in four Andhra mandals due to heavy rains",
-      "title": "Cyclone Murasu: Polls postponed in four Andhra mandals due to heavy rains",
-      "summary": "",
-      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-polls-postponed-in-four-andhra-mandals-due-to-heavy-rains",
-      "source": "The News Minute",
+      "event_id": "3da310ac47338a5a4d684bd8",
+      "story_id": "3da310ac47338a5a4d684bd8",
+      "headline": "US Midterm Election Results 2026 impact: What Trump's loss mean for Sensex, Nifty, gold, silver rates? Experts' views",
+      "title": "US Midterm Election Results 2026 impact: What Trump's loss mean for Sensex, Nifty, gold, silver rates? Experts' views",
+      "summary": "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant. A softer US dollar, cooling Treasury yields and lower crude oil prices could support FII inflows, ease inflationary pressures and improve corporate profitability.",
+      "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html",
+      "source": "Mint - Markets",
       "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "national-politics"
+      ],
       "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 72.0,
+      "score": 72.0,
+      "priority_score": 64.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-05T03:28:27+00:00",
-      "published_at": "2026-11-05T03:28:27+00:00",
-      "effective_at": "2026-11-05T03:28:27.612000+00:00",
+      "event_time": "2026-11-05T01:07:34+00:00",
+      "published_at": "2026-11-05T01:07:34+00:00",
+      "effective_at": "2026-11-05T01:07:34+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "the-news-minute": {
+        "ht-media": {
           "kind": "independent",
           "source_ids": [
-            "the-news-minute"
+            "mint"
           ],
           "count": 1
         }
@@ -331,80 +333,179 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: category importance 1.2 >= 1.2",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: economy-finance (importance 1.2, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-news-minute) +2",
+        "source: tier 3 (mint) +1",
+        "source: specialist (mint) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
+        "event term: 'election results' in title weight 64",
+        "event term: 'election' in title weight 58",
+        "event term: 'election results' in summary weight 38.4",
+        "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
+        "recency: fresh (3.1h ago) +4",
+        "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
-        "dominant event 72, stack 30, score 72 -> URGENT"
+        "dominant event 64, stack 45, score 64 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant.",
+          "A softer US dollar, cooling Treasury yields and lower crude oil prices could support FII inflows, ease inflationary pressures and improve corporate profitability."
+        ],
+        "body": [
+          "Indian stocks extended their rally for a sixth session, with the Sensex rising 2% and the Nifty 50 gaining 1.8%.",
+          "Falling crude prices, optimism about easing Iran war tensions, global market gains, renewed foreign investor buying and encouraging corporate earnings lifted investor confidence."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Indian stocks extended their rally for a sixth session, with the Sensex rising 2% and the Nifty 50 gaining 1.8%.",
+            "source": "Mint - Markets",
+            "item_id": "a86c9c58fd5ed18f615adf9b",
+            "composed": false
+          },
+          {
+            "text": "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant.",
+            "source": "Mint - Markets",
+            "item_id": "3da310ac47338a5a4d684bd8",
+            "composed": false
+          }
+        ],
+        "source": "Mint - Markets",
+        "corroborating": [],
+        "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "c9f1518ed32d855300da6b47",
+      "story_id": "c9f1518ed32d855300da6b47",
+      "headline": "US election results could slow AI data-centre investments, support Treasury bonds: Report",
+      "title": "US election results could slow AI data-centre investments, support Treasury bonds: Report",
+      "summary": "Proposed restrictions over electricity consumption, water usage and local infrastructure costs could reshape investment plans across three major US data-centre markets",
+      "url": "https://www.thehindubusinessline.com/news/world/us-election-results-could-slow-ai-data-centre-investments-support-treasury-bonds-report/article71668504.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [
+        "technology-digital",
+        "transport-infrastructure",
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 64.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-05T04:03:31+00:00",
+      "published_at": "2026-11-05T04:03:31+00:00",
+      "effective_at": "2026-11-05T04:03:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election results' in title weight 64",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 64, stack 45, score 64 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "The elections to Zilla Parishad Territorial Constituencies (ZPTC) and Mandal Parishad Territorial Constituencies (MPTC) in four mandals of Andhra Pradesh’s Eluru district have been postponed by a day due to heavy rains triggered by Cyclone Murasu.",
-        "The polls in Velerupadu, Buttaigudem, Jeelugumilli and Polavaram mandals, which were scheduled for Thursday, November 5, will be held on Friday, November 6, Eluru District Collector K Vetri Selvi said.",
-        "According to The Hindu, the Collector also directed officials to immediately shift residents of flood-affected villages to safer locations.",
-        "Police personnel evacuated residents of Koya Madhavaram, Kummarigudem, Medipally, Allurinagar and other habitations in Velerupadu mandal as the Peddavaagu stream was in spate.",
-        "Meanwhile, State Election Commissioner Anil Chandra Punetha on November 4, reviewed arrangements for the MPTC and ZPTC elections scheduled across Andhra Pradesh on Thursday, in view of heavy rains and strong winds caused by Cyclone Murasu.",
-        "The SEC held discussions with District Collectors and Superintendents of Police to assess weather conditions, accessibility of polling stations, transport facilities and the preparedness of election personnel, particularly in cyclone-affected districts.",
-        "The Collectors reportedly informed him that rainfall had subsided in most districts and that polling could proceed without major difficulties, except in a few pockets.",
-        "Punetha directed district administrations to continuously monitor local conditions and take preventive measures to ensure that voters and polling personnel were not inconvenienced.",
-        "He said decisions on any difficulties in conducting the elections would be taken based on detailed reports from field-level officials.",
-        "He also called for coordination among departments to ensure free, fair and peaceful polling, with adequate security arrangements.",
-        "State Election Secretary A Mallikarjuna said around 2.52 lakh officials and employees had been assigned election duties, while another 52,000 personnel would be deployed for counting.",
-        "Special attention was being given to arrangements in West Godavari, Guntur and Bapatla districts, which were among the areas affected by the cyclone."
+        "The US midterm election outcome could put 141 gigawatts (GW) of planned data-centre capacity at greater risk of policy restrictions, potentially slowing artificial intelligence (AI) infrastructure investments while supporting US Treasury bonds, according to a report by ICICI Bank.",
+        "The report said Democratic victories in the governorships of Texas, Georgia and Ohio have increased the possibility of tighter scrutiny of data-centre projects.",
+        "The three states together account for nearly 33 per cent of the country’s operating and planned data-centre capacity.",
+        "The incoming governors had campaigned on proposals to pause or restrict new projects, citing concerns over electricity and water consumption, utility costs and the impact on local communities.",
+        "The three states have a combined data-centre capacity of 156 GW, of which around 141 GW is still planned and only 15 GW is operational.",
+        "Texas alone accounts for 22 per cent of national capacity, while Georgia and Ohio account for 5 per cent and 6 per cent, respectively.",
+        "ICICI Bank cautioned that the election outcome does not guarantee the proposed restrictions will be implemented, as policy changes would require legislative and regulatory support.",
+        "However, it could lead to a “potential slowdown in further investments into data centres”, rather than a nationwide reversal of the AI investment cycle.",
+        "The report also said the outcome could be positive for US Treasury markets as tighter scrutiny of data-centre projects may slow AI capital expenditure and reduce borrowing by large technology companies.",
+        "Lower investment spending could also moderate economic growth and inflation pressures, potentially reducing the need for further interest rate increases by the Federal Reserve.",
+        "Following the election results, US two-year Treasury yields fell by as much as 9 basis points to 4.54 per cent before recovering to 4.59 per cent.",
+        "The 10-year yield declined by 7 basis points to 4.89 per cent before settling at 4.91 per cent."
       ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The elections to Zilla Parishad Territorial Constituencies (ZPTC) and Mandal Parishad Territorial Constituencies (MPTC) in four mandals of Andhra Pradesh’s Eluru district have been postponed by a day due to heavy rains triggered by Cyclone Murasu.",
-          "The polls in Velerupadu, Buttaigudem, Jeelugumilli and Polavaram mandals, which were scheduled for Thursday, November 5, will be held on Friday, November 6, Eluru District Collector K Vetri Selvi said."
+          "The US midterm election outcome could put 141 gigawatts (GW) of planned data-centre capacity at greater risk of policy restrictions, potentially slowing artificial intelligence (AI) infrastructure investments while supporting US Treasury bonds, according to a report by ICICI Bank.",
+          "The report said Democratic victories in the governorships of Texas, Georgia and Ohio have increased the possibility of tighter scrutiny of data-centre projects."
         ],
         "body": [
-          "According to The Hindu, the Collector also directed officials to immediately shift residents of flood-affected villages to safer locations.",
-          "Police personnel evacuated residents of Koya Madhavaram, Kummarigudem, Medipally, Allurinagar and other habitations in Velerupadu mandal as the Peddavaagu stream was in spate.",
-          "Meanwhile, State Election Commissioner Anil Chandra Punetha on November 4, reviewed arrangements for the MPTC and ZPTC elections scheduled across Andhra Pradesh on Thursday, in view of heavy rains and strong winds caused by Cyclone Murasu.",
-          "The SEC held discussions with District Collectors and Superintendents of Police to assess weather conditions, accessibility of polling stations, transport facilities and the preparedness of election personnel, particularly in cyclone-affected districts.",
-          "The Collectors reportedly informed him that rainfall had subsided in most districts and that polling could proceed without major difficulties, except in a few pockets.",
-          "Punetha directed district administrations to continuously monitor local conditions and take preventive measures to ensure that voters and polling personnel were not inconvenienced.",
-          "He said decisions on any difficulties in conducting the elections would be taken based on detailed reports from field-level officials.",
-          "He also called for coordination among departments to ensure free, fair and peaceful polling, with adequate security arrangements."
+          "The three states together account for nearly 33 per cent of the country’s operating and planned data-centre capacity.",
+          "The incoming governors had campaigned on proposals to pause or restrict new projects, citing concerns over electricity and water consumption, utility costs and the impact on local communities.",
+          "The three states have a combined data-centre capacity of 156 GW, of which around 141 GW is still planned and only 15 GW is operational.",
+          "Texas alone accounts for 22 per cent of national capacity, while Georgia and Ohio account for 5 per cent and 6 per cent, respectively.",
+          "ICICI Bank cautioned that the election outcome does not guarantee the proposed restrictions will be implemented, as policy changes would require legislative and regulatory support.",
+          "However, it could lead to a “potential slowdown in further investments into data centres”, rather than a nationwide reversal of the AI investment cycle.",
+          "The report also said the outcome could be positive for US Treasury markets as tighter scrutiny of data-centre projects may slow AI capital expenditure and reduce borrowing by large technology companies.",
+          "Lower investment spending could also moderate economic growth and inflation pressures, potentially reducing the need for further interest rate increases by the Federal Reserve."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Velerupadu"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The polls in Velerupadu, Buttaigudem, Jeelugumilli and Polavaram mandals, which were scheduled for Thursday, November 5, will be held on Friday, November 6, Eluru District Collector K Vetri Selvi said.",
-            "source": "The News Minute",
-            "item_id": "b9cbd38072b5aba7e492b9ca:article",
+            "text": "The report also said the outcome could be positive for US Treasury markets as tighter scrutiny of data-centre projects may slow AI capital expenditure and reduce borrowing by large technology companies.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9f1518ed32d855300da6b47:article",
             "composed": false
           },
           {
-            "text": "Meanwhile, State Election Commissioner Anil Chandra Punetha on November 4, reviewed arrangements for the MPTC and ZPTC elections scheduled across Andhra Pradesh on Thursday, in view of heavy rains and strong winds caused by Cyclone Murasu.",
-            "source": "The News Minute",
-            "item_id": "b9cbd38072b5aba7e492b9ca:article",
+            "text": "The three states have a combined data-centre capacity of 156 GW, of which around 141 GW is still planned and only 15 GW is operational.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9f1518ed32d855300da6b47:article",
+            "composed": false
+          },
+          {
+            "text": "Texas alone accounts for 22 per cent of national capacity, while Georgia and Ohio account for 5 per cent and 6 per cent, respectively.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9f1518ed32d855300da6b47:article",
+            "composed": false
+          },
+          {
+            "text": "The three states together account for nearly 33 per cent of the country’s operating and planned data-centre capacity.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "c9f1518ed32d855300da6b47:article",
             "composed": false
           }
         ],
-        "source": "The News Minute",
+        "source": "The Hindu BusinessLine",
         "corroborating": [],
-        "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-polls-postponed-in-four-andhra-mandals-due-to-heavy-rains"
+        "url": "https://www.thehindubusinessline.com/news/world/us-election-results-could-slow-ai-data-centre-investments-support-treasury-bonds-report/article71668504.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -457,7 +558,7 @@
         "event term: 'landslide' in summary weight 24",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -503,93 +604,6 @@
         "source": "Business Standard",
         "corroborating": [],
         "url": "https://www.business-standard.com/world-news/trump-s-many-moods-as-midterm-election-results-throw-up-blue-wave-126110402148_1.html"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "3da310ac47338a5a4d684bd8",
-      "story_id": "3da310ac47338a5a4d684bd8",
-      "headline": "US Midterm Election Results 2026 impact: What Trump's loss mean for Sensex, Nifty, gold, silver rates? Experts' views",
-      "title": "US Midterm Election Results 2026 impact: What Trump's loss mean for Sensex, Nifty, gold, silver rates? Experts' views",
-      "summary": "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant. A softer US dollar, cooling Treasury yields and lower crude oil prices could support FII inflows, ease inflationary pressures and improve corporate profitability.",
-      "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html",
-      "source": "Mint - Markets",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "national-politics"
-      ],
-      "confidence": "medium",
-      "score": 72.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-05T01:07:34+00:00",
-      "published_at": "2026-11-05T01:07:34+00:00",
-      "effective_at": "2026-11-05T01:07:34+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "ht-media": {
-          "kind": "independent",
-          "source_ids": [
-            "mint"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "major: significance event 'Election'",
-        "major: significance event 'Election'",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (mint) +1",
-        "source: specialist (mint) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'election results' in title weight 64",
-        "event term: 'election' in title weight 58",
-        "event term: 'election results' in summary weight 38.4",
-        "event term: 'election' in summary weight 34.8",
-        "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 64, stack 45, score 64 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant.",
-          "A softer US dollar, cooling Treasury yields and lower crude oil prices could support FII inflows, ease inflationary pressures and improve corporate profitability."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "US Midterm Election Results 2026: For Indian equities, the implications could be particularly significant.",
-            "source": "Mint - Markets",
-            "item_id": "3da310ac47338a5a4d684bd8",
-            "composed": false
-          },
-          {
-            "text": "A softer US dollar, cooling Treasury yields and lower crude oil prices could support FII inflows, ease inflationary pressures and improve corporate profitability.",
-            "source": "Mint - Markets",
-            "item_id": "3da310ac47338a5a4d684bd8",
-            "composed": false
-          }
-        ],
-        "source": "Mint - Markets",
-        "corroborating": [],
-        "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -649,7 +663,7 @@
         "event term: 'ballistic missile' in summary weight 27.6",
         "event term: 'takeover' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -788,7 +802,7 @@
         "event term: 'sanctions' in summary weight 24",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -871,6 +885,131 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "e7d3d42ac43aac3decb89cad",
+      "story_id": "e7d3d42ac43aac3decb89cad",
+      "headline": "Rupee strengthens to 15-day high of 94.33 against dollar: Key factors explained",
+      "title": "Rupee strengthens to 15-day high of 94.33 against dollar: Key factors explained",
+      "summary": "The Indian rupee strengthened to 94.35 per dollar on Thursday as declining crude oil prices, following US midterm election results, and FPI inflows provided support.",
+      "url": "https://www.cnbctv18.com/market/currency/rupee-strengthens-15-day-high-against-dollar-factors-explained-20027611.htm",
+      "source": "CNBC-TV18",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 94.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-05T03:59:31+00:00",
+      "published_at": "2026-11-05T03:59:31+00:00",
+      "effective_at": "2026-11-05T03:59:31+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "network18": {
+          "kind": "independent",
+          "source_ids": [
+            "cnbc-tv18"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "major: significance event 'election'",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (cnbc-tv18) +1",
+        "source: specialist (cnbc-tv18) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election results' in summary weight 38.4",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 38.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Indian rupee strengthened to 94.35 per dollar on Thursday as declining crude oil prices, following US midterm election results, and FPI inflows provided support.",
+        "The fall in crude prices followed the US midterm election results, which saw President Donald Trump's Republican Party lose control of Congress.",
+        "Markets are assessing whether the political setback could push the US administration towards a negotiated exit from the Iran conflict.",
+        "Brent crude fell around 8.5% to $94.20 per barrel in Asian trade.",
+        "Prices are down nearly 20% this week.",
+        "Why have crude oil prices fallen?",
+        "Oil prices had remained elevated amid more than eight months of conflict involving Iran, repeated military escalations, concerns over disruptions to oil supplies and uncertainty surrounding the Strait of Hormuz, a key route for global oil shipments.",
+        "With negotiations repeatedly failing to produce a breakthrough, markets had factored in the possibility of prolonged supply disruptions and a higher geopolitical risk premium in crude prices.",
+        "The latest decline suggests investors are assessing the possibility that the Republican Party's election setback could increase pressure on Trump to reconsider his approach to the conflict and pursue a negotiated resolution.",
+        "Analysts at ING Bank said the Democratic Party's decisive victory could make it more confident in pushing back against Trump's policies on Iran, support for Israel and any escalation of tariffs.",
+        "MUFG Bank described the election outcome as a meaningful shift in the US political landscape that could trigger an unwinding of some of the political and geopolitical risk premium embedded in markets.",
+        "How does lower crude oil benefit the rupee?"
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Indian rupee strengthened to 94.35 per dollar on Thursday as declining crude oil prices, following US midterm election results, and FPI inflows provided support.",
+          "The fall in crude prices followed the US midterm election results, which saw President Donald Trump's Republican Party lose control of Congress."
+        ],
+        "body": [
+          "Markets are assessing whether the political setback could push the US administration towards a negotiated exit from the Iran conflict.",
+          "Brent crude fell around 8.5% to $94.20 per barrel in Asian trade.",
+          "Prices are down nearly 20% this week.",
+          "Why have crude oil prices fallen?",
+          "Oil prices had remained elevated amid more than eight months of conflict involving Iran, repeated military escalations, concerns over disruptions to oil supplies and uncertainty surrounding the Strait of Hormuz, a key route for global oil shipments.",
+          "With negotiations repeatedly failing to produce a breakthrough, markets had factored in the possibility of prolonged supply disruptions and a higher geopolitical risk premium in crude prices.",
+          "The latest decline suggests investors are assessing the possibility that the Republican Party's election setback could increase pressure on Trump to reconsider his approach to the conflict and pursue a negotiated resolution.",
+          "Analysts at ING Bank said the Democratic Party's decisive victory could make it more confident in pushing back against Trump's policies on Iran, support for Israel and any escalation of tariffs."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Asian"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Brent crude fell around 8.5% to $94.20 per barrel in Asian trade.",
+            "source": "CNBC-TV18",
+            "item_id": "e7d3d42ac43aac3decb89cad:article",
+            "composed": false
+          },
+          {
+            "text": "The Indian rupee strengthened to 94.35 per dollar on Thursday as declining crude oil prices, following US midterm election results, and FPI inflows provided support.",
+            "source": "CNBC-TV18",
+            "item_id": "e7d3d42ac43aac3decb89cad:article",
+            "composed": false
+          },
+          {
+            "text": "Analysts at ING Bank said the Democratic Party's decisive victory could make it more confident in pushing back against Trump's policies on Iran, support for Israel and any escalation of tariffs.",
+            "source": "CNBC-TV18",
+            "item_id": "e7d3d42ac43aac3decb89cad:article",
+            "composed": false
+          },
+          {
+            "text": "Prices are down nearly 20% this week.",
+            "source": "CNBC-TV18",
+            "item_id": "e7d3d42ac43aac3decb89cad:article",
+            "composed": false
+          }
+        ],
+        "source": "CNBC-TV18",
+        "corroborating": [],
+        "url": "https://www.cnbctv18.com/market/currency/rupee-strengthens-15-day-high-against-dollar-factors-explained-20027611.htm"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "8091478041499288a5e100b1",
       "story_id": "8091478041499288a5e100b1",
       "headline": "Questioning Democratic Institutions",
@@ -937,7 +1076,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1149,7 +1288,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1256,7 +1395,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1369,7 +1508,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 30.4, score 40 -> HIGH"
@@ -1472,7 +1611,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 30.4, score 40 -> HIGH"
