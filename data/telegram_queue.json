@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T02:02:16.534347+00:00",
-  "count": 3,
+  "generated_at": "2026-11-06T02:11:44.637890+00:00",
+  "count": 4,
   "stories": [
     {
       "event_id": "a8cf631790d2442f01704ee5",
@@ -49,7 +49,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 50.4, stack 34.8, score 50.4 -> HIGH"
@@ -57,7 +57,7 @@
       "geo_scope": "national",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Nov 5: Inspector General of Police (IGP), Kashmir Zone, Sujit Kumar said on Thursday that only one local terrorist remains active in the Valley, even as Srinagar continues to receive persistent threat inputs that have prompted additional security measures.",
@@ -121,7 +121,7 @@
         "url": "https://www.greaterkashmir.com/security/only-1-local-terrorist-active-srinagar-faces-persistent-threat-inputs-igp-kashmir-12787630"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -168,7 +168,7 @@
         "event term: 'building collapse' in title weight 46",
         "event term: 'building collapse' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 46, stack 42.2, score 46 -> HIGH"
@@ -190,7 +190,7 @@
         "Efforts continued through the night as authorities searched for individuals feared trapped beneath the debris.",
         "The narrow and densely populated locality posed significant challenges for rescue operations."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "New Delhi: Five people are feared to be trapped in the basement of a collapsed building in Delhi’s Chawri Bazar area, while four people have been rescued so far, SDM Manoj Kumar said on Thursday, adding that 30 personnel from the National Disaster Response Force (NDRF) and the Municipal Corporation of Delhi (MCD) are engaged in the rescue operation.",
@@ -249,8 +249,94 @@
         "url": "https://kalingatv.com/nation/five-people-feared-trapped-after-delhi-chawri-bazar-building-collapse-four-rescued-says-official"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "91c000ee83e3891303c8df97",
+      "story_id": "91c000ee83e3891303c8df97",
+      "headline": "India-US trade deal: Democrats may challenge Trump's tariff policies, but will exporters get relief?",
+      "title": "India-US trade deal: Democrats may challenge Trump's tariff policies, but will exporters get relief?",
+      "summary": "The Democratic takeover of the US Congress could intensify scrutiny of Trump's trade and tariff policies, but immediate relief for Indian exporters remains uncertain. Mike Williams says Democrats are puzzled by the absence of an India-US trade deal despite longstanding economic ties.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-us-trade-deal-democrats-may-challenge-trumps-tariff-policies-but-will-exporters-get-relief-566074-2026-11-06",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "international-affairs",
+      "secondary_categories": [
+        "economy-finance",
+        "business-industry",
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-06T01:50:07+00:00",
+      "published_at": "2026-11-06T01:50:07+00:00",
+      "effective_at": "2026-11-06T01:50:07+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: international-affairs (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'tariff' in title weight 40",
+        "event term: 'takeover' in summary weight 25.2",
+        "event term: 'tariff' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.4h ago) +8",
+        "category: international-affairs (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Democratic takeover of the US Congress could intensify scrutiny of Trump's trade and tariff policies, but immediate relief for Indian exporters remains uncertain.",
+          "Mike Williams says Democrats are puzzled by the absence of an India-US trade deal despite longstanding economic ties."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Mike Williams says Democrats are puzzled by the absence of an India-US trade deal despite longstanding economic ties.",
+            "source": "Business Today",
+            "item_id": "91c000ee83e3891303c8df97",
+            "composed": false
+          },
+          {
+            "text": "The Democratic takeover of the US Congress could intensify scrutiny of Trump's trade and tariff policies, but immediate relief for Indian exporters remains uncertain.",
+            "source": "Business Today",
+            "item_id": "91c000ee83e3891303c8df97",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/latest/economy/story/india-us-trade-deal-democrats-may-challenge-trumps-tariff-policies-but-will-exporters-get-relief-566074-2026-11-06"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     },
     {
       "event_id": "c93bb1c6e9e842dcb770b820",
@@ -299,7 +385,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 42, score 42 -> HIGH"
