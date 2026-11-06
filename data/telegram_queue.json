@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T14:21:59.052640+00:00",
-  "count": 18,
+  "generated_at": "2026-11-06T14:32:17.772933+00:00",
+  "count": 21,
   "stories": [
     {
       "event_id": "355907071e777bef4c4c26e3",
@@ -56,7 +56,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (delhi)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -133,6 +133,200 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "1a81c1859efefd8ceada0c22",
+      "story_id": "1a81c1859efefd8ceada0c22",
+      "headline": "CM Naidu Visits Cyclone-Hit Villages In Bapatla, Inspects Crop Damage",
+      "title": "CM Naidu Visits Cyclone-Hit Villages In Bapatla, Inspects Crop Damage",
+      "summary": "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-visits-cyclone-hit-villages-in-bapatla-inspects-crop-damage-2002287",
+      "source": "Deccan Chronicle",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [
+        "agriculture-rural"
+      ],
+      "confidence": "low",
+      "score": 79.2,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-06T08:18:25+00:00",
+      "published_at": "2026-11-06T11:28:43+00:00",
+      "effective_at": "2026-11-06T11:28:43+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard",
+            "deccan-chronicle"
+          ],
+          "count": 3
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (deccan-chronicle) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: fresh (6.2h ago) +4",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 42, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
+          "The Chief Minister also inspected road stretches damaged by erosion along the route from Jillellamudi to Returu."
+        ],
+        "body": [
+          "In a tour of the affected area on Friday, the Chief Minister visited the paddy fields which were flooded with floodwaters at Jillelamudi in the district of Bapatla."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bapatla district"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In a tour of the affected area on Friday, the Chief Minister visited the paddy fields which were flooded with floodwaters at Jillelamudi in the district of Bapatla.",
+            "source": "The Hans India",
+            "item_id": "e387cb4a26f83bc35967fb59",
+            "composed": false
+          },
+          {
+            "text": "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
+            "source": "Deccan Chronicle",
+            "item_id": "1a81c1859efefd8ceada0c22",
+            "composed": false
+          },
+          {
+            "text": "The Chief Minister also inspected road stretches damaged by erosion along the route from Jillellamudi to Returu.",
+            "source": "Deccan Chronicle",
+            "item_id": "9f1d97084ea982269334a138",
+            "composed": false
+          }
+        ],
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "The Hans India"
+        ],
+        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-visits-cyclone-hit-villages-in-bapatla-inspects-crop-damage-2002287"
+      },
+      "group_size": 3,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "94204c40ce193c0ed272d7ff",
+      "story_id": "94204c40ce193c0ed272d7ff",
+      "headline": "Cyclone Murasu: Rythu Sangham wants Rs 30, 000 compensation per acre for food crops",
+      "title": "Cyclone Murasu: Rythu Sangham wants Rs 30, 000 compensation per acre for food crops",
+      "summary": "Cyclone Murasu damaged standing and harvested crops across erstwhile Khammam. Preliminary estimates put losses at over 10,000 acres in Kothagudem and substantial areas in Khammam district. Farmers and political leaders have sought crop assessments, procurement support and compensation from government.",
+      "url": "https://telanganatoday.com/cyclone-murasu-rythu-sangham-wants-rs-30-000-compensation-per-acre-for-food-crops",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "agriculture-rural",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 95.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-06T14:21:32+00:00",
+      "published_at": "2026-11-06T14:21:32+00:00",
+      "effective_at": "2026-11-06T14:21:32+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "telangana-today": {
+          "kind": "independent",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: agriculture-rural (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: agriculture-rural (importance 1) +1.2",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Murasu damaged standing and harvested crops across erstwhile Khammam.",
+          "Preliminary estimates put losses at over 10,000 acres in Kothagudem and substantial areas in Khammam district."
+        ],
+        "body": [
+          "Farmers and political leaders have sought crop assessments, procurement support and compensation from government."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kothagudem"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Preliminary estimates put losses at over 10,000 acres in Kothagudem and substantial areas in Khammam district.",
+            "source": "Telangana Today",
+            "item_id": "94204c40ce193c0ed272d7ff",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Murasu damaged standing and harvested crops across erstwhile Khammam.",
+            "source": "Telangana Today",
+            "item_id": "94204c40ce193c0ed272d7ff",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [],
+        "url": "https://telanganatoday.com/cyclone-murasu-rythu-sangham-wants-rs-30-000-compensation-per-acre-for-food-crops"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "c03e1322219fb804db46d56a",
       "story_id": "c03e1322219fb804db46d56a",
       "headline": "AP Assessing Cyclone Damage: Relief and Rehabilitation to Continue",
@@ -175,7 +369,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -303,7 +497,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -344,101 +538,6 @@
         "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/reliance-foundation-to-help-retrieve-fishing-boats-hit-by-cyclone-arnab-in-konaseema-2002301"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "1a81c1859efefd8ceada0c22",
-      "story_id": "1a81c1859efefd8ceada0c22",
-      "headline": "CM Naidu Visits Cyclone-Hit Villages In Bapatla, Inspects Crop Damage",
-      "title": "CM Naidu Visits Cyclone-Hit Villages In Bapatla, Inspects Crop Damage",
-      "summary": "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
-      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-visits-cyclone-hit-villages-in-bapatla-inspects-crop-damage-2002287",
-      "source": "Deccan Chronicle",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [
-        "agriculture-rural"
-      ],
-      "confidence": "low",
-      "score": 79.2,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-06T08:18:25+00:00",
-      "published_at": "2026-11-06T11:28:43+00:00",
-      "effective_at": "2026-11-06T11:28:43+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard",
-            "deccan-chronicle"
-          ],
-          "count": 3
-        }
-      },
-      "is_wire_echo": true,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (deccan-chronicle) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
-        "event term: 'cyclone' in title weight 72",
-        "event term: 'cyclone' in summary weight 43.2",
-        "scale: state scope (andhra pradesh)",
-        "recency: fresh (6.1h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 42, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
-          "In a tour of the affected area on Friday, the Chief Minister visited the paddy fields which were flooded with floodwaters at Jillelamudi in the district of Bapatla."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bapatla district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In a tour of the affected area on Friday, the Chief Minister visited the paddy fields which were flooded with floodwaters at Jillelamudi in the district of Bapatla.",
-            "source": "The Hans India",
-            "item_id": "e387cb4a26f83bc35967fb59",
-            "composed": false
-          },
-          {
-            "text": "Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday visited cyclone-hit villages in Bapatla district and inspected agricultural fields inundated by severe cyclonic storm Murasu.",
-            "source": "Deccan Chronicle",
-            "item_id": "1a81c1859efefd8ceada0c22",
-            "composed": false
-          }
-        ],
-        "source": "Deccan Chronicle",
-        "corroborating": [
-          "The Hans India"
-        ],
-        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-visits-cyclone-hit-villages-in-bapatla-inspects-crop-damage-2002287"
-      },
-      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -487,7 +586,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 39.2, score 72 -> URGENT"
@@ -577,7 +676,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -703,7 +802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -803,7 +902,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -910,7 +1009,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1002,7 +1101,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1120,6 +1219,117 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "6eb5fcf2ee70f086b37c7162",
+      "story_id": "6eb5fcf2ee70f086b37c7162",
+      "headline": "Supreme Court says stopping vehicles, construction to prevent pollution ‘old, tried, failed tools’",
+      "title": "Supreme Court says stopping vehicles, construction to prevent pollution ‘old, tried, failed tools’",
+      "summary": "Govt., CAQM says measures like GRAP cannot be dubbed a ‘complete failure’",
+      "url": "https://www.thehindu.com/news/national/supreme-court-on-stopping-vehicles-construction-to-prevent-pollution/article71674613.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-06T14:19:51+00:00",
+      "published_at": "2026-11-06T14:19:51+00:00",
+      "effective_at": "2026-11-06T14:19:51+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Friday (November 6, 2026) termed measures like banning vehicles and construction to curb air pollution in the national capital as “old, tried and failed tools”.",
+        "A Bench headed by Chief Justice of India Surya Kant asked the Union government and the Commission for Air Quality Management (CAQM) if they had any “significant scientific method other than stopping vehicles and stopping construction”.",
+        "Additional Solicitor General Aishwarya Bhati, arguing for CAQM and the Centre, said that it would not be completely true to call such measures a “complete failure”.",
+        "Ms. Bhati said emergency and pre-emptive measures like Graded Response Action Plan (GRAP) have at least been able to arrest air pollution at sustainable levels.",
+        "“But yet the Air Quality Index (AQI) is touching 400...” the Chief Justice responded.",
+        "“For us, it is either ‘severe’ and ‘very severe’.",
+        "‘Very poor’ is normal.",
+        "We are already touching 400.",
+        "Let us not talk about a utopia where the AQI would become 100 or less,” Justice Joymalya Bagchi, on the three-judge Bench, addressed the CAQM.",
+        "Ms. Bhati agreed that the AQI was hovering near the 400s.",
+        "“But every human activity, particularly in a festive season, will cause pollution.",
+        "How much can we stop?"
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Friday (November 6, 2026) termed measures like banning vehicles and construction to curb air pollution in the national capital as “old, tried and failed tools”.",
+          "A Bench headed by Chief Justice of India Surya Kant asked the Union government and the Commission for Air Quality Management (CAQM) if they had any “significant scientific method other than stopping vehicles and stopping construction”."
+        ],
+        "body": [
+          "Additional Solicitor General Aishwarya Bhati, arguing for CAQM and the Centre, said that it would not be completely true to call such measures a “complete failure”.",
+          "Ms. Bhati said emergency and pre-emptive measures like Graded Response Action Plan (GRAP) have at least been able to arrest air pollution at sustainable levels.",
+          "“But yet the Air Quality Index (AQI) is touching 400...” the Chief Justice responded.",
+          "“For us, it is either ‘severe’ and ‘very severe’.",
+          "‘Very poor’ is normal.",
+          "We are already touching 400.",
+          "Let us not talk about a utopia where the AQI would become 100 or less,” Justice Joymalya Bagchi, on the three-judge Bench, addressed the CAQM.",
+          "Ms. Bhati agreed that the AQI was hovering near the 400s."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday (November 6, 2026) termed measures like banning vehicles and construction to curb air pollution in the national capital as “old, tried and failed tools”.",
+            "source": "The Hindu",
+            "item_id": "6eb5fcf2ee70f086b37c7162:article",
+            "composed": false
+          },
+          {
+            "text": "A Bench headed by Chief Justice of India Surya Kant asked the Union government and the Commission for Air Quality Management (CAQM) if they had any “significant scientific method other than stopping vehicles and stopping construction”.",
+            "source": "The Hindu",
+            "item_id": "6eb5fcf2ee70f086b37c7162:article",
+            "composed": false
+          },
+          {
+            "text": "We are already touching 400.",
+            "source": "The Hindu",
+            "item_id": "6eb5fcf2ee70f086b37c7162:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-on-stopping-vehicles-construction-to-prevent-pollution/article71674613.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "7d08a9e90f9d3f1c2154bac0",
       "story_id": "7d08a9e90f9d3f1c2154bac0",
       "headline": "Supreme Court notice to KPCC office-bearers on contempt plea for social media post against CJI",
@@ -1163,7 +1373,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1267,7 +1477,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 36.4, score 44 -> HIGH"
@@ -1381,7 +1591,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1482,7 +1692,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 28.4, score 44 -> HIGH"
@@ -1597,7 +1807,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1706,7 +1916,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1827,7 +2037,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1959,7 +2169,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 0, stack 41.2, score 41.2 -> HIGH"
@@ -2146,6 +2356,134 @@
         "source": "Forbes India",
         "corroborating": [],
         "url": "https://www.forbesindia.com/life/how-the-vaziranis-built-saffronart-into-much-more-than-an-auction-house-article/3000280"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "16d0afb8c1cecf9fcf5ea303",
+      "story_id": "16d0afb8c1cecf9fcf5ea303",
+      "headline": "High Court rejects plea by two IAS officers in arms licence scam PIL, seeks report on prosecution sanction",
+      "title": "High Court rejects plea by two IAS officers in arms licence scam PIL, seeks report on prosecution sanction",
+      "summary": "Srinagar, Nov 06: The Jammu and Kashmir and Ladakh High Court has rejected an application by two IAS officers seeking intervention in the long-pending Arms Licences Scam PIL and a direction to the Centre to consider their representations before deciding on a proposal for grant of prosecution sanction against them. A Division Bench of Chief Justice Dr Pushpendra Singh Bhati and Justice Rajnesh Oswal observed that there was no justification for issuing such a direction, noting that the officers' plea appeared to suggest that the authorities would not apply their minds properly without the court's intervention. The application was filed by Pandurang Kondbaroa Pole, a 2004-batch AGMUT cadre IAS officer currently posted as Secretary, Land and Building, Government of NCT of Delhi, and Shahid Iqbal Choudhary, a 2009-batch AGMUT cadre officer presently posted as Secretary, Government of Arunachal Pradesh. The officers had sought impleadment in PIL No. 9/2012, titled Sheikh Mohd. Shafi and Another versus Union of India and Others. They had also sought a direction to the Department of Personnel and Training (DoPT) to consider their representations before taking a decision on the CBI's proposal for grant of prosecution sanction. Appearing for the officers, Senior Advocate Sakal Bhushan, assisted by Advocate Rahul Sharma, argued that the doctrine of deemed sanction could not be applied mechanically and that the matter required a case-specific assessment by the competent authorities and the court. He submitted that the officers were only seeking consideration of their representations before a decision was taken on the prosecution sanction proposal. The Bench, however, declined to grant the relief sought. “The reason why this Court has not accepted the application is that merely the gist of the submission made by learned Senior counsel was that unless the Court directs there will not be proper application of mind by the respondents, which does not seem to find any favour of the Court,” the Bench observed. Bhushan subsequently sought permission to withdraw the application and pursue the representations before the DoPT. The court accordingly dismissed the application as withdrawn, observing that the officers did not require its permission to pursue appropriate remedies available under law. During the hearing, Advocate S.S. Ahmed, appearing for the PIL petitioners, informed the court that the Ministry of Home Affairs (MHA) had submitted an updated status report in compliance with its July 6, 2026 order. According to Ahmed, the MHA had stated that, following detailed examination and consultations with the investigating agency and the Jammu and Kashmir Government, it had finalised its views and comments on the proposal and forwarded its considered opinion to the DoPT for a final decision under the prescribed procedure. Ahmed sought a direction to the DoPT to place its final decision before the court. Taking note of the submission, the Division Bench directed Deputy Solicitor General of India Vishal Sharma, appearing for the Union Government, to submit a comprehensive report detailing compliance with the court's orders passed from time to time. The PIL has been listed for further hearing on December 23, 2026. (KNT)",
+      "url": "https://www.greaterkashmir.com/jammu-kashmir/high-court-rejects-plea-by-two-ias-officers-in-arms-licence-scam-pil-seeks-report-on-prosecution-sanction-12789058",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "business-industry",
+        "crime-public-safety",
+        "transport-infrastructure"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 40.4,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-06T08:59:40+00:00",
+      "published_at": "2026-11-06T08:59:40+00:00",
+      "effective_at": "2026-11-06T08:59:40+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "downtoearth": {
+          "kind": "independent",
+          "source_ids": [
+            "downtoearth"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'final' in summary weight 6",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "scale: multi-state (4 states)",
+        "recency: fresh (5.5h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 25.2, stack 40.4, score 40.4 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Srinagar, Nov 06: The Jammu and Kashmir and Ladakh High Court has rejected an application by two IAS officers seeking intervention in the long-pending Arms Licences Scam PIL and a direction to the Centre to consider their representations before deciding on a proposal for grant of prosecution sanction against them.",
+          "A Division Bench of Chief Justice Dr Pushpendra Singh Bhati and Justice Rajnesh Oswal observed that there was no justification for issuing such a direction, noting that the officers' plea appeared to suggest that the authorities would not apply their minds properly without the court's intervention."
+        ],
+        "body": [
+          "The application was filed by Pandurang Kondbaroa Pole, a 2004-batch AGMUT cadre IAS officer currently posted as Secretary, Land and Building, Government of NCT of Delhi, and Shahid Iqbal Choudhary, a 2009-batch AGMUT cadre officer presently posted as Secretary, Government of Arunachal Pradesh.",
+          "The officers had sought impleadment in PIL No. 9/2012, titled Sheikh Mohd.",
+          "Shafi and Another versus Union of India and Others.",
+          "They had also sought a direction to the Department of Personnel and Training (DoPT) to consider their representations before taking a decision on the CBI's proposal for grant of prosecution sanction.",
+          "Appearing for the officers, Senior Advocate Sakal Bhushan, assisted by Advocate Rahul Sharma, argued that the doctrine of deemed sanction could not be applied mechanically and that the matter required a case-specific assessment by the competent authorities and the court.",
+          "He submitted that the officers were only seeking consideration of their representations before a decision was taken on the prosecution sanction proposal.",
+          "The Bench, however, declined to grant the relief sought.",
+          "“The reason why this Court has not accepted the application is that merely the gist of the submission made by learned Senior counsel was that unless the Court directs there will not be proper application of mind by the respondents, which does not seem to find any favour of the Court,” the Bench observed.",
+          "Bhushan subsequently sought permission to withdraw the application and pursue the representations before the DoPT.",
+          "The court accordingly dismissed the application as withdrawn, observing that the officers did not require its permission to pursue appropriate remedies available under law.",
+          "During the hearing, Advocate S.S. Ahmed, appearing for the PIL petitioners, informed the court that the Ministry of Home Affairs (MHA) had submitted an updated status report in compliance with its July 6, 2026 order.",
+          "According to Ahmed, the MHA had stated that, following detailed examination and consultations with the investigating agency and the Jammu and Kashmir Government, it had finalised its views and comments on the proposal and forwarded its considered opinion to the DoPT for a final decision under the prescribed procedure.",
+          "Ahmed sought a direction to the DoPT to place its final decision before the court.",
+          "Taking note of the submission, the Division Bench directed Deputy Solicitor General of India Vishal Sharma, appearing for the Union Government, to submit a comprehensive report detailing compliance with the court's orders passed from time to time.",
+          "The PIL has been listed for further hearing on December 23, 2026."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "PIL No"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The officers had sought impleadment in PIL No. 9/2012, titled Sheikh Mohd.",
+            "source": "Greater Kashmir",
+            "item_id": "16d0afb8c1cecf9fcf5ea303",
+            "composed": false
+          },
+          {
+            "text": "During the hearing, Advocate S.S. Ahmed, appearing for the PIL petitioners, informed the court that the Ministry of Home Affairs (MHA) had submitted an updated status report in compliance with its July 6, 2026 order.",
+            "source": "Greater Kashmir",
+            "item_id": "16d0afb8c1cecf9fcf5ea303",
+            "composed": false
+          },
+          {
+            "text": "The PIL has been listed for further hearing on December 23, 2026.",
+            "source": "Greater Kashmir",
+            "item_id": "16d0afb8c1cecf9fcf5ea303",
+            "composed": false
+          },
+          {
+            "text": "The application was filed by Pandurang Kondbaroa Pole, a 2004-batch AGMUT cadre IAS officer currently posted as Secretary, Land and Building, Government of NCT of Delhi, and Shahid Iqbal Choudhary, a 2009-batch AGMUT cadre officer presently posted as Secretary, Government of Arunachal Pradesh.",
+            "source": "Greater Kashmir",
+            "item_id": "16d0afb8c1cecf9fcf5ea303",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/jammu-kashmir/high-court-rejects-plea-by-two-ias-officers-in-arms-licence-scam-pil-seeks-report-on-prosecution-sanction-12789058"
       },
       "group_size": 1,
       "label": "📰 NEWS",
