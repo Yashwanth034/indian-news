@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:51:57.090052+00:00",
+  "generated_at": "2026-11-06T10:02:18.614765+00:00",
   "count": 26,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "event term: 'war' in title weight 82",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: state",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -142,7 +142,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -246,7 +246,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 43.2, score 72 -> URGENT"
@@ -254,7 +254,7 @@
       "geo_scope": "state",
       "state": "andhra pradesh",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Andhra Pradesh has estimated damage from Cyclone Murasu at Rs 1,919 crore.",
@@ -289,7 +289,7 @@
         "url": "https://telanganatoday.com/murasu-cyclone-damages-crops-across-1-4-lakh-hectares-in-andhra-pradesh"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -340,7 +340,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -362,7 +362,7 @@
         "Why has the Fisheries Minister not visited the people even after this tragedy,\" she asked.",
         "The TVK government, which acted \"negligently even during a disaster, must take immediate responsibility for this tragedy and must increase and provide higher relief (against the current financial relief of ₹7 lakh) compensation to the families of the deceased fishermen,\" the DMK Deputy General Secretary said."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The search to trace five missing fishermen from Kasimedu following.",
@@ -416,19 +416,19 @@
         "url": "https://www.thehindu.com/news/national/tamil-nadu/cyclone-murasu-search-for-five-missing-fishermen-intensified-says-tamil-nadu-government/article71673361.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
-      "event_id": "ba80bdae5126dff96b6988b8",
-      "story_id": "ba80bdae5126dff96b6988b8",
-      "headline": "Cyclone Murasu: 8 dead, CM Naidu estimates damages at Rs 1919 cr in Andhra",
-      "title": "Cyclone Murasu: 8 dead, CM Naidu estimates damages at Rs 1919 cr in Andhra",
+      "event_id": "08a2aa5b36dc49a1e4751843",
+      "story_id": "08a2aa5b36dc49a1e4751843",
+      "headline": "Cyclone Murasu led to ₹1,919 crore loss: CM Naidu",
+      "title": "Cyclone Murasu led to ₹1,919 crore loss: CM Naidu",
       "summary": "",
-      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-8-dead-cm-naidu-estimates-damages-at-rs-1919-cr-in-andhra",
-      "source": "The News Minute",
+      "url": "https://economictimes.indiatimes.com/news/india/cyclone-murasu-wreaks-havoc-in-andhra-pradesh-causing-rs-1919-crore-in-damages-and-affecting-thousands-cm/articleshow/135602055.cms",
+      "source": "The Economic Times",
       "primary_source": false,
-      "tier": 2,
+      "tier": 3,
       "category": "weather-disasters",
       "secondary_categories": [],
       "confidence": "medium",
@@ -436,15 +436,15 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-06T05:32:07+00:00",
-      "published_at": "2026-11-06T05:32:07+00:00",
-      "effective_at": "2026-11-06T05:32:07.988000+00:00",
+      "event_time": "2026-11-06T09:34:42+00:00",
+      "published_at": "2026-11-06T09:34:42+00:00",
+      "effective_at": "2026-11-06T09:34:42+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "the-news-minute": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "the-news-minute"
+            "economic-times"
           ],
           "count": 1
         }
@@ -458,84 +458,89 @@
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-news-minute) +2",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 26, score 72 -> URGENT"
+        "dominant event 72, stack 34, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "Andhra Pradesh Chief Minister N Chandrababu Naidu reviewed the aftermath of Cyclone Murasu on Thursday, November 5, inquiring with officials about damage caused across various departments, including Agriculture, Electricity, Municipal Administration and Panchayat Raj.",
-        "Officials reported that a total of eight people had died due to the cyclone—five in Bapatla district, two in Guntur district and one in Palnadu district.",
-        "According to a preliminary damage assessment, Cyclone Murasu has caused an estimated loss of Rs 1,918.55 crore to the state.",
-        "Agricultural crops were damaged across 1,43,122 hectares, affecting 1,86,063 farmers.",
+        "Amaravati: Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday said the damage caused by Cyclone Murasu, according to preliminary estimates, was Rs 1,919 crore.",
+        "CM Naidu reviewed the post-cyclone situation with officials late on Thursday and directed them to expedite relief and restoration work.",
+        "He stressed the need to ensure uninterrupted electricity and drinking water supply and repair damaged roads, while ensuring farmers and residents faced no hardship following two consecutive cyclones--Arnab and Murasu.",
+        "\"We will visit cyclone-affected areas in Bapatla and Guntur districts to assess the damage caused by Cyclone Murasu.",
+        "Preliminary estimates have put the state's losses at around Rs 1,918.5 crore,\" Naidu said in an official press release late on Thursday.",
+        "At least eight persons have died in related incidents, officials said.",
+        "According to the preliminary assessment, agricultural crops were damaged across 1.4 lakh hectares, affecting over 1.8 lakh farmers.",
         "Horticultural crops suffered damage across 6,749 hectares, impacting 12,586 farmers.",
-        "A total of 983 houses, 346 boats and 220 fishing nets were also damaged, officials told the CM.",
-        "They said it would take another 48–72 hours to assess the extent of crop damage accurately after floodwaters receded.",
-        "A week before Murasu, at least seven people were killed when Cyclone Arnab lashed the state, and a preliminary estimate of losses stood at Rs 4,600 crore.",
-        "With two consecutive cyclones affecting the state, the Chief Minister directed officials to ensure that farmers and the public do not face any hardships.",
-        "He stressed the need to prioritise the restoration of electricity supply, repair of roads and uninterrupted drinking water supply.",
-        "The Roads and Buildings (R&B) Department reported damage to 760 kilometres of major district roads and state highways.",
-        "Under the Panchayat Raj Engineering Department, 74 rural roads were damaged, resulting in losses across 204 kilometres."
+        "The cyclone also damaged 983 houses, 346 boats and 220 fishing nets.",
+        "Officials informed the CM that the accurate assessment of crop losses would take another 48 to 72 hours after floodwaters receded.",
+        "Under Andhra Pradesh Central Power Distribution Company Ltd (APCPDCL), 871 of the 1,103 affected 11-kV feeders have been restored, while 1,493 of the 3,946 damaged electricity poles have been repaired.",
+        "The Roads and Buildings Department reported damage to 760 km of major district roads and state highways, while fallen trees at all 206 identified locations have been cleared."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Andhra Pradesh Chief Minister N Chandrababu Naidu reviewed the aftermath of Cyclone Murasu on Thursday, November 5, inquiring with officials about damage caused across various departments, including Agriculture, Electricity, Municipal Administration and Panchayat Raj.",
-          "Officials reported that a total of eight people had died due to the cyclone—five in Bapatla district, two in Guntur district and one in Palnadu district."
+          "Amaravati: Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday said the damage caused by Cyclone Murasu, according to preliminary estimates, was Rs 1,919 crore.",
+          "CM Naidu reviewed the post-cyclone situation with officials late on Thursday and directed them to expedite relief and restoration work."
         ],
         "body": [
-          "According to a preliminary damage assessment, Cyclone Murasu has caused an estimated loss of Rs 1,918.55 crore to the state.",
-          "Agricultural crops were damaged across 1,43,122 hectares, affecting 1,86,063 farmers.",
-          "A total of 983 houses, 346 boats and 220 fishing nets were also damaged, officials told the CM.",
-          "They said it would take another 48–72 hours to assess the extent of crop damage accurately after floodwaters receded.",
-          "A week before Murasu, at least seven people were killed when Cyclone Arnab lashed the state, and a preliminary estimate of losses stood at Rs 4,600 crore.",
-          "With two consecutive cyclones affecting the state, the Chief Minister directed officials to ensure that farmers and the public do not face any hardships.",
-          "He stressed the need to prioritise the restoration of electricity supply, repair of roads and uninterrupted drinking water supply.",
-          "The Roads and Buildings (R&B) Department reported damage to 760 kilometres of major district roads and state highways."
+          "He stressed the need to ensure uninterrupted electricity and drinking water supply and repair damaged roads, while ensuring farmers and residents faced no hardship following two consecutive cyclones--Arnab and Murasu.",
+          "\"We will visit cyclone-affected areas in Bapatla and Guntur districts to assess the damage caused by Cyclone Murasu.",
+          "Preliminary estimates have put the state's losses at around Rs 1,918.5 crore,\" Naidu said in an official press release late on Thursday.",
+          "According to the preliminary assessment, agricultural crops were damaged across 1.4 lakh hectares, affecting over 1.8 lakh farmers.",
+          "Horticultural crops suffered damage across 6,749 hectares, impacting 12,586 farmers.",
+          "The cyclone also damaged 983 houses, 346 boats and 220 fishing nets.",
+          "Officials informed the CM that the accurate assessment of crop losses would take another 48 to 72 hours after floodwaters receded."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Bapatla district"
+            "text": "Bapatla"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "At least eight persons have died in related incidents, officials said."
           }
         ],
         "sentences": [
           {
-            "text": "Officials reported that a total of eight people had died due to the cyclone—five in Bapatla district, two in Guntur district and one in Palnadu district.",
-            "source": "The News Minute",
-            "item_id": "ba80bdae5126dff96b6988b8:article",
+            "text": "Preliminary estimates have put the state's losses at around Rs 1,918.5 crore,\" Naidu said in an official press release late on Thursday.",
+            "source": "The Economic Times",
+            "item_id": "08a2aa5b36dc49a1e4751843:article",
             "composed": false
           },
           {
-            "text": "A week before Murasu, at least seven people were killed when Cyclone Arnab lashed the state, and a preliminary estimate of losses stood at Rs 4,600 crore.",
-            "source": "The News Minute",
-            "item_id": "ba80bdae5126dff96b6988b8:article",
+            "text": "\"We will visit cyclone-affected areas in Bapatla and Guntur districts to assess the damage caused by Cyclone Murasu.",
+            "source": "The Economic Times",
+            "item_id": "08a2aa5b36dc49a1e4751843:article",
             "composed": false
           },
           {
-            "text": "A total of 983 houses, 346 boats and 220 fishing nets were also damaged, officials told the CM.",
-            "source": "The News Minute",
-            "item_id": "ba80bdae5126dff96b6988b8:article",
+            "text": "Amaravati: Andhra Pradesh Chief Minister N Chandrababu Naidu on Friday said the damage caused by Cyclone Murasu, according to preliminary estimates, was Rs 1,919 crore.",
+            "source": "The Economic Times",
+            "item_id": "08a2aa5b36dc49a1e4751843:article",
             "composed": false
           },
           {
-            "text": "Andhra Pradesh Chief Minister N Chandrababu Naidu reviewed the aftermath of Cyclone Murasu on Thursday, November 5, inquiring with officials about damage caused across various departments, including Agriculture, Electricity, Municipal Administration and Panchayat Raj.",
-            "source": "The News Minute",
-            "item_id": "ba80bdae5126dff96b6988b8:article",
+            "text": "According to the preliminary assessment, agricultural crops were damaged across 1.4 lakh hectares, affecting over 1.8 lakh farmers.",
+            "source": "The Economic Times",
+            "item_id": "08a2aa5b36dc49a1e4751843:article",
             "composed": false
           }
         ],
-        "source": "The News Minute",
+        "source": "The Economic Times",
         "corroborating": [],
-        "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-8-dead-cm-naidu-estimates-damages-at-rs-1919-cr-in-andhra"
+        "url": "https://economictimes.indiatimes.com/news/india/cyclone-murasu-wreaks-havoc-in-andhra-pradesh-causing-rs-1919-crore-in-damages-and-affecting-thousands-cm/articleshow/135602055.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -584,7 +589,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -686,7 +691,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (punjab)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -802,7 +807,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -917,7 +922,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (meghalaya)",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -1011,7 +1016,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -1098,7 +1103,7 @@
       "event_time": "2026-11-06T08:05:01+00:00",
       "published_at": "2026-11-06T08:05:01+00:00",
       "effective_at": "2026-11-06T08:05:01+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "indiatoday": {
           "kind": "independent",
@@ -1120,23 +1125,30 @@
             "national-herald"
           ],
           "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.1 >= 1.1",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (india-today) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 4 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1241,7 +1253,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1352,7 +1364,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1460,7 +1472,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -1620,7 +1632,7 @@
         "event term: 'judgment' in title weight 18",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1738,7 +1750,7 @@
         "event term: 'match' in summary weight 4.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1853,7 +1865,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1875,7 +1887,7 @@
         "It was argued that no such objection was raised at the time of counting of votes.",
         "Thus, it was argued that the objection was made only as a ruse to file the election petition."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The Supreme Court on Friday (November 6) admitted for hearing plea by DMK candidate KR Periakaruppan challenging victory of TVK's Seenivasa Sethupathi by one vote in Tirupattur Constituency in the recent Tamil Nadu Assembly Elections.",
@@ -1917,7 +1929,7 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-admits-plea-by-dmks-kr-periakaruppan-against-one-vote-victory-of-tvks-seenivasa-sethupathi-557646"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1962,7 +1974,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2082,7 +2094,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -2191,7 +2203,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2309,7 +2321,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 36.4, score 44 -> HIGH"
@@ -2423,7 +2435,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -2537,7 +2549,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 28, score 40 -> HIGH"
@@ -2643,7 +2655,7 @@
         "event term: 'appointed as' in summary weight 24",
         "event term: 'appointed' in summary weight 21.6",
         "scale: state scope (rajasthan)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: jobs-employment (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 24, stack 39.6, score 39.6 -> HIGH"
@@ -2771,7 +2783,7 @@
         "event term: 'takeover' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 25.2, stack 38.8, score 38.8 -> HIGH"
@@ -2865,7 +2877,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 25.2, stack 38.4, score 38.4 -> HIGH"
