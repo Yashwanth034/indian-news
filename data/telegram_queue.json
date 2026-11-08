@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T04:32:01.945086+00:00",
-  "count": 7,
+  "generated_at": "2026-11-08T04:41:39.232070+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "0fb4c73846382992ac33bae0",
@@ -47,7 +47,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -276,7 +276,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -377,7 +377,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -473,7 +473,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: jobs-employment (importance 0.9) +0",
         "geo: national",
         "dominant event 49.2, stack 30, score 49.2 -> HIGH"
@@ -564,6 +564,109 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "f1db307978196b5438865f8a",
+      "story_id": "f1db307978196b5438865f8a",
+      "headline": "Delhi Building collapse: Death toll rises to 7, rescue operation underway",
+      "title": "Delhi Building collapse: Death toll rises to 7, rescue operation underway",
+      "summary": "The death toll in the three-storey building collapse in central Delhi's Hauz Qazi area rose to seven on Sunday after another body was recovered from the debris, with rescue operations underway for more than 70 hours, an official said. The deceased has been identified as Luchhuman Mukhiya, 66, a resident of Bihar's Darbhanga. His body was recovered during the ongoing search and rescue operation at the collapsed structure near Chawri Bazar. The mortal remains have been shifted to LNJP Hospital for further proceedings. With the latest recovery, seven bodies have been pulled out of the rubble so far. Rescue personnel are still searching the debris for any other possible victims. The building collapsed around 9.45 am on November 5, when construction work was underway. The rescue operation has been going on for over 70 hours since the incident. The deceased have been identified as Sanjeet Kumar, Kishori Sah, Pankaj Sharma, Vipin Ram, Shantu, Dinesh Sah and Luchhuman Mukhiya. Four of the",
+      "url": "https://www.business-standard.com/india-news/delhi-building-collapse-death-toll-rises-to-7-rescue-operation-underway-126110800093_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "transport-infrastructure",
+      "secondary_categories": [
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 93.4,
+      "priority_score": 46.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-08T04:22:09+00:00",
+      "published_at": "2026-11-08T04:22:09+00:00",
+      "effective_at": "2026-11-08T04:22:09+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'building collapse' in title weight 46",
+        "event term: 'building collapse' in summary weight 27.6",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.3h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national",
+        "dominant event 46, stack 45, score 46 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The death toll in the three-storey building collapse in central Delhi's Hauz Qazi area rose to seven on Sunday after another body was recovered from the debris, with rescue operations underway for more than 70 hours, an official said.",
+          "The deceased has been identified as Luchhuman Mukhiya, 66, a resident of Bihar's Darbhanga."
+        ],
+        "body": [
+          "His body was recovered during the ongoing search and rescue operation at the collapsed structure near Chawri Bazar.",
+          "The mortal remains have been shifted to LNJP Hospital for further proceedings.",
+          "With the latest recovery, seven bodies have been pulled out of the rubble so far.",
+          "Rescue personnel are still searching the debris for any other possible victims.",
+          "The building collapsed around 9.45 am on November 5, when construction work was underway.",
+          "The rescue operation has been going on for over 70 hours since the incident.",
+          "The deceased have been identified as Sanjeet Kumar, Kishori Sah, Pankaj Sharma, Vipin Ram, Shantu, Dinesh Sah and Luchhuman Mukhiya.",
+          "Four of the."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Chawri Bazar"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The building collapsed around 9.45 am on November 5, when construction work was underway.",
+            "source": "Business Standard",
+            "item_id": "f1db307978196b5438865f8a",
+            "composed": false
+          },
+          {
+            "text": "His body was recovered during the ongoing search and rescue operation at the collapsed structure near Chawri Bazar.",
+            "source": "Business Standard",
+            "item_id": "f1db307978196b5438865f8a",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/delhi-building-collapse-death-toll-rises-to-7-rescue-operation-underway-126110800093_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "0ffc8a1c8166f979b8a7cffe",
       "story_id": "0ffc8a1c8166f979b8a7cffe",
       "headline": "Defence Minister asks armed forces to maintain high operational readiness, counter cyber and drone threats",
@@ -619,7 +722,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (16.5h ago) +4",
+        "recency: fresh (16.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 36.8, score 42 -> HIGH"
@@ -738,7 +841,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 38.4, stack 32.4, score 38.4 -> HIGH"
