@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:32:15.319307+00:00",
+  "generated_at": "2026-11-10T11:41:32.110599+00:00",
   "count": 15,
   "stories": [
     {
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -128,10 +128,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 30, score 72 -> URGENT"
+        "dominant event 72, stack 26, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -252,7 +252,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 19, score 64 -> URGENT"
@@ -377,7 +377,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -451,6 +451,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "86857855943ef3ab42be39a7",
+      "story_id": "86857855943ef3ab42be39a7",
+      "headline": "Election Commission ignored mismatch between votes ‘cast’ and votes ‘counted’: Reporters’ Collective",
+      "title": "Election Commission ignored mismatch between votes ‘cast’ and votes ‘counted’: Reporters’ Collective",
+      "summary": "Election Commission ignored mismatch between votes ‘cast’ and votes ‘counted’: Reporters’ Collective",
+      "url": "https://www.nationalheraldindia.com/politics/election-commission-ignored-mismatch-between-votes-cast-and-votes-counted-reporters-collective",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-10T10:25:07+00:00",
+      "published_at": "2026-11-10T10:25:07+00:00",
+      "effective_at": "2026-11-10T10:25:07.036000+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "event term: 'election' in summary weight 34.8",
+        "scale: national scope",
+        "recency: breaking (1.3h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 45, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Election Commission keeps two sets of records at polling booths of every voter who walks in.",
+        "Three polling officers are involved.",
+        "One checks the eligibility and identity of the voter.",
+        "The second records the details in Form 17A and issues a slip.",
+        "The third checks the slip and allows the voter to cast his vote.",
+        "Votes are required to be cast in the same order as recorded in 17A.",
+        "When the polling ends, the presiding officer pushes on the ‘close’ button on the control unit of the EVM which shows the number of votes cast, which is then recorded in Form 17C. The two counts should ordinarily match.",
+        "However, what happens if a voter walks into a booth but cast his votes more than once?",
+        "What if the voter walks into a booth but refuses to cast his vote?",
+        "What if a voter walks into a booth and is prevented from voting by officials for breaching rules and the sanctity of the secret ballot?",
+        "Such cases, it is believed, are rare and comprise a miniscule percentage of votes.",
+        "However, there does not appear to be any provision to record such cases and identify the voters involved."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Election Commission keeps two sets of records at polling booths of every voter who walks in.",
+          "Three polling officers are involved."
+        ],
+        "body": [
+          "One checks the eligibility and identity of the voter.",
+          "The second records the details in Form 17A and issues a slip.",
+          "The third checks the slip and allows the voter to cast his vote.",
+          "Votes are required to be cast in the same order as recorded in 17A. When the polling ends, the presiding officer pushes on the ‘close’ button on the control unit of the EVM which shows the number of votes cast, which is then recorded in Form 17C. The two counts should ordinarily match.",
+          "However, what happens if a voter walks into a booth but cast his votes more than once?",
+          "What if the voter walks into a booth but refuses to cast his vote?",
+          "What if a voter walks into a booth and is prevented from voting by officials for breaching rules and the sanctity of the secret ballot?",
+          "Such cases, it is believed, are rare and comprise a miniscule percentage of votes."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Form"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Votes are required to be cast in the same order as recorded in 17A. When the polling ends, the presiding officer pushes on the ‘close’ button on the control unit of the EVM which shows the number of votes cast, which is then recorded in Form 17C. The two counts should ordinarily match.",
+            "source": "National Herald",
+            "item_id": "86857855943ef3ab42be39a7:article",
+            "composed": false
+          },
+          {
+            "text": "The second records the details in Form 17A and issues a slip.",
+            "source": "National Herald",
+            "item_id": "86857855943ef3ab42be39a7:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/politics/election-commission-ignored-mismatch-between-votes-cast-and-votes-counted-reporters-collective"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "1376c9892f53c294f89bd1ec",
       "story_id": "1376c9892f53c294f89bd1ec",
       "headline": "Is AI selloff a window to buy? Morgan Stanley sees multiple buying opportunities on Wall Street",
@@ -502,7 +613,7 @@
         "event term: 'election results' in summary weight 38.4",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -635,7 +746,7 @@
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -744,7 +855,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -837,7 +948,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -939,7 +1050,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 44.4, score 44.4 -> HIGH"
@@ -1052,7 +1163,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.0h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1173,7 +1284,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1262,7 +1373,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'tariff' in summary weight 24",
         "scale: state scope (odisha)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 43.2, score 44 -> HIGH"
@@ -1378,7 +1489,7 @@
         "event term: 'takes charge' in title weight 40",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: education (importance 0.9) +0",
         "geo: national",
         "dominant event 40, stack 30, score 40 -> HIGH"
@@ -1483,7 +1594,7 @@
         "event term: 'cabinet nod' in title weight 40",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 35.2, score 40 -> HIGH"
@@ -1553,105 +1664,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
-    },
-    {
-      "event_id": "7c63beff835c46b6857e63fb",
-      "story_id": "7c63beff835c46b6857e63fb",
-      "headline": "India's Shourya Ambure wins historic 100m hurdles bronze at Youth Olympics",
-      "title": "India's Shourya Ambure wins historic 100m hurdles bronze at Youth Olympics",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/sports-news/indias-shourya-ambure-wins-historic-100m-hurdles-bronze-at-youth-olympics",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "sports",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 55.0,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-10T07:05:23+00:00",
-      "published_at": "2026-11-10T07:05:23+00:00",
-      "effective_at": "2026-11-10T07:05:23.582000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: sports (importance 0.6, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'olympics' in title weight 40",
-        "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
-        "category: sports (importance 0.6) +0",
-        "geo: national",
-        "dominant event 40, stack 19, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "DAKAR: Promising Indian sprinter Shourya Ambure won a historic bronze medal in the women’s 100m hurdles, clocking her personal best time at the Youth Olympics here.",
-        "Incidentally, the 17-year-old Ambure from Maharashtra was the only track and field athlete from India at the Games and she clocked a personal best time of 13.59 seconds to ensure a podium finish.",
-        "The gold was won by China’s Zhang Keyi with a wind assisted timing of 13.17 followed by Frenchwoman Anna Peeters, who clocked 13.57 seconds.",
-        "In fact, Ambure bettered her personal best twice on the same day, having clocked 13.77 seconds in the semifinal."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "DAKAR: Promising Indian sprinter Shourya Ambure won a historic bronze medal in the women’s 100m hurdles, clocking her personal best time at the Youth Olympics here.",
-          "Incidentally, the 17-year-old Ambure from Maharashtra was the only track and field athlete from India at the Games and she clocked a personal best time of 13.59 seconds to ensure a podium finish."
-        ],
-        "body": [
-          "The gold was won by China’s Zhang Keyi with a wind assisted timing of 13.17 followed by Frenchwoman Anna Peeters, who clocked 13.57 seconds.",
-          "In fact, Ambure bettered her personal best twice on the same day, having clocked 13.77 seconds in the semifinal."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Incidentally, the 17-year-old Ambure from Maharashtra was the only track and field athlete from India at the Games and she clocked a personal best time of 13.59 seconds to ensure a podium finish.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "7c63beff835c46b6857e63fb:article",
-            "composed": false
-          },
-          {
-            "text": "The gold was won by China’s Zhang Keyi with a wind assisted timing of 13.17 followed by Frenchwoman Anna Peeters, who clocked 13.57 seconds.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "7c63beff835c46b6857e63fb:article",
-            "composed": false
-          },
-          {
-            "text": "DAKAR: Promising Indian sprinter Shourya Ambure won a historic bronze medal in the women’s 100m hurdles, clocking her personal best time at the Youth Olympics here.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "7c63beff835c46b6857e63fb:article",
-            "composed": false
-          },
-          {
-            "text": "In fact, Ambure bettered her personal best twice on the same day, having clocked 13.77 seconds in the semifinal.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "7c63beff835c46b6857e63fb:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/sports-news/indias-shourya-ambure-wins-historic-100m-hurdles-bronze-at-youth-olympics"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
     }
   ]
 }
