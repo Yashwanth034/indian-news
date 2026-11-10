@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T06:11:49.732369+00:00",
-  "count": 5,
+  "generated_at": "2026-11-10T06:22:00.644632+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "6fac7d39643d5e96c4b14e2e",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -170,7 +170,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -297,7 +297,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'tariff' in summary weight 24",
         "scale: state scope (odisha)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -410,7 +410,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -495,6 +495,93 @@
       "enrichment": "article"
     },
     {
+      "event_id": "727c297cdfb52f6f6d10126f",
+      "story_id": "727c297cdfb52f6f6d10126f",
+      "headline": "Bihar Govt. Additional Advocate General And Additional Standing Counsel Vacancy At Supreme Court Of India",
+      "title": "Bihar Govt. Additional Advocate General And Additional Standing Counsel Vacancy At Supreme Court Of India",
+      "summary": "",
+      "url": "https://www.livelaw.in/job-updates/additional-advocate-general-and-additional-standing-counsel-vacancy-at-honble-supreme-court-of-india-557971",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-10T06:17:59+00:00",
+      "published_at": "2026-11-10T06:17:59+00:00",
+      "effective_at": "2026-11-10T06:17:59+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "bihar",
+      "national_significance": true,
+      "article_sentences": [
+        "Government of Bihar invites applications for engagement as Law officers of the Govt.",
+        "- Advocate who is/are eligible as per the eligibility criteria fixed in the Bihar Law officers (Engagement) Rules, 2023.",
+        "How to apply?"
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Government of Bihar invites applications for engagement as Law officers of the Govt.",
+          "- Advocate who is/are eligible as per the eligibility criteria fixed in the Bihar Law officers (Engagement) Rules, 2023."
+        ],
+        "body": [
+          "How to apply?"
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "- Advocate who is/are eligible as per the eligibility criteria fixed in the Bihar Law officers (Engagement) Rules, 2023.",
+            "source": "LiveLaw",
+            "item_id": "727c297cdfb52f6f6d10126f:article",
+            "composed": false
+          },
+          {
+            "text": "Government of Bihar invites applications for engagement as Law officers of the Govt.",
+            "source": "LiveLaw",
+            "item_id": "727c297cdfb52f6f6d10126f:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/job-updates/additional-advocate-general-and-additional-standing-counsel-vacancy-at-honble-supreme-court-of-india-557971"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "f0b5149e5e80fe31b573c658",
       "story_id": "f0b5149e5e80fe31b573c658",
       "headline": "Five Days Left to Comment on China's Solar Technology Export Curbs, and India Is Already Affected",
@@ -541,7 +628,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 35.2, score 42 -> HIGH"
