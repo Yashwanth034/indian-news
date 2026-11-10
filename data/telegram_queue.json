@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:02:38.918849+00:00",
+  "generated_at": "2026-11-10T07:11:48.902531+00:00",
   "count": 9,
   "stories": [
     {
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -170,7 +170,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -301,7 +301,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'verdict' in summary weight 13.2",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -339,6 +339,105 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "d094da6774bd8a639660f0c6",
+      "story_id": "d094da6774bd8a639660f0c6",
+      "headline": "Delhi pollution: Rise in vehicular emissions warrant urgent action, says SC",
+      "title": "Delhi pollution: Rise in vehicular emissions warrant urgent action, says SC",
+      "summary": "The sharp increase in vehicular emissions warrant urgent intervention, the Supreme Court has said while directing the governments of Delhi and three neighbouring states to apprise it about the steps taken to prevent the entry and operation of over-age vehicles within the National Capital Region. The apex court directed the governments of Delhi, Uttar Pradesh, Rajasthan and Haryana, the Municipal Corporation of Delhi and the Delhi Police to file detailed responses indicating any further short-term and long-term measures proposed or contemplated to mitigate vehicular emissions and reduce their contribution to the deteriorating air quality in Delhi-NCR. It also directed them to file responses on measures presently in place to identify, monitor and regulate vehicles that do not conform to the prescribed emission standards, including the enforcement of Pollution Under Control (PUC) certification requirements. A bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V",
+      "url": "https://www.business-standard.com/india-news/delhi-pollution-rise-in-vehicular-emissions-warrant-urgent-action-says-sc-126111000249_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "courts-law",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-10T06:58:53+00:00",
+      "published_at": "2026-11-10T06:58:53+00:00",
+      "effective_at": "2026-11-10T06:58:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "scale: multi-state (4 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 26.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The sharp increase in vehicular emissions warrant urgent intervention, the Supreme Court has said while directing the governments of Delhi and three neighbouring states to apprise it about the steps taken to prevent the entry and operation of over-age vehicles within the National Capital Region.",
+          "The apex court directed the governments of Delhi, Uttar Pradesh, Rajasthan and Haryana, the Municipal Corporation of Delhi and the Delhi."
+        ],
+        "body": [
+          "Police to file detailed responses indicating any further short-term and long-term measures proposed or contemplated to mitigate vehicular emissions and reduce their contribution to the deteriorating air quality in Delhi-NCR.",
+          "It also directed them to file responses on measures presently in place to identify, monitor and regulate vehicles that do not conform to the prescribed emission standards, including the enforcement of Pollution Under Control (PUC) certification requirements.",
+          "A bench comprising Chief Justice Surya Kant and Justices Joymalya Bagchi and V."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi-NCR"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under control"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police to file detailed responses indicating any further short-term and long-term measures proposed or contemplated to mitigate vehicular emissions and reduce their contribution to the deteriorating air quality in Delhi-NCR.",
+            "source": "Business Standard",
+            "item_id": "d094da6774bd8a639660f0c6",
+            "composed": false
+          },
+          {
+            "text": "The sharp increase in vehicular emissions warrant urgent intervention, the Supreme Court has said while directing the governments of Delhi and three neighbouring states to apprise it about the steps taken to prevent the entry and operation of over-age vehicles within the National Capital Region.",
+            "source": "Business Standard",
+            "item_id": "d094da6774bd8a639660f0c6",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/india-news/delhi-pollution-rise-in-vehicular-emissions-warrant-urgent-action-says-sc-126111000249_1.html"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -385,7 +484,7 @@
         "event term: 'cabinet approves' in title weight 44",
         "event term: 'tariff' in summary weight 24",
         "scale: state scope (odisha)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -455,134 +554,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "c2c646a5474e4aa71bafb473",
-      "story_id": "c2c646a5474e4aa71bafb473",
-      "headline": "Supreme Court seeks action plan on Delhi-NCR vehicular pollution in 2 weeks",
-      "title": "Supreme Court seeks action plan on Delhi-NCR vehicular pollution in 2 weeks",
-      "summary": "Supreme Court seeks action plan on Delhi-NCR vehicular pollution in 2 weeks",
-      "url": "https://www.indiatoday.in/india/law-news/story/delhi-ncr-vehicular-pollution-supreme-court-seeks-action-plan-3035777-2026-11-10",
-      "source": "India Today",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [
-        "energy-environment"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-10T04:01:04+00:00",
-      "published_at": "2026-11-10T04:01:04+00:00",
-      "effective_at": "2026-11-10T04:01:04+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "article_sentences": [
-        "A bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana directed the governments to submit plans covering vehicular movement, emission standards and measures to curb polluting vehicles.",
-        "The Supreme Court has sought a detailed action plan within two weeks from Delhi, Haryana, Uttar Pradesh and Rajasthan to tackle vehicular pollution in the National Capital Region (NCR).",
-        "A bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana directed the Delhi government, the Municipal Corporation of Delhi (MCD), Delhi Police’s traffic department and the three state governments to submit plans covering vehicular movement, emission standards and measures to curb polluting vehicles.",
-        "The court sought details of the criteria and procedures used to ensure compliance with vehicle emission standards.",
-        "It also asked how strictly the rules governing Pollution Under Control (PUC) certificates were being enforced.",
-        "The bench sought details of action taken against old vehicles and those failing to meet prescribed standards, including the number of vehicles checked and challans issued.",
-        "The vehicular pollution matter will next be heard on November 23.",
-        "The court’s directions come amid worsening air quality in Delhi-NCR.",
-        "The Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan (GRAP) on Friday, ahead of Diwali.",
-        "The revised Stage III framework comprises a 10-point action plan for the NCR, which includes Delhi and parts of Haryana, Uttar Pradesh and Rajasthan.",
-        "One of the major measures is a ban on several dust-generating construction and demolition activities.",
-        "These include excavation, piling, demolition, brickwork, road construction, major welding operations, painting, polishing and the movement of construction materials on unpaved roads."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "A bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana directed the governments to submit plans covering vehicular movement, emission standards and measures to curb polluting vehicles.",
-          "The Supreme Court has sought a detailed action plan within two weeks from Delhi, Haryana, Uttar Pradesh and Rajasthan to tackle vehicular pollution in the National Capital Region (NCR)."
-        ],
-        "body": [
-          "A bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana directed the Delhi government, the Municipal Corporation of Delhi (MCD), Delhi Police’s traffic department and the three state governments to submit plans covering vehicular movement, emission standards and measures to curb polluting vehicles.",
-          "The court sought details of the criteria and procedures used to ensure compliance with vehicle emission standards.",
-          "It also asked how strictly the rules governing Pollution Under Control (PUC) certificates were being enforced.",
-          "The bench sought details of action taken against old vehicles and those failing to meet prescribed standards, including the number of vehicles checked and challans issued.",
-          "The vehicular pollution matter will next be heard on November 23.",
-          "The court’s directions come amid worsening air quality in Delhi-NCR.",
-          "The Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan (GRAP) on Friday, ahead of Diwali.",
-          "The revised Stage III framework comprises a 10-point action plan for the NCR, which includes Delhi and parts of Haryana, Uttar Pradesh and Rajasthan."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Delhi-NCR"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "under control"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The vehicular pollution matter will next be heard on November 23.",
-            "source": "India Today",
-            "item_id": "c2c646a5474e4aa71bafb473:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court has sought a detailed action plan within two weeks from Delhi, Haryana, Uttar Pradesh and Rajasthan to tackle vehicular pollution in the National Capital Region (NCR).",
-            "source": "India Today",
-            "item_id": "c2c646a5474e4aa71bafb473:article",
-            "composed": false
-          },
-          {
-            "text": "The Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan (GRAP) on Friday, ahead of Diwali.",
-            "source": "India Today",
-            "item_id": "c2c646a5474e4aa71bafb473:article",
-            "composed": false
-          },
-          {
-            "text": "The court’s directions come amid worsening air quality in Delhi-NCR.",
-            "source": "India Today",
-            "item_id": "c2c646a5474e4aa71bafb473:article",
-            "composed": false
-          }
-        ],
-        "source": "India Today",
-        "corroborating": [],
-        "url": "https://www.indiatoday.in/india/law-news/story/delhi-ncr-vehicular-pollution-supreme-court-seeks-action-plan-3035777-2026-11-10"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "6a026f19539fdb7a0ee76aca",
       "story_id": "6a026f19539fdb7a0ee76aca",
       "headline": "Supreme Court Directs UP Gov To Identify Undertrials Granted Bail But Haven't Been Released From Jail In 75 Districts",
@@ -624,7 +595,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -745,7 +716,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -837,7 +808,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 31.2, score 42 -> HIGH"
@@ -968,7 +939,7 @@
         "event term: 'match' in summary weight 4.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 8, stack 38.8, score 38.8 -> HIGH"
