@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T03:41:44.651124+00:00",
-  "count": 9,
+  "generated_at": "2026-11-12T03:51:48.633698+00:00",
+  "count": 11,
   "stories": [
     {
       "event_id": "5d884b63ba8a80b31c22a2e0",
@@ -59,7 +59,7 @@
         "event term: 'terror attack' in title weight 84",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 45, score 84 -> IMMEDIATE"
@@ -67,7 +67,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Nov 12: A team of the National Investigation Agency (NIA) will visit the site of terror attack on a CRPF checkpoint in south Kashmir’s Kulgam district to collect samples and examine forensic evidence.",
@@ -128,8 +128,113 @@
         "url": "https://www.greaterkashmir.com/kashmir/nia-team-to-visit-kulgam-terror-attack-site-to-collect-samples-12802427"
       },
       "group_size": 2,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "04bff84660c552f8d5e32bce",
+      "story_id": "04bff84660c552f8d5e32bce",
+      "headline": "4.9-magnitude earthquake hits West Sikkim",
+      "title": "4.9-magnitude earthquake hits West Sikkim",
+      "summary": "",
+      "url": "https://economictimes.indiatimes.com/news/india/4-9-magnitude-moderate-earthquake-hits-west-sikkim-mild-tremors-felt-in-gangtok/articleshow/135753635.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 57.0,
+      "priority_score": 82.0,
+      "priority_level": "IMMEDIATE",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-12T03:25:15+00:00",
+      "published_at": "2026-11-12T03:25:15+00:00",
+      "effective_at": "2026-11-12T03:25:15+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'earthquake'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'earthquake' in title weight 82",
+        "scale: state scope (sikkim)",
+        "recency: breaking (0.4h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 82, stack 28, score 82 -> IMMEDIATE"
+      ],
+      "geo_scope": "state",
+      "state": "sikkim",
+      "national_significance": true,
+      "article_sentences": [
+        "Gangtok, A 4.9-magnitude earthquake struck the Sikkim-Nepal region early Thursday morning, triggering mild tremors in parts of West and Sikkim, including the state capital Gangtok.",
+        "Officials said there were no reports of property damage or casualties at the time of filing the copy.",
+        "The moderate earthquake occurred at 4.30 am, with its epicentre located around 40 km northwest of Yuksom in Gyalshing district of West Sikkim, according to the National Centre for Seismology (NCS).",
+        "The NCS said the earthquake was recorded at a depth of 73 km, at latitude 27.671 degrees north and longitude 87.987 degrees east.",
+        "Mild tremors were felt in several areas of West Sikkim, as well as parts of East Sikkim, including the state capital."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Gangtok, A 4.9-magnitude earthquake struck the Sikkim-Nepal region early Thursday morning, triggering mild tremors in parts of West and Sikkim, including the state capital Gangtok.",
+          "Officials said there were no reports of property damage or casualties at the time of filing the copy."
+        ],
+        "body": [
+          "The moderate earthquake occurred at 4.30 am, with its epicentre located around 40 km northwest of Yuksom in Gyalshing district of West Sikkim, according to the National Centre for Seismology (NCS).",
+          "The NCS said the earthquake was recorded at a depth of 73 km, at latitude 27.671 degrees north and longitude 87.987 degrees east.",
+          "Mild tremors were felt in several areas of West Sikkim, as well as parts of East Sikkim, including the state capital."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gyalshing district"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The moderate earthquake occurred at 4.30 am, with its epicentre located around 40 km northwest of Yuksom in Gyalshing district of West Sikkim, according to the National Centre for Seismology (NCS).",
+            "source": "The Economic Times",
+            "item_id": "04bff84660c552f8d5e32bce:article",
+            "composed": false
+          },
+          {
+            "text": "Gangtok, A 4.9-magnitude earthquake struck the Sikkim-Nepal region early Thursday morning, triggering mild tremors in parts of West and Sikkim, including the state capital Gangtok.",
+            "source": "The Economic Times",
+            "item_id": "04bff84660c552f8d5e32bce:article",
+            "composed": false
+          },
+          {
+            "text": "The NCS said the earthquake was recorded at a depth of 73 km, at latitude 27.671 degrees north and longitude 87.987 degrees east.",
+            "source": "The Economic Times",
+            "item_id": "04bff84660c552f8d5e32bce:article",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/news/india/4-9-magnitude-moderate-earthquake-hits-west-sikkim-mild-tremors-felt-in-gangtok/articleshow/135753635.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "021ef56c5899c8fcdc88eefb",
@@ -156,10 +261,11 @@
         "pti": {
           "kind": "wire",
           "source_ids": [
+            "business-standard",
             "mathrubhumi",
             "telangana-today"
           ],
-          "count": 2
+          "count": 3
         }
       },
       "is_wire_echo": true,
@@ -172,11 +278,11 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (mathrubhumi) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: event has 3 copies, primary source counted once",
         "corroboration: wire echo (pti) -> no independent boost",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (sikkim)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 22, score 82 -> IMMEDIATE"
@@ -245,130 +351,6 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
-    },
-    {
-      "event_id": "3da30927176dc92f378c9cd9",
-      "story_id": "3da30927176dc92f378c9cd9",
-      "headline": "Oil below $92 amid hopes of peace talks",
-      "title": "Oil below $92 amid hopes of peace talks",
-      "summary": "Oil prices edged lower by more than $1 on Thursday as investors increasingly hopes for peace talks to resolve the Middle East conflict as well as the much-longer lasting Russia-Ukraine war.Brent crude futures fell more than $1 to trade below $92 per barrel, while US West Texas Intermediate (WTI) crude futures also lost over $1 to trade below $86 per barrel on Thursday morning. This comes after Brent crude rose over 1% on Wednesday after hitting two-month lows in the previous day.Russian and Ukrainian negotiators have agreed to a major prisoner exchange during their peace talks held over two days in Abu Dhabi, although US mediators said differences remained on other major issues, including territory. Ukrainian President Volodymyr Zelenskyy said his country hoped to achieve concrete results on resolving the war this year.Also read | India's battered rupee finds an unlikely rescue party in cheaper oil and Wall Street's AI routBack in the Middle East, Iranian security chief Mohsen Rezaei said the government will not allow even a single particle of enriched nuclear material to leave Iran and there will be consequences if the US launches new strikes. The US meanwhile has said that nuclear issues must be part of any initial negotiations with Iran aimed at ending the eight-month-old war, while US officials downplayed the need for further military strikes.Meanwhile, OPEC+ crude oil production jumped in October, driven by a sharp increase in output from Saudi Arabia despite continued disruption to shipments through the Hormuz Strait. US crude stocks jumped by 9 million barrels in the latest week, Reuters quoted market sources as saying, citing data from the American Petroleum Institute.Where are oil prices heading for?While oil prices have dropped from their multi decade highs which they hit earlier this year, analysts remain cautious amid the seesaw political game in the Middle East. Goldman Sachs recently raised its oil price forecasts, citing increasing risks to global supplies. The investment bank warned that Brent crude could climb to $140 per barrel in 2027 if oil production across the Gulf region remains significantly below its 2025 average.Goldman Sachs recently raised its oil price forecasts, citing increasing risks to global supplies. The investment bank warned that Brent crude could climb to $140 per barrel in 2027 if oil production across the Gulf region remains significantly below its 2025 average.Also read | India in a 'sweet spot' amid oil volatility and currency dynamics: Kotak Neo's Anindya BanerjeeIn an upside scenario, Brent crude could reach $140 per barrel and average around $130 in 2027 if Gulf oil production remains 3.5 million barrels per day below its 2025 average, Reuters reported, citing Goldman Sachs' projections.Goldman Sachs expects oil markets to incorporate a higher geopolitical risk premium, given the possibility of disruptions to Middle Eastern supplies, the historical duration of major supply shocks and the challenges involved in securing a lasting diplomatic breakthrough.JPMorgan analysts also highlighted the uncertainty surrounding the conflict, saying it remained difficult to predict how the war would unfold. At the outset, the bank had expected the US administration to avoid crossing certain economic thresholds. However, seven months into the conflict, several of those thresholds have been breached, while a clear strategy to bring the war to an end has yet to emerge.Disclaimer: This article has been written by Debaroti Adhikary, who is not a SEBI-registered Research Analyst or an Investment Adviser. Debaroti Adhikary and his/her ‘relative(s)’ (as defined under Section 2(77) of the Companies Act, 2013) do not hold any financial interest in the companies mentioned in this article as of the date of publication. The views/recommendations mentioned in this article, wherever applicable, are those of the respective SEBI-registered Research Analyst/brokerage and have been reproduced/reported with due attribution. They should not be construed as the views or recommendations of The Economic Times Digital or the journalist. Readers are advised to consider the original research report and make their investment decisions based on their own assessment. Brokerage disclaimers here.",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-november-12-brent-crude-falls-below-92-amid-hopes-for-us-iran-russia-ukraine-peace-talks/articleshow/135752615.cms",
-      "source": "The Economic Times",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "defence-security",
-        "technology-digital"
-      ],
-      "confidence": "medium",
-      "score": 78.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-12T02:27:06+00:00",
-      "published_at": "2026-11-12T02:27:06+00:00",
-      "effective_at": "2026-11-12T02:27:06+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "reuters": {
-          "kind": "wire",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'war' in summary weight 49.2",
-        "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 49.2, stack 31.6, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Oil prices edged lower by more than $1 on Thursday as investors increasingly hopes for peace talks to resolve the Middle East conflict as well as the much-longer lasting Russia-Ukraine war.",
-          "Brent crude futures fell more than $1 to trade below $92 per barrel, while US West Texas Intermediate (WTI) crude futures also lost over $1 to trade below $86 per barrel on Thursday morning."
-        ],
-        "body": [
-          "This comes after Brent crude rose over 1% on Wednesday after hitting two-month lows in the previous day.",
-          "Russian and Ukrainian negotiators have agreed to a major prisoner exchange during their peace talks held over two days in Abu Dhabi, although US mediators said differences remained on other major issues, including territory.",
-          "Ukrainian President Volodymyr Zelenskyy said his country hoped to achieve concrete results on resolving the war this year.",
-          "Also read | India's battered rupee finds an unlikely rescue party in cheaper oil and Wall Street's AI routBack in the Middle East, Iranian security chief Mohsen Rezaei said the government will not allow even a single particle of enriched nuclear material to leave Iran and there will be consequences if the US launches new strikes.",
-          "The US meanwhile has said that nuclear issues must be part of any initial negotiations with Iran aimed at ending the eight-month-old war, while US officials downplayed the need for further military strikes.",
-          "Meanwhile, OPEC+ crude oil production jumped in October, driven by a sharp increase in output from Saudi Arabia despite continued disruption to shipments through the Hormuz Strait.",
-          "US crude stocks jumped by 9 million barrels in the latest week, Reuters quoted market sources as saying, citing data from the American Petroleum Institute.",
-          "Where are oil prices heading for?",
-          "While oil prices have dropped from their multi decade highs which they hit earlier this year, analysts remain cautious amid the seesaw political game in the Middle East.",
-          "Goldman Sachs recently raised its oil price forecasts, citing increasing risks to global supplies.",
-          "The investment bank warned that Brent crude could climb to $140 per barrel in 2027 if oil production across the Gulf region remains significantly below its 2025 average.",
-          "Also read | India in a 'sweet spot' amid oil volatility and currency dynamics: Kotak Neo's Anindya Banerjee.",
-          "Goldman Sachs expects oil markets to incorporate a higher geopolitical risk premium, given the possibility of disruptions to Middle Eastern supplies, the historical duration of major supply shocks and the challenges involved in securing a lasting diplomatic breakthrough.",
-          "JPMorgan analysts also highlighted the uncertainty surrounding the conflict, saying it remained difficult to predict how the war would unfold.",
-          "At the outset, the bank had expected the US administration to avoid crossing certain economic thresholds.",
-          "However, seven months into the conflict, several of those thresholds have been breached, while a clear strategy to bring the war to an end has yet to emerge.",
-          "Disclaimer: This article has been written by Debaroti Adhikary, who is not a SEBI-registered Research Analyst or an Investment Adviser.",
-          "Debaroti Adhikary and his/her ‘relative(s)’ (as defined under Section 2(77) of the Companies Act, 2013) do not hold any financial interest in the companies mentioned in this article as of the date of publication.",
-          "The views/recommendations mentioned in this article, wherever applicable, are those of the respective SEBI-registered Research Analyst/brokerage and have been reproduced/reported with due attribution.",
-          "They should not be construed as the views or recommendations of The Economic Times Digital or the journalist.",
-          "Readers are advised to consider the original research report and make their investment decisions based on their own assessment.",
-          "Brokerage disclaimers here."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Abu Dhabi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Meanwhile, OPEC+ crude oil production jumped in October, driven by a sharp increase in output from Saudi Arabia despite continued disruption to shipments through the Hormuz Strait.",
-            "source": "The Economic Times",
-            "item_id": "3da30927176dc92f378c9cd9",
-            "composed": false
-          },
-          {
-            "text": "Brent crude futures fell more than $1 to trade below $92 per barrel, while US West Texas Intermediate (WTI) crude futures also lost over $1 to trade below $86 per barrel on Thursday morning.",
-            "source": "The Economic Times",
-            "item_id": "3da30927176dc92f378c9cd9",
-            "composed": false
-          },
-          {
-            "text": "The investment bank warned that Brent crude could climb to $140 per barrel in 2027 if oil production across the Gulf region remains significantly below its 2025 average.",
-            "source": "The Economic Times",
-            "item_id": "3da30927176dc92f378c9cd9",
-            "composed": false
-          },
-          {
-            "text": "This comes after Brent crude rose over 1% on Wednesday after hitting two-month lows in the previous day.",
-            "source": "The Economic Times",
-            "item_id": "3da30927176dc92f378c9cd9",
-            "composed": false
-          }
-        ],
-        "source": "The Economic Times",
-        "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-november-12-brent-crude-falls-below-92-amid-hopes-for-us-iran-russia-ukraine-peace-talks/articleshow/135752615.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
     },
     {
       "event_id": "bac0a38a3627c16e074985cd",
@@ -440,7 +422,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "event term: 'landslide' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -631,6 +613,243 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "cc9d0d48a8db1e9ac2806107",
+      "story_id": "cc9d0d48a8db1e9ac2806107",
+      "headline": "Tata Power Appoints Sanjay Banga as CEO and Managing Director",
+      "title": "Tata Power Appoints Sanjay Banga as CEO and Managing Director",
+      "summary": "Tata Power, at its latest Board meeting, appointed Sanjay Banga as Chief Executive Officer (CEO), Managing Director (MD), and Key Managerial Personnel (KMP) for a five-year term from May 1, 2027, to April 30, 2032 (both days inclusive), subject to shareholder approval. Effective November 11, 2026, Banga has also been appointed as an Additional Director of Tata Power and Chief Executive Officer Designate (CEO) of the company. In a regulatory filing, Tata Power announced Sanjay Banga's appointment , following the Board of Directors' decision based on the recommendation of the Nomination and Remuneration Committee. Previously, Banga served as the Chief Executive Officer (CEO) and Managing Director (MD) of Tata Power Renewable Energy Limited. He currently serves as President – Renewables at The Tata Power Company Limited (Tata Power). Banga is a power-sector professional with more than three decades of experience in the operational and commercial management of distribution companies, business development, digital transformation, project management, change management, regulatory advocacy and stakeholder management. Brief Profile Banga previously served as President of the Transmission and Distribution businesses. His responsibilities included overseeing the performance of distribution companies across Odisha, Mumbai, Delhi and Ajmer. He was also responsible for overseeing Mumbai's transmission business, Powerlinks Transmission Limited and transmission assets in Uttar Pradesh. Banga also served as the Chief Executive Officer of Tata Power Delhi Distribution Limited (TPDDL), a notable public-private partnership (JV) between Tata Power and the Government of the National Capital Territory of Delhi. Banga began his career as an Engineer Trainee at National Thermal Power Corporation Limited (NTPC), where he was involved in the operation and commissioning of super thermal power projects from 1989 to 1995. Before joining TPDDL in 2003, he worked with Reliance Energy (formerly BSES Limited) from 1996 to 2003. His responsibilities covered operations, maintenance, planning, design and project engineering for thermal power projects. His experience with public- and private-sector electricity utilities in India has given him a broad understanding of the challenges facing the electricity distribution sector. He is also a regular speaker at seminars, workshops and panel discussions in India and abroad. Banga is an alumnus of the National Institute of Technology, Kurukshetra, and holds a Master of Business Administration degree from the Faculty of Management Studies, University of Delhi. He has also completed the Senior Executive Leadership Program at Harvard Business School and holds alumni status.",
+      "url": "https://www.saurenergy.com/solar-energy-news/tata-power-appoints-sanjay-banga-as-ceo-and-managing-director-12802010",
+      "source": "Saur Energy",
+      "primary_source": false,
+      "tier": 3,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "business-industry",
+        "education"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-12T03:42:35+00:00",
+      "published_at": "2026-11-12T03:42:35+00:00",
+      "effective_at": "2026-11-12T03:42:35+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "saur-energy": {
+          "kind": "independent",
+          "source_ids": [
+            "saur-energy"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (saur-energy) +1",
+        "source: specialist (saur-energy) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'appointed as' in summary weight 24",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "scale: multi-state (4 states)",
+        "recency: breaking (0.2h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 24, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Tata Power, at its latest Board meeting, appointed Sanjay Banga as Chief Executive Officer (CEO), Managing Director (MD), and Key Managerial Personnel (KMP) for a five-year term from May 1, 2027, to April 30, 2032 (both days inclusive), subject to shareholder approval.",
+          "Effective November 11, 2026, Banga has also been appointed as an Additional Director of Tata Power and Chief Executive Officer Designate (CEO) of the company."
+        ],
+        "body": [
+          "In a regulatory filing, Tata Power announced Sanjay Banga's appointment, following the Board of Directors' decision based on the recommendation of the Nomination and Remuneration Committee.",
+          "Previously, Banga served as the Chief Executive Officer (CEO) and Managing Director (MD) of Tata Power Renewable Energy Limited.",
+          "He currently serves as President – Renewables at The Tata Power Company Limited (Tata Power).",
+          "Banga is a power-sector professional with more than three decades of experience in the operational and commercial management of distribution companies, business development, digital transformation, project management, change management, regulatory advocacy and stakeholder management.",
+          "Brief Profile Banga previously served as President of the Transmission and Distribution businesses.",
+          "His responsibilities included overseeing the performance of distribution companies across Odisha, Mumbai, Delhi and Ajmer.",
+          "He was also responsible for overseeing Mumbai's transmission business, Powerlinks Transmission Limited and transmission assets in Uttar Pradesh.",
+          "Banga also served as the Chief Executive Officer of Tata Power Delhi Distribution Limited (TPDDL), a notable public-private partnership (JV) between Tata Power and the Government of the National Capital Territory of Delhi.",
+          "Banga began his career as an Engineer Trainee at National Thermal Power Corporation Limited (NTPC), where he was involved in the operation and commissioning of super thermal power projects from 1989 to 1995.",
+          "Before joining TPDDL in 2003, he worked with Reliance Energy (formerly BSES Limited) from 1996 to 2003.",
+          "His responsibilities covered operations, maintenance, planning, design and project engineering for thermal power projects.",
+          "His experience with public- and private-sector electricity utilities in India has given him a broad understanding of the challenges facing the electricity distribution sector.",
+          "He is also a regular speaker at seminars, workshops and panel discussions in India and abroad.",
+          "Banga is an alumnus of the National Institute of Technology, Kurukshetra, and holds a Master of Business Administration degree from the Faculty of Management Studies, University of Delhi.",
+          "He has also completed the Senior Executive Leadership Program at Harvard Business School and holds alumni status."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Odisha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Tata Power, at its latest Board meeting, appointed Sanjay Banga as Chief Executive Officer (CEO), Managing Director (MD), and Key Managerial Personnel (KMP) for a five-year term from May 1, 2027, to April 30, 2032 (both days inclusive), subject to shareholder approval.",
+            "source": "Saur Energy",
+            "item_id": "cc9d0d48a8db1e9ac2806107",
+            "composed": false
+          },
+          {
+            "text": "Effective November 11, 2026, Banga has also been appointed as an Additional Director of Tata Power and Chief Executive Officer Designate (CEO) of the company.",
+            "source": "Saur Energy",
+            "item_id": "cc9d0d48a8db1e9ac2806107",
+            "composed": false
+          },
+          {
+            "text": "Banga began his career as an Engineer Trainee at National Thermal Power Corporation Limited (NTPC), where he was involved in the operation and commissioning of super thermal power projects from 1989 to 1995.",
+            "source": "Saur Energy",
+            "item_id": "cc9d0d48a8db1e9ac2806107",
+            "composed": false
+          },
+          {
+            "text": "He currently serves as President – Renewables at The Tata Power Company Limited (Tata Power).",
+            "source": "Saur Energy",
+            "item_id": "cc9d0d48a8db1e9ac2806107",
+            "composed": false
+          }
+        ],
+        "source": "Saur Energy",
+        "corroborating": [],
+        "url": "https://www.saurenergy.com/solar-energy-news/tata-power-appoints-sanjay-banga-as-ceo-and-managing-director-12802010"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "1e927578c2066672070e7cf0",
+      "story_id": "1e927578c2066672070e7cf0",
+      "headline": "Tata Power eyes more state pacts to boost Mundra tariffs",
+      "title": "Tata Power eyes more state pacts to boost Mundra tariffs",
+      "summary": "Tata Power has been seeking tariffs that reflect fuel costs to operate its Mundra plant consistently",
+      "url": "https://www.thehindubusinessline.com/companies/tata-power-eyes-more-state-pacts-to-boost-mundra-tariffs/article71692202.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-12T03:40:46+00:00",
+      "published_at": "2026-11-12T03:40:46+00:00",
+      "effective_at": "2026-11-12T03:40:46+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'tariffs' in title weight 40",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": false,
+      "article_sentences": [
+        "Tata Power Co.",
+        "expects to soon sign agreements with four Indian states allowing it to charge cost reflective prices for electricity from its 4-gigawatt plant in Gujarat, reflecting higher coal costs, Chief Executive Officer Praveer Sinha said Wednesday.",
+        "“We are working closely with all of them to get these things finalised,” he told reporters on an earnings call.",
+        "“We expect at least two more states of Rajasthan and Haryana to sign before end of December.”",
+        "The company is seeking to finalise supplementary power-purchase contracts with Rajasthan, Maharashtra, Punjab and Haryana after it finalised a deal with Gujarat to sell power at prices that are in line with fuel costs.",
+        "Tata Power has been seeking tariffs that reflect fuel costs to operate its Mundra plant consistently.",
+        "The company agreed to sell electricity at a fixed price when it won the tender to build the plant on India’s west coast in December 2006, using coal imported from Indonesia.",
+        "That tariff became uneconomical after Indonesia changed its coal-pricing rules in 2010 and linked the fuel to international benchmarks, pushing the plant into years of losses and forcing it to operate below capacity.",
+        "Sinha also said the power producer has appealed to Singapore’s Supreme Court against a ruling that upheld a $490 million arbitration award against the company.",
+        "The appeal is scheduled for a hearing on January 19.",
+        "The Singapore International Commercial Court rejected Tata Power’s challenge to damages awarded to Kleros Capital Partners for violating an agreement related to a bid for a coal asset in Russia and denying the investor an opportunity to benefit.",
+        "The court also rejected Tata Power’s argument that the majority arbitration award breached principles of natural justice."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Tata Power Co.",
+          "expects to soon sign agreements with four Indian states allowing it to charge cost reflective prices for electricity from its 4-gigawatt plant in Gujarat, reflecting higher coal costs, Chief Executive Officer Praveer Sinha said Wednesday."
+        ],
+        "body": [
+          "“We expect at least two more states of Rajasthan and Haryana to sign before end of December.” The company is seeking to finalise supplementary power-purchase contracts with Rajasthan, Maharashtra, Punjab and Haryana after it finalised a deal with Gujarat to sell power at prices that are in line with fuel costs.",
+          "Tata Power has been seeking tariffs that reflect fuel costs to operate its Mundra plant consistently.",
+          "The company agreed to sell electricity at a fixed price when it won the tender to build the plant on India’s west coast in December 2006, using coal imported from Indonesia.",
+          "That tariff became uneconomical after Indonesia changed its coal-pricing rules in 2010 and linked the fuel to international benchmarks, pushing the plant into years of losses and forcing it to operate below capacity.",
+          "Sinha also said the power producer has appealed to Singapore’s Supreme Court against a ruling that upheld a $490 million arbitration award against the company.",
+          "The appeal is scheduled for a hearing on January 19.",
+          "The Singapore International Commercial Court rejected Tata Power’s challenge to damages awarded to Kleros Capital Partners for violating an agreement related to a bid for a coal asset in Russia and denying the investor an opportunity to benefit."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gujarat"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "“We are working closely with all of them to get these things finalised,” he told reporters on an earnings call."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The company agreed to sell electricity at a fixed price when it won the tender to build the plant on India’s west coast in December 2006, using coal imported from Indonesia.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1e927578c2066672070e7cf0:article",
+            "composed": false
+          },
+          {
+            "text": "The appeal is scheduled for a hearing on January 19.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1e927578c2066672070e7cf0:article",
+            "composed": false
+          },
+          {
+            "text": "Sinha also said the power producer has appealed to Singapore’s Supreme Court against a ruling that upheld a $490 million arbitration award against the company.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1e927578c2066672070e7cf0:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/companies/tata-power-eyes-more-state-pacts-to-boost-mundra-tariffs/article71692202.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "9b76d2d6606a1ad2724e3e1c",
       "story_id": "9b76d2d6606a1ad2724e3e1c",
       "headline": "Moody’s pegs India’s FY27 GDP growth at 7%, aided by robust consumption, investment",
@@ -681,7 +900,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -806,7 +1025,7 @@
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -982,7 +1201,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 44, stack 25.2, score 44 -> HIGH"
@@ -1101,7 +1320,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 22, score 38.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1203,7 +1422,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 38.4, stack 32.4, score 38.4 -> HIGH"
