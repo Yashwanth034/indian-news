@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T22:02:32.951253+00:00",
-  "count": 4,
+  "generated_at": "2026-11-12T22:12:17.174689+00:00",
+  "count": 5,
   "stories": [
     {
       "event_id": "0cb95eedcaad5f02871c8eae",
@@ -47,7 +47,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -168,7 +168,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -292,7 +292,7 @@
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 22, stack 45, score 45 -> HIGH"
@@ -338,6 +338,88 @@
         "source": "Rising Kashmir",
         "corroborating": [],
         "url": "https://risingkashmir.com/politics/aip-reviews-organisational-expansion-seeks-early-verdict-on-er-rashids-bail-12804868"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "2e7bb5edbb82b2fd777f50a4",
+      "story_id": "2e7bb5edbb82b2fd777f50a4",
+      "headline": "Supreme Court on 500g gold rule: Why married women may still need to explain the source of jewellery",
+      "title": "Supreme Court on 500g gold rule: Why married women may still need to explain the source of jewellery",
+      "summary": "According to the Income Tax Department’s instructions dated May 11, 1994, a married woman can possess up to 500 grams of gold, an unmarried woman up to 250 grams, and a man up to 100 grams. The case was sought to be dismissed on this basis.",
+      "url": "https://www.businesstoday.in/personal-finance/story/supreme-court-on-500g-gold-rule-why-married-women-may-still-need-to-explain-the-source-of-jewellery-567132-2026-11-13",
+      "source": "Business Today",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "economy-finance"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-12T21:40:06+00:00",
+      "published_at": "2026-11-12T21:40:06+00:00",
+      "effective_at": "2026-11-12T21:40:06+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "business-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.5h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "According to the Income Tax Department’s instructions dated May 11, 1994, a married woman can possess up to 500 grams of gold, an unmarried woman up to 250 grams, and a man up to 100 grams.",
+          "The case was sought to be dismissed on this basis."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "According to the Income Tax Department’s instructions dated May 11, 1994, a married woman can possess up to 500 grams of gold, an unmarried woman up to 250 grams, and a man up to 100 grams.",
+            "source": "Business Today",
+            "item_id": "2e7bb5edbb82b2fd777f50a4",
+            "composed": false
+          },
+          {
+            "text": "The case was sought to be dismissed on this basis.",
+            "source": "Business Today",
+            "item_id": "2e7bb5edbb82b2fd777f50a4",
+            "composed": false
+          }
+        ],
+        "source": "Business Today",
+        "corroborating": [],
+        "url": "https://www.businesstoday.in/personal-finance/story/supreme-court-on-500g-gold-rule-why-married-women-may-still-need-to-explain-the-source-of-jewellery-567132-2026-11-13"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -394,7 +476,7 @@
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: science-space (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 30.2, score 38.4 -> HIGH"
