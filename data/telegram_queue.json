@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T10:32:14.510906+00:00",
-  "count": 8,
+  "generated_at": "2026-11-14T10:41:59.878854+00:00",
+  "count": 10,
   "stories": [
     {
       "event_id": "e0f25014b428a5dd44106096",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -119,6 +119,127 @@
       "enrichment": "article"
     },
     {
+      "event_id": "02f4d451dfc9792b1824ab50",
+      "story_id": "02f4d451dfc9792b1824ab50",
+      "headline": "Cyclone may bring isolated heavy rain to Andhra Pradesh from November 18 to 20",
+      "title": "Cyclone may bring isolated heavy rain to Andhra Pradesh from November 18 to 20",
+      "summary": "According to the IMD’s afternoon bulletin, heavy rain is likely at one or two places in coastal Andhra Pradesh and gusty winds, with speed reaching 40-50 kmph, on November 18, 19 and 20.",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-may-bring-isolated-heavy-rain-to-andhra-pradesh-from-november-18-to-20/article71701292.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-14T10:29:32+00:00",
+      "published_at": "2026-11-14T10:29:32+00:00",
+      "effective_at": "2026-11-14T10:29:32+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.2h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "article_sentences": [
+        "The India Meteorological Department (IMD), Amaravati, has given a heavy rain forecast for the coastal.",
+        "A.P. from November 18 to 20, though no such warnings have been given on November 16 and 17, when the cyclonic storm is likely to make a landfall.",
+        "According to the IMD’s afternoon bulletin, heavy rain is likely at one or two places in coastal Andhra Pradesh and gusty winds, with speed reaching 40-50 kmph, on November 18, 19 and 20.",
+        "The State may not see much rain during the landfall.",
+        "On Saturday (November 14, 2026), the low-pressure over southeast Bay of Bengal strengthened into a well-marked low pressure.",
+        "It is very likely to move northwestwards and intensify into a depression over the same region by Sunday (November 15, 2026).",
+        "Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central parts of south and adjoining westcentral Bay of Bengal around November 16.",
+        "Weather experts at the Andhra Pradesh State Disaster Management Authority and IMD have said clarity on the probable landfall location may emerge after depression is formed.",
+        "At present, weather models are showing varied results, they said.",
+        "However, the IMD has said that squally weather, with wind speeds gusting up to 60 kmph, is very likely to prevail near the Southeast Bay of Bengal on November 14 and 15.",
+        "It may increase further to 70 kmph on November 16 and 17.",
+        "Near the Southwest Bay of Bengal, the wind speed may touch 80 kmph on November 17, and near the central parts, the gales may touch 75-85 kmph speed from November 17."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The India Meteorological Department (IMD), Amaravati, has given a heavy rain forecast for the coastal.",
+          "A.P. from November 18 to 20, though no such warnings have been given on November 16 and 17, when the cyclonic storm is likely to make a landfall."
+        ],
+        "body": [
+          "According to the IMD’s afternoon bulletin, heavy rain is likely at one or two places in coastal Andhra Pradesh and gusty winds, with speed reaching 40-50 kmph, on November 18, 19 and 20.",
+          "The State may not see much rain during the landfall.",
+          "On Saturday (November 14, 2026), the low-pressure over southeast Bay of Bengal strengthened into a well-marked low pressure.",
+          "It is very likely to move northwestwards and intensify into a depression over the same region by Sunday (November 15, 2026).",
+          "Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central parts of south and adjoining westcentral Bay of Bengal around November 16.",
+          "Weather experts at the Andhra Pradesh State Disaster Management Authority and IMD have said clarity on the probable landfall location may emerge after depression is formed.",
+          "At present, weather models are showing varied results, they said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "November"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A.P. from November 18 to 20, though no such warnings have been given on November 16 and 17, when the cyclonic storm is likely to make a landfall.",
+            "source": "The Hindu",
+            "item_id": "02f4d451dfc9792b1824ab50:article",
+            "composed": false
+          },
+          {
+            "text": "Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central parts of south and adjoining westcentral Bay of Bengal around November 16.",
+            "source": "The Hindu",
+            "item_id": "02f4d451dfc9792b1824ab50:article",
+            "composed": false
+          },
+          {
+            "text": "According to the IMD’s afternoon bulletin, heavy rain is likely at one or two places in coastal Andhra Pradesh and gusty winds, with speed reaching 40-50 kmph, on November 18, 19 and 20.",
+            "source": "The Hindu",
+            "item_id": "02f4d451dfc9792b1824ab50:article",
+            "composed": false
+          },
+          {
+            "text": "On Saturday (November 14, 2026), the low-pressure over southeast Bay of Bengal strengthened into a well-marked low pressure.",
+            "source": "The Hindu",
+            "item_id": "02f4d451dfc9792b1824ab50:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-may-bring-isolated-heavy-rain-to-andhra-pradesh-from-november-18-to-20/article71701292.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "edf11ac03549c119f31b7956",
       "story_id": "edf11ac03549c119f31b7956",
       "headline": "AP SEC Reviews Panchayat Election Preparedness",
@@ -165,7 +286,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -237,6 +358,123 @@
       "enrichment": "article"
     },
     {
+      "event_id": "ff1cef6db06f339ab8f8708b",
+      "story_id": "ff1cef6db06f339ab8f8708b",
+      "headline": "Four earthquakes strike Jammu and Kashmir in 12 hours",
+      "title": "Four earthquakes strike Jammu and Kashmir in 12 hours",
+      "summary": "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar. According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres. Three more earthquakes were subsequently recorded in Doda district. reported Kashmir Weather. The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres. Seventeen minutes later, at 8:48 am, another tremor measuring 3.8 magnitude was recorded in the district at a depth of five kilometres. The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres. The repeated seismic activity was concentrated in the Doda–Kishtwar belt, with the strongest tremor measuring 3.8 magnitude.",
+      "url": "https://www.greaterkashmir.com/kashmir/four-earthquakes-strike-jammu-and-kashmir-in-12-hours-12808848",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-14T08:25:45+00:00",
+      "published_at": "2026-11-14T08:25:45+00:00",
+      "effective_at": "2026-11-14T08:25:45+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'earthquake'",
+        "major: significance event 'earthquake'",
+        "major: significance event 'earthquake'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'earthquake' in summary weight 49.2",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (2.3h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 30, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "jammu and kashmir",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar.",
+          "According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres."
+        ],
+        "body": [
+          "Three more earthquakes were subsequently recorded in Doda district.",
+          "reported Kashmir Weather.",
+          "The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres.",
+          "Seventeen minutes later, at 8:48 am, another tremor measuring 3.8 magnitude was recorded in the district at a depth of five kilometres.",
+          "The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres.",
+          "The repeated seismic activity was concentrated in the Doda–Kishtwar belt, with the strongest tremor measuring 3.8 magnitude."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Doda district"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar.",
+            "source": "Greater Kashmir",
+            "item_id": "ff1cef6db06f339ab8f8708b",
+            "composed": false
+          },
+          {
+            "text": "According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres.",
+            "source": "Greater Kashmir",
+            "item_id": "ff1cef6db06f339ab8f8708b",
+            "composed": false
+          },
+          {
+            "text": "The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres.",
+            "source": "Greater Kashmir",
+            "item_id": "ff1cef6db06f339ab8f8708b",
+            "composed": false
+          },
+          {
+            "text": "The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres.",
+            "source": "Greater Kashmir",
+            "item_id": "ff1cef6db06f339ab8f8708b",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/kashmir/four-earthquakes-strike-jammu-and-kashmir-in-12-hours-12808848"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "07d466e9b4f080b071ba4ab4",
       "story_id": "07d466e9b4f080b071ba4ab4",
       "headline": "Cluster of Block Sports Meet Concludes Successfully in Anantnag, Over 150 Youth Participate",
@@ -280,7 +518,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 49.2, stack 23, score 49.2 -> HIGH"
@@ -410,7 +648,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -492,114 +730,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "ff1cef6db06f339ab8f8708b",
-      "story_id": "ff1cef6db06f339ab8f8708b",
-      "headline": "Four earthquakes strike Jammu and Kashmir in 12 hours",
-      "title": "Four earthquakes strike Jammu and Kashmir in 12 hours",
-      "summary": "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar. According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres. Three more earthquakes were subsequently recorded in Doda district. reported Kashmir Weather. The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres. Seventeen minutes later, at 8:48 am, another tremor measuring 3.8 magnitude was recorded in the district at a depth of five kilometres. The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres. The repeated seismic activity was concentrated in the Doda–Kishtwar belt, with the strongest tremor measuring 3.8 magnitude.",
-      "url": "https://www.greaterkashmir.com/kashmir/four-earthquakes-strike-jammu-and-kashmir-in-12-hours-12808848",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-14T08:25:45+00:00",
-      "published_at": "2026-11-14T08:25:45+00:00",
-      "effective_at": "2026-11-14T08:25:45+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "greater-kashmir": {
-          "kind": "independent",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'earthquake'",
-        "major: significance event 'earthquake'",
-        "major: significance event 'earthquake'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'earthquake' in summary weight 49.2",
-        "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.1h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 49.2, stack 24, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "jammu and kashmir",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar.",
-          "According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres."
-        ],
-        "body": [
-          "Three more earthquakes were subsequently recorded in Doda district.",
-          "reported Kashmir Weather.",
-          "The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres.",
-          "Seventeen minutes later, at 8:48 am, another tremor measuring 3.8 magnitude was recorded in the district at a depth of five kilometres.",
-          "The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres.",
-          "The repeated seismic activity was concentrated in the Doda–Kishtwar belt, with the strongest tremor measuring 3.8 magnitude."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Doda district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Srinagar, Nov 14: Four earthquakes of varying magnitudes struck Jammu and Kashmir over a period of around 11 hours on Saturday, with three of the tremors recorded in Doda district and one in Kishtwar.",
-            "source": "Greater Kashmir",
-            "item_id": "ff1cef6db06f339ab8f8708b",
-            "composed": false
-          },
-          {
-            "text": "According to the earthquake data, the first tremor, measuring 3.3 on the Richter scale, was recorded in Kishtwar district at 2:38 am, at a depth of 15 kilometres.",
-            "source": "Greater Kashmir",
-            "item_id": "ff1cef6db06f339ab8f8708b",
-            "composed": false
-          },
-          {
-            "text": "The fourth earthquake, measuring 2.9 magnitude, was recorded at 1:09 pm in Doda district, at a depth of 10 kilometres.",
-            "source": "Greater Kashmir",
-            "item_id": "ff1cef6db06f339ab8f8708b",
-            "composed": false
-          },
-          {
-            "text": "The second earthquake, measuring 2.7 magnitude, struck at 8:31 am at a depth of 10 kilometres.",
-            "source": "Greater Kashmir",
-            "item_id": "ff1cef6db06f339ab8f8708b",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/kashmir/four-earthquakes-strike-jammu-and-kashmir-in-12-hours-12808848"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "7c32eea1d7555d53fdebdcd7",
       "story_id": "7c32eea1d7555d53fdebdcd7",
       "headline": "Godhra train fire was deliberate, Sonia Gandhi's memoir claim is wrong: Ex-CBI officer",
@@ -645,7 +775,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -734,7 +864,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'resigns as' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -828,7 +958,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: national scope",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 19, score 40 -> HIGH"
@@ -906,6 +1036,109 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "6f47e1564b0c5f368c7434c8",
+      "story_id": "6f47e1564b0c5f368c7434c8",
+      "headline": "China border 'more alive,' India enhancing frontier infra: Jaishankar",
+      "title": "China border 'more alive,' India enhancing frontier infra: Jaishankar",
+      "summary": "India's border with China has become \"more alive\" and requires a much greater commitment of Indian troops on a sustained basis, External Affairs Minister S Jaishankar said on Saturday as he listed New Delhi's policy approach to enhance infrastructure along the frontier. Jaishankar also said that India has bolstered its military capabilities along the Line of Actual Control (LAC) since the deadly clashes in Eastern Ladakh's Galwan Valley in 2020. His remarks at an interactive session at the HT Leadership Summit came amid ongoing efforts by New Delhi and Beijing to normalise their relations that came under severe strain following the over four-year border face-off in Eastern Ladakh. \"Just think about the last few years. How often do you now read - a new tunnel has been built, some new bridge has been built, another airfield has been commissioned. You're getting this news with greater and greater frequency,\" he said. \"What has happened today is the border with China has become more",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/china-border-more-alive-india-enhancing-frontier-infra-jaishankar-126111400794_1.html",
+      "source": "Business Standard",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "international-affairs"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 38.8,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-14T10:25:23+00:00",
+      "published_at": "2026-11-14T10:25:23+00:00",
+      "effective_at": "2026-11-14T10:25:23+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "business-standard"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (business-standard) +1",
+        "source: specialist (business-standard) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'lac' in summary weight 37.2",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.3h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 37.2, stack 38.8, score 38.8 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "India's border with China has become \"more alive\" and requires a much greater commitment of Indian troops on a sustained basis, External Affairs Minister S Jaishankar said on Saturday as he listed New Delhi's policy approach to enhance infrastructure along the frontier.",
+          "Jaishankar also said that India has bolstered its military capabilities along the Line of Actual Control (LAC) since the deadly clashes in Eastern Ladakh's Galwan Valley in 2020."
+        ],
+        "body": [
+          "His remarks at an interactive session at the HT Leadership Summit came amid ongoing efforts by New Delhi and Beijing to normalise their relations that came under severe strain following the over four-year border face-off in Eastern Ladakh.",
+          "\"Just think about the last few years.",
+          "How often do you now read - a new tunnel has been built, some new bridge has been built, another airfield has been commissioned.",
+          "You're getting this news with greater and greater frequency,\" he said.",
+          "\"What has happened today is the border with China has become more."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Eastern Ladakh's Galwan"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Jaishankar also said that India has bolstered its military capabilities along the Line of Actual Control (LAC) since the deadly clashes in Eastern Ladakh's Galwan Valley in 2020.",
+            "source": "Business Standard",
+            "item_id": "6f47e1564b0c5f368c7434c8",
+            "composed": false
+          },
+          {
+            "text": "India's border with China has become \"more alive\" and requires a much greater commitment of Indian troops on a sustained basis, External Affairs Minister S Jaishankar said on Saturday as he listed New Delhi's policy approach to enhance infrastructure along the frontier.",
+            "source": "Business Standard",
+            "item_id": "6f47e1564b0c5f368c7434c8",
+            "composed": false
+          },
+          {
+            "text": "His remarks at an interactive session at the HT Leadership Summit came amid ongoing efforts by New Delhi and Beijing to normalise their relations that came under severe strain following the over four-year border face-off in Eastern Ladakh.",
+            "source": "Business Standard",
+            "item_id": "6f47e1564b0c5f368c7434c8",
+            "composed": false
+          }
+        ],
+        "source": "Business Standard",
+        "corroborating": [],
+        "url": "https://www.business-standard.com/external-affairs-defence-security/news/china-border-more-alive-india-enhancing-frontier-infra-jaishankar-126111400794_1.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     }
   ]
 }
