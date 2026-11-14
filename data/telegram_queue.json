@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T02:12:09.370205+00:00",
-  "count": 7,
+  "generated_at": "2026-11-14T02:22:10.760310+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "5f663a1f8dd0ba5a0296346d",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in title weight 70",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 27.8, score 70 -> URGENT"
@@ -124,115 +124,137 @@
       "enrichment": "article"
     },
     {
-      "event_id": "3d58383afc7b7c59b6918c15",
-      "story_id": "3d58383afc7b7c59b6918c15",
-      "headline": "Petition moved in Kerala High Court challenging clean chit to Chief Minister in Punarjani flood rehabilitation scheme",
-      "title": "Petition moved in Kerala High Court challenging clean chit to Chief Minister in Punarjani flood rehabilitation scheme",
-      "summary": "",
-      "url": "https://www.thehindu.com/news/national/kerala/petition-moved-in-kerala-high-court-challenging-clean-chit-to-chief-minister-in-punarjani-flood-rehabilitation-scheme/article71699491.ece",
-      "source": "The Hindu",
+      "event_id": "8ed89f1ee89478e7134fdc17",
+      "story_id": "8ed89f1ee89478e7134fdc17",
+      "headline": "CRPF DG visits Kulgam attack site, reviews operations as hunt for terrorists enters 3rd day",
+      "title": "CRPF DG visits Kulgam attack site, reviews operations as hunt for terrorists enters 3rd day",
+      "summary": "Srinagar, Nov 13: Director General of the Central Reserve Police Force (CRPF), Gyanendra Pratap Singh, on Friday visited the site of the recent terror attack near Mir Bazar in Kulgam district and held detailed interactions with field officers of the CRPF and Jammu and Kashmir Police. The visit came as the joint hunt to track down the attackers entered its third consecutive day, with security forces continuing area-domination and search operations across the south Kashmir belt. During his visit to Kulgam in the Kashmir Valley, the DG CRPF took stock of the ground situation at the attack site in the Nowpora Akhran–Mir Bazar area. He later interacted with field officers of the CRPF and J&K Police at Sadura in Anantnag district, where discussions focused on the way ahead for intensified counter-insurgency (CI) operations in the Valley. The attack, which took place around 2:15 pm on Wednesday, targeted a CRPF checkpoint of the 46th Battalion deployed as a bridge guard roughly two kilometres off the Jammu-Srinagar National Highway. Preliminary investigations have indicated that at least three terrorists were involved, with two believed to be foreign nationals. Three CRPF personnel were injured in the firing. Two have since been discharged after treatment, while the third, who sustained wounds to the abdomen and spine, continues to receive care at the Army’s 92 Base Hospital in Srinagar. On Friday, joint teams of the Army, CRPF and J&K Police maintained an expanded cordon and continued combing operations in the forested and rural stretches around the attack site, while additional searches were underway at multiple locations across south Kashmir. Officials said several suspects were being questioned as part of the investigation, and technical and human intelligence inputs were being analysed to narrow down the movement of the attackers. Continuing his Kashmir Valley tour, Director General CRPF G P Singh, accompanied by senior CRPF officials, visited Head Constable (GD) Sonbir Singh, who is undergoing treatment at Army Hospital, Srinagar. Singh sustained serious injuries while displaying exceptional courage in repulsing a terrorist attack at Nowpora, Akhran in Kulgam on November 11, 2026. The DG CRPF lauded his courage and presence of mind, saying his swift retaliation foiled the terrorists’ designs and averted a major incident. He wished him a speedy recovery and also appreciated the Indian Army for providing prompt helicopter evacuation and quality medical treatment at the Army Hospital.",
+      "url": "https://www.greaterkashmir.com/kashmir/crpf-dg-visits-kulgam-attack-site-reviews-operations-as-hunt-for-terrorists-enters-3rd-day-12808024",
+      "source": "Greater Kashmir",
       "primary_source": false,
       "tier": 2,
-      "category": "courts-law",
+      "category": "defence-security",
       "secondary_categories": [
-        "weather-disasters"
+        "health",
+        "transport-infrastructure",
+        "crime-public-safety",
+        "weather-disasters",
+        "agriculture-rural",
+        "energy-environment"
       ],
-      "confidence": "medium",
-      "score": 77.0,
-      "priority_score": 64.0,
-      "priority_level": "URGENT",
+      "confidence": "high",
+      "score": 86.4,
+      "priority_score": 50.4,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-13T20:16:38+00:00",
-      "published_at": "2026-11-13T20:16:38+00:00",
-      "effective_at": "2026-11-13T20:16:38+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-11-13T22:45:15+00:00",
+      "published_at": "2026-11-14T02:02:01+00:00",
+      "effective_at": "2026-11-14T02:02:01+00:00",
+      "independent_source_groups": 2,
       "source_groups": {
-        "thehindu": {
+        "rising-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu",
-            "the-hindu-kerala"
+            "rising-kashmir"
           ],
-          "count": 2
+          "count": 1
+        },
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "major: significance event 'flood'",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'terror attack'",
+        "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
+        "source: tier 2 (greater-kashmir) +2",
         "source: event has 2 copies, primary source counted once",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'flood' in title weight 64",
-        "scale: state scope (kerala)",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'terror attack' in summary weight 50.4",
+        "scale: state scope (jammu and kashmir)",
+        "recency: fresh (3.6h ago) +4",
+        "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
-        "dominant event 64, stack 16.4, score 64 -> URGENT"
+        "dominant event 50.4, stack 24.8, score 50.4 -> HIGH"
       ],
       "geo_scope": "state",
-      "state": "kerala",
+      "state": "jammu and kashmir",
       "national_significance": true,
-      "article_sentences": [
-        "Lawyer K.M. Shajahan has moved the Kerala High Court challenging a Vigilance and Anti-Corruption Bureau (VACB) report closing preliminary enquiry and dropping corruption charges against Chief Minister V.D. Satheesan in connection with the Punarjani flood rehabilitation scheme.",
-        "Justice C. Jayachandran is likely to consider the matter on November 16.",
-        "The initial preliminary inquiry report by the VACB stated that Mr. Satheesan took a private trip to the United Kingdom in October 2018 and used a lunch meeting in Birmingham to actively solicit and collect foreign funds for the Punarjani Scheme, the petitioner said.",
-        "He added that the enquiry officer had noted suspicious financial movements totalling over ₹1.22 crore distributed across the current and personal bank accounts of Manappat Foundation chairman Ameer Ahammed.",
-        "The petitioner claimed that this report was suppressed, and the proceedings against the Chief Minister were closed, concluding that there was no legal ground or evidence tying him directly to fund collection, handling, or administration.",
-        "He quoted the VACB’s final report that the money was verified to be fully managed and processed through legal, audited and Foreign Contribution (Regulation) Act (FCRA)-compliant banking channels of Manappatt Foundation.",
-        "The petitioner alleged that the first preliminary inquiry report found clear evidence of wrongdoing and recommended a Central Bureau of Investigation inquiry, but then another report was produced on May 5, 2026, after which the Vigilance Director had closed the file, allegedly stating that there was “no vigilance angle”.",
-        "He claimed that the United Democratic Front (UDF) had won the Assembly elections, and that Mr. Satheesan was proposed as a candidate for the Chief Minister post on May 4, and the second report was prepared immediately, clearing him of all charges.",
-        "He sought an interim direction seeking the production of communication between VACB officers in a sealed cover.",
-        "The petitioner further alleged that the probe had flagged the fund transfers as a conspiracy to bypass Central regulations because the funds were routed through the FCRA-registered account of Manappat Foundation with the help of the UK-based Midland International Aid Trust."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Lawyer K.M. Shajahan has moved the Kerala High Court challenging a Vigilance and Anti-Corruption Bureau (VACB) report closing preliminary enquiry and dropping corruption charges against Chief Minister V.D. Satheesan in connection with the Punarjani flood rehabilitation scheme.",
-          "Justice C. Jayachandran is likely to consider the matter on November 16."
+          "Srinagar, Nov 13: Director General of the Central Reserve.",
+          "Police Force (CRPF), Gyanendra Pratap Singh, on Friday visited the site of the recent terror attack near Mir Bazar in Kulgam district and held detailed interactions with field officers of the CRPF and Jammu and Kashmir."
         ],
         "body": [
-          "The initial preliminary inquiry report by the VACB stated that Mr. Satheesan took a private trip to the United Kingdom in October 2018 and used a lunch meeting in Birmingham to actively solicit and collect foreign funds for the Punarjani Scheme, the petitioner said.",
-          "He added that the enquiry officer had noted suspicious financial movements totalling over ₹1.22 crore distributed across the current and personal bank accounts of Manappat Foundation chairman Ameer Ahammed.",
-          "The petitioner claimed that this report was suppressed, and the proceedings against the Chief Minister were closed, concluding that there was no legal ground or evidence tying him directly to fund collection, handling, or administration.",
-          "He quoted the VACB’s final report that the money was verified to be fully managed and processed through legal, audited and Foreign Contribution (Regulation) Act (FCRA)-compliant banking channels of Manappatt Foundation.",
-          "The petitioner alleged that the first preliminary inquiry report found clear evidence of wrongdoing and recommended a Central Bureau of Investigation inquiry, but then another report was produced on May 5, 2026, after which the Vigilance Director had closed the file, allegedly stating that there was “no vigilance angle”.",
-          "He claimed that the United Democratic Front (UDF) had won the Assembly elections, and that Mr. Satheesan was proposed as a candidate for the Chief Minister post on May 4, and the second report was prepared immediately, clearing him of all charges.",
-          "He sought an interim direction seeking the production of communication between VACB officers in a sealed cover.",
-          "The petitioner further alleged that the probe had flagged the fund transfers as a conspiracy to bypass Central regulations because the funds were routed through the FCRA-registered account of Manappat Foundation with the help of the UK-based Midland International Aid Trust."
+          "Police.",
+          "The visit came as the joint hunt to track down the attackers entered its third consecutive day, with security forces continuing area-domination and search operations across the south Kashmir belt.",
+          "During his visit to Kulgam in the Kashmir Valley, the DG CRPF took stock of the ground situation at the attack site in the Nowpora Akhran–Mir Bazar area.",
+          "He later interacted with field officers of the CRPF and J&K. Police at Sadura in Anantnag district, where discussions focused on the way ahead for intensified counter-insurgency (CI) operations in the Valley.",
+          "The attack, which took place around 2:15 pm on Wednesday, targeted a CRPF checkpoint of the 46th Battalion deployed as a bridge guard roughly two kilometres off the Jammu-Srinagar National Highway.",
+          "Preliminary investigations have indicated that at least three terrorists were involved, with two believed to be foreign nationals.",
+          "Three CRPF personnel were injured in the firing.",
+          "On Friday, joint teams of the Army, CRPF and J&K. Police maintained an expanded cordon and continued combing operations in the forested and rural stretches around the attack site, while additional searches were underway at multiple locations across south Kashmir.",
+          "Officials said several suspects were being questioned as part of the investigation, and technical and human intelligence inputs were being analysed to narrow down the movement of the attackers.",
+          "Continuing his Kashmir Valley tour, Director General CRPF G P Singh, accompanied by senior CRPF officials, visited Head Constable (GD) Sonbir Singh, who is undergoing treatment at Army Hospital, Srinagar.",
+          "Singh sustained serious injuries while displaying exceptional courage in repulsing a terrorist attack at Nowpora, Akhran in Kulgam on November 11, 2026.",
+          "The DG CRPF lauded his courage and presence of mind, saying his swift retaliation foiled the terrorists’ designs and averted a major incident.",
+          "He wished him a speedy recovery and also appreciated the Indian Army for providing prompt helicopter evacuation and quality medical treatment at the Army Hospital."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "October"
+            "text": "Mir Bazar"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Two have since been discharged after treatment, while the third, who sustained wounds to the abdomen and spine, continues to receive care at the Army’s 92 Base Hospital in Srinagar."
           }
         ],
         "sentences": [
           {
-            "text": "The petitioner alleged that the first preliminary inquiry report found clear evidence of wrongdoing and recommended a Central Bureau of Investigation inquiry, but then another report was produced on May 5, 2026, after which the Vigilance Director had closed the file, allegedly stating that there was “no vigilance angle”.",
-            "source": "The Hindu",
-            "item_id": "3d58383afc7b7c59b6918c15:article",
+            "text": "Singh sustained serious injuries while displaying exceptional courage in repulsing a terrorist attack at Nowpora, Akhran in Kulgam on November 11, 2026.",
+            "source": "Greater Kashmir",
+            "item_id": "8ed89f1ee89478e7134fdc17",
             "composed": false
           },
           {
-            "text": "He claimed that the United Democratic Front (UDF) had won the Assembly elections, and that Mr. Satheesan was proposed as a candidate for the Chief Minister post on May 4, and the second report was prepared immediately, clearing him of all charges.",
-            "source": "The Hindu",
-            "item_id": "3d58383afc7b7c59b6918c15:article",
+            "text": "The attack, which took place around 2:15 pm on Wednesday, targeted a CRPF checkpoint of the 46th Battalion deployed as a bridge guard roughly two kilometres off the Jammu-Srinagar National Highway.",
+            "source": "Greater Kashmir",
+            "item_id": "8ed89f1ee89478e7134fdc17",
+            "composed": false
+          },
+          {
+            "text": "He later interacted with field officers of the CRPF and J&K. Police at Sadura in Anantnag district, where discussions focused on the way ahead for intensified counter-insurgency (CI) operations in the Valley.",
+            "source": "Greater Kashmir",
+            "item_id": "8ed89f1ee89478e7134fdc17",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/kerala/petition-moved-in-kerala-high-court-challenging-clean-chit-to-chief-minister-in-punarjani-flood-rehabilitation-scheme/article71699491.ece"
+        "url": "https://www.greaterkashmir.com/kashmir/crpf-dg-visits-kulgam-attack-site-reviews-operations-as-hunt-for-terrorists-enters-3rd-day-12808024"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "aa15585ee2a8de0110b3ecfe",
@@ -279,7 +301,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -287,7 +309,7 @@
       "geo_scope": "national",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Nov 13: Retail inflation in Jammu and Kashmir accelerated to 4.88 percent in October 2026, up from 4.27 percent in September, extending the upward trend in prices for the sixth consecutive month and adding to the financial burden on households.",
@@ -333,7 +355,7 @@
         "url": "https://www.greaterkashmir.com/business/jk-retail-inflation-climbs-to-488-in-october-12808033"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -385,7 +407,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
@@ -559,7 +581,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 19.2, score 44 -> HIGH"
@@ -698,7 +720,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'avalanche' in summary weight 26.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (11.4h ago) +4",
+        "recency: fresh (11.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 44, score 44 -> HIGH"
@@ -706,7 +728,7 @@
       "geo_scope": "state",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Srinagar, Nov 13: Divisional Commissioner Kashmir Anshul Garg on Friday directed departments to ensure prompt snow clearance, advance stocking of essential commodities in remote areas and uninterrupted essential services as part of winter preparedness across Kashmir Division.",
@@ -777,7 +799,7 @@
         "url": "https://www.greaterkashmir.com/kashmir/div-com-orders-snow-clearance-advance-stocking-in-remote-areas-4x4-ambulances-24x7-control-rooms-for-winter-12808025"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -834,7 +856,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'epidemic' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.4, score 42 -> HIGH"
@@ -932,6 +954,127 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "2b40733c26e4ad9fb7f6a5be",
+      "story_id": "2b40733c26e4ad9fb7f6a5be",
+      "headline": "SMAT 2026 LIVE Score: Jharkhand begins title defence vs Mizoram; Sooryavanshi-led Bihar takes on Saurashtra",
+      "title": "SMAT 2026 LIVE Score: Jharkhand begins title defence vs Mizoram; Sooryavanshi-led Bihar takes on Saurashtra",
+      "summary": "Syed Mushtaq Ali Trophy LIVE — Follow live updates, score and highlights for the first round of SMAT 2026, with Jharkhand starting as defending champion.",
+      "url": "https://sportstar.thehindu.com/cricket/domestic/smat-2026-live-score-syed-mushtaq-ali-trophy-round-1-matches-november-14-scorecard-updates-highlights/article71700707.ece",
+      "source": "Sportstar",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 88.2,
+      "priority_score": 38.8,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-14T02:16:56+00:00",
+      "published_at": "2026-11-14T02:16:56+00:00",
+      "effective_at": "2026-11-14T02:16:56+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sportstar) +1",
+        "source: specialist (sportstar) +5",
+        "corroboration: single independent source -> medium confidence",
+        "scale: national scope",
+        "scale: multi-state (3 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 0, stack 38.8, score 38.8 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Syed Mushtaq Ali Trophy LIVE — Follow live updates, score and highlights for the first round of SMAT 2026, with Jharkhand starting as defending champion.",
+        "Anukul Roy will lead Jharkhand as it begins its title defence in the Syed Mushtaq Ali Trophy on Saturday.",
+        "Welcome to Sportstar’s live coverage of the Syed Mushtaq Ali Trophy 2026, being held across 19 venues in India, with defending champion Jharkhand taking on Mizoram.",
+        "Follow this space for live updates as and when they come.",
+        "The latest edition of SMAT will get underway on November 14, with thirty-eight teams competing for the title, with the final scheduled on December 6.",
+        "With less than a month until the IPL 2027 auction, the competition offers novice players the chance to get the attention of IPL scouts and experienced combatants the chance to improve.",
+        "Haryana, the runner-up from the previous season, will play Punjab, while Jharkhand, the reigning champion, will start its campaign against Mizoram, the 2025 plate group winner.",
+        "Railways will take on Tamil Nadu, the tournament’s most successful team with three titles."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Syed Mushtaq Ali Trophy LIVE — Follow live updates, score and highlights for the first round of SMAT 2026, with Jharkhand starting as defending champion.",
+          "Anukul Roy will lead Jharkhand as it begins its title defence in the Syed Mushtaq Ali Trophy on Saturday."
+        ],
+        "body": [
+          "Welcome to Sportstar’s live coverage of the Syed Mushtaq Ali Trophy 2026, being held across 19 venues in India, with defending champion Jharkhand taking on Mizoram.",
+          "Follow this space for live updates as and when they come.",
+          "The latest edition of SMAT will get underway on November 14, with thirty-eight teams competing for the title, with the final scheduled on December 6.",
+          "With less than a month until the IPL 2027 auction, the competition offers novice players the chance to get the attention of IPL scouts and experienced combatants the chance to improve.",
+          "Haryana, the runner-up from the previous season, will play Punjab, while Jharkhand, the reigning champion, will start its campaign against Mizoram, the 2025 plate group winner.",
+          "Railways will take on Tamil Nadu, the tournament’s most successful team with three titles."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Welcome to Sportstar’s live coverage of the Syed Mushtaq Ali Trophy 2026, being held across 19 venues in India, with defending champion Jharkhand taking on Mizoram.",
+            "source": "Sportstar",
+            "item_id": "2b40733c26e4ad9fb7f6a5be:article",
+            "composed": false
+          },
+          {
+            "text": "The latest edition of SMAT will get underway on November 14, with thirty-eight teams competing for the title, with the final scheduled on December 6.",
+            "source": "Sportstar",
+            "item_id": "2b40733c26e4ad9fb7f6a5be:article",
+            "composed": false
+          },
+          {
+            "text": "Anukul Roy will lead Jharkhand as it begins its title defence in the Syed Mushtaq Ali Trophy on Saturday.",
+            "source": "Sportstar",
+            "item_id": "2b40733c26e4ad9fb7f6a5be:article",
+            "composed": false
+          },
+          {
+            "text": "Haryana, the runner-up from the previous season, will play Punjab, while Jharkhand, the reigning champion, will start its campaign against Mizoram, the 2025 plate group winner.",
+            "source": "Sportstar",
+            "item_id": "2b40733c26e4ad9fb7f6a5be:article",
+            "composed": false
+          }
+        ],
+        "source": "Sportstar",
+        "corroborating": [],
+        "url": "https://sportstar.thehindu.com/cricket/domestic/smat-2026-live-score-syed-mushtaq-ali-trophy-round-1-matches-november-14-scorecard-updates-highlights/article71700707.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     }
   ]
 }
