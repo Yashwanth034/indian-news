@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T09:02:46.853843+00:00",
-  "count": 5,
+  "generated_at": "2026-11-14T09:11:56.780552+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "edf11ac03549c119f31b7956",
@@ -49,7 +49,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 44.4, score 58 -> HIGH"
@@ -165,7 +165,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 24, score 49.2 -> HIGH"
@@ -229,6 +229,100 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "7c32eea1d7555d53fdebdcd7",
+      "story_id": "7c32eea1d7555d53fdebdcd7",
+      "headline": "Godhra train fire was deliberate, Sonia Gandhi's memoir claim is wrong: Ex-CBI officer",
+      "title": "Godhra train fire was deliberate, Sonia Gandhi's memoir claim is wrong: Ex-CBI officer",
+      "summary": "Rakesh Asthana, the former CBI special director, rebutted Sonia Gandhi's memoir regarding the Godhra train fire's cause. He emphasized that investigations confirmed the fire was deliberately set, supported by court verdicts. The Nanavati Commission and the Supreme Court-appointed SIT reinforced the findings of the Gujarat Police investigation. During the 2002 incident, 59 people died when a train was set on fire.",
+      "url": "https://timesofindia.indiatimes.com/india/godhra-train-fire-was-deliberate-sonia-gandhis-memoir-claim-is-wrong-ex-cbi-officer/articleshow/135827139.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 94.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-14T08:51:35+00:00",
+      "published_at": "2026-11-14T08:51:35+00:00",
+      "effective_at": "2026-11-14T08:51:35+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: marker 'confirmed'",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'appointed' in summary weight 21.6",
+        "scale: national scope",
+        "recency: breaking (0.3h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 26.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "gujarat",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Rakesh Asthana, the former CBI special director, rebutted Sonia Gandhi's memoir regarding the Godhra train fire's cause.",
+          "He emphasized that investigations confirmed the fire was deliberately set, supported by court verdicts."
+        ],
+        "body": [
+          "The Nanavati Commission and the Supreme Court-appointed SIT reinforced the findings of the Gujarat.",
+          "Police investigation.",
+          "During the 2002 incident, 59 people died when a train was set on fire."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "59 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "During the 2002 incident, 59 people died when a train was set on fire.",
+            "source": "Times of India",
+            "item_id": "7c32eea1d7555d53fdebdcd7",
+            "composed": false
+          },
+          {
+            "text": "Rakesh Asthana, the former CBI special director, rebutted Sonia Gandhi's memoir regarding the Godhra train fire's cause.",
+            "source": "Times of India",
+            "item_id": "7c32eea1d7555d53fdebdcd7",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/godhra-train-fire-was-deliberate-sonia-gandhis-memoir-claim-is-wrong-ex-cbi-officer/articleshow/135827139.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "b90347bc1cbcc587ff90e41b",
       "story_id": "b90347bc1cbcc587ff90e41b",
       "headline": "Hardeep Singh Puri resigns as Rajya Sabha member from Uttar Pradesh",
@@ -269,7 +363,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'resigns as' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 26.4, score 40 -> HIGH"
@@ -363,7 +457,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'olympics' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 23, score 40 -> HIGH"
@@ -484,7 +578,7 @@
         "event term: 'match' in summary weight 4.8",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "geo: national",
         "dominant event 10, stack 38.8, score 38.8 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
