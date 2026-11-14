@@ -1,33 +1,40 @@
 {
-  "generated_at": "2026-11-14T13:51:50.781388+00:00",
+  "generated_at": "2026-11-14T14:02:41.865574+00:00",
   "count": 6,
   "stories": [
     {
-      "event_id": "e0f25014b428a5dd44106096",
-      "story_id": "e0f25014b428a5dd44106096",
-      "headline": "Assam Earthquake: 4.1 Magnitude Tremors Felt in Guwahati",
-      "title": "Assam Earthquake: 4.1 Magnitude Tremors Felt in Guwahati",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/breakingnews/assam-earthquake-41-magnitude-tremors-felt-in-guwahati",
-      "source": "The Sentinel (Assam)",
+      "event_id": "ad70f1db98a170dc72ce6bb0",
+      "story_id": "ad70f1db98a170dc72ce6bb0",
+      "headline": "Magnitude 4 Earthquake Jolts Assam",
+      "title": "Magnitude 4 Earthquake Jolts Assam",
+      "summary": "The National Centre for Seismology said the quake was recorded at 2.43 pm in Kamrup district at a depth of 10 km.",
+      "url": "https://www.deccanchronicle.com/nation/magnitude-4-earthquake-jolts-assam-2004389",
+      "source": "Deccan Chronicle",
       "primary_source": false,
-      "tier": 3,
+      "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
+      "confidence": "high",
+      "score": 72.0,
       "priority_score": 82.0,
       "priority_level": "IMMEDIATE",
       "max_delay_minutes": null,
-      "event_time": "2026-11-14T09:44:31+00:00",
-      "published_at": "2026-11-14T09:44:31+00:00",
-      "effective_at": "2026-11-14T09:44:31.774000+00:00",
-      "independent_source_groups": 1,
+      "event_time": "2026-11-14T11:49:32+00:00",
+      "published_at": "2026-11-14T11:49:32+00:00",
+      "effective_at": "2026-11-14T11:49:32+00:00",
+      "independent_source_groups": 2,
       "source_groups": {
-        "sentinel-assam": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "deccan-chronicle"
+          ],
+          "count": 1
+        },
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "sentinel-assam"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -36,85 +43,79 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Earthquake'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
+        "source: tier 2 (deccan-chronicle) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 82, stack 19, score 82 -> IMMEDIATE"
+        "dominant event 82, stack 30, score 82 -> IMMEDIATE"
       ],
       "geo_scope": "state",
       "state": "assam",
       "national_significance": true,
       "article_sentences": [
-        "Guwahati: An earthquake measuring 4.1 on the Richter scale struck Assam at 2:43 pm on 14th November with tremors reported in Guwahati and nearby areas.",
-        "No casualties have been reported so far, while further information about the epicentre and depth of the earthquake is awaited.",
-        "The earthquake struck Assam at approximately 2:43 pm on.",
-        "The reported magnitude was 4.1 on the Richter scale.",
-        "Tremors were felt in Guwahati and nearby areas following the earthquake.",
-        "The quake was recorded at a depth of 10 km, on latitude 25.749 N and longitude 91.273 E with its epicentre in Assam's Kamrup district.",
-        "The initial information places the reported location approximately 8 km from Assam.",
-        "However, the precise epicentre and the depth of the earthquake have not been established in the available information.",
-        "The earthquake brought seismic activity to the attention of people in the affected areas.",
-        "However, the available information does not specify the number of locations where tremors were felt or the duration of the shaking.",
-        "The National Centre for Seismology (NCS) is the government agency responsible for monitoring and reporting seismic.",
-        "The exact epicentre and depth are also awaited."
+        "NEW DELHI: An earthquake of magnitude 4.0 struck Assam's Kamrup district on Saturday afternoon.",
+        "According to the National Center for Seismology (NCS), the earthquake occurred at 2:43:05 pm IST, at a depth of 10 km.",
+        "The epicentre was located at latitude 25.749° North and longitude 91.273° East in Kamrup, Assam.",
+        "In its X post, the NCS shared the seismic details, confirming the magnitude, time, depth and location of the earthquake.",
+        "There were no immediate reports of casualties or damage."
       ],
+      "enrichment_source": "Times of India",
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Guwahati: An earthquake measuring 4.1 on the Richter scale struck Assam at 2:43 pm on 14th November with tremors reported in Guwahati and nearby areas.",
-          "No casualties have been reported so far, while further information about the epicentre and depth of the earthquake is awaited."
+          "The National Centre for Seismology said the quake was recorded at 2.43 pm in Kamrup district at a depth of 10 km.",
+          "NEW DELHI: An earthquake of magnitude 4.0 struck Assam's Kamrup district on Saturday afternoon."
         ],
         "body": [
-          "The earthquake struck Assam at approximately 2:43 pm on.",
-          "The reported magnitude was 4.1 on the Richter scale.",
-          "Tremors were felt in Guwahati and nearby areas following the earthquake.",
-          "The quake was recorded at a depth of 10 km, on latitude 25.749 N and longitude 91.273 E with its epicentre in Assam's Kamrup district.",
-          "The initial information places the reported location approximately 8 km from Assam.",
-          "However, the precise epicentre and the depth of the earthquake have not been established in the available information.",
-          "The earthquake brought seismic activity to the attention of people in the affected areas.",
-          "However, the available information does not specify the number of locations where tremors were felt or the duration of the shaking."
+          "According to the National Center for Seismology (NCS), the earthquake occurred at 2:43:05 pm IST, at a depth of 10 km.",
+          "The epicentre was located at latitude 25.749° North and longitude 91.273° East in Kamrup, Assam.",
+          "In its X post, the NCS shared the seismic details, confirming the magnitude, time, depth and location of the earthquake.",
+          "There were no immediate reports of casualties or damage."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Guwahati"
+            "text": "Kamrup district"
           }
         ],
         "sentences": [
           {
-            "text": "Guwahati: An earthquake measuring 4.1 on the Richter scale struck Assam at 2:43 pm on 14th November with tremors reported in Guwahati and nearby areas.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "e0f25014b428a5dd44106096:article",
+            "text": "The epicentre was located at latitude 25.749° North and longitude 91.273° East in Kamrup, Assam.",
+            "source": "Times of India",
+            "item_id": "ad70f1db98a170dc72ce6bb0:article",
             "composed": false
           },
           {
-            "text": "The quake was recorded at a depth of 10 km, on latitude 25.749 N and longitude 91.273 E with its epicentre in Assam's Kamrup district.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "e0f25014b428a5dd44106096:article",
+            "text": "According to the National Center for Seismology (NCS), the earthquake occurred at 2:43:05 pm IST, at a depth of 10 km.",
+            "source": "Times of India",
+            "item_id": "ad70f1db98a170dc72ce6bb0:article",
             "composed": false
           },
           {
-            "text": "The initial information places the reported location approximately 8 km from Assam.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "e0f25014b428a5dd44106096:article",
+            "text": "NEW DELHI: An earthquake of magnitude 4.0 struck Assam's Kamrup district on Saturday afternoon.",
+            "source": "Times of India",
+            "item_id": "ad70f1db98a170dc72ce6bb0:article",
             "composed": false
           }
         ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/breakingnews/assam-earthquake-41-magnitude-tremors-felt-in-guwahati"
+        "source": "Deccan Chronicle",
+        "corroborating": [
+          "Times of India"
+        ],
+        "url": "https://www.deccanchronicle.com/nation/magnitude-4-earthquake-jolts-assam-2004389"
       },
-      "group_size": 3,
+      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -166,7 +167,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -276,7 +277,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -408,7 +409,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 26, score 49.2 -> HIGH"
@@ -515,7 +516,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 49.2, stack 19, score 49.2 -> HIGH"
@@ -645,7 +646,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
