@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:21:53.779694+00:00",
+  "generated_at": "2026-11-15T15:33:19.647291+00:00",
   "count": 6,
   "stories": [
     {
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -169,7 +169,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -258,7 +258,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (telangana)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 44, score 72 -> URGENT"
@@ -342,7 +342,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -442,7 +442,7 @@
         "agriculture-rural",
         "energy-environment"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
       "priority_score": 49.2,
       "priority_level": "HIGH",
@@ -450,12 +450,19 @@
       "event_time": "2026-11-15T10:17:49+00:00",
       "published_at": "2026-11-15T10:17:49+00:00",
       "effective_at": "2026-11-15T10:17:49+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
             "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
           ],
           "count": 1
         }
@@ -464,18 +471,20 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "major: significance event 'earthquake'",
         "category: government-policy (importance 1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: government-policy (importance 1) +1.2",
         "geo: national",
-        "dominant event 49.2, stack 27.2, score 49.2 -> HIGH"
+        "dominant event 49.2, stack 33.2, score 49.2 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -620,7 +629,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (21.2h ago) +4",
+        "recency: fresh (21.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
