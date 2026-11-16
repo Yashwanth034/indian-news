@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T12:42:31.605843+00:00",
-  "count": 18,
+  "generated_at": "2026-11-16T12:52:26.990133+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "959e09b81861d32976cee6ab",
@@ -49,7 +49,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'war' in summary weight 49.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -159,7 +159,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -242,7 +242,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -364,7 +364,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -481,7 +481,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 22.8, score 50.4 -> HIGH"
@@ -590,7 +590,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
         "scale: multi-state (5 states)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -752,10 +752,10 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'plane crash' in summary weight 30",
         "scale: state scope (maharashtra)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 49.2, stack 44.4, score 49.2 -> HIGH"
+        "dominant event 49.2, stack 40.4, score 49.2 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "maharashtra",
@@ -791,6 +791,118 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "167d17533544346df824ff78",
+      "story_id": "167d17533544346df824ff78",
+      "headline": "Supreme Court grants bail to two Bilkis Bano case convicts, suspends sentences",
+      "title": "Supreme Court grants bail to two Bilkis Bano case convicts, suspends sentences",
+      "summary": "The Supreme Court has suspended the life sentences of two Bilkis Bano case convicts and granted them bail pending their appeals",
+      "url": "https://www.nationalheraldindia.com/national/supreme-court-grants-bail-to-two-bilkis-bano-case-convicts-suspends-sentences",
+      "source": "National Herald",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "high",
+      "score": 75.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-16T10:00:43+00:00",
+      "published_at": "2026-11-16T10:00:43+00:00",
+      "effective_at": "2026-11-16T10:00:43.507000+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "national-herald": {
+          "kind": "independent",
+          "source_ids": [
+            "national-herald"
+          ],
+          "count": 1
+        },
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (national-herald) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (2.9h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court has suspended the sentences of two men convicted in the Bilkis Bano gang-rape and murder case and granted them bail while their appeals against conviction and life imprisonment await adjudication.",
+        "A Bench of justices M.M. Sundresh and Prasanna B Varale granted relief to Bipinchandra Kanaiyalal Joshi, also known as Lala Doctor, and Pradip Ramanlal Modhiya, taking into account their incarceration for more than 17 years and a severe disability affecting one of them.",
+        "The court observed that the appeals raised questions of both fact and law that required consideration.",
+        "It directed their release on bail subject to conditions determined by the trial court.",
+        "The Bench also granted leave to appeal and ordered that the matters be listed for hearing in due course.",
+        "The suspension of their sentences does not overturn their convictions.",
+        "Representing the appellants, senior advocate Siddharth Luthra cited the length of their imprisonment and the disability of one convict.",
+        "He also submitted that one appellant had not been named in the initial FIR and was implicated nearly three years after the incident.",
+        "Additional solicitor general Raja Thakre, appearing for the Gujarat government, opposed the plea.",
+        "He argued that the trial court and the Bombay High Court had examined the relevant evidence and emphasised the gravity of the offences.",
+        "The case arose from the communal violence in Gujarat following the Godhra train burning in February 2002.",
+        "Bilkis Bano, then five months pregnant, was gang-raped, and several members of her family, including her three-year-old daughter, were killed."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court has suspended the sentences of two men convicted in the Bilkis Bano gang-rape and murder case and granted them bail while their appeals against conviction and life imprisonment await adjudication.",
+          "A Bench of justices M.M. Sundresh and Prasanna B Varale granted relief to Bipinchandra Kanaiyalal Joshi, also known as Lala Doctor, and Pradip Ramanlal Modhiya, taking into account their incarceration for more than 17 years and a severe disability affecting one of them."
+        ],
+        "body": [
+          "The court observed that the appeals raised questions of both fact and law that required consideration.",
+          "It directed their release on bail subject to conditions determined by the trial court.",
+          "The Bench also granted leave to appeal and ordered that the matters be listed for hearing in due course.",
+          "The suspension of their sentences does not overturn their convictions.",
+          "Representing the appellants, senior advocate Siddharth Luthra cited the length of their imprisonment and the disability of one convict.",
+          "He also submitted that one appellant had not been named in the initial FIR and was implicated nearly three years after the incident.",
+          "Additional solicitor general Raja Thakre, appearing for the Gujarat government, opposed the plea.",
+          "He argued that the trial court and the Bombay High Court had examined the relevant evidence and emphasised the gravity of the offences."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court has suspended the sentences of two men convicted in the Bilkis Bano gang-rape and murder case and granted them bail while their appeals against conviction and life imprisonment await adjudication.",
+            "source": "National Herald",
+            "item_id": "167d17533544346df824ff78:article",
+            "composed": false
+          },
+          {
+            "text": "Representing the appellants, senior advocate Siddharth Luthra cited the length of their imprisonment and the disability of one convict.",
+            "source": "National Herald",
+            "item_id": "167d17533544346df824ff78:article",
+            "composed": false
+          }
+        ],
+        "source": "National Herald",
+        "corroborating": [],
+        "url": "https://www.nationalheraldindia.com/national/supreme-court-grants-bail-to-two-bilkis-bano-case-convicts-suspends-sentences"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "4a64fcc208bcf76bc496260f",
@@ -847,7 +959,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'verdict' in summary weight 13.2",
         "scale: national scope",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -962,7 +1074,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1082,7 +1194,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1195,7 +1307,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1280,7 +1392,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1359,93 +1471,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "a0226e26884c27d46d65929b",
-      "story_id": "a0226e26884c27d46d65929b",
-      "headline": "Piyush Goyal: India To Get Preferential Access To U.S. Market, Lower Tariffs Than Rivals",
-      "title": "Piyush Goyal: India To Get Preferential Access To U.S. Market, Lower Tariffs Than Rivals",
-      "summary": "India is set to secure a preferential tariff advantage in the U.S. market, Commerce Minister Piyush Goyal has said. Confirming the understanding reached between Prime Minister Narendra Modi and US President Donald Trump under the broad India-U.S. trade framework, Goyal said India would get preferential access with lower duties than competing countries. The development could give Indian exporters a competitive edge in the American market as both sides work towards concluding the first tranche of the bilateral trade deal by the end of the current financial year.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/short-video/piyush-goyal-india-to-get-preferential-access-to-us-market-lower-tariffs-than-rivals-567550-2026-11-16",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [
-        "national-politics",
-        "international-affairs",
-        "business-industry"
-      ],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-16T08:23:05+00:00",
-      "published_at": "2026-11-16T08:23:05+00:00",
-      "effective_at": "2026-11-16T08:23:05+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'tariffs' in title weight 40",
-        "event term: 'tariff' in summary weight 24",
-        "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India is set to secure a preferential tariff advantage in the U.S. market, Commerce Minister Piyush Goyal has said.",
-          "Confirming the understanding reached between Prime Minister Narendra Modi and US President Donald Trump under the broad India-U.S. trade framework, Goyal said India would get preferential access with lower duties than competing countries."
-        ],
-        "body": [
-          "The development could give Indian exporters a competitive edge in the American market as both sides work towards concluding the first tranche of the bilateral trade deal by the end of the current financial year."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "India is set to secure a preferential tariff advantage in the U.S. market, Commerce Minister Piyush Goyal has said.",
-            "source": "Business Today",
-            "item_id": "a0226e26884c27d46d65929b",
-            "composed": false
-          },
-          {
-            "text": "Confirming the understanding reached between Prime Minister Narendra Modi and US President Donald Trump under the broad India-U.S. trade framework, Goyal said India would get preferential access with lower duties than competing countries.",
-            "source": "Business Today",
-            "item_id": "a0226e26884c27d46d65929b",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [],
-        "url": "https://www.businesstoday.in/bt-tv/whats-hot/short-video/piyush-goyal-india-to-get-preferential-access-to-us-market-lower-tariffs-than-rivals-567550-2026-11-16"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "1b521b54d47530277134a34e",
       "story_id": "1b521b54d47530277134a34e",
       "headline": "India records 12.29% wholesale inflation in October",
@@ -1491,7 +1516,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1557,240 +1582,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "d63e3aa7d5040ff5c7fbc12a",
-      "story_id": "d63e3aa7d5040ff5c7fbc12a",
-      "headline": "Supreme Court suspends life sentences of Bilkis Bano convicts, grants them bail",
-      "title": "Supreme Court suspends life sentences of Bilkis Bano convicts, grants them bail",
-      "summary": "",
-      "url": "https://indianexpress.com/article/legal-news/bilkis-bano-gangrape-gujarat-riots-2002-bail-2-convicts-10965164",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "high",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-16T08:57:07+00:00",
-      "published_at": "2026-11-16T08:57:07+00:00",
-      "effective_at": "2026-11-16T08:57:07+00:00",
-      "independent_source_groups": 2,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        },
-        "national-herald": {
-          "kind": "independent",
-          "source_ids": [
-            "national-herald"
-          ],
-          "count": 1
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "source: event has 3 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 28.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court has suspended the life sentences of two convicts in the Bilkis Bano gangrape case and murder of seven of her family members during the 2002 riots in Gujarat.",
-        "The top court has granted bail to Bipin Chandra Joshi and Pradeep Mordhiya, noting that they had been incarcerated for more than 17 years.",
-        "A bench of Justices MM Sundresh and PB Varale noted that Bipin Chandra Joshi and Pradeep Mordhiya had been incarcerated for more than 17 years.",
-        "“Having heard the parties, suffice it to state that the appellants have been under incarceration for a period of more than 17 years, and also the fact remains that one of the appellants has a severe handicap.",
-        "Certainly, there are issues to be decided in the appeal, both on fact and law,” the court said in its October 28 order, according to PTI.",
-        "“In view of the above and considering the issues involved in this appeal, we suspend the sentence and grant bail to the appellants on such terms and conditions as may be imposed by the concerned trial court,” it added."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court has suspended the life sentences of two convicts in the Bilkis Bano gangrape case and murder of seven of her family members during the 2002 riots in Gujarat.",
-          "The top court has granted bail to Bipin Chandra Joshi and Pradeep Mordhiya, noting that they had been incarcerated for more than 17 years."
-        ],
-        "body": [
-          "A bench of Justices MM Sundresh and PB Varale noted that Bipin Chandra Joshi and Pradeep Mordhiya had been incarcerated for more than 17 years.",
-          "“Having heard the parties, suffice it to state that the appellants have been under incarceration for a period of more than 17 years, and also the fact remains that one of the appellants has a severe handicap.",
-          "Certainly, there are issues to be decided in the appeal, both on fact and law,” the court said in its October 28 order, according to PTI.",
-          "“In view of the above and considering the issues involved in this appeal, we suspend the sentence and grant bail to the appellants on such terms and conditions as may be imposed by the concerned trial court,” it added."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Gujarat"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Supreme Court has suspended the life sentences of two convicts in the Bilkis Bano gangrape case and murder of seven of her family members during the 2002 riots in Gujarat.",
-            "source": "The Indian Express",
-            "item_id": "d63e3aa7d5040ff5c7fbc12a:article",
-            "composed": false
-          },
-          {
-            "text": "The top court has granted bail to Bipin Chandra Joshi and Pradeep Mordhiya, noting that they had been incarcerated for more than 17 years.",
-            "source": "The Indian Express",
-            "item_id": "d63e3aa7d5040ff5c7fbc12a:article",
-            "composed": false
-          },
-          {
-            "text": "“In view of the above and considering the issues involved in this appeal, we suspend the sentence and grant bail to the appellants on such terms and conditions as may be imposed by the concerned trial court,” it added.",
-            "source": "The Indian Express",
-            "item_id": "d63e3aa7d5040ff5c7fbc12a:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/legal-news/bilkis-bano-gangrape-gujarat-riots-2002-bail-2-convicts-10965164"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "d4401f7e804b486ac4eb1862",
-      "story_id": "d4401f7e804b486ac4eb1862",
-      "headline": "Assam Cabinet Approves Additional Rs 200 Crore for Ayushman Asom Yojana",
-      "title": "Assam Cabinet Approves Additional Rs 200 Crore for Ayushman Asom Yojana",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/breakingnews/assam-cabinet-approves-additional-rs-200-crore-for-ayushman-asom-yojana",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "government-policy",
-      "secondary_categories": [
-        "health"
-      ],
-      "confidence": "medium",
-      "score": 72.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-16T08:26:40+00:00",
-      "published_at": "2026-11-16T08:26:40+00:00",
-      "effective_at": "2026-11-16T08:26:40.765000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "category: government-policy (importance 1, urgent=False)",
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (assam)",
-        "recency: fresh (4.3h ago) +4",
-        "category: government-policy (importance 1) +1.2",
-        "geo: state",
-        "dominant event 44, stack 12.2, score 44 -> HIGH"
-      ],
-      "geo_scope": "state",
-      "state": "assam",
-      "national_significance": false,
-      "article_sentences": [
-        "Guwahati: The Assam Cabinet has approved an additional Rs 200 crore for the Mukhyamantri Ayushman Asom Yojana (MMAAY), Chief Minister Himanta Biswa Sarma announced on Monday, November 16, 2026.",
-        "The additional funding aims to strengthen the state healthcare programme, meet hospital claims and ensure continued cashless medical treatment for more than 40 lakh beneficiary families.",
-        "The additional Rs 200 crore allocation has been approved to support the continued implementation of the Mukhyamantri Ayushman Asom Yojana, according to Chief Minister Himanta Biswa Sarma.",
-        "The funding is intended to help meet claims raised by empanelled hospitals and maintain the availability of cashless medical treatment for beneficiaries.",
-        "The Assam Cabinet's decision provides additional financial support to the state healthcare programme, which covers more than 40 lakh families.",
-        "The announcement highlights the state government's continued funding commitment to the scheme and its healthcare assistance for eligible families.",
-        "Sharing the Cabinet decision on social media on Monday, November 16, Chief Minister Himanta Biswa Sarma said the Assam government was attentive to the healthcare needs of economically vulnerable and middle-class families.",
-        "He also highlighted the state's initiative alongside the Centre's Ayushman Bharat programme.",
-        "In his social media post, Sarma stated: \"Assam Govt is considerate of the needs of our poor and middle class.",
-        "Apart from Ayushman Bharat, assam government are also running the Ayushman Asom scheme to complement affordable healthcare efforts.\"",
-        "The Mukhyamantri Ayushman Asom Yojana is an Assam government healthcare programme that provides cashless medical treatment at empanelled hospitals.",
-        "According to the information shared by Sarma, the scheme covers over 40 lakh families and is intended to improve access to affordable healthcare."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Guwahati: The Assam Cabinet has approved an additional Rs 200 crore for the Mukhyamantri Ayushman Asom Yojana (MMAAY), Chief Minister Himanta Biswa Sarma announced on Monday, November 16, 2026.",
-          "The additional funding aims to strengthen the state healthcare programme, meet hospital claims and ensure continued cashless medical treatment for more than 40 lakh beneficiary families."
-        ],
-        "body": [
-          "The additional Rs 200 crore allocation has been approved to support the continued implementation of the Mukhyamantri Ayushman Asom Yojana, according to Chief Minister Himanta Biswa Sarma.",
-          "The funding is intended to help meet claims raised by empanelled hospitals and maintain the availability of cashless medical treatment for beneficiaries.",
-          "The Assam Cabinet's decision provides additional financial support to the state healthcare programme, which covers more than 40 lakh families.",
-          "The announcement highlights the state government's continued funding commitment to the scheme and its healthcare assistance for eligible families.",
-          "Sharing the Cabinet decision on social media on Monday, November 16, Chief Minister Himanta Biswa Sarma said the Assam government was attentive to the healthcare needs of economically vulnerable and middle-class families.",
-          "He also highlighted the state's initiative alongside the Centre's Ayushman Bharat programme.",
-          "In his social media post, Sarma stated: \"Assam Govt is considerate of the needs of our poor and middle class.",
-          "Apart from Ayushman Bharat, assam government are also running the Ayushman Asom scheme to complement affordable healthcare efforts.\" The Mukhyamantri Ayushman Asom Yojana is an Assam government healthcare programme that provides cashless medical treatment at empanelled hospitals."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Guwahati: The Assam Cabinet has approved an additional Rs 200 crore for the Mukhyamantri Ayushman Asom Yojana (MMAAY), Chief Minister Himanta Biswa Sarma announced on Monday, November 16, 2026.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "d4401f7e804b486ac4eb1862:article",
-            "composed": false
-          },
-          {
-            "text": "Sharing the Cabinet decision on social media on Monday, November 16, Chief Minister Himanta Biswa Sarma said the Assam government was attentive to the healthcare needs of economically vulnerable and middle-class families.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "d4401f7e804b486ac4eb1862:article",
-            "composed": false
-          },
-          {
-            "text": "Apart from Ayushman Bharat, assam government are also running the Ayushman Asom scheme to complement affordable healthcare efforts.\"",
-            "source": "The Sentinel (Assam)",
-            "item_id": "d4401f7e804b486ac4eb1862:article",
-            "composed": false
-          },
-          {
-            "text": "The Assam Cabinet's decision provides additional financial support to the state healthcare programme, which covers more than 40 lakh families.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "d4401f7e804b486ac4eb1862:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/breakingnews/assam-cabinet-approves-additional-rs-200-crore-for-ayushman-asom-yojana"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "41550d92143f272e742c9821",
       "story_id": "41550d92143f272e742c9821",
       "headline": "India joins US-led alliance to secure AI supply chains amid China tech rivalry",
@@ -1835,7 +1626,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 25.2, score 42 -> HIGH"
@@ -1937,7 +1728,7 @@
         "corroboration: wire echo (pti) -> no independent boost",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (5.7h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 19.2, score 42 -> HIGH"
