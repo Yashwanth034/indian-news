@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:03:47.681390+00:00",
+  "generated_at": "2026-11-16T10:11:55.250710+00:00",
   "count": 20,
   "stories": [
     {
@@ -60,7 +60,7 @@
         "event term: 'landslide' in summary weight 24",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -173,7 +173,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 34, score 72 -> URGENT"
@@ -256,7 +256,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -378,7 +378,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -497,7 +497,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -577,31 +577,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "aa8860f810aa6e90f3b13171",
-      "story_id": "aa8860f810aa6e90f3b13171",
-      "headline": "After Arnab and Murasu, third cyclone ‘Akvan’ to hit Andhra Pradesh",
-      "title": "After Arnab and Murasu, third cyclone ‘Akvan’ to hit Andhra Pradesh",
-      "summary": "",
-      "url": "https://www.thenewsminute.com/andhra-pradesh/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-pradesh-2",
-      "source": "The News Minute",
+      "event_id": "396260f59de422b8feb297bb",
+      "story_id": "396260f59de422b8feb297bb",
+      "headline": "DGP Nalin Prabhat, IGP Kashmir Sujit Kumar reach encounter site in Laroo Kulgam",
+      "title": "DGP Nalin Prabhat, IGP Kashmir Sujit Kumar reach encounter site in Laroo Kulgam",
+      "summary": "Kulgam, Nov 16: Director General of Police (DGP) Nalin Prabhat and Inspector General of Police Kashmir Sujit Kumar reached the encounter site in Laroo village of south Kashmir's Kulgam district on Monday. Top official said that both the officers arrived at the site to take stock of the ongoing operation against terrorists holed up in the area. An encounter is underway between security forces and terrorists at Larnoo Bypass area of Kulgam after a joint team of Jammu and Kashmir Police, Army and CRPF launched a cordon and search operation in the area and came under fire. The operation was launched in the aftermath of the terror attack on CRPF in Akhran area of south Kashmir's Kulgam on 11th November. A massive hunt was launched after that attack for the terrorists responsible for it. Further details are awaited. (GNS)",
+      "url": "https://www.greaterkashmir.com/kashmir/dgp-nalin-prabhat-igp-kashmir-sujit-kumar-reach-encounter-site-in-laroo-kulgam-12814127",
+      "source": "Greater Kashmir",
       "primary_source": false,
       "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
+      "category": "defence-security",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
       "confidence": "medium",
-      "score": 57.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
+      "score": 97.2,
+      "priority_score": 50.4,
+      "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-16T05:52:24+00:00",
-      "published_at": "2026-11-16T05:52:24+00:00",
-      "effective_at": "2026-11-16T05:52:24.360000+00:00",
+      "event_time": "2026-11-16T10:07:59+00:00",
+      "published_at": "2026-11-16T10:07:59+00:00",
+      "effective_at": "2026-11-16T10:07:59+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "the-news-minute": {
+        "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
-            "the-news-minute"
+            "greater-kashmir"
           ],
           "count": 1
         }
@@ -610,91 +612,68 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
+        "major: category importance 1.3 >= 1.2",
         "major: urgent category",
-        "major: significance event 'cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: significance event 'terror attack'",
+        "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-news-minute) +2",
+        "source: tier 2 (greater-kashmir) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.2h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
+        "event term: 'terror attack' in summary weight 50.4",
+        "scale: state scope (jammu and kashmir)",
+        "recency: breaking (0.1h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 20, score 72 -> URGENT"
+        "dominant event 50.4, stack 22.8, score 50.4 -> HIGH"
       ],
       "geo_scope": "state",
-      "state": "andhra pradesh",
+      "state": "jammu and kashmir",
       "national_significance": true,
-      "article_sentences": [
-        "A deep depression over the Bay of Bengal is likely to intensify into a cyclonic storm, named Akvan, by the evening of November 16 and further strengthen into a severe cyclonic storm by November 17, the India Meteorological Department (IMD) said.",
-        "The system is moving north-northwestwards over the central parts of the south and adjoining west-central Bay of Bengal.",
-        "It is expected to gather strength over the next two days and move towards the Andhra Pradesh coast.",
-        "This would be the third cyclone to affect Andhra Pradesh in the past few weeks after Cyclones Arnab and Murasu caused extensive damage.",
-        "The weather system intensified into a deep depression on November 15, when it was located about 640 km east-northeast of Trincomalee in Sri Lanka, 760 km east-southeast of Chennai and 870 km south-southeast of Visakhapatnam.",
-        "Andhra Pradesh is also awaiting a central assessment of the damage caused by Cyclone Murasu and the subsequent financial aid from the BJP led Union government.",
-        "Cyclone Murasu struck the state earlier this month.",
-        "A seven-member central team led by Union Home Ministry Joint Secretary Chittaranjan Das has completed field inspections across Bapatla, Palnadu, Eluru and East Godavari districts.",
-        "The team examined nearly 60 locations in two groups, assessing damage to crops, roads, drainage systems, houses, irrigation infrastructure and fishing boats.",
-        "During the inspections, officials interacted with farmers at Surappagudem in Bhimadole mandal, examined paddy fields and drainage facilities at Ravulapalem, and assessed damage to the Kommu canal and irrigation infrastructure at Kunakalamarri.",
-        "Fishing boats at Chirala and houses and horticultural crops at Boppudi were also inspected.",
-        "Chief Minister N Chandrababu Naidu has urged the team to submit its assessment report within 10 days."
-      ],
-      "public_label": "📰 NEWS",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "A deep depression over the Bay of Bengal is likely to intensify into a cyclonic storm, named Akvan, by the evening of November 16 and further strengthen into a severe cyclonic storm by November 17, the India Meteorological Department (IMD) said.",
-          "The system is moving north-northwestwards over the central parts of the south and adjoining west-central Bay of Bengal."
+          "Kulgam, Nov 16: Director General of Police (DGP) Nalin Prabhat and Inspector General of Police Kashmir Sujit Kumar reached the encounter site in Laroo village of south Kashmir's Kulgam district on Monday.",
+          "Top official said that both the officers arrived at the site to take stock of the ongoing operation against terrorists holed up in the area."
         ],
         "body": [
-          "This would be the third cyclone to affect Andhra Pradesh in the past few weeks after Cyclones Arnab and Murasu caused extensive damage.",
-          "The weather system intensified into a deep depression on November 15, when it was located about 640 km east-northeast of Trincomalee in Sri Lanka, 760 km east-southeast of Chennai and 870 km south-southeast of Visakhapatnam.",
-          "Andhra Pradesh is also awaiting a central assessment of the damage caused by Cyclone Murasu and the subsequent financial aid from the BJP led Union government.",
-          "Cyclone Murasu struck the state earlier this month.",
-          "A seven-member central team led by Union Home Ministry Joint Secretary Chittaranjan Das has completed field inspections across Bapatla, Palnadu, Eluru and East Godavari districts.",
-          "The team examined nearly 60 locations in two groups, assessing damage to crops, roads, drainage systems, houses, irrigation infrastructure and fishing boats.",
-          "During the inspections, officials interacted with farmers at Surappagudem in Bhimadole mandal, examined paddy fields and drainage facilities at Ravulapalem, and assessed damage to the Kommu canal and irrigation infrastructure at Kunakalamarri."
+          "An encounter is underway between security forces and terrorists at Larnoo Bypass area of Kulgam after a joint team of Jammu and Kashmir.",
+          "Police, Army and CRPF launched a cordon and search operation in the area and came under fire.",
+          "The operation was launched in the aftermath of the terror attack on CRPF in Akhran area of south Kashmir's Kulgam on 11th November.",
+          "A massive hunt was launched after that attack for the terrorists responsible for it."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Sri Lanka"
+            "text": "Laroo village"
           },
           {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "It is expected to gather strength over the next two days and move towards the Andhra Pradesh coast."
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
           }
         ],
         "sentences": [
           {
-            "text": "A deep depression over the Bay of Bengal is likely to intensify into a cyclonic storm, named Akvan, by the evening of November 16 and further strengthen into a severe cyclonic storm by November 17, the India Meteorological Department (IMD) said.",
-            "source": "The News Minute",
-            "item_id": "aa8860f810aa6e90f3b13171:article",
+            "text": "Kulgam, Nov 16: Director General of Police (DGP) Nalin Prabhat and Inspector General of Police Kashmir Sujit Kumar reached the encounter site in Laroo village of south Kashmir's Kulgam district on Monday.",
+            "source": "Greater Kashmir",
+            "item_id": "396260f59de422b8feb297bb",
             "composed": false
           },
           {
-            "text": "During the inspections, officials interacted with farmers at Surappagudem in Bhimadole mandal, examined paddy fields and drainage facilities at Ravulapalem, and assessed damage to the Kommu canal and irrigation infrastructure at Kunakalamarri.",
-            "source": "The News Minute",
-            "item_id": "aa8860f810aa6e90f3b13171:article",
-            "composed": false
-          },
-          {
-            "text": "The team examined nearly 60 locations in two groups, assessing damage to crops, roads, drainage systems, houses, irrigation infrastructure and fishing boats.",
-            "source": "The News Minute",
-            "item_id": "aa8860f810aa6e90f3b13171:article",
+            "text": "The operation was launched in the aftermath of the terror attack on CRPF in Akhran area of south Kashmir's Kulgam on 11th November.",
+            "source": "Greater Kashmir",
+            "item_id": "396260f59de422b8feb297bb",
             "composed": false
           }
         ],
-        "source": "The News Minute",
+        "source": "Greater Kashmir",
         "corroborating": [],
-        "url": "https://www.thenewsminute.com/andhra-pradesh/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-pradesh-2"
+        "url": "https://www.greaterkashmir.com/kashmir/dgp-nalin-prabhat-igp-kashmir-sujit-kumar-reach-encounter-site-in-laroo-kulgam-12814127"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
     },
     {
       "event_id": "82539140459953edc87d3185",
@@ -749,7 +728,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 38, score 49.2 -> HIGH"
@@ -858,7 +837,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'building collapse' in title weight 46",
         "scale: state scope (delhi)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 46, stack 13.2, score 46 -> HIGH"
@@ -989,7 +968,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'verdict' in summary weight 13.2",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1011,7 +990,7 @@
         "The RBI has argued that restoring the bonds could dilute the capital infused into YES Bank as part of its 2020 reconstruction and undermine the loss-absorbing role of AT-1 instruments across the banking sector.",
         "The central bank has also sought an open-court hearing of its review petition and a stay on the operation and effect of the October 15 judgment pending the disposal of its plea."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "The RBI has challenged the Supreme Court's October 15 verdict overturning YES Bank's ₹8,415 crore AT-1 bond write-off, arguing that key regulatory provisions and financial implications were overlooked.",
@@ -1059,7 +1038,7 @@
         "url": "https://www.cnbctv18.com/market/rbi-files-review-petition-against-sc-order-on-yes-bank-rs-8415-crore-at-1-bonds-20034930.htm"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1104,7 +1083,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1216,7 +1195,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1341,7 +1320,7 @@
         "event term: 'tariffs' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1427,7 +1406,7 @@
         "event term: 'inflation' in summary weight 21.6",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1534,7 +1513,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1654,7 +1633,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (assam)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: government-policy (importance 1) +1.2",
         "geo: state",
         "dominant event 44, stack 16.2, score 44 -> HIGH"
@@ -1770,7 +1749,7 @@
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 32.4, score 44 -> HIGH"
@@ -1891,7 +1870,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1971,34 +1950,33 @@
       "enrichment": "article"
     },
     {
-      "event_id": "73bd53f9ebc7c31500eb64ca",
-      "story_id": "73bd53f9ebc7c31500eb64ca",
-      "headline": "Jimmy Tata accuses Noel of 'backdoor takeover'",
-      "title": "Jimmy Tata accuses Noel of 'backdoor takeover'",
-      "summary": "Jimmy Naval Tata, younger brother of late Ratan Tata and one of the longest-serving trustees of Sir Ratan Tata Trust (SRTT), has accused Noel Tata of using the charitable institutions to consolidate family control over Tata Sons, calling the induction of multiple family members into the trusts a “back-door takeover” of the group’s holding company.In a detailed written response to a senior trustee on the state of affairs at Tata Trusts and controversies surrounding the group, Jimmy has also criticised changes to Tata Sons’ Articles of Association, backed chairman N Chandrasekaran’s reappointment and called on the Reserve Bank of India (RBI) to enforce the listing of Tata Sons without delay.Also Read: Jimmy Tata breaks silence on Tata matters; backs Chandra staying chair & Tata Sons listing, opposing Noel's stance“What has transpired in recent time is that the trusts are being filled with family members of the present Tata Trust Chairman, thereby securing a degree of control over Tata Sons that was never the settlors’ intention,” he said, adding that having more than one family member on a trust was inappropriate.“Such an arrangement is untenable and amounts to a back-door takeover of Tata Sons,” he said.Jimmy’s intervention is significant as the 85-year-old trustee has largely stayed away from trust meetings and voting and has rarely publicly articulated his views on the ongoing differences within the group.He said the two principal Tata trusts were established by Sir Ratan Tata and Sir Dorabji Tata for public welfare and that trustees were custodians of their assets, not owners. He cited their founding objectives, including poverty alleviation and safeguarding Indian culture, and said the institutions should remain focused on serving the people of India.Jimmy traced the current governance differences to amendments made to Tata Sons’ Articles of Association around 2013-14, which he said had fundamentally altered the relationship between the charitable trusts and the operating company.He argued that the earlier framework kept the welfare trusts separate from Tata Sons’ commercial operations, while subsequent amendments gave the Tata Trusts chairman veto powers and the ability to place directors, undermining the collective authority of the board.He also questioned differences in trustee tenure rules, alleging that they had compromised independence and enabled the marginalisation of dissenting trustees.Also Read: Noel Tata warns Tata Sons listing could put profits ahead of philanthropy, says it may change the ‘Tata way’Citing Venu Srinivasan, whose term expires in December, he alleged that Srinivasan was being targeted for opposing the induction of Noel Tata’s son into SRTT. He also referred to the earlier removal of Vijay Singh.Jimmy contrasted the current situation with the past, when independent figures such as Nani Palkhivala, Gautam Sarabhai, Homi Sethna and Homi Bhabha served as trustees.On the differences over Chandrasekaran’s continuation as Tata Sons chairman, Jimmy praised his leadership, saying he had turned around companies burdened by severe debt and delivered record earnings and substantial dividend payouts.“Despite Chandrasekaran receiving overwhelming support (including 4–1 in Tata Sons board and a unanimous resolution passed by Tata Trusts), Noel sought to block him arbitrarily by invoking the onerous veto provisions in the amended Articles of Association without providing any justification or accountability,” he said.Jimmy’s comments come amid a widening rift between Noel, chairman of Tata Trusts, and the Tata Sons board over Chandrasekaran’s reappointment, the proposed listing of the holding company and the group’s governance structure.Tata Trusts collectively owns about 66% of Tata Sons, with SRTT holding 23.56%. Its position is central to decisions concerning the future of the holding company and the wider conglomerate.Jimmy said listing Tata Sons was critical to improving transparency and accountability and restoring the separation between the charitable trusts and the commercial operations of the group.“Listing would dismantle the pervasive culture of secrecy, impose statutory accountability, and necessitate rewriting the onerous Articles of Association to restore the pre-1989 separation between business operations and welfare trusts,” he said.He also warned against any attempt to restructure Tata Sons into smaller entities to avoid regulatory listing requirements, saying this would be contrary to public and shareholder interests.Jimmy called on the RBI to enforce strict timelines for listing and urged the government and the Charity Commissioner to intervene to protect the original objectives of the trusts.The RBI has classified Tata Sons as an upper-layer non-banking financial company (NBFC), requiring it to list its equity shares on a recognised stock exchange within three years of being identified in that category. The central bank has rejected Tata Sons’ application to surrender its core investment company registration, requiring it to comply with the regulatory framework applicable to upper-layer NBFCs.Also Read: Tata International appoints T V Narendran as Chairman and Noel N Tata as Chairman Emeritus effective November 12Jimmy has been a trustee of SRTT since 1989 and is one of its three perpetual trustees, the others being Noel Tata and Jehangir Jehangir. He is the younger son of Naval Tata and his first wife Sooni Commissariat. Noel Tata is Naval Tata’s son from his second marriage to Simone Dunoyer.Jimmy, who lives in Pune, has historically preferred correspondence to participation in trust meetings. During a 2016 interview, he showed reporters a file containing hundreds of letters through which he had communicated his views to trustees and board members.He is also the second-largest individual shareholder of Tata Sons after Noel Tata, with a 0.81% stake, or 3,262 shares, according to estimates based on investment banking data.",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/jimmy-tata-accuses-noel-of-back-door-takeover-of-tata-sons/articleshow/135872364.cms",
-      "source": "The Economic Times",
+      "event_id": "7339cfca43175b8b3b0294e7",
+      "story_id": "7339cfca43175b8b3b0294e7",
+      "headline": "Tata boardroom battle: Jimmy Tata backs Chandrasekaran, accuses Noel Tata of using Tata Trusts for takeover of Tata Sons",
+      "title": "Tata boardroom battle: Jimmy Tata backs Chandrasekaran, accuses Noel Tata of using Tata Trusts for takeover of Tata Sons",
+      "summary": "Jimmy Naval Tata has backed Tata Sons Chairman N. Chandrasekaran amid tensions with Tata Trusts Chairman Noel Tata, calling for the company to be listed. He says listing would improve transparency, accountability and governance, and urges the RBI to set a firm deadline.",
+      "url": "https://www.livemint.com/companies/people/tata-boardroom-battle-jimmy-tata-backs-chandrasekaran-accuses-noel-tata-of-using-tata-trusts-for-takeover-of-tata-sons-11794810156997.html",
+      "source": "Mint - Companies",
       "primary_source": false,
       "tier": 3,
       "category": "business-industry",
       "secondary_categories": [
-        "economy-finance",
-        "government-policy"
+        "economy-finance"
       ],
       "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 43.2,
+      "score": 90.0,
+      "priority_score": 42.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-16T04:08:29+00:00",
-      "published_at": "2026-11-16T04:08:29+00:00",
-      "effective_at": "2026-11-16T04:08:29+00:00",
+      "event_time": "2026-11-16T06:40:45+00:00",
+      "published_at": "2026-11-16T06:40:45+00:00",
+      "effective_at": "2026-11-16T06:40:45+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatimes": {
+        "ht-media": {
           "kind": "independent",
           "source_ids": [
-            "economic-times"
+            "mint-companies"
           ],
           "count": 1
         }
@@ -2009,95 +1987,46 @@
         "major: geo national significance",
         "category: business-industry (importance 1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
+        "source: tier 3 (mint-companies) +1",
+        "source: specialist (mint-companies) +5",
         "corroboration: single independent source -> medium confidence",
         "event term: 'takeover' in title weight 42",
-        "event term: 'takeover' in summary weight 25.2",
-        "scale: state scope (maharashtra)",
-        "recency: fresh (5.9h ago) +4",
+        "scale: national scope",
+        "recency: fresh (3.5h ago) +4",
         "category: business-industry (importance 1) +1.2",
-        "geo: national significance (local/state event)",
-        "dominant event 42, stack 43.2, score 43.2 -> HIGH"
+        "geo: national",
+        "dominant event 42, stack 25.2, score 42 -> HIGH"
       ],
-      "geo_scope": "local",
-      "state": "maharashtra",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Jimmy Naval Tata, younger brother of late Ratan Tata and one of the longest-serving trustees of Sir Ratan Tata Trust (SRTT), has accused Noel Tata of using the charitable institutions to consolidate family control over Tata Sons, calling the induction of multiple family members into the trusts a “back-door takeover” of the group’s holding company.",
-          "In a detailed written response to a senior trustee on the state of affairs at Tata Trusts and controversies surrounding the group, Jimmy has also criticised changes to Tata Sons’ Articles of Association, backed chairman N Chandrasekaran’s reappointment and called on the Reserve Bank of India (RBI) to enforce the listing of Tata Sons without delay."
-        ],
-        "body": [
-          "“What has transpired in recent time is that the trusts are being filled with family members of the present Tata Trust Chairman, thereby securing a degree of control over Tata Sons that was never the settlors’ intention,” he said, adding that having more than one family member on a trust was inappropriate.",
-          "“Such an arrangement is untenable and amounts to a back-door takeover of Tata Sons,” he said.",
-          "Jimmy’s intervention is significant as the 85-year-old trustee has largely stayed away from trust meetings and voting and has rarely publicly articulated his views on the ongoing differences within the group.",
-          "He said the two principal Tata trusts were established by Sir Ratan Tata and Sir Dorabji Tata for public welfare and that trustees were custodians of their assets, not owners.",
-          "He cited their founding objectives, including poverty alleviation and safeguarding Indian culture, and said the institutions should remain focused on serving the people of India.",
-          "Jimmy traced the current governance differences to amendments made to Tata Sons’ Articles of Association around 2013-14, which he said had fundamentally altered the relationship between the charitable trusts and the operating company.",
-          "He argued that the earlier framework kept the welfare trusts separate from Tata Sons’ commercial operations, while subsequent amendments gave the Tata Trusts chairman veto powers and the ability to place directors, undermining the collective authority of the board.",
-          "He also questioned differences in trustee tenure rules, alleging that they had compromised independence and enabled the marginalisation of dissenting trustees..",
-          "He also referred to the earlier removal of Vijay Singh.",
-          "Jimmy contrasted the current situation with the past, when independent figures such as Nani Palkhivala, Gautam Sarabhai, Homi Sethna and Homi Bhabha served as trustees.",
-          "On the differences over Chandrasekaran’s continuation as Tata Sons chairman, Jimmy praised his leadership, saying he had turned around companies burdened by severe debt and delivered record earnings and substantial dividend payouts.",
-          "“Despite Chandrasekaran receiving overwhelming support (including 4–1 in Tata Sons board and a unanimous resolution passed by Tata Trusts), Noel sought to block him arbitrarily by invoking the onerous veto provisions in the amended Articles of Association without providing any justification or accountability,” he said.",
-          "Jimmy’s comments come amid a widening rift between Noel, chairman of Tata Trusts, and the Tata Sons board over Chandrasekaran’s reappointment, the proposed listing of the holding company and the group’s governance structure.",
-          "Tata Trusts collectively owns about 66% of Tata Sons, with SRTT holding 23.56%.",
-          "Its position is central to decisions concerning the future of the holding company and the wider conglomerate.",
-          "Jimmy said listing Tata Sons was critical to improving transparency and accountability and restoring the separation between the charitable trusts and the commercial operations of the group.",
-          "“Listing would dismantle the pervasive culture of secrecy, impose statutory accountability, and necessitate rewriting the onerous Articles of Association to restore the pre-1989 separation between business operations and welfare trusts,” he said.",
-          "He also warned against any attempt to restructure Tata Sons into smaller entities to avoid regulatory listing requirements, saying this would be contrary to public and shareholder interests.",
-          "Jimmy called on the RBI to enforce strict timelines for listing and urged the government and the Charity Commissioner to intervene to protect the original objectives of the trusts.",
-          "The RBI has classified Tata Sons as an upper-layer non-banking financial company (NBFC), requiring it to list its equity shares on a recognised stock exchange within three years of being identified in that category.",
-          "The central bank has rejected Tata Sons’ application to surrender its core investment company registration, requiring it to comply with the regulatory framework applicable to upper-layer NBFCs..",
-          "He is the younger son of Naval Tata and his first wife Sooni Commissariat.",
-          "Noel Tata is Naval Tata’s son from his second marriage to Simone Dunoyer.",
-          "Jimmy, who lives in Pune, has historically preferred correspondence to participation in trust meetings.",
-          "During a 2016 interview, he showed reporters a file containing hundreds of letters through which he had communicated his views to trustees and board members.",
           "Jimmy Naval Tata has backed Tata Sons Chairman N. Chandrasekaran amid tensions with Tata Trusts Chairman Noel Tata, calling for the company to be listed.",
           "He says listing would improve transparency, accountability and governance, and urges the RBI to set a firm deadline."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Tata Trusts"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "“Despite Chandrasekaran receiving overwhelming support (including 4–1 in Tata Sons board and a unanimous resolution passed by Tata Trusts), Noel sought to block him arbitrarily by invoking the onerous veto provisions in the amended Articles of Association without providing any justification or accountability,” he said.",
-            "source": "The Economic Times",
-            "item_id": "73bd53f9ebc7c31500eb64ca",
+            "text": "He says listing would improve transparency, accountability and governance, and urges the RBI to set a firm deadline.",
+            "source": "Mint - Companies",
+            "item_id": "7339cfca43175b8b3b0294e7",
             "composed": false
           },
           {
-            "text": "Jimmy traced the current governance differences to amendments made to Tata Sons’ Articles of Association around 2013-14, which he said had fundamentally altered the relationship between the charitable trusts and the operating company.",
-            "source": "The Economic Times",
-            "item_id": "73bd53f9ebc7c31500eb64ca",
-            "composed": false
-          },
-          {
-            "text": "Tata Trusts collectively owns about 66% of Tata Sons, with SRTT holding 23.56%.",
-            "source": "The Economic Times",
-            "item_id": "73bd53f9ebc7c31500eb64ca",
-            "composed": false
-          },
-          {
-            "text": "In a detailed written response to a senior trustee on the state of affairs at Tata Trusts and controversies surrounding the group, Jimmy has also criticised changes to Tata Sons’ Articles of Association, backed chairman N Chandrasekaran’s reappointment and called on the Reserve Bank of India (RBI) to enforce the listing of Tata Sons without delay.",
-            "source": "The Economic Times",
-            "item_id": "73bd53f9ebc7c31500eb64ca",
+            "text": "Jimmy Naval Tata has backed Tata Sons Chairman N. Chandrasekaran amid tensions with Tata Trusts Chairman Noel Tata, calling for the company to be listed.",
+            "source": "Mint - Companies",
+            "item_id": "7339cfca43175b8b3b0294e7",
             "composed": false
           }
         ],
-        "source": "The Economic Times",
-        "corroborating": [
-          "Mint - Companies"
-        ],
-        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/jimmy-tata-accuses-noel-of-back-door-takeover-of-tata-sons/articleshow/135872364.cms"
+        "source": "Mint - Companies",
+        "corroborating": [],
+        "url": "https://www.livemint.com/companies/people/tata-boardroom-battle-jimmy-tata-backs-chandrasekaran-accuses-noel-tata-of-using-tata-trusts-for-takeover-of-tata-sons-11794810156997.html"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -2150,7 +2079,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
@@ -2247,7 +2176,7 @@
         "corroboration: wire echo (pti) -> no independent boost",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 19.2, score 42 -> HIGH"
