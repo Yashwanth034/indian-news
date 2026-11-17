@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:22:03.787166+00:00",
+  "generated_at": "2026-11-17T06:32:44.151482+00:00",
   "count": 18,
   "stories": [
     {
@@ -55,7 +55,7 @@
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 38, score 72 -> URGENT"
@@ -179,7 +179,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -295,7 +295,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -420,7 +420,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -519,7 +519,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: state scope (ladakh)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 40.4, score 58 -> HIGH"
@@ -622,7 +622,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -755,7 +755,7 @@
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -827,13 +827,13 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "905e5363b3c04bd7de48307c",
-      "story_id": "905e5363b3c04bd7de48307c",
-      "headline": "Supreme Court Hearing on SIR, CEC LIVE Updates: Rahul Gandhi, opposition leaders pleas to be heard",
-      "title": "Supreme Court Hearing on SIR, CEC LIVE Updates: Rahul Gandhi, opposition leaders pleas to be heard",
-      "summary": "",
-      "url": "https://indianexpress.com/article/legal-news/supreme-court-hearing-on-sir-cec-live-updates-eci-functioning-10966148",
-      "source": "The Indian Express",
+      "event_id": "ff686ca1264a66a505391da7",
+      "story_id": "ff686ca1264a66a505391da7",
+      "headline": "No proof from ECI to show SIR was a ‘unanimous’ decision, Rahul Gandhi to Supreme Court",
+      "title": "No proof from ECI to show SIR was a ‘unanimous’ decision, Rahul Gandhi to Supreme Court",
+      "summary": "The ECI’s October 26 affidavit, in response to a petition filed by INDIA bloc leaders led by Mr. Gandhi, denied any differences of opinion between the CEC and the Election Commissioners over the SIR process",
+      "url": "https://www.thehindu.com/news/national/no-proof-from-eci-to-show-sir-was-a-unanimous-decision-rahul-gandhi-to-sc/article71707772.ece",
+      "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
       "category": "courts-law",
@@ -841,19 +841,19 @@
         "national-politics"
       ],
       "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 44.0,
+      "score": 72.0,
+      "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-17T04:08:21+00:00",
-      "published_at": "2026-11-17T04:08:21+00:00",
-      "effective_at": "2026-11-17T04:08:21+00:00",
+      "event_time": "2026-11-17T01:13:16+00:00",
+      "published_at": "2026-11-17T01:13:16+00:00",
+      "effective_at": "2026-11-17T01:13:16+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indian-express": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "indian-express"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -863,70 +863,84 @@
       "reasons": [
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
+        "source: tier 2 (the-hindu) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
+        "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 26.4, score 44 -> HIGH"
+        "dominant event 44, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
       "article_sentences": [
-        "On the last day of hearing, the court had granted ten days to the petitioners to file a rejoinder (reply) to the Election Commission’s affidavit.",
-        "In the ECI's affidavit filed before the Supreme Court, the ECI has said that all the decisions relating to the Special Intensive Revision of the electoral rolls were unanimously taken by the Commission.",
-        "The Supreme Court on Tuesday will hear a batch of petitions questioning the functioning of Chief Election Commissioner Gyanesh Kumar and the poll panel.",
-        "The Leader of the Opposition Rahul Gandhi and other opposition leaders have also filed an application before the court seeking permission to serve 48 questions to the ECI, Gyanesh Kumar and the other two election commissioners.",
-        "ECI’s Affidavit: In the affidavit filed before the Supreme Court, the ECI has said that all the decisions relating to the Special Intensive Revision of the electoral rolls were unanimously taken by the commission.",
-        "It further said that SIR is legal, its process justified, and that the petitioners’ allegations relating to changes in voter registration procedures and decision-making process are misconceived.",
-        "The EC’s affidavit, filed in response to a petition by social activist Rakesh Kumar Singh, said it “has been approved for filing… by a unanimous decision of the three members of the Election Commission, i.e., two Election Commissioners and the Chief Election Commissioner.”",
-        "Pleas before court: One of the petitions by Rakesh Kumar Singh referred to the alleged differences between CEC Kumar and Sandhu and Joshi and the objections raised by them.",
-        "The petitioner urged the court to declare the SIR, and all actions, decisions, directions, and measures taken under it, invalid from the very beginning and without legal authority.",
-        "The petitioner argued that the SIR was undertaken without the necessary statutory or constitutional authority and without following the procedure required by law.",
-        "The other petition by Delhi-based lawyer Shailendra Mani Tripathi has sought a probe by an independent, high-powered judicial inquiry commission or an SIT headed by a retired judge of the top court.",
-        "The court is also hearing petitions by the leader of opposition Rahul Gandhi and other opposition leaders over the similar matter."
+        "Leader of the Opposition Rahul Gandhi told the Supreme Court on Monday (November 16, 2026) that the Election Commission of India (ECI) failed to produce any proof to establish its claim that the special intensive revision (SIR) was a “unanimous” decision made by Chief Election Commissioner (CEC) Gyanesh Kumar, and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+        "“No minutes of the meeting, file notings, recorded approvals, agenda, deliberations or other primary material evidencing the participation and approval of all three members have been produced with the ECI counter-affidavit of October 26,” Mr. Gandhi submitted in his rejoinder.",
+        "Mr. Gandhi and other INDIA bloc leaders have also separately filed an application containing a set of “interrogatories” directed at the CEC, the two Election Commissioners, and other senior ECI officials involved in the SIR.",
+        "The pointed questions inquire about the number and details of each SIR file, as well as the specific occasions between February 19, 2025, and October 26, 2026, on which the two Election Commissioners objected in writing or expressed dissent or reservation regarding any matter related to the SIR, ECINET, Form 6, or the filing of appeals.",
+        "The case is scheduled for hearing on November 17 before a Bench headed by Chief Justice of India Surya Kant.",
+        "The reported friction between Mr. Kumar and the two Election Commissioners over the SIR and the CEC’s allegedly unilateral and authoritarian conduct, had triggered widespread protests across India demanding his removal from office.",
+        "The ECI’s October 26 affidavit, in response to a petition filed by INDIA bloc leaders led by Mr. Gandhi, denied any differences of opinion between the CEC and the Election Commissioners over the SIR process.",
+        "Mr. Gandhi said the court must not accept such “bare assertions” from the ECI.",
+        "He questioned why the affidavit was filed by the ECI when Mr. Kumar, Mr. Sandhu and Mr. Joshi were separately made respondents.",
+        "The Opposition leader, represented by senior advocate.",
+        "A.M. Singhvi and advocate Prasanna S., said the EC chose not to explain when and where exactly the decision to conduct a nationwide SIR was made.",
+        "The ECI affidavit’s blank assertions contradict its own Right to Information (RTI) response that “the Commission has so far not taken any decision on initiating a special intensive revision (SIR) across the country in 2025”."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "On the last day of hearing, the court had granted ten days to the petitioners to file a rejoinder (reply) to the Election Commission’s affidavit.",
-          "In the ECI's affidavit filed before the Supreme Court, the ECI has said that all the decisions relating to the Special Intensive Revision of the electoral rolls were unanimously taken by the Commission."
+          "Leader of the Opposition Rahul Gandhi told the Supreme Court on Monday (November 16, 2026) that the Election Commission of India (ECI) failed to produce any proof to establish its claim that the special intensive revision (SIR) was a “unanimous” decision made by Chief Election Commissioner (CEC) Gyanesh Kumar, and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+          "“No minutes of the meeting, file notings, recorded approvals, agenda, deliberations or other primary material evidencing the participation and approval of all three members have been produced with the ECI counter-affidavit of October 26,” Mr. Gandhi submitted in his rejoinder."
         ],
         "body": [
-          "The Supreme Court on Tuesday will hear a batch of petitions questioning the functioning of Chief Election Commissioner Gyanesh Kumar and the poll panel.",
-          "The Leader of the Opposition Rahul Gandhi and other opposition leaders have also filed an application before the court seeking permission to serve 48 questions to the ECI, Gyanesh Kumar and the other two election commissioners.",
-          "It further said that SIR is legal, its process justified, and that the petitioners’ allegations relating to changes in voter registration procedures and decision-making process are misconceived.",
-          "The EC’s affidavit, filed in response to a petition by social activist Rakesh Kumar Singh, said it “has been approved for filing… by a unanimous decision of the three members of the Election Commission, i.e., two Election Commissioners and the Chief Election Commissioner.” Pleas before court: One of the petitions by Rakesh Kumar Singh referred to the alleged differences between CEC Kumar and Sandhu and Joshi and the objections raised by them.",
-          "The petitioner urged the court to declare the SIR, and all actions, decisions, directions, and measures taken under it, invalid from the very beginning and without legal authority.",
-          "The petitioner argued that the SIR was undertaken without the necessary statutory or constitutional authority and without following the procedure required by law.",
-          "The other petition by Delhi-based lawyer Shailendra Mani Tripathi has sought a probe by an independent, high-powered judicial inquiry commission or an SIT headed by a retired judge of the top court.",
-          "The court is also hearing petitions by the leader of opposition Rahul Gandhi and other opposition leaders over the similar matter."
+          "Mr. Gandhi and other INDIA bloc leaders have also separately filed an application containing a set of “interrogatories” directed at the CEC, the two Election Commissioners, and other senior ECI officials involved in the SIR.",
+          "The pointed questions inquire about the number and details of each SIR file, as well as the specific occasions between February 19, 2025, and October 26, 2026, on which the two Election Commissioners objected in writing or expressed dissent or reservation regarding any matter related to the SIR, ECINET, Form 6, or the filing of appeals.",
+          "The case is scheduled for hearing on November 17 before a Bench headed by Chief Justice of India Surya Kant.",
+          "The reported friction between Mr. Kumar and the two Election Commissioners over the SIR and the CEC’s allegedly unilateral and authoritarian conduct, had triggered widespread protests across India demanding his removal from office.",
+          "The ECI’s October 26 affidavit, in response to a petition filed by INDIA bloc leaders led by Mr. Gandhi, denied any differences of opinion between the CEC and the Election Commissioners over the SIR process.",
+          "Mr. Gandhi said the court must not accept such “bare assertions” from the ECI.",
+          "He questioned why the affidavit was filed by the ECI when Mr. Kumar, Mr. Sandhu and Mr. Joshi were separately made respondents.",
+          "The Opposition leader, represented by senior advocate."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          }
+        ],
         "sentences": [
           {
-            "text": "The Supreme Court on Tuesday will hear a batch of petitions questioning the functioning of Chief Election Commissioner Gyanesh Kumar and the poll panel.",
-            "source": "The Indian Express",
-            "item_id": "905e5363b3c04bd7de48307c:article",
+            "text": "Leader of the Opposition Rahul Gandhi told the Supreme Court on Monday (November 16, 2026) that the Election Commission of India (ECI) failed to produce any proof to establish its claim that the special intensive revision (SIR) was a “unanimous” decision made by Chief Election Commissioner (CEC) Gyanesh Kumar, and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+            "source": "The Hindu",
+            "item_id": "ff686ca1264a66a505391da7:article",
             "composed": false
           },
           {
-            "text": "The Leader of the Opposition Rahul Gandhi and other opposition leaders have also filed an application before the court seeking permission to serve 48 questions to the ECI, Gyanesh Kumar and the other two election commissioners.",
-            "source": "The Indian Express",
-            "item_id": "905e5363b3c04bd7de48307c:article",
+            "text": "The pointed questions inquire about the number and details of each SIR file, as well as the specific occasions between February 19, 2025, and October 26, 2026, on which the two Election Commissioners objected in writing or expressed dissent or reservation regarding any matter related to the SIR, ECINET, Form 6, or the filing of appeals.",
+            "source": "The Hindu",
+            "item_id": "ff686ca1264a66a505391da7:article",
+            "composed": false
+          },
+          {
+            "text": "The reported friction between Mr. Kumar and the two Election Commissioners over the SIR and the CEC’s allegedly unilateral and authoritarian conduct, had triggered widespread protests across India demanding his removal from office.",
+            "source": "The Hindu",
+            "item_id": "ff686ca1264a66a505391da7:article",
             "composed": false
           }
         ],
-        "source": "The Indian Express",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://indianexpress.com/article/legal-news/supreme-court-hearing-on-sir-cec-live-updates-eci-functioning-10966148"
+        "url": "https://www.thehindu.com/news/national/no-proof-from-eci-to-show-sir-was-a-unanimous-decision-rahul-gandhi-to-sc/article71707772.ece"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
     },
@@ -972,7 +986,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1089,7 +1103,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1206,7 +1220,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1327,7 +1341,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1441,7 +1455,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 22.4, score 44 -> HIGH"
@@ -1509,31 +1523,158 @@
       "enrichment": "article"
     },
     {
-      "event_id": "7f3bbeea4ffb9f7c5db62e68",
-      "story_id": "7f3bbeea4ffb9f7c5db62e68",
-      "headline": "Massive gas leak from ONGC well sparks panic in Andhra Pradesh's Konaseema district",
-      "title": "Massive gas leak from ONGC well sparks panic in Andhra Pradesh's Konaseema district",
-      "summary": "Massive gas leak from ONGC well sparks panic in Andhra Pradesh's Konaseema district",
-      "url": "https://www.indiatoday.in/india/video/gas-leak-from-oil-and-natural-gas-corporation-well-causes-panic-in-andhra-pradesh-ytvd-3040499-2026-11-17",
-      "source": "India Today",
+      "event_id": "2c400523b82b688f402914e6",
+      "story_id": "2c400523b82b688f402914e6",
+      "headline": "ONGC well gas leak causes panic in Andhra Pradesh district",
+      "title": "ONGC well gas leak causes panic in Andhra Pradesh district",
+      "summary": "Kakinada (Andhra Pradesh), Nov 17 : A massive gas leak occurred from an ONGC gas drilling well in Andhra Pradesh’s Dr B.R. Ambedkar Konaseema district on Tuesday, triggering panic among people in surrounding villages. The gas leak from the Oil and Natural Gas Corporation (ONGC) rig occurred near Geddada village in Mamidikuduru mandal. According to officials, the gas began leaking around 4:30 a.m. on Tuesday, accompanied by a loud noise, and is currently spewing out in large volumes. The incident triggered panic among residents and commuters on the National Highway 216. Gas was reportedly spreading to nearby villages, with residents complaining of a strong gas smell. People living in the vicinity and motorists passing through the highway ran to safety after noticing the gas leak. Police halted vehicular movement on the Geddada-Mamidikuduru highway as a precautionary measure. ONGC officials and police were alerted, while specialised teams were being mobilised to contain the leak. A control team from Narsapur left for the spot to contain the blowout. The officials stated that there have been no fires so far and that the wellhead remains secure. ONGC personnel were taking measures to prevent the gas from spreading near the ground level. Fire-fighters arranged the water umbrella around the rig to prevent fire. Meanwhile, Chief Minister Chandrababu Naidu has spoken with officials regarding a gas leak incident. He directed that residents in the affected areas be evacuated to safer locations. The Chief Minister said public safety must be given the highest priority. He said ONGC must take immediate action, deploying specialised technical teams to bring the gas leak under control. Noting that such incidents have occurred frequently of late, the Chief Minister instructed officials to immediately engage with ONGC management. He has ordered a review of safety protocols in consultation with the ONGC Chairman and other senior officials of the organisation. Authorities have already evacuated residents living within a one-kilometre radius of the gas well. As a precautionary safety measure, diesel generators and other equipment have been shut down and removed from the vicinity. A cementing team is arriving at the site to completely plug the gas well leak. ONGC officials have stated that the gas leak incident will be brought fully under control within the next 4-5 hours. (IANS)",
+      "url": "https://assamtribune.com/national/ongc-well-gas-leak-causes-panic-in-andhra-pradesh-district-1622909",
+      "source": "The Assam Tribune",
       "primary_source": false,
       "tier": 2,
       "category": "transport-infrastructure",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "crime-public-safety",
+        "energy-environment"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T06:29:13+00:00",
+      "published_at": "2026-11-17T06:29:13+00:00",
+      "effective_at": "2026-11-17T06:29:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "assam-tribune"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "rumour: 'reportedly' in summary (penalty 3, active)",
+        "major: geo national significance",
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 97.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (assam-tribune) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'gas leak' in title weight 42",
+        "event term: 'gas leak' in summary weight 25.2",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.1h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 42, stack 43.2, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Kakinada (Andhra Pradesh), Nov 17: A massive gas leak occurred from an ONGC gas drilling well in Andhra Pradesh’s Dr B.R. Ambedkar Konaseema district on Tuesday, triggering panic among people in surrounding villages.",
+          "The gas leak from the Oil and Natural Gas Corporation (ONGC) rig occurred near Geddada village in Mamidikuduru mandal."
+        ],
+        "body": [
+          "According to officials, the gas began leaking around 4:30 a.m. on Tuesday, accompanied by a loud noise, and is currently spewing out in large volumes.",
+          "The incident triggered panic among residents and commuters on the National Highway 216.",
+          "Gas was reportedly spreading to nearby villages, with residents complaining of a strong gas smell.",
+          "People living in the vicinity and motorists passing through the highway ran to safety after noticing the gas leak.",
+          "Police halted vehicular movement on the Geddada-Mamidikuduru highway as a precautionary measure.",
+          "ONGC officials and police were alerted, while specialised teams were being mobilised to contain the leak.",
+          "A control team from Narsapur left for the spot to contain the blowout.",
+          "The officials stated that there have been no fires so far and that the wellhead remains secure.",
+          "ONGC personnel were taking measures to prevent the gas from spreading near the ground level.",
+          "Fire-fighters arranged the water umbrella around the rig to prevent fire.",
+          "Meanwhile, Chief Minister Chandrababu Naidu has spoken with officials regarding a gas leak incident.",
+          "He directed that residents in the affected areas be evacuated to safer locations.",
+          "The Chief Minister said public safety must be given the highest priority.",
+          "He said ONGC must take immediate action, deploying specialised technical teams to bring the gas leak under control.",
+          "Noting that such incidents have occurred frequently of late, the Chief Minister instructed officials to immediately engage with ONGC management.",
+          "He has ordered a review of safety protocols in consultation with the ONGC Chairman and other senior officials of the organisation.",
+          "Authorities have already evacuated residents living within a one-kilometre radius of the gas well.",
+          "As a precautionary safety measure, diesel generators and other equipment have been shut down and removed from the vicinity.",
+          "A cementing team is arriving at the site to completely plug the gas well leak.",
+          "ONGC officials have stated that the gas leak incident will be brought fully under control within the next 4-5 hours.",
+          "Massive gas leak from ONGC well sparks panic in Andhra Pradesh's Konaseema district."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Andhra Pradesh’s Dr"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under control"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kakinada (Andhra Pradesh), Nov 17: A massive gas leak occurred from an ONGC gas drilling well in Andhra Pradesh’s Dr B.R. Ambedkar Konaseema district on Tuesday, triggering panic among people in surrounding villages.",
+            "source": "The Assam Tribune",
+            "item_id": "2c400523b82b688f402914e6",
+            "composed": false
+          },
+          {
+            "text": "According to officials, the gas began leaking around 4:30 a.m. on Tuesday, accompanied by a loud noise, and is currently spewing out in large volumes.",
+            "source": "The Assam Tribune",
+            "item_id": "2c400523b82b688f402914e6",
+            "composed": false
+          },
+          {
+            "text": "The gas leak from the Oil and Natural Gas Corporation (ONGC) rig occurred near Geddada village in Mamidikuduru mandal.",
+            "source": "The Assam Tribune",
+            "item_id": "2c400523b82b688f402914e6",
+            "composed": false
+          }
+        ],
+        "source": "The Assam Tribune",
+        "corroborating": [
+          "India Today"
+        ],
+        "url": "https://assamtribune.com/national/ongc-well-gas-leak-causes-panic-in-andhra-pradesh-district-1622909"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "e955139cd79f1fadb8d3480c",
+      "story_id": "e955139cd79f1fadb8d3480c",
+      "headline": "Massive gas leak at ONGC well sparks panic in Andhra’s Konaseema",
+      "title": "Massive gas leak at ONGC well sparks panic in Andhra’s Konaseema",
+      "summary": "A major gas leak from an ONGC drilling well near Geddada village in Andhra Pradesh's Konaseema district triggered panic in surrounding villages, leading to evacuations, traffic restrictions, and emergency containment efforts. Chief Minister Chandrababu Naidu directed officials and ONGC to prioritise public safety and bring the situation under control.",
+      "url": "https://telanganatoday.com/massive-gas-leak-at-ongc-well-sparks-panic-in-andhras-konaseema",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "transport-infrastructure",
+      "secondary_categories": [
+        "crime-public-safety",
+        "weather-disasters"
+      ],
       "confidence": "medium",
       "score": 59.2,
       "priority_score": 42.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-17T05:55:01+00:00",
-      "published_at": "2026-11-17T05:55:01+00:00",
-      "effective_at": "2026-11-17T05:55:01+00:00",
+      "event_time": "2026-11-17T05:31:43+00:00",
+      "published_at": "2026-11-17T05:31:43+00:00",
+      "effective_at": "2026-11-17T05:31:43+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
+        "ians": {
+          "kind": "wire",
           "source_ids": [
-            "india-today"
+            "telangana-today"
           ],
           "count": 1
         }
@@ -1543,12 +1684,12 @@
       "reasons": [
         "category: transport-infrastructure (importance 1, urgent=False)",
         "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (india-today) +2",
+        "source: tier 2 (telangana-today) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'gas leak' in title weight 42",
         "event term: 'gas leak' in summary weight 25.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: state",
         "dominant event 42, stack 41.2, score 42 -> HIGH"
@@ -1589,13 +1730,11 @@
             "composed": false
           }
         ],
-        "source": "India Today",
-        "corroborating": [
-          "Telangana Today"
-        ],
-        "url": "https://www.indiatoday.in/india/video/gas-leak-from-oil-and-natural-gas-corporation-well-causes-panic-in-andhra-pradesh-ytvd-3040499-2026-11-17"
+        "source": "Telangana Today",
+        "corroborating": [],
+        "url": "https://telanganatoday.com/massive-gas-leak-at-ongc-well-sparks-panic-in-andhras-konaseema"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -1648,7 +1787,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: technology-digital (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 14.2, score 42 -> HIGH"
@@ -1756,123 +1895,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "8fcf4c317c8c296dcc05244c",
-      "story_id": "8fcf4c317c8c296dcc05244c",
-      "headline": "India News Live Updates, 17 November 2026: Massive gas leak at ONGC well in Andhra, residents nearby evacuated",
-      "title": "India News Live Updates, 17 November 2026: Massive gas leak at ONGC well in Andhra, residents nearby evacuated",
-      "summary": "",
-      "url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "transport-infrastructure",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 42.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-17T02:48:21+00:00",
-      "published_at": "2026-11-17T02:48:21+00:00",
-      "effective_at": "2026-11-17T02:48:21+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: transport-infrastructure (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'gas leak' in title weight 42",
-        "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
-        "category: transport-infrastructure (importance 1) +1.2",
-        "geo: national",
-        "dominant event 42, stack 21.2, score 42 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "A massive gas leak at an ONGC well in Mamidikuduru mandal of Andhra Pradesh’s Dr B R Ambedkar Konaseema district has caused panic among residents.",
-        "The leak occurred during re-drilling operations, as per the PTI reports.",
-        "Authorities have evacuated people from nearby areas as a precaution and emergency teams have been deployed to contain the leak.",
-        "If you are just joining us, this is The Indian Express Realtime breaking news blog – where we bring you the latest news updates of the day in real time.",
-        "Scan the top headlines of the day here, or keep scrolling to see the latest updates stream in.",
-        "Delhi woke up to a hazy, chilly morning today.",
-        "The city’s air quality stands at 242 which falls in the “poor” category, but officials say it is likely to slip into “very poor” from today as winds weaken, temperatures drop and morning fog traps pollutants close to the ground.",
-        "Some parts of the Capital are already feeling the pinch.",
-        "ITO is at 335, NSUT Jaffarpur at 336, Talkatora Garden at 326, Pusa records 322, NIH Narela at 313 and DTU at 303 are all in the “very poor” zone.",
-        "A bus carrying around 30–35 passengers fell about 100 metres into a ravine from a bridge near Gular Bazar in Tehri, Uttarakhand.",
-        "Rescue teams from the SDRF posts at Byasi and Dhalwala reached the spot quickly and began the operation.",
-        "About 25 injured people have been pulled out and are being taken to hospital."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "A massive gas leak at an ONGC well in Mamidikuduru mandal of Andhra Pradesh’s Dr B R Ambedkar Konaseema district has caused panic among residents.",
-          "The leak occurred during re-drilling operations, as per the PTI reports."
-        ],
-        "body": [
-          "Authorities have evacuated people from nearby areas as a precaution and emergency teams have been deployed to contain the leak.",
-          "If you are just joining us, this is The Indian Express Realtime breaking news blog – where we bring you the latest news updates of the day in real time.",
-          "Scan the top headlines of the day here, or keep scrolling to see the latest updates stream in.",
-          "Delhi woke up to a hazy, chilly morning today.",
-          "Some parts of the Capital are already feeling the pinch.",
-          "ITO is at 335, NSUT Jaffarpur at 336, Talkatora Garden at 326, Pusa records 322, NIH Narela at 313 and DTU at 303 are all in the “very poor” zone.",
-          "A bus carrying around 30–35 passengers fell about 100 metres into a ravine from a bridge near Gular Bazar in Tehri, Uttarakhand."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Mamidikuduru"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The city’s air quality stands at 242 which falls in the “poor” category, but officials say it is likely to slip into “very poor” from today as winds weaken, temperatures drop and morning fog traps pollutants close to the ground."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "A bus carrying around 30–35 passengers fell about 100 metres into a ravine from a bridge near Gular Bazar in Tehri, Uttarakhand.",
-            "source": "The Indian Express",
-            "item_id": "8fcf4c317c8c296dcc05244c:article",
-            "composed": false
-          },
-          {
-            "text": "A massive gas leak at an ONGC well in Mamidikuduru mandal of Andhra Pradesh’s Dr B R Ambedkar Konaseema district has caused panic among residents.",
-            "source": "The Indian Express",
-            "item_id": "8fcf4c317c8c296dcc05244c:article",
-            "composed": false
-          },
-          {
-            "text": "The city’s air quality stands at 242 which falls in the “poor” category, but officials say it is likely to slip into “very poor” from today as winds weaken, temperatures drop and morning fog traps pollutants close to the ground.",
-            "source": "The Indian Express",
-            "item_id": "8fcf4c317c8c296dcc05244c:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "9f487fbdeb15318a156c0845",
       "story_id": "9f487fbdeb15318a156c0845",
       "headline": "J&K’s mountains need governance that works, not just another policy",
@@ -1928,7 +1950,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 39.2, score 39.2 -> HIGH"
@@ -2144,10 +2166,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.2h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national significance (local/state event)",
-        "dominant event 38.4, stack 18.2, score 38.4 -> HIGH"
+        "dominant event 38.4, stack 14.2, score 38.4 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "jammu and kashmir",
