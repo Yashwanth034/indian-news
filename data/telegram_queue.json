@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T16:12:11.505366+00:00",
-  "count": 14,
+  "generated_at": "2026-11-17T16:22:07.603670+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "47255f58d73b914bd2d5726b",
@@ -50,7 +50,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (gujarat)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 44, score 82 -> IMMEDIATE"
@@ -183,7 +183,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -303,10 +303,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
-        "dominant event 72, stack 34, score 72 -> URGENT"
+        "dominant event 72, stack 30, score 72 -> URGENT"
       ],
       "geo_scope": "national",
       "state": null,
@@ -411,7 +411,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -527,7 +527,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -610,7 +610,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -729,7 +729,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -847,7 +847,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -929,7 +929,7 @@
         "event term: 'match' in title weight 8",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "geo: national",
         "dominant event 49.2, stack 32, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -986,6 +986,126 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "6ef094ef8c52c1990beb6f21",
+      "story_id": "6ef094ef8c52c1990beb6f21",
+      "headline": "Delhi building collapse: Two killed, five injured as 50-year-old Jwala Nagar structure gives way",
+      "title": "Delhi building collapse: Two killed, five injured as 50-year-old Jwala Nagar structure gives way",
+      "summary": "The three-year-old boy and a factory worker were among those killed; residents allege repeated complaints about the building’s deteriorating condition went unaddressed, while MCD flags possible role of railway vibrations",
+      "url": "https://www.thehindu.com/news/cities/Delhi/two-storey-residential-building-collapsed-in-shahdaras-jwala-nagar-area/article71710607.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "transport-infrastructure",
+      "secondary_categories": [
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 46.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T16:16:44+00:00",
+      "published_at": "2026-11-17T16:16:44+00:00",
+      "effective_at": "2026-11-17T16:16:44+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "category: transport-infrastructure (importance 1, urgent=False)",
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'building collapse' in title weight 46",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.1h ago) +8",
+        "category: transport-infrastructure (importance 1) +1.2",
+        "geo: state",
+        "dominant event 46, stack 17.2, score 46 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": false,
+      "article_sentences": [
+        "Two people, including a three-year-old boy, were killed and five others injured after a nearly 50-year-old building, housing a gajak factory on the ground floor and residential rooms above it, collapsed in east Delhi’s Jwala Nagar on Tuesday (November 17, 2026) morning, trapping people under the debris.",
+        "The owner of the property, identified as Surendar Singh, was subsequently arrested, after he switched off his mobile phone and tried to flee, DCP (Shahdara) R.P. Meena said.",
+        "An FIR has been registered under Sections 106(1) (Causing death by negligence), 125(A) (Causing hurt by a rash or negligent act endangering life or safety) and 223 (Disobedience to an order duly promulgated by a public servant) of the Bharatiya Nyaya Sanhita (BNS).",
+        "Mr. Meena said Section 223 was added to the FIR as the owner did not verify the tenants staying in his property.",
+        "The collapse, which brought down the right portion of the building in a congested residential lane, left a heap of bricks, iron girders and household belongings where the structure had stood.",
+        "Residents said they had repeatedly raised concerns about the building’s deteriorating condition, pointing to leaking roof, cracks in its walls and metal girders and other structural elements becoming exposed, but alleged that the owner had not undertaken the necessary repairs.",
+        "The deceased were identified as Devansh alias Laddu (3), and Pintu (32).",
+        "The injured were identified as Devansh’s mother Khushbu (30), Vikesh (30), Akash (27), Dalip (26), Aman alias Dosa (32).",
+        "All six were taken to Dr. Hedgewar Hospital, where Devansh and Pintu were declared brought dead, while the injured were admitted for treatment.",
+        "The incident was reported around 10.09 a.m. in Gali No. 6, near Peer Baba Mazar in the Sabji Mandi area.",
+        "A distress call was received at Vivek Vihar police station, following which police personnel rushed to the spot and initiated rescue operations.",
+        "The Municipal Corporation of Delhi (MCD), meanwhile, recorded receiving the incident call at 10.25 a.m."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Two people, including a three-year-old boy, were killed and five others injured after a nearly 50-year-old building, housing a gajak factory on the ground floor and residential rooms above it, collapsed in east Delhi’s Jwala Nagar on Tuesday (November 17, 2026) morning, trapping people under the debris.",
+          "The owner of the property, identified as Surendar Singh, was subsequently arrested, after he switched off his mobile phone and tried to flee, DCP (Shahdara) R.P. Meena said."
+        ],
+        "body": [
+          "An FIR has been registered under Sections 106(1) (Causing death by negligence), 125(A) (Causing hurt by a rash or negligent act endangering life or safety) and 223 (Disobedience to an order duly promulgated by a public servant) of the Bharatiya Nyaya Sanhita (BNS).",
+          "Mr. Meena said Section 223 was added to the FIR as the owner did not verify the tenants staying in his property.",
+          "The collapse, which brought down the right portion of the building in a congested residential lane, left a heap of bricks, iron girders and household belongings where the structure had stood.",
+          "Residents said they had repeatedly raised concerns about the building’s deteriorating condition, pointing to leaking roof, cracks in its walls and metal girders and other structural elements becoming exposed, but alleged that the owner had not undertaken the necessary repairs.",
+          "The deceased were identified as Devansh alias Laddu (3), and Pintu (32).",
+          "The injured were identified as Devansh’s mother Khushbu (30), Vikesh (30), Akash (27), Dalip (26), Aman alias Dosa (32).",
+          "All six were taken to Dr. Hedgewar Hospital, where Devansh and Pintu were declared brought dead, while the injured were admitted for treatment.",
+          "The incident was reported around 10.09 a.m. in Gali No. 6, near Peer Baba Mazar in the Sabji Mandi area."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gali No"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Two people, including a three-year-old boy, were killed and five others injured after a nearly 50-year-old building, housing a gajak factory on the ground floor and residential rooms above it, collapsed in east Delhi’s Jwala Nagar on Tuesday (November 17, 2026) morning, trapping people under the debris.",
+            "source": "The Hindu",
+            "item_id": "6ef094ef8c52c1990beb6f21:article",
+            "composed": false
+          },
+          {
+            "text": "An FIR has been registered under Sections 106(1) (Causing death by negligence), 125(A) (Causing hurt by a rash or negligent act endangering life or safety) and 223 (Disobedience to an order duly promulgated by a public servant) of the Bharatiya Nyaya Sanhita (BNS).",
+            "source": "The Hindu",
+            "item_id": "6ef094ef8c52c1990beb6f21:article",
+            "composed": false
+          },
+          {
+            "text": "The injured were identified as Devansh’s mother Khushbu (30), Vikesh (30), Akash (27), Dalip (26), Aman alias Dosa (32).",
+            "source": "The Hindu",
+            "item_id": "6ef094ef8c52c1990beb6f21:article",
+            "composed": false
+          },
+          {
+            "text": "The deceased were identified as Devansh alias Laddu (3), and Pintu (32).",
+            "source": "The Hindu",
+            "item_id": "6ef094ef8c52c1990beb6f21:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Delhi/two-storey-residential-building-collapsed-in-shahdaras-jwala-nagar-area/article71710607.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "4aea1ba92c140ee5163888f7",
       "story_id": "4aea1ba92c140ee5163888f7",
       "headline": "SC seeks EC's response to 48 questions by INDIA bloc leaders before 9 Dec",
@@ -1027,7 +1147,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1101,6 +1221,117 @@
       "enrichment": "article"
     },
     {
+      "event_id": "913971d133dfe179b6a5a3cf",
+      "story_id": "913971d133dfe179b6a5a3cf",
+      "headline": "Reel Makers Not Entitled To Journalistic Protection During Protests, Delhi Police To Supreme Court",
+      "title": "Reel Makers Not Entitled To Journalistic Protection During Protests, Delhi Police To Supreme Court",
+      "summary": "It has to be determined if reel-makers and content-creators can be elevated to the status of journalists, the Delhi police said.",
+      "url": "https://www.livelaw.in/top-stories/reel-makers-not-entitled-to-journalistic-protection-during-protests-delhi-police-to-supreme-court-558831",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
+      "confidence": "medium",
+      "score": 76.2,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T16:13:45+00:00",
+      "published_at": "2026-11-17T16:13:45+00:00",
+      "effective_at": "2026-11-17T16:13:45+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "article_sentences": [
+        "It has to be determined if reel-makers and content-creators can be elevated to the status of journalists, the Delhi police said.",
+        "The Delhi Police has told the Supreme Court that its order directing protection of journalists covering the anti-Chief Election Commissioner (CEC) protests was not intended to cover \"so-called reel makers and social media influencers\".",
+        "In a counter-affidavit filed before the Supreme Court, the Delhi.",
+        "Police said that some participants in the \"illegal protests\" were content creators making YouTube reels while carrying cameras and microphones, making it difficult for police personnel to distinguish between genuine journalists and reel-makers on the ground.",
+        "The police said that it had to be determined whether \"reel-makers can be elevated to the status of journalists or reporters\", adding that the distinction was highlighted only to explain the practical difficulties faced by police personnel while managing protests.",
+        "Clarifying that it did not intend to obstruct content creators from pursuing their activities, the Delhi.",
+        "Police said that the guidelines for journalists covering protests were meant to distinguish professional journalists and reporters from persons carrying cameras and microphones for other purposes, including commercial exploitation of content.",
+        "The affidavit was filed by Joint Commissioner of Police Surrender Kumar on behalf of the Delhi.",
+        "Police responding to the petitions filed by the Network of Women in Media, Free Speech Collective, Delhi Union of Journalists and the Kerala Union of Working Journalists concerning alleged police misconduct against journalists covering the protests against Chief Election Commissioner Gyanesh Kumar.",
+        "The police referred to the Supreme Court's order dated October 11, 2026, which recorded the assurance given by the Solicitor General that lawyers, journalists and other professionals would not be hindered in discharging their professional duties.",
+        "It submitted that the direction was intended to protect journalists in the discharge of their professional duties and was not meant to exempt reel-makers, social media influencers or unruly elements from the general law or lawful directions of law enforcement agencies at the site of a prohibited assembly.",
+        "The affidavit further stated that the police had not placed any restriction on the right of citizens to report or disseminate information, nor had anyone been proceeded against merely for lacking press accreditation or an identity card."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "It has to be determined if reel-makers and content-creators can be elevated to the status of journalists, the Delhi police said.",
+          "The Delhi."
+        ],
+        "body": [
+          "Police has told the Supreme Court that its order directing protection of journalists covering the anti-Chief Election Commissioner (CEC) protests was not intended to cover \"so-called reel makers and social media influencers\".",
+          "In a counter-affidavit filed before the Supreme Court, the Delhi.",
+          "Police said that some participants in the \"illegal protests\" were content creators making YouTube reels while carrying cameras and microphones, making it difficult for police personnel to distinguish between genuine journalists and reel-makers on the ground.",
+          "The police said that it had to be determined whether \"reel-makers can be elevated to the status of journalists or reporters\", adding that the distinction was highlighted only to explain the practical difficulties faced by police personnel while managing protests.",
+          "Clarifying that it did not intend to obstruct content creators from pursuing their activities, the Delhi.",
+          "Police said that the guidelines for journalists covering protests were meant to distinguish professional journalists and reporters from persons carrying cameras and microphones for other purposes, including commercial exploitation of content.",
+          "The affidavit was filed by Joint Commissioner of Police Surrender Kumar on behalf of the Delhi.",
+          "Police responding to the petitions filed by the Network of Women in Media, Free Speech Collective, Delhi Union of Journalists and the Kerala Union of Working Journalists concerning alleged police misconduct against journalists covering the protests against Chief Election Commissioner Gyanesh Kumar."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Media"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police responding to the petitions filed by the Network of Women in Media, Free Speech Collective, Delhi Union of Journalists and the Kerala Union of Working Journalists concerning alleged police misconduct against journalists covering the protests against Chief Election Commissioner Gyanesh Kumar.",
+            "source": "LiveLaw",
+            "item_id": "913971d133dfe179b6a5a3cf:article",
+            "composed": false
+          },
+          {
+            "text": "Police has told the Supreme Court that its order directing protection of journalists covering the anti-Chief Election Commissioner (CEC) protests was not intended to cover \"so-called reel makers and social media influencers\".",
+            "source": "LiveLaw",
+            "item_id": "913971d133dfe179b6a5a3cf:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/reel-makers-not-entitled-to-journalistic-protection-during-protests-delhi-police-to-supreme-court-558831"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "17afaec93adf87143901aea9",
       "story_id": "17afaec93adf87143901aea9",
       "headline": "Supreme Court Upholds Introduction Of Written Exam Midway Through Recruitment, Says It Ensures Objective Assessment",
@@ -1145,7 +1376,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1266,7 +1497,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1373,7 +1604,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gas leak' in title weight 42",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 42, stack 29.2, score 42 -> HIGH"
@@ -1490,7 +1721,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gas leak' in title weight 42",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.0h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: state",
         "dominant event 42, stack 18, score 42 -> HIGH"
