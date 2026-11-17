@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T12:33:10.118934+00:00",
-  "count": 17,
+  "generated_at": "2026-11-17T12:42:20.441386+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "47255f58d73b914bd2d5726b",
@@ -50,7 +50,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: state scope (gujarat)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -139,6 +139,91 @@
       "enrichment": "article"
     },
     {
+      "event_id": "4a707491dee66828c700ca93",
+      "story_id": "4a707491dee66828c700ca93",
+      "headline": "Cyclone Akvan: Andhra Home Minister Anitha puts coastal districts on high alert, warns fishermen",
+      "title": "Cyclone Akvan: Andhra Home Minister Anitha puts coastal districts on high alert, warns fishermen",
+      "summary": "Andhra Pradesh Home Minister Vangalapudi Anitha asks people to stay alert over the next four days and the Agriculture Department to help farmers protect crops ready for harvest",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-andhra-home-minister-anitha-puts-coastal-districts-on-high-alert-warns-fishermen/article71710830.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "agriculture-rural",
+      "secondary_categories": [
+        "weather-disasters"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T12:30:40+00:00",
+      "published_at": "2026-11-17T12:30:40+00:00",
+      "effective_at": "2026-11-17T12:30:40+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: significance event 'Cyclone'",
+        "category: agriculture-rural (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (andhra pradesh)",
+        "recency: breaking (0.2h ago) +8",
+        "category: agriculture-rural (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 19.2, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "andhra pradesh",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Andhra Pradesh Home Minister Vangalapudi Anitha asks people to stay alert over the next four days and the Agriculture Department to help farmers protect crops ready for harvest.",
+          "Officials said that during Tuesday evening it is likely to intensify into a severe cyclonic storm followed by a very severe cyclonic storm by the morning of day after tomorrow."
+        ],
+        "body": [
+          "It will land anywhere between Nellore and Tuni on Friday afternoon."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Officials said that during Tuesday evening it is likely to intensify into a severe cyclonic storm followed by a very severe cyclonic storm by the morning of day after tomorrow.",
+            "source": "The Hans India",
+            "item_id": "8571dd3b6f0b4fef03f7e34a",
+            "composed": false
+          },
+          {
+            "text": "It will land anywhere between Nellore and Tuni on Friday afternoon.",
+            "source": "The Hans India",
+            "item_id": "8571dd3b6f0b4fef03f7e34a",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [
+          "The Hans India"
+        ],
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-andhra-home-minister-anitha-puts-coastal-districts-on-high-alert-warns-fishermen/article71710830.ece"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "9a6b554a342cd653682de334",
       "story_id": "9a6b554a342cd653682de334",
       "headline": "Lowest of 11.2°C in Telangana’s Sangareddy; cyclone Akvan may change weather conditions from November 19",
@@ -183,7 +268,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (telangana)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -300,7 +385,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -380,217 +465,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "4a707491dee66828c700ca93",
-      "story_id": "4a707491dee66828c700ca93",
-      "headline": "Cyclone Akvan: Andhra Home Minister Anitha puts coastal districts on high alert, warns fishermen",
-      "title": "Cyclone Akvan: Andhra Home Minister Anitha puts coastal districts on high alert, warns fishermen",
-      "summary": "Andhra Pradesh Home Minister Vangalapudi Anitha asks people to stay alert over the next four days and the Agriculture Department to help farmers protect crops ready for harvest",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-andhra-home-minister-anitha-puts-coastal-districts-on-high-alert-warns-fishermen/article71710830.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "agriculture-rural",
-      "secondary_categories": [
-        "weather-disasters"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-17T10:41:32+00:00",
-      "published_at": "2026-11-17T10:41:32+00:00",
-      "effective_at": "2026-11-17T10:41:32+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: significance event 'Cyclone'",
-        "category: agriculture-rural (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (andhra pradesh)",
-        "recency: breaking (1.9h ago) +8",
-        "category: agriculture-rural (importance 1) +1.2",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 19.2, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "andhra pradesh",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Andhra Pradesh Home Minister Vangalapudi Anitha asks people to stay alert over the next four days and the Agriculture Department to help farmers protect crops ready for harvest.",
-          "Officials said that during Tuesday evening it is likely to intensify into a severe cyclonic storm followed by a very severe cyclonic storm by the morning of day after tomorrow."
-        ],
-        "body": [
-          "It will land anywhere between Nellore and Tuni on Friday afternoon."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Officials said that during Tuesday evening it is likely to intensify into a severe cyclonic storm followed by a very severe cyclonic storm by the morning of day after tomorrow.",
-            "source": "The Hans India",
-            "item_id": "8571dd3b6f0b4fef03f7e34a",
-            "composed": false
-          },
-          {
-            "text": "It will land anywhere between Nellore and Tuni on Friday afternoon.",
-            "source": "The Hans India",
-            "item_id": "8571dd3b6f0b4fef03f7e34a",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [
-          "The Hans India"
-        ],
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-andhra-home-minister-anitha-puts-coastal-districts-on-high-alert-warns-fishermen/article71710830.ece"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "b6d489bd6ab8203fa7f9166e",
-      "story_id": "b6d489bd6ab8203fa7f9166e",
-      "headline": "Cyclone Akvan: Check list of Bengal districts under yellow alert this week",
-      "title": "Cyclone Akvan: Check list of Bengal districts under yellow alert this week",
-      "summary": "",
-      "url": "https://indianexpress.com/article/cities/kolkata/cyclone-akvan-west-bengal-imd-yellow-alert-rain-10966602",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 80.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-17T08:50:09+00:00",
-      "published_at": "2026-11-17T08:50:09+00:00",
-      "effective_at": "2026-11-17T08:50:09+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 72, stack 26, score 72 -> URGENT"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "As Cyclone Akvan intensifies over the Bay of Bengal, the India Meteorological Department (IMD) has forecast rain in West Bengal from Wednesday, with yellow alerts issued for all southern districts from Thursday to Sunday.",
-        "Scattered light rain and thundershowers are likely to occur in Kolkata, Howrah, North and South 24 Parganas, and East and West Midnapore districts on Wednesday.",
-        "Dry weather is expected to prevail in other South Bengal districts.",
-        "The coastal districts of South 24 Parganas and East and West Midnapore are expected to receive heavy rainfall of 7-11 cm at isolated pockets, along with thunderstorm, lightning, and gusty winds of 30-40 kmph on Thursday and Friday.",
-        "A few pockets of Jhargram will also experience heavy rain on Friday.",
-        "In other parts of these districts, fairly widespread light rain and thundershowers have been forecast.",
-        "The other south Bengal districts—Kolkata, Howrah, Hooghly, North 24 Parganas, Purulia, Bankura, East and West Bardhaman, Birbhum, Murshidabad, and Nadia—are expected to witness thunderstorms and lightning, with gusty winds of 30-40 kmph in a few places.",
-        "While the yellow alert has been issued till the early hours of Sunday, light to moderate rain and thundershowers are expected to continue till the early hours of November 24.",
-        "No large temperature changes are expected.",
-        "The IMD has forecast no rain in North Bengal.",
-        "The deep depression that intensified into Cyclone Akvan on Monday was situated 610 km from Chennai, 630 km from Trincomalee, and 670 km from Visakhapatnam in the early hours of Tuesday, the IMD said.",
-        "The cyclone is expected to make landfall in the early hours of Friday on the Andhra Pradesh and Yanam coast, with wind speeds gusting to 145 kmph."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "As Cyclone Akvan intensifies over the Bay of Bengal, the India Meteorological Department (IMD) has forecast rain in West Bengal from Wednesday, with yellow alerts issued for all southern districts from Thursday to Sunday.",
-          "Scattered light rain and thundershowers are likely to occur in Kolkata, Howrah, North and South 24 Parganas, and East and West Midnapore districts on Wednesday."
-        ],
-        "body": [
-          "The coastal districts of South 24 Parganas and East and West Midnapore are expected to receive heavy rainfall of 7-11 cm at isolated pockets, along with thunderstorm, lightning, and gusty winds of 30-40 kmph on Thursday and Friday.",
-          "A few pockets of Jhargram will also experience heavy rain on Friday.",
-          "In other parts of these districts, fairly widespread light rain and thundershowers have been forecast.",
-          "The other south Bengal districts—Kolkata, Howrah, Hooghly, North 24 Parganas, Purulia, Bankura, East and West Bardhaman, Birbhum, Murshidabad, and Nadia—are expected to witness thunderstorms and lightning, with gusty winds of 30-40 kmph in a few places.",
-          "While the yellow alert has been issued till the early hours of Sunday, light to moderate rain and thundershowers are expected to continue till the early hours of November 24.",
-          "No large temperature changes are expected.",
-          "The IMD has forecast no rain in North Bengal."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "West Bengal"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Dry weather is expected to prevail in other South Bengal districts."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "As Cyclone Akvan intensifies over the Bay of Bengal, the India Meteorological Department (IMD) has forecast rain in West Bengal from Wednesday, with yellow alerts issued for all southern districts from Thursday to Sunday.",
-            "source": "The Indian Express",
-            "item_id": "b6d489bd6ab8203fa7f9166e:article",
-            "composed": false
-          },
-          {
-            "text": "Scattered light rain and thundershowers are likely to occur in Kolkata, Howrah, North and South 24 Parganas, and East and West Midnapore districts on Wednesday.",
-            "source": "The Indian Express",
-            "item_id": "b6d489bd6ab8203fa7f9166e:article",
-            "composed": false
-          },
-          {
-            "text": "The coastal districts of South 24 Parganas and East and West Midnapore are expected to receive heavy rainfall of 7-11 cm at isolated pockets, along with thunderstorm, lightning, and gusty winds of 30-40 kmph on Thursday and Friday.",
-            "source": "The Indian Express",
-            "item_id": "b6d489bd6ab8203fa7f9166e:article",
-            "composed": false
-          },
-          {
-            "text": "While the yellow alert has been issued till the early hours of Sunday, light to moderate rain and thundershowers are expected to continue till the early hours of November 24.",
-            "source": "The Indian Express",
-            "item_id": "b6d489bd6ab8203fa7f9166e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/cities/kolkata/cyclone-akvan-west-bengal-imd-yellow-alert-rain-10966602"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "aaf3e5e11e82412aca137421",
       "story_id": "aaf3e5e11e82412aca137421",
       "headline": "Cyclone Akvan to bring light rains for Chennai and surroundings on November 17",
@@ -633,7 +507,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -713,6 +587,119 @@
       "enrichment": "article"
     },
     {
+      "event_id": "e807d870a9e6dd0322f65a8f",
+      "story_id": "e807d870a9e6dd0322f65a8f",
+      "headline": "Nvidia sets up board committee to oversee national security, export control risks amid China scrutiny",
+      "title": "Nvidia sets up board committee to oversee national security, export control risks amid China scrutiny",
+      "summary": "Nvidia's board of directors has constituted a National Security and Export Control Oversight Committee as a standing committee, according to a statement.",
+      "url": "https://www.cnbctv18.com/market/nvidia-sets-up-board-committee-to-oversee-national-security-export-control-risks-amid-china-scrutiny-jensen-huang-20035940.htm",
+      "source": "CNBC-TV18",
+      "primary_source": false,
+      "tier": 3,
+      "category": "defence-security",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 70.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T12:28:40+00:00",
+      "published_at": "2026-11-17T12:28:40+00:00",
+      "effective_at": "2026-11-17T12:28:40+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "network18": {
+          "kind": "independent",
+          "source_ids": [
+            "cnbc-tv18"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'national security'",
+        "major: significance event 'National Security'",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (cnbc-tv18) +1",
+        "source: specialist (cnbc-tv18) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'national security' in title weight 70",
+        "event term: 'national security' in summary weight 42",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 70, stack 45, score 70 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Nvidia is strengthening trade compliance and geopolitical risk management through a dedicated board committee, following export restrictions and leadership controversy tied to its China operations.",
+        "Discover how the chipmaker plans to balance tightening trade controls with surging global demand.",
+        "Nvidia has established a new board-level committee to oversee its national security policies, export control compliance and global trade risk management, amid heightened scrutiny of the artificial intelligence (AI) chipmaker's business dealings and potential risks linked to its China operations.",
+        "The company's board of directors has constituted a National Security and Export Control Oversight Committee as a standing committee, according to a statement.",
+        "Director Suzanne Nora Johnson has been appointed chair of the committee, while Stephen C. Neal and John O. Dabiri have been named as its other members.",
+        "Nvidia's National Security Team and Global Trade Compliance Team will report directly to the new committee.",
+        "It will meet at least once every quarter, including with company management and in executive sessions.",
+        "The committee will also be able to retain independent external experts in law, national security and trade compliance.",
+        "The development comes days after former Nvidia CEO Jensen Huang's departure following controversy over his relationship with Alice Huang, a former executive at Singapore-based Megaspeed International, which has faced scrutiny over suspected violations of US export controls.",
+        "Huang admitted to an extramarital relationship in a message to Nvidia employees on November 8 and apologised to his family and colleagues.",
+        "The admission followed reports about his relationship with Alice Huang, whom US officials have reportedly suspected of having links to Chinese intelligence.",
+        "The allegations have not been independently established, and China has rejected claims of espionage."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Nvidia is strengthening trade compliance and geopolitical risk management through a dedicated board committee, following export restrictions and leadership controversy tied to its China operations.",
+          "Discover how the chipmaker plans to balance tightening trade controls with surging global demand."
+        ],
+        "body": [
+          "Nvidia has established a new board-level committee to oversee its national security policies, export control compliance and global trade risk management, amid heightened scrutiny of the artificial intelligence (AI) chipmaker's business dealings and potential risks linked to its China operations.",
+          "The company's board of directors has constituted a National Security and Export Control Oversight Committee as a standing committee, according to a statement.",
+          "Director Suzanne Nora Johnson has been appointed chair of the committee, while Stephen C. Neal and John O. Dabiri have been named as its other members.",
+          "Nvidia's National Security Team and Global Trade Compliance Team will report directly to the new committee.",
+          "It will meet at least once every quarter, including with company management and in executive sessions.",
+          "The committee will also be able to retain independent external experts in law, national security and trade compliance.",
+          "The development comes days after former Nvidia CEO Jensen Huang's departure following controversy over his relationship with Alice Huang, a former executive at Singapore-based Megaspeed International, which has faced scrutiny over suspected violations of US export controls.",
+          "Huang admitted to an extramarital relationship in a message to Nvidia employees on November 8 and apologised to his family and colleagues."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Singapore-based Megaspeed International"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Huang admitted to an extramarital relationship in a message to Nvidia employees on November 8 and apologised to his family and colleagues.",
+            "source": "CNBC-TV18",
+            "item_id": "e807d870a9e6dd0322f65a8f:article",
+            "composed": false
+          },
+          {
+            "text": "The development comes days after former Nvidia CEO Jensen Huang's departure following controversy over his relationship with Alice Huang, a former executive at Singapore-based Megaspeed International, which has faced scrutiny over suspected violations of US export controls.",
+            "source": "CNBC-TV18",
+            "item_id": "e807d870a9e6dd0322f65a8f:article",
+            "composed": false
+          }
+        ],
+        "source": "CNBC-TV18",
+        "corroborating": [],
+        "url": "https://www.cnbctv18.com/market/nvidia-sets-up-board-committee-to-oversee-national-security-export-control-risks-amid-china-scrutiny-jensen-huang-20035940.htm"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "f4d47e74bf0587e00745c878",
       "story_id": "f4d47e74bf0587e00745c878",
       "headline": "Who is Suzanne Nora Johnson? Goldman Sachs veteran to lead Nvidia’s new national security committee",
@@ -763,7 +750,7 @@
         "event term: 'national security' in summary weight 42",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -771,7 +758,7 @@
       "geo_scope": "national",
       "state": null,
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Nvidia has appointed Goldman Sachs veteran Suzanne Nora Johnson to chair its new National Security and Export Control Oversight Committee.",
@@ -798,7 +785,7 @@
         "url": "https://www.livemint.com/companies/who-is-suzanne-nora-johnson-goldman-sachs-veteran-to-lead-nvidia-s-new-national-security-committee-11794915061437.html"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -845,7 +832,7 @@
         "event term: 'match' in title weight 8",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "geo: national",
         "dominant event 49.2, stack 36, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -902,6 +889,178 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "38e72bd40dbe1eceb62b4547",
+      "story_id": "38e72bd40dbe1eceb62b4547",
+      "headline": "Two Indian finalists in Prince William’s ‘Earthshot Prize’ race",
+      "title": "Two Indian finalists in Prince William’s ‘Earthshot Prize’ race",
+      "summary": "For over three decades, Mahila Housing Trust (MHT) has been working to improve living conditions in low-income urban communities through programmes to facilitate access to water, sanitation, community infrastructure and public spaces etc. But it was in the mid-2010s that the Ahmedabad-based non-profit began to recognise another increasingly urgent challenge: The impact that climate change had on the homes and the livelihoods of the poor.As temperatures soared globally, Gujarat, a state accustomed to hot, dry summers, began to experience severe effects. Homes with tin-sheet roofs heated up rapidly, while those with concrete roofs and inadequate ventilation trapped even more heat. “And productivity was affected, whether you were working from those homes or, like a construction worker, going out to work in the heat,” says Bijal Brahmbhatt, executive director, MHT.In 2015, MHT introduced cool roofs, coated with a specialised reflective layer to reduce indoor temperatures by two to five degrees Celsius. The programme has since covered more than 36,000 units and inspired policy adoption in states such as Telangana, whose Cool Roofs Policy 2023–2028 seeks to combat the urban ‘heat island’ effect.Also Read: What is good for climate is good for business: Jason Knauf of Earthshot PrizeAnd while the intervention helped mitigate the physical risks of extreme heat, its research revealed another, less visible consequence: The communities were losing around 23 percent of their income every month during the summer months that were getting more brutal and growing longer with each passing year.“That’s when we came up with the idea of climate insurance. The women we knew had an innate habit of saving, but those could be withdrawn. We wanted an instrument that they could not dip into, but that would give them a payout in an emergency,” adds Brahmbhatt. Launched in 2023, the product uses 40 years of weather data to establish temperature thresholds that, when breached, triggers a payout for policyholders—it has insured 49,000 women so far, and will now be taken beyond borders to Sri Lanka, Bangladesh and the Philippines. The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.Photo by Aaron Chown/Pool via ReutersWhile MHT’s interventions in climate resilience remain rooted in its larger mission of improving living conditions for the underserved communities, what sets them apart is their ability to identify early a threat that the world is only now beginning to grapple with. According to Data for India, the past decade (2015-2025) has been the hottest on record, with 2024 standing out as the warmest year ever in a century with the highest ever mean temperature of 25.7°C.Also Read: Emerging economies will account for 75% of carbon emissions by 2040: Rajiv Shah of the Rockefeller FoundationIts foresight in anticipating a climate crisis has earned MHT a place among an elite group of 15 contenders for The Earthshot Prize, a global environmental award founded by Prince William in 2020. At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.“Six years ago, we set ourselves a 10-year mission to put our planet on a path to recovery. Since then, the Earthshot Prize has seen what happens when bold ideas are given the chance to grow,” said Prince William, who is in Mumbai with his wife Catherine, on their first joint assignment since her cancer diagnosis in 2024. This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday. Mahila Housing Trust (above) and Mahindra Last Mile Mobility are the Earthshot Prize Finalists from IndiaPhoto courtesy The Earthshot PrizeCompleting the Indian contingent in this year’s finalist cohort is Mahindra Last Mile Mobility (MLMM), which is tackling vehicular pollution through its fleet of over 400,000 electric three-wheelers, estimated to have helped offset 185,000 metric tonnes of carbon emissions. Its solution is particularly relevant in a country where transport accounts for nearly 14 percent of CO₂ emissions, with road transport contributing around 90 percent of the total, according to the International Council on Clean Transportation.Also Read: William and Kate in Mumbai: Metro ride, gully cricketMLMM started off as a division within the Mahindra Group in 2021 before being spun off into a company two years later. “Over the last five years, we have scaled our EV volumes almost 10x,” says Suman Mishra, the managing director and CEO. “What is unique is that very early on we realised it’s not just about the environment—that is an outcome. It’s important the customer should see value on a daily basis. The way we pitched and sold to the early adopters was that you will save money on a daily basis if you drive electric, because of the fuel price arbitrage,” adds Mishra.Also Read: India needs to create jobs, and they have to be greenMLMM is also one of only two large corporates to make it to the final round of The Earthshot Prize for the first time, alongside Ørsted, a Danish energy company, bridging the oft-debated divide between profits and sustainability. “We have to understand that sometimes scalable solutions can also be economic solutions. With the EVs, while they are not the most profitable right now—in fact, not at all—we will be able to make profits if we are able to deliver the volumes,” says Mishra.The choice of India as a host itself is curious given the country’s dual reality. On one hand, India is facing climate emergencies through extreme and unpredictable weather patterns. A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.“In terms of the real-world impacts of climate change, India is on the frontlines—whether it's heat or potential changes to monsoon patterns, you name it, what's happening here has global implications,” says Jason Knauf, CEO, The Earthshot Prize. “But then the other thing is that we see a disproportionate amount of leadership and innovation coming from India. For Earthshot, India has been the most successful country. We've had more finalists and winners from here than any other country.” Over its six editions, India has produced seven finalists and four winners.“Often, the world’s emerging economies are presented with false choices: Growth or the environment. Prosperity or protection. But India shows us a different picture,” said the Prince of Wales further. “It is a country that reached its target for 50 percent of installed electricity capacity to come from non-fossils five years earlier, with its solar capacity having grown more than 50-fold in little over a decade. This transformation is about more than energy; it is about people finding better ways to live.”The Earthshot has also been a platform for Indian climate solutions to find a wider audience, both globally and within India. For example, Rio de Janeiro, the Brazilian city that hosted the 2025 edition of the awards, is exploring a trading-based approach to cap industrial emissions inspired by 2025 finalist Gujarat. The state, in 2019, launched the first ever market for trading in particulate matter emissions through partnerships with the University of Chicago, Yale University and J-Pal, a global research centre in MIT, bringing down PM emissions by 20-30 percent, says a report published in The Quarterly Journal of Economics. On December 1, it will also launch India’s first emissions trading market for sulphur dioxide in Mumbai, and foray into Rajasthan next.Also Read: India must push TRICE to counter EU CBAM, protect climate justiceAs Jacinda Arden, the former prime minister of New Zealand who is on the board of trustees for the award, said during the Impact Assembly: “The best solutions don’t need reinventing; they need replicating.”Similarly, Takachar, a startup co-founded by Delhi-based Vidyut Mohan that won the award in 2021 in the ‘Clean Our Air’ category, has since expanded its footprint to the US, Canada, East Africa and Southeast Asia with its portable technology that converts agricultural and forest residue into marketable bioproducts. “The prize has helped scale our innovations faster, which has provided us resources. Our inbound inquiries have multiplied, so has investor interest,” Tanmay Telang, head of business development, Takachar, told the media during a press conference to kickstart the India leg of the awards.Earthshot has also doubled down on India with the India Advisory Council, onboarding industry captains like HCLTech’s Roshni Nadar, past winners Nidhi Pant of S4S Technologies and Kaushik K of Kheyti, and climate advocates like Shloka Nath (founder of Dorahi, former founder of India Climate Collaborative) and Shishir Joshi (CEO and founder of Project Mumbai and Mumbai Climate Week). “While we’ve just recently announced the Council, we've been working with these individuals and organisations for this entire year. Wherever we go around the world, we want the work we're doing to be informed by people who are on the ground and have decades of experience,” says Knauf. The organisation has hired an India director, Smita Rakesh, a veteran in the impact investing space, to continue the work and connect the network to the climate and nature innovation ecosystem in India.",
+      "url": "https://www.forbesindia.com/life/climate-sustainability/two-indian-finalists-in-prince-williams-earthshot-prize-race-article/3000599",
+      "source": "Forbes India",
+      "primary_source": false,
+      "tier": 3,
+      "category": "energy-environment",
+      "secondary_categories": [
+        "transport-infrastructure",
+        "business-industry",
+        "weather-disasters",
+        "agriculture-rural",
+        "national-politics",
+        "science-space",
+        "defence-security",
+        "technology-digital",
+        "courts-law",
+        "education",
+        "jobs-employment"
+      ],
+      "confidence": "high",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-17T09:46:00+00:00",
+      "published_at": "2026-11-17T09:46:00+00:00",
+      "effective_at": "2026-11-17T09:46:00+00:00",
+      "independent_source_groups": 2,
+      "source_groups": {
+        "forbes-india": {
+          "kind": "independent",
+          "source_ids": [
+            "forbes-india"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: corroborated by 2 independent sources",
+        "category: energy-environment (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (forbes-india) +1",
+        "source: specialist (forbes-india) +5",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
+        "event term: 'final' in summary weight 6",
+        "event term: 'fuel price' in summary weight 24",
+        "scale: national scope",
+        "scale: multi-state (5 states)",
+        "recency: breaking (2.9h ago) +8",
+        "category: energy-environment (importance 1) +1.2",
+        "geo: national",
+        "dominant event 24, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "For over three decades, Mahila Housing Trust (MHT) has been working to improve living conditions in low-income urban communities through programmes to facilitate access to water, sanitation, community infrastructure and public spaces etc. But it was in the mid-2010s that the Ahmedabad-based non-profit began to recognise another increasingly urgent challenge: The impact that climate change had on the homes and the livelihoods of the poor.",
+          "As temperatures soared globally, Gujarat, a state accustomed to hot, dry summers, began to experience severe effects."
+        ],
+        "body": [
+          "Homes with tin-sheet roofs heated up rapidly, while those with concrete roofs and inadequate ventilation trapped even more heat.",
+          "“And productivity was affected, whether you were working from those homes or, like a construction worker, going out to work in the heat,” says Bijal Brahmbhatt, executive director, MHT.",
+          "In 2015, MHT introduced cool roofs, coated with a specialised reflective layer to reduce indoor temperatures by two to five degrees Celsius.",
+          "The programme has since covered more than 36,000 units and inspired policy adoption in states such as Telangana, whose Cool Roofs Policy 2023–2028 seeks to combat the urban ‘heat island’ effect.",
+          "And while the intervention helped mitigate the physical risks of extreme heat, its research revealed another, less visible consequence: The communities were losing around 23 percent of their income every month during the summer months that were getting more brutal and growing longer with each passing year.",
+          "“That’s when we came up with the idea of climate insurance.",
+          "The women we knew had an innate habit of saving, but those could be withdrawn.",
+          "We wanted an instrument that they could not dip into, but that would give them a payout in an emergency,” adds Brahmbhatt.",
+          "Launched in 2023, the product uses 40 years of weather data to establish temperature thresholds that, when breached, triggers a payout for policyholders—it has insured 49,000 women so far, and will now be taken beyond borders to Sri Lanka, Bangladesh and the Philippines.",
+          "The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.",
+          "Photo by Aaron Chown/Pool via Reuters.",
+          "While MHT’s interventions in climate resilience remain rooted in its larger mission of improving living conditions for the underserved communities, what sets them apart is their ability to identify early a threat that the world is only now beginning to grapple with.",
+          "According to Data for India, the past decade (2015-2025) has been the hottest on record, with 2024 standing out as the warmest year ever in a century with the highest ever mean temperature of 25.7°C.Its foresight in anticipating a climate crisis has earned MHT a place among an elite group of 15 contenders for The Earthshot Prize, a global environmental award founded by Prince William in 2020.",
+          "At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.",
+          "“Six years ago, we set ourselves a 10-year mission to put our planet on a path to recovery.",
+          "Since then, the Earthshot Prize has seen what happens when bold ideas are given the chance to grow,” said Prince William, who is in Mumbai with his wife Catherine, on their first joint assignment since her cancer diagnosis in 2024.",
+          "This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday.",
+          "Mahila Housing Trust (above) and Mahindra Last Mile Mobility are the Earthshot Prize Finalists from IndiaPhoto courtesy.",
+          "The Earthshot PrizeCompleting the Indian contingent in this year’s finalist cohort is Mahindra Last Mile Mobility (MLMM), which is tackling vehicular pollution through its fleet of over 400,000 electric three-wheelers, estimated to have helped offset 185,000 metric tonnes of carbon emissions.",
+          "Its solution is particularly relevant in a country where transport accounts for nearly 14 percent of CO₂ emissions, with road transport contributing around 90 percent of the total, according to the International Council on Clean Transportation.",
+          "“Over the last five years, we have scaled our EV volumes almost 10x,” says Suman Mishra, the managing director and CEO.",
+          "“What is unique is that very early on we realised it’s not just about the environment—that is an outcome.",
+          "It’s important the customer should see value on a daily basis.",
+          "The way we pitched and sold to the early adopters was that you will save money on a daily basis if you drive electric, because of the fuel price arbitrage,” adds Mishra.",
+          "“We have to understand that sometimes scalable solutions can also be economic solutions.",
+          "With the EVs, while they are not the most profitable right now—in fact, not at all—we will be able to make profits if we are able to deliver the volumes,” says Mishra.",
+          "The choice of India as a host itself is curious given the country’s dual reality.",
+          "On one hand, India is facing climate emergencies through extreme and unpredictable weather patterns.",
+          "A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.",
+          "“In terms of the real-world impacts of climate change, India is on the frontlines—whether it's heat or potential changes to monsoon patterns, you name it, what's happening here has global implications,” says Jason Knauf, CEO, The Earthshot Prize.",
+          "“But then the other thing is that we see a disproportionate amount of leadership and innovation coming from India.",
+          "For Earthshot, India has been the most successful country.",
+          "We've had more finalists and winners from here than any other country.” Over its six editions, India has produced seven finalists and four winners.",
+          "“Often, the world’s emerging economies are presented with false choices: Growth or the environment.",
+          "Prosperity or protection.",
+          "But India shows us a different picture,” said the Prince of Wales further.",
+          "This transformation is about more than energy; it is about people finding better ways to live.” The Earthshot has also been a platform for Indian climate solutions to find a wider audience, both globally and within India.",
+          "For example, Rio de Janeiro, the Brazilian city that hosted the 2025 edition of the awards, is exploring a trading-based approach to cap industrial emissions inspired by 2025 finalist Gujarat.",
+          "On December 1, it will also launch India’s first emissions trading market for sulphur dioxide in Mumbai, and foray into Rajasthan next.",
+          "As Jacinda Arden, the former prime minister of New Zealand who is on the board of trustees for the award, said during the Impact Assembly: “The best solutions don’t need reinventing; they need replicating.” Similarly, Takachar, a startup co-founded by Delhi-based Vidyut Mohan that won the award in 2021 in the ‘Clean Our Air’ category, has since expanded its footprint to the US, Canada, East Africa and Southeast Asia with its portable technology that converts agricultural and forest residue into marketable bioproducts.",
+          "“The prize has helped scale our innovations faster, which has provided us resources.",
+          "Our inbound inquiries have multiplied, so has investor interest,” Tanmay Telang, head of business development, Takachar, told the media during a press conference to kickstart the India leg of the awards.",
+          "Earthshot has also doubled down on India with the India Advisory Council, onboarding industry captains like HCLTech’s Roshni Nadar, past winners Nidhi Pant of S4S Technologies and Kaushik K of Kheyti, and climate advocates like Shloka Nath (founder of Dorahi, former founder of India Climate Collaborative) and Shishir Joshi (CEO and founder of Project Mumbai and Mumbai Climate Week).",
+          "“While we’ve just recently announced the Council, we've been working with these individuals and organisations for this entire year.",
+          "Wherever we go around the world, we want the work we're doing to be informed by people who are on the ground and have decades of experience,” says Knauf.",
+          "The organisation has hired an India director, Smita Rakesh, a veteran in the impact investing space, to continue the work and connect the network to the climate and nature innovation ecosystem in India."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Mumbai"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "3,220 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.",
+            "source": "Forbes India",
+            "item_id": "38e72bd40dbe1eceb62b4547",
+            "composed": false
+          },
+          {
+            "text": "The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.",
+            "source": "Forbes India",
+            "item_id": "38e72bd40dbe1eceb62b4547",
+            "composed": false
+          },
+          {
+            "text": "At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.",
+            "source": "Forbes India",
+            "item_id": "38e72bd40dbe1eceb62b4547",
+            "composed": false
+          },
+          {
+            "text": "This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday.",
+            "source": "Forbes India",
+            "item_id": "38e72bd40dbe1eceb62b4547",
+            "composed": false
+          }
+        ],
+        "source": "Forbes India",
+        "corroborating": [],
+        "url": "https://www.forbesindia.com/life/climate-sustainability/two-indian-finalists-in-prince-williams-earthshot-prize-race-article/3000599"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "69e4617880514ca9211143a1",
       "story_id": "69e4617880514ca9211143a1",
       "headline": "Supreme Court Applies Doctrine Of Indoor Management, Says Company's Boardroom Dispute Cannot Invalidate Sale To Bona Fide Third-Party",
@@ -943,7 +1102,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1054,7 +1213,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1116,120 +1275,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "eb861fc1f535ed0e8bf5ac90",
-      "story_id": "eb861fc1f535ed0e8bf5ac90",
-      "headline": "Supreme Court stays conviction of SP leader Azam Khan in fake birth certificate case",
-      "title": "Supreme Court stays conviction of SP leader Azam Khan in fake birth certificate case",
-      "summary": "",
-      "url": "https://indianexpress.com/article/legal-news/azam-khan-fake-birth-certificate-case-supreme-court-order-10966392",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 60.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-17T07:00:22+00:00",
-      "published_at": "2026-11-17T07:00:22+00:00",
-      "effective_at": "2026-11-17T07:00:22+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Tuesday upheld the Allahabad High Court order staying Samajwadi Party (SP) leader Mohammed Azam Khan’s conviction in a fake birth certificate case, while also staying the convictions of his wife Tanzeen Fatima and son Abdullah Azam Khan.",
-        "A bench comprising Justices Dipankar Datta and Sheel Nagu passed the order while hearing cross-appeals filed by the Uttar Pradesh government as well as Fatima and Abdullah against the High Court’s May 24, 2024 decision.",
-        "While the High Court had stayed Azam Khan’s conviction on May 24, 2024, it had merely suspended the sentences of Fatima and Abdullah without staying their convictions.",
-        "A court in Rampur district had sentenced all three members of the family to seven years’ imprisonment.",
-        "The police registered a case on January 3, 2019, based on a complaint that Azam and Tanzeen got two birth certificates made for their son Abdullah — one on June 28, 2012, from Rampur municipality stating that he was born in Rampur and the second on January 21, 2015, stating that he was born in Lucknow.",
-        "The Uttar Pradesh Government, as well as Fatima and Abdullah, had approached the apex court challenging the High Court decision.",
-        "Abdullah was accused of using the first certificate to obtain a passport, and the second one for submission in government records.",
-        "On October 18, 2023, a trial court in Rampur convicted the three of them for offences including cheating, forgery and criminal conspiracy."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Tuesday upheld the Allahabad High Court order staying Samajwadi Party (SP) leader Mohammed Azam Khan’s conviction in a fake birth certificate case, while also staying the convictions of his wife Tanzeen Fatima and son Abdullah Azam Khan.",
-          "A bench comprising Justices Dipankar Datta and Sheel Nagu passed the order while hearing cross-appeals filed by the Uttar Pradesh government as well as Fatima and Abdullah against the High Court’s May 24, 2024 decision."
-        ],
-        "body": [
-          "While the High Court had stayed Azam Khan’s conviction on May 24, 2024, it had merely suspended the sentences of Fatima and Abdullah without staying their convictions.",
-          "A court in Rampur district had sentenced all three members of the family to seven years’ imprisonment.",
-          "The police registered a case on January 3, 2019, based on a complaint that Azam and Tanzeen got two birth certificates made for their son Abdullah — one on June 28, 2012, from Rampur municipality stating that he was born in Rampur and the second on January 21, 2015, stating that he was born in Lucknow.",
-          "The Uttar Pradesh Government, as well as Fatima and Abdullah, had approached the apex court challenging the High Court decision.",
-          "Abdullah was accused of using the first certificate to obtain a passport, and the second one for submission in government records.",
-          "On October 18, 2023, a trial court in Rampur convicted the three of them for offences including cheating, forgery and criminal conspiracy."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Rampur district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The police registered a case on January 3, 2019, based on a complaint that Azam and Tanzeen got two birth certificates made for their son Abdullah — one on June 28, 2012, from Rampur municipality stating that he was born in Rampur and the second on January 21, 2015, stating that he was born in Lucknow.",
-            "source": "The Indian Express",
-            "item_id": "eb861fc1f535ed0e8bf5ac90:article",
-            "composed": false
-          },
-          {
-            "text": "On October 18, 2023, a trial court in Rampur convicted the three of them for offences including cheating, forgery and criminal conspiracy.",
-            "source": "The Indian Express",
-            "item_id": "eb861fc1f535ed0e8bf5ac90:article",
-            "composed": false
-          },
-          {
-            "text": "A bench comprising Justices Dipankar Datta and Sheel Nagu passed the order while hearing cross-appeals filed by the Uttar Pradesh government as well as Fatima and Abdullah against the High Court’s May 24, 2024 decision.",
-            "source": "The Indian Express",
-            "item_id": "eb861fc1f535ed0e8bf5ac90:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Tuesday upheld the Allahabad High Court order staying Samajwadi Party (SP) leader Mohammed Azam Khan’s conviction in a fake birth certificate case, while also staying the convictions of his wife Tanzeen Fatima and son Abdullah Azam Khan.",
-            "source": "The Indian Express",
-            "item_id": "eb861fc1f535ed0e8bf5ac90:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/legal-news/azam-khan-fake-birth-certificate-case-supreme-court-order-10966392"
-      },
-      "group_size": 2,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "ddfda014d3f31378931ba2cf",
       "story_id": "ddfda014d3f31378931ba2cf",
       "headline": "India's 6th-Generation Fighter Jet By 2030? Raphe mPhibr Chairman Makes Big Claim",
@@ -1275,7 +1320,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 32.8, score 42 -> HIGH"
@@ -1361,7 +1406,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquisition' in title weight 42",
         "scale: national scope",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 26.4, score 42 -> HIGH"
@@ -1475,7 +1520,7 @@
         "event term: 'union budget' in summary weight 26.4",
         "event term: 'customs duty' in summary weight 24",
         "scale: state scope (delhi)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 41.6, score 41.6 -> HIGH"
@@ -1523,169 +1568,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "38e72bd40dbe1eceb62b4547",
-      "story_id": "38e72bd40dbe1eceb62b4547",
-      "headline": "Two Indian finalists in Prince William’s ‘Earthshot Prize’ race",
-      "title": "Two Indian finalists in Prince William’s ‘Earthshot Prize’ race",
-      "summary": "For over three decades, Mahila Housing Trust (MHT) has been working to improve living conditions in low-income urban communities through programmes to facilitate access to water, sanitation, community infrastructure and public spaces etc. But it was in the mid-2010s that the Ahmedabad-based non-profit began to recognise another increasingly urgent challenge: The impact that climate change had on the homes and the livelihoods of the poor.As temperatures soared globally, Gujarat, a state accustomed to hot, dry summers, began to experience severe effects. Homes with tin-sheet roofs heated up rapidly, while those with concrete roofs and inadequate ventilation trapped even more heat. “And productivity was affected, whether you were working from those homes or, like a construction worker, going out to work in the heat,” says Bijal Brahmbhatt, executive director, MHT.In 2015, MHT introduced cool roofs, coated with a specialised reflective layer to reduce indoor temperatures by two to five degrees Celsius. The programme has since covered more than 36,000 units and inspired policy adoption in states such as Telangana, whose Cool Roofs Policy 2023–2028 seeks to combat the urban ‘heat island’ effect.Also Read: What is good for climate is good for business: Jason Knauf of Earthshot PrizeAnd while the intervention helped mitigate the physical risks of extreme heat, its research revealed another, less visible consequence: The communities were losing around 23 percent of their income every month during the summer months that were getting more brutal and growing longer with each passing year.“That’s when we came up with the idea of climate insurance. The women we knew had an innate habit of saving, but those could be withdrawn. We wanted an instrument that they could not dip into, but that would give them a payout in an emergency,” adds Brahmbhatt. Launched in 2023, the product uses 40 years of weather data to establish temperature thresholds that, when breached, triggers a payout for policyholders—it has insured 49,000 women so far, and will now be taken beyond borders to Sri Lanka, Bangladesh and the Philippines. The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.Photo by Aaron Chown/Pool via ReutersWhile MHT’s interventions in climate resilience remain rooted in its larger mission of improving living conditions for the underserved communities, what sets them apart is their ability to identify early a threat that the world is only now beginning to grapple with. According to Data for India, the past decade (2015-2025) has been the hottest on record, with 2024 standing out as the warmest year ever in a century with the highest ever mean temperature of 25.7°C.Also Read: Emerging economies will account for 75% of carbon emissions by 2040: Rajiv Shah of the Rockefeller FoundationIts foresight in anticipating a climate crisis has earned MHT a place among an elite group of 15 contenders for The Earthshot Prize, a global environmental award founded by Prince William in 2020. At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.“Six years ago, we set ourselves a 10-year mission to put our planet on a path to recovery. Since then, the Earthshot Prize has seen what happens when bold ideas are given the chance to grow,” said Prince William, who is in Mumbai with his wife Catherine, on their first joint assignment since her cancer diagnosis in 2024. This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday. Mahila Housing Trust (above) and Mahindra Last Mile Mobility are the Earthshot Prize Finalists from IndiaPhoto courtesy The Earthshot PrizeCompleting the Indian contingent in this year’s finalist cohort is Mahindra Last Mile Mobility (MLMM), which is tackling vehicular pollution through its fleet of over 400,000 electric three-wheelers, estimated to have helped offset 185,000 metric tonnes of carbon emissions. Its solution is particularly relevant in a country where transport accounts for nearly 14 percent of CO₂ emissions, with road transport contributing around 90 percent of the total, according to the International Council on Clean Transportation.Also Read: William and Kate in Mumbai: Metro ride, gully cricketMLMM started off as a division within the Mahindra Group in 2021 before being spun off into a company two years later. “Over the last five years, we have scaled our EV volumes almost 10x,” says Suman Mishra, the managing director and CEO. “What is unique is that very early on we realised it’s not just about the environment—that is an outcome. It’s important the customer should see value on a daily basis. The way we pitched and sold to the early adopters was that you will save money on a daily basis if you drive electric, because of the fuel price arbitrage,” adds Mishra.Also Read: India needs to create jobs, and they have to be greenMLMM is also one of only two large corporates to make it to the final round of The Earthshot Prize for the first time, alongside Ørsted, a Danish energy company, bridging the oft-debated divide between profits and sustainability. “We have to understand that sometimes scalable solutions can also be economic solutions. With the EVs, while they are not the most profitable right now—in fact, not at all—we will be able to make profits if we are able to deliver the volumes,” says Mishra.The choice of India as a host itself is curious given the country’s dual reality. On one hand, India is facing climate emergencies through extreme and unpredictable weather patterns. A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.“In terms of the real-world impacts of climate change, India is on the frontlines—whether it's heat or potential changes to monsoon patterns, you name it, what's happening here has global implications,” says Jason Knauf, CEO, The Earthshot Prize. “But then the other thing is that we see a disproportionate amount of leadership and innovation coming from India. For Earthshot, India has been the most successful country. We've had more finalists and winners from here than any other country.” Over its six editions, India has produced seven finalists and four winners.“Often, the world’s emerging economies are presented with false choices: Growth or the environment. Prosperity or protection. But India shows us a different picture,” said the Prince of Wales further. “It is a country that reached its target for 50 percent of installed electricity capacity to come from non-fossils five years earlier, with its solar capacity having grown more than 50-fold in little over a decade. This transformation is about more than energy; it is about people finding better ways to live.”The Earthshot has also been a platform for Indian climate solutions to find a wider audience, both globally and within India. For example, Rio de Janeiro, the Brazilian city that hosted the 2025 edition of the awards, is exploring a trading-based approach to cap industrial emissions inspired by 2025 finalist Gujarat. The state, in 2019, launched the first ever market for trading in particulate matter emissions through partnerships with the University of Chicago, Yale University and J-Pal, a global research centre in MIT, bringing down PM emissions by 20-30 percent, says a report published in The Quarterly Journal of Economics. On December 1, it will also launch India’s first emissions trading market for sulphur dioxide in Mumbai, and foray into Rajasthan next.Also Read: India must push TRICE to counter EU CBAM, protect climate justiceAs Jacinda Arden, the former prime minister of New Zealand who is on the board of trustees for the award, said during the Impact Assembly: “The best solutions don’t need reinventing; they need replicating.”Similarly, Takachar, a startup co-founded by Delhi-based Vidyut Mohan that won the award in 2021 in the ‘Clean Our Air’ category, has since expanded its footprint to the US, Canada, East Africa and Southeast Asia with its portable technology that converts agricultural and forest residue into marketable bioproducts. “The prize has helped scale our innovations faster, which has provided us resources. Our inbound inquiries have multiplied, so has investor interest,” Tanmay Telang, head of business development, Takachar, told the media during a press conference to kickstart the India leg of the awards.Earthshot has also doubled down on India with the India Advisory Council, onboarding industry captains like HCLTech’s Roshni Nadar, past winners Nidhi Pant of S4S Technologies and Kaushik K of Kheyti, and climate advocates like Shloka Nath (founder of Dorahi, former founder of India Climate Collaborative) and Shishir Joshi (CEO and founder of Project Mumbai and Mumbai Climate Week). “While we’ve just recently announced the Council, we've been working with these individuals and organisations for this entire year. Wherever we go around the world, we want the work we're doing to be informed by people who are on the ground and have decades of experience,” says Knauf. The organisation has hired an India director, Smita Rakesh, a veteran in the impact investing space, to continue the work and connect the network to the climate and nature innovation ecosystem in India.",
-      "url": "https://www.forbesindia.com/life/climate-sustainability/two-indian-finalists-in-prince-williams-earthshot-prize-race-article/3000599",
-      "source": "Forbes India",
-      "primary_source": false,
-      "tier": 3,
-      "category": "energy-environment",
-      "secondary_categories": [
-        "transport-infrastructure",
-        "business-industry",
-        "weather-disasters",
-        "agriculture-rural",
-        "national-politics",
-        "science-space",
-        "defence-security",
-        "technology-digital",
-        "courts-law",
-        "education",
-        "jobs-employment"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 41.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-17T09:46:00+00:00",
-      "published_at": "2026-11-17T09:46:00+00:00",
-      "effective_at": "2026-11-17T09:46:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "forbes-india": {
-          "kind": "independent",
-          "source_ids": [
-            "forbes-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: energy-environment (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (forbes-india) +1",
-        "source: specialist (forbes-india) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'final' in summary weight 6",
-        "event term: 'fuel price' in summary weight 24",
-        "scale: national scope",
-        "scale: multi-state (5 states)",
-        "recency: breaking (2.8h ago) +8",
-        "category: energy-environment (importance 1) +1.2",
-        "geo: national",
-        "dominant event 24, stack 41.2, score 41.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "For over three decades, Mahila Housing Trust (MHT) has been working to improve living conditions in low-income urban communities through programmes to facilitate access to water, sanitation, community infrastructure and public spaces etc. But it was in the mid-2010s that the Ahmedabad-based non-profit began to recognise another increasingly urgent challenge: The impact that climate change had on the homes and the livelihoods of the poor.",
-          "As temperatures soared globally, Gujarat, a state accustomed to hot, dry summers, began to experience severe effects."
-        ],
-        "body": [
-          "Homes with tin-sheet roofs heated up rapidly, while those with concrete roofs and inadequate ventilation trapped even more heat.",
-          "“And productivity was affected, whether you were working from those homes or, like a construction worker, going out to work in the heat,” says Bijal Brahmbhatt, executive director, MHT.",
-          "In 2015, MHT introduced cool roofs, coated with a specialised reflective layer to reduce indoor temperatures by two to five degrees Celsius.",
-          "The programme has since covered more than 36,000 units and inspired policy adoption in states such as Telangana, whose Cool Roofs Policy 2023–2028 seeks to combat the urban ‘heat island’ effect.",
-          "And while the intervention helped mitigate the physical risks of extreme heat, its research revealed another, less visible consequence: The communities were losing around 23 percent of their income every month during the summer months that were getting more brutal and growing longer with each passing year.",
-          "“That’s when we came up with the idea of climate insurance.",
-          "The women we knew had an innate habit of saving, but those could be withdrawn.",
-          "We wanted an instrument that they could not dip into, but that would give them a payout in an emergency,” adds Brahmbhatt.",
-          "Launched in 2023, the product uses 40 years of weather data to establish temperature thresholds that, when breached, triggers a payout for policyholders—it has insured 49,000 women so far, and will now be taken beyond borders to Sri Lanka, Bangladesh and the Philippines.",
-          "The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.",
-          "Photo by Aaron Chown/Pool via Reuters.",
-          "While MHT’s interventions in climate resilience remain rooted in its larger mission of improving living conditions for the underserved communities, what sets them apart is their ability to identify early a threat that the world is only now beginning to grapple with.",
-          "According to Data for India, the past decade (2015-2025) has been the hottest on record, with 2024 standing out as the warmest year ever in a century with the highest ever mean temperature of 25.7°C.Its foresight in anticipating a climate crisis has earned MHT a place among an elite group of 15 contenders for The Earthshot Prize, a global environmental award founded by Prince William in 2020.",
-          "At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.",
-          "“Six years ago, we set ourselves a 10-year mission to put our planet on a path to recovery.",
-          "Since then, the Earthshot Prize has seen what happens when bold ideas are given the chance to grow,” said Prince William, who is in Mumbai with his wife Catherine, on their first joint assignment since her cancer diagnosis in 2024.",
-          "This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday.",
-          "Mahila Housing Trust (above) and Mahindra Last Mile Mobility are the Earthshot Prize Finalists from IndiaPhoto courtesy.",
-          "The Earthshot PrizeCompleting the Indian contingent in this year’s finalist cohort is Mahindra Last Mile Mobility (MLMM), which is tackling vehicular pollution through its fleet of over 400,000 electric three-wheelers, estimated to have helped offset 185,000 metric tonnes of carbon emissions.",
-          "Its solution is particularly relevant in a country where transport accounts for nearly 14 percent of CO₂ emissions, with road transport contributing around 90 percent of the total, according to the International Council on Clean Transportation.",
-          "“Over the last five years, we have scaled our EV volumes almost 10x,” says Suman Mishra, the managing director and CEO.",
-          "“What is unique is that very early on we realised it’s not just about the environment—that is an outcome.",
-          "It’s important the customer should see value on a daily basis.",
-          "The way we pitched and sold to the early adopters was that you will save money on a daily basis if you drive electric, because of the fuel price arbitrage,” adds Mishra.",
-          "“We have to understand that sometimes scalable solutions can also be economic solutions.",
-          "With the EVs, while they are not the most profitable right now—in fact, not at all—we will be able to make profits if we are able to deliver the volumes,” says Mishra.",
-          "The choice of India as a host itself is curious given the country’s dual reality.",
-          "On one hand, India is facing climate emergencies through extreme and unpredictable weather patterns.",
-          "A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.",
-          "“In terms of the real-world impacts of climate change, India is on the frontlines—whether it's heat or potential changes to monsoon patterns, you name it, what's happening here has global implications,” says Jason Knauf, CEO, The Earthshot Prize.",
-          "“But then the other thing is that we see a disproportionate amount of leadership and innovation coming from India.",
-          "For Earthshot, India has been the most successful country.",
-          "We've had more finalists and winners from here than any other country.” Over its six editions, India has produced seven finalists and four winners.",
-          "“Often, the world’s emerging economies are presented with false choices: Growth or the environment.",
-          "Prosperity or protection.",
-          "But India shows us a different picture,” said the Prince of Wales further.",
-          "This transformation is about more than energy; it is about people finding better ways to live.” The Earthshot has also been a platform for Indian climate solutions to find a wider audience, both globally and within India.",
-          "For example, Rio de Janeiro, the Brazilian city that hosted the 2025 edition of the awards, is exploring a trading-based approach to cap industrial emissions inspired by 2025 finalist Gujarat.",
-          "On December 1, it will also launch India’s first emissions trading market for sulphur dioxide in Mumbai, and foray into Rajasthan next.",
-          "As Jacinda Arden, the former prime minister of New Zealand who is on the board of trustees for the award, said during the Impact Assembly: “The best solutions don’t need reinventing; they need replicating.” Similarly, Takachar, a startup co-founded by Delhi-based Vidyut Mohan that won the award in 2021 in the ‘Clean Our Air’ category, has since expanded its footprint to the US, Canada, East Africa and Southeast Asia with its portable technology that converts agricultural and forest residue into marketable bioproducts.",
-          "“The prize has helped scale our innovations faster, which has provided us resources.",
-          "Our inbound inquiries have multiplied, so has investor interest,” Tanmay Telang, head of business development, Takachar, told the media during a press conference to kickstart the India leg of the awards.",
-          "Earthshot has also doubled down on India with the India Advisory Council, onboarding industry captains like HCLTech’s Roshni Nadar, past winners Nidhi Pant of S4S Technologies and Kaushik K of Kheyti, and climate advocates like Shloka Nath (founder of Dorahi, former founder of India Climate Collaborative) and Shishir Joshi (CEO and founder of Project Mumbai and Mumbai Climate Week).",
-          "“While we’ve just recently announced the Council, we've been working with these individuals and organisations for this entire year.",
-          "Wherever we go around the world, we want the work we're doing to be informed by people who are on the ground and have decades of experience,” says Knauf.",
-          "The organisation has hired an India director, Smita Rakesh, a veteran in the impact investing space, to continue the work and connect the network to the climate and nature innovation ecosystem in India."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Mumbai"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "3,220 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "A report released by advocacy Centre for Science and Environment and Down To Earth, a magazine focussed on environment and development, states that 3,220 people died, and 128,334 houses and 4.25 million hectares of crop were destroyed from 251 extreme weather events in the first nine months (273 days) of 2026.",
-            "source": "Forbes India",
-            "item_id": "38e72bd40dbe1eceb62b4547",
-            "composed": false
-          },
-          {
-            "text": "The Earthshot Prize finalists on stage at the Earthshot Prize Impact Assembly at the Jio World Convention Centre in Mumbai, India, ahead of the Earthshot Prize Summit, November 16, 2026.",
-            "source": "Forbes India",
-            "item_id": "38e72bd40dbe1eceb62b4547",
-            "composed": false
-          },
-          {
-            "text": "At the sixth edition of the awards to be held in Mumbai on Tuesday night—with both the Prince and the Princess of Wales in attendance—five winners will be chosen from the 15 finalists shortlisted from around 7,000 nominations, each of whom will receive £1 million in prize money and an opportunity to take their solutions to scale globally.",
-            "source": "Forbes India",
-            "item_id": "38e72bd40dbe1eceb62b4547",
-            "composed": false
-          },
-          {
-            "text": "This is also the royal couple’s first visit to India since 2016—the three-day trip will wrap up with a meeting with Prime Minister Narendra Modi in Delhi on Wednesday.",
-            "source": "Forbes India",
-            "item_id": "38e72bd40dbe1eceb62b4547",
-            "composed": false
-          }
-        ],
-        "source": "Forbes India",
-        "corroborating": [],
-        "url": "https://www.forbesindia.com/life/climate-sustainability/two-indian-finalists-in-prince-williams-earthshot-prize-race-article/3000599"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "3a752924751b11a68bd3447f",
       "story_id": "3a752924751b11a68bd3447f",
       "headline": "Tamil Nadu government cannot ban transportation of minerals to other States, rules Madras High Court",
@@ -1727,7 +1609,7 @@
         "event term: 'unconstitutional' in summary weight 24",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (tamil nadu)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 25.2, stack 40.4, score 40.4 -> HIGH"
@@ -1839,7 +1721,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'gdp' in title weight 38",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 27.6, score 38 -> HIGH"
