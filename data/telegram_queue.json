@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T06:12:11.092926+00:00",
-  "count": 16,
+  "generated_at": "2026-11-18T06:22:06.321668+00:00",
+  "count": 18,
   "stories": [
     {
       "event_id": "0edda57c6add033e8a1c7351",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 22.8, score 84 -> IMMEDIATE"
@@ -163,7 +163,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -288,7 +288,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -369,7 +369,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 26, score 72 -> URGENT"
@@ -449,6 +449,95 @@
       "enrichment": "article"
     },
     {
+      "event_id": "536fc5d522d2ed031b9a4d8f",
+      "story_id": "536fc5d522d2ed031b9a4d8f",
+      "headline": "US National Security Agency confirms classified internal network suffered outage",
+      "title": "US National Security Agency confirms classified internal network suffered outage",
+      "summary": "The US National Security Agency experienced a network outage during scheduled maintenance on November 17. Although the outage did not affect mission-critical capabilities, it impacted numerous employees. The agency clarified that the issue was not a cybersecurity incident and operations continued at its headquarters. This incident follows several recent technology outages in the US affecting various sectors including banks and airlines.",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-national-security-agency-confirms-classified-internal-network-suffered-outage-says-some-internal-systems-were-affected-but-/articleshow/135951682.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "defence-security",
+      "secondary_categories": [
+        "business-industry",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 60.0,
+      "priority_score": 70.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-18T06:11:04+00:00",
+      "published_at": "2026-11-18T06:11:04+00:00",
+      "effective_at": "2026-11-18T06:11:04+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.3 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'National Security'",
+        "major: significance event 'National Security'",
+        "category: defence-security (importance 1.3, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'national security' in title weight 70",
+        "event term: 'national security' in summary weight 42",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: defence-security (importance 1.3) +4.8",
+        "geo: national",
+        "dominant event 70, stack 45, score 70 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The US National Security Agency experienced a network outage during scheduled maintenance on November 17.",
+          "Although the outage did not affect mission-critical capabilities, it impacted numerous employees."
+        ],
+        "body": [
+          "The agency clarified that the issue was not a cybersecurity incident and operations continued at its headquarters.",
+          "This incident follows several recent technology outages in the US affecting various sectors including banks and airlines."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The US National Security Agency experienced a network outage during scheduled maintenance on November 17.",
+            "source": "Times of India",
+            "item_id": "536fc5d522d2ed031b9a4d8f",
+            "composed": false
+          },
+          {
+            "text": "This incident follows several recent technology outages in the US affecting various sectors including banks and airlines.",
+            "source": "Times of India",
+            "item_id": "536fc5d522d2ed031b9a4d8f",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-national-security-agency-confirms-classified-internal-network-suffered-outage-says-some-internal-systems-were-affected-but-/articleshow/135951682.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "734639a65afc314d1365db8e",
       "story_id": "734639a65afc314d1365db8e",
       "headline": "Assam: Relief kits distributed to 350 Sivasagar flood-hit families",
@@ -491,7 +580,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: state scope (assam)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 23, score 64 -> URGENT"
@@ -582,7 +671,7 @@
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 50.4, stack 28.4, score 50.4 -> HIGH"
@@ -689,7 +778,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 26.6, score 49.2 -> HIGH"
@@ -819,7 +908,7 @@
         "event term: 'final' in summary weight 6",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -957,7 +1046,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1085,7 +1174,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1135,31 +1224,33 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "220c56ddca53355ba10adc3a",
-      "story_id": "220c56ddca53355ba10adc3a",
-      "headline": "Delhi Cabinet approves ₹1 lakh each to 500 PUCC issuing centres",
-      "title": "Delhi Cabinet approves ₹1 lakh each to 500 PUCC issuing centres",
-      "summary": "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system",
-      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-approves-1-lakh-each-to-500-pucc-issuing-centres/article71712812.ece",
-      "source": "The Hindu - Delhi",
+      "event_id": "c096985aa2d7d6e67a4119dc",
+      "story_id": "c096985aa2d7d6e67a4119dc",
+      "headline": "Meghalaya High Court Summons Senior Police Officer Over Contradictory Claims About CCTV Functioning Before High Court & Supreme Court",
+      "title": "Meghalaya High Court Summons Senior Police Officer Over Contradictory Claims About CCTV Functioning Before High Court & Supreme Court",
+      "summary": "",
+      "url": "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-directs-presence-aigp-discrepancies-functioning-cctv-police-station-558863",
+      "source": "LiveLaw",
       "primary_source": false,
-      "tier": 2,
-      "category": null,
-      "secondary_categories": [],
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [
+        "crime-public-safety"
+      ],
       "confidence": "medium",
-      "score": 92.0,
+      "score": 72.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-18T06:09:39+00:00",
-      "published_at": "2026-11-18T06:09:39+00:00",
-      "effective_at": "2026-11-18T06:09:39+00:00",
+      "event_time": "2026-11-18T06:21:01+00:00",
+      "published_at": "2026-11-18T06:21:01+00:00",
+      "effective_at": "2026-11-18T06:21:01+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "live-law": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu-delhi"
+            "live-law"
           ],
           "count": 1
         }
@@ -1167,90 +1258,89 @@
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu-delhi) +2",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (delhi)",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
         "recency: breaking (0.0h ago) +8",
-        "geo: state",
-        "dominant event 44, stack 16, score 44 -> HIGH",
-        "candidate gate: no category but HIGH+ priority -> allowed"
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "delhi",
-      "national_significance": false,
+      "geo_scope": "national",
+      "state": "meghalaya",
+      "national_significance": true,
       "article_sentences": [
-        "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
-        "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative.",
-        "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
-        "“Modern infrastructure, transparent testing procedures and effective monitoring are essential to ensuring cleaner air.",
-        "Equipping vehicle pollution testing centres with modern facilities and bringing uniformity to their operations will strengthen the government’s efforts to control pollution,” Ms. Gupta said, adding that the aim is to make the PUC testing system more organised, transparent and reliable.",
-        "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system.",
-        "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
-        "These centres check vehicle emissions and issue Pollution Under Control Certificates (PUCCs).",
-        "The unorganised development of the PUCC centres has resulted in a lack of uniformity in infrastructure, testing facilities, signboards, external appearance and monitoring arrangements, making effective supervision difficult, the CMO said in a statement.",
-        "“Inadequate CCTV coverage has also led to allegations of improper issuance of PUCCs and other irregularities.",
-        "The scheme aims to address these shortcomings by bringing all authorised PUC centres in line with uniform prescribed standards and making the testing system more transparent and organised.",
-        "Where a PUC centre tests all three categories of vehicles, it is technically treated as a single centre,” the statement said."
+        "The Meghalaya High Court recently directed the Assistant Inspector General of Police (Admn), Meghalaya, to remain present on November 30, with respect to the alleged discrepancies and statements made on oath before the high court and Supreme Court regarding non-functioning CCTVs in police stations across the State.",
+        "Earlier, the Court had directed the State to file a comprehensive...",
+        "an affordable subscription scheme!!!",
+        "Earlier, the Court had directed the State to file a comprehensive affidavit detailing the installation, functioning and maintenance of CCTV cameras in police stations across the State, after prima facie finding non-compliance with the Supreme Court's directions on CCTV surveillance in police stations.",
+        "“Having heard learned counsel for the petitiners, we find some substance in the submissions, so advanced, with respect to discrepancies and statements made on oath before this Court and the Apex Court, and as such, direct Dr. S.R. Marak, Assistant Inspector General of Police (Admn), Meghalaya to remain present on the next date alongwith the files pertaining to the contract awarded of CCTV cameras installations in the Police Stations.”",
+        "The Court further directed AIGP (Admin) to file a detailed affidavit explaining the discrepancies and the non-functioning of CCTV cameras in various.",
+        "Police Stations and the steps that will be taken to ensure that there is compliance with the directions given by the Supreme Court in Paramvir Singh's (2026) case.",
+        "The Amicus Curiae highlighted the discrepancies in the affidavit filed by the Police in the High Court and before the Supreme Court.",
+        "He submitted that the affidavit filed before the High Court by the Superintendent of Police, Ri Bhoi District, Nongpoh, it has been stated that although, the CCTV system was installed at Nongpoh.",
+        "Police Station at the relevant time, i.e., the time of the incident on June 22, 2026 (alleged violation of human rights of a minor girl which resulted in the minor girl committing suicide following the police interrogation at Women.",
+        "Police Station, Nongpoh) the said CCTV cameras were not functioning.",
+        "It was further pointed that in the said affidavit it has been stated that in Umsning."
       ],
       "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
-          "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative."
+          "The Meghalaya High Court recently directed the Assistant Inspector General of Police (Admn), Meghalaya, to remain present on November 30, with respect to the alleged discrepancies and statements made on oath before the high court and Supreme Court regarding non-functioning CCTVs in police stations across the State.",
+          "Earlier, the Court had directed the State to file a comprehensive..."
         ],
         "body": [
-          "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
-          "“Modern infrastructure, transparent testing procedures and effective monitoring are essential to ensuring cleaner air.",
-          "Equipping vehicle pollution testing centres with modern facilities and bringing uniformity to their operations will strengthen the government’s efforts to control pollution,” Ms. Gupta said, adding that the aim is to make the PUC testing system more organised, transparent and reliable.",
-          "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system.",
-          "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
-          "These centres check vehicle emissions and issue Pollution Under Control Certificates (PUCCs).",
-          "The unorganised development of the PUCC centres has resulted in a lack of uniformity in infrastructure, testing facilities, signboards, external appearance and monitoring arrangements, making effective supervision difficult, the CMO said in a statement.",
-          "“Inadequate CCTV coverage has also led to allegations of improper issuance of PUCCs and other irregularities."
+          "an affordable subscription scheme!!!",
+          "Earlier, the Court had directed the State to file a comprehensive affidavit detailing the installation, functioning and maintenance of CCTV cameras in police stations across the State, after prima facie finding non-compliance with the Supreme Court's directions on CCTV surveillance in police stations.",
+          "“Having heard learned counsel for the petitiners, we find some substance in the submissions, so advanced, with respect to discrepancies and statements made on oath before this Court and the Apex Court, and as such, direct Dr. S.R. Marak, Assistant Inspector General of Police (Admn), Meghalaya to remain present on the next date alongwith the files pertaining to the contract awarded of CCTV cameras installations in the Police Stations.” The Court further directed AIGP (Admin) to file a detailed affidavit explaining the discrepancies and the non-functioning of CCTV cameras in various.",
+          "Police Stations and the steps that will be taken to ensure that there is compliance with the directions given by the Supreme Court in Paramvir Singh's (2026) case.",
+          "The Amicus Curiae highlighted the discrepancies in the affidavit filed by the Police in the High Court and before the Supreme Court.",
+          "He submitted that the affidavit filed before the High Court by the Superintendent of Police, Ri Bhoi District, Nongpoh, it has been stated that although, the CCTV system was installed at Nongpoh.",
+          "Police Station at the relevant time, i.e., the time of the incident on June 22, 2026 (alleged violation of human rights of a minor girl which resulted in the minor girl committing suicide following the police interrogation at Women.",
+          "Police Station, Nongpoh) the said CCTV cameras were not functioning."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Delhi"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "under control"
+            "text": "Paramvir Singh's"
           }
         ],
         "sentences": [
           {
-            "text": "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
-            "source": "The Hindu - Delhi",
-            "item_id": "220c56ddca53355ba10adc3a:article",
+            "text": "Police Station at the relevant time, i.e., the time of the incident on June 22, 2026 (alleged violation of human rights of a minor girl which resulted in the minor girl committing suicide following the police interrogation at Women.",
+            "source": "LiveLaw",
+            "item_id": "c096985aa2d7d6e67a4119dc:article",
             "composed": false
           },
           {
-            "text": "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
-            "source": "The Hindu - Delhi",
-            "item_id": "220c56ddca53355ba10adc3a:article",
+            "text": "The Meghalaya High Court recently directed the Assistant Inspector General of Police (Admn), Meghalaya, to remain present on November 30, with respect to the alleged discrepancies and statements made on oath before the high court and Supreme Court regarding non-functioning CCTVs in police stations across the State.",
+            "source": "LiveLaw",
+            "item_id": "c096985aa2d7d6e67a4119dc:article",
             "composed": false
           },
           {
-            "text": "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
-            "source": "The Hindu - Delhi",
-            "item_id": "220c56ddca53355ba10adc3a:article",
+            "text": "Police Stations and the steps that will be taken to ensure that there is compliance with the directions given by the Supreme Court in Paramvir Singh's (2026) case.",
+            "source": "LiveLaw",
+            "item_id": "c096985aa2d7d6e67a4119dc:article",
             "composed": false
           },
           {
-            "text": "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative.",
-            "source": "The Hindu - Delhi",
-            "item_id": "220c56ddca53355ba10adc3a:article",
+            "text": "He submitted that the affidavit filed before the High Court by the Superintendent of Police, Ri Bhoi District, Nongpoh, it has been stated that although, the CCTV system was installed at Nongpoh.",
+            "source": "LiveLaw",
+            "item_id": "c096985aa2d7d6e67a4119dc:article",
             "composed": false
           }
         ],
-        "source": "The Hindu - Delhi",
+        "source": "LiveLaw",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-approves-1-lakh-each-to-500-pucc-issuing-centres/article71712812.ece"
+        "url": "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-directs-presence-aigp-discrepancies-functioning-cctv-police-station-558863"
       },
       "group_size": 1,
       "label": "⚡ JUST IN",
@@ -1275,9 +1365,9 @@
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-18T06:09:00+00:00",
-      "published_at": "2026-11-18T06:09:00+00:00",
-      "effective_at": "2026-11-18T06:09:00+00:00",
+      "event_time": "2026-11-18T06:14:30+00:00",
+      "published_at": "2026-11-18T06:14:30+00:00",
+      "effective_at": "2026-11-18T06:14:30+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "live-law": {
@@ -1373,6 +1463,128 @@
       "enrichment": "article"
     },
     {
+      "event_id": "220c56ddca53355ba10adc3a",
+      "story_id": "220c56ddca53355ba10adc3a",
+      "headline": "Delhi Cabinet approves ₹1 lakh each to 500 PUCC issuing centres",
+      "title": "Delhi Cabinet approves ₹1 lakh each to 500 PUCC issuing centres",
+      "summary": "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-approves-1-lakh-each-to-500-pucc-issuing-centres/article71712812.ece",
+      "source": "The Hindu - Delhi",
+      "primary_source": false,
+      "tier": 2,
+      "category": null,
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-18T06:09:39+00:00",
+      "published_at": "2026-11-18T06:09:39+00:00",
+      "effective_at": "2026-11-18T06:09:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu-delhi"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu-delhi) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.2h ago) +8",
+        "geo: state",
+        "dominant event 44, stack 16, score 44 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": false,
+      "article_sentences": [
+        "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
+        "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative.",
+        "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
+        "“Modern infrastructure, transparent testing procedures and effective monitoring are essential to ensuring cleaner air.",
+        "Equipping vehicle pollution testing centres with modern facilities and bringing uniformity to their operations will strengthen the government’s efforts to control pollution,” Ms. Gupta said, adding that the aim is to make the PUC testing system more organised, transparent and reliable.",
+        "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system.",
+        "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
+        "These centres check vehicle emissions and issue Pollution Under Control Certificates (PUCCs).",
+        "The unorganised development of the PUCC centres has resulted in a lack of uniformity in infrastructure, testing facilities, signboards, external appearance and monitoring arrangements, making effective supervision difficult, the CMO said in a statement.",
+        "“Inadequate CCTV coverage has also led to allegations of improper issuance of PUCCs and other irregularities.",
+        "The scheme aims to address these shortcomings by bringing all authorised PUC centres in line with uniform prescribed standards and making the testing system more transparent and organised.",
+        "Where a PUC centre tests all three categories of vehicles, it is technically treated as a single centre,” the statement said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
+          "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative."
+        ],
+        "body": [
+          "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
+          "“Modern infrastructure, transparent testing procedures and effective monitoring are essential to ensuring cleaner air.",
+          "Equipping vehicle pollution testing centres with modern facilities and bringing uniformity to their operations will strengthen the government’s efforts to control pollution,” Ms. Gupta said, adding that the aim is to make the PUC testing system more organised, transparent and reliable.",
+          "The CM said that stronger CCTV surveillance will make it easier to monitor the testing process, enhancing transparency and accountability at the centres and will also strengthen public confidence in the PUC certification system.",
+          "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
+          "These centres check vehicle emissions and issue Pollution Under Control Certificates (PUCCs).",
+          "The unorganised development of the PUCC centres has resulted in a lack of uniformity in infrastructure, testing facilities, signboards, external appearance and monitoring arrangements, making effective supervision difficult, the CMO said in a statement.",
+          "“Inadequate CCTV coverage has also led to allegations of improper issuance of PUCCs and other irregularities."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Delhi"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under control"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A CAG report tabled in the Delhi Assembly in April last year had said there were significant “discrepancies” in the Pollution Under Control (PUC) certification system, and many vehicle owners were not getting their vehicles checked as per norms.",
+            "source": "The Hindu - Delhi",
+            "item_id": "220c56ddca53355ba10adc3a:article",
+            "composed": false
+          },
+          {
+            "text": "The Delhi Cabinet on Tuesday (November 17, 2026) approved one-time financial assistance of ₹1 lakh each to around 500 Pollution Under Control Certificate (PUCC) issuing centres for improving their infrastructure, as per the Chief Minister’s Office.",
+            "source": "The Hindu - Delhi",
+            "item_id": "220c56ddca53355ba10adc3a:article",
+            "composed": false
+          },
+          {
+            "text": "Chief Minister Rekha Gupta said that controlling air pollution in Delhi remains one of the government’s key priorities.",
+            "source": "The Hindu - Delhi",
+            "item_id": "220c56ddca53355ba10adc3a:article",
+            "composed": false
+          },
+          {
+            "text": "The assistance will support the upgradation and modernisation of these centres and the government is expected to spend approximately ₹5 crore on the initiative.",
+            "source": "The Hindu - Delhi",
+            "item_id": "220c56ddca53355ba10adc3a:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu - Delhi",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-cabinet-approves-1-lakh-each-to-500-pucc-issuing-centres/article71712812.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "67dfa020a4d6e64ee06653a1",
       "story_id": "67dfa020a4d6e64ee06653a1",
       "headline": "Supreme Court summons Sanjay Raut, Nikhil Wagle in contempt case over remarks against judiciary",
@@ -1413,7 +1625,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 25.4, score 44 -> HIGH"
@@ -1524,7 +1736,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: state scope (maharashtra)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 44, stack 14, score 44 -> HIGH"
@@ -1653,7 +1865,7 @@
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 27.4, score 42 -> HIGH"
@@ -1778,7 +1990,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: education (importance 0.9) +0",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 14, score 38.4 -> HIGH"
