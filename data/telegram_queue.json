@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T02:23:21.846022+00:00",
-  "count": 4,
+  "generated_at": "2026-11-19T02:32:31.200603+00:00",
+  "count": 5,
   "stories": [
     {
       "event_id": "7fbe86f718bf3b0be6e02936",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -70,7 +70,7 @@
         "As part of its precautionary response, the Odisha government has ordered the closure of all government, government-aided and private schools, along with Anganwadi centres, in six districts from November 19 to November 21.",
         "Chief Minister Mohan Charan Majhi said the state administration was fully prepared to tackle the approaching weather system and had initiated the necessary response measures."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Cyclone Akvan is approaching the Andhra Pradesh-Odisha coast with winds of up to 110 kmph, prompting train rescheduling and school closures across six Odisha districts.",
@@ -128,7 +128,7 @@
         "url": "https://english.mathrubhumi.com/news/india/cyclone-akvan-three-trains-rescheduled-schools-shut-across-six-odisha-districts-q6vf42oa"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -178,7 +178,7 @@
         "event term: 'flood' in title weight 64",
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -223,6 +223,128 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "bae78d96b39f623c089e57cd",
+      "story_id": "bae78d96b39f623c089e57cd",
+      "headline": "Xi, Trump and Putin meet in Shenzhen ahead of trilateral talks",
+      "title": "Xi, Trump and Putin meet in Shenzhen ahead of trilateral talks",
+      "summary": "New Delhi, Nov 18: Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin were pictured together in Shenzhen for the first time on Wednesday, shaking hands ahead of their much-anticipated trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit. The meeting of the three leaders is being seen as a significant diplomatic moment, bringing together the heads of the world’s three major powers amid tensions over global trade, the Ukraine conflict and the war in Iran. Trump arrived in Shenzhen from the Philippines, where he attended a regional summit and met Prime Minister Narendra Modi, Australian Prime Minister Anthony Albanese and Japanese Prime Minister Sanae Takaichi, among other leaders. In a departure from established diplomatic protocol, Xi personally received Trump at the airport and embraced him on the tarmac. A red carpet was rolled out for the US President. Xi has never before gone to an airport to receive a visiting American president. The BBC described the welcome as a carefully choreographed moment of flattery, reflecting the importance Beijing attaches to its relationship with Washington. The gesture also came months after Trump personally received Xi at Joint Base Andrews in the United States. Xi had earlier welcomed Putin in Shenzhen, describing the Russian President as an “old friend”. Putin’s visit, too, received a high-level reception, with Xi’s chief of staff Cai Qi welcoming him at the airport. The trilateral meeting is expected to cover a wide range of issues, including trade, denuclearisation and the Iran war. Trade tensions remain a major concern, with Trump’s tariffs disrupting global commerce and China restricting exports of critical materials, including rare earths. The existing trade truce between the two countries is due to expire in January. The leaders are also expected to discuss the nuclear issue, although China has so far been reluctant to join disarmament negotiations, citing the gap between its nuclear arsenal and those of the US and Russia. The Ukraine conflict is another major international concern, though a breakthrough is considered difficult in the absence of Ukraine’s participation in the talks. Trump has also indicated that the Iran war could figure in discussions with Xi and Putin, both of whose countries maintain strategic ties with Tehran.",
+      "url": "https://www.greaterkashmir.com/world/xi-trump-and-putin-meet-in-shenzhen-ahead-of-trilateral-talks-12821910",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "business-industry",
+      "secondary_categories": [
+        "economy-finance",
+        "national-politics",
+        "transport-infrastructure"
+      ],
+      "confidence": "medium",
+      "score": 82.2,
+      "priority_score": 49.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-19T02:27:28+00:00",
+      "published_at": "2026-11-19T02:27:28+00:00",
+      "effective_at": "2026-11-19T02:27:28+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "greater-kashmir": {
+          "kind": "independent",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "celebrity: 'red carpet' in summary (penalty 7.5, overridden)",
+        "major: geo national significance",
+        "category: business-industry (importance 1, urgent=False)",
+        "major override dropped penalties: celebrity",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'war' in summary weight 49.2",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: state scope (delhi)",
+        "recency: breaking (0.1h ago) +8",
+        "category: business-industry (importance 1) +1.2",
+        "geo: national significance (local/state event)",
+        "dominant event 49.2, stack 43.2, score 49.2 -> HIGH"
+      ],
+      "geo_scope": "state",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "New Delhi, Nov 18: Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin were pictured together in Shenzhen for the first time on Wednesday, shaking hands ahead of their much-anticipated trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit.",
+          "The meeting of the three leaders is being seen as a significant diplomatic moment, bringing together the heads of the world’s three major powers amid tensions over global trade, the Ukraine conflict and the war in Iran."
+        ],
+        "body": [
+          "Trump arrived in Shenzhen from the Philippines, where he attended a regional summit and met Prime Minister Narendra Modi, Australian Prime Minister Anthony Albanese and Japanese Prime Minister Sanae Takaichi, among other leaders.",
+          "In a departure from established diplomatic protocol, Xi personally received Trump at the airport and embraced him on the tarmac.",
+          "A red carpet was rolled out for the US President.",
+          "Xi has never before gone to an airport to receive a visiting American president.",
+          "The BBC described the welcome as a carefully choreographed moment of flattery, reflecting the importance Beijing attaches to its relationship with Washington.",
+          "The gesture also came months after Trump personally received Xi at Joint Base Andrews in the United States.",
+          "Xi had earlier welcomed Putin in Shenzhen, describing the Russian President as an “old friend”.",
+          "Putin’s visit, too, received a high-level reception, with Xi’s chief of staff Cai Qi welcoming him at the airport.",
+          "Trade tensions remain a major concern, with Trump’s tariffs disrupting global commerce and China restricting exports of critical materials, including rare earths.",
+          "The existing trade truce between the two countries is due to expire in January.",
+          "The leaders are also expected to discuss the nuclear issue, although China has so far been reluctant to join disarmament negotiations, citing the gap between its nuclear arsenal and those of the US and Russia.",
+          "The Ukraine conflict is another major international concern, though a breakthrough is considered difficult in the absence of Ukraine’s participation in the talks.",
+          "Trump has also indicated that the Iran war could figure in discussions with Xi and Putin, both of whose countries maintain strategic ties with Tehran."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Shenzhen"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The trilateral meeting is expected to cover a wide range of issues, including trade, denuclearisation and the Iran war."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Delhi, Nov 18: Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin were pictured together in Shenzhen for the first time on Wednesday, shaking hands ahead of their much-anticipated trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit.",
+            "source": "Greater Kashmir",
+            "item_id": "bae78d96b39f623c089e57cd",
+            "composed": false
+          },
+          {
+            "text": "The existing trade truce between the two countries is due to expire in January.",
+            "source": "Greater Kashmir",
+            "item_id": "bae78d96b39f623c089e57cd",
+            "composed": false
+          },
+          {
+            "text": "The meeting of the three leaders is being seen as a significant diplomatic moment, bringing together the heads of the world’s three major powers amid tensions over global trade, the Ukraine conflict and the war in Iran.",
+            "source": "Greater Kashmir",
+            "item_id": "bae78d96b39f623c089e57cd",
+            "composed": false
+          },
+          {
+            "text": "The gesture also came months after Trump personally received Xi at Joint Base Andrews in the United States.",
+            "source": "Greater Kashmir",
+            "item_id": "bae78d96b39f623c089e57cd",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/world/xi-trump-and-putin-meet-in-shenzhen-ahead-of-trilateral-talks-12821910"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -276,7 +398,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -399,7 +521,7 @@
         "event term: 'flood' in summary weight 38.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (6.2h ago) +4",
+        "recency: fresh (6.4h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 33.2, score 38.4 -> HIGH"
