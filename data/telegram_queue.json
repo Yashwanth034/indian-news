@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:32:42.080685+00:00",
+  "generated_at": "2026-11-20T16:42:20.613987+00:00",
   "count": 9,
   "stories": [
     {
@@ -47,7 +47,7 @@
         "event term: 'terror attack' in title weight 84",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 84, stack 45, score 84 -> IMMEDIATE"
@@ -157,7 +157,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -249,7 +249,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -336,7 +336,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -396,20 +396,27 @@
       "secondary_categories": [
         "national-politics"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "score": 100.0,
-      "priority_score": 44.4,
+      "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
       "event_time": "2026-11-20T12:23:35+00:00",
       "published_at": "2026-11-20T12:23:35+00:00",
       "effective_at": "2026-11-20T12:23:35+00:00",
-      "independent_source_groups": 1,
+      "independent_source_groups": 2,
       "source_groups": {
         "forbes-india": {
           "kind": "independent",
           "source_ids": [
             "forbes-india"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "sportstar"
           ],
           "count": 1
         }
@@ -418,20 +425,22 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
+        "major: corroborated by 2 independent sources",
         "category: sports (importance 0.6, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (forbes-india) +1",
         "source: specialist (forbes-india) +5",
-        "corroboration: single independent source -> medium confidence",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: 2 independent source groups -> high confidence",
         "event term: 'world cup' in summary weight 25.2",
         "event term: 'ipl' in summary weight 8.4",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: sports (importance 0.6) +0",
         "geo: national",
-        "dominant event 25.2, stack 44.4, score 44.4 -> HIGH"
+        "dominant event 25.2, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -591,7 +600,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "geo: national",
         "dominant event 44, stack 24, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -709,7 +718,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 37.2, score 44 -> HIGH"
@@ -793,7 +802,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (arunachal pradesh)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
@@ -911,7 +920,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 40, score 40 -> HIGH"
