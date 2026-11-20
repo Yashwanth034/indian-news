@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T06:02:35.498565+00:00",
-  "count": 9,
+  "generated_at": "2026-11-20T06:12:13.288244+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "5616eec9da1d70c7940c0722",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -141,7 +141,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -229,31 +229,31 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f74f6f02c0601987bbf95e60",
-      "story_id": "f74f6f02c0601987bbf95e60",
-      "headline": "Cyclone Akvan Weakens Before Landfall, Odisha, Andhra, Bengal See Heavy Rain",
-      "title": "Cyclone Akvan Weakens Before Landfall, Odisha, Andhra, Bengal See Heavy Rain",
-      "summary": "Cyclone Akvan is expected to make landfall between Puri and Gopalpur in Odisha",
-      "url": "https://www.ndtv.com/india-news/cyclone-akvan-weakens-before-landfall-odisha-andhra-pradesh-west-bengal-see-heavy-rain-12352432",
-      "source": "NDTV",
+      "event_id": "611610e2eea7447515fb47dd",
+      "story_id": "611610e2eea7447515fb47dd",
+      "headline": "No major damage, loss of life in Odisha due to Cyclone Akvan; heavy rain lashes state",
+      "title": "No major damage, loss of life in Odisha due to Cyclone Akvan; heavy rain lashes state",
+      "summary": "Cyclone Akvan makes landfall near Gopalpur in Odisha, bringing heavy rainfall but causing no major damage or loss of life so far. Authorities evacuate 3.7 lakh people and deploy hundreds of rescue teams.",
+      "url": "https://www.thehansindia.com/odisha/no-major-damage-loss-of-life-in-odisha-due-to-cyclone-akvan-heavy-rain-lashes-state-1143961",
+      "source": "The Hans India",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 100.0,
+      "score": 79.2,
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-20T04:19:26+00:00",
-      "published_at": "2026-11-20T04:19:26+00:00",
-      "effective_at": "2026-11-20T04:19:26+00:00",
+      "event_time": "2026-11-20T05:46:19+00:00",
+      "published_at": "2026-11-20T05:46:19+00:00",
+      "effective_at": "2026-11-20T05:46:19+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "ndtv": {
-          "kind": "independent",
+        "pti": {
+          "kind": "wire",
           "source_ids": [
-            "ndtv"
+            "hans-india"
           ],
           "count": 1
         }
@@ -268,12 +268,13 @@
         "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (ndtv) +2",
+        "source: tier 2 (hans-india) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.7h ago) +8",
+        "scale: 1 people-affected figures",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -284,19 +285,15 @@
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "Cyclone Akvan is expected to make landfall between Puri and Gopalpur in Odisha.",
-          "IMD Bhubaneswar Director Manorama Mohanty confirmed that the cyclonic system had started interacting with the coast."
-        ],
-        "body": [
-          "The landfall process is expected to continue for the next few hours, she said.",
           "Cyclone Akvan makes landfall near Gopalpur in Odisha, bringing heavy rainfall but causing no major damage or loss of life so far.",
           "Authorities evacuate 3.7 lakh people and deploy hundreds of rescue teams."
         ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Odisha"
+            "text": "Gopalpur"
           }
         ],
         "sentences": [
@@ -313,14 +310,11 @@
             "composed": false
           }
         ],
-        "source": "NDTV",
-        "corroborating": [
-          "Deccan Chronicle",
-          "The Hans India"
-        ],
-        "url": "https://www.ndtv.com/india-news/cyclone-akvan-weakens-before-landfall-odisha-andhra-pradesh-west-bengal-see-heavy-rain-12352432"
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/odisha/no-major-damage-loss-of-life-in-odisha-due-to-cyclone-akvan-heavy-rain-lashes-state-1143961"
       },
-      "group_size": 4,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -367,7 +361,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (bihar)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -441,123 +435,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "d214c55c0700ec2c41108fa0",
-      "story_id": "d214c55c0700ec2c41108fa0",
-      "headline": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
-      "title": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
-      "summary": "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours",
-      "url": "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 72.0,
-      "priority_level": "URGENT",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-20T05:25:00+00:00",
-      "published_at": "2026-11-20T05:25:00+00:00",
-      "effective_at": "2026-11-20T05:25:00+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cyclone' in title weight 72",
-        "scale: state scope (odisha)",
-        "recency: breaking (0.6h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 24, score 72 -> URGENT"
-      ],
-      "geo_scope": "state",
-      "state": "odisha",
-      "national_significance": true,
-      "article_sentences": [
-        "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
-        "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions.",
-        "Rainfall is likely across North Andhra today.",
-        "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
-        "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
-        "- November 20, 2026 08:36Shrinking shores: Time to protect eroding coastlinesBeyond the disappearing stretches of sand, the consequences of coastal erosion are being felt not only by those who depend on the sea for their livelihoods, but also by Andhra, which is steadily losing land to the encroaching sea.",
-        "- November 20, 2026 07:22Watch | Expert explains why Bay of Bengal is so active?",
-        "- November 20, 2026 07:20Landfall process begins“Latest satellite imagery indicates the land interaction commenced as the sheared cloud mass associated with the Cyclonic Storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts,” informed IMD on Friday (November 20, 2026)."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
-          "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions."
-        ],
-        "body": [
-          "Rainfall is likely across North Andhra today.",
-          "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
-          "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
-          "- November 20, 2026 08:36Shrinking shores: Time to protect eroding coastlinesBeyond the disappearing stretches of sand, the consequences of coastal erosion are being felt not only by those who depend on the sea for their livelihoods, but also by Andhra, which is steadily losing land to the encroaching sea.",
-          "- November 20, 2026 07:22Watch | Expert explains why Bay of Bengal is so active?",
-          "- November 20, 2026 07:20Landfall process begins“Latest satellite imagery indicates the land interaction commenced as the sheared cloud mass associated with the Cyclonic Storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts,” informed IMD on Friday (November 20, 2026).",
-          "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "North Andhra"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
-            "source": "The Hindu",
-            "item_id": "d214c55c0700ec2c41108fa0:article",
-            "composed": false
-          },
-          {
-            "text": "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions.",
-            "source": "The Hindu",
-            "item_id": "d214c55c0700ec2c41108fa0:article",
-            "composed": false
-          },
-          {
-            "text": "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
-            "source": "The Hindu",
-            "item_id": "d214c55c0700ec2c41108fa0:article",
-            "composed": false
-          },
-          {
-            "text": "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
-            "source": "The Hindu",
-            "item_id": "d214c55c0700ec2c41108fa0:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "db92b833f4fdae6369c97db1",
       "story_id": "db92b833f4fdae6369c97db1",
       "headline": "Cyclone Akvan: Light rain in parts of Jharkhand; primary classes suspended in some districts",
@@ -604,7 +481,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (jharkhand)",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -715,7 +592,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -752,6 +629,121 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "5983996afd9284c855b05573",
+      "story_id": "5983996afd9284c855b05573",
+      "headline": "Cyclone Akvan triggers rain in south Bengal, IMD forecasts downpours till Saturday",
+      "title": "Cyclone Akvan triggers rain in south Bengal, IMD forecasts downpours till Saturday",
+      "summary": "Cyclone Akvan brings heavy rainfall to southern West Bengal, disrupting transport in Kolkata as the IMD issues warnings for coastal districts and advises fishermen to stay away from the sea until Saturday.",
+      "url": "https://www.thehansindia.com/kolkata/cyclone-akvan-triggers-rain-in-south-bengal-imd-forecasts-downpours-till-saturday-1143958",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "low",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-20T05:37:17+00:00",
+      "published_at": "2026-11-20T05:37:17+00:00",
+      "effective_at": "2026-11-20T05:37:17+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india",
+            "mathrubhumi"
+          ],
+          "count": 2
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (west bengal)",
+        "recency: breaking (0.6h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "west bengal",
+      "national_significance": true,
+      "article_sentences": [
+        "Cyclone Akvan brings heavy rainfall to southern West Bengal, disrupting transport in Kolkata as the IMD issues warnings for coastal districts and advises fishermen to stay away from the sea until Saturday.",
+        "Kolkata: Cyclone Akvan triggered rain across several southern districts of West Bengal, with the IMD forecasting downpours in the region till Saturday.",
+        "The cyclonic storm, which made landfall near Gopalpur in Odisha, brought incessant light to moderate rain in Kolkata, leading to disruptions in public transport and causing inconvenience to office-goers during the morning peak hours on Friday.",
+        "The India Meteorological Department (IMD) forecast very heavy rain over the coastal districts of South 24 Parganas and Purba Medinipur till Saturday.",
+        "Several other districts of south Bengal will receive heavy rain till Saturday owing to the effect of the cyclone.",
+        "The Met office forecast light to moderate rain in Kolkata, with one or two spells of heavy rain on Friday.",
+        "The city received 19.2 mm of rainfall in 24 hours till 8.30 am on Friday, while Medinipur recorded the state's highest precipitation during the period at 47 mm, according to the IMD data.",
+        "The IMD advised fishermen not to venture into the sea along and off the West Bengal coast till Saturday, as sea conditions remain rough."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Akvan brings heavy rainfall to southern West Bengal, disrupting transport in Kolkata as the IMD issues warnings for coastal districts and advises fishermen to stay away from the sea until Saturday.",
+          "Kolkata: Cyclone Akvan triggered rain across several southern districts of West Bengal, with the IMD forecasting downpours in the region till Saturday."
+        ],
+        "body": [
+          "The cyclonic storm, which made landfall near Gopalpur in Odisha, brought incessant light to moderate rain in Kolkata, leading to disruptions in public transport and causing inconvenience to office-goers during the morning peak hours on Friday.",
+          "The India Meteorological Department (IMD) forecast very heavy rain over the coastal districts of South 24 Parganas and Purba Medinipur till Saturday.",
+          "Several other districts of south Bengal will receive heavy rain till Saturday owing to the effect of the cyclone.",
+          "The Met office forecast light to moderate rain in Kolkata, with one or two spells of heavy rain on Friday.",
+          "The city received 19.2 mm of rainfall in 24 hours till 8.30 am on Friday, while Medinipur recorded the state's highest precipitation during the period at 47 mm, according to the IMD data.",
+          "The IMD advised fishermen not to venture into the sea along and off the West Bengal coast till Saturday, as sea conditions remain rough."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kolkata"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The cyclonic storm, which made landfall near Gopalpur in Odisha, brought incessant light to moderate rain in Kolkata, leading to disruptions in public transport and causing inconvenience to office-goers during the morning peak hours on Friday.",
+            "source": "The Hans India",
+            "item_id": "5983996afd9284c855b05573:article",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Akvan brings heavy rainfall to southern West Bengal, disrupting transport in Kolkata as the IMD issues warnings for coastal districts and advises fishermen to stay away from the sea until Saturday.",
+            "source": "The Hans India",
+            "item_id": "5983996afd9284c855b05573:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/kolkata/cyclone-akvan-triggers-rain-in-south-bengal-imd-forecasts-downpours-till-saturday-1143958"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     },
     {
       "event_id": "3fe49a46de56189055686fd1",
@@ -796,7 +788,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'verdict' in title weight 22",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -854,125 +846,6 @@
         "url": "https://www.livelaw.in/top-stories/supreme-court-declines-to-list-plea-seeking-recall-of-cec-verdict-before-same-bench-559243"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "4e2c1c62705b6bb5e118e14e",
-      "story_id": "4e2c1c62705b6bb5e118e14e",
-      "headline": "Assam Cabinet Approves Six New Municipal Boards, Land Allotment for Defence and Agricultural Institute",
-      "title": "Assam Cabinet Approves Six New Municipal Boards, Land Allotment for Defence and Agricultural Institute",
-      "summary": "",
-      "url": "https://www.sentinelassam.com/topheadlines/assam-cabinet-approves-six-new-municipal-boards-land-allotment-for-defence-and-agricultural-institute",
-      "source": "The Sentinel (Assam)",
-      "primary_source": false,
-      "tier": 3,
-      "category": "defence-security",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-20T05:46:04+00:00",
-      "published_at": "2026-11-20T05:46:04+00:00",
-      "effective_at": "2026-11-20T05:46:04.711000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "sentinel-assam": {
-          "kind": "independent",
-          "source_ids": [
-            "sentinel-assam"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.3 >= 1.2",
-        "major: urgent category",
-        "category: defence-security (importance 1.3, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (sentinel-assam) +1",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
-        "category: defence-security (importance 1.3) +4.8",
-        "geo: national",
-        "dominant event 44, stack 27.8, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "assam",
-      "national_significance": true,
-      "article_sentences": [
-        "GUWAHATI: The Assam Cabinet, which met in New Delhi today, took several decisions, including land allotment to the Ministry of Defence and expanding the areas of local urban bodies.",
-        "The cabinet has approved the allotment of 74 bighas of land in the Sonitpur district to the Ministry of Defence.",
-        "It also approved the allotment of 1,568 bighas of government land in Dhemaji for the setting up of an Indian Agriculture Research Institute.",
-        "To improve urban governance, the Cabinet has approved the creation of six new municipal boards, one each at Laluk, Harmutty-Bandardea, Ghilamara, Majuli, Udarbond, and Mirza-Bijay Nagar.",
-        "It also approved area expansion and ward delimitation in 23 existing urban local bodies.",
-        "The cabinet has approved classifying areas as urban areas only from 1 km from the town limits to facilitate larger land allocations for indigenous communities under Mission Basundhara 4.0.",
-        "This decision will not be applicable for the Kamrup (M) and Kamrup districts.",
-        "The cabinet has approved the enhancement of remuneration of the elected representatives of Panchayat Raj Institutes, Zila Parishad, Anchalik Parishads and Gaon Panchayats.",
-        "This will benefit presidents, vice-presidents and members of such bodies.",
-        "The cabinet has approved the amendment of the Matak Autonomous Council Act, the Kamatapur Autonomous Council Act, and the Moran Autonomous Council Act for conducting elections to the general councils of these autonomous councils on a non-political party basis."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "GUWAHATI: The Assam Cabinet, which met in New Delhi today, took several decisions, including land allotment to the Ministry of Defence and expanding the areas of local urban bodies.",
-          "The cabinet has approved the allotment of 74 bighas of land in the Sonitpur district to the Ministry of Defence."
-        ],
-        "body": [
-          "It also approved the allotment of 1,568 bighas of government land in Dhemaji for the setting up of an Indian Agriculture Research Institute.",
-          "To improve urban governance, the Cabinet has approved the creation of six new municipal boards, one each at Laluk, Harmutty-Bandardea, Ghilamara, Majuli, Udarbond, and Mirza-Bijay Nagar.",
-          "It also approved area expansion and ward delimitation in 23 existing urban local bodies.",
-          "The cabinet has approved classifying areas as urban areas only from 1 km from the town limits to facilitate larger land allocations for indigenous communities under Mission Basundhara 4.0.",
-          "This decision will not be applicable for the Kamrup (M) and Kamrup districts.",
-          "The cabinet has approved the enhancement of remuneration of the elected representatives of Panchayat Raj Institutes, Zila Parishad, Anchalik Parishads and Gaon Panchayats.",
-          "This will benefit presidents, vice-presidents and members of such bodies.",
-          "The cabinet has approved the amendment of the Matak Autonomous Council Act, the Kamatapur Autonomous Council Act, and the Moran Autonomous Council Act for conducting elections to the general councils of these autonomous councils on a non-political party basis."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "New Delhi"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "GUWAHATI: The Assam Cabinet, which met in New Delhi today, took several decisions, including land allotment to the Ministry of Defence and expanding the areas of local urban bodies.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4e2c1c62705b6bb5e118e14e:article",
-            "composed": false
-          },
-          {
-            "text": "It also approved the allotment of 1,568 bighas of government land in Dhemaji for the setting up of an Indian Agriculture Research Institute.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4e2c1c62705b6bb5e118e14e:article",
-            "composed": false
-          },
-          {
-            "text": "The cabinet has approved classifying areas as urban areas only from 1 km from the town limits to facilitate larger land allocations for indigenous communities under Mission Basundhara 4.0.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4e2c1c62705b6bb5e118e14e:article",
-            "composed": false
-          },
-          {
-            "text": "To improve urban governance, the Cabinet has approved the creation of six new municipal boards, one each at Laluk, Harmutty-Bandardea, Ghilamara, Majuli, Udarbond, and Mirza-Bijay Nagar.",
-            "source": "The Sentinel (Assam)",
-            "item_id": "4e2c1c62705b6bb5e118e14e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Sentinel (Assam)",
-        "corroborating": [],
-        "url": "https://www.sentinelassam.com/topheadlines/assam-cabinet-approves-six-new-municipal-boards-land-allotment-for-defence-and-agricultural-institute"
-      },
-      "group_size": 2,
       "label": "📰 NEWS",
       "enrichment": "article"
     }
