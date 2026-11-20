@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T05:42:19.135170+00:00",
-  "count": 8,
+  "generated_at": "2026-11-20T05:52:05.490610+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "5616eec9da1d70c7940c0722",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -141,7 +141,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -229,6 +229,102 @@
       "enrichment": "article"
     },
     {
+      "event_id": "f74f6f02c0601987bbf95e60",
+      "story_id": "f74f6f02c0601987bbf95e60",
+      "headline": "Cyclone Akvan Weakens Before Landfall, Odisha, Andhra, Bengal See Heavy Rain",
+      "title": "Cyclone Akvan Weakens Before Landfall, Odisha, Andhra, Bengal See Heavy Rain",
+      "summary": "Cyclone Akvan is expected to make landfall between Puri and Gopalpur in Odisha",
+      "url": "https://www.ndtv.com/india-news/cyclone-akvan-weakens-before-landfall-odisha-andhra-pradesh-west-bengal-see-heavy-rain-12352432",
+      "source": "NDTV",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-20T04:19:26+00:00",
+      "published_at": "2026-11-20T04:19:26+00:00",
+      "effective_at": "2026-11-20T04:19:26+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ndtv": {
+          "kind": "independent",
+          "source_ids": [
+            "ndtv"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (ndtv) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: state scope (odisha)",
+        "recency: breaking (1.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cyclone Akvan is expected to make landfall between Puri and Gopalpur in Odisha.",
+          "IMD Bhubaneswar Director Manorama Mohanty confirmed that the cyclonic system had started interacting with the coast."
+        ],
+        "body": [
+          "The landfall process is expected to continue for the next few hours, she said.",
+          "Cyclone Akvan makes landfall near Gopalpur in Odisha, bringing heavy rainfall but causing no major damage or loss of life so far.",
+          "Authorities evacuate 3.7 lakh people and deploy hundreds of rescue teams."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Odisha"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Cyclone Akvan makes landfall near Gopalpur in Odisha, bringing heavy rainfall but causing no major damage or loss of life so far.",
+            "source": "The Hans India",
+            "item_id": "611610e2eea7447515fb47dd",
+            "composed": false
+          },
+          {
+            "text": "Authorities evacuate 3.7 lakh people and deploy hundreds of rescue teams.",
+            "source": "The Hans India",
+            "item_id": "611610e2eea7447515fb47dd",
+            "composed": false
+          }
+        ],
+        "source": "NDTV",
+        "corroborating": [
+          "Deccan Chronicle",
+          "The Hans India"
+        ],
+        "url": "https://www.ndtv.com/india-news/cyclone-akvan-weakens-before-landfall-odisha-andhra-pradesh-west-bengal-see-heavy-rain-12352432"
+      },
+      "group_size": 4,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "0d039f5fd9c7206b5d5161a1",
       "story_id": "0d039f5fd9c7206b5d5161a1",
       "headline": "Cyclone Akvan to bring rain in Bihar; lightning alert issued",
@@ -271,7 +367,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (bihar)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -293,7 +389,7 @@
         "According to the forecast, cyclonic storm ‘Akvan’ is expected to move towards the vicinity of the Odisha and Andhra Pradesh coasts by Friday.",
         "Wind speeds over the sea could reach 90-100 kmph, indicating the intensity of the weather system."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "This moisture-laden air is expected to contribute to cloud formation and rainfall across parts of the state.",
@@ -341,7 +437,124 @@
         "url": "https://www.thehansindia.com/news/national/cyclone-akvan-to-bring-rain-in-bihar-lightning-alert-issued-1143952"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
+      "event_id": "d214c55c0700ec2c41108fa0",
+      "story_id": "d214c55c0700ec2c41108fa0",
+      "headline": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
+      "title": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
+      "summary": "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours",
+      "url": "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-20T05:25:00+00:00",
+      "published_at": "2026-11-20T05:25:00+00:00",
+      "effective_at": "2026-11-20T05:25:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (odisha)",
+        "recency: breaking (0.5h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "odisha",
+      "national_significance": true,
+      "article_sentences": [
+        "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
+        "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions.",
+        "Rainfall is likely across North Andhra today.",
+        "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
+        "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
+        "- November 20, 2026 08:36Shrinking shores: Time to protect eroding coastlinesBeyond the disappearing stretches of sand, the consequences of coastal erosion are being felt not only by those who depend on the sea for their livelihoods, but also by Andhra, which is steadily losing land to the encroaching sea.",
+        "- November 20, 2026 07:22Watch | Expert explains why Bay of Bengal is so active?",
+        "- November 20, 2026 07:20Landfall process begins“Latest satellite imagery indicates the land interaction commenced as the sheared cloud mass associated with the Cyclonic Storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts,” informed IMD on Friday (November 20, 2026)."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
+          "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions."
+        ],
+        "body": [
+          "Rainfall is likely across North Andhra today.",
+          "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
+          "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
+          "- November 20, 2026 08:36Shrinking shores: Time to protect eroding coastlinesBeyond the disappearing stretches of sand, the consequences of coastal erosion are being felt not only by those who depend on the sea for their livelihoods, but also by Andhra, which is steadily losing land to the encroaching sea.",
+          "- November 20, 2026 07:22Watch | Expert explains why Bay of Bengal is so active?",
+          "- November 20, 2026 07:20Landfall process begins“Latest satellite imagery indicates the land interaction commenced as the sheared cloud mass associated with the Cyclonic Storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts,” informed IMD on Friday (November 20, 2026).",
+          "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "North Andhra"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The cyclone is likely to make landfall today at Gopalpur, near Puri in Odisha.",
+            "source": "The Hindu",
+            "item_id": "d214c55c0700ec2c41108fa0:article",
+            "composed": false
+          },
+          {
+            "text": "- November 20, 2026 09:18Cyclone threat to Visakhapatnam avertedAlong the Visakhapatnam coast, winds are blowing at 20 to 30 kmph with rough sea conditions.",
+            "source": "The Hindu",
+            "item_id": "d214c55c0700ec2c41108fa0:article",
+            "composed": false
+          },
+          {
+            "text": "- November 20, 2026 10:15Landfall process to continue for next 2 hours: IMDThe cyclonic storm ‘Akvan’ crossed the North Andhra Pradesh & South Odisha coast close to Gopalpur.",
+            "source": "The Hindu",
+            "item_id": "d214c55c0700ec2c41108fa0:article",
+            "composed": false
+          },
+          {
+            "text": "- November 20, 2026 09:16High waves surging along Sompeta area of Srikakulam districtFishermen have suspended fishing operations.",
+            "source": "The Hindu",
+            "item_id": "d214c55c0700ec2c41108fa0:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -391,7 +604,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (jharkhand)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -502,7 +715,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (1.9h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -535,143 +748,6 @@
         "source": "Deccan Chronicle",
         "corroborating": [],
         "url": "https://www.deccanchronicle.com/nation/tpsodl-mobilises-6474-personnel-for-cyclone-akvan-response-in-southern-odisha-2006126"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "d3d57d4ccb82df56cdb2fea0",
-      "story_id": "d3d57d4ccb82df56cdb2fea0",
-      "headline": "What Trump's meetings in Asia reveal",
-      "title": "What Trump's meetings in Asia reveal",
-      "summary": "Washington: US President Donald Trump huddled with leaders from longtime partners Japan, Australia and India in a resort conference room in Manila, Philippines, this week to strengthen a partnership called the Quad that is meant to counter China.Two days later, Trump warmly greeted Chinese leader Xi Jinping and Russian President Vladimir Putin in an unprecedented, trilateral summit of countries that have been long considered rivals to take on \"new opportunities and approaches on a range of very important issues\".Trump effusively described all these leaders as friends, but the meetings highlighted some key differences. The two geopolitical gatherings on the same whirlwind Asia trip reflect the US president's varied foreign policy approaches at a time when the world order is shifting.\"The Quad, comprising four democracies that uphold the rule of law, represents the post-World War II international order,\" said Ken Moriyasu, a senior fellow focused on Asia at the Hudson Institute.\"The trilateral, meanwhile, raises the prospect of a very different order -- one in which three great powers stand above the rest, recognise each other's spheres of influence and refrain from interfering in each other's core interests.\" The Quad meeting was a much different scene than Trump-Xi-Putin summitIn a no-frills hotel conference room in the Philippine capital on Tuesday, Trump sat down with Japanese Prime Minister Sanae Takaichi, Indian Prime Minister Narendra Modi and Australian Prime Minister Anthony Albanese.Covered in blue cloth, four long tables formed the appropriate shape of a quadrilateral, with each government taking one side. The leaders were flanked by their Cabinet members. There were no decorations but a mandatory display of national flags.Before the meeting, the four leaders took a photo together, where Trump took questions from reporters and joked around with his counterparts.Calling the leaders \"friends of mine\", Trump turned to Albanese and patted him on the back, as the Australian premier nodded. Trump then threw his thumb towards Modi and joked, \"And by the way, he's a very tough man,\" before pointing to Takaichi and saying, \"and she may be even tougher\".Modi didn't crack a smile, but Takaichi chuckled. Trump turned back to Albanese: \"And we? We're OK, too,\" to which the Australian laughed.Moments earlier, Modi, apparently impatient, gestured to end the press conference to no avail as Trump kept taking questions.The scene was much grander but far less spontaneous two days later when Trump joined Putin and Xi at a massive ring-shaped table with a burst of pink flowers in the middle at a state-owned resort in Shenzhen, China. The room was spacious with marble flooring, crystal chandeliers and jade sculptures.Three leaders were alone at the table, seated some distance from one another. Xi read from a prepared script, with hardly any expression on his face. Putin looked at the documents in front of him, while Trump sat back with a slight smile on the opposite end of the table. Trump says he's friends with everyone In Manila, Trump said at the Quad meeting that \"we're all friends\" and suggested that the leaders from Japan, Australia and India can reach him directly.\"We talk a lot when they have a problem, when they have difficulty, when they want to tell me something, my phone is always open and the Oval Office is always open to you,\" Trump said.Talking to reporters, Trump praised his fellow Quad leaders, calling them \"phenomenal people\".\"And they're friends of mine, so that helps,\" the US president said.On Thursday, Trump described Xi and Putin similarly, addressing both as his \"friend\". At the airport in Shenzhen, Trump got a rare greeting there from Xi and even an unusual hug from the Chinese leader.At a welcoming ceremony for the Asia-Pacific Economic Cooperation grouping, Putin joined Xi and Trump on stage. He and Trump shook hands and held each other briefly by the arm, with Xi looking on and smiling.At the trilateral meeting, Trump argued that differences among countries should not forestall talks. \"Too often, past leaders avoided talking to nations with whom they had disagreements. And, uh, we feel the opposite,\" Trump said. The statements from the two meetings diverge The joint press release from the Quad leaders called the group \"a force for good and a partnership of action, committed to peace, stability, and prosperity\" and laid out areas for cooperation, including artificial intelligence, cybersecurity and maritime surveillance.The Chinese, US and Russian governments issued a statement committing to reforming the United Nations, planning to increase petroleum supplies and affirming opposition to nuclear wars.While the Quad statement was substantive and reflective of the alignment of the four nations, the trilateral statement was largely symbolic. Still, it offered more detail than expected, said Edgard Kagan, a former US ambassador to Malaysia.With language about nuclear weapons and future dialogue, \"it is a major concession by China,\" said Kagan, now a senior advisor at the Center for Strategic and International Studies.",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trumps-meetings-in-asia-show-his-varied-approaches-to-shifting-world-order/articleshow/136013639.cms",
-      "source": "The Economic Times",
-      "primary_source": false,
-      "tier": 3,
-      "category": "national-politics",
-      "secondary_categories": [
-        "international-affairs",
-        "technology-digital",
-        "transport-infrastructure"
-      ],
-      "confidence": "medium",
-      "score": 100.0,
-      "priority_score": 49.2,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-20T04:46:54+00:00",
-      "published_at": "2026-11-20T04:46:54+00:00",
-      "effective_at": "2026-11-20T04:46:54+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "economic-times"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: national-politics (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (economic-times) +1",
-        "source: specialist (economic-times) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'war' in summary weight 49.2",
-        "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
-        "category: national-politics (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Washington: US President Donald Trump huddled with leaders from longtime partners Japan, Australia and India in a resort conference room in Manila, Philippines, this week to strengthen a partnership called the Quad that is meant to counter China.",
-          "Two days later, Trump warmly greeted Chinese leader Xi Jinping and Russian President Vladimir Putin in an unprecedented, trilateral summit of countries that have been long considered rivals to take on \"new opportunities and approaches on a range of very important issues\"."
-        ],
-        "body": [
-          "Trump effusively described all these leaders as friends, but the meetings highlighted some key differences.",
-          "The two geopolitical gatherings on the same whirlwind Asia trip reflect the US president's varied foreign policy approaches at a time when the world order is shifting.\" The Quad, comprising four democracies that uphold the rule of law, represents the post-World War II international order,\" said Ken Moriyasu, a senior fellow focused on Asia at the Hudson Institute.\" The trilateral, meanwhile, raises the prospect of a very different order -- one in which three great powers stand above the rest, recognise each other's spheres of influence and refrain from interfering in each other's core interests.\" The Quad meeting was a much different scene than Trump-Xi-Putin summit.",
-          "In a no-frills hotel conference room in the Philippine capital on Tuesday, Trump sat down with Japanese Prime Minister Sanae Takaichi, Indian Prime Minister Narendra Modi and Australian Prime Minister Anthony Albanese.",
-          "Covered in blue cloth, four long tables formed the appropriate shape of a quadrilateral, with each government taking one side.",
-          "The leaders were flanked by their Cabinet members.",
-          "There were no decorations but a mandatory display of national flags.",
-          "Before the meeting, the four leaders took a photo together, where Trump took questions from reporters and joked around with his counterparts.",
-          "Calling the leaders \"friends of mine\", Trump turned to Albanese and patted him on the back, as the Australian premier nodded.",
-          "Trump then threw his thumb towards Modi and joked, \"And by the way, he's a very tough man,\" before pointing to Takaichi and saying, \"and she may be even tougher\".",
-          "Modi didn't crack a smile, but Takaichi chuckled.",
-          "Trump turned back to Albanese: \"And we?",
-          "We're OK, too,\" to which the Australian laughed.",
-          "Moments earlier, Modi, apparently impatient, gestured to end the press conference to no avail as Trump kept taking questions.",
-          "The scene was much grander but far less spontaneous two days later when Trump joined Putin and Xi at a massive ring-shaped table with a burst of pink flowers in the middle at a state-owned resort in Shenzhen, China.",
-          "The room was spacious with marble flooring, crystal chandeliers and jade sculptures.",
-          "Three leaders were alone at the table, seated some distance from one another.",
-          "Xi read from a prepared script, with hardly any expression on his face.",
-          "Putin looked at the documents in front of him, while Trump sat back with a slight smile on the opposite end of the table.",
-          "Trump says he's friends with everyone.",
-          "In Manila, Trump said at the Quad meeting that \"we're all friends\" and suggested that the leaders from Japan, Australia and India can reach him directly.\" We talk a lot when they have a problem, when they have difficulty, when they want to tell me something, my phone is always open and the Oval Office is always open to you,\" Trump said.",
-          "Talking to reporters, Trump praised his fellow Quad leaders, calling them \"phenomenal people\".\" And they're friends of mine, so that helps,\" the US president said.",
-          "On Thursday, Trump described Xi and Putin similarly, addressing both as his \"friend\".",
-          "At the airport in Shenzhen, Trump got a rare greeting there from Xi and even an unusual hug from the Chinese leader.",
-          "At a welcoming ceremony for the Asia-Pacific Economic Cooperation grouping, Putin joined Xi and Trump on stage.",
-          "He and Trump shook hands and held each other briefly by the arm, with Xi looking on and smiling.",
-          "At the trilateral meeting, Trump argued that differences among countries should not forestall talks.",
-          "\"Too often, past leaders avoided talking to nations with whom they had disagreements.",
-          "And, uh, we feel the opposite,\" Trump said.",
-          "The statements from the two meetings diverge.",
-          "The joint press release from the Quad leaders called the group \"a force for good and a partnership of action, committed to peace, stability, and prosperity\" and laid out areas for cooperation, including artificial intelligence, cybersecurity and maritime surveillance.",
-          "The Chinese, US and Russian governments issued a statement committing to reforming the United Nations, planning to increase petroleum supplies and affirming opposition to nuclear wars.",
-          "While the Quad statement was substantive and reflective of the alignment of the four nations, the trilateral statement was largely symbolic.",
-          "Still, it offered more detail than expected, said Edgard Kagan, a former US ambassador to Malaysia.",
-          "With language about nuclear weapons and future dialogue, \"it is a major concession by China,\" said Kagan, now a senior advisor at the Center for Strategic and International Studies."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Manila"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Trump then threw his thumb towards Modi and joked, \"And by the way, he's a very tough man,\" before pointing to Takaichi and saying, \"and she may be even tougher\".",
-            "source": "The Economic Times",
-            "item_id": "d3d57d4ccb82df56cdb2fea0",
-            "composed": false
-          },
-          {
-            "text": "At the airport in Shenzhen, Trump got a rare greeting there from Xi and even an unusual hug from the Chinese leader.",
-            "source": "The Economic Times",
-            "item_id": "d3d57d4ccb82df56cdb2fea0",
-            "composed": false
-          },
-          {
-            "text": "Washington: US President Donald Trump huddled with leaders from longtime partners Japan, Australia and India in a resort conference room in Manila, Philippines, this week to strengthen a partnership called the Quad that is meant to counter China.",
-            "source": "The Economic Times",
-            "item_id": "d3d57d4ccb82df56cdb2fea0",
-            "composed": false
-          },
-          {
-            "text": "In a no-frills hotel conference room in the Philippine capital on Tuesday, Trump sat down with Japanese Prime Minister Sanae Takaichi, Indian Prime Minister Narendra Modi and Australian Prime Minister Anthony Albanese.",
-            "source": "The Economic Times",
-            "item_id": "d3d57d4ccb82df56cdb2fea0",
-            "composed": false
-          }
-        ],
-        "source": "The Economic Times",
-        "corroborating": [],
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/trumps-meetings-in-asia-show-his-varied-approaches-to-shifting-world-order/articleshow/136013639.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -720,7 +796,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'verdict' in title weight 22",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -824,7 +900,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -840,7 +916,7 @@
         "While pronouncing its order, a bench of Justices Vikram Nath and Aparesh Kumar Singh said two applications had been dismissed.",
         "It also said a third application filed by Tamil Nadu was dismissed on Friday."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Tamil Nadu had sought the additional water, saying that the shortage was affecting farmers and damaging crops across the state.",
@@ -871,7 +947,7 @@
         "url": "https://www.indiatoday.in/india/law-news/story/supreme-court-rejects-tamil-nadus-plea-seeking-order-to-karnataka-to-release-extra-water-to-fulfill-shortage-3042907-2026-11-20"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     }
   ]
