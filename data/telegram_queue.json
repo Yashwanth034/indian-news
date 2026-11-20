@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T14:42:15.903698+00:00",
-  "count": 14,
+  "generated_at": "2026-11-20T14:52:28.221031+00:00",
+  "count": 15,
   "stories": [
     {
       "event_id": "571ef6b96c82f304b40528c0",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 28, score 72 -> URGENT"
@@ -138,7 +138,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: state scope (odisha)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -265,7 +265,7 @@
         "event term: 'cyclone' in title weight 72",
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -388,7 +388,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (kerala)",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -492,7 +492,7 @@
         "event term: 'loc' in title weight 62",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -500,7 +500,7 @@
       "geo_scope": "national",
       "state": "jammu and kashmir",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Poonch, Nov 20: General Officer Commanding (GOC) Northern Command Lieutenant General Pratik Sharma on Friday visited forward posts in the Poonch and Sunderbani sectors along the Line of Control (LoC) in Jammu and Kashmir to review the prevailing security situation and assess operational preparedness of troops.",
@@ -535,7 +535,7 @@
         "url": "https://www.greaterkashmir.com/pir-panjal/goc-northern-command-reviews-counter-infiltration-measures-along-loc-in-poonch-sunderbani-sectors-in-jk-12827431"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -585,7 +585,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (uttarakhand)",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -622,6 +622,110 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "980da3ee7f2de66362b4016b",
+      "story_id": "980da3ee7f2de66362b4016b",
+      "headline": "Cauvery verdict is a reflection of the dire ground reality in Karnataka: Chief Minister D.K. Shivakumar",
+      "title": "Cauvery verdict is a reflection of the dire ground reality in Karnataka: Chief Minister D.K. Shivakumar",
+      "summary": "The Supreme Court on Friday dismissed a plea by Tamil Nadu claiming that Karnataka has to make good a shortfall of 16.01 tmcft (later modified to 11.719 tmcft) of Cauvery water on a pro rata basis during the current irrigation year of 2026-27.",
+      "url": "https://www.thehindu.com/news/national/karnataka/cauvery-verdict-is-a-reflection-of-the-dire-ground-reality-in-karnataka-chief-minister-dk-shivakumar/article71724488.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 61.4,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-20T14:45:51+00:00",
+      "published_at": "2026-11-20T14:45:51+00:00",
+      "effective_at": "2026-11-20T14:45:51+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'verdict' in title weight 22",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 26.4, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "karnataka",
+      "national_significance": true,
+      "article_sentences": [
+        "Karnataka Chief Minister D.K. Shivakumar on Friday (November 20) described the Cauvery verdict as a reflection of the ground reality, adding that Karnataka would have supplied Cauvery water to Tamil Nadu if it had adequate reserves, but was currently struggling to meet even its own drinking water requirements.",
+        "The Supreme Court on Friday dismissed a plea by Tamil Nadu claiming that Karnataka has to make good a shortfall of 16.01 tmcft (later modified to 11.719 tmcft) of Cauvery water on a pro rata basis during the current irrigation year of 2026-27.",
+        "Tamil Nadu had accused its neighbouring State of withholding Cauvery water to the detriment of the inhabitants of Tamil Nadu, while Karnataka had pointed to the lack of a scientific formula for sharing distress in a pro rata or proportionate manner.",
+        "Mr. Shivakumar told reporters, “The order is only a reflection of the ground reality.",
+        "We don’t even have enough water for drinking purposes.",
+        "It is not as if we are holding back water that is available.",
+        "I have also told our farmers to be careful...",
+        "It is something that Tamil Nadu knows, we know and the whole world knows.",
+        "I could not even make an offering of bagina this year because of the dire water situation.”",
+        "Karnataka Water Resources Minister N. Cheluvarayaswamy said the verdict had come as a relief for the State.",
+        "“The verdict is to be seen more as justice to Karnataka rather than a setback to Tamil Nadu.",
+        "When we do not have adequate storage of water, how is it possible to release water to Tamil Nadu?” he asked."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Karnataka Chief Minister D.K. Shivakumar on Friday (November 20) described the Cauvery verdict as a reflection of the ground reality, adding that Karnataka would have supplied Cauvery water to Tamil Nadu if it had adequate reserves, but was currently struggling to meet even its own drinking water requirements.",
+          "The Supreme Court on Friday dismissed a plea by Tamil Nadu claiming that Karnataka has to make good a shortfall of 16.01 tmcft (later modified to 11.719 tmcft) of Cauvery water on a pro rata basis during the current irrigation year of 2026-27."
+        ],
+        "body": [
+          "Tamil Nadu had accused its neighbouring State of withholding Cauvery water to the detriment of the inhabitants of Tamil Nadu, while Karnataka had pointed to the lack of a scientific formula for sharing distress in a pro rata or proportionate manner.",
+          "Mr. Shivakumar told reporters, “The order is only a reflection of the ground reality.",
+          "We don’t even have enough water for drinking purposes.",
+          "It is not as if we are holding back water that is available.",
+          "I have also told our farmers to be careful...",
+          "It is something that Tamil Nadu knows, we know and the whole world knows.",
+          "I could not even make an offering of bagina this year because of the dire water situation.” Karnataka Water Resources Minister N. Cheluvarayaswamy said the verdict had come as a relief for the State.",
+          "“The verdict is to be seen more as justice to Karnataka rather than a setback to Tamil Nadu."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court on Friday dismissed a plea by Tamil Nadu claiming that Karnataka has to make good a shortfall of 16.01 tmcft (later modified to 11.719 tmcft) of Cauvery water on a pro rata basis during the current irrigation year of 2026-27.",
+            "source": "The Hindu",
+            "item_id": "980da3ee7f2de66362b4016b:article",
+            "composed": false
+          },
+          {
+            "text": "Karnataka Chief Minister D.K. Shivakumar on Friday (November 20) described the Cauvery verdict as a reflection of the ground reality, adding that Karnataka would have supplied Cauvery water to Tamil Nadu if it had adequate reserves, but was currently struggling to meet even its own drinking water requirements.",
+            "source": "The Hindu",
+            "item_id": "980da3ee7f2de66362b4016b:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/karnataka/cauvery-verdict-is-a-reflection-of-the-dire-ground-reality-in-karnataka-chief-minister-dk-shivakumar/article71724488.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "44f6e8c8081aa0178eb6415e",
@@ -669,7 +773,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 25.2, stack 45, score 45 -> HIGH"
@@ -835,7 +939,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -953,7 +1057,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 41.2, score 44 -> HIGH"
@@ -1037,7 +1141,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1157,7 +1261,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1260,7 +1364,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in summary weight 10.8",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 33.2, score 44 -> HIGH"
@@ -1367,7 +1471,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (arunachal pradesh)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 22.8, score 42 -> HIGH"
@@ -1389,7 +1493,7 @@
         "The party also asked whether Mr. Shah would meet representatives of the Siang Indigenous Farmers’ Forum (SIFF), villagers likely to be affected, indigenous organisations and civil society representatives.",
         "“Of particular concern is the reported request by SIFF for an appointment with the Union Home Minister during his visit, which, according to media reports, has not been accommodated in the announced itinerary."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Hours before Union Home Minister Amit Shah began his three-day tour of Arunachal Pradesh on Friday (November 20, 2026), the Congress asked him if the Centre would give a written assurance that it would not “impose” the 11,000-megawatt Siang Upper Multipurpose Project (SUMP) on the State’s indigenous communities.",
@@ -1437,7 +1541,7 @@
         "url": "https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-congress-urges-centre-not-to-impose-siang-dam-project-on-indigenous-communities/article71724604.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1485,7 +1589,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 40, score 40 -> HIGH"
