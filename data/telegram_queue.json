@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T05:22:01.490376+00:00",
-  "count": 5,
+  "generated_at": "2026-11-20T05:32:23.214772+00:00",
+  "count": 6,
   "stories": [
     {
       "event_id": "5616eec9da1d70c7940c0722",
@@ -46,7 +46,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "geo: national",
         "dominant event 82, stack 28, score 82 -> IMMEDIATE",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -141,10 +141,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
-        "dominant event 72, stack 28, score 72 -> URGENT"
+        "dominant event 72, stack 24, score 72 -> URGENT"
       ],
       "geo_scope": "state",
       "state": "odisha",
@@ -229,6 +229,122 @@
       "enrichment": "article"
     },
     {
+      "event_id": "0d039f5fd9c7206b5d5161a1",
+      "story_id": "0d039f5fd9c7206b5d5161a1",
+      "headline": "Cyclone Akvan to bring rain in Bihar; lightning alert issued",
+      "title": "Cyclone Akvan to bring rain in Bihar; lightning alert issued",
+      "summary": "This moisture-laden air is expected to contribute to cloud formation and rainfall across parts of the state.",
+      "url": "https://www.thehansindia.com/news/national/cyclone-akvan-to-bring-rain-in-bihar-lightning-alert-issued-1143952",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-20T05:29:39+00:00",
+      "published_at": "2026-11-20T05:29:39+00:00",
+      "effective_at": "2026-11-20T05:29:39+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "scale: state scope (bihar)",
+        "recency: breaking (0.0h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national significance (local/state event)",
+        "dominant event 72, stack 24, score 72 -> URGENT"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": true,
+      "article_sentences": [
+        "This moisture-laden air is expected to contribute to cloud formation and rainfall across parts of the state.",
+        "Patna: The impact of cyclonic storm ‘Akvan’, which has developed over the Bay of Bengal, is beginning to be felt in Bihar, with clouds covering several areas, including Patna, early on Friday.",
+        "The India Meteorological Department (IMD) has forecast unsettled weather and light rainfall in several districts, along with a warning of lightning strikes.",
+        "According to the Meteorological Department, 13 districts may experience a change in weather conditions on Friday.",
+        "These include Patna, Nalanda, Jehanabad, Arwal, Gaya, Sheikhpura, Lakhisarai, Aurangabad, Jamui, Nawada, Banka, Bhagalpur and Munger.",
+        "Light rain is possible in these areas, while residents have been advised to remain cautious due to the possibility of lightning.",
+        "The weather is expected to remain unsettled in several parts of Bihar on November 21 and 22 as well, as the cyclonic system gradually influences weather conditions across eastern India.",
+        "The department has forecast light rainfall in Supaul, Araria, Kishanganj, Saharsa, Madhepura, Purnea, Katihar, Khagaria, Munger, Bhagalpur, Banka and Jamui during this period.",
+        "A warning of heavy rainfall has specifically been issued for Bhagalpur and Katihar.",
+        "Meteorologists said the system is likely to influence wind patterns over Bihar, bringing easterly winds carrying moisture from the Bay of Bengal.",
+        "According to the forecast, cyclonic storm ‘Akvan’ is expected to move towards the vicinity of the Odisha and Andhra Pradesh coasts by Friday.",
+        "Wind speeds over the sea could reach 90-100 kmph, indicating the intensity of the weather system."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "This moisture-laden air is expected to contribute to cloud formation and rainfall across parts of the state.",
+          "Patna: The impact of cyclonic storm ‘Akvan’, which has developed over the Bay of Bengal, is beginning to be felt in Bihar, with clouds covering several areas, including Patna, early on Friday."
+        ],
+        "body": [
+          "The India Meteorological Department (IMD) has forecast unsettled weather and light rainfall in several districts, along with a warning of lightning strikes.",
+          "According to the Meteorological Department, 13 districts may experience a change in weather conditions on Friday.",
+          "These include Patna, Nalanda, Jehanabad, Arwal, Gaya, Sheikhpura, Lakhisarai, Aurangabad, Jamui, Nawada, Banka, Bhagalpur and Munger.",
+          "Light rain is possible in these areas, while residents have been advised to remain cautious due to the possibility of lightning.",
+          "The weather is expected to remain unsettled in several parts of Bihar on November 21 and 22 as well, as the cyclonic system gradually influences weather conditions across eastern India.",
+          "The department has forecast light rainfall in Supaul, Araria, Kishanganj, Saharsa, Madhepura, Purnea, Katihar, Khagaria, Munger, Bhagalpur, Banka and Jamui during this period.",
+          "A warning of heavy rainfall has specifically been issued for Bhagalpur and Katihar.",
+          "Meteorologists said the system is likely to influence wind patterns over Bihar, bringing easterly winds carrying moisture from the Bay of Bengal."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bihar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The weather is expected to remain unsettled in several parts of Bihar on November 21 and 22 as well, as the cyclonic system gradually influences weather conditions across eastern India.",
+            "source": "The Hans India",
+            "item_id": "0d039f5fd9c7206b5d5161a1:article",
+            "composed": false
+          },
+          {
+            "text": "Patna: The impact of cyclonic storm ‘Akvan’, which has developed over the Bay of Bengal, is beginning to be felt in Bihar, with clouds covering several areas, including Patna, early on Friday.",
+            "source": "The Hans India",
+            "item_id": "0d039f5fd9c7206b5d5161a1:article",
+            "composed": false
+          },
+          {
+            "text": "The department has forecast light rainfall in Supaul, Araria, Kishanganj, Saharsa, Madhepura, Purnea, Katihar, Khagaria, Munger, Bhagalpur, Banka and Jamui during this period.",
+            "source": "The Hans India",
+            "item_id": "0d039f5fd9c7206b5d5161a1:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/news/national/cyclone-akvan-to-bring-rain-in-bihar-lightning-alert-issued-1143952"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "db92b833f4fdae6369c97db1",
       "story_id": "db92b833f4fdae6369c97db1",
       "headline": "Cyclone Akvan: Light rain in parts of Jharkhand; primary classes suspended in some districts",
@@ -247,9 +363,9 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-20T05:04:19+00:00",
-      "published_at": "2026-11-20T05:04:19+00:00",
-      "effective_at": "2026-11-20T05:04:19+00:00",
+      "event_time": "2026-11-20T05:14:17+00:00",
+      "published_at": "2026-11-20T05:14:17+00:00",
+      "effective_at": "2026-11-20T05:14:17+00:00",
       "independent_source_groups": 1,
       "source_groups": {
         "thehindu": {
@@ -386,7 +502,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -470,7 +586,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 30.4, score 49.2 -> HIGH"
