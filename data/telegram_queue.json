@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-20T03:12:00.309714+00:00",
+  "generated_at": "2026-11-20T03:22:19.642706+00:00",
   "count": 2,
   "stories": [
     {
-      "event_id": "23a24aadf74fe070a91d44e1",
-      "story_id": "23a24aadf74fe070a91d44e1",
-      "headline": "Cyclone Akvan: Landfall process begins",
-      "title": "Cyclone Akvan: Landfall process begins",
-      "summary": "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours",
-      "url": "https://www.thehindu.com/news/national/cyclone-akvan-odisha-andhra-pradesh-landfall-imd-updates/article71722866.ece",
-      "source": "The Hindu",
+      "event_id": "e6f250f19458ea0631c95120",
+      "story_id": "e6f250f19458ea0631c95120",
+      "headline": "Cyclone Akwan begins landfall along India's east coast with strong winds and heavy rain",
+      "title": "Cyclone Akwan begins landfall along India's east coast with strong winds and heavy rain",
+      "summary": "Cyclone Akwan begins landfall along India's east coast with strong winds and heavy rain",
+      "url": "https://www.indiatoday.in/india/video/cyclone-akwan-landfall-begins-along-indias-east-coast-ytvd-3042847-2026-11-20",
+      "source": "India Today",
       "primary_source": false,
       "tier": 2,
       "category": "weather-disasters",
@@ -19,17 +19,17 @@
       "priority_score": 72.0,
       "priority_level": "URGENT",
       "max_delay_minutes": null,
-      "event_time": "2026-11-20T01:03:55+00:00",
-      "published_at": "2026-11-20T01:03:55+00:00",
-      "effective_at": "2026-11-20T01:03:55+00:00",
+      "event_time": "2026-11-20T03:16:21+00:00",
+      "published_at": "2026-11-20T03:16:21+00:00",
+      "effective_at": "2026-11-20T03:16:21+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "india-today"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
@@ -39,20 +39,21 @@
         "major: category importance 1.4 >= 1.2",
         "major: urgent category",
         "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: tier 2 (india-today) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
-        "scale: state scope (odisha)",
-        "recency: breaking (2.1h ago) +8",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 72, stack 24, score 72 -> URGENT"
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
       ],
-      "geo_scope": "local",
-      "state": "odisha",
+      "geo_scope": "national",
+      "state": null,
       "national_significance": true,
       "article_sentences": [
         "The land interaction commenced as the sheared cloud mass associated with the cyclonic storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts early on Friday, says the India Meteorological Department (IMD).",
@@ -62,7 +63,8 @@
         "Director of Bhubaneswar Meteorological Centre Manorama Mohanty said the duration of the landfall process would be a long process which could stretch over seven to eight hours.",
         "Meanwhile, coastal Odisha districts have started receiving heavy rain under the influence of the cyclone."
       ],
-      "public_label": "📰 NEWS",
+      "enrichment_source": "The Hindu",
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
           "The land interaction commenced as the sheared cloud mass associated with the cyclonic storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts early on Friday, says the India Meteorological Department (IMD).",
@@ -78,22 +80,24 @@
           {
             "text": "“Latest satellite imagery indicates the land interaction commenced as the sheared cloud mass associated with the Cyclonic Storm ‘Akvan’ entered into the north Andhra Pradesh-south Odisha coasts,” informed IMD on Friday (November 20, 2026).",
             "source": "The Hindu",
-            "item_id": "23a24aadf74fe070a91d44e1:article",
+            "item_id": "e6f250f19458ea0631c95120:article",
             "composed": false
           },
           {
             "text": "“The severe cyclonic storm Akvan over the westcentral Bay of Bengal moved north-northwestwards with the speed of 21 kmph during the past six hours, weakened into a cyclonic storm and lay centred over the same region about 110 km southeast of Visakhapatnam (Andhra Pradesh) and 170 km south of Gopalpur (Odisha) and 250 km south-southwest of Puri (Odisha),” informed the IMD bulletin.",
             "source": "The Hindu",
-            "item_id": "23a24aadf74fe070a91d44e1:article",
+            "item_id": "e6f250f19458ea0631c95120:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/cyclone-akvan-odisha-andhra-pradesh-landfall-imd-updates/article71722866.ece"
+        "source": "India Today",
+        "corroborating": [
+          "The Hindu"
+        ],
+        "url": "https://www.indiatoday.in/india/video/cyclone-akwan-landfall-begins-along-indias-east-coast-ytvd-3042847-2026-11-20"
       },
-      "group_size": 1,
-      "label": "📰 NEWS",
+      "group_size": 2,
+      "label": "⚡ JUST IN",
       "enrichment": "article"
     },
     {
@@ -139,7 +143,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (6.0h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
