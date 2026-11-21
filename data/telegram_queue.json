@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T06:51:58.126666+00:00",
-  "count": 11,
+  "generated_at": "2026-11-21T07:02:44.699945+00:00",
+  "count": 13,
   "stories": [
     {
       "event_id": "42099eb5f099d2c7327e8f53",
@@ -48,7 +48,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: national scope",
-        "recency: fresh (5.5h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 84, stack 24.8, score 84 -> IMMEDIATE"
@@ -145,7 +145,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -253,7 +253,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 28.8, score 82 -> IMMEDIATE"
@@ -334,7 +334,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 30, score 72 -> URGENT"
@@ -461,7 +461,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (west bengal)",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -593,7 +593,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'world cup' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -729,7 +729,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (delhi)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 26.4, score 50.4 -> HIGH"
@@ -847,7 +847,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 38, stack 45, score 45 -> HIGH"
@@ -970,7 +970,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1047,6 +1047,100 @@
       "enrichment": "article"
     },
     {
+      "event_id": "74989151eede54087a81718a",
+      "story_id": "74989151eede54087a81718a",
+      "headline": "Supreme Court asks Centre for response on bringing in law on marriages between those closely related by blood",
+      "title": "Supreme Court asks Centre for response on bringing in law on marriages between those closely related by blood",
+      "summary": "Counsel for the petitioner highlighted the need to create awareness about the inter-generational consequences of such marriage",
+      "url": "https://www.thehindu.com/news/national/supreme-court-asks-centre-for-response-on-bringing-in-law-on-marriages-between-those-closely-related-by-blood/article71723543.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-21T04:55:13+00:00",
+      "published_at": "2026-11-21T04:55:13+00:00",
+      "effective_at": "2026-11-21T04:55:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (2.1h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court asked the government for a response to a plea to bring a law to regulate consanguineous marriages.",
+        "A Bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana noted that the court cannot regulate such ‘consanguineous marriages’.",
+        "The issue fell exclusively within the domain of the legislature, the court said.",
+        "Counsel for the petitioner highlighted the need to create awareness about the inter-generational consequences of such marriage.",
+        "“We are issuing notice for the limited purpose of impressing upon the Union of India to consider the desirability of bringing a suitable legislation, or to ensure wide publicity through different channels, including a proper curriculum,” the Bench said.",
+        "The court said it could intervene on the question of sensitisation, more than issue directions.",
+        "The petitioner’s counsel said safeguards should be provided as the practice of consanguineous marriages was increasing."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "The Supreme Court asked the government for a response to a plea to bring a law to regulate consanguineous marriages.",
+          "A Bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana noted that the court cannot regulate such ‘consanguineous marriages’."
+        ],
+        "body": [
+          "The issue fell exclusively within the domain of the legislature, the court said.",
+          "Counsel for the petitioner highlighted the need to create awareness about the inter-generational consequences of such marriage.",
+          "“We are issuing notice for the limited purpose of impressing upon the Union of India to consider the desirability of bringing a suitable legislation, or to ensure wide publicity through different channels, including a proper curriculum,” the Bench said.",
+          "The court said it could intervene on the question of sensitisation, more than issue directions.",
+          "The petitioner’s counsel said safeguards should be provided as the practice of consanguineous marriages was increasing."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court asked the government for a response to a plea to bring a law to regulate consanguineous marriages.",
+            "source": "The Hindu",
+            "item_id": "74989151eede54087a81718a:article",
+            "composed": false
+          },
+          {
+            "text": "A Bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana noted that the court cannot regulate such ‘consanguineous marriages’.",
+            "source": "The Hindu",
+            "item_id": "74989151eede54087a81718a:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/supreme-court-asks-centre-for-response-on-bringing-in-law-on-marriages-between-those-closely-related-by-blood/article71723543.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "290a25be1091d11ccb8f93e9",
       "story_id": "290a25be1091d11ccb8f93e9",
       "headline": "Supreme Court Refuses Plea To Refer Shenbagavalli Weir Dispute Between Keralam & TN To Inter-State River Disputes Tribunal",
@@ -1088,7 +1182,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1150,6 +1244,108 @@
       "enrichment": "article"
     },
     {
+      "event_id": "97c30453996d3f2740c96d32",
+      "story_id": "97c30453996d3f2740c96d32",
+      "headline": "Supreme Court Seeks Centre's Stand on Genetic Risks of Consanguineous Marriages",
+      "title": "Supreme Court Seeks Centre's Stand on Genetic Risks of Consanguineous Marriages",
+      "summary": "",
+      "url": "https://www.sentinelassam.com/topheadlines/supreme-court-seeks-centres-stand-on-genetic-risks-of-consanguineous-marriages",
+      "source": "The Sentinel (Assam)",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 85.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-21T02:41:00+00:00",
+      "published_at": "2026-11-21T02:41:00+00:00",
+      "effective_at": "2026-11-21T02:41:00+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "sentinel-assam": {
+          "kind": "independent",
+          "source_ids": [
+            "sentinel-assam"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (sentinel-assam) +1",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (4.4h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 21.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "NEW DELHI: The Supreme Court on Friday sought a response from the Centre on a PIL seeking measures to raise awareness about the potential genetic and medical risks associated with consanguineous marriages (marriages between close blood relatives).",
+        "A bench of Chief Justice of India Surya Kant, and Justices Joymalya Bagchi and V Mohana observed that while marriage is a matter of personal choice and most of the reliefs sought fall within the legislative domain, the issue warrants greater public awareness.",
+        "The apex court issued notice to the Centre on a limited issue, specifically to ask the government to consider whether suitable legislation or awareness measures, including incorporating the subject into school and college curricula, were necessary to promote scientific understanding of the possible adverse effects of such marriages.",
+        "Justice Bagchi observed that individuals should be equipped to make an \"informed decision\" about consanguineous marriages, while referring to earlier judicial recognition of the right to marry an HIV-positive person with full knowledge of the condition.",
+        "The PIL was filed by Charvi S, a 20-year-old law student at the National Law School of India University, Bengaluru, who has 40 per cent visual impairment.",
+        "She is herself the child of a first-cousin marriage and was diagnosed with cone dystrophy, an inherited eye disorder.",
+        "The petitioner contended that customary exceptions under Sections 5(iv) and 5(v) of the Hindu Marriage Act and Section 4(d) of the Special Marriage Act permit close-relative marriages despite the associated genetic risks.",
+        "She argued that the State must take preventive measures to protect the health and rights of future generations."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "NEW DELHI: The Supreme Court on Friday sought a response from the Centre on a PIL seeking measures to raise awareness about the potential genetic and medical risks associated with consanguineous marriages (marriages between close blood relatives).",
+          "A bench of Chief Justice of India Surya Kant, and Justices Joymalya Bagchi and V Mohana observed that while marriage is a matter of personal choice and most of the reliefs sought fall within the legislative domain, the issue warrants greater public awareness."
+        ],
+        "body": [
+          "The apex court issued notice to the Centre on a limited issue, specifically to ask the government to consider whether suitable legislation or awareness measures, including incorporating the subject into school and college curricula, were necessary to promote scientific understanding of the possible adverse effects of such marriages.",
+          "Justice Bagchi observed that individuals should be equipped to make an \"informed decision\" about consanguineous marriages, while referring to earlier judicial recognition of the right to marry an HIV-positive person with full knowledge of the condition.",
+          "The PIL was filed by Charvi S, a 20-year-old law student at the National Law School of India University, Bengaluru, who has 40 per cent visual impairment.",
+          "She is herself the child of a first-cousin marriage and was diagnosed with cone dystrophy, an inherited eye disorder.",
+          "The petitioner contended that customary exceptions under Sections 5(iv) and 5(v) of the Hindu Marriage Act and Section 4(d) of the Special Marriage Act permit close-relative marriages despite the associated genetic risks.",
+          "She argued that the State must take preventive measures to protect the health and rights of future generations."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The PIL was filed by Charvi S, a 20-year-old law student at the National Law School of India University, Bengaluru, who has 40 per cent visual impairment.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "97c30453996d3f2740c96d32:article",
+            "composed": false
+          },
+          {
+            "text": "The petitioner contended that customary exceptions under Sections 5(iv) and 5(v) of the Hindu Marriage Act and Section 4(d) of the Special Marriage Act permit close-relative marriages despite the associated genetic risks.",
+            "source": "The Sentinel (Assam)",
+            "item_id": "97c30453996d3f2740c96d32:article",
+            "composed": false
+          },
+          {
+            "text": "NEW DELHI: The Supreme Court on Friday sought a response from the Centre on a PIL seeking measures to raise awareness about the potential genetic and medical risks associated with consanguineous marriages (marriages between close blood relatives).",
+            "source": "The Sentinel (Assam)",
+            "item_id": "97c30453996d3f2740c96d32:article",
+            "composed": false
+          }
+        ],
+        "source": "The Sentinel (Assam)",
+        "corroborating": [],
+        "url": "https://www.sentinelassam.com/topheadlines/supreme-court-seeks-centres-stand-on-genetic-risks-of-consanguineous-marriages"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "5eed9aef005a3b36afb84cb0",
       "story_id": "5eed9aef005a3b36afb84cb0",
       "headline": "Maharashtra sees worst drought since 1972, Rabi sowing falls",
@@ -1204,7 +1400,7 @@
         "event term: 'drought' in title weight 36",
         "event term: 'drought' in summary weight 21.6",
         "scale: state scope (maharashtra)",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 36, stack 40.8, score 40.8 -> HIGH"
@@ -1212,7 +1408,7 @@
       "geo_scope": "state",
       "state": "maharashtra",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Mumbai, Nov 21: Maharashtra is facing one of its worst droughts in recent history, with Rabi sowing falling well below levels recorded during the devastating 1972 drought.",
@@ -1284,7 +1480,7 @@
         "url": "https://assamtribune.com/national/maharashtra-sees-worst-drought-since-1972-rabi-sowing-falls-1623093"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     }
   ]
