@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-11-22T02:52:11.107815+00:00",
-  "count": 2,
+  "generated_at": "2026-11-22T03:02:41.336653+00:00",
+  "count": 3,
   "stories": [
+    {
+      "event_id": "1cb80c3a254337518b0b4046",
+      "story_id": "1cb80c3a254337518b0b4046",
+      "headline": "Cyclone threat eases as rain and storms forecast to AP",
+      "title": "Cyclone threat eases as rain and storms forecast to AP",
+      "summary": "Cyclone Akvan's threat to Andhra Pradesh has eased as the system weakens into a low-pressure area. Rain, thunderstorms, lightning and strong winds are forecast across AP and Telangana, while temperatures drop below 10°C in parts of Telangana.",
+      "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-threat-eases-as-rain-and-storms-forecast-to-ap-1144616",
+      "source": "The Hans India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "weather-disasters",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 72.0,
+      "priority_level": "URGENT",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-22T03:01:21+00:00",
+      "published_at": "2026-11-22T03:01:21+00:00",
+      "effective_at": "2026-11-22T03:01:21+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "hans-india": {
+          "kind": "independent",
+          "source_ids": [
+            "hans-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.4 >= 1.2",
+        "major: urgent category",
+        "major: significance event 'Cyclone'",
+        "major: significance event 'Cyclone'",
+        "category: weather-disasters (importance 1.4, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (hans-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cyclone' in title weight 72",
+        "event term: 'cyclone' in summary weight 43.2",
+        "scale: national scope",
+        "scale: multi-state (2 states)",
+        "recency: breaking (0.0h ago) +8",
+        "category: weather-disasters (importance 1.4) +6",
+        "geo: national",
+        "dominant event 72, stack 45, score 72 -> URGENT"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Cyclone Akvan's threat to Andhra Pradesh has eased as the system weakens into a low-pressure area.",
+          "Rain, thunderstorms, lightning and strong winds are forecast across AP and Telangana, while temperatures drop below 10°C in parts of Telangana."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "AP"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Rain, thunderstorms, lightning and strong winds are forecast across AP and Telangana, while temperatures drop below 10°C in parts of Telangana.",
+            "source": "The Hans India",
+            "item_id": "1cb80c3a254337518b0b4046",
+            "composed": false
+          },
+          {
+            "text": "Cyclone Akvan's threat to Andhra Pradesh has eased as the system weakens into a low-pressure area.",
+            "source": "The Hans India",
+            "item_id": "1cb80c3a254337518b0b4046",
+            "composed": false
+          }
+        ],
+        "source": "The Hans India",
+        "corroborating": [],
+        "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-threat-eases-as-rain-and-storms-forecast-to-ap-1144616"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
     {
       "event_id": "7308652604498ec33e644574",
       "story_id": "7308652604498ec33e644574",
@@ -51,7 +141,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 32.4, score 49.2 -> HIGH"
@@ -176,7 +266,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 37.2, stack 45, score 45 -> HIGH"
