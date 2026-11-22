@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T20:02:39.913976+00:00",
-  "count": 4,
+  "generated_at": "2026-11-22T20:12:22.469620+00:00",
+  "count": 5,
   "stories": [
     {
       "event_id": "e2e4dfec8359ec5c698186be",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (odisha)",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 20, score 72 -> URGENT"
@@ -175,7 +175,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'lac' in title weight 62",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 28.8, score 62 -> URGENT"
@@ -291,7 +291,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (telangana)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 50.4, stack 18, score 50.4 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -326,6 +326,129 @@
         "source": "Times of India",
         "corroborating": [],
         "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-police-step-up-security-after-email-threatens-26/11-style-terror-attack-at-hotel-railway-station/articleshow/136080025.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "0c5bd4d298773f79179a2b36",
+      "story_id": "0c5bd4d298773f79179a2b36",
+      "headline": "Banks warn higher costs could hit demand",
+      "title": "Banks warn higher costs could hit demand",
+      "summary": "Mumbai: Impact of higher rates on demand and capital formation, banking sector liquidity, drought-induced asset stress and inflation risks were among the points bank executives discussed last week with top Reserve Bank of India (RBI) officials as part of consultations ahead of the December 4 monetary policy review.People familiar with the deliberations said that the central bank wanted to know whether a sharp rise in rates will significantly hit demand as it ponders on whether to hike the repo rate by 25 basis points (bps) or 50 bps when it announces its policy decision.\"Banks' feedback was that core sector growth remains strong for now but consumption demand will be hit if prices remain high as job creation remains a challenge and stress in some segments is showing,\" said a person aware of the deliberations.In the bi-monthly pre-policy meetings the central bank takes feedback from banks. Most of these meetings involve bankers giving their views and suggestions.\"The RBI wanted to get a sense on the impact of higher inflation on the ground. Then there was the routine discussion on banking sector liquidity and interest rates both short and long term. Though demand remains strong there were some concerns raised due to higher input costs,\" said a second person aware of the discussions.Indranil Bhattacharyya, RBI executive director (ED) in charge of the monetary policy department, and Sanjay Kumar Hansda, ED in charge of the departments of economic and policy research and financial stability, were part of the discussions besides other officials. Some bankers raised issues linked to the impact of drought in many parts of the country and also stress in sectors like gold loans.Farm Distress\"Already, we are seeing some stress in rice growing areas where requirements for term funding have gone up and capital demand has increased as an after effect of less rains. Then there is some stress building up in gold loans which will be felt more by lenders who gave loans close to 85% of loan to value and now need more collateral because gold prices have dropped sharply. Some borrowers may let go of their pledged gold rather than give more collateral. All these factors will play out in the medium to long term,\" said a third person aware of the deliberations.India's gold loan market has seen a rise in non-performing assets (NPA) in the first five months of this fiscal, ET reported earlier this month citing a TransUnionCibil report.The NPA rose to 0.3% at the end of August from 0.16% seen as of March 31, 2026. Industry executives say that a high propensity of repeat borrowing with 27% of borrowers having four or more gold loans are contributing to rising NPAs.Outstanding gold loans reached a record ₹22.5 lakh crore in August 2026, almost thrice the levels of August 2023. Adding to the stress is the fall in gold prices which will change the loan to value calculation and add to stress. Gold prices are now trading at more than 30% below their peak.Banking system liquidity has narrowed to around ₹87,000 crore from a peak of ₹11 lakh crore amid various RBI measures, GST/tax outflows and festive cash demand.",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-warn-higher-costs-could-hit-demand-as-rbi-weighs-further-repo-hike/articleshow/136082582.cms",
+      "source": "The Economic Times",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "weather-disasters",
+        "agriculture-rural"
+      ],
+      "confidence": "medium",
+      "score": 97.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-22T19:05:49+00:00",
+      "published_at": "2026-11-22T19:05:49+00:00",
+      "effective_at": "2026-11-22T19:05:49+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "economic-times"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "major: significance event 'drought'",
+        "major: significance event 'drought'",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (economic-times) +1",
+        "source: specialist (economic-times) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'repo rate' in summary weight 25.2",
+        "event term: 'monetary policy' in summary weight 24",
+        "event term: 'drought' in summary weight 21.6",
+        "event term: 'inflation' in summary weight 21.6",
+        "scale: state scope (maharashtra)",
+        "recency: breaking (1.1h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national significance (local/state event)",
+        "dominant event 25.2, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "local",
+      "state": "maharashtra",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Mumbai: Impact of higher rates on demand and capital formation, banking sector liquidity, drought-induced asset stress and inflation risks were among the points bank executives discussed last week with top Reserve Bank of India (RBI) officials as part of consultations ahead of the December 4 monetary policy review.",
+          "People familiar with the deliberations said that the central bank wanted to know whether a sharp rise in rates will significantly hit demand as it ponders on whether to hike the repo rate by 25 basis points (bps) or 50 bps when it announces its policy decision.\" Banks' feedback was that core sector growth remains strong for now but consumption demand will be hit if prices remain high as job creation remains a challenge and stress in some segments is showing,\" said a person aware of the deliberations."
+        ],
+        "body": [
+          "In the bi-monthly pre-policy meetings the central bank takes feedback from banks.",
+          "Most of these meetings involve bankers giving their views and suggestions.\" The RBI wanted to get a sense on the impact of higher inflation on the ground.",
+          "Then there was the routine discussion on banking sector liquidity and interest rates both short and long term.",
+          "Though demand remains strong there were some concerns raised due to higher input costs,\" said a second person aware of the discussions.",
+          "Indranil Bhattacharyya, RBI executive director (ED) in charge of the monetary policy department, and Sanjay Kumar Hansda, ED in charge of the departments of economic and policy research and financial stability, were part of the discussions besides other officials.",
+          "Some bankers raised issues linked to the impact of drought in many parts of the country and also stress in sectors like gold loans.",
+          "Farm Distress.",
+          "\"Already, we are seeing some stress in rice growing areas where requirements for term funding have gone up and capital demand has increased as an after effect of less rains.",
+          "Then there is some stress building up in gold loans which will be felt more by lenders who gave loans close to 85% of loan to value and now need more collateral because gold prices have dropped sharply.",
+          "Some borrowers may let go of their pledged gold rather than give more collateral.",
+          "All these factors will play out in the medium to long term,\" said a third person aware of the deliberations.",
+          "India's gold loan market has seen a rise in non-performing assets (NPA) in the first five months of this fiscal, ET reported earlier this month citing a TransUnionCibil report.",
+          "The NPA rose to 0.3% at the end of August from 0.16% seen as of March 31, 2026.",
+          "Outstanding gold loans reached a record ₹22.5 lakh crore in August 2026, almost thrice the levels of August 2023.",
+          "Adding to the stress is the fall in gold prices which will change the loan to value calculation and add to stress.",
+          "Banking system liquidity has narrowed to around ₹87,000 crore from a peak of ₹11 lakh crore amid various RBI measures, GST/tax outflows and festive cash demand."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "August"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Outstanding gold loans reached a record ₹22.5 lakh crore in August 2026, almost thrice the levels of August 2023.",
+            "source": "The Economic Times",
+            "item_id": "0c5bd4d298773f79179a2b36",
+            "composed": false
+          },
+          {
+            "text": "Mumbai: Impact of higher rates on demand and capital formation, banking sector liquidity, drought-induced asset stress and inflation risks were among the points bank executives discussed last week with top Reserve Bank of India (RBI) officials as part of consultations ahead of the December 4 monetary policy review.",
+            "source": "The Economic Times",
+            "item_id": "0c5bd4d298773f79179a2b36",
+            "composed": false
+          },
+          {
+            "text": "Banking system liquidity has narrowed to around ₹87,000 crore from a peak of ₹11 lakh crore amid various RBI measures, GST/tax outflows and festive cash demand.",
+            "source": "The Economic Times",
+            "item_id": "0c5bd4d298773f79179a2b36",
+            "composed": false
+          },
+          {
+            "text": "People familiar with the deliberations said that the central bank wanted to know whether a sharp rise in rates will significantly hit demand as it ponders on whether to hike the repo rate by 25 basis points (bps) or 50 bps when it announces its policy decision.\"",
+            "source": "The Economic Times",
+            "item_id": "0c5bd4d298773f79179a2b36",
+            "composed": false
+          }
+        ],
+        "source": "The Economic Times",
+        "corroborating": [],
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-warn-higher-costs-could-hit-demand-as-rbi-weighs-further-repo-hike/articleshow/136082582.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -378,7 +501,7 @@
         "event term: 'acquisition' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 45, score 45 -> HIGH"
