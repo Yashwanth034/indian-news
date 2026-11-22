@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:32:55.126536+00:00",
+  "generated_at": "2026-11-22T06:42:08.464522+00:00",
   "count": 8,
   "stories": [
     {
@@ -49,7 +49,7 @@
         "event term: 'earthquake' in title weight 82",
         "event term: 'earthquake' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -142,7 +142,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 72, stack 45, score 72 -> URGENT"
@@ -231,7 +231,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national",
         "dominant event 62, stack 26.4, score 62 -> URGENT"
@@ -355,7 +355,7 @@
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
         "scale: 1 people-affected figures",
-        "recency: breaking (2.8h ago) +8",
+        "recency: breaking (3.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -493,7 +493,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'final' in summary weight 6",
         "scale: national scope",
-        "recency: fresh (4.6h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 28.4, score 49.2 -> HIGH"
@@ -564,38 +564,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "7503597976a87c24cf64f3f8",
-      "story_id": "7503597976a87c24cf64f3f8",
-      "headline": "After Akvan, another cyclonic circulation brewing in Bay: IMD",
-      "title": "After Akvan, another cyclonic circulation brewing in Bay: IMD",
-      "summary": "The India Meteorological Department warns of a potential new cyclonic circulation expected to form by the end of November, following the recent weakening of Cyclone Akvan into a low-pressure area over interior Odisha. Several districts, particularly Bhograi in Balasore, have experienced heavy rainfall, with 108 mm recorded. Local authorities reassure that no immediate flood threat exists, urging residents to stay updated with upcoming weather bulletins.",
-      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/after-akvan-another-cyclonic-circulation-brewing-in-bay-imd/articleshow/136062253.cms",
-      "source": "Times of India",
+      "event_id": "ec0d3872f34f9b9a50b37a98",
+      "story_id": "ec0d3872f34f9b9a50b37a98",
+      "headline": "Hemant Soren writes to CJI to urgently appoint Jharkhand HC Chief Justice successor",
+      "title": "Hemant Soren writes to CJI to urgently appoint Jharkhand HC Chief Justice successor",
+      "summary": "Jharkhand CM asserted that the High Court of Jharkhand has repeatedly experienced short leadership tenures and interim Acting Chief Justice arrangements at the helm.",
+      "url": "https://www.thehindu.com/news/national/jharkhand/hemant-soren-writes-to-cji-to-urgently-appoint-jharkhand-hc-chief-justice-successor/article71730713.ece",
+      "source": "The Hindu",
       "primary_source": false,
       "tier": 2,
-      "category": "weather-disasters",
+      "category": "courts-law",
       "secondary_categories": [],
-      "confidence": "high",
+      "confidence": "medium",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-21T02:12:31+00:00",
-      "published_at": "2026-11-22T00:34:00+00:00",
-      "effective_at": "2026-11-22T00:34:00+00:00",
-      "independent_source_groups": 2,
+      "event_time": "2026-11-22T06:28:18+00:00",
+      "published_at": "2026-11-22T06:28:18+00:00",
+      "effective_at": "2026-11-22T06:28:18+00:00",
+      "independent_source_groups": 1,
       "source_groups": {
-        "ani": {
-          "kind": "wire",
-          "source_ids": [
-            "business-standard"
-          ],
-          "count": 1
-        },
-        "indiatimes": {
+        "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "times-of-india"
+            "the-hindu"
           ],
           "count": 1
         }
@@ -604,64 +597,86 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "major: significance event 'Cyclone'",
-        "major: significance event 'flood'",
-        "category: weather-disasters (importance 1.4, urgent=True)",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
-        "event term: 'cyclone' in summary weight 43.2",
-        "event term: 'flood' in summary weight 38.4",
-        "scale: state scope (odisha)",
-        "recency: 28.3h old, no boost",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national significance (local/state event)",
-        "dominant event 43.2, stack 45, score 45 -> HIGH"
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'chief justice' in title weight 42",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "odisha",
+      "geo_scope": "national",
+      "state": "jharkhand",
       "national_significance": true,
-      "public_label": "📰 NEWS",
+      "article_sentences": [
+        "Jharkhand Chief Minister Hemant Soren has urged Chief Justice of India Surya Kant and Supreme Court Collegium to urgently recommend a successor to Jharkhand High Court Chief Justice M.S. Sonak, who is due to retire on November 27.",
+        "In a letter to CJI and Judges of the Collegium, Mr. Soren pointed out that frequent transitions accompanied by extended interim arrangements disrupt administrative continuity, affect institutional planning and create uncertainty within the judicial establishment.",
+        "“As the Head of the State Government, I am compelled to draw your attention to the fact that an incoming Chief Justice has not been designated nor has any Justice been transferred to the Jharkhand High Court in advance as envisaged under the MoP’ and the Collegium’s statement of February 26, 2026 to assume charge as the Chief Justice on the superannuation of Chief Justice M.S. Sonak on Number 27, 2026,” Mr. Soren wrote in the letter dated November 12, 2026, however shared with media on late night Saturday (November 21, 2026).",
+        "Mr. Soren expressed concern that High Court needs stable functioning and regular judicial leadership to maintain public confidence in the administration of justice.",
+        "He cited the Memorandum of Procedure (MoP) for appointment of Chief Justices of High Courts which lays down time bound safeguards requiring appointments to be finalised in advance and strictly limiting the tenure of an Acting Chief Justice to ensure that High Courts do not suffer from a leadership vacuum.",
+        "He also mentioned that paragraph 3 of the MoP says that initiation of the proposal for the appointment of Chief Justice of a High Court would be by the CJI.",
+        "He added that the process of appointment must be initiated well in time to ensure the completion at least one month prior to the date of anticipated vacancy for the Chief Justice of the High Court.",
+        "“The CJI would ensure that when a Chief Justice is transferred from one High Court to another simultaneous appointment of his successor in office should be made and ordinarily the arrangement of appointment of an acting Chief justice should not be made for more than one month,” Mr. Soren wrote in the letter.",
+        "Jharkhand CM asserted that the High Court of Jharkhand has repeatedly experienced short leadership tenures and interim Acting Chief Justice arrangements at the helm.",
+        "“Prior to the appointment of the incumbent Chief Justice, Justice M.S. Sonak on January 9, 2026, the Jharkhand High Court has been adorned by four Chief Justice since the superannuation of Justice Ravi Ranjan on December 19.2022, one of the lordships having a term of a fortnight.",
+        "During this period, Acting Chief Justices have been appointed on three occasions for terms ranging from two months to six months,” Mr. Soren said.",
+        "He also expressed concern that without the Collegium’s immediate action, the High Court of Jharkhand faces the prospect of yet another interim Acting Chief Justice arrangement."
+      ],
+      "public_label": "⚡ JUST IN",
       "briefing": {
         "opening": [
-          "The India Meteorological Department warns of a potential new cyclonic circulation expected to form by the end of November, following the recent weakening of Cyclone Akvan into a low-pressure area over interior Odisha.",
-          "Several districts, particularly Bhograi in Balasore, have experienced heavy rainfall, with 108 mm recorded."
+          "Jharkhand Chief Minister Hemant Soren has urged Chief Justice of India Surya Kant and Supreme Court Collegium to urgently recommend a successor to Jharkhand High Court Chief Justice M.S. Sonak, who is due to retire on November 27.",
+          "In a letter to CJI and Judges of the Collegium, Mr. Soren pointed out that frequent transitions accompanied by extended interim arrangements disrupt administrative continuity, affect institutional planning and create uncertainty within the judicial establishment."
         ],
         "body": [
-          "Local authorities reassure that no immediate flood threat exists, urging residents to stay updated with upcoming weather bulletins."
+          "“As the Head of the State Government, I am compelled to draw your attention to the fact that an incoming Chief Justice has not been designated nor has any Justice been transferred to the Jharkhand High Court in advance as envisaged under the MoP’ and the Collegium’s statement of February 26, 2026 to assume charge as the Chief Justice on the superannuation of Chief Justice M.S. Sonak on Number 27, 2026,” Mr. Soren wrote in the letter dated November 12, 2026, however shared with media on late night Saturday (November 21, 2026).",
+          "Mr. Soren expressed concern that High Court needs stable functioning and regular judicial leadership to maintain public confidence in the administration of justice.",
+          "He cited the Memorandum of Procedure (MoP) for appointment of Chief Justices of High Courts which lays down time bound safeguards requiring appointments to be finalised in advance and strictly limiting the tenure of an Acting Chief Justice to ensure that High Courts do not suffer from a leadership vacuum.",
+          "He also mentioned that paragraph 3 of the MoP says that initiation of the proposal for the appointment of Chief Justice of a High Court would be by the CJI.",
+          "He added that the process of appointment must be initiated well in time to ensure the completion at least one month prior to the date of anticipated vacancy for the Chief Justice of the High Court.",
+          "“The CJI would ensure that when a Chief Justice is transferred from one High Court to another simultaneous appointment of his successor in office should be made and ordinarily the arrangement of appointment of an acting Chief justice should not be made for more than one month,” Mr. Soren wrote in the letter.",
+          "Jharkhand CM asserted that the High Court of Jharkhand has repeatedly experienced short leadership tenures and interim Acting Chief Justice arrangements at the helm.",
+          "“Prior to the appointment of the incumbent Chief Justice, Justice M.S. Sonak on January 9, 2026, the Jharkhand High Court has been adorned by four Chief Justice since the superannuation of Justice Ravi Ranjan on December 19.2022, one of the lordships having a term of a fortnight."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Balasore"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The India Meteorological Department warns of a potential new cyclonic circulation expected to form by the end of November, following the recent weakening of Cyclone Akvan into a low-pressure area over interior Odisha.",
-            "source": "Times of India",
-            "item_id": "7503597976a87c24cf64f3f8",
+            "text": "“As the Head of the State Government, I am compelled to draw your attention to the fact that an incoming Chief Justice has not been designated nor has any Justice been transferred to the Jharkhand High Court in advance as envisaged under the MoP’ and the Collegium’s statement of February 26, 2026 to assume charge as the Chief Justice on the superannuation of Chief Justice M.S. Sonak on Number 27, 2026,” Mr. Soren wrote in the letter dated November 12, 2026, however shared with media on late night Saturday (November 21, 2026).",
+            "source": "The Hindu",
+            "item_id": "ec0d3872f34f9b9a50b37a98:article",
             "composed": false
           },
           {
-            "text": "Several districts, particularly Bhograi in Balasore, have experienced heavy rainfall, with 108 mm recorded.",
-            "source": "Times of India",
-            "item_id": "7503597976a87c24cf64f3f8",
+            "text": "“Prior to the appointment of the incumbent Chief Justice, Justice M.S. Sonak on January 9, 2026, the Jharkhand High Court has been adorned by four Chief Justice since the superannuation of Justice Ravi Ranjan on December 19.2022, one of the lordships having a term of a fortnight.",
+            "source": "The Hindu",
+            "item_id": "ec0d3872f34f9b9a50b37a98:article",
+            "composed": false
+          },
+          {
+            "text": "Jharkhand Chief Minister Hemant Soren has urged Chief Justice of India Surya Kant and Supreme Court Collegium to urgently recommend a successor to Jharkhand High Court Chief Justice M.S. Sonak, who is due to retire on November 27.",
+            "source": "The Hindu",
+            "item_id": "ec0d3872f34f9b9a50b37a98:article",
+            "composed": false
+          },
+          {
+            "text": "He also mentioned that paragraph 3 of the MoP says that initiation of the proposal for the appointment of Chief Justice of a High Court would be by the CJI.",
+            "source": "The Hindu",
+            "item_id": "ec0d3872f34f9b9a50b37a98:article",
             "composed": false
           }
         ],
-        "source": "Times of India",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/after-akvan-another-cyclonic-circulation-brewing-in-bay-imd/articleshow/136062253.cms"
+        "url": "https://www.thehindu.com/news/national/jharkhand/hemant-soren-writes-to-cji-to-urgently-appoint-jharkhand-hc-chief-justice-successor/article71730713.ece"
       },
       "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "fc2ed8293d63f7423bcff088",
@@ -718,7 +733,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.7h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 37.2, stack 45, score 45 -> HIGH"
@@ -893,7 +908,7 @@
         "event term: 'final' in title weight 10",
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 10, stack 40.8, score 40.8 -> HIGH"
