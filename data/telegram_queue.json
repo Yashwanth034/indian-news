@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T06:22:19.712189+00:00",
-  "count": 17,
+  "generated_at": "2026-11-23T06:32:33.104694+00:00",
+  "count": 16,
   "stories": [
     {
       "event_id": "403edc0982cdfb0dfaf7b785",
@@ -45,7 +45,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (telangana)",
-        "recency: breaking (1.6h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 22.8, score 84 -> IMMEDIATE"
@@ -154,9 +154,10 @@
         "thehindu": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu"
+            "the-hindu",
+            "the-hindu-kerala"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -168,10 +169,11 @@
         "category: health (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in title weight 82",
         "scale: state scope (kerala)",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 20.4, score 82 -> IMMEDIATE"
@@ -290,7 +292,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'ceasefire' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -389,7 +391,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'loc' in summary weight 37.2",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 82, stack 45, score 82 -> IMMEDIATE"
@@ -484,7 +486,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'war' in title weight 82",
         "scale: national scope",
-        "recency: fresh (5.4h ago) +4",
+        "recency: fresh (5.6h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 82, stack 26.4, score 82 -> IMMEDIATE"
@@ -594,7 +596,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cyclone' in title weight 72",
         "scale: state scope (tamil nadu)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 72, stack 24, score 72 -> URGENT"
@@ -709,7 +711,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'lac' in title weight 62",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 28.8, score 62 -> URGENT"
@@ -824,7 +826,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (tripura)",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 19.4, score 58 -> HIGH"
@@ -953,7 +955,7 @@
         "event term: 'pandemic' in summary weight 49.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 44, score 49.2 -> HIGH"
@@ -1050,7 +1052,7 @@
       "secondary_categories": [
         "courts-law"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "score": 100.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
@@ -1058,19 +1060,12 @@
       "event_time": "2026-11-23T02:10:22+00:00",
       "published_at": "2026-11-23T02:10:22+00:00",
       "effective_at": "2026-11-23T02:10:22+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 1,
       "source_groups": {
         "greater-kashmir": {
           "kind": "independent",
           "source_ids": [
             "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "india-today"
           ],
           "count": 1
         }
@@ -1079,19 +1074,17 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'Election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "corroboration: single independent source -> medium confidence",
         "event term: 'election' in summary weight 34.8",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (8 states)",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 34.8, stack 45, score 45 -> HIGH"
@@ -1231,7 +1224,7 @@
         "event term: 'monetary policy' in summary weight 24",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -1309,87 +1302,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "fc88ea3a790bb767761ee5c6",
-      "story_id": "fc88ea3a790bb767761ee5c6",
-      "headline": "BT BIG STORY: India’s growth story faces a twin squeeze from inflation and the rupee",
-      "title": "BT BIG STORY: India’s growth story faces a twin squeeze from inflation and the rupee",
-      "summary": "India remains the world's fastest-growing major economy, but rising inflation and an unstable rupee are testing its resilience. With volatile oil prices adding to external pressures, how much room do policymakers have to sustain growth and maintain economic stability?",
-      "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-23",
-      "source": "Business Today",
-      "primary_source": false,
-      "tier": 3,
-      "category": "economy-finance",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 64.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-23T00:30:10+00:00",
-      "published_at": "2026-11-23T00:30:10+00:00",
-      "effective_at": "2026-11-23T00:30:10+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.2 >= 1.2",
-        "category: economy-finance (importance 1.2, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (business-today) +1",
-        "source: specialist (business-today) +5",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'inflation' in title weight 36",
-        "event term: 'inflation' in summary weight 21.6",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: economy-finance (importance 1.2) +3.6",
-        "geo: national",
-        "dominant event 36, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "India remains the world's fastest-growing major economy, but rising inflation and an unstable rupee are testing its resilience.",
-          "With volatile oil prices adding to external pressures, how much room do policymakers have to sustain growth and maintain economic stability?"
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "India remains the world's fastest-growing major economy, but rising inflation and an unstable rupee are testing its resilience.",
-            "source": "Business Today",
-            "item_id": "fc88ea3a790bb767761ee5c6",
-            "composed": false
-          },
-          {
-            "text": "With volatile oil prices adding to external pressures, how much room do policymakers have to sustain growth and maintain economic stability?",
-            "source": "Business Today",
-            "item_id": "fc88ea3a790bb767761ee5c6",
-            "composed": false
-          }
-        ],
-        "source": "Business Today",
-        "corroborating": [],
-        "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-23"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
       "event_id": "154089f3124f79066c4edd1c",
       "story_id": "154089f3124f79066c4edd1c",
       "headline": "High Court upholds 2.5 lakh penalty over energising fuel station without NoC",
@@ -1445,7 +1357,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (13.2h ago) +4",
+        "recency: fresh (13.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 26.4, stack 40.4, score 40.4 -> HIGH"
@@ -1555,7 +1467,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
@@ -1642,7 +1554,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'fuel price' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 29.2, score 40 -> HIGH"
@@ -1749,7 +1661,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'sanctions' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 22.4, score 40 -> HIGH"
@@ -1840,7 +1752,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (5.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 16.4, score 38.4 -> HIGH"
