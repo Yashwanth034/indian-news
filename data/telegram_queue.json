@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T17:42:14.271395+00:00",
-  "count": 13,
+  "generated_at": "2026-11-23T17:52:18.492976+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "3316429ab3bcc309039549fb",
@@ -49,7 +49,7 @@
         "event term: 'national security' in title weight 70",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 70, stack 45, score 70 -> URGENT"
@@ -135,7 +135,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -258,7 +258,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'pandemic' in summary weight 49.2",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 49.2, stack 26.4, score 49.2 -> HIGH"
@@ -395,7 +395,7 @@
         "event term: 'final' in summary weight 6",
         "scale: national scope",
         "scale: multi-state (9 states)",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.7h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 49.2, stack 37.2, score 49.2 -> HIGH"
@@ -629,7 +629,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 46, stack 45, score 46 -> HIGH"
@@ -702,9 +702,10 @@
         "pti": {
           "kind": "wire",
           "source_ids": [
-            "business-standard"
+            "business-standard",
+            "kashmir-observer"
           ],
-          "count": 1
+          "count": 2
         },
         "thehindu": {
           "kind": "independent",
@@ -723,11 +724,11 @@
         "category: courts-law (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (the-hindu-delhi) +2",
-        "source: event has 2 copies, primary source counted once",
+        "source: event has 3 copies, primary source counted once",
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (6.7h ago) +4",
+        "recency: fresh (6.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 28.4, score 44 -> HIGH"
@@ -847,7 +848,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -956,7 +957,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.4h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1024,6 +1025,126 @@
       "enrichment": "article"
     },
     {
+      "event_id": "833930cf5abac96fe4b5abca",
+      "story_id": "833930cf5abac96fe4b5abca",
+      "headline": "IAS officer Shikhar Agrawal, at centre of Rajasthan corruption row, moves Supreme Court for relief",
+      "title": "IAS officer Shikhar Agrawal, at centre of Rajasthan corruption row, moves Supreme Court for relief",
+      "summary": "",
+      "url": "https://indianexpress.com/article/india/ias-shikhar-agrawal-moves-supreme-court-stay-rajasthan-acb-corruption-probe-10975279",
+      "source": "The Indian Express",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 62.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-23T13:40:53+00:00",
+      "published_at": "2026-11-23T13:40:53+00:00",
+      "effective_at": "2026-11-23T13:40:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indian-express": {
+          "kind": "independent",
+          "source_ids": [
+            "indian-express"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (indian-express) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: fresh (4.2h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 22.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "rajasthan",
+      "national_significance": true,
+      "article_sentences": [
+        "Senior IAS officer Shikhar Agrawal has moved the Supreme Court, seeking a stay on the investigation into his alleged corruption – days after the High Court declined to immediately provide him relief.",
+        "Earlier, the Rajasthan government had filed a caveat in the top court.",
+        "The latest development comes after the HC directed the state to file a reply on Agrawal’s petition within three weeks.",
+        "In the HC, Agrawal, through his lawyers, had claimed that there are “several apparent lapses and procedural irregularities in the grant of approval as contemplated under Section 17A of the Prevention of Corruption Act, 1988.”",
+        "He said that the state government had erred in granting an approval to investigate him, stating that it was “granted in undue haste, without proper consideration of the relevant facts and circumstances, thereby raising serious questions regarding the legality and propriety of the approval so granted.”",
+        "On November 19, a bench of Justice Anil Umar Upman said that the claims can be examined by the Court only after the State files its reply to the writ petition.",
+        "“Accordingly, the prayer for interim relief shall be considered on the next date of hearing,” the HC had said.",
+        "It then fixed December 18 as the next date of hearing.",
+        "Just a day prior, the ACB had lodged an FIR against Agrawal and directors of Goyal Fashions Private Limited under various provisions of the Prevention of Corruption Act, 1988, and the Bharatiya Nyaya Sanhita (BNS), 2023.",
+        "Broadly, the FIR alleged that Agrawal and his family purchased as many as 64 villas from Goyal Fashions’ Ananta Resorts at throwaway prices in Udaipur, Alwar and Jaipur between October 2023 and October 2026.",
+        "In return, the company allegedly received undue benefits through Agrawal while he was Additional Chief Secretary, and in earlier stints as Udaipur District Collector and in Rajasthan State Pollution Control Board.",
+        "The Finance Department also allegedly issued a customised package to the company on March 27 – the same day as the purchase of 20 villas in Ajabgarh, Alwar, by Agrawal and his family members."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Senior IAS officer Shikhar Agrawal has moved the Supreme Court, seeking a stay on the investigation into his alleged corruption – days after the High Court declined to immediately provide him relief.",
+          "Earlier, the Rajasthan government had filed a caveat in the top court."
+        ],
+        "body": [
+          "The latest development comes after the HC directed the state to file a reply on Agrawal’s petition within three weeks.",
+          "In the HC, Agrawal, through his lawyers, had claimed that there are “several apparent lapses and procedural irregularities in the grant of approval as contemplated under Section 17A of the Prevention of Corruption Act, 1988.” He said that the state government had erred in granting an approval to investigate him, stating that it was “granted in undue haste, without proper consideration of the relevant facts and circumstances, thereby raising serious questions regarding the legality and propriety of the approval so granted.” On November 19, a bench of Justice Anil Umar Upman said that the claims can be examined by the Court only after the State files its reply to the writ petition.",
+          "“Accordingly, the prayer for interim relief shall be considered on the next date of hearing,” the HC had said.",
+          "It then fixed December 18 as the next date of hearing.",
+          "Just a day prior, the ACB had lodged an FIR against Agrawal and directors of Goyal Fashions Private Limited under various provisions of the Prevention of Corruption Act, 1988, and the Bharatiya Nyaya Sanhita (BNS), 2023.",
+          "Broadly, the FIR alleged that Agrawal and his family purchased as many as 64 villas from Goyal Fashions’ Ananta Resorts at throwaway prices in Udaipur, Alwar and Jaipur between October 2023 and October 2026.",
+          "In return, the company allegedly received undue benefits through Agrawal while he was Additional Chief Secretary, and in earlier stints as Udaipur District Collector and in Rajasthan State Pollution Control Board.",
+          "The Finance Department also allegedly issued a customised package to the company on March 27 – the same day as the purchase of 20 villas in Ajabgarh, Alwar, by Agrawal and his family members."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Udaipur"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Broadly, the FIR alleged that Agrawal and his family purchased as many as 64 villas from Goyal Fashions’ Ananta Resorts at throwaway prices in Udaipur, Alwar and Jaipur between October 2023 and October 2026.",
+            "source": "The Indian Express",
+            "item_id": "833930cf5abac96fe4b5abca:article",
+            "composed": false
+          },
+          {
+            "text": "The Finance Department also allegedly issued a customised package to the company on March 27 – the same day as the purchase of 20 villas in Ajabgarh, Alwar, by Agrawal and his family members.",
+            "source": "The Indian Express",
+            "item_id": "833930cf5abac96fe4b5abca:article",
+            "composed": false
+          },
+          {
+            "text": "On November 19, a bench of Justice Anil Umar Upman said that the claims can be examined by the Court only after the State files its reply to the writ petition.",
+            "source": "The Indian Express",
+            "item_id": "833930cf5abac96fe4b5abca:article",
+            "composed": false
+          },
+          {
+            "text": "It then fixed December 18 as the next date of hearing.",
+            "source": "The Indian Express",
+            "item_id": "833930cf5abac96fe4b5abca:article",
+            "composed": false
+          }
+        ],
+        "source": "The Indian Express",
+        "corroborating": [],
+        "url": "https://indianexpress.com/article/india/ias-shikhar-agrawal-moves-supreme-court-stay-rajasthan-acb-corruption-probe-10975279"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
+    },
+    {
       "event_id": "2fe33bab6399662905a81433",
       "story_id": "2fe33bab6399662905a81433",
       "headline": "Supreme Court Appoints Justice Sanjay Karol-Led Committee To Resolve Okhla Enclave Plot Claims",
@@ -1065,7 +1186,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.3h ago) +4",
+        "recency: fresh (4.5h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1189,7 +1310,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'landslide' in title weight 40",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.3h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 40, stack 30, score 40 -> HIGH"
@@ -1207,7 +1328,7 @@
         "The National Landslide Forecasting Centre was established in Kolkata in 2024 and has now extended its activities to 20 districts, according to a statement from the Department of Science and Technology.",
         "The Regional Landslide Forecasting System, established in 2020, is supporting experimental and operational forecasting across vulnerable regions, it added."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "India has completed a national landslide susceptibility mapping exercise across approximately 4.3 lakh square kilometres, while the landslide inventory database has compiled information on nearly 91,000 historical landslides by the end of 2025, Minister for Science and Technology Jitendra Singh said on Monday (November 23, 2026).",
@@ -1254,7 +1375,7 @@
         "url": "https://www.thehindu.com/news/national/india-maps-landslide-susceptibility-as-part-of-shift-from-post-disaster-relief-to-landslide-management/article71735715.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -1299,7 +1420,7 @@
         "event term: 'gdp' in summary weight 22.8",
         "event term: 'inflation' in summary weight 21.6",
         "scale: state scope (delhi)",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national significance (local/state event)",
         "dominant event 22.8, stack 39.2, score 39.2 -> HIGH"
@@ -1408,7 +1529,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (delhi)",
-        "recency: breaking (0.9h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: energy-environment (importance 1) +1.2",
         "geo: national significance (local/state event)",
         "dominant event 38.4, stack 19.2, score 38.4 -> HIGH"
@@ -1525,7 +1646,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 28, score 38.4 -> HIGH"
