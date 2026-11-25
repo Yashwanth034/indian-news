@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T23:32:24.993243+00:00",
-  "count": 8,
+  "generated_at": "2026-11-25T23:42:13.917711+00:00",
+  "count": 9,
   "stories": [
     {
       "event_id": "12ae07ea099ee60a24bd33a2",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -84,6 +84,89 @@
       },
       "group_size": 1,
       "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
+      "event_id": "26237aacacd72136abc46d4d",
+      "story_id": "26237aacacd72136abc46d4d",
+      "headline": "7th high court posting? Justice Rao may be Karnataka Chief Justice",
+      "title": "7th high court posting? Justice Rao may be Karnataka Chief Justice",
+      "summary": "Justice M S Ramachandra Rao has been recommended for the position of Chief Justice of the Karnataka high court. This potential appointment would mark his seventh high court assignment since 2012 when he became a judge. He has previously served as Chief Justice in four high courts over a short period. Justice Rao has experienced multiple transfers throughout his judicial career due to various circumstances.",
+      "url": "https://timesofindia.indiatimes.com/india/7th-high-court-posting-justice-rao-may-be-karnataka-chief-justice/articleshow/136174895.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 91.2,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-25T23:30:47+00:00",
+      "published_at": "2026-11-25T23:30:47+00:00",
+      "effective_at": "2026-11-25T23:30:47+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'chief justice' in title weight 42",
+        "event term: 'chief justice' in summary weight 25.2",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 42, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "karnataka",
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Justice M S Ramachandra Rao has been recommended for the position of Chief Justice of the Karnataka high court.",
+          "This potential appointment would mark his seventh high court assignment since 2012 when he became a judge."
+        ],
+        "body": [
+          "He has previously served as Chief Justice in four high courts over a short period.",
+          "Justice Rao has experienced multiple transfers throughout his judicial career due to various circumstances."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Justice M S Ramachandra Rao has been recommended for the position of Chief Justice of the Karnataka high court.",
+            "source": "Times of India",
+            "item_id": "26237aacacd72136abc46d4d",
+            "composed": false
+          },
+          {
+            "text": "This potential appointment would mark his seventh high court assignment since 2012 when he became a judge.",
+            "source": "Times of India",
+            "item_id": "26237aacacd72136abc46d4d",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/7th-high-court-posting-justice-rao-may-be-karnataka-chief-justice/articleshow/136174895.cms"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
       "enrichment": "rss"
     },
     {
@@ -128,7 +211,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -237,7 +320,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -320,7 +403,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -439,7 +522,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -556,7 +639,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -697,7 +780,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -797,7 +880,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'acquires' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
