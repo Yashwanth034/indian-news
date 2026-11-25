@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T01:32:32.071271+00:00",
-  "count": 4,
+  "generated_at": "2026-11-25T01:42:12.823361+00:00",
+  "count": 5,
   "stories": [
     {
       "event_id": "ac2ecc875e2466be5a9f0494",
@@ -47,7 +47,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'loc' in summary weight 37.2",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (2.3h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "geo: national significance (local/state event)",
         "dominant event 49.2, stack 41, score 49.2 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -182,7 +182,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (delhi)",
-        "recency: fresh (20.0h ago) +4",
+        "recency: fresh (20.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -304,7 +304,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "geo: national",
         "dominant event 42, stack 20, score 42 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -393,7 +393,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 24.8, score 42 -> HIGH"
@@ -433,6 +433,106 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "61cbb7454568b1ca957f9cd5",
+      "story_id": "61cbb7454568b1ca957f9cd5",
+      "headline": "Kerala High Court refers another petition regarding Punarjani scheme to Chief Justice",
+      "title": "Kerala High Court refers another petition regarding Punarjani scheme to Chief Justice",
+      "summary": "",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-refers-another-petition-regarding-punarjani-scheme-to-chief-justice/article71735572.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 92.0,
+      "priority_score": 42.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-24T19:56:59+00:00",
+      "published_at": "2026-11-24T19:56:59+00:00",
+      "effective_at": "2026-11-24T19:56:59+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu",
+            "the-hindu-kerala"
+          ],
+          "count": 2
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'chief justice' in title weight 42",
+        "scale: national scope",
+        "recency: fresh (5.8h ago) +4",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 42, stack 22.4, score 42 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "kerala",
+      "national_significance": true,
+      "article_sentences": [
+        "A Single Bench of the Kerala High Court has referred a petition seeking a Central Bureau of Investigation (CBI) probe into the Punarjani flood rehabilitation scheme to the Chief Justice for assignment to the appropriate Bench.",
+        "Justice C. Jayachandran was considering a plea filed by C.T. Muneer of Kozhikode for a direction to the CBI to register a first information report against Chief Minister V.D. Satheesan and Manappat Foundation chairman Ameer Ahamed.",
+        "Mr. Satheesan, then serving as the Paravur MLA, was accused of soliciting foreign funds for the ‘Punarjani’ initiative aimed at rehabilitating flood victims in his constituency and routing it through the Foundation.",
+        "The court had similarly referred another petition filed by lawyer K.M. Shajahan challenging the closure of the preliminary inquiry against the Chief Minister in the Punarjani case.",
+        "At that point, the Bench had directed the High Court Registry to place the matter before the Chief Justice to decide whether the case would be considered by the court trying MP/MLA cases, under the Prevention of Corruption Act or as a public interest litigation.",
+        "The court ordered that the same course should be adopted in the petition filed by Mr. Muneer as well.",
+        "In his petition, Mr. Muneer referred to a Central government notification mandating a Crime Branch inquiry into cases of Foreign Contribution (Regulation) Act (FCRA) violations below ₹1 crore and a CBI inquiry violations above this limit.",
+        "He contended that the CBI was the appropriate agency to investigate the matter since the alleged solicited amount totalled around ₹1.22 crore.",
+        "Even if a lower amount was determined, the petition insisted on a CBI probe as the Crime Branch was an agency functioning under the Chief Minister."
+      ],
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "A Single Bench of the Kerala High Court has referred a petition seeking a Central Bureau of Investigation (CBI) probe into the Punarjani flood rehabilitation scheme to the Chief Justice for assignment to the appropriate Bench.",
+          "Justice C. Jayachandran was considering a plea filed by C.T. Muneer of Kozhikode for a direction to the CBI to register a first information report against Chief Minister V.D. Satheesan and Manappat Foundation chairman Ameer Ahamed."
+        ],
+        "body": [
+          "Mr. Satheesan, then serving as the Paravur MLA, was accused of soliciting foreign funds for the ‘Punarjani’ initiative aimed at rehabilitating flood victims in his constituency and routing it through the Foundation.",
+          "The court had similarly referred another petition filed by lawyer K.M. Shajahan challenging the closure of the preliminary inquiry against the Chief Minister in the Punarjani case.",
+          "At that point, the Bench had directed the High Court Registry to place the matter before the Chief Justice to decide whether the case would be considered by the court trying MP/MLA cases, under the Prevention of Corruption Act or as a public interest litigation.",
+          "The court ordered that the same course should be adopted in the petition filed by Mr. Muneer as well.",
+          "In his petition, Mr. Muneer referred to a Central government notification mandating a Crime Branch inquiry into cases of Foreign Contribution (Regulation) Act (FCRA) violations below ₹1 crore and a CBI inquiry violations above this limit.",
+          "He contended that the CBI was the appropriate agency to investigate the matter since the alleged solicited amount totalled around ₹1.22 crore.",
+          "Even if a lower amount was determined, the petition insisted on a CBI probe as the Crime Branch was an agency functioning under the Chief Minister."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "In his petition, Mr. Muneer referred to a Central government notification mandating a Crime Branch inquiry into cases of Foreign Contribution (Regulation) Act (FCRA) violations below ₹1 crore and a CBI inquiry violations above this limit.",
+            "source": "The Hindu",
+            "item_id": "61cbb7454568b1ca957f9cd5:article",
+            "composed": false
+          },
+          {
+            "text": "He contended that the CBI was the appropriate agency to investigate the matter since the alleged solicited amount totalled around ₹1.22 crore.",
+            "source": "The Hindu",
+            "item_id": "61cbb7454568b1ca957f9cd5:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-refers-another-petition-regarding-punarjani-scheme-to-chief-justice/article71735572.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "article"
     }
   ]
 }
