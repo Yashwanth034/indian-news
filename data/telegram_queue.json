@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T05:52:43.321889+00:00",
-  "count": 9,
+  "generated_at": "2026-11-25T06:03:32.679424+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "c813eb2f2c76881a710eb18c",
@@ -56,7 +56,7 @@
         "event term: 'earthquake' in summary weight 49.2",
         "event term: 'flood' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: health (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 40.4, score 82 -> IMMEDIATE"
@@ -144,31 +144,31 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "ff83b3e8c917310efc083d6f",
-      "story_id": "ff83b3e8c917310efc083d6f",
-      "headline": "Before polls, UP chief election officer flags slow voter enrolment in Noida, Gr Noida",
-      "title": "Before polls, UP chief election officer flags slow voter enrolment in Noida, Gr Noida",
-      "summary": "",
-      "url": "https://indianexpress.com/article/cities/delhi/before-polls-up-chief-election-officer-flags-slow-voter-enrolment-in-noida-gr-noida-10977176",
-      "source": "The Indian Express",
+      "event_id": "f100ed86905420601fe3d9b9",
+      "story_id": "f100ed86905420601fe3d9b9",
+      "headline": "Kerala woman who lost election by 13 votes wins $5 million Canada lottery",
+      "title": "Kerala woman who lost election by 13 votes wins $5 million Canada lottery",
+      "summary": "Sneha Joy, hailing from Kerala, faced a setback after losing a local body election. However, her luck took a turn for the better when she moved to Canada, winning CAD 5 million in the Lotto 6/49. With this life-changing fortune, she plans to prioritize paying off her mortgage and dreams of globe-trotting while sharing the wealth with her family, marking a remarkable chapter in her life.",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/a-kerala-woman-who-lost-a-local-election-by-just-13-votes-in-2020-moved-to-canada-with-her-husband-five-years-later-sneha-joy-has-won-a-canadian-5-million-lottery-jackpot-worth-more-than-rs-30-crore/articleshow/136127063.cms",
+      "source": "Times of India",
       "primary_source": false,
       "tier": 2,
       "category": "national-politics",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 57.0,
+      "score": 100.0,
       "priority_score": 58.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-25T00:39:12+00:00",
-      "published_at": "2026-11-25T00:39:12+00:00",
-      "effective_at": "2026-11-25T00:39:12+00:00",
+      "event_time": "2026-11-25T05:31:00+00:00",
+      "published_at": "2026-11-25T05:31:00+00:00",
+      "effective_at": "2026-11-25T05:31:00+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "indian-express": {
+        "indiatimes": {
           "kind": "independent",
           "source_ids": [
-            "indian-express"
+            "times-of-india"
           ],
           "count": 1
         }
@@ -179,94 +179,53 @@
         "major: geo national significance",
         "major: category importance 1.1 >= 1.1",
         "major: significance event 'election'",
+        "major: significance event 'election'",
         "category: national-politics (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
+        "source: tier 2 (times-of-india) +2",
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
-        "scale: state scope (uttar pradesh)",
-        "recency: fresh (5.2h ago) +4",
+        "event term: 'election' in summary weight 34.8",
+        "scale: state scope (kerala)",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 16.4, score 58 -> HIGH"
+        "dominant event 58, stack 44.4, score 58 -> HIGH"
       ],
-      "geo_scope": "local",
-      "state": "uttar pradesh",
+      "geo_scope": "state",
+      "state": "kerala",
       "national_significance": true,
-      "article_sentences": [
-        "At a late-evening meeting attended by Uttar Pradesh Chief Election Officer Navdeep Rinwa and other election officials in Noida on Monday, senior officers flagged the poor performance of the Gautam Buddha Nagar district in the last seven days in terms of voter enrolment, The Indian Express has learnt.",
-        "According to a senior state election officer, while Gautam Buddha Nagar, where Noida and Greater Noida are located, lags behind, Ghaziabad, the neighbouring district, performed better.",
-        "This comes as the state is expected to hold Assembly elections next year in February.",
-        "The UP draft electoral roll was published on November 17 as part of a Special Summary Revision exercise, registering an addition of 18.84 lakh voters to the list.",
-        "Gautam Buddha Nagar district logged a rise of 22,346 voters, compared with the final roll published following a Special Intensive Revision of electoral rolls, on April 10 this year.",
-        "In Ghaziabad, 61,235 new voters registered.",
-        "The seven days that followed were closely watched across districts, when claims and objections were filed, officers said.",
-        "The performance was assessed based on two indicators — the number of Form 6 received per polling station in the district and inclusion of potential voters in the electoral roll.",
-        "In the last seven days, an officer said, about 20 forms were filled at each of Ghaziabad’s 3,000-odd polling booths, while at Gautam Buddha Nagar, an average of six forms were filled at each of its 1,926 polling stations.",
-        "In this parameter, out of the total 75 districts in the state, while Ghaziabad ranked first, Gautam Buddha Nagar stood at 32.",
-        "Explaining the second parameter, the officer said, the total number of registered electors on the rolls are subtracted from the population projection till 2036.",
-        "“We then estimate the number of eligible population still out of the rolls."
-      ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "At a late-evening meeting attended by Uttar Pradesh Chief Election Officer Navdeep Rinwa and other election officials in Noida on Monday, senior officers flagged the poor performance of the Gautam Buddha Nagar district in the last seven days in terms of voter enrolment, The Indian Express has learnt.",
-          "According to a senior state election officer, while Gautam Buddha Nagar, where Noida and Greater Noida are located, lags behind, Ghaziabad, the neighbouring district, performed better."
+          "Sneha Joy, hailing from Kerala, faced a setback after losing a local body election.",
+          "However, her luck took a turn for the better when she moved to Canada, winning CAD 5 million in the Lotto 6/49."
         ],
         "body": [
-          "The UP draft electoral roll was published on November 17 as part of a Special Summary Revision exercise, registering an addition of 18.84 lakh voters to the list.",
-          "Gautam Buddha Nagar district logged a rise of 22,346 voters, compared with the final roll published following a Special Intensive Revision of electoral rolls, on April 10 this year.",
-          "In Ghaziabad, 61,235 new voters registered.",
-          "The seven days that followed were closely watched across districts, when claims and objections were filed, officers said.",
-          "The performance was assessed based on two indicators — the number of Form 6 received per polling station in the district and inclusion of potential voters in the electoral roll.",
-          "In the last seven days, an officer said, about 20 forms were filled at each of Ghaziabad’s 3,000-odd polling booths, while at Gautam Buddha Nagar, an average of six forms were filled at each of its 1,926 polling stations.",
-          "In this parameter, out of the total 75 districts in the state, while Ghaziabad ranked first, Gautam Buddha Nagar stood at 32."
+          "With this life-changing fortune, she plans to prioritize paying off her mortgage and dreams of globe-trotting while sharing the wealth with her family, marking a remarkable chapter in her life."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Noida"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "This comes as the state is expected to hold Assembly elections next year in February."
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The UP draft electoral roll was published on November 17 as part of a Special Summary Revision exercise, registering an addition of 18.84 lakh voters to the list.",
-            "source": "The Indian Express",
-            "item_id": "ff83b3e8c917310efc083d6f:article",
+            "text": "However, her luck took a turn for the better when she moved to Canada, winning CAD 5 million in the Lotto 6/49.",
+            "source": "Times of India",
+            "item_id": "f100ed86905420601fe3d9b9",
             "composed": false
           },
           {
-            "text": "Gautam Buddha Nagar district logged a rise of 22,346 voters, compared with the final roll published following a Special Intensive Revision of electoral rolls, on April 10 this year.",
-            "source": "The Indian Express",
-            "item_id": "ff83b3e8c917310efc083d6f:article",
-            "composed": false
-          },
-          {
-            "text": "In the last seven days, an officer said, about 20 forms were filled at each of Ghaziabad’s 3,000-odd polling booths, while at Gautam Buddha Nagar, an average of six forms were filled at each of its 1,926 polling stations.",
-            "source": "The Indian Express",
-            "item_id": "ff83b3e8c917310efc083d6f:article",
-            "composed": false
-          },
-          {
-            "text": "At a late-evening meeting attended by Uttar Pradesh Chief Election Officer Navdeep Rinwa and other election officials in Noida on Monday, senior officers flagged the poor performance of the Gautam Buddha Nagar district in the last seven days in terms of voter enrolment, The Indian Express has learnt.",
-            "source": "The Indian Express",
-            "item_id": "ff83b3e8c917310efc083d6f:article",
+            "text": "Sneha Joy, hailing from Kerala, faced a setback after losing a local body election.",
+            "source": "Times of India",
+            "item_id": "f100ed86905420601fe3d9b9",
             "composed": false
           }
         ],
-        "source": "The Indian Express",
+        "source": "Times of India",
         "corroborating": [],
-        "url": "https://indianexpress.com/article/cities/delhi/before-polls-up-chief-election-officer-flags-slow-voter-enrolment-in-noida-gr-noida-10977176"
+        "url": "https://timesofindia.indiatimes.com/world/rest-of-world/a-kerala-woman-who-lost-a-local-election-by-just-13-votes-in-2020-moved-to-canada-with-her-husband-five-years-later-sneha-joy-has-won-a-canadian-5-million-lottery-jackpot-worth-more-than-rs-30-crore/articleshow/136127063.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
-      "enrichment": "article"
+      "enrichment": "rss"
     },
     {
       "event_id": "b16ac97eeb8149d0d489c5bd",
@@ -317,7 +276,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: energy-environment (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -490,7 +449,7 @@
         "event term: 'avalanche' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: transport-infrastructure (importance 1) +1.2",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -624,7 +583,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.1h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -735,10 +694,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
-        "dominant event 44, stack 30.4, score 44 -> HIGH"
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
       "geo_scope": "national",
       "state": null,
@@ -815,120 +774,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "ddc54f095db57322133922c6",
-      "story_id": "ddc54f095db57322133922c6",
-      "headline": "Tamil Nadu runs Supreme Court contempt risk: Lamp lit, but not at pillar on Madurai hill",
-      "title": "Tamil Nadu runs Supreme Court contempt risk: Lamp lit, but not at pillar on Madurai hill",
-      "summary": "",
-      "url": "https://indianexpress.com/article/india/tamil-nadu-supreme-court-contempt-risk-lamp-lit-pillar-madurai-hill-10977227",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 84.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-25T00:05:53+00:00",
-      "published_at": "2026-11-25T00:05:53+00:00",
-      "effective_at": "2026-11-25T00:05:53+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "tamil nadu",
-      "national_significance": true,
-      "article_sentences": [
-        "Hours after it assured the Madras High Court that it would comply with the Supreme Court order, the Tamil Nadu government on Tuesday left the deepathoon, the contested stone pillar atop Thirupparankundram hill in Madurai, unlit on the Karthigai Deepam festival.",
-        "On November 20, the top court, in an interim order, had permitted lighting of the ceremonial lamp at the stone pillar on the hilltop as a one-time arrangement.",
-        "By 6 pm, the festival flame burned at its customary place near the Uchi Pillaiyar temple at the foothill, not on the pillar atop the hill.",
-        "Caught between the court and allies who keep him in office, Chief Minister C Joseph Vijay chose his allies, and the risk of contempt.",
-        "Earlier in the day, the Madurai bench of the Madras High Court held an urgent hearing to ensure compliance of the Supreme Court order.",
-        "District Collector Nishant Krishna, who was appointed by the SC as the nodal officer to ensure lighting of the deepathoon, made a personal appearance and assured that the SC order will be given effect.",
-        "“We deem it necessary to remind the District Collector that he is a public servant who is answerable only to the Hon’ble Supreme Court of India in this case.",
-        "He shall ignore any contra advice given by any other authority.",
-        "We are sure that no law officer worth his salt will counsel him to act in contravention of the order…” the High Court noted in its order.",
-        "The High Court also recorded senior advocate Gopal Sankaranarayanan’s submission that he was “on instructions from the state officials” to clarify “that the order of the Hon’ble Supreme Court would be complied with,” and that there was no need for the HC to entertain these writ petitions.",
-        "For Vijay, whose TVK fell short of a majority in its first Assembly election, the question was how much political risk he could afford for a ceremony the court had authorised for one evening.",
-        "The IUML, the VCK, the CPI, the CPI(M) and the Congress had taken a firm stand against lighting a second lamp at the contested site."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Hours after it assured the Madras High Court that it would comply with the Supreme Court order, the Tamil Nadu government on Tuesday left the deepathoon, the contested stone pillar atop Thirupparankundram hill in Madurai, unlit on the Karthigai Deepam festival.",
-          "On November 20, the top court, in an interim order, had permitted lighting of the ceremonial lamp at the stone pillar on the hilltop as a one-time arrangement."
-        ],
-        "body": [
-          "By 6 pm, the festival flame burned at its customary place near the Uchi Pillaiyar temple at the foothill, not on the pillar atop the hill.",
-          "Caught between the court and allies who keep him in office, Chief Minister C Joseph Vijay chose his allies, and the risk of contempt.",
-          "Earlier in the day, the Madurai bench of the Madras High Court held an urgent hearing to ensure compliance of the Supreme Court order.",
-          "District Collector Nishant Krishna, who was appointed by the SC as the nodal officer to ensure lighting of the deepathoon, made a personal appearance and assured that the SC order will be given effect.",
-          "“We deem it necessary to remind the District Collector that he is a public servant who is answerable only to the Hon’ble Supreme Court of India in this case.",
-          "He shall ignore any contra advice given by any other authority.",
-          "We are sure that no law officer worth his salt will counsel him to act in contravention of the order…” the High Court noted in its order.",
-          "The High Court also recorded senior advocate Gopal Sankaranarayanan’s submission that he was “on instructions from the state officials” to clarify “that the order of the Hon’ble Supreme Court would be complied with,” and that there was no need for the HC to entertain these writ petitions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Madurai"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Hours after it assured the Madras High Court that it would comply with the Supreme Court order, the Tamil Nadu government on Tuesday left the deepathoon, the contested stone pillar atop Thirupparankundram hill in Madurai, unlit on the Karthigai Deepam festival.",
-            "source": "The Indian Express",
-            "item_id": "ddc54f095db57322133922c6:article",
-            "composed": false
-          },
-          {
-            "text": "On November 20, the top court, in an interim order, had permitted lighting of the ceremonial lamp at the stone pillar on the hilltop as a one-time arrangement.",
-            "source": "The Indian Express",
-            "item_id": "ddc54f095db57322133922c6:article",
-            "composed": false
-          },
-          {
-            "text": "By 6 pm, the festival flame burned at its customary place near the Uchi Pillaiyar temple at the foothill, not on the pillar atop the hill.",
-            "source": "The Indian Express",
-            "item_id": "ddc54f095db57322133922c6:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/india/tamil-nadu-supreme-court-contempt-risk-lamp-lit-pillar-madurai-hill-10977227"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "9a83d76bc279643d62ced565",
       "story_id": "9a83d76bc279643d62ced565",
       "headline": "Book on drug abuse, prevention released in Banihal",
@@ -975,7 +820,7 @@
         "event term: 'chief justice' in summary weight 25.2",
         "event term: 'chief justice of india' in summary weight 27.6",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 27.6, stack 40.4, score 40.4 -> HIGH"
@@ -1081,7 +926,7 @@
         "corroboration: single independent source -> medium confidence",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 0, stack 40, score 40 -> HIGH"
