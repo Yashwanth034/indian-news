@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T09:42:28.863922+00:00",
-  "count": 11,
+  "generated_at": "2026-11-25T09:52:11.088501+00:00",
+  "count": 12,
   "stories": [
     {
       "event_id": "4d6ffec2be687c389c7b0bbe",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (delhi)",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 24.4, score 84 -> IMMEDIATE"
@@ -160,7 +160,7 @@
         "event term: 'flood' in summary weight 38.4",
         "event term: 'floods' in summary weight 38.4",
         "scale: state scope (jammu and kashmir)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -264,7 +264,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -337,6 +337,96 @@
       "enrichment": "article"
     },
     {
+      "event_id": "aa5516d22345be54c3feafcb",
+      "story_id": "aa5516d22345be54c3feafcb",
+      "headline": "Supreme Court sets aside Allahabad HC directions to CBI, ED on Rahul Gandhi assets plea",
+      "title": "Supreme Court sets aside Allahabad HC directions to CBI, ED on Rahul Gandhi assets plea",
+      "summary": "The Supreme Court set aside Allahabad High Court directions to the CBI and ED to verify disproportionate assets allegations against Rahul Gandhi. It sent a BJP worker's petition back to the High Court for fresh consideration after hearing the Congress leader.",
+      "url": "https://telanganatoday.com/supreme-court-sets-aside-allahabad-hc-directions-to-cbi-ed-on-rahul-gandhi-assets-plea",
+      "source": "Telangana Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "courts-law",
+      "secondary_categories": [
+        "national-politics"
+      ],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-25T09:38:53+00:00",
+      "published_at": "2026-11-25T09:38:53+00:00",
+      "effective_at": "2026-11-25T09:38:53+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ians": {
+          "kind": "wire",
+          "source_ids": [
+            "telangana-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (telangana-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "event term: 'supreme court' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court set aside Allahabad High Court directions to the CBI and ED to verify disproportionate assets allegations against Rahul Gandhi.",
+          "It sent a BJP worker's petition back to the High Court for fresh consideration after hearing the Congress leader."
+        ],
+        "body": [
+          "Supreme Court sets aside HC order for CBI, ED probe into Rahul Gandhi's assets.",
+          "The top court directs the Congress leader to be impleaded as a party in the High Court case.",
+          "The Court directed that Rahul Gandhi be heard by the High Court afresh on all questions."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Supreme Court set aside Allahabad High Court directions to the CBI and ED to verify disproportionate assets allegations against Rahul Gandhi.",
+            "source": "Telangana Today",
+            "item_id": "aa5516d22345be54c3feafcb",
+            "composed": false
+          },
+          {
+            "text": "It sent a BJP worker's petition back to the High Court for fresh consideration after hearing the Congress leader.",
+            "source": "Telangana Today",
+            "item_id": "aa5516d22345be54c3feafcb",
+            "composed": false
+          }
+        ],
+        "source": "Telangana Today",
+        "corroborating": [
+          "India Today",
+          "The Hindu",
+          "LiveLaw"
+        ],
+        "url": "https://telanganatoday.com/supreme-court-sets-aside-allahabad-hc-directions-to-cbi-ed-on-rahul-gandhi-assets-plea"
+      },
+      "group_size": 4,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "ec5b67fb983179c5b66dc31e",
       "story_id": "ec5b67fb983179c5b66dc31e",
       "headline": "Supreme Court Reserves Judgment On Balwant Singh Rajoana's Plea To Commute Death Sentence Over Delay In Mercy Petition",
@@ -379,7 +469,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'judgment' in title weight 18",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -514,7 +604,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: state scope (delhi)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 26.4, stack 38.4, score 38.4 -> HIGH"
@@ -615,7 +705,7 @@
         "event term: 'chief justice' in title weight 42",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -683,6 +773,121 @@
       "enrichment": "article"
     },
     {
+      "event_id": "110adf6985b395b039eeee44",
+      "story_id": "110adf6985b395b039eeee44",
+      "headline": "Kolkata Municipal Polls Shouldn't Be Unreasonably Deferred : Supreme Court Proposes Shifting Delimitation Challenge To HC Division Bench",
+      "title": "Kolkata Municipal Polls Shouldn't Be Unreasonably Deferred : Supreme Court Proposes Shifting Delimitation Challenge To HC Division Bench",
+      "summary": "",
+      "url": "https://www.livelaw.in/top-stories/kolkata-municipal-polls-shouldnt-be-unreasonably-deferred-supreme-court-proposes-shifting-delimitation-challenge-to-hc-division-bench-559925",
+      "source": "LiveLaw",
+      "primary_source": false,
+      "tier": 3,
+      "category": "courts-law",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 72.0,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-25T09:43:09+00:00",
+      "published_at": "2026-11-25T09:43:09+00:00",
+      "effective_at": "2026-11-25T09:43:09+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "live-law": {
+          "kind": "independent",
+          "source_ids": [
+            "live-law"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (live-law) +1",
+        "source: specialist (live-law) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 30.4, score 44 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "west bengal",
+      "national_significance": true,
+      "article_sentences": [
+        "The Supreme Court on Wednesday proposed to set aside the Calcutta High Court's order which deferred the Kolkata Municipal Corporation elections till a challenge to delimitation of wards is decided.",
+        "Orally observing elections should not be deferred \"unreasonably\", the Court proposed to transfer the challenge to delimitation from the single bench to the division bench of the High Court for a faster decision.",
+        "Hearing a petition filed by the West Bengal government challenging the High Court's order, the Court suggested that the Division Bench order can be set aside for a fresh consideration, and until the issues are considered afresh, the election notification can be withheld.",
+        "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V Mohana proposed to Solicitor General Tushar Mehta (for WB) and Senior Advocates Dr AM Singhvi and Bikash Ranjan Bhattacharya (for respondents) that it could set aside the Division Bench's interim order and relegate the matter back to the High Court for a fresh consideration by a Division Bench, not a Single Bench.",
+        "The bench noted that all factual and legal issues raised by the State had not been considered by the High Court in the impugned decision.",
+        "During the hearing, Justice Bagchi remarked that the elections should not be unreasonably deferred.",
+        "Both sides will come back with instructions on Monday.",
+        "The dispute concerns the West Bengal Government's decision to increase the number of wards in the Kolkata Municipal Corporation from 144 to 209 ahead of the municipal elections.",
+        "The State Government issued a delimitation notification on September 11, 2026, redrawing the boundaries of the municipal wards.",
+        "The exercise was challenged before the Calcutta High Court on the ground that it was undertaken without a valid recommendation from the elected Municipal Corporation.",
+        "The petitioners questioned the authority of Smita Pandey, who had been appointed Administrator of the KMC after the elected Corporation ceased to function, to make the recommendation for delimitation.",
+        "They argued that an Administrator could not substitute the elected Municipal Corporation for the purpose of making such a recommendation."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Supreme Court on Wednesday proposed to set aside the Calcutta High Court's order which deferred the Kolkata Municipal Corporation elections till a challenge to delimitation of wards is decided.",
+          "Orally observing elections should not be deferred \"unreasonably\", the Court proposed to transfer the challenge to delimitation from the single bench to the division bench of the High Court for a faster decision."
+        ],
+        "body": [
+          "Hearing a petition filed by the West Bengal government challenging the High Court's order, the Court suggested that the Division Bench order can be set aside for a fresh consideration, and until the issues are considered afresh, the election notification can be withheld.",
+          "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V Mohana proposed to Solicitor General Tushar Mehta (for WB) and Senior Advocates Dr AM Singhvi and Bikash Ranjan Bhattacharya (for respondents) that it could set aside the Division Bench's interim order and relegate the matter back to the High Court for a fresh consideration by a Division Bench, not a Single Bench.",
+          "The bench noted that all factual and legal issues raised by the State had not been considered by the High Court in the impugned decision.",
+          "During the hearing, Justice Bagchi remarked that the elections should not be unreasonably deferred.",
+          "Both sides will come back with instructions on Monday.",
+          "The dispute concerns the West Bengal Government's decision to increase the number of wards in the Kolkata Municipal Corporation from 144 to 209 ahead of the municipal elections.",
+          "The State Government issued a delimitation notification on September 11, 2026, redrawing the boundaries of the municipal wards.",
+          "The exercise was challenged before the Calcutta High Court on the ground that it was undertaken without a valid recommendation from the elected Municipal Corporation."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The State Government issued a delimitation notification on September 11, 2026, redrawing the boundaries of the municipal wards.",
+            "source": "LiveLaw",
+            "item_id": "110adf6985b395b039eeee44:article",
+            "composed": false
+          },
+          {
+            "text": "The dispute concerns the West Bengal Government's decision to increase the number of wards in the Kolkata Municipal Corporation from 144 to 209 ahead of the municipal elections.",
+            "source": "LiveLaw",
+            "item_id": "110adf6985b395b039eeee44:article",
+            "composed": false
+          },
+          {
+            "text": "The Supreme Court on Wednesday proposed to set aside the Calcutta High Court's order which deferred the Kolkata Municipal Corporation elections till a challenge to delimitation of wards is decided.",
+            "source": "LiveLaw",
+            "item_id": "110adf6985b395b039eeee44:article",
+            "composed": false
+          },
+          {
+            "text": "Both sides will come back with instructions on Monday.",
+            "source": "LiveLaw",
+            "item_id": "110adf6985b395b039eeee44:article",
+            "composed": false
+          }
+        ],
+        "source": "LiveLaw",
+        "corroborating": [],
+        "url": "https://www.livelaw.in/top-stories/kolkata-municipal-polls-shouldnt-be-unreasonably-deferred-supreme-court-proposes-shifting-delimitation-challenge-to-hc-division-bench-559925"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
+    },
+    {
       "event_id": "8f51b8225c75287ebd2d9880",
       "story_id": "8f51b8225c75287ebd2d9880",
       "headline": "Supreme Court sets aside Karnataka HC order suspending Vinay Kulkarni's life sentence in BJP leader murder case",
@@ -726,7 +931,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -849,7 +1054,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'acquisition' in title weight 42",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 42, stack 28.8, score 42 -> HIGH"
@@ -945,7 +1150,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'national security' in summary weight 42",
         "scale: state scope (delhi)",
-        "recency: fresh (3.2h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 42, stack 18.8, score 42 -> HIGH"
@@ -1063,7 +1268,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "scale: national scope",
         "scale: multi-state (4 states)",
-        "recency: breaking (2.5h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 0, stack 41.2, score 41.2 -> HIGH"
@@ -1119,122 +1324,6 @@
         "source": "The Hindu BusinessLine",
         "corroborating": [],
         "url": "https://www.thehindubusinessline.com/companies/amazons-e-commerce-exports-from-india-reach-27-bn-number-of-exporters-jump-20-in-a-year/article71741395.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "f8e7899d0b630fb11d0fcf3e",
-      "story_id": "f8e7899d0b630fb11d0fcf3e",
-      "headline": "IMD update: TN, Kerala to stay wet as easterly wave keeps South Peninsula on rainy track",
-      "title": "IMD update: TN, Kerala to stay wet as easterly wave keeps South Peninsula on rainy track",
-      "summary": "An easterly wave is a weather disturbance embedded in easterly winds headed towards Sri Lanka and Tamil Nadu coast promoting conditions that encourage air to rise, cool and condense into rain clouds",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-tn-kerala-to-stay-wet-as-easterly-wave-keeps-south-peninsula-on-rainy-track/article71741289.ece",
-      "source": "The Hindu BusinessLine",
-      "primary_source": false,
-      "tier": 3,
-      "category": "weather-disasters",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 99.2,
-      "priority_score": 40.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-25T06:50:53+00:00",
-      "published_at": "2026-11-25T06:50:53+00:00",
-      "effective_at": "2026-11-25T06:50:53+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.4 >= 1.2",
-        "major: urgent category",
-        "category: weather-disasters (importance 1.4, urgent=True)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 3 (businessline) +1",
-        "source: specialist (businessline) +5",
-        "corroboration: single independent source -> medium confidence",
-        "scale: national scope",
-        "scale: multi-state (2 states)",
-        "recency: breaking (2.9h ago) +8",
-        "category: weather-disasters (importance 1.4) +6",
-        "geo: national",
-        "dominant event 0, stack 40, score 40 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "kerala",
-      "national_significance": true,
-      "article_sentences": [
-        "The South Peninsula remains in the grip of rain-bearing easterly disturbances, with isolated heavy rainfall likely over Kerala and Mahe, and Tamil Nadu, Puducherry and Karaikal, for three days from Wednesday.",
-        "Strong surface winds are also expected over Coastal Andhra Pradesh and Yanam, and Rayalaseema, as a combination of easterly waves, atmospheric troughs and cyclonic circulations sustains unsettled weather across the region.",
-        "The wave is a westward-moving disturbance embedded in the easterly winds over the Bay of Bengal.",
-        "As it travels towards Sri Lanka and the Tamil Nadu coast, it carries enhanced cyclonic vorticity and a zone of atmospheric convergence, or conditions that encourage air to rise, cool and condense into rain-bearing clouds.",
-        "Its passage can also reinforce existing troughs and strengthen wind convergence, cloud development and rainfall.",
-        "Showers generally occur along and behind the wave trough, while sinking air ahead of it tends to favour relatively fairer or drier weather.",
-        "The latest spell brought heavy rain to isolated places over Tamil Nadu, Puducherry and Karaikal on Tuesday.",
-        "In the 12 hours ending at 5.30 am on Wednesday, Karaikal recorded 5 cm of rainfall, while Nellore and Ongole in Andhra Pradesh, and Bengaluru HAL in Karnataka, received 3 cm each.",
-        "The atmospheric setting remains favourable for further rainfall.",
-        "Two troughs in the easterlies, one extending from the south-west Bay of Bengal to the west-central Bay, and another from the Comorin area to Rayalaseema across interior Tamil Nadu, persisted into Wednesday morning.",
-        "A cyclonic circulation was also located over south Kerala.",
-        "Acting in tandem with the prevailing easterly wave, these systems can sustain moisture convergence, rising air and cloud formation, keeping much of the South Peninsula vulnerable to further spells of rain."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The South Peninsula remains in the grip of rain-bearing easterly disturbances, with isolated heavy rainfall likely over Kerala and Mahe, and Tamil Nadu, Puducherry and Karaikal, for three days from Wednesday.",
-          "Strong surface winds are also expected over Coastal Andhra Pradesh and Yanam, and Rayalaseema, as a combination of easterly waves, atmospheric troughs and cyclonic circulations sustains unsettled weather across the region."
-        ],
-        "body": [
-          "The wave is a westward-moving disturbance embedded in the easterly winds over the Bay of Bengal.",
-          "As it travels towards Sri Lanka and the Tamil Nadu coast, it carries enhanced cyclonic vorticity and a zone of atmospheric convergence, or conditions that encourage air to rise, cool and condense into rain-bearing clouds.",
-          "Its passage can also reinforce existing troughs and strengthen wind convergence, cloud development and rainfall.",
-          "Showers generally occur along and behind the wave trough, while sinking air ahead of it tends to favour relatively fairer or drier weather.",
-          "The latest spell brought heavy rain to isolated places over Tamil Nadu, Puducherry and Karaikal on Tuesday.",
-          "In the 12 hours ending at 5.30 am on Wednesday, Karaikal recorded 5 cm of rainfall, while Nellore and Ongole in Andhra Pradesh, and Bengaluru HAL in Karnataka, received 3 cm each.",
-          "The atmospheric setting remains favourable for further rainfall.",
-          "Two troughs in the easterlies, one extending from the south-west Bay of Bengal to the west-central Bay, and another from the Comorin area to Rayalaseema across interior Tamil Nadu, persisted into Wednesday morning."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Andhra Pradesh"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The South Peninsula remains in the grip of rain-bearing easterly disturbances, with isolated heavy rainfall likely over Kerala and Mahe, and Tamil Nadu, Puducherry and Karaikal, for three days from Wednesday.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "f8e7899d0b630fb11d0fcf3e:article",
-            "composed": false
-          },
-          {
-            "text": "As it travels towards Sri Lanka and the Tamil Nadu coast, it carries enhanced cyclonic vorticity and a zone of atmospheric convergence, or conditions that encourage air to rise, cool and condense into rain-bearing clouds.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "f8e7899d0b630fb11d0fcf3e:article",
-            "composed": false
-          },
-          {
-            "text": "The latest spell brought heavy rain to isolated places over Tamil Nadu, Puducherry and Karaikal on Tuesday.",
-            "source": "The Hindu BusinessLine",
-            "item_id": "f8e7899d0b630fb11d0fcf3e:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu BusinessLine",
-        "corroborating": [],
-        "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-tn-kerala-to-stay-wet-as-easterly-wave-keeps-south-peninsula-on-rainy-track/article71741289.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS",
