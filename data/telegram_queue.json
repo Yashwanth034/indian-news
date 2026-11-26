@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:12:07.099090+00:00",
+  "generated_at": "2026-11-26T07:22:15.621982+00:00",
   "count": 18,
   "stories": [
     {
@@ -24,12 +24,19 @@
       "event_time": "2026-11-26T05:06:14+00:00",
       "published_at": "2026-11-26T05:06:14+00:00",
       "effective_at": "2026-11-26T05:06:14+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "indiatimes": {
           "kind": "independent",
           "source_ids": [
             "times-of-india"
+          ],
+          "count": 1
+        },
+        "indian-express": {
+          "kind": "independent",
+          "source_ids": [
+            "indian-express"
           ],
           "count": 1
         },
@@ -45,18 +52,18 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.3 >= 1.2",
         "major: urgent category",
         "major: significance event 'terror attack'",
         "category: defence-security (importance 1.3, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (times-of-india) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (maharashtra)",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 28.8, score 84 -> IMMEDIATE"
@@ -142,7 +149,7 @@
         "event term: 'terror attack' in title weight 84",
         "event term: 'terror attack' in summary weight 50.4",
         "scale: state scope (maharashtra)",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 45, score 84 -> IMMEDIATE"
@@ -274,7 +281,7 @@
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -375,7 +382,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.7h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 26, score 64 -> URGENT"
@@ -485,7 +492,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'loc' in title weight 62",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 32.8, score 62 -> URGENT"
@@ -582,10 +589,10 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (karnataka)",
-        "recency: breaking (2.9h ago) +8",
+        "recency: fresh (3.0h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
-        "dominant event 58, stack 20.4, score 58 -> HIGH"
+        "dominant event 58, stack 16.4, score 58 -> HIGH"
       ],
       "geo_scope": "state",
       "state": "karnataka",
@@ -706,7 +713,7 @@
         "event term: 'war' in summary weight 49.2",
         "event term: 'sanctions' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 49.2, stack 45, score 49.2 -> HIGH"
@@ -834,7 +841,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 24, stack 45, score 45 -> HIGH"
@@ -842,7 +849,7 @@
       "geo_scope": "national",
       "state": "maharashtra",
       "national_significance": true,
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "Mumbai, Nov 26: Indian stock markets traded higher in early deals on Thursday, supported by sustained foreign fund inflows and gains in information technology (IT) stocks even as global investors continued to grapple with volatility in artificial intelligence-related shares.",
@@ -906,7 +913,7 @@
         "url": "https://assamtribune.com/business/sensex-climbs-400-points-as-it-stocks-gain-nifty-below-25900-1623292"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "rss"
     },
     {
@@ -955,7 +962,7 @@
         "event term: 'cyclone' in summary weight 43.2",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.6h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: national",
         "dominant event 43.2, stack 45, score 45 -> HIGH"
@@ -1054,7 +1061,7 @@
         "event term: 'tariffs' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.1h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1179,7 +1186,7 @@
         "event term: 'inflation' in title weight 36",
         "event term: 'inflation' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -1295,7 +1302,7 @@
         "event term: 'tariffs' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -1417,7 +1424,7 @@
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -1540,7 +1547,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1614,120 +1621,86 @@
       "enrichment": "article"
     },
     {
-      "event_id": "6dd082b50f566167eda4d50f",
-      "story_id": "6dd082b50f566167eda4d50f",
-      "headline": "Maharashtra Cabinet approves free foodgrains for over 42 lakh farmers",
-      "title": "Maharashtra Cabinet approves free foodgrains for over 42 lakh farmers",
+      "event_id": "ac9710c980ac4c5fd338efdc",
+      "story_id": "ac9710c980ac4c5fd338efdc",
+      "headline": "Supreme Court scraps Anand Mohan’s early release; he must surrender in a month",
+      "title": "Supreme Court scraps Anand Mohan’s early release; he must surrender in a month",
       "summary": "",
-      "url": "https://www.thehindu.com/news/cities/mumbai/maha-govt-approves-free-food-grains-for-over-4230-lakh-farmers/article71742560.ece",
-      "source": "The Hindu",
+      "url": "https://indianexpress.com/article/legal-news/supreme-court-cancels-mp-bihar-anand-mohans-murder-1994-case-gopalganj-district-magistrate-g-krishnaiah-10979187",
+      "source": "The Indian Express",
       "primary_source": false,
       "tier": 2,
-      "category": "agriculture-rural",
+      "category": "courts-law",
       "secondary_categories": [],
       "confidence": "medium",
-      "score": 72.0,
+      "score": 60.0,
       "priority_score": 44.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-26T01:14:29+00:00",
-      "published_at": "2026-11-26T01:14:29+00:00",
-      "effective_at": "2026-11-26T01:14:29+00:00",
+      "event_time": "2026-11-26T05:56:07+00:00",
+      "published_at": "2026-11-26T05:56:07+00:00",
+      "effective_at": "2026-11-26T05:56:07+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "thehindu": {
+        "indian-express": {
           "kind": "independent",
           "source_ids": [
-            "the-hindu",
-            "the-hindu-mumbai"
+            "indian-express"
           ],
-          "count": 2
+          "count": 1
         }
       },
       "is_wire_echo": false,
       "status": "queued",
       "reasons": [
-        "category: agriculture-rural (importance 1, urgent=False)",
-        "score 70.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "source: event has 2 copies, primary source counted once",
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: courts-law (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (indian-express) +2",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'cabinet approves' in title weight 44",
-        "scale: state scope (maharashtra)",
-        "recency: fresh (6.0h ago) +4",
-        "category: agriculture-rural (importance 1) +1.2",
-        "geo: state",
-        "dominant event 44, stack 13.2, score 44 -> HIGH"
+        "event term: 'supreme court' in title weight 44",
+        "scale: national scope",
+        "recency: breaking (1.4h ago) +8",
+        "category: courts-law (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 26.4, score 44 -> HIGH"
       ],
-      "geo_scope": "state",
-      "state": "maharashtra",
-      "national_significance": false,
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
       "article_sentences": [
-        "The Maharashtra Cabinet on Wednesday approved free foodgrains for over 42.30 lakh farmers not covered under Direct Benefit Transfer (DBT), a ₹5,548-crore provision for the Narmada-Tapi diversion project in Nandurbar, confiscation of assets of firms involved in financial fraud, and a law to regulate private-aided schools, among 14 decisions.",
-        "At the meeting chaired by Chief Minister Devendra Fadnavis, the Cabinet decided to give free foodgrains to farmers who are not covered under the National Food Security Act in 33 drought-affected districts of the State.",
-        "The beneficiaries belong to the Below Poverty Line (BPL) category.",
-        "“The farmers will receive five kg of foodgrains per person every month, free of cost, for the next three months.",
-        "This will include three kg rice and two kg wheat,” stated a release issued from the Chief Minister’s Office (CMO).",
-        "With an aim to strengthen the irrigation system in Nandurbar district, the Cabinet gave nod to the Narmada-Tapi diversion project.",
-        "This will include six diversions weirs that aim to benefit around 26,526 hectares with irrigation while generating 11.50 MW power, as per the Water Resources Department officials.",
-        "The Maharashtra government has also approved the plan to set up a separate MPID (Maharashtra Protection of Interest of Depositors) tribunal with a time limit of 90 days for the disposal of cases.",
-        "The Cabinet also decided to expedite the process of confiscating properties of institutions committing financial fraud and amend the MPID Act,” stated the CMO.",
-        "The State government has also decided to increase the hostel allowances for students from Economically Weaker Sections (EBC, SEBC and EWS) pursuing professional degree courses in health sciences under the Dr. Panjabrao Deshmukh Hostel Maintenance Allowance Scheme.",
-        "It also approved the provision of financial facilities for teachers through RBI-registered institutions.",
-        "The Cabinet approved the draft Maharashtra Private-Aided Schools (Regulation) Bill, 2026, which will be tabled in the legislature."
+        "The Supreme Court cancelled premature release granted to former Lok Sabha MP from Bihar Anand Mohan.",
+        "Singh was sentenced to life imprisonment for the 1994 murder of the then Gopalganj district magistrate G Krishnaiah.",
+        "The court further asked him to surrender within 1 month."
       ],
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Maharashtra Cabinet on Wednesday approved free foodgrains for over 42.30 lakh farmers not covered under Direct Benefit Transfer (DBT), a ₹5,548-crore provision for the Narmada-Tapi diversion project in Nandurbar, confiscation of assets of firms involved in financial fraud, and a law to regulate private-aided schools, among 14 decisions.",
-          "At the meeting chaired by Chief Minister Devendra Fadnavis, the Cabinet decided to give free foodgrains to farmers who are not covered under the National Food Security Act in 33 drought-affected districts of the State."
+          "The Supreme Court cancelled premature release granted to former Lok Sabha MP from Bihar Anand Mohan.",
+          "Singh was sentenced to life imprisonment for the 1994 murder of the then Gopalganj district magistrate G Krishnaiah."
         ],
         "body": [
-          "The beneficiaries belong to the Below Poverty Line (BPL) category.",
-          "“The farmers will receive five kg of foodgrains per person every month, free of cost, for the next three months.",
-          "This will include three kg rice and two kg wheat,” stated a release issued from the Chief Minister’s Office (CMO).",
-          "With an aim to strengthen the irrigation system in Nandurbar district, the Cabinet gave nod to the Narmada-Tapi diversion project.",
-          "This will include six diversions weirs that aim to benefit around 26,526 hectares with irrigation while generating 11.50 MW power, as per the Water Resources Department officials.",
-          "The Maharashtra government has also approved the plan to set up a separate MPID (Maharashtra Protection of Interest of Depositors) tribunal with a time limit of 90 days for the disposal of cases.",
-          "The Cabinet also decided to expedite the process of confiscating properties of institutions committing financial fraud and amend the MPID Act,” stated the CMO.",
-          "The State government has also decided to increase the hostel allowances for students from Economically Weaker Sections (EBC, SEBC and EWS) pursuing professional degree courses in health sciences under the Dr. Panjabrao Deshmukh Hostel Maintenance Allowance Scheme."
+          "The court further asked him to surrender within 1 month."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nandurbar"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The Maharashtra Cabinet on Wednesday approved free foodgrains for over 42.30 lakh farmers not covered under Direct Benefit Transfer (DBT), a ₹5,548-crore provision for the Narmada-Tapi diversion project in Nandurbar, confiscation of assets of firms involved in financial fraud, and a law to regulate private-aided schools, among 14 decisions.",
-            "source": "The Hindu",
-            "item_id": "6dd082b50f566167eda4d50f:article",
+            "text": "The Supreme Court cancelled premature release granted to former Lok Sabha MP from Bihar Anand Mohan.",
+            "source": "The Indian Express",
+            "item_id": "ac9710c980ac4c5fd338efdc:article",
             "composed": false
           },
           {
-            "text": "At the meeting chaired by Chief Minister Devendra Fadnavis, the Cabinet decided to give free foodgrains to farmers who are not covered under the National Food Security Act in 33 drought-affected districts of the State.",
-            "source": "The Hindu",
-            "item_id": "6dd082b50f566167eda4d50f:article",
-            "composed": false
-          },
-          {
-            "text": "With an aim to strengthen the irrigation system in Nandurbar district, the Cabinet gave nod to the Narmada-Tapi diversion project.",
-            "source": "The Hindu",
-            "item_id": "6dd082b50f566167eda4d50f:article",
-            "composed": false
-          },
-          {
-            "text": "The Maharashtra government has also approved the plan to set up a separate MPID (Maharashtra Protection of Interest of Depositors) tribunal with a time limit of 90 days for the disposal of cases.",
-            "source": "The Hindu",
-            "item_id": "6dd082b50f566167eda4d50f:article",
+            "text": "The court further asked him to surrender within 1 month.",
+            "source": "The Indian Express",
+            "item_id": "ac9710c980ac4c5fd338efdc:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "The Indian Express",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/mumbai/maha-govt-approves-free-food-grains-for-over-4230-lakh-farmers/article71742560.ece"
+        "url": "https://indianexpress.com/article/legal-news/supreme-court-cancels-mp-bihar-anand-mohans-murder-1994-case-gopalganj-district-magistrate-g-krishnaiah-10979187"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1774,7 +1747,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -1889,7 +1862,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: fresh (5.2h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 27.6, score 40 -> HIGH"
@@ -1998,7 +1971,7 @@
         "event term: 'match' in summary weight 4.8",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "geo: national",
         "dominant event 8, stack 38.8, score 38.8 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
