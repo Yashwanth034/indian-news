@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T23:52:08.428334+00:00",
-  "count": 7,
+  "generated_at": "2026-11-26T00:02:47.743309+00:00",
+  "count": 8,
   "stories": [
     {
       "event_id": "12ae07ea099ee60a24bd33a2",
@@ -44,7 +44,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 26.4, score 58 -> HIGH"
@@ -128,7 +128,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -211,7 +211,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -320,7 +320,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -403,7 +403,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.1h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -540,7 +540,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
         "scale: multi-state (3 states)",
-        "recency: fresh (5.1h ago) +4",
+        "recency: fresh (5.3h ago) +4",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 38.4, stack 45, score 45 -> HIGH"
@@ -640,6 +640,86 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "32dfda90b8d28867b585e17a",
+      "story_id": "32dfda90b8d28867b585e17a",
+      "headline": "Bihar cabinet approves 1294.37 acres of land for industrial areas",
+      "title": "Bihar cabinet approves 1294.37 acres of land for industrial areas",
+      "summary": "Cabinet also approved dismissal of 11 government doctors from service. For the first time Cabinet meeting conducted through e-Cabinet system. Bihar Cabinet approved a total of 34 decisions.",
+      "url": "https://www.thehindu.com/news/national/bihar/bihar-cabinet-approves-129437-acres-of-land-for-industrial-areas/article71743360.ece",
+      "source": "The Hindu",
+      "primary_source": false,
+      "tier": 2,
+      "category": null,
+      "secondary_categories": [
+        "health"
+      ],
+      "confidence": "medium",
+      "score": 94.2,
+      "priority_score": 44.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-25T21:26:28+00:00",
+      "published_at": "2026-11-25T21:26:28+00:00",
+      "effective_at": "2026-11-25T21:26:28+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "the-hindu"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "score 70.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (the-hindu) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "scale: state scope (bihar)",
+        "recency: breaking (2.6h ago) +8",
+        "geo: state",
+        "dominant event 44, stack 16, score 44 -> HIGH",
+        "candidate gate: no category but HIGH+ priority -> allowed"
+      ],
+      "geo_scope": "state",
+      "state": "bihar",
+      "national_significance": false,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Cabinet also approved dismissal of 11 government doctors from service.",
+          "For the first time Cabinet meeting conducted through e-Cabinet system."
+        ],
+        "body": [
+          "Bihar Cabinet approved a total of 34 decisions."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Bihar Cabinet approved a total of 34 decisions.",
+            "source": "The Hindu",
+            "item_id": "32dfda90b8d28867b585e17a",
+            "composed": false
+          },
+          {
+            "text": "Cabinet also approved dismissal of 11 government doctors from service.",
+            "source": "The Hindu",
+            "item_id": "32dfda90b8d28867b585e17a",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/bihar/bihar-cabinet-approves-129437-acres-of-land-for-industrial-areas/article71743360.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "a5857f5329bcff531d00668a",
       "story_id": "a5857f5329bcff531d00668a",
       "headline": "A commitment to strengthen our Constitution",
@@ -701,7 +781,7 @@
         "event term: 'election' in summary weight 34.8",
         "event term: 'acquires' in summary weight 24",
         "scale: state scope (jammu and kashmir)",
-        "recency: fresh (4.9h ago) +4",
+        "recency: fresh (5.1h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 34.8, stack 40.4, score 40.4 -> HIGH"
