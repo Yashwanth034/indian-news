@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T03:12:14.584692+00:00",
-  "count": 15,
+  "generated_at": "2026-11-26T03:22:21.242898+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "28791d565b7a098a70ea020c",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'earthquake' in title weight 82",
         "scale: state scope (assam)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national significance (local/state event)",
         "dominant event 82, stack 23, score 82 -> IMMEDIATE"
@@ -145,7 +145,7 @@
           "source_ids": [
             "greater-kashmir"
           ],
-          "count": 1
+          "count": 2
         }
       },
       "is_wire_echo": false,
@@ -161,11 +161,12 @@
         "category: weather-disasters (importance 1.4, urgent=True)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
         "corroboration: single independent source -> medium confidence",
         "event term: 'floods' in title weight 64",
         "event term: 'floods' in summary weight 38.4",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 45, score 64 -> URGENT"
@@ -266,7 +267,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'flood' in title weight 64",
         "scale: national scope",
-        "recency: breaking (0.5h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: weather-disasters (importance 1.4) +6",
         "geo: national",
         "dominant event 64, stack 30, score 64 -> URGENT"
@@ -386,7 +387,7 @@
         "event term: 'loc' in summary weight 37.2",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (3.0h ago) +8",
+        "recency: fresh (3.1h ago) +4",
         "category: defence-security (importance 1.3) +4.8",
         "geo: national",
         "dominant event 62, stack 45, score 62 -> URGENT"
@@ -506,7 +507,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.5h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 22.4, score 58 -> HIGH"
@@ -604,7 +605,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.4h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -644,6 +645,124 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "32b761070b3bddd8217c2657",
+      "story_id": "32b761070b3bddd8217c2657",
+      "headline": "Indian shares set to extend gains on strong foreign flows; US tariffs in focus",
+      "title": "Indian shares set to extend gains on strong foreign flows; US tariffs in focus",
+      "summary": "US tariffs will also be in focus after the Trump administration proposed levies on imports from 14 trading partners, including India, to combat what it calls structural excess industrial capacity.",
+      "url": "https://www.livemint.com/market/indian-shares-set-to-extend-gains-on-strong-foreign-flows-us-tariffs-in-focus-11795662523778.html",
+      "source": "Mint - Markets",
+      "primary_source": false,
+      "tier": 3,
+      "category": "economy-finance",
+      "secondary_categories": [
+        "business-industry"
+      ],
+      "confidence": "medium",
+      "score": 67.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-26T03:10:01+00:00",
+      "published_at": "2026-11-26T03:10:01+00:00",
+      "effective_at": "2026-11-26T03:10:01+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "ht-media": {
+          "kind": "independent",
+          "source_ids": [
+            "mint"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.2 >= 1.2",
+        "category: economy-finance (importance 1.2, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (mint) +1",
+        "source: specialist (mint) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'tariffs' in title weight 40",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: breaking (0.2h ago) +8",
+        "category: economy-finance (importance 1.2) +3.6",
+        "geo: national",
+        "dominant event 40, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "Indian shares are likely to open higher on Thursday, extending their recent winning streak, as record foreign fund inflows push benchmark indexes closer to wiping out their year-to-date losses.",
+        "US tariffs will also be in focus after the Trump administration proposed levies on imports from 14 trading partners, including India, to combat what it calls structural excess industrial capacity.",
+        "The US will cap the tariff imposed on Indian imports at 17% if a trade deal is struck between New Delhi and Washington, US Trade Representative Jamieson Greer said on Wednesday.",
+        "If no deal is reached, the tariff would rise to 25%.",
+        "GIFT Nifty futures were at 26,061.5 points, as of 8:01 a.m. IST, indicating a positive start for the benchmark Nifty 50 index, which closed at 25,819.25 on Wednesday.",
+        "The 26,000 points level can act as a key resistance level for the Nifty 50 index, testing whether the recent rally can sustain as the benchmark index nears record high, two analysts said.",
+        "The 50-stock index has climbed 12% this month, on course for its biggest gains since April 2020, as investors rotated into markets such as India following a rout in global AI-linked stocks and easing crude oil prices.",
+        "The index has lost 1.2% so far this year.",
+        "FPIs net bought Indian shares worth 44.79 billion rupees ($485.63 million) on Wednesday, as per provisional data.",
+        "They have bought a record $15.16 billion worth of shares in Asia's third-largest economy this month, helping lift the rupee 2.9%.",
+        "MSCI's Asia-Pacific shares outside Japan edged 0.6% higher on the day, eking out a rare rally after Wall Street retreated from a recent slump.",
+        "Brent crude futures traded around $94.7 per barrel versus about $91 when Indian markets closed on Wednesday."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "Indian shares are likely to open higher on Thursday, extending their recent winning streak, as record foreign fund inflows push benchmark indexes closer to wiping out their year-to-date losses.",
+          "US tariffs will also be in focus after the Trump administration proposed levies on imports from 14 trading partners, including India, to combat what it calls structural excess industrial capacity."
+        ],
+        "body": [
+          "The US will cap the tariff imposed on Indian imports at 17% if a trade deal is struck between New Delhi and Washington, US Trade Representative Jamieson Greer said on Wednesday.",
+          "GIFT Nifty futures were at 26,061.5 points, as of 8:01 a.m. IST, indicating a positive start for the benchmark Nifty 50 index, which closed at 25,819.25 on Wednesday.",
+          "The 26,000 points level can act as a key resistance level for the Nifty 50 index, testing whether the recent rally can sustain as the benchmark index nears record high, two analysts said.",
+          "The 50-stock index has climbed 12% this month, on course for its biggest gains since April 2020, as investors rotated into markets such as India following a rout in global AI-linked stocks and easing crude oil prices.",
+          "The index has lost 1.2% so far this year.",
+          "FPIs net bought Indian shares worth 44.79 billion rupees ($485.63 million) on Wednesday, as per provisional data.",
+          "MSCI's Asia-Pacific shares outside Japan edged 0.6% higher on the day, eking out a rare rally after Wall Street retreated from a recent slump.",
+          "Brent crude futures traded around $94.7 per barrel versus about $91 when Indian markets closed on Wednesday."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The 50-stock index has climbed 12% this month, on course for its biggest gains since April 2020, as investors rotated into markets such as India following a rout in global AI-linked stocks and easing crude oil prices.",
+            "source": "Mint - Markets",
+            "item_id": "32b761070b3bddd8217c2657:article",
+            "composed": false
+          },
+          {
+            "text": "FPIs net bought Indian shares worth 44.79 billion rupees ($485.63 million) on Wednesday, as per provisional data.",
+            "source": "Mint - Markets",
+            "item_id": "32b761070b3bddd8217c2657:article",
+            "composed": false
+          },
+          {
+            "text": "Brent crude futures traded around $94.7 per barrel versus about $91 when Indian markets closed on Wednesday.",
+            "source": "Mint - Markets",
+            "item_id": "32b761070b3bddd8217c2657:article",
+            "composed": false
+          },
+          {
+            "text": "The US will cap the tariff imposed on Indian imports at 17% if a trade deal is struck between New Delhi and Washington, US Trade Representative Jamieson Greer said on Wednesday.",
+            "source": "Mint - Markets",
+            "item_id": "32b761070b3bddd8217c2657:article",
+            "composed": false
+          }
+        ],
+        "source": "Mint - Markets",
+        "corroborating": [],
+        "url": "https://www.livemint.com/market/indian-shares-set-to-extend-gains-on-strong-foreign-flows-us-tariffs-in-focus-11795662523778.html"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "1aec4b89565a7a7044079012",
@@ -688,7 +807,7 @@
         "event term: 'olympics' in title weight 40",
         "event term: 'olympics' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: sports (importance 0.6) +0",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -775,7 +894,7 @@
         "event term: 'supreme court ruling' in summary weight 27.6",
         "scale: national scope",
         "scale: multi-state (2 states)",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 27.6, stack 45, score 45 -> HIGH"
@@ -899,7 +1018,7 @@
         "event term: 'supreme court' in summary weight 26.4",
         "event term: 'verdict' in summary weight 13.2",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.6h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -1014,7 +1133,7 @@
         "event term: 'chief justice' in title weight 42",
         "event term: 'chief justice' in summary weight 25.2",
         "scale: national scope",
-        "recency: fresh (3.7h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 42, stack 45, score 45 -> HIGH"
@@ -1050,198 +1169,6 @@
         "source": "Times of India",
         "corroborating": [],
         "url": "https://timesofindia.indiatimes.com/india/7th-high-court-posting-justice-rao-may-be-karnataka-chief-justice/articleshow/136174895.cms"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "6610c7d558f6ffccdda4d536",
-      "story_id": "6610c7d558f6ffccdda4d536",
-      "headline": "Supreme Court suggests referring KMC delimitation case back to High Court for fresh look",
-      "title": "Supreme Court suggests referring KMC delimitation case back to High Court for fresh look",
-      "summary": "Supreme Court lists the case for hearing on November 30 after lawyers seek time to get instructions on the suggestion from the court",
-      "url": "https://www.thehindu.com/news/national/west-bengal/supreme-court-inclined-to-stay-calcutta-hc-order-deferring-kolkata-civic-polls-till-decision-on-ward-delimitation/article71741489.ece",
-      "source": "The Hindu",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-25T21:18:50+00:00",
-      "published_at": "2026-11-25T21:18:50+00:00",
-      "effective_at": "2026-11-25T21:18:50+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "the-hindu"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (the-hindu) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: fresh (5.9h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court indicated orally on Wednesday (November 25, 2026) its inclination to set aside a Calcutta High Court order that put on hold the Kolkata Municipal Corporation (KMC) elections over a delimitation exercise, and requested the High Court to hear the dispute afresh.",
-        "A Bench headed by Chief Justice of India Surya Kant made the suggestion while hearing an appeal filed by the West Bengal government against the High Court order of November 6.",
-        "The High Court had directed the West Bengal State Election Commission to not notify the elections until a petition challenging the delimitation of municipal wards was decided.",
-        "Chief Justice Kant said the apex court was inclined to set aside the order of the High Court after taking into consideration pertinent legal and factual issues raised by the State government.",
-        "The writ petition could also be transferred from the Single Judge Bench to a Division Bench, which would consider the entire dispute afresh and pass appropriate orders.",
-        "“And till the Division Bench forms a view the polls can be held off,” the court suggested orally.",
-        "The lawyers for both the State and former CPI(M) councillor Dipu Das, who had filed the petition in the High Court against the delimitation exercise, sought time to take instructions.",
-        "The court listed the case for further hearing on November 30.",
-        "The Bench reasoned that its proposed “ad-hoc arrangement” would place both parties on an “even keel” without the Supreme Court expressing any opinion on the merits of the dispute.",
-        "The KMC had undertaken a revision of municipal ward boundaries ahead of the civic polls.",
-        "As part of the plan, the number of wards in the civic body may rise to 209 from the current 144.",
-        "A Division Bench of the High Court had stopped the State Election Commission from issuing the election notification till the Single Judge Bench hearing Mr. Das’s petition decided the legality of the ward delimitation exercise."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court indicated orally on Wednesday (November 25, 2026) its inclination to set aside a Calcutta High Court order that put on hold the Kolkata Municipal Corporation (KMC) elections over a delimitation exercise, and requested the High Court to hear the dispute afresh.",
-          "A Bench headed by Chief Justice of India Surya Kant made the suggestion while hearing an appeal filed by the West Bengal government against the High Court order of November 6."
-        ],
-        "body": [
-          "The High Court had directed the West Bengal State Election Commission to not notify the elections until a petition challenging the delimitation of municipal wards was decided.",
-          "Chief Justice Kant said the apex court was inclined to set aside the order of the High Court after taking into consideration pertinent legal and factual issues raised by the State government.",
-          "The writ petition could also be transferred from the Single Judge Bench to a Division Bench, which would consider the entire dispute afresh and pass appropriate orders.",
-          "“And till the Division Bench forms a view the polls can be held off,” the court suggested orally.",
-          "The lawyers for both the State and former CPI(M) councillor Dipu Das, who had filed the petition in the High Court against the delimitation exercise, sought time to take instructions.",
-          "The court listed the case for further hearing on November 30.",
-          "The Bench reasoned that its proposed “ad-hoc arrangement” would place both parties on an “even keel” without the Supreme Court expressing any opinion on the merits of the dispute.",
-          "The KMC had undertaken a revision of municipal ward boundaries ahead of the civic polls."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Supreme Court indicated orally on Wednesday (November 25, 2026) its inclination to set aside a Calcutta High Court order that put on hold the Kolkata Municipal Corporation (KMC) elections over a delimitation exercise, and requested the High Court to hear the dispute afresh.",
-            "source": "The Hindu",
-            "item_id": "6610c7d558f6ffccdda4d536:article",
-            "composed": false
-          },
-          {
-            "text": "A Bench headed by Chief Justice of India Surya Kant made the suggestion while hearing an appeal filed by the West Bengal government against the High Court order of November 6.",
-            "source": "The Hindu",
-            "item_id": "6610c7d558f6ffccdda4d536:article",
-            "composed": false
-          },
-          {
-            "text": "The court listed the case for further hearing on November 30.",
-            "source": "The Hindu",
-            "item_id": "6610c7d558f6ffccdda4d536:article",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/west-bengal/supreme-court-inclined-to-stay-calcutta-hc-order-deferring-kolkata-civic-polls-till-decision-on-ward-delimitation/article71741489.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
-      "event_id": "0bfd683b449c4291e3ead12d",
-      "story_id": "0bfd683b449c4291e3ead12d",
-      "headline": "Supreme Court nixes Allahabad HC order for Rahul’s assets probe",
-      "title": "Supreme Court nixes Allahabad HC order for Rahul’s assets probe",
-      "summary": "Supreme Court has quashed an order from the Allahabad high court to investigate Rahul Gandhi's assets. The high court did not consider Gandhi's response before issuing the order, which raised procedural concerns. Senior advocate Kapil Sibal criticized the order, claiming it permitted a witch-hunt without examining the petitioner's standing. The court will allow Gandhi to present his arguments regarding the petition's validity and the petitioner's status.",
-      "url": "https://timesofindia.indiatimes.com/india/supreme-court-nixes-allahabad-high-court-order-for-rahul-gandhis-assets-probe/articleshow/136172392.cms",
-      "source": "Times of India",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 87.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-25T21:13:10+00:00",
-      "published_at": "2026-11-25T21:13:10+00:00",
-      "effective_at": "2026-11-25T21:13:10+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indiatimes": {
-          "kind": "independent",
-          "source_ids": [
-            "times-of-india"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (times-of-india) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: fresh (6.0h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "Supreme Court has quashed an order from the Allahabad high court to investigate Rahul Gandhi's assets.",
-          "The high court did not consider Gandhi's response before issuing the order, which raised procedural concerns."
-        ],
-        "body": [
-          "Senior advocate Kapil Sibal criticized the order, claiming it permitted a witch-hunt without examining the petitioner's standing.",
-          "The court will allow Gandhi to present his arguments regarding the petition's validity and the petitioner's status."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Supreme Court has quashed an order from the Allahabad high court to investigate Rahul Gandhi's assets.",
-            "source": "Times of India",
-            "item_id": "0bfd683b449c4291e3ead12d",
-            "composed": false
-          },
-          {
-            "text": "Senior advocate Kapil Sibal criticized the order, claiming it permitted a witch-hunt without examining the petitioner's standing.",
-            "source": "Times of India",
-            "item_id": "0bfd683b449c4291e3ead12d",
-            "composed": false
-          }
-        ],
-        "source": "Times of India",
-        "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/india/supreme-court-nixes-allahabad-high-court-order-for-rahul-gandhis-assets-probe/articleshow/136172392.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1288,7 +1215,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (maharashtra)",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.1h ago) +8",
         "category: agriculture-rural (importance 1) +1.2",
         "geo: state",
         "dominant event 44, stack 17.2, score 44 -> HIGH"
@@ -1407,7 +1334,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet approves' in title weight 44",
         "scale: state scope (bihar)",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "geo: state",
         "dominant event 44, stack 12, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -1489,7 +1416,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'tariff' in title weight 40",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.4h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 31.6, score 40 -> HIGH"
