@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T09:12:12.832082+00:00",
-  "count": 13,
+  "generated_at": "2026-11-27T09:22:36.461171+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "6a6d99fd96267310b4e98665",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (gujarat)",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.9h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 20.4, score 84 -> IMMEDIATE"
@@ -87,6 +87,116 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
+    },
+    {
+      "event_id": "1a933cb15a7432a403cc6a93",
+      "story_id": "1a933cb15a7432a403cc6a93",
+      "headline": "Election Commission fixes website flaw exposing voter data after Reuters findings",
+      "title": "Election Commission fixes website flaw exposing voter data after Reuters findings",
+      "summary": "Researchers say flaw could have been easily ​abused",
+      "url": "https://www.thehindubusinessline.com/news/election-commission-fixes-website-flaw-exposing-voter-data-after-reuters-findings/article71749791.ece",
+      "source": "The Hindu BusinessLine",
+      "primary_source": false,
+      "tier": 3,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 58.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-27T09:19:13+00:00",
+      "published_at": "2026-11-27T09:19:13+00:00",
+      "effective_at": "2026-11-27T09:19:13+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "reuters": {
+          "kind": "wire",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: significance event 'Election'",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 3 (businessline) +1",
+        "source: specialist (businessline) +5",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'election' in title weight 58",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 58, stack 30.4, score 58 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "article_sentences": [
+        "A security flaw in India’s Election Commission (ECI) website that was allowing access to sensitive personal details and documents of some voters has been fixed, after Reuters discovered the vulnerability and alerted the institution.",
+        "Researchers said the flaw, which Reuters is the first to report, could have been easily abused.",
+        "The security issue, and the fix, come months ahead of elections in key Indian states, including the most populous, Uttar Pradesh, and while the ECI is facing growing public anger over a contentious drive to update voter lists.",
+        "Opposition parties and activists have said the drive has disenfranchised millions of voters to the benefit of Prime Minister Narendra Modi’s Bharatiya Janata Party.",
+        "The ECI says it has complied with all regulations, while the BJP argues opposition groups are misleading the country after failing to win elections.",
+        "A Reuters review over more than a month of the ECI’s website showed that when a voter logged into their account and requested a telephone call with their local electoral officer, the network tab in an ordinary browser’s developer tools, opened with a simple right click, started showing the reference number of the form submitted online to enrol as voters or update their information.",
+        "On using those reference numbers to book the call, the same network details started revealing personal information such as the name, phone number, email, date of birth and address of the user, and even file paths to identification documents like passports that were submitted.",
+        "Such details were not otherwise visible on the browser’s main screen, which pointed to a vulnerability in the website’s code, said Indian security researchers Karan Saini and Ehraz Ahmed, who reviewed the Reuters findings step by step on the ECI website.",
+        "The bigger concern, researchers said, was the reference numbers followed a predictable pattern, meaning hackers could guess them, and automate downloads of large amounts of data.",
+        "A lay user is unlikely to follow such steps while requesting a call, but cybercriminals could, and also automate the steps to harvest data in bulk and abuse it, they said.",
+        "Reuters first shared its findings and sought comment from the ECI and its three commissioners on October 26, but they did not respond despite repeated requests.",
+        "On Thursday, an ECI spokesman said the commission’s information technology division had been asked to look into the findings."
+      ],
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "A security flaw in India’s Election Commission (ECI) website that was allowing access to sensitive personal details and documents of some voters has been fixed, after Reuters discovered the vulnerability and alerted the institution.",
+          "Researchers said the flaw, which Reuters is the first to report, could have been easily abused."
+        ],
+        "body": [
+          "The security issue, and the fix, come months ahead of elections in key Indian states, including the most populous, Uttar Pradesh, and while the ECI is facing growing public anger over a contentious drive to update voter lists.",
+          "Opposition parties and activists have said the drive has disenfranchised millions of voters to the benefit of Prime Minister Narendra Modi’s Bharatiya Janata Party.",
+          "The ECI says it has complied with all regulations, while the BJP argues opposition groups are misleading the country after failing to win elections.",
+          "A Reuters review over more than a month of the ECI’s website showed that when a voter logged into their account and requested a telephone call with their local electoral officer, the network tab in an ordinary browser’s developer tools, opened with a simple right click, started showing the reference number of the form submitted online to enrol as voters or update their information.",
+          "On using those reference numbers to book the call, the same network details started revealing personal information such as the name, phone number, email, date of birth and address of the user, and even file paths to identification documents like passports that were submitted.",
+          "Such details were not otherwise visible on the browser’s main screen, which pointed to a vulnerability in the website’s code, said Indian security researchers Karan Saini and Ehraz Ahmed, who reviewed the Reuters findings step by step on the ECI website.",
+          "The bigger concern, researchers said, was the reference numbers followed a predictable pattern, meaning hackers could guess them, and automate downloads of large amounts of data.",
+          "A lay user is unlikely to follow such steps while requesting a call, but cybercriminals could, and also automate the steps to harvest data in bulk and abuse it, they said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India’s Election Commission"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A security flaw in India’s Election Commission (ECI) website that was allowing access to sensitive personal details and documents of some voters has been fixed, after Reuters discovered the vulnerability and alerted the institution.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a933cb15a7432a403cc6a93:article",
+            "composed": false
+          },
+          {
+            "text": "Opposition parties and activists have said the drive has disenfranchised millions of voters to the benefit of Prime Minister Narendra Modi’s Bharatiya Janata Party.",
+            "source": "The Hindu BusinessLine",
+            "item_id": "1a933cb15a7432a403cc6a93:article",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu BusinessLine",
+        "corroborating": [],
+        "url": "https://www.thehindubusinessline.com/news/election-commission-fixes-website-flaw-exposing-voter-data-after-reuters-findings/article71749791.ece"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN",
+      "enrichment": "article"
     },
     {
       "event_id": "7b7226a8c36d3788dad99e04",
@@ -134,7 +244,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.0h ago) +8",
+        "recency: breaking (0.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -255,7 +365,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -403,7 +513,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -511,7 +621,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.6h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -607,7 +717,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.9h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -708,7 +818,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.3h ago) +4",
+        "recency: fresh (5.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -793,7 +903,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -866,12 +976,12 @@
       "enrichment": "article"
     },
     {
-      "event_id": "34cfaebd6adbc39c8bde59ee",
-      "story_id": "34cfaebd6adbc39c8bde59ee",
-      "headline": "Cabinet clears 50% increase in LS seats across states, ceiling to remain till 2050",
-      "title": "Cabinet clears 50% increase in LS seats across states, ceiling to remain till 2050",
+      "event_id": "a404c0677bbf4a6817b18702",
+      "story_id": "a404c0677bbf4a6817b18702",
+      "headline": "Cabinet clears 50% increase in LS seats across states, ceiling to remain till 2051",
+      "title": "Cabinet clears 50% increase in LS seats across states, ceiling to remain till 2051",
       "summary": "",
-      "url": "https://timesofindia.indiatimes.com/india/cabinet-clears-50-increase-in-lok-sabha-seats-across-states-ceiling-to-remain-till-2050-sources/articleshow/136215708.cms",
+      "url": "https://timesofindia.indiatimes.com/india/cabinet-clears-50-increase-in-lok-sabha-seats-across-states-ceiling-to-remain-till-2051-sources/articleshow/136215708.cms",
       "source": "Times of India",
       "primary_source": false,
       "tier": 2,
@@ -903,7 +1013,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.3h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "geo: national",
         "dominant event 44, stack 24, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -952,31 +1062,31 @@
           {
             "text": "The proposed changes follow the defeat of the Constitution (131st Amendment) Bill, 2026, in the Lok Sabha in April.",
             "source": "Times of India",
-            "item_id": "34cfaebd6adbc39c8bde59ee:article",
+            "item_id": "a404c0677bbf4a6817b18702:article",
             "composed": false
           },
           {
             "text": "The special sitting of Parliament will begin with the Lok Sabha reconvening on November 30, while the Rajya Sabha will meet from December 2.",
             "source": "Times of India",
-            "item_id": "34cfaebd6adbc39c8bde59ee:article",
+            "item_id": "a404c0677bbf4a6817b18702:article",
             "composed": false
           },
           {
             "text": "NEW DELHI: The Union Cabinet chaired by Prime Minister Narendra Modi on Friday approved a proposal to increase the strength of the Lok Sabha by 50% across states, with the revised ceiling to remain in place until 2051, sources told TOI.",
             "source": "Times of India",
-            "item_id": "34cfaebd6adbc39c8bde59ee:article",
+            "item_id": "a404c0677bbf4a6817b18702:article",
             "composed": false
           },
           {
             "text": "Ayush Pandey is a journalist at The Times of India, covering breaking news, politics, defence, and major legal and policy developments across India and the world.",
             "source": "Times of India",
-            "item_id": "34cfaebd6adbc39c8bde59ee:article",
+            "item_id": "a404c0677bbf4a6817b18702:article",
             "composed": false
           }
         ],
         "source": "Times of India",
         "corroborating": [],
-        "url": "https://timesofindia.indiatimes.com/india/cabinet-clears-50-increase-in-lok-sabha-seats-across-states-ceiling-to-remain-till-2050-sources/articleshow/136215708.cms"
+        "url": "https://timesofindia.indiatimes.com/india/cabinet-clears-50-increase-in-lok-sabha-seats-across-states-ceiling-to-remain-till-2051-sources/articleshow/136215708.cms"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -1023,7 +1133,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1126,7 +1236,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1247,7 +1357,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1371,7 +1481,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.6h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 43.2, score 43.2 -> HIGH"
