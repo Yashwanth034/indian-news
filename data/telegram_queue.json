@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T09:32:42.574747+00:00",
-  "count": 13,
+  "generated_at": "2026-11-27T09:42:09.537760+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "6a6d99fd96267310b4e98665",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (gujarat)",
-        "recency: breaking (1.1h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 20.4, score 84 -> IMMEDIATE"
@@ -131,7 +131,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (0.2h ago) +8",
+        "recency: breaking (0.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -153,7 +153,7 @@
         "Reuters first shared its findings and sought comment from the ECI and its three commissioners on October 26, but they did not respond despite repeated requests.",
         "On Thursday, an ECI spokesman said the commission’s information technology division had been asked to look into the findings."
       ],
-      "public_label": "⚡ JUST IN",
+      "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
           "A security flaw in India’s Election Commission (ECI) website that was allowing access to sensitive personal details and documents of some voters has been fixed, after Reuters discovered the vulnerability and alerted the institution.",
@@ -195,7 +195,7 @@
         "url": "https://www.thehindubusinessline.com/news/election-commission-fixes-website-flaw-exposing-voter-data-after-reuters-findings/article71749791.ece"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN",
+      "label": "📰 NEWS",
       "enrichment": "article"
     },
     {
@@ -244,7 +244,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (0.4h ago) +8",
+        "recency: breaking (0.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -346,7 +346,7 @@
       "event_time": "2026-11-27T05:04:35+00:00",
       "published_at": "2026-11-27T05:04:35+00:00",
       "effective_at": "2026-11-27T05:04:35+00:00",
-      "independent_source_groups": 4,
+      "independent_source_groups": 3,
       "source_groups": {
         "pti": {
           "kind": "wire",
@@ -362,13 +362,6 @@
           ],
           "count": 1
         },
-        "indiatoday": {
-          "kind": "independent",
-          "source_ids": [
-            "business-today"
-          ],
-          "count": 1
-        },
         "business-standard": {
           "kind": "independent",
           "source_ids": [
@@ -381,18 +374,18 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 4 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.1 >= 1.1",
         "category: international-affairs (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (business-standard) +1",
         "source: specialist (business-standard) +5",
-        "source: event has 4 copies, primary source counted once",
-        "corroboration: 4 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.5h ago) +4",
+        "recency: fresh (4.6h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -455,6 +448,105 @@
       "enrichment": "rss"
     },
     {
+      "event_id": "734015e61a0b96806ce0575b",
+      "story_id": "734015e61a0b96806ce0575b",
+      "headline": "Union Cabinet approves bill amending seat delimitation and women's reservation with uniform Lok Sabha seat increase",
+      "title": "Union Cabinet approves bill amending seat delimitation and women's reservation with uniform Lok Sabha seat increase",
+      "summary": "Union Cabinet approves bill amending seat delimitation and women's reservation with uniform Lok Sabha seat increase",
+      "url": "https://www.indiatoday.in/india/video/union-cabinet-approves-constitutional-amendment-bill-changes-for-delimitation-and-womens-reservation-ytvd-3048262-2026-11-27",
+      "source": "India Today",
+      "primary_source": false,
+      "tier": 2,
+      "category": "national-politics",
+      "secondary_categories": [],
+      "confidence": "medium",
+      "score": 100.0,
+      "priority_score": 45.0,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-27T09:37:24+00:00",
+      "published_at": "2026-11-27T09:37:24+00:00",
+      "effective_at": "2026-11-27T09:37:24+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatoday": {
+          "kind": "independent",
+          "source_ids": [
+            "india-today"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "category: national-politics (importance 1.1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (india-today) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'cabinet approves' in title weight 44",
+        "event term: 'cabinet approves' in summary weight 26.4",
+        "scale: national scope",
+        "recency: breaking (0.1h ago) +8",
+        "category: national-politics (importance 1.1) +2.4",
+        "geo: national",
+        "dominant event 44, stack 45, score 45 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": null,
+      "national_significance": true,
+      "public_label": "⚡ JUST IN",
+      "briefing": {
+        "opening": [
+          "The Union Cabinet met here on Friday and is learnt to have cleared a fresh delimitation-linked women's reservation bill, which is likely to be brought before the special sitting of Parliament beginning next week.",
+          "Sources said the bill was brought before the special meeting of the Union Cabinet, which is expected to accord its nod to the fresh bill with some amendments to ensure that no state loses its representation in the Lok Sabha in proportion to other states after delimitation."
+        ],
+        "body": [
+          "The Cabinet meeting was chaired by Prime Minister Narendra Modi and was convened at 1 pm at Sewa Teerth to discuss the bill, which the government is keen to get passed in the special sitting of Parliament starting Monday.",
+          "The bill was brought in Parliament by the government during a special sitting in April, but it could not pass muster in the Lok Sabha.",
+          "The government has now claimed that it has the numbers to get the legislation through.",
+          "A two-thirds majority in both houses of Parliament is a must for."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Sewa Teerth"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The bill was brought in Parliament by the government during a special sitting in April, but it could not pass muster in the Lok Sabha.",
+            "source": "Business Standard",
+            "item_id": "240d12e70d254ca2c69345e1",
+            "composed": false
+          },
+          {
+            "text": "The Cabinet meeting was chaired by Prime Minister Narendra Modi and was convened at 1 pm at Sewa Teerth to discuss the bill, which the government is keen to get passed in the special sitting of Parliament starting Monday.",
+            "source": "Business Standard",
+            "item_id": "240d12e70d254ca2c69345e1",
+            "composed": false
+          },
+          {
+            "text": "The Union Cabinet met here on Friday and is learnt to have cleared a fresh delimitation-linked women's reservation bill, which is likely to be brought before the special sitting of Parliament beginning next week.",
+            "source": "Business Standard",
+            "item_id": "240d12e70d254ca2c69345e1",
+            "composed": false
+          }
+        ],
+        "source": "India Today",
+        "corroborating": [
+          "Business Standard"
+        ],
+        "url": "https://www.indiatoday.in/india/video/union-cabinet-approves-constitutional-amendment-bill-changes-for-delimitation-and-womens-reservation-ytvd-3048262-2026-11-27"
+      },
+      "group_size": 2,
+      "label": "⚡ JUST IN",
+      "enrichment": "rss"
+    },
+    {
       "event_id": "73567bbcbd92ce7907811173",
       "story_id": "73567bbcbd92ce7907811173",
       "headline": "U.S. 25% Tariff Threat: Why Is Washington Targeting India's PLI, Make In India & Atmanirbhar Bharat?",
@@ -500,7 +592,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.9h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -596,7 +688,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.4h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -697,7 +789,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (5.6h ago) +4",
+        "recency: fresh (5.8h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -792,7 +884,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.7h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "geo: national",
         "dominant event 44, stack 30, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -915,7 +1007,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.8h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1028,7 +1120,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
+        "recency: breaking (1.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1131,7 +1223,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.0h ago) +8",
+        "recency: breaking (2.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1252,7 +1344,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.1h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1376,7 +1468,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (3.9h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 43.2, score 43.2 -> HIGH"
