@@ -1,7 +1,93 @@
 {
-  "generated_at": "2026-11-27T08:42:18.136574+00:00",
-  "count": 12,
+  "generated_at": "2026-11-27T08:52:07.270473+00:00",
+  "count": 13,
   "stories": [
+    {
+      "event_id": "6a6d99fd96267310b4e98665",
+      "story_id": "6a6d99fd96267310b4e98665",
+      "headline": "Terror attack on IAF station foiled: Gujarat ATS arrests JeM operative, rifle recovered",
+      "title": "Terror attack on IAF station foiled: Gujarat ATS arrests JeM operative, rifle recovered",
+      "summary": "Gujarat ATS thwarted a planned terrorist attack targeting a security establishment in the state. Officials arrested the suspect, Mohammad Islam Kabiruddin, who is linked to Jaish-e-Mohammed. During the arrest, authorities discovered an AK-47-style rifle, ammunition, and a Jaish-e-Mohammed flag in his possession. The perpetrator's handler provided financial support to facilitate his operations and escape.",
+      "url": "https://timesofindia.indiatimes.com/india/suspected-jaish-terrorist-planned-attack-on-security-establishment-gujarat-ats/articleshow/136214666.cms",
+      "source": "Times of India",
+      "primary_source": false,
+      "tier": 2,
+      "category": "crime-public-safety",
+      "secondary_categories": [
+        "defence-security"
+      ],
+      "confidence": "medium",
+      "score": 99.2,
+      "priority_score": 84.0,
+      "priority_level": "IMMEDIATE",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-27T08:29:10+00:00",
+      "published_at": "2026-11-27T08:29:10+00:00",
+      "effective_at": "2026-11-27T08:29:10+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "indiatimes": {
+          "kind": "independent",
+          "source_ids": [
+            "times-of-india"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": false,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "major: category importance 1.1 >= 1.1",
+        "major: urgent category",
+        "major: significance event 'Terror attack'",
+        "category: crime-public-safety (importance 1.1, urgent=True)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (times-of-india) +2",
+        "corroboration: single independent source -> medium confidence",
+        "event term: 'terror attack' in title weight 84",
+        "scale: state scope (gujarat)",
+        "recency: breaking (0.4h ago) +8",
+        "category: crime-public-safety (importance 1.1) +2.4",
+        "geo: national significance (local/state event)",
+        "dominant event 84, stack 20.4, score 84 -> IMMEDIATE"
+      ],
+      "geo_scope": "state",
+      "state": "gujarat",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "Gujarat ATS thwarted a planned terrorist attack targeting a security establishment in the state.",
+          "Officials arrested the suspect, Mohammad Islam Kabiruddin, who is linked to Jaish-e-Mohammed."
+        ],
+        "body": [
+          "During the arrest, authorities discovered an AK-47-style rifle, ammunition, and a Jaish-e-Mohammed flag in his possession.",
+          "The perpetrator's handler provided financial support to facilitate his operations and escape."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "During the arrest, authorities discovered an AK-47-style rifle, ammunition, and a Jaish-e-Mohammed flag in his possession.",
+            "source": "Times of India",
+            "item_id": "6a6d99fd96267310b4e98665",
+            "composed": false
+          },
+          {
+            "text": "Gujarat ATS thwarted a planned terrorist attack targeting a security establishment in the state.",
+            "source": "Times of India",
+            "item_id": "6a6d99fd96267310b4e98665",
+            "composed": false
+          }
+        ],
+        "source": "Times of India",
+        "corroborating": [],
+        "url": "https://timesofindia.indiatimes.com/india/suspected-jaish-terrorist-planned-attack-on-security-establishment-gujarat-ats/articleshow/136214666.cms"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
+    },
     {
       "event_id": "c114477244f230daf80e4dc7",
       "story_id": "c114477244f230daf80e4dc7",
@@ -48,7 +134,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.7h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -169,7 +255,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (andhra pradesh)",
-        "recency: fresh (3.5h ago) +4",
+        "recency: fresh (3.7h ago) +4",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 16.4, score 58 -> HIGH"
@@ -271,12 +357,19 @@
       "event_time": "2026-11-27T05:04:35+00:00",
       "published_at": "2026-11-27T05:04:35+00:00",
       "effective_at": "2026-11-27T05:04:35+00:00",
-      "independent_source_groups": 2,
+      "independent_source_groups": 3,
       "source_groups": {
         "pti": {
           "kind": "wire",
           "source_ids": [
             "business-standard"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
           ],
           "count": 1
         },
@@ -292,18 +385,18 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: corroborated by 2 independent sources",
+        "major: corroborated by 3 independent sources",
         "major: category importance 1.1 >= 1.1",
         "category: international-affairs (importance 1.1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
         "source: tier 3 (business-standard) +1",
         "source: specialist (business-standard) +5",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: 2 independent source groups -> high confidence",
+        "source: event has 3 copies, primary source counted once",
+        "corroboration: 3 independent source groups -> high confidence",
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.6h ago) +4",
+        "recency: fresh (3.8h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -411,7 +504,7 @@
         "event term: 'tariff' in title weight 40",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.9h ago) +8",
+        "recency: breaking (2.0h ago) +8",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -507,7 +600,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (3.4h ago) +4",
+        "recency: fresh (3.5h ago) +4",
         "category: economy-finance (importance 1.2) +3.6",
         "geo: national",
         "dominant event 40, stack 45, score 45 -> HIGH"
@@ -608,7 +701,7 @@
         "event term: 'supreme court' in title weight 44",
         "event term: 'supreme court' in summary weight 26.4",
         "scale: national scope",
-        "recency: fresh (4.8h ago) +4",
+        "recency: fresh (4.9h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 45, score 45 -> HIGH"
@@ -644,180 +737,6 @@
         "source": "CNBC-TV18",
         "corroborating": [],
         "url": "https://www.cnbctv18.com/videos/market/icici-securities-manoj-menon-fmcg-outlook-food-label-rules-stocks-20042686.htm"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "rss"
-    },
-    {
-      "event_id": "71724598818e423a951781f2",
-      "story_id": "71724598818e423a951781f2",
-      "headline": "India-US trade pact and tariffs: An explainer",
-      "title": "India-US trade pact and tariffs: An explainer",
-      "summary": "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025. But changes in Washington's tariff structure have brought the two sides back to the negotiating table. The US has proposed a fresh set of tariffs on 14 economies, including India. Here is an explainer to understand the developments so far. Why this trade pact? India is pursuing the agreement to safeguard the competitiveness of its exports amid high American tariffs and secure an edge over rival South and South East Asian manufacturing economies. Why these tariffs? The US is using tariffs against its trading partners such as India to address trade deficits, shield domestic industries from foreign competition and press countries to negotiate trade agreements on terms favourable to Washington. The US has alleged that trading partners like India and China impose steep import duties and restrictive regulations on American goods while enjoying low-tariff access to the US market. What is a tariff? It is a customs or import duty imposed by the importing country on goods entering its territory and paid by the importer. Tariffs increase the cost of imported goods and can make them more expensive than domestically produced products. They are used to protect domestic industries, generate government revenue and influence trade flows. Why US market important for India? The US has been India's largest trading partner since 2021-22. Exports grew 0.92 pc to USD 87.3 billion during 2025-26, while imports increased 15.95 per cent to USD 52.9 billion. India's trade surplus with the US declined to USD 34.4 billion in 2025-26 from USD 40.89 billion in 2024-25. The US is India's largest export destination for sectors such as textiles, pharmaceuticals, engineering goods, gems and jewellery, chemicals and electronics. Any increase in tariffs could affect the price competitiveness of Indian products and exporters' ability to retain or expand their market share. Why tariff landscape in US changing? The US announced a 25 pc duty from August 7, 2025. An additional 25 pc tariff was imposed on Indian goods as a penalty for New Delhi's continued purchase of Russian oil. After this order, the total tariff on Indian goods, barring an exemption list, rose to 50 pc. On February 2, 2026, India and the US agreed on a trade deal, under which Washington agreed to bring down the reciprocal tariff on Indian goods to 18 pc. On February 20, the US Supreme Court struck down the reciprocal tariff system. The Donald Trump administration subsequently turned to Section 301 of the Trade Act of 1974, which allows the US to impose tariffs following investigations into alleged unfair trade practices. The probes into forced labour and excess manufacturing capacity are part of Washington's efforts to rebuild its tariff regime under an alternative legal provision. On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'. What triggered the latest development? The US Trade Representative (USTR) on November 25 announced the findings of its second Sec 301 investigations into structural excess manufacturing capacity in 14 economies, including India, and proposed additional tariffs on their goods. For India, it proposed tariffs of up to 25 per cent, while indicating that the rate could be adjusted to 17 per cent if the two countries reach a trade agreement. US allegations on India? The USTR has alleged that India's industrial policies (such as the 'Make in India' initiative and PLI schemes), manufacturing expansion plans, labour protections, financial practices and market access barriers contribute to structural excess capacity and hurt American firms. The report has identified sectors such as steel, solar, pharmaceuticals, medical devices and information and communications technology as areas of concern. India's response? India has rejected the allegations, stating that it does not have structural excess capacity in any sector. It emphasised that any trade-related concerns should be addressed within the framework of the trade pact negotiations. It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026. Joint statement? The two countries announced that they have reached a framework for an interim agreement regarding reciprocal and mutually beneficial trade. The terms of that pact include: - India will eliminate or reduce tariffs on all US industrial goods and a wide range of food and agri products. - The US will apply a reciprocal tariff rate of 18 pc on Indian goods, subject to the successful conclusion of the interim agreement. - Both will address non-tariff barriers that affect bilateral trade. Important: \"In the event of any changes to the agreed-upon tariffs of either country, the US and India agree that the other country may modify its commitments.\" - India intends to purchase USD 500 billion of US energy products, aircraft and aircraft parts, precious metals, technology products, and coking coal over the next 5 years. \\ Current status of talks? India has stated on multiple occasions that the deal has been finalised and will be signed once the US tariff framework is in place and India gets a comparative advantage over its competitor nations. Comparative advantage means securing lower US import tariffs and better market access than rival manufacturing countries, such as Bangladesh, Vietnam, Indonesia, Thailand, and China, so Indian exporters can price goods more competitively in the US market. Has India received the advantage ? The latest USTR's report has proposed a 17 per cent tariff on India if the trade pact is finalised. It gives only one per cent edge over Bangladesh, Cambodia, Indonesia, Malaysia, and Thailand (18 per cent deal rate) and a 3 per cent edge over Vietnam and China (20 per cent deal rate). Without a pact, tariffs against India could go up to 25 pc. However, according to experts, Indian exporters could face a tariff disadvantage against goods from several other countries in the US market, as Washington's latest Section 301 investigation into structural excess capacity covers only 14 trading partners, while the probe into forced-labour-related trade practices covers 60 countries. This leaves a much larger group of economies (including Pakistan, Sri Lanka, the Philippines and Turkiye) potentially outside the additional tariff action, giving their exporters a relative cost advantage in the US market. Experts view While exporters are urging the government to finalise the pact at the earliest, think tank GTRI said that with the threat of up to 100 pc Graham tariffs still looming, New Delhi must reject a one-sided trade deal and defend its industrial expansion sector by sector as serving legitimate domestic, export, and future demand. What next The USTR has decided to schedule public hearings on its proposals on January 25 and has sought written comments from interested persons by January 5 as part of the final regulatory requirements before the tariffs come into effect.",
-      "url": "https://www.greaterkashmir.com/business/india-us-trade-pact-and-tariffs-an-explainer-12844907",
-      "source": "Greater Kashmir",
-      "primary_source": false,
-      "tier": 2,
-      "category": "business-industry",
-      "secondary_categories": [
-        "economy-finance",
-        "energy-environment",
-        "international-affairs",
-        "courts-law",
-        "technology-digital",
-        "health",
-        "jobs-employment",
-        "agriculture-rural",
-        "crime-public-safety",
-        "government-policy"
-      ],
-      "confidence": "low",
-      "score": 100.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-27T05:46:19+00:00",
-      "published_at": "2026-11-27T05:46:19+00:00",
-      "effective_at": "2026-11-27T05:46:19+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "pti": {
-          "kind": "wire",
-          "source_ids": [
-            "greater-kashmir"
-          ],
-          "count": 1
-        },
-        "thehindu": {
-          "kind": "independent",
-          "source_ids": [
-            "businessline"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": true,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "category: business-industry (importance 1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (greater-kashmir) +2",
-        "source: event has 2 copies, primary source counted once",
-        "corroboration: wire echo (pti) -> no independent boost",
-        "event term: 'tariffs' in title weight 40",
-        "event term: 'supreme court' in summary weight 26.4",
-        "event term: 'final' in summary weight 6",
-        "event term: 'tariff' in summary weight 24",
-        "event term: 'tariffs' in summary weight 24",
-        "scale: national scope",
-        "recency: breaking (2.9h ago) +8",
-        "category: business-industry (importance 1) +1.2",
-        "geo: national",
-        "dominant event 40, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "delhi",
-      "national_significance": true,
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025.",
-          "But changes in Washington's tariff structure have brought the two sides back to the negotiating table."
-        ],
-        "body": [
-          "The US has proposed a fresh set of tariffs on 14 economies, including India.",
-          "Here is an explainer to understand the developments so far.",
-          "Why this trade pact?",
-          "India is pursuing the agreement to safeguard the competitiveness of its exports amid high American tariffs and secure an edge over rival South and South East Asian manufacturing economies.",
-          "Why these tariffs?",
-          "The US is using tariffs against its trading partners such as India to address trade deficits, shield domestic industries from foreign competition and press countries to negotiate trade agreements on terms favourable to Washington.",
-          "The US has alleged that trading partners like India and China impose steep import duties and restrictive regulations on American goods while enjoying low-tariff access to the US market.",
-          "What is a tariff?",
-          "It is a customs or import duty imposed by the importing country on goods entering its territory and paid by the importer.",
-          "Tariffs increase the cost of imported goods and can make them more expensive than domestically produced products.",
-          "They are used to protect domestic industries, generate government revenue and influence trade flows.",
-          "Why US market important for India?",
-          "The US has been India's largest trading partner since 2021-22.",
-          "Exports grew 0.92 pc to USD 87.3 billion during 2025-26, while imports increased 15.95 per cent to USD 52.9 billion.",
-          "The US is India's largest export destination for sectors such as textiles, pharmaceuticals, engineering goods, gems and jewellery, chemicals and electronics.",
-          "Any increase in tariffs could affect the price competitiveness of Indian products and exporters' ability to retain or expand their market share.",
-          "Why tariff landscape in US changing?",
-          "The US announced a 25 pc duty from August 7, 2025.",
-          "An additional 25 pc tariff was imposed on Indian goods as a penalty for New Delhi's continued purchase of Russian oil.",
-          "After this order, the total tariff on Indian goods, barring an exemption list, rose to 50 pc.",
-          "On February 2, 2026, India and the US agreed on a trade deal, under which Washington agreed to bring down the reciprocal tariff on Indian goods to 18 pc.",
-          "On February 20, the US Supreme Court struck down the reciprocal tariff system.",
-          "The Donald Trump administration subsequently turned to Section 301 of the Trade Act of 1974, which allows the US to impose tariffs following investigations into alleged unfair trade practices.",
-          "The probes into forced labour and excess manufacturing capacity are part of Washington's efforts to rebuild its tariff regime under an alternative legal provision.",
-          "On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'.",
-          "What triggered the latest development?",
-          "The US Trade Representative (USTR) on November 25 announced the findings of its second Sec 301 investigations into structural excess manufacturing capacity in 14 economies, including India, and proposed additional tariffs on their goods.",
-          "For India, it proposed tariffs of up to 25 per cent, while indicating that the rate could be adjusted to 17 per cent if the two countries reach a trade agreement.",
-          "US allegations on India?",
-          "The USTR has alleged that India's industrial policies (such as the 'Make in India' initiative and PLI schemes), manufacturing expansion plans, labour protections, financial practices and market access barriers contribute to structural excess capacity and hurt American firms.",
-          "The report has identified sectors such as steel, solar, pharmaceuticals, medical devices and information and communications technology as areas of concern.",
-          "India's response?",
-          "India has rejected the allegations, stating that it does not have structural excess capacity in any sector.",
-          "It emphasised that any trade-related concerns should be addressed within the framework of the trade pact negotiations.",
-          "It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026.",
-          "Joint statement?",
-          "The two countries announced that they have reached a framework for an interim agreement regarding reciprocal and mutually beneficial trade.",
-          "The terms of that pact include: - India will eliminate or reduce tariffs on all US industrial goods and a wide range of food and agri products.",
-          "- The US will apply a reciprocal tariff rate of 18 pc on Indian goods, subject to the successful conclusion of the interim agreement.",
-          "- Both will address non-tariff barriers that affect bilateral trade.",
-          "Important: \"In the event of any changes to the agreed-upon tariffs of either country, the US and India agree that the other country may modify its commitments.\" - India intends to purchase USD 500 billion of US energy products, aircraft and aircraft parts, precious metals, technology products, and coking coal over the next 5 years.",
-          "\\ Current status of talks?",
-          "India has stated on multiple occasions that the deal has been finalised and will be signed once the US tariff framework is in place and India gets a comparative advantage over its competitor nations.",
-          "Comparative advantage means securing lower US import tariffs and better market access than rival manufacturing countries, such as Bangladesh, Vietnam, Indonesia, Thailand, and China, so Indian exporters can price goods more competitively in the US market.",
-          "Has India received the advantage?",
-          "The latest USTR's report has proposed a 17 per cent tariff on India if the trade pact is finalised.",
-          "It gives only one per cent edge over Bangladesh, Cambodia, Indonesia, Malaysia, and Thailand (18 per cent deal rate) and a 3 per cent edge over Vietnam and China (20 per cent deal rate).",
-          "Without a pact, tariffs against India could go up to 25 pc.",
-          "However, according to experts, Indian exporters could face a tariff disadvantage against goods from several other countries in the US market, as Washington's latest Section 301 investigation into structural excess capacity covers only 14 trading partners, while the probe into forced-labour-related trade practices covers 60 countries.",
-          "This leaves a much larger group of economies (including Pakistan, Sri Lanka, the Philippines and Turkiye) potentially outside the additional tariff action, giving their exporters a relative cost advantage in the US market.",
-          "Experts view.",
-          "While exporters are urging the government to finalise the pact at the earliest, think tank GTRI said that with the threat of up to 100 pc Graham tariffs still looming, New Delhi must reject a one-sided trade deal and defend its industrial expansion sector by sector as serving legitimate domestic, export, and future demand.",
-          "What next.",
-          "The USTR has decided to schedule public hearings on its proposals on January 25 and has sought written comments from interested persons by January 5 as part of the final regulatory requirements before the tariffs come into effect."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "February"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The US announced a 25 pc duty from August 7, 2025.",
-            "source": "Greater Kashmir",
-            "item_id": "71724598818e423a951781f2",
-            "composed": false
-          },
-          {
-            "text": "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025.",
-            "source": "Greater Kashmir",
-            "item_id": "71724598818e423a951781f2",
-            "composed": false
-          },
-          {
-            "text": "On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'.",
-            "source": "Greater Kashmir",
-            "item_id": "71724598818e423a951781f2",
-            "composed": false
-          },
-          {
-            "text": "It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026.",
-            "source": "Greater Kashmir",
-            "item_id": "71724598818e423a951781f2",
-            "composed": false
-          }
-        ],
-        "source": "Greater Kashmir",
-        "corroborating": [],
-        "url": "https://www.greaterkashmir.com/business/india-us-trade-pact-and-tariffs-an-explainer-12844907"
       },
       "group_size": 1,
       "label": "📰 NEWS",
@@ -867,7 +786,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.8h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -972,7 +891,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.0h ago) +8",
+        "recency: breaking (1.2h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1085,7 +1004,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (0.8h ago) +8",
+        "recency: breaking (1.0h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1188,7 +1107,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
+        "recency: breaking (1.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1309,7 +1228,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.3h ago) +4",
+        "recency: fresh (3.4h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1369,6 +1288,180 @@
       "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "article"
+    },
+    {
+      "event_id": "71724598818e423a951781f2",
+      "story_id": "71724598818e423a951781f2",
+      "headline": "India-US trade pact and tariffs: An explainer",
+      "title": "India-US trade pact and tariffs: An explainer",
+      "summary": "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025. But changes in Washington's tariff structure have brought the two sides back to the negotiating table. The US has proposed a fresh set of tariffs on 14 economies, including India. Here is an explainer to understand the developments so far. Why this trade pact? India is pursuing the agreement to safeguard the competitiveness of its exports amid high American tariffs and secure an edge over rival South and South East Asian manufacturing economies. Why these tariffs? The US is using tariffs against its trading partners such as India to address trade deficits, shield domestic industries from foreign competition and press countries to negotiate trade agreements on terms favourable to Washington. The US has alleged that trading partners like India and China impose steep import duties and restrictive regulations on American goods while enjoying low-tariff access to the US market. What is a tariff? It is a customs or import duty imposed by the importing country on goods entering its territory and paid by the importer. Tariffs increase the cost of imported goods and can make them more expensive than domestically produced products. They are used to protect domestic industries, generate government revenue and influence trade flows. Why US market important for India? The US has been India's largest trading partner since 2021-22. Exports grew 0.92 pc to USD 87.3 billion during 2025-26, while imports increased 15.95 per cent to USD 52.9 billion. India's trade surplus with the US declined to USD 34.4 billion in 2025-26 from USD 40.89 billion in 2024-25. The US is India's largest export destination for sectors such as textiles, pharmaceuticals, engineering goods, gems and jewellery, chemicals and electronics. Any increase in tariffs could affect the price competitiveness of Indian products and exporters' ability to retain or expand their market share. Why tariff landscape in US changing? The US announced a 25 pc duty from August 7, 2025. An additional 25 pc tariff was imposed on Indian goods as a penalty for New Delhi's continued purchase of Russian oil. After this order, the total tariff on Indian goods, barring an exemption list, rose to 50 pc. On February 2, 2026, India and the US agreed on a trade deal, under which Washington agreed to bring down the reciprocal tariff on Indian goods to 18 pc. On February 20, the US Supreme Court struck down the reciprocal tariff system. The Donald Trump administration subsequently turned to Section 301 of the Trade Act of 1974, which allows the US to impose tariffs following investigations into alleged unfair trade practices. The probes into forced labour and excess manufacturing capacity are part of Washington's efforts to rebuild its tariff regime under an alternative legal provision. On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'. What triggered the latest development? The US Trade Representative (USTR) on November 25 announced the findings of its second Sec 301 investigations into structural excess manufacturing capacity in 14 economies, including India, and proposed additional tariffs on their goods. For India, it proposed tariffs of up to 25 per cent, while indicating that the rate could be adjusted to 17 per cent if the two countries reach a trade agreement. US allegations on India? The USTR has alleged that India's industrial policies (such as the 'Make in India' initiative and PLI schemes), manufacturing expansion plans, labour protections, financial practices and market access barriers contribute to structural excess capacity and hurt American firms. The report has identified sectors such as steel, solar, pharmaceuticals, medical devices and information and communications technology as areas of concern. India's response? India has rejected the allegations, stating that it does not have structural excess capacity in any sector. It emphasised that any trade-related concerns should be addressed within the framework of the trade pact negotiations. It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026. Joint statement? The two countries announced that they have reached a framework for an interim agreement regarding reciprocal and mutually beneficial trade. The terms of that pact include: - India will eliminate or reduce tariffs on all US industrial goods and a wide range of food and agri products. - The US will apply a reciprocal tariff rate of 18 pc on Indian goods, subject to the successful conclusion of the interim agreement. - Both will address non-tariff barriers that affect bilateral trade. Important: \"In the event of any changes to the agreed-upon tariffs of either country, the US and India agree that the other country may modify its commitments.\" - India intends to purchase USD 500 billion of US energy products, aircraft and aircraft parts, precious metals, technology products, and coking coal over the next 5 years. \\ Current status of talks? India has stated on multiple occasions that the deal has been finalised and will be signed once the US tariff framework is in place and India gets a comparative advantage over its competitor nations. Comparative advantage means securing lower US import tariffs and better market access than rival manufacturing countries, such as Bangladesh, Vietnam, Indonesia, Thailand, and China, so Indian exporters can price goods more competitively in the US market. Has India received the advantage ? The latest USTR's report has proposed a 17 per cent tariff on India if the trade pact is finalised. It gives only one per cent edge over Bangladesh, Cambodia, Indonesia, Malaysia, and Thailand (18 per cent deal rate) and a 3 per cent edge over Vietnam and China (20 per cent deal rate). Without a pact, tariffs against India could go up to 25 pc. However, according to experts, Indian exporters could face a tariff disadvantage against goods from several other countries in the US market, as Washington's latest Section 301 investigation into structural excess capacity covers only 14 trading partners, while the probe into forced-labour-related trade practices covers 60 countries. This leaves a much larger group of economies (including Pakistan, Sri Lanka, the Philippines and Turkiye) potentially outside the additional tariff action, giving their exporters a relative cost advantage in the US market. Experts view While exporters are urging the government to finalise the pact at the earliest, think tank GTRI said that with the threat of up to 100 pc Graham tariffs still looming, New Delhi must reject a one-sided trade deal and defend its industrial expansion sector by sector as serving legitimate domestic, export, and future demand. What next The USTR has decided to schedule public hearings on its proposals on January 25 and has sought written comments from interested persons by January 5 as part of the final regulatory requirements before the tariffs come into effect.",
+      "url": "https://www.greaterkashmir.com/business/india-us-trade-pact-and-tariffs-an-explainer-12844907",
+      "source": "Greater Kashmir",
+      "primary_source": false,
+      "tier": 2,
+      "category": "business-industry",
+      "secondary_categories": [
+        "economy-finance",
+        "energy-environment",
+        "international-affairs",
+        "courts-law",
+        "technology-digital",
+        "health",
+        "jobs-employment",
+        "agriculture-rural",
+        "crime-public-safety",
+        "government-policy"
+      ],
+      "confidence": "low",
+      "score": 100.0,
+      "priority_score": 43.2,
+      "priority_level": "HIGH",
+      "max_delay_minutes": null,
+      "event_time": "2026-11-27T05:46:19+00:00",
+      "published_at": "2026-11-27T05:46:19+00:00",
+      "effective_at": "2026-11-27T05:46:19+00:00",
+      "independent_source_groups": 1,
+      "source_groups": {
+        "pti": {
+          "kind": "wire",
+          "source_ids": [
+            "greater-kashmir"
+          ],
+          "count": 1
+        },
+        "thehindu": {
+          "kind": "independent",
+          "source_ids": [
+            "businessline"
+          ],
+          "count": 1
+        }
+      },
+      "is_wire_echo": true,
+      "status": "queued",
+      "reasons": [
+        "major: geo national significance",
+        "category: business-industry (importance 1, urgent=False)",
+        "score 100.0 -> pass (pass >= 60, filler >= 35)",
+        "source: tier 2 (greater-kashmir) +2",
+        "source: event has 2 copies, primary source counted once",
+        "corroboration: wire echo (pti) -> no independent boost",
+        "event term: 'tariffs' in title weight 40",
+        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'final' in summary weight 6",
+        "event term: 'tariff' in summary weight 24",
+        "event term: 'tariffs' in summary weight 24",
+        "scale: national scope",
+        "recency: fresh (3.1h ago) +4",
+        "category: business-industry (importance 1) +1.2",
+        "geo: national",
+        "dominant event 40, stack 43.2, score 43.2 -> HIGH"
+      ],
+      "geo_scope": "national",
+      "state": "delhi",
+      "national_significance": true,
+      "public_label": "📰 NEWS",
+      "briefing": {
+        "opening": [
+          "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025.",
+          "But changes in Washington's tariff structure have brought the two sides back to the negotiating table."
+        ],
+        "body": [
+          "The US has proposed a fresh set of tariffs on 14 economies, including India.",
+          "Here is an explainer to understand the developments so far.",
+          "Why this trade pact?",
+          "India is pursuing the agreement to safeguard the competitiveness of its exports amid high American tariffs and secure an edge over rival South and South East Asian manufacturing economies.",
+          "Why these tariffs?",
+          "The US is using tariffs against its trading partners such as India to address trade deficits, shield domestic industries from foreign competition and press countries to negotiate trade agreements on terms favourable to Washington.",
+          "The US has alleged that trading partners like India and China impose steep import duties and restrictive regulations on American goods while enjoying low-tariff access to the US market.",
+          "What is a tariff?",
+          "It is a customs or import duty imposed by the importing country on goods entering its territory and paid by the importer.",
+          "Tariffs increase the cost of imported goods and can make them more expensive than domestically produced products.",
+          "They are used to protect domestic industries, generate government revenue and influence trade flows.",
+          "Why US market important for India?",
+          "The US has been India's largest trading partner since 2021-22.",
+          "Exports grew 0.92 pc to USD 87.3 billion during 2025-26, while imports increased 15.95 per cent to USD 52.9 billion.",
+          "The US is India's largest export destination for sectors such as textiles, pharmaceuticals, engineering goods, gems and jewellery, chemicals and electronics.",
+          "Any increase in tariffs could affect the price competitiveness of Indian products and exporters' ability to retain or expand their market share.",
+          "Why tariff landscape in US changing?",
+          "The US announced a 25 pc duty from August 7, 2025.",
+          "An additional 25 pc tariff was imposed on Indian goods as a penalty for New Delhi's continued purchase of Russian oil.",
+          "After this order, the total tariff on Indian goods, barring an exemption list, rose to 50 pc.",
+          "On February 2, 2026, India and the US agreed on a trade deal, under which Washington agreed to bring down the reciprocal tariff on Indian goods to 18 pc.",
+          "On February 20, the US Supreme Court struck down the reciprocal tariff system.",
+          "The Donald Trump administration subsequently turned to Section 301 of the Trade Act of 1974, which allows the US to impose tariffs following investigations into alleged unfair trade practices.",
+          "The probes into forced labour and excess manufacturing capacity are part of Washington's efforts to rebuild its tariff regime under an alternative legal provision.",
+          "On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'.",
+          "What triggered the latest development?",
+          "The US Trade Representative (USTR) on November 25 announced the findings of its second Sec 301 investigations into structural excess manufacturing capacity in 14 economies, including India, and proposed additional tariffs on their goods.",
+          "For India, it proposed tariffs of up to 25 per cent, while indicating that the rate could be adjusted to 17 per cent if the two countries reach a trade agreement.",
+          "US allegations on India?",
+          "The USTR has alleged that India's industrial policies (such as the 'Make in India' initiative and PLI schemes), manufacturing expansion plans, labour protections, financial practices and market access barriers contribute to structural excess capacity and hurt American firms.",
+          "The report has identified sectors such as steel, solar, pharmaceuticals, medical devices and information and communications technology as areas of concern.",
+          "India's response?",
+          "India has rejected the allegations, stating that it does not have structural excess capacity in any sector.",
+          "It emphasised that any trade-related concerns should be addressed within the framework of the trade pact negotiations.",
+          "It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026.",
+          "Joint statement?",
+          "The two countries announced that they have reached a framework for an interim agreement regarding reciprocal and mutually beneficial trade.",
+          "The terms of that pact include: - India will eliminate or reduce tariffs on all US industrial goods and a wide range of food and agri products.",
+          "- The US will apply a reciprocal tariff rate of 18 pc on Indian goods, subject to the successful conclusion of the interim agreement.",
+          "- Both will address non-tariff barriers that affect bilateral trade.",
+          "Important: \"In the event of any changes to the agreed-upon tariffs of either country, the US and India agree that the other country may modify its commitments.\" - India intends to purchase USD 500 billion of US energy products, aircraft and aircraft parts, precious metals, technology products, and coking coal over the next 5 years.",
+          "\\ Current status of talks?",
+          "India has stated on multiple occasions that the deal has been finalised and will be signed once the US tariff framework is in place and India gets a comparative advantage over its competitor nations.",
+          "Comparative advantage means securing lower US import tariffs and better market access than rival manufacturing countries, such as Bangladesh, Vietnam, Indonesia, Thailand, and China, so Indian exporters can price goods more competitively in the US market.",
+          "Has India received the advantage?",
+          "The latest USTR's report has proposed a 17 per cent tariff on India if the trade pact is finalised.",
+          "It gives only one per cent edge over Bangladesh, Cambodia, Indonesia, Malaysia, and Thailand (18 per cent deal rate) and a 3 per cent edge over Vietnam and China (20 per cent deal rate).",
+          "Without a pact, tariffs against India could go up to 25 pc.",
+          "However, according to experts, Indian exporters could face a tariff disadvantage against goods from several other countries in the US market, as Washington's latest Section 301 investigation into structural excess capacity covers only 14 trading partners, while the probe into forced-labour-related trade practices covers 60 countries.",
+          "This leaves a much larger group of economies (including Pakistan, Sri Lanka, the Philippines and Turkiye) potentially outside the additional tariff action, giving their exporters a relative cost advantage in the US market.",
+          "Experts view.",
+          "While exporters are urging the government to finalise the pact at the earliest, think tank GTRI said that with the threat of up to 100 pc Graham tariffs still looming, New Delhi must reject a one-sided trade deal and defend its industrial expansion sector by sector as serving legitimate domestic, export, and future demand.",
+          "What next.",
+          "The USTR has decided to schedule public hearings on its proposals on January 25 and has sought written comments from interested persons by January 5 as part of the final regulatory requirements before the tariffs come into effect."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "February"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The US announced a 25 pc duty from August 7, 2025.",
+            "source": "Greater Kashmir",
+            "item_id": "71724598818e423a951781f2",
+            "composed": false
+          },
+          {
+            "text": "New Delhi, Nov 27: India and the US finalised the framework for the first phase of their bilateral trade agreement (BTA) in February this year, following negotiations that were launched in February 2025.",
+            "source": "Greater Kashmir",
+            "item_id": "71724598818e423a951781f2",
+            "composed": false
+          },
+          {
+            "text": "On July 24, the US imposed a 10 and 12.5 pc tariff on 60 countries, including India (10 pc), under Section 301, citing concerns related to 'forced labour'.",
+            "source": "Greater Kashmir",
+            "item_id": "71724598818e423a951781f2",
+            "composed": false
+          },
+          {
+            "text": "It said India remains committed to working closely with the US towards the early conclusion of the India-US BTA in accordance with the Joint Statement issued on 7th February 2026.",
+            "source": "Greater Kashmir",
+            "item_id": "71724598818e423a951781f2",
+            "composed": false
+          }
+        ],
+        "source": "Greater Kashmir",
+        "corroborating": [],
+        "url": "https://www.greaterkashmir.com/business/india-us-trade-pact-and-tariffs-an-explainer-12844907"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS",
+      "enrichment": "rss"
     }
   ]
 }
