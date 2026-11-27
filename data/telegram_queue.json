@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T11:32:28.015900+00:00",
-  "count": 16,
+  "generated_at": "2026-11-27T11:41:59.078436+00:00",
+  "count": 14,
   "stories": [
     {
       "event_id": "6a6d99fd96267310b4e98665",
@@ -47,7 +47,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'terror attack' in title weight 84",
         "scale: state scope (gujarat)",
-        "recency: fresh (3.1h ago) +4",
+        "recency: fresh (3.2h ago) +4",
         "category: crime-public-safety (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 84, stack 16.4, score 84 -> IMMEDIATE"
@@ -130,7 +130,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: state scope (punjab)",
-        "recency: breaking (0.6h ago) +8",
+        "recency: breaking (0.7h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national significance (local/state event)",
         "dominant event 58, stack 20.4, score 58 -> HIGH"
@@ -252,7 +252,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'election' in title weight 58",
         "scale: national scope",
-        "recency: breaking (2.2h ago) +8",
+        "recency: breaking (2.4h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 30.4, score 58 -> HIGH"
@@ -365,7 +365,7 @@
         "event term: 'election' in title weight 58",
         "event term: 'election' in summary weight 34.8",
         "scale: national scope",
-        "recency: breaking (2.4h ago) +8",
+        "recency: breaking (2.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 58, stack 45, score 58 -> HIGH"
@@ -445,31 +445,35 @@
       "enrichment": "article"
     },
     {
-      "event_id": "2368c67acc09a37c526eb990",
-      "story_id": "2368c67acc09a37c526eb990",
-      "headline": "Supreme Court Orders Lighting Of Karthigai Deepam Atop Disputed Deepathoon, Issues Contempt Notices To Tamil Nadu officials",
-      "title": "Supreme Court Orders Lighting Of Karthigai Deepam Atop Disputed Deepathoon, Issues Contempt Notices To Tamil Nadu officials",
-      "summary": "The Supreme Court directed authorities to light the Karthigai Deepam atop the disputed Deepathoon pillar in Tamil Nadu on November 28 and issued contempt notices to senior state officials over alleged disobedience of its earlier order.",
-      "url": "https://www.thehansindia.com/news/national/supreme-court-orders-lighting-of-karthigai-deepam-atop-disputed-deepathoon-issues-contempt-notices-to-tamil-nadu-officials-1146328",
-      "source": "The Hans India",
+      "event_id": "b6a70cfa2725ab24d23b0eba",
+      "story_id": "b6a70cfa2725ab24d23b0eba",
+      "headline": "Only 5% Of Indian MSMEs Use Core AI & Just 20-30% Tap FTA Tariff Cuts | Sanjay Malhotra",
+      "title": "Only 5% Of Indian MSMEs Use Core AI & Just 20-30% Tap FTA Tariff Cuts | Sanjay Malhotra",
+      "summary": "\"Being small should not mean thinking small.\" A strong wake-up call for Indian MSMEs highlights how scaling up, adopting artificial intelligence, and tapping Free Trade Agreements can transform India’s growth trajectory. Raising MSME productivity to top global levels could add a massive 11% to India’s GDP, especially with revised classification limits removing the fear of losing policy benefits. However, core technology adoption remains low—while 76% of MSME leaders use AI in some form, only 5% have integrated it into core operations, leaving India’s 15% adoption rate behind global peers. Meanwhile, despite contributing 50% of India’s exports, domestic firms utilize just 20% to 30% of FTA tariff benefits compared to 60% to 70% by trade partners. Watch on Business Today TV.",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/short-video/only-5-of-indian-msmes-use-core-ai-just-20-30-tap-fta-tariff-cuts-sanjay-malhotra-569947-2026-11-27",
+      "source": "Business Today",
       "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
+      "tier": 3,
+      "category": "technology-digital",
+      "secondary_categories": [
+        "economy-finance",
+        "international-affairs",
+        "business-industry"
+      ],
       "confidence": "medium",
-      "score": 94.2,
+      "score": 98.0,
       "priority_score": 45.0,
       "priority_level": "HIGH",
       "max_delay_minutes": null,
-      "event_time": "2026-11-27T10:19:42+00:00",
-      "published_at": "2026-11-27T10:19:42+00:00",
-      "effective_at": "2026-11-27T10:19:42+00:00",
+      "event_time": "2026-11-27T10:57:15+00:00",
+      "published_at": "2026-11-27T10:57:15+00:00",
+      "effective_at": "2026-11-27T10:57:15+00:00",
       "independent_source_groups": 1,
       "source_groups": {
-        "hans-india": {
+        "indiatoday": {
           "kind": "independent",
           "source_ids": [
-            "hans-india"
+            "business-today"
           ],
           "count": 1
         }
@@ -478,55 +482,52 @@
       "status": "queued",
       "reasons": [
         "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
+        "category: technology-digital (importance 1, urgent=False)",
         "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (hans-india) +2",
+        "source: tier 3 (business-today) +1",
+        "source: specialist (business-today) +5",
         "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
+        "event term: 'tariff' in title weight 40",
+        "event term: 'gdp' in summary weight 22.8",
+        "event term: 'tariff' in summary weight 24",
         "scale: national scope",
-        "recency: breaking (1.2h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
+        "recency: breaking (0.7h ago) +8",
+        "category: technology-digital (importance 1) +1.2",
         "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
+        "dominant event 40, stack 45, score 45 -> HIGH"
       ],
       "geo_scope": "national",
-      "state": "tamil nadu",
+      "state": null,
       "national_significance": true,
       "public_label": "📰 NEWS",
       "briefing": {
         "opening": [
-          "The Supreme Court directed authorities to light the Karthigai Deepam atop the disputed Deepathoon pillar in Tamil Nadu on November 28 and issued contempt notices to senior state officials over alleged disobedience of its earlier order.",
-          "In a significant intervention, the Supreme Court suspended the temple trust board of the Arulmigu Subramaniaswamy Temple and appointed two former High Court judges as receivers."
+          "\"Being small should not mean thinking small.\" A strong wake-up call for Indian MSMEs highlights how scaling up, adopting artificial intelligence, and tapping Free Trade Agreements can transform India’s growth trajectory.",
+          "Raising MSME productivity to top global levels could add a massive 11% to India’s GDP, especially with revised classification limits removing the fear of losing policy benefits."
         ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Tamil Nadu"
-          }
+        "body": [
+          "Watch on Business Today TV."
         ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The Supreme Court directed authorities to light the Karthigai Deepam atop the disputed Deepathoon pillar in Tamil Nadu on November 28 and issued contempt notices to senior state officials over alleged disobedience of its earlier order.",
-            "source": "The Hans India",
-            "item_id": "2368c67acc09a37c526eb990",
+            "text": "Raising MSME productivity to top global levels could add a massive 11% to India’s GDP, especially with revised classification limits removing the fear of losing policy benefits.",
+            "source": "Business Today",
+            "item_id": "b6a70cfa2725ab24d23b0eba",
             "composed": false
           },
           {
-            "text": "In a significant intervention, the Supreme Court suspended the temple trust board of the Arulmigu Subramaniaswamy Temple and appointed two former High Court judges as receivers.",
-            "source": "The Hans India",
-            "item_id": "2e2877cb3f7abe963055d3ef",
+            "text": "A strong wake-up call for Indian MSMEs highlights how scaling up, adopting artificial intelligence, and tapping Free Trade Agreements can transform India’s growth trajectory.",
+            "source": "Business Today",
+            "item_id": "b6a70cfa2725ab24d23b0eba",
             "composed": false
           }
         ],
-        "source": "The Hans India",
+        "source": "Business Today",
         "corroborating": [],
-        "url": "https://www.thehansindia.com/news/national/supreme-court-orders-lighting-of-karthigai-deepam-atop-disputed-deepathoon-issues-contempt-notices-to-tamil-nadu-officials-1146328"
+        "url": "https://www.businesstoday.in/bt-tv/whats-hot/short-video/only-5-of-indian-msmes-use-core-ai-just-20-30-tap-fta-tariff-cuts-sanjay-malhotra-569947-2026-11-27"
       },
-      "group_size": 2,
+      "group_size": 1,
       "label": "📰 NEWS",
       "enrichment": "rss"
     },
@@ -572,7 +573,7 @@
         "event term: 'appointed' in title weight 36",
         "event term: 'appointed' in summary weight 21.6",
         "scale: national scope",
-        "recency: breaking (1.5h ago) +8",
+        "recency: breaking (1.7h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 36, stack 45, score 45 -> HIGH"
@@ -648,127 +649,6 @@
       "enrichment": "rss"
     },
     {
-      "event_id": "e717b88e911ddf40f4ce4b2c",
-      "story_id": "e717b88e911ddf40f4ce4b2c",
-      "headline": "Supreme Court warns against ‘constitutional chaos’ in Karthigai Deepam row",
-      "title": "Supreme Court warns against ‘constitutional chaos’ in Karthigai Deepam row",
-      "summary": "Supreme Court warns against ‘constitutional chaos’ as it hears contempt pleas over the Karthigai Deepam lamp left unlit at the disputed Deepathoon pillar.",
-      "url": "https://www.nationalheraldindia.com/national/supreme-court-warns-against-constitutional-chaos-in-karthigai-deepam-row",
-      "source": "National Herald",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 75.0,
-      "priority_score": 45.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-27T09:50:29+00:00",
-      "published_at": "2026-11-27T09:50:29+00:00",
-      "effective_at": "2026-11-27T09:50:29.128000+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "national-herald": {
-          "kind": "independent",
-          "source_ids": [
-            "national-herald"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (national-herald) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "event term: 'supreme court' in summary weight 26.4",
-        "scale: national scope",
-        "recency: breaking (1.7h ago) +8",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 45, score 45 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": null,
-      "national_significance": true,
-      "article_sentences": [
-        "- The Supreme Court confined Friday’s contempt hearing to compliance with its one-time order permitting the ceremonial lamp to be lit at Deepathoon on 24 November.",
-        "- The Archaeological Survey of India said police blocked its team from reaching the lamp.",
-        "Counsel for the Madurai Collector said ASI officials had been consulted at several meetings.",
-        "- Tamil Nadu apologised to the court on Wednesday and held temple authorities responsible for the lamp being lit only at its customary site.",
-        "The Supreme Court on Friday warned that it would act against anyone seeking to create “constitutional chaos” as it heard contempt petitions over the failure to light the Karthigai Deepam lamp at the disputed Deepathoon pillar on Thirupparankundram hill in Tamil Nadu.",
-        "A bench of Justices Aravind Kumar and Vipul M Pancholi said its orders could not be diluted.",
-        "It said the hearing would focus on compliance with its 20 November order, which granted one-time permission to light the lamp at Deepathoon on 24 November.",
-        "The hearing was continuing.",
-        "Solicitor General Tushar Mehta, appearing for the Archaeological Survey of India (ASI), told the bench that local police stopped the agency’s team at about 3 pm on 24 November and prevented it from approaching the lamp.",
-        "He said the temple trustees had told the team they had received no instructions from senior officials about allowing it through.",
-        "Mehta described the authorities’ conduct as “aggravated contempt” and asked the court to have the lamp lit at Deepathoon before hearing those facing contempt proceedings.",
-        "He also sought oversight by another agency."
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "- The Supreme Court confined Friday’s contempt hearing to compliance with its one-time order permitting the ceremonial lamp to be lit at Deepathoon on 24 November.",
-          "- The Archaeological Survey of India said police blocked its team from reaching the lamp."
-        ],
-        "body": [
-          "Counsel for the Madurai Collector said ASI officials had been consulted at several meetings.",
-          "- Tamil Nadu apologised to the court on Wednesday and held temple authorities responsible for the lamp being lit only at its customary site.",
-          "The Supreme Court on Friday warned that it would act against anyone seeking to create “constitutional chaos” as it heard contempt petitions over the failure to light the Karthigai Deepam lamp at the disputed Deepathoon pillar on Thirupparankundram hill in Tamil Nadu.",
-          "A bench of Justices Aravind Kumar and Vipul M Pancholi said its orders could not be diluted.",
-          "It said the hearing would focus on compliance with its 20 November order, which granted one-time permission to light the lamp at Deepathoon on 24 November.",
-          "The hearing was continuing.",
-          "Solicitor General Tushar Mehta, appearing for the Archaeological Survey of India (ASI), told the bench that local police stopped the agency’s team at about 3 pm on 24 November and prevented it from approaching the lamp.",
-          "He said the temple trustees had told the team they had received no instructions from senior officials about allowing it through."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Deepathoon"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "It said the hearing would focus on compliance with its 20 November order, which granted one-time permission to light the lamp at Deepathoon on 24 November.",
-            "source": "National Herald",
-            "item_id": "e717b88e911ddf40f4ce4b2c:article",
-            "composed": false
-          },
-          {
-            "text": "- The Supreme Court confined Friday’s contempt hearing to compliance with its one-time order permitting the ceremonial lamp to be lit at Deepathoon on 24 November.",
-            "source": "National Herald",
-            "item_id": "e717b88e911ddf40f4ce4b2c:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Friday warned that it would act against anyone seeking to create “constitutional chaos” as it heard contempt petitions over the failure to light the Karthigai Deepam lamp at the disputed Deepathoon pillar on Thirupparankundram hill in Tamil Nadu.",
-            "source": "National Herald",
-            "item_id": "e717b88e911ddf40f4ce4b2c:article",
-            "composed": false
-          },
-          {
-            "text": "- Tamil Nadu apologised to the court on Wednesday and held temple authorities responsible for the lamp being lit only at its customary site.",
-            "source": "National Herald",
-            "item_id": "e717b88e911ddf40f4ce4b2c:article",
-            "composed": false
-          }
-        ],
-        "source": "National Herald",
-        "corroborating": [],
-        "url": "https://www.nationalheraldindia.com/national/supreme-court-warns-against-constitutional-chaos-in-karthigai-deepam-row"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "a404c0677bbf4a6817b18702",
       "story_id": "a404c0677bbf4a6817b18702",
       "headline": "Cabinet clears 50% increase in LS seats across states, ceiling to remain till 2051",
@@ -822,7 +702,7 @@
         "corroboration: 3 independent source groups -> high confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.6h ago) +8",
+        "recency: breaking (2.8h ago) +8",
         "geo: national",
         "dominant event 44, stack 30, score 44 -> HIGH",
         "candidate gate: no category but HIGH+ priority -> allowed"
@@ -945,7 +825,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'cabinet clears' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: national-politics (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1045,7 +925,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (1.3h ago) +8",
+        "recency: breaking (1.5h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1150,7 +1030,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: breaking (2.1h ago) +8",
+        "recency: breaking (2.3h ago) +8",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 30.4, score 44 -> HIGH"
@@ -1255,7 +1135,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (3.8h ago) +4",
+        "recency: fresh (4.0h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1366,7 +1246,7 @@
         "corroboration: single independent source -> medium confidence",
         "event term: 'supreme court' in title weight 44",
         "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
+        "recency: fresh (4.2h ago) +4",
         "category: courts-law (importance 1.1) +2.4",
         "geo: national",
         "dominant event 44, stack 26.4, score 44 -> HIGH"
@@ -1446,126 +1326,6 @@
       "enrichment": "article"
     },
     {
-      "event_id": "f45faded9d9d6dd80f6f7108",
-      "story_id": "f45faded9d9d6dd80f6f7108",
-      "headline": "Tamil Nadu hill lamp to be lit tomorrow: Supreme Court’s ‘iron hand’ action",
-      "title": "Tamil Nadu hill lamp to be lit tomorrow: Supreme Court’s ‘iron hand’ action",
-      "summary": "",
-      "url": "https://indianexpress.com/article/legal-news/madurai-deepathoon-row-contempt-arrogance-asi-supreme-court-10980791",
-      "source": "The Indian Express",
-      "primary_source": false,
-      "tier": 2,
-      "category": "courts-law",
-      "secondary_categories": [],
-      "confidence": "medium",
-      "score": 72.0,
-      "priority_score": 44.0,
-      "priority_level": "HIGH",
-      "max_delay_minutes": null,
-      "event_time": "2026-11-27T07:31:07+00:00",
-      "published_at": "2026-11-27T07:31:07+00:00",
-      "effective_at": "2026-11-27T07:31:07+00:00",
-      "independent_source_groups": 1,
-      "source_groups": {
-        "indian-express": {
-          "kind": "independent",
-          "source_ids": [
-            "indian-express"
-          ],
-          "count": 1
-        }
-      },
-      "is_wire_echo": false,
-      "status": "queued",
-      "reasons": [
-        "major: geo national significance",
-        "major: category importance 1.1 >= 1.1",
-        "category: courts-law (importance 1.1, urgent=False)",
-        "score 100.0 -> pass (pass >= 60, filler >= 35)",
-        "source: tier 2 (indian-express) +2",
-        "corroboration: single independent source -> medium confidence",
-        "event term: 'supreme court' in title weight 44",
-        "scale: national scope",
-        "recency: fresh (4.0h ago) +4",
-        "category: courts-law (importance 1.1) +2.4",
-        "geo: national",
-        "dominant event 44, stack 22.4, score 44 -> HIGH"
-      ],
-      "geo_scope": "national",
-      "state": "tamil nadu",
-      "national_significance": true,
-      "article_sentences": [
-        "The Supreme Court on Friday suspended the Arulmigu Subramaniaswamy Temple’s board of trustees and handed over its administration to two former Madras High Court judges over the “wilful disobedience” of its order to light the Karthigai deepam on the deepathon atop Madurai’s Thiruppurankundram Hill.",
-        "A bench of Justices Aravind Kumar and Vipul M Pancholi directed the Central Reserve.",
-        "Police Force (CRPF) to take charge of security at the hill and ordered that the lamp be lit on Saturday, November 28.",
-        "It also directed two receivers, former Madras High Court judges Justice S Vaidyanathan and Justice V Parthiban, to ensure that the lamp is lit on the deepathoon or stone pillar.",
-        "The court said the chain of events indicates that executive authorities acted on the dictates of political bosses and sought an affidavit from the Tamil Nadu chief secretary explaining the sequence of events, including the production of communications and emails.",
-        "“There is prima facie administrative chaos in the state of Tamil Nadu, at least in Madurai district,” it said.",
-        "The court also issued notices to the chief secretary, DGP, Madurai district collector, members of the temple’s board of trustees, temple executive officers, and others, asking them to explain why contempt proceedings should not be initiated against them for allegedly violating its order.",
-        "The C Joseph Vijay-led Tamil Nadu Government was accused of defying the Supreme Court’s November 20 interim order.",
-        "The ceremonial Karthigai Deepam was lit only at the customary Deepa Mandapam near the Uchipillaiyar temple on November 24, rather than at the deepathoon atop Thiruparankundram hill near Madurai.",
-        "The Tamil Nadu administration’s move triggered protests, police action at the foothills, and contempt petitions before the Supreme Court.",
-        "The court slammed the report by Nishant Krishna, District Collector, Madurai, in which he shifted the blame on the board of trustees, saying they did not authorise the team which was to light the lamp.",
-        "“We are surprised that the collector, who is also executive magistrate, can take such a stand… Not satisfied with his preliminary report,” the bench said, adding that the report “reminds of the saying ‘you play dead, and I pretend to cry’.”"
-      ],
-      "public_label": "📰 NEWS",
-      "briefing": {
-        "opening": [
-          "The Supreme Court on Friday suspended the Arulmigu Subramaniaswamy Temple’s board of trustees and handed over its administration to two former Madras High Court judges over the “wilful disobedience” of its order to light the Karthigai deepam on the deepathon atop Madurai’s Thiruppurankundram Hill.",
-          "A bench of Justices Aravind Kumar and Vipul M Pancholi directed the Central Reserve."
-        ],
-        "body": [
-          "Police Force (CRPF) to take charge of security at the hill and ordered that the lamp be lit on Saturday, November 28.",
-          "It also directed two receivers, former Madras High Court judges Justice S Vaidyanathan and Justice V Parthiban, to ensure that the lamp is lit on the deepathoon or stone pillar.",
-          "The court said the chain of events indicates that executive authorities acted on the dictates of political bosses and sought an affidavit from the Tamil Nadu chief secretary explaining the sequence of events, including the production of communications and emails.",
-          "“There is prima facie administrative chaos in the state of Tamil Nadu, at least in Madurai district,” it said.",
-          "The court also issued notices to the chief secretary, DGP, Madurai district collector, members of the temple’s board of trustees, temple executive officers, and others, asking them to explain why contempt proceedings should not be initiated against them for allegedly violating its order.",
-          "The C Joseph Vijay-led Tamil Nadu Government was accused of defying the Supreme Court’s November 20 interim order.",
-          "The ceremonial Karthigai Deepam was lit only at the customary Deepa Mandapam near the Uchipillaiyar temple on November 24, rather than at the deepathoon atop Thiruparankundram hill near Madurai.",
-          "The Tamil Nadu administration’s move triggered protests, police action at the foothills, and contempt petitions before the Supreme Court."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Madurai district"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The ceremonial Karthigai Deepam was lit only at the customary Deepa Mandapam near the Uchipillaiyar temple on November 24, rather than at the deepathoon atop Thiruparankundram hill near Madurai.",
-            "source": "The Indian Express",
-            "item_id": "f45faded9d9d6dd80f6f7108:article",
-            "composed": false
-          },
-          {
-            "text": "Police Force (CRPF) to take charge of security at the hill and ordered that the lamp be lit on Saturday, November 28.",
-            "source": "The Indian Express",
-            "item_id": "f45faded9d9d6dd80f6f7108:article",
-            "composed": false
-          },
-          {
-            "text": "The C Joseph Vijay-led Tamil Nadu Government was accused of defying the Supreme Court’s November 20 interim order.",
-            "source": "The Indian Express",
-            "item_id": "f45faded9d9d6dd80f6f7108:article",
-            "composed": false
-          },
-          {
-            "text": "The Supreme Court on Friday suspended the Arulmigu Subramaniaswamy Temple’s board of trustees and handed over its administration to two former Madras High Court judges over the “wilful disobedience” of its order to light the Karthigai deepam on the deepathon atop Madurai’s Thiruppurankundram Hill.",
-            "source": "The Indian Express",
-            "item_id": "f45faded9d9d6dd80f6f7108:article",
-            "composed": false
-          }
-        ],
-        "source": "The Indian Express",
-        "corroborating": [],
-        "url": "https://indianexpress.com/article/legal-news/madurai-deepathoon-row-contempt-arrogance-asi-supreme-court-10980791"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS",
-      "enrichment": "article"
-    },
-    {
       "event_id": "71724598818e423a951781f2",
       "story_id": "71724598818e423a951781f2",
       "headline": "India-US trade pact and tariffs: An explainer",
@@ -1629,7 +1389,7 @@
         "event term: 'tariff' in summary weight 24",
         "event term: 'tariffs' in summary weight 24",
         "scale: national scope",
-        "recency: fresh (5.8h ago) +4",
+        "recency: fresh (5.9h ago) +4",
         "category: business-industry (importance 1) +1.2",
         "geo: national",
         "dominant event 40, stack 43.2, score 43.2 -> HIGH"
@@ -1793,7 +1553,7 @@
         "corroboration: 2 independent source groups -> high confidence",
         "event term: 'tariffs' in title weight 40",
         "scale: national scope",
-        "recency: fresh (4.2h ago) +4",
+        "recency: fresh (4.3h ago) +4",
         "category: international-affairs (importance 1.1) +2.4",
         "geo: national",
         "dominant event 40, stack 28.4, score 40 -> HIGH"
